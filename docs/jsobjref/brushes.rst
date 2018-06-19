@@ -83,9 +83,9 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-========  ======  ====================
+========  ======  =================
 ``name``  String  Brush name to get
-========  ======  ====================
+========  ======  =================
 
 **Returns**
 
