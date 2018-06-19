@@ -21,9 +21,8 @@ Code Reference:
 ===============
 
 - Finish JS obj ref
-	- Keep adding things
+	- Keep adding things from `/materials/Illustrator_JavaScript_Scripting_Reference_2017.md`
 	- Organize into folders / sections based on root object
-	-
 - Add Applescript obj ref
 - Add VBScript obj ref
 - Changelog
