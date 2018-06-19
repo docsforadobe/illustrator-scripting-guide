@@ -1,5 +1,28 @@
 Welcome to the Adobe Illustrator Scripting Guide!
--------------------------------------------------
+#################################################
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Introduction
+
+    introduction/whatIsScripting
+    introduction/changelog
+    introduction/scriptingLanguageSupport
+    introduction/viewingSampleScripts
+    introduction/viewingTheObjectModel
+    introduction/executingScripts
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Illustrator Scripting Object Model
+
+    objectmodel/objectModel
+    objectmodel/objectNamingConventions
+    objectmodel/topLevelObjects
+    objectmodel/theArtworkTree
+    objectmodel/textObjects
+    objectmodel/symbols
+    objectmodel/transformations
 
 .. toctree::
     :maxdepth: 1
@@ -11,8 +34,3 @@ Welcome to the Adobe Illustrator Scripting Guide!
 .. toctree::
     :maxdepth: 1
     :caption: Scripting Constants
-
-    general/globals
-    general/application
-    general/project
-    general/system

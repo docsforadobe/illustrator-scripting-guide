@@ -1,4 +1,4 @@
-.. _Application:
+.. _application:
 
 Application
 ###########
@@ -42,7 +42,7 @@ app.browserAvailable
 
 **Description**
 
-If true, a web browser is available.
+If ``true``, a web browser is available.
 
 **Type**
 
@@ -218,8 +218,7 @@ app.pasteRememberLayers
 
 **Description**
 
-If true, the paste operation maintains
-the layer structure.
+If ``true``, the paste operation maintains the layer structure.
 
 **Type**
 
@@ -443,7 +442,8 @@ app.userInteractionLevel
 
 **Description**
 
-What level of interaction with the user should be allowed when handling script commands.
+What level of interaction with the user should be allowed when handling
+script commands.
 
 **Type**
 
@@ -477,7 +477,7 @@ app.visible
 
 **Description**
 
-If true, the application is visible.
+If ``true``, the application is visible.
 
 **Type**
 
@@ -707,6 +707,32 @@ Matrix
 
 ----
 
+.. _app.getIsFileOpen:
+
+app.getIsFileOpen()
+********************************************************************************
+
+``app.getIsFileOpen(filePath)``
+
+.. note::
+   This functionality was added in Illustrator XX.X (CC2017)
+
+**Description**
+
+Returns whether the specified filePath is open
+
+**Parameters**
+
+========  ======  ===============
+filePath  String  todo
+========  ======  ===============
+
+**Returns**
+
+Boolean
+
+----
+
 .. _app.getPPDFileInfo:
 
 app.getPPDFileInfo()
@@ -739,7 +765,8 @@ app.getPresetFileOfType()
 
 **Description**
 
-Returns the full path to the application’s default document profile for the specified preset type.
+Returns the full path to the application’s default document profile for the
+specified preset type.
 
 **Parameters**
 
@@ -762,7 +789,8 @@ app.getPresetSettings()
 
 **Description**
 
-Retrieves the tracing-option settings from the template with a given preset name.
+Retrieves the tracing-option settings from the template with
+a given preset name.
 
 **Parameters**
 
@@ -788,7 +816,8 @@ app.getRotationMatrix()
 Returns a transformation matrix containing a single rotation.
 
 .. note::
-    Requires a value in degrees. For example, 30 rotates the object 30 degrees counterclockwise;
+    Requires a value in degrees. For example, 30 rotates the object 30
+    degrees counterclockwise;
     -30 rotates the object 30 degrees clockwise.
 
 **Parameters**
@@ -842,7 +871,8 @@ app.getScriptableHelpGroup()
 
 **Description**
 
-Gets the scriptable help group object that represents the search widget in the app bar.
+Gets the scriptable help group object that represents the search widget in
+the app bar.
 
 **Returns**
 
@@ -864,7 +894,8 @@ Returns a transformation matrix containing a single translation.
 .. note::
     Requires a value in points.
 
-    For example, `(100, 200)` moves the object 100 pt. to the right and 200 pt. up;
+    For example, `(100, 200)` moves the object 100 pt. to the right and
+    200 pt. up;
     a minus before each number moves the object left and down.
 
 **Parameters**
@@ -959,7 +990,8 @@ app.loadColorSettings()
 
 **Description**
 
-Loads color settings from specified file, or, if file is empty, turns color management off.
+Loads color settings from specified file, or, if file is empty, turns color
+management off.
 
 **Parameters**
 
@@ -985,10 +1017,12 @@ app.open()
 Opens the specified document file.
 
 .. note::
-    If you open a pre-Illustrator 9 document that contains both RGB and CMYK colors\
-    and `documentColorSpace` is supplied, all colors are converted to the specified color space.
+    If you open a pre-Illustrator 9 document that contains both RGB and CMYK
+    colors and `documentColorSpace` is supplied, all colors are converted to
+    the specified color space.
 
-    If the parameter is not supplied, Illustrator opens a dialog so the user can choose the color space.
+    If the parameter is not supplied, Illustrator opens a dialog so the user
+    can choose the color space.
 
 **Parameters**
 
@@ -1124,8 +1158,8 @@ app.sendScriptMessage()
 
 **Description**
 
-Sends a plug-in-defined command message to a plug-in with given input arguments,
-and returns the plug-in-defined result string.
+Sends a plug-in-defined command message to a plug-in with given input
+arguments, and returns the plug-in-defined result string.
 
 **Parameters**
 
@@ -1196,7 +1230,8 @@ app.translatePlaceholderText()
 
 **Description**
 
-Translates the placeholder text to regular text (a way to enter Unicode points in hex values).
+Translates the placeholder text to regular text (a way to enter Unicode points
+in hex values).
 
 **Parameters**
 
