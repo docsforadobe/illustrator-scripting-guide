@@ -80,6 +80,15 @@ Welcome to the Adobe Illustrator Scripting Guide!
     jsobjref/application
     jsobjref/artboard
     jsobjref/artboards
+    jsobjref/brush
+    jsobjref/brushes
+    jsobjref/characterAttributes
+    jsobjref/characters
+    jsobjref/characterStyle
+    jsobjref/characterStyles
+
+    jsobjref/color/color.rst
+    jsobjref/color/cmykcolor.rst
 
 .. toctree::
     :maxdepth: 1
