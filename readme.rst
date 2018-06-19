@@ -21,6 +21,9 @@ Code Reference:
 ===============
 
 - Finish JS obj ref
+	- Keep adding things
+	- Organize into folders / sections based on root object
+	-
 - Add Applescript obj ref
 - Add VBScript obj ref
 - Changelog
@@ -32,33 +35,6 @@ Code Reference:
 Contributors are welcome and encouraged to suggest fixes, adjustments, notes/warnings, and anything else that may help the project.
 
 ----
-
-**Title Hierarchy**
-
-Title hierarchy is as follows. Use of four dashes to split main sections apart. Don't add divider for subsections, or after the last section.
-
-```
-
-Page Title
-################
-
-Section Title
-================
-
-Subsection
-****************
-
-----
-
-Section Title
-================
-
-Subsection
-****************
-
-**Little section**
-
-```
 
 **Admonitions Usage**
 
