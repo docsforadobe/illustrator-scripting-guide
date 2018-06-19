@@ -1,4 +1,4 @@
-.. _launching:
+.. _scripting/launching:
 
 Launching and quitting Illustrator from a script
 ################################################################################
@@ -35,8 +35,9 @@ VBScript
 
 In VBScript, there are several ways to create an instance of Illustrator:
 
-- ``CreateObject`` launches Illustrator as an invisible application if it is not already running. If Illustrator is
-launched as an invisible application you must manually activate the application to make it visible::
+- ``CreateObject`` launches Illustrator as an invisible application if it is not already running. If Illustrator is launched as an invisible application you must manually activate the application to make it visible:
+
+.. code-block:: basic
 
   Set appRef = CreateObject("Illustrator.Application")
 
@@ -59,7 +60,9 @@ Illustrator CC 2017  "Illustrator.Application.CC2017"
 ===================  ================================
 
 - Use the ``New`` operator if you added a reference to the Illustrator type library to the project. For example,
-the following line creates a new reference to the Application object::
+  the following line creates a new reference to the Application object:
+
+.. code-block:: basic
 
   Set appRef = New Illustrator.Application
 

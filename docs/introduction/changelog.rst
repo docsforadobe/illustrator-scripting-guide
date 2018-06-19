@@ -1,5 +1,5 @@
 .. highlight:: javascript
-.. _changelog:
+.. _introduction/changelog:
 
 Changelog
 #########

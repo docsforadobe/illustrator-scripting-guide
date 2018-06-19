@@ -1,3 +1,5 @@
+.. _jsobjref/jsobjref:
+
 JavaScript Object Reference
 ===========================
 

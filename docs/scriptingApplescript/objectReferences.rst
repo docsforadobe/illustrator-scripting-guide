@@ -1,4 +1,6 @@
-.. _objectReferences:
+.. highlight:: applescript
+
+.. _scriptingApplescript/objectReferences:
 
 Object references
 ################################################################################
@@ -32,7 +34,7 @@ each consecutive ``make`` command. (Choose Event Log at the bottom of the Script
 that both commands return the same object reference: ``path item 1 of layer 1 of document 1``; therefore,
 the last line resolves to::
 
-  set selection of document 1 to {path item 1 of layer 1 of document 1, 
+  set selection of document 1 to {path item 1 of layer 1 of document 1,
     path item 1 of layer 1 of document 1}
 
 A better approach is to reference the objects by name::
@@ -41,8 +43,8 @@ A better approach is to reference the objects by name::
     set newDocument to make new document
     make new rectangle in newDocument with properties {name:"rectangle"}
     make new star in newDocument with properties {name:"star"}
-    set selection of newDocument to 
-      {path item "rectangle" of newDocument, 
+    set selection of newDocument to
+      {path item "rectangle" of newDocument,
       path item "star" of newDocument}
   end tell
 

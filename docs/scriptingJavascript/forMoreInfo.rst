@@ -1,4 +1,4 @@
-.. _forMoreInfo:
+.. _scriptingJavascript/forMoreInfo:
 
 For more information
 ################################################################################

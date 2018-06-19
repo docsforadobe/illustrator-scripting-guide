@@ -1,4 +1,4 @@
-.. _viewingTheObjectModel:
+.. _introduction/viewingTheObjectModel:
 
 Viewing the object model
 ################################################################################

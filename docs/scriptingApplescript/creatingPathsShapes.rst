@@ -1,4 +1,6 @@
-.. _creatingPathsShapes:
+.. highlight:: applescript
+
+.. _scriptingApplescript/creatingPathsShapes:
 
 Creating paths and shapes
 ################################################################################
@@ -51,17 +53,17 @@ then add the path points as child objects in the ``path item``::
   set lineRef to make new path item in docRef with properties {stroked:true}
     --giving the direction points the same value as the
     --anchor point creates a straight line segment
-  set newPoint to make new path point of lineRef with properties 
+  set newPoint to make new path point of lineRef with properties
     {anchor:{220, 475},left direction:{220, 475},right direction:{220, 475},
     point type:corner}
 
-  set newPoint2 to make new path point of lineRef with properties 
+  set newPoint2 to make new path point of lineRef with properties
     {anchor:{375, 300},left direction:{375, 300},right direction:{375, 300},
     point type:corner}
 
     --giving the direction points the different values
     --creates a curve
-  set newPoint3 to make new path point of lineRef with properties 
+  set newPoint3 to make new path point of lineRef with properties
     {anchor:{220, 300},left direction:{180, 260},right direction:{240, 320},
     point type:corner}
 
@@ -71,15 +73,14 @@ Combining path point types
 ********************************************************************************
 
 
-The following script sample creates a path with three points, by combining the entire path property with a
-``path point`` object:
+The following script sample creates a path with three points, by combining the entire path property with a ``path point`` object::
 
   tell application "Adobe Illustrator"
   set docRef to make new document
   -- set stroked to true so we can see the path
   set lineRef to make new path item in docRef with properties {stroked:true}
   set entire path of lineRef to {{220, 475},{375, 300}}
-  set newPoint to make new path point of lineRef with properties 
+  set newPoint to make new path point of lineRef with properties
     {anchor:{220, 300},left direction:{180, 260},right direction:{240, 320},
     point type:corner}
   end tell
@@ -112,7 +113,7 @@ Consider the following sample::
 
   tell application "Adobe Illustrator"
   set docRef to make new document
-  set rectRef to make new rectangle in docRef with properties 
+  set rectRef to make new rectangle in docRef with properties
     {bounds:{288, 360, 72, 144}}
   end tell
 
@@ -128,7 +129,7 @@ Consider the following sample::
 
   tell application "Adobe Illustrator"
   set docRef to make new document
-  set pathRef to make new polygon in docRef with properties 
+  set pathRef to make new polygon in docRef with properties
   {center point:{144, 288},sides:7,radius:72.0}
   end tell
 

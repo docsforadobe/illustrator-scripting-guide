@@ -1,4 +1,4 @@
-.. _workingWithMethods:
+.. _scriptingJavascript/workingWithMethods:
 
 Working with methods in JavaScript
 ################################################################################
@@ -9,7 +9,7 @@ specify a particular parameter in the middle of the list, you must insert the va
 parameter’s default value. For example, the following definition describes the ``rotate()`` method for an art
 object.
 
-.. javascript::
+::
 
   rotate
     (angle

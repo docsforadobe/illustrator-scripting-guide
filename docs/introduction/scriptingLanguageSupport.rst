@@ -1,4 +1,4 @@
-.. _scriptingLanguageSupport:
+.. _introduction/scriptingLanguageSupport:
 
 Scripting language support in Adobe Illustrator CC
 ###################################################

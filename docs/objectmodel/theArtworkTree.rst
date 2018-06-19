@@ -1,4 +1,4 @@
-.. _theArtworkTree:
+.. _objectmodel/theArtworkTree:
 
 The Artwork Tree
 ################################################################################

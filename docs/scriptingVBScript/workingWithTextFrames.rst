@@ -1,4 +1,6 @@
-.. _workingWithTextFrames:
+.. highlight:: basic
+
+.. _scriptingVBScript/workingWithTextFrames:
 
 Working with text frames
 ################################################################################
@@ -22,7 +24,7 @@ To thread existing text frames, use the ``NextFrame`` or ``PreviousFrame`` prope
 When copying the following script to your script editor, place the value of the ``Contents`` property on one
 line. The long-line character (``_``) is not valid within a string value.
 
-.. vbscript::
+::
 
   Set appRef = CreateObject("Illustrator.Application")
   Set myDoc = appRef.Documents.Add
@@ -44,7 +46,7 @@ Threaded frames make one story object
 Threaded frames make a single story object. To observe this, run the following VBScript after running
 the script in “Threaded frames” on page 55.
 
-.. vbscript::
+::
 
   Set myDoc = appRef.ActiveDocument
   myMsg = "alert(""There are " & CStr(myDoc.TextFrames.Count) & " text frames. "")"

@@ -1,4 +1,4 @@
-.. _forMoreInfo:
+.. _scriptingVBScript/forMoreInfo:
 
 For more information
 ################################################################################

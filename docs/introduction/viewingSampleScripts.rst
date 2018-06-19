@@ -1,4 +1,4 @@
-.. _viewingSampleScripts:
+.. _introduction/viewingSampleScripts:
 
 Viewing Sample Scripts
 ###################################################

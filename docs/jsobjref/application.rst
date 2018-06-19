@@ -1,4 +1,4 @@
-.. _application:
+.. _jsobjref/application:
 
 Application
 ###########

@@ -1,4 +1,6 @@
-.. _objectReferences:
+.. highlight:: basic
+
+.. _scriptingVBScript/objectReferences:
 
 Accessing and referencing objects
 ################################################################################

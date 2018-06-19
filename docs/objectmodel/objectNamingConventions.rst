@@ -1,4 +1,4 @@
-.. _objectNamingConventions:
+.. _objectmodel/objectNamingConventions:
 
 Object Naming Conventions
 ################################################################################

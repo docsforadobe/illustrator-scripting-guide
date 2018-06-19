@@ -1,4 +1,4 @@
-.. _forMoreInfo:
+.. _scriptingApplescript/forMoreInfo:
 
 For more information
 ################################################################################

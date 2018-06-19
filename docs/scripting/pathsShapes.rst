@@ -1,4 +1,4 @@
-.. _pathsShapes:
+.. _scripting/pathsShapes:
 
 Paths and shapes
 ################################################################################

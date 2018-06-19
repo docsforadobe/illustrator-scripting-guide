@@ -1,3 +1,5 @@
+.. highlight:: basic
+
 .. _creatingPathsShapes:
 
 Creating paths and shapes
@@ -37,8 +39,7 @@ To create a ``PathPoint`` object, you must define three values for the point.
 
 You define each property as an array of page coordinates in the format ``(Array (x,y))``:
 
-- If all three properties of a ``PathPoint`` object have the same coordinates, and the properties of the next
-``PathPoint`` in the line are equal to each other, you create a straight-line segment.
+- If all three properties of a ``PathPoint`` object have the same coordinates, and the properties of the next ``PathPoint`` in the line are equal to each other, you create a straight-line segment.
 - If two or more properties in a ``PathPoint`` object hold different values, the segment connected to the point is curved.
 
 To create a path or add points to an existing path using ``PathPoint`` objects, create a ``PathItem`` object,

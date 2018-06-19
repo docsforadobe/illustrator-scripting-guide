@@ -1,4 +1,4 @@
-.. _workingWithTextFrames:
+.. _scriptingJavascript/workingWithTextFrames:
 
 Working with text frames
 ################################################################################
@@ -41,7 +41,7 @@ Threaded frames make one story object
 Threaded frames make a single story object. To observe this, run the following JavaScript after running
 the script in “Threaded frames” on page 44.
 
-.. javascript::
+::
 
   var myDoc = app.activeDocument
   alert("There are " + myDoc.textFrames.length + " text frames.")

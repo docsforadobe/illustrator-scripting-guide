@@ -1,4 +1,4 @@
-.. _userInteractionLevels:
+.. _scripting/userInteractionLevels:
 
 User-interaction levels
 ################################################################################

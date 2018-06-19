@@ -1,9 +1,7 @@
-.. _workingWithObjects:
+.. _scripting/workingWithObjects:
 
 Working with objects
 ################################################################################
-
-----
 
 Getting the frontmost document or layer
 ================================================================================

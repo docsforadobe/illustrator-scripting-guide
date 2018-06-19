@@ -1,4 +1,6 @@
-.. _perspectiveGrid:
+.. highlight:: basic
+
+.. _scriptingVBScript/perspectiveGrid:
 
 Working with the perspective grid
 ################################################################################

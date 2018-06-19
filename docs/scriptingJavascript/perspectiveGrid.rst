@@ -1,4 +1,4 @@
-.. _perspectiveGrid:
+.. _scriptingJavascript/perspectiveGrid:
 
 Working with the perspective grid
 ################################################################################
@@ -109,9 +109,8 @@ plane::
   mydoc.showPerspectiveGrid();
 
   //Check if active plane is set to left; if not, set it to left
-  if (mydoc.getPerspectiveActivePlane() != PerspectiveGridPlaneType.LEFTPLANE)
-  {
-  mydoc.setPerspectiveActivePlane(PerspectiveGridPlaneType.LEFTPLANE);
+  if (mydoc.getPerspectiveActivePlane() != PerspectiveGridPlaneType.LEFTPLANE) {
+    mydoc.setPerspectiveActivePlane(PerspectiveGridPlaneType.LEFTPLANE);
   }
 
   //Draw rectangle in perspective, then resize to 200% and move

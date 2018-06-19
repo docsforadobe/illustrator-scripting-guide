@@ -1,4 +1,4 @@
-.. _textObjects:
+.. _objectmodel/textObjects:
 
 Text Objects
 ################################################################################
@@ -56,11 +56,10 @@ While the three kinds of text frames have common characteristics, like
 - An area text frame can have rows and columns, which you access through the ``row count`` and ``column count`` properties.
 - Path text has ``start T`` value and ``end T`` value properties that indicate where on the path the text begins and ends.
 - Area and path text frames are associated with a text path object, which is specified using the ``text frame`` object’s ``text path`` property. The text path defines the text frame’s position and orientation (horizontal or vertical) on the artboard (while the ``text frame`` object’s orientation property defines the ``orientation`` of text within the text frame).
-The ``text path`` property is not valid for point text, because point-text position and orientation are defined completely by the properties of the text frame itself.
+  The ``text path`` property is not valid for point text, because point-text position and orientation are defined completely by the properties of the text frame itself.
 
 .. note::
-   A text path is not the same as a path art item. Text paths are associated with path art items that can
-be accessed and manipulated to modify the appearance of the associated text frame.
+   A text path is not the same as a path art item. Text paths are associated with path art items that can be accessed and manipulated to modify the appearance of the associated text frame.
 
 ----
 

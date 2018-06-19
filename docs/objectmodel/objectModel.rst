@@ -1,4 +1,4 @@
-.. _objectModel:
+.. _objectmodel/objectModel:
 
 The Illustrator Scripting Object Model
 ################################################################################

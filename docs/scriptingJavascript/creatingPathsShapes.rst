@@ -1,4 +1,4 @@
-.. _creatingPathsShapes:
+.. _scriptingJavascript/creatingPathsShapes:
 
 Creating paths and shapes
 ################################################################################

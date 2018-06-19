@@ -1,4 +1,4 @@
-.. _transformations:
+.. _objectmodel/transformations:
 
 Transformations
 ################################################################################

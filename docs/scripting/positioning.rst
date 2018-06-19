@@ -1,4 +1,4 @@
-.. _positioning:
+.. _scripting/positioning:
 
 Page-item positioning and dimensions
 ################################################################################
@@ -41,5 +41,5 @@ extent:
 
 The following figure illustrates these properties, using JavaScript naming conventions.
 
-.. image:: ../_static/artItemBounds.png
+.. image:: ../_static/artItemBounds.jpg
    :alt: Art Item Bounds

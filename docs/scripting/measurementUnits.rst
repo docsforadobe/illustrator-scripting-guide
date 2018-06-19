@@ -1,4 +1,4 @@
-.. _measurementUnits:
+.. _scripting/measurementUnits:
 
 Measurement Units
 ################################################################################

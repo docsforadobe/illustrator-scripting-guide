@@ -1,4 +1,6 @@
-.. _enumerationValues:
+.. highlight:: basic
+
+.. _scriptingVBScript/enumerationValues:
 
 Working with enumeration values
 ################################################################################

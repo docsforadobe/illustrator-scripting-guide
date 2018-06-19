@@ -1,4 +1,4 @@
-.. _printingDocuments:
+.. _scripting/printingDocuments:
 
 Printing Illustrator documents
 ################################################################################

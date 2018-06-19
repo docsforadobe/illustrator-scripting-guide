@@ -1,4 +1,4 @@
-.. _objectReferences:
+.. _scriptingJavascript/objectReferences:
 
 Accessing and referencing objects
 ################################################################################
@@ -56,22 +56,22 @@ script sample, or you can use the containment hierarchy to refer to the collecti
 
 - Using the myStyles variable::
 
-  var firstStyle = myStyles[0];
+    var firstStyle = myStyles[0];
 
 - Using the containment hierarchy::
 
-  var firstStyle = app.activeDocument.graphicStyles[0];
+    var firstStyle = app.activeDocument.graphicStyles[0];
 
 The following statements assign the name of the first graphic style in the collection to a variable. You can
 use these statements interchangeably.
 
-.. javascript::
+::
 
-  var styleName = myStyles[0].name
+    var styleName = myStyles[0].name
 
-  var styleName = firstStyle.name
+    var styleName = firstStyle.name
 
-  var styleName = app.activeDocument.graphicStyles[0].name
+    var styleName = app.activeDocument.graphicStyles[0].name
 
 To get the total number of objects in a collection, use the ``length`` property::
 
