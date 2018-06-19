@@ -27,6 +27,18 @@ Welcome to the Adobe Illustrator Scripting Guide!
 
 .. toctree::
     :maxdepth: 1
+    :caption: Scripting Illustrator
+
+    scripting/launching
+    scripting/workingWithObjects
+    scripting/measurementUnits
+    scripting/positioning
+    scripting/pathsShapes
+    scripting/userInteractionLevels
+    scripting/printingDocuments
+
+.. toctree::
+    :maxdepth: 1
     :caption: Javascript Object Reference
 
     jsobjref/jsobjref
