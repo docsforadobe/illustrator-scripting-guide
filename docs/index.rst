@@ -39,6 +39,41 @@ Welcome to the Adobe Illustrator Scripting Guide!
 
 .. toctree::
     :maxdepth: 1
+    :caption: Scripting with AppleScript
+
+    scriptingApplescript/forMoreInfo
+    scriptingApplescript/yourFirstScript
+    scriptingApplescript/objectReferences
+    scriptingApplescript/workingWithTextFrames
+    scriptingApplescript/creatingPathsShapes
+    scriptingApplescript/perspectiveGrid
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Scripting with JavaScript
+
+    scriptingJavascript/forMoreInfo
+    scriptingJavascript/yourFirstScript
+    scriptingJavascript/workingWithMethods
+    scriptingJavascript/objectReferences
+    scriptingJavascript/workingWithTextFrames
+    scriptingJavascript/creatingPathsShapes
+    scriptingJavascript/perspectiveGrid
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Scripting with VBScript
+
+    scriptingVBScript/forMoreInfo
+    scriptingVBScript/yourFirstScript
+    scriptingVBScript/objectReferences
+    scriptingVBScript/workingWithTextFrames
+    scriptingVBScript/creatingPathsShapes
+    scriptingVBScript/enumerationValues
+    scriptingVBScript/perspectiveGrid
+
+.. toctree::
+    :maxdepth: 1
     :caption: Javascript Object Reference
 
     jsobjref/jsobjref
