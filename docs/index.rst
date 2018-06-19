@@ -78,6 +78,8 @@ Welcome to the Adobe Illustrator Scripting Guide!
 
     jsobjref/jsobjref
     jsobjref/application
+    jsobjref/artboard
+    jsobjref/artboards
 
 .. toctree::
     :maxdepth: 1

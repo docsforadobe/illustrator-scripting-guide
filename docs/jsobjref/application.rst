@@ -31,7 +31,7 @@ The active (frontmost) document in Illustrator.
 
 `Document <#document>`__
 
----
+----
 
 .. _app.browserAvailable:
 
@@ -48,7 +48,7 @@ If ``true``, a web browser is available.
 
 Boolean; read-only.
 
----
+----
 
 .. _app.buildNumber:
 
@@ -65,7 +65,7 @@ The application’s build number.
 
 String; read-only.
 
----
+----
 
 .. _app.colorSettingsList:
 
@@ -83,7 +83,7 @@ available for use.
 
 Object; read-only.
 
----
+----
 
 .. _app.coordinateSystem:
 
@@ -101,7 +101,7 @@ document or artboard.
 
 `CoordinateSystem <#coordinatesystem>`__
 
----
+----
 
 .. _app.defaultColorSettings:
 
@@ -119,7 +119,7 @@ current application locale.
 
 File; read-only.
 
----
+----
 
 .. _app.documents:
 
@@ -136,7 +136,7 @@ The documents in the application.
 
 `Documents <#documents>`__
 
----
+----
 
 .. _app.flattenerPresetList:
 
@@ -154,7 +154,7 @@ currently available for use.
 
 Object; read-only.
 
----
+----
 
 .. _app.freeMemory:
 
@@ -172,7 +172,7 @@ bytes) within the Illustrator partition.
 
 Number (long); read-only.
 
----
+----
 
 .. _app.locale:
 
@@ -189,7 +189,7 @@ The application’s locale.
 
 String; read-only.
 
----
+----
 
 .. _app.name:
 
@@ -207,7 +207,7 @@ the filename of the application file).
 
 String; read-only.
 
----
+----
 
 .. _app.pasteRememberLayers:
 
@@ -224,7 +224,7 @@ If ``true``, the paste operation maintains the layer structure.
 
 Boolean; read-only.
 
----
+----
 
 .. _app.path:
 
@@ -241,7 +241,7 @@ The file path to the application.
 
 File; read-only.
 
----
+----
 
 .. _app.PDFPresetsList:
 
@@ -259,7 +259,7 @@ available for use.
 
 Object; read-only.
 
----
+----
 
 .. _app.PPDFileList:
 
@@ -277,7 +277,7 @@ for use.
 
 Object; read-only.
 
----
+----
 
 .. _app.preferences:
 
@@ -294,7 +294,7 @@ Illustrator’s preference settings.
 
 `Preferences <#preferences>`__
 
----
+----
 
 .. _app.printerList:
 
@@ -311,7 +311,7 @@ The list of installed printers.
 
 Array of `Printer <#printer>`__
 
----
+----
 
 .. _app.printPresetsList:
 
@@ -328,7 +328,7 @@ The list of preset printing-options names available for use.
 
 Object; read-only.
 
----
+----
 
 .. _app.scriptingVersion:
 
@@ -345,7 +345,7 @@ The version of the Scripting plug-in.
 
 String; read-only.
 
----
+----
 
 .. _app.selection:
 
@@ -362,7 +362,7 @@ All currently selected objects in the active (frontmost) document.
 
 Array of Objects; read-only.
 
----
+----
 
 .. _app.startupPresetsList:
 
@@ -379,7 +379,7 @@ The list of presets available for creating a new document.
 
 Object; read-only.
 
----
+----
 
 .. _app.textFonts:
 
@@ -396,7 +396,7 @@ The installed fonts.
 
 `TextFonts <#textfonts>`__
 
----
+----
 
 .. _app.tracingPresetList:
 
@@ -414,7 +414,7 @@ names available for use.
 
 Array of Strings; read-only.
 
----
+----
 
 .. _app.typename:
 
@@ -431,7 +431,7 @@ The class name of the referenced object.
 
 String; read-only.
 
----
+----
 
 .. _app.userInteractionLevel:
 
@@ -449,7 +449,7 @@ script commands.
 
 `UserInteractionLevel <#userinteractionlevel>`__
 
----
+----
 
 .. _app.version:
 
@@ -466,7 +466,7 @@ The application’s version.
 
 String; read-only.
 
----
+----
 
 .. _app.visible:
 
@@ -483,7 +483,7 @@ If ``true``, the application is visible.
 
 Boolean; read-only.
 
----
+----
 
 =======
 Methods
@@ -519,10 +519,10 @@ Joins two matrices together.
 
 **Parameters**
 
-============  ======  =============
-matrix        Matrix  First matrix
-secondMatrix  Matrix  Second matrix
-============  ======  =============
+================  ======  =============
+``matrix``        Matrix  First matrix
+``secondMatrix``  Matrix  Second matrix
+================  ======  =============
 
 **Returns**
 
@@ -543,10 +543,10 @@ Joins a rotation translation to a transformation matrix.
 
 **Parameters**
 
-======  ===============  ===============
-matrix  Matrix           Matrix
-angle   Number (double)  Angle
-======  ===============  ===============
+==========  ===============  ===============
+``matrix``  Matrix           Matrix
+``angle``   Number (double)  Angle
+==========  ===============  ===============
 
 **Returns**
 
@@ -567,11 +567,11 @@ Concatenates a scale translation to a transformation matrix.
 
 **Parameters**
 
-========  =========================  =======
-matrix    Matrix                     Matrix
-[scaleX]  Number (double), optional  X Scale
-[scaleY]  Number (dobule), optional  Y Scale
-========  =========================  =======
+============  =========================  =======
+``matrix``    Matrix                     Matrix
+``[scaleX]``  Number (double), optional  X Scale
+``[scaleY]``  Number (dobule), optional  Y Scale
+============  =========================  =======
 
 **Returns**
 
@@ -592,11 +592,11 @@ Joins a translation to a transformation matrix.
 
 **Parameters**
 
-========  =========================  =======
-matrix    Matrix                     Matrix
-[deltaX]  Number (double), optional  X Delta
-[deltaY]  Number (dobule), optional  Y Delta
-========  =========================  =======
+============  =========================  =======
+``matrix``    Matrix                     Matrix
+``[deltaX]``  Number (double), optional  X Delta
+``[deltaY]``  Number (dobule), optional  Y Delta
+============  =========================  =======
 
 **Returns**
 
@@ -617,14 +617,14 @@ Converts a sample-component color from one color space to another.
 
 **Parameters**
 
-===================  ==============================================  ====
-sourceColorSpace     `ImageColorSpace <#imagecolorspace>`__          todo
-sourceColor          ColorComponents                                 todo
-destColorSpace       `ImageColorSpace <#imagecolorspace>`__          todo
-colorConvertPurpose  `ColorConvertPurpose <#colorconvertpurpose>`__  todo
-[sourceHasAlpha]     Boolean, optional                               todo
-[destHasAlpha]       Boolean, optional                               todo
-===================  ==============================================  ====
+=======================  ==============================================  ====
+``sourceColorSpace``     `ImageColorSpace <#imagecolorspace>`__          todo
+``sourceColor``          ColorComponents                                 todo
+``destColorSpace``       `ImageColorSpace <#imagecolorspace>`__          todo
+``colorConvertPurpose``  `ColorConvertPurpose <#colorconvertpurpose>`__  todo
+``[sourceHasAlpha]``     Boolean, optional                               todo
+``[destHasAlpha]``       Boolean, optional                               todo
+=======================  ==============================================  ====
 
 **Returns**
 
@@ -680,9 +680,9 @@ Deletes an existing workspace.
 
 **Parameters**
 
-=============  ======  ===========================
-workspaceName  String  Name of workspace to delete
-=============  ======  ===========================
+=================  ======  ===========================
+``workspaceName``  String  Name of workspace to delete
+=================  ======  ===========================
 
 **Returns**
 
@@ -723,9 +723,9 @@ Returns whether the specified filePath is open
 
 **Parameters**
 
-========  ======  ===============
-filePath  String  todo
-========  ======  ===============
+============  ======  ===============
+``filePath``  String  todo
+============  ======  ===============
 
 **Returns**
 
@@ -746,9 +746,9 @@ Gets detailed file information for specified PPD file.
 
 **Parameters**
 
-====  ======  ===============
-name  String  todo
-====  ======  ===============
+========  ======  ===============
+``name``  String  todo
+========  ======  ===============
 
 **Returns**
 
@@ -770,9 +770,9 @@ specified preset type.
 
 **Parameters**
 
-==========  ============================================  ====
-presetType  `DocumentPresetType <#documentpresettype>`__  todo
-==========  ============================================  ====
+==============  ============================================  ====
+``presetType``  `DocumentPresetType <#documentpresettype>`__  todo
+==============  ============================================  ====
 
 **Returns**
 
@@ -794,9 +794,9 @@ a given preset name.
 
 **Parameters**
 
-======  ======  ====
-preset  String  todo
-======  ======  ====
+==========  ======  ====
+``preset``  String  todo
+==========  ======  ====
 
 **Returns**
 
@@ -822,9 +822,9 @@ Returns a transformation matrix containing a single rotation.
 
 **Parameters**
 
-=======  =========================  ====
-[angle]  Number (double), optional  todo
-=======  =========================  ====
+===========  =========================  ====
+``[angle]``  Number (double), optional  todo
+===========  =========================  ====
 
 **Returns**
 
@@ -851,10 +851,10 @@ Returns a transformation matrix containing a single scale.
 
 **Parameters**
 
-========  =========================  ====
-[scaleX]  Number (double), optional  todo
-[scaleY]  Number (double), optional  todo
-========  =========================  ====
+============  =========================  ====
+``[scaleX]``  Number (double), optional  todo
+``[scaleY]``  Number (double), optional  todo
+============  =========================  ====
 
 **Returns**
 
@@ -900,10 +900,10 @@ Returns a transformation matrix containing a single translation.
 
 **Parameters**
 
-========  =========================  =======
-[deltaX]  Number (double), optional  X Delta
-[deltaY]  Number (dobule), optional  Y Delta
-========  =========================  =======
+============  =========================  =======
+``[deltaX]``  Number (double), optional  X Delta
+``[deltaY]``  Number (dobule), optional  Y Delta
+============  =========================  =======
 
 **Returns**
 
@@ -924,9 +924,9 @@ Inverts a matrix.
 
 **Parameters**
 
-======  ======  ====
-matrix  Matrix  todo
-======  ======  ====
+==========  ======  ====
+``matrix``  Matrix  todo
+==========  ======  ====
 
 **Returns**
 
@@ -947,10 +947,10 @@ Checks whether the two matrices are equal.
 
 **Parameters**
 
-============  ======  ====
-matrix        Matrix  todo
-secondMatrix  Matrix  todo
-============  ======  ====
+================  ======  ====
+``matrix``        Matrix  todo
+``secondMatrix``  Matrix  todo
+================  ======  ====
 
 **Returns**
 
@@ -971,9 +971,9 @@ Checks whether a matrix is singular and cannot be inverted.
 
 **Parameters**
 
-======  ======  ===============
-matrix  Matrix  Matrix to check
-======  ======  ===============
+==========  ======  ===============
+``matrix``  Matrix  Matrix to check
+==========  ======  ===============
 
 **Returns**
 
@@ -995,9 +995,9 @@ management off.
 
 **Parameters**
 
-========  ====  ====
-fileSpec  File  todo
-========  ====  ====
+============  ====  ====
+``fileSpec``  File  todo
+============  ====  ====
 
 **Returns**
 
@@ -1026,11 +1026,11 @@ Opens the specified document file.
 
 **Parameters**
 
-====================  ============================================  ====
-file                  File                                          todo
-[documentColorSpace]  `DocumentColorSpace <#documentcolorspace>`__  todo
-[options]             anything                                      todo
-====================  ============================================  ====
+========================  ============================================  ====
+``file``                  File                                          todo
+``[documentColorSpace]``  `DocumentColorSpace <#documentcolorspace>`__  todo
+``[options]``             anything                                      todo
+========================  ============================================  ====
 
 **Returns**
 
@@ -1139,9 +1139,9 @@ Saves a new workspace.
 
 **Parameters**
 
-=============  ===============  ============================
-workspaceName  String           Name of workspace to save as
-=============  ===============  ============================
+=================  ===============  ============================
+``workspaceName``  String           Name of workspace to save as
+=================  ===============  ============================
 
 **Returns**
 
@@ -1163,11 +1163,11 @@ arguments, and returns the plug-in-defined result string.
 
 **Parameters**
 
-===============  ======  ===============
-pluginName       String  todo
-messageSelector  String  todo
-inputString      String  todo
-===============  ======  ===============
+===================  ======  ===============
+``pluginName``       String  todo
+``messageSelector``  String  todo
+``inputString``      String  todo
+===================  ======  ===============
 
 **Returns**
 
@@ -1188,9 +1188,9 @@ Gets presets from the file.
 
 **Parameters**
 
-========  ====  ===============
-fileSpec  File  File?
-========  ====  ===============
+============  ====  ===============
+``fileSpec``  File  File?
+============  ====  ===============
 
 **Returns**
 
@@ -1211,9 +1211,9 @@ Switches to the specified workspace.
 
 **Parameters**
 
-=============  ======  =================
-workspaceName  String  Name to switch to
-=============  ======  =================
+=================  ======  =================
+``workspaceName``  String  Name to switch to
+=================  ======  =================
 
 **Returns**
 
@@ -1235,9 +1235,9 @@ in hex values).
 
 **Parameters**
 
-=============  ===============  ===================
-text           String           String to translate
-=============  ===============  ===================
+========  ===============  ===================
+``text``  String           String to translate
+========  ===============  ===================
 
 **Returns**
 
