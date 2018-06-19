@@ -1,8 +1,29 @@
 **Description**
 
-Repo hosting the Illustrator Scripting Guide RST docs, linked into a http://readthedocs.io system hosted at http://docs.aenhancers.com
+Repo hosting the Illustrator Scripting Guide RST docs, linked into a http://readthedocs.io system hosted at http://ai.aenhancers.com
 
-This came from the Adobe Illustrator CC Scripting Guide (https://wwwimages2.adobe.com/content/dam/acom/en/devnet/illustrator/pdf/Illustrator_Scriptin_Reference_JavaScript_cc.pdf).
+This came from the Adobe Illustrator CC Scripting Guide (https://www.adobe.com/devnet/illustrator/scripting.html).
+
+----
+
+This is still VERY wip! Still to do:
+
+**To-do**
+
+Scripting Guide Section:
+========================
+
+- Find/replace "on page x" with links to sections
+- Find/replace ``keyword`` with link to section
+- Find/replace "JS Tools Guide" with link to estk.aenhancers.com
+
+Code Reference:
+===============
+
+- Finish JS obj ref
+- Add Applescript obj ref
+- Add VBScript obj ref
+- Changelog
 
 ----
 
@@ -12,19 +33,34 @@ Contributors are welcome and encouraged to suggest fixes, adjustments, notes/war
 
 ----
 
-**Build HTML Locally**
+**Title Hierarchy**
 
-You may want to build the HTML locally before pushing, in order to ensure that the result is what you'd expect. These files aren't included in the git repo, nor are they used online; this is solely to create a local, offline version of the online docs.
+Title hierarchy is as follows. Use of four dashes to split main sections apart. Don't add divider for subsections, or after the last section.
 
-- Install ``Python 2.7``
-- Install ``pip``
-- Navigate to the project directory and use the command ``pip install -r requirements.txt``
-- Build the docs using ``make html``
+```
+
+Page Title
+################
+
+Section Title
+================
+
+Subsection
+****************
 
 ----
 
-**Admonitions Usage**
+Section Title
+================
 
+Subsection
+****************
+
+**Little section**
+
+```
+
+**Admonitions Usage**
 
 Currently, the following `admonitions <http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions>`_ are in use in this project. Try to keep one piece of data per note, for easier parsing.
 
@@ -36,6 +72,17 @@ Currently, the following `admonitions <http://docutils.sourceforge.net/docs/ref/
 
 	.. warning::
 		Warnings convey negative behaviours, or when something won't work the way you'd expect.
+
+----
+
+**Build HTML Locally**
+
+You may want to build the HTML locally before pushing, in order to ensure that the result is what you'd expect. These files aren't included in the git repo, nor are they used online; this is solely to create a local, offline version of the online docs.
+
+- Install ``Python 2.7``
+- Install ``pip``
+- Navigate to the project directory and use the command ``pip install -r requirements.txt``
+- Build the docs using ``make html``
 
 ----
 
