@@ -21,6 +21,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
     objectmodel/topLevelObjects
     objectmodel/theArtworkTree
     objectmodel/textObjects
+    objectmodel/dynamic
     objectmodel/symbols
     objectmodel/transformations
 
