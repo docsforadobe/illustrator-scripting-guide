@@ -89,6 +89,8 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/color/index
   jsobjref/compoundPathItem
   jsobjref/compoundPathItems
+  jsobjref/dataset
+  jsobjref/datasets
 
 .. toctree::
   :maxdepth: 1
