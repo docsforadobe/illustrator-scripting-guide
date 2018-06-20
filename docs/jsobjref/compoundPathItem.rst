@@ -553,10 +553,13 @@ Creates a duplicate of the selected object.
 
 **Parameters**
 
-=======================  ==========================================  ====
-``[relativeObject]``     object                                      todo
-``[insertionLocation]``  :ref:`jsobjref/elementPlacement`            todo
-=======================  ==========================================  ====
++-------------------------+----------------------------------+
+|        Parameter        |          Parameter Type          |
++=========================+==================================+
+| ``[relativeObject]``    | object                           |
++-------------------------+----------------------------------+
+| ``[insertionLocation]`` | :ref:`jsobjref/elementPlacement` |
++-------------------------+----------------------------------+
 
 **Returns**
 
@@ -577,10 +580,13 @@ Moves the object.
 
 **Parameters**
 
-=======================  ==========================================  ====
-``relativeObject``       object                                      todo
-``insertionLocation``    :ref:`jsobjref/elementPlacement`            todo
-=======================  ==========================================  ====
++-----------------------+----------------------------------+
+|       Parameter       |          Parameter Type          |
++=======================+==================================+
+| ``relativeObject``    | object                           |
++-----------------------+----------------------------------+
+| ``insertionLocation`` | :ref:`jsobjref/elementPlacement` |
++-----------------------+----------------------------------+
 
 **Returns**
 
@@ -622,16 +628,25 @@ Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scal
 
 **Parameters**
 
-==========================  ==========================================  ====
-``scaleX``                  ``number (double)``                         todo
-``scaleY``                  ``number (double)``                         todo
-``[changePositions]``       ``boolean``                                 todo
-``[changeFillPatterns]``    ``boolean``                                 todo
-``[changeFillGradients]``   ``boolean``                                 todo
-``[changeStrokePattern]``   ``boolean``                                 todo
-``[changeLineWidths]``      ``number (double)``                         todo
-``[scaleAbout]``            :ref:`jsobjref/transformation`              todo
-==========================  ==========================================  ====
++---------------------------+--------------------------------+
+|         Parameter         |         Parameter Type         |
++===========================+================================+
+| ``scaleX``                | ``number (double)``            |
++---------------------------+--------------------------------+
+| ``scaleY``                | ``number (double)``            |
++---------------------------+--------------------------------+
+| ``[changePositions]``     | ``boolean``                    |
++---------------------------+--------------------------------+
+| ``[changeFillPatterns]``  | ``boolean``                    |
++---------------------------+--------------------------------+
+| ``[changeFillGradients]`` | ``boolean``                    |
++---------------------------+--------------------------------+
+| ``[changeStrokePattern]`` | ``boolean``                    |
++---------------------------+--------------------------------+
+| ``[changeLineWidths]``    | ``number (double)``            |
++---------------------------+--------------------------------+
+| ``[scaleAbout]``          | :ref:`jsobjref/transformation` |
++---------------------------+--------------------------------+
 
 **Returns**
 
@@ -652,14 +667,21 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 
 **Parameters**
 
-==========================  ======================================  ====
-``angle``                   ``number (double)``                     todo
-``[changePositions]``       ``boolean``                             todo
-``[changeFillPatterns]``    ``boolean``                             todo
-``[changeFillGradients]``   ``boolean``                             todo
-``[changeStrokePattern]``   ``boolean``                             todo
-``[rotateAbout]``           :ref:`jsobjref/transformation`          todo
-==========================  ======================================  ====
++---------------------------+--------------------------------+
+|         Parameter         |         Parameter Type         |
++===========================+================================+
+| ``angle``                 | ``number (double)``            |
++---------------------------+--------------------------------+
+| ``[changePositions]``     | ``boolean``                    |
++---------------------------+--------------------------------+
+| ``[changeFillPatterns]``  | ``boolean``                    |
++---------------------------+--------------------------------+
+| ``[changeFillGradients]`` | ``boolean``                    |
++---------------------------+--------------------------------+
+| ``[changeStrokePattern]`` | ``boolean``                    |
++---------------------------+--------------------------------+
+| ``[rotateAbout]``         | :ref:`jsobjref/transformation` |
++---------------------------+--------------------------------+
 
 **Returns**
 
@@ -680,15 +702,23 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-==========================  ======================================  ====
-``transformationMatrix``    ``Matrix``                              todo
-``[changePositions]``       ``boolean``                             todo
-``[changeFillPatterns]``    ``boolean``                             todo
-``[changeFillGradients]``   ``boolean``                             todo
-``[changeStrokePattern]``   ``boolean``                             todo
-``[changeLineWidths]``      ``number (double)``                     todo
-``[transformAbout]``        :ref:`jsobjref/transformation`          todo
-==========================  ======================================  ====
++---------------------------+--------------------------------+
+|         Parameter         |         Parameter Type         |
++===========================+================================+
+| ``transformationMatrix``  | ``Matrix``                     |
++---------------------------+--------------------------------+
+| ``[changePositions]``     | ``boolean``                    |
++---------------------------+--------------------------------+
+| ``[changeFillPatterns]``  | ``boolean``                    |
++---------------------------+--------------------------------+
+| ``[changeFillGradients]`` | ``boolean``                    |
++---------------------------+--------------------------------+
+| ``[changeStrokePattern]`` | ``boolean``                    |
++---------------------------+--------------------------------+
+| ``[changeLineWidths]``    | ``number (double)``            |
++---------------------------+--------------------------------+
+| ``[transformAbout]``      | :ref:`jsobjref/transformation` |
++---------------------------+--------------------------------+
 
 **Returns**
 
@@ -709,14 +739,21 @@ Repositions the art item relative to the current position, where ``deltaX`` is t
 
 **Parameters**
 
-==============================  ======================================  ====
-``[deltaX]``                    ``number (double)``                     todo
-``[deltaY]``                    ``number (double)``                     todo
-``[transformObjects]``          ``boolean``                             todo
-``[transformFillPatterns]``     ``boolean``                             todo
-``[transformFillGradients]``    ``boolean``                             todo
-``[transformStrokePatterns]``   ``boolean``                             todo
-==============================  ======================================  ====
++-------------------------------+---------------------+
+|           Parameter           |   Parameter Type    |
++===============================+=====================+
+| ``[deltaX]``                  | ``number (double)`` |
++-------------------------------+---------------------+
+| ``[deltaY]``                  | ``number (double)`` |
++-------------------------------+---------------------+
+| ``[transformObjects]``        | ``boolean``         |
++-------------------------------+---------------------+
+| ``[transformFillPatterns]``   | ``boolean``         |
++-------------------------------+---------------------+
+| ``[transformFillGradients]``  | ``boolean``         |
++-------------------------------+---------------------+
+| ``[transformStrokePatterns]`` | ``boolean``         |
++-------------------------------+---------------------+
 
 **Returns**
 
@@ -737,9 +774,11 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-==============================  ======================================  ====
-``zOrderCmd``                   :ref:`jsobjref/ZOrderMethod`            todo
-==============================  ======================================  ====
++---------------+------------------------------+
+|   Parameter   |        Parameter Type        |
++===============+==============================+
+| ``zOrderCmd`` | :ref:`jsobjref/ZOrderMethod` |
++---------------+------------------------------+
 
 **Returns**
 
