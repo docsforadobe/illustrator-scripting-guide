@@ -34,6 +34,7 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 **Type**
 
 :ref:`jsobjref/knockoutState`
+
 ----
 
 .. _compoundPathItem.blendingMode:

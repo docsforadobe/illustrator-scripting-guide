@@ -88,6 +88,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/characterStyles
   jsobjref/color/index
   jsobjref/compoundPathItem
+  jsobjref/compoundPathItems
 
 .. toctree::
   :maxdepth: 1
