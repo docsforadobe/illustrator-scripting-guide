@@ -92,6 +92,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/dataset
   jsobjref/datasets
   jsobjref/document
+  jsobjref/documentPreset
 
 .. toctree::
   :maxdepth: 1
