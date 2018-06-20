@@ -25,7 +25,7 @@ Properties
 compoundPathItem.artworkKnockout
 ********************************************************************************
 
-``compoundPathItem.artworkKnockout``
+``app.activeDocument.activeLayer.compoundPathItems[index].artworkKnockout``
 
 **Description**
 
@@ -33,9 +33,7 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 **Type**
 
-// todo: link to KnockoutState in Chapter #2 "Scripting Constants"..
-KnockoutState.
-
+:ref:`jsobjref/knockoutState`
 ----
 
 .. _compoundPathItem.blendingMode:
@@ -43,7 +41,7 @@ KnockoutState.
 compoundPathItem.blendingMode
 ********************************************************************************
 
-``compoundPathItem.blendingMode``
+``app.activeDocument.activeLayer.compoundPathItems[index].blendingMode``
 
 **Description**
 
@@ -51,8 +49,7 @@ The mode used when compositing an object.
 
 **Type**
 
-// todo: link to BlendModes in Chapter #2 "Scripting Constants"..
-BlendModes.
+:ref:`jsobjref/blendingModes`
 
 ----
 
@@ -61,7 +58,7 @@ BlendModes.
 compoundPathItem.controlBounds
 ********************************************************************************
 
-``compoundPathItem.controlBounds``
+``app.activeDocument.activeLayer.compoundPathItems[index].controlBounds``
 
 **Description**
 
@@ -69,7 +66,7 @@ The bounds of the object including stroke width and controls.
 
 **Type**
 
-``array`` of 4 numbers; read-only.
+Array of 4 numbers, read-only.
 
 ----
 
@@ -78,7 +75,7 @@ The bounds of the object including stroke width and controls.
 compoundPathItem.editable
 ********************************************************************************
 
-``compoundPathItem.editable``
+``app.activeDocument.activeLayer.compoundPathItems[index].editable``
 
 **Description**
 
@@ -86,7 +83,7 @@ If ``true``, this item is editable.
 
 **Type**
 
-``boolean``; read-only.
+Boolean, read-only.
 
 ----
 
@@ -95,7 +92,7 @@ If ``true``, this item is editable.
 compoundPathItem.geometricBounds
 ********************************************************************************
 
-``compoundPathItem.geometricBounds``
+``app.activeDocument.activeLayer.compoundPathItems[index].geometricBounds``
 
 **Description**
 
@@ -103,7 +100,7 @@ The bounds of the object excluding stroke width.
 
 **Type**
 
-``array`` of 4 numbers; read-only.
+Array of 4 numbers, read-only.
 
 ----
 
@@ -112,7 +109,7 @@ The bounds of the object excluding stroke width.
 compoundPathItem.height
 ********************************************************************************
 
-``compoundPathItem.height``
+``app.activeDocument.activeLayer.compoundPathItems[index].height``
 
 **Description**
 
@@ -120,7 +117,7 @@ The height of the compound path item excluding stroke width.
 
 **Type**
 
-``number (double)``
+Number (double).
 
 ----
 
@@ -129,7 +126,7 @@ The height of the compound path item excluding stroke width.
 compoundPathItem.hidden
 ********************************************************************************
 
-``compoundPathItem.hidden``
+``app.activeDocument.activeLayer.compoundPathItems[index].hidden``
 
 **Description**
 
@@ -137,7 +134,7 @@ If ``true``, this compound path item is hidden.
 
 **Type**
 
-``boolean``
+Boolean.
 
 ----
 
@@ -146,7 +143,7 @@ If ``true``, this compound path item is hidden.
 compoundPathItem.isIsolated
 ********************************************************************************
 
-``compoundPathItem.isIsolated``
+``app.activeDocument.activeLayer.compoundPathItems[index].isIsolated``
 
 **Description**
 
@@ -154,7 +151,7 @@ If ``true``, this object is isolated.
 
 **Type**
 
-``boolean``
+Boolean.
 
 ----
 
@@ -163,7 +160,7 @@ If ``true``, this object is isolated.
 compoundPathItem.layer
 ********************************************************************************
 
-``compoundPathItem.layer``
+``app.activeDocument.activeLayer.compoundPathItems[index].layer``
 
 **Description**
 
@@ -171,8 +168,7 @@ The layer to which this compound path item belongs.
 
 **Type**
 
-// todo: link to Layer in Chapter #1 "JavaScript Object Reference"..
-Layer; read-only.
+:ref:`jsobjref/layer`, read-only.
 
 ----
 
@@ -181,7 +177,7 @@ Layer; read-only.
 compoundPathItem.left
 ********************************************************************************
 
-``compoundPathItem.left``
+``app.activeDocument.activeLayer.compoundPathItems[index].left``
 
 **Description**
 
@@ -189,7 +185,7 @@ The position of the left side of the item (in points, measured from the left sid
 
 **Type**
 
-``number (double)``
+Number (double).
 
 ----
 
@@ -198,7 +194,7 @@ The position of the left side of the item (in points, measured from the left sid
 compoundPathItem.locked
 ********************************************************************************
 
-``compoundPathItem.locked``
+``app.activeDocument.activeLayer.compoundPathItems[index].locked``
 
 **Description**
 
@@ -206,7 +202,7 @@ If ``true``, this compound path item is locked.
 
 **Type**
 
-``boolean``
+Boolean.
 
 ----
 
@@ -215,7 +211,7 @@ If ``true``, this compound path item is locked.
 compoundPathItem.name
 ********************************************************************************
 
-``compoundPathItem.name``
+``app.activeDocument.activeLayer.compoundPathItems[index].name``
 
 **Description**
 
@@ -223,7 +219,7 @@ The name of this compound path item.
 
 **Type**
 
-``string``
+String.
 
 ----
 
@@ -232,7 +228,7 @@ The name of this compound path item.
 compoundPathItem.note
 ********************************************************************************
 
-``compoundPathItem.note``
+``app.activeDocument.activeLayer.compoundPathItems[index].note``
 
 **Description**
 
@@ -240,7 +236,7 @@ The note assigned to this item.
 
 **Type**
 
-``string``
+String.
 
 ----
 
@@ -249,7 +245,7 @@ The note assigned to this item.
 compoundPathItem.opacity
 ********************************************************************************
 
-``compoundPathItem.opacity``
+``app.activeDocument.activeLayer.compoundPathItems[index].opacity``
 
 **Description**
 
@@ -257,7 +253,7 @@ The opacity of the object. Range: 0.0 to 100.0
 
 **Type**
 
-``number (double)``
+Number (double).
 
 ----
 
@@ -266,7 +262,7 @@ The opacity of the object. Range: 0.0 to 100.0
 compoundPathItem.parent
 ********************************************************************************
 
-``compoundPathItem.parent``
+``app.activeDocument.activeLayer.compoundPathItems[index].parent``
 
 **Description**
 
@@ -274,9 +270,7 @@ The parent of this object.
 
 **Type**
 
-// todo: link to ``Layer`` and ``GroupItem`` in Chapter #1 "JavaScript Object Reference"..
-Layer or GroupItem; read-only.
-
+:ref:`jsobjref/layer` or :ref:`jsobjref/groupItem`, read-only.
 ----
 
 .. _compoundPathItem.pathItems:
@@ -284,7 +278,7 @@ Layer or GroupItem; read-only.
 compoundPathItem.pathItems
 ********************************************************************************
 
-``compoundPathItem.pathItems``
+``app.activeDocument.activeLayer.compoundPathItems[index].pathItems``
 
 **Description**
 
@@ -292,8 +286,7 @@ The path art items in this compound path.
 
 **Type**
 
-// todo: link to ``PathItems`` in Chapter #1 "JavaScript Object Reference"..
-PathItems; read-only.
+:ref:`jsobjref/pathItems`, read-only.
 
 ----
 
@@ -302,7 +295,7 @@ PathItems; read-only.
 compoundPathItem.position
 ********************************************************************************
 
-``compoundPathItem.pathItems``
+``app.activeDocument.activeLayer.compoundPathItems[index].position``
 
 **Description**
 
@@ -310,7 +303,7 @@ The position (in points) of the top left corner of the ``compoundPathItem`` obje
 
 **Type**
 
-``array`` of 2 numbers
+Array of 2 numbers.
 
 ----
 
@@ -319,7 +312,7 @@ The position (in points) of the top left corner of the ``compoundPathItem`` obje
 compoundPathItem.selected
 ********************************************************************************
 
-``compoundPathItem.pathItems``
+``app.activeDocument.activeLayer.compoundPathItems[index].selected``
 
 **Description**
 
@@ -327,7 +320,7 @@ If ``true``, this compound path item is selected.
 
 **Type**
 
-``boolean``
+Boolean.
 
 ----
 
@@ -336,7 +329,7 @@ If ``true``, this compound path item is selected.
 compoundPathItem.sliced
 ********************************************************************************
 
-``compoundPathItem.sliced``
+``app.activeDocument.activeLayer.compoundPathItems[index].sliced``
 
 **Description**
 
@@ -344,7 +337,7 @@ If ``true``, the item is sliced. Default: ``false``
 
 **Type**
 
-``boolean``
+Boolean.
 
 ----
 
@@ -353,7 +346,7 @@ If ``true``, the item is sliced. Default: ``false``
 compoundPathItem.tags
 ********************************************************************************
 
-``compoundPathItem.tags``
+``app.activeDocument.activeLayer.compoundPathItems[index].tags``
 
 **Description**
 
@@ -361,8 +354,7 @@ The tags contained in this object.
 
 **Type**
 
-// todo: link to ``Tags`` in Chapter #1 "JavaScript Object Reference"..
-Tags; Read-only.
+:ref:`jsobjref/tags`, read-only.
 
 ----
 
@@ -371,7 +363,7 @@ Tags; Read-only.
 compoundPathItem.top
 ********************************************************************************
 
-``compoundPathItem.top``
+``app.activeDocument.activeLayer.compoundPathItems[index].top``
 
 **Description**
 
@@ -379,7 +371,7 @@ The position of the top of the item (in points, measured from the bottom of the 
 
 **Type**
 
-``number (double)``
+Number (double).
 
 ----
 
@@ -388,7 +380,7 @@ The position of the top of the item (in points, measured from the bottom of the 
 compoundPathItem.typename
 ********************************************************************************
 
-``compoundPathItem.typename``
+``app.activeDocument.activeLayer.compoundPathItems[index].typename``
 
 **Description**
 
@@ -396,7 +388,7 @@ The class name of the referenced object.
 
 **Type**
 
-``string``; read-only.
+String, read-only.
 
 ----
 
@@ -405,7 +397,7 @@ The class name of the referenced object.
 compoundPathItem.uRL
 ********************************************************************************
 
-``compoundPathItem.uRL``
+``app.activeDocument.activeLayer.compoundPathItems[index].uRL``
 
 **Description**
 
@@ -413,7 +405,7 @@ The value of the Adobe URL tag assigned to this compound path item.
 
 **Type**
 
-``string``
+String.
 
 ----
 
@@ -422,7 +414,7 @@ The value of the Adobe URL tag assigned to this compound path item.
 compoundPathItem.visibilityVariable
 ********************************************************************************
 
-``compoundPathItem.visibilityVariable``
+``app.activeDocument.activeLayer.compoundPathItems[index].visibilityVariable``
 
 **Description**
 
@@ -430,7 +422,7 @@ The visibility variable bound to the item.
 
 **Type**
 
-``Variant``
+Variant.
 
 ----
 
@@ -439,7 +431,7 @@ The visibility variable bound to the item.
 compoundPathItem.visibleBounds
 ********************************************************************************
 
-``compoundPathItem.visibleBounds``
+``app.activeDocument.activeLayer.compoundPathItems[index].visibleBounds``
 
 **Description**
 
@@ -447,7 +439,7 @@ The visible bounds of the compound path item including stroke width.
 
 **Type**
 
-``array`` of 4 numbers; read-only.
+Array of 4 numbers, read-only.
 
 ----
 
@@ -456,7 +448,7 @@ The visible bounds of the compound path item including stroke width.
 compoundPathItem.width
 ********************************************************************************
 
-``compoundPathItem.width``
+``app.activeDocument.activeLayer.compoundPathItems[index].width``
 
 **Description**
 
@@ -464,7 +456,7 @@ The width of the compound path item excluding stroke width.
 
 **Type**
 
-``number (double)``
+Number (double).
 
 ----
 
@@ -473,7 +465,7 @@ The width of the compound path item excluding stroke width.
 compoundPathItem.wrapInside
 ********************************************************************************
 
-``compoundPathItem.wrapInside``
+``app.activeDocument.activeLayer.compoundPathItems[index].wrapInside``
 
 **Description**
 
@@ -481,7 +473,7 @@ If ``true``, the text frame object should be wrapped inside this object.
 
 **Type**
 
-``boolean``
+Boolean.
 
 ----
 
@@ -490,7 +482,7 @@ If ``true``, the text frame object should be wrapped inside this object.
 compoundPathItem.wrapOffset
 ********************************************************************************
 
-``compoundPathItem.wrapOffset``
+``app.activeDocument.activeLayer.compoundPathItems[index].wrapOffset``
 
 **Description**
 
@@ -498,7 +490,7 @@ The offset to use when wrapping text around this object.
 
 **Type**
 
-``number (double)``
+Number (double).
 
 ----
 
@@ -507,7 +499,7 @@ The offset to use when wrapping text around this object.
 compoundPathItem.wrapped
 ********************************************************************************
 
-``compoundPathItem.wrapped``
+``app.activeDocument.activeLayer.compoundPathItems[index].wrapped``
 
 **Description**
 
@@ -515,7 +507,7 @@ If ``true``, wrap text frame objects around this object (text frame must be abov
 
 **Type**
 
-``boolean``
+Boolean.
 
 ----
 
@@ -524,7 +516,7 @@ If ``true``, wrap text frame objects around this object (text frame must be abov
 compoundPathItem.zOrderPosition
 ********************************************************************************
 
-``compoundPathItem.zOrderPosition``
+``app.activeDocument.activeLayer.compoundPathItems[index].zOrderPosition``
 
 **Description**
 
@@ -532,7 +524,7 @@ The position of this art item within the stacking order of the group or layer (`
 
 **Type**
 
-``number (long)``; read-only.
+Number (long), read-only.
 
 ----
 
@@ -545,7 +537,7 @@ Methods
 compoundPathItem.duplicate()
 ********************************************************************************
 
-``compoundPathItem.duplicate``
+``app.activeDocument.activeLayer.compoundPathItems[index].duplicate([relativeObject][,insertionLocation])``
 
 **Description**
 
@@ -553,13 +545,13 @@ Creates a duplicate of the selected object.
 
 **Parameters**
 
-+-------------------------+----------------------------------+
-|        Parameter        |          Parameter Type          |
-+=========================+==================================+
-| ``[relativeObject]``    | object                           |
-+-------------------------+----------------------------------+
-| ``[insertionLocation]`` | :ref:`jsobjref/elementPlacement` |
-+-------------------------+----------------------------------+
++-------------------------+--------------------------------------------+-------------+
+|        Parameter        |                    Type                    | Description |
++=========================+============================================+=============+
+| ``[relativeObject]``    | Object, optional                           | todo        |
++-------------------------+--------------------------------------------+-------------+
+| ``[insertionLocation]`` | :ref:`jsobjref/elementPlacement`, optional | todo        |
++-------------------------+--------------------------------------------+-------------+
 
 **Returns**
 
@@ -572,7 +564,7 @@ Creates a duplicate of the selected object.
 compoundPathItem.move()
 ********************************************************************************
 
-``compoundPathItem.move``
+``app.activeDocument.activeLayer.compoundPathItems[index].move(relativeObject, insertionLocation)``
 
 **Description**
 
@@ -580,17 +572,17 @@ Moves the object.
 
 **Parameters**
 
-+-----------------------+----------------------------------+
-|       Parameter       |          Parameter Type          |
-+=======================+==================================+
-| ``relativeObject``    | object                           |
-+-----------------------+----------------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/elementPlacement` |
-+-----------------------+----------------------------------+
++-----------------------+----------------------------------+-------------+
+|       Parameter       |               Type               | Description |
++=======================+==================================+=============+
+| ``relativeObject``    | Object                           | todo        |
++-----------------------+----------------------------------+-------------+
+| ``insertionLocation`` | :ref:`jsobjref/elementPlacement` | todo        |
++-----------------------+----------------------------------+-------------+
 
 **Returns**
 
-Nothing
+Nothing.
 
 ----
 
@@ -599,19 +591,15 @@ Nothing
 compoundPathItem.remove()
 ********************************************************************************
 
-``compoundPathItem.remove``
+``app.activeDocument.activeLayer.compoundPathItems[index].remove()``
 
 **Description**
 
 Deletes this object.
 
-**Parameters**
-
-None
-
 **Returns**
 
-Nothing
+Nothing.
 
 ----
 
@@ -620,7 +608,12 @@ Nothing
 compoundPathItem.resize()
 ********************************************************************************
 
-``compoundPathItem.resize``
+::
+
+    app.activeDocument.activeLayer.compoundPathItems[index].resize(
+        scaleX, scaleY [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+        [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
+    )
 
 **Description**
 
@@ -628,29 +621,29 @@ Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scal
 
 **Parameters**
 
-+---------------------------+--------------------------------+
-|         Parameter         |         Parameter Type         |
-+===========================+================================+
-| ``scaleX``                | ``number (double)``            |
-+---------------------------+--------------------------------+
-| ``scaleY``                | ``number (double)``            |
-+---------------------------+--------------------------------+
-| ``[changePositions]``     | ``boolean``                    |
-+---------------------------+--------------------------------+
-| ``[changeFillPatterns]``  | ``boolean``                    |
-+---------------------------+--------------------------------+
-| ``[changeFillGradients]`` | ``boolean``                    |
-+---------------------------+--------------------------------+
-| ``[changeStrokePattern]`` | ``boolean``                    |
-+---------------------------+--------------------------------+
-| ``[changeLineWidths]``    | ``number (double)``            |
-+---------------------------+--------------------------------+
-| ``[scaleAbout]``          | :ref:`jsobjref/transformation` |
-+---------------------------+--------------------------------+
++---------------------------+------------------------------------------+-------------+
+|         Parameter         |                   Type                   | Description |
++===========================+==========================================+=============+
+| ``scaleX``                | Number (double)                          | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``scaleY``                | Number (double)                          | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changePositions]``     | Boolean, optional                        | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changeFillPatterns]``  | Boolean, optional                        | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changeFillGradients]`` | Boolean, optional                        | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changeStrokePattern]`` | Boolean, optional                        | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changeLineWidths]``    | Number (double), optional                | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[scaleAbout]``          | :ref:`jsobjref/transformation`, optional | todo        |
++---------------------------+------------------------------------------+-------------+
 
 **Returns**
 
-Nothing
+Nothing.
 
 ----
 
@@ -659,7 +652,12 @@ Nothing
 compoundPathItem.rotate()
 ********************************************************************************
 
-``compoundPathItem.rotate``
+::
+
+    app.activeDocument.activeLayer.compoundPathItems[index].rotate(
+        angle [,changePositions] [,changeFillPatterns]
+        [,changeFillGradients] [,changeStrokePattern] [,rotateAbout]
+    )
 
 **Description**
 
@@ -667,25 +665,25 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 
 **Parameters**
 
-+---------------------------+--------------------------------+
-|         Parameter         |         Parameter Type         |
-+===========================+================================+
-| ``angle``                 | ``number (double)``            |
-+---------------------------+--------------------------------+
-| ``[changePositions]``     | ``boolean``                    |
-+---------------------------+--------------------------------+
-| ``[changeFillPatterns]``  | ``boolean``                    |
-+---------------------------+--------------------------------+
-| ``[changeFillGradients]`` | ``boolean``                    |
-+---------------------------+--------------------------------+
-| ``[changeStrokePattern]`` | ``boolean``                    |
-+---------------------------+--------------------------------+
-| ``[rotateAbout]``         | :ref:`jsobjref/transformation` |
-+---------------------------+--------------------------------+
++---------------------------+------------------------------------------+-------------+
+|         Parameter         |                   Type                   | Description |
++===========================+==========================================+=============+
+| ``angle``                 | Mumber (double)                          | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changePositions]``     | Boolean, optional                        | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changeFillPatterns]``  | Boolean, optional                        | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changeFillGradients]`` | Boolean, optional                        | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changeStrokePattern]`` | Boolean, optional                        | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[rotateAbout]``         | :ref:`jsobjref/transformation`, optional | todo        |
++---------------------------+------------------------------------------+-------------+
 
 **Returns**
 
-Nothing
+Nothing.
 
 ----
 
@@ -694,7 +692,12 @@ Nothing
 compoundPathItem.transform()
 ********************************************************************************
 
-``compoundPathItem.transform``
+::
+
+    app.activeDocument.activeLayer.compoundPathItems[index].transform(
+        transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+        [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
+    )
 
 **Description**
 
@@ -702,27 +705,27 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-+---------------------------+--------------------------------+
-|         Parameter         |         Parameter Type         |
-+===========================+================================+
-| ``transformationMatrix``  | ``Matrix``                     |
-+---------------------------+--------------------------------+
-| ``[changePositions]``     | ``boolean``                    |
-+---------------------------+--------------------------------+
-| ``[changeFillPatterns]``  | ``boolean``                    |
-+---------------------------+--------------------------------+
-| ``[changeFillGradients]`` | ``boolean``                    |
-+---------------------------+--------------------------------+
-| ``[changeStrokePattern]`` | ``boolean``                    |
-+---------------------------+--------------------------------+
-| ``[changeLineWidths]``    | ``number (double)``            |
-+---------------------------+--------------------------------+
-| ``[transformAbout]``      | :ref:`jsobjref/transformation` |
-+---------------------------+--------------------------------+
++---------------------------+------------------------------------------+-------------+
+|         Parameter         |                   Type                   | Description |
++===========================+==========================================+=============+
+| ``transformationMatrix``  | Matrix                                   | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changePositions]``     | Boolean, optional                        | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changeFillPatterns]``  | Boolean, optional                        | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changeFillGradients]`` | Boolean, optional                        | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changeStrokePattern]`` | Boolean, optional                        | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[changeLineWidths]``    | Number (double), optional                | todo        |
++---------------------------+------------------------------------------+-------------+
+| ``[transformAbout]``      | :ref:`jsobjref/transformation`, optional | todo        |
++---------------------------+------------------------------------------+-------------+
 
 **Returns**
 
-Nothing
+Nothing.
 
 ----
 
@@ -731,7 +734,13 @@ Nothing
 compoundPathItem.translate()
 ********************************************************************************
 
-``compoundPathItem.translate``
+::
+
+    app.activeDocument.activeLayer.compoundPathItems[index].translate(
+        deltaX [,deltaY] [,transformObjects] [,transformFillPatterns]
+        [,transformFillGradients] [,transformStrokePatterns]
+    )
+
 
 **Description**
 
@@ -739,25 +748,25 @@ Repositions the art item relative to the current position, where ``deltaX`` is t
 
 **Parameters**
 
-+-------------------------------+---------------------+
-|           Parameter           |   Parameter Type    |
-+===============================+=====================+
-| ``[deltaX]``                  | ``number (double)`` |
-+-------------------------------+---------------------+
-| ``[deltaY]``                  | ``number (double)`` |
-+-------------------------------+---------------------+
-| ``[transformObjects]``        | ``boolean``         |
-+-------------------------------+---------------------+
-| ``[transformFillPatterns]``   | ``boolean``         |
-+-------------------------------+---------------------+
-| ``[transformFillGradients]``  | ``boolean``         |
-+-------------------------------+---------------------+
-| ``[transformStrokePatterns]`` | ``boolean``         |
-+-------------------------------+---------------------+
++-------------------------------+---------------------------+-------------+
+|           Parameter           |           Type            | Description |
++===============================+===========================+=============+
+| ``deltaX``                    | Mumber (double)           | todo        |
++-------------------------------+---------------------------+-------------+
+| ``[deltaY]``                  | Number (double), optional | todo        |
++-------------------------------+---------------------------+-------------+
+| ``[transformObjects]``        | Boolean, optional         | todo        |
++-------------------------------+---------------------------+-------------+
+| ``[transformFillPatterns]``   | Boolean, optional         | todo        |
++-------------------------------+---------------------------+-------------+
+| ``[transformFillGradients]``  | Boolean, optional         | todo        |
++-------------------------------+---------------------------+-------------+
+| ``[transformStrokePatterns]`` | Boolean, optional         | todo        |
++-------------------------------+---------------------------+-------------+
 
 **Returns**
 
-Nothing
+Nothing.
 
 ----
 
@@ -766,7 +775,7 @@ Nothing
 compoundPathItem.zOrder()
 ********************************************************************************
 
-``compoundPathItem.zOrder``
+``app.activeDocument.activeLayer.compoundPathItems[index].zOrder(zOrderCmd)``
 
 **Description**
 
@@ -774,15 +783,15 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-+---------------+------------------------------+
-|   Parameter   |        Parameter Type        |
-+===============+==============================+
-| ``zOrderCmd`` | :ref:`jsobjref/ZOrderMethod` |
-+---------------+------------------------------+
++---------------+------------------------------+-------------+
+|   Parameter   |             Type             | Description |
++===============+==============================+=============+
+| ``zOrderCmd`` | :ref:`jsobjref/zOrderMethod` | todo        |
++---------------+------------------------------+-------------+
 
 **Returns**
 
-Nothing
+Nothing.
 
 ----
 
@@ -839,3 +848,4 @@ Creating and modifying a compound path item
         newPath.strokeWidth = 3.5;
         newPath.strokeColor = app.activeDocument.swatches[3].color;
     }
+
