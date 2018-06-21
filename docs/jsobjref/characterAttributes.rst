@@ -67,7 +67,7 @@ The character alignment type.
 
 **Type**
 
-:ref:`jsobjref/styleRunAlignmentType`
+:ref:`jsobjref/scriptingConstants.StyleRunAlignmentType`
 
 ----
 
@@ -84,7 +84,7 @@ The alternate glyphs form.
 
 **Type**
 
-:ref:`jsobjref/alternateGlyphsForm`
+:ref:`jsobjref/scriptingConstants.AlternateGlyphsForm`
 
 ----
 
@@ -118,7 +118,7 @@ The Japanese text baseline direction.
 
 **Type**
 
-:ref:`jsobjref/baselineDirectionType`
+:ref:`jsobjref/scriptingConstants.BaselineDirectionType`
 
 ----
 
@@ -135,7 +135,7 @@ The baseline position of text.
 
 **Type**
 
-:ref:`jsobjref/fontBaselineOption`
+:ref:`jsobjref/scriptingConstants.FontBaselineOption`
 
 ----
 
@@ -169,7 +169,7 @@ The case of text.
 
 **Type**
 
-:ref:`jsobjref/fontCapsOption`
+:ref:`jsobjref/scriptingConstants.FontCapsOption`
 
 ----
 
@@ -237,7 +237,7 @@ The number style in a OpenType font.
 
 **Type**
 
-:ref:`jsobjref/figureStyleType`
+:ref:`jsobjref/scriptingConstants.FigureStyleType`
 
 ----
 
@@ -322,7 +322,7 @@ The automatic kerning method to use.
 
 **Type**
 
-:ref:`jsobjref/autoKernType`
+:ref:`jsobjref/scriptingConstants.AutoKernType`
 
 ----
 
