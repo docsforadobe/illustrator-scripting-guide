@@ -10,7 +10,7 @@ To refer to the selected document, use the ``application`` object’s ``current 
 AppleScript or the ``active document`` property in JavaScript or VBScript. Similarly, you can use the
 ``document`` object’s ``current layer`` or ``active layer`` property to refer to the selected layer.
 
-There are other types of “active” or “current” object properties, like ``active dataset`` or ``active view``. For
+There are other types of "active" or "current" object properties, like ``active dataset`` or ``active view``. For
 details, see the Adobe lllustrator CC 2017 Scripting Reference for your language.
 
 ----

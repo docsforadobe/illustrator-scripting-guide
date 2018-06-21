@@ -9,7 +9,7 @@ Document
 
 An Illustrator document. Documents are contained in the :ref:`jsobjref/application` object.
 
-The default document settings—those properties starting with the word “default”—are global settings that affect the current document. Be sure to modify these default properties only when a document is open. Note that if you set default properties to desired values before creating new objects, you can streamline your scripts, eliminating the need to specify specific properties such as ``fillColor`` and ``stroked`` that have default properties.
+The default document settings—those properties starting with the word "default"—are global settings that affect the current document. Be sure to modify these default properties only when a document is open. Note that if you set default properties to desired values before creating new objects, you can streamline your scripts, eliminating the need to specify specific properties such as ``fillColor`` and ``stroked`` that have default properties.
 
 A document’s color space, height, and width can only be set when the document is created. You cannot modify these properties in an existing document. See :ref:`jsobjref/application.open` for more information on how document color spaces are handled.
 

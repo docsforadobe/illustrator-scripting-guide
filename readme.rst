@@ -47,7 +47,7 @@ Then, to link to these items from other pages, we use::
 
 	:ref:`jsobjref/application`
 
-or
+or::
 
 	:ref:`jsobjref/application.open`
 

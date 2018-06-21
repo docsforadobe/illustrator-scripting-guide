@@ -39,8 +39,8 @@ Group.
 All other trademarks are the property of their respective owners.
 
 Adobe Systems Incorporated, 345 Park Avenue, San Jose, California 95110, USA. Notice to U.S. Government End Users.
-The Software and Documentation are “Commercial Items,” as that term is defined at 48 C.F.R. §2.101, consisting of
-“Commercial Computer Software” and “Commercial Computer Software Documentation,” as such terms are used in 48
+The Software and Documentation are "Commercial Items," as that term is defined at 48 C.F.R. §2.101, consisting of
+"Commercial Computer Software" and "Commercial Computer Software Documentation," as such terms are used in 48
 C.F.R. §12.212 or 48 C.F.R. §227.7202, as applicable. Consistent with 48 C.F.R. §12.212 or 48 C.F.R. §§227.7202-1 through
 227.7202-4, as applicable, the Commercial Computer Software and Commercial Computer Software Documentation are
 being licensed to U.S. Government end users (a) only as Commercial Items and (b) with only those rights as are granted
@@ -115,7 +115,7 @@ sentence shall be incorporated by reference.
    - 4 Scripting with AppleScript
       - For more information
       - Your first Illustrator script
-         - Adding features to “Hello World”
+         - Adding features to "Hello World"
       - Object references
          - Obtaining objects from documents and layers
          - Creating new objects
@@ -134,7 +134,7 @@ sentence shall be incorporated by reference.
    - 5 Scripting with JavaScript
       - For more information
       - Your first Illustrator script
-         - Adding features to “Hello World”
+         - Adding features to "Hello World"
       - Working with methods in JavaScript
       - Accessing and referencing objects
          - Referencing the application object
@@ -156,7 +156,7 @@ sentence shall be incorporated by reference.
    - 6 Scripting with VBScript
       - For more information
       - Your first Illustrator script
-         - Adding features to “Hello World”
+         - Adding features to "Hello World"
       - Accessing and referencing objects
          - Obtaining objects from collections
          - Creating new objects
@@ -348,7 +348,7 @@ ExtendScript offers all standard JavaScript features, plus a development and deb
 ExtendScript Toolkit (ESTK). The ESTK is installed with all scriptable Adobe applications, and is the default
 editor for JSX files. The ESTK includes an Object Model Viewer that contains complete documentation of
 the methods and properties of JavaScript objects. For information on accessing the ESTK and the Object
-Model Viewer, see “Viewing the JavaScript object model” on page 9.
+Model Viewer, see "Viewing the JavaScript object model" on page 9.
 ```
 ```
 ExtendScript also provides various tools and utilities, including the following:
@@ -473,7 +473,7 @@ editor probably provides access to the library. For information see your editor�
 2. In the Visual Basic Editor, choose Tools > References.
 3. In the dialog that appears, select the check box for Adobe lllustrator CC Type Library, and click OK.
 4. Choose View > Object Browser, to display the Object Browser window.
-5. Choose “Illustrator” from the list of open libraries in the top-left pull-down menu of the Object
+5. Choose "Illustrator" from the list of open libraries in the top-left pull-down menu of the Object
     Browser window.
 
 ```
@@ -492,16 +492,16 @@ The Illustrator interface includes a Scripts menu (File > Scripts) that provides
 scripts.
 ```
 ```
-Scripts can be listed directly as menu items that run when you select them. See “Installing scripts in the
-Scripts menu” on page 10.
+Scripts can be listed directly as menu items that run when you select them. See "Installing scripts in the
+Scripts menu" on page 10.
 ```
 ```
-You can navigate from the menu to any script in your file system and then run the script. See “Executing
-scripts from the Other Scripts menu item” on page 11.
+You can navigate from the menu to any script in your file system and then run the script. See "Executing
+scripts from the Other Scripts menu item" on page 11.
 ```
 ```
 You also can have JavaScript scripts with a .jsx extension start automatically when you launch the
-application. For information, see “Startup scripts (.jsx scripts only)” on page 11.
+application. For information, see "Startup scripts (.jsx scripts only)" on page 11.
 ```
 #### Installing scripts in the Scripts menu
 
@@ -534,7 +534,7 @@ the file, the script is executed.
 ```
 ```
 Only files that are of one of the supported file types are displayed in the browse dialog. For details, see
-“Scripting language support in Adobe Illustrator CC 2017” on page 7.
+"Scripting language support in Adobe Illustrator CC 2017" on page 7.
 ```
 #### Startup scripts (.jsx scripts only)
 
@@ -719,11 +719,11 @@ Illustrator is:
  Mac OS 1000 files
 ```
 ```
-For more information on quitting and relaunching Illustrator, see “Launching and activating
-Illustrator” on page 22 and “Quitting Illustrator” on page 23.
+For more information on quitting and relaunching Illustrator, see "Launching and activating
+Illustrator" on page 22 and "Quitting Illustrator" on page 23.
 ```
 ```
- The “An Illustrator error occurred: 1346458189 (“PARM”)” alert may be popped when badly written
+ The "An Illustrator error occurred: 1346458189 ("PARM")" alert may be popped when badly written
 scripts are repeatedly run in Illustrator from the ESTK.
 ```
 ```
@@ -948,7 +948,7 @@ CHAPTER 2: The Illustrator Scripting Object Model The artwork tree **17**
  raster item
 ```
 ```
- symbol item (see “Dynamic objects” on page 21 )
+ symbol item (see "Dynamic objects" on page 21 )
 ```
 ```
  text frame
@@ -1298,7 +1298,7 @@ there is no need to launch Illustrator from your script.
 ```
 ```
 Information on launching Illustrator in JavaScript is beyond the scope of this guide. For details, search for
-“interapplication messaging” or “JavaScript messaging framework” in JavaScript Tools Guide.
+"interapplication messaging" or "JavaScript messaging framework" in JavaScript Tools Guide.
 ```
 **VBScript**
 
@@ -1382,7 +1382,7 @@ AppleScript or the active document property in JavaScript or VBScript. Similarly
 document object’s current layer or active layer property to refer to the selected layer.
 ```
 ```
-There are other types of “active” or “current” object properties, like active dataset or active view. For
+There are other types of "active" or "current" object properties, like active dataset or active view. For
 details, see the Adobe lllustrator CC 2017 Scripting Reference for your language.
 ```
 ##### Creating new objects
@@ -1518,7 +1518,7 @@ Documents(1).Layers(1).PathItems(1)
 For more examples of collection-item containers, see the document object Elements table in Adobe
 lllustrator CC 2017 Scripting Reference: AppleScript or the Properties table in Adobe lllustrator CC 2017
 Scripting Reference: JavaScript or Adobe lllustrator CC 2017 Scripting Reference: VBScript. A diagram of the
-lllustrator CC 2017 object model is in “The Illustrator Scripting Object Model” on page 14.
+lllustrator CC 2017 object model is in "The Illustrator Scripting Object Model" on page 14.
 ```
 ##### Selected objects
 
@@ -1570,7 +1570,7 @@ CHAPTER 3: Scripting Illustrator Measurement units **26**
 ```
 Illustrator uses points as the unit of measurement for almost all distances. One inch equals 72 points. The
 exception is values for properties like kerning , tracking , and the aki properties (used for Japanese text
-composition), which use em units. (See “Em space units” on page 26 .)
+composition), which use em units. (See "Em space units" on page 26 .)
 ```
 ```
 Illustrator uses points when communicating with your scripts regardless of the current ruler units. If your
@@ -1607,7 +1607,7 @@ defines a fixed point as a pair of page coordinates in the format [x, y]. The fi
 of the object’s bounding box.
 ```
 ```
-For information on the types of objects that comprise the page items collection, see “The artwork tree” on
+For information on the types of objects that comprise the page items collection, see "The artwork tree" on
 page 16.
 ```
 ```
@@ -1776,7 +1776,7 @@ allows you to specify a preset to define your print job.
 ```
 ```
 When defining the properties of a print options object, you can find out which printers, PPDs, print
-presets, and other items are available by using the application object’s read-only “list” properties, such
+presets, and other items are available by using the application object’s read-only "list" properties, such
 as the printer list , PPD file list , and print presets list properties.
 ```
 ```
@@ -1814,7 +1814,7 @@ For information about individual classes, objects, properties, commands, and par
 samples that demonstrate how to use many of these items, see Adobe lllustrator CC 2017 Scripting
 Reference: AppleScript, in the :Scripting:Documentation folder in your lllustrator CC 2017 installation
 directory. You also can view the lllustrator CC 2017 dictionary from the Script Editor application;see
-“Viewing the AppleScript object model” on page 9.
+"Viewing the AppleScript object model" on page 9.
 ```
 ```
 If you do not understand the concepts and terms used in this chapter, read Adobe Introduction to Scripting.
@@ -1822,7 +1822,7 @@ If you do not understand the concepts and terms used in this chapter, read Adobe
 #### Your first Illustrator script
 
 ```
-The traditional first project in any programming language is displaying the message “Hello World!” In this
+The traditional first project in any programming language is displaying the message "Hello World!" In this
 example, you create a new Illustrator document, then add a text frame containing this message. Follow
 these steps:
 ```
@@ -1848,13 +1848,13 @@ end tell
 
 ```
 TIP: To add the script to the Illustrator Scripts menu (File > Scripts), save the script in the Scripts folder. The
-script will appear on the menu the next time you start Illustrator. For details, see “Installing scripts in the
-Scripts menu” on page 10.
+script will appear on the menu the next time you start Illustrator. For details, see "Installing scripts in the
+Scripts menu" on page 10.
 ```
 
 CHAPTER 4: Scripting with AppleScript Object references **31**
 
-##### Adding features to “Hello World”
+##### Adding features to "Hello World"
 
 ```
 Next, we create a new script that makes changes to the Illustrator document you created with your first
@@ -2074,7 +2074,7 @@ end tell
 
 ```
 Threaded frames make a single story object. To observe this, run the following AppleScript after running
-the script in “Threaded frames” on page 33.
+the script in "Threaded frames" on page 33.
 ```
 ```
 display dialog ("There are " & (count(text frames of current document)) & " text frames.")
@@ -2194,11 +2194,11 @@ Remember:
 ```
 ```
  The scripting engine processes all measurements and page coordinates as points. For details, see
-“Measurement units” on page 26.
+"Measurement units" on page 26.
 ```
 ```
  x and y coordinates are measured from the bottom-left corner of the document, as indicated in the
-Info panel in the Illustrator application. For details, see “Page-item positioning and dimensions” on
+Info panel in the Illustrator application. For details, see "Page-item positioning and dimensions" on
 page 26.
 ```
 
@@ -2207,7 +2207,7 @@ CHAPTER 4: Scripting with AppleScript Working with the perspective grid **36**
 **Write-once access**
 
 ```
-Properties for path-item shapes use the “write-once” access status, which indicates that the property is
+Properties for path-item shapes use the "write-once" access status, which indicates that the property is
 writeable only when the object is created. For existing path-item objects, the properties are read-only
 properties whose values cannot be changed.
 ```
@@ -2502,8 +2502,8 @@ For information about individual classes, objects, properties, methods, and para
 samples that demonstrate how to use many of these items, see Adobe lllustrator CC 2017 Scripting
 Reference: JavaScript, in the /Scripting/Documentation folder in your lllustrator CC 2017 installation
 directory. You also can use the Illustrator dictionary, which you access from the Object Model Viewer in the
-ESTK. For information on using the ExtendScript Toolkit and the Object Model Viewer, see “Viewing the
-JavaScript object model” on page 9 or JavaScript Tools Guide.
+ESTK. For information on using the ExtendScript Toolkit and the Object Model Viewer, see "Viewing the
+JavaScript object model" on page 9 or JavaScript Tools Guide.
 ```
 ```
 If you do not understand the concepts and terms used in this chapter, read Adobe Introduction to Scripting.
@@ -2511,7 +2511,7 @@ If you do not understand the concepts and terms used in this chapter, read Adobe
 #### Your first Illustrator script
 
 ```
-The traditional first project in any programming language is displaying the message “Hello World!” In this
+The traditional first project in any programming language is displaying the message "Hello World!" In this
 example, you create a new Illustrator document, then add a text frame containing this message. Follow
 these steps:
 ```
@@ -2527,7 +2527,7 @@ myTextFrame.position = [200,200];
 myTextFrame.contents = "Hello World!"
 ```
 ```
-For information on locating the ExtendScript Toolkit, see “Viewing the JavaScript object model” on
+For information on locating the ExtendScript Toolkit, see "Viewing the JavaScript object model" on
 page 9.
 ```
 2. To test the script, do either of the following:
@@ -2546,10 +2546,10 @@ CHAPTER 5: Scripting with JavaScript Working with methods in JavaScript **41**
 
 ```
 TIP: To add the script to the Illustrator Scripts menu (File > Scripts), save the script in the Scripts folder. The
-script will appear on the menu the next time you start Illustrator. For details, see “Installing scripts in the
-Scripts menu” on page 10.
+script will appear on the menu the next time you start Illustrator. For details, see "Installing scripts in the
+Scripts menu" on page 10.
 ```
-##### Adding features to “Hello World”
+##### Adding features to "Hello World"
 
 ```
 Next, we create a new script that makes changes to the Illustrator document you created with your first
@@ -2841,7 +2841,7 @@ CHAPTER 5: Scripting with JavaScript Creating paths and shapes **45**
 
 ```
 Threaded frames make a single story object. To observe this, run the following JavaScript after running
-the script in “Threaded frames” on page 44.
+the script in "Threaded frames" on page 44.
 ```
 ```
 var myDoc = app.activeDocument
@@ -2970,11 +2970,11 @@ Remember:
 ```
 ```
  All measurements and page coordinates are processed as points by the scripting engine. For details,
-see “Measurement units” on page 26.
+see "Measurement units" on page 26.
 ```
 ```
  x and y coordinates are measured from the bottom-left corner of the document, as indicated in the
-Info panel in the Illustrator application. For details, see “Page-item positioning and dimensions” on
+Info panel in the Illustrator application. For details, see "Page-item positioning and dimensions" on
 page 26.
 ```
 
@@ -3279,7 +3279,7 @@ For information about individual classes, objects, properties, methods, and para
 samples that demonstrate how to use many of these items, see Adobe Illustrator CC 2017 Scripting
 Reference: VBScript, in the /Scripting/Documentation folder in your lllustrator CC 2017 installation
 directory. You also can view the lllustrator CC 2017 type library from most VBScript editors or any Microsoft
-Office application; see “Viewing the VBScript object model” on page 10.
+Office application; see "Viewing the VBScript object model" on page 10.
 ```
 ```
 If you do not understand the concepts and terms used in this chapter, read Adobe Introduction to Scripting.
@@ -3287,7 +3287,7 @@ If you do not understand the concepts and terms used in this chapter, read Adobe
 #### Your first Illustrator script
 
 ```
-The traditional first project in any programming language is displaying the message “Hello World!” Follow
+The traditional first project in any programming language is displaying the message "Hello World!" Follow
 these steps:
 ```
 1. Start any text editor (for example, Notepad).
@@ -3315,14 +3315,14 @@ sampleText.Contents = "Hello World!"
 ```
 ```
 TIP: To add the script to the Illustrator Scripts menu (File > Scripts), save the script in the Scripts folder. The
-script will appear on the menu the next time you start Illustrator. For details, see “Installing scripts in the
-Scripts menu” on page 10. In general, when you launch a VBScript script from the Scripts menu, any
+script will appear on the menu the next time you start Illustrator. For details, see "Installing scripts in the
+Scripts menu" on page 10. In general, when you launch a VBScript script from the Scripts menu, any
 msgBox dialogs will not display correctly.
 ```
 
 CHAPTER 6: Scripting with VBScript Accessing and referencing objects **52**
 
-##### Adding features to “Hello World”
+##### Adding features to "Hello World"
 
 ```
 Next, we create a new script that makes changes to the Illustrator document you created with your first
@@ -3515,7 +3515,7 @@ appRef.Redraw()
 
 ```
 Threaded frames make a single story object. To observe this, run the following VBScript after running the
-script in “Threaded frames” on page 55.
+script in "Threaded frames" on page 55.
 ```
 ```
 Set myDoc = appRef.ActiveDocument
@@ -3643,11 +3643,11 @@ Remember:
 ```
 ```
  The scripting engine processes all measurements and page coordinates as points. For details, see
-“Measurement units” on page 26.
+"Measurement units" on page 26.
 ```
 ```
  x and y coordinates are measured from the bottom-left corner of the document, as indicated in the
-Info panel in the Illustrator application. For details, see “Page-item positioning and dimensions” on
+Info panel in the Illustrator application. For details, see "Page-item positioning and dimensions" on
 page 26.
 ```
 **Creating a rectangle**
@@ -3714,12 +3714,12 @@ values, aiHorizontal and aiVertical.
 To find the numeral values of enumerations, use either of the following:
 ```
 ```
- The object browser in your scripting editor environment. See “Viewing the VBScript object model” on
+ The object browser in your scripting editor environment. See "Viewing the VBScript object model" on
 page 10.
 ```
 ```
  The Adobe lllustrator CC 2017 Scripting Reference: VBScript, which lists the numeral values directly after
-the constant value in the “Enumerations” chapter at the end of the book. The following example is
+the constant value in the "Enumerations" chapter at the end of the book. The following example is
 from that table:
 ```
 ```
@@ -4062,7 +4062,7 @@ H
 ```
 ```
 height, maximum value allowed, 26
-”Hello World” script
+"Hello World" script
 creating, 30, 40, 51
 improving, 31, 41, 52
 ```

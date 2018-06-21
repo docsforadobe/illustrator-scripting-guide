@@ -46,9 +46,9 @@ United States and other countries.
 All other trademarks are the property of their respective owners.
 
 Adobe Systems Incorporated, 345 Park Avenue, San Jose, California 95110, USA. Notice to U.S. Government End Users.
-The Software and Documentation are “Commercial Items,” as that term is defined at 48 C.F.R. §2.101, consisting of
+The Software and Documentation are "Commercial Items," as that term is defined at 48 C.F.R. §2.101, consisting of
 
-“Commercial Computer Software” and “Commercial Computer Software Documentation,” as such terms are used in 48
+"Commercial Computer Software" and "Commercial Computer Software Documentation," as such terms are used in 48
 C.F.R. §12.212 or 48 C.F.R. §227.7202, as applicable. Consistent with 48 C.F.R. §12.212 or 48 C.F.R. §§227.7202-1 through
 
 227.7202-4, as applicable, the Commercial Computer Software and Commercial Computer Software Documentation are
@@ -2039,7 +2039,7 @@ CHAPTER 1: JavaScript Object Reference Document **35**
 An Illustrator document. Documents are contained in the Application object.
 
 ```
-The default document settings—those properties starting with the word “default”—are global settings
+The default document settings—those properties starting with the word "default"—are global settings
 that affect the current document. Be sure to modify these default properties only when a document is
 open. Note that if you set default properties to desired values before creating new objects, you can
 streamline your scripts, eliminating the need to specify specific properties such as fillColor and
@@ -5731,7 +5731,7 @@ A text object created in Illustrator CS (version 10) or earlier, which is unedit
 legacy text, see convertToNative.
 ```
 ```
-You can view, move, and print legacy text, but you cant edit it. Legacy text has an “x” through its bounding
+You can view, move, and print legacy text, but you cant edit it. Legacy text has an "x" through its bounding
 box when selected.
 ```
 **LegacyTextItem properties**
@@ -6482,7 +6482,7 @@ CHAPTER 1: JavaScript Object Reference NoColor **106**
 ### NoColor
 
 ```
-Represents the “none” color. Assigning a NoColor object to the fill or stroke color of an art item is
+Represents the "none" color. Assigning a NoColor object to the fill or stroke color of an art item is
 equivalent to setting the filled or stroked property to false.
 ```
 **NoColor properties**
@@ -7837,7 +7837,7 @@ width and controls.
 
 ```
 evenodd boolean If true, the even-odd rule should be used to
-determine “insideness.”
+determine "insideness."
 ```
 **fillColor** Color The fill color of the path.
 
@@ -9107,7 +9107,7 @@ CHAPTER 1: JavaScript Object Reference PlacedItem **151**
 ```
 An artwork item placed in a document as a linked file. For example, an artwork object created using the
 File > Place command in Illustrator or using the add() method of the placedItems collection object is a
-placed item. For information, see “PlacedItems” on page 155.
+placed item. For information, see "PlacedItems" on page 155.
 ```
 **PlacedItem properties**
 
@@ -9449,7 +9449,7 @@ add
 none PlacedItem Creates a new object. Use to place new art in a
 document. Use the file property of the resulting
 placedItem object to link the file containing the
-artwork. See “PlacedItem” on page 151.
+artwork. See "PlacedItem" on page 151.
 ```
 ```
 getByName

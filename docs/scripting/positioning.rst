@@ -8,7 +8,7 @@ page item objects in a document. Every page item object in a document has a posi
 defines a fixed point as a pair of page coordinates in the format [x, y]. The fixed point is the top-left corner
 of the object’s bounding box.
 
-For information on the types of objects that comprise the page items collection, see “The artwork tree” on
+For information on the types of objects that comprise the page items collection, see "The artwork tree" on
 
 A point is designated by a pair of coordinates:
 

@@ -18,5 +18,5 @@ and color-management options. The ``print options`` object also has a ``print pr
 allows you to specify a preset to define your print job.
 
 When defining the properties of a ``print options`` object, you can find out which printers, PPDs, print
-presets, and other items are available by using the ``application`` object’s read-only “list” properties, such
+presets, and other items are available by using the ``application`` object’s read-only "list" properties, such
 as the ``printer list``, ``PPD file list``, and ``print presets list`` properties.

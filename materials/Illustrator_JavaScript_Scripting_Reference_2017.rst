@@ -7,12 +7,12 @@
 |image0|
 
  2016 Adobe Systems Incorporated. All rights reserved.
-                                                       
+
 
    *Adobe Illustrator CC 2017 Scripting Reference: JavaScript*
 
 If this guide is distributed with software that includes an end user agreement, this guide, as well as the software described in it, is furnished under license and may be used or copied only in accordance with the terms of such license. Except as permitted by any such license, no part of this guide may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means, electronic, mechanical, recording, or otherwise, without the prior written permission of Adobe Systems Incorporated. Please note that the content in this guide is protected under copyright law even if it is not distributed with software that includes an end user license agreement.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
 
    The content of this guide is furnished for informational use only, is subject to change without notice, and should not be construed as a commitment by Adobe Systems Incorporated. Adobe Systems Incorporated assumes no responsibility or liability for any errors or inaccuracies that may appear in the informational content contained in this guide.
 
@@ -26,7 +26,7 @@ If this guide is distributed with software that includes an end user agreement, 
 
    All other trademarks are the property of their respective owners.
 
-   Adobe Systems Incorporated, 345 Park Avenue, San Jose, California 95110, USA. Notice to U.S. Government End Users. The Software and Documentation are “Commercial Items,” as that term is defined at 48 C.F.R. §2.101, consisting of “Commercial Computer Software” and “Commercial Computer Software Documentation,” as such terms are used in 48
+   Adobe Systems Incorporated, 345 Park Avenue, San Jose, California 95110, USA. Notice to U.S. Government End Users. The Software and Documentation are "Commercial Items," as that term is defined at 48 C.F.R. §2.101, consisting of "Commercial Computer Software" and "Commercial Computer Software Documentation," as such terms are used in 48
 
    C.F.R. §12.212 or 48 C.F.R. §227.7202, as applicable. Consistent with 48 C.F.R. §12.212 or 48 C.F.R. §§227.7202-1 through 227.7202-4, as applicable, the Commercial Computer Software and Commercial Computer Software Documentation are being licensed to U.S. Government end users (a) only as Commercial Items and (b) with only those rights as are granted to all other end users pursuant to the terms and conditions herein. Unpublished-rights reserved under the copyright laws of the United States. Adobe Systems Incorporated, 345 Park Avenue, San Jose, CA 95110-2704, USA. For U.S. Government End Users, Adobe agrees to comply with all applicable equal opportunity laws including, if appropriate, the provisions of Executive Order 11246, as amended, Section 402 of the Vietnam Era Veterans Readjustment Assistance Act of 1974 (38 USC 4212), and Section 503 of the Rehabilitation Act of 1973, as amended, and the regulations at 41 CFR Parts 60-1 through 60-60, 60-250, and 60-741. The affirmative action clause and regulations contained in the preceding sentence shall be incorporated by reference.
 
@@ -332,7 +332,7 @@ If this guide is distributed with software that includes an end user agreement, 
    These examples are intended to be clear demonstrations of syntax, and do not show the best or most efficient way to construct a JavaScript script. Error checking, for instance, is generally brief or missing. However, the examples can be combined and expanded to make scripts with greater functionality.
 
 7
- 
+
 
 Application
 -----------
@@ -414,24 +414,24 @@ Application
    ()
 
 concatenateMatrix
-                 
+
 
    (matrix, secondMatrix)
 
 concatenateRotationMatrix
-                         
+
 
    (matrix, angle)
 
 concatenateScaleMatrix
-                      
+
 
    (matrix [,scaleX]
 
    [,scaleY])
 
 concatenateTranslationMatrix
-                            
+
 
    (matrix [,deltaX]
 
@@ -452,7 +452,7 @@ concatenateTranslationMatrix
    number (double) number (double)
 
 nothing Alerts the user.
-                        
+
 
    Matrix Joins two matrices together.
 
@@ -463,7 +463,7 @@ nothing Alerts the user.
    Matrix Joins a translation to a transformation matrix.
 
 convertSampleColor
-                  
+
 
    (sourceColorSpace, sourceColor, destColorSpace, colorConvertPurpose [,sourceHasAlpha] [,destHasAlpha])
 
@@ -476,96 +476,96 @@ convertSampleColor
    ColorComponents
 
 Converts a sample-component color from one color space to another.
-                                                                  
+
 
 copy
-    
+
 
    ()
 
 nothing Copies current selection to the clipboard.
-                                                  
+
 
    **Method Parameter type Returns What it does**
 
 cut
-   
+
 
    ()
 
 deleteWorkspace()
-                 
+
 
    (workspaceName) string
 
 getIdentityMatrix
-                 
+
 
    ()
 
 getIsFileOpen
-             
+
 
    (filePath) string
 
 getPPDFileInfo
-              
+
 
    (name) string
 
 getPresetFileOfType
-                   
+
 
    (presetType) `DocumentPresetType`_
 
 getPresetSettings
-                 
+
 
    (preset) string
 
 getRotationMatrix
-                 
+
 
    ([angle]) number (double)
 
 nothing Cuts current selection to the clipboard.
-                                                
+
 
    Boolean Deletes an existing workspace.
 
    Matrix Returns an identity matrix.
 
 Boolean Returns if the specified filePath is open
-                                                 
+
 
    `PPDFileInfo`_ Gets detailed file information for
 
 specified PPD file.
-                   
+
 
    File Returns the full path to the application’s default document profile for the specified preset type.
 
    `DocumentPreset`_ Retrieves the tracing-option
 
 settings from the template with a given preset name.
-                                                    
+
 
    Matrix Returns a transformation matrix containing a single rotation.
 
 getScaleMatrix
-              
+
 
    ([scaleX]
 
    [, scaleY])
 
 getScriptableHelpGroup
-                      
+
 
    ()
 
 getTranslationMatrix
-                    
+
 
    ([deltaX]
 
@@ -576,7 +576,7 @@ getTranslationMatrix
    number (double) number (double)
 
 **NOTE:** Requires a value in degrees. For example, 30 rotates the object 30 degrees counterclockwise; -30 rotates the object 30 degrees clockwise.
-                                                                                                                                                   
+
 
    Matrix Returns a transformation matrix containing a single scale.
 
@@ -591,12 +591,12 @@ getTranslationMatrix
    **Method Parameter type Returns What it does**
 
 invertMatrix
-            
+
 
    (matrix) Matrix
 
 isEqualMatrix
-             
+
 
    Matrix Inverts a matrix.
 
@@ -605,24 +605,24 @@ isEqualMatrix
    (matrix, secondMatrix)
 
 isSingularMatrix
-                
+
 
    Matrix Matrix
 
 are equal.
-          
+
 
    boolean Checks whether a matrix is singular
 
    (Matrix) Matrix
 
 loadColorSettings
-                 
+
 
    (fileSpec) File
 
 open
-    
+
 
    and cannot be inverted.
 
@@ -639,35 +639,35 @@ open
    If you open a pre-Illustrator 9 document that contains both RGB and CMYK colors and documentColorSpace is supplied, all colors are converted to the specified color space. If the parameter is not supplied, Illustrator opens a dialog so the user can choose the color space.
 
 **paste()** nothing Pastes current clipboard content into the current document.
-                                                                               
+
 
 quit
-    
+
 
    ()
 
 nothing Quits Illustrator. Note that if the clipboard contains data, Illustrator may show a dialog prompting the user to save the data for other applications.
-                                                                                                                                                              
+
 
    **redo()** nothing Redoes the most recently undone transaction.
 
 redraw
-      
+
 
    ()
 
 resetWorkspace()
-                
+
 
    ()
 
 saveWorkspace()
-               
+
 
    (workspaceName) string
 
 sendScriptMessage
-                 
+
 
    nothing Forces Illustrator to redraw all its windows.
 
@@ -680,12 +680,12 @@ sendScriptMessage
    (pluginName, messageSelector, inputString)
 
 showPresets
-           
+
 
    string string string
 
 message to a plug-in with given input arguments, and returns the plug-in-defined result string.
-                                                                                               
+
 
    PrintPresetList Gets presets from the file.
 
@@ -695,12 +695,12 @@ Method Parameter type Returns What it does
 ''''''''''''''''''''''''''''''''''''''''''
 
 switchWorkspace()
-                 
+
 
    (workspaceName) string
 
 translatePlaceholderText
-                        
+
 
    (text) string
 
@@ -756,7 +756,7 @@ Artboard
 --------
 
 An Artboard object represents a single artboard in a document. There can be between 1 to 100 artboards in one document.
-                                                                                                                       
+
 
    **Artboard properties**
 
@@ -789,12 +789,12 @@ An Artboard object represents a single artboard in a document. There can be betw
    **Method Parameter type Returns What it does**
 
 remove
-      
+
 
 ()
 
 Nothing Deletes this artboard object. You
-                                         
+
 
    cannot remove the last artboard in a document.
 
@@ -825,22 +825,22 @@ Method Parameter type Returns What it does
 ''''''''''''''''''''''''''''''''''''''''''
 
 add
-   
+
 
    (artboardRect) rect
 
 getActiveArtboardIndex
-                      
+
 
    ()
 
 getByName
-         
+
 
    (name) string
 
 insert
-      
+
 
    `Artboard`_ Creates a new Artboard object.
 
@@ -851,7 +851,7 @@ insert
    `Artboard`_ Gets the first element in the
 
 collection with the specified name.
-                                   
+
 
    Nothing Creates a new `Artboard`_ object and
 
@@ -862,29 +862,29 @@ collection with the specified name.
    number (long)
 
 inserts it at the given index in the list.
-                                          
+
 
 .. _remove-1:
 
 remove
-      
+
 
    (index)
 
 setActiveArtboardIndex
-                      
+
 
    (index)
 
    number (long) Nothing Deletes an artboard object. You
 
 cannot remove the last artboard in a document.
-                                              
+
 
    number (long) Nothing Makes a specific artboard active and
 
 makes it current in the iteration order.
-                                        
+
 
 Brush
 -----
@@ -910,12 +910,12 @@ Brush
    **Method Parameter type Returns What it does**
 
 applyTo
-       
+
 
    (artItem) `PageItem`_
 
 Nothing Applies the brush to a specific art item.
-                                                 
+
 
    **Applying a brush**
 
@@ -943,7 +943,7 @@ Brushes
 -------
 
 A collection of brush objects in a document.
-                                            
+
 
    **Brushes properties**
 
@@ -966,17 +966,17 @@ A collection of brush objects in a document.
 .. _getbyname-1:
 
 getByName
-         
+
 
    (name) string
 
 index
-     
+
 
    (itemKey) string, number
 
 `Brush`_ Gets the first element in the collection with the specified name.
-                                                                          
+
 
    `Brush`_ Gets an element from the collection.
 
@@ -992,7 +992,7 @@ CharacterAttributes
 -------------------
 
 Specifies the properties of a character contained in a text frame. A CharacterStyle object associates these attributes with a specific text range through its characterAttributes property.
-                                                                                                                                                                                           
+
 
    **NOTE:** Character attributes do not have default values, and are undefined until explicitly set.
 
@@ -1222,7 +1222,7 @@ Characters
 ----------
 
 A collection of characters (TextRange objects of length 1). The elements are not named; you must access them by index.
-                                                                                                                      
+
 
    **Characters properties**
 
@@ -1245,19 +1245,19 @@ A collection of characters (TextRange objects of length 1). The elements are not
 .. _add-1:
 
 add
-   
+
 
    (contents [,relativeObject] [,insertionLocation])
 
 addBefore
-         
+
 
    string `TextFrameItem`_ `ElementPlacement`_
 
    `TextRange`_ Adds a new character with
 
 specified text contents at the specified location in the current document. If a location is not specified, adds the new character to the containing text frame after the current text selection or insertion point.
-                                                                                                                                                                                                                   
+
 
    `TextRange`_ Adds a character before the
 
@@ -1266,22 +1266,22 @@ specified text contents at the specified location in the current document. If a 
 .. _index-1:
 
 index
-     
+
 
    (itemKey) number
 
 removeAll
-         
+
 
    ()
 
 specified text selection.
-                         
+
 
    `TextRange`_ Gets an element from the collection.
 
 Nothing Deletes all elements in the collection.
-                                               
+
 
    **Counting characters**
 
@@ -1301,7 +1301,7 @@ CharacterStyle
 --------------
 
 Associates character attributes with characters. For an example, see `CharacterStyles`_.
-                                                                                        
+
 
    **CharacterStyle properties**
 
@@ -1326,24 +1326,24 @@ Associates character attributes with characters. For an example, see `CharacterS
 .. _applyto-1:
 
 applyTo
-       
+
 
    (textItem [,clearingOverrides])
 
 .. _remove-2:
 
 remove
-      
+
 
    ()
 
 object
-      
+
 
    boolean
 
 Nothing Applies the character style to the text object or objects.
-                                                                  
+
 
    Nothing Deletes the object.
 
@@ -1376,28 +1376,28 @@ Method Parameter type Returns What it does
 .. _add-2:
 
 add
-   
+
 
    (name) string
 
 .. _getbyname-2:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-2:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-1:
 
 removeAll
-         
+
 
    ()
 
@@ -1451,7 +1451,7 @@ CMYKColor
 ---------
 
 A CMYK color specification, used where a color object is required.
-                                                                  
+
 
    If the color space of a document is RGB and you specify the color value for a page item in that document using CMYK, Illustrator will translate the CMYK color specification into an RGB color specification. The same thing happens if the document’s color space is CMYK and you specify colors using RGB. Since this translation can lose information, you should specify colors using the class that matches the document’s actual color space.
 
@@ -1497,7 +1497,7 @@ Color
 -----
 
 An abstract parent class for all color classes used in Illustrator. Subclasses are:
-                                                                                   
+
 
    `CMYKColor`_ `GradientColor`_ `GrayColor`_ `LabColor`_ `NoColor`_ `PatternColor`_ `RGBColor`_ `SpotColor`_
 
@@ -1505,7 +1505,7 @@ CompoundPathItem
 ----------------
 
 A compound path. These objects are composed of multiple intersecting paths, resulting in transparent interior spaces where the component paths overlap. The pathItems property provides access to the paths that make up the compound path.
-                                                                                                                                                                                                                                           
+
 
    Paths contained within a compound path or group in a document are returned as individual paths when a script asks for the paths contained in the document. However, paths contained in a compound path or group are not returned when a script asks for the paths in a layer that contains the compound path or group.
 
@@ -1518,35 +1518,35 @@ A compound path. These objects are composed of multiple intersecting paths, resu
    **artworkKnockout** `KnockoutState`_ Is this object used to create a knockout, and if so, what
 
 kind of knockout.
-                 
+
 
    **blendingMode** `BlendModes`_ The mode used when compositing an object.
 
    **controlBounds** array of 4 numbers
 
 Read-only. The bounds of the object including stroke width and controls.
-                                                                        
+
 
    **editable** boolean Read-only. If true, this item is editable.
 
    **geometricBounds** array of
 
 4 numbers
-         
+
 
    Read-only. The bounds of the object excluding stroke width.
 
    **height** number(double) The height of the compound path item excluding stroke
 
 width.
-      
+
 
    **hidden** boolean If true, this compound path item is hidden.
 
    **isIsolated** boolean If true, this object is isolated.
 
 **layer** `Layer`_ Read-only. The layer to which this compound path item belongs.
-                                                                                 
+
 
    **left** number(double) The position of the left side of the item (in points, measured from the left side of the page).
 
@@ -1563,7 +1563,7 @@ width.
 `GroupItem`_
 
 Read-only. The parent of this object.
-                                     
+
 
    **pathItems** `PathItems`_ Read-only. The path art items in this compound path.
 
@@ -1572,17 +1572,17 @@ Read-only. The parent of this object.
    **position** array of 2 numbers
 
 The position (in points) of the top left corner of the compoundPathItem object in the format [x, y]. Does not include stroke weight.
-                                                                                                                                    
+
 
    **selected** boolean If true, this compound path item is selected. **sliced** boolean If true, the item is sliced. Default: false **tags** `Tags`_ Read-only. The tags contained in this object.
 
 **top** number (double) The position of the top of the item (in points, measured from the bottom of the page).
-                                                                                                              
+
 
    **typename** string Read-only. Read-only. The class name of the referenced
 
 object.
-       
+
 
    **uRL** string The value of the Adobe URL tag assigned to this compound path item.
 
@@ -1591,14 +1591,14 @@ object.
    **visibleBounds** array of 4 numbers
 
 Read-only. The visible bounds of the compound path item including stroke width.
-                                                                               
+
 
    **width** number (double) The width of the compound path item excluding stroke
 
 .. _width.-1:
 
 width.
-      
+
 
    **wrapInside** boolean If true, the text frame object should be wrapped inside this object.
 
@@ -1607,72 +1607,72 @@ width.
    **wrapped** boolean If true, wrap text frame objects around this object (text
 
 frame must be above the object).
-                                
+
 
    **zOrderPosition** number (long) Read-only. The position of this art item within the stacking
 
 order of the group or layer (Parent) that contains the art item.
-                                                                
+
 
    **CompoundPathItem methods**
 
    **Method Parameter type Returns What it does**
 
 duplicate
-         
+
 
    ([relativeObject] [,insertionLocation])
 
 .. _object-1:
 
 object
-      
+
 
    `ElementPlacement`_
 
    `CompoundPath`_ `Item`_
 
 Creates a duplicate of the selected object.
-                                           
+
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 .. _remove-3:
 
 remove
-      
+
 
    ()
 
 resize
-      
+
 
    (scaleX, scaleY
 
    [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidths] [,scaleAbout])
 
 rotate
-      
+
 
    (angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])
 
 transform
-         
+
 
    (transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidths] [,transformAbout])
 
 translate
-         
+
 
    ([deltaX]
 
    [,deltaY] [,transformObjects] [,transformFillPatterns] [,transformFillGradients] [,transformStrokePatterns])
 
 zOrder
-      
+
 
    object
 
@@ -1697,7 +1697,7 @@ zOrder
    boolean boolean boolean
 
 Nothing Moves the object.
-                         
+
 
    Nothing Deletes this object.
 
@@ -1716,7 +1716,7 @@ Nothing Moves the object.
    (zOrderCmd) `ZOrderMethod`_
 
 position in the stacking order of the group or layer (parent) of this object.
-                                                                             
+
 
    **Selecting paths in a document**
 
@@ -1802,28 +1802,28 @@ Method Parameter type Returns What it does
 .. _add-3:
 
 add
-   
+
 
    ()
 
 .. _getbyname-3:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-3:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-2:
 
 removeAll
-         
+
 
    ()
 
@@ -1847,7 +1847,7 @@ Dataset
 -------
 
 A set of data used for dynamic publishing. A dataset allows you to collect a number of variables and their dynamic data into one object. You must have at least one variable bound to an art item in order to create a dataset. See the class `Variable`_.
-                                                                                                                                                                                                                                                          
+
 
    **Dataset properties**
 
@@ -1868,24 +1868,24 @@ A set of data used for dynamic publishing. A dataset allows you to collect a num
    **Method Parameter type Returns What it does**
 
 display
-       
+
 
 ()
 
 .. _remove-4:
 
 remove
-      
+
 
 ()
 
 update
-      
+
 
 ()
 
 Nothing Displays the dataset. Nothing Deletes this object. Nothing Updates the dataset.
-                                                                                       
+
 
    **Using variables and datasets**
 
@@ -1955,28 +1955,28 @@ Method Parameter type Returns What it does
 .. _add-4:
 
 add
-   
+
 
    ()
 
 .. _getbyname-4:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-4:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-3:
 
 removeAll
-         
+
 
    ()
 
@@ -1991,7 +1991,7 @@ Document
 
    An Illustrator document. Documents are contained in the Application object.
 
-   The default document settings—those properties starting with the word “default”—are global settings that affect the current document. Be sure to modify these default properties only when a document is open. Note that if you set default properties to desired values before creating new objects, you can streamline your scripts, eliminating the need to specify specific properties such as fillColor and stroked that have default properties.
+   The default document settings—those properties starting with the word "default"—are global settings that affect the current document. Be sure to modify these default properties only when a document is open. Note that if you set default properties to desired values before creating new objects, you can streamline your scripts, eliminating the need to specify specific properties such as fillColor and stroked that have default properties.
 
    A document’s color space, height, and width can only be set when the document is created. You cannot modify these properties in an existing document. See `Application`_\ .\ `open`_ for more information on how document color spaces are handled.
 
@@ -2224,22 +2224,22 @@ Document
    **Method Parameter type Returns What it does**
 
 activate
-        
+
 
    ()
 
 arrange
-       
+
 
    ([layoutStyle]) `DocumentLayoutStyle`_
 
 close
-     
+
 
    ([saveOptions]) `SaveOptions`_
 
 Nothing Brings the first window
-                               
+
 
    associated with the document to the front.
 
@@ -2250,19 +2250,19 @@ Nothing Brings the first window
    specified save options.
 
 closeNoUI
-         
+
 
    ()
 
 convertCoordinate
-                 
+
 
    (coordinate, source, destination)
 
    Point `CoordinateSystem`_ `CoordinateSystem`_
 
 When you close a document, you should set your document reference to null to prevent your script from accidentally trying to access closed documents.
-                                                                                                                                                     
+
 
    Nothing Closes the specified non-UI document.
 
@@ -2271,17 +2271,17 @@ When you close a document, you should set your document reference to null to pre
    **Method Parameter type Returns What it does**
 
 exportFile
-          
+
 
    (exportFile, exportFormat [,options])
 
 exportPDFPreset
-               
+
 
    File `ExportType`_ variant
 
 Nothing Exports the document to the
-                                   
+
 
    specified file using one of the predefined export file formats. The appropriate file extension is automatically appended to the file name, except for Photoshop® documents. For these, you must include the file extension (PSD) in the file specification.
 
@@ -2290,27 +2290,27 @@ Nothing Exports the document to the
    (file) File
 
 exportPerspectiveGridPreset
-                           
+
 
    (file) File
 
 exportPrintPreset
-                 
+
 
    (file) File
 
 exportVariables
-               
+
 
    (fileSpec) File
 
 fitArtboardToSelectedArt
-                        
+
 
    ([index]) number (long)
 
 preset values to the file.
-                          
+
 
    Nothing Exports the current perspective grid preset values to the file.
 
@@ -2329,22 +2329,22 @@ preset values to the file.
    0. Returns true on success.
 
 getPerspectiveActivePlane
-                         
+
 
    ()
 
    `Perspective GridPlaneTy`_ `pe`_
 
 Retrieves the active plane of the active perspective grid of the document.
-                                                                          
+
 
 hidePerspectiveGrid
-                   
+
 
    ()
 
 imageCapture
-            
+
 
    (imageFile, [clipBounds], [options])
 
@@ -2353,7 +2353,7 @@ imageCapture
    `ImageCaptureOptions`_
 
 boolean Hides the current active grid
-                                     
+
 
    for the document. If no grid is visible, does nothing. Returns true if a grid is hidden.
 
@@ -2362,12 +2362,12 @@ boolean Hides the current active grid
    within the clipping boundaries in this document as a raster image, and writes the image data to a specified file.
 
 importCharacterStyles
-                     
+
 
    (fileSpec) File
 
 If the bounds parameter is omitted, captures the entire artwork.
-                                                                
+
 
    Nothing Loads the character styles
 
@@ -2376,12 +2376,12 @@ If the bounds parameter is omitted, captures the entire artwork.
    **Method Parameter type Returns What it does**
 
 importParagraphStyles
-                     
+
 
    (fileSpec) File
 
 importPDFPreset
-               
+
 
    Nothing Loads the paragraph styles
 
@@ -2394,19 +2394,19 @@ importPDFPreset
    [, replacingPreset])
 
 importPerspectiveGridPreset
-                           
+
 
    (fileSpec
 
    [, perspectivePreset])
 
 importPrintPreset
-                 
+
 
    (printPreset, fileSpec)
 
 importVariables
-               
+
 
    File boolean
 
@@ -2415,7 +2415,7 @@ importVariables
    string File
 
 file.
-     
+
 
    Nothing Loads a specified perspective
 
@@ -2428,12 +2428,12 @@ file.
    (fileSpec) File
 
 print
-     
+
 
    ([options]) `PrintOptions`_
 
 rasterize
-         
+
 
    datasets, variables, and their associated dynamic data.
 
@@ -2448,7 +2448,7 @@ rasterize
    [, clipBounds] [, options])
 
 rearrangeArboards
-                 
+
 
    ([artboardLayout, artboardRowsOrCols, artboardSpacing, artboardMoveArtwork])
 
@@ -2461,14 +2461,14 @@ rearrangeArboards
    Number boolean
 
 within the specified clip bounds. The source art(s) is disposed of as a result of the rasterization.
-                                                                                                    
+
 
    boolean Rearranges artboards in the
 
    document. All arguments are optional. Default layout style is DocumentArtboard Layout.GridByRow.
 
 The second argument specifies the number of rows or columns, as appropriate for the chosen layout style, in the range [1..docNumArtboards-1], or 1 (the default) for single row/column layouts.
-                                                                                                                                                                                               
+
 
    Spacing is a number of pixels, default 20.
 
@@ -2477,12 +2477,12 @@ The second argument specifies the number of rows or columns, as appropriate for 
    **Method Parameter type Returns What it does**
 
 save
-    
+
 
    ()
 
 saveAs
-      
+
 
    (saveIn
 
@@ -2491,7 +2491,7 @@ saveAs
    File `SaveOptions`_
 
 Nothing Saves the document in it
-                                
+
 
    current location.
 
@@ -2500,31 +2500,31 @@ Nothing Saves the document in it
    specified file as an Illustrator, EPS, or PDF file.
 
 saveNoUI
-        
+
 
    (saveIn)
 
 selectObjectsOnActiveArtboard
-                             
+
 
    ()
 
 setActivePlane
-              
+
 
    File Nothing Saves the non-UI document at the specified path
 
    boolean Selects the objects on the
 
 currently active artboard. Returns true on success.
-                                                   
+
 
    boolean Sets the active plane of the
 
    (gridPlane) `PerspectiveGridPlaneType`_
 
 selectPerspectivePreset
-                       
+
 
    active perspective grid of the document. Returns true on success.
 
@@ -2533,12 +2533,12 @@ selectPerspectivePreset
    (gridType, presetName)
 
 showPerspectiveGrid
-                   
+
 
    ()
 
 windowCapture
-             
+
 
    (imageFile, windowSize)
 
@@ -2549,7 +2549,7 @@ windowCapture
    array of 2 numbers
 
 define grid for the current document. Returns true on success.
-                                                              
+
 
    boolean Shows the current active grid
 
@@ -2608,26 +2608,26 @@ Property Value type What it is
    **artboardRowsOrCols** number (long) The number of rows (for rows layout) or
 
 columns (for column layout) of artboards. Range: 1 to (numArtboards - 1) or 1 for single row or column layouts. Default: 1
-                                                                                                                          
+
 
    **artboardSpacing** number (double) The spacing between artboards in the new
 
 document. Default: 20.0
-                       
+
 
    **colorMode** `DocumentColorSpace`_ The color space for the new document.
 
    **documentBleedLink** Boolean The document link for bleed values.
 
 documentBleedOffsetR ect
-                        
+
 
    rectangle The document bleed offset rectangle.
 
    **height** number (double) The height in document points.
 
 Default: 792.0
-              
+
 
    **numArtboards** number (long) The number of artboards for the new
 
@@ -2636,7 +2636,7 @@ Default: 792.0
    **transparencyGrid** `DocumentTransparencyGrid`_ The transparency grid color for the new
 
 document.
-         
+
 
    **typename** string Read-only. The class name of the referenced object.
 
@@ -2645,7 +2645,7 @@ document.
    **width** number (double) The width in document points.
 
 Default: 612.0
-              
+
 
 Documents
 ---------
@@ -2677,7 +2677,7 @@ Method Parameter type Returns What it does
 .. _add-5:
 
 add
-   
+
 
    ([documentColorSpace] [, width]
 
@@ -2690,7 +2690,7 @@ add
    [, artboardRowsOrCols])
 
 addDocument
-           
+
 
    (startupPreset
 
@@ -2711,17 +2711,17 @@ addDocument
    `Document`_ Creates a document
 
 from the preset, replacing any provided setting values, and returns a reference to the new document.
-                                                                                                    
+
 
 addDocumentNoUI
-               
+
 
    (startupPreset)
 
 .. _getbyname-5:
 
 getByName
-         
+
 
    string `Document`_ Creates a document without showing in UI
 
@@ -2732,17 +2732,17 @@ getByName
 .. _index-5:
 
 index
-     
+
 
    (itemKey) string, number
 
 the collection with the specified name.
-                                       
+
 
    `Document`_ Gets an element from
 
 the collection.
-               
+
 
    **Creating a new document**
 
@@ -2752,7 +2752,7 @@ EPSSaveOptions
 --------------
 
 Options for saving a document as an Illustrator EPS file, used with the `saveAs`_ method. All properties are optional.
-                                                                                                                      
+
 
    **EPSSaveOptions properties**
 
@@ -2814,7 +2814,7 @@ ExportOptionsAutoCAD
 --------------------
 
 Options for exporting a document as an AutoCAD file, used with the `exportFile`_ method. All properties are optional.
-                                                                                                                     
+
 
    When you export a document, a file extension is appended automatically. You should not include any file extension in the file specification. To override the default AutoCAD export format (DWG), use the `exportFileFormat`_ property.
 
@@ -2967,7 +2967,7 @@ ExportOptionsGIF
 ----------------
 
 Options for exporting a document as a GIF file, used with the `exportFile`_ method. All properties are optional.
-                                                                                                                
+
 
    When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
@@ -3045,7 +3045,7 @@ ExportOptionsJPEG
 -----------------
 
 Options for exporting a document as a JPEG file, used with the `exportFile`_ method. All properties are optional.
-                                                                                                                 
+
 
    When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
@@ -3101,7 +3101,7 @@ ExportOptionsPhotoshop
 ----------------------
 
 Options for exporting a document as a Photoshop file, used with the `exportFile`_ method. All properties are optional.
-                                                                                                                      
+
 
    When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
@@ -3157,7 +3157,7 @@ ExportOptionsPNG8
 -----------------
 
 Options for exporting a document as an 8-bit PNG file, used with the `exportFile`_ method. All properties are optional.
-                                                                                                                       
+
 
    When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
@@ -3227,7 +3227,7 @@ ExportOptionsPNG24
 ------------------
 
 Options for exporting a document as a 24-bit PNG file, used with the `exportFile`_ method. All properties are optional.
-                                                                                                                       
+
 
    When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
@@ -3281,7 +3281,7 @@ ExportOptionsSVG
 ----------------
 
 Options for exporting a document as a SVG file, used with the `exportFile`_ method. All properties are optional.
-                                                                                                                
+
 
    When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
@@ -3401,7 +3401,7 @@ ExportOptionsTIFF
 -----------------
 
 Options for exporting a document as a TIFF file, used with the `exportFile`_ method. All properties are optional.
-                                                                                                                 
+
 
    When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
@@ -3449,7 +3449,7 @@ FXGSaveOptions
 --------------
 
 Specifies options which may be supplied when saving a document as an FXG file. All properties are optional.
-                                                                                                           
+
 
    **FXGSaveOptions properties**
 
@@ -3525,12 +3525,12 @@ Gradient
 .. _remove-5:
 
 remove
-      
+
 
 ()
 
 Nothing Removes the referenced object from the document.
-                                                        
+
 
    **Creating and applying a gradient**
 
@@ -3586,7 +3586,7 @@ GradientColor
 -------------
 
 A gradient color specification in a Gradient object. A script can create a new gradient color using a reference to an existing gradient in the document. If no existing gradient object is referenced, a default gradient is supplied.
-                                                                                                                                                                                                                                      
+
 
    **GradientColor properties**
 
@@ -3634,7 +3634,7 @@ Gradients
 ---------
 
 A collection of Gradient objects in a document.
-                                               
+
 
    **Gradients properties**
 
@@ -3657,35 +3657,35 @@ A collection of Gradient objects in a document.
 .. _add-6:
 
 add
-   
+
 
    ()
 
 .. _getbyname-6:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-6:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-4:
 
 removeAll
-         
+
 
    ()
 
    `Gradient`_ Creates a new Gradient object.
 
 `Gradient`_ Gets the first element in the collection with the specified name.
-                                                                             
+
 
    `Gradient`_ Gets an element from the collection. Nothing Deletes all elements in this collection.
 
@@ -3701,7 +3701,7 @@ GradientStop
 ------------
 
 A gradient stop definition that represents a point on a specific gradient defined in the document. Each gradient stop specifies a color change in the containing gradient. See `Changing a gradient stop color`_ for an example.
-                                                                                                                                                                                                                                
+
 
    **GradientStop properties**
 
@@ -3730,12 +3730,12 @@ A gradient stop definition that represents a point on a specific gradient define
 .. _remove-6:
 
 remove
-      
+
 
 ()
 
 Nothing Deletes this object.
-                            
+
 
 GradientStops
 -------------
@@ -3763,28 +3763,28 @@ GradientStops
 .. _add-7:
 
 add
-   
+
 
    ()
 
 .. _getbyname-7:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-7:
 
 index
-     
+
 
    (itemKey) number
 
 .. _removeall-5:
 
 removeAll
-         
+
 
    ()
 
@@ -3793,7 +3793,7 @@ removeAll
    `GradientStop`_ Gets the first element in the collection
 
 with the specified name.
-                        
+
 
    `GradientStop`_ Gets an element from the collection. Nothing Deletes all objects in this collection.
 
@@ -3835,7 +3835,7 @@ GraphicStyle
 ------------
 
 A graphic style. Each graphic style defines a set of appearance attributes that you can apply
-                                                                                             
+
 
    non-destructively to page items. Graphic styles are contained in documents. Scripts cannot create new graphic styles.
 
@@ -3860,24 +3860,24 @@ A graphic style. Each graphic style defines a set of appearance attributes that 
 .. _applyto-2:
 
 applyTo
-       
+
 
    (artItem) `PageItem`_
 
 mergeTo
-       
+
 
    (artItem) `PageItem`_
 
 .. _remove-7:
 
 remove
-      
+
 
    ()
 
 Nothing Applies this art style to a specified art item.
-                                                       
+
 
    Nothing Merges this art style into the current styles of a specified art item.
 
@@ -3939,21 +3939,21 @@ Method Parameter type: Returns What it does
 .. _getbyname-8:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-8:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-6:
 
 removeAll
-         
+
 
    ()
 
@@ -3962,7 +3962,7 @@ removeAll
    `GroupItem`_ Gets an element from the collection.
 
 Nothing Removes all elements in the referenced collection.
-                                                          
+
 
    **Counting graphics styles**
 
@@ -3980,7 +3980,7 @@ GraphItem
 ---------
 
 Any graph artwork object. See example `Rotating graph items`_ below.
-                                                                    
+
 
    **GraphItem properties**
 
@@ -3989,7 +3989,7 @@ Any graph artwork object. See example `Rotating graph items`_ below.
    **artworkKnockout** `KnockoutState`_ Is this object used to create a knockout, and if so, what
 
 kind of knockout. You cannot set this value to
-                                              
+
 
    KnockoutState.Unknown
 
@@ -3998,12 +3998,12 @@ kind of knockout. You cannot set this value to
    **contentVariable** Variable The content variable bound to the graph item.
 
 It is not necessary to set the type of the contentVariable before binding. Illustrator automatically set the type to GRAPH.
-                                                                                                                           
+
 
    **controlBounds** array of 4 numbers Read-only. The bounds of the object including stroke
 
 width and controls.
-                   
+
 
    **editable** boolean Read-only. If true, this graph item is editable.
 
@@ -4012,7 +4012,7 @@ width and controls.
 .. _width.-2:
 
 width.
-      
+
 
    **height** number (double) The height of the graph item.
 
@@ -4021,7 +4021,7 @@ width.
    **isIsolated** boolean If true, this object is isolated.
 
 **layer** `Layer`_ Read-only. The layer to which this graph item belongs.
-                                                                         
+
 
    **left** number The offset (in points) of the left side of the graph item from the left side of the page.
 
@@ -4034,7 +4034,7 @@ width.
    **opacity** number(double) The opacity of the object; the value is between 0.0
 
 and 100.0.
-          
+
 
    **parent** `Layer`_ or
 
@@ -4043,7 +4043,7 @@ and 100.0.
 .. _read-only.-the-parent-of-this-object.-1:
 
 Read-only. The parent of this object.
-                                     
+
 
    **position** array of 2 numbers The position (in points) of the top left corner of the
 
@@ -4056,14 +4056,14 @@ Read-only. The parent of this object.
    **Property Value type What it is**
 
 **tags** `Tags`_ Read-only. The tags contained in this graph item.
-                                                                  
+
 
    **top** number (double) The offset (in points) of the top of the graph item from the bottom of the page.
 
    **typename** string Read-only. The type of the graph item.
 
 **uRL** string The value of the Adobe URL tag assigned to this graph item.
-                                                                          
+
 
    **visibilityVariable** Variable The visibility variable bound to the graph item.
 
@@ -4072,31 +4072,31 @@ Read-only. The parent of this object.
    **visibleBounds** array of 4 numbers Read-only. The visible bounds of the graph item
 
 including stroke width.
-                       
+
 
    **width** number (double) The width of the graph item. Range: 0.0 to 16348.0
 
    **wrapInside** boolean If true, the text frame object should be wrapped
 
 inside this object.
-                   
+
 
    **wrapOffset** number (double) The offset to use when wrapping text around this
 
 .. _object.-1:
 
 object.
-       
+
 
    **wrapped** boolean If true, wrap text frame objects around this object.
 
 (Text frame must be above the object.)
-                                      
+
 
    **zOrderPosition** number (long) Read-only. The position of this art item within the
 
 stacking order of the group or layer (parent) that contains the art item.
-                                                                         
+
 
    **GraphItem methods**
 
@@ -4105,56 +4105,56 @@ stacking order of the group or layer (parent) that contains the art item.
 .. _duplicate-1:
 
 duplicate
-         
+
 
    ([relativeObject] [,insertionLocation])
 
 .. _move-1:
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 .. _remove-8:
 
 remove
-      
+
 
    ()
 
 .. _object-2:
 
 object
-      
+
 
    `ElementPlacement`_
 
 .. _object-3:
 
 object
-      
+
 
    `ElementPlacement`_
 
    `GraphItem`_ Creates a duplicate of the
 
 selected object.
-                
+
 
    `GraphItem`_ Moves the object.
 
 .. _nothing-deletes-this-object.-1:
 
 Nothing Deletes this object.
-                            
+
 
    **Method Parameter type Returns What it does**
 
 .. _resize-1:
 
 resize
-      
+
 
    (scaleX, scaleY
 
@@ -4163,21 +4163,21 @@ resize
 .. _rotate-1:
 
 rotate
-      
+
 
    (angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])
 
 .. _transform-1:
 
 transform
-         
+
 
    (transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidths] [,transformAbout])
 
 .. _translate-1:
 
 translate
-         
+
 
    ([deltaX]
 
@@ -4186,7 +4186,7 @@ translate
 .. _zorder-1:
 
 zOrder
-      
+
 
    number (double) number (double) boolean
 
@@ -4207,7 +4207,7 @@ zOrder
    boolean boolean boolean
 
 Nothing Scales the art item where
-                                 
+
 
    scaleX is the horizontal scaling factor and scaleY is the vertical scaling factor. 100.0 = 100%.
 
@@ -4232,7 +4232,7 @@ Nothing Scales the art item where
 .. _position-in-the-stacking-order-of-the-group-or-layer-parent-of-this-object.-1:
 
 position in the stacking order of the group or layer (parent) of this object.
-                                                                             
+
 
 GraphItems
 ----------
@@ -4260,26 +4260,26 @@ GraphItems
 .. _getbyname-9:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-9:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-7:
 
 removeAll
-         
+
 
    ()
 
 `GraphItems`_ Gets the first element in the collection with the specified name.
-                                                                               
+
 
    `GraphItems`_ Gets an element from the collection. Nothing Deletes all elements in the collection.
 
@@ -4313,7 +4313,7 @@ GrayColor
 ---------
 
 A grayscale color specification, used where a color object is required.
-                                                                       
+
 
    **GrayColor properties**
 
@@ -4349,7 +4349,7 @@ GroupItem
 ---------
 
 A grouped set of art items. Group items can contain all of the same page items that a layer can contain, including other nested groups.
-                                                                                                                                       
+
 
    Paths contained in a group or compound path in a document are returned as individual paths when a script asks for the paths contained in the document. However, paths contained in a group or compound path are not returned when a script asks for the paths in a layer which contains the group or compound path.
 
@@ -4458,28 +4458,28 @@ A grouped set of art items. Group items can contain all of the same page items t
 .. _duplicate-2:
 
 duplicate
-         
+
 
    ([relativeObject] [,insertionLocation])
 
 .. _move-2:
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 .. _remove-9:
 
 remove
-      
+
 
    ()
 
 .. _resize-2:
 
 resize
-      
+
 
    (scaleX, scaleY
 
@@ -4488,21 +4488,21 @@ resize
 .. _rotate-2:
 
 rotate
-      
+
 
    (angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])
 
 .. _transform-2:
 
 transform
-         
+
 
    (transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidths] [,transformAbout])
 
 .. _translate-2:
 
 translate
-         
+
 
    ([deltaX]
 
@@ -4511,7 +4511,7 @@ translate
 .. _zorder-2:
 
 zOrder
-      
+
 
    object
 
@@ -4520,7 +4520,7 @@ zOrder
 .. _object-4:
 
 object
-      
+
 
    `ElementPlacement`_
 
@@ -4541,14 +4541,14 @@ object
 .. _selected-object.-1:
 
 selected object.
-                
+
 
    `GroupItem`_ Moves the object.
 
 .. _nothing-deletes-this-object.-2:
 
 Nothing Deletes this object.
-                            
+
 
    Nothing Scales the art item where
 
@@ -4575,7 +4575,7 @@ Nothing Deletes this object.
 .. _position-in-the-stacking-order-of-the-group-or-layer-parent-of-this-object.-2:
 
 position in the stacking order of the group or layer (parent) of this object.
-                                                                             
+
 
    **Modifying all objects in a group**
 
@@ -4609,7 +4609,7 @@ GroupItems
 ----------
 
 The collection of grouped art items in a document.
-                                                  
+
 
    **GroupItems properties**
 
@@ -4632,40 +4632,40 @@ The collection of grouped art items in a document.
 .. _add-8:
 
 add
-   
+
 
    ()
 
 createFromFile
-              
+
 
    (imageFile) File
 
 .. _getbyname-10:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-10:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-8:
 
 removeAll
-         
+
 
    ()
 
    `GroupItem`_ Creates a new object.
 
 `GroupItem`_ Places an external vector art file as a group item in the document.
-                                                                                
+
 
    `GroupItem`_ Gets the first element in the collection with the specified name.
 
@@ -4699,7 +4699,7 @@ IllustratorSaveOptions
 ----------------------
 
 Options for saving a document as an Illustrator file, used with the `saveAs`_ method. All properties are optional.
-                                                                                                                  
+
 
    **IllustratorSaveOptions properties**
 
@@ -4781,7 +4781,7 @@ ImageCaptureOptions
 -------------------
 
 Options for image capture, used with the `imageCapture`_ method. All properties are optional.
-                                                                                             
+
 
    **ImageCaptureOptions properties**
 
@@ -4877,7 +4877,7 @@ InsertionPoint
 --------------
 
 A location between characters that is used to insert new text objects. An insertion point is contained in an
-                                                                                                            
+
 
    InsertionPoints collection.
 
@@ -4933,7 +4933,7 @@ Method Parameter type Returns What it does
 .. _index-11:
 
 index
-     
+
 
    (item*Key*) string, number
 
@@ -4965,7 +4965,7 @@ LabColor
 --------
 
 A color specification in the CIE Lab color space, used where a color object is required.
-                                                                                        
+
 
    **LabColor properties**
 
@@ -5067,21 +5067,21 @@ Layer
 .. _move-3:
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 .. _remove-10:
 
 remove
-      
+
 
    ()
 
 .. _zorder-3:
 
 zOrder
-      
+
 
    object
 
@@ -5092,14 +5092,14 @@ zOrder
 .. _nothing-deletes-this-object.-3:
 
 Nothing Deletes this object.
-                            
+
 
    Nothing Arranges the layer’s position in the
 
    (ZOrderCmd) `ZOrderMethod`_
 
 stacking order of the containing layer or document (parent) of this object
-                                                                          
+
 
    **Bringing a layer to the front**
 
@@ -5123,7 +5123,7 @@ Layers
 ------
 
 The collection of layers in the document.
-                                         
+
 
    **Layers properties**
 
@@ -5146,33 +5146,33 @@ The collection of layers in the document.
 .. _add-9:
 
 add
-   
+
 
    ()
 
 .. _getbyname-11:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-12:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-9:
 
 removeAll
-         
+
 
    ()
 
 `Layer`_ Creates a new layer in the document.
-                                             
+
 
    `Layer`_ Gets the first element in the collection with the specified name.
 
@@ -5208,9 +5208,9 @@ LegacyTextItem
 --------------
 
 A text object created in Illustrator CS (version 10) or earlier, which is uneditable until converted. To convert legacy text, see `convertToNative`_.
-                                                                                                                                                     
 
-   You can view, move, and print legacy text, but you cant edit it. Legacy text has an “x” through its bounding box when selected.
+
+   You can view, move, and print legacy text, but you cant edit it. Legacy text has an "x" through its bounding box when selected.
 
    **LegacyTextItem properties**
 
@@ -5289,66 +5289,66 @@ A text object created in Illustrator CS (version 10) or earlier, which is unedit
    **Method Parameter type Returns What it does**
 
 convertToNative
-               
+
 
    ()
 
 .. _duplicate-3:
 
 duplicate
-         
+
 
    ([relativeObject] [,insertionLocation])
 
 .. _move-4:
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 .. _remove-11:
 
 remove
-      
+
 
    ()
 
 .. _object-5:
 
 object
-      
+
 
    `ElementPlacement`_
 
 .. _object-6:
 
 object
-      
+
 
    `ElementPlacement`_
 
 `GroupItem`_ Converts the legacy text item to a text frame and deletes the original legacy text.
-                                                                                                
+
 
    `LegacyTextItem`_ Creates a duplicate of
 
 the selected object.
-                    
+
 
    `LegacyTextItem`_ Moves the object.
 
 .. _nothing-deletes-this-object.-4:
 
 Nothing Deletes this object.
-                            
+
 
    **Method Parameter type Returns What it does**
 
 .. _resize-3:
 
 resize
-      
+
 
    (scaleX, scaleY
 
@@ -5357,21 +5357,21 @@ resize
 .. _rotate-3:
 
 rotate
-      
+
 
    (angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])
 
 .. _transform-3:
 
 transform
-         
+
 
    (transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidths] [,transformAbout])
 
 .. _translate-3:
 
 translate
-         
+
 
    ([deltaX]
 
@@ -5380,7 +5380,7 @@ translate
 .. _zorder-4:
 
 zOrder
-      
+
 
    number (double) number (double) boolean
 
@@ -5401,7 +5401,7 @@ zOrder
    boolean boolean boolean
 
 Nothing Scales the art item where scaleX is the horizontal scaling factor and scaleY is the vertical scaling factor. 100.0 = 100%.
-                                                                                                                                  
+
 
    Nothing Rotates the art item relative to the current rotation. The object is rotated
 
@@ -5418,7 +5418,7 @@ Nothing Scales the art item where scaleX is the horizontal scaling factor and sc
 .. _position-in-the-stacking-order-of-the-group-or-layer-parent-of-this-object.-3:
 
 position in the stacking order of the group or layer (parent) of this object.
-                                                                             
+
 
 LegacyTextItems
 ---------------
@@ -5449,28 +5449,28 @@ Method Parameter type Returns What it does
 .. _converttonative-1:
 
 convertToNative
-               
+
 
    ()
 
 .. _getbyname-12:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-13:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-10:
 
 removeAll
-         
+
 
    ()
 
@@ -5483,7 +5483,7 @@ removeAll
 .. _with-the-specified-name.-1:
 
 with the specified name.
-                        
+
 
    `LegacyTextItem`_ Gets an element from the collection. Nothing Deletes all elements in this collection.
 
@@ -5513,19 +5513,19 @@ Lines
 .. _index-14:
 
 index
-     
+
 
    (itemKey) number
 
 .. _removeall-11:
 
 removeAll
-         
+
 
    ()
 
 `TextRange`_ Gets an element from the collection. Nothing Deletes all elements in this collection.
-                                                                                                  
+
 
 Matrix
 ------
@@ -5535,7 +5535,7 @@ Matrix
    Matrices are used in conjunction with the transform method and as a property of a number of objects. A matrix specifies how to transform the geometry of an object. You can generate an original matrix using the Application object methods getTranslationMatrix, getScaleMatrix, or getRotationMatrix.
 
 A Matrix is a record containing the matrix values, not a reference to a matrix object. The matrix commands operate on the values of a matrix record. If a command modifies a matrix, a modified matrix record is returned as the result of the command. The original matrix record passed to the command is not modified.
-                                                                                                                                                                                                                                                                                                                         
+
 
    **Matrix properties**
 
@@ -5585,7 +5585,7 @@ MeshItem
 --------
 
 A gradient mesh art item. You cannot create mesh items from a script. However, you can copy an existing mesh item with the duplicate method, then use the one of the move methods to place the copy at the proper location.
-                                                                                                                                                                                                                           
+
 
    **MeshItem properties**
 
@@ -5596,7 +5596,7 @@ A gradient mesh art item. You cannot create mesh items from a script. However, y
 .. _kind-of-knockout.-1:
 
 kind of knockout.
-                 
+
 
    **blendingMode** `BlendModes`_ The blend mode used when compositing an object.
 
@@ -5605,7 +5605,7 @@ kind of knockout.
 .. _width-and-controls.-1:
 
 width and controls.
-                   
+
 
    **editable** boolean Read-only. If true, this item is editable.
 
@@ -5618,7 +5618,7 @@ width and controls.
    **isIsolated** boolean If true, this object is isolated.
 
 **layer** `Layer`_ Read-only. The layer to which this item belongs.
-                                                                   
+
 
    **left** number (double) The position of the left side of the item (in points, measured from the left side of the page).
 
@@ -5637,7 +5637,7 @@ width and controls.
 .. _read-only.-the-parent-of-this-object.-2:
 
 Read-only. The parent of this object.
-                                     
+
 
    **position** array of 2 numbers The position (in points) of the top left corner of the
 
@@ -5648,7 +5648,7 @@ Read-only. The parent of this object.
    **sliced** boolean If true, the item sliced. Default: false
 
 **tags** `Tags`_ Read-only. The tags contained in this item.
-                                                            
+
 
    **top** number (double) The position of the top of the item (in points, measured from the bottom of the page).
 
@@ -5683,28 +5683,28 @@ Read-only. The parent of this object.
 .. _duplicate-4:
 
 duplicate
-         
+
 
    ([relativeObject] [,insertionLocation])
 
 .. _move-5:
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 .. _remove-12:
 
 remove
-      
+
 
    ()
 
 .. _resize-4:
 
 resize
-      
+
 
    (scaleX, scaleY
 
@@ -5713,21 +5713,21 @@ resize
 .. _rotate-4:
 
 rotate
-      
+
 
    (angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])
 
 .. _object-7:
 
 object
-      
+
 
    `ElementPlacement`_
 
 .. _object-8:
 
 object
-      
+
 
    `ElementPlacement`_
 
@@ -5746,14 +5746,14 @@ object
 .. _selected-object.-2:
 
 selected object.
-                
+
 
    `MeshItem`_ Moves the object.
 
 .. _nothing-deletes-this-object.-5:
 
 Nothing Deletes this object.
-                            
+
 
    Nothing Scales the art item where
 
@@ -5770,14 +5770,14 @@ Nothing Deletes this object.
 .. _transform-4:
 
 transform
-         
+
 
    (transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidths] [,transformAbout])
 
 .. _translate-4:
 
 translate
-         
+
 
    ([deltaX]
 
@@ -5786,7 +5786,7 @@ translate
 .. _zorder-5:
 
 zOrder
-      
+
 
    Matrix boolean boolean boolean boolean
 
@@ -5797,7 +5797,7 @@ zOrder
    boolean boolean boolean
 
 Nothing Transforms the art item by
-                                  
+
 
    applying a transformation matrix.
 
@@ -5812,7 +5812,7 @@ Nothing Transforms the art item by
 .. _position-in-the-stacking-order-of-the-group-or-layer-parent-of-this-object.-4:
 
 position in the stacking order of the group or layer (parent) of this object.
-                                                                             
+
 
    **Finding and locking mesh items**
 
@@ -5856,21 +5856,21 @@ Method Parameter type Returns What it does
 .. _getbyname-13:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-15:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-12:
 
 removeAll
-         
+
 
    ()
 
@@ -5903,8 +5903,8 @@ removeAll
 NoColor
 -------
 
-Represents the “none” color. Assigning a NoColor object to the fill or stroke color of an art item is equivalent to setting the filled or stroked property to false.
-                                                                                                                                                                    
+Represents the "none" color. Assigning a NoColor object to the fill or stroke color of an art item is equivalent to setting the filled or stroked property to false.
+
 
    **NoColor properties**
 
@@ -5942,7 +5942,7 @@ NonNativeItem
 -------------
 
 A non-native artwork item.
-                          
+
 
    **NonNativeItem properties**
 
@@ -5955,7 +5955,7 @@ A non-native artwork item.
 .. _kind-of-knockout.-2:
 
 kind of knockout.
-                 
+
 
    **blendingMode** `BlendModes`_ The blend mode used when compositing an object.
 
@@ -5964,7 +5964,7 @@ kind of knockout.
 .. _width-and-controls.-2:
 
 width and controls.
-                   
+
 
    **editable** boolean Read-only. If true, this item is editable.
 
@@ -5979,7 +5979,7 @@ width and controls.
 .. _layer-layer-read-only.-the-layer-to-which-this-item-belongs.-1:
 
 **layer** `Layer`_ Read-only. The layer to which this item belongs.
-                                                                   
+
 
    **left** number (double) The position of the left side of the item (in points, measured from the left side of the page).
 
@@ -5998,7 +5998,7 @@ width and controls.
 .. _read-only.-the-parent-of-this-object.-3:
 
 Read-only. The parent of this object.
-                                     
+
 
    **position** array of 2 numbers The position (in points) of the top left corner of the
 
@@ -6011,7 +6011,7 @@ Read-only. The parent of this object.
 .. _tags-tags-read-only.-the-tags-contained-in-this-item.-1:
 
 **tags** `Tags`_ Read-only. The tags contained in this item.
-                                                            
+
 
    **top** number (double) The position of the top of the item (in points, measured from the bottom of the page).
 
@@ -6046,35 +6046,35 @@ Read-only. The parent of this object.
 .. _duplicate-5:
 
 duplicate
-         
+
 
    ([relativeObject] [,insertionLocation])
 
 .. _move-6:
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 .. _remove-13:
 
 remove
-      
+
 
    ()
 
 .. _removeall-13:
 
 removeAll
-         
+
 
    ()
 
 .. _resize-5:
 
 resize
-      
+
 
    (scaleX, scaleY
 
@@ -6083,14 +6083,14 @@ resize
 .. _object-9:
 
 object
-      
+
 
    `ElementPlacement`_
 
 .. _object-10:
 
 object
-      
+
 
    `ElementPlacement`_
 
@@ -6105,14 +6105,14 @@ object
 .. _the-selected-object.-1:
 
 the selected object.
-                    
+
 
    `NonNativeItem`_ Moves the object.
 
 .. _nothing-deletes-this-object.-6:
 
 Nothing Deletes this object.
-                            
+
 
    Nothing Deletes all elements in this collection.
 
@@ -6125,21 +6125,21 @@ Nothing Deletes this object.
 .. _rotate-5:
 
 rotate
-      
+
 
    (angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])
 
 .. _transform-5:
 
 transform
-         
+
 
    (transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidths] [,transformAbout])
 
 .. _translate-5:
 
 translate
-         
+
 
    ([deltaX]
 
@@ -6148,7 +6148,7 @@ translate
 .. _zorder-6:
 
 zOrder
-      
+
 
    number (double) boolean
 
@@ -6163,7 +6163,7 @@ zOrder
    boolean boolean boolean
 
 Nothing Rotates the art item relative to the current rotation. The object is rotated
-                                                                                    
+
 
    counter-clockwise if the angle value is positive, clockwise if the value is negative.
 
@@ -6178,7 +6178,7 @@ Nothing Rotates the art item relative to the current rotation. The object is rot
 .. _position-in-the-stacking-order-of-the-group-or-layer-parent-of-this-object.-5:
 
 position in the stacking order of the group or layer (parent) of this object.
-                                                                             
+
 
 NonNativeItems
 --------------
@@ -6209,7 +6209,7 @@ Method Parameter type Returns What it does
 .. _getbyname-14:
 
 getByName
-         
+
 
    (name) string
 
@@ -6229,15 +6229,15 @@ OpenOptions
    **convertCropAreaToArboard** boolean Optional. Convert crop areas to artboards when
 
 opening a legacy document in Illustrator CS4 or later. When false, crop areas are discarded. Default: true.
-                                                                                                           
+
 
    **convertTilesToArboard** boolean Optional. Convert print tiles to artboards when opening
 
 a legacy document in Illustrator CS4 or later. Default: false.
-                                                              
+
 
 createArtboardWithArtwor kBoundingBox
-                                     
+
 
    boolean Optional. Create an artboard with the dimensions of the bounding box of the artwork when opening a legacy document in Illustrator CS4 or later. Default: false.
 
@@ -6246,19 +6246,19 @@ createArtboardWithArtwor kBoundingBox
    **preserveLegacyArtboard** boolean Optional. Preserve legacy artboards when opening a
 
 legacy document in Illustrator CS4 or later. Default: true.
-                                                           
+
 
    **updateLegacyGradientMesh** boolean If true, preserves the spot colors in the gradient mesh
 
 objects for legacy documents (pre-Illustrator CS4).
-                                                   
+
 
    Default: true
 
    **updateLegacyText** boolean Optional. If true, update all legacy text items (from
 
 previous versions of Illustrator). Default: false
-                                                 
+
 
    **Automatically updating legacy text on open**
 
@@ -6278,7 +6278,7 @@ OpenOptionsAutoCAD
 ------------------
 
 Options for opening an AutoCAD drawing, used with the `open`_ method.
-                                                                     
+
 
    **OpenOptionsAutoCAD properties**
 
@@ -6372,7 +6372,7 @@ PageItem
    The PageItem class gives you complete access to every art item contained in an Illustrator document. The PageItem class is the superclass of all artwork objects in a document. The CompoundPathItem, GroupItem, MeshItem, PathItem, PlacedItem, PluginItem, RasterItem, and TextFrame classes each inherit a set of properties from the PageItem class.
 
 You cannot create a PageItem directly, you must create one of the specific PageItem subclasses, such as
-                                                                                                       
+
 
    PathItem.
 
@@ -6456,7 +6456,7 @@ Method Parameter type Returns What it does
 ''''''''''''''''''''''''''''''''''''''''''
 
 bringInPerspective
-                  
+
 
    (posX, posY,
 
@@ -6465,7 +6465,7 @@ bringInPerspective
 .. _resize-6:
 
 resize
-      
+
 
    (scaleX, scaleY
 
@@ -6492,21 +6492,21 @@ resize
 .. _rotate-6:
 
 rotate
-      
+
 
    (angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])
 
 .. _transform-6:
 
 transform
-         
+
 
    (transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidth] [,transformAbout])
 
 .. _translate-6:
 
 translate
-         
+
 
    ([deltaX]
 
@@ -6515,7 +6515,7 @@ translate
 .. _zorder-7:
 
 zOrder
-      
+
 
    number (double) boolean
 
@@ -6530,7 +6530,7 @@ zOrder
    boolean boolean boolean
 
 Nothing Rotates art object(s).
-                              
+
 
    Nothing Transforms art object(s) using a transformation matrix.
 
@@ -6541,7 +6541,7 @@ Nothing Rotates art object(s).
    (zOrderCmd) `ZOrderMethod`_
 
 art in the group or layer.
-                          
+
 
 PageItems
 ---------
@@ -6551,7 +6551,7 @@ PageItems
    `CompoundPathItem`_ `GraphItem`_ `GroupItem`_ `LegacyTextItem`_ `MeshItem`_ `NonNativeItem`_ `PathItem`_ `PlacedItem`_ `PluginItem`_ `RasterItem`_ `SymbolItem`_ `TextFrameItem`_
 
 You can reference page items through the PageItems property in a Document, Layer, or Group. When you access an individual item in one of these collections, the reference is a page item of one of a particular type. For example, if you use PageItems to reference a graph item, the typename value of that object is GraphItem.
-                                                                                                                                                                                                                                                                                                                                  
+
 
    **PageItems properties**
 
@@ -6574,26 +6574,26 @@ You can reference page items through the PageItems property in a Document, Layer
 .. _getbyname-15:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-16:
 
 index
-     
+
 
    (item*Key*) string, number
 
 .. _removeall-14:
 
 removeAll
-         
+
 
    ()
 
 `PageItem`_ Gets the first element in the collection with the specified name.
-                                                                             
+
 
    `PageItem`_ Gets an element from the collection. Nothing Deletes all elements in this collection.
 
@@ -6649,7 +6649,7 @@ Paper
 -----
 
 Associates paper information with a paper name. Paper objects are used by Printer objects.
-                                                                                          
+
 
    **Paper properties**
 
@@ -6714,7 +6714,7 @@ ParagraphAttributes
 -------------------
 
 Specifies the properties and attributes of a paragraph contained in a text frame.
-                                                                                 
+
 
    Note: Paragraph attributes do not have default values, and are undefined until explicitly set.
 
@@ -6882,7 +6882,7 @@ Paragraphs
 ----------
 
 A collection of TextRange objects, with each TextRange representing a paragraph. The elements are not named; you must access them by index.
-                                                                                                                                           
+
 
    **Paragraphs properties**
 
@@ -6905,7 +6905,7 @@ A collection of TextRange objects, with each TextRange representing a paragraph.
 .. _add-10:
 
 add
-   
+
 
    (contents [,relativeObject]
 
@@ -6914,14 +6914,14 @@ add
 .. _addbefore-1:
 
 addBefore
-         
+
 
    string `TextFrameItem`_ `ElementPlacement`_
 
    `TextRange`_ Adds a new paragraph with
 
 specified text contents at the specified location in the current document. If location is not specified, adds the new paragraph to the containing text frame after the current text selection or insertion point.
-                                                                                                                                                                                                                 
+
 
    `TextRange`_ Adds a new paragraph with
 
@@ -6930,24 +6930,24 @@ specified text contents at the specified location in the current document. If lo
 .. _index-17:
 
 index
-     
+
 
    (itemKey) number
 
 .. _removeall-15:
 
 removeAll
-         
+
 
    ()
 
 specified text contents before the current text selection or insertion point.
-                                                                             
+
 
    `TextRange`_ Gets an element from the collection.
 
 Nothing Deletes all elements in this
-                                    
+
 
    collection.
 
@@ -6967,7 +6967,7 @@ ParagraphStyle
 --------------
 
 Associates character and paragraph attributes with a style name. The style object can be used to apply those attributes to the text in a TextFrame object. See `Creating and applying a paragraph style`_ below.
-                                                                                                                                                                                                                
+
 
    **ParagraphStyle properties**
 
@@ -6994,26 +6994,26 @@ Associates character and paragraph attributes with a style name. The style objec
 .. _applyto-3:
 
 applyTo
-       
+
 
    (textItem [,clearingOverrides])
 
 .. _remove-14:
 
 remove
-      
+
 
    ()
 
 .. _object-11:
 
 object
-      
+
 
    boolean
 
 Nothing Applies this paragraph style to the specified text item.
-                                                                
+
 
    Nothing Deletes the object.
 
@@ -7046,28 +7046,28 @@ Method Parameter type Returns What it does
 .. _add-11:
 
 add
-   
+
 
    (name) string
 
 .. _getbyname-16:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-18:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-16:
 
 removeAll
-         
+
 
    ()
 
@@ -7121,7 +7121,7 @@ PathItem
 --------
 
 Specifies a path item, which contains PathPoint objects that define its geometry. The PathItem class gives you complete access to paths in Illustrator. The setEntirePath method provides an extremely efficient way to create paths comprised of straight lines.
-                                                                                                                                                                                                                                                                 
+
 
    **PathItem properties**
 
@@ -7142,7 +7142,7 @@ Specifies a path item, which contains PathPoint objects that define its geometry
 +---------------------+-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **editable**        |    boolean            |    Read-only. If true, this item is editable.                                                                                                                                                                                                                    |
 +---------------------+-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **evenodd**         |    boolean            |    If true, the even-odd rule should be used to determine “insideness.”                                                                                                                                                                                          |
+| **evenodd**         |    boolean            |    If true, the even-odd rule should be used to determine "insideness."                                                                                                                                                                                          |
 +---------------------+-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **fillColor**       |    `Color`_           |    The fill color of the path.                                                                                                                                                                                                                                   |
 +---------------------+-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -7250,28 +7250,28 @@ Specifies a path item, which contains PathPoint objects that define its geometry
 .. _duplicate-6:
 
 duplicate
-         
+
 
    ([relativeObject] [,insertionLocation])
 
 .. _move-7:
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 .. _remove-15:
 
 remove
-      
+
 
    ()
 
 .. _resize-7:
 
 resize
-      
+
 
    (scaleX, scaleY
 
@@ -7280,14 +7280,14 @@ resize
 .. _object-12:
 
 object
-      
+
 
    `ElementPlacement`_
 
 .. _object-13:
 
 object
-      
+
 
    `ElementPlacement`_
 
@@ -7302,14 +7302,14 @@ object
 .. _selected-object.-3:
 
 selected object.
-                
+
 
    `PathItem`_ Moves the object.
 
 .. _nothing-deletes-this-object.-7:
 
 Nothing Deletes this object.
-                            
+
 
    Nothing Scales the art item where
 
@@ -7320,19 +7320,19 @@ Nothing Deletes this object.
 .. _rotate-7:
 
 rotate
-      
+
 
    (angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])
 
 setEntirePath
-             
+
 
    number (double) boolean
 
    boolean boolean boolean `Transformation`_
 
 Nothing Rotates the art item relative
-                                     
+
 
    to the current rotation. The object is rotated
 
@@ -7343,12 +7343,12 @@ Nothing Rotates the art item relative
 (pathPoints) array of[x, y]
 
 coordinate pairs
-                
+
 
 .. _transform-7:
 
 transform
-         
+
 
    of points specified as [x, y] coordinate pairs.
 
@@ -7359,7 +7359,7 @@ transform
 .. _translate-7:
 
 translate
-         
+
 
    ([deltaX]
 
@@ -7368,7 +7368,7 @@ translate
 .. _zorder-8:
 
 zOrder
-      
+
 
    Matrix boolean boolean boolean boolean
 
@@ -7379,7 +7379,7 @@ zOrder
    boolean boolean boolean
 
 applying a transformation matrix.
-                                 
+
 
    Nothing Repositions the art item
 
@@ -7392,7 +7392,7 @@ applying a transformation matrix.
 .. _position-in-the-stacking-order-of-the-group-or-layer-parent-of-this-object.-6:
 
 position in the stacking order of the group or layer (parent) of this object.
-                                                                             
+
 
    **Setting colors in a path**
 
@@ -7460,12 +7460,12 @@ Method Parameter type Returns What it does
 .. _add-12:
 
 add
-   
+
 
    ()
 
 ellipse
-       
+
 
    ([top]
 
@@ -7478,7 +7478,7 @@ ellipse
 .. _getbyname-17:
 
 getByName
-         
+
 
    number (double) number (double) number (double) number (double) boolean
 
@@ -7491,19 +7491,19 @@ getByName
    reversed: false
 
 `PathItem`_ Gets the first element in the collection
-                                                    
+
 
    (name) string
 
 .. _index-19:
 
 index
-     
+
 
    (itemKey) string, number
 
 polygon
-       
+
 
    with the specified name.
 
@@ -7518,7 +7518,7 @@ polygon
    [,reversed])
 
 rectangle
-         
+
 
    (top, left, width, height
 
@@ -7527,7 +7527,7 @@ rectangle
 .. _removeall-17:
 
 removeAll
-         
+
 
    ()
 
@@ -7538,21 +7538,21 @@ removeAll
    an polygon using the supplied parameters. Defaults: centerX: 200 pt.; centerY: 300 pt.; radius: 50 pt.; sides: 8; reversed: false
 
 `PathItem`_ Creates a new pathItem in the shape of an polygon using the supplied parameters.
-                                                                                            
+
 
    Nothing Deletes all elements in this collection.
 
    **Method Parameter type Returns What it does**
 
 roundedRectangle
-                
+
 
    (top, left, width, height
 
    [,horizontalRadius] [,verticalRadius] [,reversed])
 
 star
-    
+
 
    ([centerX] [,centerY] [,radius] [,innerRadius] [,points]
 
@@ -7563,14 +7563,14 @@ star
    number (double) number (double) number (double) number (double) number (long) boolean
 
 `PathItem`_ Creates a new pathItem in the shape of a rectangle with rounded corners using the supplied parameters. Defaults: horizontalRadius: 15 pt.;
-                                                                                                                                                      
+
 
    verticalRadius: 20 pt.;
 
    reversed: false
 
 `PathItem`_ Creates a new path item in the shape of a star using the supplied parameters.
-                                                                                         
+
 
    Defaults: centerX: 200 pt.;
 
@@ -7648,7 +7648,7 @@ Method Parameter type Returns What it does
 .. _remove-16:
 
 remove
-      
+
 
 ()
 
@@ -7680,21 +7680,21 @@ PathPoints
 .. _add-13:
 
 add
-   
+
 
    ()
 
 .. _index-20:
 
 index
-     
+
 
    (itemKey) number
 
 .. _removeall-18:
 
 removeAll
-         
+
 
    ()
 
@@ -7722,7 +7722,7 @@ Pattern
 -------
 
 An Illustrator pattern definition contained in a document. Patterns are shown in the Swatches palette. Each pattern is referenced by a `PatternColor`_ object, which defines the pattern’s appearance.
-                                                                                                                                                                                                      
+
 
    **Pattern properties**
 
@@ -7745,17 +7745,17 @@ An Illustrator pattern definition contained in a document. Patterns are shown in
 .. _remove-17:
 
 remove
-      
+
 
 ()
 
 toString
-        
+
 
 ()
 
 Nothing Removes the referenced pattern from the document.
-                                                         
+
 
    string Returns the object type of a referenced object. If the object has a name, also returns the name.
 
@@ -7778,12 +7778,12 @@ Property Value type What it is
    **matrix** Matrix Additional transformation arising from manipulating the
 
 path.
-     
+
 
    **pattern** `Pattern`_ A reference to the pattern object that defines the pattern to
 
 use in this color definition.
-                             
+
 
    **reflect** boolean If true, the prototype should be reflected before filling.
 
@@ -7798,7 +7798,7 @@ use in this color definition.
 .. _numbers-1:
 
 2 numbers
-         
+
 
    The fraction to which to scale the prototype pattern before filling, represented as a point containing horizontal and vertical scaling percentages.
 
@@ -7809,14 +7809,14 @@ use in this color definition.
    **shiftAngle** number (double) The angle in radians to which to translate the unscaled
 
 prototype pattern before filling. Default: 0.0
-                                              
+
 
    **shiftDistance** number (double) The distance in points to which to translate the unscaled
 
 .. _prototype-pattern-before-filling.-default-0.0-1:
 
 prototype pattern before filling. Default: 0.0
-                                              
+
 
    **typename** string Read-only. The class name of the referenced object.
 
@@ -7856,7 +7856,7 @@ Patterns
 --------
 
 A collection of Pattern objects in a document.
-                                              
+
 
    **Patterns properties**
 
@@ -7879,35 +7879,35 @@ A collection of Pattern objects in a document.
 .. _add-14:
 
 add
-   
+
 
    ()
 
 .. _getbyname-18:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-21:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-19:
 
 removeAll
-         
+
 
    ()
 
    `Pattern`_ Creates a new object.
 
 `Pattern`_ Gets the first element in the collection with the provided name.
-                                                                           
+
 
    `Pattern`_ Gets an element from the collection. Nothing Deletes all elements in this collection.
 
@@ -7929,7 +7929,7 @@ PDFFileOptions
 --------------
 
 Options for opening a PDF file, used with the `open`_ method. All properties are optional.
-                                                                                          
+
 
    **PDFFileOptions properties**
 
@@ -7965,7 +7965,7 @@ PDFSaveOptions
 --------------
 
 Options for saving a document as an Adobe PDF file, used with the `saveAs`_ method. All properties are optional.
-                                                                                                                
+
 
    **PDFSaveOptions properties**
 
@@ -8191,7 +8191,7 @@ PhotoshopFileOptions
 --------------------
 
 Options for opening a Photoshop file, used with the `open`_ method. All properties are optional.
-                                                                                                
+
 
    **PhotoshopFileOptions properties**
 
@@ -8230,8 +8230,8 @@ Options for opening a Photoshop file, used with the `open`_ method. All properti
 PlacedItem
 ----------
 
-An artwork item placed in a document as a linked file. For example, an artwork object created using the File > Place command in Illustrator or using the add() method of the placedItems collection object is a placed item. For information, see `“PlacedItems” on page 155`_.
-                                                                                                                                                                                                                                                                               
+An artwork item placed in a document as a linked file. For example, an artwork object created using the File > Place command in Illustrator or using the add() method of the placedItems collection object is a placed item. For information, see `"PlacedItems" on page 155`_.
+
 
    **PlacedItem properties**
 
@@ -8318,24 +8318,24 @@ An artwork item placed in a document as a linked file. For example, an artwork o
 .. _duplicate-7:
 
 duplicate
-         
+
 
    ([relativeObject] [,insertionLocation])
 
 embed
-     
+
 
    ()
 
 .. _move-8:
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 relink
-      
+
 
    object
 
@@ -8344,7 +8344,7 @@ relink
 .. _object-14:
 
 object
-      
+
 
    `ElementPlacement`_
 
@@ -8353,7 +8353,7 @@ object
 .. _selected-object.-4:
 
 selected object.
-                
+
 
    Nothing Embeds this art in the
 
@@ -8362,19 +8362,19 @@ selected object.
    `PlacedItem`_ Moves the object.
 
 Nothing Relinks the art object with
-                                   
+
 
    (linkFile) File object
 
 .. _remove-18:
 
 remove
-      
+
 
    ()
 
 the file that defines its content.
-                                  
+
 
    Nothing Deletes this object.
 
@@ -8383,7 +8383,7 @@ the file that defines its content.
 .. _resize-8:
 
 resize
-      
+
 
    (scaleX, scaleY
 
@@ -8392,26 +8392,26 @@ resize
 .. _rotate-8:
 
 rotate
-      
+
 
    (angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])
 
 trace
-     
+
 
    ()
 
 .. _transform-8:
 
 transform
-         
+
 
    (transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidths] [,transformAbout])
 
 .. _translate-8:
 
 translate
-         
+
 
    ([deltaX]
 
@@ -8420,7 +8420,7 @@ translate
 .. _zorder-9:
 
 zOrder
-      
+
 
    number (double) number (double) boolean boolean boolean boolean
 
@@ -8437,7 +8437,7 @@ zOrder
 .. _nothing-scales-the-art-item-where-1:
 
 Nothing Scales the art item where
-                                 
+
 
    scaleX is the horizontal scaling factor and scaleY is the vertical scaling factor. 100.0 = 100%.
 
@@ -8450,14 +8450,14 @@ Nothing Scales the art item where
    `PluginItem`_ Converts the raster art for
 
 this object to vector art, using default options. Reorders the placed art into the source art of a plug-in group, and converts it into a group of filled and/or stroked paths that resemble the original image.
-                                                                                                                                                                                                               
+
 
    Creates and returns a pluginItem object that references a tracingObject object.
 
 .. _nothing-transforms-the-art-item-by-1:
 
 Nothing Transforms the art item by
-                                  
+
 
    applying a transformation matrix.
 
@@ -8472,7 +8472,7 @@ Nothing Transforms the art item by
 .. _position-in-the-stacking-order-of-the-group-or-layer-parent-of-this-object.-7:
 
 position in the stacking order of the group or layer (parent) of this object.
-                                                                             
+
 
    **Changing the selection state of placed items**
 
@@ -8514,18 +8514,18 @@ Method Parameter type Returns What it does
 .. _add-15:
 
 add
-   
+
 
 ()
 
 .. _getbyname-19:
 
 getByName
-         
+
 
    none `PlacedItem`_ Creates a new object. Use to place new art in a
 
-   document. Use the file property of the resulting placedItem object to link the file containing the artwork. See `“PlacedItem” on page 151`_.
+   document. Use the file property of the resulting placedItem object to link the file containing the artwork. See `"PlacedItem" on page 151`_.
 
    `PlacedItem`_ Gets the first element in the collection with the
 
@@ -8534,24 +8534,24 @@ getByName
 .. _index-22:
 
 index
-     
+
 
    (itemKey) string, number
 
 specified name.
-               
+
 
    `PlacedItem`_ Gets an element from the collection.
 
 .. _removeall-20:
 
 removeAll
-         
+
 
 ()
 
 none Nothing Deletes all elements in this collection.
-                                                     
+
 
 PluginItem
 ----------
@@ -8643,21 +8643,21 @@ Method Parameter type Returns What it does
 .. _duplicate-8:
 
 duplicate
-         
+
 
    ([relativeObject] [,insertionLocation])
 
 .. _move-9:
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 .. _remove-19:
 
 remove
-      
+
 
    ()
 
@@ -8668,7 +8668,7 @@ remove
 .. _object-15:
 
 object
-      
+
 
    `ElementPlacement`_
 
@@ -8677,21 +8677,21 @@ object
 .. _the-selected-object.-2:
 
 the selected object.
-                    
+
 
    `PluginItem`_ Moves the object.
 
 .. _nothing-deletes-this-object.-8:
 
 Nothing Deletes this object.
-                            
+
 
    **Method Parameter type Returns What it does**
 
 .. _resize-9:
 
 resize
-      
+
 
    (scaleX, scaleY
 
@@ -8700,21 +8700,21 @@ resize
 .. _rotate-9:
 
 rotate
-      
+
 
    (angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])
 
 .. _transform-9:
 
 transform
-         
+
 
    (transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidths] [,transformAbout])
 
 .. _translate-9:
 
 translate
-         
+
 
    ([deltaX]
 
@@ -8723,7 +8723,7 @@ translate
 .. _zorder-10:
 
 zOrder
-      
+
 
    number (double) number (double) boolean boolean boolean boolean
 
@@ -8738,7 +8738,7 @@ zOrder
    number (double) number (double) boolean boolean boolean boolean
 
 Nothing Scales the art item where scaleX is the horizontal scaling factor and scaleY is the vertical scaling factor.
-                                                                                                                    
+
 
    100.0 = 100%.
 
@@ -8757,7 +8757,7 @@ Nothing Scales the art item where scaleX is the horizontal scaling factor and sc
 .. _position-in-the-stacking-order-of-the-group-or-layer-parent-of-this-object.-8:
 
 position in the stacking order of the group or layer (parent) of this object.
-                                                                             
+
 
    **Copying a plug-in item**
 
@@ -8775,7 +8775,7 @@ PluginItems
 -----------
 
 A collection of PluginItem objects in a document. See `Copying a plug-in item`_.
-                                                                                
+
 
    **PluginItems properties**
 
@@ -8798,21 +8798,21 @@ A collection of PluginItem objects in a document. See `Copying a plug-in item`_.
 .. _getbyname-20:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-23:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-21:
 
 removeAll
-         
+
 
    ()
 
@@ -8821,7 +8821,7 @@ removeAll
 .. _with-the-specified-name.-2:
 
 with the specified name.
-                        
+
 
    `PluginItem`_ Gets an element from the collection. Nothing Deletes all objects in this collection.
 
@@ -8862,7 +8862,7 @@ PPDFileInfo
 `ScreenSpotFunction`_
 
 List of color separation screen spot functions.
-                                               
+
 
    **Displaying PPD file properties**
 
@@ -8960,7 +8960,7 @@ Preferences
 -----------
 
 Specifies the preferred options for AutoCAD, FreeHand, PDF, and Photoshop files.
-                                                                                
+
 
    **Preferences properties**
 
@@ -8987,32 +8987,32 @@ Specifies the preferred options for AutoCAD, FreeHand, PDF, and Photoshop files.
    **Method Parameter type Returns What it does**
 
 getBooleanPreference
-                    
+
 
    (key) string
 
 getIntegerPreference
-                    
+
 
    (key) string
 
 getRealPreference
-                 
+
 
    (key) string
 
 getStringPreference
-                   
+
 
    (key) string
 
 removePreference
-                
+
 
    (key) string
 
 setBooleanPreference
-                    
+
 
    boolean Gets the boolean value of a given application preference.
 
@@ -9031,7 +9031,7 @@ setBooleanPreference
    (key, value)
 
 setIntegerPreference
-                    
+
 
    (key, value)
 
@@ -9040,7 +9040,7 @@ setIntegerPreference
    string integer
 
 application preference.
-                       
+
 
    Nothing Sets the integer value of a given
 
@@ -9049,12 +9049,12 @@ application preference.
    **Method Parameter type Returns What it does**
 
 setRealPreference
-                 
+
 
    (key, value)
 
 setStringPreference
-                   
+
 
    (key, value)
 
@@ -9063,7 +9063,7 @@ setStringPreference
    string string
 
 Nothing Sets the real-number value of a given application preference.
-                                                                     
+
 
    Nothing Sets the string value of a given
 
@@ -9134,7 +9134,7 @@ PrintColorSeparationOptions
 ---------------------------
 
 Information about the color separations to be used in printing the document.
-                                                                            
+
 
    **PrintColorSeparationOptions properties**
 
@@ -9194,7 +9194,7 @@ PrintCoordinateOptions
 ----------------------
 
 Information about the media and associated printing parameters.
-                                                               
+
 
    **PrintCoordinateOptions properties**
 
@@ -9264,7 +9264,7 @@ Printer
 -------
 
 Associates an available printer with printer information. To request a list of printers, you must first have a document open or an error is returned.
-                                                                                                                                                     
+
 
    **Printer properties**
 
@@ -9351,7 +9351,7 @@ PrintFlattenerOptions
 ---------------------
 
 Contains flattening options for use when Illustrator outputs artwork that contains transparency into a non-native format.
-                                                                                                                         
+
 
    **PrintFlattenerOptions properties**
 
@@ -9423,7 +9423,7 @@ PrintFontOptions
 ----------------
 
 Contains information about font downloading and substitution for the fonts used for printing the document.
-                                                                                                          
+
 
    **PrintFontOptions properties**
 
@@ -9463,7 +9463,7 @@ PrintJobOptions
 ---------------
 
 Contains information about how the job is to be printed.
-                                                        
+
 
    **PrintJobOptions properties**
 
@@ -9551,7 +9551,7 @@ PrintOptions
 ------------
 
 Contains information about all printing options including flattening, color management, coordinates, fonts, and paper.
-                                                                                                                      
+
 
    **PrintOptions properties**
 
@@ -9631,7 +9631,7 @@ PrintPageMarksOptions
 ---------------------
 
 The options for printing page marks.
-                                    
+
 
    **PrintPageMarksOptions properties**
 
@@ -9675,7 +9675,7 @@ PrintPaperOptions
 -----------------
 
 Information about the paper to be used in the print job.
-                                                        
+
 
    **PrintPaperOptions properties**
 
@@ -9729,7 +9729,7 @@ PrintPostScriptOptions
 ----------------------
 
 Options for printing to a PostScript printer.
-                                             
+
 
    **PrintPostScriptOptions properties**
 
@@ -9783,7 +9783,7 @@ RasterEffectOptions
 -------------------
 
 Specifies raster effects settings for the document. All properties are optional.
-                                                                                
+
 
    **RasterEffectOptions properties**
 
@@ -9821,7 +9821,7 @@ RasterItem
 .. _kind-of-knockout.-3:
 
 kind of knockout.
-                 
+
 
    **bitsPerChannel** number (long) Read-only. The number of bits per channel.
 
@@ -9832,7 +9832,7 @@ kind of knockout.
 .. _numbers-2:
 
 4 numbers
-         
+
 
    The dimensions of the placed art item regardless of transformations.
 
@@ -9849,7 +9849,7 @@ kind of knockout.
 .. _numbers-3:
 
 4 numbers
-         
+
 
    Read-only. The bounds of the object including stroke width and controls.
 
@@ -9858,14 +9858,14 @@ kind of knockout.
    **embedded** boolean If true, the raster art item is embedded in the illustration.
 
 **file** File Read-only. The file containing the artwork.
-                                                         
+
 
    **geometricBounds** array of
 
 .. _numbers-4:
 
 4 numbers
-         
+
 
    Read-only. The bounds of the object excluding stroke width.
 
@@ -9880,7 +9880,7 @@ kind of knockout.
 .. _layer-layer-read-only.-the-layer-to-which-this-item-belongs.-2:
 
 **layer** `Layer`_ Read-only. The layer to which this item belongs.
-                                                                   
+
 
    **left** number (double) The position of the left side of the item (in points, measured from the left side of the page).
 
@@ -9907,7 +9907,7 @@ kind of knockout.
 .. _numbers-5:
 
 2 numbers
-         
+
 
    Read-only. The parent of this object.
 
@@ -9922,7 +9922,7 @@ kind of knockout.
 .. _tags-tags-read-only.-the-tags-contained-in-this-item.-2:
 
 **tags** `Tags`_ Read-only. The tags contained in this item.
-                                                            
+
 
    **top** number (double) The position of the top of the item (in points, measured from the bottom of the page).
 
@@ -9933,7 +9933,7 @@ kind of knockout.
 .. _numbers-6:
 
 4 numbers
-         
+
 
    Read-only. The visible bounds of the item including stroke width.
 
@@ -9948,26 +9948,26 @@ kind of knockout.
 .. _frame-must-be-above-the-object.-1:
 
 frame must be above the object).
-                                
+
 
    **zOrderPosition** number Read-only. The position of this item within the stacking
 
 order of the group or layer (parent) that contains the item.
-                                                            
+
 
    **RasterItem methods**
 
    **Method Parameter type Returns What it does**
 
 colorize
-        
+
 
    (rasterColor)
 
 .. _duplicate-9:
 
 duplicate
-         
+
 
    `Color`_ Nothing Colorizes the raster item with a CMYK or RGB Color.
 
@@ -9978,21 +9978,21 @@ duplicate
 .. _move-10:
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 .. _remove-20:
 
 remove
-      
+
 
    ()
 
 .. _resize-10:
 
 resize
-      
+
 
    (scaleX, scaleY
 
@@ -10001,28 +10001,28 @@ resize
 .. _rotate-10:
 
 rotate
-      
+
 
    (angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])
 
 .. _trace-1:
 
 trace
-     
+
 
    ()
 
 .. _object-16:
 
 object
-      
+
 
    `ElementPlacement`_
 
 .. _object-17:
 
 object
-      
+
 
    `ElementPlacement`_
 
@@ -10039,14 +10039,14 @@ object
 .. _selected-object.-5:
 
 selected object.
-                
+
 
    `RasterItem`_ Moves the object.
 
 .. _nothing-deletes-this-object.-9:
 
 Nothing Deletes this object.
-                            
+
 
    Nothing Scales the art item where
 
@@ -10059,7 +10059,7 @@ Nothing Deletes this object.
    `PluginItem`_ Converts the raster art for
 
 this object to vector art, using default options. Reorders the raster art into the source art of a plug-in group, and converts it into a group of filled and/or stroked paths that resemble the original image.
-                                                                                                                                                                                                               
+
 
    Creates and returns a pluginItem object that references a tracingObject object.
 
@@ -10071,14 +10071,14 @@ Method Parameter type Returns What it does
 .. _transform-10:
 
 transform
-         
+
 
    (transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidths] [,transformAbout])
 
 .. _translate-10:
 
 translate
-         
+
 
    ([deltaX]
 
@@ -10087,7 +10087,7 @@ translate
 .. _zorder-11:
 
 zOrder
-      
+
 
    Matrix boolean boolean boolean boolean
 
@@ -10112,7 +10112,7 @@ zOrder
 .. _position-in-the-stacking-order-of-the-group-or-layer-parent-of-this-object.-9:
 
 position in the stacking order of the group or layer (parent) of this object.
-                                                                             
+
 
 RasterItems
 -----------
@@ -10143,21 +10143,21 @@ Method Parameter type Returns What it does
 .. _getbyname-21:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-24:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-22:
 
 removeAll
-         
+
 
    ()
 
@@ -10205,7 +10205,7 @@ RasterizeOptions
 ----------------
 
 Specifies options that may be supplied when rasterizing artwork. All properties are optional.
-                                                                                             
+
 
    **RasterizeOptions properties**
 
@@ -10284,7 +10284,7 @@ Screen
 ------
 
 Associates a color separation screen with information to be used for printing.
-                                                                              
+
 
    **Screen properties**
 
@@ -10377,7 +10377,7 @@ ScreenSpotFunction
 ------------------
 
 Contains information about a color separation screen spot function, including its definition in PostScript language code.
-                                                                                                                         
+
 
    **ScreenSpotFunction properties**
 
@@ -10443,7 +10443,7 @@ Spot
 ----
 
 A custom color definition contained in a `SpotColor`_ object.
-                                                             
+
 
    If no properties are specified when creating a spot, default values are provided. However, if specifying the color, you must use the same color space as the document, either CMYK or RGB. Otherwise, an error results. The new spot is added to the end of the swatches list in the Swatches palette.
 
@@ -10472,19 +10472,19 @@ A custom color definition contained in a `SpotColor`_ object.
    **Method Parameter type Returns What it does**
 
 getInternalColor
-                
+
 
    ()
 
 .. _remove-21:
 
 remove
-      
+
 
    ()
 
 Color components Gets the internal color of a spot. Nothing Deletes this object.
-                                                                                
+
 
    **Creating a new spot color**
 
@@ -10520,7 +10520,7 @@ SpotColor
 ---------
 
 Color class used to apply the color value of a spot at a specified tint value. Can be used in any property that takes a color object.
-                                                                                                                                     
+
 
    **SpotColor properties**
 
@@ -10563,28 +10563,28 @@ Method Parameter type Returns What it does
 .. _add-16:
 
 add
-   
+
 
    ()
 
 .. _getbyname-22:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-25:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-23:
 
 removeAll
-         
+
 
    ()
 
@@ -10646,7 +10646,7 @@ Story
 -----
 
 A contiguous block of text as specified by a text range. A story can contain one or more text frames; if there is more than one, the multiple text frames are linked together to form a single story.
-                                                                                                                                                                                                     
+
 
    **Story properties**
 
@@ -10714,7 +10714,7 @@ Stories
 -------
 
 A collection of Story objects in a document.
-                                            
+
 
    **Stories properties**
 
@@ -10737,12 +10737,12 @@ A collection of Story objects in a document.
 .. _index-26:
 
 index
-     
+
 
    (itemKey) string, number
 
 `Story`_ Gets an element from the collection.
-                                             
+
 
 Swatch
 ------
@@ -10772,14 +10772,14 @@ Swatch
 .. _remove-22:
 
 remove
-      
+
 
 ()
 
 .. _nothing-deletes-this-object.-10:
 
 Nothing Deletes this object.
-                            
+
 
    **Modifying a swatch**
 
@@ -10795,7 +10795,7 @@ Swatches
 --------
 
 A collection of Swatch objects in a document.
-                                             
+
 
    **Swatches properties**
 
@@ -10818,51 +10818,51 @@ A collection of Swatch objects in a document.
 .. _add-17:
 
 add
-   
+
 
    ()
 
 .. _getbyname-23:
 
 getByName
-         
+
 
    (name) string
 
    `Swatch`_ Creates a new Swatch object.
 
 `Swatch`_ Gets the first element in the collection with the specified name.
-                                                                           
+
 
 getSelected
-           
+
 
    ()
 
 List of
-       
+
 
 `Swatch`_
 
 Gets selected swatches in the document.
-                                       
+
 
 .. _index-27:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-24:
 
 removeAll
-         
+
 
    ()
 
 `Swatch`_ Gets an element from the collection. Nothing Deletes all elements in this collection.
-                                                                                               
+
 
    **Finding and deleting a swatch**
 
@@ -10906,50 +10906,50 @@ Method Parameter type Returns What it does
 ''''''''''''''''''''''''''''''''''''''''''
 
 addSpot
-       
+
 
    (spot) `Spot`_
 
 addSwatch
-         
+
 
    (swatch) `Swatch`_
 
    Nothing Adds a spot swatch to the swatch group. Nothing Adds a swatch to the swatch group.
 
 getAllSwatches
-              
+
 
    ()
 
 .. _list-of-1:
 
 List of
-       
+
 
 `Swatch`_
 
 Gets a list of all swatches in the swatch group.
-                                                
+
 
 .. _remove-23:
 
 remove
-      
+
 
    ()
 
 .. _removeall-25:
 
 removeAll
-         
+
 
    ()
 
 .. _nothing-deletes-this-object.-11:
 
 Nothing Deletes this object.
-                            
+
 
    Nothing Deletes all elements in the collection.
 
@@ -10985,14 +10985,14 @@ Method Parameter type Returns What it does
 .. _getbyname-24:
 
 getByName
-         
+
 
    (name) string
 
 .. _removeall-26:
 
 removeAll
-         
+
 
    ()
 
@@ -11026,19 +11026,19 @@ Symbol
 .. _duplicate-10:
 
 duplicate
-         
+
 
    ()
 
 .. _remove-24:
 
 remove
-      
+
 
    ()
 
 `Symbol`_ Create a duplicate of this object.
-                                            
+
 
    Nothing Deletes this object.
 
@@ -11056,7 +11056,7 @@ SymbolItem
 .. _kind-of-knockout.-4:
 
 kind of knockout.
-                 
+
 
    **blendingMode** `BlendModes`_ The blend mode used when compositing an object.
 
@@ -11065,7 +11065,7 @@ kind of knockout.
 .. _width-and-controls.-3:
 
 width and controls.
-                   
+
 
    **editable** boolean Read-only. If true, this item is editable.
 
@@ -11080,7 +11080,7 @@ width and controls.
 .. _layer-layer-read-only.-the-layer-to-which-this-item-belongs.-3:
 
 **layer** `Layer`_ Read-only. The layer to which this item belongs.
-                                                                   
+
 
    **left** number (double) The position of the left side of the item (in points, measured from the left side of the page).
 
@@ -11099,7 +11099,7 @@ width and controls.
 .. _read-only.-the-parent-of-this-object.-4:
 
 Read-only. The parent of this object.
-                                     
+
 
    **position** array of 2 numbers The position (in points) of the top left corner of the
 
@@ -11114,7 +11114,7 @@ Read-only. The parent of this object.
 .. _tags-tags-read-only.-the-tags-contained-in-this-item.-3:
 
 **tags** `Tags`_ Read-only. The tags contained in this item.
-                                                            
+
 
    **top** number (double) The position of the top of the item (in points, measured from the bottom of the page).
 
@@ -11149,28 +11149,28 @@ Read-only. The parent of this object.
 .. _duplicate-11:
 
 duplicate
-         
+
 
    ([relativeObject] [,insertionLocation])
 
 .. _move-11:
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 .. _remove-25:
 
 remove
-      
+
 
    ()
 
 .. _resize-11:
 
 resize
-      
+
 
    (scaleX, scaleY
 
@@ -11179,14 +11179,14 @@ resize
 .. _object-18:
 
 object
-      
+
 
    `ElementPlacement`_
 
 .. _object-19:
 
 object
-      
+
 
    `ElementPlacement`_
 
@@ -11201,14 +11201,14 @@ object
 .. _selected-object.-6:
 
 selected object.
-                
+
 
    `SymbolItem`_ Moves the object.
 
 .. _nothing-deletes-this-object.-12:
 
 Nothing Deletes this object.
-                            
+
 
    Nothing Scales the art item where
 
@@ -11219,21 +11219,21 @@ Nothing Deletes this object.
 .. _rotate-11:
 
 rotate
-      
+
 
    (angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])
 
 .. _transform-11:
 
 transform
-         
+
 
    (transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidths] [,transformAbout])
 
 .. _translate-11:
 
 translate
-         
+
 
    ([deltaX]
 
@@ -11242,7 +11242,7 @@ translate
 .. _zorder-12:
 
 zOrder
-      
+
 
    number (double) boolean
 
@@ -11259,7 +11259,7 @@ zOrder
 .. _nothing-rotates-the-art-item-relative-1:
 
 Nothing Rotates the art item relative
-                                     
+
 
    to the current rotation. The object is rotated
 
@@ -11280,7 +11280,7 @@ Nothing Rotates the art item relative
 .. _position-in-the-stacking-order-of-the-group-or-layer-parent-of-this-object.-10:
 
 position in the stacking order of the group or layer (parent) of this object.
-                                                                             
+
 
 SymbolItems
 -----------
@@ -11312,28 +11312,28 @@ Method Parameter type Returns What it does
 .. _add-18:
 
 add
-   
+
 
    (symbol) `Symbol`_
 
 .. _getbyname-25:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-28:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-27:
 
 removeAll
-         
+
 
    ()
 
@@ -11375,7 +11375,7 @@ Symbols
 -------
 
 The collection of Symbol objects in the document.
-                                                 
+
 
    **Symbols properties**
 
@@ -11398,7 +11398,7 @@ The collection of Symbol objects in the document.
 .. _add-19:
 
 add
-   
+
 
    (sourceArt, [registrationPoint])
 
@@ -11407,26 +11407,26 @@ add
    `Symbol`_ Returns a symbol object
 
 created from the source art item, any of the following:
-                                                       
+
 
 .. _index-29:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _getbyname-26:
 
 getByName
-         
+
 
    (name) string
 
 .. _removeall-28:
 
 removeAll
-         
+
 
    ()
 
@@ -11435,7 +11435,7 @@ removeAll
    The default registration point is SymbolCenterPoint.
 
 `Symbol`_ Gets an element from the collection.
-                                              
+
 
    `Symbol`_ Gets the first element in the
 
@@ -11471,7 +11471,7 @@ TabStopInfo
 -----------
 
 Information about the alignment, position, and other details for a tab stop in a ParagraphAttributes
-                                                                                                    
+
 
    object.
 
@@ -11535,7 +11535,7 @@ Tag
 ---
 
 A label associated with a specific piece of artwork. Tags allows you to assign an unlimited number of key-value pairs to any page item in a document.
-                                                                                                                                                     
+
 
    **Tag properties**
 
@@ -11560,14 +11560,14 @@ A label associated with a specific piece of artwork. Tags allows you to assign a
 .. _remove-26:
 
 remove
-      
+
 
 ()
 
 .. _nothing-deletes-this-object.-13:
 
 Nothing Deletes this object.
-                            
+
 
    **Using tags**
 
@@ -11613,7 +11613,7 @@ Tags
 ----
 
 A collection of Tag objects.
-                            
+
 
    **Tags properties**
 
@@ -11636,35 +11636,35 @@ A collection of Tag objects.
 .. _add-20:
 
 add
-   
+
 
    ()
 
 .. _getbyname-27:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-30:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-29:
 
 removeAll
-         
+
 
    ()
 
    `Tag`_ Creates a new Tag object.
 
 `Tag`_ Gets the first element in the collection with the specified name.
-                                                                        
+
 
    `Tag`_ Gets an element from the collection. Nothing Deletes all elements in this collection.
 
@@ -11767,14 +11767,14 @@ Method Parameter type Returns What it does
 .. _index-31:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _getbyname-28:
 
 getByName
-         
+
 
    (name) string
 
@@ -11836,7 +11836,7 @@ TextFrameItem
 -------------
 
 The basic art item for displaying text. From the user interface, this is text created with the Text tool. There are three types of text art in Illustrator: point text, path text, and area text. The type is indicated by the text frame’s `kind`_ property.
-                                                                                                                                                                                                                                                             
+
 
    When you create a text frame, you also create a `Story`_ object. However, threading text frames combines the frames into a single story object. To thread frames, use the `nextFrame`_ or `previousFrame`_ property.
 
@@ -11917,12 +11917,12 @@ The basic art item for displaying text. From the user interface, this is text cr
    **Method Parameter type Returns What it does**
 
 convertAreaObjectToPointObject
-                              
+
 
    ()
 
 convertPointObjectToAreaObject
-                              
+
 
    ()
 
@@ -11931,75 +11931,75 @@ convertPointObjectToAreaObject
    `TextFrame`_ `Item <#textframeitem>`__
 
 Converts the area-type text frame to a point-type text frame.
-                                                             
+
 
    Converts the point-type text frame to an area-type text frame.
 
 createOutline
-             
+
 
    ()
 
 .. _duplicate-12:
 
 duplicate
-         
+
 
    ([relativeObject] [,insertionLocation])
 
 .. _move-12:
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 .. _remove-27:
 
 remove
-      
+
 
    ()
 
 .. _object-20:
 
 object
-      
+
 
    `ElementPlacement`_
 
 .. _object-21:
 
 object
-      
+
 
    `ElementPlacement`_
 
    `GroupItem`_ Converts the text in the
 
 text frame to outlines.
-                       
+
 
    `TextRange`_ Creates a duplicate of the
 
 .. _selected-object.-7:
 
 selected object.
-                
+
 
    `TextRange`_ Moves the object.
 
 .. _nothing-deletes-this-object.-14:
 
 Nothing Deletes this object.
-                            
+
 
    **Method Parameter type Returns What it does**
 
 .. _resize-12:
 
 resize
-      
+
 
    (scaleX, scaleY
 
@@ -12008,7 +12008,7 @@ resize
 .. _rotate-12:
 
 rotate
-      
+
 
    (angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])
 
@@ -12019,7 +12019,7 @@ rotate
 .. _translate-12:
 
 translate
-         
+
 
    ([deltaX]
 
@@ -12028,7 +12028,7 @@ translate
 .. _zorder-13:
 
 zOrder
-      
+
 
    number (double) number (double) boolean boolean boolean boolean
 
@@ -12045,7 +12045,7 @@ zOrder
 .. _nothing-scales-the-art-item-where-2:
 
 Nothing Scales the art item where
-                                 
+
 
    scaleX is the horizontal scaling factor and scaleY is the vertical scaling factor. 100.0 = 100%.
 
@@ -12068,7 +12068,7 @@ Nothing Scales the art item where
 .. _position-in-the-stacking-order-of-the-group-or-layer-parent-of-this-object.-11:
 
 position in the stacking order of the group or layer (parent) of this object.
-                                                                             
+
 
    **Rotate a text art item**
 
@@ -12132,19 +12132,19 @@ Method Parameter type Returns What it does
 .. _add-21:
 
 add
-   
+
 
    ()
 
 areaText
-        
+
 
    (textPath [,orientation] [,baseFrame] [,postFix])
 
 .. _getbyname-29:
 
 getByName
-         
+
 
    `PathItem`_ `TextOrientation`_ `TextFrameItem`_ boolean
 
@@ -12163,12 +12163,12 @@ getByName
 .. _index-32:
 
 index
-     
+
 
    (itemKey) string, number
 
 pathText
-        
+
 
    `Item <#textframeitem>`__
 
@@ -12177,7 +12177,7 @@ pathText
    `TextFrame`_
 
 the provided name.
-                  
+
 
    Gets an element from the collection.
 
@@ -12186,7 +12186,7 @@ the provided name.
    (textPath [,startTValue] [,endTValue [,orientation] [,baseFrame] [,postFix])
 
 pointText
-         
+
 
    (anchor [,orientation])
 
@@ -12201,17 +12201,17 @@ pointText
    `TextFrame`_ `Item <#textframeitem>`__
 
 Creates a point text frame item.
-                                
+
 
 .. _removeall-30:
 
 removeAll
-         
+
 
    ()
 
 Nothing Deletes all elements in the object.
-                                           
+
 
    **Creating and modifying text frames**
 
@@ -12263,7 +12263,7 @@ TextPath
 --------
 
 A path or list of paths for area or path text. A path consists of path points that define its geometry.
-                                                                                                       
+
 
    **TextPath properties**
 
@@ -12348,12 +12348,12 @@ A path or list of paths for area or path text. A path consists of path points th
 .. _setentirepath-1:
 
 setEntirePath
-             
+
 
    (pathPoints) array of[x, y] coordinate pairs
 
 Nothing Sets the path using the array of points specified as [x, y] coordinate pairs.
-                                                                                     
+
 
 TextRange
 ---------
@@ -12413,19 +12413,19 @@ TextRange
    **Method Parameter Type Returns What it does**
 
 changeCaseTo
-            
+
 
    (type) `CaseChangeType`_
 
 deSelect
-        
+
 
    ()
 
 .. _duplicate-13:
 
 duplicate
-         
+
 
    Nothing Changes the capitalization of text. Nothing Deselects the text range.
 
@@ -12434,41 +12434,41 @@ duplicate
    ([relativeObject] [,insertionLocation])
 
 getLocalCharOverridesJSON
-                         
+
 
    ()
 
 getLocalParaOverridesJSON
-                         
+
 
    ()
 
 getParagraphLength
-                  
+
 
    ()
 
 getTextRunLength
-                
+
 
    ()
 
 .. _move-13:
 
 move
-    
+
 
    (relativeObject, insertionLocation)
 
 .. _remove-28:
 
 remove
-      
+
 
    ()
 
 select
-      
+
 
    object
 
@@ -12477,19 +12477,19 @@ select
 .. _object-22:
 
 object
-      
+
 
    `ElementPlacement`_
 
    String Gets json representation of
 
 character overrides.
-                    
+
 
    String Gets json representation of
 
 paragraph overrides.
-                    
+
 
    Int32 Gets the length of the first
 
@@ -12500,12 +12500,12 @@ paragraph overrides.
    `TextRange`_ Moves the object.
 
 Nothing Deletes the object. Nothing Selects the text range. If
-                                                              
+
 
    ([addToDocument]) boolean
 
 addToDocument is true, adds this to the current selection; otherwise replaces the current selection.
-                                                                                                    
+
 
    **Manipulating text**
 
@@ -12563,14 +12563,14 @@ Method Parameter type Returns What it does
 .. _index-33:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-31:
 
 removeAll
-         
+
 
    ()
 
@@ -12592,7 +12592,7 @@ TracingObject
    **anchorCount** number (long) Read-only. The number of anchors in the tracing result. **areaCount** number (long) Read-only. The number of areas in the tracing result. **imageResolution** number (real) Read-only. The resolution of the source image in pixels per
 
 inch.
-     
+
 
    **parent** object Read-only. The object’s container.
 
@@ -12603,7 +12603,7 @@ inch.
 `RasterItem`_
 
 The raster art used to create the associated vector art plug-in group.
-                                                                      
+
 
    **tracingOptions** `TracingOptions`_ The options used to convert the raster artwork to vector art.
 
@@ -12620,7 +12620,7 @@ Method Parameter type Returns What it does
 ''''''''''''''''''''''''''''''''''''''''''
 
 expandTracing
-             
+
 
    ([viewed]) boolean
 
@@ -12629,19 +12629,19 @@ expandTracing
    The new GroupItem object replaces the PluginItem object in the document. By default, viewed is false, and the new group contains only the tracing result (the filled or stroked paths). If viewed is true, the new group retains additional information that was specified for the viewing mode, such as outlines and overlays.
 
 releaseTracing
-              
+
 
    ()
 
    `PlacedItem`_
 
 or
-  
+
 
    `RasterItem`_
 
 Deletes this object and its associated PluginItem object. Any group-level attributes that were applied to the plug-in item are applied to the top level of the new group item.
-                                                                                                                                                                              
+
 
    Reverts the artwork in the document to the original source raster art and removes the traced vector art. Returns the original object used to create the tracing, and deletes this object and its associated PluginItem object.
 
@@ -12721,19 +12721,19 @@ TracingOptions
    **Method Parameter type Returns What it does**
 
 loadFromPreset
-              
+
 
    (presetName) string
 
 storeToPreset
-             
+
 
    (presetName) string
 
    boolean Loads a set of options from the specified preset, as found in the Application.tracingPresetList array.
 
 boolean Saves this set of options in the specified preset. Use a name found in the Application.tracingPresetList array, or a new name to create a new preset. For an existing preset, overwrites an unlocked preset and returns true.
-                                                                                                                                                                                                                                     
+
 
    Returns false if the preset is locked.
 
@@ -12769,12 +12769,12 @@ Variable
 .. _remove-29:
 
 remove
-      
+
 
 ()
 
 Nothing Removes the variable from the collection of variables.
-                                                              
+
 
 Variables
 ---------
@@ -12802,35 +12802,35 @@ Variables
 .. _add-22:
 
 add
-   
+
 
    ()
 
 .. _getbyname-30:
 
 getByName
-         
+
 
    (name) string
 
 .. _index-34:
 
 index
-     
+
 
    (itemKey) string, number
 
 .. _removeall-32:
 
 removeAll
-         
+
 
    ()
 
    Variable Adds a new variable to the collection.
 
 Variable Get the first element in the collection with the provided name.
-                                                                        
+
 
    Variable Get an element from the collection. Nothing Deletes all elements in the collection.
 
@@ -12871,7 +12871,7 @@ Views
 -----
 
 A collection of View objects in a document.
-                                           
+
 
    **Views properties**
 
@@ -12894,12 +12894,12 @@ A collection of View objects in a document.
 .. _index-35:
 
 index
-     
+
 
    (itemKey) string, number
 
 `View`_ Gets an element from the collection.
-                                            
+
 
 Words
 -----
@@ -12927,7 +12927,7 @@ Words
 .. _add-23:
 
 add
-   
+
 
    (contents
 
@@ -12938,14 +12938,14 @@ add
 .. _addbefore-2:
 
 addBefore
-         
+
 
    string `TextFrameItem`_ `ElementPlacement`_
 
    `TextRange`_ Adds a word to the current
 
 document at the specified location. If no location is specified, adds it to the containing text frame after the current word selection or insertion point.
-                                                                                                                                                          
+
 
    `TextRange`_ Adds a word before the current
 
@@ -12954,26 +12954,26 @@ document at the specified location. If no location is specified, adds it to the 
 .. _index-36:
 
 index
-     
+
 
    (itemKey) number
 
 .. _removeall-33:
 
 removeAll
-         
+
 
    ()
 
 word selection or insertion point.
-                                  
+
 
    `TextRange`_ Gets an element from the collection.
 
 .. _nothing-deletes-all-elements-in-this-1:
 
 Nothing Deletes all elements in this
-                                    
+
 
    collection.
 
@@ -13031,14 +13031,14 @@ Scripting Constants
 ===================
 
 This chapter lists and describes the enumerations defined for use with Illustrator JavaScript properties and methods.
-                                                                                                                     
+
 
    **Constant**
 
    **Type Values What it means**
 
 AlternateGlyphsForm
-                   
+
 
    DEFAULTFORM THIRDWIDTH
 
@@ -13053,12 +13053,12 @@ AlternateGlyphsForm
    HALFWIDTH JIS04FORM
 
 AntiAliasingMethod
-                  
+
 
    None TYPEOPTIMIZED ARTOPTIMIZED
 
 The type of antialiasing method used in the rasterization.
-                                                          
+
 
     None — No antialiasing is allowed.
 
@@ -13067,27 +13067,14 @@ The type of antialiasing method used in the rasterization.
     TYPEOPTIMIZED — Optimize for the type object.
 
 ArtClippingOption
-                 
+
 
    OUTPUTARTBOUNDS OUTPUTARTBOARDBOUNDS OUTPUTCROPRECTBOUNDS
 
-How the art should be clipped during output.
-                                            
 
-    OUTPUTARTBOUNDS — Output size is the size of the artwork.
-
-    OUTPUTARTBOARDBOUNDS —
-
-Output size is the size of the artboard.
-                                        
-
-    OUTPUTCROPRECTBOUNDS —
-
-Output size is the size of the crop area.
-                                         
 
 AutoCADColors
-             
+
 
    Max8Colors Max256Colors
 
@@ -13096,7 +13083,7 @@ AutoCADColors
 .. _section-1:
 
 241
-   
+
 
    **Constant**
 
@@ -13107,27 +13094,27 @@ AutoCADColors
    AutoCADRelease13 AutoCADRelease18 AutoCADRelease14 AutoCADRelease21 AutoCADRelease15 AutoCADRelease24
 
 AutoCADExportFileFormat
-                       
+
 
    DXF DWG
 
 AutoCADExportOption
-                   
+
 
    PreserveAppearance MaximizeEditability
 
 AutoCADGlobalScaleOption
-                        
+
 
    OriginalSize ScaleByValue FitArtboard
 
 AutoCADRasterFormat
-                   
+
 
    PNG JPEG
 
 AutoCADUnit
-           
+
 
    Points Millimeters
 
@@ -13136,29 +13123,29 @@ AutoCADUnit
    Inches Pixels
 
 AutoKernType
-            
+
 
    NOAUTOKERN OPTICAL
 
    AUTO METRICSROMANONLY
 
 AutoLeadingType
-               
+
 
    BOTTOMTOBOTTOM TOPTOTOP
 
 BaselineDirectionType
-                     
+
 
    Standard VerticalRotated TateChuYoko
 
 BlendAnimationType
-                  
+
 
    INBUILD NOBLENDANIMATION INSEQUENCE
 
 BlendModes
-          
+
 
    COLORBLEND LIGHTEN
 
@@ -13177,7 +13164,7 @@ BlendModes
    HUE SOFTLIGHT
 
 The blend mode used when compositing an object.
-                                               
+
 
    **Constant**
 
@@ -13188,78 +13175,78 @@ The blend mode used when compositing an object.
    AUTOMATICALLYCONVERTBLENDS RASTERIZEBLENDS
 
 BurasagariTypeEnum
-                  
+
 
    Forced Standard
 
    None
 
 CaseChangeType
-              
+
 
    LOWERCASE TITLECASE
 
    SENTENCECASE UPPERCASE
 
 ColorConversion
-               
+
 
    COLORCONVERSIONREPURPOSE COLORCONVERSIONTODEST
 
    None
 
 ColorConvertPurpose
-                   
+
 
    defaultpurpose exportpurpose previewpurpose dummypurpose
 
    The purpose of color conversion using the ConvertSampleColor method of the Application class.
 
 ColorDestination
-                
+
 
    COLORDESTINATIONDOCCMYK COLORDESTINATIONDOCRGB COLORDESTINATIONPROFILE COLORDESTINATIONWORKINGCMYK COLORDESTINATIONWORKINGRGB
 
    None
 
 ColorDitherMethod
-                 
+
 
    DIFFUSION NOREDUCTION
 
    NOISE PATTERNDITHER
 
 The method used to dither colors in exported GIF and PNG8 images.
-                                                                 
+
 
 ColorModel
-          
+
 
    PROCESS SPOT
 
    REGISTRATION
 
 ColorProfile
-            
+
 
    INCLUDEALLPROFILE LEAVEPROFILEUNCHANGED INCLUDEDESTPROFILE None INCLUDERGBPROFILE
 
 ColorReductionMethod
-                    
+
 
    ADAPTIVE SELECTIVE
 
    PERCEPTUAL WEB
 
 The method used to reduce the number of colors in exported GIF and PNG8 images.
-                                                                               
+
 
    **Constant**
 
    **Type Values What it means**
 
 ColorType
-         
+
 
    CMYK PATTERN
 
@@ -13270,10 +13257,10 @@ ColorType
    NONE
 
 The color specification for an individual color.
-                                                
+
 
 Compatibility
-             
+
 
    ILLUSTRATOR8 ILLUSTRATOR12
 
@@ -13286,36 +13273,36 @@ Compatibility
    ILLUSTRATOR16 ILLUSTRATOR17 JAPANESEVERSION3 ILLUSTRATOR19
 
 The version of the Illustrator file to create when saving an EPS or Illustrator file
-                                                                                    
+
 
 CompressionQuality
-                  
+
 
    AUTOMATICJPEG2000HIGH JPEG2000LOW AUTOMATICJPEG2000LOSSLESS JPEG2000MAXIMUM AUTOMATICJPEG2000LOW JPEG2000MEDIUM AUTOMATICJPEG2000MAXIMUM JPEG2000MINIMUM AUTOMATICJPEG2000MEDIUM JPEGHIGH AUTOMATICJPEG2000MINIMUM JPEGLOW AUTOMATICJPEGHIGH JPEGMAXIMUM
 
    AUTOMATICJPEGLOW JPEGMEDIUM AUTOMATICJPEGMAXIMUM JPEGMINIMUM AUTOMATICJPEGMEDIUM ZIP4BIT AUTOMATICJPEGMINIMUM ZIP8BIT JPEG2000HIGH None JPEG2000LOSSLESS
 
 The quality of bitmap compression used when saving a PDF file
-                                                             
+
 
 CoordinateSystem
-                
+
 
    DOCUMENTCOORDINATESYSTEM ARTBOARDCOORDINATESYSTEM
 
 The coordinate system used by Illustrator
-                                         
+
 
 CropOptions
-           
+
 
    Japanese Standard
 
 The style of a document’s cropping box
-                                      
+
 
 DocumentArtboardLayout
-                      
+
 
    GridByRow RLGridByRow
 
@@ -13326,29 +13313,29 @@ DocumentArtboardLayout
    Column
 
 The layout of in the new document.
-                                  
+
 
 DocumentColorSpace
-                  
+
 
    CMYK RGB The color space of a document
 
 DocumentLayoutStyle
-                   
+
 
    CASCADE FLOATALL
 
    HORIZONTALTILE CONSOLIDATEALL VERTICALTILE
 
 The layout style for a document.
-                                
+
 
    **Constant**
 
    **Type Values What it means**
 
 DocumentPresetType
-                  
+
 
    BasicCMYK Mobile
 
@@ -13357,59 +13344,59 @@ DocumentPresetType
    Print Web
 
 The preset types available for new documents.
-                                             
+
 
 DocumentPreviewMode
-                   
+
 
    DefaultPreview OverprintPreview PixelPreview
 
 The document preview mode
-                         
+
 
 DocumentRasterResolution
-                        
+
 
    ScreenResolution HighResolution MediumResolution
 
 The preset document raster resolution
-                                     
+
 
 DocumentTransparencyGrid
-                        
+
 
    TransparencyGridNone TransparencyGridLight TransparencyGridMedium TransparencyGridDark TransparencyGridRed TransparencyGridOrange TransparencyGridGreen TransparencyGridBlue TransparencyGridPurple
 
 Document transparency grid colors
-                                 
+
 
 DocumentType
-            
+
 
    EPS PDF
 
    ILLUSTRATOR FXG
 
 The file format used to save a file
-                                   
+
 
 DownsampleMethod
-                
+
 
    AVERAGEDOWNSAMPLE NODOWNSAMPLE BICUBICDOWNSAMPLE SUBSAMPLE
 
 ElementPlacement
-                
+
 
    INSIDE PLACEBEFORE PLACEATBEGINNING PLACEAFTER PLACEATEND
 
 EPSPostScriptLevelEnum
-                      
+
 
    LEVEL2 LEVEL3
 
 EPSPreview
-          
+
 
    BWTIFF COLORTIFF
 
@@ -13418,14 +13405,14 @@ EPSPreview
    None
 
 The preview image format used when saving an EPS file
-                                                     
+
 
    **Constant**
 
    **Type Values What it means**
 
 ExportType
-          
+
 
    FLASH PNG24
 
@@ -13436,33 +13423,33 @@ ExportType
    Photoshop TIFF AutoCAD
 
 The file format used to export a file
-                                     
+
 
 FigureStyleType
-               
+
 
    DEFAULTFIGURESTYLE TABULAR PROPORTIONAL TABULAROLDSTYLE PROPORTIONALOLDSTYLE
 
 FiltersPreservePolicy
-                     
+
 
    EXPANDFILTERS KEEPFILTERSEDITABLE RASTERIZEFILTERS
 
 The filters preserve policy used by the FXG file format.
-                                                        
+
 
 FlashExportStyle
-                
+
 
    ASFLASHFILE LAYERSASSYMBOLS
 
    LAYERSASFRAMES TOFILES LAYERSASFILES
 
 The method used to convert Illustrator images when exporting files
-                                                                  
+
 
 FlashExportVersion
-                  
+
 
    FlashVersion1 FlashVersion6
 
@@ -13473,36 +13460,36 @@ FlashExportVersion
    FlashVersion4 FlashVersion9 FlashVersion5
 
 Version for exported SWF file
-                             
+
 
 FlashImageFormat
-                
+
 
    LOSSLESS LOSSY
 
 The format used to store flash images
-                                     
+
 
 FlashJPEGMethod
-               
+
 
    Optimized Standard
 
 The method used to store JPEG images
-                                    
+
 
 FlashPlaybackSecurity
-                     
+
 
    PlaybackLocal PlaybackNetwork
 
 FontBaselineOption
-                  
+
 
    NORMALBASELINE SUPERSCRIPT SUBSCRIPT
 
 FontCapsOption
-              
+
 
    ALLCAPS NORMALCAPS
 
@@ -13513,632 +13500,632 @@ FontCapsOption
    **Type Values What it means**
 
 FontOpenTypePositionOption
-                          
+
 
    DENOMINATOR OPENTYPESUBSCRIPT
 
    NUMERATOR OPENTYPESUPERSCRIPT OPENTYPEDEFAULT
 
 FontSubstitutionPolicy
-                      
 
-   SUBSTITUTEDEVICE SUBSTITUTEOBLIQUE SUBSTITUTETINT
+
+SUBSTITUTEDEVICE SUBSTITUTEOBLIQUE SUBSTITUTETINT
 
 FXGVersion
-          
 
-   VERSION1PT0 VERSION2PT0
 
-   The FXG file-format version.
+VERSION1PT0 VERSION2PT0
+
+The FXG file-format version.
 
 GradientsPreservePolicy
-                       
 
-   AUTOMATICALLYCONVERTGRADIENTS KEEPGRADIENTSEDITABLE
+
+AUTOMATICALLYCONVERTGRADIENTS KEEPGRADIENTSEDITABLE
 
 The gradients preserve policy used by the FXG file format.
-                                                          
+
 
 GradientType
-            
 
-   LINEAR RADIAL
+
+LINEAR RADIAL
 
 The type of gradient
-                    
+
 
 ImageColorSpace
-               
 
-   CMYK Separation
 
-   Grayscale DeviceN
+CMYK Separation
 
-   RGB Indexed
+Grayscale DeviceN
 
-   LAB
+RGB Indexed
+
+LAB
 
 The color space of a raster item or an exported file
-                                                    
+
 
 InkPrintStatus
-              
 
-   CONVERTINK ENABLEINK DISABLEINK
+
+CONVERTINK ENABLEINK DISABLEINK
 
 InkType
-       
 
-   BLACKINK MAGENTAINK
 
-   CUSTOMINK YELLOWINK CYANINK
+BLACKINK MAGENTAINK
+
+CUSTOMINK YELLOWINK CYANINK
 
 JavaScriptExecutionMode
-                       
 
-   BeforeRunning OnRuntimeError never
+
+BeforeRunning OnRuntimeError never
 
 Justification
-             
 
-   CENTER FULLJUSTIFYLASTLINECENTER
 
-   LEFT FULLJUSTIFYLASTLINELEFT
+CENTER FULLJUSTIFYLASTLINECENTER
 
-   RIGHT FULLJUSTIFYLASTLINERIGHT FULLJUSTIFY
+LEFT FULLJUSTIFYLASTLINELEFT
+
+RIGHT FULLJUSTIFYLASTLINERIGHT FULLJUSTIFY
 
 The alignment or justification for a paragraph of text
-                                                      
 
-   **Constant**
 
-   **Type Values What it means**
+**Constant**
+
+**Type Values What it means**
 
 KinsokuOrderEnum
-                
 
-   PUSHIN PUSHOUTONLY PUSHOUTFIRST
+
+PUSHIN PUSHOUTONLY PUSHOUTFIRST
 
 KnockoutState
-             
 
-   DISABLED INHERITED
 
-   ENABLED Unknown
+DISABLED INHERITED
+
+ENABLED Unknown
 
 The type of knockout to use on a page item
-                                          
+
 
 LanguageType
-            
 
-   BOKMALNORWEGIAN JAPANESE BRAZILLIANPORTUGUESE NYNORSKNORWEGIAN BULGARIAN OLDGERMAN
 
-   CANADIANFRENCH POLISH
+BOKMALNORWEGIAN JAPANESE BRAZILLIANPORTUGUESE NYNORSKNORWEGIAN BULGARIAN OLDGERMAN
 
-   CATALAN RUMANIAN
+CANADIANFRENCH POLISH
 
-   CHINESE RUSSIAN
+CATALAN RUMANIAN
 
-   CZECH SERBIAN
+CHINESE RUSSIAN
 
-   DANISH SPANISH
+CZECH SERBIAN
 
-   DUTCH STANDARDFRENCH
+DANISH SPANISH
 
-   DUTCH2005REFORM STANDARDGERMAN
+DUTCH STANDARDFRENCH
 
-   ENGLISH STANDARDPORTUGUESE
+DUTCH2005REFORM STANDARDGERMAN
 
-   FINNISH SWEDISH
+ENGLISH STANDARDPORTUGUESE
 
-   GERMAN2006REFORM SWISSGERMAN
+FINNISH SWEDISH
 
-   GREEK SWISSGERMAN2006REFORM
+GERMAN2006REFORM SWISSGERMAN
 
-   HUNGARIAN TURKISH
+GREEK SWISSGERMAN2006REFORM
 
-   ICELANDIC UKENGLISH
+HUNGARIAN TURKISH
 
-   ITALIAN UKRANIAN
+ICELANDIC UKENGLISH
+
+ITALIAN UKRANIAN
 
 LayerOrderType
-              
 
-   TOPDOWN BOTTOMUP
+
+TOPDOWN BOTTOMUP
 
 LibraryType
-           
 
-   IllustratorArtwork GraphicStyles Swatches Symbols
 
-   Brushes
+IllustratorArtwork GraphicStyles Swatches Symbols
+
+Brushes
 
 Illustrator library type
-                        
+
 
 MonochromeCompression
-                     
 
-   CCIT3 None
 
-   CCIT4 RUNLENGTH
+CCIT3 None
 
-   MONOZIP
+CCIT4 RUNLENGTH
+
+MONOZIP
 
 The type of compression to use on a monochrome bitmap item when saving a PDF file
-                                                                                 
+
 
 OutputFlattening
-                
 
-   PRESERVEAPPEARANCE PRESERVEPATHS
+
+PRESERVEAPPEARANCE PRESERVEPATHS
 
 How transparency should be flattened when saving EPS and Illustrator file formats with compatibility set to versions of Illustrator earlier than Illustrator 10
-                                                                                                                                                               
 
-   **Constant**
 
-   **Type Values What it means**
+**Constant**
+
+**Type Values What it means**
 
 PageMarksTypes
-              
 
-   Japanese Roman
+
+Japanese Roman
 
 PathPointSelection
-                  
 
-   ANCHORPOINT NOSELECTION
 
-   LEFTDIRECTION RIGHTDIRECTION LEFTRIGHTPOINT
+ANCHORPOINT NOSELECTION
+
+LEFTDIRECTION RIGHTDIRECTION LEFTRIGHTPOINT
 
 Which points, if any, of a path are selected
-                                            
+
 
 PDFBoxType
-          
 
-   PDFARTBOX PDFCROPBOX
 
-   PDFBLEEDBOX PDFMEDIABOX
+PDFARTBOX PDFCROPBOX
 
-   PDFBOUNDINGBOX PDFTRIMBOX
+PDFBLEEDBOX PDFMEDIABOX
+
+PDFBOUNDINGBOX PDFTRIMBOX
 
 PDFChangesAllowedEnum
-                     
 
-   CHANGE128ANYCHANGES CHANGE40ANYCHANGES CHANGE128COMMENTING CHANGE40COMMENTING CHANGE128EDITPAGE CHANGE40PAGELAYOUT CHANGE128FILLFORM CHANGE40NONE CHANGE128NONE
+
+CHANGE128ANYCHANGES CHANGE40ANYCHANGES CHANGE128COMMENTING CHANGE40COMMENTING CHANGE128EDITPAGE CHANGE40PAGELAYOUT CHANGE128FILLFORM CHANGE40NONE CHANGE128NONE
 
 PDFCompatibility
-                
 
-   ACROBAT4 ACROBAT7
 
-   ACROBAT5 ACROBAT8 ACROBAT6
+ACROBAT4 ACROBAT7
+
+ACROBAT5 ACROBAT8 ACROBAT6
 
 The version of the Acrobat file format to create when saving a PDF file
-                                                                       
+
 
 PDFOverprint
-            
 
-   DISCARDPDFOVERPRINT PRESERVEPDFOVERPRINT
+
+DISCARDPDFOVERPRINT PRESERVEPDFOVERPRINT
 
 PDFPrintAllowedEnum
-                   
 
-   PRINT128HIGHRESOLUTION PRINT128LOWRESOLUTION PRINT128NONE PRINT40HIGHRESOLUTION PRINT40NONE
+
+PRINT128HIGHRESOLUTION PRINT128LOWRESOLUTION PRINT128NONE PRINT40HIGHRESOLUTION PRINT40NONE
 
 PDFTrimMarkWeight
-                 
 
-   TRIMMARKWEIGHT0125 TRIMMARKWEIGHT05 TRIMMARKWEIGHT025
+
+TRIMMARKWEIGHT0125 TRIMMARKWEIGHT05 TRIMMARKWEIGHT025
 
 PDFXStandard
-            
 
-   PDFXNONE PDFX32002
 
-   PDFX1A2001 PDFX32003
+PDFXNONE PDFX32002
 
-   PDFX1A2003 PDFX42007
+PDFX1A2001 PDFX32003
+
+PDFX1A2003 PDFX42007
 
 Constant
 ''''''''
 
-   **Type Values What it means**
+**Type Values What it means**
 
 PerspectiveGridType
-                   
 
-   OnePointPerspectiveGridType TwoPointPerspectiveGridType ThreePointPerspectiveGridType InvalidPerspectiveGridType
+
+OnePointPerspectiveGridType TwoPointPerspectiveGridType ThreePointPerspectiveGridType InvalidPerspectiveGridType
 
 PerspectiveGridPlaneType
-                        
 
-   GRIDLEFTPLANETYPE GRIDRIGHTPLANETYPE GRIDFLOORPLANETYPE INVALIDGRIDPLANETYPE
+
+GRIDLEFTPLANETYPE GRIDRIGHTPLANETYPE GRIDFLOORPLANETYPE INVALIDGRIDPLANETYPE
 
 PhotoshopCompatibility
-                      
 
-   Photoshop6 Photoshop8
+
+Photoshop6 Photoshop8
 
 PointType
-         
 
-   CORNER SMOOTH
 
-   The type of path point selected
+CORNER SMOOTH
+
+The type of path point selected
 
 PolarityValues
-              
 
-   NEGATIVE POSITIVE
+
+NEGATIVE POSITIVE
 
 PostScriptImageCompressionType
-                              
 
-   IMAGECOMPRESSIONNONE RLE
 
-   JPEG
+IMAGECOMPRESSIONNONE RLE
+
+JPEG
 
 PrintArtworkDesignation
-                       
 
-   ALLLAYERS VISIBLELAYERS VISIBLEPRINTABLELAYERS
+
+ALLLAYERS VISIBLELAYERS VISIBLEPRINTABLELAYERS
 
 PrintColorIntent
-                
 
-   ABSOLUTECOLORIMETRIC PERCEPTUALINTENT RELATIVECOLORIMETRIC SATURATIONINTENT
+
+ABSOLUTECOLORIMETRIC PERCEPTUALINTENT RELATIVECOLORIMETRIC SATURATIONINTENT
 
 PrintColorProfile
-                 
 
-   CUSTOMPROFILE PRINTERPROFILE
 
-   OLDSTYLEPROFILE SOURCEPROFILE
+CUSTOMPROFILE PRINTERPROFILE
+
+OLDSTYLEPROFILE SOURCEPROFILE
 
 PrintColorSeparationMode
-                        
 
-   COMPOSITE HOSTBASEDSEPARATION INRIPSEPARATION
+
+COMPOSITE HOSTBASEDSEPARATION INRIPSEPARATION
 
 .. _constant-1:
 
 Constant
 ''''''''
 
-   **Type Values What it means**
+**Type Values What it means**
 
 PrinterColorMode
-                
 
-   BLACKANDWHITEPRINTER GRAYSCALEPRINTER COLORPRINTER
+
+BLACKANDWHITEPRINTER GRAYSCALEPRINTER COLORPRINTER
 
 PrinterPostScriptLevelEnum
-                          
 
-   PSLEVEL1 PSLEVEL2 PSLEVEL3
+
+PSLEVEL1 PSLEVEL2 PSLEVEL3
 
 PrinterTypeEnum
-               
 
-   NONPOSTSCRIPTPRINTER POSTSCRIPTPRINTER
 
-   Unknown
+NONPOSTSCRIPTPRINTER POSTSCRIPTPRINTER
+
+Unknown
 
 PrintFontDownloadMode
-                     
 
-   DOWNLOADNONE DOWNLOADCOMPLETE DOWNLOADSUBSET
+
+DOWNLOADNONE DOWNLOADCOMPLETE DOWNLOADSUBSET
 
 PrintingBounds
-              
 
-   ARTBOARDBOUNDS ARTWORKBOUNDS
+
+ARTBOARDBOUNDS ARTWORKBOUNDS
 
 PrintOrientation
-                
 
-   AUTOROTATE
 
-   LANDSCAPE REVERSELANDSCAPE
+AUTOROTATE
 
-   PORTRAIT REVERSEPORTRAIT
+LANDSCAPE REVERSELANDSCAPE
 
-   The artwork printing orientation.
+PORTRAIT REVERSEPORTRAIT
+
+The artwork printing orientation.
 
 PrintPosition
-             
 
-   TRANSLATEBOTTOM TRANSLATERIGHT TRANSLATEBOTTOMLEFT TRANSLATETOP TRANSLATEBOTTOMRIGHT TRANSLATETOPLEFT TRANSLATECENTER TRANSLATETOPRIGHT TRANSLATELEFT
+
+TRANSLATEBOTTOM TRANSLATERIGHT TRANSLATEBOTTOMLEFT TRANSLATETOP TRANSLATEBOTTOMRIGHT TRANSLATETOPLEFT TRANSLATECENTER TRANSLATETOPRIGHT TRANSLATELEFT
 
 PrintTiling
-           
 
-   TILEFULLPAGES TILESINGLEFULLPAGE TILEIMAGEABLEAREAS
+
+TILEFULLPAGES TILESINGLEFULLPAGE TILEIMAGEABLEAREAS
 
 RasterizationColorModel
-                       
 
-   DEFAULTCOLORMODEL BITMAP
 
-   GRAYSCALE
+DEFAULTCOLORMODEL BITMAP
+
+GRAYSCALE
 
 The color model for the rasterization.
-                                      
+
 
 RasterLinkState
-               
 
-   DATAFROMFILE DATAMODIFIED NODATA
+
+DATAFROMFILE DATAMODIFIED NODATA
 
 The status of a raster item’s linked image if the image is stored externally
-                                                                            
 
-   **Constant**
 
-   **Type Values What it means**
+**Constant**
+
+**Type Values What it means**
 
 RulerUnits
-          
 
-   Centimeters Qs
 
-   Inches Pixels
+Centimeters Qs
 
-   Millimeters Unknown Picas
+Inches Pixels
 
-   Points
+Millimeters Unknown Picas
+
+Points
 
 The default measurement units for the rulers of a document
-                                                          
+
 
 SaveOptions
-           
 
-   DONOTSAVECHANGES SAVECHANGES PROMPTTOSAVECHANGES
+
+DONOTSAVECHANGES SAVECHANGES PROMPTTOSAVECHANGES
 
 Save options provided when closing a document
-                                             
+
 
 ScreenMode
-          
 
-   DESKTOP MULTIWINDOW FULLSCREEN
+
+DESKTOP MULTIWINDOW FULLSCREEN
 
 The mode of display for a view
-                              
+
 
 SpotColorKind
-             
 
-   SpotCMYK SpotLAB SpotRGB
+
+SpotCMYK SpotLAB SpotRGB
 
 The custom color kind of a spot color
-                                     
+
 
 StrokeCap
-         
 
-   BUTTENDCAP ROUNDENDCAP PROJECTINGENDCAP
+
+BUTTENDCAP ROUNDENDCAP PROJECTINGENDCAP
 
 The type of line capping for a path stroke
-                                          
+
 
 StrokeJoin
-          
 
-   BEVELENDJOIN ROUNDENDJOIN MITERENDJOIN
+
+BEVELENDJOIN ROUNDENDJOIN MITERENDJOIN
 
 The type of joints for a path stroke
-                                    
+
 
 StyleRunAlignmentType
-                     
 
-   bottom icfTop
 
-   center ROMANBASELINE
+bottom icfTop
 
-   icfBottom top
+center ROMANBASELINE
+
+icfBottom top
 
 SVGCSSPropertyLocation
-                      
 
-   ENTITIES STYLEATTRIBUTES PRESENTATIONATTRIBUTES STYLEELEMENTS
+
+ENTITIES STYLEATTRIBUTES PRESENTATIONATTRIBUTES STYLEELEMENTS
 
 How should the CSS properties of the document be included in an exported SVG file
-                                                                                 
+
 
 SVGDocumentEncoding
-                   
 
-   ASCII UTF8 UTF16
+
+ASCII UTF8 UTF16
 
 How should the text in the document be encoded when exporting an SVG file
-                                                                         
 
-   **Constant**
 
-   **Type Values What it means**
+**Constant**
+
+**Type Values What it means**
 
 SVGDTDVersion
-             
 
-   SVG1_0 SVGTINY1_1
 
-   SVG1_1 SVGTINY1_1PLUS
+SVG1_0 SVGTINY1_1
 
-   SVGBASIC1_1 SVGTINY1_2
+SVG1_1 SVGTINY1_1PLUS
+
+SVGBASIC1_1 SVGTINY1_2
 
 SVB version compatibility for exported files
-                                            
+
 
 SVGFontSubsetting
-                 
 
-   ALLGLYPHS GLYPHSUSEDPLUSENGLISH COMMONENGLISH GLYPHSUSEDPLUSROMAN COMMONROMAN None
 
-   GLYPHSUSED
+ALLGLYPHS GLYPHSUSEDPLUSENGLISH COMMONENGLISH GLYPHSUSEDPLUSROMAN COMMONROMAN None
+
+GLYPHSUSED
 
 What font glyphs should be included in exported SVG files
-                                                         
+
 
 SVGFontType
-           
 
-   CEFFONT SVGFONT OUTLINEFONT
+
+CEFFONT SVGFONT OUTLINEFONT
 
 Types for fonts included in exported SVG files
-                                              
+
 
 SymbolRegistrationPoint
-                       
 
-   SYMBOLTOPLEFTPOINT SYMBOLTOPMIDDLEPOINT SYMBOLTOPRIGHTPOINT SYMBOLMIDDLELEFTPOINT SYMBOLCENTERPOINT SYMBOLMIDDLERIGHTPOINT SYMBOLBOTTOMLEFTPOINT SYMBOLBOTTOMMIDDLEPOINT SYMBOLBOTTOMRIGHTPOINT
+
+SYMBOLTOPLEFTPOINT SYMBOLTOPMIDDLEPOINT SYMBOLTOPRIGHTPOINT SYMBOLMIDDLELEFTPOINT SYMBOLCENTERPOINT SYMBOLMIDDLERIGHTPOINT SYMBOLBOTTOMLEFTPOINT SYMBOLBOTTOMMIDDLEPOINT SYMBOLBOTTOMRIGHTPOINT
 
 Registration points for symbols
-                               
+
 
 TabStopAlignment
-                
 
-   Center Left
 
-   Decimal Right
+Center Left
+
+Decimal Right
 
 The alignment of a tab stop
-                           
+
 
 TextAntialias
-             
 
-   CRISP NONE SHARP STRONG
+
+CRISP NONE SHARP STRONG
 
 The type of text anti-aliasing in a text art item
-                                                 
+
 
 TextOrientation
-               
 
-   HORIZONTAL VERTICAL
+
+HORIZONTAL VERTICAL
 
 The orientation of text in a text art item
-                                          
+
 
 TextPreservePolicy
-                  
 
-   AUTOMATICALLYCONVERTTEXT OUTLINETEXT KEEPTEXTEDITABLE RASTERIZETEXT
+
+AUTOMATICALLYCONVERTTEXT OUTLINETEXT KEEPTEXTEDITABLE RASTERIZETEXT
 
 The text-preserve policy used by the FXG file format.
-                                                     
+
 
 TextType
-        
 
-   AREATEXT POINTTEXT PATHTEXT
+
+AREATEXT POINTTEXT PATHTEXT
 
 The type of text art displayed by this object
-                                             
 
-   **Constant**
 
-   **Type Values What it means**
+**Constant**
+
+**Type Values What it means**
 
 TIFFByteOrder
-             
 
-   IBMPC MACINTOSH
+
+IBMPC MACINTOSH
 
 The byte order to use for an exported TIFF file.
-                                                
+
 
 TracingModeType
-               
 
-   TRACINGMODEBLACKANDWHITE TRACINGMODECOLOR TRACINGMODEGRAY
+
+TRACINGMODEBLACKANDWHITE TRACINGMODECOLOR TRACINGMODEGRAY
 
 Transformation
-              
 
-   BOTTOM LEFT
 
-   BOTTOMLEFT RIGHT
+BOTTOM LEFT
 
-   BOTTOMRIGHT TOP
+BOTTOMLEFT RIGHT
 
-   CENTER TOPLEFT
+BOTTOMRIGHT TOP
 
-   DOCUMENTORIGIN TOPRIGHT
+CENTER TOPLEFT
+
+DOCUMENTORIGIN TOPRIGHT
 
 The point to use as the anchor point about which an object is rotated, resized, or transformed
-                                                                                              
+
 
 TrappingType
-            
 
-   IGNOREOPAQUE OPAQUE NORMALTRAPPING TRANSPARENT
+
+IGNOREOPAQUE OPAQUE NORMALTRAPPING TRANSPARENT
 
 UserInteractionLevel
-                    
 
-   DISPLAYALERTS DONTDISPLAYALERTS
+
+DISPLAYALERTS DONTDISPLAYALERTS
 
 User interface settings
-                       
+
 
 VariableKind
-            
 
-   GRAPH Unknown
 
-   IMAGE VISIBILITY
+GRAPH Unknown
 
-   TEXTUAL
+IMAGE VISIBILITY
+
+TEXTUAL
 
 What type of variables are included in the document
-                                                   
+
 
 ViewRasterType
-              
 
-   TRACINGVIEWRASTERADJUSTEDIMAGE TRACINGVIEWRASTERNOIMAGE TRACINGVIEWRASTERORIGINALIMAGE TRACINGVIEWRASTERTRANSPARENTIMAGE
+
+TRACINGVIEWRASTERADJUSTEDIMAGE TRACINGVIEWRASTERNOIMAGE TRACINGVIEWRASTERORIGINALIMAGE TRACINGVIEWRASTERTRANSPARENTIMAGE
 
 The raster visualization mode for tracing.
-                                          
+
 
 ViewVectorType
-              
 
-   TRACINGVIEWVECTORNOTRACINGRESULT TRACINGVIEWVECTOROUTLINES TRACINGVIEWVECTOROUTLINESWITHTRACING TRACINGVIEWVECTORTRACINGRESULT
+
+TRACINGVIEWVECTORNOTRACINGRESULT TRACINGVIEWVECTOROUTLINES TRACINGVIEWVECTOROUTLINESWITHTRACING TRACINGVIEWVECTORTRACINGRESULT
 
 The vector visualization mode for tracing.
-                                          
+
 
 WariChuJustificationType
-                        
 
-   Center Left Right
 
-   WARICHUAUTOJUSTIFY WARICHUFULLJUSTIFY WARICHUFULLJUSTIFYLASTLINECENTER WARICHUFULLJUSTIFYLASTLINELEFT WARICHUFULLJUSTIFYLASTLINERIGHT
+Center Left Right
+
+WARICHUAUTOJUSTIFY WARICHUFULLJUSTIFY WARICHUFULLJUSTIFYLASTLINECENTER WARICHUFULLJUSTIFYLASTLINELEFT WARICHUFULLJUSTIFYLASTLINERIGHT
 
 .. _constant-2:
 
 Constant
 ''''''''
 
-   **Type Values What it means**
+**Type Values What it means**
 
 ZOrderMethod
-            
 
-   BRINGFORWARD SENDBACKWARD
 
-   BRINGTOFRONT SENDTOBACK
+BRINGFORWARD SENDBACKWARD
+
+BRINGTOFRONT SENDTOBACK
 
    The method used to arrange an art item’s position in the stacking order of its parent group or layer, as specified with the zOrder method
 
@@ -14484,8 +14471,8 @@ ZOrderMethod
 .. _PDFChangesAllowedEnum: #pdfcompatibility
 .. _PDFXStandard: #pagemarkstypes
 .. _PDFTrimMarkWeight: #_bookmark230
-.. _“PlacedItems” on page 155: #placeditems
-.. _“PlacedItem” on page 151: #placeditem
+.. _"PlacedItems" on page 155: #placeditems
+.. _"PlacedItem" on page 151: #placeditem
 .. _TracingObject: #tracingobject
 .. _Copying a plug-in item: #_bookmark97
 .. _Screen: #screen

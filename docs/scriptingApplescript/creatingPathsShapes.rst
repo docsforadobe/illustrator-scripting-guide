@@ -102,7 +102,7 @@ Remember:
 Write-once access
 ********************************************************************************
 
-Properties for path-item shapes use the “write-once” access status, which indicates that the property is
+Properties for path-item shapes use the "write-once" access status, which indicates that the property is
 writeable only when the object is created. For existing path-item objects, the properties are read-only
 properties whose values cannot be changed.
 

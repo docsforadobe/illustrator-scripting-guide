@@ -3,7 +3,7 @@
 Your first Illustrator script
 ################################################################################
 
-The traditional first project in any programming language is displaying the message “Hello World!” In this
+The traditional first project in any programming language is displaying the message "Hello World!" In this
 example, you create a new Illustrator document, then add a text frame containing this message. Follow
 these steps:
 
@@ -29,7 +29,7 @@ For information on locating the ExtendScript Toolkit, see :ref:`introduction/vie
 
 ----
 
-Adding features to “Hello World”
+Adding features to "Hello World"
 ================================================================================
 
 Next, we create a new script that makes changes to the Illustrator document you created with your first

@@ -85,7 +85,7 @@ access to the library. For information see your editor’s Help.
 2. In the Visual Basic Editor, choose Tools > References.
 3. In the dialog that appears, select the check box for Adobe lllustrator CC Type Library, and click OK.
 4. Choose View > Object Browser, to display the Object Browser window.
-5. Choose “Illustrator” from the list of open libraries in the top-left pull-down menu of the Object Browser window.
+5. Choose "Illustrator" from the list of open libraries in the top-left pull-down menu of the Object Browser window.
 
 Several extended sample scripts are in the ``/Scripting/Sample Scripts/``
 folder in your lllustrator CC installation directory.
