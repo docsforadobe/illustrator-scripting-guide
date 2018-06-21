@@ -861,3 +861,665 @@ The file format used to save a file.
 +------------------------------+-------------+
 | ``DocumentType.PDF``         | todo        |
 +------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.DownsampleMethod:
+
+DownsampleMethod
+********************************************************************************
+
++----------------------------------------+-------------+
+|                 Value                  | Description |
++========================================+=============+
+| ``DownsampleMethod.AVERAGEDOWNSAMPLE`` | todo        |
++----------------------------------------+-------------+
+| ``DownsampleMethod.BICUBICDOWNSAMPLE`` | todo        |
++----------------------------------------+-------------+
+| ``DownsampleMethod.NODOWNSAMPLE``      | todo        |
++----------------------------------------+-------------+
+| ``DownsampleMethod.SUBSAMPLE``         | todo        |
++----------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.ElementPlacement:
+
+ElementPlacement
+********************************************************************************
+
++---------------------------------------+-------------+
+|                 Value                 | Description |
++=======================================+=============+
+| ``ElementPlacement.INSIDE``           | todo        |
++---------------------------------------+-------------+
+| ``ElementPlacement.PLACEAFTER``       | todo        |
++---------------------------------------+-------------+
+| ``ElementPlacement.PLACEATBEGINNING`` | todo        |
++---------------------------------------+-------------+
+| ``ElementPlacement.PLACEATEND``       | todo        |
++---------------------------------------+-------------+
+| ``ElementPlacement.PLACEBEFORE``      | todo        |
++---------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.EPSPostScriptLevelEnum:
+
+EPSPostScriptLevelEnum
+********************************************************************************
+
++-----------------------------------+-------------+
+|               Value               | Description |
++===================================+=============+
+| ``EPSPostScriptLevelEnum.LEVEL2`` | todo        |
++-----------------------------------+-------------+
+| ``EPSPostScriptLevelEnum.LEVEL3`` | todo        |
++-----------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.EPSPreview:
+
+EPSPreview
+********************************************************************************
+
+The preview image format used when saving an EPS file
+
++-------------------------------------+-------------+
+|                Value                | Description |
++=====================================+=============+
+| ``EPSPreview.BWTIFF``               | todo        |
++-------------------------------------+-------------+
+| ``EPSPreview.COLORTIFF``            | todo        |
++-------------------------------------+-------------+
+| ``EPSPreview.TRANSPARENTCOLORTIFF`` | todo        |
++-------------------------------------+-------------+
+| ``EPSPreview.None``                 | todo        |
++-------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.ExportType:
+
+ExportType
+********************************************************************************
+
+The file format used to export a file
+
++--------------------------+-------------+
+|          Value           | Description |
++==========================+=============+
+| ``ExportType.AutoCAD``   | todo        |
++--------------------------+-------------+
+| ``ExportType.FLASH``     | todo        |
++--------------------------+-------------+
+| ``ExportType.GIF``       | todo        |
++--------------------------+-------------+
+| ``ExportType.JPEG``      | todo        |
++--------------------------+-------------+
+| ``ExportType.Photoshop`` | todo        |
++--------------------------+-------------+
+| ``ExportType.PNG24``     | todo        |
++--------------------------+-------------+
+| ``ExportType.PNG8``      | todo        |
++--------------------------+-------------+
+| ``ExportType.SVG``       | todo        |
++--------------------------+-------------+
+| ``ExportType.TIFF``      | todo        |
++--------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.FigureStyleType:
+
+FigureStyleType
+********************************************************************************
+
++------------------------------------------+-------------+
+|                  Value                   | Description |
++==========================================+=============+
+| ``FigureStyleType.DEFAULTFIGURESTYLE``   | todo        |
++------------------------------------------+-------------+
+| ``FigureStyleType.PROPORTIONAL``         | todo        |
++------------------------------------------+-------------+
+| ``FigureStyleType.PROPORTIONALOLDSTYLE`` | todo        |
++------------------------------------------+-------------+
+| ``FigureStyleType.TABULAR``              | todo        |
++------------------------------------------+-------------+
+| ``FigureStyleType.TABULAROLDSTYLE``      | todo        |
++------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.FiltersPreservePolicy:
+
+FiltersPreservePolicy
+********************************************************************************
+
+The filters preserve policy used by the FXG file format.
+
++-----------------------------------------------+-------------+
+|                     Value                     | Description |
++===============================================+=============+
+| ``FiltersPreservePolicy.EXPANDFILTERS``       | todo        |
++-----------------------------------------------+-------------+
+| ``FiltersPreservePolicy.KEEPFILTERSEDITABLE`` | todo        |
++-----------------------------------------------+-------------+
+| ``FiltersPreservePolicy.RASTERIZEFILTERS``    | todo        |
++-----------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.FlashExportStyle:
+
+FlashExportStyle
+********************************************************************************
+
+The method used to convert Illustrator images when exporting files
+
++--------------------------------------+-------------+
+|                Value                 | Description |
++======================================+=============+
+| ``FlashExportStyle.ASFLASHFILE``     | todo        |
++--------------------------------------+-------------+
+| ``FlashExportStyle.LAYERSASFILES``   | todo        |
++--------------------------------------+-------------+
+| ``FlashExportStyle.LAYERSASFRAMES``  | todo        |
++--------------------------------------+-------------+
+| ``FlashExportStyle.LAYERSASSYMBOLS`` | todo        |
++--------------------------------------+-------------+
+| ``FlashExportStyle.TOFILES``         | todo        |
++--------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.FlashExportVersion:
+
+FlashExportVersion
+********************************************************************************
+
+Version for exported SWF file.
+
++--------------------------------------+-------------+
+|                Value                 | Description |
++======================================+=============+
+| ``FlashExportVersion.FlashVersion1`` | todo        |
++--------------------------------------+-------------+
+| ``FlashExportVersion.FlashVersion2`` | todo        |
++--------------------------------------+-------------+
+| ``FlashExportVersion.FlashVersion3`` | todo        |
++--------------------------------------+-------------+
+| ``FlashExportVersion.FlashVersion4`` | todo        |
++--------------------------------------+-------------+
+| ``FlashExportVersion.FlashVersion5`` | todo        |
++--------------------------------------+-------------+
+| ``FlashExportVersion.FlashVersion6`` | todo        |
++--------------------------------------+-------------+
+| ``FlashExportVersion.FlashVersion7`` | todo        |
++--------------------------------------+-------------+
+| ``FlashExportVersion.FlashVersion8`` | todo        |
++--------------------------------------+-------------+
+| ``FlashExportVersion.FlashVersion9`` | todo        |
++--------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.FlashImageFormat:
+
+FlashImageFormat
+********************************************************************************
+
+The format used to store flash images.
+
++-------------------------------+-------------+
+|             Value             | Description |
++===============================+=============+
+| ``FlashImageFormat.LOSSLESS`` | todo        |
++-------------------------------+-------------+
+| ``FlashImageFormat.LOSSY``    | todo        |
++-------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.FlashJPEGMethod:
+
+FlashJPEGMethod
+********************************************************************************
+
+The method used to store JPEG images.
+
++-------------------------------+-------------+
+|             Value             | Description |
++===============================+=============+
+| ``FlashJPEGMethod.Optimized`` | todo        |
++-------------------------------+-------------+
+| ``FlashJPEGMethod.Standard``  | todo        |
++-------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.FlashPlaybackSecurity:
+
+FlashPlaybackSecurity
+********************************************************************************
+
++-------------------------------------------+-------------+
+|                   Value                   | Description |
++===========================================+=============+
+| ``FlashPlaybackSecurity.PlaybackLocal``   | todo        |
++-------------------------------------------+-------------+
+| ``FlashPlaybackSecurity.PlaybackNetwork`` | todo        |
++-------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.FontBaselineOption:
+
+FontBaselineOption
+********************************************************************************
+
++---------------------------------------+-------------+
+|                 Value                 | Description |
++=======================================+=============+
+| ``FontBaselineOption.NORMALBASELINE`` | todo        |
++---------------------------------------+-------------+
+| ``FontBaselineOption.SUPERSCRIPT``    | todo        |
++---------------------------------------+-------------+
+| ``FontBaselineOption.SUBSCRIPT``      | todo        |
++---------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.FontCapsOption:
+
+FontCapsOption
+********************************************************************************
+
++---------------------------------+-------------+
+|              Value              | Description |
++=================================+=============+
+| ``FontCapsOption.ALLCAPS``      | todo        |
++---------------------------------+-------------+
+| ``FontCapsOption.ALLSMALLCAPS`` | todo        |
++---------------------------------+-------------+
+| ``FontCapsOption.NORMALCAPS``   | todo        |
++---------------------------------+-------------+
+| ``FontCapsOption.SMALLCAPS``    | todo        |
++---------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.FontOpenTypePositionOption:
+
+FontOpenTypePositionOption
+********************************************************************************
+
++----------------------------------------------------+-------------+
+|                       Value                        | Description |
++====================================================+=============+
+| ``FontOpenTypePositionOption.DENOMINATOR``         | todo        |
++----------------------------------------------------+-------------+
+| ``FontOpenTypePositionOption.NUMERATOR``           | todo        |
++----------------------------------------------------+-------------+
+| ``FontOpenTypePositionOption.OPENTYPEDEFAULT``     | todo        |
++----------------------------------------------------+-------------+
+| ``FontOpenTypePositionOption.OPENTYPESUBSCRIPT``   | todo        |
++----------------------------------------------------+-------------+
+| ``FontOpenTypePositionOption.OPENTYPESUPERSCRIPT`` | todo        |
++----------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.FontSubstitutionPolicy:
+
+FontSubstitutionPolicy
+********************************************************************************
+
++----------------------------------------------+-------------+
+|                    Value                     | Description |
++==============================================+=============+
+| ``FontSubstitutionPolicy.SUBSTITUTEDEVICE``  | todo        |
++----------------------------------------------+-------------+
+| ``FontSubstitutionPolicy.SUBSTITUTEOBLIQUE`` | todo        |
++----------------------------------------------+-------------+
+| ``FontSubstitutionPolicy.SUBSTITUTETINT``    | todo        |
++----------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.FXGVersion:
+
+FXGVersion
+********************************************************************************
+
+The FXG file-format version.
+
++----------------------------+-------------+
+|           Value            | Description |
++============================+=============+
+| ``FXGVersion.VERSION1PT0`` | todo        |
++----------------------------+-------------+
+| ``FXGVersion.VERSION2PT0`` | todo        |
++----------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.GradientsPreservePolicy:
+
+GradientsPreservePolicy
+********************************************************************************
+
+The gradients preserve policy used by the FXG file format.
+
++-----------------------------------------------------------+-------------+
+|                           Value                           | Description |
++===========================================================+=============+
+| ``GradientsPreservePolicy.AUTOMATICALLYCONVERTGRADIENTS`` | todo        |
++-----------------------------------------------------------+-------------+
+| ``GradientsPreservePolicy.KEEPGRADIENTSEDITABLE``         | todo        |
++-----------------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.GradientType:
+
+GradientType
+********************************************************************************
+
+The type of gradient.
+
++-------------------------+-------------+
+|          Value          | Description |
++=========================+=============+
+| ``GradientType.LINEAR`` | todo        |
++-------------------------+-------------+
+| ``GradientType.RADIAL`` | todo        |
++-------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.ImageColorSpace:
+
+ImageColorSpace
+********************************************************************************
+
+The color space of a raster item or an exported file
+
++--------------------------------+-------------+
+|             Value              | Description |
++================================+=============+
+| ``ImageColorSpace.CMYK``       | todo        |
++--------------------------------+-------------+
+| ``ImageColorSpace.DeviceN``    | todo        |
++--------------------------------+-------------+
+| ``ImageColorSpace.Grayscale``  | todo        |
++--------------------------------+-------------+
+| ``ImageColorSpace.Indexed``    | todo        |
++--------------------------------+-------------+
+| ``ImageColorSpace.LAB``        | todo        |
++--------------------------------+-------------+
+| ``ImageColorSpace.RGB``        | todo        |
++--------------------------------+-------------+
+| ``ImageColorSpace.Separation`` | todo        |
++--------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.InkPrintStatus:
+
+InkPrintStatus
+********************************************************************************
+
++-------------------------------+-------------+
+|             Value             | Description |
++===============================+=============+
+| ``InkPrintStatus.CONVERTINK`` | todo        |
++-------------------------------+-------------+
+| ``InkPrintStatus.ENABLEINK``  | todo        |
++-------------------------------+-------------+
+| ``InkPrintStatus.DISABLEINK`` | todo        |
++-------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.InkType:
+
+InkType
+********************************************************************************
+
++------------------------+-------------+
+|         Value          | Description |
++========================+=============+
+| ``InkType.BLACKINK``   | todo        |
++------------------------+-------------+
+| ``InkType.CUSTOMINK``  | todo        |
++------------------------+-------------+
+| ``InkType.CYANINK``    | todo        |
++------------------------+-------------+
+| ``InkType.MAGENTAINK`` | todo        |
++------------------------+-------------+
+| ``InkType.YELLOWINK``  | todo        |
++------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.JavaScriptExecutionMode:
+
+JavaScriptExecutionMode
+********************************************************************************
+
++--------------------------------------------+-------------+
+|                   Value                    | Description |
++============================================+=============+
+| ``JavaScriptExecutionMode.BeforeRunning``  | todo        |
++--------------------------------------------+-------------+
+| ``JavaScriptExecutionMode.OnRuntimeError`` | todo        |
++--------------------------------------------+-------------+
+| ``JavaScriptExecutionMode.never``          | todo        |
++--------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.Justification:
+
+Justification
+********************************************************************************
+
+The alignment or justification for a paragraph of text.
+
++---------------------------------------------+-------------+
+|                    Value                    | Description |
++=============================================+=============+
+| ``Justification.CENTER``                    | todo        |
++---------------------------------------------+-------------+
+| ``Justification.FULLJUSTIFY``               | todo        |
++---------------------------------------------+-------------+
+| ``Justification.FULLJUSTIFYLASTLINECENTER`` | todo        |
++---------------------------------------------+-------------+
+| ``Justification.FULLJUSTIFYLASTLINELEFT``   | todo        |
++---------------------------------------------+-------------+
+| ``Justification.FULLJUSTIFYLASTLINERIGHT``  | todo        |
++---------------------------------------------+-------------+
+| ``Justification.LEFT``                      | todo        |
++---------------------------------------------+-------------+
+| ``Justification.RIGHT``                     | todo        |
++---------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.KinsokuOrderEnum:
+
+KinsokuOrderEnum
+********************************************************************************
+
++-----------------------------------+-------------+
+|               Value               | Description |
++===================================+=============+
+| ``KinsokuOrderEnum.PUSHIN``       | todo        |
++-----------------------------------+-------------+
+| ``KinsokuOrderEnum.PUSHOUTFIRST`` | todo        |
++-----------------------------------+-------------+
+| ``KinsokuOrderEnum.PUSHOUTONLY``  | todo        |
++-----------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.KnockoutState:
+
+KnockoutState
+********************************************************************************
+
+The type of knockout to use on a page item.
+
++-----------------------------+-------------+
+|            Value            | Description |
++=============================+=============+
+| ``KnockoutState.DISABLED``  | todo        |
++-----------------------------+-------------+
+| ``KnockoutState.ENABLED``   | todo        |
++-----------------------------+-------------+
+| ``KnockoutState.INHERITED`` | todo        |
++-----------------------------+-------------+
+| ``KnockoutState.Unknown``   | todo        |
++-----------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.LanguageType:
+
+LanguageType
+********************************************************************************
+
++----------------------------------------+-------------+
+|                 Value                  | Description |
++========================================+=============+
+| ``LanguageType.BOKMALNORWEGIAN``       | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.BRAZILLIANPORTUGUESE``  | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.BULGARIAN``             | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.CANADIANFRENCH``        | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.CATALAN``               | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.CHINESE``               | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.CZECH``                 | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.DANISH``                | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.DUTCH``                 | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.DUTCH2005REFORM``       | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.ENGLISH``               | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.FINNISH``               | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.GERMAN2006REFORM``      | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.GREEK``                 | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.HUNGARIAN``             | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.ICELANDIC``             | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.ITALIAN``               | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.JAPANESE``              | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.NYNORSKNORWEGIAN``      | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.OLDGERMAN``             | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.POLISH``                | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.RUMANIAN``              | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.RUSSIAN``               | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.SERBIAN``               | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.SPANISH``               | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.STANDARDFRENCH``        | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.STANDARDGERMAN``        | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.STANDARDPORTUGUESE``    | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.SWEDISH``               | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.SWISSGERMAN``           | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.SWISSGERMAN2006REFORM`` | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.TURKISH``               | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.UKENGLISH``             | todo        |
++----------------------------------------+-------------+
+| ``LanguageType.UKRANIAN``              | todo        |
++----------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.LayerOrderType:
+
+LayerOrderType
+********************************************************************************
+
++-----------------------------+-------------+
+|            Value            | Description |
++=============================+=============+
+| ``LayerOrderType.TOPDOWN``  | todo        |
++-----------------------------+-------------+
+| ``LayerOrderType.BOTTOMUP`` | todo        |
++-----------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.LibraryType:
+
+LibraryType
+********************************************************************************
+
+Illustrator library type.
+
++------------------------------------+-------------+
+|               Value                | Description |
++====================================+=============+
+| ``LibraryType.Brushes``            | todo        |
++------------------------------------+-------------+
+| ``LibraryType.GraphicStyles``      | todo        |
++------------------------------------+-------------+
+| ``LibraryType.IllustratorArtwork`` | todo        |
++------------------------------------+-------------+
+| ``LibraryType.Swatches``           | todo        |
++------------------------------------+-------------+
+| ``LibraryType.Symbols``            | todo        |
++------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.MonochromeCompression:
+
+MonochromeCompression
+********************************************************************************
+
+The type of compression to use on a monochrome bitmap item when saving a PDF file.
+
++-------------------------------------+-------------+
+|                Value                | Description |
++=====================================+=============+
+| ``MonochromeCompression.CCIT3``     | todo        |
++-------------------------------------+-------------+
+| ``MonochromeCompression.CCIT4``     | todo        |
++-------------------------------------+-------------+
+| ``MonochromeCompression.MONOZIP``   | todo        |
++-------------------------------------+-------------+
+| ``MonochromeCompression.None``      | todo        |
++-------------------------------------+-------------+
+| ``MonochromeCompression.RUNLENGTH`` | todo        |
++-------------------------------------+-------------+

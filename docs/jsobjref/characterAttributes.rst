@@ -339,7 +339,7 @@ The language of text.
 
 **Type**
 
-:ref:`jsobjref/languageType`
+:ref:`jsobjref/scriptingConstants.LanguageType`
 
 ----
 
@@ -407,7 +407,7 @@ The OpenType baseline position.
 
 **Type**
 
-:ref:`jsobjref/fontOpenTypePositionOption`
+:ref:`jsobjref/scriptingConstants.FontOpenTypePositionOption`
 
 ----
 

@@ -634,11 +634,11 @@ Converts a sample-component color from one color space to another.
 +-------------------------+--------------------------------------------------------+-------------+
 |        Parameter        |                          Type                          | Description |
 +=========================+========================================================+=============+
-| ``sourceColorSpace``    | :ref:`jsobjref/imageColorSpace`                        | todo        |
+| ``sourceColorSpace``    | :ref:`jsobjref/scriptingConstants.ImageColorSpace`     | todo        |
 +-------------------------+--------------------------------------------------------+-------------+
 | ``sourceColor``         | ColorComponents                                        | todo        |
 +-------------------------+--------------------------------------------------------+-------------+
-| ``destColorSpace``      | :ref:`jsobjref/imageColorSpace`                        | todo        |
+| ``destColorSpace``      | :ref:`jsobjref/scriptingConstants.ImageColorSpace`     | todo        |
 +-------------------------+--------------------------------------------------------+-------------+
 | ``colorConvertPurpose`` | :ref:`jsobjref/scriptingConstants.ColorConvertPurpose` | todo        |
 +-------------------------+--------------------------------------------------------+-------------+

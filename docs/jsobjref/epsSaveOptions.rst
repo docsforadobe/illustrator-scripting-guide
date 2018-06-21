@@ -193,7 +193,7 @@ Default: ``EPSPostScriptLevelEnum.LEVEL2``.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.epsPostScriptLevelEnum`
+:ref:`jsobjref/scriptingConstants.EPSPostScriptLevelEnum`
 
 ----
 
@@ -210,7 +210,7 @@ The format for the EPS preview image.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.epsPreview`
+:ref:`jsobjref/scriptingConstants.EPSPreview`
 
 ----
 

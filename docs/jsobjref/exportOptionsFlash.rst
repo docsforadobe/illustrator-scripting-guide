@@ -183,7 +183,7 @@ The style in which the exported data should be created in Flash. Default: ``Flas
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.flashExportStyle`
+:ref:`jsobjref/scriptingConstants.FlashExportStyle`
 
 ----
 
@@ -200,7 +200,7 @@ The version of the exported SWF file. Default: ``FlashExportVersion.FlashVersion
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.flashExportVersion`
+:ref:`jsobjref/scriptingConstants.FlashExportVersion`
 
 ----
 
@@ -251,7 +251,7 @@ How should the image in the exported Flash file be compressed. Default: ``FlashI
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.flashImageFormat`
+:ref:`jsobjref/scriptingConstants.FlashImageFormat`
 
 ----
 
@@ -285,7 +285,7 @@ Specifies the JPEG method to use. Default: ``FlashJPEGMethod.Standard``.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.flashJPEGMethod`
+:ref:`jsobjref/scriptingConstants.FlashJPEGMethod`
 
 ----
 
@@ -319,7 +319,7 @@ The order in which layers are exported to Flash frames. Default: ``LayerOrderTyp
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.layerOrderType`
+:ref:`jsobjref/scriptingConstants.LayerOrderType`
 
 ----
 
@@ -353,7 +353,7 @@ The access level for the exported SWF file. Default: ``FlashPlaybackSecurity.Pla
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.flashPlaybackSecurity`
+:ref:`jsobjref/scriptingConstants.FlashPlaybackSecurity`
 
 ----
 
