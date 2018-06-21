@@ -7,7 +7,7 @@ The traditional first project in any programming language is displaying the mess
 example, you create a new Illustrator document, then add a text frame containing this message. Follow
 these steps:
 
-For information on locating the ExtendScript Toolkit, see “Viewing the JavaScript object model” on page 9.
+For information on locating the ExtendScript Toolkit, see :ref:`introduction/viewingTheObjectModel/javascript`.
 
 1. Using any text editor (including Adobe^ InDesign® or the ESTK), enter the following text::
 
@@ -25,7 +25,7 @@ For information on locating the ExtendScript Toolkit, see “Viewing the JavaScr
   - If you are using a different text editor than the ESTK, save the file as text-only in a folder of your choice, using the file extension .jsx , then start Illustrator. In Illustrator, choose File > Scripts > Other Scripts, and navigate to and run your script file.
 
 .. tip::
-  To add the script to the Illustrator Scripts menu (File > Scripts), save the script in the Scripts folder. The script will appear on the menu the next time you start Illustrator. For details, see “Installing scripts in the Scripts menu” on page 10.
+  To add the script to the Illustrator Scripts menu (File > Scripts), save the script in the Scripts folder. The script will appear on the menu the next time you start Illustrator. For details, see :ref:`introduction/executingScripts/installing`.
 
 ----
 

@@ -12,7 +12,7 @@ values, ``aiHorizontal`` and ``aiVertical``.
 
 To find the numeral values of enumerations, use either of the following:
 
-- The object browser in your scripting editor environment. See “Viewing the VBScript object model” on page 10.
+- The object browser in your scripting editor environment. See :ref:`introduction/viewingTheObjectModel/vbscript`.
 
 - The Adobe lllustrator CC 2017 Scripting Reference: VBScript, which lists the numeral values directly after the constant value in the “Enumerations” chapter at the end of the book. The following example is from that table:
 

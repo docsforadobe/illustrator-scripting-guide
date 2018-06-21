@@ -77,7 +77,7 @@ The following objects must be created explicitly:
 - ``tracing options``
 
 The ``file`` and ``folder`` objects are Adobe ExtendScript devices designed to provide platform-independent
-access to the underlying file system. For information on using these objects, see JavaScript Tools Guide.
+access to the underlying file system. For information on using these objects, see `JavaScript Tools Guide <http://estk.aenhancers.com>`__
 
 For information on creating an object explicitly, see the chapter for your scripting language.
 
@@ -127,7 +127,7 @@ To refer to a ``path items`` object in a layer::
 For more examples of collection-item containers, see the document object Elements table in Adobe
 lllustrator CC 2017 Scripting Reference: AppleScript or the Properties table in Adobe lllustrator CC 2017
 Scripting Reference: JavaScript or Adobe lllustrator CC 2017 Scripting Reference: VBScript. A diagram of the
-lllustrator CC 2017 object model is in “The Illustrator Scripting Object Model” on page 14.
+lllustrator CC 2017 object model is in :ref:`objectmodel/objectModel`.
 
 ----
 

@@ -96,8 +96,8 @@ the number of sides in a polygon.
 
 Remember:
 
-- The scripting engine processes all measurements and page coordinates as points. For details, see “Measurement units” on page 26.
-- x and y coordinates are measured from the bottom-left corner of the document, as indicated in the Info panel in the Illustrator application. For details, see “Page-item positioning and dimensions” on page 26.
+- The scripting engine processes all measurements and page coordinates as points. For details, see :ref:`scripting/measurementUnits`.
+- x and y coordinates are measured from the bottom-left corner of the document, as indicated in the Info panel in the Illustrator application. For details, see :ref:`scripting/positioning`.
 
 Write-once access
 ********************************************************************************

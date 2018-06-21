@@ -16,7 +16,7 @@ Artwork is represented by the following objects:
 - ``placed item``
 - ``plugin item``
 - ``raster item``
-- ``symbol item (see “Dynamic objects” on page 21 )``
+- ``symbol item`` (see :ref:`objectmodel/dynamic`)
 - ``text frame``
 
 Your scripts can access and manipulate art objects through collections in the

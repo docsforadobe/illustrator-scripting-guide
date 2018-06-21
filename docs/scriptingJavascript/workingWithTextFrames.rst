@@ -39,7 +39,7 @@ Threaded frames make one story object
 ********************************************************************************
 
 Threaded frames make a single story object. To observe this, run the following JavaScript after running
-the script in “Threaded frames” on page 44.
+the script above.
 
 ::
 

@@ -47,7 +47,7 @@ Threaded frames make one story object
 ********************************************************************************
 
 Threaded frames make a single story object. To observe this, run the following AppleScript after running
-the script in “Threaded frames” on page 33.
+the script above.
 
 ::
 

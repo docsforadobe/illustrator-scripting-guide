@@ -29,7 +29,7 @@ these steps:
 - Start Illustrator, choose File > Scripts > Other Scripts, and navigate to and run your script file.
 
 .. tip::
-  To add the script to the Illustrator Scripts menu (File > Scripts), save the script in the Scripts folder. The script will appear on the menu the next time you start Illustrator. For details, see “Installing scripts in the Scripts menu” on page 10.
+  To add the script to the Illustrator Scripts menu (File > Scripts), save the script in the Scripts folder. The script will appear on the menu the next time you start Illustrator. For details, see :ref:`introduction/executingScripts/installing`.
 
   In general, when you launch a VBScript script from the Scripts menu, any ``msgBox`` dialogs will not display correctly.
 

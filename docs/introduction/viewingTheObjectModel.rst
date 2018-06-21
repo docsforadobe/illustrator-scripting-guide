@@ -6,13 +6,16 @@ Viewing the object model
 Each of the supported scripting languages provides a facility for viewing the
 scripting objects defined by Illustrator, with reference details.
 
+----
+
+.. _introduction/viewingTheObjectModel/javascript:
+
 Viewing the JavaScript object model
 ================================================================================
 
 To view the JavaScript object model for Illustrator, follow these steps:
 
 In a default Adobe installation, the ESTK is in the following location:
-
 =======  ===================================================================================
 Windows  ``\system drive\Program Files\Adobe\Adobe Utilities CC\ExtendScript Toolkit CC``
 Mac OS   ``\system drive\Applications\Utilities\Adobe Utilities CC\ExtendScript Toolkit CC``
@@ -29,6 +32,10 @@ You also can view script samples and information about individual classes,
 objects, properties, methods, and parameters in
 **Adobe lllustrator CC Scripting Reference: JavaScript**, which you can
 download from http://www.adobe.com/devnet/illustrator/scripting/.
+
+----
+
+.. _introduction/viewingTheObjectModel/applescript:
 
 Viewing the AppleScript object model
 ================================================================================
@@ -61,6 +68,10 @@ You also can view script samples and information about individual classes,
 objects, properties, methods, and parameters in
 **Adobe lllustrator CC Scripting Reference: AppleScript**, which you can
 download from http://www.adobe.com/devnet/illustrator/scripting/.
+
+----
+
+.. _introduction/viewingTheObjectModel/vbscript:
 
 Viewing the VBScript object model
 ================================================================================

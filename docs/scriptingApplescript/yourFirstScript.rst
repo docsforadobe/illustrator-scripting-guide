@@ -28,7 +28,7 @@ If you cannot find the Script Editor application, you must reinstall it from you
 3. In the Script Editor toolbar, click Run.
 
 .. tip::
-  To add the script to the Illustrator Scripts menu (File > Scripts), save the script in the Scripts folder. The script will appear on the menu the next time you start Illustrator. For details, see “Installing scripts in the Scripts menu” on page 10.
+  To add the script to the Illustrator Scripts menu (File > Scripts), save the script in the Scripts folder. The script will appear on the menu the next time you start Illustrator. For details, see :ref:`introduction/executingScripts/installing`.
 
 ----
 

@@ -13,9 +13,7 @@ This is still VERY wip! Still to do:
 Scripting Guide Section:
 ========================
 
-- Find/replace "on page x" with links to sections
 - Find/replace ``keyword`` with link to section
-- Find/replace "JS Tools Guide" with link to estk.aenhancers.com
 
 Code Reference:
 ===============
@@ -32,6 +30,34 @@ Code Reference:
 **Contribution**
 
 Contributors are welcome and encouraged to suggest fixes, adjustments, notes/warnings, and anything else that may help the project.
+
+----
+
+**Internal References**
+
+Anchors should be defined at each page setting relative to the root folder; the anchor for the "Application" page within the JS Object Reference should be::
+
+	.. _jsobjref/application
+
+And the anchor for a child item (property, method or example)::
+
+	.. _jsobjref/application.open
+
+Then, to link to these items from other pages, we use::
+
+	:ref:`jsobjref/application`
+
+or
+
+	:ref:`jsobjref/application.open`
+
+----
+
+**External Links**
+
+These should follow the following structure::
+
+	`Link Text <http://www.aenhancers.com>`__
 
 ----
 

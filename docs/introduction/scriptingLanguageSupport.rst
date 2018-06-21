@@ -115,7 +115,7 @@ The ESTK is installed with all scriptable Adobe applications, and is the
 default editor for JSX files. The ESTK includes an Object Model Viewer that
 contains complete documentation of the methods and properties of JavaScript
 objects. For information on accessing the ESTK and the Object Model Viewer
-see “Viewing the JavaScript object model” on page 9. (todo: add link)
+see :ref:`introduction/viewingTheObjectModel`
 
 ExtendScript also provides various tools and utilities,
 including the following:
@@ -131,4 +131,4 @@ including the following:
 All of these features are available whether you use the DOM directly with a
 JSX file, or indirectly through the ActionScript wrapper library and Adobe
 Extension Builder. For details of these and other features, see
-*JavaScript Tools Guide.*
+`JavaScript Tools Guide <http://estk.aenhancers.com>`__
