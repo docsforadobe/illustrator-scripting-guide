@@ -253,7 +253,7 @@ Default type of line capping for paths created.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.strokeCap`
+:ref:`jsobjref/scriptingConstants.StrokeCap`
 
 ----
 
@@ -338,7 +338,7 @@ Default type of joints in new paths.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.strokeJoin`
+:ref:`jsobjref/scriptingConstants.StrokeJoin`
 
 ----
 
@@ -916,7 +916,7 @@ The default measurement units for the rulers in the document.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.rulerUnits`, read-only.
+:ref:`jsobjref/scriptingConstants.RulerUnits`, read-only.
 
 ----
 
@@ -1333,7 +1333,7 @@ Arranges multiple documents in the given layout style.
 +-------------------+------------------------------------------------------------------+-------------+
 |     Parameter     |                               Type                               | Description |
 +===================+==================================================================+=============+
-| ``[layoutStyle]`` | :ref:`jsobjref/scriptingConstants.documentLayoutStyle`, optional | todo        |
+| ``[layoutStyle]`` | :ref:`jsobjref/scriptingConstants.DocumentLayoutStyle`, optional | todo        |
 +-------------------+------------------------------------------------------------------+-------------+
 
 **Returns**
@@ -1360,7 +1360,7 @@ When you close a document, you should set your document reference to ``null`` to
 +-------------------+------------------------------------------------+-------------+
 |     Parameter     |                      Type                      | Description |
 +===================+================================================+=============+
-| ``[saveOptions]`` | :ref:`jsobjref/scriptingConstants.saveOptions` | todo        |
+| ``[saveOptions]`` | :ref:`jsobjref/scriptingConstants.SaveOptions` | todo        |
 +-------------------+------------------------------------------------+-------------+
 
 **Returns**
@@ -1582,7 +1582,7 @@ Retrieves the active plane of the active perspective grid of the document.
 
 **Returns**
 
-:ref:`jsobjref/scriptingConstants.perspectiveGridPlaneType`
+:ref:`jsobjref/scriptingConstants.PerspectiveGridPlaneType`
 
 ----
 
@@ -1889,7 +1889,7 @@ Saves the document in the specified file as an Illustrator, EPS, or PDF file.
 +===============+==========================================================+=============+
 | ``saveIn``    | File                                                     | todo        |
 +---------------+----------------------------------------------------------+-------------+
-| ``[options]`` | :ref:`jsobjref/scriptingConstants.saveOptions`, optional | todo        |
+| ``[options]`` | :ref:`jsobjref/scriptingConstants.SaveOptions`, optional | todo        |
 +---------------+----------------------------------------------------------+-------------+
 
 **Returns**
@@ -1956,7 +1956,7 @@ Sets the active plane of the active perspective grid of the document. Returns ``
 +---------------+-------------------------------------------------------------+-------------+
 |   Parameter   |                            Type                             | Description |
 +===============+=============================================================+=============+
-| ``gridPlane`` | :ref:`jsobjref/scriptingConstants.perspectiveGridPlaneType` | todo        |
+| ``gridPlane`` | :ref:`jsobjref/scriptingConstants.PerspectiveGridPlaneType` | todo        |
 +---------------+-------------------------------------------------------------+-------------+
 
 **Returns**
@@ -1981,7 +1981,7 @@ Selects a predefined preset to define grid for the current document. Returns ``t
 +----------------+--------------------------------------------------------+-------------+
 |   Parameter    |                          Type                          | Description |
 +================+========================================================+=============+
-| ``gridType``   | :ref:`jsobjref/scriptingConstants.perspectiveGridType` | todo        |
+| ``gridType``   | :ref:`jsobjref/scriptingConstants.PerspectiveGridType` | todo        |
 +----------------+--------------------------------------------------------+-------------+
 | ``presetName`` | String                                                 | todo        |
 +----------------+--------------------------------------------------------+-------------+

@@ -640,7 +640,7 @@ Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scal
 +---------------------------+-------------------------------------------------------------+-------------+
 | ``[changeLineWidths]``    | Number (double), optional                                   | todo        |
 +---------------------------+-------------------------------------------------------------+-------------+
-| ``[scaleAbout]``          | :ref:`jsobjref/scriptingConstants.transformation`, optional | todo        |
+| ``[scaleAbout]``          | :ref:`jsobjref/scriptingConstants.Transformation`, optional | todo        |
 +---------------------------+-------------------------------------------------------------+-------------+
 
 **Returns**
@@ -680,7 +680,7 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 +---------------------------+-------------------------------------------------------------+-------------+
 | ``[changeStrokePattern]`` | Boolean, optional                                           | todo        |
 +---------------------------+-------------------------------------------------------------+-------------+
-| ``[rotateAbout]``         | :ref:`jsobjref/scriptingConstants.transformation`, optional | todo        |
+| ``[rotateAbout]``         | :ref:`jsobjref/scriptingConstants.Transformation`, optional | todo        |
 +---------------------------+-------------------------------------------------------------+-------------+
 
 **Returns**
@@ -722,7 +722,7 @@ Transforms the art item by applying a transformation matrix.
 +---------------------------+-------------------------------------------------------------+-------------+
 | ``[changeLineWidths]``    | Number (double), optional                                   | todo        |
 +---------------------------+-------------------------------------------------------------+-------------+
-| ``[transformAbout]``      | :ref:`jsobjref/scriptingConstants.transformation`, optional | todo        |
+| ``[transformAbout]``      | :ref:`jsobjref/scriptingConstants.Transformation`, optional | todo        |
 +---------------------------+-------------------------------------------------------------+-------------+
 
 **Returns**
@@ -788,7 +788,7 @@ Arranges the art item’s position in the stacking order of the group or layer (
 +---------------+-------------------------------------------------+-------------+
 |   Parameter   |                      Type                       | Description |
 +===============+=================================================+=============+
-| ``zOrderCmd`` | :ref:`jsobjref/scriptingConstants.zOrderMethod` | todo        |
+| ``zOrderCmd`` | :ref:`jsobjref/scriptingConstants.ZOrderMethod` | todo        |
 +---------------+-------------------------------------------------+-------------+
 
 **Returns**

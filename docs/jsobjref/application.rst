@@ -446,7 +446,7 @@ script commands.
 
 **Type**
 
-:ref:`jsobjref/userInteractionLevel`
+:ref:`jsobjref/scriptingConstants.UserInteractionLevel`
 
 ----
 

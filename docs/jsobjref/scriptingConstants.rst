@@ -1523,3 +1523,1177 @@ The type of compression to use on a monochrome bitmap item when saving a PDF fil
 +-------------------------------------+-------------+
 | ``MonochromeCompression.RUNLENGTH`` | todo        |
 +-------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.OutputFlattening:
+
+OutputFlattening
+********************************************************************************
+
+How transparency should be flattened when saving EPS and Illustrator file formats with compatibility set to versions of Illustrator earlier than Illustrator 10
+
++-----------------------------------------+-------------+
+|                  Value                  | Description |
++=========================================+=============+
+| ``OutputFlattening.PRESERVEAPPEARANCE`` | todo        |
++-----------------------------------------+-------------+
+| ``OutputFlattening.PRESERVEPATHS``      | todo        |
++-----------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PageMarksTypes:
+
+PageMarksTypes
+********************************************************************************
+
++-----------------------------+-------------+
+|            Value            | Description |
++=============================+=============+
+| ``PageMarksTypes.Japanese`` | todo        |
++-----------------------------+-------------+
+| ``PageMarksTypes.Roman``    | todo        |
++-----------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PathPointSelection:
+
+PathPointSelection
+********************************************************************************
+
+Which points, if any, of a path are selected.
+
++---------------------------------------+-------------+
+|                 Value                 | Description |
++=======================================+=============+
+| ``PathPointSelection.ANCHORPOINT``    | todo        |
++---------------------------------------+-------------+
+| ``PathPointSelection.LEFTDIRECTION``  | todo        |
++---------------------------------------+-------------+
+| ``PathPointSelection.LEFTRIGHTPOINT`` | todo        |
++---------------------------------------+-------------+
+| ``PathPointSelection.NOSELECTION``    | todo        |
++---------------------------------------+-------------+
+| ``PathPointSelection.RIGHTDIRECTION`` | todo        |
++---------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PDFBoxType:
+
+PDFBoxType
+********************************************************************************
+
++-------------------------------+-------------+
+|             Value             | Description |
++===============================+=============+
+| ``PDFBoxType.PDFARTBOX``      | todo        |
++-------------------------------+-------------+
+| ``PDFBoxType.PDFBLEEDBOX``    | todo        |
++-------------------------------+-------------+
+| ``PDFBoxType.PDFBOUNDINGBOX`` | todo        |
++-------------------------------+-------------+
+| ``PDFBoxType.PDFCROPBOX``     | todo        |
++-------------------------------+-------------+
+| ``PDFBoxType.PDFMEDIABOX``    | todo        |
++-------------------------------+-------------+
+| ``PDFBoxType.PDFTRIMBOX``     | todo        |
++-------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PDFChangesAllowedEnum:
+
+PDFChangesAllowedEnum
+********************************************************************************
+
++-----------------------------------------------+-------------+
+|                     Value                     | Description |
++===============================================+=============+
+| ``PDFChangesAllowedEnum.CHANGE128ANYCHANGES`` | todo        |
++-----------------------------------------------+-------------+
+| ``PDFChangesAllowedEnum.CHANGE128COMMENTING`` | todo        |
++-----------------------------------------------+-------------+
+| ``PDFChangesAllowedEnum.CHANGE128EDITPAGE``   | todo        |
++-----------------------------------------------+-------------+
+| ``PDFChangesAllowedEnum.CHANGE128FILLFORM``   | todo        |
++-----------------------------------------------+-------------+
+| ``PDFChangesAllowedEnum.CHANGE128NONE``       | todo        |
++-----------------------------------------------+-------------+
+| ``PDFChangesAllowedEnum.CHANGE40ANYCHANGES``  | todo        |
++-----------------------------------------------+-------------+
+| ``PDFChangesAllowedEnum.CHANGE40COMMENTING``  | todo        |
++-----------------------------------------------+-------------+
+| ``PDFChangesAllowedEnum.CHANGE40NONE``        | todo        |
++-----------------------------------------------+-------------+
+| ``PDFChangesAllowedEnum.CHANGE40PAGELAYOUT``  | todo        |
++-----------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PDFCompatibility:
+
+PDFCompatibility
+********************************************************************************
+
+The version of the Acrobat file format to create when saving a PDF file
+
++-------------------------------+-------------+
+|             Value             | Description |
++===============================+=============+
+| ``PDFCompatibility.ACROBAT4`` | todo        |
++-------------------------------+-------------+
+| ``PDFCompatibility.ACROBAT5`` | todo        |
++-------------------------------+-------------+
+| ``PDFCompatibility.ACROBAT6`` | todo        |
++-------------------------------+-------------+
+| ``PDFCompatibility.ACROBAT7`` | todo        |
++-------------------------------+-------------+
+| ``PDFCompatibility.ACROBAT8`` | todo        |
++-------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PDFOverprint:
+
+PDFOverprint
+********************************************************************************
+
++---------------------------------------+-------------+
+|                 Value                 | Description |
++=======================================+=============+
+| ``PDFOverprint.DISCARDPDFOVERPRINT``  | todo        |
++---------------------------------------+-------------+
+| ``PDFOverprint.PRESERVEPDFOVERPRINT`` | todo        |
++---------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PDFPrintAllowedEnum:
+
+PDFPrintAllowedEnum
+********************************************************************************
+
++------------------------------------------------+-------------+
+|                     Value                      | Description |
++================================================+=============+
+| ``PDFPrintAllowedEnum.PRINT128HIGHRESOLUTION`` | todo        |
++------------------------------------------------+-------------+
+| ``PDFPrintAllowedEnum.PRINT128LOWRESOLUTION``  | todo        |
++------------------------------------------------+-------------+
+| ``PDFPrintAllowedEnum.PRINT128NONE``           | todo        |
++------------------------------------------------+-------------+
+| ``PDFPrintAllowedEnum.PRINT40HIGHRESOLUTION``  | todo        |
++------------------------------------------------+-------------+
+| ``PDFPrintAllowedEnum.PRINT40NONE``            | todo        |
++------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PDFTrimMarkWeight:
+
+PDFTrimMarkWeight
+********************************************************************************
+
++------------------------------------------+-------------+
+|                  Value                   | Description |
++==========================================+=============+
+| ``PDFTrimMarkWeight.TRIMMARKWEIGHT0125`` | todo        |
++------------------------------------------+-------------+
+| ``PDFTrimMarkWeight.TRIMMARKWEIGHT025``  | todo        |
++------------------------------------------+-------------+
+| ``PDFTrimMarkWeight.TRIMMARKWEIGHT05``   | todo        |
++------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PDFXStandard:
+
+PDFXStandard
+********************************************************************************
+
++-----------------------------+-------------+
+|            Value            | Description |
++=============================+=============+
+| ``PDFXStandard.PDFX1A2001`` | todo        |
++-----------------------------+-------------+
+| ``PDFXStandard.PDFX1A2003`` | todo        |
++-----------------------------+-------------+
+| ``PDFXStandard.PDFX32002``  | todo        |
++-----------------------------+-------------+
+| ``PDFXStandard.PDFX32003``  | todo        |
++-----------------------------+-------------+
+| ``PDFXStandard.PDFX42007``  | todo        |
++-----------------------------+-------------+
+| ``PDFXStandard.PDFXNONE``   | todo        |
++-----------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PerspectiveGridType:
+
+PerspectiveGridType
+********************************************************************************
+
++-------------------------------------------------------+-------------+
+|                         Value                         | Description |
++=======================================================+=============+
+| ``PerspectiveGridType.OnePointPerspectiveGridType``   | todo        |
++-------------------------------------------------------+-------------+
+| ``PerspectiveGridType.TwoPointPerspectiveGridType``   | todo        |
++-------------------------------------------------------+-------------+
+| ``PerspectiveGridType.ThreePointPerspectiveGridType`` | todo        |
++-------------------------------------------------------+-------------+
+| ``PerspectiveGridType.InvalidPerspectiveGridType``    | todo        |
++-------------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PerspectiveGridPlaneType:
+
+PerspectiveGridPlaneType
+********************************************************************************
+
++---------------------------------------------------+-------------+
+|                       Value                       | Description |
++===================================================+=============+
+| ``PerspectiveGridPlaneType.GRIDLEFTPLANETYPE``    | todo        |
++---------------------------------------------------+-------------+
+| ``PerspectiveGridPlaneType.GRIDRIGHTPLANETYPE``   | todo        |
++---------------------------------------------------+-------------+
+| ``PerspectiveGridPlaneType.GRIDFLOORPLANETYPE``   | todo        |
++---------------------------------------------------+-------------+
+| ``PerspectiveGridPlaneType.INVALIDGRIDPLANETYPE`` | todo        |
++---------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PhotoshopCompatibility:
+
+PhotoshopCompatibility
+********************************************************************************
+
++---------------------------------------+-------------+
+|                 Value                 | Description |
++=======================================+=============+
+| ``PhotoshopCompatibility.Photoshop6`` | todo        |
++---------------------------------------+-------------+
+| ``PhotoshopCompatibility.Photoshop8`` | todo        |
++---------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PointType:
+
+PointType
+********************************************************************************
+
+The type of path point selected
+
++----------------------+-------------+
+|        Value         | Description |
++======================+=============+
+| ``PointType.CORNER`` | todo        |
++----------------------+-------------+
+| ``PointType.SMOOTH`` | todo        |
++----------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PolarityValues:
+
+PolarityValues
+********************************************************************************
+
++-----------------------------+-------------+
+|            Value            | Description |
++=============================+=============+
+| ``PolarityValues.NEGATIVE`` | todo        |
++-----------------------------+-------------+
+| ``PolarityValues.POSITIVE`` | todo        |
++-----------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PostScriptImageCompressionType:
+
+PostScriptImageCompressionType
+********************************************************************************
+
++---------------------------------------------------------+-------------+
+|                          Value                          | Description |
++=========================================================+=============+
+| ``PostScriptImageCompressionType.IMAGECOMPRESSIONNONE`` | todo        |
++---------------------------------------------------------+-------------+
+| ``PostScriptImageCompressionType.JPEG``                 | todo        |
++---------------------------------------------------------+-------------+
+| ``PostScriptImageCompressionType.RLE``                  | todo        |
++---------------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PrintArtworkDesignation:
+
+PrintArtworkDesignation
+********************************************************************************
+
++----------------------------------------------------+-------------+
+|                       Value                        | Description |
++====================================================+=============+
+| ``PrintArtworkDesignation.ALLLAYERS``              | todo        |
++----------------------------------------------------+-------------+
+| ``PrintArtworkDesignation.VISIBLELAYERS``          | todo        |
++----------------------------------------------------+-------------+
+| ``PrintArtworkDesignation.VISIBLEPRINTABLELAYERS`` | todo        |
++----------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PrintColorIntent:
+
+PrintColorIntent
+********************************************************************************
+
++-------------------------------------------+-------------+
+|                   Value                   | Description |
++===========================================+=============+
+| ``PrintColorIntent.ABSOLUTECOLORIMETRIC`` | todo        |
++-------------------------------------------+-------------+
+| ``PrintColorIntent.PERCEPTUALINTENT``     | todo        |
++-------------------------------------------+-------------+
+| ``PrintColorIntent.RELATIVECOLORIMETRIC`` | todo        |
++-------------------------------------------+-------------+
+| ``PrintColorIntent.SATURATIONINTENT``     | todo        |
++-------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PrintColorProfile:
+
+PrintColorProfile
+********************************************************************************
+
++---------------------------------------+-------------+
+|                 Value                 | Description |
++=======================================+=============+
+| ``PrintColorProfile.CUSTOMPROFILE``   | todo        |
++---------------------------------------+-------------+
+| ``PrintColorProfile.PRINTERPROFILE``  | todo        |
++---------------------------------------+-------------+
+| ``PrintColorProfile.OLDSTYLEPROFILE`` | todo        |
++---------------------------------------+-------------+
+| ``PrintColorProfile.SOURCEPROFILE``   | todo        |
++---------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PrintColorSeparationMode:
+
+PrintColorSeparationMode
+********************************************************************************
+
++--------------------------------------------------+-------------+
+|                      Value                       | Description |
++==================================================+=============+
+| ``PrintColorSeparationMode.COMPOSITE``           | todo        |
++--------------------------------------------------+-------------+
+| ``PrintColorSeparationMode.HOSTBASEDSEPARATION`` | todo        |
++--------------------------------------------------+-------------+
+| ``PrintColorSeparationMode.INRIPSEPARATION``     | todo        |
++--------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PrinterColorMode:
+
+PrinterColorMode
+********************************************************************************
+
++-------------------------------------------+-------------+
+|                   Value                   | Description |
++===========================================+=============+
+| ``PrinterColorMode.BLACKANDWHITEPRINTER`` | todo        |
++-------------------------------------------+-------------+
+| ``PrinterColorMode.COLORPRINTER``         | todo        |
++-------------------------------------------+-------------+
+| ``PrinterColorMode.GRAYSCALEPRINTER``     | todo        |
++-------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PrinterPostScriptLevelEnum:
+
+PrinterPostScriptLevelEnum
+********************************************************************************
+
++-----------------------------------------+-------------+
+|                  Value                  | Description |
++=========================================+=============+
+| ``PrinterPostScriptLevelEnum.PSLEVEL1`` | todo        |
++-----------------------------------------+-------------+
+| ``PrinterPostScriptLevelEnum.PSLEVEL2`` | todo        |
++-----------------------------------------+-------------+
+| ``PrinterPostScriptLevelEnum.PSLEVEL3`` | todo        |
++-----------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PrinterTypeEnum:
+
+PrinterTypeEnum
+********************************************************************************
+
++------------------------------------------+-------------+
+|                  Value                   | Description |
++==========================================+=============+
+| ``PrinterTypeEnum.NONPOSTSCRIPTPRINTER`` | todo        |
++------------------------------------------+-------------+
+| ``PrinterTypeEnum.POSTSCRIPTPRINTER``    | todo        |
++------------------------------------------+-------------+
+| ``PrinterTypeEnum.Unknown``              | todo        |
++------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PrintFontDownloadMode:
+
+PrintFontDownloadMode
+********************************************************************************
+
++--------------------------------------------+-------------+
+|                   Value                    | Description |
++============================================+=============+
+| ``PrintFontDownloadMode.DOWNLOADNONE``     | todo        |
++--------------------------------------------+-------------+
+| ``PrintFontDownloadMode.DOWNLOADCOMPLETE`` | todo        |
++--------------------------------------------+-------------+
+| ``PrintFontDownloadMode.DOWNLOADSUBSET``   | todo        |
++--------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PrintingBounds:
+
+PrintingBounds
+********************************************************************************
+
++-----------------------------------+-------------+
+|               Value               | Description |
++===================================+=============+
+| ``PrintingBounds.ARTBOARDBOUNDS`` | todo        |
++-----------------------------------+-------------+
+| ``PrintingBounds.ARTWORKBOUNDS``  | todo        |
++-----------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PrintOrientation:
+
+PrintOrientation
+********************************************************************************
+
+The artwork printing orientation.
+
++---------------------------------------+-------------+
+|                 Value                 | Description |
++=======================================+=============+
+| ``PrintOrientation.AUTOROTATE``       | todo        |
++---------------------------------------+-------------+
+| ``PrintOrientation.LANDSCAPE``        | todo        |
++---------------------------------------+-------------+
+| ``PrintOrientation.PORTRAIT``         | todo        |
++---------------------------------------+-------------+
+| ``PrintOrientation.REVERSELANDSCAPE`` | todo        |
++---------------------------------------+-------------+
+| ``PrintOrientation.REVERSEPORTRAIT``  | todo        |
++---------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PrintPosition:
+
+PrintPosition
+********************************************************************************
+
++----------------------------------------+-------------+
+|                 Value                  | Description |
++========================================+=============+
+| ``.PrintPositionTRANSLATEBOTTOM``      | todo        |
++----------------------------------------+-------------+
+| ``.PrintPositionTRANSLATEBOTTOMLEFT``  | todo        |
++----------------------------------------+-------------+
+| ``.PrintPositionTRANSLATEBOTTOMRIGHT`` | todo        |
++----------------------------------------+-------------+
+| ``.PrintPositionTRANSLATECENTER``      | todo        |
++----------------------------------------+-------------+
+| ``.PrintPositionTRANSLATELEFT``        | todo        |
++----------------------------------------+-------------+
+| ``.PrintPositionTRANSLATERIGHT``       | todo        |
++----------------------------------------+-------------+
+| ``.PrintPositionTRANSLATETOP``         | todo        |
++----------------------------------------+-------------+
+| ``.PrintPositionTRANSLATETOPLEFT``     | todo        |
++----------------------------------------+-------------+
+| ``.PrintPositionTRANSLATETOPRIGHT``    | todo        |
++----------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.PrintTiling:
+
+PrintTiling
+********************************************************************************
+
++------------------------------------+-------------+
+|               Value                | Description |
++====================================+=============+
+| ``PrintTiling.TILEFULLPAGES``      | todo        |
++------------------------------------+-------------+
+| ``PrintTiling.TILESINGLEFULLPAGE`` | todo        |
++------------------------------------+-------------+
+| ``PrintTiling.TILEIMAGEABLEAREAS`` | todo        |
++------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.RasterizationColorModel:
+
+RasterizationColorModel
+********************************************************************************
+
+The color model for the rasterization.
+
++-----------------------------------------------+-------------+
+|                     Value                     | Description |
++===============================================+=============+
+| ``RasterizationColorModel.BITMAP``            | todo        |
++-----------------------------------------------+-------------+
+| ``RasterizationColorModel.DEFAULTCOLORMODEL`` | todo        |
++-----------------------------------------------+-------------+
+| ``RasterizationColorModel.GRAYSCALE``         | todo        |
++-----------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.RasterLinkState:
+
+RasterLinkState
+********************************************************************************
+
+The status of a raster item’s linked image if the image is stored externally
+
++----------------------------------+-------------+
+|              Value               | Description |
++==================================+=============+
+| ``RasterLinkState.DATAFROMFILE`` | todo        |
++----------------------------------+-------------+
+| ``RasterLinkState.DATAMODIFIED`` | todo        |
++----------------------------------+-------------+
+| ``RasterLinkState.NODATA``       | todo        |
++----------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.RulerUnits:
+
+RulerUnits
+********************************************************************************
+
+The default measurement units for the rulers of a document
+
++----------------------------+-------------+
+|           Value            | Description |
++============================+=============+
+| ``RulerUnits.Centimeters`` | todo        |
++----------------------------+-------------+
+| ``RulerUnits.Qs``          | todo        |
++----------------------------+-------------+
+| ``RulerUnits.Inches``      | todo        |
++----------------------------+-------------+
+| ``RulerUnits.Pixels``      | todo        |
++----------------------------+-------------+
+| ``RulerUnits.Millimeters`` | todo        |
++----------------------------+-------------+
+| ``RulerUnits.Unknown``     | todo        |
++----------------------------+-------------+
+| ``RulerUnits.Picas``       | todo        |
++----------------------------+-------------+
+| ``RulerUnits.Points``      | todo        |
++----------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.SaveOptions:
+
+SaveOptions
+********************************************************************************
+
+Save options provided when closing a document.
+
++-------------------------------------+-------------+
+|                Value                | Description |
++=====================================+=============+
+| ``SaveOptions.DONOTSAVECHANGES``    | todo        |
++-------------------------------------+-------------+
+| ``SaveOptions.SAVECHANGES``         | todo        |
++-------------------------------------+-------------+
+| ``SaveOptions.PROMPTTOSAVECHANGES`` | todo        |
++-------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.ScreenMode:
+
+ScreenMode
+********************************************************************************
+
+The mode of display for a view.
+
++----------------------------+-------------+
+|           Value            | Description |
++============================+=============+
+| ``ScreenMode.DESKTOP``     | todo        |
++----------------------------+-------------+
+| ``ScreenMode.MULTIWINDOW`` | todo        |
++----------------------------+-------------+
+| ``ScreenMode.FULLSCREEN``  | todo        |
++----------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.SpotColorKind:
+
+SpotColorKind
+********************************************************************************
+
+The custom color kind of a spot color.
+
++----------------------------+-------------+
+|           Value            | Description |
++============================+=============+
+| ``SpotColorKind.SpotCMYK`` | todo        |
++----------------------------+-------------+
+| ``SpotColorKind.SpotLAB``  | todo        |
++----------------------------+-------------+
+| ``SpotColorKind.SpotRGB``  | todo        |
++----------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.StrokeCap:
+
+StrokeCap
+********************************************************************************
+
+The type of line capping for a path stroke.
+
++--------------------------------+-------------+
+|             Value              | Description |
++================================+=============+
+| ``StrokeCap.BUTTENDCAP``       | todo        |
++--------------------------------+-------------+
+| ``StrokeCap.ROUNDENDCAP``      | todo        |
++--------------------------------+-------------+
+| ``StrokeCap.PROJECTINGENDCAP`` | todo        |
++--------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.StrokeJoin:
+
+StrokeJoin
+********************************************************************************
+
+The type of joints for a path stroke.
+
++-----------------------------+-------------+
+|            Value            | Description |
++=============================+=============+
+| ``StrokeJoin.BEVELENDJOIN`` | todo        |
++-----------------------------+-------------+
+| ``StrokeJoin.ROUNDENDJOIN`` | todo        |
++-----------------------------+-------------+
+| ``StrokeJoin.MITERENDJOIN`` | todo        |
++-----------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.StyleRunAlignmentType:
+
+StyleRunAlignmentType
+********************************************************************************
+
++-----------------------------------------+-------------+
+|                  Value                  | Description |
++=========================================+=============+
+| ``StyleRunAlignmentType.bottom``        | todo        |
++-----------------------------------------+-------------+
+| ``StyleRunAlignmentType.icfTop``        | todo        |
++-----------------------------------------+-------------+
+| ``StyleRunAlignmentType.center``        | todo        |
++-----------------------------------------+-------------+
+| ``StyleRunAlignmentType.ROMANBASELINE`` | todo        |
++-----------------------------------------+-------------+
+| ``StyleRunAlignmentType.icfBottom``     | todo        |
++-----------------------------------------+-------------+
+| ``StyleRunAlignmentType.top``           | todo        |
++-----------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.SVGCSSPropertyLocation:
+
+SVGCSSPropertyLocation
+********************************************************************************
+
+How should the CSS properties of the document be included in an exported SVG file
+
++---------------------------------------------------+-------------+
+|                       Value                       | Description |
++===================================================+=============+
+| ``SVGCSSPropertyLocation.ENTITIES``               | todo        |
++---------------------------------------------------+-------------+
+| ``SVGCSSPropertyLocation.STYLEATTRIBUTES``        | todo        |
++---------------------------------------------------+-------------+
+| ``SVGCSSPropertyLocation.PRESENTATIONATTRIBUTES`` | todo        |
++---------------------------------------------------+-------------+
+| ``SVGCSSPropertyLocation.STYLEELEMENTS``          | todo        |
++---------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.SVGDocumentEncoding:
+
+SVGDocumentEncoding
+********************************************************************************
+
+How should the text in the document be encoded when exporting an SVG file
+
++-------------------------------+-------------+
+|             Value             | Description |
++===============================+=============+
+| ``SVGDocumentEncoding.ASCII`` | todo        |
++-------------------------------+-------------+
+| ``SVGDocumentEncoding.UTF8``  | todo        |
++-------------------------------+-------------+
+| ``SVGDocumentEncoding.UTF16`` | todo        |
++-------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.SVGDTDVersion:
+
+SVGDTDVersion
+********************************************************************************
+
+SVB version compatibility for exported files
+
++----------------------------------+-------------+
+|              Value               | Description |
++==================================+=============+
+| ``SVGDTDVersion.SVG1_0``         | todo        |
++----------------------------------+-------------+
+| ``SVGDTDVersion.SVG1_1``         | todo        |
++----------------------------------+-------------+
+| ``SVGDTDVersion.SVGBASIC1_1``    | todo        |
++----------------------------------+-------------+
+| ``SVGDTDVersion.SVGTINY1_1``     | todo        |
++----------------------------------+-------------+
+| ``SVGDTDVersion.SVGTINY1_1PLUS`` | todo        |
++----------------------------------+-------------+
+| ``SVGDTDVersion.SVGTINY1_2``     | todo        |
++----------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.SVGFontSubsetting:
+
+SVGFontSubsetting
+********************************************************************************
+
+What font glyphs should be included in exported SVG files
+
++---------------------------------------------+-------------+
+|                    Value                    | Description |
++=============================================+=============+
+| ``SVGFontSubsetting.ALLGLYPHS``             | todo        |
++---------------------------------------------+-------------+
+| ``SVGFontSubsetting.GLYPHSUSEDPLUSENGLISH`` | todo        |
++---------------------------------------------+-------------+
+| ``SVGFontSubsetting.COMMONENGLISH``         | todo        |
++---------------------------------------------+-------------+
+| ``SVGFontSubsetting.GLYPHSUSEDPLUSROMAN``   | todo        |
++---------------------------------------------+-------------+
+| ``SVGFontSubsetting.COMMONROMAN``           | todo        |
++---------------------------------------------+-------------+
+| ``SVGFontSubsetting.GLYPHSUSED``            | todo        |
++---------------------------------------------+-------------+
+| ``SVGFontSubsetting.None``                  | todo        |
++---------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.SVGFontType:
+
+SVGFontType
+********************************************************************************
+
+Types for fonts included in exported SVG files
+
++-----------------------------+-------------+
+|            Value            | Description |
++=============================+=============+
+| ``SVGFontType.CEFFONT``     | todo        |
++-----------------------------+-------------+
+| ``SVGFontType.SVGFONT``     | todo        |
++-----------------------------+-------------+
+| ``SVGFontType.OUTLINEFONT`` | todo        |
++-----------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.SymbolRegistrationPoint:
+
+SymbolRegistrationPoint
+********************************************************************************
+
+Registration points for symbols.
+
++-----------------------------------------------------+-------------+
+|                        Value                        | Description |
++=====================================================+=============+
+| ``SymbolRegistrationPoint.SYMBOLBOTTOMLEFTPOINT``   | todo        |
++-----------------------------------------------------+-------------+
+| ``SymbolRegistrationPoint.SYMBOLBOTTOMMIDDLEPOINT`` | todo        |
++-----------------------------------------------------+-------------+
+| ``SymbolRegistrationPoint.SYMBOLBOTTOMRIGHTPOINT``  | todo        |
++-----------------------------------------------------+-------------+
+| ``SymbolRegistrationPoint.SYMBOLCENTERPOINT``       | todo        |
++-----------------------------------------------------+-------------+
+| ``SymbolRegistrationPoint.SYMBOLMIDDLELEFTPOINT``   | todo        |
++-----------------------------------------------------+-------------+
+| ``SymbolRegistrationPoint.SYMBOLMIDDLERIGHTPOINT``  | todo        |
++-----------------------------------------------------+-------------+
+| ``SymbolRegistrationPoint.SYMBOLTOPLEFTPOINT``      | todo        |
++-----------------------------------------------------+-------------+
+| ``SymbolRegistrationPoint.SYMBOLTOPMIDDLEPOINT``    | todo        |
++-----------------------------------------------------+-------------+
+| ``SymbolRegistrationPoint.SYMBOLTOPRIGHTPOINT``     | todo        |
++-----------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.TabStopAlignment:
+
+TabStopAlignment
+********************************************************************************
+
+The alignment of a tab stop.
+
++------------------------------+-------------+
+|            Value             | Description |
++==============================+=============+
+| ``TabStopAlignment.Center``  | todo        |
++------------------------------+-------------+
+| ``TabStopAlignment.Decimal`` | todo        |
++------------------------------+-------------+
+| ``TabStopAlignment.Left``    | todo        |
++------------------------------+-------------+
+| ``TabStopAlignment.Right``   | todo        |
++------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.TextAntialias:
+
+TextAntialias
+********************************************************************************
+
+The type of text anti-aliasing in a text art item.
+
++--------------------------+-------------+
+|          Value           | Description |
++==========================+=============+
+| ``TextAntialias.CRISP``  | todo        |
++--------------------------+-------------+
+| ``TextAntialias.NONE``   | todo        |
++--------------------------+-------------+
+| ``TextAntialias.SHARP``  | todo        |
++--------------------------+-------------+
+| ``TextAntialias.STRONG`` | todo        |
++--------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.TextOrientation:
+
+TextOrientation
+********************************************************************************
+
+The orientation of text in a text art item.
+
++------------------------------+-------------+
+|            Value             | Description |
++==============================+=============+
+| ``TextOrientation.HORIZONTAL`` | todo        |
++------------------------------+-------------+
+| ``TextOrientation.VERTICAL``   | todo        |
++------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.TextPreservePolicy:
+
+TextPreservePolicy
+********************************************************************************
+
+The text-preserve policy used by the FXG file format.
+
++-------------------------------------------------+-------------+
+|                      Value                      | Description |
++=================================================+=============+
+| ``TextPreservePolicy.AUTOMATICALLYCONVERTTEXT`` | todo        |
++-------------------------------------------------+-------------+
+| ``TextPreservePolicy.OUTLINETEXT``              | todo        |
++-------------------------------------------------+-------------+
+| ``TextPreservePolicy.KEEPTEXTEDITABLE``         | todo        |
++-------------------------------------------------+-------------+
+| ``TextPreservePolicy.RASTERIZETEXT``            | todo        |
++-------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.TextType:
+
+TextType
+********************************************************************************
+
+The type of text art displayed by this object.
+
++------------------------+-------------+
+|         Value          | Description |
++========================+=============+
+| ``TextType.AREATEXT``  | todo        |
++------------------------+-------------+
+| ``TextType.POINTTEXT`` | todo        |
++------------------------+-------------+
+| ``TextType.PATHTEXT``  | todo        |
++------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.TIFFByteOrder:
+
+TIFFByteOrder
+********************************************************************************
+
+The byte order to use for an exported TIFF file.
+
++-----------------------------+-------------+
+|            Value            | Description |
++=============================+=============+
+| ``TIFFByteOrder.IBMPC``     | todo        |
++-----------------------------+-------------+
+| ``TIFFByteOrder.MACINTOSH`` | todo        |
++-----------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.TracingModeType:
+
+TracingModeType
+********************************************************************************
+
++----------------------------------------------+-------------+
+|                    Value                     | Description |
++==============================================+=============+
+| ``TracingModeType.TRACINGMODEBLACKANDWHITE`` | todo        |
++----------------------------------------------+-------------+
+| ``TracingModeType.TRACINGMODECOLOR``         | todo        |
++----------------------------------------------+-------------+
+| ``TracingModeType.TRACINGMODEGRAY``          | todo        |
++----------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.Transformation:
+
+Transformation
+********************************************************************************
+
+The point to use as the anchor point about which an object is rotated, resized, or transformed.
+
++-----------------------------------+-------------+
+|               Value               | Description |
++===================================+=============+
+| ``Transformation.BOTTOM``         | todo        |
++-----------------------------------+-------------+
+| ``Transformation.BOTTOMLEFT``     | todo        |
++-----------------------------------+-------------+
+| ``Transformation.BOTTOMRIGHT``    | todo        |
++-----------------------------------+-------------+
+| ``Transformation.CENTER``         | todo        |
++-----------------------------------+-------------+
+| ``Transformation.DOCUMENTORIGIN`` | todo        |
++-----------------------------------+-------------+
+| ``Transformation.LEFT``           | todo        |
++-----------------------------------+-------------+
+| ``Transformation.RIGHT``          | todo        |
++-----------------------------------+-------------+
+| ``Transformation.TOP``            | todo        |
++-----------------------------------+-------------+
+| ``Transformation.TOPLEFT``        | todo        |
++-----------------------------------+-------------+
+| ``Transformation.TOPRIGHT``       | todo        |
++-----------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.TrappingType:
+
+TrappingType
+********************************************************************************
+
++---------------------------------+-------------+
+|              Value              | Description |
++=================================+=============+
+| ``TrappingType.IGNOREOPAQUE``   | todo        |
++---------------------------------+-------------+
+| ``TrappingType.OPAQUE``         | todo        |
++---------------------------------+-------------+
+| ``TrappingType.NORMALTRAPPING`` | todo        |
++---------------------------------+-------------+
+| ``TrappingType.TRANSPARENT``    | todo        |
++---------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.UserInteractionLevel:
+
+UserInteractionLevel
+********************************************************************************
+
+User interface settings
+
++--------------------------------------------+-------------+
+|                   Value                    | Description |
++============================================+=============+
+| ``UserInteractionLevel.DISPLAYALERTS``     | todo        |
++--------------------------------------------+-------------+
+| ``UserInteractionLevel.DONTDISPLAYALERTS`` | todo        |
++--------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.VariableKind:
+
+VariableKind
+********************************************************************************
+
+What type of variables are included in the document.
+
++-----------------------------+-------------+
+|            Value            | Description |
++=============================+=============+
+| ``VariableKind.GRAPH``      | todo        |
++-----------------------------+-------------+
+| ``VariableKind.IMAGE``      | todo        |
++-----------------------------+-------------+
+| ``VariableKind.VISIBILITY`` | todo        |
++-----------------------------+-------------+
+| ``VariableKind.TEXTUAL``    | todo        |
++-----------------------------+-------------+
+| ``VariableKind.Unknown``    | todo        |
++-----------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.ViewRasterType:
+
+ViewRasterType
+********************************************************************************
+
+The raster visualization mode for tracing.
+
++------------------------------------------------------+-------------+
+|                        Value                         | Description |
++======================================================+=============+
+| ``ViewRasterType.TRACINGVIEWRASTERADJUSTEDIMAGE``    | todo        |
++------------------------------------------------------+-------------+
+| ``ViewRasterType.TRACINGVIEWRASTERNOIMAGE``          | todo        |
++------------------------------------------------------+-------------+
+| ``ViewRasterType.TRACINGVIEWRASTERORIGINALIMAGE``    | todo        |
++------------------------------------------------------+-------------+
+| ``ViewRasterType.TRACINGVIEWRASTERTRANSPARENTIMAGE`` | todo        |
++------------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.ViewVectorType:
+
+ViewVectorType
+********************************************************************************
+
+The vector visualization mode for tracing.
+
++---------------------------------------------------------+-------------+
+|                          Value                          | Description |
++=========================================================+=============+
+| ``ViewVectorType.TRACINGVIEWVECTORNOTRACINGRESULT``     | todo        |
++---------------------------------------------------------+-------------+
+| ``ViewVectorType.TRACINGVIEWVECTOROUTLINES``            | todo        |
++---------------------------------------------------------+-------------+
+| ``ViewVectorType.TRACINGVIEWVECTOROUTLINESWITHTRACING`` | todo        |
++---------------------------------------------------------+-------------+
+| ``ViewVectorType.TRACINGVIEWVECTORTRACINGRESULT``       | todo        |
++---------------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.WariChuJustificationType:
+
+WariChuJustificationType
+********************************************************************************
+
++---------------------------------------------------------------+-------------+
+|                             Value                             | Description |
++===============================================================+=============+
+| ``WariChuJustificationType.Center``                           | todo        |
++---------------------------------------------------------------+-------------+
+| ``WariChuJustificationType.Left``                             | todo        |
++---------------------------------------------------------------+-------------+
+| ``WariChuJustificationType.Right``                            | todo        |
++---------------------------------------------------------------+-------------+
+| ``WariChuJustificationType.WARICHUAUTOJUSTIFY``               | todo        |
++---------------------------------------------------------------+-------------+
+| ``WariChuJustificationType.WARICHUFULLJUSTIFY``               | todo        |
++---------------------------------------------------------------+-------------+
+| ``WariChuJustificationType.WARICHUFULLJUSTIFYLASTLINECENTER`` | todo        |
++---------------------------------------------------------------+-------------+
+| ``WariChuJustificationType.WARICHUFULLJUSTIFYLASTLINELEFT``   | todo        |
++---------------------------------------------------------------+-------------+
+| ``WariChuJustificationType.WARICHUFULLJUSTIFYLASTLINERIGHT``  | todo        |
++---------------------------------------------------------------+-------------+
+
+----
+
+.. _jsobjref/scriptingConstants.ZOrderMethod:
+
+ZOrderMethod
+********************************************************************************
+
+The method used to arrange an art item’s position in the stacking order of its parent group or layer, as specified with the zOrder method
+
++-------------------------------+-------------+
+|             Value             | Description |
++===============================+=============+
+| ``ZOrderMethod.BRINGFORWARD`` | todo        |
++-------------------------------+-------------+
+| ``ZOrderMethod.SENDBACKWARD`` | todo        |
++-------------------------------+-------------+
+| ``ZOrderMethod.BRINGTOFRONT`` | todo        |
++-------------------------------+-------------+
+| ``ZOrderMethod.SENDTOBACK``   | todo        |
++-------------------------------+-------------+

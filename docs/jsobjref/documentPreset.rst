@@ -215,7 +215,7 @@ The transparency grid color for the new document.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.documentTransparencyGrid`
+:ref:`jsobjref/scriptingConstants.DocumentTransparencyGrid`
 
 ----
 
@@ -249,7 +249,7 @@ The ruler units for the new document.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.rulerUnits`
+:ref:`jsobjref/scriptingConstants.RulerUnits`
 
 ----
 

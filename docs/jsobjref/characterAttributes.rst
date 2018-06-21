@@ -849,7 +849,7 @@ The Wari-Chu justification.
 
 **Type**
 
-:ref:`jsobjref/wariChuJustificationType`
+:ref:`jsobjref/scriptingConstants.WariChuJustificationType`
 
 ----
 
