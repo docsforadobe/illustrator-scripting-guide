@@ -30,7 +30,7 @@ How the art should be clipped during output. Default: ``ArtClippingOption.OUTPUT
 
 **Type**
 
-// todo: link to **ArtClippingOption** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/scriptingConstants.artClippingOption`
 
 ----
 
@@ -98,7 +98,7 @@ The animation type for blended objects. Default: ``BlendAnimationType.NOBLENDANI
 
 **Type**
 
-// todo: link to **BlendAnimationType** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/scriptingConstants.blendAnimationType`
 
 ----
 
@@ -183,7 +183,7 @@ The style in which the exported data should be created in Flash. Default: ``Flas
 
 **Type**
 
-// todo: link to **FlashExportStyle** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/scriptingConstants.flashExportStyle`
 
 ----
 
@@ -200,7 +200,7 @@ The version of the exported SWF file. Default: ``FlashExportVersion.FlashVersion
 
 **Type**
 
-// todo: link to **FlashExportVersion** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/scriptingConstants.flashExportVersion`
 
 ----
 
@@ -230,7 +230,7 @@ exportOptionsFlash.ignoreTextKerning
 
 **Description**
 
-If true, ignore kerning information in text objects. Default: false
+If ``true``, ignore kerning information in text objects. Default: ``false``.
 
 **Type**
 
@@ -238,15 +238,224 @@ Boolean.
 
 ----
 
+.. _exportOptionsFlash.imageFormat:
 
+exportOptionsFlash.imageFormat
+********************************************************************************
 
+``exportOptionsFlash.imageFormat``
 
+**Description**
 
+How should the image in the exported Flash file be compressed. Default: ``FlashImageFormat.LOSSLESS``.
 
-=======
-Methods
-=======
+**Type**
 
+:ref:`jsobjref/scriptingConstants.flashImageFormat`
+
+----
+
+.. _exportOptionsFlash.includeMetadata:
+
+exportOptionsFlash.includeMetadata
+********************************************************************************
+
+``exportOptionsFlash.includeMetadata``
+
+**Description**
+
+If ``true``, include minimal XMP metadata in the SWF file. Default: ``false``.
+
+**Type**
+
+Boolean.
+
+----
+
+.. _exportOptionsFlash.jpegMethod:
+
+exportOptionsFlash.jpegMethod
+********************************************************************************
+
+``exportOptionsFlash.jpegMethod``
+
+**Description**
+
+Specifies the JPEG method to use. Default: ``FlashJPEGMethod.Standard``.
+
+**Type**
+
+:ref:`jsobjref/scriptingConstants.flashJPEGMethod`
+
+----
+
+.. _exportOptionsFlash.jpegQuality:
+
+exportOptionsFlash.jpegQuality
+********************************************************************************
+
+``exportOptionsFlash.jpegQuality``
+
+**Description**
+
+Level of compression to use. Range 1 to 10. Default: 3.
+
+**Type**
+
+Number (long).
+
+----
+
+.. _exportOptionsFlash.layerOrder:
+
+exportOptionsFlash.layerOrder
+********************************************************************************
+
+``exportOptionsFlash.layerOrder``
+
+**Description**
+
+The order in which layers are exported to Flash frames. Default: ``LayerOrderType.BOTTOMUP``.
+
+**Type**
+
+:ref:`jsobjref/scriptingConstants.layerOrderType`
+
+----
+
+.. _exportOptionsFlash.looping:
+
+exportOptionsFlash.looping
+********************************************************************************
+
+``exportOptionsFlash.looping``
+
+**Description**
+
+If ``true``, the Flash file is set to loop when run. Default: ``false``.
+
+**Type**
+
+Boolean.
+
+----
+
+.. _exportOptionsFlash.playbackAccess:
+
+exportOptionsFlash.playbackAccess
+********************************************************************************
+
+``exportOptionsFlash.playbackAccess``
+
+**Description**
+
+The access level for the exported SWF file. Default: ``FlashPlaybackSecurity.PlaybackLocal``.
+
+**Type**
+
+:ref:`jsobjref/scriptingConstants.flashPlaybackSecurity`
+
+----
+
+.. _exportOptionsFlash.preserveAppearance:
+
+exportOptionsFlash.preserveAppearance
+********************************************************************************
+
+``exportOptionsFlash.preserveAppearance``
+
+**Description**
+
+If ``true``, preserve appearance. If ``false``, preserve editability. Default: ``false``.
+
+**Type**
+
+Boolean.
+
+----
+
+.. _exportOptionsFlash.readOnly:
+
+exportOptionsFlash.readOnly
+********************************************************************************
+
+``exportOptionsFlash.readOnly``
+
+**Description**
+
+If ``true``, export as read-only file. Default: ``false``.
+
+**Type**
+
+Boolean.
+
+----
+
+.. _exportOptionsFlash.replacing:
+
+exportOptionsFlash.replacing
+********************************************************************************
+
+``exportOptionsFlash.replacing``
+
+**Description**
+
+If a file with the same name already exists, should it be replaced. Default: ``SaveOptions.PROMPTTOSAVECHANGES``.
+
+**Type**
+
+:ref:`jsobjref/scriptingConstants.saveOptions`
+
+----
+
+.. _exportOptionsFlash.resolution:
+
+exportOptionsFlash.resolution
+********************************************************************************
+
+``exportOptionsFlash.resolution``
+
+**Description**
+
+The resolution in pixels per inch. Range: 72–2400. Default: 72.
+
+**Type**
+
+Number (double).
+
+----
+
+.. _exportOptionsFlash.saveMultipleArtboards:
+
+exportOptionsFlash.saveMultipleArtboards
+********************************************************************************
+
+``exportOptionsFlash.saveMultipleArtboards``
+
+**Description**
+
+If ``true``, all artboards or range of artboards are saved. Default: ``false``.
+
+**Type**
+
+Boolean.
+
+----
+
+.. _exportOptionsFlash.typename:
+
+exportOptionsFlash.typename
+********************************************************************************
+
+``exportOptionsFlash.typename``
+
+**Description**
+
+The class name of the referenced object.
+
+**Type**
+
+String, read-only.
 
 ----
 
@@ -254,8 +463,21 @@ Methods
 Example
 =======
 
-
+Exporting to Flash format
 ********************************************************************************
 
 ::
 
+    // Exports current document to destFile as a flash file with specified options,
+    // destFile contains the full path including the file name
+
+    function exportToFlashFile(destFile) {
+        if ( app.documents.length > 0 ) {
+            var exportOptions = new ExportOptionsFlash();
+            var type = ExportType.FLASH;
+            var fileSpec = new File(destFile);
+
+            exportOptions.resolution = 150;
+            app.activeDocument.exportFile( fileSpec, type, exportOptions );
+        }
+    }
