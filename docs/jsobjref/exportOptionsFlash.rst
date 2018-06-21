@@ -7,7 +7,7 @@ Export Options Flash
 
 **Description**
 
-Options for exporting a document as a Macromedia® Flash® (SWF) file, used with the :ref:`document.exportFile` method. All properties are optional.
+Options for exporting a document as a Macromedia® Flash® (SWF) file, used with the :ref:`jsobjref/document.exportFile` method. All properties are optional.
 
 When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
