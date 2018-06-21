@@ -94,6 +94,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/document
   jsobjref/documentPreset
   jsobjref/documents
+  jsobjref/epsSaveOptions
 
 .. toctree::
   :maxdepth: 1
