@@ -87,11 +87,15 @@ If a location is not specified, adds the new character to the containing text fr
 
 **Parameters**
 
-=======================  ==========================================  ====
-``contents``             String                                      todo
-``[relativeObject]``     :ref:`jsobjref/textFrameItem`, optional     todo
-``[insertionLocation]``  :ref:`jsobjref/elementPlacement`, optional  todo
-=======================  ==========================================  ====
++-------------------------+--------------------------------------------+-------------+
+|        Parameter        |                    Type                    | Description |
++=========================+============================================+=============+
+| ``contents``            | String                                     | todo        |
++-------------------------+--------------------------------------------+-------------+
+| ``[relativeObject]``    | :ref:`jsobjref/textFrameItem`, optional    | todo        |
++-------------------------+--------------------------------------------+-------------+
+| ``[insertionLocation]`` | :ref:`jsobjref/elementPlacement`, optional | todo        |
++-------------------------+--------------------------------------------+-------------+
 
 **Returns**
 
@@ -112,9 +116,11 @@ Adds a character before the specified text selection.
 
 **Parameters**
 
-============  ======  ====
-``contents``  String  todo
-============  ======  ====
++--------------+--------+-------------+
+|  Parameter   |  Type  | Description |
++==============+========+=============+
+| ``contents`` | String | todo        |
++--------------+--------+-------------+
 
 **Returns**
 
@@ -135,9 +141,11 @@ Gets an element from the collection.
 
 **Parameters**
 
-===========  ======  ====
-``itemKey``  Number  todo
-===========  ======  ====
++-------------+--------+-------------+
+|  Parameter  |  Type  | Description |
++=============+========+=============+
+| ``itemKey`` | Number | todo        |
++-------------+--------+-------------+
 
 **Returns**
 

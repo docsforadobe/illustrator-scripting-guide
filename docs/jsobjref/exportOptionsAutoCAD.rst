@@ -52,7 +52,7 @@ The colors exported into the AutoCAD file.
 
 **Type**
 
-:ref:`jsobjref/autoCADColors`
+:ref:`jsobjref/scriptingConstants.autoCADColors`
 
 ----
 
@@ -90,7 +90,7 @@ Default: ``AutoCADExportFileFormat.DWG``.
 
 **Type**
 
-:ref:`jsobjref/autoCADExportFileFormat`
+:ref:`jsobjref/scriptingConstants.autoCADExportFileFormat`
 
 ----
 
@@ -109,7 +109,7 @@ Default: ``AutoCADExportOption.MaximizeEditability``.
 
 **Type**
 
-:ref:`jsobjref/autoCADExportOption`
+:ref:`jsobjref/scriptingConstants.autoCADExportOption`
 
 ----
 
@@ -145,7 +145,7 @@ The format in which raster art is exported.
 
 **Type**
 
-:ref:`jsobjref/autoCADRasterFormat`
+:ref:`jsobjref/scriptingConstants.autoCADRasterFormat`
 
 ----
 
@@ -198,7 +198,7 @@ The measurement units from which to map.
 
 **Type**
 
-:ref:`jsobjref/autoCADUnit`
+:ref:`jsobjref/scriptingConstants.autoCADUnit`
 
 ----
 
@@ -236,4 +236,4 @@ Default: ``AutoCADCompatibility.AutoCADRelease24``.
 
 **Type**
 
-:ref:`jsobjref/autoCADCompatibility`
+:ref:`jsobjref/scriptingConstants.autoCADCompatibility`

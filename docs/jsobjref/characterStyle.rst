@@ -100,10 +100,13 @@ Applies the character style to the text object or objects.
 
 **Paramaters**
 
-=======================  =================  ====
-``textItem``             Object             todo
-``[clearingOverrides]``  Boolean, optional  todo
-=======================  =================  ====
++-------------------------+-------------------+-------------+
+|        Parameter        |       Type        | Description |
++=========================+===================+=============+
+| ``textItem``            | Object            | todo        |
++-------------------------+-------------------+-------------+
+| ``[clearingOverrides]`` | Boolean, optional | todo        |
++-------------------------+-------------------+-------------+
 
 **Returns**
 

@@ -22,14 +22,18 @@ Using AppleScript, it is possible to send commands from one machine to another, 
 interaction are possible. In AppleScript:, there are four possible values for the ``user interaction`` level
 property:
 
-=======================  ===========================================================================
-**Property Value**       **Result**
-=======================  ===========================================================================
-``never interact``       No interaction is allowed.
-``interact with self``   Interact only with scripts executed from the Scripts menu (File > Scripts).
-``interact with local``  Interact with scripts executed on the local machine (including self ).
-``interact with all``    Interact with all scripts.
-=======================  ===========================================================================
++-------------------------+-----------------------------------------------------------------------------+
+|     Property Value      |                                   Result                                    |
++=========================+=============================================================================+
+| ``never interact``      | No interaction is allowed.                                                  |
++-------------------------+-----------------------------------------------------------------------------+
+| ``interact with self``  | Interact only with scripts executed from the Scripts menu (File > Scripts). |
++-------------------------+-----------------------------------------------------------------------------+
+| ``interact with local`` | Interact with scripts executed on the local machine (including self ).      |
++-------------------------+-----------------------------------------------------------------------------+
+| ``interact with all``   | Interact with all scripts.                                                  |
++-------------------------+-----------------------------------------------------------------------------+
+
 
 The four values allow you to control interaction based on the source of the script commands. For example,
 if the application is acting as a server for remote users, it would be difficult for a remote user to dismiss a
@@ -44,12 +48,13 @@ JavaScript
 
 In JavaScript, there are two possible values for the ``app.userInteractionLevel`` property:
 
-=======================  ==========================
-**Property Value**       **Result**
-=======================  ==========================
-``DISPLAYALERTS``        Interaction is allowed.
-``DONTDISPLAYALERTS``    No interaction is allowed.
-=======================  ==========================
++-----------------------+----------------------------+
+|    Property Value     |           Result           |
++=======================+============================+
+| ``DISPLAYALERTS``     | Interaction is allowed.    |
++-----------------------+----------------------------+
+| ``DONTDISPLAYALERTS`` | No interaction is allowed. |
++-----------------------+----------------------------+
 
 ----
 
@@ -58,9 +63,10 @@ VBScript
 
 In VBScript, there are two possible values for the ``UserInteractionLevel`` property of the ``Application`` object:
 
-=======================  ==========================
-**Property Value**       **Result**
-=======================  ==========================
-``aiDisplayAlerts``      Interaction is allowed.
-``aiDontDisplayAlerts``  No interaction is allowed.
-=======================  ==========================
++-------------------------+----------------------------+
+|     Property Value      |           Result           |
++=========================+============================+
+| ``aiDisplayAlerts``     | Interaction is allowed.    |
++-------------------------+----------------------------+
+| ``aiDontDisplayAlerts`` | No interaction is allowed. |
++-------------------------+----------------------------+

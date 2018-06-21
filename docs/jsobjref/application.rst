@@ -519,10 +519,13 @@ Joins two matrices together.
 
 **Parameters**
 
-================  ======  =============
-``matrix``        Matrix  First matrix
-``secondMatrix``  Matrix  Second matrix
-================  ======  =============
++------------------+--------+---------------+
+|    Parameter     |  Type  |  Description  |
++==================+========+===============+
+| ``matrix``       | Matrix | First matrix  |
++------------------+--------+---------------+
+| ``secondMatrix`` | Matrix | Second matrix |
++------------------+--------+---------------+
 
 **Returns**
 
@@ -543,10 +546,13 @@ Joins a rotation translation to a transformation matrix.
 
 **Parameters**
 
-==========  ===============  ===============
-``matrix``  Matrix           Matrix
-``angle``   Number (double)  Angle
-==========  ===============  ===============
++------------+-----------------+-------------+
+| Parameter  |      Type       | Description |
++============+=================+=============+
+| ``matrix`` | Matrix          | Matrix      |
++------------+-----------------+-------------+
+| ``angle``  | Number (double) | Angle       |
++------------+-----------------+-------------+
 
 **Returns**
 
@@ -567,11 +573,15 @@ Concatenates a scale translation to a transformation matrix.
 
 **Parameters**
 
-============  =========================  =======
-``matrix``    Matrix                     Matrix
-``[scaleX]``  Number (double), optional  X Scale
-``[scaleY]``  Number (dobule), optional  Y Scale
-============  =========================  =======
++--------------+---------------------------+-------------+
+|  Parameter   |           Type            | Description |
++==============+===========================+=============+
+| ``matrix``   | Matrix                    | Matrix      |
++--------------+---------------------------+-------------+
+| ``[scaleX]`` | Number (double), optional | X Scale     |
++--------------+---------------------------+-------------+
+| ``[scaleY]`` | Number (dobule), optional | Y Scale     |
++--------------+---------------------------+-------------+
 
 **Returns**
 
@@ -592,11 +602,16 @@ Joins a translation to a transformation matrix.
 
 **Parameters**
 
-============  =========================  =======
-``matrix``    Matrix                     Matrix
-``[deltaX]``  Number (double), optional  X Delta
-``[deltaY]``  Number (dobule), optional  Y Delta
-============  =========================  =======
++--------------+---------------------------+-------------+
+|  Parameter   |           Type            | Description |
++==============+===========================+=============+
+| ``matrix``   | Matrix                    | Matrix      |
++--------------+---------------------------+-------------+
+| ``[deltaX]`` | Number (double), optional | X Delta     |
++--------------+---------------------------+-------------+
+| ``[deltaY]`` | Number (dobule), optional | Y Delta     |
++--------------+---------------------------+-------------+
+
 
 **Returns**
 
@@ -617,14 +632,24 @@ Converts a sample-component color from one color space to another.
 
 **Parameters**
 
-=======================  ===================================  ====
-``sourceColorSpace``     :ref:`jsobjref/imageColorSpace`      todo
-``sourceColor``          ColorComponents                      todo
-``destColorSpace``       :ref:`jsobjref/imageColorSpace`      todo
-``colorConvertPurpose``  :ref:`jsobjref/colorConvertPurpose`  todo
-``[sourceHasAlpha]``     Boolean, optional                    todo
-``[destHasAlpha]``       Boolean, optional                    todo
-=======================  ===================================  ====
++-------------------------+-------------------------------------+-------------+
+|        Parameter        |                Type                 | Description |
++=========================+=====================================+=============+
+| ``sourceColorSpace``    | :ref:`jsobjref/imageColorSpace`     | todo        |
++-------------------------+-------------------------------------+-------------+
+| ``sourceColor``         | ColorComponents                     | todo        |
++-------------------------+-------------------------------------+-------------+
+| ``destColorSpace``      | :ref:`jsobjref/imageColorSpace`     | todo        |
++-------------------------+-------------------------------------+-------------+
+| ``colorConvertPurpose`` | :ref:`jsobjref/colorConvertPurpose` | todo        |
++-------------------------+-------------------------------------+-------------+
+| ``[sourceHasAlpha]``    | Boolean, optional                   | todo        |
++-------------------------+-------------------------------------+-------------+
+| ``[destHasAlpha]``      | Boolean, optional                   | todo        |
++-------------------------+-------------------------------------+-------------+
+
+
+
 
 **Returns**
 
@@ -680,9 +705,11 @@ Deletes an existing workspace.
 
 **Parameters**
 
-=================  ======  ===========================
-``workspaceName``  String  Name of workspace to delete
-=================  ======  ===========================
++-------------------+--------+-----------------------------+
+|     Parameter     |  Type  |         Description         |
++===================+========+=============================+
+| ``workspaceName`` | String | Name of workspace to delete |
++-------------------+--------+-----------------------------+
 
 **Returns**
 
@@ -723,9 +750,11 @@ Returns whether the specified filePath is open
 
 **Parameters**
 
-============  ======  ===============
-``filePath``  String  todo
-============  ======  ===============
++--------------+--------+-------------+
+|  Parameter   |  Type  | Description |
++==============+========+=============+
+| ``filePath`` | String | todo        |
++--------------+--------+-------------+
 
 **Returns**
 
@@ -746,9 +775,11 @@ Gets detailed file information for specified PPD file.
 
 **Parameters**
 
-========  ======  ===============
-``name``  String  todo
-========  ======  ===============
++-----------+--------+-------------+
+| Parameter |  Type  | Description |
++===========+========+=============+
+| ``name``  | String | todo        |
++-----------+--------+-------------+
 
 **Returns**
 
@@ -770,9 +801,11 @@ specified preset type.
 
 **Parameters**
 
-==============  ==================================  ====
-``presetType``  :ref:`jsobjref/documentPresetType`  todo
-==============  ==================================  ====
++----------------+------------------------------------+-------------+
+|   Parameter    |                Type                | Description |
++================+====================================+=============+
+| ``presetType`` | :ref:`jsobjref/documentPresetType` | todo        |
++----------------+------------------------------------+-------------+
 
 **Returns**
 
@@ -794,9 +827,11 @@ a given preset name.
 
 **Parameters**
 
-==========  ======  ====
-``preset``  String  todo
-==========  ======  ====
++------------+--------+-------------+
+| Parameter  |  Type  | Description |
++============+========+=============+
+| ``preset`` | String | todo        |
++------------+--------+-------------+
 
 **Returns**
 
@@ -822,9 +857,11 @@ Returns a transformation matrix containing a single rotation.
 
 **Parameters**
 
-===========  =========================  ====
-``[angle]``  Number (double), optional  todo
-===========  =========================  ====
++-------------+---------------------------+-------------+
+|  Parameter  |           Type            | Description |
++=============+===========================+=============+
+| ``[angle]`` | Number (double), optional | todo        |
++-------------+---------------------------+-------------+
 
 **Returns**
 
@@ -851,10 +888,13 @@ Returns a transformation matrix containing a single scale.
 
 **Parameters**
 
-============  =========================  ====
-``[scaleX]``  Number (double), optional  todo
-``[scaleY]``  Number (double), optional  todo
-============  =========================  ====
++--------------+---------------------------+-------------+
+|  Parameter   |           Type            | Description |
++==============+===========================+=============+
+| ``[scaleX]`` | Number (double), optional | todo        |
++--------------+---------------------------+-------------+
+| ``[scaleY]`` | Number (double), optional | todo        |
++--------------+---------------------------+-------------+
 
 **Returns**
 
@@ -900,10 +940,13 @@ Returns a transformation matrix containing a single translation.
 
 **Parameters**
 
-============  =========================  =======
-``[deltaX]``  Number (double), optional  X Delta
-``[deltaY]``  Number (dobule), optional  Y Delta
-============  =========================  =======
++--------------+---------------------------+-------------+
+|  Parameter   |           Type            | Description |
++==============+===========================+=============+
+| ``[deltaX]`` | Number (double), optional | X Delta     |
++--------------+---------------------------+-------------+
+| ``[deltaY]`` | Number (dobule), optional | Y Delta     |
++--------------+---------------------------+-------------+
 
 **Returns**
 
@@ -924,9 +967,11 @@ Inverts a matrix.
 
 **Parameters**
 
-==========  ======  ====
-``matrix``  Matrix  todo
-==========  ======  ====
++------------+--------+-------------+
+| Parameter  |  Type  | Description |
++============+========+=============+
+| ``matrix`` | Matrix | todo        |
++------------+--------+-------------+
 
 **Returns**
 
@@ -947,10 +992,13 @@ Checks whether the two matrices are equal.
 
 **Parameters**
 
-================  ======  ====
-``matrix``        Matrix  todo
-``secondMatrix``  Matrix  todo
-================  ======  ====
++------------------+--------+-------------+
+|    Parameter     |  Type  | Description |
++==================+========+=============+
+| ``matrix``       | Matrix | todo        |
++------------------+--------+-------------+
+| ``secondMatrix`` | Matrix | todo        |
++------------------+--------+-------------+
 
 **Returns**
 
@@ -971,9 +1019,11 @@ Checks whether a matrix is singular and cannot be inverted.
 
 **Parameters**
 
-==========  ======  ===============
-``matrix``  Matrix  Matrix to check
-==========  ======  ===============
++------------+--------+-----------------+
+| Parameter  |  Type  |   Description   |
++============+========+=================+
+| ``matrix`` | Matrix | Matrix to check |
++------------+--------+-----------------+
 
 **Returns**
 
@@ -995,9 +1045,11 @@ management off.
 
 **Parameters**
 
-============  ====  ====
-``fileSpec``  File  todo
-============  ====  ====
++--------------+------+-------------+
+|  Parameter   | Type | Description |
++==============+======+=============+
+| ``fileSpec`` | File | todo        |
++--------------+------+-------------+
 
 **Returns**
 
@@ -1026,11 +1078,15 @@ Opens the specified document file.
 
 **Parameters**
 
-========================  ==================================  ====
-``file``                  File                                todo
-``[documentColorSpace]``  :ref:`jsobjref/documentColorSpace`  todo
-``[options]``             anything                            todo
-========================  ==================================  ====
++--------------------------+------------------------------------+-------------+
+|        Parameter         |                Type                | Description |
++==========================+====================================+=============+
+| ``file``                 | File                               | todo        |
++--------------------------+------------------------------------+-------------+
+| ``[documentColorSpace]`` | :ref:`jsobjref/documentColorSpace` | todo        |
++--------------------------+------------------------------------+-------------+
+| ``[options]``            | anything                           | todo        |
++--------------------------+------------------------------------+-------------+
 
 **Returns**
 
@@ -1139,9 +1195,11 @@ Saves a new workspace.
 
 **Parameters**
 
-=================  ===============  ============================
-``workspaceName``  String           Name of workspace to save as
-=================  ===============  ============================
++-------------------+--------+------------------------------+
+|     Parameter     |  Type  |         Description          |
++===================+========+==============================+
+| ``workspaceName`` | String | Name of workspace to save as |
++-------------------+--------+------------------------------+
 
 **Returns**
 
@@ -1163,11 +1221,15 @@ arguments, and returns the plug-in-defined result string.
 
 **Parameters**
 
-===================  ======  ===============
-``pluginName``       String  todo
-``messageSelector``  String  todo
-``inputString``      String  todo
-===================  ======  ===============
++---------------------+--------+-------------+
+|      Parameter      |  Type  | Description |
++=====================+========+=============+
+| ``pluginName``      | String | todo        |
++---------------------+--------+-------------+
+| ``messageSelector`` | String | todo        |
++---------------------+--------+-------------+
+| ``inputString``     | String | todo        |
++---------------------+--------+-------------+
 
 **Returns**
 
@@ -1188,9 +1250,11 @@ Gets presets from the file.
 
 **Parameters**
 
-============  ====  ===============
-``fileSpec``  File  File?
-============  ====  ===============
++--------------+------+-------------+
+|  Parameter   | Type | Description |
++==============+======+=============+
+| ``fileSpec`` | File | File?       |
++--------------+------+-------------+
 
 **Returns**
 
@@ -1211,9 +1275,11 @@ Switches to the specified workspace.
 
 **Parameters**
 
-=================  ======  =================
-``workspaceName``  String  Name to switch to
-=================  ======  =================
++-------------------+--------+-------------------+
+|     Parameter     |  Type  |    Description    |
++===================+========+===================+
+| ``workspaceName`` | String | Name to switch to |
++-------------------+--------+-------------------+
 
 **Returns**
 
@@ -1235,9 +1301,11 @@ in hex values).
 
 **Parameters**
 
-========  ===============  ===================
-``text``  String           String to translate
-========  ===============  ===================
++-----------+--------+---------------------+
+| Parameter |  Type  |     Description     |
++===========+========+=====================+
+| ``text``  | String | String to translate |
++-----------+--------+---------------------+
 
 **Returns**
 
