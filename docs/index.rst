@@ -97,6 +97,4 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/epsSaveOptions
   jsobjref/exportOptionsAutoCAD
 
-.. toctree::
-  :maxdepth: 1
-  :caption: Scripting Constants
+  jsobjref/scriptingConstants
