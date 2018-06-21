@@ -28,7 +28,7 @@ The layout of artboards in the new document. Default: ``GridByRow``.
 
 **Type**
 
-:ref:`jsobjref/documentArtboardLayout`
+:ref:`jsobjref/scriptingConstants.documentArtboardLayout`
 
 ----
 
@@ -79,7 +79,7 @@ The color space for the new document.
 
 **Type**
 
-:ref:`jsobjref/documentColorSpace`
+:ref:`jsobjref/scriptingConstants.documentColorSpace`
 
 ----
 
@@ -164,7 +164,7 @@ The preview mode for the new document.
 
 **Type**
 
-:ref:`jsobjref/previewMode`
+:ref:`jsobjref/scriptingConstants.documentPreviewMode`
 
 ----
 
@@ -181,7 +181,7 @@ The raster resolution for the new document.
 
 **Type**
 
-:ref:`jsobjref/rasterResolution`
+:ref:`jsobjref/scriptingConstants.documentRasterResolution`
 
 ----
 
@@ -215,7 +215,7 @@ The transparency grid color for the new document.
 
 **Type**
 
-:ref:`jsobjref/documentTransparencyGrid`
+:ref:`jsobjref/scriptingConstants.documentTransparencyGrid`
 
 ----
 
@@ -249,7 +249,7 @@ The ruler units for the new document.
 
 **Type**
 
-:ref:`jsobjref/rulerUnits`
+:ref:`jsobjref/scriptingConstants.rulerUnits`
 
 ----
 

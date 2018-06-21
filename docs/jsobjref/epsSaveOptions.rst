@@ -66,7 +66,7 @@ Default: ``Compatibility.ILLUSTRATOR1719``.
 
 **Type**
 
-:ref:`jsobjref/compatibility`
+:ref:`jsobjref/scriptingConstants.compatibility`
 
 ----
 
@@ -138,7 +138,7 @@ How should transparency be flattened for file formats older than Illustrator 9.
 
 **Type**
 
-:ref:`jsobjref/outputFlattening`
+:ref:`jsobjref/scriptingConstants.outputFlattening`
 
 ----
 
@@ -174,7 +174,7 @@ Default: ``PDFOverprint.PRESERVEPDFOVERPRINT``.
 
 **Type**
 
-:ref:`jsobjref/pDFOverprint`
+:ref:`jsobjref/scriptingConstants.pdfOverprint`
 
 ----
 
@@ -193,7 +193,7 @@ Default: ``EPSPostScriptLevelEnum.LEVEL2``.
 
 **Type**
 
-:ref:`jsobjref/ePSPostScriptLevelEnum`
+:ref:`jsobjref/scriptingConstants.epsPostScriptLevelEnum`
 
 ----
 
@@ -210,7 +210,7 @@ The format for the EPS preview image.
 
 **Type**
 
-:ref:`jsobjref/ePSPreview`
+:ref:`jsobjref/scriptingConstants.epsPreview`
 
 ----
 
