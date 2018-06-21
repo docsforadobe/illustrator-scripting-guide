@@ -83,9 +83,11 @@ Creates a named character style.
 
 **Parameters**
 
-========  ======  ==============================
-``name``  String  Character style name to create
-========  ======  ==============================
++-----------+--------+--------------------------------+
+| Parameter |  Type  |          Description           |
++===========+========+================================+
+| ``name``  | String | Character style name to create |
++-----------+--------+--------------------------------+
 
 **Returns**
 
@@ -106,9 +108,11 @@ Gets the first element in the collection with the provided name.
 
 **Parameters**
 
-========  ======  ===========================
-``name``  String  Character style name to get
-========  ======  ===========================
++-----------+--------+-----------------------------+
+| Parameter |  Type  |         Description         |
++===========+========+=============================+
+| ``name``  | String | Character style name to get |
++-----------+--------+-----------------------------+
 
 **Returns**
 
@@ -129,9 +133,11 @@ Gets an element from the collection.
 
 **Parameters**
 
-===========  ==============  ====================
-``itemKey``  String, Number  String or number key
-===========  ==============  ====================
++-------------+----------------+----------------------+
+|  Parameter  |      Type      |     Description      |
++=============+================+======================+
+| ``itemKey`` | String, Number | String or number key |
++-------------+----------------+----------------------+
 
 **Returns**
 

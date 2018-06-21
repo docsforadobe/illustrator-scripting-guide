@@ -16,12 +16,11 @@ To find the numeral values of enumerations, use either of the following:
 
 - The Adobe lllustrator CC 2017 Scripting Reference: VBScript, which lists the numeral values directly after the constant value in the “Enumerations” chapter at the end of the book. The following example is from that table:
 
-=====================  ====================  =======================================
-**Enumeration type**   **Values**            **What it means**
-=====================  ====================  =======================================
-``AiTextOrientation``  ``aiHorizontal = 0``  The orientation of text in a text frame
-                       ``aiVertical = 1``
-=====================  ====================  =======================================
++-----------------------+-----------------------------------------+-----------------------------------------+
+|   Enumeration type    |                 Values                  |              What it means              |
++=======================+=========================================+=========================================+
+| ``AiTextOrientation`` | ``aiHorizontal = 0`` ``aiVertical = 1`` | The orientation of text in a text frame |
++-----------------------+-----------------------------------------+-----------------------------------------+
 
 The following sample specifies vertical text orientation::
 

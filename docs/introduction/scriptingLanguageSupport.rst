@@ -14,15 +14,15 @@ Script file extensions
 For a file to be recognized by Adobe Illustrator CC 2017 as a valid script
 file, the file must have the correct file name extension:
 
-==========================  =========================  =============
-**Script Type**             **File type (extension)**  **Platforms**
-==========================  =========================  =============
-AppleScript                 compiled script ( .scpt )  Mac OS
-                            OSAS file (no extension)
-JavaScript or ExtendScript  text ( .js or .jsx)        Windows
-                                                       Mac OS
-VBScript                    text ( .vbs )              Windows
-==========================  =========================  =============
++----------------------------+----------------------------------------------------+----------------+
+|        Script Type         |               File type (extension)                |   Platforms    |
++============================+====================================================+================+
+| AppleScript                | compiled script ( .scpt ) OSAS file (no extension) | Mac OS         |
++----------------------------+----------------------------------------------------+----------------+
+| JavaScript or ExtendScript | text ( .js or .jsx)                                | Windows Mac OS |
++----------------------------+----------------------------------------------------+----------------+
+| VBScript                   | text ( .vbs )                                      | Windows        |
++----------------------------+----------------------------------------------------+----------------+
 
 ----
 

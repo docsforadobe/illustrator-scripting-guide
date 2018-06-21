@@ -83,9 +83,11 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-========  ======  =================
-``name``  String  Brush name to get
-========  ======  =================
++-----------+--------+-------------------+
+| Parameter |  Type  |    Description    |
++===========+========+===================+
+| ``name``  | String | Brush name to get |
++-----------+--------+-------------------+
 
 **Returns**
 
@@ -106,9 +108,11 @@ Gets an element from the collection.
 
 **Parameters**
 
-===========  ==============  ====================
-``itemKey``  String, Number  String or number key
-===========  ==============  ====================
++-------------+----------------+----------------------+
+|  Parameter  |      Type      |     Description      |
++=============+================+======================+
+| ``itemKey`` | String, Number | String or number key |
++-------------+----------------+----------------------+
 
 **Returns**
 

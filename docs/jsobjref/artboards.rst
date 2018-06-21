@@ -82,9 +82,11 @@ Creates a new Artboard object.
 
 **Parameters**
 
-================  ====  ===================
-``artboardRect``  Rect  Artboard dimensions
-================  ====  ===================
++------------------+------+---------------------+
+|    Parameter     | Type |     Description     |
++==================+======+=====================+
+| ``artboardRect`` | Rect | Artboard dimensions |
++------------------+------+---------------------+
 
 **Returns**
 
@@ -124,9 +126,11 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-========  ======  ====================
-``name``  String  Artboard name to get
-========  ======  ====================
++-----------+--------+----------------------+
+| Parameter |  Type  |     Description      |
++===========+========+======================+
+| ``name``  | String | Artboard name to get |
++-----------+--------+----------------------+
 
 **Returns**
 
@@ -147,10 +151,13 @@ Creates a new Artboard object and inserts it at the given index in the list.
 
 **Parameters**
 
-================  =============  ===========================
-``artboardRect``  Rect           Artboard dimensions
-``index``         Number (long)  Index to insert artboard at
-================  =============  ===========================
++------------------+---------------+-----------------------------+
+|    Parameter     |     Type      |         Description         |
++==================+===============+=============================+
+| ``artboardRect`` | Rect          | Artboard dimensions         |
++------------------+---------------+-----------------------------+
+| ``index``        | Number (long) | Index to insert artboard at |
++------------------+---------------+-----------------------------+
 
 **Returns**
 
@@ -171,9 +178,11 @@ Deletes an artboard object. You cannot remove the last artboard in a document.
 
 **Parameters**
 
-=========  =============  ===========================
-``index``  Number (long)  Index of artboard to remove
-=========  =============  ===========================
++-----------+---------------+-----------------------------+
+| Parameter |     Type      |         Description         |
++===========+===============+=============================+
+| ``index`` | Number (long) | Index of artboard to remove |
++-----------+---------------+-----------------------------+
 
 **Returns**
 
@@ -194,9 +203,11 @@ Makes a specific artboard active and makes it current in the iteration order.
 
 **Parameters**
 
-=========  =============  ===============================
-``index``  Number (long)  Index of artboard to set active
-=========  =============  ===============================
++-----------+---------------+---------------------------------+
+| Parameter |     Type      |           Description           |
++===========+===============+=================================+
+| ``index`` | Number (long) | Index of artboard to set active |
++-----------+---------------+---------------------------------+
 
 **Returns**
 
