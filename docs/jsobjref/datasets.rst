@@ -1,13 +1,13 @@
 .. _jsobjref/datasets:
 
-Datasets
+datasets
 ################################################################################
 
 ``dataSets``
 
 **Description**
 
-A collection of ``Dataset`` objects.
+A collection of :ref:`jsobjref/dataset` objects.
 
 ----
 
@@ -15,7 +15,7 @@ A collection of ``Dataset`` objects.
 Properties
 ==========
 
-.. _dataSets.length:
+.. _jsobjref/datasets.length:
 
 dataSets.length
 ********************************************************************************
@@ -32,7 +32,7 @@ Number, read-only.
 
 ----
 
-.. _dataSets.parent:
+.. _jsobjref/datasets.parent:
 
 dataSets.parent
 ********************************************************************************
@@ -49,7 +49,7 @@ The name of the object that contains this dataset.
 
 ----
 
-.. _dataSets.typename:
+.. _jsobjref/datasets.typename:
 
 dataSets.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String, read-only.
 Methods
 =======
 
-.. _dataSets.add:
+.. _jsobjref/datasets.add:
 
 dataSets.add()
 ********************************************************************************
@@ -87,7 +87,7 @@ Creates a new dataset object.
 
 ----
 
-.. _dataSets.getByName:
+.. _jsobjref/datasets.getByName:
 
 dataSets.getByName()
 ********************************************************************************
@@ -112,7 +112,7 @@ Gets the first element in the collection with the specified name.
 
 ----
 
-.. _dataSets.index:
+.. _jsobjref/datasets.index:
 
 dataSets.index()
 ********************************************************************************
@@ -137,7 +137,7 @@ Gets an element from the collection.
 
 ----
 
-.. _dataSets.removeAll:
+.. _jsobjref/datasets.removeAll:
 
 dataSets.removeAll()
 ********************************************************************************
@@ -151,5 +151,3 @@ Removes all elements in the collection.
 **Returns**
 
 Nothing.
-
-----

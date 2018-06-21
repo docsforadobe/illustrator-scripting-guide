@@ -7,7 +7,7 @@ Compound Path Items
 
 **Description**
 
-A collection of ``CompoundPathItem`` objects.
+A collection of :ref:`jsobjref/compoundPathItem` objects.
 
 ----
 
@@ -15,7 +15,7 @@ A collection of ``CompoundPathItem`` objects.
 Properties
 ==========
 
-.. _compoundPathItems.length:
+.. _jsobjref/compoundPathItems.length:
 
 compoundPathItems.length
 ********************************************************************************
@@ -32,7 +32,7 @@ Number, read-only.
 
 ----
 
-.. _compoundPathItems.parent:
+.. _jsobjref/compoundPathItems.parent:
 
 compoundPathItems.parent
 ********************************************************************************
@@ -49,7 +49,7 @@ Object, read-only.
 
 ----
 
-.. _compoundPathItems.typename:
+.. _jsobjref/compoundPathItems.typename:
 
 compoundPathItems.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String, read-only.
 Methods
 =======
 
-.. _compoundPathItems.add:
+.. _jsobjref/compoundPathItems.add:
 
 compoundPathItems.add()
 ********************************************************************************
@@ -87,7 +87,7 @@ Creates a new ``CompoundPathItem``.
 
 ----
 
-.. _compoundPathItems.getByName:
+.. _jsobjref/compoundPathItems.getByName:
 
 compoundPathItems.getByName()
 ********************************************************************************
@@ -112,7 +112,7 @@ Gets the first element in the collection with the specified name.
 
 ----
 
-.. _compoundPathItems.index:
+.. _jsobjref/compoundPathItems.index:
 
 compoundPathItems.index()
 ********************************************************************************
@@ -137,7 +137,7 @@ Gets an element from the collection.
 
 ----
 
-.. _compoundPathItems.removeAll:
+.. _jsobjref/compoundPathItems.removeAll:
 
 compoundPathItems.removeAll()
 ********************************************************************************

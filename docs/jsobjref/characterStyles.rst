@@ -15,7 +15,7 @@ A collection of CharacterStyle objects.
 Properties
 ==========
 
-.. _characterStyles.length:
+.. _jsobjref/characterStyles.length:
 
 characterStyles.length
 ********************************************************************************
@@ -32,7 +32,7 @@ Number; read-only.
 
 ----
 
-.. _characterStyles.parent:
+.. _jsobjref/characterStyles.parent:
 
 characterStyles.parent
 ********************************************************************************
@@ -49,7 +49,7 @@ Object; read-only.
 
 ----
 
-.. _characterStyles.typename:
+.. _jsobjref/characterStyles.typename:
 
 characterStyles.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String; read-only.
 Methods
 =======
 
-.. _characterStyles.add:
+.. _jsobjref/characterStyles.add:
 
 characterStyles.add()
 ********************************************************************************
@@ -93,7 +93,7 @@ Creates a named character style.
 
 ----
 
-.. _characterStyles.getByName:
+.. _jsobjref/characterStyles.getByName:
 
 characterStyles.getByName()
 ********************************************************************************
@@ -116,7 +116,7 @@ Gets the first element in the collection with the provided name.
 
 ----
 
-.. _characterStyles.index:
+.. _jsobjref/characterStyles.index:
 
 characterStyles.index()
 ********************************************************************************
@@ -139,7 +139,7 @@ Gets an element from the collection.
 
 ----
 
-.. _characterStyles.removeAll:
+.. _jsobjref/characterStyles.removeAll:
 
 characterStyles.removeAll()
 ********************************************************************************

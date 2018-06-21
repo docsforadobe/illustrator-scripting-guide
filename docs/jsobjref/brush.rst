@@ -16,7 +16,7 @@ created by the user within Illustrator. You can access brushes within a script, 
 Properties
 ==========
 
-.. _brush.name:
+.. _jsobjref/brush.name:
 
 brush.name
 ********************************************************************************
@@ -33,7 +33,7 @@ String
 
 ----
 
-.. _brush.parent:
+.. _jsobjref/brush.parent:
 
 brush.parent
 ********************************************************************************
@@ -50,7 +50,7 @@ The document that contains this brush.
 
 ----
 
-.. _brush.typename:
+.. _jsobjref/brush.typename:
 
 brush.typename
 ********************************************************************************
@@ -71,7 +71,7 @@ String; read-only.
 Methods
 =======
 
-.. _brush.applyTo:
+.. _jsobjref/brush.applyTo:
 
 brush.applyTo()
 ********************************************************************************

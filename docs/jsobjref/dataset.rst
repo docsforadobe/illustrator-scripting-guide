@@ -1,6 +1,6 @@
 .. _jsobjref/dataset:
 
-Dataset
+dataset
 ################################################################################
 
 ``dataset``
@@ -15,7 +15,7 @@ A set of data used for dynamic publishing. A dataset allows you to collect a num
 Properties
 ==========
 
-.. _dataset.name:
+.. _jsobjref/dataset.name:
 
 dataset.name
 ********************************************************************************
@@ -32,7 +32,7 @@ String.
 
 ----
 
-.. _dataset.parent:
+.. _jsobjref/dataset.parent:
 
 dataset.parent
 ********************************************************************************
@@ -49,7 +49,7 @@ The name of the object that contains this dataset.
 
 ----
 
-.. _dataset.typename:
+.. _jsobjref/dataset.typename:
 
 dataset.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String.
 Methods
 =======
 
-.. _dataset.display:
+.. _jsobjref/dataset.display:
 
 dataset.display()
 ********************************************************************************
@@ -87,7 +87,7 @@ Nothing.
 
 ----
 
-.. _dataset.remove:
+.. _jsobjref/dataset.remove:
 
 dataset.remove()
 ********************************************************************************
@@ -104,7 +104,7 @@ Nothing.
 
 ----
 
-.. _dataset.update:
+.. _jsobjref/dataset.update:
 
 dataset.update()
 ********************************************************************************
@@ -133,7 +133,7 @@ Using variables and datasets
     // Creates two variables, 1 visibility and 1 text,
     // creates two datasets each with different values for the variables,
     // then displays both datasets
-    
+
     var docRef = documents.add();
 
     // Create visibility variable

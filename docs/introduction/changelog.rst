@@ -13,7 +13,7 @@ What's new and changed for scripting?
 `Illustrator XX.X (CC 2017) <>`_
 ********************************************************************************
 
-- Added: :ref:`getIsFileOpen <app.getIsFileOpen>`
+- Added: :ref:`jsobjref/Application.getIsFileOpen`
 
 ----
 

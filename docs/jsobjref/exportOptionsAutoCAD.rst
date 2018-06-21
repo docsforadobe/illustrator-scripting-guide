@@ -7,9 +7,12 @@ Export Options AutoCAD
 
 **Description**
 
-Options for exporting a document as an AutoCAD file, used with the `exportFile <document.html#document-exportfile>`__ method. All properties are optional.
+Options for exporting a document as an AutoCAD file, used with the :ref:`jsobjref/document.exportFile` method.
+All properties are optional.
 
-When you export a document, a file extension is appended automatically. You should not include any file extension in the file specification. To override the default AutoCAD export format (DWG), use the `exportFileFormat <#exportoptionsautocad-exportfileformat>`__ property.
+When you export a document, a file extension is appended automatically. You should not include any file extension in the file specification.
+
+To override the default AutoCAD export format (DWG), use the :ref:`jsobjref/exportOptionsAutoCAD.exportFileFormat` property.
 
 ----
 
@@ -17,7 +20,7 @@ When you export a document, a file extension is appended automatically. You shou
 Properties
 ==========
 
-.. _exportOptionsAutoCAD.alterPathsForAppearance:
+.. _jsobjref/exportOptionsAutoCAD.alterPathsForAppearance:
 
 exportOptionsAutoCAD.alterPathsForAppearance
 ********************************************************************************
@@ -26,7 +29,9 @@ exportOptionsAutoCAD.alterPathsForAppearance
 
 **Description**
 
-If ``true``, paths are altered if needed to maintain appearance. Default: ``false``.
+If ``true``, paths are altered if needed to maintain appearance.
+
+Default: ``false``.
 
 **Type**
 
@@ -34,7 +39,7 @@ Boolean.
 
 ----
 
-.. _exportOptionsAutoCAD.colors:
+.. _jsobjref/exportOptionsAutoCAD.colors:
 
 exportOptionsAutoCAD.colors
 ********************************************************************************
@@ -47,11 +52,11 @@ The colors exported into the AutoCAD file.
 
 **Type**
 
-// todo: link to **AutoCADColors** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/autoCADColors`
 
 ----
 
-.. _exportOptionsAutoCAD.convertTextToOutlines:
+.. _jsobjref/exportOptionsAutoCAD.convertTextToOutlines:
 
 exportOptionsAutoCAD.convertTextToOutlines
 ********************************************************************************
@@ -60,7 +65,9 @@ exportOptionsAutoCAD.convertTextToOutlines
 
 **Description**
 
-If ``true``, text is converted to vector paths; preserves the visual appearance of type. Default: ``false``.
+If ``true``, text is converted to vector paths; preserves the visual appearance of type.
+
+Default: ``false``.
 
 **Type**
 
@@ -68,7 +75,7 @@ Boolean.
 
 ----
 
-.. _exportOptionsAutoCAD.exportFileFormat:
+.. _jsobjref/exportOptionsAutoCAD.exportFileFormat:
 
 exportOptionsAutoCAD.exportFileFormat
 ********************************************************************************
@@ -77,15 +84,17 @@ exportOptionsAutoCAD.exportFileFormat
 
 **Description**
 
-The format to which the file is exported. Default: ``AutoCADExportFileFormat.DWG``.
+The format to which the file is exported.
+
+Default: ``AutoCADExportFileFormat.DWG``.
 
 **Type**
 
-// todo: link to **AutoCADExportFileFormat** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/autoCADExportFileFormat`
 
 ----
 
-.. _exportOptionsAutoCAD.exportOption:
+.. _jsobjref/exportOptionsAutoCAD.exportOption:
 
 exportOptionsAutoCAD.exportOption
 ********************************************************************************
@@ -94,15 +103,17 @@ exportOptionsAutoCAD.exportOption
 
 **Description**
 
-Specifies whether to preserve appearance or editability during export. Default: ``AutoCADExportOption.MaximizeEditability``.
+Specifies whether to preserve appearance or editability during export.
+
+Default: ``AutoCADExportOption.MaximizeEditability``.
 
 **Type**
 
-// todo: link to **AutoCADExportOption** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/autoCADExportOption`
 
 ----
 
-.. _exportOptionsAutoCAD.exportSelectedArtOnly:
+.. _jsobjref/exportOptionsAutoCAD.exportSelectedArtOnly:
 
 exportOptionsAutoCAD.exportSelectedArtOnly
 ********************************************************************************
@@ -111,7 +122,9 @@ exportOptionsAutoCAD.exportSelectedArtOnly
 
 **Description**
 
-If ``true``, only selected artwork is exported. Default: ``false``.
+If ``true``, only selected artwork is exported.
+
+Default: ``false``.
 
 **Type**
 
@@ -119,7 +132,7 @@ Boolean.
 
 ----
 
-.. _exportOptionsAutoCAD.rasterFormat:
+.. _jsobjref/exportOptionsAutoCAD.rasterFormat:
 
 exportOptionsAutoCAD.rasterFormat
 ********************************************************************************
@@ -132,11 +145,11 @@ The format in which raster art is exported.
 
 **Type**
 
-// todo: link to **AutoCADRasterFormat** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/autoCADRasterFormat`
 
 ----
 
-.. _exportOptionsAutoCAD.scaleLineweights:
+.. _jsobjref/exportOptionsAutoCAD.scaleLineweights:
 
 exportOptionsAutoCAD.scaleLineweights
 ********************************************************************************
@@ -145,7 +158,9 @@ exportOptionsAutoCAD.scaleLineweights
 
 **Description**
 
-If ``true``, line weights are scaled by the same scaling factor as the rest of the drawing. Default: ``false``.
+If ``true``, line weights are scaled by the same scaling factor as the rest of the drawing.
+
+Default: ``false``.
 
 **Type**
 
@@ -153,7 +168,7 @@ Boolean.
 
 ----
 
-.. _exportOptionsAutoCAD.typename:
+.. _jsobjref/exportOptionsAutoCAD.typename:
 
 exportOptionsAutoCAD.typename
 ********************************************************************************
@@ -170,7 +185,7 @@ String, read-only.
 
 ----
 
-.. _exportOptionsAutoCAD.unit:
+.. _jsobjref/exportOptionsAutoCAD.unit:
 
 exportOptionsAutoCAD.unit
 ********************************************************************************
@@ -183,11 +198,11 @@ The measurement units from which to map.
 
 **Type**
 
-// todo: link to **AutoCADUnit** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/autoCADUnit`
 
 ----
 
-.. _exportOptionsAutoCAD.unitScaleRatio:
+.. _jsobjref/exportOptionsAutoCAD.unitScaleRatio:
 
 exportOptionsAutoCAD.unitScaleRatio
 ********************************************************************************
@@ -196,7 +211,9 @@ exportOptionsAutoCAD.unitScaleRatio
 
 **Description**
 
-The ratio (as a percentage) by which output is scaled. Range: 0 to 1000
+The ratio (as a percentage) by which output is scaled.
+
+Range: 0 to 1000
 
 **Type**
 
@@ -204,7 +221,7 @@ Number (double).
 
 ----
 
-.. _exportOptionsAutoCAD.version:
+.. _jsobjref/exportOptionsAutoCAD.version:
 
 exportOptionsAutoCAD.version
 ********************************************************************************
@@ -213,10 +230,10 @@ exportOptionsAutoCAD.version
 
 **Description**
 
-The release of AutoCAD to which the file is exported. Default: ``AutoCADCompatibility.AutoCADRelease24``.
+The release of AutoCAD to which the file is exported.
+
+Default: ``AutoCADCompatibility.AutoCADRelease24``.
 
 **Type**
 
-// todo: link to **AutoCADCompatibility** in Chapter 2 "Scripting Constants"
-
-----
+:ref:`jsobjref/autoCADCompatibility`
