@@ -20,7 +20,7 @@ All paths within a compound path share property values. Therefore, if you set th
 Properties
 ==========
 
-.. _compoundPathItem.artworkKnockout:
+.. _jsobjref/compoundPathItem.artworkKnockout:
 
 compoundPathItem.artworkKnockout
 ********************************************************************************
@@ -37,7 +37,7 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 ----
 
-.. _compoundPathItem.blendingMode:
+.. _jsobjref/compoundPathItem.blendingMode:
 
 compoundPathItem.blendingMode
 ********************************************************************************
@@ -54,7 +54,7 @@ The mode used when compositing an object.
 
 ----
 
-.. _compoundPathItem.controlBounds:
+.. _jsobjref/compoundPathItem.controlBounds:
 
 compoundPathItem.controlBounds
 ********************************************************************************
@@ -71,7 +71,7 @@ Array of 4 numbers, read-only.
 
 ----
 
-.. _compoundPathItem.editable:
+.. _jsobjref/compoundPathItem.editable:
 
 compoundPathItem.editable
 ********************************************************************************
@@ -88,7 +88,7 @@ Boolean, read-only.
 
 ----
 
-.. _compoundPathItem.geometricBounds:
+.. _jsobjref/compoundPathItem.geometricBounds:
 
 compoundPathItem.geometricBounds
 ********************************************************************************
@@ -105,7 +105,7 @@ Array of 4 numbers, read-only.
 
 ----
 
-.. _compoundPathItem.height:
+.. _jsobjref/compoundPathItem.height:
 
 compoundPathItem.height
 ********************************************************************************
@@ -122,7 +122,7 @@ Number (double).
 
 ----
 
-.. _compoundPathItem.hidden:
+.. _jsobjref/compoundPathItem.hidden:
 
 compoundPathItem.hidden
 ********************************************************************************
@@ -139,7 +139,7 @@ Boolean.
 
 ----
 
-.. _compoundPathItem.isIsolated:
+.. _jsobjref/compoundPathItem.isIsolated:
 
 compoundPathItem.isIsolated
 ********************************************************************************
@@ -156,7 +156,7 @@ Boolean.
 
 ----
 
-.. _compoundPathItem.layer:
+.. _jsobjref/compoundPathItem.layer:
 
 compoundPathItem.layer
 ********************************************************************************
@@ -173,7 +173,7 @@ The layer to which this compound path item belongs.
 
 ----
 
-.. _compoundPathItem.left:
+.. _jsobjref/compoundPathItem.left:
 
 compoundPathItem.left
 ********************************************************************************
@@ -190,7 +190,7 @@ Number (double).
 
 ----
 
-.. _compoundPathItem.locked:
+.. _jsobjref/compoundPathItem.locked:
 
 compoundPathItem.locked
 ********************************************************************************
@@ -207,7 +207,7 @@ Boolean.
 
 ----
 
-.. _compoundPathItem.name:
+.. _jsobjref/compoundPathItem.name:
 
 compoundPathItem.name
 ********************************************************************************
@@ -224,7 +224,7 @@ String.
 
 ----
 
-.. _compoundPathItem.note:
+.. _jsobjref/compoundPathItem.note:
 
 compoundPathItem.note
 ********************************************************************************
@@ -241,7 +241,7 @@ String.
 
 ----
 
-.. _compoundPathItem.opacity:
+.. _jsobjref/compoundPathItem.opacity:
 
 compoundPathItem.opacity
 ********************************************************************************
@@ -258,7 +258,7 @@ Number (double).
 
 ----
 
-.. _compoundPathItem.parent:
+.. _jsobjref/compoundPathItem.parent:
 
 compoundPathItem.parent
 ********************************************************************************
@@ -272,9 +272,10 @@ The parent of this object.
 **Type**
 
 :ref:`jsobjref/layer` or :ref:`jsobjref/groupItem`, read-only.
+
 ----
 
-.. _compoundPathItem.pathItems:
+.. _jsobjref/compoundPathItem.pathItems:
 
 compoundPathItem.pathItems
 ********************************************************************************
@@ -291,7 +292,7 @@ The path art items in this compound path.
 
 ----
 
-.. _compoundPathItem.position:
+.. _jsobjref/compoundPathItem.position:
 
 compoundPathItem.position
 ********************************************************************************
@@ -308,7 +309,7 @@ Array of 2 numbers.
 
 ----
 
-.. _compoundPathItem.selected:
+.. _jsobjref/compoundPathItem.selected:
 
 compoundPathItem.selected
 ********************************************************************************
@@ -325,7 +326,7 @@ Boolean.
 
 ----
 
-.. _compoundPathItem.sliced:
+.. _jsobjref/compoundPathItem.sliced:
 
 compoundPathItem.sliced
 ********************************************************************************
@@ -342,7 +343,7 @@ Boolean.
 
 ----
 
-.. _compoundPathItem.tags:
+.. _jsobjref/compoundPathItem.tags:
 
 compoundPathItem.tags
 ********************************************************************************
@@ -359,7 +360,7 @@ The tags contained in this object.
 
 ----
 
-.. _compoundPathItem.top:
+.. _jsobjref/compoundPathItem.top:
 
 compoundPathItem.top
 ********************************************************************************
@@ -376,7 +377,7 @@ Number (double).
 
 ----
 
-.. _compoundPathItem.typename:
+.. _jsobjref/compoundPathItem.typename:
 
 compoundPathItem.typename
 ********************************************************************************
@@ -393,7 +394,7 @@ String, read-only.
 
 ----
 
-.. _compoundPathItem.uRL:
+.. _jsobjref/compoundPathItem.uRL:
 
 compoundPathItem.uRL
 ********************************************************************************
@@ -410,7 +411,7 @@ String.
 
 ----
 
-.. _compoundPathItem.visibilityVariable:
+.. _jsobjref/compoundPathItem.visibilityVariable:
 
 compoundPathItem.visibilityVariable
 ********************************************************************************
@@ -427,7 +428,7 @@ Variant.
 
 ----
 
-.. _compoundPathItem.visibleBounds:
+.. _jsobjref/compoundPathItem.visibleBounds:
 
 compoundPathItem.visibleBounds
 ********************************************************************************
@@ -444,7 +445,7 @@ Array of 4 numbers, read-only.
 
 ----
 
-.. _compoundPathItem.width:
+.. _jsobjref/compoundPathItem.width:
 
 compoundPathItem.width
 ********************************************************************************
@@ -461,7 +462,7 @@ Number (double).
 
 ----
 
-.. _compoundPathItem.wrapInside:
+.. _jsobjref/compoundPathItem.wrapInside:
 
 compoundPathItem.wrapInside
 ********************************************************************************
@@ -478,7 +479,7 @@ Boolean.
 
 ----
 
-.. _compoundPathItem.wrapOffset:
+.. _jsobjref/compoundPathItem.wrapOffset:
 
 compoundPathItem.wrapOffset
 ********************************************************************************
@@ -495,7 +496,7 @@ Number (double).
 
 ----
 
-.. _compoundPathItem.wrapped:
+.. _jsobjref/compoundPathItem.wrapped:
 
 compoundPathItem.wrapped
 ********************************************************************************
@@ -512,7 +513,7 @@ Boolean.
 
 ----
 
-.. _compoundPathItem.zOrderPosition:
+.. _jsobjref/compoundPathItem.zOrderPosition:
 
 compoundPathItem.zOrderPosition
 ********************************************************************************
@@ -533,7 +534,7 @@ Number (long), read-only.
 Methods
 =======
 
-.. _compoundPathItem.duplicate:
+.. _jsobjref/compoundPathItem.duplicate:
 
 compoundPathItem.duplicate()
 ********************************************************************************
@@ -560,7 +561,7 @@ Creates a duplicate of the selected object.
 
 ----
 
-.. _compoundPathItem.move:
+.. _jsobjref/compoundPathItem.move:
 
 compoundPathItem.move()
 ********************************************************************************
@@ -587,7 +588,7 @@ Nothing.
 
 ----
 
-.. _compoundPathItem.remove:
+.. _jsobjref/compoundPathItem.remove:
 
 compoundPathItem.remove()
 ********************************************************************************
@@ -604,7 +605,7 @@ Nothing.
 
 ----
 
-.. _compoundPathItem.resize:
+.. _jsobjref/compoundPathItem.resize:
 
 compoundPathItem.resize()
 ********************************************************************************
@@ -648,7 +649,7 @@ Nothing.
 
 ----
 
-.. _compoundPathItem.rotate:
+.. _jsobjref/compoundPathItem.rotate:
 
 compoundPathItem.rotate()
 ********************************************************************************
@@ -688,7 +689,7 @@ Nothing.
 
 ----
 
-.. _compoundPathItem.transform:
+.. _jsobjref/compoundPathItem.transform:
 
 compoundPathItem.transform()
 ********************************************************************************
@@ -730,7 +731,7 @@ Nothing.
 
 ----
 
-.. _compoundPathItem.translate:
+.. _jsobjref/compoundPathItem.translate:
 
 compoundPathItem.translate()
 ********************************************************************************
@@ -771,7 +772,7 @@ Nothing.
 
 ----
 
-.. _compoundPathItem.zOrder:
+.. _jsobjref/compoundPathItem.zOrder:
 
 compoundPathItem.zOrder()
 ********************************************************************************
@@ -814,7 +815,7 @@ Selecting paths in a document
             numPaths = thePaths.length;
             for ( i = 0; i < doc.pathItems.length; i++ ) {
             pathArt = doc.pathItems[i];
-            if ( pathArt.parent.typename != "CompoundPathItem" ) {
+            if ( pathArt.parent.typename != "compoundPathItem" ) {
                 pathArt.selected = true;
                 count++;
             }
@@ -833,11 +834,11 @@ Creating and modifying a compound path item
     if ( app.documents.length > 0 ) {
         doc = app.activeDocument;
         newCompoundPath = doc.activeLayer.compoundPathItems.add();
-        
+
         // Create the path items
         newPath = newCompoundPath.pathItems.add();
         newPath.setEntirePath( Array( Array(30, 50), Array(30, 100) ) );
-        
+
         newPath = newCompoundPath.pathItems.add();
         newPath.setEntirePath( Array( Array(40, 100), Array(100, 100) ) );
 

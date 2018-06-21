@@ -15,7 +15,7 @@ Associates character attributes with characters. For an example, see :ref:`jsobj
 Properties
 ==========
 
-.. _characterStyle.characterAttributes:
+.. _jsobjref/characterStyle.characterAttributes:
 
 characterStyle.characterAttributes
 ********************************************************************************
@@ -32,7 +32,7 @@ The character properties for the style.
 
 ----
 
-.. _characterStyle.name:
+.. _jsobjref/characterStyle.name:
 
 characterStyle.name
 ********************************************************************************
@@ -49,7 +49,7 @@ String
 
 ----
 
-.. _characterStyle.parent:
+.. _jsobjref/characterStyle.parent:
 
 characterStyle.parent
 ********************************************************************************
@@ -66,7 +66,7 @@ Object, read-only.
 
 ----
 
-.. _characterStyle.typename:
+.. _jsobjref/characterStyle.typename:
 
 characterStyle.typename
 ********************************************************************************
@@ -87,7 +87,7 @@ String, read-only.
 Methods
 =======
 
-.. _characterStyle.applyTo:
+.. _jsobjref/characterStyle.applyTo:
 
 characterStyle.applyTo()
 ********************************************************************************
@@ -111,7 +111,7 @@ Nothing
 
 -----
 
-.. _characterStyle.remove:
+.. _jsobjref/characterStyle.remove:
 
 characterStyle.remove()
 ********************************************************************************

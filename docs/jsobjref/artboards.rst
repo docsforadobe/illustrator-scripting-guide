@@ -13,7 +13,7 @@ A collection of Artboard objects.
 Properties
 ==========
 
-.. _artboards.length:
+.. _jsobjref/artboards.length:
 
 artboards.length
 ********************************************************************************
@@ -30,7 +30,7 @@ Number; read-only.
 
 ----
 
-.. _artboards.parent:
+.. _jsobjref/artboards.parent:
 
 artboards.parent
 ********************************************************************************
@@ -48,7 +48,7 @@ The name of the object that contains this dataset
 
 ----
 
-.. _artboards.typename:
+.. _jsobjref/artboards.typename:
 
 artboards.typename
 ********************************************************************************
@@ -69,7 +69,7 @@ String; read-only.
 Methods
 =======
 
-.. _artboards.add:
+.. _jsobjref/artboards.add:
 
 artboards.add()
 ********************************************************************************
@@ -92,7 +92,7 @@ Creates a new Artboard object.
 
 ----
 
-.. _artboards.getActiveArtboardIndex:
+.. _jsobjref/artboards.getActiveArtboardIndex:
 
 artboards.getActiveArtboardIndex()
 ********************************************************************************
@@ -111,7 +111,7 @@ Number (long)
 
 ----
 
-.. _artboards.getByName:
+.. _jsobjref/artboards.getByName:
 
 artboards.getByName()
 ********************************************************************************
@@ -134,7 +134,7 @@ Gets the first element in the collection with the specified name.
 
 ----
 
-.. _artboards.insert:
+.. _jsobjref/artboards.insert:
 
 artboards.insert()
 ********************************************************************************
@@ -158,7 +158,7 @@ Nothing.
 
 ----
 
-.. _artboards.remove:
+.. _jsobjref/artboards.remove:
 
 artboards.remove()
 ********************************************************************************
@@ -181,7 +181,7 @@ Nothing.
 
 ----
 
-.. _artboards.setActiveArtboardIndex:
+.. _jsobjref/artboards.setActiveArtboardIndex:
 
 artboards.setActiveArtboardIndex()
 ********************************************************************************

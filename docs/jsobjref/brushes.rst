@@ -15,7 +15,7 @@ A collection of brush objects in a document.
 Properties
 ==========
 
-.. _brushes.length:
+.. _jsobjref/brushes.length:
 
 brushes.length
 ********************************************************************************
@@ -32,7 +32,7 @@ Number; read-only.
 
 ----
 
-.. _brushes.parent:
+.. _jsobjref/brushes.parent:
 
 brushes.parent
 ********************************************************************************
@@ -49,7 +49,7 @@ Object; read-only.
 
 ----
 
-.. _brushes.typename:
+.. _jsobjref/brushes.typename:
 
 brushes.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String; read-only.
 Methods
 =======
 
-.. _brushes.getByName:
+.. _jsobjref/brushes.getByName:
 
 brushes.getByName()
 ********************************************************************************
@@ -93,7 +93,7 @@ Gets the first element in the collection with the specified name.
 
 ----
 
-.. _brushes.index:
+.. _jsobjref/brushes.index:
 
 brushes.index()
 ********************************************************************************

@@ -7,9 +7,7 @@ Document Preset
 
 **Description**
 
-A preset document template to use when creating a new document. See **Documents.addDocument()**.
-
-//todo: Add link to **Documents.addDocument()** in above paragraph.
+A preset document template to use when creating a new document. See :ref:`jsobjref/documents.addDocument`.
 
 ----
 
@@ -17,7 +15,7 @@ A preset document template to use when creating a new document. See **Documents.
 Properties
 ==========
 
-.. _documentPreset.artboardLayout:
+.. _jsobjref/documentPreset.artboardLayout:
 
 documentPreset.artboardLayout
 ********************************************************************************
@@ -30,13 +28,11 @@ The layout of artboards in the new document. Default: ``GridByRow``.
 
 **Type**
 
-// todo: link to **DocumentArtboardLayout** in Chapter 2 "Scripting Constants"
-
-**DocumentArtboardLayout**
+:ref:`jsobjref/documentArtboardLayout`
 
 ----
 
-.. _documentPreset.artboardRowsOrCols:
+.. _jsobjref/documentPreset.artboardRowsOrCols:
 
 documentPreset.artboardRowsOrCols
 ********************************************************************************
@@ -53,7 +49,7 @@ Number (long).
 
 ----
 
-.. _documentPreset.artboardSpacing:
+.. _jsobjref/documentPreset.artboardSpacing:
 
 documentPreset.artboardSpacing
 ********************************************************************************
@@ -70,7 +66,7 @@ Number (double).
 
 ----
 
-.. _documentPreset.colorMode:
+.. _jsobjref/documentPreset.colorMode:
 
 documentPreset.colorMode
 ********************************************************************************
@@ -83,13 +79,11 @@ The color space for the new document.
 
 **Type**
 
-// todo: link to **DocumentColorSpace** in Chapter 2 "Scripting Constants"
-
-**DocumentColorSpace**
+:ref:`jsobjref/documentColorSpace`
 
 ----
 
-.. _documentPreset.documentBleedLink:
+.. _jsobjref/documentPreset.documentBleedLink:
 
 documentPreset.documentBleedLink
 ********************************************************************************
@@ -106,7 +100,7 @@ Boolean.
 
 ----
 
-.. _documentPreset.documentBleedOffsetRect:
+.. _jsobjref/documentPreset.documentBleedOffsetRect:
 
 documentPreset.documentBleedOffsetRect
 ********************************************************************************
@@ -123,7 +117,7 @@ Rectangle.
 
 ----
 
-.. _documentPreset.height:
+.. _jsobjref/documentPreset.height:
 
 documentPreset.height
 ********************************************************************************
@@ -140,7 +134,7 @@ Number (double).
 
 ----
 
-.. _documentPreset.numArtboards:
+.. _jsobjref/documentPreset.numArtboards:
 
 documentPreset.numArtboards
 ********************************************************************************
@@ -157,7 +151,7 @@ Number (long).
 
 ----
 
-.. _documentPreset.previewMode:
+.. _jsobjref/documentPreset.previewMode:
 
 documentPreset.previewMode
 ********************************************************************************
@@ -170,13 +164,11 @@ The preview mode for the new document.
 
 **Type**
 
-// todo: link to **DocumentPreviewMode** in Chapter 2 "Scripting Constants"
-
-**DocumentPreviewMode**
+:ref:`jsobjref/previewMode`
 
 ----
 
-.. _documentPreset.rasterResolution:
+.. _jsobjref/documentPreset.rasterResolution:
 
 documentPreset.rasterResolution
 ********************************************************************************
@@ -189,13 +181,11 @@ The raster resolution for the new document.
 
 **Type**
 
-// todo: link to **DocumentRasterResolution** in Chapter 2 "Scripting Constants"
-
-**DocumentRasterResolution**
+:ref:`jsobjref/rasterResolution`
 
 ----
 
-.. _documentPreset.title:
+.. _jsobjref/documentPreset.title:
 
 documentPreset.title
 ********************************************************************************
@@ -212,7 +202,7 @@ String.
 
 ----
 
-.. _documentPreset.transparencyGrid:
+.. _jsobjref/documentPreset.transparencyGrid:
 
 documentPreset.transparencyGrid
 ********************************************************************************
@@ -225,13 +215,11 @@ The transparency grid color for the new document.
 
 **Type**
 
-// todo: link to **DocumentTransparencyGrid** in Chapter 2 "Scripting Constants"
-
-**DocumentTransparencyGrid**
+:ref:`jsobjref/documentTransparencyGrid`
 
 ----
 
-.. _documentPreset.typename:
+.. _jsobjref/documentPreset.typename:
 
 documentPreset.typename
 ********************************************************************************
@@ -248,7 +236,7 @@ String, read-only.
 
 ----
 
-.. _documentPreset.units:
+.. _jsobjref/documentPreset.units:
 
 documentPreset.units
 ********************************************************************************
@@ -261,13 +249,11 @@ The ruler units for the new document.
 
 **Type**
 
-// todo: link to **RulerUnits** in Chapter 2 "Scripting Constants"
-
-**RulerUnits**
+:ref:`jsobjref/rulerUnits`
 
 ----
 
-.. _documentPreset.width:
+.. _jsobjref/documentPreset.width:
 
 documentPreset.width
 ********************************************************************************
@@ -281,5 +267,3 @@ The width in document points. Default: 612.0
 **Type**
 
 Number (double).
-
-----

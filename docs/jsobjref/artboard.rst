@@ -14,7 +14,7 @@ in one document.
 Properties
 ==========
 
-.. _artboard.artboardRect:
+.. _jsobjref/artboard.artboardRect:
 
 artboard.artboardRect
 ********************************************************************************
@@ -31,7 +31,7 @@ Rect
 
 ----
 
-.. _artboard.name:
+.. _jsobjref/artboard.name:
 
 artboard.name
 ********************************************************************************
@@ -48,7 +48,7 @@ String
 
 ----
 
-.. _artboard.parent:
+.. _jsobjref/artboard.parent:
 
 artboard.parent
 ********************************************************************************
@@ -61,11 +61,11 @@ The parent of this object.
 
 **Type**
 
-`Document <#document>`__; read-only.
+:ref:`jsobjref/document`; read-only.
 
 ----
 
-.. _artboard.rulerOrigin:
+.. _jsobjref/artboard.rulerOrigin:
 
 artboard.rulerOrigin
 ********************************************************************************
@@ -82,7 +82,7 @@ Point
 
 ----
 
-.. _artboard.rulerPAR:
+.. _jsobjref/artboard.rulerPAR:
 
 artboard.rulerPAR
 ********************************************************************************
@@ -101,7 +101,7 @@ Number (double)
 
 ----
 
-.. _artboard.showCenter:
+.. _jsobjref/artboard.showCenter:
 
 artboard.showCenter
 ********************************************************************************
@@ -118,7 +118,7 @@ Boolean
 
 ----
 
-.. _artboard.showCrossHairs:
+.. _jsobjref/artboard.showCrossHairs:
 
 artboard.showCrossHairs
 ********************************************************************************
@@ -135,7 +135,7 @@ Boolean
 
 ----
 
-.. _artboard.showSafeAreas:
+.. _jsobjref/artboard.showSafeAreas:
 
 artboard.showSafeAreas
 ********************************************************************************
@@ -152,7 +152,7 @@ Boolean
 
 ----
 
-.. _artboard.typename:
+.. _jsobjref/artboard.typename:
 
 artboard.typename
 ********************************************************************************
@@ -173,7 +173,7 @@ String
 Methods
 ==========
 
-.. _artboard.remove:
+.. _jsobjref/artboard.remove:
 
 artboard.remove()
 ********************************************************************************

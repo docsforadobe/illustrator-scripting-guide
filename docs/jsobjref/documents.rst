@@ -7,7 +7,7 @@ Documents
 
 **Description**
 
-A collection of ``Document`` objects.
+A collection of :ref:`jsobjref/document` objects.
 
 ----
 
@@ -15,9 +15,9 @@ A collection of ``Document`` objects.
 Properties
 ==========
 
-.. _documents.length:
+.. _jsobjref/documents.length:
 
-documents.length
+Documents.length
 ********************************************************************************
 
 ``app.documents.length``
@@ -32,9 +32,9 @@ Number, read-only.
 
 ----
 
-.. _documents.parent:
+.. _jsobjref/documents.parent:
 
-documents.parent
+Documents.parent
 ********************************************************************************
 
 ``app.documents.parent``
@@ -49,9 +49,9 @@ Object, read-only.
 
 ----
 
-.. _documents.typename:
+.. _jsobjref/documents.typename:
 
-documents.typename
+Documents.typename
 ********************************************************************************
 
 ``app.documents.typename``
@@ -70,9 +70,9 @@ String, read-only.
 Methods
 =======
 
-.. _documents.add:
+.. _jsobjref/documents.add:
 
-documents.add()
+Documents.add()
 ********************************************************************************
 
 ::
@@ -90,7 +90,7 @@ Creates a new document using optional parameters and returns a reference to the 
 +--------------------------+--------------------------------------------------------------------------------------+-------------+
 |        Parameter         |                                         Type                                         | Description |
 +==========================+======================================================================================+=============+
-| ``[documentColorSpace]`` | // todo: link to **DocumentColorSpace** in Chapter 2 "Scripting Constants", optional | todo        |
+| ``[documentColorSpace]`` | :ref:`jsobjref/documentColorSpace`, optional                                         | todo        |
 +--------------------------+--------------------------------------------------------------------------------------+-------------+
 | ``[width]``              | number (double), optional                                                            | todo        |
 +--------------------------+--------------------------------------------------------------------------------------+-------------+
@@ -98,7 +98,7 @@ Creates a new document using optional parameters and returns a reference to the 
 +--------------------------+--------------------------------------------------------------------------------------+-------------+
 | ``[numArtBoards]``       | number (long), optional                                                              | todo        |
 +--------------------------+--------------------------------------------------------------------------------------+-------------+
-| ``[artboardLayout]``     | // todo: link to **DocumentArtboardLayout** in Chapter 2 "Scripting Constants"       | todo        |
+| ``[artboardLayout]``     | :ref:`jsobjref/documentArtboardLayout`                                               | todo        |
 +--------------------------+--------------------------------------------------------------------------------------+-------------+
 | ``[artboardSpacing]``    | number (double), optional                                                            | todo        |
 +--------------------------+--------------------------------------------------------------------------------------+-------------+
@@ -111,9 +111,9 @@ Creates a new document using optional parameters and returns a reference to the 
 
 ----
 
-.. _documents.addDocument:
+.. _jsobjref/documents.addDocument:
 
-documents.addDocument()
+Documents.addDocument()
 ********************************************************************************
 
 ``app.documents.addDocument(startupPreset [, presetSettings] [, showOptionsDialog])``
@@ -140,9 +140,9 @@ Creates a document from the preset, replacing any provided setting values, and r
 
 ----
 
-.. _documents.addDocumentNoUI:
+.. _jsobjref/documents.addDocumentNoUI:
 
-documents.addDocumentNoUI()
+Documents.addDocumentNoUI()
 ********************************************************************************
 
 ``app.documents.addDocumentNoUI(startupPreset)``
@@ -165,9 +165,9 @@ Creates a document without showing in UI.
 
 ----
 
-.. _documents.getByName:
+.. _jsobjref/documents.getByName:
 
-documents.getByName()
+Documents.getByName()
 ********************************************************************************
 
 ``app.documents.getByName(name)``
@@ -190,9 +190,9 @@ Gets the first element in the collection with the specified name.
 
 ----
 
-.. _documents.index:
+.. _jsobjref/documents.index:
 
-documents.index()
+Documents.index()
 ********************************************************************************
 
 ``app.documents.index(itemKey)``

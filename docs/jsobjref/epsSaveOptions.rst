@@ -7,7 +7,9 @@ EPS Save Options
 
 **Description**
 
-Options for saving a document as an Illustrator EPS file, used with the `saveAs <document.html#document-saveas>`__ method. All properties are optional.
+Options for saving a document as an Illustrator EPS file, used with the :ref:`jsobjref/document.saveAs` method.
+
+All properties are optional.
 
 ----
 
@@ -15,7 +17,7 @@ Options for saving a document as an Illustrator EPS file, used with the `saveAs 
 Properties
 ==========
 
-.. _epsSaveOptions.artboardRange:
+.. _jsobjref/epsSaveOptions.artboardRange:
 
 epsSaveOptions.artboardRange
 ********************************************************************************
@@ -32,7 +34,7 @@ String.
 
 ----
 
-.. _epsSaveOptions.cmykPostScript:
+.. _jsobjref/epsSaveOptions.cmykPostScript:
 
 epsSaveOptions.cmykPostScript
 ********************************************************************************
@@ -49,7 +51,7 @@ Boolean.
 
 ----
 
-.. _epsSaveOptions.compatibility:
+.. _jsobjref/epsSaveOptions.compatibility:
 
 epsSaveOptions.compatibility
 ********************************************************************************
@@ -58,15 +60,17 @@ epsSaveOptions.compatibility
 
 **Description**
 
-Specifies the version of the EPS file format to save. Default: ``Compatibility.ILLUSTRATOR1719``.
+Specifies the version of the EPS file format to save.
+
+Default: ``Compatibility.ILLUSTRATOR1719``.
 
 **Type**
 
-// todo: link to **Compatibility** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/compatibility`
 
 ----
 
-.. _epsSaveOptions.compatibleGradientPrinting:
+.. _jsobjref/epsSaveOptions.compatibleGradientPrinting:
 
 epsSaveOptions.compatibleGradientPrinting
 ********************************************************************************
@@ -75,7 +79,9 @@ epsSaveOptions.compatibleGradientPrinting
 
 **Description**
 
-If ``true``, create a raster item of the gradient or gradient mesh so that PostScript Level 2 printers can print the object. Default: ``false``.
+If ``true``, create a raster item of the gradient or gradient mesh so that PostScript Level 2 printers can print the object.
+
+Default: ``false``.
 
 **Type**
 
@@ -83,7 +89,7 @@ Boolean.
 
 ----
 
-.. _epsSaveOptions.embedAllFonts:
+.. _jsobjref/epsSaveOptions.embedAllFonts:
 
 epsSaveOptions.embedAllFonts
 ********************************************************************************
@@ -92,7 +98,9 @@ epsSaveOptions.embedAllFonts
 
 **Description**
 
-If ``true``, all fonts used by the document should be embedded in the saved file (version 7 or later). Default: ``false``.
+If ``true``, all fonts used by the document should be embedded in the saved file (version 7 or later).
+
+Default: ``false``.
 
 **Type**
 
@@ -100,7 +108,7 @@ Boolean.
 
 ----
 
-.. _epsSaveOptions.embedLinkedFiles:
+.. _jsobjref/epsSaveOptions.embedLinkedFiles:
 
 epsSaveOptions.embedLinkedFiles
 ********************************************************************************
@@ -117,7 +125,7 @@ Boolean.
 
 ----
 
-.. _epsSaveOptions.flattenOuput:
+.. _jsobjref/epsSaveOptions.flattenOuput:
 
 epsSaveOptions.flattenOuput
 ********************************************************************************
@@ -130,11 +138,11 @@ How should transparency be flattened for file formats older than Illustrator 9.
 
 **Type**
 
-// todo: link to **OutputFlattening** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/outputFlattening`
 
 ----
 
-.. _epsSaveOptions.includeDocumentThumbnails:
+.. _jsobjref/epsSaveOptions.includeDocumentThumbnails:
 
 epsSaveOptions.includeDocumentThumbnails
 ********************************************************************************
@@ -151,7 +159,7 @@ Boolean.
 
 ----
 
-.. _epsSaveOptions.overprint:
+.. _jsobjref/epsSaveOptions.overprint:
 
 epsSaveOptions.overprint
 ********************************************************************************
@@ -160,15 +168,17 @@ epsSaveOptions.overprint
 
 **Description**
 
-Whether to preserve, discard, or simulate the overprint. Default: ``PDFOverprint.PRESERVEPDFOVERPRINT``.
+Whether to preserve, discard, or simulate the overprint.
+
+Default: ``PDFOverprint.PRESERVEPDFOVERPRINT``.
 
 **Type**
 
-// todo: link to **PDFOverprint** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/pDFOverprint`
 
 ----
 
-.. _epsSaveOptions.postScript:
+.. _jsobjref/epsSaveOptions.postScript:
 
 epsSaveOptions.postScript
 ********************************************************************************
@@ -177,15 +187,17 @@ epsSaveOptions.postScript
 
 **Description**
 
-PostScript Language Level to use (Level 1 valid for file format version 8 or older). Default: ``EPSPostScriptLevelEnum.LEVEL2``.
+PostScript Language Level to use (Level 1 valid for file format version 8 or older).
+
+Default: ``EPSPostScriptLevelEnum.LEVEL2``.
 
 **Type**
 
-// todo: link to **EPSPostScriptLevelEnum** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/ePSPostScriptLevelEnum`
 
 ----
 
-.. _epsSaveOptions.preview:
+.. _jsobjref/epsSaveOptions.preview:
 
 epsSaveOptions.preview
 ********************************************************************************
@@ -198,11 +210,11 @@ The format for the EPS preview image.
 
 **Type**
 
-// todo: link to **EPSPreview** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/ePSPreview`
 
 ----
 
-.. _epsSaveOptions.saveMultipleArtboards:
+.. _jsobjref/epsSaveOptions.saveMultipleArtboards:
 
 epsSaveOptions.saveMultipleArtboards
 ********************************************************************************
@@ -211,7 +223,9 @@ epsSaveOptions.saveMultipleArtboards
 
 **Description**
 
-If ``true``, all artboards or range of artboards are saved. Default: ``false``.
+If ``true``, all artboards or range of artboards are saved.
+
+Default: ``false``.
 
 **Type**
 
@@ -219,7 +233,7 @@ Boolean.
 
 ----
 
-.. _epsSaveOptions.typename:
+.. _jsobjref/epsSaveOptions.typename:
 
 epsSaveOptions.typename
 ********************************************************************************
@@ -257,7 +271,7 @@ Exporting to EPS format
             saveDoc = app.activeDocument;
         }
 
-        var saveOpts = new EPSSaveOptions();
+        var saveOpts = new ePSSaveOptions();
         saveOpts.cmykPostScript = true;
         saveOpts.embedAllFonts = true;
         saveDoc.saveAs( newFile, saveOpts );

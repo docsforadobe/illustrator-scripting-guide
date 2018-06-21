@@ -7,13 +7,11 @@ Document
 
 **Description**
 
-An Illustrator document. Documents are contained in the Application object.
+An Illustrator document. Documents are contained in the :ref:`jsobjref/application` object.
 
 The default document settings—those properties starting with the word “default”—are global settings that affect the current document. Be sure to modify these default properties only when a document is open. Note that if you set default properties to desired values before creating new objects, you can streamline your scripts, eliminating the need to specify specific properties such as ``fillColor`` and ``stroked`` that have default properties.
 
-A document’s color space, height, and width can only be set when the document is created. You cannot modify these properties in an existing document. See Application.open for more information on how document color spaces are handled.
-
-//todo: Add link to **Application.open** in above paragraph.
+A document’s color space, height, and width can only be set when the document is created. You cannot modify these properties in an existing document. See :ref:`jsobjref/application.open` for more information on how document color spaces are handled.
 
 ----
 
@@ -21,9 +19,9 @@ A document’s color space, height, and width can only be set when the document 
 Properties
 ==========
 
-.. _document.activeDataset:
+.. _jsobjref/document.activeDataset:
 
-document.activeDataset
+Document.activeDataset
 ********************************************************************************
 
 ``app.activeDocument.activeDataset``
@@ -38,9 +36,9 @@ The currently opened dataset.
 
 ----
 
-.. _document.activeLayer:
+.. _jsobjref/document.activeLayer:
 
-document.activeLayer
+Document.activeLayer
 ********************************************************************************
 
 ``app.activeDocument.activeLayer``
@@ -55,9 +53,9 @@ The active layer in the document.
 
 ----
 
-.. _document.activeView:
+.. _jsobjref/document.activeView:
 
-document.activeView
+Document.activeView
 ********************************************************************************
 
 ``app.activeDocument.activeView``
@@ -72,9 +70,9 @@ The document’s current view.
 
 ----
 
-.. _document.artboards:
+.. _jsobjref/document.artboards:
 
-document.artboards
+Document.artboards
 ********************************************************************************
 
 ``app.activeDocument.artboards``
@@ -89,9 +87,9 @@ All artboards in the document.
 
 ----
 
-.. _document.brushes:
+.. _jsobjref/document.brushes:
 
-document.brushes
+Document.brushes
 ********************************************************************************
 
 ``app.activeDocument.brushes``
@@ -106,9 +104,9 @@ The brushes contained in the document.
 
 ----
 
-.. _document.characterStyles:
+.. _jsobjref/document.characterStyles:
 
-document.characterStyles
+Document.characterStyles
 ********************************************************************************
 
 ``app.activeDocument.characterStyles``
@@ -123,9 +121,9 @@ The list of character styles in this document.
 
 ----
 
-.. _document.compoundPathItems:
+.. _jsobjref/document.compoundPathItems:
 
-document.compoundPathItems
+Document.compoundPathItems
 ********************************************************************************
 
 ``app.activeDocument.compoundPathItems``
@@ -140,9 +138,9 @@ The compound path items contained in the document.
 
 ----
 
-.. _document.cropBox:
+.. _jsobjref/document.cropBox:
 
-document.cropBox
+Document.cropBox
 ********************************************************************************
 
 ``app.activeDocument.cropBox``
@@ -157,9 +155,9 @@ Array of 4 numbers.
 
 ----
 
-.. _document.cropStyle:
+.. _jsobjref/document.cropStyle:
 
-document.cropStyle
+Document.cropStyle
 ********************************************************************************
 
 ``app.activeDocument.cropStyle``
@@ -170,15 +168,13 @@ The style of the document’s cropping box.
 
 **Type**
 
-// todo: link to **CropOptions** in Chapter 2 "Scripting Constants"
-
-**CropOptions**.
+:ref:`jsobjref/cropOptions`
 
 ----
 
-.. _document.dataSets:
+.. _jsobjref/document.dataSets:
 
-document.dataSets
+Document.dataSets
 ********************************************************************************
 
 ``app.activeDocument.dataSets``
@@ -193,9 +189,9 @@ The datasets contained in the document.
 
 ----
 
-.. _document.defaultFillColor:
+.. _jsobjref/document.defaultFillColor:
 
-document.defaultFillColor
+Document.defaultFillColor
 ********************************************************************************
 
 ``app.activeDocument.defaultFillColor``
@@ -210,9 +206,9 @@ The color to use to fill new paths if ``defaultFilled`` is ``true``.
 
 ----
 
-.. _document.defaultFilled:
+.. _jsobjref/document.defaultFilled:
 
-document.defaultFilled
+Document.defaultFilled
 ********************************************************************************
 
 ``app.activeDocument.defaultFilled``
@@ -227,26 +223,9 @@ Boolean.
 
 ----
 
-.. _document.defaultFilled:
+.. _jsobjref/document.defaultFillOverprint:
 
-document.defaultFilled
-********************************************************************************
-
-``app.activeDocument.defaultFilled``
-
-**Description**
-
-If ``true``, a new path should be filled.
-
-**Type**
-
-Boolean.
-
-----
-
-.. _document.defaultFillOverprint:
-
-document.defaultFillOverprint
+Document.defaultFillOverprint
 ********************************************************************************
 
 ``app.activeDocument.defaultFillOverprint``
@@ -261,9 +240,9 @@ Boolean.
 
 ----
 
-.. _document.defaultStrokeCap:
+.. _jsobjref/document.defaultStrokeCap:
 
-document.defaultStrokeCap
+Document.defaultStrokeCap
 ********************************************************************************
 
 ``app.activeDocument.defaultStrokeCap``
@@ -274,15 +253,13 @@ Default type of line capping for paths created.
 
 **Type**
 
-// todo: link to **StrokeCap** in Chapter 2 "Scripting Constants"
-
-**StrokeCap**.
+:ref:`jsobjref/strokeCap`
 
 ----
 
-.. _document.defaultStrokeColor:
+.. _jsobjref/document.defaultStrokeColor:
 
-document.defaultStrokeColor
+Document.defaultStrokeColor
 ********************************************************************************
 
 ``app.activeDocument.defaultStrokeColor``
@@ -297,9 +274,9 @@ The stroke color for new paths if default stroked is ``true``.
 
 ----
 
-.. _document.defaultStroked:
+.. _jsobjref/document.defaultStroked:
 
-document.defaultStroked
+Document.defaultStroked
 ********************************************************************************
 
 ``app.activeDocument.defaultStroked``
@@ -314,9 +291,9 @@ Boolean.
 
 ----
 
-.. _document.defaultStrokeDashes:
+.. _jsobjref/document.defaultStrokeDashes:
 
-document.defaultStrokeDashes
+Document.defaultStrokeDashes
 ********************************************************************************
 
 ``app.activeDocument.defaultStrokeDashes``
@@ -331,9 +308,9 @@ Object.
 
 ----
 
-.. _document.defaultStrokeDashOffset:
+.. _jsobjref/document.defaultStrokeDashOffset:
 
-document.defaultStrokeDashOffset
+Document.defaultStrokeDashOffset
 ********************************************************************************
 
 ``app.activeDocument.defaultStrokeDashOffset``
@@ -348,9 +325,9 @@ Number (double).
 
 ----
 
-.. _document.defaultStrokeJoin:
+.. _jsobjref/document.defaultStrokeJoin:
 
-document.defaultStrokeJoin
+Document.defaultStrokeJoin
 ********************************************************************************
 
 ``app.activeDocument.defaultStrokeJoin``
@@ -361,15 +338,13 @@ Default type of joints in new paths.
 
 **Type**
 
-// todo: link to **StrokeJoin** in Chapter 2 "Scripting Constants"
-
-**StrokeJoin**.
+:ref:`jsobjref/strokeJoin`
 
 ----
 
-.. _document.defaultStrokeMiterLimit:
+.. _jsobjref/document.defaultStrokeMiterLimit:
 
-document.defaultStrokeMiterLimit
+Document.defaultStrokeMiterLimit
 ********************************************************************************
 
 ``app.activeDocument.defaultStrokeMiterLimit``
@@ -384,9 +359,9 @@ Number (double).
 
 ----
 
-.. _document.defaultStrokeOverprint:
+.. _jsobjref/document.defaultStrokeOverprint:
 
-document.defaultStrokeOverprint
+Document.defaultStrokeOverprint
 ********************************************************************************
 
 ``app.activeDocument.defaultStrokeOverprint``
@@ -401,9 +376,9 @@ Boolean.
 
 ----
 
-.. _document.defaultStrokeWidth:
+.. _jsobjref/document.defaultStrokeWidth:
 
-document.defaultStrokeWidth
+Document.defaultStrokeWidth
 ********************************************************************************
 
 ``app.activeDocument.defaultStrokeWidth``
@@ -418,9 +393,9 @@ Number (double).
 
 ----
 
-.. _document.documentColorSpace:
+.. _jsobjref/document.documentColorSpace:
 
-document.documentColorSpace
+Document.documentColorSpace
 ********************************************************************************
 
 ``app.activeDocument.documentColorSpace``
@@ -431,15 +406,13 @@ The color specification system to use for this document’s color space.
 
 **Type**
 
-// todo: link to **DocumentColorSpace** in Chapter 2 "Scripting Constants"
-
-**DocumentColorSpace**, read-only.
+:ref:`jsobjref/documentColorSpace`, read-only.
 
 ----
 
-.. _document.fullName:
+.. _jsobjref/document.fullName:
 
-document.fullName
+Document.fullName
 ********************************************************************************
 
 ``app.activeDocument.fullName``
@@ -454,9 +427,9 @@ File, read-only.
 
 ----
 
-.. _document.geometricBounds:
+.. _jsobjref/document.geometricBounds:
 
-document.geometricBounds
+Document.geometricBounds
 ********************************************************************************
 
 ``app.activeDocument.geometricBounds``
@@ -471,9 +444,9 @@ Array of 4 numbers, read-only.
 
 ----
 
-.. _document.gradients:
+.. _jsobjref/document.gradients:
 
-document.gradients
+Document.gradients
 ********************************************************************************
 
 ``app.activeDocument.gradients``
@@ -488,9 +461,9 @@ The gradients contained in the document.
 
 ----
 
-.. _document.graphicStyles:
+.. _jsobjref/document.graphicStyles:
 
-document.graphicStyles
+Document.graphicStyles
 ********************************************************************************
 
 ``app.activeDocument.graphicStyles``
@@ -505,9 +478,9 @@ The graphic styles defined in this document.
 
 ----
 
-.. _document.graphItems:
+.. _jsobjref/document.graphItems:
 
-document.graphItems
+Document.graphItems
 ********************************************************************************
 
 ``app.activeDocument.graphItems``
@@ -522,9 +495,9 @@ The graph art items in this document.
 
 ----
 
-.. _document.groupItems:
+.. _jsobjref/document.groupItems:
 
-document.groupItems
+Document.groupItems
 ********************************************************************************
 
 ``app.activeDocument.groupItems``
@@ -539,9 +512,9 @@ The group items contained in the document.
 
 ----
 
-.. _document.height:
+.. _jsobjref/document.height:
 
-document.height
+Document.height
 ********************************************************************************
 
 ``app.activeDocument.height``
@@ -556,9 +529,9 @@ Number (double), read-only.
 
 ----
 
-.. _document.inkList:
+.. _jsobjref/document.inkList:
 
-document.inkList
+Document.inkList
 ********************************************************************************
 
 ``app.activeDocument.inkList``
@@ -573,9 +546,9 @@ Object, read-only.
 
 ----
 
-.. _document.kinsokuSet:
+.. _jsobjref/document.kinsokuSet:
 
-document.kinsokuSet
+Document.kinsokuSet
 ********************************************************************************
 
 ``app.activeDocument.kinsokuSet``
@@ -590,9 +563,9 @@ Object, read-only.
 
 ----
 
-.. _document.layers:
+.. _jsobjref/document.layers:
 
-document.layers
+Document.layers
 ********************************************************************************
 
 ``app.activeDocument.layers``
@@ -607,9 +580,9 @@ The layers contained in the document.
 
 ----
 
-.. _document.legacyTextItems:
+.. _jsobjref/document.legacyTextItems:
 
-document.legacyTextItems
+Document.legacyTextItems
 ********************************************************************************
 
 ``app.activeDocument.legacyTextItems``
@@ -624,9 +597,9 @@ The legacy text items in the document.
 
 ----
 
-.. _document.meshItems:
+.. _jsobjref/document.meshItems:
 
-document.meshItems
+Document.meshItems
 ********************************************************************************
 
 ``app.activeDocument.meshItems``
@@ -641,9 +614,9 @@ The mesh art items contained in the document.
 
 ----
 
-.. _document.mojikumiSet:
+.. _jsobjref/document.mojikumiSet:
 
-document.mojikumiSet
+Document.mojikumiSet
 ********************************************************************************
 
 ``app.activeDocument.mojikumiSet``
@@ -658,9 +631,9 @@ Object, read-only.
 
 ----
 
-.. _document.name:
+.. _jsobjref/document.name:
 
-document.name
+Document.name
 ********************************************************************************
 
 ``app.activeDocument.name``
@@ -675,9 +648,9 @@ String, read-only.
 
 ----
 
-.. _document.nonNativeItems:
+.. _jsobjref/document.nonNativeItems:
 
-document.nonNativeItems
+Document.nonNativeItems
 ********************************************************************************
 
 ``app.activeDocument.nonNativeItems``
@@ -692,9 +665,9 @@ The non-native art items in this document.
 
 ----
 
-.. _document.outputResolution:
+.. _jsobjref/document.outputResolution:
 
-document.outputResolution
+Document.outputResolution
 ********************************************************************************
 
 ``app.activeDocument.outputResolution``
@@ -709,9 +682,9 @@ Number (double), read-only.
 
 ----
 
-.. _document.pageItems:
+.. _jsobjref/document.pageItems:
 
-document.pageItems
+Document.pageItems
 ********************************************************************************
 
 ``app.activeDocument.pageItems``
@@ -726,9 +699,9 @@ The page items (all art item classes) contained in the document.
 
 ----
 
-.. _document.pageOrigin:
+.. _jsobjref/document.pageOrigin:
 
-document.pageOrigin
+Document.pageOrigin
 ********************************************************************************
 
 ``app.activeDocument.pageOrigin``
@@ -743,9 +716,9 @@ Array of 2 numbers.
 
 ----
 
-.. _document.paragraphStyles:
+.. _jsobjref/document.paragraphStyles:
 
-document.paragraphStyles
+Document.paragraphStyles
 ********************************************************************************
 
 ``app.activeDocument.paragraphStyles``
@@ -760,9 +733,9 @@ The list of paragraph styles in this document.
 
 ----
 
-.. _document.parent:
+.. _jsobjref/document.parent:
 
-document.parent
+Document.parent
 ********************************************************************************
 
 ``app.activeDocument.parent``
@@ -777,9 +750,9 @@ The application that contains this document.
 
 ----
 
-.. _document.path:
+.. _jsobjref/document.path:
 
-document.path
+Document.path
 ********************************************************************************
 
 ``app.activeDocument.path``
@@ -794,9 +767,9 @@ File, read-only.
 
 ----
 
-.. _document.pathItems:
+.. _jsobjref/document.pathItems:
 
-document.pathItems
+Document.pathItems
 ********************************************************************************
 
 ``app.activeDocument.pathItems``
@@ -811,9 +784,9 @@ The path items contained in this document.
 
 ----
 
-.. _document.patterns:
+.. _jsobjref/document.patterns:
 
-document.patterns
+Document.patterns
 ********************************************************************************
 
 ``app.activeDocument.patterns``
@@ -828,9 +801,9 @@ The patterns contained in this document.
 
 ----
 
-.. _document.placedItems:
+.. _jsobjref/document.placedItems:
 
-document.placedItems
+Document.placedItems
 ********************************************************************************
 
 ``app.activeDocument.placedItems``
@@ -845,9 +818,9 @@ The placed items contained in this document.
 
 ----
 
-.. _document.pluginItems:
+.. _jsobjref/document.pluginItems:
 
-document.pluginItems
+Document.pluginItems
 ********************************************************************************
 
 ``app.activeDocument.pluginItems``
@@ -862,9 +835,9 @@ The plug-in items contained in this document.
 
 ----
 
-.. _document.printTiles:
+.. _jsobjref/document.printTiles:
 
-document.printTiles
+Document.printTiles
 ********************************************************************************
 
 ``app.activeDocument.printTiles``
@@ -879,9 +852,9 @@ Boolean, read-only.
 
 ----
 
-.. _document.rasterEffectSettings:
+.. _jsobjref/document.rasterEffectSettings:
 
-document.rasterEffectSettings
+Document.rasterEffectSettings
 ********************************************************************************
 
 ``app.activeDocument.rasterEffectSettings``
@@ -896,9 +869,9 @@ The document’s raster effect settings.
 
 ----
 
-.. _document.rasterItems:
+.. _jsobjref/document.rasterItems:
 
-document.rasterItems
+Document.rasterItems
 ********************************************************************************
 
 ``app.activeDocument.rasterItems``
@@ -913,9 +886,9 @@ The raster items contained in this document.
 
 ----
 
-.. _document.rulerOrigin:
+.. _jsobjref/document.rulerOrigin:
 
-document.rulerOrigin
+Document.rulerOrigin
 ********************************************************************************
 
 ``app.activeDocument.rulerOrigin``
@@ -930,9 +903,9 @@ Array of 2 numbers.
 
 ----
 
-.. _document.rulerUnits:
+.. _jsobjref/document.rulerUnits:
 
-document.rulerUnits
+Document.rulerUnits
 ********************************************************************************
 
 ``app.activeDocument.rulerUnits``
@@ -943,15 +916,13 @@ The default measurement units for the rulers in the document.
 
 **Type**
 
-// todo: link to **RulerUnits** in Chapter 2 "Scripting Constants"
-
-**RulerUnits**, read-only.
+:ref:`jsobjref/rulerUnits`, read-only.
 
 ----
 
-.. _document.saved:
+.. _jsobjref/document.saved:
 
-document.saved
+Document.saved
 ********************************************************************************
 
 ``app.activeDocument.saved``
@@ -966,9 +937,9 @@ Boolean.
 
 ----
 
-.. _document.selection:
+.. _jsobjref/document.selection:
 
-document.selection
+Document.selection
 ********************************************************************************
 
 ``app.activeDocument.selection``
@@ -985,9 +956,9 @@ Array of objects.
 
 ----
 
-.. _document.showPlacedImages:
+.. _jsobjref/document.showPlacedImages:
 
-document.showPlacedImages
+Document.showPlacedImages
 ********************************************************************************
 
 ``app.activeDocument.showPlacedImages``
@@ -1002,9 +973,9 @@ Boolean, read-only.
 
 ----
 
-.. _document.splitLongPaths:
+.. _jsobjref/document.splitLongPaths:
 
-document.splitLongPaths
+Document.splitLongPaths
 ********************************************************************************
 
 ``app.activeDocument.splitLongPaths``
@@ -1019,9 +990,9 @@ Boolean, read-only.
 
 ----
 
-.. _document.spots:
+.. _jsobjref/document.spots:
 
-document.spots
+Document.spots
 ********************************************************************************
 
 ``app.activeDocument.spots``
@@ -1036,9 +1007,9 @@ The spot colors contained in this document.
 
 ----
 
-.. _document.stationery:
+.. _jsobjref/document.stationery:
 
-document.stationery
+Document.stationery
 ********************************************************************************
 
 ``app.activeDocument.stationery``
@@ -1053,9 +1024,9 @@ Boolean, read-only.
 
 ----
 
-.. _document.stories:
+.. _jsobjref/document.stories:
 
-document.stories
+Document.stories
 ********************************************************************************
 
 ``app.activeDocument.stories``
@@ -1070,9 +1041,9 @@ The story items in this document.
 
 ----
 
-.. _document.swatches:
+.. _jsobjref/document.swatches:
 
-document.swatches
+Document.swatches
 ********************************************************************************
 
 ``app.activeDocument.swatches``
@@ -1087,9 +1058,9 @@ The swatches in this document.
 
 ----
 
-.. _document.swatchGroups:
+.. _jsobjref/document.swatchGroups:
 
-document.swatchGroups
+Document.swatchGroups
 ********************************************************************************
 
 ``app.activeDocument.swatchGroups``
@@ -1104,9 +1075,9 @@ The swatch groups in this document.
 
 ----
 
-.. _document.symbolItems:
+.. _jsobjref/document.symbolItems:
 
-document.symbolItems
+Document.symbolItems
 ********************************************************************************
 
 ``app.activeDocument.symbolItems``
@@ -1121,9 +1092,9 @@ The art items in the document linked to symbols.
 
 ----
 
-.. _document.symbols:
+.. _jsobjref/document.symbols:
 
-document.symbols
+Document.symbols
 ********************************************************************************
 
 ``app.activeDocument.symbols``
@@ -1138,9 +1109,9 @@ The symbols in this document.
 
 ----
 
-.. _document.tags:
+.. _jsobjref/document.tags:
 
-document.tags
+Document.tags
 ********************************************************************************
 
 ``app.activeDocument.tags``
@@ -1155,9 +1126,9 @@ The tags in this document.
 
 ----
 
-.. _document.textFrames:
+.. _jsobjref/document.textFrames:
 
-document.textFrames
+Document.textFrames
 ********************************************************************************
 
 ``app.activeDocument.textFrames``
@@ -1172,9 +1143,9 @@ The text frames in this document.
 
 ----
 
-.. _document.tileFullPages:
+.. _jsobjref/document.tileFullPages:
 
-document.tileFullPages
+Document.tileFullPages
 ********************************************************************************
 
 ``app.activeDocument.tileFullPages``
@@ -1189,9 +1160,9 @@ Boolean, read-only.
 
 ----
 
-.. _document.typename:
+.. _jsobjref/document.typename:
 
-document.typename
+Document.typename
 ********************************************************************************
 
 ``app.activeDocument.typename``
@@ -1206,9 +1177,9 @@ String, read-only.
 
 ----
 
-.. _document.useDefaultScreen:
+.. _jsobjref/document.useDefaultScreen:
 
-document.useDefaultScreen
+Document.useDefaultScreen
 ********************************************************************************
 
 ``app.activeDocument.useDefaultScreen``
@@ -1223,9 +1194,9 @@ Boolean, read-only.
 
 ----
 
-.. _document.variables:
+.. _jsobjref/document.variables:
 
-document.variables
+Document.variables
 ********************************************************************************
 
 ``app.activeDocument.variables``
@@ -1240,9 +1211,9 @@ The variables defined in this document.
 
 ----
 
-.. _document.variablesLocked:
+.. _jsobjref/document.variablesLocked:
 
-document.variablesLocked
+Document.variablesLocked
 ********************************************************************************
 
 ``app.activeDocument.variablesLocked``
@@ -1257,9 +1228,9 @@ Boolean.
 
 ----
 
-.. _document.views:
+.. _jsobjref/document.views:
 
-document.views
+Document.views
 ********************************************************************************
 
 ``app.activeDocument.views``
@@ -1274,9 +1245,9 @@ The views contained in this document.
 
 ----
 
-.. _document.visibleBounds:
+.. _jsobjref/document.visibleBounds:
 
-document.visibleBounds
+Document.visibleBounds
 ********************************************************************************
 
 ``app.activeDocument.visibleBounds``
@@ -1291,9 +1262,9 @@ Array of 4 numbers, read-only.
 
 ----
 
-.. _document.width:
+.. _jsobjref/document.width:
 
-document.width
+Document.width
 ********************************************************************************
 
 ``app.activeDocument.width``
@@ -1308,9 +1279,9 @@ Number (double), read-only.
 
 ----
 
-.. _document.XMPString:
+.. _jsobjref/document.XMPString:
 
-document.XMPString
+Document.XMPString
 ********************************************************************************
 
 ``app.activeDocument.XMPString``
@@ -1329,9 +1300,9 @@ String.
 Methods
 =======
 
-.. _document.activate:
+.. _jsobjref/document.activate:
 
-document.activate()
+Document.activate()
 ********************************************************************************
 
 ``app.activeDocument.activate()``
@@ -1346,9 +1317,9 @@ Nothing.
 
 ----
 
-.. _document.arrange:
+.. _jsobjref/document.arrange:
 
-document.arrange()
+Document.arrange()
 ********************************************************************************
 
 ``app.activeDocument.arrange([layoutStyle])``
@@ -1362,7 +1333,7 @@ Arranges multiple documents in the given layout style.
 +-------------------+---------------------------------------------------------------------------------------+-------------+
 |     Parameter     |                                         Type                                          | Description |
 +===================+=======================================================================================+=============+
-| ``[layoutStyle]`` | // todo: link to **DocumentLayoutStyle** in Chapter 2 "Scripting Constants", optional | todo        |
+| ``[layoutStyle]`` | :ref:`jsobjref/documentLayoutStyle`, optional                                         | todo        |
 +-------------------+---------------------------------------------------------------------------------------+-------------+
 
 **Returns**
@@ -1371,9 +1342,9 @@ Boolean.
 
 ----
 
-.. _document.close:
+.. _jsobjref/document.close:
 
-document.close()
+Document.close()
 ********************************************************************************
 
 ``app.activeDocument.close([saveOptions])``
@@ -1389,7 +1360,7 @@ When you close a document, you should set your document reference to ``null`` to
 +-------------------+-------------------------------------------------------------------------------+-------------+
 |     Parameter     |                                     Type                                      | Description |
 +===================+===============================================================================+=============+
-| ``[saveOptions]`` | // todo: link to **SaveOptions** in Chapter 2 "Scripting Constants", optional | todo        |
+| ``[saveOptions]`` | :ref:`jsobjref/saveOptions`                                                   | todo        |
 +-------------------+-------------------------------------------------------------------------------+-------------+
 
 **Returns**
@@ -1398,9 +1369,9 @@ Nothing.
 
 ----
 
-.. _document.closeNoUI:
+.. _jsobjref/document.closeNoUI:
 
-document.closeNoUI()
+Document.closeNoUI()
 ********************************************************************************
 
 ``app.activeDocument.closeNoUI()``
@@ -1415,9 +1386,9 @@ Nothing.
 
 ----
 
-.. _document.convertCoordinate:
+.. _jsobjref/document.convertCoordinate:
 
-document.convertCoordinate()
+Document.convertCoordinate()
 ********************************************************************************
 
 ``app.activeDocument.convertCoordinate(coordinate, source, destination)``
@@ -1433,9 +1404,9 @@ Converts the given point between artboard and document coordinate systems. Retur
 +=================+==========================================================================+=============+
 | ``coordinate``  | Point                                                                    | todo        |
 +-----------------+--------------------------------------------------------------------------+-------------+
-| ``source``      | // todo: link to **CoordinateSystem** in Chapter 2 "Scripting Constants" | todo        |
+| ``source``      | :ref:`jsobjref/coordinateSystem`                                         | todo        |
 +-----------------+--------------------------------------------------------------------------+-------------+
-| ``destination`` | // todo: link to **CoordinateSystem** in Chapter 2 "Scripting Constants" | todo        |
+| ``destination`` | :ref:`jsobjref/coordinateSystem`                                         | todo        |
 +-----------------+--------------------------------------------------------------------------+-------------+
 
 **Returns**
@@ -1444,9 +1415,9 @@ Point.
 
 ----
 
-.. _document.exportFile:
+.. _jsobjref/document.exportFile:
 
-document.exportFile()
+Document.exportFile()
 ********************************************************************************
 
 ``app.activeDocument.exportFile(exportFile, exportFormat [,options])``
@@ -1462,7 +1433,7 @@ Exports the document to the specified file using one of the predefined export fi
 +==================+====================================================================+=============+
 | ``exportFile``   | File                                                               | todo        |
 +------------------+--------------------------------------------------------------------+-------------+
-| ``exportFormat`` | // todo: link to **ExportType** in Chapter 2 "Scripting Constants" | todo        |
+| ``exportFormat`` | :ref:`jsobjref/exportType`                                         | todo        |
 +------------------+--------------------------------------------------------------------+-------------+
 | ``[options]``    | Variant, optional                                                  | todo        |
 +------------------+--------------------------------------------------------------------+-------------+
@@ -1473,9 +1444,9 @@ Nothing.
 
 ----
 
-.. _document.exportPDFPreset:
+.. _jsobjref/document.exportPDFPreset:
 
-document.exportPDFPreset()
+Document.exportPDFPreset()
 ********************************************************************************
 
 ``app.activeDocument.exportPDFPreset(file)``
@@ -1498,9 +1469,9 @@ Nothing.
 
 ----
 
-.. _document.exportPerspectiveGridPreset:
+.. _jsobjref/document.exportPerspectiveGridPreset:
 
-document.exportPerspectiveGridPreset()
+Document.exportPerspectiveGridPreset()
 ********************************************************************************
 
 ``app.activeDocument.exportPerspectiveGridPreset(file)``
@@ -1523,9 +1494,9 @@ Nothing.
 
 ----
 
-.. _document.exportPrintPreset:
+.. _jsobjref/document.exportPrintPreset:
 
-document.exportPrintPreset()
+Document.exportPrintPreset()
 ********************************************************************************
 
 ``app.activeDocument.exportPrintPreset(file)``
@@ -1548,9 +1519,9 @@ Nothing.
 
 ----
 
-.. _document.exportVariables:
+.. _jsobjref/document.exportVariables:
 
-document.exportVariables()
+Document.exportVariables()
 ********************************************************************************
 
 ``app.activeDocument.exportVariables(fileSpec)``
@@ -1573,9 +1544,9 @@ Nothing.
 
 ----
 
-.. _document.fitArtboardToSelectedArt:
+.. _jsobjref/document.fitArtboardToSelectedArt:
 
-document.fitArtboardToSelectedArt()
+Document.fitArtboardToSelectedArt()
 ********************************************************************************
 
 ``app.activeDocument.fitArtboardToSelectedArt([index])``
@@ -1598,9 +1569,9 @@ Boolean.
 
 ----
 
-.. _document.getPerspectiveActivePlane:
+.. _jsobjref/document.getPerspectiveActivePlane:
 
-document.getPerspectiveActivePlane()
+Document.getPerspectiveActivePlane()
 ********************************************************************************
 
 ``app.activeDocument.getPerspectiveActivePlane()``
@@ -1611,15 +1582,15 @@ Retrieves the active plane of the active perspective grid of the document.
 
 **Returns**
 
-// todo: link to **PerspectiveGridPlaneType** in Chapter 2 "Scripting Constants"
+:ref:`jsobjref/perspectiveGridPlaneType`
 
 **PerspectiveGridPlaneType**.
 
 ----
 
-.. _document.hidePerspectiveGrid:
+.. _jsobjref/document.hidePerspectiveGrid:
 
-document.hidePerspectiveGrid()
+Document.hidePerspectiveGrid()
 ********************************************************************************
 
 ``app.activeDocument.hidePerspectiveGrid()``
@@ -1634,9 +1605,9 @@ Boolean.
 
 ----
 
-.. _document.imageCapture:
+.. _jsobjref/document.imageCapture:
 
-document.imageCapture()
+Document.imageCapture()
 ********************************************************************************
 
 ``app.activeDocument.imageCapture(imageFile [,clipBounds] [,options])``
@@ -1665,9 +1636,9 @@ Nothing.
 
 ----
 
-.. _document.importCharacterStyles:
+.. _jsobjref/document.importCharacterStyles:
 
-document.importCharacterStyles()
+Document.importCharacterStyles()
 ********************************************************************************
 
 ``app.activeDocument.importCharacterStyles(fileSpec)``
@@ -1690,9 +1661,9 @@ Nothing.
 
 ----
 
-.. _document.importParagraphStyles:
+.. _jsobjref/document.importParagraphStyles:
 
-document.importParagraphStyles()
+Document.importParagraphStyles()
 ********************************************************************************
 
 ``app.activeDocument.importParagraphStyles(fileSpec)``
@@ -1715,9 +1686,9 @@ Nothing.
 
 ----
 
-.. _document.importPDFPreset:
+.. _jsobjref/document.importPDFPreset:
 
-document.importPDFPreset()
+Document.importPDFPreset()
 ********************************************************************************
 
 ``app.activeDocument.importPDFPreset(fileSpec [, replacingPreset])``
@@ -1742,9 +1713,9 @@ Nothing.
 
 ----
 
-.. _document.importPrintPreset:
+.. _jsobjref/document.importPrintPreset:
 
-document.importPrintPreset()
+Document.importPrintPreset()
 ********************************************************************************
 
 ``app.activeDocument.importPrintPreset(printPreset, fileSpec)``
@@ -1769,9 +1740,9 @@ Nothing.
 
 ----
 
-.. _document.importVariables:
+.. _jsobjref/document.importVariables:
 
-document.importVariables()
+Document.importVariables()
 ********************************************************************************
 
 ``app.activeDocument.importVariables(fileSpec)``
@@ -1794,9 +1765,9 @@ Nothing.
 
 ----
 
-.. _document.print:
+.. _jsobjref/document.print:
 
-document.print()
+Document.print()
 ********************************************************************************
 
 ``app.activeDocument.print([options])``
@@ -1819,9 +1790,9 @@ Nothing.
 
 ----
 
-.. _document.rasterize:
+.. _jsobjref/document.rasterize:
 
-document.rasterize()
+Document.rasterize()
 ********************************************************************************
 
 ``app.activeDocument.rasterize(sourceArt [, clipBounds] [, options])``
@@ -1848,9 +1819,9 @@ Rasterizes the source art(s) within the specified clip bounds. The source art(s)
 
 ----
 
-.. _document.rearrangeArboards:
+.. _jsobjref/document.rearrangeArboards:
 
-document.rearrangeArboards()
+Document.rearrangeArboards()
 ********************************************************************************
 
 ``app.activeDocument.rearrangeArboards([artboardLayout] [, artboardRowsOrCols] [, artboardSpacing] [, artboardMoveArtwork])``
@@ -1870,7 +1841,7 @@ When last argument is true (the default), artwork is moved with the artboards.
 +---------------------------+------------------------------------------------------------------------------------------+-------------+
 |         Parameter         |                                           Type                                           | Description |
 +===========================+==========================================================================================+=============+
-| ``[artboardLayout]``      | // todo: link to **DocumentArtboardLayout** in Chapter 2 "Scripting Constants", optional | todo        |
+| ``[artboardLayout]``      | :ref:`jsobjref/documentArtboardLayout`, optional                                         | todo        |
 +---------------------------+------------------------------------------------------------------------------------------+-------------+
 | ``[artboardRowsOrCols]``  | Integer, optional                                                                        | todo        |
 +---------------------------+------------------------------------------------------------------------------------------+-------------+
@@ -1885,9 +1856,9 @@ Boolean.
 
 ----
 
-.. _document.save:
+.. _jsobjref/document.save:
 
-document.save()
+Document.save()
 ********************************************************************************
 
 ``app.activeDocument.save()``
@@ -1902,9 +1873,9 @@ Nothing.
 
 ----
 
-.. _document.saveAs:
+.. _jsobjref/document.saveAs:
 
-document.saveAs()
+Document.saveAs()
 ********************************************************************************
 
 ``app.activeDocument.saveAs(saveIn [, options])``
@@ -1920,7 +1891,7 @@ Saves the document in the specified file as an Illustrator, EPS, or PDF file.
 +===============+===============================================================================+=============+
 | ``saveIn``    | File                                                                          | todo        |
 +---------------+-------------------------------------------------------------------------------+-------------+
-| ``[options]`` | // todo: link to **SaveOptions** in Chapter 2 "Scripting Constants", optional | todo        |
+| ``[options]`` | :ref:`jsobjref/saveOptions`, optional                                         | todo        |
 +---------------+-------------------------------------------------------------------------------+-------------+
 
 **Returns**
@@ -1929,9 +1900,9 @@ Nothing.
 
 ----
 
-.. _document.saveNoUI:
+.. _jsobjref/document.saveNoUI:
 
-document.saveNoUI()
+Document.saveNoUI()
 ********************************************************************************
 
 ``app.activeDocument.saveNoUI(saveIn)``
@@ -1954,9 +1925,9 @@ Nothing.
 
 ----
 
-.. _document.selectObjectsOnActiveArtboard:
+.. _jsobjref/document.selectObjectsOnActiveArtboard:
 
-document.selectObjectsOnActiveArtboard()
+Document.selectObjectsOnActiveArtboard()
 ********************************************************************************
 
 ``app.activeDocument.selectObjectsOnActiveArtboard()``
@@ -1971,9 +1942,9 @@ Boolean.
 
 ----
 
-.. _document.setActivePlane:
+.. _jsobjref/document.setActivePlane:
 
-document.setActivePlane()
+Document.setActivePlane()
 ********************************************************************************
 
 ``app.activeDocument.setActivePlane(gridPlane)``
@@ -1987,7 +1958,7 @@ Sets the active plane of the active perspective grid of the document. Returns ``
 +---------------+----------------------------------------------------------------------------------+-------------+
 |   Parameter   |                                       Type                                       | Description |
 +===============+==================================================================================+=============+
-| ``gridPlane`` | // todo: link to **PerspectiveGridPlaneType** in Chapter 2 "Scripting Constants" | todo        |
+| ``gridPlane`` | :ref:`jsobjref/perspectiveGridPlaneType`                                         | todo        |
 +---------------+----------------------------------------------------------------------------------+-------------+
 
 **Returns**
@@ -1996,9 +1967,9 @@ Boolean.
 
 ----
 
-.. _document.selectPerspectivePreset:
+.. _jsobjref/document.selectPerspectivePreset:
 
-document.selectPerspectivePreset()
+Document.selectPerspectivePreset()
 ********************************************************************************
 
 ``app.activeDocument.selectPerspectivePreset(gridType, presetName)``
@@ -2012,7 +1983,7 @@ Selects a predefined preset to define grid for the current document. Returns ``t
 +----------------+-----------------------------------------------------------------------------+-------------+
 |   Parameter    |                                    Type                                     | Description |
 +================+=============================================================================+=============+
-| ``gridType``   | // todo: link to **PerspectiveGridType** in Chapter 2 "Scripting Constants" | todo        |
+| ``gridType``   | :ref:`jsobjref/perspectiveGridType`                                         | todo        |
 +----------------+-----------------------------------------------------------------------------+-------------+
 | ``presetName`` | String                                                                      | todo        |
 +----------------+-----------------------------------------------------------------------------+-------------+
@@ -2023,9 +1994,9 @@ Boolean.
 
 ----
 
-.. _document.showPerspectiveGrid:
+.. _jsobjref/document.showPerspectiveGrid:
 
-document.showPerspectiveGrid()
+Document.showPerspectiveGrid()
 ********************************************************************************
 
 ``app.activeDocument.showPerspectiveGrid()``
@@ -2040,9 +2011,9 @@ Boolean.
 
 ----
 
-.. _document.windowCapture:
+.. _jsobjref/document.windowCapture:
 
-document.windowCapture()
+Document.windowCapture()
 ********************************************************************************
 
 ``app.activeDocument.windowCapture(imageFile, windowSize)``

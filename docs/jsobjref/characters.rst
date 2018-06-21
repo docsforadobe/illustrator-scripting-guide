@@ -17,7 +17,7 @@ The elements are not named; you must access them by index.
 Properties
 ==========
 
-.. _characters.length:
+.. _jsobjref/characters.length:
 
 characters.length
 ********************************************************************************
@@ -34,7 +34,7 @@ Number; read-only.
 
 ----
 
-.. _characters.parent:
+.. _jsobjref/characters.parent:
 
 characters.parent
 ********************************************************************************
@@ -51,7 +51,7 @@ Object; read-only.
 
 ----
 
-.. _characters.typename:
+.. _jsobjref/characters.typename:
 
 characters.typename
 ********************************************************************************
@@ -72,7 +72,7 @@ String; read-only.
 Methods
 =======
 
-.. _characters.add:
+.. _jsobjref/characters.add:
 
 characters.add()
 ********************************************************************************
@@ -99,7 +99,7 @@ If a location is not specified, adds the new character to the containing text fr
 
 ----
 
-.. _characters.addBefore:
+.. _jsobjref/characters.addBefore:
 
 characters.addBefore()
 ********************************************************************************
@@ -122,7 +122,7 @@ Adds a character before the specified text selection.
 
 ----
 
-.. _characters.index:
+.. _jsobjref/characters.index:
 
 characters.index()
 ********************************************************************************
@@ -145,7 +145,7 @@ Gets an element from the collection.
 
 ----
 
-.. _characters.removeAll:
+.. _jsobjref/characters.removeAll:
 
 characters.removeAll()
 ********************************************************************************
