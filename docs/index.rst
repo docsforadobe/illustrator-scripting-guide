@@ -95,6 +95,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/documentPreset
   jsobjref/documents
   jsobjref/epsSaveOptions
+  jsobjref/exportOptionsAutoCAD
 
 .. toctree::
   :maxdepth: 1
