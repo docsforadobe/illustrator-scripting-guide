@@ -73,7 +73,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   scriptingVBScript/perspectiveGrid
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
   :caption: Javascript Object Reference
 
   jsobjref/scripting-constants
@@ -115,6 +115,9 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/GradientStops
   jsobjref/RGBColor
 
+  jsobjref/TextRange
+  jsobjref/TextRanges
+  jsobjref/TracingObject
   jsobjref/TracingOptions
   jsobjref/Variable
   jsobjref/Variables
