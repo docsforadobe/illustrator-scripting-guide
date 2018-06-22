@@ -155,6 +155,8 @@ String, read-only.
 Example
 =======
 
+.. _jsobjref/gradientColor.changingGradientStopColor:
+
 Changing a gradient stop color
 ********************************************************************************
 
