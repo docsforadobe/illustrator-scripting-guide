@@ -115,7 +115,7 @@ The color to use when matting the art board. Default: ``white``.
 
 **Type**
 
-:ref:`jsobjref/color/rgbColor`
+:ref:`jsobjref/rgbColor`
 
 ----
 

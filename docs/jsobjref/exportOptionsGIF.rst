@@ -200,7 +200,7 @@ The color to use when matting the art board. Default: ``WHITE``.
 
 **Type**
 
-:ref:`jsobjref/color/rgbColor`
+:ref:`jsobjref/rgbColor`
 
 ----
 
@@ -310,7 +310,7 @@ Exporting to GIF format
             exportOptions.antiAliasing = false;
             exportOptions.colorCount = 64;
             exportOptions.colorDither = ColorDitherMethod.DIFFUSION;
-            
+
             app.activeDocument.exportFile( fileSpec, type, exportOptions );
         }
     }

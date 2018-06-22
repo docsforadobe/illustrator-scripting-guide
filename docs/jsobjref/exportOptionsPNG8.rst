@@ -183,7 +183,7 @@ The color to use when matting the art board. Default: ``white``.
 
 **Type**
 
-:ref:`jsobjref/color/rgbColor`
+:ref:`jsobjref/rgbColor`
 
 ----
 
@@ -289,10 +289,10 @@ Exporting to PNG8 format
             var exportOptions = new ExportOptionsPNG8();
             var type = ExportType.PNG8;
             var fileSpec = new File(dest);
-            
+
             exportOptions.colorCount = 8;
             exportOptions.transparency = false;
-            
+
             app.activeDocument.exportFile( fileSpec, type, exportOptions );
         }
     }

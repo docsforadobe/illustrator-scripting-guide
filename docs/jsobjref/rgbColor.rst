@@ -1,4 +1,4 @@
-.. _jsobjref/color/rgbColor:
+.. _jsobjref/rgbColor:
 
 RGB Color
 ################################################################################
@@ -17,7 +17,7 @@ If the color space of a document is RGB and you specify the color value for a pa
 Properties
 ==========
 
-.. _jsobjref/color/rgbColor.blue:
+.. _jsobjref/rgbColor.blue:
 
 rgbColor.blue
 ********************************************************************************
@@ -34,7 +34,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/color/rgbColor.green:
+.. _jsobjref/rgbColor.green:
 
 rgbColor.green
 ********************************************************************************
@@ -51,7 +51,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/color/rgbColor.red:
+.. _jsobjref/rgbColor.red:
 
 rgbColor.red
 ********************************************************************************
@@ -68,7 +68,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/color/rgbColor.typename:
+.. _jsobjref/rgbColor.typename:
 
 rgbColor.typename
 ********************************************************************************
@@ -102,6 +102,6 @@ Setting an RGB color
         newRGBColor.red = 255;
         newRGBColor.green = 255;
         newRGBColor.blue = 0;
-        
+
         app.activeDocument.defaultFillColor = newRGBColor;
     }

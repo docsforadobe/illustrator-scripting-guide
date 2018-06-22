@@ -86,7 +86,8 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/characters
   jsobjref/characterStyle
   jsobjref/characterStyles
-  jsobjref/color/index
+  jsobjref/cmykColor
+  jsobjref/color
   jsobjref/compoundPathItem
   jsobjref/compoundPathItems
   jsobjref/dataset
@@ -100,8 +101,8 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/exportOptionsGIF
   jsobjref/exportOptionsJPEG
   jsobjref/exportOptionsPhotoshop
-  jsobjref/exportOptionsPNG8
   jsobjref/exportOptionsPNG24
+  jsobjref/exportOptionsPNG8
   jsobjref/exportOptionsSVG
   jsobjref/exportOptionsTIFF
   jsobjref/fxgSaveOptions
@@ -110,6 +111,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/gradients
   jsobjref/gradientStop
   jsobjref/gradientStops
+  jsobjref/rgbColor
 
   jsobjref/variable
   jsobjref/variables
