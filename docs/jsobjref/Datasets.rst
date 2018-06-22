@@ -1,4 +1,4 @@
-.. _jsobjref/datasets:
+.. _jsobjref/Datasets:
 
 Datasets
 ################################################################################
@@ -7,7 +7,7 @@ Datasets
 
 **Description**
 
-A collection of :ref:`jsobjref/dataset` objects.
+A collection of :ref:`jsobjref/Dataset` objects.
 
 ----
 
@@ -15,7 +15,7 @@ A collection of :ref:`jsobjref/dataset` objects.
 Properties
 ==========
 
-.. _jsobjref/datasets.length:
+.. _jsobjref/Datasets.length:
 
 Datasets.length
 ********************************************************************************
@@ -32,7 +32,7 @@ Number, read-only.
 
 ----
 
-.. _jsobjref/datasets.parent:
+.. _jsobjref/Datasets.parent:
 
 Datasets.parent
 ********************************************************************************
@@ -45,11 +45,11 @@ The name of the object that contains this dataset.
 
 **Type**
 
-:ref:`jsobjref/document`, read-only.
+:ref:`jsobjref/Document`, read-only.
 
 ----
 
-.. _jsobjref/datasets.typename:
+.. _jsobjref/Datasets.typename:
 
 Datasets.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String, read-only.
 Methods
 =======
 
-.. _jsobjref/datasets.add:
+.. _jsobjref/Datasets.add:
 
 Datasets.add()
 ********************************************************************************
@@ -83,11 +83,11 @@ Creates a new dataset object.
 
 **Returns**
 
-:ref:`jsobjref/dataset`
+:ref:`jsobjref/Dataset`
 
 ----
 
-.. _jsobjref/datasets.getByName:
+.. _jsobjref/Datasets.getByName:
 
 Datasets.getByName()
 ********************************************************************************
@@ -108,11 +108,11 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-:ref:`jsobjref/dataset`
+:ref:`jsobjref/Dataset`
 
 ----
 
-.. _jsobjref/datasets.index:
+.. _jsobjref/Datasets.index:
 
 Datasets.index()
 ********************************************************************************
@@ -133,11 +133,11 @@ Gets an element from the collection.
 
 **Returns**
 
-:ref:`jsobjref/dataset`
+:ref:`jsobjref/Dataset`
 
 ----
 
-.. _jsobjref/datasets.removeAll:
+.. _jsobjref/Datasets.removeAll:
 
 Datasets.removeAll()
 ********************************************************************************

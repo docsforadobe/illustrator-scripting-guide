@@ -1,9 +1,9 @@
-.. _jsobjref/cmykColor:
+.. _jsobjref/CMYKColor:
 
-CMYK Color
+CMYKColor
 ################################################################################
 
-``cmykColor``
+``new cmykColor()``
 
 **Description**
 
@@ -21,7 +21,7 @@ actual color space.
 Properties
 ==========
 
-.. _jsobjref/cmykColor.black:
+.. _jsobjref/CMYKColor.black:
 
 CMYKColor.black
 ********************************************************************************
@@ -38,7 +38,7 @@ Number (double)
 
 ----
 
-.. _jsobjref/cmykColor.cyan:
+.. _jsobjref/CMYKColor.cyan:
 
 CMYKColor.cyan
 ********************************************************************************
@@ -55,7 +55,7 @@ Number (double)
 
 ----
 
-.. _jsobjref/cmykColor.magenta:
+.. _jsobjref/CMYKColor.magenta:
 
 CMYKColor.magenta
 ********************************************************************************
@@ -72,7 +72,7 @@ Number (double)
 
 ----
 
-.. _jsobjref/cmykColor.typename:
+.. _jsobjref/CMYKColor.typename:
 
 CMYKColor.typename
 ********************************************************************************
@@ -89,7 +89,7 @@ String; read-only.
 
 ----
 
-.. _jsobjref/cmykColor.yellow:
+.. _jsobjref/CMYKColor.yellow:
 
 CMYKColor.yellow
 ********************************************************************************

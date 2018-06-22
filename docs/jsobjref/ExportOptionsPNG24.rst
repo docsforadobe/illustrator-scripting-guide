@@ -1,13 +1,13 @@
-.. _jsobjref/exportOptionsPNG24:
+.. _jsobjref/ExportOptionsPNG24:
 
-Export Options PNG24
+ExportOptionsPNG24
 ################################################################################
 
 ``exportOptionsPNG24``
 
 **Description**
 
-Options for exporting a document as a 24-bit PNG file, used with the :ref:`jsobjref/document.exportFile` method. All properties are optional.
+Options for exporting a document as a 24-bit PNG file, used with the :ref:`jsobjref/Document.exportFile` method. All properties are optional.
 
 When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
@@ -17,7 +17,7 @@ When you export a document, the appropriate file extension is appended automatic
 Properties
 ==========
 
-.. _jsobjref/exportOptionsPNG24.antiAliasing:
+.. _jsobjref/ExportOptionsPNG24.antiAliasing:
 
 ExportOptionsPNG24.antiAliasing
 ********************************************************************************
@@ -34,7 +34,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPNG24.artBoardClipping:
+.. _jsobjref/ExportOptionsPNG24.artBoardClipping:
 
 ExportOptionsPNG24.artBoardClipping
 ********************************************************************************
@@ -51,7 +51,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPNG24.horizontalScale:
+.. _jsobjref/ExportOptionsPNG24.horizontalScale:
 
 ExportOptionsPNG24.horizontalScale
 ********************************************************************************
@@ -68,7 +68,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/exportOptionsPNG24.matte:
+.. _jsobjref/ExportOptionsPNG24.matte:
 
 ExportOptionsPNG24.matte
 ********************************************************************************
@@ -85,7 +85,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPNG24.matteColor:
+.. _jsobjref/ExportOptionsPNG24.matteColor:
 
 ExportOptionsPNG24.matteColor
 ********************************************************************************
@@ -98,11 +98,11 @@ The color to use when matting the art board. Default: ``white``.
 
 **Type**
 
-:ref:`jsobjref/rgbColor`
+:ref:`jsobjref/RGBColor`
 
 ----
 
-.. _jsobjref/exportOptionsPNG24.saveAsHTML:
+.. _jsobjref/ExportOptionsPNG24.saveAsHTML:
 
 ExportOptionsPNG24.saveAsHTML
 ********************************************************************************
@@ -119,7 +119,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPNG24.transparency:
+.. _jsobjref/ExportOptionsPNG24.transparency:
 
 ExportOptionsPNG24.transparency
 ********************************************************************************
@@ -136,7 +136,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPNG24.typename:
+.. _jsobjref/ExportOptionsPNG24.typename:
 
 ExportOptionsPNG24.typename
 ********************************************************************************
@@ -153,7 +153,7 @@ String, read-only.
 
 ----
 
-.. _jsobjref/exportOptionsPNG24.verticalScale:
+.. _jsobjref/ExportOptionsPNG24.verticalScale:
 
 ExportOptionsPNG24.verticalScale
 ********************************************************************************

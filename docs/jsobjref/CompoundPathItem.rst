@@ -1,6 +1,6 @@
-.. _jsobjref/compoundPathItem:
+.. _jsobjref/CompoundPathItem:
 
-Compound Path Item
+CompoundPathItem
 ################################################################################
 
 ``compoundPathItem``
@@ -20,7 +20,7 @@ All paths within a compound path share property values. Therefore, if you set th
 Properties
 ==========
 
-.. _jsobjref/compoundPathItem.artworkKnockout:
+.. _jsobjref/CompoundPathItem.artworkKnockout:
 
 CompoundPathItem.artworkKnockout
 ********************************************************************************
@@ -33,11 +33,11 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.knockoutState`
+:ref:`jsobjref/scripting-constants.KnockoutState`
 
 ----
 
-.. _jsobjref/compoundPathItem.blendingMode:
+.. _jsobjref/CompoundPathItem.blendingMode:
 
 CompoundPathItem.blendingMode
 ********************************************************************************
@@ -50,11 +50,11 @@ The mode used when compositing an object.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.blendModes`
+:ref:`jsobjref/scripting-constants.BlendModes`
 
 ----
 
-.. _jsobjref/compoundPathItem.controlBounds:
+.. _jsobjref/CompoundPathItem.controlBounds:
 
 CompoundPathItem.controlBounds
 ********************************************************************************
@@ -71,7 +71,7 @@ Array of 4 numbers, read-only.
 
 ----
 
-.. _jsobjref/compoundPathItem.editable:
+.. _jsobjref/CompoundPathItem.editable:
 
 CompoundPathItem.editable
 ********************************************************************************
@@ -88,7 +88,7 @@ Boolean, read-only.
 
 ----
 
-.. _jsobjref/compoundPathItem.geometricBounds:
+.. _jsobjref/CompoundPathItem.geometricBounds:
 
 CompoundPathItem.geometricBounds
 ********************************************************************************
@@ -105,7 +105,7 @@ Array of 4 numbers, read-only.
 
 ----
 
-.. _jsobjref/compoundPathItem.height:
+.. _jsobjref/CompoundPathItem.height:
 
 CompoundPathItem.height
 ********************************************************************************
@@ -122,7 +122,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/compoundPathItem.hidden:
+.. _jsobjref/CompoundPathItem.hidden:
 
 CompoundPathItem.hidden
 ********************************************************************************
@@ -139,7 +139,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/compoundPathItem.isIsolated:
+.. _jsobjref/CompoundPathItem.isIsolated:
 
 CompoundPathItem.isIsolated
 ********************************************************************************
@@ -156,7 +156,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/compoundPathItem.layer:
+.. _jsobjref/CompoundPathItem.layer:
 
 CompoundPathItem.layer
 ********************************************************************************
@@ -169,11 +169,11 @@ The layer to which this compound path item belongs.
 
 **Type**
 
-:ref:`jsobjref/layer`, read-only.
+:ref:`jsobjref/Layer`, read-only.
 
 ----
 
-.. _jsobjref/compoundPathItem.left:
+.. _jsobjref/CompoundPathItem.left:
 
 CompoundPathItem.left
 ********************************************************************************
@@ -190,7 +190,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/compoundPathItem.locked:
+.. _jsobjref/CompoundPathItem.locked:
 
 CompoundPathItem.locked
 ********************************************************************************
@@ -207,7 +207,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/compoundPathItem.name:
+.. _jsobjref/CompoundPathItem.name:
 
 CompoundPathItem.name
 ********************************************************************************
@@ -224,7 +224,7 @@ String.
 
 ----
 
-.. _jsobjref/compoundPathItem.note:
+.. _jsobjref/CompoundPathItem.note:
 
 CompoundPathItem.note
 ********************************************************************************
@@ -241,7 +241,7 @@ String.
 
 ----
 
-.. _jsobjref/compoundPathItem.opacity:
+.. _jsobjref/CompoundPathItem.opacity:
 
 CompoundPathItem.opacity
 ********************************************************************************
@@ -258,7 +258,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/compoundPathItem.parent:
+.. _jsobjref/CompoundPathItem.parent:
 
 CompoundPathItem.parent
 ********************************************************************************
@@ -271,11 +271,11 @@ The parent of this object.
 
 **Type**
 
-:ref:`jsobjref/layer` or :ref:`jsobjref/groupItem`, read-only.
+:ref:`jsobjref/Layer` or :ref:`jsobjref/GroupItem`, read-only.
 
 ----
 
-.. _jsobjref/compoundPathItem.pathItems:
+.. _jsobjref/CompoundPathItem.pathItems:
 
 CompoundPathItem.pathItems
 ********************************************************************************
@@ -288,11 +288,11 @@ The path art items in this compound path.
 
 **Type**
 
-:ref:`jsobjref/pathItems`, read-only.
+:ref:`jsobjref/PathItems`, read-only.
 
 ----
 
-.. _jsobjref/compoundPathItem.position:
+.. _jsobjref/CompoundPathItem.position:
 
 CompoundPathItem.position
 ********************************************************************************
@@ -309,7 +309,7 @@ Array of 2 numbers.
 
 ----
 
-.. _jsobjref/compoundPathItem.selected:
+.. _jsobjref/CompoundPathItem.selected:
 
 CompoundPathItem.selected
 ********************************************************************************
@@ -326,7 +326,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/compoundPathItem.sliced:
+.. _jsobjref/CompoundPathItem.sliced:
 
 CompoundPathItem.sliced
 ********************************************************************************
@@ -343,7 +343,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/compoundPathItem.tags:
+.. _jsobjref/CompoundPathItem.tags:
 
 CompoundPathItem.tags
 ********************************************************************************
@@ -356,11 +356,11 @@ The tags contained in this object.
 
 **Type**
 
-:ref:`jsobjref/tags`, read-only.
+:ref:`jsobjref/Tags`, read-only.
 
 ----
 
-.. _jsobjref/compoundPathItem.top:
+.. _jsobjref/CompoundPathItem.top:
 
 CompoundPathItem.top
 ********************************************************************************
@@ -377,7 +377,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/compoundPathItem.typename:
+.. _jsobjref/CompoundPathItem.typename:
 
 CompoundPathItem.typename
 ********************************************************************************
@@ -394,7 +394,7 @@ String, read-only.
 
 ----
 
-.. _jsobjref/compoundPathItem.uRL:
+.. _jsobjref/CompoundPathItem.uRL:
 
 CompoundPathItem.uRL
 ********************************************************************************
@@ -411,7 +411,7 @@ String.
 
 ----
 
-.. _jsobjref/compoundPathItem.visibilityVariable:
+.. _jsobjref/CompoundPathItem.visibilityVariable:
 
 CompoundPathItem.visibilityVariable
 ********************************************************************************
@@ -428,7 +428,7 @@ Variant.
 
 ----
 
-.. _jsobjref/compoundPathItem.visibleBounds:
+.. _jsobjref/CompoundPathItem.visibleBounds:
 
 CompoundPathItem.visibleBounds
 ********************************************************************************
@@ -445,7 +445,7 @@ Array of 4 numbers, read-only.
 
 ----
 
-.. _jsobjref/compoundPathItem.width:
+.. _jsobjref/CompoundPathItem.width:
 
 CompoundPathItem.width
 ********************************************************************************
@@ -462,7 +462,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/compoundPathItem.wrapInside:
+.. _jsobjref/CompoundPathItem.wrapInside:
 
 CompoundPathItem.wrapInside
 ********************************************************************************
@@ -479,7 +479,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/compoundPathItem.wrapOffset:
+.. _jsobjref/CompoundPathItem.wrapOffset:
 
 CompoundPathItem.wrapOffset
 ********************************************************************************
@@ -496,7 +496,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/compoundPathItem.wrapped:
+.. _jsobjref/CompoundPathItem.wrapped:
 
 CompoundPathItem.wrapped
 ********************************************************************************
@@ -513,7 +513,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/compoundPathItem.zOrderPosition:
+.. _jsobjref/CompoundPathItem.zOrderPosition:
 
 CompoundPathItem.zOrderPosition
 ********************************************************************************
@@ -534,7 +534,7 @@ Number (long), read-only.
 Methods
 =======
 
-.. _jsobjref/compoundPathItem.duplicate:
+.. _jsobjref/CompoundPathItem.duplicate:
 
 CompoundPathItem.duplicate()
 ********************************************************************************
@@ -547,21 +547,21 @@ Creates a duplicate of the selected object.
 
 **Parameters**
 
-+-------------------------+---------------------------------------------------------------+-------------+
-|        Parameter        |                             Type                              | Description |
-+=========================+===============================================================+=============+
-| ``[relativeObject]``    | Object, optional                                              | todo        |
-+-------------------------+---------------------------------------------------------------+-------------+
-| ``[insertionLocation]`` | :ref:`jsobjref/scriptingConstants.elementPlacement`, optional | todo        |
-+-------------------------+---------------------------------------------------------------+-------------+
++-------------------------+----------------------------------------------------------------+-------------+
+|        Parameter        |                              Type                              | Description |
++=========================+================================================================+=============+
+| ``[relativeObject]``    | Object, optional                                               | todo        |
++-------------------------+----------------------------------------------------------------+-------------+
+| ``[insertionLocation]`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | todo        |
++-------------------------+----------------------------------------------------------------+-------------+
 
 **Returns**
 
-:ref:`jsobjref/compoundPathItem`
+:ref:`jsobjref/CompoundPathItem`
 
 ----
 
-.. _jsobjref/compoundPathItem.move:
+.. _jsobjref/CompoundPathItem.move:
 
 CompoundPathItem.move()
 ********************************************************************************
@@ -574,13 +574,13 @@ Moves the object.
 
 **Parameters**
 
-+-----------------------+-----------------------------------------------------+-------------+
-|       Parameter       |                        Type                         | Description |
-+=======================+=====================================================+=============+
-| ``relativeObject``    | Object                                              | todo        |
-+-----------------------+-----------------------------------------------------+-------------+
-| ``insertionLocation`` | :ref:`jsobjref/scriptingConstants.elementPlacement` | todo        |
-+-----------------------+-----------------------------------------------------+-------------+
++-----------------------+------------------------------------------------------+-------------+
+|       Parameter       |                         Type                         | Description |
++=======================+======================================================+=============+
+| ``relativeObject``    | Object                                               | todo        |
++-----------------------+------------------------------------------------------+-------------+
+| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement` | todo        |
++-----------------------+------------------------------------------------------+-------------+
 
 **Returns**
 
@@ -588,7 +588,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/compoundPathItem.remove:
+.. _jsobjref/CompoundPathItem.remove:
 
 CompoundPathItem.remove()
 ********************************************************************************
@@ -605,7 +605,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/compoundPathItem.resize:
+.. _jsobjref/CompoundPathItem.resize:
 
 CompoundPathItem.resize()
 ********************************************************************************
@@ -623,25 +623,25 @@ Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scal
 
 **Parameters**
 
-+---------------------------+-------------------------------------------------------------+-------------+
-|         Parameter         |                            Type                             | Description |
-+===========================+=============================================================+=============+
-| ``scaleX``                | Number (double)                                             | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``scaleY``                | Number (double)                                             | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changePositions]``     | Boolean, optional                                           | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changeFillPatterns]``  | Boolean, optional                                           | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changeFillGradients]`` | Boolean, optional                                           | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changeStrokePattern]`` | Boolean, optional                                           | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changeLineWidths]``    | Number (double), optional                                   | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[scaleAbout]``          | :ref:`jsobjref/scriptingConstants.Transformation`, optional | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
++---------------------------+--------------------------------------------------------------+-------------+
+|         Parameter         |                             Type                             | Description |
++===========================+==============================================================+=============+
+| ``scaleX``                | Number (double)                                              | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``scaleY``                | Number (double)                                              | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changePositions]``     | Boolean, optional                                            | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changeFillPatterns]``  | Boolean, optional                                            | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changeFillGradients]`` | Boolean, optional                                            | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changeStrokePattern]`` | Boolean, optional                                            | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changeLineWidths]``    | Number (double), optional                                    | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[scaleAbout]``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
 
 **Returns**
 
@@ -649,7 +649,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/compoundPathItem.rotate:
+.. _jsobjref/CompoundPathItem.rotate:
 
 CompoundPathItem.rotate()
 ********************************************************************************
@@ -667,21 +667,21 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 
 **Parameters**
 
-+---------------------------+-------------------------------------------------------------+-------------+
-|         Parameter         |                            Type                             | Description |
-+===========================+=============================================================+=============+
-| ``angle``                 | Mumber (double)                                             | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changePositions]``     | Boolean, optional                                           | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changeFillPatterns]``  | Boolean, optional                                           | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changeFillGradients]`` | Boolean, optional                                           | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changeStrokePattern]`` | Boolean, optional                                           | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[rotateAbout]``         | :ref:`jsobjref/scriptingConstants.Transformation`, optional | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
++---------------------------+--------------------------------------------------------------+-------------+
+|         Parameter         |                             Type                             | Description |
++===========================+==============================================================+=============+
+| ``angle``                 | Mumber (double)                                              | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changePositions]``     | Boolean, optional                                            | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changeFillPatterns]``  | Boolean, optional                                            | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changeFillGradients]`` | Boolean, optional                                            | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changeStrokePattern]`` | Boolean, optional                                            | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[rotateAbout]``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
 
 **Returns**
 
@@ -689,7 +689,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/compoundPathItem.transform:
+.. _jsobjref/CompoundPathItem.transform:
 
 compoundPathItem.transform()
 ********************************************************************************
@@ -707,23 +707,23 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-+---------------------------+-------------------------------------------------------------+-------------+
-|         Parameter         |                            Type                             | Description |
-+===========================+=============================================================+=============+
-| ``transformationMatrix``  | Matrix                                                      | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changePositions]``     | Boolean, optional                                           | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changeFillPatterns]``  | Boolean, optional                                           | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changeFillGradients]`` | Boolean, optional                                           | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changeStrokePattern]`` | Boolean, optional                                           | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[changeLineWidths]``    | Number (double), optional                                   | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
-| ``[transformAbout]``      | :ref:`jsobjref/scriptingConstants.Transformation`, optional | todo        |
-+---------------------------+-------------------------------------------------------------+-------------+
++---------------------------+--------------------------------------------------------------+-------------+
+|         Parameter         |                             Type                             | Description |
++===========================+==============================================================+=============+
+| ``transformationMatrix``  | Matrix                                                       | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changePositions]``     | Boolean, optional                                            | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changeFillPatterns]``  | Boolean, optional                                            | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changeFillGradients]`` | Boolean, optional                                            | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changeStrokePattern]`` | Boolean, optional                                            | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[changeLineWidths]``    | Number (double), optional                                    | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
+| ``[transformAbout]``      | :ref:`jsobjref/scripting-constants.Transformation`, optional | todo        |
++---------------------------+--------------------------------------------------------------+-------------+
 
 **Returns**
 
@@ -731,7 +731,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/compoundPathItem.translate:
+.. _jsobjref/CompoundPathItem.translate:
 
 CompoundPathItem.translate()
 ********************************************************************************
@@ -772,7 +772,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/compoundPathItem.zOrder:
+.. _jsobjref/CompoundPathItem.zOrder:
 
 CompoundPathItem.zOrder()
 ********************************************************************************
@@ -785,11 +785,11 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-+---------------+-------------------------------------------------+-------------+
-|   Parameter   |                      Type                       | Description |
-+===============+=================================================+=============+
-| ``zOrderCmd`` | :ref:`jsobjref/scriptingConstants.ZOrderMethod` | todo        |
-+---------------+-------------------------------------------------+-------------+
++---------------+--------------------------------------------------+-------------+
+|   Parameter   |                       Type                       | Description |
++===============+==================================================+=============+
+| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | todo        |
++---------------+--------------------------------------------------+-------------+
 
 **Returns**
 

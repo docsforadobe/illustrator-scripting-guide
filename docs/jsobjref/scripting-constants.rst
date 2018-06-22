@@ -1,4 +1,4 @@
-.. _jsobjref/scriptingConstants:
+.. _jsobjref/scripting-constants:
 
 Scripting Constants
 ################################################################################
@@ -7,7 +7,7 @@ This chapter lists and describes the enumerations defined for use with Illustrat
 
 ----
 
-.. _jsobjref/scriptingConstants.AlternateGlyphsForm:
+.. _jsobjref/scripting-constants.AlternateGlyphsForm:
 
 AlternateGlyphsForm
 ********************************************************************************
@@ -49,7 +49,7 @@ AlternateGlyphsForm
 
 ----
 
-.. _jsobjref/scriptingConstants.AntiAliasingMethod:
+.. _jsobjref/scripting-constants.AntiAliasingMethod:
 
 AntiAliasingMethod
 ********************************************************************************
@@ -68,7 +68,7 @@ The type of antialiasing method used in the rasterization.
 
 ----
 
-.. _jsobjref/scriptingConstants.ArtClippingOption:
+.. _jsobjref/scripting-constants.ArtClippingOption:
 
 ArtClippingOption
 ********************************************************************************
@@ -87,7 +87,7 @@ How the art should be clipped during output.
 
 ----
 
-.. _jsobjref/scriptingConstants.AutoCADColors:
+.. _jsobjref/scripting-constants.AutoCADColors:
 
 AutoCADColors
 ********************************************************************************
@@ -106,7 +106,7 @@ AutoCADColors
 
 ----
 
-.. _jsobjref/scriptingConstants.AutoCADCompatibility:
+.. _jsobjref/scripting-constants.AutoCADCompatibility:
 
 AutoCADCompatibility
 ********************************************************************************
@@ -129,7 +129,7 @@ AutoCADCompatibility
 
 ----
 
-.. _jsobjref/scriptingConstants.AutoCADExportFileFormat:
+.. _jsobjref/scripting-constants.AutoCADExportFileFormat:
 
 AutoCADExportFileFormat
 ********************************************************************************
@@ -144,7 +144,7 @@ AutoCADExportFileFormat
 
 ----
 
-.. _jsobjref/scriptingConstants.AutoCADExportOption:
+.. _jsobjref/scripting-constants.AutoCADExportOption:
 
 AutoCADExportOption
 ********************************************************************************
@@ -159,7 +159,7 @@ AutoCADExportOption
 
 ----
 
-.. _jsobjref/scriptingConstants.AutoCADGlobalScaleOption:
+.. _jsobjref/scripting-constants.AutoCADGlobalScaleOption:
 
 AutoCADGlobalScaleOption
 ********************************************************************************
@@ -176,7 +176,7 @@ AutoCADGlobalScaleOption
 
 ----
 
-.. _jsobjref/scriptingConstants.AutoCADRasterFormat:
+.. _jsobjref/scripting-constants.AutoCADRasterFormat:
 
 AutoCADRasterFormat
 ********************************************************************************
@@ -191,7 +191,7 @@ AutoCADRasterFormat
 
 ----
 
-.. _jsobjref/scriptingConstants.AutoCADUnit:
+.. _jsobjref/scripting-constants.AutoCADUnit:
 
 AutoCADUnit
 ********************************************************************************
@@ -214,7 +214,7 @@ AutoCADUnit
 
 ----
 
-.. _jsobjref/scriptingConstants.AutoKernType:
+.. _jsobjref/scripting-constants.AutoKernType:
 
 AutoKernType
 ********************************************************************************
@@ -233,7 +233,7 @@ AutoKernType
 
 ----
 
-.. _jsobjref/scriptingConstants.AutoLeadingType:
+.. _jsobjref/scripting-constants.AutoLeadingType:
 
 AutoLeadingType
 ********************************************************************************
@@ -248,7 +248,7 @@ AutoLeadingType
 
 ----
 
-.. _jsobjref/scriptingConstants.BaselineDirectionType:
+.. _jsobjref/scripting-constants.BaselineDirectionType:
 
 BaselineDirectionType
 ********************************************************************************
@@ -265,7 +265,7 @@ BaselineDirectionType
 
 ----
 
-.. _jsobjref/scriptingConstants.BlendAnimationType:
+.. _jsobjref/scripting-constants.BlendAnimationType:
 
 BlendAnimationType
 ********************************************************************************
@@ -282,7 +282,7 @@ BlendAnimationType
 
 ----
 
-.. _jsobjref/scriptingConstants.BlendModes:
+.. _jsobjref/scripting-constants.BlendModes:
 
 BlendModes
 ********************************************************************************
@@ -327,7 +327,7 @@ The blend mode used when compositing an object.
 
 ----
 
-.. _jsobjref/scriptingConstants.BlendsExpandPolicy:
+.. _jsobjref/scripting-constants.BlendsExpandPolicy:
 
 BlendsExpandPolicy
 ********************************************************************************
@@ -344,7 +344,7 @@ Policy used by FXG file format to expand blends.
 
 ----
 
-.. _jsobjref/scriptingConstants.BurasagariTypeEnum:
+.. _jsobjref/scripting-constants.BurasagariTypeEnum:
 
 BurasagariTypeEnum
 ********************************************************************************
@@ -361,7 +361,7 @@ BurasagariTypeEnum
 
 ----
 
-.. _jsobjref/scriptingConstants.CaseChangeType:
+.. _jsobjref/scripting-constants.CaseChangeType:
 
 CaseChangeType
 ********************************************************************************
@@ -380,7 +380,7 @@ CaseChangeType
 
 ----
 
-.. _jsobjref/scriptingConstants.ColorConversion:
+.. _jsobjref/scripting-constants.ColorConversion:
 
 ColorConversion
 ********************************************************************************
@@ -397,7 +397,7 @@ ColorConversion
 
 ----
 
-.. _jsobjref/scriptingConstants.ColorConvertPurpose:
+.. _jsobjref/scripting-constants.ColorConvertPurpose:
 
 ColorConvertPurpose
 ********************************************************************************
@@ -418,7 +418,7 @@ The purpose of color conversion using the ``ConvertSampleColor`` method of the `
 
 ----
 
-.. _jsobjref/scriptingConstants.ColorDestination:
+.. _jsobjref/scripting-constants.ColorDestination:
 
 ColorDestination
 ********************************************************************************
@@ -441,7 +441,7 @@ ColorDestination
 
 ----
 
-.. _jsobjref/scriptingConstants.ColorDitherMethod:
+.. _jsobjref/scripting-constants.ColorDitherMethod:
 
 ColorDitherMethod
 ********************************************************************************
@@ -462,7 +462,7 @@ The method used to dither colors in exported GIF and PNG8 images.
 
 ----
 
-.. _jsobjref/scriptingConstants.ColorModel:
+.. _jsobjref/scripting-constants.ColorModel:
 
 ColorModel
 ********************************************************************************
@@ -479,7 +479,7 @@ ColorModel
 
 ----
 
-.. _jsobjref/scriptingConstants.ColorProfile:
+.. _jsobjref/scripting-constants.ColorProfile:
 
 ColorProfile
 ********************************************************************************
@@ -500,7 +500,7 @@ ColorProfile
 
 ----
 
-.. _jsobjref/scriptingConstants.ColorReductionMethod:
+.. _jsobjref/scripting-constants.ColorReductionMethod:
 
 ColorReductionMethod
 ********************************************************************************
@@ -521,7 +521,7 @@ The method used to reduce the number of colors in exported GIF and PNG8 images.
 
 ----
 
-.. _jsobjref/scriptingConstants.ColorType:
+.. _jsobjref/scripting-constants.ColorType:
 
 ColorType
 ********************************************************************************
@@ -548,7 +548,7 @@ The color specification for an individual color.
 
 ----
 
-.. _jsobjref/scriptingConstants.Compatibility:
+.. _jsobjref/scripting-constants.Compatibility:
 
 Compatibility
 ********************************************************************************
@@ -585,7 +585,7 @@ The version of the Illustrator file to create when saving an EPS or Illustrator 
 
 ----
 
-.. _jsobjref/scriptingConstants.CompressionQuality:
+.. _jsobjref/scripting-constants.CompressionQuality:
 
 CompressionQuality
 ********************************************************************************
@@ -648,7 +648,7 @@ The quality of bitmap compression used when saving a PDF file
 
 ----
 
-.. _jsobjref/scriptingConstants.CoordinateSystem:
+.. _jsobjref/scripting-constants.CoordinateSystem:
 
 CoordinateSystem
 ********************************************************************************
@@ -665,7 +665,7 @@ The coordinate system used by Illustrator
 
 ----
 
-.. _jsobjref/scriptingConstants.CropOptions:
+.. _jsobjref/scripting-constants.CropOptions:
 
 CropOptions
 ********************************************************************************
@@ -682,7 +682,7 @@ The style of a document’s cropping box
 
 ----
 
-.. _jsobjref/scriptingConstants.DocumentArtboardLayout:
+.. _jsobjref/scripting-constants.DocumentArtboardLayout:
 
 DocumentArtboardLayout
 ********************************************************************************
@@ -709,7 +709,7 @@ The layout of in the new document.
 
 ----
 
-.. _jsobjref/scriptingConstants.DocumentColorSpace:
+.. _jsobjref/scripting-constants.DocumentColorSpace:
 
 DocumentColorSpace
 ********************************************************************************
@@ -726,7 +726,7 @@ The color space of a document
 
 ----
 
-.. _jsobjref/scriptingConstants.DocumentLayoutStyle:
+.. _jsobjref/scripting-constants.DocumentLayoutStyle:
 
 DocumentLayoutStyle
 ********************************************************************************
@@ -749,7 +749,7 @@ The color space of a document.
 
 ----
 
-.. _jsobjref/scriptingConstants.DocumentPresetType:
+.. _jsobjref/scripting-constants.DocumentPresetType:
 
 DocumentPresetType
 ********************************************************************************
@@ -774,7 +774,7 @@ The preset types available for new documents.
 
 ----
 
-.. _jsobjref/scriptingConstants.DocumentPreviewMode:
+.. _jsobjref/scripting-constants.DocumentPreviewMode:
 
 DocumentPreviewMode
 ********************************************************************************
@@ -793,7 +793,7 @@ The document preview mode.
 
 ----
 
-.. _jsobjref/scriptingConstants.DocumentRasterResolution:
+.. _jsobjref/scripting-constants.DocumentRasterResolution:
 
 DocumentRasterResolution
 ********************************************************************************
@@ -812,7 +812,7 @@ The preset document raster resolution.
 
 ----
 
-.. _jsobjref/scriptingConstants.DocumentTransparencyGrid:
+.. _jsobjref/scripting-constants.DocumentTransparencyGrid:
 
 DocumentTransparencyGrid
 ********************************************************************************
@@ -843,7 +843,7 @@ Document transparency grid colors.
 
 ----
 
-.. _jsobjref/scriptingConstants.DocumentType:
+.. _jsobjref/scripting-constants.DocumentType:
 
 DocumentType
 ********************************************************************************
@@ -864,7 +864,7 @@ The file format used to save a file.
 
 ----
 
-.. _jsobjref/scriptingConstants.DownsampleMethod:
+.. _jsobjref/scripting-constants.DownsampleMethod:
 
 DownsampleMethod
 ********************************************************************************
@@ -883,7 +883,7 @@ DownsampleMethod
 
 ----
 
-.. _jsobjref/scriptingConstants.ElementPlacement:
+.. _jsobjref/scripting-constants.ElementPlacement:
 
 ElementPlacement
 ********************************************************************************
@@ -904,7 +904,7 @@ ElementPlacement
 
 ----
 
-.. _jsobjref/scriptingConstants.EPSPostScriptLevelEnum:
+.. _jsobjref/scripting-constants.EPSPostScriptLevelEnum:
 
 EPSPostScriptLevelEnum
 ********************************************************************************
@@ -919,7 +919,7 @@ EPSPostScriptLevelEnum
 
 ----
 
-.. _jsobjref/scriptingConstants.EPSPreview:
+.. _jsobjref/scripting-constants.EPSPreview:
 
 EPSPreview
 ********************************************************************************
@@ -940,7 +940,7 @@ The preview image format used when saving an EPS file
 
 ----
 
-.. _jsobjref/scriptingConstants.ExportType:
+.. _jsobjref/scripting-constants.ExportType:
 
 ExportType
 ********************************************************************************
@@ -971,7 +971,7 @@ The file format used to export a file
 
 ----
 
-.. _jsobjref/scriptingConstants.FigureStyleType:
+.. _jsobjref/scripting-constants.FigureStyleType:
 
 FigureStyleType
 ********************************************************************************
@@ -992,7 +992,7 @@ FigureStyleType
 
 ----
 
-.. _jsobjref/scriptingConstants.FiltersPreservePolicy:
+.. _jsobjref/scripting-constants.FiltersPreservePolicy:
 
 FiltersPreservePolicy
 ********************************************************************************
@@ -1011,7 +1011,7 @@ The filters preserve policy used by the FXG file format.
 
 ----
 
-.. _jsobjref/scriptingConstants.FlashExportStyle:
+.. _jsobjref/scripting-constants.FlashExportStyle:
 
 FlashExportStyle
 ********************************************************************************
@@ -1034,7 +1034,7 @@ The method used to convert Illustrator images when exporting files
 
 ----
 
-.. _jsobjref/scriptingConstants.FlashExportVersion:
+.. _jsobjref/scripting-constants.FlashExportVersion:
 
 FlashExportVersion
 ********************************************************************************
@@ -1065,7 +1065,7 @@ Version for exported SWF file.
 
 ----
 
-.. _jsobjref/scriptingConstants.FlashImageFormat:
+.. _jsobjref/scripting-constants.FlashImageFormat:
 
 FlashImageFormat
 ********************************************************************************
@@ -1082,7 +1082,7 @@ The format used to store flash images.
 
 ----
 
-.. _jsobjref/scriptingConstants.FlashJPEGMethod:
+.. _jsobjref/scripting-constants.FlashJPEGMethod:
 
 FlashJPEGMethod
 ********************************************************************************
@@ -1099,7 +1099,7 @@ The method used to store JPEG images.
 
 ----
 
-.. _jsobjref/scriptingConstants.FlashPlaybackSecurity:
+.. _jsobjref/scripting-constants.FlashPlaybackSecurity:
 
 FlashPlaybackSecurity
 ********************************************************************************
@@ -1114,7 +1114,7 @@ FlashPlaybackSecurity
 
 ----
 
-.. _jsobjref/scriptingConstants.FontBaselineOption:
+.. _jsobjref/scripting-constants.FontBaselineOption:
 
 FontBaselineOption
 ********************************************************************************
@@ -1131,7 +1131,7 @@ FontBaselineOption
 
 ----
 
-.. _jsobjref/scriptingConstants.FontCapsOption:
+.. _jsobjref/scripting-constants.FontCapsOption:
 
 FontCapsOption
 ********************************************************************************
@@ -1150,7 +1150,7 @@ FontCapsOption
 
 ----
 
-.. _jsobjref/scriptingConstants.FontOpenTypePositionOption:
+.. _jsobjref/scripting-constants.FontOpenTypePositionOption:
 
 FontOpenTypePositionOption
 ********************************************************************************
@@ -1171,7 +1171,7 @@ FontOpenTypePositionOption
 
 ----
 
-.. _jsobjref/scriptingConstants.FontSubstitutionPolicy:
+.. _jsobjref/scripting-constants.FontSubstitutionPolicy:
 
 FontSubstitutionPolicy
 ********************************************************************************
@@ -1188,7 +1188,7 @@ FontSubstitutionPolicy
 
 ----
 
-.. _jsobjref/scriptingConstants.FXGVersion:
+.. _jsobjref/scripting-constants.FXGVersion:
 
 FXGVersion
 ********************************************************************************
@@ -1205,7 +1205,7 @@ The FXG file-format version.
 
 ----
 
-.. _jsobjref/scriptingConstants.GradientsPreservePolicy:
+.. _jsobjref/scripting-constants.GradientsPreservePolicy:
 
 GradientsPreservePolicy
 ********************************************************************************
@@ -1222,7 +1222,7 @@ The gradients preserve policy used by the FXG file format.
 
 ----
 
-.. _jsobjref/scriptingConstants.GradientType:
+.. _jsobjref/scripting-constants.GradientType:
 
 GradientType
 ********************************************************************************
@@ -1239,7 +1239,7 @@ The type of gradient.
 
 ----
 
-.. _jsobjref/scriptingConstants.ImageColorSpace:
+.. _jsobjref/scripting-constants.ImageColorSpace:
 
 ImageColorSpace
 ********************************************************************************
@@ -1266,7 +1266,7 @@ The color space of a raster item or an exported file
 
 ----
 
-.. _jsobjref/scriptingConstants.InkPrintStatus:
+.. _jsobjref/scripting-constants.InkPrintStatus:
 
 InkPrintStatus
 ********************************************************************************
@@ -1283,7 +1283,7 @@ InkPrintStatus
 
 ----
 
-.. _jsobjref/scriptingConstants.InkType:
+.. _jsobjref/scripting-constants.InkType:
 
 InkType
 ********************************************************************************
@@ -1304,7 +1304,7 @@ InkType
 
 ----
 
-.. _jsobjref/scriptingConstants.JavaScriptExecutionMode:
+.. _jsobjref/scripting-constants.JavaScriptExecutionMode:
 
 JavaScriptExecutionMode
 ********************************************************************************
@@ -1321,7 +1321,7 @@ JavaScriptExecutionMode
 
 ----
 
-.. _jsobjref/scriptingConstants.Justification:
+.. _jsobjref/scripting-constants.Justification:
 
 Justification
 ********************************************************************************
@@ -1348,7 +1348,7 @@ The alignment or justification for a paragraph of text.
 
 ----
 
-.. _jsobjref/scriptingConstants.KinsokuOrderEnum:
+.. _jsobjref/scripting-constants.KinsokuOrderEnum:
 
 KinsokuOrderEnum
 ********************************************************************************
@@ -1365,7 +1365,7 @@ KinsokuOrderEnum
 
 ----
 
-.. _jsobjref/scriptingConstants.KnockoutState:
+.. _jsobjref/scripting-constants.KnockoutState:
 
 KnockoutState
 ********************************************************************************
@@ -1386,7 +1386,7 @@ The type of knockout to use on a page item.
 
 ----
 
-.. _jsobjref/scriptingConstants.LanguageType:
+.. _jsobjref/scripting-constants.LanguageType:
 
 LanguageType
 ********************************************************************************
@@ -1465,7 +1465,7 @@ LanguageType
 
 ----
 
-.. _jsobjref/scriptingConstants.LayerOrderType:
+.. _jsobjref/scripting-constants.LayerOrderType:
 
 LayerOrderType
 ********************************************************************************
@@ -1480,7 +1480,7 @@ LayerOrderType
 
 ----
 
-.. _jsobjref/scriptingConstants.LibraryType:
+.. _jsobjref/scripting-constants.LibraryType:
 
 LibraryType
 ********************************************************************************
@@ -1503,7 +1503,7 @@ Illustrator library type.
 
 ----
 
-.. _jsobjref/scriptingConstants.MonochromeCompression:
+.. _jsobjref/scripting-constants.MonochromeCompression:
 
 MonochromeCompression
 ********************************************************************************
@@ -1526,7 +1526,7 @@ The type of compression to use on a monochrome bitmap item when saving a PDF fil
 
 ----
 
-.. _jsobjref/scriptingConstants.OutputFlattening:
+.. _jsobjref/scripting-constants.OutputFlattening:
 
 OutputFlattening
 ********************************************************************************
@@ -1543,7 +1543,7 @@ How transparency should be flattened when saving EPS and Illustrator file format
 
 ----
 
-.. _jsobjref/scriptingConstants.PageMarksTypes:
+.. _jsobjref/scripting-constants.PageMarksTypes:
 
 PageMarksTypes
 ********************************************************************************
@@ -1558,7 +1558,7 @@ PageMarksTypes
 
 ----
 
-.. _jsobjref/scriptingConstants.PathPointSelection:
+.. _jsobjref/scripting-constants.PathPointSelection:
 
 PathPointSelection
 ********************************************************************************
@@ -1581,7 +1581,7 @@ Which points, if any, of a path are selected.
 
 ----
 
-.. _jsobjref/scriptingConstants.PDFBoxType:
+.. _jsobjref/scripting-constants.PDFBoxType:
 
 PDFBoxType
 ********************************************************************************
@@ -1604,7 +1604,7 @@ PDFBoxType
 
 ----
 
-.. _jsobjref/scriptingConstants.PDFChangesAllowedEnum:
+.. _jsobjref/scripting-constants.PDFChangesAllowedEnum:
 
 PDFChangesAllowedEnum
 ********************************************************************************
@@ -1633,7 +1633,7 @@ PDFChangesAllowedEnum
 
 ----
 
-.. _jsobjref/scriptingConstants.PDFCompatibility:
+.. _jsobjref/scripting-constants.PDFCompatibility:
 
 PDFCompatibility
 ********************************************************************************
@@ -1656,7 +1656,7 @@ The version of the Acrobat file format to create when saving a PDF file
 
 ----
 
-.. _jsobjref/scriptingConstants.PDFOverprint:
+.. _jsobjref/scripting-constants.PDFOverprint:
 
 PDFOverprint
 ********************************************************************************
@@ -1671,7 +1671,7 @@ PDFOverprint
 
 ----
 
-.. _jsobjref/scriptingConstants.PDFPrintAllowedEnum:
+.. _jsobjref/scripting-constants.PDFPrintAllowedEnum:
 
 PDFPrintAllowedEnum
 ********************************************************************************
@@ -1692,7 +1692,7 @@ PDFPrintAllowedEnum
 
 ----
 
-.. _jsobjref/scriptingConstants.PDFTrimMarkWeight:
+.. _jsobjref/scripting-constants.PDFTrimMarkWeight:
 
 PDFTrimMarkWeight
 ********************************************************************************
@@ -1709,7 +1709,7 @@ PDFTrimMarkWeight
 
 ----
 
-.. _jsobjref/scriptingConstants.PDFXStandard:
+.. _jsobjref/scripting-constants.PDFXStandard:
 
 PDFXStandard
 ********************************************************************************
@@ -1732,7 +1732,7 @@ PDFXStandard
 
 ----
 
-.. _jsobjref/scriptingConstants.PerspectiveGridType:
+.. _jsobjref/scripting-constants.PerspectiveGridType:
 
 PerspectiveGridType
 ********************************************************************************
@@ -1751,7 +1751,7 @@ PerspectiveGridType
 
 ----
 
-.. _jsobjref/scriptingConstants.PerspectiveGridPlaneType:
+.. _jsobjref/scripting-constants.PerspectiveGridPlaneType:
 
 PerspectiveGridPlaneType
 ********************************************************************************
@@ -1770,7 +1770,7 @@ PerspectiveGridPlaneType
 
 ----
 
-.. _jsobjref/scriptingConstants.PhotoshopCompatibility:
+.. _jsobjref/scripting-constants.PhotoshopCompatibility:
 
 PhotoshopCompatibility
 ********************************************************************************
@@ -1785,7 +1785,7 @@ PhotoshopCompatibility
 
 ----
 
-.. _jsobjref/scriptingConstants.PointType:
+.. _jsobjref/scripting-constants.PointType:
 
 PointType
 ********************************************************************************
@@ -1802,7 +1802,7 @@ The type of path point selected
 
 ----
 
-.. _jsobjref/scriptingConstants.PolarityValues:
+.. _jsobjref/scripting-constants.PolarityValues:
 
 PolarityValues
 ********************************************************************************
@@ -1817,7 +1817,7 @@ PolarityValues
 
 ----
 
-.. _jsobjref/scriptingConstants.PostScriptImageCompressionType:
+.. _jsobjref/scripting-constants.PostScriptImageCompressionType:
 
 PostScriptImageCompressionType
 ********************************************************************************
@@ -1834,7 +1834,7 @@ PostScriptImageCompressionType
 
 ----
 
-.. _jsobjref/scriptingConstants.PrintArtworkDesignation:
+.. _jsobjref/scripting-constants.PrintArtworkDesignation:
 
 PrintArtworkDesignation
 ********************************************************************************
@@ -1851,7 +1851,7 @@ PrintArtworkDesignation
 
 ----
 
-.. _jsobjref/scriptingConstants.PrintColorIntent:
+.. _jsobjref/scripting-constants.PrintColorIntent:
 
 PrintColorIntent
 ********************************************************************************
@@ -1870,7 +1870,7 @@ PrintColorIntent
 
 ----
 
-.. _jsobjref/scriptingConstants.PrintColorProfile:
+.. _jsobjref/scripting-constants.PrintColorProfile:
 
 PrintColorProfile
 ********************************************************************************
@@ -1889,7 +1889,7 @@ PrintColorProfile
 
 ----
 
-.. _jsobjref/scriptingConstants.PrintColorSeparationMode:
+.. _jsobjref/scripting-constants.PrintColorSeparationMode:
 
 PrintColorSeparationMode
 ********************************************************************************
@@ -1906,7 +1906,7 @@ PrintColorSeparationMode
 
 ----
 
-.. _jsobjref/scriptingConstants.PrinterColorMode:
+.. _jsobjref/scripting-constants.PrinterColorMode:
 
 PrinterColorMode
 ********************************************************************************
@@ -1923,7 +1923,7 @@ PrinterColorMode
 
 ----
 
-.. _jsobjref/scriptingConstants.PrinterPostScriptLevelEnum:
+.. _jsobjref/scripting-constants.PrinterPostScriptLevelEnum:
 
 PrinterPostScriptLevelEnum
 ********************************************************************************
@@ -1940,7 +1940,7 @@ PrinterPostScriptLevelEnum
 
 ----
 
-.. _jsobjref/scriptingConstants.PrinterTypeEnum:
+.. _jsobjref/scripting-constants.PrinterTypeEnum:
 
 PrinterTypeEnum
 ********************************************************************************
@@ -1957,7 +1957,7 @@ PrinterTypeEnum
 
 ----
 
-.. _jsobjref/scriptingConstants.PrintFontDownloadMode:
+.. _jsobjref/scripting-constants.PrintFontDownloadMode:
 
 PrintFontDownloadMode
 ********************************************************************************
@@ -1974,7 +1974,7 @@ PrintFontDownloadMode
 
 ----
 
-.. _jsobjref/scriptingConstants.PrintingBounds:
+.. _jsobjref/scripting-constants.PrintingBounds:
 
 PrintingBounds
 ********************************************************************************
@@ -1989,7 +1989,7 @@ PrintingBounds
 
 ----
 
-.. _jsobjref/scriptingConstants.PrintOrientation:
+.. _jsobjref/scripting-constants.PrintOrientation:
 
 PrintOrientation
 ********************************************************************************
@@ -2012,7 +2012,7 @@ The artwork printing orientation.
 
 ----
 
-.. _jsobjref/scriptingConstants.PrintPosition:
+.. _jsobjref/scripting-constants.PrintPosition:
 
 PrintPosition
 ********************************************************************************
@@ -2041,7 +2041,7 @@ PrintPosition
 
 ----
 
-.. _jsobjref/scriptingConstants.PrintTiling:
+.. _jsobjref/scripting-constants.PrintTiling:
 
 PrintTiling
 ********************************************************************************
@@ -2058,7 +2058,7 @@ PrintTiling
 
 ----
 
-.. _jsobjref/scriptingConstants.RasterizationColorModel:
+.. _jsobjref/scripting-constants.RasterizationColorModel:
 
 RasterizationColorModel
 ********************************************************************************
@@ -2077,7 +2077,7 @@ The color model for the rasterization.
 
 ----
 
-.. _jsobjref/scriptingConstants.RasterLinkState:
+.. _jsobjref/scripting-constants.RasterLinkState:
 
 RasterLinkState
 ********************************************************************************
@@ -2096,7 +2096,7 @@ The status of a raster item’s linked image if the image is stored externally
 
 ----
 
-.. _jsobjref/scriptingConstants.RulerUnits:
+.. _jsobjref/scripting-constants.RulerUnits:
 
 RulerUnits
 ********************************************************************************
@@ -2125,7 +2125,7 @@ The default measurement units for the rulers of a document
 
 ----
 
-.. _jsobjref/scriptingConstants.SaveOptions:
+.. _jsobjref/scripting-constants.SaveOptions:
 
 SaveOptions
 ********************************************************************************
@@ -2144,7 +2144,7 @@ Save options provided when closing a document.
 
 ----
 
-.. _jsobjref/scriptingConstants.ScreenMode:
+.. _jsobjref/scripting-constants.ScreenMode:
 
 ScreenMode
 ********************************************************************************
@@ -2163,7 +2163,7 @@ The mode of display for a view.
 
 ----
 
-.. _jsobjref/scriptingConstants.SpotColorKind:
+.. _jsobjref/scripting-constants.SpotColorKind:
 
 SpotColorKind
 ********************************************************************************
@@ -2182,7 +2182,7 @@ The custom color kind of a spot color.
 
 ----
 
-.. _jsobjref/scriptingConstants.StrokeCap:
+.. _jsobjref/scripting-constants.StrokeCap:
 
 StrokeCap
 ********************************************************************************
@@ -2201,7 +2201,7 @@ The type of line capping for a path stroke.
 
 ----
 
-.. _jsobjref/scriptingConstants.StrokeJoin:
+.. _jsobjref/scripting-constants.StrokeJoin:
 
 StrokeJoin
 ********************************************************************************
@@ -2220,7 +2220,7 @@ The type of joints for a path stroke.
 
 ----
 
-.. _jsobjref/scriptingConstants.StyleRunAlignmentType:
+.. _jsobjref/scripting-constants.StyleRunAlignmentType:
 
 StyleRunAlignmentType
 ********************************************************************************
@@ -2243,7 +2243,7 @@ StyleRunAlignmentType
 
 ----
 
-.. _jsobjref/scriptingConstants.SVGCSSPropertyLocation:
+.. _jsobjref/scripting-constants.SVGCSSPropertyLocation:
 
 SVGCSSPropertyLocation
 ********************************************************************************
@@ -2264,7 +2264,7 @@ How should the CSS properties of the document be included in an exported SVG fil
 
 ----
 
-.. _jsobjref/scriptingConstants.SVGDocumentEncoding:
+.. _jsobjref/scripting-constants.SVGDocumentEncoding:
 
 SVGDocumentEncoding
 ********************************************************************************
@@ -2283,7 +2283,7 @@ How should the text in the document be encoded when exporting an SVG file
 
 ----
 
-.. _jsobjref/scriptingConstants.SVGDTDVersion:
+.. _jsobjref/scripting-constants.SVGDTDVersion:
 
 SVGDTDVersion
 ********************************************************************************
@@ -2308,7 +2308,7 @@ SVB version compatibility for exported files
 
 ----
 
-.. _jsobjref/scriptingConstants.SVGFontSubsetting:
+.. _jsobjref/scripting-constants.SVGFontSubsetting:
 
 SVGFontSubsetting
 ********************************************************************************
@@ -2335,7 +2335,7 @@ What font glyphs should be included in exported SVG files
 
 ----
 
-.. _jsobjref/scriptingConstants.SVGFontType:
+.. _jsobjref/scripting-constants.SVGFontType:
 
 SVGFontType
 ********************************************************************************
@@ -2354,7 +2354,7 @@ Types for fonts included in exported SVG files
 
 ----
 
-.. _jsobjref/scriptingConstants.SymbolRegistrationPoint:
+.. _jsobjref/scripting-constants.SymbolRegistrationPoint:
 
 SymbolRegistrationPoint
 ********************************************************************************
@@ -2385,7 +2385,7 @@ Registration points for symbols.
 
 ----
 
-.. _jsobjref/scriptingConstants.TabStopAlignment:
+.. _jsobjref/scripting-constants.TabStopAlignment:
 
 TabStopAlignment
 ********************************************************************************
@@ -2406,7 +2406,7 @@ The alignment of a tab stop.
 
 ----
 
-.. _jsobjref/scriptingConstants.TextAntialias:
+.. _jsobjref/scripting-constants.TextAntialias:
 
 TextAntialias
 ********************************************************************************
@@ -2427,7 +2427,7 @@ The type of text anti-aliasing in a text art item.
 
 ----
 
-.. _jsobjref/scriptingConstants.TextOrientation:
+.. _jsobjref/scripting-constants.TextOrientation:
 
 TextOrientation
 ********************************************************************************
@@ -2444,7 +2444,7 @@ The orientation of text in a text art item.
 
 ----
 
-.. _jsobjref/scriptingConstants.TextPreservePolicy:
+.. _jsobjref/scripting-constants.TextPreservePolicy:
 
 TextPreservePolicy
 ********************************************************************************
@@ -2465,7 +2465,7 @@ The text-preserve policy used by the FXG file format.
 
 ----
 
-.. _jsobjref/scriptingConstants.TextType:
+.. _jsobjref/scripting-constants.TextType:
 
 TextType
 ********************************************************************************
@@ -2484,7 +2484,7 @@ The type of text art displayed by this object.
 
 ----
 
-.. _jsobjref/scriptingConstants.TIFFByteOrder:
+.. _jsobjref/scripting-constants.TIFFByteOrder:
 
 TIFFByteOrder
 ********************************************************************************
@@ -2501,7 +2501,7 @@ The byte order to use for an exported TIFF file.
 
 ----
 
-.. _jsobjref/scriptingConstants.TracingModeType:
+.. _jsobjref/scripting-constants.TracingModeType:
 
 TracingModeType
 ********************************************************************************
@@ -2518,7 +2518,7 @@ TracingModeType
 
 ----
 
-.. _jsobjref/scriptingConstants.Transformation:
+.. _jsobjref/scripting-constants.Transformation:
 
 Transformation
 ********************************************************************************
@@ -2551,7 +2551,7 @@ The point to use as the anchor point about which an object is rotated, resized, 
 
 ----
 
-.. _jsobjref/scriptingConstants.TrappingType:
+.. _jsobjref/scripting-constants.TrappingType:
 
 TrappingType
 ********************************************************************************
@@ -2570,7 +2570,7 @@ TrappingType
 
 ----
 
-.. _jsobjref/scriptingConstants.UserInteractionLevel:
+.. _jsobjref/scripting-constants.UserInteractionLevel:
 
 UserInteractionLevel
 ********************************************************************************
@@ -2587,7 +2587,7 @@ User interface settings
 
 ----
 
-.. _jsobjref/scriptingConstants.VariableKind:
+.. _jsobjref/scripting-constants.VariableKind:
 
 VariableKind
 ********************************************************************************
@@ -2610,7 +2610,7 @@ What type of variables are included in the document.
 
 ----
 
-.. _jsobjref/scriptingConstants.ViewRasterType:
+.. _jsobjref/scripting-constants.ViewRasterType:
 
 ViewRasterType
 ********************************************************************************
@@ -2631,7 +2631,7 @@ The raster visualization mode for tracing.
 
 ----
 
-.. _jsobjref/scriptingConstants.ViewVectorType:
+.. _jsobjref/scripting-constants.ViewVectorType:
 
 ViewVectorType
 ********************************************************************************
@@ -2652,7 +2652,7 @@ The vector visualization mode for tracing.
 
 ----
 
-.. _jsobjref/scriptingConstants.WariChuJustificationType:
+.. _jsobjref/scripting-constants.WariChuJustificationType:
 
 WariChuJustificationType
 ********************************************************************************
@@ -2679,7 +2679,7 @@ WariChuJustificationType
 
 ----
 
-.. _jsobjref/scriptingConstants.ZOrderMethod:
+.. _jsobjref/scripting-constants.ZOrderMethod:
 
 ZOrderMethod
 ********************************************************************************

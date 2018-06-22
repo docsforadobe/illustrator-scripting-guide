@@ -1,4 +1,4 @@
-.. _jsobjref/variables:
+.. _jsobjref/Variables:
 
 Variables
 ################################################################################
@@ -9,7 +9,7 @@ Variables
 
 The collection of Variable objects in the document.
 
-For an example of how to create variables, see :ref:`jsobjref/dataset.usingVariablesAndDatasets`.
+For an example of how to create variables, see :ref:`jsobjref/Dataset.usingVariablesAndDatasets`.
 
 ----
 
@@ -17,7 +17,7 @@ For an example of how to create variables, see :ref:`jsobjref/dataset.usingVaria
 Properties
 ==========
 
-.. _jsobjref/variables.length:
+.. _jsobjref/Variables.length:
 
 Variables.length
 ********************************************************************************
@@ -34,7 +34,7 @@ Number; read-only.
 
 ----
 
-.. _jsobjref/variables.parent:
+.. _jsobjref/Variables.parent:
 
 Variables.parent
 ********************************************************************************
@@ -51,7 +51,7 @@ Object; read-only.
 
 ----
 
-.. _jsobjref/variables.typename:
+.. _jsobjref/Variables.typename:
 
 Variables.typename
 ********************************************************************************
@@ -72,7 +72,7 @@ String; read-only.
 Methods
 =======
 
-.. _jsobjref/variables.add:
+.. _jsobjref/Variables.add:
 
 Variables.add()
 ********************************************************************************
@@ -89,7 +89,7 @@ Adds a new variable to the collection.
 
 ----
 
-.. _jsobjref/variables.getByName:
+.. _jsobjref/Variables.getByName:
 
 Variables.getByName()
 ********************************************************************************
@@ -114,7 +114,7 @@ Get the first element in the collection with the provided name.
 
 ----
 
-.. _jsobjref/variables.index:
+.. _jsobjref/Variables.index:
 
 Variables.index()
 ********************************************************************************
@@ -139,7 +139,7 @@ Gets an element from the collection.
 
 ----
 
-.. _jsobjref/variables.removeAll:
+.. _jsobjref/Variables.removeAll:
 
 Variables.removeAll()
 ********************************************************************************

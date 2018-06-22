@@ -1,4 +1,4 @@
-.. _jsobjref/views:
+.. _jsobjref/Views:
 
 Views
 ################################################################################
@@ -7,7 +7,7 @@ Views
 
 **Description**
 
-A collection of :ref:`jsobjref/view` objects in a document.
+A collection of :ref:`jsobjref/View` objects in a document.
 
 ----
 
@@ -15,7 +15,7 @@ A collection of :ref:`jsobjref/view` objects in a document.
 Properties
 ==========
 
-.. _jsobjref/views.length:
+.. _jsobjref/Views.length:
 
 Views.length
 ********************************************************************************
@@ -32,7 +32,7 @@ Number; read-only.
 
 ----
 
-.. _jsobjref/views.parent:
+.. _jsobjref/Views.parent:
 
 Views.parent
 ********************************************************************************
@@ -49,7 +49,7 @@ Object; read-only.
 
 ----
 
-.. _jsobjref/views.typename:
+.. _jsobjref/Views.typename:
 
 Views.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String; read-only.
 Methods
 =======
 
-.. _jsobjref/views.index:
+.. _jsobjref/Views.index:
 
 Views.index()
 ********************************************************************************

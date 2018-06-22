@@ -1,4 +1,4 @@
-.. _jsobjref/artboards:
+.. _jsobjref/Artboards:
 
 Artboards
 ################################################################################
@@ -13,7 +13,7 @@ A collection of Artboard objects.
 Properties
 ==========
 
-.. _jsobjref/artboards.length:
+.. _jsobjref/Artboards.length:
 
 Artboards.length
 ********************************************************************************
@@ -30,7 +30,7 @@ Number; read-only.
 
 ----
 
-.. _jsobjref/artboards.parent:
+.. _jsobjref/Artboards.parent:
 
 Artboards.parent
 ********************************************************************************
@@ -43,12 +43,12 @@ The name of the object that contains this dataset
 
 **Type**
 
-:ref:`jsobjref/artboard`; read-only.
+:ref:`jsobjref/Artboard`; read-only.
 
 
 ----
 
-.. _jsobjref/artboards.typename:
+.. _jsobjref/Artboards.typename:
 
 Artboards.typename
 ********************************************************************************
@@ -69,7 +69,7 @@ String; read-only.
 Methods
 =======
 
-.. _jsobjref/artboards.add:
+.. _jsobjref/Artboards.add:
 
 Artboards.add()
 ********************************************************************************
@@ -90,11 +90,11 @@ Creates a new Artboard object.
 
 **Returns**
 
-:ref:`jsobjref/artboard`
+:ref:`jsobjref/Artboard`
 
 ----
 
-.. _jsobjref/artboards.getActiveArtboardIndex:
+.. _jsobjref/Artboards.getActiveArtboardIndex:
 
 Artboards.getActiveArtboardIndex()
 ********************************************************************************
@@ -113,7 +113,7 @@ Number (long)
 
 ----
 
-.. _jsobjref/artboards.getByName:
+.. _jsobjref/Artboards.getByName:
 
 Artboards.getByName()
 ********************************************************************************
@@ -134,11 +134,11 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-:ref:`jsobjref/artboard`
+:ref:`jsobjref/Artboard`
 
 ----
 
-.. _jsobjref/artboards.insert:
+.. _jsobjref/Artboards.insert:
 
 Artboards.insert()
 ********************************************************************************
@@ -165,7 +165,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/artboards.remove:
+.. _jsobjref/Artboards.remove:
 
 Artboards.remove()
 ********************************************************************************
@@ -190,7 +190,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/artboards.setActiveArtboardIndex:
+.. _jsobjref/Artboards.setActiveArtboardIndex:
 
 Artboards.setActiveArtboardIndex()
 ********************************************************************************

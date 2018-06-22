@@ -14,11 +14,11 @@ Subclasses are:
 .. toctree::
   :maxdepth: 2
 
-  cmykColor
-  gradientColor
-  grayColor
-  labColor
-  noColor
-  patternColor
-  rgbColor
-  spotColor
+  CMYKColor
+  GradientColor
+  GrayColor
+  LABColor
+  NoColor
+  PatternColor
+  RGBColor
+  SpotColor

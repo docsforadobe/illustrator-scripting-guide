@@ -1,6 +1,6 @@
-.. _jsobjref/fxgSaveOptions:
+.. _jsobjref/FXGSaveOptions:
 
-FXG Save Options
+FXGSaveOptions
 ################################################################################
 
 ``fxgSaveOptions``
@@ -15,7 +15,7 @@ Specifies options which may be supplied when saving a document as an FXG file. A
 Properties
 ==========
 
-.. _jsobjref/fxgSaveOptions.artboardRange:
+.. _jsobjref/FXGSaveOptions.artboardRange:
 
 FXGSaveOptions.artboardRange
 ********************************************************************************
@@ -32,7 +32,7 @@ String.
 
 ----
 
-.. _jsobjref/fxgSaveOptions.blendsPolicy:
+.. _jsobjref/FXGSaveOptions.blendsPolicy:
 
 FXGSaveOptions.blendsPolicy
 ********************************************************************************
@@ -45,11 +45,11 @@ The policy used by FXG to expand blends. Default: ``BlendsExpandPolicy.AUTOMATIC
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.blendsExpandPolicy`
+:ref:`jsobjref/scripting-constants.BlendsExpandPolicy`
 
 ----
 
-.. _jsobjref/fxgSaveOptions.downsampleLinkedImages:
+.. _jsobjref/FXGSaveOptions.downsampleLinkedImages:
 
 FXGSaveOptions.downsampleLinkedImages
 ********************************************************************************
@@ -66,7 +66,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/fxgSaveOptions.filtersPolicy:
+.. _jsobjref/FXGSaveOptions.filtersPolicy:
 
 FXGSaveOptions.filtersPolicy
 ********************************************************************************
@@ -79,11 +79,11 @@ The policy used by FXG to preserve filters. Default: ``FiltersPreservePolicy.KEE
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.filtersPreservePolicy`
+:ref:`jsobjref/scripting-constants.FiltersPreservePolicy`
 
 ----
 
-.. _jsobjref/fxgSaveOptions.gradientsPolicy:
+.. _jsobjref/FXGSaveOptions.gradientsPolicy:
 
 FXGSaveOptions.gradientsPolicy
 ********************************************************************************
@@ -96,11 +96,11 @@ The policy used by FXG to preserve gradients. Default: ``GradientsPreservePolicy
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.gradientsPreservePolicy`
+:ref:`jsobjref/scripting-constants.GradientsPreservePolicy`
 
 ----
 
-.. _jsobjref/fxgSaveOptions.includeUnusedSymbols:
+.. _jsobjref/FXGSaveOptions.includeUnusedSymbols:
 
 FXGSaveOptions.includeUnusedSymbols
 ********************************************************************************
@@ -117,7 +117,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/fxgSaveOptions.preserveEditingCapabilities:
+.. _jsobjref/FXGSaveOptions.preserveEditingCapabilities:
 
 FXGSaveOptions.preserveEditingCapabilities
 ********************************************************************************
@@ -134,7 +134,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/fxgSaveOptions.saveMultipleArtboards:
+.. _jsobjref/FXGSaveOptions.saveMultipleArtboards:
 
 FXGSaveOptions.saveMultipleArtboards
 ********************************************************************************
@@ -151,7 +151,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/fxgSaveOptions.textPolicy:
+.. _jsobjref/FXGSaveOptions.textPolicy:
 
 FXGSaveOptions.textPolicy
 ********************************************************************************
@@ -164,11 +164,11 @@ The policy used by FXG to preserve text. Default: ``TextPreservePolicy.AUTOMATIC
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.textPreservePolicy`
+:ref:`jsobjref/scripting-constants.TextPreservePolicy`
 
 ----
 
-.. _jsobjref/fxgSaveOptions.version:
+.. _jsobjref/FXGSaveOptions.version:
 
 FXGSaveOptions.version
 ********************************************************************************
@@ -181,4 +181,4 @@ The version of the FXG file format to create. Default ``FXGVersion.VERSION2PT0``
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.fxgVersion`
+:ref:`jsobjref/scripting-constants.FXGVersion`

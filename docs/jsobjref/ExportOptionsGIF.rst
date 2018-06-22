@@ -1,13 +1,13 @@
-.. _jsobjref/exportOptionsGIF:
+.. _jsobjref/ExportOptionsGIF:
 
-Export Options GIF
+ExportOptionsGIF
 ################################################################################
 
 ``exportOptionsGIF``
 
 **Description**
 
-Options for exporting a document as a GIF file, used with the :ref:`jsobjref/document.exportFile` method. All properties are optional.
+Options for exporting a document as a GIF file, used with the :ref:`jsobjref/Document.exportFile` method. All properties are optional.
 
 When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
@@ -17,7 +17,7 @@ When you export a document, the appropriate file extension is appended automatic
 Properties
 ==========
 
-.. _jsobjref/exportOptionsGIF.antiAliasing:
+.. _jsobjref/ExportOptionsGIF.antiAliasing:
 
 ExportOptionsGIF.antiAliasing
 ********************************************************************************
@@ -34,7 +34,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsGIF.artBoardClipping:
+.. _jsobjref/ExportOptionsGIF.artBoardClipping:
 
 ExportOptionsGIF.artBoardClipping
 ********************************************************************************
@@ -51,7 +51,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsGIF.colorCount:
+.. _jsobjref/ExportOptionsGIF.colorCount:
 
 ExportOptionsGIF.colorCount
 ********************************************************************************
@@ -68,7 +68,7 @@ Number (long).
 
 ----
 
-.. _jsobjref/exportOptionsGIF.colorDither:
+.. _jsobjref/ExportOptionsGIF.colorDither:
 
 ExportOptionsGIF.colorDither
 ********************************************************************************
@@ -81,11 +81,11 @@ The method used to dither colors in the exported image. Default: ``ColorDitherMe
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.colorDitherMethod`
+:ref:`jsobjref/scripting-constants.ColorDitherMethod`
 
 ----
 
-.. _jsobjref/exportOptionsGIF.colorReduction:
+.. _jsobjref/ExportOptionsGIF.colorReduction:
 
 ExportOptionsGIF.colorReduction
 ********************************************************************************
@@ -98,11 +98,11 @@ The method used to reduce the number of colors in the exported image. ``Default:
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.colorReductionMethod`
+:ref:`jsobjref/scripting-constants.ColorReductionMethod`
 
 ----
 
-.. _jsobjref/exportOptionsGIF.ditherPercent:
+.. _jsobjref/ExportOptionsGIF.ditherPercent:
 
 ExportOptionsGIF.ditherPercent
 ********************************************************************************
@@ -119,7 +119,7 @@ Number (long).
 
 ----
 
-.. _jsobjref/exportOptionsGIF.horizontalScale:
+.. _jsobjref/ExportOptionsGIF.horizontalScale:
 
 ExportOptionsGIF.horizontalScale
 ********************************************************************************
@@ -136,7 +136,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/exportOptionsGIF.infoLossPercent:
+.. _jsobjref/ExportOptionsGIF.infoLossPercent:
 
 ExportOptionsGIF.infoLossPercent
 ********************************************************************************
@@ -153,7 +153,7 @@ Number (long).
 
 ----
 
-.. _jsobjref/exportOptionsGIF.interlaced:
+.. _jsobjref/ExportOptionsGIF.interlaced:
 
 ExportOptionsGIF.interlaced
 ********************************************************************************
@@ -170,7 +170,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsGIF.matte:
+.. _jsobjref/ExportOptionsGIF.matte:
 
 ExportOptionsGIF.matte
 ********************************************************************************
@@ -187,7 +187,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsGIF.matteColor:
+.. _jsobjref/ExportOptionsGIF.matteColor:
 
 ExportOptionsGIF.matteColor
 ********************************************************************************
@@ -200,11 +200,11 @@ The color to use when matting the art board. Default: ``WHITE``.
 
 **Type**
 
-:ref:`jsobjref/rgbColor`
+:ref:`jsobjref/RGBColor`
 
 ----
 
-.. _jsobjref/exportOptionsGIF.saveAsHTML:
+.. _jsobjref/ExportOptionsGIF.saveAsHTML:
 
 ExportOptionsGIF.saveAsHTML
 ********************************************************************************
@@ -221,7 +221,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsGIF.transparency:
+.. _jsobjref/ExportOptionsGIF.transparency:
 
 ExportOptionsGIF.transparency
 ********************************************************************************
@@ -238,7 +238,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsGIF.typename:
+.. _jsobjref/ExportOptionsGIF.typename:
 
 ExportOptionsGIF.typename
 ********************************************************************************
@@ -255,7 +255,7 @@ String, read-only.
 
 ----
 
-.. _jsobjref/exportOptionsGIF.verticalScale:
+.. _jsobjref/ExportOptionsGIF.verticalScale:
 
 ExportOptionsGIF.verticalScale
 ********************************************************************************
@@ -272,7 +272,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/exportOptionsGIF.webSnap:
+.. _jsobjref/ExportOptionsGIF.webSnap:
 
 ExportOptionsGIF.webSnap
 ********************************************************************************

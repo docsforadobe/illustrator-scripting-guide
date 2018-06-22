@@ -1,13 +1,13 @@
-.. _jsobjref/epsSaveOptions:
+.. _jsobjref/EPSSaveOptions:
 
-EPS Save Options
+EPSSaveOptions
 ################################################################################
 
 ``epsSaveOptions``
 
 **Description**
 
-Options for saving a document as an Illustrator EPS file, used with the :ref:`jsobjref/document.saveAs` method.
+Options for saving a document as an Illustrator EPS file, used with the :ref:`jsobjref/Document.saveAs` method.
 
 All properties are optional.
 
@@ -17,7 +17,7 @@ All properties are optional.
 Properties
 ==========
 
-.. _jsobjref/epsSaveOptions.artboardRange:
+.. _jsobjref/EPSSaveOptions.artboardRange:
 
 EPSSaveOptions.artboardRange
 ********************************************************************************
@@ -34,7 +34,7 @@ String.
 
 ----
 
-.. _jsobjref/epsSaveOptions.cmykPostScript:
+.. _jsobjref/EPSSaveOptions.cmykPostScript:
 
 EPSSaveOptions.cmykPostScript
 ********************************************************************************
@@ -51,7 +51,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/epsSaveOptions.compatibility:
+.. _jsobjref/EPSSaveOptions.compatibility:
 
 EPSSaveOptions.compatibility
 ********************************************************************************
@@ -66,11 +66,11 @@ Default: ``Compatibility.ILLUSTRATOR1719``.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.compatibility`
+:ref:`jsobjref/scripting-constants.Compatibility`
 
 ----
 
-.. _jsobjref/epsSaveOptions.compatibleGradientPrinting:
+.. _jsobjref/EPSSaveOptions.compatibleGradientPrinting:
 
 EPSSaveOptions.compatibleGradientPrinting
 ********************************************************************************
@@ -89,7 +89,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/epsSaveOptions.embedAllFonts:
+.. _jsobjref/EPSSaveOptions.embedAllFonts:
 
 EPSSaveOptions.embedAllFonts
 ********************************************************************************
@@ -108,7 +108,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/epsSaveOptions.embedLinkedFiles:
+.. _jsobjref/EPSSaveOptions.embedLinkedFiles:
 
 EPSSaveOptions.embedLinkedFiles
 ********************************************************************************
@@ -125,7 +125,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/epsSaveOptions.flattenOuput:
+.. _jsobjref/EPSSaveOptions.flattenOuput:
 
 EPSSaveOptions.flattenOuput
 ********************************************************************************
@@ -138,11 +138,11 @@ How should transparency be flattened for file formats older than Illustrator 9.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.outputFlattening`
+:ref:`jsobjref/scripting-constants.OutputFlattening`
 
 ----
 
-.. _jsobjref/epsSaveOptions.includeDocumentThumbnails:
+.. _jsobjref/EPSSaveOptions.includeDocumentThumbnails:
 
 EPSSaveOptions.includeDocumentThumbnails
 ********************************************************************************
@@ -159,7 +159,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/epsSaveOptions.overprint:
+.. _jsobjref/EPSSaveOptions.overprint:
 
 EPSSaveOptions.overprint
 ********************************************************************************
@@ -174,11 +174,11 @@ Default: ``PDFOverprint.PRESERVEPDFOVERPRINT``.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.pdfOverprint`
+:ref:`jsobjref/scripting-constants.PDFOverprint`
 
 ----
 
-.. _jsobjref/epsSaveOptions.postScript:
+.. _jsobjref/EPSSaveOptions.postScript:
 
 EPSSaveOptions.postScript
 ********************************************************************************
@@ -193,11 +193,11 @@ Default: ``EPSPostScriptLevelEnum.LEVEL2``.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.EPSPostScriptLevelEnum`
+:ref:`jsobjref/scripting-constants.EPSPostScriptLevelEnum`
 
 ----
 
-.. _jsobjref/epsSaveOptions.preview:
+.. _jsobjref/EPSSaveOptions.preview:
 
 EPSSaveOptions.preview
 ********************************************************************************
@@ -210,11 +210,11 @@ The format for the EPS preview image.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.EPSPreview`
+:ref:`jsobjref/scripting-constants.EPSPreview`
 
 ----
 
-.. _jsobjref/epsSaveOptions.saveMultipleArtboards:
+.. _jsobjref/EPSSaveOptions.saveMultipleArtboards:
 
 EPSSaveOptions.saveMultipleArtboards
 ********************************************************************************
@@ -233,7 +233,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/epsSaveOptions.typename:
+.. _jsobjref/EPSSaveOptions.typename:
 
 EPSSaveOptions.typename
 ********************************************************************************

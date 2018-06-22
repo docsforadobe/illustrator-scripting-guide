@@ -1,13 +1,13 @@
-.. _jsobjref/compoundPathItems:
+.. _jsobjref/CompoundPathItems:
 
-Compound Path Items
+CompoundPathItems
 ################################################################################
 
 ``compoundPathItems``
 
 **Description**
 
-A collection of :ref:`jsobjref/compoundPathItem` objects.
+A collection of :ref:`jsobjref/CompoundPathItem` objects.
 
 ----
 
@@ -15,7 +15,7 @@ A collection of :ref:`jsobjref/compoundPathItem` objects.
 Properties
 ==========
 
-.. _jsobjref/compoundPathItems.length:
+.. _jsobjref/CompoundPathItems.length:
 
 CompoundPathItems.length
 ********************************************************************************
@@ -32,7 +32,7 @@ Number, read-only.
 
 ----
 
-.. _jsobjref/compoundPathItems.parent:
+.. _jsobjref/CompoundPathItems.parent:
 
 CompoundPathItems.parent
 ********************************************************************************
@@ -49,7 +49,7 @@ Object, read-only.
 
 ----
 
-.. _jsobjref/compoundPathItems.typename:
+.. _jsobjref/CompoundPathItems.typename:
 
 CompoundPathItems.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String, read-only.
 Methods
 =======
 
-.. _jsobjref/compoundPathItems.add:
+.. _jsobjref/CompoundPathItems.add:
 
 CompoundPathItems.add()
 ********************************************************************************
@@ -83,11 +83,11 @@ Creates a new ``CompoundPathItem``.
 
 **Returns**
 
-:ref:`jsobjref/compoundPathItem`
+:ref:`jsobjref/CompoundPathItem`
 
 ----
 
-.. _jsobjref/compoundPathItems.getByName:
+.. _jsobjref/CompoundPathItems.getByName:
 
 CompoundPathItems.getByName()
 ********************************************************************************
@@ -108,11 +108,11 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-:ref:`jsobjref/compoundPathItem`
+:ref:`jsobjref/CompoundPathItem`
 
 ----
 
-.. _jsobjref/compoundPathItems.index:
+.. _jsobjref/CompoundPathItems.index:
 
 CompoundPathItems.index()
 ********************************************************************************
@@ -133,11 +133,11 @@ Gets an element from the collection.
 
 **Returns**
 
-:ref:`jsobjref/compoundPathItem`
+:ref:`jsobjref/CompoundPathItem`
 
 ----
 
-.. _jsobjref/compoundPathItems.removeAll:
+.. _jsobjref/CompoundPathItems.removeAll:
 
 CompoundPathItems.removeAll()
 ********************************************************************************

@@ -1,6 +1,6 @@
-.. _jsobjref/characterStyles:
+.. _jsobjref/CharacterStyles:
 
-Character Styles
+CharacterStyles
 ################################################################################
 
 ``characterStyles``
@@ -15,7 +15,7 @@ A collection of CharacterStyle objects.
 Properties
 ==========
 
-.. _jsobjref/characterStyles.length:
+.. _jsobjref/CharacterStyles.length:
 
 CharacterStyles.length
 ********************************************************************************
@@ -32,7 +32,7 @@ Number; read-only.
 
 ----
 
-.. _jsobjref/characterStyles.parent:
+.. _jsobjref/CharacterStyles.parent:
 
 CharacterStyles.parent
 ********************************************************************************
@@ -49,7 +49,7 @@ Object; read-only.
 
 ----
 
-.. _jsobjref/characterStyles.typename:
+.. _jsobjref/CharacterStyles.typename:
 
 CharacterStyles.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String; read-only.
 Methods
 =======
 
-.. _jsobjref/characterStyles.add:
+.. _jsobjref/CharacterStyles.add:
 
 CharacterStyles.add()
 ********************************************************************************
@@ -91,11 +91,11 @@ Creates a named character style.
 
 **Returns**
 
-:ref:`jsobjref/characterStyle`
+:ref:`jsobjref/CharacterStyle`
 
 ----
 
-.. _jsobjref/characterStyles.getByName:
+.. _jsobjref/CharacterStyles.getByName:
 
 CharacterStyles.getByName()
 ********************************************************************************
@@ -116,11 +116,11 @@ Gets the first element in the collection with the provided name.
 
 **Returns**
 
-:ref:`jsobjref/characterStyle`
+:ref:`jsobjref/CharacterStyle`
 
 ----
 
-.. _jsobjref/characterStyles.index:
+.. _jsobjref/CharacterStyles.index:
 
 CharacterStyles.index()
 ********************************************************************************
@@ -141,11 +141,11 @@ Gets an element from the collection.
 
 **Returns**
 
-:ref:`jsobjref/characterStyle`
+:ref:`jsobjref/CharacterStyle`
 
 ----
 
-.. _jsobjref/characterStyles.removeAll:
+.. _jsobjref/CharacterStyles.removeAll:
 
 CharacterStyles.removeAll()
 ********************************************************************************

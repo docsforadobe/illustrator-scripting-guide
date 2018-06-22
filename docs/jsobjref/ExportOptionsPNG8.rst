@@ -1,13 +1,13 @@
-.. _jsobjref/exportOptionsPNG8:
+.. _jsobjref/ExportOptionsPNG8:
 
-Export Options PNG8
+ExportOptionsPNG8
 ################################################################################
 
 ``exportOptionsPNG8``
 
 **Description**
 
-Options for exporting a document as an 8-bit PNG file, used with the :ref:`jsobjref/document.exportFile` method. All properties are optional.
+Options for exporting a document as an 8-bit PNG file, used with the :ref:`jsobjref/Document.exportFile` method. All properties are optional.
 
 When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
@@ -17,7 +17,7 @@ When you export a document, the appropriate file extension is appended automatic
 Properties
 ==========
 
-.. _jsobjref/exportOptionsPNG8.antiAliasing:
+.. _jsobjref/ExportOptionsPNG8.antiAliasing:
 
 ExportOptionsPNG8.antiAliasing
 ********************************************************************************
@@ -34,7 +34,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.artBoardClipping:
+.. _jsobjref/ExportOptionsPNG8.artBoardClipping:
 
 ExportOptionsPNG8.artBoardClipping
 ********************************************************************************
@@ -51,7 +51,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.colorCount:
+.. _jsobjref/ExportOptionsPNG8.colorCount:
 
 ExportOptionsPNG8.colorCount
 ********************************************************************************
@@ -68,7 +68,7 @@ Number (long).
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.colorDither:
+.. _jsobjref/ExportOptionsPNG8.colorDither:
 
 ExportOptionsPNG8.colorDither
 ********************************************************************************
@@ -81,11 +81,11 @@ The method used to dither colors in the exported image. Default: ``ColorDitherMe
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.colorDitherMethod`
+:ref:`jsobjref/scripting-constants.ColorDitherMethod`
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.colorReduction:
+.. _jsobjref/ExportOptionsPNG8.colorReduction:
 
 ExportOptionsPNG8.colorReduction
 ********************************************************************************
@@ -98,11 +98,11 @@ The method used to reduce the number of colors in the exported image. Default: `
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.colorReductionMethod`
+:ref:`jsobjref/scripting-constants.ColorReductionMethod`
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.ditherPercent:
+.. _jsobjref/ExportOptionsPNG8.ditherPercent:
 
 ExportOptionsPNG8.ditherPercent
 ********************************************************************************
@@ -119,7 +119,7 @@ Number (long).
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.horizontalScale:
+.. _jsobjref/ExportOptionsPNG8.horizontalScale:
 
 ExportOptionsPNG8.horizontalScale
 ********************************************************************************
@@ -136,7 +136,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.interlaced:
+.. _jsobjref/ExportOptionsPNG8.interlaced:
 
 ExportOptionsPNG8.interlaced
 ********************************************************************************
@@ -153,7 +153,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.matte:
+.. _jsobjref/ExportOptionsPNG8.matte:
 
 ExportOptionsPNG8.matte
 ********************************************************************************
@@ -170,7 +170,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.matteColor:
+.. _jsobjref/ExportOptionsPNG8.matteColor:
 
 ExportOptionsPNG8.matteColor
 ********************************************************************************
@@ -183,11 +183,11 @@ The color to use when matting the art board. Default: ``white``.
 
 **Type**
 
-:ref:`jsobjref/rgbColor`
+:ref:`jsobjref/RGBColor`
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.saveAsHTML:
+.. _jsobjref/ExportOptionsPNG8.saveAsHTML:
 
 ExportOptionsPNG8.saveAsHTML
 ********************************************************************************
@@ -204,7 +204,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.transparency:
+.. _jsobjref/ExportOptionsPNG8.transparency:
 
 ExportOptionsPNG8.transparency
 ********************************************************************************
@@ -221,7 +221,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.typename:
+.. _jsobjref/ExportOptionsPNG8.typename:
 
 ExportOptionsPNG8.typename
 ********************************************************************************
@@ -238,7 +238,7 @@ String, read-only.
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.verticalScale:
+.. _jsobjref/ExportOptionsPNG8.verticalScale:
 
 ExportOptionsPNG8.verticalScale
 ********************************************************************************
@@ -255,7 +255,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/exportOptionsPNG8.webSnap:
+.. _jsobjref/ExportOptionsPNG8.webSnap:
 
 ExportOptionsPNG8.webSnap
 ********************************************************************************

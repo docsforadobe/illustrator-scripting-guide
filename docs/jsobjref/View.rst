@@ -1,4 +1,4 @@
-.. _jsobjref/view:
+.. _jsobjref/View:
 
 View
 ################################################################################
@@ -17,7 +17,7 @@ Scripts cannot create new views, but can modify some properties of existing view
 Properties
 ==========
 
-.. _jsobjref/view.bounds:
+.. _jsobjref/View.bounds:
 
 View.bounds
 ********************************************************************************
@@ -34,7 +34,7 @@ Array of 4 Numbers
 
 ----
 
-.. _jsobjref/view.centerPoint:
+.. _jsobjref/View.centerPoint:
 
 View.centerPoint
 ********************************************************************************
@@ -51,7 +51,7 @@ Array of 2 Numbers
 
 ----
 
-.. _jsobjref/view.parent:
+.. _jsobjref/View.parent:
 
 View.parent
 ********************************************************************************
@@ -64,11 +64,11 @@ Read-only. The document that contains this view.
 
 **Type**
 
-:ref:`jsobjref/document`
+:ref:`jsobjref/Document`
 
 ----
 
-.. _jsobjref/view.screenMode:
+.. _jsobjref/View.screenMode:
 
 View.screenMode
 ********************************************************************************
@@ -81,11 +81,11 @@ The mode of display for this view.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.ScreenMode`
+:ref:`jsobjref/scripting-constants.ScreenMode`
 
 
 ----
-.. _jsobjref/view.typename:
+.. _jsobjref/View.typename:
 
 View.typename
 ********************************************************************************
@@ -102,7 +102,7 @@ String
 
 ----
 
-.. _jsobjref/view.zoom:
+.. _jsobjref/View.zoom:
 
 View.zoom
 ********************************************************************************

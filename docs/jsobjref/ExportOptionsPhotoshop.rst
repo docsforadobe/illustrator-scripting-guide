@@ -1,6 +1,6 @@
-.. _jsobjref/exportOptionsPhotoshop:
+.. _jsobjref/ExportOptionsPhotoshop:
 
-Export Options Photoshop
+ExportOptionsPhotoshop
 ################################################################################
 
 ``exportOptionsPhotoshop``
@@ -8,7 +8,7 @@ Export Options Photoshop
 **Description**
 
 
-Options for exporting a document as a Photoshop file, used with the :ref:`jsobjref/document.exportFile` method. All properties are optional.
+Options for exporting a document as a Photoshop file, used with the :ref:`jsobjref/Document.exportFile` method. All properties are optional.
 
 When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
@@ -18,7 +18,7 @@ When you export a document, the appropriate file extension is appended automatic
 Properties
 ==========
 
-.. _jsobjref/exportOptionsPhotoshop.antiAliasing:
+.. _jsobjref/ExportOptionsPhotoshop.antiAliasing:
 
 ExportOptionsPhotoshop.antiAliasing
 ********************************************************************************
@@ -35,7 +35,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPhotoshop.artboardRange:
+.. _jsobjref/ExportOptionsPhotoshop.artboardRange:
 
 ExportOptionsPhotoshop.artboardRange
 ********************************************************************************
@@ -52,7 +52,7 @@ String.
 
 ----
 
-.. _jsobjref/exportOptionsPhotoshop.editableText:
+.. _jsobjref/ExportOptionsPhotoshop.editableText:
 
 ExportOptionsPhotoshop.editableText
 ********************************************************************************
@@ -69,7 +69,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPhotoshop.embedICCProfile:
+.. _jsobjref/ExportOptionsPhotoshop.embedICCProfile:
 
 ExportOptionsPhotoshop.embedICCProfile
 ********************************************************************************
@@ -86,7 +86,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPhotoshop.imageColorSpace:
+.. _jsobjref/ExportOptionsPhotoshop.imageColorSpace:
 
 ExportOptionsPhotoshop.imageColorSpace
 ********************************************************************************
@@ -99,11 +99,11 @@ The color space of the exported file. Default: ``ImageColorSpace.RGB``.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.imageColorSpace`
+:ref:`jsobjref/scripting-constants.ImageColorSpace`
 
 ----
 
-.. _jsobjref/exportOptionsPhotoshop.maximumEditability:
+.. _jsobjref/ExportOptionsPhotoshop.maximumEditability:
 
 ExportOptionsPhotoshop.maximumEditability
 ********************************************************************************
@@ -120,7 +120,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPhotoshop.resolution:
+.. _jsobjref/ExportOptionsPhotoshop.resolution:
 
 ExportOptionsPhotoshop.resolution
 ********************************************************************************
@@ -137,7 +137,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/exportOptionsPhotoshop.saveMultipleArtboards:
+.. _jsobjref/ExportOptionsPhotoshop.saveMultipleArtboards:
 
 ExportOptionsPhotoshop.saveMultipleArtboards
 ********************************************************************************
@@ -154,7 +154,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPhotoshop.typename:
+.. _jsobjref/ExportOptionsPhotoshop.typename:
 
 ExportOptionsPhotoshop.typename
 ********************************************************************************
@@ -171,7 +171,7 @@ String, read-only.
 
 ----
 
-.. _jsobjref/exportOptionsPhotoshop.warnings:
+.. _jsobjref/ExportOptionsPhotoshop.warnings:
 
 ExportOptionsPhotoshop.warnings
 ********************************************************************************
@@ -188,7 +188,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsPhotoshop.writeLayers:
+.. _jsobjref/ExportOptionsPhotoshop.writeLayers:
 
 ExportOptionsPhotoshop.writeLayers
 ********************************************************************************

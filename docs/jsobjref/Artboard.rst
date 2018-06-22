@@ -1,4 +1,4 @@
-.. _jsobjref/artboard:
+.. _jsobjref/Artboard:
 
 Artboard
 ################################################################################
@@ -14,7 +14,7 @@ in one document.
 Properties
 ==========
 
-.. _jsobjref/artboard.artboardRect:
+.. _jsobjref/Artboard.artboardRect:
 
 Artboard.artboardRect
 ********************************************************************************
@@ -31,7 +31,7 @@ Rect
 
 ----
 
-.. _jsobjref/artboard.name:
+.. _jsobjref/Artboard.name:
 
 Artboard.name
 ********************************************************************************
@@ -48,7 +48,7 @@ String
 
 ----
 
-.. _jsobjref/artboard.parent:
+.. _jsobjref/Artboard.parent:
 
 Artboard.parent
 ********************************************************************************
@@ -61,11 +61,11 @@ The parent of this object.
 
 **Type**
 
-:ref:`jsobjref/document`; read-only.
+:ref:`jsobjref/Document`; read-only.
 
 ----
 
-.. _jsobjref/artboard.rulerOrigin:
+.. _jsobjref/Artboard.rulerOrigin:
 
 Artboard.rulerOrigin
 ********************************************************************************
@@ -82,7 +82,7 @@ Point
 
 ----
 
-.. _jsobjref/artboard.rulerPAR:
+.. _jsobjref/Artboard.rulerPAR:
 
 Artboard.rulerPAR
 ********************************************************************************
@@ -101,7 +101,7 @@ Number (double)
 
 ----
 
-.. _jsobjref/artboard.showCenter:
+.. _jsobjref/Artboard.showCenter:
 
 Artboard.showCenter
 ********************************************************************************
@@ -118,7 +118,7 @@ Boolean
 
 ----
 
-.. _jsobjref/artboard.showCrossHairs:
+.. _jsobjref/Artboard.showCrossHairs:
 
 Artboard.showCrossHairs
 ********************************************************************************
@@ -135,7 +135,7 @@ Boolean
 
 ----
 
-.. _jsobjref/artboard.showSafeAreas:
+.. _jsobjref/Artboard.showSafeAreas:
 
 Artboard.showSafeAreas
 ********************************************************************************
@@ -152,7 +152,7 @@ Boolean
 
 ----
 
-.. _jsobjref/artboard.typename:
+.. _jsobjref/Artboard.typename:
 
 Artboard.typename
 ********************************************************************************
@@ -173,7 +173,7 @@ String
 Methods
 ==========
 
-.. _jsobjref/artboard.remove:
+.. _jsobjref/Artboard.remove:
 
 Artboard.remove()
 ********************************************************************************

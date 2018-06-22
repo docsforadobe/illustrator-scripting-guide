@@ -1,13 +1,13 @@
-.. _jsobjref/exportOptionsJPEG:
+.. _jsobjref/ExportOptionsJPEG:
 
-Export Options JPEG
+ExportOptionsJPEG
 ################################################################################
 
 ``exportOptionsJPEG``
 
 **Description**
 
-Options for exporting a document as a JPEG file, used with the :ref:`jsobjref/document.exportFile` method. All properties are optional.
+Options for exporting a document as a JPEG file, used with the :ref:`jsobjref/Document.exportFile` method. All properties are optional.
 
 When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
@@ -17,7 +17,7 @@ When you export a document, the appropriate file extension is appended automatic
 Properties
 ==========
 
-.. _jsobjref/exportOptionsJPEG.antiAliasing:
+.. _jsobjref/ExportOptionsJPEG.antiAliasing:
 
 ExportOptionsJPEG.antiAliasing
 ********************************************************************************
@@ -34,7 +34,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsJPEG.artBoardClipping:
+.. _jsobjref/ExportOptionsJPEG.artBoardClipping:
 
 ExportOptionsJPEG.artBoardClipping
 ********************************************************************************
@@ -51,7 +51,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsJPEG.blurAmount:
+.. _jsobjref/ExportOptionsJPEG.blurAmount:
 
 ExportOptionsJPEG.blurAmount
 ********************************************************************************
@@ -68,7 +68,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/exportOptionsJPEG.horizontalScale:
+.. _jsobjref/ExportOptionsJPEG.horizontalScale:
 
 ExportOptionsJPEG.horizontalScale
 ********************************************************************************
@@ -85,7 +85,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/exportOptionsJPEG.matte:
+.. _jsobjref/ExportOptionsJPEG.matte:
 
 ExportOptionsJPEG.matte
 ********************************************************************************
@@ -102,7 +102,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsJPEG.matteColor:
+.. _jsobjref/ExportOptionsJPEG.matteColor:
 
 ExportOptionsJPEG.matteColor
 ********************************************************************************
@@ -115,11 +115,11 @@ The color to use when matting the art board. Default: ``white``.
 
 **Type**
 
-:ref:`jsobjref/rgbColor`
+:ref:`jsobjref/RGBColor`
 
 ----
 
-.. _jsobjref/exportOptionsJPEG.optimization:
+.. _jsobjref/ExportOptionsJPEG.optimization:
 
 ExportOptionsJPEG.optimization
 ********************************************************************************
@@ -136,7 +136,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsJPEG.qualitySetting:
+.. _jsobjref/ExportOptionsJPEG.qualitySetting:
 
 ExportOptionsJPEG.qualitySetting
 ********************************************************************************
@@ -153,7 +153,7 @@ Number (long).
 
 ----
 
-.. _jsobjref/exportOptionsJPEG.saveAsHTML:
+.. _jsobjref/ExportOptionsJPEG.saveAsHTML:
 
 ExportOptionsJPEG.saveAsHTML
 ********************************************************************************
@@ -170,7 +170,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsJPEG.typename:
+.. _jsobjref/ExportOptionsJPEG.typename:
 
 ExportOptionsJPEG.typename
 ********************************************************************************
@@ -187,7 +187,7 @@ String, read-only.
 
 ----
 
-.. _jsobjref/exportOptionsJPEG.verticalScale:
+.. _jsobjref/ExportOptionsJPEG.verticalScale:
 
 ExportOptionsJPEG.verticalScale
 ********************************************************************************

@@ -1,13 +1,13 @@
-.. _jsobjref/exportOptionsTIFF:
+.. _jsobjref/ExportOptionsTIFF:
 
-Export Options TIFF
+ExportOptionsTIFF
 ################################################################################
 
 ``exportOptionsTIFF``
 
 **Description**
 
-Options for exporting a document as a TIFF file, used with the :ref:`jsobjref/document.exportFile` method. All properties are optional.
+Options for exporting a document as a TIFF file, used with the :ref:`jsobjref/Document.exportFile` method. All properties are optional.
 
 When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
@@ -17,7 +17,7 @@ When you export a document, the appropriate file extension is appended automatic
 Properties
 ==========
 
-.. _jsobjref/exportOptionsTIFF.antiAliasing:
+.. _jsobjref/ExportOptionsTIFF.antiAliasing:
 
 ExportOptionsTIFF.antiAliasing
 ********************************************************************************
@@ -34,7 +34,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsTIFF.artboardRange:
+.. _jsobjref/ExportOptionsTIFF.artboardRange:
 
 ExportOptionsTIFF.artboardRange
 ********************************************************************************
@@ -51,7 +51,7 @@ String.
 
 ----
 
-.. _jsobjref/exportOptionsTIFF.byteOrder:
+.. _jsobjref/ExportOptionsTIFF.byteOrder:
 
 ExportOptionsTIFF.byteOrder
 ********************************************************************************
@@ -64,11 +64,11 @@ The byte order to use in the new file.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.TIFFByteOrder`
+:ref:`jsobjref/scripting-constants.TIFFByteOrder`
 
 ----
 
-.. _jsobjref/exportOptionsTIFF.imageColorSpace:
+.. _jsobjref/ExportOptionsTIFF.imageColorSpace:
 
 ExportOptionsTIFF.imageColorSpace
 ********************************************************************************
@@ -81,11 +81,11 @@ The color space of the exported file. Default: ``ImageColorSpace.RGB``.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.ImageColorSpace`
+:ref:`jsobjref/scripting-constants.ImageColorSpace`
 
 ----
 
-.. _jsobjref/exportOptionsTIFF.IZWCompression:
+.. _jsobjref/ExportOptionsTIFF.IZWCompression:
 
 ExportOptionsTIFF.IZWCompression
 ********************************************************************************
@@ -102,7 +102,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsTIFF.resolution:
+.. _jsobjref/ExportOptionsTIFF.resolution:
 
 ExportOptionsTIFF.resolution
 ********************************************************************************
@@ -119,7 +119,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/exportOptionsTIFF.saveMultipleArtboards:
+.. _jsobjref/ExportOptionsTIFF.saveMultipleArtboards:
 
 ExportOptionsTIFF.saveMultipleArtboards
 ********************************************************************************
