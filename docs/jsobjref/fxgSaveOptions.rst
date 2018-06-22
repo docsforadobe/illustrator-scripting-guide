@@ -182,5 +182,3 @@ The version of the FXG file format to create. Default ``FXGVersion.VERSION2PT0``
 **Type**
 
 :ref:`jsobjref/scriptingConstants.fxgVersion`
-
-----

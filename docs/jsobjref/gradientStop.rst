@@ -135,5 +135,3 @@ Deletes this object.
 **Returns**
 
 Nothing.
-
-----

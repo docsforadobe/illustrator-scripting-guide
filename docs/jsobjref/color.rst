@@ -7,7 +7,9 @@ Color
 
 **Description**
 
-An abstract parent class for all color classes used in Illustrator. Subclasses are:
+An abstract parent class for all color classes used in Illustrator.
+
+Subclasses are:
 
 .. toctree::
   :maxdepth: 2
@@ -18,5 +20,5 @@ An abstract parent class for all color classes used in Illustrator. Subclasses a
   labColor
   noColor
   patternColor
-  rGBColor
+  rgbColor
   spotColor

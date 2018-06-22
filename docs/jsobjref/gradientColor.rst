@@ -167,7 +167,7 @@ Changing a gradient stop color
 
     // Get a reference to the gradient that you want to change
     var gradientRef = app.activeDocument.gradients[1];
-    
+
     // Create the new color
     var startColor = new RGBColor();
     startColor.red = 255;
