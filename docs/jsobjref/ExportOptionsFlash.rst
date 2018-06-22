@@ -468,16 +468,17 @@ Exporting to Flash format
 
 ::
 
-    // Exports current document to destFile as a flash file with specified options,
-    // destFile contains the full path including the file name
+  // Exports current document to destFile as a flash file with specified options,
+  // destFile contains the full path including the file name
 
-    function exportToFlashFile(destFile) {
-        if ( app.documents.length > 0 ) {
-            var exportOptions = new ExportOptionsFlash();
-            var type = ExportType.FLASH;
-            var fileSpec = new File(destFile);
+  function exportToFlashFile(destFile) {
+    if (app.documents.length > 0) {
+      var exportOptions = new ExportOptionsFlash();
+      exportOptions.resolution = 150;
 
-            exportOptions.resolution = 150;
-            app.activeDocument.exportFile( fileSpec, type, exportOptions );
-        }
+      var type = ExportType.FLASH;
+      var fileSpec = new File(destFile);
+
+      app.activeDocument.exportFile(fileSpec, type, exportOptions);
     }
+  }

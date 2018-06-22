@@ -2072,12 +2072,13 @@ Creating a document with defaults
 
 ::
 
-    // Creates a new document if none exists then sets fill and stroke defaults to true
-    if ( app.documents.length == 0 ) {
-        var doc = app.documents.add();
-    } else {
-        var doc = app.activeDocument;
-    }
+  // Creates a new document if none exists then sets fill and stroke defaults to true
+  var doc;
+  if (app.documents.length == 0) {
+    doc = app.documents.add();
+  } else {
+    doc = app.activeDocument;
+  }
 
-    doc.defaultFilled = true;
-    doc.defaultStroked = true;
+  doc.defaultFilled = true;
+  doc.defaultStroked = true;

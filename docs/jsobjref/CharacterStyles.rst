@@ -199,6 +199,7 @@ Using characters styles
   charAttr.size = 40;
   charAttr.tracking = -50;
   charAttr.capitalization = FontCapsOption.ALLCAPS;
+
   var redColor = new RGBColor();
   redColor.red = 255;
   redColor.green = 0;

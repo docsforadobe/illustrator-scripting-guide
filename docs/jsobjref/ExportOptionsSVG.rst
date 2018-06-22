@@ -349,19 +349,19 @@ Exporting to SVG format
 
 ::
 
-    // Exports current document to dest as an SVG file with specified options,
-    // dest contains the full path including the file name
+  // Exports current document to dest as an SVG file with specified options,
+  // dest contains the full path including the file name
 
-    function exportFileToSVG (dest) {
-        if ( app.documents.length > 0 ) {
-            var exportOptions = new ExportOptionsSVG();
-            var type = ExportType.SVG;
-            var fileSpec = new File(dest);
+  function exportFileToSVG(dest) {
+    if (app.documents.length > 0) {
+      var exportOptions = new ExportOptionsSVG();
+      exportOptions.embedRasterImages = true;
+      exportOptions.embedAllFonts = false;
+      exportOptions.fontSubsetting = SVGFontSubsetting.GLYPHSUSED;
 
-            exportOptions.embedRasterImages = true;
-            exportOptions.embedAllFonts = false;
-            exportOptions.fontSubsetting = SVGFontSubsetting.GLYPHSUSED;
+      var type = ExportType.SVG;
+      var fileSpec = new File(dest);
 
-            app.activeDocument.exportFile( fileSpec, type, exportOptions );
-        }
+      app.activeDocument.exportFile(fileSpec, type, exportOptions);
     }
+  }

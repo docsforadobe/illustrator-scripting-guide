@@ -926,7 +926,7 @@ Setting character attributes
   // incrementally increase the scale of each character
   var charCount = textRef.textRange.characters.length;
   var size = 100;
-  for(i=0; i<charCount; i++, size *= 1.2) {
+  for (var i = 0; i < charCount; i++, size *= 1.2) {
     textRef.textRange.characters[i].characterAttributes.horizontalScale = size;
     textRef.textRange.characters[i].characterAttributes.verticalScale = size;
   }

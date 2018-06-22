@@ -224,6 +224,6 @@ Creating a new document
 
 ::
 
-    // Creates a new document with an RGB color space
+  // Creates a new document with an RGB color space
 
-    app.documents.add( DocumentColorSpace.RGB );
+  app.documents.add(DocumentColorSpace.RGB);

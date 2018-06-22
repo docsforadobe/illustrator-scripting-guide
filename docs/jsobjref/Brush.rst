@@ -107,17 +107,17 @@ Applying a Brush
   // Duplicates and groups all items in the current selection,
   // then applies the same brush to each item in the group
 
-  if ( app.documents.length > 0 ) {
+  if (app.documents.length > 0) {
     var docSelection = app.activeDocument.selection;
-    if ( docSelection.length > 0 ) {
+    if (docSelection.length > 0) {
       var newGroup = app.activeDocument.groupItems.add();
 
-      for ( i = 0; i < docSelection.length; i++ ) {
+      for (var i = 0; i < docSelection.length; i++) {
         var newItem = docSelection[i].duplicate();
-        newItem.moveToBeginning( newGroup );
+        newItem.moveToBeginning(newGroup);
       }
 
       var brush = app.activeDocument.brushes[1];
-      brush.applyTo( newGroup );
+      brush.applyTo(newGroup);
     }
   }
