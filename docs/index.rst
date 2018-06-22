@@ -106,5 +106,6 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/exportOptionsTIFF
   jsobjref/fxgSaveOptions
   jsobjref/gradient
+  jsobjref/gradientColor
 
   jsobjref/scriptingConstants
