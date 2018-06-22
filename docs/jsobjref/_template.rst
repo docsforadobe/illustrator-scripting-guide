@@ -1,13 +1,18 @@
-.. _jsobjref/template:
+.. _jsobjref/class:
 
-Template
+Class
 ################################################################################
 
-``template``
+``app.class``
+
+.. note::
+  This is an example of an absolute path to the class from the application root.
+
+  For example: `Document` => ``app.activeDocument``
 
 **Description**
 
-Description.
+Description of the class as a whole
 
 ----
 
@@ -15,20 +20,20 @@ Description.
 Properties
 ==========
 
-.. _jsobjref/template.property:
+.. _jsobjref/class.property:
 
-Template.property
+Class.property
 ********************************************************************************
 
-``absolute path to property``
+``app.class``
 
 **Description**
 
-Description.
+Description of this property.
 
 **Type**
 
-Type.
+Property type.
 
 ----
 
@@ -36,24 +41,27 @@ Type.
 Methods
 =======
 
-.. _jsobjref/template.method:
+.. _jsobjref/class.method:
 
-Template.method()
+Class.method()
 ********************************************************************************
 
-``absolute path to method(parameter)``
+``app.class.method(parameter)``
 
 **Description**
 
-Description.
+Description of this method.
 
 **Parameters**
 
-+---------------+------+-------------+
-|   Parameter   | Type | Description |
-+===============+======+=============+
-| ``parameter`` | Type | Description |
-+---------------+------+-------------+
+.. note::
+  If there are no parameters, exclude this whole section!
+
++---------------+------+-----------------------------+
+|   Parameter   | Type |         Description         |
++===============+======+=============================+
+| ``parameter`` | Type | What does the parameter do? |
++---------------+------+-----------------------------+
 
 **Returns**
 
@@ -70,3 +78,4 @@ Example name
 
 ::
 
+  // Sample code goes here. If there is no example, remove this section.
