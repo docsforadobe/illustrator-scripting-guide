@@ -109,5 +109,6 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/gradientColor
   jsobjref/gradients
   jsobjref/gradientStop
+  jsobjref/gradientStops
 
   jsobjref/scriptingConstants
