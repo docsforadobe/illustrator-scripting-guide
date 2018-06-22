@@ -5,7 +5,9 @@
 Working with text frames
 ################################################################################
 
-To create a text frame of a specific type in AppleScript, use the ``kind`` property of the ``text`` frame object::
+To create a text frame of a specific type in AppleScript, use the ``kind`` property of the ``text`` frame object
+
+::
 
   set myRect to make new rectangle in current document with properties
   {position:{100, 700}, height:100, width:100}
@@ -21,8 +23,7 @@ As in the Illustrator application, you can thread area text frames or path text 
 
 To thread existing text frames, use the ``next frame`` or ``previous frame`` property of the ``text frame`` object.
 
-When copying the following script to your script editor, place the value of the contents property on one
-line. The long-line character (``¬``) is not valid within a string value.
+When copying the following script to your script editor, place the value of the contents property on one line. The long-line character (``¬``) is not valid within a string value.
 
 ::
 
@@ -46,8 +47,7 @@ line. The long-line character (``¬``) is not valid within a string value.
 Threaded frames make one story object
 ********************************************************************************
 
-Threaded frames make a single story object. To observe this, run the following AppleScript after running
-the script above.
+Threaded frames make a single story object. To observe this, run the following AppleScript after running the script above.
 
 ::
 

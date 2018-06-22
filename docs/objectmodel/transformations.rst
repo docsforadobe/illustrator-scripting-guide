@@ -3,11 +3,9 @@
 Transformations
 ################################################################################
 
-The ``matrix`` object provides access to the power of geometric-transformation
-matrices.
+The ``matrix`` object provides access to the power of geometric-transformation matrices.
 
-Transformation matrices in Illustrator store the settings of an operation that
-scales, rotates, or moves (translates) an object on a page.
+Transformation matrices in Illustrator store the settings of an operation that scales, rotates, or moves (translates) an object on a page.
 
 There are advantages to using matrices:
 
@@ -16,8 +14,6 @@ There are advantages to using matrices:
 - You can invert matrix values.
 - You can compare the values of two matrices.
 
-The ``application`` object. has commands or methods to create, get, invert,
-compare, or concatenate matrices.
+The ``application`` object. has commands or methods to create, get, invert, compare, or concatenate matrices.
 
-The command or method used to apply a matrix is the ``transform`` command,
-which belongs to any type of object on which transformations can be performed.
+The command or method used to apply a matrix is the ``transform`` command, which belongs to any type of object on which transformations can be performed.

@@ -12,17 +12,14 @@ This section explains how to create items that contain paths.
 Paths
 ================================================================================
 
-To create line or a freeform path, specify a series of path points, as a series of x-y coordinates or ``path`` point
-objects.
+To create line or a freeform path, specify a series of path points, as a series of x-y coordinates or ``path`` point objects.
 
-Using x-y coordinates limits the path to straight segments. To created a curved path, you must create
-``path point`` objects. A path can comprise a combination of page coordinates and ``path point`` objects.
+Using x-y coordinates limits the path to straight segments. To created a curved path, you must create ``path point`` objects. A path can comprise a combination of page coordinates and ``path point`` objects.
 
 Specifying a series of x-y coordinates
 ********************************************************************************
 
-To specify a path using page-coordinate pairs, use the ``entire path`` property of the ``path items`` object.
-The following script specifies three pairs of x-y coordinates, to create a path with three points::
+To specify a path using page-coordinate pairs, use the ``entire path`` property of the ``path items`` object. The following script specifies three pairs of x-y coordinates, to create a path with three points::
 
   tell application "Adobe Illustrator"
   set docRef to make new document
@@ -44,8 +41,7 @@ You define each property as an array of page coordinates in the format [x, y]:
 - If all three properties of a ``path point`` object have the same coordinates, and the properties of the next ``path point`` in the line are equal to each other, you create a straight-line segment.
 - If two or more properties in a ``path point`` object have different values, the segment connected to the point is curved.
 
-To create a path or add points to an existing path using ``path point`` objects, create a ``path item`` object,
-then add the path points as child objects in the ``path item``::
+To create a path or add points to an existing path using ``path point`` objects, create a ``path item`` object, then add the path points as child objects in the ``path item``::
 
   tell application "Adobe Illustrator"
   set docRef to make new document
@@ -72,8 +68,9 @@ then add the path points as child objects in the ``path item``::
 Combining path point types
 ********************************************************************************
 
+The following script sample creates a path with three points, by combining the entire path property with a ``path point`` object
 
-The following script sample creates a path with three points, by combining the entire path property with a ``path point`` object::
+::
 
   tell application "Adobe Illustrator"
   set docRef to make new document
@@ -90,9 +87,7 @@ The following script sample creates a path with three points, by combining the e
 Shapes
 ================================================================================
 
-To create a shape, you use the object that corresponds to the shape’s name (like ``ellipse``, ``rectangle``, or
-``polygon``), and use the object’s properties to specify the shape’s position, size, and other information like
-the number of sides in a polygon.
+To create a shape, you use the object that corresponds to the shape’s name (like ``ellipse``, ``rectangle``, or ``polygon``), and use the object’s properties to specify the shape’s position, size, and other information like the number of sides in a polygon.
 
 Remember:
 
@@ -102,8 +97,7 @@ Remember:
 Write-once access
 ********************************************************************************
 
-Properties for path-item shapes use the "write-once" access status, which indicates that the property is
-writeable only when the object is created. For existing path-item objects, the properties are read-only
+Properties for path-item shapes use the "write-once" access status, which indicates that the property is writeable only when the object is created. For existing path-item objects, the properties are read-only
 properties whose values cannot be changed.
 
 Creating a rectangle

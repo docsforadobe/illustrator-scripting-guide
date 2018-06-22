@@ -21,8 +21,7 @@ As in the Illustrator application, you can thread area text frames or path text 
 
 To thread existing text frames, use the ``NextFrame`` or ``PreviousFrame`` property of the ``TextFrames`` object.
 
-When copying the following script to your script editor, place the value of the ``Contents`` property on one
-line. The long-line character (``_``) is not valid within a string value.
+When copying the following script to your script editor, place the value of the ``Contents`` property on one line. The long-line character (``_``) is not valid within a string value.
 
 ::
 
@@ -43,8 +42,7 @@ line. The long-line character (``_``) is not valid within a string value.
 Threaded frames make one story object
 ********************************************************************************
 
-Threaded frames make a single story object. To observe this, run the following VBScript after running
-the script above.
+Threaded frames make a single story object. To observe this, run the following VBScript after running the script above.
 
 ::
 

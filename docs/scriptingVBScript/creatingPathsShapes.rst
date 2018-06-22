@@ -14,14 +14,14 @@ Paths
 
 To create line or a freeform path, specify a series of path points, as a series of x-y coordinates or ``PathPoint`` objects.
 
-Using x-y coordinates limits the path to straight segments. To created a curved path, you must create
-``PathPoint`` objects. A path can comprise a combination of page coordinates and ``PathPoint`` objects.
+Using x-y coordinates limits the path to straight segments. To created a curved path, you must create ``PathPoint`` objects. A path can comprise a combination of page coordinates and ``PathPoint`` objects.
 
 Specifying a series of x-y coordinates
 ********************************************************************************
 
-To specify a path using page-coordinate pairs, use the ``entire path`` property of the ``PathItems`` object.
-The following script specifies three pairs of x-y coordinates, to create a path with three points::
+To specify a path using page-coordinate pairs, use the ``entire path`` property of the ``PathItems`` object. The following script specifies three pairs of x-y coordinates, to create a path with three points
+
+::
 
   Set appRef = CreateObject ("Illustrator.Application")
 
@@ -42,8 +42,9 @@ You define each property as an array of page coordinates in the format ``(Array 
 - If all three properties of a ``PathPoint`` object have the same coordinates, and the properties of the next ``PathPoint`` in the line are equal to each other, you create a straight-line segment.
 - If two or more properties in a ``PathPoint`` object hold different values, the segment connected to the point is curved.
 
-To create a path or add points to an existing path using ``PathPoint`` objects, create a ``PathItem`` object,
-then add the path points as child objects in the ``PathItem``::
+To create a path or add points to an existing path using ``PathPoint`` objects, create a ``PathItem`` object, then add the path points as child objects in the ``PathItem``
+
+::
 
   Set appRef = CreateObject ("Illustrator.Application")
 
@@ -69,7 +70,9 @@ then add the path points as child objects in the ``PathItem``::
 Combining path point types
 ********************************************************************************
 
-The following script sample creates a path with three points::
+The following script sample creates a path with three points
+
+::
 
   Set appRef = CreateObject("Illustrator.Application")
   Set myDoc = appRef.ActiveDocument
@@ -89,9 +92,7 @@ The following script sample creates a path with three points::
 Shapes
 ================================================================================
 
-To create a shape, you use the object that corresponds to the shape’s name (like ``ellipse``, ``rectangle``, or
-``polygon``), and use the object’s properties to specify the shape’s position, size, and other information like
-the number of sides in a polygon.
+To create a shape, you use the object that corresponds to the shape’s name (like ``ellipse``, ``rectangle``, or ``polygon``), and use the object’s properties to specify the shape’s position, size, and other information like the number of sides in a polygon.
 
 Remember:
 
@@ -101,7 +102,9 @@ Remember:
 Creating a rectangle
 ********************************************************************************
 
-Consider the following sample::
+Consider the following sample
+
+::
 
   Set appRef = CreateObject("Illustrator.Application")
   Set frontDocument = appRef.ActiveDocument
@@ -118,7 +121,9 @@ The sample creates a rectangle with these properties:
 Creating a polygon
 ********************************************************************************
 
-Consider the following sample::
+Consider the following sample
+
+::
 
   Set appRef = CreateObject("Illustrator.Application")
   Set frontDocument = appRef.ActiveDocument

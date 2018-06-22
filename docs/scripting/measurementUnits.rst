@@ -3,15 +3,9 @@
 Measurement Units
 ################################################################################
 
-Illustrator uses points as the unit of measurement for almost all distances. One inch equals 72 points. The
-exception is values for properties like ``kerning``, ``tracking``, and the ``aki`` properties (used for Japanese text
-composition), which use em units. (See :ref:`scripting/measurementUnits/emSpaceUnits`)
+Illustrator uses points as the unit of measurement for almost all distances. One inch equals 72 points. The exception is values for properties like ``kerning``, ``tracking``, and the ``aki`` properties (used for Japanese text composition), which use em units. (See :ref:`scripting/measurementUnits/emSpaceUnits`)
 
-Illustrator uses points when communicating with your scripts regardless of the current ruler units. If your
-script depends on adding, subtracting, multiplying, or dividing specific measurement values for units
-other than points, it must perform any unit conversions needed to represent your measurements as
-points. For example, to use inches for coordinates or measurement units, you must multiply all inch values
-by 72 when entering the values in your script.
+Illustrator uses points when communicating with your scripts regardless of the current ruler units. If your script depends on adding, subtracting, multiplying, or dividing specific measurement values for units other than points, it must perform any unit conversions needed to represent your measurements as points. For example, to use inches for coordinates or measurement units, you must multiply all inch values by 72 when entering the values in your script.
 
 The following table shows conversion formulas for various units of measurement:
 
@@ -29,8 +23,6 @@ The following table shows conversion formulas for various units of measurement:
 | Qs          | 0.709 point = 1 Q (1 Q equals 0.23 millimeter) |
 +-------------+------------------------------------------------+
 
-
-
 JavaScript provides the UnitValue object type, which offers unit-conversion utilities. For details, see `JavaScript Tools Guide <http://estk.aenhancers.com>`__
 
 ----
@@ -44,9 +36,10 @@ Values that use em units instead of points are measured in thousandths of an em.
 
 An em is proportional to the current font size.
 
-For example, in a 6-point font, 1 em equals 6 points; in a
-10-point font, 1 em equals 10 points.
+For example, in a 6-point font, 1 em equals 6 points; in a 10-point font, 1 em equals 10 points.
 
-In a 10-point font, a kerning value of 20 em units is equivalent to::
+In a 10-point font, a kerning value of 20 em units is equivalent to
+
+::
 
   (20 units x 10 points) / 1000 units/em = 0.2 points

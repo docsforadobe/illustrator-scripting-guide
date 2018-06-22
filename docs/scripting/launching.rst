@@ -15,7 +15,9 @@ AppleScript
 
 In AppleScript, you use a tell statement to target Illustrator.
 
-The activate command activates Illustrator if it is not already active::
+The activate command activates Illustrator if it is not already active
+
+::
 
   tell application "Adobe Illustrator"
   activate
@@ -42,9 +44,7 @@ In VBScript, there are several ways to create an instance of Illustrator:
 
   Set appRef = CreateObject("Illustrator.Application")
 
-If you have multiple versions of Illustrator installed on the same machine and use the CreateObject method to obtain an application reference, using "Illustrator.Application" creates a reference
-to the latest Illustrator version. To specifically target an earlier version, use a version identifier at the
-end of the string:
+If you have multiple versions of Illustrator installed on the same machine and use the CreateObject method to obtain an application reference, using "Illustrator.Application" creates a reference to the latest Illustrator version. To specifically target an earlier version, use a version identifier at the end of the string:
 
 ===================  ================================
 Illustrator 10       "Illustrator.Application.1"
@@ -60,8 +60,7 @@ Illustrator CC 2015  "Illustrator.Application.CC2015"
 Illustrator CC 2017  "Illustrator.Application.CC2017"
 ===================  ================================
 
-- Use the ``New`` operator if you added a reference to the Illustrator type library to the project. For example,
-  the following line creates a new reference to the Application object:
+- Use the ``New`` operator if you added a reference to the Illustrator type library to the project. For example, the following line creates a new reference to the Application object:
 
 .. code-block:: basic
 

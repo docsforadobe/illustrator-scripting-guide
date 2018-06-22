@@ -3,12 +3,9 @@
 Working with the perspective grid
 ################################################################################
 
-The Perspective Grid is a new feature in lllustrator CC 2017 that enables you to create and manipulate art in
-a spatial environment using established laws of perspective. Enable Perspective Grid using the View >
-Perspective Grid menu or the perspective tools in the toolbar.
+The Perspective Grid is a new feature in lllustrator CC 2017 that enables you to create and manipulate art in a spatial environment using established laws of perspective. Enable Perspective Grid using the View > Perspective Grid menu or the perspective tools in the toolbar.
 
-The SDK provides an API for working with the perspective grid programmatically, and your scripts have
-some access to this API. A script can:
+The SDK provides an API for working with the perspective grid programmatically, and your scripts have some access to this API. A script can:
 
 - Set a the default grid parameters using preset values.
 - Show or hide the grid.
@@ -21,8 +18,7 @@ some access to this API. A script can:
 Use perspective presets
 ================================================================================
 
-Illustrator provides default grid-parameter presets for one-point, two-point, and three-point perspectives.
-The presets are named ``"[1P-NormalView]"``, ``"[2P-NormalView]"``, and ``"[3P-NormalView]"``.
+Illustrator provides default grid-parameter presets for one-point, two-point, and three-point perspectives. The presets are named ``"[1P-NormalView]"``, ``"[2P-NormalView]"``, and ``"[3P-NormalView]"``.
 
 The script shows how to select the two-point perspective preset programmatically::
 
@@ -35,8 +31,7 @@ The script shows how to select the two-point perspective preset programmatically
   //Set the default three-point perspective preset
   app.activeDocument.selectPerspectivePreset("[3P-Normal View]");
 
-You can create new perspective presets, export presets to files, and import presets from files. These scripts
-shows how to export and import presets::
+You can create new perspective presets, export presets to files, and import presets from files. These scripts shows how to export and import presets::
 
   //Create a new document
   var mydoc = app.documents.add();
@@ -95,9 +90,10 @@ This script sets the active perspective plane::
 Draw on a perspective grid
 ================================================================================
 
-When the Perspective Grid is on, drawing methods allow you to draw or operate on objects in perspective.
-This script creates a new document, shows a two-point perspective grid, and draws art objects on the left
-plane::
+When the Perspective Grid is on, drawing methods allow you to draw or operate on objects in perspective. This script creates a new document, shows a two-point perspective grid, and draws art objects on the left
+plane
+
+::
 
   //Create a new document
   var mydoc = app.documents.add();
@@ -144,11 +140,9 @@ plane::
 Bring objects into perspective
 ================================================================================
 
-If an art object is not in perspective, use the ``bringInPerspective()`` method to bring it into perspective
-and place it on a plane.
+If an art object is not in perspective, use the ``bringInPerspective()`` method to bring it into perspective and place it on a plane.
 
-This script creates a new document, draws an art object, and brings it into perspective on a three-point
-perspective grid::
+This script creates a new document, draws an art object, and brings it into perspective on a three-point perspective grid::
 
   //Create a new document
   var mydoc = app.documents.add();

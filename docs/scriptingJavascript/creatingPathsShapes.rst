@@ -10,17 +10,16 @@ This section explains how to create items that contain paths.
 Paths
 ================================================================================
 
-To create line or a freeform path, specify a series of path points, as a series of x-y coordinates or ``path`` point
-objects.
+To create line or a freeform path, specify a series of path points, as a series of x-y coordinates or ``path`` point objects.
 
-Using x-y coordinates limits the path to straight segments. To created a curved path, you must create
-``pathPoint`` objects. Your path can comprise a combination of page coordinates and ``pathPoint`` objects.
+Using x-y coordinates limits the path to straight segments. To created a curved path, you must create ``pathPoint`` objects. Your path can comprise a combination of page coordinates and ``pathPoint`` objects.
 
 Specifying a series of x-y coordinates
 ********************************************************************************
 
-To specify a path using page-coordinate pairs, use the ``setEntirePath()`` property of the ``pathItems`` object.
-The following script specifies three pairs of x-y coordinates, to create a path with three points::
+To specify a path using page-coordinate pairs, use the ``setEntirePath()`` property of the ``pathItems`` object. The following script specifies three pairs of x-y coordinates, to create a path with three points
+
+::
 
   var myDoc = app.activeDocument;
   var myLine = myDoc.pathItems.add();
@@ -41,8 +40,7 @@ You define each property as an array of page coordinates in the format [x, y]:
 - If all three properties of a ``pathPoint`` object have the same coordinates, and the properties of the next ``pathPoint`` in the line are equal to each other, you create a straight-line segment.
 - If two or more properties in a ``pathPoint`` object have different values, the segment connected to the point is curved.
 
-To create a path or add points to an existing path using ``pathPoint`` objects, create a ``pathItem`` object,
-then add the path points as child objects in the ``pathItem``::
+To create a path or add points to an existing path using ``pathPoint`` objects, create a ``pathItem`` object, then add the path points as child objects in the ``pathItem``::
 
   var myDoc = app.activeDocument;
   var myLine = myDoc.pathItems.add();
@@ -94,9 +92,7 @@ The following script sample creates a path with three points::
 Shapes
 ================================================================================
 
-To create a shape, you use the object that corresponds to the shape’s name (like ``ellipse``, ``rectangle``, or
-``polygon``), and use the object’s properties to specify the shape’s position, size, and other information like
-the number of sides in a polygon.
+To create a shape, you use the object that corresponds to the shape’s name (like ``ellipse``, ``rectangle``, or ``polygon``), and use the object’s properties to specify the shape’s position, size, and other information like the number of sides in a polygon.
 
 Remember:
 
