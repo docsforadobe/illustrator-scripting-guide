@@ -113,6 +113,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/gradientStops
   jsobjref/rgbColor
 
+  jsobjref/tracingOptions
   jsobjref/variable
   jsobjref/variables
   jsobjref/view
