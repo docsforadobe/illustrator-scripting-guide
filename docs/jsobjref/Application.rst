@@ -7,8 +7,7 @@ Application
 
 **Description**
 
-The Adobe® Illustrator® application object, referenced using the pre-defined
-global app object, which contains all other Illustrator objects.
+The Adobe® Illustrator® application object, referenced using the pre-defined global app object, which contains all other Illustrator objects.
 
 ----
 
@@ -76,8 +75,7 @@ Application.colorSettingsList
 
 **Description**
 
-The list of color-settings files currently
-available for use.
+The list of color-settings files currently available for use.
 
 **Type**
 
@@ -111,8 +109,7 @@ Application.defaultColorSettings
 
 **Description**
 
-The default color-settings file for the
-current application locale.
+The default color-settings file for the current application locale.
 
 **Type**
 
@@ -146,8 +143,7 @@ Application.flattenerPresetList
 
 **Description**
 
-The list of flattener style names
-currently available for use.
+The list of flattener style names currently available for use.
 
 **Type**
 
@@ -164,8 +160,7 @@ Application.freeMemory
 
 **Description**
 
-The amount of unused memory (in
-bytes) within the Illustrator partition.
+The amount of unused memory (in bytes) within the Illustrator partition.
 
 **Type**
 
@@ -199,8 +194,7 @@ Application.name
 
 **Description**
 
-The application’s name (not related to
-the filename of the application file).
+The application’s name (not related to the filename of the application file).
 
 **Type**
 
@@ -251,8 +245,7 @@ Application.PDFPresetsList
 
 **Description**
 
-The list of preset PDF-options names
-available for use.
+The list of preset PDF-options names available for use.
 
 **Type**
 
@@ -269,8 +262,7 @@ Application.PPDFileList
 
 **Description**
 
-The list of PPD files currently available
-for use.
+The list of PPD files currently available for use.
 
 **Type**
 
@@ -406,8 +398,7 @@ Application.tracingPresetList
 
 **Description**
 
-The list of preset tracing-options
-names available for use.
+The list of preset tracing-options names available for use.
 
 **Type**
 
@@ -441,8 +432,7 @@ Application.userInteractionLevel
 
 **Description**
 
-What level of interaction with the user should be allowed when handling
-script commands.
+What level of interaction with the user should be allowed when handling script commands.
 
 **Type**
 
@@ -793,8 +783,7 @@ Application.getPresetFileOfType()
 
 **Description**
 
-Returns the full path to the application’s default document profile for the
-specified preset type.
+Returns the full path to the application’s default document profile for the specified preset type.
 
 **Parameters**
 
@@ -819,8 +808,7 @@ Application.getPresetSettings()
 
 **Description**
 
-Retrieves the tracing-option settings from the template with
-a given preset name.
+Retrieves the tracing-option settings from the template with a given preset name.
 
 **Parameters**
 
@@ -848,9 +836,7 @@ Application.getRotationMatrix()
 Returns a transformation matrix containing a single rotation.
 
 .. note::
-    Requires a value in degrees. For example, 30 rotates the object 30
-    degrees counterclockwise;
-    -30 rotates the object 30 degrees clockwise.
+    Requires a value in degrees. For example, 30 rotates the object 30 degrees counterclockwise; -30 rotates the object 30 degrees clockwise.
 
 **Parameters**
 
@@ -880,8 +866,7 @@ Returns a transformation matrix containing a single scale.
 .. note::
     Requires a value in percentage.
 
-    For example, `60` scales the object to 60% of its original size;
-    `200` doubles the object’s bounds.
+    For example, `60` scales the object to 60% of its original size; `200` doubles the object’s bounds.
 
 **Parameters**
 
@@ -908,8 +893,7 @@ Application.getScriptableHelpGroup()
 
 **Description**
 
-Gets the scriptable help group object that represents the search widget in
-the app bar.
+Gets the scriptable help group object that represents the search widget in the app bar.
 
 **Returns**
 
@@ -931,9 +915,7 @@ Returns a transformation matrix containing a single translation.
 .. note::
     Requires a value in points.
 
-    For example, `(100, 200)` moves the object 100 pt. to the right and
-    200 pt. up;
-    a minus before each number moves the object left and down.
+    For example, `(100, 200)` moves the object 100 pt. to the right and 200 pt. up;  a minus before each number moves the object left and down.
 
 **Parameters**
 
@@ -1037,8 +1019,7 @@ Application.loadColorSettings()
 
 **Description**
 
-Loads color settings from specified file, or, if file is empty, turns color
-management off.
+Loads color settings from specified file, or, if file is empty, turns color management off.
 
 **Parameters**
 
@@ -1066,12 +1047,9 @@ Application.open()
 Opens the specified document file.
 
 .. note::
-    If you open a pre-Illustrator 9 document that contains both RGB and CMYK
-    colors and `documentColorSpace` is supplied, all colors are converted to
-    the specified color space.
+    If you open a pre-Illustrator 9 document that contains both RGB and CMYK colors and `documentColorSpace` is supplied, all colors are converted to the specified color space.
 
-    If the parameter is not supplied, Illustrator opens a dialog so the user
-    can choose the color space.
+    If the parameter is not supplied, Illustrator opens a dialog so the user can choose the color space.
 
 **Parameters**
 
@@ -1213,8 +1191,7 @@ Application.sendScriptMessage()
 
 **Description**
 
-Sends a plug-in-defined command message to a plug-in with given input
-arguments, and returns the plug-in-defined result string.
+Sends a plug-in-defined command message to a plug-in with given input arguments, and returns the plug-in-defined result string.
 
 **Parameters**
 
@@ -1293,8 +1270,7 @@ Application.translatePlaceholderText()
 
 **Description**
 
-Translates the placeholder text to regular text (a way to enter Unicode points
-in hex values).
+Translates the placeholder text to regular text (a way to enter Unicode points in hex values).
 
 **Parameters**
 

@@ -7,8 +7,7 @@ Brush
 
 **Description**
 
-A brush in an Illustrator document. Brushes are contained in documents. Additional brushes may be
-created by the user within Illustrator. You can access brushes within a script, but you cannot create them.
+A brush in an Illustrator document. Brushes are contained in documents. Additional brushes may be created by the user within Illustrator. You can access brushes within a script, but you cannot create them.
 
 ----
 

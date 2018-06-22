@@ -80,9 +80,7 @@ TracingOptions.livePaintOutput
 If ``true``, result is LivePaint art. If ``false``, it is classic art.
 
 .. note::
-  A script should only set this value in preparation for a subsequent expand operation.
-
-  Leaving a tracing on the artboard when this property is ``true`` can lead to unexpected application behavior.
+  A script should only set this value in preparation for a subsequent expand operation.  Leaving a tracing on the artboard when this property is ``true`` can lead to unexpected application behavior.
 
 **Type**
 

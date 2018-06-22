@@ -9,11 +9,7 @@ CMYKColor
 
 A CMYK color specification, used where a ``color`` object is required.
 
-If the color space of a document is ``RGB`` and you specify the color value for a page item in that document
-using CMYK, Illustrator will translate the CMYK color specification into an RGB color specification. The same
-thing happens if the document’s color space is CMYK and you specify colors using RGB. Since this
-translation can lose information, you should specify colors using the class that matches the document’s
-actual color space.
+If the color space of a document is ``RGB`` and you specify the color value for a page item in that document using CMYK, Illustrator will translate the CMYK color specification into an RGB color specification. The same thing happens if the document’s color space is CMYK and you specify colors using RGB. Since this translation can lose information, you should specify colors using the class that matches the document’s actual color space.
 
 ----
 
