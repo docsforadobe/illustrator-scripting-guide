@@ -125,6 +125,8 @@ Nothing.
 Example
 =======
 
+.. _jsobjref/dataset.usingVariablesAndDatasets:
+
 Using variables and datasets
 ********************************************************************************
 

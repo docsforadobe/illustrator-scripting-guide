@@ -111,4 +111,9 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/gradientStop
   jsobjref/gradientStops
 
+  jsobjref/variable
+  jsobjref/variables
+  jsobjref/view
+  jsobjref/views
+  jsobjref/words
   jsobjref/scriptingConstants
