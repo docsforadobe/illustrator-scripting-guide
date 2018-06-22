@@ -19,7 +19,7 @@ Properties
 
 .. _jsobjref/exportOptionsFlash.artClipping:
 
-exportOptionsFlash.artClipping
+ExportOptionsFlash.artClipping
 ********************************************************************************
 
 ``exportOptionsFlash.artClipping``
@@ -36,7 +36,7 @@ How the art should be clipped during output. Default: ``ArtClippingOption.OUTPUT
 
 .. _jsobjref/exportOptionsFlash.artboardRange:
 
-exportOptionsFlash.artboardRange
+ExportOptionsFlash.artboardRange
 ********************************************************************************
 
 ``exportOptionsFlash.artboardRange``
@@ -53,7 +53,7 @@ String.
 
 .. _jsobjref/exportOptionsFlash.backgroundColor:
 
-exportOptionsFlash.backgroundColor
+ExportOptionsFlash.backgroundColor
 ********************************************************************************
 
 ``exportOptionsFlash.backgroundColor``
@@ -70,7 +70,7 @@ The background color of the exported Flash frames.
 
 .. _jsobjref/exportOptionsFlash.backgroundLayers:
 
-exportOptionsFlash.backgroundLayers
+ExportOptionsFlash.backgroundLayers
 ********************************************************************************
 
 ``exportOptionsFlash.backgroundLayers``
@@ -87,7 +87,7 @@ Array of :ref:`jsobjref/layers`
 
 .. _jsobjref/exportOptionsFlash.blendAnimation:
 
-exportOptionsFlash.blendAnimation
+ExportOptionsFlash.blendAnimation
 ********************************************************************************
 
 ``exportOptionsFlash.blendAnimation``
@@ -104,7 +104,7 @@ The animation type for blended objects. Default: ``BlendAnimationType.NOBLENDANI
 
 .. _jsobjref/exportOptionsFlash.compressed:
 
-exportOptionsFlash.compressed
+ExportOptionsFlash.compressed
 ********************************************************************************
 
 ``exportOptionsFlash.compressed``
@@ -121,7 +121,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsFlash.convertTextToOutlines:
 
-exportOptionsFlash.convertTextToOutlines
+ExportOptionsFlash.convertTextToOutlines
 ********************************************************************************
 
 ``exportOptionsFlash.convertTextToOutlines``
@@ -138,7 +138,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsFlash.curveQuality:
 
-exportOptionsFlash.curveQuality
+ExportOptionsFlash.curveQuality
 ********************************************************************************
 
 ``exportOptionsFlash.curveQuality``
@@ -155,7 +155,7 @@ Number (long).
 
 .. _jsobjref/exportOptionsFlash.exportAllSymbols:
 
-exportOptionsFlash.exportAllSymbols
+ExportOptionsFlash.exportAllSymbols
 ********************************************************************************
 
 ``exportOptionsFlash.exportAllSymbols``
@@ -172,7 +172,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsFlash.exportStyle:
 
-exportOptionsFlash.exportStyle
+ExportOptionsFlash.exportStyle
 ********************************************************************************
 
 ``exportOptionsFlash.exportStyle``
@@ -189,7 +189,7 @@ The style in which the exported data should be created in Flash. Default: ``Flas
 
 .. _jsobjref/exportOptionsFlash.exportVersion:
 
-exportOptionsFlash.exportVersion
+ExportOptionsFlash.exportVersion
 ********************************************************************************
 
 ``exportOptionsFlash.exportVersion``
@@ -206,7 +206,7 @@ The version of the exported SWF file. Default: ``FlashExportVersion.FlashVersion
 
 .. _jsobjref/exportOptionsFlash.frameRate:
 
-exportOptionsFlash.frameRate
+ExportOptionsFlash.frameRate
 ********************************************************************************
 
 ``exportOptionsFlash.frameRate``
@@ -223,7 +223,7 @@ Number (double).
 
 .. _jsobjref/exportOptionsFlash.ignoreTextKerning:
 
-exportOptionsFlash.ignoreTextKerning
+ExportOptionsFlash.ignoreTextKerning
 ********************************************************************************
 
 ``exportOptionsFlash.ignoreTextKerning``
@@ -240,7 +240,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsFlash.imageFormat:
 
-exportOptionsFlash.imageFormat
+ExportOptionsFlash.imageFormat
 ********************************************************************************
 
 ``exportOptionsFlash.imageFormat``
@@ -257,7 +257,7 @@ How should the image in the exported Flash file be compressed. Default: ``FlashI
 
 .. _jsobjref/exportOptionsFlash.includeMetadata:
 
-exportOptionsFlash.includeMetadata
+ExportOptionsFlash.includeMetadata
 ********************************************************************************
 
 ``exportOptionsFlash.includeMetadata``
@@ -274,7 +274,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsFlash.jpegMethod:
 
-exportOptionsFlash.jpegMethod
+ExportOptionsFlash.jpegMethod
 ********************************************************************************
 
 ``exportOptionsFlash.jpegMethod``
@@ -291,7 +291,7 @@ Specifies the JPEG method to use. Default: ``FlashJPEGMethod.Standard``.
 
 .. _jsobjref/exportOptionsFlash.jpegQuality:
 
-exportOptionsFlash.jpegQuality
+ExportOptionsFlash.jpegQuality
 ********************************************************************************
 
 ``exportOptionsFlash.jpegQuality``
@@ -308,7 +308,7 @@ Number (long).
 
 .. _jsobjref/exportOptionsFlash.layerOrder:
 
-exportOptionsFlash.layerOrder
+ExportOptionsFlash.layerOrder
 ********************************************************************************
 
 ``exportOptionsFlash.layerOrder``
@@ -325,7 +325,7 @@ The order in which layers are exported to Flash frames. Default: ``LayerOrderTyp
 
 .. _jsobjref/exportOptionsFlash.looping:
 
-exportOptionsFlash.looping
+ExportOptionsFlash.looping
 ********************************************************************************
 
 ``exportOptionsFlash.looping``
@@ -342,7 +342,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsFlash.playbackAccess:
 
-exportOptionsFlash.playbackAccess
+ExportOptionsFlash.playbackAccess
 ********************************************************************************
 
 ``exportOptionsFlash.playbackAccess``
@@ -359,7 +359,7 @@ The access level for the exported SWF file. Default: ``FlashPlaybackSecurity.Pla
 
 .. _jsobjref/exportOptionsFlash.preserveAppearance:
 
-exportOptionsFlash.preserveAppearance
+ExportOptionsFlash.preserveAppearance
 ********************************************************************************
 
 ``exportOptionsFlash.preserveAppearance``
@@ -376,7 +376,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsFlash.readOnly:
 
-exportOptionsFlash.readOnly
+ExportOptionsFlash.readOnly
 ********************************************************************************
 
 ``exportOptionsFlash.readOnly``
@@ -393,7 +393,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsFlash.replacing:
 
-exportOptionsFlash.replacing
+ExportOptionsFlash.replacing
 ********************************************************************************
 
 ``exportOptionsFlash.replacing``
@@ -410,7 +410,7 @@ If a file with the same name already exists, should it be replaced. Default: ``S
 
 .. _jsobjref/exportOptionsFlash.resolution:
 
-exportOptionsFlash.resolution
+ExportOptionsFlash.resolution
 ********************************************************************************
 
 ``exportOptionsFlash.resolution``
@@ -427,7 +427,7 @@ Number (double).
 
 .. _jsobjref/exportOptionsFlash.saveMultipleArtboards:
 
-exportOptionsFlash.saveMultipleArtboards
+ExportOptionsFlash.saveMultipleArtboards
 ********************************************************************************
 
 ``exportOptionsFlash.saveMultipleArtboards``
@@ -444,7 +444,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsFlash.typename:
 
-exportOptionsFlash.typename
+ExportOptionsFlash.typename
 ********************************************************************************
 
 ``exportOptionsFlash.typename``

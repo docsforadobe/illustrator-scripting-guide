@@ -23,7 +23,7 @@ Properties
 
 .. _jsobjref/cmykColor.black:
 
-cmykColor.black
+CMYKColor.black
 ********************************************************************************
 
 ``cmykColor.black``
@@ -40,7 +40,7 @@ Number (double)
 
 .. _jsobjref/cmykColor.cyan:
 
-cmykColor.cyan
+CMYKColor.cyan
 ********************************************************************************
 
 ``cmykColor.cyan``
@@ -57,7 +57,7 @@ Number (double)
 
 .. _jsobjref/cmykColor.magenta:
 
-cmykColor.magenta
+CMYKColor.magenta
 ********************************************************************************
 
 ``cmykColor.magenta``
@@ -74,7 +74,7 @@ Number (double)
 
 .. _jsobjref/cmykColor.typename:
 
-cmykColor.typename
+CMYKColor.typename
 ********************************************************************************
 
 ``cmykColor.typename``
@@ -91,7 +91,7 @@ String; read-only.
 
 .. _jsobjref/cmykColor.yellow:
 
-cmykColor.yellow
+CMYKColor.yellow
 ********************************************************************************
 
 ``cmykColor.yellow``

@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/brushes.length:
 
-brushes.length
+Brushes.length
 ********************************************************************************
 
 ``app.activeDocument.brushes.length``
@@ -34,7 +34,7 @@ Number; read-only.
 
 .. _jsobjref/brushes.parent:
 
-brushes.parent
+Brushes.parent
 ********************************************************************************
 
 ``app.activeDocument.brushes.parent``
@@ -51,7 +51,7 @@ Object; read-only.
 
 .. _jsobjref/brushes.typename:
 
-brushes.typename
+Brushes.typename
 ********************************************************************************
 
 ``app.activeDocument.brushes.typename``
@@ -72,7 +72,7 @@ Methods
 
 .. _jsobjref/brushes.getByName:
 
-brushes.getByName()
+Brushes.getByName()
 ********************************************************************************
 
 ``app.activeDocument.brushes.getByName(name)``
@@ -97,7 +97,7 @@ Gets the first element in the collection with the specified name.
 
 .. _jsobjref/brushes.index:
 
-brushes.index()
+Brushes.index()
 ********************************************************************************
 
 ``app.activeDocument.brushes.index(itemKey)``
@@ -132,5 +132,5 @@ Counting brushes
   // Counts all brushes in the active document
 
   if ( app.documents.length > 0 ) {
-    numberOfBrushes = app.activeDocument.brushes.length;
+    var numberOfBrushes = app.activeDocument.brushes.length;
   }

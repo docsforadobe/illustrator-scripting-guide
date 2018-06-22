@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/characterStyles.length:
 
-characterStyles.length
+CharacterStyles.length
 ********************************************************************************
 
 ``app.activeDocument.characterStyles.length``
@@ -34,7 +34,7 @@ Number; read-only.
 
 .. _jsobjref/characterStyles.parent:
 
-characterStyles.parent
+CharacterStyles.parent
 ********************************************************************************
 
 ``app.activeDocument.characterStyles.parent``
@@ -51,7 +51,7 @@ Object; read-only.
 
 .. _jsobjref/characterStyles.typename:
 
-characterStyles.typename
+CharacterStyles.typename
 ********************************************************************************
 
 ``app.activeDocument.characterStyles.typename``
@@ -72,7 +72,7 @@ Methods
 
 .. _jsobjref/characterStyles.add:
 
-characterStyles.add()
+CharacterStyles.add()
 ********************************************************************************
 
 ``add(name)``
@@ -97,7 +97,7 @@ Creates a named character style.
 
 .. _jsobjref/characterStyles.getByName:
 
-characterStyles.getByName()
+CharacterStyles.getByName()
 ********************************************************************************
 
 ``getByName(name)``
@@ -122,7 +122,7 @@ Gets the first element in the collection with the provided name.
 
 .. _jsobjref/characterStyles.index:
 
-characterStyles.index()
+CharacterStyles.index()
 ********************************************************************************
 
 ``index(itemKey)``
@@ -147,7 +147,7 @@ Gets an element from the collection.
 
 .. _jsobjref/characterStyles.removeAll:
 
-characterStyles.removeAll()
+CharacterStyles.removeAll()
 ********************************************************************************
 
 ``removeAll()``

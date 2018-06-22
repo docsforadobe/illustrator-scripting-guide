@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/documentPreset.artboardLayout:
 
-documentPreset.artboardLayout
+DocumentPreset.artboardLayout
 ********************************************************************************
 
 ``documentPreset.artboardLayout``
@@ -34,7 +34,7 @@ The layout of artboards in the new document. Default: ``GridByRow``.
 
 .. _jsobjref/documentPreset.artboardRowsOrCols:
 
-documentPreset.artboardRowsOrCols
+DocumentPreset.artboardRowsOrCols
 ********************************************************************************
 
 ``documentPreset.artboardRowsOrCols``
@@ -51,7 +51,7 @@ Number (long).
 
 .. _jsobjref/documentPreset.artboardSpacing:
 
-documentPreset.artboardSpacing
+DocumentPreset.artboardSpacing
 ********************************************************************************
 
 ``documentPreset.artboardSpacing``
@@ -68,7 +68,7 @@ Number (double).
 
 .. _jsobjref/documentPreset.colorMode:
 
-documentPreset.colorMode
+DocumentPreset.colorMode
 ********************************************************************************
 
 ``documentPreset.colorMode``
@@ -85,7 +85,7 @@ The color space for the new document.
 
 .. _jsobjref/documentPreset.documentBleedLink:
 
-documentPreset.documentBleedLink
+DocumentPreset.documentBleedLink
 ********************************************************************************
 
 ``documentPreset.documentBleedLink``
@@ -102,7 +102,7 @@ Boolean.
 
 .. _jsobjref/documentPreset.documentBleedOffsetRect:
 
-documentPreset.documentBleedOffsetRect
+DocumentPreset.documentBleedOffsetRect
 ********************************************************************************
 
 ``documentPreset.documentBleedOffsetRect``
@@ -119,7 +119,7 @@ Rectangle.
 
 .. _jsobjref/documentPreset.height:
 
-documentPreset.height
+DocumentPreset.height
 ********************************************************************************
 
 ``documentPreset.height``
@@ -136,7 +136,7 @@ Number (double).
 
 .. _jsobjref/documentPreset.numArtboards:
 
-documentPreset.numArtboards
+DocumentPreset.numArtboards
 ********************************************************************************
 
 ``documentPreset.numArtboards``
@@ -153,7 +153,7 @@ Number (long).
 
 .. _jsobjref/documentPreset.previewMode:
 
-documentPreset.previewMode
+DocumentPreset.previewMode
 ********************************************************************************
 
 ``documentPreset.previewMode``
@@ -170,7 +170,7 @@ The preview mode for the new document.
 
 .. _jsobjref/documentPreset.rasterResolution:
 
-documentPreset.rasterResolution
+DocumentPreset.rasterResolution
 ********************************************************************************
 
 ``documentPreset.rasterResolution``
@@ -187,7 +187,7 @@ The raster resolution for the new document.
 
 .. _jsobjref/documentPreset.title:
 
-documentPreset.title
+DocumentPreset.title
 ********************************************************************************
 
 ``documentPreset.title``
@@ -204,7 +204,7 @@ String.
 
 .. _jsobjref/documentPreset.transparencyGrid:
 
-documentPreset.transparencyGrid
+DocumentPreset.transparencyGrid
 ********************************************************************************
 
 ``documentPreset.transparencyGrid``
@@ -221,7 +221,7 @@ The transparency grid color for the new document.
 
 .. _jsobjref/documentPreset.typename:
 
-documentPreset.typename
+DocumentPreset.typename
 ********************************************************************************
 
 ``documentPreset.typename``
@@ -238,7 +238,7 @@ String, read-only.
 
 .. _jsobjref/documentPreset.units:
 
-documentPreset.units
+DocumentPreset.units
 ********************************************************************************
 
 ``documentPreset.units``
@@ -255,7 +255,7 @@ The ruler units for the new document.
 
 .. _jsobjref/documentPreset.width:
 
-documentPreset.width
+DocumentPreset.width
 ********************************************************************************
 
 ``documentPreset.width``

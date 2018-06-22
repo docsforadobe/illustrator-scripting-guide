@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/gradient.gradientStops:
 
-gradient.gradientStops
+Gradient.gradientStops
 ********************************************************************************
 
 ``gradient.gradientStops``
@@ -34,7 +34,7 @@ The gradient stops contained in this gradient.
 
 .. _jsobjref/gradient.name:
 
-gradient.name
+Gradient.name
 ********************************************************************************
 
 ``gradient.name``
@@ -51,7 +51,7 @@ String.
 
 .. _jsobjref/gradient.parent:
 
-gradient.parent
+Gradient.parent
 ********************************************************************************
 
 ``gradient.parent``
@@ -68,7 +68,7 @@ The document that contains this gradient.
 
 .. _jsobjref/gradient.type:
 
-gradient.type
+Gradient.type
 ********************************************************************************
 
 ``gradient.type``
@@ -85,7 +85,7 @@ The kind of the gradient, either radial or linear.
 
 .. _jsobjref/gradient.typename:
 
-gradient.typename
+Gradient.typename
 ********************************************************************************
 
 ``gradient.typename``
@@ -106,7 +106,7 @@ Methods
 
 .. _jsobjref/gradient.remove:
 
-gradient.remove()
+Gradient.remove()
 ********************************************************************************
 
 ``app.activeDocument.gradients[index].remove()``

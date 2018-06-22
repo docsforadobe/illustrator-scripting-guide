@@ -18,7 +18,7 @@ Properties
 
 .. _jsobjref/brush.name:
 
-brush.name
+Brush.name
 ********************************************************************************
 
 ``app.activeDocument.brushes[index].name``
@@ -35,7 +35,7 @@ String
 
 .. _jsobjref/brush.parent:
 
-brush.parent
+Brush.parent
 ********************************************************************************
 
 ``app.activeDocument.brushes[index].parent``
@@ -52,7 +52,7 @@ The document that contains this brush.
 
 .. _jsobjref/brush.typename:
 
-brush.typename
+Brush.typename
 ********************************************************************************
 
 ``app.activeDocument.brushes[index].typename``
@@ -73,7 +73,7 @@ Methods
 
 .. _jsobjref/brush.applyTo:
 
-brush.applyTo()
+Brush.applyTo()
 ********************************************************************************
 
 ``app.activeDocument.brushes[index].applyTo(artItem)``
@@ -109,16 +109,16 @@ Applying a Brush
   // then applies the same brush to each item in the group
 
   if ( app.documents.length > 0 ) {
-    docSelection = app.activeDocument.selection;
+    var docSelection = app.activeDocument.selection;
     if ( docSelection.length > 0 ) {
-      newGroup = app.activeDocument.groupItems.add();
+      var newGroup = app.activeDocument.groupItems.add();
 
       for ( i = 0; i < docSelection.length; i++ ) {
-        newItem = docSelection[i].duplicate();
+        var newItem = docSelection[i].duplicate();
         newItem.moveToBeginning( newGroup );
       }
 
-      brush4 = app.activeDocument.brushes[1];
-      brush4.applyTo( newGroup );
+      var brush = app.activeDocument.brushes[1];
+      brush.applyTo( newGroup );
     }
   }

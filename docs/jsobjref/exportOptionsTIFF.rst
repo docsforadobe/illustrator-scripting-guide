@@ -19,7 +19,7 @@ Properties
 
 .. _jsobjref/exportOptionsTIFF.antiAliasing:
 
-exportOptionsTIFF.antiAliasing
+ExportOptionsTIFF.antiAliasing
 ********************************************************************************
 
 ``exportOptionsTIFF.antiAliasing``
@@ -36,7 +36,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsTIFF.artboardRange:
 
-exportOptionsTIFF.artboardRange
+ExportOptionsTIFF.artboardRange
 ********************************************************************************
 
 ``exportOptionsTIFF.artboardRange``
@@ -53,7 +53,7 @@ String.
 
 .. _jsobjref/exportOptionsTIFF.byteOrder:
 
-exportOptionsTIFF.byteOrder
+ExportOptionsTIFF.byteOrder
 ********************************************************************************
 
 ``exportOptionsTIFF.byteOrder``
@@ -70,7 +70,7 @@ The byte order to use in the new file.
 
 .. _jsobjref/exportOptionsTIFF.imageColorSpace:
 
-exportOptionsTIFF.imageColorSpace
+ExportOptionsTIFF.imageColorSpace
 ********************************************************************************
 
 ``exportOptionsTIFF.imageColorSpace``
@@ -87,7 +87,7 @@ The color space of the exported file. Default: ``ImageColorSpace.RGB``.
 
 .. _jsobjref/exportOptionsTIFF.IZWCompression:
 
-exportOptionsTIFF.IZWCompression
+ExportOptionsTIFF.IZWCompression
 ********************************************************************************
 
 ``exportOptionsTIFF.IZWCompression``
@@ -104,7 +104,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsTIFF.resolution:
 
-exportOptionsTIFF.resolution
+ExportOptionsTIFF.resolution
 ********************************************************************************
 
 ``exportOptionsTIFF.resolution``
@@ -121,7 +121,7 @@ Number (double).
 
 .. _jsobjref/exportOptionsTIFF.saveMultipleArtboards:
 
-exportOptionsTIFF.saveMultipleArtboards
+ExportOptionsTIFF.saveMultipleArtboards
 ********************************************************************************
 
 ``exportOptionsTIFF.saveMultipleArtboards``
@@ -147,7 +147,7 @@ Exporting to TIFF format
 
     // Exports current document to dest as a TIFF file with specified options,
     // dest contains the full path including the file name
-    
+
     function exportFileToPSD (dest) {
         if ( app.documents.length > 0 ) {
             var exportOptions = new ExportOptionsTIFF();
@@ -157,7 +157,7 @@ Exporting to TIFF format
             exportOptions.resolution = 150;
             exportOptions.byteOrder = TIFFByteOrder.IBMPC;
             exportOptions.IZWCompression = false;
-            
+
             app.activeDocument.exportFile( fileSpec, type, exportOptions );
         }
     }

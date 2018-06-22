@@ -19,7 +19,7 @@ Properties
 
 .. _jsobjref/exportOptionsSVG.artboardRange:
 
-exportOptionsSVG.artboardRange
+ExportOptionsSVG.artboardRange
 ********************************************************************************
 
 ``exportOptionsSVG.artboardRange``
@@ -36,7 +36,7 @@ String.
 
 .. _jsobjref/exportOptionsSVG.compressed:
 
-exportOptionsSVG.compressed
+ExportOptionsSVG.compressed
 ********************************************************************************
 
 ``exportOptionsSVG.compressed``
@@ -53,7 +53,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsSVG.coordinatePrecision:
 
-exportOptionsSVG.coordinatePrecision
+ExportOptionsSVG.coordinatePrecision
 ********************************************************************************
 
 ``exportOptionsSVG.coordinatePrecision``
@@ -70,7 +70,7 @@ Number (long)
 
 .. _jsobjref/exportOptionsSVG.cssProperties:
 
-exportOptionsSVG.cssProperties
+ExportOptionsSVG.cssProperties
 ********************************************************************************
 
 ``exportOptionsSVG.cssProperties``
@@ -87,7 +87,7 @@ How the CSS properties of the document should be included in the exported file. 
 
 .. _jsobjref/exportOptionsSVG.documentEncoding:
 
-exportOptionsSVG.documentEncoding
+ExportOptionsSVG.documentEncoding
 ********************************************************************************
 
 ``exportOptionsSVG.documentEncoding``
@@ -104,7 +104,7 @@ How the text in the document should be encoded. Default: ``SVGDocumentEncoding.A
 
 .. _jsobjref/exportOptionsSVG.DTD:
 
-exportOptionsSVG.DTD
+ExportOptionsSVG.DTD
 ********************************************************************************
 
 ``exportOptionsSVG.DTD``
@@ -121,7 +121,7 @@ The SVG version to which the file should conform. Default: ``SVGDTDVersion.SVG1_
 
 .. _jsobjref/exportOptionsSVG.embedRasterImages:
 
-exportOptionsSVG.embedRasterImages
+ExportOptionsSVG.embedRasterImages
 ********************************************************************************
 
 ``exportOptionsSVG.embedRasterImages``
@@ -138,7 +138,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsSVG.fontSubsetting:
 
-exportOptionsSVG.fontSubsetting
+ExportOptionsSVG.fontSubsetting
 ********************************************************************************
 
 ``exportOptionsSVG.fontSubsetting``
@@ -155,7 +155,7 @@ Which font glyphs should be included in the exported file. Default: ``SVGFontSub
 
 .. _jsobjref/exportOptionsSVG.fontType:
 
-exportOptionsSVG.fontType
+ExportOptionsSVG.fontType
 ********************************************************************************
 
 ``exportOptionsSVG.fontType``
@@ -172,7 +172,7 @@ The type of font to included in the exported file. Default: ``SVGFontType.CEFFON
 
 .. _jsobjref/exportOptionsSVG.includeFileInfo:
 
-exportOptionsSVG.includeFileInfo
+ExportOptionsSVG.includeFileInfo
 ********************************************************************************
 
 ``exportOptionsSVG.includeFileInfo``
@@ -189,7 +189,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsSVG.includeUnusedStyles:
 
-exportOptionsSVG.includeUnusedStyles
+ExportOptionsSVG.includeUnusedStyles
 ********************************************************************************
 
 ``exportOptionsSVG.includeUnusedStyles``
@@ -206,7 +206,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsSVG.includeVariablesAndDatasets:
 
-exportOptionsSVG.includeVariablesAndDatasets
+ExportOptionsSVG.includeVariablesAndDatasets
 ********************************************************************************
 
 ``exportOptionsSVG.includeVariablesAndDatasets``
@@ -223,7 +223,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsSVG.optimizeForSVGViewer:
 
-exportOptionsSVG.optimizeForSVGViewer
+ExportOptionsSVG.optimizeForSVGViewer
 ********************************************************************************
 
 ``exportOptionsSVG.optimizeForSVGViewer``
@@ -240,7 +240,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsSVG.preserveEditability:
 
-exportOptionsSVG.preserveEditability
+ExportOptionsSVG.preserveEditability
 ********************************************************************************
 
 ``exportOptionsSVG.preserveEditability``
@@ -257,7 +257,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsSVG.saveMultipleArtboards:
 
-exportOptionsSVG.saveMultipleArtboards
+ExportOptionsSVG.saveMultipleArtboards
 ********************************************************************************
 
 ``exportOptionsSVG.saveMultipleArtboards``
@@ -274,7 +274,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsSVG.slices:
 
-exportOptionsSVG.slices
+ExportOptionsSVG.slices
 ********************************************************************************
 
 ``exportOptionsSVG.slices``
@@ -291,7 +291,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsSVG.sVGAutoKerning:
 
-exportOptionsSVG.sVGAutoKerning
+ExportOptionsSVG.sVGAutoKerning
 ********************************************************************************
 
 ``exportOptionsSVG.sVGAutoKerning``
@@ -308,7 +308,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsSVG.sVGTextOnPath:
 
-exportOptionsSVG.sVGTextOnPath
+ExportOptionsSVG.sVGTextOnPath
 ********************************************************************************
 
 ``exportOptionsSVG.sVGTextOnPath``
@@ -325,7 +325,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsSVG.typename:
 
-exportOptionsSVG.typename
+ExportOptionsSVG.typename
 ********************************************************************************
 
 ``exportOptionsSVG.typename``
@@ -351,7 +351,7 @@ Exporting to SVG format
 
     // Exports current document to dest as an SVG file with specified options,
     // dest contains the full path including the file name
-    
+
     function exportFileToSVG (dest) {
         if ( app.documents.length > 0 ) {
             var exportOptions = new ExportOptionsSVG();
@@ -361,7 +361,7 @@ Exporting to SVG format
             exportOptions.embedRasterImages = true;
             exportOptions.embedAllFonts = false;
             exportOptions.fontSubsetting = SVGFontSubsetting.GLYPHSUSED;
-            
+
             app.activeDocument.exportFile( fileSpec, type, exportOptions );
         }
     }

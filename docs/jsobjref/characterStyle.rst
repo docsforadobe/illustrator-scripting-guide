@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/characterStyle.characterAttributes:
 
-characterStyle.characterAttributes
+CharacterStyle.characterAttributes
 ********************************************************************************
 
 ``characterStyle.characterAttributes``
@@ -34,7 +34,7 @@ The character properties for the style.
 
 .. _jsobjref/characterStyle.name:
 
-characterStyle.name
+CharacterStyle.name
 ********************************************************************************
 
 ``characterStyle.name``
@@ -51,7 +51,7 @@ String
 
 .. _jsobjref/characterStyle.parent:
 
-characterStyle.parent
+CharacterStyle.parent
 ********************************************************************************
 
 ``characterStyle.parent``
@@ -68,7 +68,7 @@ Object, read-only.
 
 .. _jsobjref/characterStyle.typename:
 
-characterStyle.typename
+CharacterStyle.typename
 ********************************************************************************
 
 ``characterStyle.typename``
@@ -89,7 +89,7 @@ Methods
 
 .. _jsobjref/characterStyle.applyTo:
 
-characterStyle.applyTo()
+CharacterStyle.applyTo()
 ********************************************************************************
 
 ``characterStyle.applyTo(textItem [,clearingOverrides])``
@@ -116,7 +116,7 @@ Nothing
 
 .. _jsobjref/characterStyle.remove:
 
-characterStyle.remove()
+CharacterStyle.remove()
 ********************************************************************************
 
 ``characterStyle.remove()``
@@ -127,4 +127,4 @@ Deletes the object.
 
 **Returns**
 
-Nothing
+Nothing.

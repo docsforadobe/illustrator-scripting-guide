@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/views.length:
 
-views.length
+Views.length
 ********************************************************************************
 
 ``app.activeDocument.views.length``
@@ -34,7 +34,7 @@ Number; read-only.
 
 .. _jsobjref/views.parent:
 
-views.parent
+Views.parent
 ********************************************************************************
 
 ``app.activeDocument.views.parent``
@@ -51,7 +51,7 @@ Object; read-only.
 
 .. _jsobjref/views.typename:
 
-views.typename
+Views.typename
 ********************************************************************************
 
 ``app.activeDocument.views.typename``
@@ -72,7 +72,7 @@ Methods
 
 .. _jsobjref/views.index:
 
-views.index()
+Views.index()
 ********************************************************************************
 
 ``app.activeDocument.views.index(itemKey)``

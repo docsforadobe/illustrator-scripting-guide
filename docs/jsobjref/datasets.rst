@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/datasets.length:
 
-dataSets.length
+Datasets.length
 ********************************************************************************
 
 ``app.activeDocument.dataSets.length``
@@ -34,7 +34,7 @@ Number, read-only.
 
 .. _jsobjref/datasets.parent:
 
-dataSets.parent
+Datasets.parent
 ********************************************************************************
 
 ``app.activeDocument.dataSets.parent``
@@ -51,7 +51,7 @@ The name of the object that contains this dataset.
 
 .. _jsobjref/datasets.typename:
 
-dataSets.typename
+Datasets.typename
 ********************************************************************************
 
 ``app.activeDocument.dataSets.typename``
@@ -72,7 +72,7 @@ Methods
 
 .. _jsobjref/datasets.add:
 
-dataSets.add()
+Datasets.add()
 ********************************************************************************
 
 ``app.activeDocument.dataSets.add()``
@@ -89,7 +89,7 @@ Creates a new dataset object.
 
 .. _jsobjref/datasets.getByName:
 
-dataSets.getByName()
+Datasets.getByName()
 ********************************************************************************
 
 ``app.activeDocument.dataSets.getByName(name)``
@@ -114,7 +114,7 @@ Gets the first element in the collection with the specified name.
 
 .. _jsobjref/datasets.index:
 
-dataSets.index()
+Datasets.index()
 ********************************************************************************
 
 ``app.activeDocument.dataSets.index(itemKey)``
@@ -139,7 +139,7 @@ Gets an element from the collection.
 
 .. _jsobjref/datasets.removeAll:
 
-dataSets.removeAll()
+Datasets.removeAll()
 ********************************************************************************
 
 ``app.activeDocument.dataSets.removeAll()``

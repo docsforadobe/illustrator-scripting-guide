@@ -22,7 +22,7 @@ Properties
 
 .. _jsobjref/compoundPathItem.artworkKnockout:
 
-compoundPathItem.artworkKnockout
+CompoundPathItem.artworkKnockout
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].artworkKnockout``
@@ -39,7 +39,7 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 .. _jsobjref/compoundPathItem.blendingMode:
 
-compoundPathItem.blendingMode
+CompoundPathItem.blendingMode
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].blendingMode``
@@ -56,7 +56,7 @@ The mode used when compositing an object.
 
 .. _jsobjref/compoundPathItem.controlBounds:
 
-compoundPathItem.controlBounds
+CompoundPathItem.controlBounds
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].controlBounds``
@@ -73,7 +73,7 @@ Array of 4 numbers, read-only.
 
 .. _jsobjref/compoundPathItem.editable:
 
-compoundPathItem.editable
+CompoundPathItem.editable
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].editable``
@@ -90,7 +90,7 @@ Boolean, read-only.
 
 .. _jsobjref/compoundPathItem.geometricBounds:
 
-compoundPathItem.geometricBounds
+CompoundPathItem.geometricBounds
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].geometricBounds``
@@ -107,7 +107,7 @@ Array of 4 numbers, read-only.
 
 .. _jsobjref/compoundPathItem.height:
 
-compoundPathItem.height
+CompoundPathItem.height
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].height``
@@ -124,7 +124,7 @@ Number (double).
 
 .. _jsobjref/compoundPathItem.hidden:
 
-compoundPathItem.hidden
+CompoundPathItem.hidden
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].hidden``
@@ -141,7 +141,7 @@ Boolean.
 
 .. _jsobjref/compoundPathItem.isIsolated:
 
-compoundPathItem.isIsolated
+CompoundPathItem.isIsolated
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].isIsolated``
@@ -158,7 +158,7 @@ Boolean.
 
 .. _jsobjref/compoundPathItem.layer:
 
-compoundPathItem.layer
+CompoundPathItem.layer
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].layer``
@@ -175,7 +175,7 @@ The layer to which this compound path item belongs.
 
 .. _jsobjref/compoundPathItem.left:
 
-compoundPathItem.left
+CompoundPathItem.left
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].left``
@@ -192,7 +192,7 @@ Number (double).
 
 .. _jsobjref/compoundPathItem.locked:
 
-compoundPathItem.locked
+CompoundPathItem.locked
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].locked``
@@ -209,7 +209,7 @@ Boolean.
 
 .. _jsobjref/compoundPathItem.name:
 
-compoundPathItem.name
+CompoundPathItem.name
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].name``
@@ -226,7 +226,7 @@ String.
 
 .. _jsobjref/compoundPathItem.note:
 
-compoundPathItem.note
+CompoundPathItem.note
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].note``
@@ -243,7 +243,7 @@ String.
 
 .. _jsobjref/compoundPathItem.opacity:
 
-compoundPathItem.opacity
+CompoundPathItem.opacity
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].opacity``
@@ -260,7 +260,7 @@ Number (double).
 
 .. _jsobjref/compoundPathItem.parent:
 
-compoundPathItem.parent
+CompoundPathItem.parent
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].parent``
@@ -277,7 +277,7 @@ The parent of this object.
 
 .. _jsobjref/compoundPathItem.pathItems:
 
-compoundPathItem.pathItems
+CompoundPathItem.pathItems
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].pathItems``
@@ -294,7 +294,7 @@ The path art items in this compound path.
 
 .. _jsobjref/compoundPathItem.position:
 
-compoundPathItem.position
+CompoundPathItem.position
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].position``
@@ -311,7 +311,7 @@ Array of 2 numbers.
 
 .. _jsobjref/compoundPathItem.selected:
 
-compoundPathItem.selected
+CompoundPathItem.selected
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].selected``
@@ -328,7 +328,7 @@ Boolean.
 
 .. _jsobjref/compoundPathItem.sliced:
 
-compoundPathItem.sliced
+CompoundPathItem.sliced
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].sliced``
@@ -345,7 +345,7 @@ Boolean.
 
 .. _jsobjref/compoundPathItem.tags:
 
-compoundPathItem.tags
+CompoundPathItem.tags
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].tags``
@@ -362,7 +362,7 @@ The tags contained in this object.
 
 .. _jsobjref/compoundPathItem.top:
 
-compoundPathItem.top
+CompoundPathItem.top
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].top``
@@ -379,7 +379,7 @@ Number (double).
 
 .. _jsobjref/compoundPathItem.typename:
 
-compoundPathItem.typename
+CompoundPathItem.typename
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].typename``
@@ -396,7 +396,7 @@ String, read-only.
 
 .. _jsobjref/compoundPathItem.uRL:
 
-compoundPathItem.uRL
+CompoundPathItem.uRL
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].uRL``
@@ -413,7 +413,7 @@ String.
 
 .. _jsobjref/compoundPathItem.visibilityVariable:
 
-compoundPathItem.visibilityVariable
+CompoundPathItem.visibilityVariable
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].visibilityVariable``
@@ -430,7 +430,7 @@ Variant.
 
 .. _jsobjref/compoundPathItem.visibleBounds:
 
-compoundPathItem.visibleBounds
+CompoundPathItem.visibleBounds
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].visibleBounds``
@@ -447,7 +447,7 @@ Array of 4 numbers, read-only.
 
 .. _jsobjref/compoundPathItem.width:
 
-compoundPathItem.width
+CompoundPathItem.width
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].width``
@@ -464,7 +464,7 @@ Number (double).
 
 .. _jsobjref/compoundPathItem.wrapInside:
 
-compoundPathItem.wrapInside
+CompoundPathItem.wrapInside
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].wrapInside``
@@ -481,7 +481,7 @@ Boolean.
 
 .. _jsobjref/compoundPathItem.wrapOffset:
 
-compoundPathItem.wrapOffset
+CompoundPathItem.wrapOffset
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].wrapOffset``
@@ -498,7 +498,7 @@ Number (double).
 
 .. _jsobjref/compoundPathItem.wrapped:
 
-compoundPathItem.wrapped
+CompoundPathItem.wrapped
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].wrapped``
@@ -515,7 +515,7 @@ Boolean.
 
 .. _jsobjref/compoundPathItem.zOrderPosition:
 
-compoundPathItem.zOrderPosition
+CompoundPathItem.zOrderPosition
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].zOrderPosition``
@@ -536,7 +536,7 @@ Methods
 
 .. _jsobjref/compoundPathItem.duplicate:
 
-compoundPathItem.duplicate()
+CompoundPathItem.duplicate()
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].duplicate([relativeObject][,insertionLocation])``
@@ -563,7 +563,7 @@ Creates a duplicate of the selected object.
 
 .. _jsobjref/compoundPathItem.move:
 
-compoundPathItem.move()
+CompoundPathItem.move()
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].move(relativeObject, insertionLocation)``
@@ -590,7 +590,7 @@ Nothing.
 
 .. _jsobjref/compoundPathItem.remove:
 
-compoundPathItem.remove()
+CompoundPathItem.remove()
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].remove()``
@@ -607,7 +607,7 @@ Nothing.
 
 .. _jsobjref/compoundPathItem.resize:
 
-compoundPathItem.resize()
+CompoundPathItem.resize()
 ********************************************************************************
 
 ::
@@ -651,7 +651,7 @@ Nothing.
 
 .. _jsobjref/compoundPathItem.rotate:
 
-compoundPathItem.rotate()
+CompoundPathItem.rotate()
 ********************************************************************************
 
 ::
@@ -733,7 +733,7 @@ Nothing.
 
 .. _jsobjref/compoundPathItem.translate:
 
-compoundPathItem.translate()
+CompoundPathItem.translate()
 ********************************************************************************
 
 ::
@@ -774,7 +774,7 @@ Nothing.
 
 .. _jsobjref/compoundPathItem.zOrder:
 
-compoundPathItem.zOrder()
+CompoundPathItem.zOrder()
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems[index].zOrder(zOrderCmd)``
@@ -808,13 +808,13 @@ Selecting paths in a document
 
     // Selects all paths not part of a compound path
     if ( app.documents.length > 0 ) {
-        doc = app.activeDocument;
-        count = 0;
+        var doc = app.activeDocument;
+        var count = 0;
         if ( doc.pathItems.length > 0 ) {
-            thePaths = doc.pathItems;
-            numPaths = thePaths.length;
-            for ( i = 0; i < doc.pathItems.length; i++ ) {
-            pathArt = doc.pathItems[i];
+            var thePaths = doc.pathItems;
+            var numPaths = thePaths.length;
+            for ( var i = 0; i < doc.pathItems.length; i++ ) {
+            var pathArt = doc.pathItems[i];
             if ( pathArt.parent.typename != "compoundPathItem" ) {
                 pathArt.selected = true;
                 count++;
@@ -832,11 +832,11 @@ Creating and modifying a compound path item
     // to all items in the compound path
 
     if ( app.documents.length > 0 ) {
-        doc = app.activeDocument;
-        newCompoundPath = doc.activeLayer.compoundPathItems.add();
+        var doc = app.activeDocument;
+        var newCompoundPath = doc.activeLayer.compoundPathItems.add();
 
         // Create the path items
-        newPath = newCompoundPath.pathItems.add();
+        var newPath = newCompoundPath.pathItems.add();
         newPath.setEntirePath( Array( Array(30, 50), Array(30, 100) ) );
 
         newPath = newCompoundPath.pathItems.add();

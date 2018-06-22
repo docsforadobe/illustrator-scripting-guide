@@ -22,7 +22,7 @@ Properties
 
 .. _jsobjref/characterAttributes.akiLeft:
 
-characterAttributes.akiLeft
+CharacterAttributes.akiLeft
 ********************************************************************************
 
 ``characterAttributes.akiLeft``
@@ -39,7 +39,7 @@ Number (double)
 
 .. _jsobjref/characterAttributes.akiRight:
 
-characterAttributes.akiRight
+CharacterAttributes.akiRight
 ********************************************************************************
 
 ``characterAttributes.akiRight``
@@ -56,7 +56,7 @@ Number (double)
 
 .. _jsobjref/characterAttributes.alignment:
 
-characterAttributes.alignment
+CharacterAttributes.alignment
 ********************************************************************************
 
 ``characterAttributes.alignment``
@@ -73,7 +73,7 @@ The character alignment type.
 
 .. _jsobjref/characterAttributes.alternateGlyphs:
 
-characterAttributes.alternateGlyphs
+CharacterAttributes.alternateGlyphs
 ********************************************************************************
 
 ``characterAttributes.alternateGlyphs``
@@ -90,7 +90,7 @@ The alternate glyphs form.
 
 .. _jsobjref/characterAttributes.autoLeading:
 
-characterAttributes.autoLeading
+CharacterAttributes.autoLeading
 ********************************************************************************
 
 ``characterAttributes.autoLeading``
@@ -107,7 +107,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.baselineDirection:
 
-characterAttributes.baselineDirection
+CharacterAttributes.baselineDirection
 ********************************************************************************
 
 ``characterAttributes.baselineDirection``
@@ -124,7 +124,7 @@ The Japanese text baseline direction.
 
 .. _jsobjref/characterAttributes.baselinePosition:
 
-characterAttributes.baselinePosition
+CharacterAttributes.baselinePosition
 ********************************************************************************
 
 ``characterAttributes.baselinePosition``
@@ -141,7 +141,7 @@ The baseline position of text.
 
 .. _jsobjref/characterAttributes.baselineShift:
 
-characterAttributes.baselineShift
+CharacterAttributes.baselineShift
 ********************************************************************************
 
 ``characterAttributes.baselineShift``
@@ -158,7 +158,7 @@ Number (double)
 
 .. _jsobjref/characterAttributes.capitalization:
 
-characterAttributes.capitalization
+CharacterAttributes.capitalization
 ********************************************************************************
 
 ``characterAttributes.capitalization``
@@ -175,7 +175,7 @@ The case of text.
 
 .. _jsobjref/characterAttributes.connectionForms:
 
-characterAttributes.connectionForms
+CharacterAttributes.connectionForms
 ********************************************************************************
 
 ``characterAttributes.connectionForms``
@@ -192,7 +192,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.contextualLigature:
 
-characterAttributes.contextualLigature
+CharacterAttributes.contextualLigature
 ********************************************************************************
 
 ``characterAttributes.contextualLigature``
@@ -209,7 +209,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.discretionaryLigature:
 
-characterAttributes.discretionaryLigature
+CharacterAttributes.discretionaryLigature
 ********************************************************************************
 
 ``characterAttributes.discretionaryLigature``
@@ -226,7 +226,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.figureStyle:
 
-characterAttributes.figureStyle
+CharacterAttributes.figureStyle
 ********************************************************************************
 
 ``characterAttributes.figureStyle``
@@ -243,7 +243,7 @@ The number style in a OpenType font.
 
 .. _jsobjref/characterAttributes.fillColor:
 
-characterAttributes.fillColor
+CharacterAttributes.fillColor
 ********************************************************************************
 
 ``characterAttributes.fillColor``
@@ -260,7 +260,7 @@ The color of the text fill.
 
 .. _jsobjref/characterAttributes.fractions:
 
-characterAttributes.fractions
+CharacterAttributes.fractions
 ********************************************************************************
 
 ``characterAttributes.fractions``
@@ -277,7 +277,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.horizontalScale:
 
-characterAttributes.horizontalScale
+CharacterAttributes.horizontalScale
 ********************************************************************************
 
 ``characterAttributes.horizontalScale``
@@ -294,7 +294,7 @@ Number (double)
 
 .. _jsobjref/characterAttributes.italics:
 
-characterAttributes.italics
+CharacterAttributes.italics
 ********************************************************************************
 
 ``characterAttributes.italics``
@@ -311,7 +311,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.kerningMethod:
 
-characterAttributes.kerningMethod
+CharacterAttributes.kerningMethod
 ********************************************************************************
 
 ``characterAttributes.kerningMethod``
@@ -328,7 +328,7 @@ The automatic kerning method to use.
 
 .. _jsobjref/characterAttributes.language:
 
-characterAttributes.language
+CharacterAttributes.language
 ********************************************************************************
 
 ``characterAttributes.language``
@@ -345,7 +345,7 @@ The language of text.
 
 .. _jsobjref/characterAttributes.leading:
 
-characterAttributes.leading
+CharacterAttributes.leading
 ********************************************************************************
 
 ``characterAttributes.leading``
@@ -362,7 +362,7 @@ Number (double)
 
 .. _jsobjref/characterAttributes.ligature:
 
-characterAttributes.ligature
+CharacterAttributes.ligature
 ********************************************************************************
 
 ``characterAttributes.ligature``
@@ -379,7 +379,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.noBreak:
 
-characterAttributes.noBreak
+CharacterAttributes.noBreak
 ********************************************************************************
 
 ``characterAttributes.noBreak``
@@ -396,7 +396,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.openTypePosition:
 
-characterAttributes.openTypePosition
+CharacterAttributes.openTypePosition
 ********************************************************************************
 
 ``characterAttributes.openTypePosition``
@@ -413,7 +413,7 @@ The OpenType baseline position.
 
 .. _jsobjref/characterAttributes.ordinals:
 
-characterAttributes.ordinals
+CharacterAttributes.ordinals
 ********************************************************************************
 
 ``characterAttributes.ordinals``
@@ -430,7 +430,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.ornaments:
 
-characterAttributes.ornaments
+CharacterAttributes.ornaments
 ********************************************************************************
 
 ``characterAttributes.ornaments``
@@ -447,7 +447,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.overprintFill:
 
-characterAttributes.overprintFill
+CharacterAttributes.overprintFill
 ********************************************************************************
 
 ``characterAttributes.overprintFill``
@@ -464,7 +464,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.overprintStroke:
 
-characterAttributes.overprintStroke
+CharacterAttributes.overprintStroke
 ********************************************************************************
 
 ``characterAttributes.overprintStroke``
@@ -481,7 +481,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.parent:
 
-characterAttributes.parent
+CharacterAttributes.parent
 ********************************************************************************
 
 ``characterAttributes.parent``
@@ -498,7 +498,7 @@ Object, read-only.
 
 .. _jsobjref/characterAttributes.proportionalMetrics:
 
-characterAttributes.proportionalMetrics
+CharacterAttributes.proportionalMetrics
 ********************************************************************************
 
 ``characterAttributes.proportionalMetrics``
@@ -515,7 +515,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.rotation:
 
-characterAttributes.rotation
+CharacterAttributes.rotation
 ********************************************************************************
 
 ``characterAttributes.rotation``
@@ -532,7 +532,7 @@ Number (double)
 
 .. _jsobjref/characterAttributes.size:
 
-characterAttributes.size
+CharacterAttributes.size
 ********************************************************************************
 
 ``characterAttributes.size``
@@ -549,7 +549,7 @@ Number (double)
 
 .. _jsobjref/characterAttributes.strikeThrough:
 
-characterAttributes.strikeThrough
+CharacterAttributes.strikeThrough
 ********************************************************************************
 
 ``characterAttributes.strikeThrough``
@@ -566,7 +566,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.strokeColor:
 
-characterAttributes.strokeColor
+CharacterAttributes.strokeColor
 ********************************************************************************
 
 ``characterAttributes.strokeColor``
@@ -583,7 +583,7 @@ The color of the text stroke.
 
 .. _jsobjref/characterAttributes.strokeWeight:
 
-characterAttributes.strokeWeight
+CharacterAttributes.strokeWeight
 ********************************************************************************
 
 ``characterAttributes.strokeWeight``
@@ -600,7 +600,7 @@ Number (double)
 
 .. _jsobjref/characterAttributes.stylisticAlternates:
 
-characterAttributes.stylisticAlternates
+CharacterAttributes.stylisticAlternates
 ********************************************************************************
 
 ``characterAttributes.stylisticAlternates``
@@ -617,7 +617,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.swash:
 
-characterAttributes.swash
+CharacterAttributes.swash
 ********************************************************************************
 
 ``characterAttributes.swash``
@@ -634,7 +634,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.tateChuYokoHorizontal:
 
-characterAttributes.tateChuYokoHorizontal
+CharacterAttributes.tateChuYokoHorizontal
 ********************************************************************************
 
 ``characterAttributes.tateChuYokoHorizontal``
@@ -651,7 +651,7 @@ Number (long)
 
 .. _jsobjref/characterAttributes.tateChuYokoVertical:
 
-characterAttributes.tateChuYokoVertical
+CharacterAttributes.tateChuYokoVertical
 ********************************************************************************
 
 ``characterAttributes.tateChuYokoVertical``
@@ -668,7 +668,7 @@ Number (long)
 
 .. _jsobjref/characterAttributes.textFont:
 
-characterAttributes.textFont
+CharacterAttributes.textFont
 ********************************************************************************
 
 ``characterAttributes.textFont``
@@ -685,7 +685,7 @@ The text font.
 
 .. _jsobjref/characterAttributes.titling:
 
-characterAttributes.titling
+CharacterAttributes.titling
 ********************************************************************************
 
 ``characterAttributes.titling``
@@ -702,7 +702,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.tracking:
 
-characterAttributes.tracking
+CharacterAttributes.tracking
 ********************************************************************************
 
 ``characterAttributes.tracking``
@@ -719,7 +719,7 @@ Number (long)
 
 .. _jsobjref/characterAttributes.Tsume:
 
-characterAttributes.Tsume
+CharacterAttributes.Tsume
 ********************************************************************************
 
 ``characterAttributes.Tsume``
@@ -736,7 +736,7 @@ Number (double)
 
 .. _jsobjref/characterAttributes.typename:
 
-characterAttributes.typename
+CharacterAttributes.typename
 ********************************************************************************
 
 ``characterAttributes.typename``
@@ -753,7 +753,7 @@ String, read-only.
 
 .. _jsobjref/characterAttributes.underline:
 
-characterAttributes.underline
+CharacterAttributes.underline
 ********************************************************************************
 
 ``characterAttributes.underline``
@@ -770,7 +770,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.verticalScale:
 
-characterAttributes.verticalScale
+CharacterAttributes.verticalScale
 ********************************************************************************
 
 ``characterAttributes.verticalScale``
@@ -787,7 +787,7 @@ Number (double)
 
 .. _jsobjref/characterAttributes.wariChuCharactersAfterBreak:
 
-characterAttributes.wariChuCharactersAfterBreak
+CharacterAttributes.wariChuCharactersAfterBreak
 ********************************************************************************
 
 ``characterAttributes.wariChuCharactersAfterBreak``
@@ -804,7 +804,7 @@ Number (long)
 
 .. _jsobjref/characterAttributes.wariChuCharactersBeforeBreak:
 
-characterAttributes.wariChuCharactersBeforeBreak
+CharacterAttributes.wariChuCharactersBeforeBreak
 ********************************************************************************
 
 ``characterAttributes.wariChuCharactersBeforeBreak``
@@ -821,7 +821,7 @@ Number (long)
 
 .. _jsobjref/characterAttributes.waiChuEnabled:
 
-characterAttributes.waiChuEnabled
+CharacterAttributes.waiChuEnabled
 ********************************************************************************
 
 ``characterAttributes.waiChuEnabled``
@@ -838,7 +838,7 @@ Boolean
 
 .. _jsobjref/characterAttributes.wariChuJustification:
 
-characterAttributes.wariChuJustification
+CharacterAttributes.wariChuJustification
 ********************************************************************************
 
 ``characterAttributes.wariChuJustification``
@@ -855,7 +855,7 @@ The Wari-Chu justification.
 
 .. _jsobjref/characterAttributes.wariChuLineGap:
 
-characterAttributes.wariChuLineGap
+CharacterAttributes.wariChuLineGap
 ********************************************************************************
 
 ``characterAttributes.wariChuLineGap``
@@ -872,7 +872,7 @@ Number (long)
 
 .. _jsobjref/characterAttributes.wariChuLines:
 
-characterAttributes.wariChuLines
+CharacterAttributes.wariChuLines
 ********************************************************************************
 
 ``characterAttributes.wariChuLines``
@@ -889,7 +889,7 @@ Number (long)
 
 .. _jsobjref/characterAttributes.wariChuScale:
 
-characterAttributes.wariChuScale
+CharacterAttributes.wariChuScale
 ********************************************************************************
 
 ``characterAttributes.wariChuScale``

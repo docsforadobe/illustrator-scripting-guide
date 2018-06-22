@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/gradientStops.length:
 
-gradientStops.length
+GradientStops.length
 ********************************************************************************
 
 ``gradientStops.length``
@@ -34,7 +34,7 @@ Number, read-only.
 
 .. _jsobjref/gradientStops.parent:
 
-gradientStops.parent
+GradientStops.parent
 ********************************************************************************
 
 ``gradientStops.parent``
@@ -51,7 +51,7 @@ Object, read-only.
 
 .. _jsobjref/gradientStops.typename:
 
-gradientStops.typename
+GradientStops.typename
 ********************************************************************************
 
 ``gradientStops.typename``
@@ -72,7 +72,7 @@ Methods
 
 .. _jsobjref/gradientStops.add:
 
-gradientStops.add()
+GradientStops.add()
 ********************************************************************************
 
 ``app.activeDocument.gradients[index].gradientStops.add()``
@@ -89,7 +89,7 @@ Creates a new object.
 
 .. _jsobjref/gradientStops.getByName:
 
-gradientStops.getByName()
+GradientStops.getByName()
 ********************************************************************************
 
 ``app.activeDocument.gradients[index].gradientStops.getByName(name)``
@@ -114,7 +114,7 @@ Gets the first element in the collection with the specified name.
 
 .. _jsobjref/gradientStops.index:
 
-gradientStops.index()
+GradientStops.index()
 ********************************************************************************
 
 ``app.activeDocument.gradients[index].gradientStops.index(itemKey)``
@@ -139,7 +139,7 @@ Gets an element from the collection.
 
 .. _jsobjref/gradientStops.removeAll:
 
-gradientStops.removeAll()
+GradientStops.removeAll()
 ********************************************************************************
 
 ``app.activeDocument.gradients[index].gradientStops.removeAll()``
@@ -171,7 +171,7 @@ Adding a new gradient stop
         // Get a reference to the last gradient stop
         var origCount = changeGradient.gradientStops.length;
         var lastStop = changeGradient.gradientStops[origCount-1];
-        
+
         // add the new gradient stop
         var newStop = changeGradient.gradientStops.add();
 

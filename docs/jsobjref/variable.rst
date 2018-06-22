@@ -23,7 +23,7 @@ Properties
 
 .. _jsobjref/variable.kind:
 
-variable.kind
+Variable.kind
 ********************************************************************************
 
 ``app.activeDocument.variables[index].kind``
@@ -40,7 +40,7 @@ The variable’s type.
 
 .. _jsobjref/variable.name:
 
-variable.name
+Variable.name
 ********************************************************************************
 
 ``app.activeDocument.variables[index].name``
@@ -57,7 +57,7 @@ string
 
 .. _jsobjref/variable.pageItems:
 
-variable.pageItems
+Variable.pageItems
 ********************************************************************************
 
 ``app.activeDocument.variables[index].pageItems``
@@ -74,7 +74,7 @@ All of the artwork in the variable.
 
 .. _jsobjref/variable.parent:
 
-variable.parent
+Variable.parent
 ********************************************************************************
 
 ``app.activeDocument.variables[index].parent``
@@ -91,7 +91,7 @@ Object
 
 .. _jsobjref/variable.typename:
 
-variable.typename
+Variable.typename
 ********************************************************************************
 
 ``app.activeDocument.variables[index].typename``
@@ -112,7 +112,7 @@ Methods
 
 .. _jsobjref/variable.remove:
 
-variable.remove()
+Variable.remove()
 ********************************************************************************
 
 ``app.activeDocument.variables[index].remove()``

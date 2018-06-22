@@ -20,7 +20,7 @@ Properties
 
 .. _jsobjref/exportOptionsPhotoshop.antiAliasing:
 
-exportOptionsPhotoshop.antiAliasing
+ExportOptionsPhotoshop.antiAliasing
 ********************************************************************************
 
 ``exportOptionsPhotoshop.antiAliasing``
@@ -37,7 +37,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPhotoshop.artboardRange:
 
-exportOptionsPhotoshop.artboardRange
+ExportOptionsPhotoshop.artboardRange
 ********************************************************************************
 
 ``exportOptionsPhotoshop.artboardRange``
@@ -54,7 +54,7 @@ String.
 
 .. _jsobjref/exportOptionsPhotoshop.editableText:
 
-exportOptionsPhotoshop.editableText
+ExportOptionsPhotoshop.editableText
 ********************************************************************************
 
 ``exportOptionsPhotoshop.editableText``
@@ -71,7 +71,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPhotoshop.embedICCProfile:
 
-exportOptionsPhotoshop.embedICCProfile
+ExportOptionsPhotoshop.embedICCProfile
 ********************************************************************************
 
 ``exportOptionsPhotoshop.embedICCProfile``
@@ -88,7 +88,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPhotoshop.imageColorSpace:
 
-exportOptionsPhotoshop.imageColorSpace
+ExportOptionsPhotoshop.imageColorSpace
 ********************************************************************************
 
 ``exportOptionsPhotoshop.imageColorSpace``
@@ -105,7 +105,7 @@ The color space of the exported file. Default: ``ImageColorSpace.RGB``.
 
 .. _jsobjref/exportOptionsPhotoshop.maximumEditability:
 
-exportOptionsPhotoshop.maximumEditability
+ExportOptionsPhotoshop.maximumEditability
 ********************************************************************************
 
 ``exportOptionsPhotoshop.maximumEditability``
@@ -122,7 +122,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPhotoshop.resolution:
 
-exportOptionsPhotoshop.resolution
+ExportOptionsPhotoshop.resolution
 ********************************************************************************
 
 ``exportOptionsPhotoshop.resolution``
@@ -139,7 +139,7 @@ Number (double).
 
 .. _jsobjref/exportOptionsPhotoshop.saveMultipleArtboards:
 
-exportOptionsPhotoshop.saveMultipleArtboards
+ExportOptionsPhotoshop.saveMultipleArtboards
 ********************************************************************************
 
 ``exportOptionsPhotoshop.saveMultipleArtboards``
@@ -156,7 +156,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPhotoshop.typename:
 
-exportOptionsPhotoshop.typename
+ExportOptionsPhotoshop.typename
 ********************************************************************************
 
 ``exportOptionsPhotoshop.typename``
@@ -173,7 +173,7 @@ String, read-only.
 
 .. _jsobjref/exportOptionsPhotoshop.warnings:
 
-exportOptionsPhotoshop.warnings
+ExportOptionsPhotoshop.warnings
 ********************************************************************************
 
 ``exportOptionsPhotoshop.warnings``
@@ -190,7 +190,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPhotoshop.writeLayers:
 
-exportOptionsPhotoshop.writeLayers
+ExportOptionsPhotoshop.writeLayers
 ********************************************************************************
 
 ``exportOptionsPhotoshop.writeLayers``
@@ -216,7 +216,7 @@ Exporting to Photoshop format
 
     // Exports current document to dest as a PSD file with specified options,
     // dest contains the full path including the file name
-    
+
     function exportFileToPSD (dest) {
         if ( app.documents.length > 0 ) {
             var exportOptions = new ExportOptionsPhotoshop();
@@ -224,7 +224,7 @@ Exporting to Photoshop format
             var fileSpec = new File(dest);
 
             exportOptions.resolution = 150;
-            
+
             app.activeDocument.exportFile( fileSpec, type, exportOptions );
         }
     }

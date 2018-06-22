@@ -19,7 +19,7 @@ Properties
 
 .. _jsobjref/variables.length:
 
-variables.length
+Variables.length
 ********************************************************************************
 
 ``app.activeDocument.variables.length``
@@ -36,7 +36,7 @@ Number; read-only.
 
 .. _jsobjref/variables.parent:
 
-variables.parent
+Variables.parent
 ********************************************************************************
 
 ``app.activeDocument.variables.parent``
@@ -53,7 +53,7 @@ Object; read-only.
 
 .. _jsobjref/variables.typename:
 
-variables.typename
+Variables.typename
 ********************************************************************************
 
 ``app.activeDocument.variables.typename``
@@ -74,7 +74,7 @@ Methods
 
 .. _jsobjref/variables.add:
 
-variables.add()
+Variables.add()
 ********************************************************************************
 
 ``app.activeDocument.variables.add()``
@@ -91,7 +91,7 @@ Adds a new variable to the collection.
 
 .. _jsobjref/variables.getByName:
 
-variables.getByName()
+Variables.getByName()
 ********************************************************************************
 
 ``app.activeDocument.variables.getByName(name)``
@@ -116,7 +116,7 @@ Get the first element in the collection with the provided name.
 
 .. _jsobjref/variables.index:
 
-variables.index()
+Variables.index()
 ********************************************************************************
 
 ``app.activeDocument.variables.index(itemKey)``
@@ -141,7 +141,7 @@ Gets an element from the collection.
 
 .. _jsobjref/variables.removeAll:
 
-variables.removeAll()
+Variables.removeAll()
 ********************************************************************************
 
 ``app.activeDocument.variables.removeAll()``

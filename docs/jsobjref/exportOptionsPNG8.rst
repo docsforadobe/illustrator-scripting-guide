@@ -19,7 +19,7 @@ Properties
 
 .. _jsobjref/exportOptionsPNG8.antiAliasing:
 
-exportOptionsPNG8.antiAliasing
+ExportOptionsPNG8.antiAliasing
 ********************************************************************************
 
 ``exportOptionsPNG8.antiAliasing``
@@ -36,7 +36,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPNG8.artBoardClipping:
 
-exportOptionsPNG8.artBoardClipping
+ExportOptionsPNG8.artBoardClipping
 ********************************************************************************
 
 ``exportOptionsPNG8.artBoardClipping``
@@ -53,7 +53,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPNG8.colorCount:
 
-exportOptionsPNG8.colorCount
+ExportOptionsPNG8.colorCount
 ********************************************************************************
 
 ``exportOptionsPNG8.colorCount``
@@ -70,7 +70,7 @@ Number (long).
 
 .. _jsobjref/exportOptionsPNG8.colorDither:
 
-exportOptionsPNG8.colorDither
+ExportOptionsPNG8.colorDither
 ********************************************************************************
 
 ``exportOptionsPNG8.colorDither``
@@ -87,7 +87,7 @@ The method used to dither colors in the exported image. Default: ``ColorDitherMe
 
 .. _jsobjref/exportOptionsPNG8.colorReduction:
 
-exportOptionsPNG8.colorReduction
+ExportOptionsPNG8.colorReduction
 ********************************************************************************
 
 ``exportOptionsPNG8.colorReduction``
@@ -104,7 +104,7 @@ The method used to reduce the number of colors in the exported image. Default: `
 
 .. _jsobjref/exportOptionsPNG8.ditherPercent:
 
-exportOptionsPNG8.ditherPercent
+ExportOptionsPNG8.ditherPercent
 ********************************************************************************
 
 ``exportOptionsPNG8.ditherPercent``
@@ -121,7 +121,7 @@ Number (long).
 
 .. _jsobjref/exportOptionsPNG8.horizontalScale:
 
-exportOptionsPNG8.horizontalScale
+ExportOptionsPNG8.horizontalScale
 ********************************************************************************
 
 ``exportOptionsPNG8.horizontalScale``
@@ -138,7 +138,7 @@ Number (double).
 
 .. _jsobjref/exportOptionsPNG8.interlaced:
 
-exportOptionsPNG8.interlaced
+ExportOptionsPNG8.interlaced
 ********************************************************************************
 
 ``exportOptionsPNG8.interlaced``
@@ -155,7 +155,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPNG8.matte:
 
-exportOptionsPNG8.matte
+ExportOptionsPNG8.matte
 ********************************************************************************
 
 ``exportOptionsPNG8.matte``
@@ -172,7 +172,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPNG8.matteColor:
 
-exportOptionsPNG8.matteColor
+ExportOptionsPNG8.matteColor
 ********************************************************************************
 
 ``exportOptionsPNG8.matteColor``
@@ -189,7 +189,7 @@ The color to use when matting the art board. Default: ``white``.
 
 .. _jsobjref/exportOptionsPNG8.saveAsHTML:
 
-exportOptionsPNG8.saveAsHTML
+ExportOptionsPNG8.saveAsHTML
 ********************************************************************************
 
 ``exportOptionsPNG8.saveAsHTML``
@@ -206,7 +206,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPNG8.transparency:
 
-exportOptionsPNG8.transparency
+ExportOptionsPNG8.transparency
 ********************************************************************************
 
 ``exportOptionsPNG8.transparency``
@@ -223,7 +223,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPNG8.typename:
 
-exportOptionsPNG8.typename
+ExportOptionsPNG8.typename
 ********************************************************************************
 
 ``exportOptionsPNG8.typename``
@@ -240,7 +240,7 @@ String, read-only.
 
 .. _jsobjref/exportOptionsPNG8.verticalScale:
 
-exportOptionsPNG8.verticalScale
+ExportOptionsPNG8.verticalScale
 ********************************************************************************
 
 ``exportOptionsPNG8.verticalScale``
@@ -257,7 +257,7 @@ Number (double).
 
 .. _jsobjref/exportOptionsPNG8.webSnap:
 
-exportOptionsPNG8.webSnap
+ExportOptionsPNG8.webSnap
 ********************************************************************************
 
 ``exportOptionsPNG8.webSnap``

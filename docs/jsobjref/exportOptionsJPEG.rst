@@ -19,7 +19,7 @@ Properties
 
 .. _jsobjref/exportOptionsJPEG.antiAliasing:
 
-exportOptionsJPEG.antiAliasing
+ExportOptionsJPEG.antiAliasing
 ********************************************************************************
 
 ``exportOptionsJPEG.antiAliasing``
@@ -36,7 +36,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsJPEG.artBoardClipping:
 
-exportOptionsJPEG.artBoardClipping
+ExportOptionsJPEG.artBoardClipping
 ********************************************************************************
 
 ``exportOptionsJPEG.artBoardClipping``
@@ -53,7 +53,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsJPEG.blurAmount:
 
-exportOptionsJPEG.blurAmount
+ExportOptionsJPEG.blurAmount
 ********************************************************************************
 
 ``exportOptionsJPEG.blurAmount``
@@ -70,7 +70,7 @@ Number (double).
 
 .. _jsobjref/exportOptionsJPEG.horizontalScale:
 
-exportOptionsJPEG.horizontalScale
+ExportOptionsJPEG.horizontalScale
 ********************************************************************************
 
 ``exportOptionsJPEG.horizontalScale``
@@ -87,7 +87,7 @@ Number (double).
 
 .. _jsobjref/exportOptionsJPEG.matte:
 
-exportOptionsJPEG.matte
+ExportOptionsJPEG.matte
 ********************************************************************************
 
 ``exportOptionsJPEG.matte``
@@ -104,7 +104,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsJPEG.matteColor:
 
-exportOptionsJPEG.matteColor
+ExportOptionsJPEG.matteColor
 ********************************************************************************
 
 ``exportOptionsJPEG.matteColor``
@@ -121,7 +121,7 @@ The color to use when matting the art board. Default: ``white``.
 
 .. _jsobjref/exportOptionsJPEG.optimization:
 
-exportOptionsJPEG.optimization
+ExportOptionsJPEG.optimization
 ********************************************************************************
 
 ``exportOptionsJPEG.optimization``
@@ -138,7 +138,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsJPEG.qualitySetting:
 
-exportOptionsJPEG.qualitySetting
+ExportOptionsJPEG.qualitySetting
 ********************************************************************************
 
 ``exportOptionsJPEG.qualitySetting``
@@ -155,7 +155,7 @@ Number (long).
 
 .. _jsobjref/exportOptionsJPEG.saveAsHTML:
 
-exportOptionsJPEG.saveAsHTML
+ExportOptionsJPEG.saveAsHTML
 ********************************************************************************
 
 ``exportOptionsJPEG.saveAsHTML``
@@ -172,7 +172,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsJPEG.typename:
 
-exportOptionsJPEG.typename
+ExportOptionsJPEG.typename
 ********************************************************************************
 
 ``exportOptionsJPEG.typename``
@@ -189,7 +189,7 @@ String, read-only.
 
 .. _jsobjref/exportOptionsJPEG.verticalScale:
 
-exportOptionsJPEG.verticalScale
+ExportOptionsJPEG.verticalScale
 ********************************************************************************
 
 ``exportOptionsJPEG.verticalScale``

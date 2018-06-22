@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/fxgSaveOptions.artboardRange:
 
-fxgSaveOptions.artboardRange
+FXGSaveOptions.artboardRange
 ********************************************************************************
 
 ``fxgSaveOptions.artboardRange``
@@ -34,7 +34,7 @@ String.
 
 .. _jsobjref/fxgSaveOptions.blendsPolicy:
 
-fxgSaveOptions.blendsPolicy
+FXGSaveOptions.blendsPolicy
 ********************************************************************************
 
 ``fxgSaveOptions.blendsPolicy``
@@ -51,7 +51,7 @@ The policy used by FXG to expand blends. Default: ``BlendsExpandPolicy.AUTOMATIC
 
 .. _jsobjref/fxgSaveOptions.downsampleLinkedImages:
 
-fxgSaveOptions.downsampleLinkedImages
+FXGSaveOptions.downsampleLinkedImages
 ********************************************************************************
 
 ``fxgSaveOptions.downsampleLinkedImages``
@@ -68,7 +68,7 @@ Boolean.
 
 .. _jsobjref/fxgSaveOptions.filtersPolicy:
 
-fxgSaveOptions.filtersPolicy
+FXGSaveOptions.filtersPolicy
 ********************************************************************************
 
 ``fxgSaveOptions.filtersPolicy``
@@ -85,7 +85,7 @@ The policy used by FXG to preserve filters. Default: ``FiltersPreservePolicy.KEE
 
 .. _jsobjref/fxgSaveOptions.gradientsPolicy:
 
-fxgSaveOptions.gradientsPolicy
+FXGSaveOptions.gradientsPolicy
 ********************************************************************************
 
 ``fxgSaveOptions.gradientsPolicy``
@@ -102,7 +102,7 @@ The policy used by FXG to preserve gradients. Default: ``GradientsPreservePolicy
 
 .. _jsobjref/fxgSaveOptions.includeUnusedSymbols:
 
-fxgSaveOptions.includeUnusedSymbols
+FXGSaveOptions.includeUnusedSymbols
 ********************************************************************************
 
 ``fxgSaveOptions.includeUnusedSymbols``
@@ -119,7 +119,7 @@ Boolean.
 
 .. _jsobjref/fxgSaveOptions.preserveEditingCapabilities:
 
-fxgSaveOptions.preserveEditingCapabilities
+FXGSaveOptions.preserveEditingCapabilities
 ********************************************************************************
 
 ``fxgSaveOptions.preserveEditingCapabilities``
@@ -136,7 +136,7 @@ Boolean.
 
 .. _jsobjref/fxgSaveOptions.saveMultipleArtboards:
 
-fxgSaveOptions.saveMultipleArtboards
+FXGSaveOptions.saveMultipleArtboards
 ********************************************************************************
 
 ``fxgSaveOptions.saveMultipleArtboards``
@@ -153,7 +153,7 @@ Boolean.
 
 .. _jsobjref/fxgSaveOptions.textPolicy:
 
-fxgSaveOptions.textPolicy
+FXGSaveOptions.textPolicy
 ********************************************************************************
 
 ``fxgSaveOptions.textPolicy``
@@ -170,7 +170,7 @@ The policy used by FXG to preserve text. Default: ``TextPreservePolicy.AUTOMATIC
 
 .. _jsobjref/fxgSaveOptions.version:
 
-fxgSaveOptions.version
+FXGSaveOptions.version
 ********************************************************************************
 
 ``fxgSaveOptions.version``

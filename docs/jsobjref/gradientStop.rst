@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/gradientStop.color:
 
-gradientStop.color
+GradientStop.color
 ********************************************************************************
 
 ``gradientStop.color``
@@ -34,7 +34,7 @@ The color linked to this gradient stop.
 
 .. _jsobjref/gradientStop.midPoint:
 
-gradientStop.midPoint
+GradientStop.midPoint
 ********************************************************************************
 
 ``gradientStop.midPoint``
@@ -51,7 +51,7 @@ Number (double).
 
 .. _jsobjref/gradientStop.opacity:
 
-gradientStop.opacity
+GradientStop.opacity
 ********************************************************************************
 
 ``gradientStop.opacity``
@@ -68,7 +68,7 @@ Number (double).
 
 .. _jsobjref/gradientStop.parent:
 
-gradientStop.parent
+GradientStop.parent
 ********************************************************************************
 
 ``gradientStop.parent``
@@ -85,7 +85,7 @@ The gradient that contains this gradient stop.
 
 .. _jsobjref/gradientStop.rampPoint:
 
-gradientStop.rampPoint
+GradientStop.rampPoint
 ********************************************************************************
 
 ``gradientStop.rampPoint``
@@ -102,7 +102,7 @@ Number (double).
 
 .. _jsobjref/gradientStop.typename:
 
-gradientStop.typename
+GradientStop.typename
 ********************************************************************************
 
 ``gradientStop.typename``
@@ -123,7 +123,7 @@ Methods
 
 .. _jsobjref/gradientStop.remove:
 
-gradientStop.remove()
+GradientStop.remove()
 ********************************************************************************
 
 ``app.activeDocument.gradients[index].gradientStops[index].remove()``

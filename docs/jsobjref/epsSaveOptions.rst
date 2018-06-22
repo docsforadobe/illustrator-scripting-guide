@@ -19,7 +19,7 @@ Properties
 
 .. _jsobjref/epsSaveOptions.artboardRange:
 
-epsSaveOptions.artboardRange
+EPSSaveOptions.artboardRange
 ********************************************************************************
 
 ``epsSaveOptions.artboardRange``
@@ -36,7 +36,7 @@ String.
 
 .. _jsobjref/epsSaveOptions.cmykPostScript:
 
-epsSaveOptions.cmykPostScript
+EPSSaveOptions.cmykPostScript
 ********************************************************************************
 
 ``epsSaveOptions.cmykPostScript``
@@ -53,7 +53,7 @@ Boolean.
 
 .. _jsobjref/epsSaveOptions.compatibility:
 
-epsSaveOptions.compatibility
+EPSSaveOptions.compatibility
 ********************************************************************************
 
 ``epsSaveOptions.compatibility``
@@ -72,7 +72,7 @@ Default: ``Compatibility.ILLUSTRATOR1719``.
 
 .. _jsobjref/epsSaveOptions.compatibleGradientPrinting:
 
-epsSaveOptions.compatibleGradientPrinting
+EPSSaveOptions.compatibleGradientPrinting
 ********************************************************************************
 
 ``epsSaveOptions.compatibleGradientPrinting``
@@ -91,7 +91,7 @@ Boolean.
 
 .. _jsobjref/epsSaveOptions.embedAllFonts:
 
-epsSaveOptions.embedAllFonts
+EPSSaveOptions.embedAllFonts
 ********************************************************************************
 
 ``epsSaveOptions.embedAllFonts``
@@ -110,7 +110,7 @@ Boolean.
 
 .. _jsobjref/epsSaveOptions.embedLinkedFiles:
 
-epsSaveOptions.embedLinkedFiles
+EPSSaveOptions.embedLinkedFiles
 ********************************************************************************
 
 ``epsSaveOptions.embedLinkedFiles``
@@ -127,7 +127,7 @@ Boolean.
 
 .. _jsobjref/epsSaveOptions.flattenOuput:
 
-epsSaveOptions.flattenOuput
+EPSSaveOptions.flattenOuput
 ********************************************************************************
 
 ``epsSaveOptions.flattenOuput``
@@ -144,7 +144,7 @@ How should transparency be flattened for file formats older than Illustrator 9.
 
 .. _jsobjref/epsSaveOptions.includeDocumentThumbnails:
 
-epsSaveOptions.includeDocumentThumbnails
+EPSSaveOptions.includeDocumentThumbnails
 ********************************************************************************
 
 ``epsSaveOptions.includeDocumentThumbnails``
@@ -161,7 +161,7 @@ Boolean.
 
 .. _jsobjref/epsSaveOptions.overprint:
 
-epsSaveOptions.overprint
+EPSSaveOptions.overprint
 ********************************************************************************
 
 ``epsSaveOptions.overprint``
@@ -180,7 +180,7 @@ Default: ``PDFOverprint.PRESERVEPDFOVERPRINT``.
 
 .. _jsobjref/epsSaveOptions.postScript:
 
-epsSaveOptions.postScript
+EPSSaveOptions.postScript
 ********************************************************************************
 
 ``epsSaveOptions.postScript``
@@ -199,7 +199,7 @@ Default: ``EPSPostScriptLevelEnum.LEVEL2``.
 
 .. _jsobjref/epsSaveOptions.preview:
 
-epsSaveOptions.preview
+EPSSaveOptions.preview
 ********************************************************************************
 
 ``epsSaveOptions.preview``
@@ -216,7 +216,7 @@ The format for the EPS preview image.
 
 .. _jsobjref/epsSaveOptions.saveMultipleArtboards:
 
-epsSaveOptions.saveMultipleArtboards
+EPSSaveOptions.saveMultipleArtboards
 ********************************************************************************
 
 ``epsSaveOptions.saveMultipleArtboards``
@@ -235,7 +235,7 @@ Boolean.
 
 .. _jsobjref/epsSaveOptions.typename:
 
-epsSaveOptions.typename
+EPSSaveOptions.typename
 ********************************************************************************
 
 ``epsSaveOptions.typename``
