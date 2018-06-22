@@ -97,5 +97,6 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/epsSaveOptions
   jsobjref/exportOptionsAutoCAD
   jsobjref/exportOptionsFlash
+  jsobjref/exportOptionsGIF
 
   jsobjref/scriptingConstants
