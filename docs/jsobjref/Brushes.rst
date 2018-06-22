@@ -1,4 +1,4 @@
-.. _jsobjref/brushes:
+.. _jsobjref/Brushes:
 
 Brushes
 ################################################################################
@@ -15,7 +15,7 @@ A collection of brush objects in a document.
 Properties
 ==========
 
-.. _jsobjref/brushes.length:
+.. _jsobjref/Brushes.length:
 
 Brushes.length
 ********************************************************************************
@@ -32,7 +32,7 @@ Number; read-only.
 
 ----
 
-.. _jsobjref/brushes.parent:
+.. _jsobjref/Brushes.parent:
 
 Brushes.parent
 ********************************************************************************
@@ -49,7 +49,7 @@ Object; read-only.
 
 ----
 
-.. _jsobjref/brushes.typename:
+.. _jsobjref/Brushes.typename:
 
 Brushes.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String; read-only.
 Methods
 =======
 
-.. _jsobjref/brushes.getByName:
+.. _jsobjref/Brushes.getByName:
 
 Brushes.getByName()
 ********************************************************************************
@@ -91,11 +91,11 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-:ref:`jsobjref/brush`
+:ref:`jsobjref/Brush`
 
 ----
 
-.. _jsobjref/brushes.index:
+.. _jsobjref/Brushes.index:
 
 Brushes.index()
 ********************************************************************************
@@ -108,15 +108,15 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
++-------------+----------------+-------------------------+
+|  Parameter  |      Type      |       Description       |
++=============+================+=========================+
+| ``itemKey`` | String, Number | Index of element to get |
++-------------+----------------+-------------------------+
 
 **Returns**
 
-:ref:`jsobjref/brush`
+:ref:`jsobjref/Brush`
 
 ----
 

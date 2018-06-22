@@ -1,4 +1,4 @@
-.. _jsobjref/gradients:
+.. _jsobjref/Gradients:
 
 Gradients
 ################################################################################
@@ -7,7 +7,7 @@ Gradients
 
 **Description**
 
-A collection of ``Gradient`` objects in a document.
+A collection of :ref:`jsobjref/Gradient` objects in a document.
 
 ----
 
@@ -15,7 +15,7 @@ A collection of ``Gradient`` objects in a document.
 Properties
 ==========
 
-.. _jsobjref/gradients.length:
+.. _jsobjref/Gradients.length:
 
 Gradients.length
 ********************************************************************************
@@ -32,7 +32,7 @@ Number, read-only.
 
 ----
 
-.. _jsobjref/gradients.parent:
+.. _jsobjref/Gradients.parent:
 
 Gradients.parent
 ********************************************************************************
@@ -49,7 +49,7 @@ Object, read-only.
 
 ----
 
-.. _jsobjref/gradients.typename:
+.. _jsobjref/Gradients.typename:
 
 Gradients.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String, read-only.
 Methods
 =======
 
-.. _jsobjref/gradients.add:
+.. _jsobjref/Gradients.add:
 
 Gradients.add()
 ********************************************************************************
@@ -83,11 +83,11 @@ Creates a new ``Gradient`` object.
 
 **Returns**
 
-:ref:`jsobjref/gradient`
+:ref:`jsobjref/Gradient`
 
 ----
 
-.. _jsobjref/gradients.getByName:
+.. _jsobjref/Gradients.getByName:
 
 Gradients.getByName()
 ********************************************************************************
@@ -108,11 +108,11 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-:ref:`jsobjref/gradient`
+:ref:`jsobjref/Gradient`
 
 ----
 
-.. _jsobjref/gradients.index:
+.. _jsobjref/Gradients.index:
 
 Gradients.index()
 ********************************************************************************
@@ -133,11 +133,11 @@ Gets an element from the collection.
 
 **Returns**
 
-:ref:`jsobjref/gradient`
+:ref:`jsobjref/Gradient`
 
 ----
 
-.. _jsobjref/gradients.removeAll:
+.. _jsobjref/Gradients.removeAll:
 
 Gradients.removeAll()
 ********************************************************************************

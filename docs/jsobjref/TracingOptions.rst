@@ -1,4 +1,4 @@
-.. _jsobjref/tracingOptions:
+.. _jsobjref/TracingOptions:
 
 TracingOptions
 ################################################################################
@@ -15,7 +15,7 @@ A set of options used in converting raster art to vector art by tracing.
 Properties
 ==========
 
-.. _jsobjref/tracingOptions.cornerAngle:
+.. _jsobjref/TracingOptions.cornerAngle:
 
 TracingOptions.cornerAngle
 ********************************************************************************
@@ -34,7 +34,7 @@ Number (double)
 
 ----
 
-.. _jsobjref/tracingOptions.fills:
+.. _jsobjref/TracingOptions.fills:
 
 TracingOptions.fills
 ********************************************************************************
@@ -51,7 +51,7 @@ Boolean
 
 ----
 
-.. _jsobjref/tracingOptions.ignoreWhite:
+.. _jsobjref/TracingOptions.ignoreWhite:
 
 TracingOptions.ignoreWhite
 ********************************************************************************
@@ -68,7 +68,7 @@ Boolean
 
 ----
 
-.. _jsobjref/tracingOptions.livePaintOutput:
+.. _jsobjref/TracingOptions.livePaintOutput:
 
 TracingOptions.livePaintOutput
 ********************************************************************************
@@ -90,7 +90,7 @@ Boolean
 
 ----
 
-.. _jsobjref/tracingOptions.maxColors:
+.. _jsobjref/TracingOptions.maxColors:
 
 TracingOptions.maxColors
 ********************************************************************************
@@ -111,7 +111,7 @@ Number (long)
 
 ----
 
-.. _jsobjref/tracingOptions.maxStrokeWeight:
+.. _jsobjref/TracingOptions.maxStrokeWeight:
 
 TracingOptions.maxStrokeWeight
 ********************************************************************************
@@ -130,7 +130,7 @@ Number (double)
 
 ----
 
-.. _jsobjref/tracingOptions.minArea:
+.. _jsobjref/TracingOptions.minArea:
 
 TracingOptions.minArea
 ********************************************************************************
@@ -149,7 +149,7 @@ Number (long)
 
 ----
 
-.. _jsobjref/tracingOptions.minStrokeLength:
+.. _jsobjref/TracingOptions.minStrokeLength:
 
 TracingOptions.minStrokeLength
 ********************************************************************************
@@ -168,7 +168,7 @@ Number (double)
 
 ----
 
-.. _jsobjref/tracingOptions.outputToSwatches:
+.. _jsobjref/TracingOptions.outputToSwatches:
 
 TracingOptions.outputToSwatches
 ********************************************************************************
@@ -187,7 +187,7 @@ Boolean
 
 ----
 
-.. _jsobjref/tracingOptions.palette:
+.. _jsobjref/TracingOptions.palette:
 
 TracingOptions.palette
 ********************************************************************************
@@ -206,7 +206,7 @@ String
 
 ----
 
-.. _jsobjref/tracingOptions.parent:
+.. _jsobjref/TracingOptions.parent:
 
 TracingOptions.parent
 ********************************************************************************
@@ -223,7 +223,7 @@ Object, read-only.
 
 ----
 
-.. _jsobjref/tracingOptions.pathFitting:
+.. _jsobjref/TracingOptions.pathFitting:
 
 TracingOptions.pathFitting
 ********************************************************************************
@@ -242,7 +242,7 @@ Number (double)
 
 ----
 
-.. _jsobjref/tracingOptions.preprocessBlur:
+.. _jsobjref/TracingOptions.preprocessBlur:
 
 TracingOptions.preprocessBlur
 ********************************************************************************
@@ -259,7 +259,7 @@ Number (double)
 
 ----
 
-.. _jsobjref/tracingOptions.preset:
+.. _jsobjref/TracingOptions.preset:
 
 TracingOptions.preset
 ********************************************************************************
@@ -276,7 +276,7 @@ String, read-only.
 
 ----
 
-.. _jsobjref/tracingOptions.resample:
+.. _jsobjref/TracingOptions.resample:
 
 TracingOptions.resample
 ********************************************************************************
@@ -295,7 +295,7 @@ Boolean
 
 ----
 
-.. _jsobjref/tracingOptions.resampleResolution:
+.. _jsobjref/TracingOptions.resampleResolution:
 
 TracingOptions.resampleResolution
 ********************************************************************************
@@ -314,7 +314,7 @@ Number (double)
 
 ----
 
-.. _jsobjref/tracingOptions.strokes:
+.. _jsobjref/TracingOptions.strokes:
 
 TracingOptions.strokes
 ********************************************************************************
@@ -333,7 +333,7 @@ Boolean
 
 ----
 
-.. _jsobjref/tracingOptions.threshold:
+.. _jsobjref/TracingOptions.threshold:
 
 TracingOptions.threshold
 ********************************************************************************
@@ -354,7 +354,7 @@ Number (long)
 
 ----
 
-.. _jsobjref/tracingOptions.tracingMode:
+.. _jsobjref/TracingOptions.tracingMode:
 
 TracingOptions.tracingMode
 ********************************************************************************
@@ -367,11 +367,11 @@ The color mode for tracing.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.TracingModeType`
+:ref:`jsobjref/scripting-constants.TracingModeType`
 
 ----
 
-.. _jsobjref/tracingOptions.typename:
+.. _jsobjref/TracingOptions.typename:
 
 TracingOptions.typename
 ********************************************************************************
@@ -388,7 +388,7 @@ String
 
 ----
 
-.. _jsobjref/tracingOptions.viewRaster:
+.. _jsobjref/TracingOptions.viewRaster:
 
 TracingOptions.viewRaster
 ********************************************************************************
@@ -401,11 +401,11 @@ The view for previews of the raster image. (This setting is not captured in a pr
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.ViewRasterType`
+:ref:`jsobjref/scripting-constants.ViewRasterType`
 
 ----
 
-.. _jsobjref/tracingOptions.viewVector:
+.. _jsobjref/TracingOptions.viewVector:
 
 TracingOptions.viewVector
 ********************************************************************************
@@ -418,7 +418,7 @@ The view for previews of the vector result. (This setting is not captured in a p
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.ViewVectorType`
+:ref:`jsobjref/scripting-constants.ViewVectorType`
 
 ----
 
@@ -426,7 +426,7 @@ The view for previews of the vector result. (This setting is not captured in a p
 Methods
 =======
 
-.. _jsobjref/tracingOptions.loadFromPreset:
+.. _jsobjref/TracingOptions.loadFromPreset:
 
 TracingOptions.loadFromPreset()
 ********************************************************************************
@@ -451,7 +451,7 @@ Boolean
 
 ----
 
-.. _jsobjref/tracingOptions.storeToPreset:
+.. _jsobjref/TracingOptions.storeToPreset:
 
 TracingOptions.storeToPreset()
 ********************************************************************************

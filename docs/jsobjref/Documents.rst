@@ -1,4 +1,4 @@
-.. _jsobjref/documents:
+.. _jsobjref/Documents:
 
 Documents
 ################################################################################
@@ -7,7 +7,7 @@ Documents
 
 **Description**
 
-A collection of :ref:`jsobjref/document` objects.
+A collection of :ref:`jsobjref/Document` objects.
 
 ----
 
@@ -15,7 +15,7 @@ A collection of :ref:`jsobjref/document` objects.
 Properties
 ==========
 
-.. _jsobjref/documents.length:
+.. _jsobjref/Documents.length:
 
 Documents.length
 ********************************************************************************
@@ -32,7 +32,7 @@ Number, read-only.
 
 ----
 
-.. _jsobjref/documents.parent:
+.. _jsobjref/Documents.parent:
 
 Documents.parent
 ********************************************************************************
@@ -49,7 +49,7 @@ Object, read-only.
 
 ----
 
-.. _jsobjref/documents.typename:
+.. _jsobjref/Documents.typename:
 
 Documents.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String, read-only.
 Methods
 =======
 
-.. _jsobjref/documents.add:
+.. _jsobjref/Documents.add:
 
 Documents.add()
 ********************************************************************************
@@ -87,31 +87,31 @@ Creates a new document using optional parameters and returns a reference to the 
 
 **Parameters**
 
-+--------------------------+-----------------------------------------------------------------+-------------+
-|        Parameter         |                              Type                               | Description |
-+==========================+=================================================================+=============+
-| ``[documentColorSpace]`` | :ref:`jsobjref/scriptingConstants.documentColorSpace`, optional | todo        |
-+--------------------------+-----------------------------------------------------------------+-------------+
-| ``[width]``              | number (double), optional                                       | todo        |
-+--------------------------+-----------------------------------------------------------------+-------------+
-| ``[height]``             | number (double), optional                                       | todo        |
-+--------------------------+-----------------------------------------------------------------+-------------+
-| ``[numArtBoards]``       | number (long), optional                                         | todo        |
-+--------------------------+-----------------------------------------------------------------+-------------+
-| ``[artboardLayout]``     | :ref:`jsobjref/scriptingConstants.documentArtboardLayout`       | todo        |
-+--------------------------+-----------------------------------------------------------------+-------------+
-| ``[artboardSpacing]``    | number (double), optional                                       | todo        |
-+--------------------------+-----------------------------------------------------------------+-------------+
-| ``[artboardRowsOrCols]`` | number (long), optional                                         | todo        |
-+--------------------------+-----------------------------------------------------------------+-------------+
++--------------------------+------------------------------------------------------------------+-------------+
+|        Parameter         |                               Type                               | Description |
++==========================+==================================================================+=============+
+| ``[documentColorSpace]`` | :ref:`jsobjref/scripting-constants.DocumentColorSpace`, optional | todo        |
++--------------------------+------------------------------------------------------------------+-------------+
+| ``[width]``              | number (double), optional                                        | todo        |
++--------------------------+------------------------------------------------------------------+-------------+
+| ``[height]``             | number (double), optional                                        | todo        |
++--------------------------+------------------------------------------------------------------+-------------+
+| ``[numArtBoards]``       | number (long), optional                                          | todo        |
++--------------------------+------------------------------------------------------------------+-------------+
+| ``[artboardLayout]``     | :ref:`jsobjref/scripting-constants.DocumentArtboardLayout`       | todo        |
++--------------------------+------------------------------------------------------------------+-------------+
+| ``[artboardSpacing]``    | number (double), optional                                        | todo        |
++--------------------------+------------------------------------------------------------------+-------------+
+| ``[artboardRowsOrCols]`` | number (long), optional                                          | todo        |
++--------------------------+------------------------------------------------------------------+-------------+
 
 **Returns**
 
-:ref:`jsobjref/document`
+:ref:`jsobjref/Document`
 
 ----
 
-.. _jsobjref/documents.addDocument:
+.. _jsobjref/Documents.addDocument:
 
 Documents.addDocument()
 ********************************************************************************
@@ -129,18 +129,18 @@ Creates a document from the preset, replacing any provided setting values, and r
 +=========================+==========================================+=============+
 | ``startupPreset``       | String                                   | todo        |
 +-------------------------+------------------------------------------+-------------+
-| ``[presetSettings]``    | :ref:`jsobjref/documentPreset`, optional | todo        |
+| ``[presetSettings]``    | :ref:`jsobjref/DocumentPreset`, optional | todo        |
 +-------------------------+------------------------------------------+-------------+
 | ``[showOptionsDialog]`` | Boolean, optional                        | todo        |
 +-------------------------+------------------------------------------+-------------+
 
 **Returns**
 
-:ref:`jsobjref/document`
+:ref:`jsobjref/Document`
 
 ----
 
-.. _jsobjref/documents.addDocumentNoUI:
+.. _jsobjref/Documents.addDocumentNoUI:
 
 Documents.addDocumentNoUI()
 ********************************************************************************
@@ -161,11 +161,11 @@ Creates a document without showing in UI.
 
 **Returns**
 
-:ref:`jsobjref/document`
+:ref:`jsobjref/Document`
 
 ----
 
-.. _jsobjref/documents.getByName:
+.. _jsobjref/Documents.getByName:
 
 Documents.getByName()
 ********************************************************************************
@@ -186,11 +186,11 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-:ref:`jsobjref/document`
+:ref:`jsobjref/Document`
 
 ----
 
-.. _jsobjref/documents.index:
+.. _jsobjref/Documents.index:
 
 Documents.index()
 ********************************************************************************
@@ -211,7 +211,7 @@ Gets an element from the collection.
 
 **Returns**
 
-:ref:`jsobjref/document`
+:ref:`jsobjref/Document`
 
 ----
 

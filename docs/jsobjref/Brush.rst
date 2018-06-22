@@ -1,4 +1,4 @@
-.. _jsobjref/brush:
+.. _jsobjref/Brush:
 
 Brush
 ################################################################################
@@ -16,7 +16,7 @@ created by the user within Illustrator. You can access brushes within a script, 
 Properties
 ==========
 
-.. _jsobjref/brush.name:
+.. _jsobjref/Brush.name:
 
 Brush.name
 ********************************************************************************
@@ -33,7 +33,7 @@ String
 
 ----
 
-.. _jsobjref/brush.parent:
+.. _jsobjref/Brush.parent:
 
 Brush.parent
 ********************************************************************************
@@ -46,11 +46,11 @@ The document that contains this brush.
 
 **Type**
 
-:ref:`jsobjref/document`; read-only.
+:ref:`jsobjref/Document`; read-only.
 
 ----
 
-.. _jsobjref/brush.typename:
+.. _jsobjref/Brush.typename:
 
 Brush.typename
 ********************************************************************************
@@ -71,7 +71,7 @@ String; read-only.
 Methods
 =======
 
-.. _jsobjref/brush.applyTo:
+.. _jsobjref/Brush.applyTo:
 
 Brush.applyTo()
 ********************************************************************************
@@ -87,7 +87,7 @@ Applies the ``brush`` to a specific art item.
 +-------------+--------------------------+----------------------------+
 |  Parameter  |           Type           |        Description         |
 +=============+==========================+============================+
-| ``artItem`` | :ref:`jsobjref/pageItem` | Art item to apply brush to |
+| ``artItem`` | :ref:`jsobjref/PageItem` | Art item to apply brush to |
 +-------------+--------------------------+----------------------------+
 
 **Returns**

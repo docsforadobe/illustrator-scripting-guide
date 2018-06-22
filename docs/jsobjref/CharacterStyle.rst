@@ -1,13 +1,13 @@
-.. _jsobjref/characterStyle:
+.. _jsobjref/CharacterStyle:
 
-Character Style
+CharacterStyle
 ################################################################################
 
 ``characterStyle``
 
 **Description**
 
-Associates character attributes with characters. For an example, see :ref:`jsobjref/characterStyles`.
+Associates character attributes with characters. For an example, see :ref:`jsobjref/CharacterStyles`.
 
 ----
 
@@ -15,7 +15,7 @@ Associates character attributes with characters. For an example, see :ref:`jsobj
 Properties
 ==========
 
-.. _jsobjref/characterStyle.characterAttributes:
+.. _jsobjref/CharacterStyle.characterAttributes:
 
 CharacterStyle.characterAttributes
 ********************************************************************************
@@ -28,11 +28,11 @@ The character properties for the style.
 
 **Type**
 
-:ref:`jsobjref/characterAttributes`, read-only.
+:ref:`jsobjref/CharacterAttributes`, read-only.
 
 ----
 
-.. _jsobjref/characterStyle.name:
+.. _jsobjref/CharacterStyle.name:
 
 CharacterStyle.name
 ********************************************************************************
@@ -49,7 +49,7 @@ String
 
 ----
 
-.. _jsobjref/characterStyle.parent:
+.. _jsobjref/CharacterStyle.parent:
 
 CharacterStyle.parent
 ********************************************************************************
@@ -66,7 +66,7 @@ Object, read-only.
 
 ----
 
-.. _jsobjref/characterStyle.typename:
+.. _jsobjref/CharacterStyle.typename:
 
 CharacterStyle.typename
 ********************************************************************************
@@ -87,7 +87,7 @@ String, read-only.
 Methods
 =======
 
-.. _jsobjref/characterStyle.applyTo:
+.. _jsobjref/CharacterStyle.applyTo:
 
 CharacterStyle.applyTo()
 ********************************************************************************
@@ -114,7 +114,7 @@ Nothing
 
 -----
 
-.. _jsobjref/characterStyle.remove:
+.. _jsobjref/CharacterStyle.remove:
 
 CharacterStyle.remove()
 ********************************************************************************

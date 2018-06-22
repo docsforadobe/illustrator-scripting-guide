@@ -1,4 +1,4 @@
-.. _jsobjref/words:
+.. _jsobjref/Words:
 
 Words
 ################################################################################
@@ -17,7 +17,7 @@ The elements are not named; you must access them by index.
 Properties
 ==========
 
-.. _jsobjref/words.length:
+.. _jsobjref/Words.length:
 
 Words.length
 ********************************************************************************
@@ -34,7 +34,7 @@ Number; read-only.
 
 ----
 
-.. _jsobjref/words.parent:
+.. _jsobjref/Words.parent:
 
 Words.parent
 ********************************************************************************
@@ -51,7 +51,7 @@ Object; read-only.
 
 ----
 
-.. _jsobjref/words.typename:
+.. _jsobjref/Words.typename:
 
 Words.typename
 ********************************************************************************
@@ -72,7 +72,7 @@ String; read-only.
 Methods
 =======
 
-.. _jsobjref/words.add:
+.. _jsobjref/Words.add:
 
 Words.add()
 ********************************************************************************
@@ -87,15 +87,15 @@ If no location is specified, adds it to the containing text frame after the curr
 
 **Parameters**
 
-+--------------------------+---------------------------------------------------------------+-------------+
-|        Parameter         |                             Type                              | Description |
-+==========================+===============================================================+=============+
-| ``contents``             | String                                                        | todo        |
-+--------------------------+---------------------------------------------------------------+-------------+
-| ``[relativeObject]``     | :ref:`jsobjref/TextFrameItem`, optional                       | todo        |
-+--------------------------+---------------------------------------------------------------+-------------+
-| ``[insertionLocation])`` | :ref:`jsobjref/scriptingConstants.ElementPlacement`, optional | todo        |
-+--------------------------+---------------------------------------------------------------+-------------+
++--------------------------+----------------------------------------------------------------+-------------+
+|        Parameter         |                              Type                              | Description |
++==========================+================================================================+=============+
+| ``contents``             | String                                                         | todo        |
++--------------------------+----------------------------------------------------------------+-------------+
+| ``[relativeObject]``     | :ref:`jsobjref/TextFrameItem`, optional                        | todo        |
++--------------------------+----------------------------------------------------------------+-------------+
+| ``[insertionLocation])`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | todo        |
++--------------------------+----------------------------------------------------------------+-------------+
 
 **Returns**
 
@@ -103,7 +103,7 @@ If no location is specified, adds it to the containing text frame after the curr
 
 ----
 
-.. _jsobjref/words.addBefore:
+.. _jsobjref/Words.addBefore:
 
 Words.addBefore()
 ********************************************************************************
@@ -128,7 +128,7 @@ Adds a word before the current word selection or insertion point.
 
 ----
 
-.. _jsobjref/words.index:
+.. _jsobjref/Words.index:
 
 Words.index()
 ********************************************************************************
@@ -153,7 +153,7 @@ Gets an element from the collection.
 
 ----
 
-.. _jsobjref/words.removeAll:
+.. _jsobjref/Words.removeAll:
 
 Words.removeAll()
 ********************************************************************************

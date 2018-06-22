@@ -1,13 +1,13 @@
-.. _jsobjref/gradientStop:
+.. _jsobjref/GradientStop:
 
-Gradient Stop
+GradientStop
 ################################################################################
 
 ``gradientStop``
 
 **Description**
 
-A gradient stop definition that represents a point on a specific gradient defined in the document. Each gradient stop specifies a color change in the containing gradient. See :ref:`jsobjref/gradientColor.changingGradientStopColor` for an example.
+A gradient stop definition that represents a point on a specific gradient defined in the document. Each gradient stop specifies a color change in the containing gradient. See :ref:`jsobjref/GradientColor.changingGradientStopColor` for an example.
 
 ----
 
@@ -15,7 +15,7 @@ A gradient stop definition that represents a point on a specific gradient define
 Properties
 ==========
 
-.. _jsobjref/gradientStop.color:
+.. _jsobjref/GradientStop.color:
 
 GradientStop.color
 ********************************************************************************
@@ -28,11 +28,11 @@ The color linked to this gradient stop.
 
 **Type**
 
-:ref:`jsobjref/color`
+:ref:`jsobjref/Color`
 
 ----
 
-.. _jsobjref/gradientStop.midPoint:
+.. _jsobjref/GradientStop.midPoint:
 
 GradientStop.midPoint
 ********************************************************************************
@@ -49,7 +49,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/gradientStop.opacity:
+.. _jsobjref/GradientStop.opacity:
 
 GradientStop.opacity
 ********************************************************************************
@@ -66,7 +66,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/gradientStop.parent:
+.. _jsobjref/GradientStop.parent:
 
 GradientStop.parent
 ********************************************************************************
@@ -79,11 +79,11 @@ The gradient that contains this gradient stop.
 
 **Type**
 
-:ref:`jsobjref/gradient`, read-only.
+:ref:`jsobjref/Gradient`, read-only.
 
 ----
 
-.. _jsobjref/gradientStop.rampPoint:
+.. _jsobjref/GradientStop.rampPoint:
 
 GradientStop.rampPoint
 ********************************************************************************
@@ -100,7 +100,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/gradientStop.typename:
+.. _jsobjref/GradientStop.typename:
 
 GradientStop.typename
 ********************************************************************************
@@ -121,7 +121,7 @@ String, read-only.
 Methods
 =======
 
-.. _jsobjref/gradientStop.remove:
+.. _jsobjref/GradientStop.remove:
 
 GradientStop.remove()
 ********************************************************************************

@@ -1,4 +1,4 @@
-.. _jsobjref/gradient:
+.. _jsobjref/Gradient:
 
 Gradient
 ################################################################################
@@ -15,7 +15,7 @@ A gradient definition contained in a document. Scripts can create new gradients.
 Properties
 ==========
 
-.. _jsobjref/gradient.gradientStops:
+.. _jsobjref/Gradient.gradientStops:
 
 Gradient.gradientStops
 ********************************************************************************
@@ -28,11 +28,11 @@ The gradient stops contained in this gradient.
 
 **Type**
 
-:ref:`jsobjref/gradientStops`, read-only.
+:ref:`jsobjref/GradientStops`, read-only.
 
 ----
 
-.. _jsobjref/gradient.name:
+.. _jsobjref/Gradient.name:
 
 Gradient.name
 ********************************************************************************
@@ -49,7 +49,7 @@ String.
 
 ----
 
-.. _jsobjref/gradient.parent:
+.. _jsobjref/Gradient.parent:
 
 Gradient.parent
 ********************************************************************************
@@ -62,11 +62,11 @@ The document that contains this gradient.
 
 **Type**
 
-:ref:`jsobjref/document`, read-only.
+:ref:`jsobjref/Document`, read-only.
 
 ----
 
-.. _jsobjref/gradient.type:
+.. _jsobjref/Gradient.type:
 
 Gradient.type
 ********************************************************************************
@@ -79,11 +79,11 @@ The kind of the gradient, either radial or linear.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.gradientType`
+:ref:`jsobjref/scripting-constants.GradientType`
 
 ----
 
-.. _jsobjref/gradient.typename:
+.. _jsobjref/Gradient.typename:
 
 Gradient.typename
 ********************************************************************************
@@ -104,7 +104,7 @@ String, read-only.
 Methods
 =======
 
-.. _jsobjref/gradient.remove:
+.. _jsobjref/Gradient.remove:
 
 Gradient.remove()
 ********************************************************************************

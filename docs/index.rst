@@ -76,7 +76,9 @@ Welcome to the Adobe Illustrator Scripting Guide!
   :maxdepth: 2
   :caption: Javascript Object Reference
 
-  jsobjref/jsobjref
+  jsobjref/scripting-constants
+  jsobjref/javascript-object-reference
+
   jsobjref/Application
   jsobjref/Artboard
   jsobjref/Artboards
@@ -119,4 +121,3 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/View
   jsobjref/Views
   jsobjref/Words
-  jsobjref/scripting-constants

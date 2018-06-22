@@ -1,6 +1,6 @@
-.. _jsobjref/gradientColor:
+.. _jsobjref/GradientColor:
 
-Gradient Color
+GradientColor
 ################################################################################
 
 ``gradientColor``
@@ -15,7 +15,7 @@ A gradient color specification in a Gradient object. A script can create a new g
 Properties
 ==========
 
-.. _jsobjref/gradientColor.angle:
+.. _jsobjref/GradientColor.angle:
 
 GradientColor.angle
 ********************************************************************************
@@ -32,7 +32,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/gradientColor.gradient:
+.. _jsobjref/GradientColor.gradient:
 
 GradientColor.gradient
 ********************************************************************************
@@ -49,7 +49,7 @@ Reference to the object defining the gradient.
 
 ----
 
-.. _jsobjref/gradientColor.hiliteAngle:
+.. _jsobjref/GradientColor.hiliteAngle:
 
 GradientColor.hiliteAngle
 ********************************************************************************
@@ -66,7 +66,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/gradientColor.hiliteLength:
+.. _jsobjref/GradientColor.hiliteLength:
 
 GradientColor.hiliteLength
 ********************************************************************************
@@ -83,7 +83,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/gradientColor.length:
+.. _jsobjref/GradientColor.length:
 
 GradientColor.length
 ********************************************************************************
@@ -100,7 +100,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/gradientColor.matrix:
+.. _jsobjref/GradientColor.matrix:
 
 GradientColor.matrix
 ********************************************************************************
@@ -117,7 +117,7 @@ Matrix.
 
 ----
 
-.. _jsobjref/gradientColor.origin:
+.. _jsobjref/GradientColor.origin:
 
 GradientColor.origin
 ********************************************************************************
@@ -134,7 +134,7 @@ Array of 2 numbers.
 
 ----
 
-.. _jsobjref/gradientColor.typename:
+.. _jsobjref/GradientColor.typename:
 
 GradientColor.typename
 ********************************************************************************
@@ -155,7 +155,7 @@ String, read-only.
 Example
 =======
 
-.. _jsobjref/gradientColor.changingGradientStopColor:
+.. _jsobjref/GradientColor.changingGradientStopColor:
 
 Changing a gradient stop color
 ********************************************************************************

@@ -1,18 +1,18 @@
-.. _jsobjref/exportOptionsAutoCAD:
+.. _jsobjref/ExportOptionsAutoCAD:
 
-Export Options AutoCAD
+ExportOptionsAutoCAD
 ################################################################################
 
 ``exportOptionsAutoCAD``
 
 **Description**
 
-Options for exporting a document as an AutoCAD file, used with the :ref:`jsobjref/document.exportFile` method.
+Options for exporting a document as an AutoCAD file, used with the :ref:`jsobjref/Document.exportFile` method.
 All properties are optional.
 
 When you export a document, a file extension is appended automatically. You should not include any file extension in the file specification.
 
-To override the default AutoCAD export format (DWG), use the :ref:`jsobjref/exportOptionsAutoCAD.exportFileFormat` property.
+To override the default AutoCAD export format (DWG), use the :ref:`jsobjref/ExportOptionsAutoCAD.exportFileFormat` property.
 
 ----
 
@@ -20,7 +20,7 @@ To override the default AutoCAD export format (DWG), use the :ref:`jsobjref/expo
 Properties
 ==========
 
-.. _jsobjref/exportOptionsAutoCAD.alterPathsForAppearance:
+.. _jsobjref/ExportOptionsAutoCAD.alterPathsForAppearance:
 
 ExportOptionsAutoCAD.alterPathsForAppearance
 ********************************************************************************
@@ -39,7 +39,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsAutoCAD.colors:
+.. _jsobjref/ExportOptionsAutoCAD.colors:
 
 ExportOptionsAutoCAD.colors
 ********************************************************************************
@@ -52,11 +52,11 @@ The colors exported into the AutoCAD file.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.autoCADColors`
+:ref:`jsobjref/scripting-constants.AutoCADColors`
 
 ----
 
-.. _jsobjref/exportOptionsAutoCAD.convertTextToOutlines:
+.. _jsobjref/ExportOptionsAutoCAD.convertTextToOutlines:
 
 ExportOptionsAutoCAD.convertTextToOutlines
 ********************************************************************************
@@ -75,7 +75,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsAutoCAD.exportFileFormat:
+.. _jsobjref/ExportOptionsAutoCAD.exportFileFormat:
 
 ExportOptionsAutoCAD.exportFileFormat
 ********************************************************************************
@@ -90,11 +90,11 @@ Default: ``AutoCADExportFileFormat.DWG``.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.autoCADExportFileFormat`
+:ref:`jsobjref/scripting-constants.AutoCADExportFileFormat`
 
 ----
 
-.. _jsobjref/exportOptionsAutoCAD.exportOption:
+.. _jsobjref/ExportOptionsAutoCAD.exportOption:
 
 ExportOptionsAutoCAD.exportOption
 ********************************************************************************
@@ -109,11 +109,11 @@ Default: ``AutoCADExportOption.MaximizeEditability``.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.autoCADExportOption`
+:ref:`jsobjref/scripting-constants.AutoCADExportOption`
 
 ----
 
-.. _jsobjref/exportOptionsAutoCAD.exportSelectedArtOnly:
+.. _jsobjref/ExportOptionsAutoCAD.exportSelectedArtOnly:
 
 ExportOptionsAutoCAD.exportSelectedArtOnly
 ********************************************************************************
@@ -132,7 +132,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsAutoCAD.rasterFormat:
+.. _jsobjref/ExportOptionsAutoCAD.rasterFormat:
 
 ExportOptionsAutoCAD.rasterFormat
 ********************************************************************************
@@ -145,11 +145,11 @@ The format in which raster art is exported.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.autoCADRasterFormat`
+:ref:`jsobjref/scripting-constants.AutoCADRasterFormat`
 
 ----
 
-.. _jsobjref/exportOptionsAutoCAD.scaleLineweights:
+.. _jsobjref/ExportOptionsAutoCAD.scaleLineweights:
 
 ExportOptionsAutoCAD.scaleLineweights
 ********************************************************************************
@@ -168,7 +168,7 @@ Boolean.
 
 ----
 
-.. _jsobjref/exportOptionsAutoCAD.typename:
+.. _jsobjref/ExportOptionsAutoCAD.typename:
 
 ExportOptionsAutoCAD.typename
 ********************************************************************************
@@ -185,7 +185,7 @@ String, read-only.
 
 ----
 
-.. _jsobjref/exportOptionsAutoCAD.unit:
+.. _jsobjref/ExportOptionsAutoCAD.unit:
 
 ExportOptionsAutoCAD.unit
 ********************************************************************************
@@ -198,11 +198,11 @@ The measurement units from which to map.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.autoCADUnit`
+:ref:`jsobjref/scripting-constants.AutoCADUnit`
 
 ----
 
-.. _jsobjref/exportOptionsAutoCAD.unitScaleRatio:
+.. _jsobjref/ExportOptionsAutoCAD.unitScaleRatio:
 
 ExportOptionsAutoCAD.unitScaleRatio
 ********************************************************************************
@@ -221,7 +221,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/exportOptionsAutoCAD.version:
+.. _jsobjref/ExportOptionsAutoCAD.version:
 
 ExportOptionsAutoCAD.version
 ********************************************************************************
@@ -236,4 +236,4 @@ Default: ``AutoCADCompatibility.AutoCADRelease24``.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.autoCADCompatibility`
+:ref:`jsobjref/scripting-constants.AutoCADCompatibility`

@@ -1,4 +1,4 @@
-.. _jsobjref/characters:
+.. _jsobjref/Characters:
 
 Characters
 ################################################################################
@@ -17,7 +17,7 @@ The elements are not named; you must access them by index.
 Properties
 ==========
 
-.. _jsobjref/characters.length:
+.. _jsobjref/Characters.length:
 
 Characters.length
 ********************************************************************************
@@ -34,7 +34,7 @@ Number; read-only.
 
 ----
 
-.. _jsobjref/characters.parent:
+.. _jsobjref/Characters.parent:
 
 Characters.parent
 ********************************************************************************
@@ -51,7 +51,7 @@ Object; read-only.
 
 ----
 
-.. _jsobjref/characters.typename:
+.. _jsobjref/Characters.typename:
 
 Characters.typename
 ********************************************************************************
@@ -72,7 +72,7 @@ String; read-only.
 Methods
 =======
 
-.. _jsobjref/characters.add:
+.. _jsobjref/Characters.add:
 
 Characters.add()
 ********************************************************************************
@@ -87,23 +87,23 @@ If a location is not specified, adds the new character to the containing text fr
 
 **Parameters**
 
-+-------------------------+---------------------------------------------------------------+-------------+
-|        Parameter        |                             Type                              | Description |
-+=========================+===============================================================+=============+
-| ``contents``            | String                                                        | todo        |
-+-------------------------+---------------------------------------------------------------+-------------+
-| ``[relativeObject]``    | :ref:`jsobjref/textFrameItem`, optional                       | todo        |
-+-------------------------+---------------------------------------------------------------+-------------+
-| ``[insertionLocation]`` | :ref:`jsobjref/scriptingConstants.ElementPlacement`, optional | todo        |
-+-------------------------+---------------------------------------------------------------+-------------+
++-------------------------+----------------------------------------------------------------+-------------+
+|        Parameter        |                              Type                              | Description |
++=========================+================================================================+=============+
+| ``contents``            | String                                                         | todo        |
++-------------------------+----------------------------------------------------------------+-------------+
+| ``[relativeObject]``    | :ref:`jsobjref/TextFrameItem`, optional                        | todo        |
++-------------------------+----------------------------------------------------------------+-------------+
+| ``[insertionLocation]`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | todo        |
++-------------------------+----------------------------------------------------------------+-------------+
 
 **Returns**
 
-:ref:`jsobjref/textRange`
+:ref:`jsobjref/TextRange`
 
 ----
 
-.. _jsobjref/characters.addBefore:
+.. _jsobjref/Characters.addBefore:
 
 Characters.addBefore()
 ********************************************************************************
@@ -124,11 +124,11 @@ Adds a character before the specified text selection.
 
 **Returns**
 
-:ref:`jsobjref/textRange`
+:ref:`jsobjref/TextRange`
 
 ----
 
-.. _jsobjref/characters.index:
+.. _jsobjref/Characters.index:
 
 Characters.index()
 ********************************************************************************
@@ -149,11 +149,11 @@ Gets an element from the collection.
 
 **Returns**
 
-:ref:`jsobjref/textRange`
+:ref:`jsobjref/TextRange`
 
 ----
 
-.. _jsobjref/characters.removeAll:
+.. _jsobjref/Characters.removeAll:
 
 Characters.removeAll()
 ********************************************************************************

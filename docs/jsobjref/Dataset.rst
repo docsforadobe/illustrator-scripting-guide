@@ -1,4 +1,4 @@
-.. _jsobjref/dataset:
+.. _jsobjref/Dataset:
 
 Dataset
 ################################################################################
@@ -7,7 +7,7 @@ Dataset
 
 **Description**
 
-A set of data used for dynamic publishing. A dataset allows you to collect a number of variables and their dynamic data into one object. You must have at least one variable bound to an art item in order to create a dataset. See the class :ref:`jsobjref/variable`.
+A set of data used for dynamic publishing. A dataset allows you to collect a number of variables and their dynamic data into one object. You must have at least one variable bound to an art item in order to create a dataset. See the class :ref:`jsobjref/Variable`.
 
 ----
 
@@ -15,7 +15,7 @@ A set of data used for dynamic publishing. A dataset allows you to collect a num
 Properties
 ==========
 
-.. _jsobjref/dataset.name:
+.. _jsobjref/Dataset.name:
 
 Dataset.name
 ********************************************************************************
@@ -32,7 +32,7 @@ String.
 
 ----
 
-.. _jsobjref/dataset.parent:
+.. _jsobjref/Dataset.parent:
 
 Dataset.parent
 ********************************************************************************
@@ -45,11 +45,11 @@ The name of the object that contains this dataset.
 
 **Type**
 
-:ref:`jsobjref/document`, read-only.
+:ref:`jsobjref/Document`, read-only.
 
 ----
 
-.. _jsobjref/dataset.typename:
+.. _jsobjref/Dataset.typename:
 
 Dataset.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String.
 Methods
 =======
 
-.. _jsobjref/dataset.display:
+.. _jsobjref/Dataset.display:
 
 Dataset.display()
 ********************************************************************************
@@ -87,7 +87,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/dataset.remove:
+.. _jsobjref/Dataset.remove:
 
 Dataset.remove()
 ********************************************************************************
@@ -104,7 +104,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/dataset.update:
+.. _jsobjref/Dataset.update:
 
 Dataset.update()
 ********************************************************************************
@@ -125,7 +125,7 @@ Nothing.
 Example
 =======
 
-.. _jsobjref/dataset.usingVariablesAndDatasets:
+.. _jsobjref/Dataset.usingVariablesAndDatasets:
 
 Using variables and datasets
 ********************************************************************************

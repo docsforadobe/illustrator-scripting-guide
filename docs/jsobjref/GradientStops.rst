@@ -1,13 +1,13 @@
-.. _jsobjref/gradientStops:
+.. _jsobjref/GradientStops:
 
-Gradient Stops
+GradientStops
 ################################################################################
 
 ``gradientStops``
 
 **Description**
 
-A collection of ``GradientStop`` objects in a specific gradient. The elements are not named; you must access them by index.
+A collection of :ref:`jsobjref/GradientStop` objects in a specific gradient. The elements are not named; you must access them by index.
 
 ----
 
@@ -15,7 +15,7 @@ A collection of ``GradientStop`` objects in a specific gradient. The elements ar
 Properties
 ==========
 
-.. _jsobjref/gradientStops.length:
+.. _jsobjref/GradientStops.length:
 
 GradientStops.length
 ********************************************************************************
@@ -32,7 +32,7 @@ Number, read-only.
 
 ----
 
-.. _jsobjref/gradientStops.parent:
+.. _jsobjref/GradientStops.parent:
 
 GradientStops.parent
 ********************************************************************************
@@ -49,7 +49,7 @@ Object, read-only.
 
 ----
 
-.. _jsobjref/gradientStops.typename:
+.. _jsobjref/GradientStops.typename:
 
 GradientStops.typename
 ********************************************************************************
@@ -70,7 +70,7 @@ String, read-only.
 Methods
 =======
 
-.. _jsobjref/gradientStops.add:
+.. _jsobjref/GradientStops.add:
 
 GradientStops.add()
 ********************************************************************************
@@ -87,7 +87,7 @@ Creates a new object.
 
 ----
 
-.. _jsobjref/gradientStops.getByName:
+.. _jsobjref/GradientStops.getByName:
 
 GradientStops.getByName()
 ********************************************************************************
@@ -112,7 +112,7 @@ Gets the first element in the collection with the specified name.
 
 ----
 
-.. _jsobjref/gradientStops.index:
+.. _jsobjref/GradientStops.index:
 
 GradientStops.index()
 ********************************************************************************
@@ -137,7 +137,7 @@ Gets an element from the collection.
 
 ----
 
-.. _jsobjref/gradientStops.removeAll:
+.. _jsobjref/GradientStops.removeAll:
 
 GradientStops.removeAll()
 ********************************************************************************

@@ -1,9 +1,9 @@
-.. _jsobjref/rgbColor:
+.. _jsobjref/RGBColor:
 
-RGB Color
+RGBColor
 ################################################################################
 
-``rgbColor``
+``new RGBColor()``
 
 **Description**
 
@@ -17,7 +17,7 @@ If the color space of a document is RGB and you specify the color value for a pa
 Properties
 ==========
 
-.. _jsobjref/rgbColor.blue:
+.. _jsobjref/RGBColor.blue:
 
 RGBColor.blue
 ********************************************************************************
@@ -34,7 +34,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/rgbColor.green:
+.. _jsobjref/RGBColor.green:
 
 RGBColor.green
 ********************************************************************************
@@ -51,7 +51,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/rgbColor.red:
+.. _jsobjref/RGBColor.red:
 
 RGBColor.red
 ********************************************************************************
@@ -68,7 +68,7 @@ Number (double).
 
 ----
 
-.. _jsobjref/rgbColor.typename:
+.. _jsobjref/RGBColor.typename:
 
 RGBColor.typename
 ********************************************************************************

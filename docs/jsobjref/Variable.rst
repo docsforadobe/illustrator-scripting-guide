@@ -1,4 +1,4 @@
-.. _jsobjref/variable:
+.. _jsobjref/Variable:
 
 Variable
 ################################################################################
@@ -11,7 +11,7 @@ A document-level variable that can be imported or exported.
 
 A variable is a dynamic object used to create data-driven graphics.
 
-For an example, see :ref:`jsobjref/dataset`.
+For an example, see :ref:`jsobjref/Dataset`.
 
 Variables are accessed in Illustrator through the Variables palette.
 
@@ -21,7 +21,7 @@ Variables are accessed in Illustrator through the Variables palette.
 Properties
 ==========
 
-.. _jsobjref/variable.kind:
+.. _jsobjref/Variable.kind:
 
 Variable.kind
 ********************************************************************************
@@ -34,11 +34,11 @@ The variable’s type.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.VariableKind`
+:ref:`jsobjref/scripting-constants.VariableKind`
 
 ----
 
-.. _jsobjref/variable.name:
+.. _jsobjref/Variable.name:
 
 Variable.name
 ********************************************************************************
@@ -55,7 +55,7 @@ string
 
 ----
 
-.. _jsobjref/variable.pageItems:
+.. _jsobjref/Variable.pageItems:
 
 Variable.pageItems
 ********************************************************************************
@@ -72,7 +72,7 @@ All of the artwork in the variable.
 
 ----
 
-.. _jsobjref/variable.parent:
+.. _jsobjref/Variable.parent:
 
 Variable.parent
 ********************************************************************************
@@ -89,7 +89,7 @@ Object
 
 ----
 
-.. _jsobjref/variable.typename:
+.. _jsobjref/Variable.typename:
 
 Variable.typename
 ********************************************************************************
@@ -110,7 +110,7 @@ String, read-only
 Methods
 =======
 
-.. _jsobjref/variable.remove:
+.. _jsobjref/Variable.remove:
 
 Variable.remove()
 ********************************************************************************

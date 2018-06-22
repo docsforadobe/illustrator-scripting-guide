@@ -1,4 +1,4 @@
-.. _jsobjref/application:
+.. _jsobjref/Application:
 
 Application
 ###########
@@ -16,7 +16,7 @@ global app object, which contains all other Illustrator objects.
 Properties
 ==========
 
-.. _jsobjref/application.activeDocument:
+.. _jsobjref/Application.activeDocument:
 
 Application.activeDocument
 ********************************************************************************
@@ -29,11 +29,11 @@ The active (frontmost) document in Illustrator.
 
 **Type**
 
-:ref:`jsobjref/document`
+:ref:`jsobjref/Document`
 
 ----
 
-.. _jsobjref/application.browserAvailable:
+.. _jsobjref/Application.browserAvailable:
 
 Application.browserAvailable
 ********************************************************************************
@@ -50,7 +50,7 @@ Boolean; read-only.
 
 ----
 
-.. _jsobjref/application.buildNumber:
+.. _jsobjref/Application.buildNumber:
 
 Application.buildNumber
 ********************************************************************************
@@ -67,7 +67,7 @@ String; read-only.
 
 ----
 
-.. _jsobjref/application.colorSettingsList:
+.. _jsobjref/Application.colorSettingsList:
 
 Application.colorSettingsList
 ********************************************************************************
@@ -85,7 +85,7 @@ Object; read-only.
 
 ----
 
-.. _jsobjref/application.coordinateSystem:
+.. _jsobjref/Application.coordinateSystem:
 
 Application.coordinateSystem
 ********************************************************************************
@@ -98,11 +98,11 @@ The coordinate system currently in use, document or artboard.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.CoordinateSystem`
+:ref:`jsobjref/scripting-constants.CoordinateSystem`
 
 ----
 
-.. _jsobjref/application.defaultColorSettings:
+.. _jsobjref/Application.defaultColorSettings:
 
 Application.defaultColorSettings
 ********************************************************************************
@@ -120,7 +120,7 @@ File; read-only.
 
 ----
 
-.. _jsobjref/application.documents:
+.. _jsobjref/Application.documents:
 
 Application.documents
 ********************************************************************************
@@ -133,11 +133,11 @@ The documents in the application.
 
 **Type**
 
-:ref:`jsobjref/documents`
+:ref:`jsobjref/Documents`
 
 ----
 
-.. _jsobjref/application.flattenerPresetList:
+.. _jsobjref/Application.flattenerPresetList:
 
 Application.flattenerPresetList
 ********************************************************************************
@@ -155,7 +155,7 @@ Object; read-only.
 
 ----
 
-.. _jsobjref/application.freeMemory:
+.. _jsobjref/Application.freeMemory:
 
 Application.freeMemory
 ********************************************************************************
@@ -173,7 +173,7 @@ Number (long); read-only.
 
 ----
 
-.. _jsobjref/application.locale:
+.. _jsobjref/Application.locale:
 
 Application.locale
 ********************************************************************************
@@ -190,7 +190,7 @@ String; read-only.
 
 ----
 
-.. _jsobjref/application.name:
+.. _jsobjref/Application.name:
 
 Application.name
 ********************************************************************************
@@ -208,7 +208,7 @@ String; read-only.
 
 ----
 
-.. _jsobjref/application.pasteRememberLayers:
+.. _jsobjref/Application.pasteRememberLayers:
 
 Application.pasteRememberLayers
 ********************************************************************************
@@ -225,7 +225,7 @@ Boolean; read-only.
 
 ----
 
-.. _jsobjref/application.path:
+.. _jsobjref/Application.path:
 
 Application.path
 ********************************************************************************
@@ -242,7 +242,7 @@ File; read-only.
 
 ----
 
-.. _jsobjref/application.PDFPresetsList:
+.. _jsobjref/Application.PDFPresetsList:
 
 Application.PDFPresetsList
 ********************************************************************************
@@ -260,7 +260,7 @@ Object; read-only.
 
 ----
 
-.. _jsobjref/application.PPDFileList:
+.. _jsobjref/Application.PPDFileList:
 
 Application.PPDFileList
 ********************************************************************************
@@ -278,7 +278,7 @@ Object; read-only.
 
 ----
 
-.. _jsobjref/application.preferences:
+.. _jsobjref/Application.preferences:
 
 Application.preferences
 ********************************************************************************
@@ -291,11 +291,11 @@ Illustrator’s preference settings.
 
 **Type**
 
-:ref:`jsobjref/preferences`
+:ref:`jsobjref/Preferences`
 
 ----
 
-.. _jsobjref/application.printerList:
+.. _jsobjref/Application.printerList:
 
 Application.printerList
 ********************************************************************************
@@ -308,11 +308,11 @@ The list of installed printers.
 
 **Type**
 
-Array of :ref:`jsobjref/printer`
+Array of :ref:`jsobjref/Printer`
 
 ----
 
-.. _jsobjref/application.printPresetsList:
+.. _jsobjref/Application.printPresetsList:
 
 Application.printPresetsList
 ********************************************************************************
@@ -329,7 +329,7 @@ Object; read-only.
 
 ----
 
-.. _jsobjref/application.scriptingVersion:
+.. _jsobjref/Application.scriptingVersion:
 
 Application.scriptingVersion
 ********************************************************************************
@@ -346,7 +346,7 @@ String; read-only.
 
 ----
 
-.. _jsobjref/application.selection:
+.. _jsobjref/Application.selection:
 
 Application.selection
 ********************************************************************************
@@ -363,7 +363,7 @@ Array of Objects; read-only.
 
 ----
 
-.. _jsobjref/application.startupPresetsList:
+.. _jsobjref/Application.startupPresetsList:
 
 Application.startupPresetsList
 ********************************************************************************
@@ -380,7 +380,7 @@ Object; read-only.
 
 ----
 
-.. _jsobjref/application.textFonts:
+.. _jsobjref/Application.textFonts:
 
 Application.textFonts
 ********************************************************************************
@@ -393,11 +393,11 @@ The installed fonts.
 
 **Type**
 
-:ref:`jsobjref/textFonts`
+:ref:`jsobjref/TextFonts`
 
 ----
 
-.. _jsobjref/application.tracingPresetList:
+.. _jsobjref/Application.tracingPresetList:
 
 Application.tracingPresetList
 ********************************************************************************
@@ -415,7 +415,7 @@ Array of Strings; read-only.
 
 ----
 
-.. _jsobjref/application.typename:
+.. _jsobjref/Application.typename:
 
 Application.typename
 ********************************************************************************
@@ -432,7 +432,7 @@ String; read-only.
 
 ----
 
-.. _jsobjref/application.userInteractionLevel:
+.. _jsobjref/Application.userInteractionLevel:
 
 Application.userInteractionLevel
 ********************************************************************************
@@ -446,11 +446,11 @@ script commands.
 
 **Type**
 
-:ref:`jsobjref/scriptingConstants.UserInteractionLevel`
+:ref:`jsobjref/scripting-constants.UserInteractionLevel`
 
 ----
 
-.. _jsobjref/application.version:
+.. _jsobjref/Application.version:
 
 Application.version
 ********************************************************************************
@@ -467,7 +467,7 @@ String; read-only.
 
 ----
 
-.. _jsobjref/application.visible:
+.. _jsobjref/Application.visible:
 
 Application.visible
 ********************************************************************************
@@ -488,7 +488,7 @@ Boolean; read-only.
 Methods
 =======
 
-.. _jsobjref/application.beep:
+.. _jsobjref/Application.beep:
 
 Application.beep()
 ********************************************************************************
@@ -505,7 +505,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/application.concatenateMatrix:
+.. _jsobjref/Application.concatenateMatrix:
 
 Application.concatenateMatrix()
 ********************************************************************************
@@ -532,7 +532,7 @@ Matrix.
 
 ----
 
-.. _jsobjref/application.concatenateRotationMatrix:
+.. _jsobjref/Application.concatenateRotationMatrix:
 
 Application.concatenateRotationMatrix()
 ********************************************************************************
@@ -559,7 +559,7 @@ Matrix.
 
 ----
 
-.. _jsobjref/application.concatenateScaleMatrix:
+.. _jsobjref/Application.concatenateScaleMatrix:
 
 Application.concatenateScaleMatrix()
 ********************************************************************************
@@ -588,7 +588,7 @@ Matrix
 
 ----
 
-.. _jsobjref/application.concatenateTranslationMatrix:
+.. _jsobjref/Application.concatenateTranslationMatrix:
 
 Application.concatenateTranslationMatrix()
 ********************************************************************************
@@ -618,7 +618,7 @@ Matrix
 
 ----
 
-.. _jsobjref/application.convertSampleColor:
+.. _jsobjref/Application.convertSampleColor:
 
 Application.convertSampleColor()
 ********************************************************************************
@@ -631,21 +631,21 @@ Converts a sample-component color from one color space to another.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------+-------------+
-|        Parameter        |                          Type                          | Description |
-+=========================+========================================================+=============+
-| ``sourceColorSpace``    | :ref:`jsobjref/scriptingConstants.ImageColorSpace`     | todo        |
-+-------------------------+--------------------------------------------------------+-------------+
-| ``sourceColor``         | ColorComponents                                        | todo        |
-+-------------------------+--------------------------------------------------------+-------------+
-| ``destColorSpace``      | :ref:`jsobjref/scriptingConstants.ImageColorSpace`     | todo        |
-+-------------------------+--------------------------------------------------------+-------------+
-| ``colorConvertPurpose`` | :ref:`jsobjref/scriptingConstants.ColorConvertPurpose` | todo        |
-+-------------------------+--------------------------------------------------------+-------------+
-| ``[sourceHasAlpha]``    | Boolean, optional                                      | todo        |
-+-------------------------+--------------------------------------------------------+-------------+
-| ``[destHasAlpha]``      | Boolean, optional                                      | todo        |
-+-------------------------+--------------------------------------------------------+-------------+
++-------------------------+---------------------------------------------------------+-------------+
+|        Parameter        |                          Type                           | Description |
++=========================+=========================================================+=============+
+| ``sourceColorSpace``    | :ref:`jsobjref/scripting-constants.ImageColorSpace`     | todo        |
++-------------------------+---------------------------------------------------------+-------------+
+| ``sourceColor``         | ColorComponents                                         | todo        |
++-------------------------+---------------------------------------------------------+-------------+
+| ``destColorSpace``      | :ref:`jsobjref/scripting-constants.ImageColorSpace`     | todo        |
++-------------------------+---------------------------------------------------------+-------------+
+| ``colorConvertPurpose`` | :ref:`jsobjref/scripting-constants.ColorConvertPurpose` | todo        |
++-------------------------+---------------------------------------------------------+-------------+
+| ``[sourceHasAlpha]``    | Boolean, optional                                       | todo        |
++-------------------------+---------------------------------------------------------+-------------+
+| ``[destHasAlpha]``      | Boolean, optional                                       | todo        |
++-------------------------+---------------------------------------------------------+-------------+
 
 
 **Returns**
@@ -654,7 +654,7 @@ Array of ColorComponents
 
 ----
 
-.. _jsobjref/application.copy:
+.. _jsobjref/Application.copy:
 
 Application.copy()
 ********************************************************************************
@@ -671,7 +671,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/application.cut:
+.. _jsobjref/Application.cut:
 
 Application.cut()
 ********************************************************************************
@@ -689,7 +689,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/application.deleteWorkspace:
+.. _jsobjref/Application.deleteWorkspace:
 
 Application.deleteWorkspace()
 ********************************************************************************
@@ -714,7 +714,7 @@ Boolean
 
 ----
 
-.. _jsobjref/application.getIdentityMatrix:
+.. _jsobjref/Application.getIdentityMatrix:
 
 Application.getIdentityMatrix()
 ********************************************************************************
@@ -731,7 +731,7 @@ Matrix
 
 ----
 
-.. _jsobjref/application.getIsFileOpen:
+.. _jsobjref/Application.getIsFileOpen:
 
 Application.getIsFileOpen()
 ********************************************************************************
@@ -759,7 +759,7 @@ Boolean
 
 ----
 
-.. _jsobjref/application.getPPDFileInfo:
+.. _jsobjref/Application.getPPDFileInfo:
 
 Application.getPPDFileInfo()
 ********************************************************************************
@@ -780,11 +780,11 @@ Gets detailed file information for specified PPD file.
 
 **Returns**
 
-:ref:`jsobjref/pPDFileInfo`
+:ref:`jsobjref/PPDFileInfo`
 
 ----
 
-.. _jsobjref/application.getPresetFileOfType:
+.. _jsobjref/Application.getPresetFileOfType:
 
 Application.getPresetFileOfType()
 ********************************************************************************
@@ -798,11 +798,11 @@ specified preset type.
 
 **Parameters**
 
-+----------------+-------------------------------------------------------+-------------+
-|   Parameter    |                         Type                          | Description |
-+================+=======================================================+=============+
-| ``presetType`` | :ref:`jsobjref/scriptingConstants.DocumentPresetType` | todo        |
-+----------------+-------------------------------------------------------+-------------+
++----------------+--------------------------------------------------------+-------------+
+|   Parameter    |                          Type                          | Description |
++================+========================================================+=============+
+| ``presetType`` | :ref:`jsobjref/scripting-constants.DocumentPresetType` | todo        |
++----------------+--------------------------------------------------------+-------------+
 
 **Returns**
 
@@ -810,7 +810,7 @@ File
 
 ----
 
-.. _jsobjref/application.getPresetSettings:
+.. _jsobjref/Application.getPresetSettings:
 
 Application.getPresetSettings()
 ********************************************************************************
@@ -832,11 +832,11 @@ a given preset name.
 
 **Returns**
 
-:ref:`jsobjref/documentPreset`
+:ref:`jsobjref/DocumentPreset`
 
 ----
 
-.. _jsobjref/application.getRotationMatrix:
+.. _jsobjref/Application.getRotationMatrix:
 
 Application.getRotationMatrix()
 ********************************************************************************
@@ -866,7 +866,7 @@ Matrix
 
 ----
 
-.. _jsobjref/application.getScaleMatrix:
+.. _jsobjref/Application.getScaleMatrix:
 
 Application.getScaleMatrix()
 ********************************************************************************
@@ -899,7 +899,7 @@ Matrix
 
 ----
 
-.. _jsobjref/application.getScriptableHelpGroup:
+.. _jsobjref/Application.getScriptableHelpGroup:
 
 Application.getScriptableHelpGroup()
 ********************************************************************************
@@ -917,7 +917,7 @@ Variant
 
 ----
 
-.. _jsobjref/application.getTranslationMatrix:
+.. _jsobjref/Application.getTranslationMatrix:
 
 Application.getTranslationMatrix()
 ********************************************************************************
@@ -951,7 +951,7 @@ Matrix
 
 ----
 
-.. _jsobjref/application.invertMatrix:
+.. _jsobjref/Application.invertMatrix:
 
 Application.invertMatrix()
 ********************************************************************************
@@ -976,7 +976,7 @@ Matrix
 
 ----
 
-.. _jsobjref/application.isEqualMatrix:
+.. _jsobjref/Application.isEqualMatrix:
 
 Application.isEqualMatrix()
 ********************************************************************************
@@ -1003,7 +1003,7 @@ Boolean
 
 ----
 
-.. _jsobjref/application.isSingularMatrix:
+.. _jsobjref/Application.isSingularMatrix:
 
 Application.isSingularMatrix()
 ********************************************************************************
@@ -1028,7 +1028,7 @@ Boolean
 
 ----
 
-.. _jsobjref/application.loadColorSettings:
+.. _jsobjref/Application.loadColorSettings:
 
 Application.loadColorSettings()
 ********************************************************************************
@@ -1054,7 +1054,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/application.open:
+.. _jsobjref/Application.open:
 
 Application.open()
 ********************************************************************************
@@ -1075,23 +1075,23 @@ Opens the specified document file.
 
 **Parameters**
 
-+--------------------------+-------------------------------------------------------+-------------+
-|        Parameter         |                         Type                          | Description |
-+==========================+=======================================================+=============+
-| ``file``                 | File                                                  | todo        |
-+--------------------------+-------------------------------------------------------+-------------+
-| ``[documentColorSpace]`` | :ref:`jsobjref/scriptingConstants.DocumentColorSpace` | todo        |
-+--------------------------+-------------------------------------------------------+-------------+
-| ``[options]``            | anything                                              | todo        |
-+--------------------------+-------------------------------------------------------+-------------+
++--------------------------+--------------------------------------------------------+-------------+
+|        Parameter         |                          Type                          | Description |
++==========================+========================================================+=============+
+| ``file``                 | File                                                   | todo        |
++--------------------------+--------------------------------------------------------+-------------+
+| ``[documentColorSpace]`` | :ref:`jsobjref/scripting-constants.DocumentColorSpace` | todo        |
++--------------------------+--------------------------------------------------------+-------------+
+| ``[options]``            | anything                                               | todo        |
++--------------------------+--------------------------------------------------------+-------------+
 
 **Returns**
 
-:ref:`jsobjref/document`
+:ref:`jsobjref/Document`
 
 ----
 
-.. _jsobjref/application.paste:
+.. _jsobjref/Application.paste:
 
 Application.paste()
 ********************************************************************************
@@ -1108,7 +1108,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/application.quit:
+.. _jsobjref/Application.quit:
 
 Application.quit()
 ********************************************************************************
@@ -1128,7 +1128,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/application.redo:
+.. _jsobjref/Application.redo:
 
 Application.redo()
 ********************************************************************************
@@ -1145,7 +1145,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/application.redraw:
+.. _jsobjref/Application.redraw:
 
 Application.redraw()
 ********************************************************************************
@@ -1162,7 +1162,7 @@ Nothing.
 
 ----
 
-.. _jsobjref/application.resetWorkspace:
+.. _jsobjref/Application.resetWorkspace:
 
 Application.resetWorkspace()
 ********************************************************************************
@@ -1179,7 +1179,7 @@ Boolean
 
 ----
 
-.. _jsobjref/application.saveWorkspace:
+.. _jsobjref/Application.saveWorkspace:
 
 Application.saveWorkspace()
 ********************************************************************************
@@ -1204,7 +1204,7 @@ Boolean
 
 ----
 
-.. _jsobjref/application.sendScriptMessage:
+.. _jsobjref/Application.sendScriptMessage:
 
 Application.sendScriptMessage()
 ********************************************************************************
@@ -1234,7 +1234,7 @@ String
 
 ----
 
-.. _jsobjref/application.showPresets:
+.. _jsobjref/Application.showPresets:
 
 Application.showPresets()
 ********************************************************************************
@@ -1259,7 +1259,7 @@ PrintPresetList
 
 ----
 
-.. _jsobjref/application.switchWorkspace:
+.. _jsobjref/Application.switchWorkspace:
 
 Application.switchWorkspace()
 ********************************************************************************
@@ -1284,7 +1284,7 @@ Boolean
 
 ----
 
-.. _jsobjref/application.translatePlaceholderText:
+.. _jsobjref/Application.translatePlaceholderText:
 
 Application.translatePlaceholderText()
 ********************************************************************************
@@ -1310,7 +1310,7 @@ String
 
 ----
 
-.. _jsobjref/application.undo:
+.. _jsobjref/Application.undo:
 
 Application.undo()
 ********************************************************************************
