@@ -19,7 +19,7 @@ Properties
 
 .. _jsobjref/exportOptionsPNG24.antiAliasing:
 
-exportOptionsPNG24.antiAliasing
+ExportOptionsPNG24.antiAliasing
 ********************************************************************************
 
 ``exportOptionsPNG24.antiAliasing``
@@ -36,7 +36,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPNG24.artBoardClipping:
 
-exportOptionsPNG24.artBoardClipping
+ExportOptionsPNG24.artBoardClipping
 ********************************************************************************
 
 ``exportOptionsPNG24.artBoardClipping``
@@ -53,7 +53,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPNG24.horizontalScale:
 
-exportOptionsPNG24.horizontalScale
+ExportOptionsPNG24.horizontalScale
 ********************************************************************************
 
 ``exportOptionsPNG24.horizontalScale``
@@ -70,7 +70,7 @@ Number (double).
 
 .. _jsobjref/exportOptionsPNG24.matte:
 
-exportOptionsPNG24.matte
+ExportOptionsPNG24.matte
 ********************************************************************************
 
 ``exportOptionsPNG24.matte``
@@ -87,7 +87,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPNG24.matteColor:
 
-exportOptionsPNG24.matteColor
+ExportOptionsPNG24.matteColor
 ********************************************************************************
 
 ``exportOptionsPNG24.matteColor``
@@ -104,7 +104,7 @@ The color to use when matting the art board. Default: ``white``.
 
 .. _jsobjref/exportOptionsPNG24.saveAsHTML:
 
-exportOptionsPNG24.saveAsHTML
+ExportOptionsPNG24.saveAsHTML
 ********************************************************************************
 
 ``exportOptionsPNG24.saveAsHTML``
@@ -121,7 +121,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPNG24.transparency:
 
-exportOptionsPNG24.transparency
+ExportOptionsPNG24.transparency
 ********************************************************************************
 
 ``exportOptionsPNG24.transparency``
@@ -138,7 +138,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsPNG24.typename:
 
-exportOptionsPNG24.typename
+ExportOptionsPNG24.typename
 ********************************************************************************
 
 ``exportOptionsPNG24.typename``
@@ -155,7 +155,7 @@ String, read-only.
 
 .. _jsobjref/exportOptionsPNG24.verticalScale:
 
-exportOptionsPNG24.verticalScale
+ExportOptionsPNG24.verticalScale
 ********************************************************************************
 
 ``exportOptionsPNG24.verticalScale``

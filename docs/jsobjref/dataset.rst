@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/dataset.name:
 
-dataset.name
+Dataset.name
 ********************************************************************************
 
 ``app.activeDocument.dataSets[index].name``
@@ -34,7 +34,7 @@ String.
 
 .. _jsobjref/dataset.parent:
 
-dataset.parent
+Dataset.parent
 ********************************************************************************
 
 ``app.activeDocument.dataSets[index].parent``
@@ -51,7 +51,7 @@ The name of the object that contains this dataset.
 
 .. _jsobjref/dataset.typename:
 
-dataset.typename
+Dataset.typename
 ********************************************************************************
 
 ``app.activeDocument.dataSets[index].typename``
@@ -72,7 +72,7 @@ Methods
 
 .. _jsobjref/dataset.display:
 
-dataset.display()
+Dataset.display()
 ********************************************************************************
 
 ``app.activeDocument.dataSets[index].display()``
@@ -89,7 +89,7 @@ Nothing.
 
 .. _jsobjref/dataset.remove:
 
-dataset.remove()
+Dataset.remove()
 ********************************************************************************
 
 ``app.activeDocument.dataSets[index].remove()``
@@ -106,7 +106,7 @@ Nothing.
 
 .. _jsobjref/dataset.update:
 
-dataset.update()
+Dataset.update()
 ********************************************************************************
 
 ``app.activeDocument.dataSets[index].update()``

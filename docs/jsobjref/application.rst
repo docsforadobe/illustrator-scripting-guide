@@ -18,7 +18,7 @@ Properties
 
 .. _jsobjref/application.activeDocument:
 
-application.activeDocument
+Application.activeDocument
 ********************************************************************************
 
 ``app.activeDocument``
@@ -35,7 +35,7 @@ The active (frontmost) document in Illustrator.
 
 .. _jsobjref/application.browserAvailable:
 
-application.browserAvailable
+Application.browserAvailable
 ********************************************************************************
 
 ``app.browserAvailable``
@@ -52,7 +52,7 @@ Boolean; read-only.
 
 .. _jsobjref/application.buildNumber:
 
-application.buildNumber
+Application.buildNumber
 ********************************************************************************
 
 ``app.buildNumber``
@@ -69,7 +69,7 @@ String; read-only.
 
 .. _jsobjref/application.colorSettingsList:
 
-application.colorSettingsList
+Application.colorSettingsList
 ********************************************************************************
 
 ``app.colorSettingsList``
@@ -87,7 +87,7 @@ Object; read-only.
 
 .. _jsobjref/application.coordinateSystem:
 
-application.coordinateSystem
+Application.coordinateSystem
 ********************************************************************************
 
 ``app.coordinateSystem``
@@ -104,7 +104,7 @@ The coordinate system currently in use, document or artboard.
 
 .. _jsobjref/application.defaultColorSettings:
 
-application.defaultColorSettings
+Application.defaultColorSettings
 ********************************************************************************
 
 ``app.defaultColorSettings``
@@ -122,7 +122,7 @@ File; read-only.
 
 .. _jsobjref/application.documents:
 
-application.documents
+Application.documents
 ********************************************************************************
 
 ``app.documents``
@@ -139,7 +139,7 @@ The documents in the application.
 
 .. _jsobjref/application.flattenerPresetList:
 
-application.flattenerPresetList
+Application.flattenerPresetList
 ********************************************************************************
 
 ``app.flattenerPresetList``
@@ -157,7 +157,7 @@ Object; read-only.
 
 .. _jsobjref/application.freeMemory:
 
-application.freeMemory
+Application.freeMemory
 ********************************************************************************
 
 ``app.freeMemory``
@@ -175,7 +175,7 @@ Number (long); read-only.
 
 .. _jsobjref/application.locale:
 
-application.locale
+Application.locale
 ********************************************************************************
 
 ``app.locale``
@@ -192,7 +192,7 @@ String; read-only.
 
 .. _jsobjref/application.name:
 
-application.name
+Application.name
 ********************************************************************************
 
 ``app.name``
@@ -210,7 +210,7 @@ String; read-only.
 
 .. _jsobjref/application.pasteRememberLayers:
 
-application.pasteRememberLayers
+Application.pasteRememberLayers
 ********************************************************************************
 
 ``app.pasteRememberLayers``
@@ -227,7 +227,7 @@ Boolean; read-only.
 
 .. _jsobjref/application.path:
 
-application.path
+Application.path
 ********************************************************************************
 
 ``app.path``
@@ -244,7 +244,7 @@ File; read-only.
 
 .. _jsobjref/application.PDFPresetsList:
 
-application.PDFPresetsList
+Application.PDFPresetsList
 ********************************************************************************
 
 ``app.PDFPresetsList``
@@ -262,7 +262,7 @@ Object; read-only.
 
 .. _jsobjref/application.PPDFileList:
 
-application.PPDFileList
+Application.PPDFileList
 ********************************************************************************
 
 ``app.PPDFileList``
@@ -280,7 +280,7 @@ Object; read-only.
 
 .. _jsobjref/application.preferences:
 
-application.preferences
+Application.preferences
 ********************************************************************************
 
 ``app.preferences``
@@ -297,7 +297,7 @@ Illustrator’s preference settings.
 
 .. _jsobjref/application.printerList:
 
-application.printerList
+Application.printerList
 ********************************************************************************
 
 ``app.printerList``
@@ -314,7 +314,7 @@ Array of :ref:`jsobjref/printer`
 
 .. _jsobjref/application.printPresetsList:
 
-application.printPresetsList
+Application.printPresetsList
 ********************************************************************************
 
 ``app.printPresetsList``
@@ -331,7 +331,7 @@ Object; read-only.
 
 .. _jsobjref/application.scriptingVersion:
 
-application.scriptingVersion
+Application.scriptingVersion
 ********************************************************************************
 
 ``app.scriptingVersion``
@@ -348,7 +348,7 @@ String; read-only.
 
 .. _jsobjref/application.selection:
 
-application.selection
+Application.selection
 ********************************************************************************
 
 ``app.selection``
@@ -365,7 +365,7 @@ Array of Objects; read-only.
 
 .. _jsobjref/application.startupPresetsList:
 
-application.startupPresetsList
+Application.startupPresetsList
 ********************************************************************************
 
 ``app.startupPresetsList``
@@ -382,7 +382,7 @@ Object; read-only.
 
 .. _jsobjref/application.textFonts:
 
-application.textFonts
+Application.textFonts
 ********************************************************************************
 
 ``app.textFonts``
@@ -399,7 +399,7 @@ The installed fonts.
 
 .. _jsobjref/application.tracingPresetList:
 
-application.tracingPresetList
+Application.tracingPresetList
 ********************************************************************************
 
 ``app.tracingPresetList``
@@ -417,7 +417,7 @@ Array of Strings; read-only.
 
 .. _jsobjref/application.typename:
 
-application.typename
+Application.typename
 ********************************************************************************
 
 ``app.typename``
@@ -434,7 +434,7 @@ String; read-only.
 
 .. _jsobjref/application.userInteractionLevel:
 
-application.userInteractionLevel
+Application.userInteractionLevel
 ********************************************************************************
 
 ``app.userInteractionLevel``
@@ -452,7 +452,7 @@ script commands.
 
 .. _jsobjref/application.version:
 
-application.version
+Application.version
 ********************************************************************************
 
 ``app.version``
@@ -469,7 +469,7 @@ String; read-only.
 
 .. _jsobjref/application.visible:
 
-application.visible
+Application.visible
 ********************************************************************************
 
 ``app.visible``
@@ -490,7 +490,7 @@ Methods
 
 .. _jsobjref/application.beep:
 
-application.beep()
+Application.beep()
 ********************************************************************************
 
 ``app.beep()``
@@ -507,7 +507,7 @@ Nothing.
 
 .. _jsobjref/application.concatenateMatrix:
 
-application.concatenateMatrix()
+Application.concatenateMatrix()
 ********************************************************************************
 
 ``app.concatenateMatrix(matrix, secondMatrix)``
@@ -528,13 +528,13 @@ Joins two matrices together.
 
 **Returns**
 
-Matrix
+Matrix.
 
 ----
 
 .. _jsobjref/application.concatenateRotationMatrix:
 
-application.concatenateRotationMatrix()
+Application.concatenateRotationMatrix()
 ********************************************************************************
 
 ``app.concatenateRotationMatrix(matrix, angle)``
@@ -555,13 +555,13 @@ Joins a rotation translation to a transformation matrix.
 
 **Returns**
 
-Matrix
+Matrix.
 
 ----
 
 .. _jsobjref/application.concatenateScaleMatrix:
 
-application.concatenateScaleMatrix()
+Application.concatenateScaleMatrix()
 ********************************************************************************
 
 ``app.concatenateScaleMatrix(matrix[, scaleX][, scaleY])``
@@ -590,7 +590,7 @@ Matrix
 
 .. _jsobjref/application.concatenateTranslationMatrix:
 
-application.concatenateTranslationMatrix()
+Application.concatenateTranslationMatrix()
 ********************************************************************************
 
 ``app.concatenateTranslationMatrix(matrix[, deltaX][, deltaY])``
@@ -620,7 +620,7 @@ Matrix
 
 .. _jsobjref/application.convertSampleColor:
 
-application.convertSampleColor()
+Application.convertSampleColor()
 ********************************************************************************
 
 ``app.convertSampleColor(sourceColorSpace, sourceColor, destColorSpace, colorConvertPurpose[, sourceHasAlpha][, destHasAlpha])``
@@ -648,8 +648,6 @@ Converts a sample-component color from one color space to another.
 +-------------------------+--------------------------------------------------------+-------------+
 
 
-
-
 **Returns**
 
 Array of ColorComponents
@@ -658,7 +656,7 @@ Array of ColorComponents
 
 .. _jsobjref/application.copy:
 
-application.copy()
+Application.copy()
 ********************************************************************************
 
 ``app.copy()``
@@ -675,7 +673,7 @@ Nothing.
 
 .. _jsobjref/application.cut:
 
-application.cut()
+Application.cut()
 ********************************************************************************
 
 ``app.cut()``
@@ -693,7 +691,7 @@ Nothing.
 
 .. _jsobjref/application.deleteWorkspace:
 
-application.deleteWorkspace()
+Application.deleteWorkspace()
 ********************************************************************************
 
 ``app.deleteWorkspace(workspaceName)``
@@ -718,7 +716,7 @@ Boolean
 
 .. _jsobjref/application.getIdentityMatrix:
 
-application.getIdentityMatrix()
+Application.getIdentityMatrix()
 ********************************************************************************
 
 ``app.getIdentityMatrix()``
@@ -735,7 +733,7 @@ Matrix
 
 .. _jsobjref/application.getIsFileOpen:
 
-application.getIsFileOpen()
+Application.getIsFileOpen()
 ********************************************************************************
 
 ``app.getIsFileOpen(filePath)``
@@ -763,7 +761,7 @@ Boolean
 
 .. _jsobjref/application.getPPDFileInfo:
 
-application.getPPDFileInfo()
+Application.getPPDFileInfo()
 ********************************************************************************
 
 ``app.getPPDFileInfo(name)``
@@ -788,7 +786,7 @@ Gets detailed file information for specified PPD file.
 
 .. _jsobjref/application.getPresetFileOfType:
 
-application.getPresetFileOfType()
+Application.getPresetFileOfType()
 ********************************************************************************
 
 ``app.getPresetFileOfType(presetType)``
@@ -814,7 +812,7 @@ File
 
 .. _jsobjref/application.getPresetSettings:
 
-application.getPresetSettings()
+Application.getPresetSettings()
 ********************************************************************************
 
 ``app.getPresetSettings(preset)``
@@ -840,7 +838,7 @@ a given preset name.
 
 .. _jsobjref/application.getRotationMatrix:
 
-application.getRotationMatrix()
+Application.getRotationMatrix()
 ********************************************************************************
 
 ``app.getRotationMatrix([angle])``
@@ -870,7 +868,7 @@ Matrix
 
 .. _jsobjref/application.getScaleMatrix:
 
-application.getScaleMatrix()
+Application.getScaleMatrix()
 ********************************************************************************
 
 ``app.getScaleMatrix([scaleX][, scaleY])``
@@ -903,7 +901,7 @@ Matrix
 
 .. _jsobjref/application.getScriptableHelpGroup:
 
-application.getScriptableHelpGroup()
+Application.getScriptableHelpGroup()
 ********************************************************************************
 
 ``app.getScriptableHelpGroup()``
@@ -921,7 +919,7 @@ Variant
 
 .. _jsobjref/application.getTranslationMatrix:
 
-application.getTranslationMatrix()
+Application.getTranslationMatrix()
 ********************************************************************************
 
 ``app.getTranslationMatrix([deltaX][, deltaY])``
@@ -955,7 +953,7 @@ Matrix
 
 .. _jsobjref/application.invertMatrix:
 
-application.invertMatrix()
+Application.invertMatrix()
 ********************************************************************************
 
 ``app.invertMatrix(matrix)``
@@ -980,7 +978,7 @@ Matrix
 
 .. _jsobjref/application.isEqualMatrix:
 
-application.isEqualMatrix()
+Application.isEqualMatrix()
 ********************************************************************************
 
 ``app.isEqualMatrix(matrix, secondMatrix)``
@@ -1007,7 +1005,7 @@ Boolean
 
 .. _jsobjref/application.isSingularMatrix:
 
-application.isSingularMatrix()
+Application.isSingularMatrix()
 ********************************************************************************
 
 ``app.isSingularMatrix(matrix)``
@@ -1032,7 +1030,7 @@ Boolean
 
 .. _jsobjref/application.loadColorSettings:
 
-application.loadColorSettings()
+Application.loadColorSettings()
 ********************************************************************************
 
 ``app.loadColorSettings(fileSpec)``
@@ -1058,7 +1056,7 @@ Nothing.
 
 .. _jsobjref/application.open:
 
-application.open()
+Application.open()
 ********************************************************************************
 
 ``app.open(file[, documentColorSpace][, options])``
@@ -1095,7 +1093,7 @@ Opens the specified document file.
 
 .. _jsobjref/application.paste:
 
-application.paste()
+Application.paste()
 ********************************************************************************
 
 ``app.paste()``
@@ -1112,7 +1110,7 @@ Nothing.
 
 .. _jsobjref/application.quit:
 
-application.quit()
+Application.quit()
 ********************************************************************************
 
 ``app.quit()``
@@ -1132,7 +1130,7 @@ Nothing.
 
 .. _jsobjref/application.redo:
 
-application.redo()
+Application.redo()
 ********************************************************************************
 
 ``app.redo()``
@@ -1149,7 +1147,7 @@ Nothing.
 
 .. _jsobjref/application.redraw:
 
-application.redraw()
+Application.redraw()
 ********************************************************************************
 
 ``app.redraw()``
@@ -1166,7 +1164,7 @@ Nothing.
 
 .. _jsobjref/application.resetWorkspace:
 
-application.resetWorkspace()
+Application.resetWorkspace()
 ********************************************************************************
 
 ``app.resetWorkspace()``
@@ -1183,7 +1181,7 @@ Boolean
 
 .. _jsobjref/application.saveWorkspace:
 
-application.saveWorkspace()
+Application.saveWorkspace()
 ********************************************************************************
 
 ``app.saveWorkspace(workspaceName)``
@@ -1208,7 +1206,7 @@ Boolean
 
 .. _jsobjref/application.sendScriptMessage:
 
-application.sendScriptMessage()
+Application.sendScriptMessage()
 ********************************************************************************
 
 ``app.sendScriptMessage(pluginName, messageSelector, inputString)``
@@ -1238,7 +1236,7 @@ String
 
 .. _jsobjref/application.showPresets:
 
-application.showPresets()
+Application.showPresets()
 ********************************************************************************
 
 ``app.showPresets(fileSpec)``
@@ -1263,7 +1261,7 @@ PrintPresetList
 
 .. _jsobjref/application.switchWorkspace:
 
-application.switchWorkspace()
+Application.switchWorkspace()
 ********************************************************************************
 
 ``app.switchWorkspace(workspaceName)``
@@ -1288,7 +1286,7 @@ Boolean
 
 .. _jsobjref/application.translatePlaceholderText:
 
-application.translatePlaceholderText()
+Application.translatePlaceholderText()
 ********************************************************************************
 
 ``app.translatePlaceholderText(text)``
@@ -1314,7 +1312,7 @@ String
 
 .. _jsobjref/application.undo:
 
-application.undo()
+Application.undo()
 ********************************************************************************
 
 ``app.undo()``

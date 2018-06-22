@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/gradientColor.angle:
 
-gradientColor.angle
+GradientColor.angle
 ********************************************************************************
 
 ``gradientColor.angle``
@@ -34,7 +34,7 @@ Number (double).
 
 .. _jsobjref/gradientColor.gradient:
 
-gradientColor.gradient
+GradientColor.gradient
 ********************************************************************************
 
 ``gradientColor.gradient``
@@ -51,7 +51,7 @@ Reference to the object defining the gradient.
 
 .. _jsobjref/gradientColor.hiliteAngle:
 
-gradientColor.hiliteAngle
+GradientColor.hiliteAngle
 ********************************************************************************
 
 ``gradientColor.hiliteAngle``
@@ -68,7 +68,7 @@ Number (double).
 
 .. _jsobjref/gradientColor.hiliteLength:
 
-gradientColor.hiliteLength
+GradientColor.hiliteLength
 ********************************************************************************
 
 ``gradientColor.hiliteLength``
@@ -85,7 +85,7 @@ Number (double).
 
 .. _jsobjref/gradientColor.length:
 
-gradientColor.length
+GradientColor.length
 ********************************************************************************
 
 ``gradientColor.length``
@@ -102,7 +102,7 @@ Number (double).
 
 .. _jsobjref/gradientColor.matrix:
 
-gradientColor.matrix
+GradientColor.matrix
 ********************************************************************************
 
 ``gradientColor.matrix``
@@ -119,7 +119,7 @@ Matrix.
 
 .. _jsobjref/gradientColor.origin:
 
-gradientColor.origin
+GradientColor.origin
 ********************************************************************************
 
 ``gradientColor.origin``
@@ -136,7 +136,7 @@ Array of 2 numbers.
 
 .. _jsobjref/gradientColor.typename:
 
-gradientColor.typename
+GradientColor.typename
 ********************************************************************************
 
 ``gradientColor.typename``

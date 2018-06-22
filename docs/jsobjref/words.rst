@@ -19,7 +19,7 @@ Properties
 
 .. _jsobjref/words.length:
 
-words.length
+Words.length
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].words.length``
@@ -36,7 +36,7 @@ Number; read-only.
 
 .. _jsobjref/words.parent:
 
-words.parent
+Words.parent
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].words.parent``
@@ -53,7 +53,7 @@ Object; read-only.
 
 .. _jsobjref/words.typename:
 
-words.typename
+Words.typename
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].words.typename``
@@ -74,7 +74,7 @@ Methods
 
 .. _jsobjref/words.add:
 
-words.add()
+Words.add()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].words.add(contents[, relativeObject][, inseertLocation])``
@@ -105,7 +105,7 @@ If no location is specified, adds it to the containing text frame after the curr
 
 .. _jsobjref/words.addBefore:
 
-words.addBefore()
+Words.addBefore()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].words.addBefore(contents)``
@@ -130,7 +130,7 @@ Adds a word before the current word selection or insertion point.
 
 .. _jsobjref/words.index:
 
-words.index()
+Words.index()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].words.index(itemKey)``
@@ -155,7 +155,7 @@ Gets an element from the collection.
 
 .. _jsobjref/words.removeAll:
 
-words.removeAll()
+Words.removeAll()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].words.removeAll()``

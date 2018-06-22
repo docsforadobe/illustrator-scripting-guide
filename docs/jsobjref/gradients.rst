@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/gradients.length:
 
-gradients.length
+Gradients.length
 ********************************************************************************
 
 ``gradients.length``
@@ -34,7 +34,7 @@ Number, read-only.
 
 .. _jsobjref/gradients.parent:
 
-gradients.parent
+Gradients.parent
 ********************************************************************************
 
 ``gradients.parent``
@@ -51,7 +51,7 @@ Object, read-only.
 
 .. _jsobjref/gradients.typename:
 
-gradients.typename
+Gradients.typename
 ********************************************************************************
 
 ``gradients.typename``
@@ -72,7 +72,7 @@ Methods
 
 .. _jsobjref/gradients.add:
 
-gradients.add()
+Gradients.add()
 ********************************************************************************
 
 ``app.activeDocument.gradients.add()``
@@ -89,7 +89,7 @@ Creates a new ``Gradient`` object.
 
 .. _jsobjref/gradients.getByName:
 
-gradients.getByName()
+Gradients.getByName()
 ********************************************************************************
 
 ``app.activeDocument.gradients.getByName(name)``
@@ -114,7 +114,7 @@ Gets the first element in the collection with the specified name.
 
 .. _jsobjref/gradients.index:
 
-gradients.index()
+Gradients.index()
 ********************************************************************************
 
 ``app.activeDocument.gradients.index(itemKey)``
@@ -139,7 +139,7 @@ Gets an element from the collection.
 
 .. _jsobjref/gradients.removeAll:
 
-gradients.removeAll()
+Gradients.removeAll()
 ********************************************************************************
 
 ``app.activeDocument.gradients.removeAll()``

@@ -17,7 +17,7 @@ Properties
 
 .. _jsobjref/compoundPathItems.length:
 
-compoundPathItems.length
+CompoundPathItems.length
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems.length``
@@ -34,7 +34,7 @@ Number, read-only.
 
 .. _jsobjref/compoundPathItems.parent:
 
-compoundPathItems.parent
+CompoundPathItems.parent
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems.parent``
@@ -51,7 +51,7 @@ Object, read-only.
 
 .. _jsobjref/compoundPathItems.typename:
 
-compoundPathItems.typename
+CompoundPathItems.typename
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems.typename``
@@ -72,7 +72,7 @@ Methods
 
 .. _jsobjref/compoundPathItems.add:
 
-compoundPathItems.add()
+CompoundPathItems.add()
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems.add()``
@@ -89,7 +89,7 @@ Creates a new ``CompoundPathItem``.
 
 .. _jsobjref/compoundPathItems.getByName:
 
-compoundPathItems.getByName()
+CompoundPathItems.getByName()
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems.getByName(name)``
@@ -114,7 +114,7 @@ Gets the first element in the collection with the specified name.
 
 .. _jsobjref/compoundPathItems.index:
 
-compoundPathItems.index()
+CompoundPathItems.index()
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems.index(itemKey)``
@@ -139,7 +139,7 @@ Gets an element from the collection.
 
 .. _jsobjref/compoundPathItems.removeAll:
 
-compoundPathItems.removeAll()
+CompoundPathItems.removeAll()
 ********************************************************************************
 
 ``app.activeDocument.activeLayer.compoundPathItems.removeAll()``

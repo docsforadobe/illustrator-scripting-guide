@@ -22,7 +22,7 @@ Properties
 
 .. _jsobjref/exportOptionsAutoCAD.alterPathsForAppearance:
 
-exportOptionsAutoCAD.alterPathsForAppearance
+ExportOptionsAutoCAD.alterPathsForAppearance
 ********************************************************************************
 
 ``exportOptionsAutoCAD.alterPathsForAppearance``
@@ -41,7 +41,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsAutoCAD.colors:
 
-exportOptionsAutoCAD.colors
+ExportOptionsAutoCAD.colors
 ********************************************************************************
 
 ``exportOptionsAutoCAD.colors``
@@ -58,7 +58,7 @@ The colors exported into the AutoCAD file.
 
 .. _jsobjref/exportOptionsAutoCAD.convertTextToOutlines:
 
-exportOptionsAutoCAD.convertTextToOutlines
+ExportOptionsAutoCAD.convertTextToOutlines
 ********************************************************************************
 
 ``exportOptionsAutoCAD.convertTextToOutlines``
@@ -77,7 +77,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsAutoCAD.exportFileFormat:
 
-exportOptionsAutoCAD.exportFileFormat
+ExportOptionsAutoCAD.exportFileFormat
 ********************************************************************************
 
 ``exportOptionsAutoCAD.exportFileFormat``
@@ -96,7 +96,7 @@ Default: ``AutoCADExportFileFormat.DWG``.
 
 .. _jsobjref/exportOptionsAutoCAD.exportOption:
 
-exportOptionsAutoCAD.exportOption
+ExportOptionsAutoCAD.exportOption
 ********************************************************************************
 
 ``exportOptionsAutoCAD.exportOption``
@@ -115,7 +115,7 @@ Default: ``AutoCADExportOption.MaximizeEditability``.
 
 .. _jsobjref/exportOptionsAutoCAD.exportSelectedArtOnly:
 
-exportOptionsAutoCAD.exportSelectedArtOnly
+ExportOptionsAutoCAD.exportSelectedArtOnly
 ********************************************************************************
 
 ``exportOptionsAutoCAD.exportSelectedArtOnly``
@@ -134,7 +134,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsAutoCAD.rasterFormat:
 
-exportOptionsAutoCAD.rasterFormat
+ExportOptionsAutoCAD.rasterFormat
 ********************************************************************************
 
 ``exportOptionsAutoCAD.rasterFormat``
@@ -151,7 +151,7 @@ The format in which raster art is exported.
 
 .. _jsobjref/exportOptionsAutoCAD.scaleLineweights:
 
-exportOptionsAutoCAD.scaleLineweights
+ExportOptionsAutoCAD.scaleLineweights
 ********************************************************************************
 
 ``exportOptionsAutoCAD.scaleLineweights``
@@ -170,7 +170,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsAutoCAD.typename:
 
-exportOptionsAutoCAD.typename
+ExportOptionsAutoCAD.typename
 ********************************************************************************
 
 ``exportOptionsAutoCAD.typename``
@@ -187,7 +187,7 @@ String, read-only.
 
 .. _jsobjref/exportOptionsAutoCAD.unit:
 
-exportOptionsAutoCAD.unit
+ExportOptionsAutoCAD.unit
 ********************************************************************************
 
 ``exportOptionsAutoCAD.unit``
@@ -204,7 +204,7 @@ The measurement units from which to map.
 
 .. _jsobjref/exportOptionsAutoCAD.unitScaleRatio:
 
-exportOptionsAutoCAD.unitScaleRatio
+ExportOptionsAutoCAD.unitScaleRatio
 ********************************************************************************
 
 ``exportOptionsAutoCAD.unitScaleRatio``
@@ -223,7 +223,7 @@ Number (double).
 
 .. _jsobjref/exportOptionsAutoCAD.version:
 
-exportOptionsAutoCAD.version
+ExportOptionsAutoCAD.version
 ********************************************************************************
 
 ``exportOptionsAutoCAD.version``

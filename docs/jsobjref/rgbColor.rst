@@ -19,7 +19,7 @@ Properties
 
 .. _jsobjref/rgbColor.blue:
 
-rgbColor.blue
+RGBColor.blue
 ********************************************************************************
 
 ``rgbColor.blue``
@@ -36,7 +36,7 @@ Number (double).
 
 .. _jsobjref/rgbColor.green:
 
-rgbColor.green
+RGBColor.green
 ********************************************************************************
 
 ``rgbColor.green``
@@ -53,7 +53,7 @@ Number (double).
 
 .. _jsobjref/rgbColor.red:
 
-rgbColor.red
+RGBColor.red
 ********************************************************************************
 
 ``rgbColor.red``
@@ -70,7 +70,7 @@ Number (double).
 
 .. _jsobjref/rgbColor.typename:
 
-rgbColor.typename
+RGBColor.typename
 ********************************************************************************
 
 ``rgbColor.typename``

@@ -19,7 +19,7 @@ Properties
 
 .. _jsobjref/exportOptionsGIF.antiAliasing:
 
-exportOptionsGIF.antiAliasing
+ExportOptionsGIF.antiAliasing
 ********************************************************************************
 
 ``exportOptionsGIF.antiAliasing``
@@ -36,7 +36,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsGIF.artBoardClipping:
 
-exportOptionsGIF.artBoardClipping
+ExportOptionsGIF.artBoardClipping
 ********************************************************************************
 
 ``exportOptionsGIF.artBoardClipping``
@@ -53,7 +53,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsGIF.colorCount:
 
-exportOptionsGIF.colorCount
+ExportOptionsGIF.colorCount
 ********************************************************************************
 
 ``exportOptionsGIF.colorCount``
@@ -70,7 +70,7 @@ Number (long).
 
 .. _jsobjref/exportOptionsGIF.colorDither:
 
-exportOptionsGIF.colorDither
+ExportOptionsGIF.colorDither
 ********************************************************************************
 
 ``exportOptionsGIF.colorDither``
@@ -87,7 +87,7 @@ The method used to dither colors in the exported image. Default: ``ColorDitherMe
 
 .. _jsobjref/exportOptionsGIF.colorReduction:
 
-exportOptionsGIF.colorReduction
+ExportOptionsGIF.colorReduction
 ********************************************************************************
 
 ``exportOptionsGIF.colorReduction``
@@ -104,7 +104,7 @@ The method used to reduce the number of colors in the exported image. ``Default:
 
 .. _jsobjref/exportOptionsGIF.ditherPercent:
 
-exportOptionsGIF.ditherPercent
+ExportOptionsGIF.ditherPercent
 ********************************************************************************
 
 ``exportOptionsGIF.ditherPercent``
@@ -121,7 +121,7 @@ Number (long).
 
 .. _jsobjref/exportOptionsGIF.horizontalScale:
 
-exportOptionsGIF.horizontalScale
+ExportOptionsGIF.horizontalScale
 ********************************************************************************
 
 ``exportOptionsGIF.horizontalScale``
@@ -138,7 +138,7 @@ Number (double).
 
 .. _jsobjref/exportOptionsGIF.infoLossPercent:
 
-exportOptionsGIF.infoLossPercent
+ExportOptionsGIF.infoLossPercent
 ********************************************************************************
 
 ``exportOptionsGIF.infoLossPercent``
@@ -155,7 +155,7 @@ Number (long).
 
 .. _jsobjref/exportOptionsGIF.interlaced:
 
-exportOptionsGIF.interlaced
+ExportOptionsGIF.interlaced
 ********************************************************************************
 
 ``exportOptionsGIF.interlaced``
@@ -172,7 +172,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsGIF.matte:
 
-exportOptionsGIF.matte
+ExportOptionsGIF.matte
 ********************************************************************************
 
 ``exportOptionsGIF.matte``
@@ -189,7 +189,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsGIF.matteColor:
 
-exportOptionsGIF.matteColor
+ExportOptionsGIF.matteColor
 ********************************************************************************
 
 ``exportOptionsGIF.matteColor``
@@ -206,7 +206,7 @@ The color to use when matting the art board. Default: ``WHITE``.
 
 .. _jsobjref/exportOptionsGIF.saveAsHTML:
 
-exportOptionsGIF.saveAsHTML
+ExportOptionsGIF.saveAsHTML
 ********************************************************************************
 
 ``exportOptionsGIF.saveAsHTML``
@@ -223,7 +223,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsGIF.transparency:
 
-exportOptionsGIF.transparency
+ExportOptionsGIF.transparency
 ********************************************************************************
 
 ``exportOptionsGIF.transparency``
@@ -240,7 +240,7 @@ Boolean.
 
 .. _jsobjref/exportOptionsGIF.typename:
 
-exportOptionsGIF.typename
+ExportOptionsGIF.typename
 ********************************************************************************
 
 ``exportOptionsGIF.typename``
@@ -257,7 +257,7 @@ String, read-only.
 
 .. _jsobjref/exportOptionsGIF.verticalScale:
 
-exportOptionsGIF.verticalScale
+ExportOptionsGIF.verticalScale
 ********************************************************************************
 
 ``exportOptionsGIF.verticalScale``
@@ -274,7 +274,7 @@ Number (double).
 
 .. _jsobjref/exportOptionsGIF.webSnap:
 
-exportOptionsGIF.webSnap
+ExportOptionsGIF.webSnap
 ********************************************************************************
 
 ``exportOptionsGIF.webSnap``

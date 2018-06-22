@@ -16,7 +16,7 @@ Properties
 
 .. _jsobjref/artboard.artboardRect:
 
-artboard.artboardRect
+Artboard.artboardRect
 ********************************************************************************
 
 ``artboard.artboardRect``
@@ -33,7 +33,7 @@ Rect
 
 .. _jsobjref/artboard.name:
 
-artboard.name
+Artboard.name
 ********************************************************************************
 
 ``artboard.name``
@@ -50,7 +50,7 @@ String
 
 .. _jsobjref/artboard.parent:
 
-artboard.parent
+Artboard.parent
 ********************************************************************************
 
 ``artboard.parent``
@@ -67,7 +67,7 @@ The parent of this object.
 
 .. _jsobjref/artboard.rulerOrigin:
 
-artboard.rulerOrigin
+Artboard.rulerOrigin
 ********************************************************************************
 
 ``artboard.rulerOrigin``
@@ -84,7 +84,7 @@ Point
 
 .. _jsobjref/artboard.rulerPAR:
 
-artboard.rulerPAR
+Artboard.rulerPAR
 ********************************************************************************
 
 ``artboard.rulerPAR``
@@ -103,7 +103,7 @@ Number (double)
 
 .. _jsobjref/artboard.showCenter:
 
-artboard.showCenter
+Artboard.showCenter
 ********************************************************************************
 
 ``artboard.showCenter``
@@ -120,7 +120,7 @@ Boolean
 
 .. _jsobjref/artboard.showCrossHairs:
 
-artboard.showCrossHairs
+Artboard.showCrossHairs
 ********************************************************************************
 
 ``artboard.showCrossHairs``
@@ -137,7 +137,7 @@ Boolean
 
 .. _jsobjref/artboard.showSafeAreas:
 
-artboard.showSafeAreas
+Artboard.showSafeAreas
 ********************************************************************************
 
 ``artboard.showSafeAreas``
@@ -154,7 +154,7 @@ Boolean
 
 .. _jsobjref/artboard.typename:
 
-artboard.typename
+Artboard.typename
 ********************************************************************************
 
 ``artboard.typename``
@@ -175,7 +175,7 @@ Methods
 
 .. _jsobjref/artboard.remove:
 
-artboard.remove()
+Artboard.remove()
 ********************************************************************************
 
 ``artboard.remove()``

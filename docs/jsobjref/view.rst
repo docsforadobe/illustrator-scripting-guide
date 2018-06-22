@@ -19,7 +19,7 @@ Properties
 
 .. _jsobjref/view.bounds:
 
-view.bounds
+View.bounds
 ********************************************************************************
 
 ``app.activeDocument.views[index].bounds``
@@ -36,7 +36,7 @@ Array of 4 Numbers
 
 .. _jsobjref/view.centerPoint:
 
-view.centerPoint
+View.centerPoint
 ********************************************************************************
 
 ``app.activeDocument.views[index].centerPoint``
@@ -53,7 +53,7 @@ Array of 2 Numbers
 
 .. _jsobjref/view.parent:
 
-view.parent
+View.parent
 ********************************************************************************
 
 ``app.activeDocument.views[index].parent``
@@ -70,7 +70,7 @@ Read-only. The document that contains this view.
 
 .. _jsobjref/view.screenMode:
 
-view.screenMode
+View.screenMode
 ********************************************************************************
 
 ``app.activeDocument.views[index].screenMode``
@@ -87,7 +87,7 @@ The mode of display for this view.
 ----
 .. _jsobjref/view.typename:
 
-view.typename
+View.typename
 ********************************************************************************
 
 ``app.activeDocument.views[index].typename``
@@ -104,7 +104,7 @@ String
 
 .. _jsobjref/view.zoom:
 
-view.zoom
+View.zoom
 ********************************************************************************
 
 ``app.activeDocument.views[index].zoom``

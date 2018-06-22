@@ -19,7 +19,7 @@ Properties
 
 .. _jsobjref/characters.length:
 
-characters.length
+Characters.length
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].contents.length``
@@ -36,7 +36,7 @@ Number; read-only.
 
 .. _jsobjref/characters.parent:
 
-characters.parent
+Characters.parent
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].contents.parent``
@@ -53,7 +53,7 @@ Object; read-only.
 
 .. _jsobjref/characters.typename:
 
-characters.typename
+Characters.typename
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].contents.typename``
@@ -74,7 +74,7 @@ Methods
 
 .. _jsobjref/characters.add:
 
-characters.add()
+Characters.add()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].contents.add(contents[,relativeObject][,insertionLocation])``
@@ -105,7 +105,7 @@ If a location is not specified, adds the new character to the containing text fr
 
 .. _jsobjref/characters.addBefore:
 
-characters.addBefore()
+Characters.addBefore()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].contents.addBefore(contents)``
@@ -130,7 +130,7 @@ Adds a character before the specified text selection.
 
 .. _jsobjref/characters.index:
 
-characters.index()
+Characters.index()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].contents.index(itemKey)``
@@ -155,7 +155,7 @@ Gets an element from the collection.
 
 .. _jsobjref/characters.removeAll:
 
-characters.removeAll()
+Characters.removeAll()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].contents.removeAll()``
@@ -185,7 +185,7 @@ Counting characters
   if ( app.documents.length > 0 ) {
     var doc = app.activeDocument;
     var numChars = 0;
-    for ( i = 0; i < doc.textFrames.length; i++ ) {
+    for ( var i = 0; i < doc.textFrames.length; i++ ) {
       textArtRange = doc.textFrames[i].contents;
       numChars += textArtRange.length;
     }

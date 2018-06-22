@@ -15,7 +15,7 @@ Properties
 
 .. _jsobjref/artboards.length:
 
-artboards.length
+Artboards.length
 ********************************************************************************
 
 ``artboards.length``
@@ -32,7 +32,7 @@ Number; read-only.
 
 .. _jsobjref/artboards.parent:
 
-artboards.parent
+Artboards.parent
 ********************************************************************************
 
 ``artboards.parent``
@@ -50,7 +50,7 @@ The name of the object that contains this dataset
 
 .. _jsobjref/artboards.typename:
 
-artboards.typename
+Artboards.typename
 ********************************************************************************
 
 ``artboards.typename``
@@ -71,7 +71,7 @@ Methods
 
 .. _jsobjref/artboards.add:
 
-artboards.add()
+Artboards.add()
 ********************************************************************************
 
 ``artboards.add(artboardRect)``
@@ -96,7 +96,7 @@ Creates a new Artboard object.
 
 .. _jsobjref/artboards.getActiveArtboardIndex:
 
-artboards.getActiveArtboardIndex()
+Artboards.getActiveArtboardIndex()
 ********************************************************************************
 
 ``artboards.getActiveArtboardIndex()``
@@ -115,7 +115,7 @@ Number (long)
 
 .. _jsobjref/artboards.getByName:
 
-artboards.getByName()
+Artboards.getByName()
 ********************************************************************************
 
 ``artboards.getByName(name)``
@@ -140,7 +140,7 @@ Gets the first element in the collection with the specified name.
 
 .. _jsobjref/artboards.insert:
 
-artboards.insert()
+Artboards.insert()
 ********************************************************************************
 
 ``artboards.insert(artboardRect, index)``
@@ -167,7 +167,7 @@ Nothing.
 
 .. _jsobjref/artboards.remove:
 
-artboards.remove()
+Artboards.remove()
 ********************************************************************************
 
 ``artboards.remove(index)``
@@ -192,7 +192,7 @@ Nothing.
 
 .. _jsobjref/artboards.setActiveArtboardIndex:
 
-artboards.setActiveArtboardIndex()
+Artboards.setActiveArtboardIndex()
 ********************************************************************************
 
 ``artboards.setActiveArtboardIndex(index)``
