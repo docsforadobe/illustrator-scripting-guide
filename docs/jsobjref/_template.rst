@@ -1,12 +1,13 @@
 .. _jsobjref/template:
 
-template
+Template
 ################################################################################
 
 ``template``
 
 **Description**
 
+Description.
 
 ----
 
@@ -14,6 +15,20 @@ template
 Properties
 ==========
 
+.. _jsobjref/template.property:
+
+Template.property
+********************************************************************************
+
+``absolute path to property``
+
+**Description**
+
+Description.
+
+**Type**
+
+Type.
 
 ----
 
@@ -21,6 +36,28 @@ Properties
 Methods
 =======
 
+.. _jsobjref/template.method:
+
+Template.method()
+********************************************************************************
+
+``absolute path to method(parameter)``
+
+**Description**
+
+Description.
+
+**Parameters**
+
++---------------+------+-------------+
+|   Parameter   | Type | Description |
++===============+======+=============+
+| ``parameter`` | Type | Description |
++---------------+------+-------------+
+
+**Returns**
+
+Returns.
 
 ----
 
@@ -28,7 +65,7 @@ Methods
 Example
 =======
 
-
+Example name
 ********************************************************************************
 
 ::
