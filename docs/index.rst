@@ -132,6 +132,9 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/LegacyTextItem
   jsobjref/LegacyTextItems
   jsobjref/Lines
+  jsobjref/Matrix
+  jsobjref/MeshItem
+  jsobjref/MeshItems
 
   jsobjref/RGBColor
 

@@ -12,7 +12,7 @@ Class
 
 **Description**
 
-Description of the class as a whole
+Description of the class as a whole.
 
 ----
 
