@@ -129,6 +129,9 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/LabColor
   jsobjref/Layer
   jsobjref/Layers
+  jsobjref/LegacyTextItem
+  jsobjref/LegacyTextItems
+  jsobjref/Lines
 
   jsobjref/RGBColor
 
