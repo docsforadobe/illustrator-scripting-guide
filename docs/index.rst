@@ -114,6 +114,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/GradientStop
   jsobjref/GradientStops
   jsobjref/GraphicStyle
+  jsobjref/GraphicStyles
 
     jsobjref/RGBColor
 
