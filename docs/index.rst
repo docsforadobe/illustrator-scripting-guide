@@ -126,6 +126,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/InkInfo
   jsobjref/InsertionPoint
   jsobjref/InsertionPoints
+  jsobjref/LabColor
 
   jsobjref/RGBColor
 
