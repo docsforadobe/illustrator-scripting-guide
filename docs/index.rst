@@ -123,6 +123,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/IllustratorSaveOptions
   jsobjref/ImageCaptureOptions
   jsobjref/Ink
+  jsobjref/InkInfo
 
   jsobjref/RGBColor
 
