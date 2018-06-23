@@ -740,7 +740,7 @@ GroupItem.zOrderPosition
 
 **Description**
 
- The position of this group object within the stacking order of the group or layer (``parent``) that contains the group object.
+The position of this group object within the stacking order of the group or layer (``parent``) that contains the group object.
 
 **Type**
 

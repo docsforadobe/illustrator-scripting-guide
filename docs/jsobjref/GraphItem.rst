@@ -794,5 +794,3 @@ Arranges the art item’s position in the stacking order of the group or layer (
 **Returns**
 
 Nothing.
-
-----

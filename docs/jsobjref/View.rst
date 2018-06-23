@@ -83,8 +83,8 @@ The mode of display for this view.
 
 :ref:`jsobjref/scripting-constants.ScreenMode`
 
-
 ----
+
 .. _jsobjref/View.typename:
 
 View.typename
