@@ -37,19 +37,19 @@ Contributors are welcome and encouraged to suggest fixes, adjustments, notes/war
 
 Anchors should be defined at each page setting relative to the root folder; the anchor for the "Application" page within the JS Object Reference should be::
 
-	.. _jsobjref/application
+	.. _jsobjref/Application
 
 And the anchor for a child item (property, method or example)::
 
-	.. _jsobjref/application.open
+	.. _jsobjref/Application.open
 
 Then, to link to these items from other pages, we use::
 
-	:ref:`jsobjref/application`
+	:ref:`jsobjref/Application`
 
 or::
 
-	:ref:`jsobjref/application.open`
+	:ref:`jsobjref/Application.open`
 
 ----
 
@@ -58,6 +58,20 @@ or::
 These should follow the following structure::
 
 	`Link Text <http://www.aenhancers.com>`__
+
+----
+
+**Tables**
+
+Function parameter tables should have following order::
+
++---------------+------+-----------------------------+
+|   Parameter   | Type |         Description         |
++===============+======+=============================+
+| ``parameter`` | Type | What does the parameter do? |
++---------------+------+-----------------------------+
+
+Use `Table Formatter <https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter>`_ for VSCode for easier table formating.
 
 ----
 
