@@ -63,5 +63,3 @@ The l (lightness) color value. Range -128.0–128.0. Default: 0.0.
 **Type**
 
 Number (double).
-
-----

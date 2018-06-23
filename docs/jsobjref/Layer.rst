@@ -531,28 +531,72 @@ Number (long), read-only.
 Methods
 =======
 
-.. _jsobjref/Layer.method:
+.. _jsobjref/Layer.move:
 
-Layer.method()
+Layer.move()
 ********************************************************************************
 
-``app.activeDocument.layers[index].method(parameter)``
+``app.activeDocument.layers[index].move(relativeObject, insertionLocation)``
 
 **Description**
 
-Description of this method.
+Moves the object.
 
 **Parameters**
 
-+---------------+------+-----------------------------+
-|   Parameter   | Type |         Description         |
-+===============+======+=============================+
-| ``parameter`` | Type | What does the parameter do? |
-+---------------+------+-----------------------------+
++-----------------------+------------------------------------------------------+-------------+
+|       Parameter       |                         Type                         | Description |
++=======================+======================================================+=============+
+| ``relativeObject``    | Object                                               | todo        |
++-----------------------+------------------------------------------------------+-------------+
+| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement` | todo        |
++-----------------------+------------------------------------------------------+-------------+
 
 **Returns**
 
-Returns.
+:ref:`jsobjref/Layer`
+
+----
+
+.. _jsobjref/Layer.remove:
+
+Layer.remove()
+********************************************************************************
+
+``app.activeDocument.layers[index].remove()``
+
+**Description**
+
+Deletes this object.
+
+**Returns**
+
+Nothing.
+
+----
+
+.. _jsobjref/Layer.zOrder:
+
+Layer.zOrder()
+********************************************************************************
+
+``app.activeDocument.layers[index].zOrder(ZOrderCmd)``
+
+**Description**
+
+Arranges the layer’s position in the stacking order of the containing layer or document (``parent``) of this object.
+
+**Parameters**
+
++---------------+--------------------------------------------------+-------------+
+|   Parameter   |                       Type                       | Description |
++===============+==================================================+=============+
+| ``ZOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | todo        |
++---------------+--------------------------------------------------+-------------+
+
+**Returns**
+
+Nothing.
 
 ----
 
@@ -560,7 +604,19 @@ Returns.
 Example
 =======
 
-Example name
+Bringing a layer to the front
 ********************************************************************************
 
 ::
+
+  // Moves the bottom layer to become the topmost layer
+
+  if (documents.length > 0) {
+    var countOfLayers = activeDocument.layers.length;
+    if (countOfLayers > 1) {
+      var bottomLayer = activeDocument.layers[countOfLayers - 1];
+      bottomLayer.zOrder(ZOrderMethod.BRINGTOFRONT);
+    } else {
+      alert("The active document only has only 1 layer");
+    }
+  }
