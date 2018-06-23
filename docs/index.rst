@@ -121,6 +121,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/GroupItem
   jsobjref/GroupItems
   jsobjref/IllustratorSaveOptions
+  jsobjref/ImageCaptureOptions
 
   jsobjref/RGBColor
 
