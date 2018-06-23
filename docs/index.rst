@@ -120,6 +120,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/GrayColor
   jsobjref/GroupItem
   jsobjref/GroupItems
+  jsobjref/IllustratorSaveOptions
 
   jsobjref/RGBColor
 
