@@ -1,4 +1,4 @@
-.. _jsobjref/class:
+.. _jsobjref/Class:
 
 Class
 ################################################################################
@@ -20,12 +20,12 @@ Description of the class as a whole
 Properties
 ==========
 
-.. _jsobjref/class.property:
+.. _jsobjref/Class.property:
 
 Class.property
 ********************************************************************************
 
-``app.class``
+``app.class.property``
 
 **Description**
 
@@ -41,7 +41,7 @@ Property type.
 Methods
 =======
 
-.. _jsobjref/class.method:
+.. _jsobjref/Class.method:
 
 Class.method()
 ********************************************************************************
