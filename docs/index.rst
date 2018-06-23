@@ -124,6 +124,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/ImageCaptureOptions
   jsobjref/Ink
   jsobjref/InkInfo
+  jsobjref/InsertionPoint
 
   jsobjref/RGBColor
 
