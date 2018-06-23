@@ -611,7 +611,12 @@ Nothing.
 GraphItem.resize()
 ********************************************************************************
 
-``app.activeDocument.graphItems[index].resize(scaleX, scaleY [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidths] [,scaleAbout])``
+::
+
+  app.activeDocument.graphItems[index].resize(scaleX, scaleY
+    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+    [,changeStrokePattern] [,changeLineWidths] [,scaleAbout])
+  )
 
 **Description**
 
@@ -650,7 +655,12 @@ Nothing.
 GraphItem.rotate()
 ********************************************************************************
 
-``app.activeDocument.graphItems[index].rotate(angle [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,rotateAbout])``
+::
+
+  app.activeDocument.graphItems[index].rotate(angle
+    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+    [,changeStrokePattern] [,rotateAbout]
+  )
 
 **Description**
 
@@ -685,7 +695,12 @@ Nothing.
 GraphItem.transform()
 ********************************************************************************
 
-``app.activeDocument.graphItems[index].transform(transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients] [,changeStrokePattern] [,changeLineWidths] [,transformAbout])``
+::
+
+  app.activeDocument.graphItems[index].transform(transformationMatrix
+    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+    [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
+  )
 
 **Description**
 
@@ -722,7 +737,12 @@ Nothing.
 GraphItem.translate()
 ********************************************************************************
 
-``app.activeDocument.graphItems[index].translate([deltaX] [,deltaY] [,transformObjects] [,transformFillPatterns] [,transformFillGradients] [,transformStrokePatterns])``
+::
+
+  app.activeDocument.graphItems[index].translate([deltaX] [,deltaY]
+    [,transformObjects] [,transformFillPatterns]
+    [,transformFillGradients] [,transformStrokePatterns]
+  )
 
 **Description**
 
@@ -776,17 +796,3 @@ Arranges the art item’s position in the stacking order of the group or layer (
 Nothing.
 
 ----
-
-
-
-
-
-
-=======
-Example
-=======
-
-Example name
-********************************************************************************
-
-::
