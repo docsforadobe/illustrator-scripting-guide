@@ -117,6 +117,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/GraphicStyles
   jsobjref/GraphItem
   jsobjref/GraphItems
+  jsobjref/GrayColor
 
   jsobjref/RGBColor
 
