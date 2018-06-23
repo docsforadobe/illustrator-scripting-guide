@@ -3,7 +3,7 @@
 InsertionPoint
 ################################################################################
 
-``insertionPoint``
+``app.activeDocument.textFrames[index].insertionPoints[index]``
 
 **Description**
 
@@ -20,7 +20,7 @@ Properties
 InsertionPoint.characters
 ********************************************************************************
 
-``insertionPoint.characters``
+``app.activeDocument.textFrames[index].insertionPoints[index].characters``
 
 **Description**
 
@@ -37,7 +37,7 @@ All the characters in this text range.
 InsertionPoint.lines
 ********************************************************************************
 
-``insertionPoint.lines``
+``app.activeDocument.textFrames[index].insertionPoints[index].lines``
 
 **Description**
 
@@ -54,7 +54,7 @@ All the lines in this text range.
 InsertionPoint.paragraphs
 ********************************************************************************
 
-``insertionPoint.paragraphs``
+``app.activeDocument.textFrames[index].insertionPoints[index].paragraphs``
 
 **Description**
 
@@ -71,7 +71,7 @@ All the paragraphs in this text range.
 InsertionPoint.parent
 ********************************************************************************
 
-``insertionPoint.parent``
+``app.activeDocument.textFrames[index].insertionPoints[index].parent``
 
 **Description**
 
@@ -88,7 +88,7 @@ The object’s container.
 InsertionPoint.story
 ********************************************************************************
 
-``insertionPoint.story``
+``app.activeDocument.textFrames[index].insertionPoints[index].story``
 
 **Description**
 
@@ -105,7 +105,7 @@ The story to which the text range belongs.
 InsertionPoint.textRanges
 ********************************************************************************
 
-``insertionPoint.textRanges``
+``app.activeDocument.textFrames[index].insertionPoints[index].textRanges``
 
 **Description**
 
@@ -122,7 +122,7 @@ All of the text in this text range.
 InsertionPoint.typename
 ********************************************************************************
 
-``insertionPoint.typename``
+``app.activeDocument.textFrames[index].insertionPoints[index].typename``
 
 **Description**
 
@@ -139,7 +139,7 @@ String, read-only.
 InsertionPoint.words
 ********************************************************************************
 
-``insertionPoint.words``
+``app.activeDocument.textFrames[index].insertionPoints[index].words``
 
 **Description**
 
@@ -148,5 +148,3 @@ All the words contained in this text range.
 **Type**
 
 :ref:`jsobjref/Words`, read-only.
-
-----
