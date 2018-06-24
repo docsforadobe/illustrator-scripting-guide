@@ -138,6 +138,10 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/NoColor
   jsobjref/NonNativeItem
   jsobjref/NonNativeItems
+  jsobjref/OpenOptions
+  jsobjref/OpenOptionsAutoCAD
+  jsobjref/OpenOptionsFreeHand
+  jsobjref/OpenOptionsPhotoshop
 
   jsobjref/RGBColor
 
