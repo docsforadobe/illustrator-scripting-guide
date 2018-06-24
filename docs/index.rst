@@ -135,6 +135,9 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/Matrix
   jsobjref/MeshItem
   jsobjref/MeshItems
+  jsobjref/NoColor
+  jsobjref/NonNativeItem
+  jsobjref/NonNativeItems
 
   jsobjref/RGBColor
 
