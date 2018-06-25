@@ -17,7 +17,7 @@ When you create a text frame, you also create a :ref:`jsobjref/Story` object. Ho
 Properties
 ==========
 
-.. jsobjref/TextFrameItem.anchor:
+.. _jsobjref/TextFrameItem.anchor:
 
 TextFrameItem.anchor
 ********************************************************************************
@@ -34,7 +34,7 @@ Array of 2 numbers
 
 ----
 
-.. jsobjref/TextFrameItem.antialias:
+.. _jsobjref/TextFrameItem.antialias:
 
 TextFrameItem.antialias
 ********************************************************************************
@@ -51,7 +51,7 @@ The type of anti-aliasing to use in the text.
 
 ----
 
-.. jsobjref/TextFrameItem.characters:
+.. _jsobjref/TextFrameItem.characters:
 
 TextFrameItem.characters
 ********************************************************************************
@@ -68,7 +68,7 @@ All the characters in this text frame.
 
 ----
 
-.. jsobjref/TextFrameItem.columnCount:
+.. _jsobjref/TextFrameItem.columnCount:
 
 TextFrameItem.columnCount
 ********************************************************************************
@@ -85,7 +85,7 @@ Number (long)
 
 ----
 
-.. jsobjref/TextFrameItem.columnGutter:
+.. _jsobjref/TextFrameItem.columnGutter:
 
 TextFrameItem.columnGutter
 ********************************************************************************
@@ -102,7 +102,7 @@ Number (double)
 
 ----
 
-.. jsobjref/TextFrameItem.contents:
+.. _jsobjref/TextFrameItem.contents:
 
 TextFrameItem.contents
 ********************************************************************************
@@ -119,7 +119,7 @@ String
 
 ----
 
-.. jsobjref/TextFrameItem.contentVariable:
+.. _jsobjref/TextFrameItem.contentVariable:
 
 TextFrameItem.contentVariable
 ********************************************************************************
@@ -136,7 +136,7 @@ The content variable bound to this text frame item.
 
 ----
 
-.. jsobjref/TextFrameItem.endTValue:
+.. _jsobjref/TextFrameItem.endTValue:
 
 TextFrameItem.endTValue
 ********************************************************************************
@@ -153,7 +153,7 @@ Number (double)
 
 ----
 
-.. jsobjref/TextFrameItem.flowLinksHorizontally:
+.. _jsobjref/TextFrameItem.flowLinksHorizontally:
 
 TextFrameItem.flowLinksHorizontally
 ********************************************************************************
@@ -170,7 +170,7 @@ Boolean
 
 ----
 
-.. jsobjref/TextFrameItem.insertionPoints:
+.. _jsobjref/TextFrameItem.insertionPoints:
 
 TextFrameItem.insertionPoints
 ********************************************************************************
@@ -187,7 +187,7 @@ All the insertion points in this text range.
 
 ----
 
-.. jsobjref/TextFrameItem.kind:
+.. _jsobjref/TextFrameItem.kind:
 
 TextFrameItem.kind
 ********************************************************************************
@@ -204,7 +204,7 @@ The type of a text frame item (area, path or point).
 
 ----
 
-.. jsobjref/TextFrameItem.lines:
+.. _jsobjref/TextFrameItem.lines:
 
 TextFrameItem.lines
 ********************************************************************************
@@ -221,7 +221,7 @@ All the lines in this text frame.
 
 ----
 
-.. jsobjref/TextFrameItem.matrix:
+.. _jsobjref/TextFrameItem.matrix:
 
 TextFrameItem.matrix
 ********************************************************************************
@@ -238,7 +238,7 @@ The transformation matrix for this text frame.
 
 ----
 
-.. jsobjref/TextFrameItem.nextFrame:
+.. _jsobjref/TextFrameItem.nextFrame:
 
 TextFrameItem.nextFrame
 ********************************************************************************
@@ -255,7 +255,7 @@ The linked text frame following this one.
 
 ----
 
-.. jsobjref/TextFrameItem.opticalAlignment:
+.. _jsobjref/TextFrameItem.opticalAlignment:
 
 TextFrameItem.opticalAlignment
 ********************************************************************************
@@ -272,7 +272,7 @@ Boolean
 
 ----
 
-.. jsobjref/TextFrameItem.orientation:
+.. _jsobjref/TextFrameItem.orientation:
 
 TextFrameItem.orientation
 ********************************************************************************
@@ -289,7 +289,7 @@ The orientation of the text.
 
 ----
 
-.. jsobjref/TextFrameItem.paragraphs:
+.. _jsobjref/TextFrameItem.paragraphs:
 
 TextFrameItem.paragraphs
 ********************************************************************************
@@ -306,7 +306,7 @@ All the paragraphs in this text frame.
 
 ----
 
-.. jsobjref/TextFrameItem.parent:
+.. _jsobjref/TextFrameItem.parent:
 
 TextFrameItem.parent
 ********************************************************************************
@@ -323,7 +323,7 @@ The parent of this object.
 
 ----
 
-.. jsobjref/TextFrameItem.previousFrame:
+.. _jsobjref/TextFrameItem.previousFrame:
 
 TextFrameItem.previousFrame
 ********************************************************************************
@@ -340,7 +340,7 @@ The linked text frame preceding this one.
 
 ----
 
-.. jsobjref/TextFrameItem.rowCount:
+.. _jsobjref/TextFrameItem.rowCount:
 
 TextFrameItem.rowCount
 ********************************************************************************
@@ -357,7 +357,7 @@ Number (long)
 
 ----
 
-.. jsobjref/TextFrameItem.rowGutter:
+.. _jsobjref/TextFrameItem.rowGutter:
 
 TextFrameItem.rowGutter
 ********************************************************************************
@@ -374,7 +374,7 @@ Number (double)
 
 ----
 
-.. jsobjref/TextFrameItem.spacing:
+.. _jsobjref/TextFrameItem.spacing:
 
 TextFrameItem.spacing
 ********************************************************************************
@@ -391,7 +391,7 @@ Number (double)
 
 ----
 
-.. jsobjref/TextFrameItem.startTValue:
+.. _jsobjref/TextFrameItem.startTValue:
 
 TextFrameItem.startTValue
 ********************************************************************************
@@ -408,7 +408,7 @@ Number (double)
 
 ----
 
-.. jsobjref/TextFrameItem.story:
+.. _jsobjref/TextFrameItem.story:
 
 TextFrameItem.story
 ********************************************************************************
@@ -425,7 +425,7 @@ The story to which the text frame belongs.
 
 ----
 
-.. jsobjref/TextFrameItem.textPath:
+.. _jsobjref/TextFrameItem.textPath:
 
 TextFrameItem.textPath
 ********************************************************************************
@@ -442,7 +442,7 @@ The path item associated with the text frame. Note: Valid only when `kind <#text
 
 ----
 
-.. jsobjref/TextFrameItem.textRange:
+.. _jsobjref/TextFrameItem.textRange:
 
 TextFrameItem.textRange
 ********************************************************************************
@@ -459,7 +459,7 @@ The text range of the text frame.
 
 ----
 
-.. jsobjref/TextFrameItem.textRanges:
+.. _jsobjref/TextFrameItem.textRanges:
 
 TextFrameItem.textRanges
 ********************************************************************************
@@ -476,7 +476,7 @@ All the text in this text frame.
 
 ----
 
-.. jsobjref/TextFrameItem.textSelection:
+.. _jsobjref/TextFrameItem.textSelection:
 
 TextFrameItem.textSelection
 ********************************************************************************
@@ -493,7 +493,7 @@ Array of :ref:`jsobjref/TextRange`, read-only.
 
 ----
 
-.. jsobjref/TextFrameItem.typename:
+.. _jsobjref/TextFrameItem.typename:
 
 TextFrameItem.typename
 ********************************************************************************
@@ -510,7 +510,7 @@ String, read-only.
 
 ----
 
-.. jsobjref/TextFrameItem.words:
+.. _jsobjref/TextFrameItem.words:
 
 TextFrameItem.words
 ********************************************************************************
@@ -531,12 +531,12 @@ All the words in this text frame.
 Methods
 =======
 
-.. jsobjref/TextFrameItem.convertAreaObjectToPointObject:
+.. _jsobjref/TextFrameItem.convertAreaObjectToPointObject:
 
 TextFrameItem.convertAreaObjectToPointObject
 ********************************************************************************
 
-````app.activeDocument.textFrames[index].convertAreaObjectToPointObject()``
+``app.activeDocument.textFrames[index].convertAreaObjectToPointObject()``
 
 **Description**
 
@@ -548,12 +548,12 @@ Converts the area-type text frame to a point-type text frame.
 
 ----
 
-.. jsobjref/TextFrameItem.convertPointObjectToAreaObject:
+.. _jsobjref/TextFrameItem.convertPointObjectToAreaObject:
 
 TextFrameItem.convertPointObjectToAreaObject
 ********************************************************************************
 
-````app.activeDocument.textFrames[index].convertPointObjectToAreaObject()``
+``app.activeDocument.textFrames[index].convertPointObjectToAreaObject()``
 
 **Description**
 
@@ -565,12 +565,12 @@ Converts the point-type text frame to an area-type text frame.
 
 ----
 
-.. jsobjref/TextFrameItem.createOutline:
+.. _jsobjref/TextFrameItem.createOutline:
 
 TextFrameItem.createOutline
 ********************************************************************************
 
-````app.activeDocument.textFrames[index].createOutline()``
+``app.activeDocument.textFrames[index].createOutline()``
 
 **Description**
 
@@ -582,12 +582,12 @@ Converts the text in the text frame to outlines.
 
 ----
 
-.. jsobjref/TextFrameItem.duplicate:
+.. _jsobjref/TextFrameItem.duplicate:
 
 TextFrameItem.duplicate
 ********************************************************************************
 
-````app.activeDocument.textFrames[index].duplicate([relativeObject] [,insertionLocation])``
+``app.activeDocument.textFrames[index].duplicate([relativeObject] [,insertionLocation])``
 
 **Description**
 
@@ -611,12 +611,12 @@ Creates a duplicate of the selected object.
 
 ----
 
-.. jsobjref/TextFrameItem.move:
+.. _jsobjref/TextFrameItem.move:
 
 TextFrameItem.move
 ********************************************************************************
 
-````app.activeDocument.textFrames[index].move(relativeObject, insertionLocation)``
+``app.activeDocument.textFrames[index].move(relativeObject, insertionLocation)``
 
 **Description**
 
@@ -638,12 +638,12 @@ Moves the object.
 
 ----
 
-.. jsobjref/TextFrameItem.remove:
+.. _jsobjref/TextFrameItem.remove:
 
 TextFrameItem.remove
 ********************************************************************************
 
-````app.activeDocument.textFrames[index].remove()``
+``app.activeDocument.textFrames[index].remove()``
 
 **Description**
 
@@ -655,12 +655,12 @@ Nothing.
 
 ----
 
-.. jsobjref/TextFrameItem.resize:
+.. _jsobjref/TextFrameItem.resize:
 
 TextFrameItem.resize
 ********************************************************************************
 
-````app.activeDocument.textFrames[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])``
+``app.activeDocument.textFrames[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])``
 
 **Description**
 
@@ -694,12 +694,12 @@ Nothing.
 
 ----
 
-.. jsobjref/TextFrameItem.rotate:
+.. _jsobjref/TextFrameItem.rotate:
 
 TextFrameItem.rotate
 ********************************************************************************
 
-````app.activeDocument.textFrames[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])``
+``app.activeDocument.textFrames[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])``
 
 **Description**
 
@@ -729,12 +729,12 @@ Nothing.
 
 ----
 
-.. jsobjref/TextFrameItem.transform:
+.. _jsobjref/TextFrameItem.transform:
 
 TextFrameItem.transform
 ********************************************************************************
 
-````app.activeDocument.textFrames[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])``
+``app.activeDocument.textFrames[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])``
 
 **Description**
 
@@ -766,12 +766,12 @@ Nothing.
 
 ----
 
-.. jsobjref/TextFrameItem.translate:
+.. _jsobjref/TextFrameItem.translate:
 
 TextFrameItem.translate
 ********************************************************************************
 
-````app.activeDocument.textFrames[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])``
+``app.activeDocument.textFrames[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])``
 
 **Description**
 
@@ -801,12 +801,12 @@ Nothing.
 
 ----
 
-.. jsobjref/TextFrameItem.zOrder:
+.. _jsobjref/TextFrameItem.zOrder:
 
 TextFrameItem.zOrder
 ********************************************************************************
 
-````app.activeDocument.textFrames[index].zOrder(zOrderCmd)``
+``app.activeDocument.textFrames[index].zOrder(zOrderCmd)``
 
 **Description**
 
