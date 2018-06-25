@@ -3,7 +3,7 @@
 Symbol
 ################################################################################
 
-``symbol``
+``app.activeDocument.symbols[index]``
 
 **Description**
 
@@ -22,7 +22,7 @@ Properties
 Symbol.name
 ********************************************************************************
 
-``symbol.name``
+``app.activeDocument.symbols[index].name``
 
 **Description**
 
@@ -39,7 +39,7 @@ String.
 Symbol.parent
 ********************************************************************************
 
-``symbol.parent``
+``app.activeDocument.symbols[index].parent``
 
 **Description**
 
@@ -56,7 +56,7 @@ Object, read-only.
 Symbol.typename
 ********************************************************************************
 
-``symbol.typename``
+``app.activeDocument.symbols[index].typename``
 
 **Description**
 
@@ -77,7 +77,7 @@ Methods
 Symbol.duplicate()
 ********************************************************************************
 
-``symbol.duplicate()``
+``app.activeDocument.symbols[index].duplicate()``
 
 **Description**
 
@@ -94,7 +94,7 @@ Creates a duplicate of this object.
 Symbol.remove()
 ********************************************************************************
 
-``symbol.remove()``
+``app.activeDocument.symbols[index].remove()``
 
 **Description**
 

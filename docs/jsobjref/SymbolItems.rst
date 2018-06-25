@@ -3,7 +3,7 @@
 SymbolItems
 ################################################################################
 
-``symbolItems``
+``app.activeDocument.symbolItems``
 
 **Description**
 
@@ -20,7 +20,7 @@ Properties
 SymbolItems.length
 ********************************************************************************
 
-``symbolItems.length``
+``app.activeDocument.symbolItems.length``
 
 **Description**
 
@@ -37,7 +37,7 @@ Number, read-only.
 SymbolItems.parent
 ********************************************************************************
 
-``symbolItems.parent``
+``app.activeDocument.symbolItems.parent``
 
 **Description**
 
@@ -54,7 +54,7 @@ Object, read-only.
 SymbolItems.typename
 ********************************************************************************
 
-``symbolItems.typename``
+``app.activeDocument.symbolItems.typename``
 
 **Description**
 
@@ -75,7 +75,7 @@ Methods
 SymbolItems.add()
 ********************************************************************************
 
-``symbolItems.add(symbol)``
+``app.activeDocument.symbolItems.add(symbol)``
 
 **Description**
 
@@ -100,7 +100,7 @@ Creates an instance of the specified symbol.
 SymbolItems.getByName()
 ********************************************************************************
 
-``symbolItems.getByName(name)``
+``app.activeDocument.symbolItems.getByName(name)``
 
 **Description**
 
@@ -125,7 +125,7 @@ Get the first element in the collection with the provided name.
 SymbolItems.index()
 ********************************************************************************
 
-``symbolItems.index(itemKey)``
+``app.activeDocument.symbolItems.index(itemKey)``
 
 **Description**
 
@@ -150,7 +150,7 @@ Gets an element from the collection.
 SymbolItems.removeAll()
 ********************************************************************************
 
-``symbolItems.removeAll()``
+``app.activeDocument.symbolItems.removeAll()``
 
 **Description**
 

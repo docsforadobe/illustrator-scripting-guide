@@ -3,7 +3,7 @@
 SymbolItem
 ################################################################################
 
-``app.activeDocument.textFrames[index]``
+``app.activeDocument.symbolItems[index]``
 
 **Description**
 
@@ -22,7 +22,7 @@ Properties
 SymbolItem.artworkKnockout
 ********************************************************************************
 
-``SymbolItem.artworkKnockout``
+``app.activeDocument.symbolItems[index].artworkKnockout``
 
 **Description**
 
@@ -39,7 +39,7 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 SymbolItem.blendingMode
 ********************************************************************************
 
-``SymbolItem.blendingMode``
+``app.activeDocument.symbolItems[index].blendingMode``
 
 **Description**
 
@@ -56,7 +56,7 @@ The blend mode used when compositing an object.
 SymbolItem.controlBounds
 ********************************************************************************
 
-``SymbolItem.controlBounds``
+``app.activeDocument.symbolItems[index].controlBounds``
 
 **Description**
 
@@ -73,7 +73,7 @@ Array of 4 Numbers; read-only.
 SymbolItem.editable
 ********************************************************************************
 
-``SymbolItem.editable``
+``app.activeDocument.symbolItems[index].editable``
 
 **Description**
 
@@ -90,7 +90,7 @@ Boolean; read-only.
 SymbolItem.geometricBounds
 ********************************************************************************
 
-``SymbolItem.geometricBounds``
+``app.activeDocument.symbolItems[index].geometricBounds``
 
 **Description**
 
@@ -107,7 +107,7 @@ Array of 4 Numbers; read-only.
 SymbolItem.height
 ********************************************************************************
 
-``SymbolItem.height``
+``app.activeDocument.symbolItems[index].height``
 
 **Description**
 
@@ -124,7 +124,7 @@ Number (double)
 SymbolItem.hidden
 ********************************************************************************
 
-``SymbolItem.hidden``
+``app.activeDocument.symbolItems[index].hidden``
 
 **Description**
 
@@ -141,7 +141,7 @@ Boolean
 SymbolItem.isIsolated
 ********************************************************************************
 
-``SymbolItem.isIsolated``
+``app.activeDocument.symbolItems[index].isIsolated``
 
 **Description**
 
@@ -158,7 +158,7 @@ Boolean
 SymbolItem.layer
 ********************************************************************************
 
-``SymbolItem.layer``
+``app.activeDocument.symbolItems[index].layer``
 
 **Description**
 
@@ -175,7 +175,7 @@ The layer to which this item belongs.
 SymbolItem.left
 ********************************************************************************
 
-``SymbolItem.left``
+``app.activeDocument.symbolItems[index].left``
 
 **Description**
 
@@ -192,7 +192,7 @@ Number (double)
 SymbolItem.locked
 ********************************************************************************
 
-``SymbolItem.locked``
+``app.activeDocument.symbolItems[index].locked``
 
 **Description**
 
@@ -209,7 +209,7 @@ Boolean
 SymbolItem.name
 ********************************************************************************
 
-``SymbolItem.name``
+``app.activeDocument.symbolItems[index].name``
 
 **Description**
 
@@ -226,7 +226,7 @@ String
 SymbolItem.note
 ********************************************************************************
 
-``SymbolItem.note``
+``app.activeDocument.symbolItems[index].note``
 
 **Description**
 
@@ -243,7 +243,7 @@ String
 SymbolItem.opacity
 ********************************************************************************
 
-``SymbolItem.opacity``
+``app.activeDocument.symbolItems[index].opacity``
 
 **Description**
 
@@ -260,7 +260,7 @@ Number (double)
 SymbolItem.parent
 ********************************************************************************
 
-``SymbolItem.parent``
+``app.activeDocument.symbolItems[index].parent``
 
 **Description**
 
@@ -277,7 +277,7 @@ The parent of this object.
 SymbolItem.position
 ********************************************************************************
 
-``SymbolItem.position``
+``app.activeDocument.symbolItems[index].position``
 
 **Description**
 
@@ -294,7 +294,7 @@ Array of 2 Numbers
 SymbolItem.selected
 ********************************************************************************
 
-``SymbolItem.selected``
+``app.activeDocument.symbolItems[index].selected``
 
 **Description**
 
@@ -311,7 +311,7 @@ Boolean
 SymbolItem.sliced
 ********************************************************************************
 
-``SymbolItem.sliced``
+``app.activeDocument.symbolItems[index].sliced``
 
 **Description**
 
@@ -328,7 +328,7 @@ Boolean
 SymbolItem.symbol
 ********************************************************************************
 
-``SymbolItem.symbol``
+``app.activeDocument.symbolItems[index].symbol``
 
 **Description**
 
@@ -345,7 +345,7 @@ The symbol that was used to create this ``symbolItem``.
 SymbolItem.tags
 ********************************************************************************
 
-``SymbolItem.tags``
+``app.activeDocument.symbolItems[index].tags``
 
 **Description**
 
@@ -362,7 +362,7 @@ The tags contained in this item.
 SymbolItem.top
 ********************************************************************************
 
-``SymbolItem.top``
+``app.activeDocument.symbolItems[index].top``
 
 **Description**
 
@@ -379,7 +379,7 @@ Number (double)
 SymbolItem.typename
 ********************************************************************************
 
-``SymbolItem.typename``
+``app.activeDocument.symbolItems[index].typename``
 
 **Description**
 
@@ -396,7 +396,7 @@ String; read-only.
 SymbolItem.uRL
 ********************************************************************************
 
-``SymbolItem.uRL``
+``app.activeDocument.symbolItems[index].uRL``
 
 **Description**
 
@@ -413,7 +413,7 @@ String
 SymbolItem.visibilityVariable
 ********************************************************************************
 
-``SymbolItem.visibilityVariable``
+``app.activeDocument.symbolItems[index].visibilityVariable``
 
 **Description**
 
@@ -430,7 +430,7 @@ Variable
 SymbolItem.visibleBounds
 ********************************************************************************
 
-``SymbolItem.visibleBounds``
+``app.activeDocument.symbolItems[index].visibleBounds``
 
 **Description**
 
@@ -447,7 +447,7 @@ Array of 4 Numbers; read-only.
 SymbolItem.width
 ********************************************************************************
 
-``SymbolItem.width``
+``app.activeDocument.symbolItems[index].width``
 
 **Description**
 
@@ -464,7 +464,7 @@ Number (double)
 SymbolItem.wrapInside
 ********************************************************************************
 
-``SymbolItem.wrapInside``
+``app.activeDocument.symbolItems[index].wrapInside``
 
 **Description**
 
@@ -481,7 +481,7 @@ Boolean
 SymbolItem.wrapOffset
 ********************************************************************************
 
-``SymbolItem.wrapOffset``
+``app.activeDocument.symbolItems[index].wrapOffset``
 
 **Description**
 
@@ -498,7 +498,7 @@ Number (double)
 SymbolItem.wrapped
 ********************************************************************************
 
-``SymbolItem.wrapped``
+``app.activeDocument.symbolItems[index].wrapped``
 
 **Description**
 
@@ -515,7 +515,7 @@ Boolean
 SymbolItem.zOrderPosition
 ********************************************************************************
 
-``SymbolItem.zOrderPosition``
+``app.activeDocument.symbolItems[index].zOrderPosition``
 
 **Description**
 
@@ -536,7 +536,7 @@ Methods
 SymbolItem.duplicate
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].duplicate([relativeObject][, insertionLocation])``
+``app.activeDocument.symbolItems[index].duplicate([relativeObject][, insertionLocation])``
 
 **Description**
 
@@ -563,7 +563,7 @@ Creates a duplicate of the selected object.
 SymbolItem.move
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].move(relativeObject, insertionLocation)``
+``app.activeDocument.symbolItems[index].move(relativeObject, insertionLocation)``
 
 **Description**
 
@@ -590,7 +590,7 @@ Moves the object.
 SymbolItem.remove
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].remove()``
+``app.activeDocument.symbolItems[index].remove()``
 
 **Description**
 
@@ -607,7 +607,7 @@ Nothing.
 SymbolItem.resize
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])``
+``app.activeDocument.symbolItems[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])``
 
 **Description**
 
@@ -646,7 +646,7 @@ Nothing.
 SymbolItem.rotate
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])``
+``app.activeDocument.symbolItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])``
 
 **Description**
 
@@ -683,7 +683,7 @@ Nothing.
 SymbolItem.transform
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])``
+``app.activeDocument.symbolItems[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])``
 
 **Description**
 
@@ -720,7 +720,7 @@ Nothing.
 SymbolItem.translate
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])``
+``app.activeDocument.symbolItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])``
 
 **Description**
 
@@ -755,7 +755,7 @@ Nothing.
 SymbolItem.zOrder
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].zOrder(zOrderCmd)``
+``app.activeDocument.symbolItems[index].zOrder(zOrderCmd)``
 
 **Description**
 
