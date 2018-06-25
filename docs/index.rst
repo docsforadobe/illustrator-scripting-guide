@@ -153,6 +153,10 @@ Welcome to the Adobe Illustrator Scripting Guide!
 
   jsobjref/RGBColor
 
+  jsobjref/Swatch
+  jsobjref/Swatches
+  jsobjref/SwatchGroup
+  jsobjref/SwatchGroups
   jsobjref/SymbolItem
   jsobjref/SymbolItems
   jsobjref/Symbol
