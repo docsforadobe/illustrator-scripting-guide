@@ -147,6 +147,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/Paper
   jsobjref/PaperInfo
   jsobjref/ParagraphAttributes
+  jsobjref/Paragraphs
 
   jsobjref/RGBColor
 

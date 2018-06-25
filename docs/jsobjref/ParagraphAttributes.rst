@@ -3,7 +3,7 @@
 ParagraphAttributes
 ################################################################################
 
-``textRef.paragraphs[index].paragraphAttributes``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes``
 
 **Description**
 
@@ -23,7 +23,7 @@ Properties
 ParagraphAttributes.autoLeadingAmount
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.autoLeadingAmount``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.autoLeadingAmount``
 
 **Description**
 
@@ -40,7 +40,7 @@ Number (double).
 ParagraphAttributes.bunriKinshi
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.bunriKinshi``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.bunriKinshi``
 
 **Description**
 
@@ -57,7 +57,7 @@ Boolean.
 ParagraphAttributes.burasagariType
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.burasagariType``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.burasagariType``
 
 **Description**
 
@@ -74,7 +74,7 @@ The Burasagari type.
 ParagraphAttributes.desiredGlyphScaling
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.desiredGlyphScaling``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.desiredGlyphScaling``
 
 **Description**
 
@@ -91,7 +91,7 @@ Number (double).
 ParagraphAttributes.desiredLetterSpacing
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.desiredLetterSpacing``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.desiredLetterSpacing``
 
 **Description**
 
@@ -108,7 +108,7 @@ Number (double).
 ParagraphAttributes.desiredWordSpacing
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.desiredWordSpacing``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.desiredWordSpacing``
 
 **Description**
 
@@ -125,7 +125,7 @@ Number (double).
 ParagraphAttributes.everyLineComposer
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.everyLineComposer``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.everyLineComposer``
 
 **Description**
 
@@ -142,7 +142,7 @@ Boolean.
 ParagraphAttributes.firstLineIndent
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.firstLineIndent``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.firstLineIndent``
 
 **Description**
 
@@ -159,7 +159,7 @@ Number (double).
 ParagraphAttributes.hyphenateCapitalizedWords
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.hyphenateCapitalizedWords``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenateCapitalizedWords``
 
 **Description**
 
@@ -176,7 +176,7 @@ Boolean.
 ParagraphAttributes.hyphenation
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.hyphenation``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenation``
 
 **Description**
 
@@ -193,7 +193,7 @@ Boolean.
 ParagraphAttributes.hyphenationPreference
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.hyphenationPreference``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenationPreference``
 
 **Description**
 
@@ -210,7 +210,7 @@ Number (double).
 ParagraphAttributes.hyphenationZone
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.hyphenationZone``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenationZone``
 
 **Description**
 
@@ -230,7 +230,7 @@ Number (double).
 ParagraphAttributes.justification
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.justification``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.justification``
 
 **Description**
 
@@ -247,7 +247,7 @@ Paragraph justification.
 ParagraphAttributes.kinsoku
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.kinsoku``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.kinsoku``
 
 **Description**
 
@@ -264,7 +264,7 @@ String.
 ParagraphAttributes.kinsokuOrder
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.kinsokuOrder``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.kinsokuOrder``
 
 **Description**
 
@@ -281,7 +281,7 @@ The preferred Kinsoku order.
 ParagraphAttributes.kurikaeshiMojiShori
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.kurikaeshiMojiShori``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.kurikaeshiMojiShori``
 
 **Description**
 
@@ -298,7 +298,7 @@ Boolean.
 ParagraphAttributes.leadingType
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.leadingType``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.leadingType``
 
 **Description**
 
@@ -315,7 +315,7 @@ Auto leading type.
 ParagraphAttributes.leftIndent
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.leftIndent``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.leftIndent``
 
 **Description**
 
@@ -332,7 +332,7 @@ Number (double).
 ParagraphAttributes.maximumConsecutiveHyphens
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.maximumConsecutiveHyphens``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumConsecutiveHyphens``
 
 **Description**
 
@@ -349,7 +349,7 @@ Number (long).
 ParagraphAttributes.maximumGlyphScaling
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.maximumGlyphScaling``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumGlyphScaling``
 
 **Description**
 
@@ -369,7 +369,7 @@ Number (double).
 ParagraphAttributes.maximumLetterSpacing
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.maximumLetterSpacing``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumLetterSpacing``
 
 **Description**
 
@@ -389,7 +389,7 @@ Number (double).
 ParagraphAttributes.maximumWordSpacing
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.maximumWordSpacing``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumWordSpacing``
 
 **Description**
 
@@ -409,7 +409,7 @@ Number (double).
 ParagraphAttributes.minimumAfterHyphen
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.minimumAfterHyphen``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumAfterHyphen``
 
 **Description**
 
@@ -426,7 +426,7 @@ Number (long).
 ParagraphAttributes.minimumBeforeHyphen
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.minimumBeforeHyphen``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumBeforeHyphen``
 
 **Description**
 
@@ -443,7 +443,7 @@ Number (long).
 ParagraphAttributes.minimumGlyphScaling
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.minimumGlyphScaling``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumGlyphScaling``
 
 **Description**
 
@@ -463,7 +463,7 @@ Number (double).
 ParagraphAttributes.minimumHyphenatedWordSize
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.minimumHyphenatedWordSize``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumHyphenatedWordSize``
 
 **Description**
 
@@ -480,7 +480,7 @@ Number (long).
 ParagraphAttributes.minimumLetterSpacing
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.minimumLetterSpacing``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumLetterSpacing``
 
 **Description**
 
@@ -500,7 +500,7 @@ Number (double).
 ParagraphAttributes.minimumWordSpacing
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.minimumWordSpacing``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumWordSpacing``
 
 **Description**
 
@@ -520,7 +520,7 @@ Number (double).
 ParagraphAttributes.mojikumi
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.mojikumi``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.mojikumi``
 
 **Description**
 
@@ -537,7 +537,7 @@ String.
 ParagraphAttributes.parent
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.parent``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.parent``
 
 **Description**
 
@@ -554,7 +554,7 @@ Object, read-only.
 ParagraphAttributes.rightIndent
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.rightIndent``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.rightIndent``
 
 **Description**
 
@@ -571,7 +571,7 @@ Number (double).
 ParagraphAttributes.romanHanging
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.romanHanging``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.romanHanging``
 
 **Description**
 
@@ -588,7 +588,7 @@ Boolean.
 ParagraphAttributes.singleWordJustification
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.singleWordJustification``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.singleWordJustification``
 
 **Description**
 
@@ -605,7 +605,7 @@ Single word justification.
 ParagraphAttributes.spaceAfter
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.spaceAfter``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.spaceAfter``
 
 **Description**
 
@@ -622,7 +622,7 @@ Number (double).
 ParagraphAttributes.spaceBefore
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.spaceBefore``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.spaceBefore``
 
 **Description**
 
@@ -639,7 +639,7 @@ Number (double).
 ParagraphAttributes.tabStops
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.tabStops``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops``
 
 **Description**
 
@@ -656,7 +656,7 @@ Tab stop settings.
 ParagraphAttributes.typename
 ********************************************************************************
 
-``textRef.paragraphs[index].paragraphAttributes.typename``
+``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.typename``
 
 **Description**
 
