@@ -63,5 +63,3 @@ The class name of the object.
 **Type**
 
 String, read-only.
-
-----
