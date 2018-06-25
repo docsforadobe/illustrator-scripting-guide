@@ -3,7 +3,7 @@
 TextRange
 ################################################################################
 
-``TextRange``
+``app.activeDocument.textFrames[index].textRange``
 
 **Description**
 
@@ -20,7 +20,7 @@ Properties
 TextRange.characterAttributes
 ********************************************************************************
 
-``textRange.characterAttributes``
+``app.activeDocument.textFrames[index].textRange.characterAttributes``
 
 **Description**
 
@@ -37,7 +37,7 @@ The character properties for the text range.
 TextRange.characterOffset
 ********************************************************************************
 
-``textRange.characterOffset``
+``app.activeDocument.textFrames[index].textRange.characterOffset``
 
 **Description**
 
@@ -54,7 +54,7 @@ Number (long)
 TextRange.characters
 ********************************************************************************
 
-``textRange.characters``
+``app.activeDocument.textFrames[index].textRange.characters``
 
 **Description**
 
@@ -71,7 +71,7 @@ All the characters in this text range.
 TextRange.characterStyles
 ********************************************************************************
 
-``textRange.characterStyles``
+``app.activeDocument.textFrames[index].textRange.characterStyles``
 
 **Description**
 
@@ -88,7 +88,7 @@ All referenced character styles in the text range.
 TextRange.contents
 ********************************************************************************
 
-``textRange.contents``
+``app.activeDocument.textFrames[index].textRange.contents``
 
 **Description**
 
@@ -105,7 +105,7 @@ String
 TextRange.end
 ********************************************************************************
 
-``textRange.end``
+``app.activeDocument.textFrames[index].textRange.end``
 
 **Description**
 
@@ -122,7 +122,7 @@ Int32
 TextRange.insertionPoints
 ********************************************************************************
 
-``textRange.insertionPoints``
+``app.activeDocument.textFrames[index].textRange.insertionPoints``
 
 **Description**
 
@@ -139,7 +139,7 @@ All the insertion points in this text range.
 TextRange.kerning
 ********************************************************************************
 
-``textRange.kerning``
+``app.activeDocument.textFrames[index].textRange.kerning``
 
 **Description**
 
@@ -156,7 +156,7 @@ Number (long)
 TextRange.length
 ********************************************************************************
 
-``textRange.length``
+``app.activeDocument.textFrames[index].textRange.length``
 
 **Description**
 
@@ -173,7 +173,7 @@ Number (long)
 TextRange.lines
 ********************************************************************************
 
-``textRange.lines``
+``app.activeDocument.textFrames[index].textRange.lines``
 
 **Description**
 
@@ -190,7 +190,7 @@ All the lines in this text range.
 TextRange.paragraphAttributes
 ********************************************************************************
 
-``textRange.paragraphAttributes``
+``app.activeDocument.textFrames[index].textRange.paragraphAttributes``
 
 **Description**
 
@@ -207,7 +207,7 @@ The paragraph properties for the text range.
 TextRange.paragraphs
 ********************************************************************************
 
-``textRange.paragraphs``
+``app.activeDocument.textFrames[index].textRange.paragraphs``
 
 **Description**
 
@@ -224,7 +224,7 @@ All the paragraphs in this text range.
 TextRange.paragraphStyles
 ********************************************************************************
 
-``textRange.paragraphStyles``
+``app.activeDocument.textFrames[index].textRange.paragraphStyles``
 
 **Description**
 
@@ -241,7 +241,7 @@ All referenced paragraph styles in the text range.
 TextRange.parent
 ********************************************************************************
 
-``textRange.parent``
+``app.activeDocument.textFrames[index].textRange.parent``
 
 **Description**
 
@@ -258,7 +258,7 @@ The object’s container.
 TextRange.start
 ********************************************************************************
 
-``textRange.start``
+``app.activeDocument.textFrames[index].textRange.start``
 
 **Description**
 
@@ -275,7 +275,7 @@ Int32
 TextRange.story
 ********************************************************************************
 
-``textRange.story``
+``app.activeDocument.textFrames[index].textRange.story``
 
 **Description**
 
@@ -292,7 +292,7 @@ The story to which the text range belongs.
 TextRange.textRanges
 ********************************************************************************
 
-``textRange.textRanges``
+``app.activeDocument.textFrames[index].textRange.textRanges``
 
 **Description**
 
@@ -309,7 +309,7 @@ All of the text in this text range.
 TextRange.textSelection
 ********************************************************************************
 
-``textRange.textSelection``
+``app.activeDocument.textFrames[index].textRange.textSelection``
 
 **Description**
 
@@ -326,7 +326,7 @@ Array of :ref:`jsobjref/TextRange`, read-only.
 TextRange.typename
 ********************************************************************************
 
-``textRange.typename``
+``app.activeDocument.textFrames[index].textRange.typename``
 
 **Description**
 
@@ -343,7 +343,7 @@ String, read-only.
 TextRange.words
 ********************************************************************************
 
-``textRange.words``
+``app.activeDocument.textFrames[index].textRange.words``
 
 **Description**
 
@@ -364,7 +364,7 @@ Methods
 TextRange.changeCaseTo()
 ********************************************************************************
 
-``textRange.changeCaseTo(type)``
+``app.activeDocument.textFrames[index].textRange.changeCaseTo(type)``
 
 **Description**
 
@@ -389,7 +389,7 @@ Nothing
 TextRange.deSelect()
 ********************************************************************************
 
-``textRange.deSelect()``
+``app.activeDocument.textFrames[index].textRange.deSelect()``
 
 **Description**
 
@@ -406,7 +406,7 @@ Nothing.
 TextRange.duplicate()
 ********************************************************************************
 
-``textRange.duplicate([relativeObject][, insertionLocation])``
+``app.activeDocument.textFrames[index].textRange.duplicate([relativeObject][, insertionLocation])``
 
 **Description**
 
@@ -433,7 +433,7 @@ Creates a duplicate of this object.
 TextRange.getLocalCharOverridesJSON()
 ********************************************************************************
 
-``textRange.getLocalCharOverridesJSON()``
+``app.activeDocument.textFrames[index].textRange.getLocalCharOverridesJSON()``
 
 **Description**
 
@@ -450,7 +450,7 @@ String
 TextRange.getLocalParaOverridesJSON()
 ********************************************************************************
 
-``textRange.getLocalParaOverridesJSON()``
+``app.activeDocument.textFrames[index].textRange.getLocalParaOverridesJSON()``
 
 **Description**
 
@@ -467,7 +467,7 @@ String
 TextRange.getParagraphLength()
 ********************************************************************************
 
-``textRange.getParagraphLength()``
+``app.activeDocument.textFrames[index].textRange.getParagraphLength()``
 
 **Description**
 
@@ -484,7 +484,7 @@ Int32
 TextRange.getTextRunLength()
 ********************************************************************************
 
-``textRange.getTextRunLength()``
+``app.activeDocument.textFrames[index].textRange.getTextRunLength()``
 
 **Description**
 
@@ -501,7 +501,7 @@ Int32
 TextRange.move()
 ********************************************************************************
 
-``textRange.move(relativeObject, insertionLocation)``
+``app.activeDocument.textFrames[index].textRange.move(relativeObject, insertionLocation)``
 
 **Description**
 
@@ -529,7 +529,7 @@ Moves the object.
 TextRange.remove()
 ********************************************************************************
 
-``textRange.remove()``
+``app.activeDocument.textFrames[index].textRange.remove()``
 
 **Description**
 
@@ -546,7 +546,7 @@ Nothing
 TextRange.select()
 ********************************************************************************
 
-``textRange.select([addToDocument])``
+``app.activeDocument.textFrames[index].textRange.select([addToDocument])``
 
 **Description**
 

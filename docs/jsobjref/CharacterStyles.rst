@@ -3,7 +3,7 @@
 CharacterStyles
 ################################################################################
 
-``characterStyles``
+``app.activeDocument.characterStyles``
 
 **Description**
 

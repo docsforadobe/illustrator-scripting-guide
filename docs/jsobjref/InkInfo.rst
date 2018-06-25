@@ -3,7 +3,7 @@
 InkInfo
 ################################################################################
 
-``app.activeDocument.inkList[index]``
+``app.activeDocument.inkList[index].inkInfo``
 
 **Description**
 
@@ -20,7 +20,7 @@ Properties
 InkInfo.angle
 ********************************************************************************
 
-``app.activeDocument.inkList[index].angle``
+``app.activeDocument.inkList[index].inkInfo.angle``
 
 **Description**
 
@@ -37,7 +37,7 @@ Number (double).
 InkInfo.customColor
 ********************************************************************************
 
-``app.activeDocument.inkList[index].customColor``
+``app.activeDocument.inkList[index].inkInfo.customColor``
 
 **Description**
 
@@ -54,7 +54,7 @@ The color of the custom ink.
 InkInfo.density
 ********************************************************************************
 
-``app.activeDocument.inkList[index].density``
+``app.activeDocument.inkList[index].inkInfo.density``
 
 **Description**
 
@@ -71,7 +71,7 @@ Number (double).
 InkInfo.dotShape
 ********************************************************************************
 
-``app.activeDocument.inkList[index].dotShape``
+``app.activeDocument.inkList[index].inkInfo.dotShape``
 
 **Description**
 
@@ -88,7 +88,7 @@ String.
 InkInfo.frequency
 ********************************************************************************
 
-``app.activeDocument.inkList[index].frequency``
+``app.activeDocument.inkList[index].inkInfo.frequency``
 
 **Description**
 
@@ -105,7 +105,7 @@ Number (double).
 InkInfo.kind
 ********************************************************************************
 
-``app.activeDocument.inkList[index].kind``
+``app.activeDocument.inkList[index].inkInfo.kind``
 
 **Description**
 
@@ -122,7 +122,7 @@ The ink type.
 InkInfo.printingStatus
 ********************************************************************************
 
-``app.activeDocument.inkList[index].printingStatus``
+``app.activeDocument.inkList[index].inkInfo.printingStatus``
 
 **Description**
 
@@ -139,7 +139,7 @@ The ink printing status.
 InkInfo.trapping
 ********************************************************************************
 
-``app.activeDocument.inkList[index].trapping``
+``app.activeDocument.inkList[index].inkInfo.trapping``
 
 **Description**
 
@@ -156,7 +156,7 @@ The trapping type.
 InkInfo.trappingOrder
 ********************************************************************************
 
-``app.activeDocument.inkList[index].trappingOrder``
+``app.activeDocument.inkList[index].inkInfo.trappingOrder``
 
 **Description**
 
@@ -173,7 +173,7 @@ Number (long).
 InkInfo.typename
 ********************************************************************************
 
-``app.activeDocument.inkList[index].typename``
+``app.activeDocument.inkList[index].inkInfo.typename``
 
 **Description**
 

@@ -3,7 +3,7 @@
 GradientStops
 ################################################################################
 
-``gradientStops``
+``app.activeDocument.gradients[index].gradientStops``
 
 **Description**
 
@@ -20,7 +20,7 @@ Properties
 GradientStops.length
 ********************************************************************************
 
-``gradientStops.length``
+``app.activeDocument.gradients[index].gradientStops.length``
 
 **Description**
 
@@ -37,7 +37,7 @@ Number, read-only.
 GradientStops.parent
 ********************************************************************************
 
-``gradientStops.parent``
+``app.activeDocument.gradients[index].gradientStops.parent``
 
 **Description**
 
@@ -54,7 +54,7 @@ Object, read-only.
 GradientStops.typename
 ********************************************************************************
 
-``gradientStops.typename``
+``app.activeDocument.gradients[index].gradientStops.typename``
 
 **Description**
 

@@ -3,7 +3,7 @@
 Ink
 ################################################################################
 
-``ink``
+``app.activeDocument.inkLisk[index]``
 
 **Description**
 
@@ -20,7 +20,7 @@ Properties
 Ink.inkInfo
 ********************************************************************************
 
-``ink.inkInfo``
+``app.activeDocument.inkLisk[index].inkInfo``
 
 **Description**
 
@@ -37,7 +37,7 @@ The ink information
 Ink.name
 ********************************************************************************
 
-``ink.name``
+``app.activeDocument.inkLisk[index].name``
 
 **Description**
 
@@ -54,7 +54,7 @@ String.
 Ink.typename
 ********************************************************************************
 
-``ink.typename``
+``app.activeDocument.inkLisk[index].typename``
 
 **Description**
 

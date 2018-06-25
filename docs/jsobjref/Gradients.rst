@@ -3,7 +3,7 @@
 Gradients
 ################################################################################
 
-``gradients``
+``app.activeDocument.gradients``
 
 **Description**
 
@@ -20,7 +20,7 @@ Properties
 Gradients.length
 ********************************************************************************
 
-``gradients.length``
+``app.activeDocument.gradients.length``
 
 **Description**
 
@@ -37,7 +37,7 @@ Number, read-only.
 Gradients.parent
 ********************************************************************************
 
-``gradients.parent``
+``app.activeDocument.gradients.parent``
 
 **Description**
 
@@ -54,7 +54,7 @@ Object, read-only.
 Gradients.typename
 ********************************************************************************
 
-``gradients.typename``
+``app.activeDocument.gradients.typename``
 
 **Description**
 

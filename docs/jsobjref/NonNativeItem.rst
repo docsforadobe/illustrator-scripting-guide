@@ -3,7 +3,7 @@
 NonNativeItem
 ################################################################################
 
-``nonNativeItem``
+``nonNativeItems[index]``
 
 **Description**
 
@@ -20,7 +20,7 @@ Properties
 NonNativeItem.artworkKnockout
 ********************************************************************************
 
-``nonNativeItem.artworkKnockout``
+``nonNativeItems[index].artworkKnockout``
 
 **Description**
 
@@ -37,7 +37,7 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 NonNativeItem.blendingMode
 ********************************************************************************
 
-``nonNativeItem.blendingMode``
+``nonNativeItems[index].blendingMode``
 
 **Description**
 
@@ -54,7 +54,7 @@ The blend mode used when compositing an object.
 NonNativeItem.controlBounds
 ********************************************************************************
 
-``nonNativeItem.controlBounds``
+``nonNativeItems[index].controlBounds``
 
 **Description**
 
@@ -71,7 +71,7 @@ Array of 4 numbers, read-only.
 NonNativeItem.editable
 ********************************************************************************
 
-``nonNativeItem.editable``
+``nonNativeItems[index].editable``
 
 **Description**
 
@@ -88,7 +88,7 @@ Boolean, read-only.
 NonNativeItem.geometricBounds
 ********************************************************************************
 
-``nonNativeItem.geometricBounds``
+``nonNativeItems[index].geometricBounds``
 
 **Description**
 
@@ -105,7 +105,7 @@ Array of 4 numbers, read-only.
 NonNativeItem.height
 ********************************************************************************
 
-``nonNativeItem.height``
+``nonNativeItems[index].height``
 
 **Description**
 
@@ -122,7 +122,7 @@ Number (double).
 NonNativeItem.hidden
 ********************************************************************************
 
-``nonNativeItem.hidden``
+``nonNativeItems[index].hidden``
 
 **Description**
 
@@ -139,7 +139,7 @@ Boolean.
 NonNativeItem.isIsolated
 ********************************************************************************
 
-``nonNativeItem.isIsolated``
+``nonNativeItems[index].isIsolated``
 
 **Description**
 
@@ -156,7 +156,7 @@ Boolean.
 NonNativeItem.layer
 ********************************************************************************
 
-``nonNativeItem.layer``
+``nonNativeItems[index].layer``
 
 **Description**
 
@@ -173,7 +173,7 @@ The layer to which this item belongs.
 NonNativeItem.left
 ********************************************************************************
 
-``nonNativeItem.left``
+``nonNativeItems[index].left``
 
 **Description**
 
@@ -190,7 +190,7 @@ Number (double).
 NonNativeItem.locked
 ********************************************************************************
 
-``nonNativeItem.locked``
+``nonNativeItems[index].locked``
 
 **Description**
 
@@ -207,7 +207,7 @@ Boolean.
 NonNativeItem.name
 ********************************************************************************
 
-``nonNativeItem.name``
+``nonNativeItems[index].name``
 
 **Description**
 
@@ -224,7 +224,7 @@ String.
 NonNativeItem.note
 ********************************************************************************
 
-``nonNativeItem.note``
+``nonNativeItems[index].note``
 
 **Description**
 
@@ -241,7 +241,7 @@ String.
 NonNativeItem.opacity
 ********************************************************************************
 
-``nonNativeItem.opacity``
+``nonNativeItems[index].opacity``
 
 **Description**
 
@@ -258,7 +258,7 @@ Number (double).
 NonNativeItem.parent
 ********************************************************************************
 
-``nonNativeItem.parent``
+``nonNativeItems[index].parent``
 
 **Description**
 
@@ -275,11 +275,11 @@ The parent of this object.
 NonNativeItem.position
 ********************************************************************************
 
-``nonNativeItem.position``
+``nonNativeItems[index].position``
 
 **Description**
 
-The position (in points) of the top left corner of the ``NonNativeItem`` object in the format [x, y]. Does not include stroke weight.
+The position (in points) of the top left corner of the ``NonNativeItems[index]`` object in the format [x, y]. Does not include stroke weight.
 
 **Type**
 
@@ -292,7 +292,7 @@ Array of 2 numbers.
 NonNativeItem.selected
 ********************************************************************************
 
-``nonNativeItem.selected``
+``nonNativeItems[index].selected``
 
 **Description**
 
@@ -309,7 +309,7 @@ Boolean.
 NonNativeItem.sliced
 ********************************************************************************
 
-``nonNativeItem.sliced``
+``nonNativeItems[index].sliced``
 
 **Description**
 
@@ -326,7 +326,7 @@ Boolean.
 NonNativeItem.tags
 ********************************************************************************
 
-``nonNativeItem.tags``
+``nonNativeItems[index].tags``
 
 **Description**
 
@@ -343,7 +343,7 @@ The tags contained in this item.
 NonNativeItem.top
 ********************************************************************************
 
-``nonNativeItem.top``
+``nonNativeItems[index].top``
 
 **Description**
 
@@ -360,7 +360,7 @@ Number (double).
 NonNativeItem.typename
 ********************************************************************************
 
-``nonNativeItem.typename``
+``nonNativeItems[index].typename``
 
 **Description**
 
@@ -377,7 +377,7 @@ String, read-only.
 NonNativeItem.uRL
 ********************************************************************************
 
-``nonNativeItem.uRL``
+``nonNativeItems[index].uRL``
 
 **Description**
 
@@ -394,7 +394,7 @@ String.
 NonNativeItem.visibilityVariable
 ********************************************************************************
 
-``nonNativeItem.visibilityVariable``
+``nonNativeItems[index].visibilityVariable``
 
 **Description**
 
@@ -411,7 +411,7 @@ The visibility variable bound to the item.
 NonNativeItem.visibleBounds
 ********************************************************************************
 
-``nonNativeItem.visibleBounds``
+``nonNativeItems[index].visibleBounds``
 
 **Description**
 
@@ -428,7 +428,7 @@ Array of 4 numbers, read-only.
 NonNativeItem.width
 ********************************************************************************
 
-``nonNativeItem.width``
+``nonNativeItems[index].width``
 
 **Description**
 
@@ -445,7 +445,7 @@ Number (double).
 NonNativeItem.wrapInside
 ********************************************************************************
 
-``nonNativeItem.wrapInside``
+``nonNativeItems[index].wrapInside``
 
 **Description**
 
@@ -462,7 +462,7 @@ Boolean.
 NonNativeItem.wrapOffset
 ********************************************************************************
 
-``nonNativeItem.wrapOffset``
+``nonNativeItems[index].wrapOffset``
 
 **Description**
 
@@ -479,7 +479,7 @@ Number (double).
 NonNativeItem.wrapped
 ********************************************************************************
 
-``nonNativeItem.wrapped``
+``nonNativeItems[index].wrapped``
 
 **Description**
 
@@ -496,7 +496,7 @@ Boolean.
 NonNativeItem.zOrderPosition
 ********************************************************************************
 
-``nonNativeItem.zOrderPosition``
+``nonNativeItems[index].zOrderPosition``
 
 **Description**
 
@@ -517,7 +517,7 @@ Methods
 NonNativeItem.duplicate()
 ********************************************************************************
 
-``nonNativeItem.duplicate([relativeObject] [,insertionLocation])``
+``nonNativeItems[index].duplicate([relativeObject] [,insertionLocation])``
 
 **Description**
 
@@ -544,7 +544,7 @@ Creates a duplicate of the selected object.
 NonNativeItem.move()
 ********************************************************************************
 
-``nonNativeItem.move(relativeObject, insertionLocation)``
+``nonNativeItems[index].move(relativeObject, insertionLocation)``
 
 **Description**
 
@@ -571,7 +571,7 @@ Moves the object.
 NonNativeItem.remove()
 ********************************************************************************
 
-``nonNativeItem.remove()``
+``nonNativeItems[index].remove()``
 
 **Description**
 
@@ -588,7 +588,7 @@ Nothing.
 NonNativeItem.removeAll()
 ********************************************************************************
 
-``nonNativeItem.removeAll()``
+``nonNativeItems[index].removeAll()``
 
 **Description**
 
@@ -771,7 +771,7 @@ Nothing.
 NonNativeItem.zOrder()
 ********************************************************************************
 
-``nonNativeItem.zOrder(zOrderCmd)``
+``nonNativeItems[index].zOrder(zOrderCmd)``
 
 **Description**
 

@@ -3,7 +3,7 @@
 CompoundPathItems
 ################################################################################
 
-``compoundPathItems``
+``app.activeDocument.activeLayer.compoundPathItems``
 
 **Description**
 

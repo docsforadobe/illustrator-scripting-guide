@@ -7,7 +7,7 @@ PageItems
 
 **Description**
 
-A collection of page item objects. Provides complete access to all the art items in an Illustrator document in the following classes:
+A collection of :ref:`jsobjref/PageItem` objects. Provides complete access to all the art items in an Illustrator document in the following classes:
 
 .. toctree::
   :maxdepth: 2

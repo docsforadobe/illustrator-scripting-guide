@@ -3,7 +3,7 @@
 PaperInfo
 ################################################################################
 
-``printerList[printerIndes].printerInfo.paperSizes[paperSizeIndex].paperInfo``
+``printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo``
 
 **Description**
 
@@ -20,7 +20,7 @@ Properties
 PaperInfo.customPaper
 ********************************************************************************
 
-``printerList[printerIndes].printerInfo.paperSizes[paperSizeIndex].paperInfo.customPaper``
+``printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo.customPaper``
 
 **Description**
 
@@ -37,7 +37,7 @@ Boolean.
 PaperInfo.height
 ********************************************************************************
 
-``printerList[printerIndes].printerInfo.paperSizes[paperSizeIndex].paperInfo.height``
+``printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo.height``
 
 **Description**
 
@@ -54,7 +54,7 @@ Number (double).
 PaperInfo.imageableArea
 ********************************************************************************
 
-``printerList[printerIndes].printerInfo.paperSizes[paperSizeIndex].paperInfo.imageableArea``
+``printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo.imageableArea``
 
 **Description**
 
@@ -71,7 +71,7 @@ Array of 4 numbers.
 PaperInfo.typename
 ********************************************************************************
 
-``printerList[printerIndes].printerInfo.paperSizes[paperSizeIndex].paperInfo.typename``
+``printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo.typename``
 
 **Description**
 
@@ -88,7 +88,7 @@ String, read-only.
 PaperInfo.width
 ********************************************************************************
 
-``printerList[printerIndes].printerInfo.paperSizes[paperSizeIndex].paperInfo.width``
+``printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo.width``
 
 **Description**
 

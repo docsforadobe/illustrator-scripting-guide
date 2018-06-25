@@ -3,7 +3,7 @@
 LegacyTextItem
 ################################################################################
 
-``legacyTextItem``
+``legacyTextItems[index]``
 
 **Description**
 
@@ -22,7 +22,7 @@ Properties
 LegacyTextItem.artworkKnockout
 ********************************************************************************
 
-``legacyTextItem.artworkKnockout``
+``legacyTextItems[index].artworkKnockout``
 
 **Description**
 
@@ -39,7 +39,7 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 LegacyTextItem.blendingMode
 ********************************************************************************
 
-``legacyTextItem.blendingMode``
+``legacyTextItems[index].blendingMode``
 
 **Description**
 
@@ -56,7 +56,7 @@ The blend mode used when compositing an object.
 LegacyTextItem.controlBounds
 ********************************************************************************
 
-``legacyTextItem.controlBounds``
+``legacyTextItems[index].controlBounds``
 
 **Description**
 
@@ -73,7 +73,7 @@ Array of 4 numbers, read-only.
 LegacyTextItem.converted
 ********************************************************************************
 
-``legacyTextItem.converted``
+``legacyTextItems[index].converted``
 
 **Description**
 
@@ -90,7 +90,7 @@ Boolean, read-only.
 LegacyTextItem.editable
 ********************************************************************************
 
-``legacyTextItem.editable``
+``legacyTextItems[index].editable``
 
 **Description**
 
@@ -107,7 +107,7 @@ Boolean, read-only.
 LegacyTextItem.geometricBounds
 ********************************************************************************
 
-``legacyTextItem.geometricBounds``
+``legacyTextItems[index].geometricBounds``
 
 **Description**
 
@@ -124,7 +124,7 @@ Array of 4 numbers, read-only.
 LegacyTextItem.height
 ********************************************************************************
 
-``legacyTextItem.height``
+``legacyTextItems[index].height``
 
 **Description**
 
@@ -141,7 +141,7 @@ Number (double).
 LegacyTextItem.hidden
 ********************************************************************************
 
-``legacyTextItem.hidden``
+``legacyTextItems[index].hidden``
 
 **Description**
 
@@ -158,7 +158,7 @@ Boolean.
 LegacyTextItem.isIsolated
 ********************************************************************************
 
-``legacyTextItem.isIsolated``
+``legacyTextItems[index].isIsolated``
 
 **Description**
 
@@ -175,7 +175,7 @@ Boolean.
 LegacyTextItem.layer
 ********************************************************************************
 
-``legacyTextItem.layer``
+``legacyTextItems[index].layer``
 
 **Description**
 
@@ -192,7 +192,7 @@ The layer to which this item belongs.
 LegacyTextItem.left
 ********************************************************************************
 
-``legacyTextItem.left``
+``legacyTextItems[index].left``
 
 **Description**
 
@@ -209,7 +209,7 @@ Number (double).
 LegacyTextItem.locked
 ********************************************************************************
 
-``legacyTextItem.locked``
+``legacyTextItems[index].locked``
 
 **Description**
 
@@ -226,7 +226,7 @@ Boolean.
 LegacyTextItem.name
 ********************************************************************************
 
-``legacyTextItem.name``
+``legacyTextItems[index].name``
 
 **Description**
 
@@ -243,7 +243,7 @@ String.
 LegacyTextItem.note
 ********************************************************************************
 
-``legacyTextItem.note``
+``legacyTextItems[index].note``
 
 **Description**
 
@@ -260,7 +260,7 @@ String.
 LegacyTextItem.opacity
 ********************************************************************************
 
-``legacyTextItem.opacity``
+``legacyTextItems[index].opacity``
 
 **Description**
 
@@ -277,7 +277,7 @@ Number (double).
 LegacyTextItem.parent
 ********************************************************************************
 
-``legacyTextItem.parent``
+``legacyTextItems[index].parent``
 
 **Description**
 
@@ -294,11 +294,11 @@ The parent of this object.
 LegacyTextItem.position
 ********************************************************************************
 
-``legacyTextItem.position``
+``legacyTextItems[index].position``
 
 **Description**
 
-The position (in points) of the top left corner of the ``legacyTextItem`` object in the format [x, y]. Does not include stroke weight.
+The position (in points) of the top left corner of the ``legacyTextItems[index]`` object in the format [x, y]. Does not include stroke weight.
 
 **Type**
 
@@ -311,7 +311,7 @@ Array of 2 numbers.
 LegacyTextItem.selected
 ********************************************************************************
 
-``legacyTextItem.selected``
+``legacyTextItems[index].selected``
 
 **Description**
 
@@ -328,7 +328,7 @@ Boolean.
 LegacyTextItem.sliced
 ********************************************************************************
 
-``legacyTextItem.sliced``
+``legacyTextItems[index].sliced``
 
 **Description**
 
@@ -345,7 +345,7 @@ Boolean.
 LegacyTextItem.tags
 ********************************************************************************
 
-``legacyTextItem.tags``
+``legacyTextItems[index].tags``
 
 **Description**
 
@@ -362,7 +362,7 @@ The tags contained in this item.
 LegacyTextItem.top
 ********************************************************************************
 
-``legacyTextItem.top``
+``legacyTextItems[index].top``
 
 **Description**
 
@@ -379,7 +379,7 @@ Number (double).
 LegacyTextItem.typename
 ********************************************************************************
 
-``legacyTextItem.typename``
+``legacyTextItems[index].typename``
 
 **Description**
 
@@ -396,7 +396,7 @@ String, read-only.
 LegacyTextItem.uRL
 ********************************************************************************
 
-``legacyTextItem.uRL``
+``legacyTextItems[index].uRL``
 
 **Description**
 
@@ -413,7 +413,7 @@ String.
 LegacyTextItem.visibilityVariable
 ********************************************************************************
 
-``legacyTextItem.visibilityVariable``
+``legacyTextItems[index].visibilityVariable``
 
 **Description**
 
@@ -430,7 +430,7 @@ The visibility variable bound to the item.
 LegacyTextItem.visibleBounds
 ********************************************************************************
 
-``legacyTextItem.visibleBounds``
+``legacyTextItems[index].visibleBounds``
 
 **Description**
 
@@ -447,7 +447,7 @@ Array of 4 numbers, read-only.
 LegacyTextItem.width
 ********************************************************************************
 
-``legacyTextItem.width``
+``legacyTextItems[index].width``
 
 **Description**
 
@@ -464,7 +464,7 @@ Number (double).
 LegacyTextItem.wrapInside
 ********************************************************************************
 
-``legacyTextItem.wrapInside``
+``legacyTextItems[index].wrapInside``
 
 **Description**
 
@@ -481,7 +481,7 @@ Boolean.
 LegacyTextItem.wrapOffset
 ********************************************************************************
 
-``legacyTextItem.wrapOffset``
+``legacyTextItems[index].wrapOffset``
 
 **Description**
 
@@ -498,7 +498,7 @@ Number (double).
 LegacyTextItem.wrapped
 ********************************************************************************
 
-``legacyTextItem.wrapped``
+``legacyTextItems[index].wrapped``
 
 **Description**
 
@@ -515,7 +515,7 @@ Boolean.
 LegacyTextItem.zOrderPosition
 ********************************************************************************
 
-``legacyTextItem.zOrderPosition``
+``legacyTextItems[index].zOrderPosition``
 
 **Description**
 
@@ -536,7 +536,7 @@ Methods
 LegacyTextItem.convertToNative()
 ********************************************************************************
 
-``legacyTextItem.convertToNative()``
+``legacyTextItems[index].convertToNative()``
 
 **Description**
 
@@ -553,7 +553,7 @@ Converts the legacy text item to a text frame and deletes the original legacy te
 LegacyTextItem.duplicate()
 ********************************************************************************
 
-``legacyTextItem.duplicate([relativeObject] [,insertionLocation])``
+``legacyTextItems[index].duplicate([relativeObject] [,insertionLocation])``
 
 **Description**
 
@@ -580,7 +580,7 @@ Creates a duplicate of the selected object.
 LegacyTextItem.move()
 ********************************************************************************
 
-``legacyTextItem.move(relativeObject, insertionLocation)``
+``legacyTextItems[index].move(relativeObject, insertionLocation)``
 
 **Description**
 
@@ -607,7 +607,7 @@ Moves the object.
 LegacyTextItem.remove()
 ********************************************************************************
 
-``legacyTextItem.remove()``
+``legacyTextItems[index].remove()``
 
 **Description**
 
@@ -789,7 +789,7 @@ Nothing.
 LegacyTextItem.zOrder()
 ********************************************************************************
 
-``legacyTextItem.zOrder(zOrderCmd)``
+``legacyTextItems[index].zOrder(zOrderCmd)``
 
 **Description**
 

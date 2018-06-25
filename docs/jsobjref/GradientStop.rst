@@ -3,7 +3,7 @@
 GradientStop
 ################################################################################
 
-``gradientStop``
+``app.activeDocument.gradients[index].gradientStops[index]``
 
 **Description**
 
@@ -20,7 +20,7 @@ Properties
 GradientStop.color
 ********************************************************************************
 
-``gradientStop.color``
+``app.activeDocument.gradients[index].gradientStops[index].color``
 
 **Description**
 
@@ -37,7 +37,7 @@ The color linked to this gradient stop.
 GradientStop.midPoint
 ********************************************************************************
 
-``gradientStop.midPoint``
+``app.activeDocument.gradients[index].gradientStops[index].midPoint``
 
 **Description**
 
@@ -54,7 +54,7 @@ Number (double).
 GradientStop.opacity
 ********************************************************************************
 
-``gradientStop.opacity``
+``app.activeDocument.gradients[index].gradientStops[index].opacity``
 
 **Description**
 
@@ -71,7 +71,7 @@ Number (double).
 GradientStop.parent
 ********************************************************************************
 
-``gradientStop.parent``
+``app.activeDocument.gradients[index].gradientStops[index].parent``
 
 **Description**
 
@@ -88,7 +88,7 @@ The gradient that contains this gradient stop.
 GradientStop.rampPoint
 ********************************************************************************
 
-``gradientStop.rampPoint``
+``app.activeDocument.gradients[index].gradientStops[index].rampPoint``
 
 **Description**
 
@@ -105,7 +105,7 @@ Number (double).
 GradientStop.typename
 ********************************************************************************
 
-``gradientStop.typename``
+``app.activeDocument.gradients[index].gradientStops[index].typename``
 
 **Description**
 

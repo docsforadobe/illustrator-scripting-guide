@@ -3,7 +3,7 @@
 Dataset
 ################################################################################
 
-``dataset``
+``app.activeDocument.dataSets[index]``
 
 **Description**
 

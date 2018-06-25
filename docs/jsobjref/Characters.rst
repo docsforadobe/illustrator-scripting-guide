@@ -3,7 +3,7 @@
 Characters
 ################################################################################
 
-``characters``
+``app.activeDocument.textFrames[index].contents``
 
 **Description**
 
