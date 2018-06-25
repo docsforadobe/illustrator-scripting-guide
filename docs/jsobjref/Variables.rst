@@ -7,7 +7,7 @@ Variables
 
 **Description**
 
-The collection of Variable objects in the document.
+The collection of :ref:`jsobjref/Variable` objects in the document.
 
 For an example of how to create variables, see :ref:`jsobjref/Dataset.usingVariablesAndDatasets`.
 

@@ -153,6 +153,11 @@ Welcome to the Adobe Illustrator Scripting Guide!
 
   jsobjref/RGBColor
 
+  jsobjref/TextFont
+  jsobjref/TextFonts
+  jsobjref/TextFrameItem
+  jsobjref/TextFrameItems
+  jsobjref/TextPath
   jsobjref/TextRange
   jsobjref/TextRanges
   jsobjref/TracingObject
