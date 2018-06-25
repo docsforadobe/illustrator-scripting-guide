@@ -144,6 +144,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/OpenOptionsPhotoshop
   jsobjref/PageItem
   jsobjref/PageItems
+  jsobjref/Paper
 
   jsobjref/RGBColor
 
