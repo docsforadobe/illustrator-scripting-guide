@@ -103,11 +103,11 @@ Creates an area text frame item.
 +-----------------+---------------------------------------------------------------+-------------+
 |    Parameter    |                             Type                              | Description |
 +=================+===============================================================+=============+
-| ``textPath``    | :ref:`jsobjref\PathItem`                                      | todo        |
+| ``textPath``    | :ref:`jsobjref/PathItem`                                      | todo        |
 +-----------------+---------------------------------------------------------------+-------------+
-| ``orientation`` | :ref:`jsobjref\scripting-constants.TextOrientation`, optional | todo        |
+| ``orientation`` | :ref:`jsobjref/scripting-constants.TextOrientation`, optional | todo        |
 +-----------------+---------------------------------------------------------------+-------------+
-| ``baseFrame``   | :ref:`jsobjref\TextFrameItem`, optional                       | todo        |
+| ``baseFrame``   | :ref:`jsobjref/TextFrameItem`, optional                       | todo        |
 +-----------------+---------------------------------------------------------------+-------------+
 | ``postFix``     | Boolean, optional                                             | todo        |
 +-----------------+---------------------------------------------------------------+-------------+
@@ -184,15 +184,15 @@ Creates an on-path text frame item.
 +-----------------+---------------------------------------------------------------+-------------+
 |    Parameter    |                             Type                              | Description |
 +=================+===============================================================+=============+
-| ``textPath``    | :ref:`jsobjref\PathItem`                                      | todo        |
+| ``textPath``    | :ref:`jsobjref/PathItem`                                      | todo        |
 +-----------------+---------------------------------------------------------------+-------------+
 | ``startTValue`` | Number (double)                                               | todo        |
 +-----------------+---------------------------------------------------------------+-------------+
 | ``endTValue``   | Number (double)                                               | todo        |
 +-----------------+---------------------------------------------------------------+-------------+
-| ``orientation`` | :ref:`jsobjref\scripting-constants.TextOrientation`, optional | todo        |
+| ``orientation`` | :ref:`jsobjref/scripting-constants.TextOrientation`, optional | todo        |
 +-----------------+---------------------------------------------------------------+-------------+
-| ``baseFrame``   | :ref:`jsobjref\TextFrameItem`, optional                       | todo        |
+| ``baseFrame``   | :ref:`jsobjref/TextFrameItem`, optional                       | todo        |
 +-----------------+---------------------------------------------------------------+-------------+
 | ``postFix``     | Boolean, optional                                             | todo        |
 +-----------------+---------------------------------------------------------------+-------------+
@@ -221,7 +221,7 @@ Creates a point text frame item.
 +=================+===============================================================+=============+
 | ``anchor``      | Array of 2 numbers                                            | todo        |
 +-----------------+---------------------------------------------------------------+-------------+
-| ``orientation`` | :ref:`jsobjref\scripting-constants.TextOrientation`, optional | todo        |
+| ``orientation`` | :ref:`jsobjref/scripting-constants.TextOrientation`, optional | todo        |
 +-----------------+---------------------------------------------------------------+-------------+
 
 **Returns**

@@ -166,6 +166,8 @@ Nothing.
 Example
 =======
 
+.. _jsobjref/ParagraphStyles.creatingAndApplyingParagraphStyle:
+
 Creating and applying a paragraph style
 ********************************************************************************
 

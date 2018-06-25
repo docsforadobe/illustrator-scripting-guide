@@ -589,7 +589,7 @@ Manipulating Text
         // Get the first character of each word and increase it's size.
 
         var firstChars = textWord.characters[0];
-        firstChars.size = firstChars.size \* 1.5;
+        firstChars.size = firstChars.size * 1.5;
       }
     }
   }

@@ -15,8 +15,6 @@ Information about the alignment, position, and other details for a tab stop in a
 Properties
 ==========
 
-----
-
 .. _jsobjref/TabStopInfo.alignment:
 
 TabStopInfo.alignment

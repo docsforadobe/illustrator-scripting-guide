@@ -25,7 +25,9 @@ A collection of :ref:`jsobjref/PageItem` objects. Provides complete access to al
   SymbolItem
   TextFrameItem
 
-You can reference page items through the :ref:`jsobjref/PageItems` property in a :ref:`jsobjref/Document`, :ref:`jsobjref/Layer`, or :ref:`jsobjref/Group`. When you access an individual item in one of these collections, the reference is a page item of one of a particular type. For example, if you use :ref:`jsobjref/PageItems` to reference a graph item, the typename value of that object is :ref:`jsobjref/GraphItem`.
+You can reference page items through the :ref:`jsobjref/PageItems` property in a :ref:`jsobjref/Document`, :ref:`jsobjref/Layer`, or :ref:`jsobjref/GroupItem`.
+
+When you access an individual item in one of these collections, the reference is a page item of one of a particular type. For example, if you use :ref:`jsobjref/PageItems` to reference a graph item, the typename value of that object is :ref:`jsobjref/GraphItem`.
 
 ----
 

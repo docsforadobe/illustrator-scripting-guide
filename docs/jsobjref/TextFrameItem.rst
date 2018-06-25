@@ -7,9 +7,9 @@ TextFrameItem
 
 **Description**
 
-The basic art item for displaying text. From the user interface, this is text created with the Text tool. There are three types of text art in Illustrator: point text, path text, and area text. The type is indicated by the text frame’s :ref:`jsobjref/TextFrameItem.kind` property.
+The basic art item for displaying text. From the user interface, this is text created with the Text tool. There are three types of text art in Illustrator: point text, path text, and area text. The type is indicated by the text frame’s `kind <#textframeitem-kind>`__ property.
 
-When you create a text frame, you also create a :ref:`jsobjref/Story` object. However, threading text frames combines the frames into a single story object. To thread frames, use the :ref:`jsobjref/TextFrameItem.nextFrame` or :ref:`jsobjref/TextFrameItem.previousFrame` property.
+When you create a text frame, you also create a :ref:`jsobjref/Story` object. However, threading text frames combines the frames into a single story object. To thread frames, use the `nextFrame <#textframeitem-nextframe>`__ or `previousFrame <#textframeitem-previousframe>`__ property.
 
 ----
 
@@ -434,7 +434,7 @@ TextFrameItem.textPath
 
 **Description**
 
-The path item associated with the text frame. Note: Valid only when :ref:`jsobjref/TextFrameItem.kind` is area or path.
+The path item associated with the text frame. Note: Valid only when `kind <#textframeitem-kind>`__ is area or path.
 
 **Type**
 
@@ -531,8 +531,6 @@ All the words in this text frame.
 Methods
 =======
 
-----
-
 .. jsobjref/TextFrameItem.convertAreaObjectToPointObject:
 
 TextFrameItem.convertAreaObjectToPointObject
@@ -546,7 +544,7 @@ Converts the area-type text frame to a point-type text frame.
 
 **Returns**
 
-:ref:`jsobjref/TextFrame`
+:ref:`jsobjref/TextFrameItem`
 
 ----
 
@@ -563,7 +561,7 @@ Converts the point-type text frame to an area-type text frame.
 
 **Returns**
 
-:ref:`jsobjref/TextFrame`
+:ref:`jsobjref/TextFrameItem`
 
 ----
 
@@ -855,7 +853,7 @@ Rotate a text art item
         // Create 5 new versions of the text art each rotated a bit
         for ( i = 1; i <= 5; i++ ) {
           dupText = dupSrc.duplicate( textContainer, ElementPlacement.PLACEATEND );
-          dupText.rotate(180 \* i/6);
+          dupText.rotate(180 * i/6);
         }
       }
     }

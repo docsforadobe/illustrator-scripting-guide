@@ -28,7 +28,7 @@ Is this object used to create a knockout, and if so, what kind of knockout. You 
 
 **Type**
 
-:ref:`jsobjref/KnockoutState`
+:ref:`jsobjref/scripting-constants.KnockoutState`
 
 ----
 
@@ -45,7 +45,7 @@ The mode used when compositing an object.
 
 **Type**
 
-:ref:`jsobjref/BlendModes`
+:ref:`jsobjref/scripting-constants.BlendModes`
 
 ----
 

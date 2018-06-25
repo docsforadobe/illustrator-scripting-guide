@@ -17,7 +17,7 @@ Subclasses are:
   CMYKColor
   GradientColor
   GrayColor
-  LABColor
+  LabColor
   NoColor
   PatternColor
   RGBColor

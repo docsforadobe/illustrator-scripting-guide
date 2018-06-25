@@ -11680,7 +11680,7 @@ removeAll
 
    if ( imageArt.typename == "PlacedItem"
 
-   \|\| imageArt.typename == "RasterItem") {
+   || imageArt.typename == "RasterItem") {
 
    // Create a new Tag with the name AdobeURL and the
 
@@ -13013,7 +13013,7 @@ Nothing Deletes all elements in this
 
    for ( j = 0; j < textArt.words.length; j++) { word = textArt.words[j];
 
-   if ( word.contents == searchWord1 \|\| word.contents == searchWord2 \|\| word.contents == searchWord3 ) {
+   if ( word.contents == searchWord1 || word.contents == searchWord2 || word.contents == searchWord3 ) {
 
    word.filled = true; word.fillColor = wordColor;
 

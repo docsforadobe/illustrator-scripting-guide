@@ -9,7 +9,7 @@ PageItem
 
 Any art item. Every art item and group in a document is a page item. You may refer to a page item as an element of a document, layer, or group item.
 
-The ``PageItem`` class gives you complete access to every art item contained in an Illustrator document. The ``PageItem`` class is the superclass of all artwork objects in a document. The :ref:`jsobjref/CompoundPathItem`, :ref:`jsobjref/GroupItem`, :ref:`jsobjref/MeshItem`, :ref:`jsobjref/PathItem`, :ref:`jsobjref/PlacedItem`, :ref:`jsobjref/PluginItem`, :ref:`jsobjref/RasterItem`, and :ref:`jsobjref/TextFrame` classes each inherit a set of properties from the ``PageItem`` class.
+The ``PageItem`` class gives you complete access to every art item contained in an Illustrator document. The ``PageItem`` class is the superclass of all artwork objects in a document. The :ref:`jsobjref/CompoundPathItem`, :ref:`jsobjref/GroupItem`, :ref:`jsobjref/MeshItem`, :ref:`jsobjref/PathItem`, :ref:`jsobjref/PlacedItem`, :ref:`jsobjref/PluginItem`, :ref:`jsobjref/RasterItem`, and :ref:`jsobjref/TextFrameItem` classes each inherit a set of properties from the ``PageItem`` class.
 
 You cannot create a ``PageItem`` directly, you must create one of the specific ``PageItem`` subclasses, such as :ref:`jsobjref/PathItem`.
 
@@ -546,15 +546,15 @@ Places art object(s) in a perspective grid at a specified position and grid plan
 
 **Parameters**
 
-+--------------------------+----------------------------------------------------------------------------------------------------+-------------+
-|        Parameter         |                                                Type                                                | Description |
-+==========================+====================================================================================================+=============+
-| ``posX``                 | Number                                                                                             | todo        |
-+--------------------------+----------------------------------------------------------------------------------------------------+-------------+
-| ``posY``                 | Number                                                                                             | todo        |
-+--------------------------+----------------------------------------------------------------------------------------------------+-------------+
-| ``perspectiveGridPlane`` | :ref:`jsobjref/scripting-constants.PerspectiveGrid`, :ref:`jsobjref/scripting-constants.PlaneType` | todo        |
-+--------------------------+----------------------------------------------------------------------------------------------------+-------------+
++--------------------------+--------------------------------------------------------------+-------------+
+|        Parameter         |                             Type                             | Description |
++==========================+==============================================================+=============+
+| ``posX``                 | Number                                                       | todo        |
++--------------------------+--------------------------------------------------------------+-------------+
+| ``posY``                 | Number                                                       | todo        |
++--------------------------+--------------------------------------------------------------+-------------+
+| ``perspectiveGridPlane`` | :ref:`jsobjref/scripting-constants.PerspectiveGridPlaneType` | todo        |
++--------------------------+--------------------------------------------------------------+-------------+
 
 **Returns**
 
