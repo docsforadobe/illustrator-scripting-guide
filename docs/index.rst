@@ -149,6 +149,7 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/ParagraphAttributes
   jsobjref/Paragraphs
   jsobjref/ParagraphStyle
+  jsobjref/ParagraphStyles
 
   jsobjref/RGBColor
 
