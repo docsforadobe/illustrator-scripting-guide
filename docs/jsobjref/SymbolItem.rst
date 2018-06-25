@@ -1,15 +1,15 @@
-.. _jsobjref/TextFrameItem:
+.. _jsobjref/SymbolItem:
 
-TextFrameItem
+SymbolItem
 ################################################################################
 
 ``app.activeDocument.textFrames[index]``
 
 **Description**
 
-The basic art item for displaying text. From the user interface, this is text created with the Text tool. There are three types of text art in Illustrator: point text, path text, and area text. The type is indicated by the text frame’s `kind <#textframeitem-kind>`__ property.
+An art item made reusable by adding it to the Symbols palette.
 
-When you create a text frame, you also create a :ref:`jsobjref/Story` object. However, threading text frames combines the frames into a single story object. To thread frames, use the `nextFrame <#textframeitem-nextframe>`__ or `previousFrame <#textframeitem-previousframe>`__ property.
+A ``SymbolItem`` is linked to the :ref:`jsobjref/Symbol` from which it was created and changes if you modify the associated ``Symbol`` object.
 
 ----
 
@@ -17,84 +17,101 @@ When you create a text frame, you also create a :ref:`jsobjref/Story` object. Ho
 Properties
 ==========
 
-.. _jsobjref/TextFrameItem.anchor:
+.. _jsobjref/SymbolItem.artworkKnockout:
 
-TextFrameItem.anchor
+SymbolItem.artworkKnockout
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].anchor``
+``SymbolItem.artworkKnockout``
 
 **Description**
 
-The position of the anchor point, the start of the base line for point text.
+Is this object used to create a knockout, and if so, what kind of knockout.
 
 **Type**
 
-Array of 2 numbers
+:ref:`jsobjref/scripting-constants.KnockoutState`
 
 ----
 
-.. _jsobjref/TextFrameItem.antialias:
+.. _jsobjref/SymbolItem.blendingMode:
 
-TextFrameItem.antialias
+SymbolItem.blendingMode
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].antialias``
+``SymbolItem.blendingMode``
 
 **Description**
 
-The type of anti-aliasing to use in the text.
+The blend mode used when compositing an object.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.TextAntialias`
+:ref:`jsobjref/scripting-constants.BlendModes`
 
 ----
 
-.. _jsobjref/TextFrameItem.characters:
+.. _jsobjref/SymbolItem.controlBounds:
 
-TextFrameItem.characters
+SymbolItem.controlBounds
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].characters``
+``SymbolItem.controlBounds``
 
 **Description**
 
-All the characters in this text frame.
+The bounds of the object including stroke width and controls.
 
 **Type**
 
-:ref:`jsobjref/Characters`, read-only.
+Array of 4 Numbers; read-only.
 
 ----
 
-.. _jsobjref/TextFrameItem.columnCount:
+.. _jsobjref/SymbolItem.editable:
 
-TextFrameItem.columnCount
+SymbolItem.editable
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].columnCount``
+``SymbolItem.editable``
 
 **Description**
 
-The column count in the text frame (area text only).
+If ``true``, this item is editable.
 
 **Type**
 
-Number (long)
+Boolean; read-only.
 
 ----
 
-.. _jsobjref/TextFrameItem.columnGutter:
+.. _jsobjref/SymbolItem.geometricBounds:
 
-TextFrameItem.columnGutter
+SymbolItem.geometricBounds
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].columnGutter``
+``SymbolItem.geometricBounds``
 
 **Description**
 
-The column gutter in the text frame (area text only).
+The bounds of the object excluding stroke width.
+
+**Type**
+
+Array of 4 Numbers; read-only.
+
+----
+
+.. _jsobjref/SymbolItem.height:
+
+SymbolItem.height
+********************************************************************************
+
+``SymbolItem.height``
+
+**Description**
+
+The height of the group item.
 
 **Type**
 
@@ -102,16 +119,101 @@ Number (double)
 
 ----
 
-.. _jsobjref/TextFrameItem.contents:
+.. _jsobjref/SymbolItem.hidden:
 
-TextFrameItem.contents
+SymbolItem.hidden
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].contents``
+``SymbolItem.hidden``
 
 **Description**
 
-The text string.
+If ``true``, this item is hidden.
+
+**Type**
+
+Boolean
+
+----
+
+.. _jsobjref/SymbolItem.isIsolated:
+
+SymbolItem.isIsolated
+********************************************************************************
+
+``SymbolItem.isIsolated``
+
+**Description**
+
+If ``true``, this object is isolated.
+
+**Type**
+
+Boolean
+
+----
+
+.. _jsobjref/SymbolItem.layer:
+
+SymbolItem.layer
+********************************************************************************
+
+``SymbolItem.layer``
+
+**Description**
+
+The layer to which this item belongs.
+
+**Type**
+
+:ref:`jsobjref/Layer`; read-only.
+
+----
+
+.. _jsobjref/SymbolItem.left:
+
+SymbolItem.left
+********************************************************************************
+
+``SymbolItem.left``
+
+**Description**
+
+The position of the left side of the item (in points, measured from the left side of the page).
+
+**Type**
+
+Number (double)
+
+----
+
+.. _jsobjref/SymbolItem.locked:
+
+SymbolItem.locked
+********************************************************************************
+
+``SymbolItem.locked``
+
+**Description**
+
+If ``true``, this item is locked.
+
+**Type**
+
+Boolean
+
+----
+
+.. _jsobjref/SymbolItem.name:
+
+SymbolItem.name
+********************************************************************************
+
+``SymbolItem.name``
+
+**Description**
+
+The name of this item.
 
 **Type**
 
@@ -119,33 +221,33 @@ String
 
 ----
 
-.. _jsobjref/TextFrameItem.contentVariable:
+.. _jsobjref/SymbolItem.note:
 
-TextFrameItem.contentVariable
+SymbolItem.note
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].contentVariable``
+``SymbolItem.note``
 
 **Description**
 
-The content variable bound to this text frame item.
+The note assigned to this item.
 
 **Type**
 
-:ref:`jsobjref/Variable`
+String
 
 ----
 
-.. _jsobjref/TextFrameItem.endTValue:
+.. _jsobjref/SymbolItem.opacity:
 
-TextFrameItem.endTValue
+SymbolItem.opacity
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].endTValue``
+``SymbolItem.opacity``
 
 **Description**
 
-The end position of text along a path, as a value relative to the path’s segments (path text only).
+The opacity of the object. Range: 0.0 to 100.0
 
 **Type**
 
@@ -153,165 +255,12 @@ Number (double)
 
 ----
 
-.. _jsobjref/TextFrameItem.flowLinksHorizontally:
+.. _jsobjref/SymbolItem.parent:
 
-TextFrameItem.flowLinksHorizontally
+SymbolItem.parent
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].flowLinksHorizontally``
-
-**Description**
-
-If ``true``, flow text between linked frames horizontally first (area text only).
-
-**Type**
-
-Boolean
-
-----
-
-.. _jsobjref/TextFrameItem.insertionPoints:
-
-TextFrameItem.insertionPoints
-********************************************************************************
-
-``app.activeDocument.textFrames[index].insertionPoints``
-
-**Description**
-
-All the insertion points in this text range.
-
-**Type**
-
-:ref:`jsobjref/InsertionPoints`, read-only.
-
-----
-
-.. _jsobjref/TextFrameItem.kind:
-
-TextFrameItem.kind
-********************************************************************************
-
-``app.activeDocument.textFrames[index].kind``
-
-**Description**
-
-The type of a text frame item (area, path or point).
-
-**Type**
-
-:ref:`jsobjref/scripting-constants.TextType`, read-only.
-
-----
-
-.. _jsobjref/TextFrameItem.lines:
-
-TextFrameItem.lines
-********************************************************************************
-
-``app.activeDocument.textFrames[index].lines``
-
-**Description**
-
-All the lines in this text frame.
-
-**Type**
-
-:ref:`jsobjref/Lines`, read-only.
-
-----
-
-.. _jsobjref/TextFrameItem.matrix:
-
-TextFrameItem.matrix
-********************************************************************************
-
-``app.activeDocument.textFrames[index].matrix``
-
-**Description**
-
-The transformation matrix for this text frame.
-
-**Type**
-
-:ref:`jsobjref/Matrix`, read-only.
-
-----
-
-.. _jsobjref/TextFrameItem.nextFrame:
-
-TextFrameItem.nextFrame
-********************************************************************************
-
-``app.activeDocument.textFrames[index].nextFrame``
-
-**Description**
-
-The linked text frame following this one.
-
-**Type**
-
-:ref:`jsobjref/TextFrameItem`
-
-----
-
-.. _jsobjref/TextFrameItem.opticalAlignment:
-
-TextFrameItem.opticalAlignment
-********************************************************************************
-
-``app.activeDocument.textFrames[index].opticalAlignment``
-
-**Description**
-
-If ``true``, the optical alignment feature is active.
-
-**Type**
-
-Boolean
-
-----
-
-.. _jsobjref/TextFrameItem.orientation:
-
-TextFrameItem.orientation
-********************************************************************************
-
-``app.activeDocument.textFrames[index].orientation``
-
-**Description**
-
-The orientation of the text.
-
-**Type**
-
-:ref:`jsobjref/scripting-constants.TextOrientation`
-
-----
-
-.. _jsobjref/TextFrameItem.paragraphs:
-
-TextFrameItem.paragraphs
-********************************************************************************
-
-``app.activeDocument.textFrames[index].paragraphs``
-
-**Description**
-
-All the paragraphs in this text frame.
-
-**Type**
-
-:ref:`jsobjref/Paragraphs`, read-only.
-
-----
-
-.. _jsobjref/TextFrameItem.parent:
-
-TextFrameItem.parent
-********************************************************************************
-
-``app.activeDocument.textFrames[index].parent``
+``SymbolItem.parent``
 
 **Description**
 
@@ -319,54 +268,105 @@ The parent of this object.
 
 **Type**
 
-:ref:`jsobjref/Layer` or :ref:`jsobjref/GroupItem`, read-only.
+:ref:`jsobjref/Layer` or :ref:`jsobjref/GroupItem`; read-only.
 
 ----
 
-.. _jsobjref/TextFrameItem.previousFrame:
+.. _jsobjref/SymbolItem.position:
 
-TextFrameItem.previousFrame
+SymbolItem.position
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].previousFrame``
+``SymbolItem.position``
 
 **Description**
 
-The linked text frame preceding this one.
+The position (in points) of the top left corner of the ``symbolItem`` object in the format [x, y]. Does not include stroke weight.
 
 **Type**
 
-:ref:`jsobjref/TextFrameItem`
+Array of 2 Numbers
 
 ----
 
-.. _jsobjref/TextFrameItem.rowCount:
+.. _jsobjref/SymbolItem.selected:
 
-TextFrameItem.rowCount
+SymbolItem.selected
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].rowCount``
+``SymbolItem.selected``
 
 **Description**
 
-The row count in the text frame (area text only).
+If ``true``, this item is selected.
 
 **Type**
 
-Number (long)
+Boolean
 
 ----
 
-.. _jsobjref/TextFrameItem.rowGutter:
+.. _jsobjref/SymbolItem.sliced:
 
-TextFrameItem.rowGutter
+SymbolItem.sliced
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].rowGutter``
+``SymbolItem.sliced``
 
 **Description**
 
-The row gutter in the text frame (area text only).
+If ``true``, the item sliced. Default: ``false``
+
+**Type**
+
+Boolean
+
+----
+
+.. _jsobjref/SymbolItem.symbol:
+
+SymbolItem.symbol
+********************************************************************************
+
+``SymbolItem.symbol``
+
+**Description**
+
+The symbol that was used to create this ``symbolItem``.
+
+**Type**
+
+:ref:`jsobjref/Symbol`
+
+----
+
+.. _jsobjref/SymbolItem.tags:
+
+SymbolItem.tags
+********************************************************************************
+
+``SymbolItem.tags``
+
+**Description**
+
+The tags contained in this item.
+
+**Type**
+
+:ref:`jsobjref/Tags`; read-only.
+
+----
+
+.. _jsobjref/SymbolItem.top:
+
+SymbolItem.top
+********************************************************************************
+
+``SymbolItem.top``
+
+**Description**
+
+The position of the top of the item (in points, measured from the bottom of the page).
 
 **Type**
 
@@ -374,131 +374,12 @@ Number (double)
 
 ----
 
-.. _jsobjref/TextFrameItem.spacing:
+.. _jsobjref/SymbolItem.typename:
 
-TextFrameItem.spacing
+SymbolItem.typename
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].spacing``
-
-**Description**
-
-The amount of spacing.
-
-**Type**
-
-Number (double)
-
-----
-
-.. _jsobjref/TextFrameItem.startTValue:
-
-TextFrameItem.startTValue
-********************************************************************************
-
-``app.activeDocument.textFrames[index].startTValue``
-
-**Description**
-
-The start position of text along a path, as a value relative to the path’s segments (path text only).
-
-**Type**
-
-Number (double)
-
-----
-
-.. _jsobjref/TextFrameItem.story:
-
-TextFrameItem.story
-********************************************************************************
-
-``app.activeDocument.textFrames[index].story``
-
-**Description**
-
-The story to which the text frame belongs.
-
-**Type**
-
-:ref:`jsobjref/Story`, read-only.
-
-----
-
-.. _jsobjref/TextFrameItem.textPath:
-
-TextFrameItem.textPath
-********************************************************************************
-
-``app.activeDocument.textFrames[index].textPath``
-
-**Description**
-
-The path item associated with the text frame. Note: Valid only when `kind <#textframeitem-kind>`__ is area or path.
-
-**Type**
-
-:ref:`jsobjref/TextPath`
-
-----
-
-.. _jsobjref/TextFrameItem.textRange:
-
-TextFrameItem.textRange
-********************************************************************************
-
-``app.activeDocument.textFrames[index].textRange``
-
-**Description**
-
-The text range of the text frame.
-
-**Type**
-
-:ref:`jsobjref/TextRange`, read-only.
-
-----
-
-.. _jsobjref/TextFrameItem.textRanges:
-
-TextFrameItem.textRanges
-********************************************************************************
-
-``app.activeDocument.textFrames[index].textRanges``
-
-**Description**
-
-All the text in this text frame.
-
-**Type**
-
-:ref:`jsobjref/TextRanges`, read-only.
-
-----
-
-.. _jsobjref/TextFrameItem.textSelection:
-
-TextFrameItem.textSelection
-********************************************************************************
-
-``app.activeDocument.textFrames[index].textSelection``
-
-**Description**
-
-The selected text range(s) in the text frame.
-
-**Type**
-
-Array of :ref:`jsobjref/TextRange`, read-only.
-
-----
-
-.. _jsobjref/TextFrameItem.typename:
-
-TextFrameItem.typename
-********************************************************************************
-
-``app.activeDocument.textFrames[index].typename``
+``SymbolItem.typename``
 
 **Description**
 
@@ -506,24 +387,143 @@ The class name of the referenced object.
 
 **Type**
 
-String, read-only.
+String; read-only.
 
 ----
 
-.. _jsobjref/TextFrameItem.words:
+.. _jsobjref/SymbolItem.uRL:
 
-TextFrameItem.words
+SymbolItem.uRL
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].words``
+``SymbolItem.uRL``
 
 **Description**
 
-All the words in this text frame.
+The value of the Adobe URL tag assigned to this item.
 
 **Type**
 
-:ref:`jsobjref/Words`, read-only.
+String
+
+----
+
+.. _jsobjref/SymbolItem.visibilityVariable:
+
+SymbolItem.visibilityVariable
+********************************************************************************
+
+``SymbolItem.visibilityVariable``
+
+**Description**
+
+The visibility variable bound to the item.
+
+**Type**
+
+Variable
+
+----
+
+.. _jsobjref/SymbolItem.visibleBounds:
+
+SymbolItem.visibleBounds
+********************************************************************************
+
+``SymbolItem.visibleBounds``
+
+**Description**
+
+The visible bounds of the item including stroke width.
+
+**Type**
+
+Array of 4 Numbers; read-only.
+
+----
+
+.. _jsobjref/SymbolItem.width:
+
+SymbolItem.width
+********************************************************************************
+
+``SymbolItem.width``
+
+**Description**
+
+The width of the item.
+
+**Type**
+
+Number (double)
+
+----
+
+.. _jsobjref/SymbolItem.wrapInside:
+
+SymbolItem.wrapInside
+********************************************************************************
+
+``SymbolItem.wrapInside``
+
+**Description**
+
+If ``true``, the text frame object should be wrapped inside this object.
+
+**Type**
+
+Boolean
+
+----
+
+.. _jsobjref/SymbolItem.wrapOffset:
+
+SymbolItem.wrapOffset
+********************************************************************************
+
+``SymbolItem.wrapOffset``
+
+**Description**
+
+The offset to use when wrapping text around this object.
+
+**Type**
+
+Number (double)
+
+----
+
+.. _jsobjref/SymbolItem.wrapped:
+
+SymbolItem.wrapped
+********************************************************************************
+
+``SymbolItem.wrapped``
+
+**Description**
+
+If ``true``, wrap text frame objects around this object (text frame must be above the object).
+
+**Type**
+
+Boolean
+
+----
+
+.. _jsobjref/SymbolItem.zOrderPosition:
+
+SymbolItem.zOrderPosition
+********************************************************************************
+
+``SymbolItem.zOrderPosition``
+
+**Description**
+
+The position of this item within the stacking order of the group or layer (``parent``) that contains the item.
+
+**Type**
+
+Number; read-only.
 
 ----
 
@@ -531,63 +531,12 @@ All the words in this text frame.
 Methods
 =======
 
-.. _jsobjref/TextFrameItem.convertAreaObjectToPointObject:
+.. _jsobjref/SymbolItem.duplicate:
 
-TextFrameItem.convertAreaObjectToPointObject
+SymbolItem.duplicate
 ********************************************************************************
 
-``app.activeDocument.textFrames[index].convertAreaObjectToPointObject()``
-
-**Description**
-
-Converts the area-type text frame to a point-type text frame.
-
-**Returns**
-
-:ref:`jsobjref/TextFrameItem`
-
-----
-
-.. _jsobjref/TextFrameItem.convertPointObjectToAreaObject:
-
-TextFrameItem.convertPointObjectToAreaObject
-********************************************************************************
-
-``app.activeDocument.textFrames[index].convertPointObjectToAreaObject()``
-
-**Description**
-
-Converts the point-type text frame to an area-type text frame.
-
-**Returns**
-
-:ref:`jsobjref/TextFrameItem`
-
-----
-
-.. _jsobjref/TextFrameItem.createOutline:
-
-TextFrameItem.createOutline
-********************************************************************************
-
-``app.activeDocument.textFrames[index].createOutline()``
-
-**Description**
-
-Converts the text in the text frame to outlines.
-
-**Returns**
-
-:ref:`jsobjref/GroupItem`
-
-----
-
-.. _jsobjref/TextFrameItem.duplicate:
-
-TextFrameItem.duplicate
-********************************************************************************
-
-``app.activeDocument.textFrames[index].duplicate([relativeObject] [,insertionLocation])``
+``app.activeDocument.textFrames[index].duplicate([relativeObject][, insertionLocation])``
 
 **Description**
 
@@ -605,13 +554,13 @@ Creates a duplicate of the selected object.
 
 **Returns**
 
-:ref:`jsobjref/TextRange`
+:ref:`jsobjref/SymbolItem`
 
 ----
 
-.. _jsobjref/TextFrameItem.move:
+.. _jsobjref/SymbolItem.move:
 
-TextFrameItem.move
+SymbolItem.move
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].move(relativeObject, insertionLocation)``
@@ -632,13 +581,13 @@ Moves the object.
 
 **Returns**
 
-:ref:`jsobjref/TextRange`
+:ref:`jsobjref/SymbolItem`
 
 ----
 
-.. _jsobjref/TextFrameItem.remove:
+.. _jsobjref/SymbolItem.remove:
 
-TextFrameItem.remove
+SymbolItem.remove
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].remove()``
@@ -653,9 +602,9 @@ Nothing.
 
 ----
 
-.. _jsobjref/TextFrameItem.resize:
+.. _jsobjref/SymbolItem.resize:
 
-TextFrameItem.resize
+SymbolItem.resize
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])``
@@ -692,16 +641,18 @@ Nothing.
 
 ----
 
-.. _jsobjref/TextFrameItem.rotate:
+.. _jsobjref/SymbolItem.rotate:
 
-TextFrameItem.rotate
+SymbolItem.rotate
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])``
 
 **Description**
 
-Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the ``angle`` value is positive, clockwise if the value is negative.
+Rotates the art item relative to the current rotation.
+
+The object is rotated counter-clockwise if the ``angle`` value is positive, clockwise if the value is negative.
 
 **Parameters**
 
@@ -727,9 +678,9 @@ Nothing.
 
 ----
 
-.. _jsobjref/TextFrameItem.transform:
+.. _jsobjref/SymbolItem.transform:
 
-TextFrameItem.transform
+SymbolItem.transform
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])``
@@ -764,9 +715,9 @@ Nothing.
 
 ----
 
-.. _jsobjref/TextFrameItem.translate:
+.. _jsobjref/SymbolItem.translate:
 
-TextFrameItem.translate
+SymbolItem.translate
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])``
@@ -799,9 +750,9 @@ Nothing.
 
 ----
 
-.. _jsobjref/TextFrameItem.zOrder:
+.. _jsobjref/SymbolItem.zOrder:
 
-TextFrameItem.zOrder
+SymbolItem.zOrder
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].zOrder(zOrderCmd)``
@@ -821,38 +772,3 @@ Arranges the art item’s position in the stacking order of the group or layer (
 **Returns**
 
 Nothing.
-
-----
-
-=======
-Example
-=======
-
-Rotate a text art item
-********************************************************************************
-
-::
-
-  // Duplicates and rotates the selected text art item 5 times
-  if ( app.documents.length > 0 ) {
-    selectedItems = app.activeDocument.selection;
-
-    // make sure something is selected.
-    if ( selectedItems.length > 0 ) {
-
-      // The selection must be a text art item
-      if ( selectedItems[0].typename == "TextFrame" ) {
-
-        // Get the parent of the text art so new text art items
-        // can be inserted in the same group or layer
-        dupSrc = selectedItems[0];
-        textContainer = dupSrc.parent;
-
-        // Create 5 new versions of the text art each rotated a bit
-        for ( i = 1; i <= 5; i++ ) {
-          dupText = dupSrc.duplicate( textContainer, ElementPlacement.PLACEATEND );
-          dupText.rotate(180 * i/6);
-        }
-      }
-    }
-  }

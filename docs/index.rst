@@ -153,6 +153,10 @@ Welcome to the Adobe Illustrator Scripting Guide!
 
   jsobjref/RGBColor
 
+  jsobjref/SymbolItem
+  jsobjref/SymbolItems
+  jsobjref/Symbol
+  jsobjref/Symbols
   jsobjref/TabStopInfo
   jsobjref/Tag
   jsobjref/Tags
