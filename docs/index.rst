@@ -151,8 +151,19 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/ParagraphStyle
   jsobjref/ParagraphStyles
 
+  jsobjref/RasterEffectOptions
+  jsobjref/RasterItem
+  jsobjref/RasterItems
+  jsobjref/RasterizeOptions
   jsobjref/RGBColor
-
+  jsobjref/Screen
+  jsobjref/ScreenInfo
+  jsobjref/ScreenSpotFunction
+  jsobjref/Spot
+  jsobjref/SpotColor
+  jsobjref/Spots
+  jsobjref/Story
+  jsobjref/Stories
   jsobjref/Swatch
   jsobjref/Swatches
   jsobjref/SwatchGroup
