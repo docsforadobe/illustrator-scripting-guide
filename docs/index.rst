@@ -151,6 +151,13 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/ParagraphStyle
   jsobjref/ParagraphStyles
 
+  jsobjref/PrintFlattenerOptions
+  jsobjref/PrintFontOptions
+  jsobjref/PrintJobOptions
+  jsobjref/PrintOptions
+  jsobjref/PrintPageMarksOptions
+  jsobjref/PrintPaperOptions
+  jsobjref/PrintPostScriptOptions
   jsobjref/RasterEffectOptions
   jsobjref/RasterItem
   jsobjref/RasterItems
