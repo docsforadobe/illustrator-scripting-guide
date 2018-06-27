@@ -151,6 +151,11 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/ParagraphStyle
   jsobjref/ParagraphStyles
 
+  jsobjref/PrintColorManagementOptions
+  jsobjref/PrintColorSeparationOptions
+  jsobjref/PrintCoordinateOptions
+  jsobjref/Printer
+  jsobjref/PrinterInfo
   jsobjref/PrintFlattenerOptions
   jsobjref/PrintFontOptions
   jsobjref/PrintJobOptions
