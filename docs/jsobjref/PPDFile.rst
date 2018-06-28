@@ -1,15 +1,13 @@
-.. _jsobjref/Printer:
+.. _jsobjref/PPDFile:
 
-Printer
+PPDFile
 ################################################################################
 
-``app.PrinterList[index]``
+``app.PPDFileList[index]``
 
 **Description**
 
-Associates an available printer with printer information.
-
-To request a list of printers, you must first have a document open or an error is returned.
+Associates file information with a PostScript Printer Description (PPD) file.
 
 ----
 
@@ -17,16 +15,16 @@ To request a list of printers, you must first have a document open or an error i
 Properties
 ==========
 
-.. jsobjref/Printer.name:
+.. _jsobjref/PPDFile.name:
 
-Printer.name
+PPDFile.name
 ********************************************************************************
 
-``app.printerList[index].name``
+``app.PPDFileList[index].name``
 
 **Description**
 
-The printer name.
+The PPD model name.
 
 **Type**
 
@@ -34,29 +32,29 @@ String
 
 ----
 
-.. jsobjref/Printer.printerInfo:
+.. _jsobjref/PPDFile.PPDInfo:
 
-Printer.printerInfo
+PPDFile.PPDInfo
 ********************************************************************************
 
-``app.printerList[index].printerInfo``
+``app.PPDFileList[index].PPDInfo``
 
 **Description**
 
-The printer information.
+The PPD file information.
 
 **Type**
 
-:ref:`jsobjref/PrinterInfo`
+:ref:`jsobjref/PPDFileInfo`
 
 ----
 
-.. jsobjref/Printer.typename:
+.. _jsobjref/PPDFile.typename:
 
-Printer.typename
+PPDFile.typename
 ********************************************************************************
 
-``app.printerList[index].typename``
+``app.PPDFileList[index].typename``
 
 **Description**
 
