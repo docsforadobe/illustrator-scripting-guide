@@ -92,7 +92,7 @@ If a location is not specified, adds the new character to the containing text fr
 +=======================+================================================================+========================+
 | ``contents``          | String                                                         | Text contents to add   |
 +-----------------------+----------------------------------------------------------------+------------------------+
-| ``relativeObject``    | :ref:`jsobjref/TextFrameItem`, optional                        | todo                   |
+| ``relativeObject``    | :ref:`jsobjref/TextFrameItem`, optional                        | Object to add item to  |
 +-----------------------+----------------------------------------------------------------+------------------------+
 | ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to place text |
 +-----------------------+----------------------------------------------------------------+------------------------+

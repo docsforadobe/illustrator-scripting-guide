@@ -693,9 +693,9 @@ The style of a document’s cropping box
 +--------------------------+-------------+
 |          Value           | Description |
 +==========================+=============+
-| ``CropOptions.Japanese`` | todo        |
+| ``CropOptions.Japanese`` | Japanese    |
 +--------------------------+-------------+
-| ``CropOptions.Standard`` | todo        |
+| ``CropOptions.Standard`` | Standard    |
 +--------------------------+-------------+
 
 ----
@@ -737,9 +737,9 @@ The color space of a document
 +-----------------------------+-------------+
 |            Value            | Description |
 +=============================+=============+
-| ``DocumentColorSpace.CMYK`` | todo        |
+| ``DocumentColorSpace.CMYK`` | CMYK        |
 +-----------------------------+-------------+
-| ``DocumentColorSpace.RGB``  | todo        |
+| ``DocumentColorSpace.RGB``  | RGB         |
 +-----------------------------+-------------+
 
 ----
@@ -777,17 +777,17 @@ The preset types available for new documents.
 +----------------------------------+-------------+
 |              Value               | Description |
 +==================================+=============+
-| ``DocumentPresetType.BasicCMYK`` | todo        |
+| ``DocumentPresetType.BasicCMYK`` | Basic CMYK  |
 +----------------------------------+-------------+
-| ``DocumentPresetType.BasicRGB``  | todo        |
+| ``DocumentPresetType.BasicRGB``  | Basic RGB   |
 +----------------------------------+-------------+
-| ``DocumentPresetType.Mobile``    | todo        |
+| ``DocumentPresetType.Mobile``    | Mobile      |
 +----------------------------------+-------------+
-| ``DocumentPresetType.Print``     | todo        |
+| ``DocumentPresetType.Print``     | Print       |
 +----------------------------------+-------------+
-| ``DocumentPresetType.Video``     | todo        |
+| ``DocumentPresetType.Video``     | Video       |
 +----------------------------------+-------------+
-| ``DocumentPresetType.Web``       | todo        |
+| ``DocumentPresetType.Web``       | Web         |
 +----------------------------------+-------------+
 
 ----
@@ -802,11 +802,11 @@ The document preview mode.
 +------------------------------------------+-------------+
 |                  Value                   | Description |
 +==========================================+=============+
-| ``DocumentPreviewMode.DefaultPreview``   | todo        |
+| ``DocumentPreviewMode.DefaultPreview``   | Default     |
 +------------------------------------------+-------------+
-| ``DocumentPreviewMode.OverprintPreview`` | todo        |
+| ``DocumentPreviewMode.OverprintPreview`` | Overprint   |
 +------------------------------------------+-------------+
-| ``DocumentPreviewMode.PixelPreview``     | todo        |
+| ``DocumentPreviewMode.PixelPreview``     | Pixel       |
 +------------------------------------------+-------------+
 
 ----
@@ -818,15 +818,15 @@ DocumentRasterResolution
 
 The preset document raster resolution.
 
-+-----------------------------------------------+-------------+
-|                     Value                     | Description |
-+===============================================+=============+
-| ``DocumentRasterResolution.ScreenResolution`` | todo        |
-+-----------------------------------------------+-------------+
-| ``DocumentRasterResolution.HighResolution``   | todo        |
-+-----------------------------------------------+-------------+
-| ``DocumentRasterResolution.MediumResolution`` | todo        |
-+-----------------------------------------------+-------------+
++-----------------------------------------------+-------------------+
+|                     Value                     |    Description    |
++===============================================+===================+
+| ``DocumentRasterResolution.ScreenResolution`` | Screen Resolution |
++-----------------------------------------------+-------------------+
+| ``DocumentRasterResolution.HighResolution``   | High Resolution   |
++-----------------------------------------------+-------------------+
+| ``DocumentRasterResolution.MediumResolution`` | Medium Resolution |
++-----------------------------------------------+-------------------+
 
 ----
 
@@ -840,23 +840,23 @@ Document transparency grid colors.
 +-----------------------------------------------------+-------------+
 |                        Value                        | Description |
 +=====================================================+=============+
-| ``DocumentTransparencyGrid.TransparencyGridBlue``   | todo        |
+| ``DocumentTransparencyGrid.TransparencyGridBlue``   | Blue        |
 +-----------------------------------------------------+-------------+
-| ``DocumentTransparencyGrid.TransparencyGridDark``   | todo        |
+| ``DocumentTransparencyGrid.TransparencyGridDark``   | Dark        |
 +-----------------------------------------------------+-------------+
-| ``DocumentTransparencyGrid.TransparencyGridGreen``  | todo        |
+| ``DocumentTransparencyGrid.TransparencyGridGreen``  | Green       |
 +-----------------------------------------------------+-------------+
-| ``DocumentTransparencyGrid.TransparencyGridLight``  | todo        |
+| ``DocumentTransparencyGrid.TransparencyGridLight``  | Light       |
 +-----------------------------------------------------+-------------+
-| ``DocumentTransparencyGrid.TransparencyGridMedium`` | todo        |
+| ``DocumentTransparencyGrid.TransparencyGridMedium`` | Medium      |
 +-----------------------------------------------------+-------------+
-| ``DocumentTransparencyGrid.TransparencyGridNone``   | todo        |
+| ``DocumentTransparencyGrid.TransparencyGridNone``   | None        |
 +-----------------------------------------------------+-------------+
-| ``DocumentTransparencyGrid.TransparencyGridOrange`` | todo        |
+| ``DocumentTransparencyGrid.TransparencyGridOrange`` | Orange      |
 +-----------------------------------------------------+-------------+
-| ``DocumentTransparencyGrid.TransparencyGridPurple`` | todo        |
+| ``DocumentTransparencyGrid.TransparencyGridPurple`` | Purple      |
 +-----------------------------------------------------+-------------+
-| ``DocumentTransparencyGrid.TransparencyGridRed``    | todo        |
+| ``DocumentTransparencyGrid.TransparencyGridRed``    | Red         |
 +-----------------------------------------------------+-------------+
 
 ----
@@ -871,13 +871,13 @@ The file format used to save a file.
 +------------------------------+-------------+
 |            Value             | Description |
 +==============================+=============+
-| ``DocumentType.EPS``         | todo        |
+| ``DocumentType.EPS``         | EPS         |
 +------------------------------+-------------+
-| ``DocumentType.FXG``         | todo        |
+| ``DocumentType.FXG``         | FXG         |
 +------------------------------+-------------+
-| ``DocumentType.ILLUSTRATOR`` | todo        |
+| ``DocumentType.ILLUSTRATOR`` | Illustrator |
 +------------------------------+-------------+
-| ``DocumentType.PDF``         | todo        |
+| ``DocumentType.PDF``         | PDF         |
 +------------------------------+-------------+
 
 ----
@@ -887,17 +887,17 @@ The file format used to save a file.
 DownsampleMethod
 ********************************************************************************
 
-+----------------------------------------+-------------+
-|                 Value                  | Description |
-+========================================+=============+
-| ``DownsampleMethod.AVERAGEDOWNSAMPLE`` | todo        |
-+----------------------------------------+-------------+
-| ``DownsampleMethod.BICUBICDOWNSAMPLE`` | todo        |
-+----------------------------------------+-------------+
-| ``DownsampleMethod.NODOWNSAMPLE``      | todo        |
-+----------------------------------------+-------------+
-| ``DownsampleMethod.SUBSAMPLE``         | todo        |
-+----------------------------------------+-------------+
++----------------------------------------+--------------------+
+|                 Value                  |    Description     |
++========================================+====================+
+| ``DownsampleMethod.AVERAGEDOWNSAMPLE`` | Average Downsample |
++----------------------------------------+--------------------+
+| ``DownsampleMethod.BICUBICDOWNSAMPLE`` | Bicubic Downsample |
++----------------------------------------+--------------------+
+| ``DownsampleMethod.NODOWNSAMPLE``      | No Downsample      |
++----------------------------------------+--------------------+
+| ``DownsampleMethod.SUBSAMPLE``         | Subsample          |
++----------------------------------------+--------------------+
 
 ----
 
@@ -906,19 +906,19 @@ DownsampleMethod
 ElementPlacement
 ********************************************************************************
 
-+---------------------------------------+-------------+
-|                 Value                 | Description |
-+=======================================+=============+
-| ``ElementPlacement.INSIDE``           | todo        |
-+---------------------------------------+-------------+
-| ``ElementPlacement.PLACEAFTER``       | todo        |
-+---------------------------------------+-------------+
-| ``ElementPlacement.PLACEATBEGINNING`` | todo        |
-+---------------------------------------+-------------+
-| ``ElementPlacement.PLACEATEND``       | todo        |
-+---------------------------------------+-------------+
-| ``ElementPlacement.PLACEBEFORE``      | todo        |
-+---------------------------------------+-------------+
++---------------------------------------+--------------------+
+|                 Value                 |    Description     |
++=======================================+====================+
+| ``ElementPlacement.INSIDE``           | Inside             |
++---------------------------------------+--------------------+
+| ``ElementPlacement.PLACEAFTER``       | Place After        |
++---------------------------------------+--------------------+
+| ``ElementPlacement.PLACEATBEGINNING`` | Place At Beginning |
++---------------------------------------+--------------------+
+| ``ElementPlacement.PLACEATEND``       | Place At End       |
++---------------------------------------+--------------------+
+| ``ElementPlacement.PLACEBEFORE``      | Place Before       |
++---------------------------------------+--------------------+
 
 ----
 
@@ -930,9 +930,9 @@ EPSPostScriptLevelEnum
 +-----------------------------------+-------------+
 |               Value               | Description |
 +===================================+=============+
-| ``EPSPostScriptLevelEnum.LEVEL2`` | todo        |
+| ``EPSPostScriptLevelEnum.LEVEL2`` | Level 2     |
 +-----------------------------------+-------------+
-| ``EPSPostScriptLevelEnum.LEVEL3`` | todo        |
+| ``EPSPostScriptLevelEnum.LEVEL3`` | Level 3     |
 +-----------------------------------+-------------+
 
 ----
@@ -968,23 +968,23 @@ The file format used to export a file
 +--------------------------+-------------+
 |          Value           | Description |
 +==========================+=============+
-| ``ExportType.AutoCAD``   | todo        |
+| ``ExportType.AutoCAD``   | AutoCAD     |
 +--------------------------+-------------+
-| ``ExportType.FLASH``     | todo        |
+| ``ExportType.FLASH``     | FLASH       |
 +--------------------------+-------------+
-| ``ExportType.GIF``       | todo        |
+| ``ExportType.GIF``       | GIF         |
 +--------------------------+-------------+
-| ``ExportType.JPEG``      | todo        |
+| ``ExportType.JPEG``      | JPEG        |
 +--------------------------+-------------+
-| ``ExportType.Photoshop`` | todo        |
+| ``ExportType.Photoshop`` | Photoshop   |
 +--------------------------+-------------+
-| ``ExportType.PNG24``     | todo        |
+| ``ExportType.PNG24``     | PNG24       |
 +--------------------------+-------------+
-| ``ExportType.PNG8``      | todo        |
+| ``ExportType.PNG8``      | PNG8        |
 +--------------------------+-------------+
-| ``ExportType.SVG``       | todo        |
+| ``ExportType.SVG``       | SVG         |
 +--------------------------+-------------+
-| ``ExportType.TIFF``      | todo        |
+| ``ExportType.TIFF``      | TIFF        |
 +--------------------------+-------------+
 
 ----
@@ -1062,23 +1062,23 @@ Version for exported SWF file.
 +--------------------------------------+-------------+
 |                Value                 | Description |
 +======================================+=============+
-| ``FlashExportVersion.FlashVersion1`` | todo        |
+| ``FlashExportVersion.FlashVersion1`` | Version 1   |
 +--------------------------------------+-------------+
-| ``FlashExportVersion.FlashVersion2`` | todo        |
+| ``FlashExportVersion.FlashVersion2`` | Version 2   |
 +--------------------------------------+-------------+
-| ``FlashExportVersion.FlashVersion3`` | todo        |
+| ``FlashExportVersion.FlashVersion3`` | Version 3   |
 +--------------------------------------+-------------+
-| ``FlashExportVersion.FlashVersion4`` | todo        |
+| ``FlashExportVersion.FlashVersion4`` | Version 4   |
 +--------------------------------------+-------------+
-| ``FlashExportVersion.FlashVersion5`` | todo        |
+| ``FlashExportVersion.FlashVersion5`` | Version 5   |
 +--------------------------------------+-------------+
-| ``FlashExportVersion.FlashVersion6`` | todo        |
+| ``FlashExportVersion.FlashVersion6`` | Version 6   |
 +--------------------------------------+-------------+
-| ``FlashExportVersion.FlashVersion7`` | todo        |
+| ``FlashExportVersion.FlashVersion7`` | Version 7   |
 +--------------------------------------+-------------+
-| ``FlashExportVersion.FlashVersion8`` | todo        |
+| ``FlashExportVersion.FlashVersion8`` | Version 8   |
 +--------------------------------------+-------------+
-| ``FlashExportVersion.FlashVersion9`` | todo        |
+| ``FlashExportVersion.FlashVersion9`` | Version 9   |
 +--------------------------------------+-------------+
 
 ----
@@ -1093,9 +1093,9 @@ The format used to store flash images.
 +-------------------------------+-------------+
 |             Value             | Description |
 +===============================+=============+
-| ``FlashImageFormat.LOSSLESS`` | todo        |
+| ``FlashImageFormat.LOSSLESS`` | Lossless    |
 +-------------------------------+-------------+
-| ``FlashImageFormat.LOSSY``    | todo        |
+| ``FlashImageFormat.LOSSY``    | Lossy       |
 +-------------------------------+-------------+
 
 ----
@@ -1110,9 +1110,9 @@ The method used to store JPEG images.
 +-------------------------------+-------------+
 |             Value             | Description |
 +===============================+=============+
-| ``FlashJPEGMethod.Optimized`` | todo        |
+| ``FlashJPEGMethod.Optimized`` | Optimized   |
 +-------------------------------+-------------+
-| ``FlashJPEGMethod.Standard``  | todo        |
+| ``FlashJPEGMethod.Standard``  | Standard    |
 +-------------------------------+-------------+
 
 ----
@@ -1125,9 +1125,9 @@ FlashPlaybackSecurity
 +-------------------------------------------+-------------+
 |                   Value                   | Description |
 +===========================================+=============+
-| ``FlashPlaybackSecurity.PlaybackLocal``   | todo        |
+| ``FlashPlaybackSecurity.PlaybackLocal``   | Local       |
 +-------------------------------------------+-------------+
-| ``FlashPlaybackSecurity.PlaybackNetwork`` | todo        |
+| ``FlashPlaybackSecurity.PlaybackNetwork`` | Network     |
 +-------------------------------------------+-------------+
 
 ----
@@ -1154,17 +1154,17 @@ FontBaselineOption
 FontCapsOption
 ********************************************************************************
 
-+---------------------------------+-------------+
-|              Value              | Description |
-+=================================+=============+
-| ``FontCapsOption.ALLCAPS``      | todo        |
-+---------------------------------+-------------+
-| ``FontCapsOption.ALLSMALLCAPS`` | todo        |
-+---------------------------------+-------------+
-| ``FontCapsOption.NORMALCAPS``   | todo        |
-+---------------------------------+-------------+
-| ``FontCapsOption.SMALLCAPS``    | todo        |
-+---------------------------------+-------------+
++---------------------------------+---------------+
+|              Value              |  Description  |
++=================================+===============+
+| ``FontCapsOption.ALLCAPS``      | All Caps      |
++---------------------------------+---------------+
+| ``FontCapsOption.ALLSMALLCAPS`` | All Smallcaps |
++---------------------------------+---------------+
+| ``FontCapsOption.NORMALCAPS``   | Normal Caps   |
++---------------------------------+---------------+
+| ``FontCapsOption.SMALLCAPS``    | Small Caps    |
++---------------------------------+---------------+
 
 ----
 
@@ -1173,19 +1173,19 @@ FontCapsOption
 FontOpenTypePositionOption
 ********************************************************************************
 
-+----------------------------------------------------+-------------+
-|                       Value                        | Description |
-+====================================================+=============+
-| ``FontOpenTypePositionOption.DENOMINATOR``         | todo        |
-+----------------------------------------------------+-------------+
-| ``FontOpenTypePositionOption.NUMERATOR``           | todo        |
-+----------------------------------------------------+-------------+
-| ``FontOpenTypePositionOption.OPENTYPEDEFAULT``     | todo        |
-+----------------------------------------------------+-------------+
-| ``FontOpenTypePositionOption.OPENTYPESUBSCRIPT``   | todo        |
-+----------------------------------------------------+-------------+
-| ``FontOpenTypePositionOption.OPENTYPESUPERSCRIPT`` | todo        |
-+----------------------------------------------------+-------------+
++----------------------------------------------------+----------------------+
+|                       Value                        |     Description      |
++====================================================+======================+
+| ``FontOpenTypePositionOption.DENOMINATOR``         | Denominator          |
++----------------------------------------------------+----------------------+
+| ``FontOpenTypePositionOption.NUMERATOR``           | Numerator            |
++----------------------------------------------------+----------------------+
+| ``FontOpenTypePositionOption.OPENTYPEDEFAULT``     | Opentype Default     |
++----------------------------------------------------+----------------------+
+| ``FontOpenTypePositionOption.OPENTYPESUBSCRIPT``   | Opentype Subscript   |
++----------------------------------------------------+----------------------+
+| ``FontOpenTypePositionOption.OPENTYPESUPERSCRIPT`` | Opentype Superscript |
++----------------------------------------------------+----------------------+
 
 ----
 
@@ -1197,11 +1197,11 @@ FontSubstitutionPolicy
 +----------------------------------------------+-------------+
 |                    Value                     | Description |
 +==============================================+=============+
-| ``FontSubstitutionPolicy.SUBSTITUTEDEVICE``  | todo        |
+| ``FontSubstitutionPolicy.SUBSTITUTEDEVICE``  | Device      |
 +----------------------------------------------+-------------+
-| ``FontSubstitutionPolicy.SUBSTITUTEOBLIQUE`` | todo        |
+| ``FontSubstitutionPolicy.SUBSTITUTEOBLIQUE`` | Oblique     |
 +----------------------------------------------+-------------+
-| ``FontSubstitutionPolicy.SUBSTITUTETINT``    | todo        |
+| ``FontSubstitutionPolicy.SUBSTITUTETINT``    | Tint        |
 +----------------------------------------------+-------------+
 
 ----
@@ -1213,13 +1213,13 @@ FXGVersion
 
 The FXG file-format version.
 
-+----------------------------+-------------+
-|           Value            | Description |
-+============================+=============+
-| ``FXGVersion.VERSION1PT0`` | todo        |
-+----------------------------+-------------+
-| ``FXGVersion.VERSION2PT0`` | todo        |
-+----------------------------+-------------+
++----------------------------+---------------+
+|           Value            |  Description  |
++============================+===============+
+| ``FXGVersion.VERSION1PT0`` | Version 1 PT0 |
++----------------------------+---------------+
+| ``FXGVersion.VERSION2PT0`` | Version 2 PT0 |
++----------------------------+---------------+
 
 ----
 
@@ -1230,13 +1230,13 @@ GradientsPreservePolicy
 
 The gradients preserve policy used by the FXG file format.
 
-+-----------------------------------------------------------+-------------+
-|                           Value                           | Description |
-+===========================================================+=============+
-| ``GradientsPreservePolicy.AUTOMATICALLYCONVERTGRADIENTS`` | todo        |
-+-----------------------------------------------------------+-------------+
-| ``GradientsPreservePolicy.KEEPGRADIENTSEDITABLE``         | todo        |
-+-----------------------------------------------------------+-------------+
++-----------------------------------------------------------+--------------------------------+
+|                           Value                           |          Description           |
++===========================================================+================================+
+| ``GradientsPreservePolicy.AUTOMATICALLYCONVERTGRADIENTS`` | Automaticaly Convert Gradients |
++-----------------------------------------------------------+--------------------------------+
+| ``GradientsPreservePolicy.KEEPGRADIENTSEDITABLE``         | Keep Gradients Editable        |
++-----------------------------------------------------------+--------------------------------+
 
 ----
 
@@ -1250,9 +1250,9 @@ The type of gradient.
 +-------------------------+-------------+
 |          Value          | Description |
 +=========================+=============+
-| ``GradientType.LINEAR`` | todo        |
+| ``GradientType.LINEAR`` | Linear      |
 +-------------------------+-------------+
-| ``GradientType.RADIAL`` | todo        |
+| ``GradientType.RADIAL`` | Radial      |
 +-------------------------+-------------+
 
 ----
@@ -1267,19 +1267,19 @@ The color space of a raster item or an exported file
 +--------------------------------+-------------+
 |             Value              | Description |
 +================================+=============+
-| ``ImageColorSpace.CMYK``       | todo        |
+| ``ImageColorSpace.CMYK``       | CMYK        |
 +--------------------------------+-------------+
-| ``ImageColorSpace.DeviceN``    | todo        |
+| ``ImageColorSpace.DeviceN``    | DeviceN     |
 +--------------------------------+-------------+
-| ``ImageColorSpace.Grayscale``  | todo        |
+| ``ImageColorSpace.Grayscale``  | Grayscale   |
 +--------------------------------+-------------+
-| ``ImageColorSpace.Indexed``    | todo        |
+| ``ImageColorSpace.Indexed``    | Indexed     |
 +--------------------------------+-------------+
-| ``ImageColorSpace.LAB``        | todo        |
+| ``ImageColorSpace.LAB``        | LAB         |
 +--------------------------------+-------------+
-| ``ImageColorSpace.RGB``        | todo        |
+| ``ImageColorSpace.RGB``        | RGB         |
 +--------------------------------+-------------+
-| ``ImageColorSpace.Separation`` | todo        |
+| ``ImageColorSpace.Separation`` | Separation  |
 +--------------------------------+-------------+
 
 ----
@@ -1292,11 +1292,11 @@ InkPrintStatus
 +-------------------------------+-------------+
 |             Value             | Description |
 +===============================+=============+
-| ``InkPrintStatus.CONVERTINK`` | todo        |
+| ``InkPrintStatus.CONVERTINK`` | Convert Ink |
 +-------------------------------+-------------+
-| ``InkPrintStatus.ENABLEINK``  | todo        |
+| ``InkPrintStatus.ENABLEINK``  | Enable Ink  |
 +-------------------------------+-------------+
-| ``InkPrintStatus.DISABLEINK`` | todo        |
+| ``InkPrintStatus.DISABLEINK`` | Disable Ink |
 +-------------------------------+-------------+
 
 ----
@@ -1309,15 +1309,15 @@ InkType
 +------------------------+-------------+
 |         Value          | Description |
 +========================+=============+
-| ``InkType.BLACKINK``   | todo        |
+| ``InkType.BLACKINK``   | Black Ink   |
 +------------------------+-------------+
-| ``InkType.CUSTOMINK``  | todo        |
+| ``InkType.CUSTOMINK``  | Custom Ink  |
 +------------------------+-------------+
-| ``InkType.CYANINK``    | todo        |
+| ``InkType.CYANINK``    | Cyan Ink    |
 +------------------------+-------------+
-| ``InkType.MAGENTAINK`` | todo        |
+| ``InkType.MAGENTAINK`` | Magenta Ink |
 +------------------------+-------------+
-| ``InkType.YELLOWINK``  | todo        |
+| ``InkType.YELLOWINK``  | Yellow Ink  |
 +------------------------+-------------+
 
 ----
@@ -1327,15 +1327,15 @@ InkType
 JavaScriptExecutionMode
 ********************************************************************************
 
-+--------------------------------------------+-------------+
-|                   Value                    | Description |
-+============================================+=============+
-| ``JavaScriptExecutionMode.BeforeRunning``  | todo        |
-+--------------------------------------------+-------------+
-| ``JavaScriptExecutionMode.OnRuntimeError`` | todo        |
-+--------------------------------------------+-------------+
-| ``JavaScriptExecutionMode.never``          | todo        |
-+--------------------------------------------+-------------+
++--------------------------------------------+------------------+
+|                   Value                    |   Description    |
++============================================+==================+
+| ``JavaScriptExecutionMode.BeforeRunning``  | Before Running   |
++--------------------------------------------+------------------+
+| ``JavaScriptExecutionMode.OnRuntimeError`` | On Runtime Error |
++--------------------------------------------+------------------+
+| ``JavaScriptExecutionMode.never``          | Never            |
++--------------------------------------------+------------------+
 
 ----
 
@@ -1346,23 +1346,23 @@ Justification
 
 The alignment or justification for a paragraph of text.
 
-+---------------------------------------------+-------------+
-|                    Value                    | Description |
-+=============================================+=============+
-| ``Justification.CENTER``                    | todo        |
-+---------------------------------------------+-------------+
-| ``Justification.FULLJUSTIFY``               | todo        |
-+---------------------------------------------+-------------+
-| ``Justification.FULLJUSTIFYLASTLINECENTER`` | todo        |
-+---------------------------------------------+-------------+
-| ``Justification.FULLJUSTIFYLASTLINELEFT``   | todo        |
-+---------------------------------------------+-------------+
-| ``Justification.FULLJUSTIFYLASTLINERIGHT``  | todo        |
-+---------------------------------------------+-------------+
-| ``Justification.LEFT``                      | todo        |
-+---------------------------------------------+-------------+
-| ``Justification.RIGHT``                     | todo        |
-+---------------------------------------------+-------------+
++---------------------------------------------+-------------------------------+
+|                    Value                    |          Description          |
++=============================================+===============================+
+| ``Justification.CENTER``                    | Center                        |
++---------------------------------------------+-------------------------------+
+| ``Justification.FULLJUSTIFY``               | Full Justify                  |
++---------------------------------------------+-------------------------------+
+| ``Justification.FULLJUSTIFYLASTLINECENTER`` | Full Justify Last Line Center |
++---------------------------------------------+-------------------------------+
+| ``Justification.FULLJUSTIFYLASTLINELEFT``   | Full Justify Last Line Left   |
++---------------------------------------------+-------------------------------+
+| ``Justification.FULLJUSTIFYLASTLINERIGHT``  | Full Justify Last Line Right  |
++---------------------------------------------+-------------------------------+
+| ``Justification.LEFT``                      | Left                          |
++---------------------------------------------+-------------------------------+
+| ``Justification.RIGHT``                     | Right                         |
++---------------------------------------------+-------------------------------+
 
 ----
 
@@ -1393,13 +1393,13 @@ The type of knockout to use on a page item.
 +-----------------------------+-------------+
 |            Value            | Description |
 +=============================+=============+
-| ``KnockoutState.DISABLED``  | todo        |
+| ``KnockoutState.DISABLED``  | Disabled    |
 +-----------------------------+-------------+
-| ``KnockoutState.ENABLED``   | todo        |
+| ``KnockoutState.ENABLED``   | Enabled     |
 +-----------------------------+-------------+
-| ``KnockoutState.INHERITED`` | todo        |
+| ``KnockoutState.INHERITED`` | Inherited   |
 +-----------------------------+-------------+
-| ``KnockoutState.Unknown``   | todo        |
+| ``KnockoutState.Unknown``   | Unknown     |
 +-----------------------------+-------------+
 
 ----
@@ -1491,9 +1491,9 @@ LayerOrderType
 +-----------------------------+-------------+
 |            Value            | Description |
 +=============================+=============+
-| ``LayerOrderType.TOPDOWN``  | todo        |
+| ``LayerOrderType.TOPDOWN``  | Top Down    |
 +-----------------------------+-------------+
-| ``LayerOrderType.BOTTOMUP`` | todo        |
+| ``LayerOrderType.BOTTOMUP`` | Bottom Up   |
 +-----------------------------+-------------+
 
 ----
@@ -1505,19 +1505,19 @@ LibraryType
 
 Illustrator library type.
 
-+------------------------------------+-------------+
-|               Value                | Description |
-+====================================+=============+
-| ``LibraryType.Brushes``            | todo        |
-+------------------------------------+-------------+
-| ``LibraryType.GraphicStyles``      | todo        |
-+------------------------------------+-------------+
-| ``LibraryType.IllustratorArtwork`` | todo        |
-+------------------------------------+-------------+
-| ``LibraryType.Swatches``           | todo        |
-+------------------------------------+-------------+
-| ``LibraryType.Symbols``            | todo        |
-+------------------------------------+-------------+
++------------------------------------+---------------------+
+|               Value                |     Description     |
++====================================+=====================+
+| ``LibraryType.Brushes``            | Brushes             |
++------------------------------------+---------------------+
+| ``LibraryType.GraphicStyles``      | Graphic Styles      |
++------------------------------------+---------------------+
+| ``LibraryType.IllustratorArtwork`` | Illustrator Artwork |
++------------------------------------+---------------------+
+| ``LibraryType.Swatches``           | Swatches            |
++------------------------------------+---------------------+
+| ``LibraryType.Symbols``            | Symbols             |
++------------------------------------+---------------------+
 
 ----
 
@@ -1531,15 +1531,15 @@ The type of compression to use on a monochrome bitmap item when saving a PDF fil
 +-------------------------------------+-------------+
 |                Value                | Description |
 +=====================================+=============+
-| ``MonochromeCompression.CCIT3``     | todo        |
+| ``MonochromeCompression.CCIT3``     | CCIT3       |
 +-------------------------------------+-------------+
-| ``MonochromeCompression.CCIT4``     | todo        |
+| ``MonochromeCompression.CCIT4``     | CCIT4       |
 +-------------------------------------+-------------+
-| ``MonochromeCompression.MONOZIP``   | todo        |
+| ``MonochromeCompression.MONOZIP``   | MONOZIP     |
 +-------------------------------------+-------------+
-| ``MonochromeCompression.None``      | todo        |
+| ``MonochromeCompression.None``      | None        |
 +-------------------------------------+-------------+
-| ``MonochromeCompression.RUNLENGTH`` | todo        |
+| ``MonochromeCompression.RUNLENGTH`` | RUNLENGTH   |
 +-------------------------------------+-------------+
 
 ----
@@ -1551,13 +1551,13 @@ OutputFlattening
 
 How transparency should be flattened when saving EPS and Illustrator file formats with compatibility set to versions of Illustrator earlier than Illustrator 10
 
-+-----------------------------------------+-------------+
-|                  Value                  | Description |
-+=========================================+=============+
-| ``OutputFlattening.PRESERVEAPPEARANCE`` | todo        |
-+-----------------------------------------+-------------+
-| ``OutputFlattening.PRESERVEPATHS``      | todo        |
-+-----------------------------------------+-------------+
++-----------------------------------------+---------------------+
+|                  Value                  |     Description     |
++=========================================+=====================+
+| ``OutputFlattening.PRESERVEAPPEARANCE`` | Preserve Appearance |
++-----------------------------------------+---------------------+
+| ``OutputFlattening.PRESERVEPATHS``      | Preserve Paths      |
++-----------------------------------------+---------------------+
 
 ----
 
@@ -1569,9 +1569,9 @@ PageMarksTypes
 +-----------------------------+-------------+
 |            Value            | Description |
 +=============================+=============+
-| ``PageMarksTypes.Japanese`` | todo        |
+| ``PageMarksTypes.Japanese`` | Japanese    |
 +-----------------------------+-------------+
-| ``PageMarksTypes.Roman``    | todo        |
+| ``PageMarksTypes.Roman``    | Roman       |
 +-----------------------------+-------------+
 
 ----
@@ -1661,15 +1661,15 @@ The version of the Acrobat file format to create when saving a PDF file
 +-------------------------------+-------------+
 |             Value             | Description |
 +===============================+=============+
-| ``PDFCompatibility.ACROBAT4`` | todo        |
+| ``PDFCompatibility.ACROBAT4`` | Acrobat 4   |
 +-------------------------------+-------------+
-| ``PDFCompatibility.ACROBAT5`` | todo        |
+| ``PDFCompatibility.ACROBAT5`` | Acrobat 5   |
 +-------------------------------+-------------+
-| ``PDFCompatibility.ACROBAT6`` | todo        |
+| ``PDFCompatibility.ACROBAT6`` | Acrobat 6   |
 +-------------------------------+-------------+
-| ``PDFCompatibility.ACROBAT7`` | todo        |
+| ``PDFCompatibility.ACROBAT7`` | Acrobat 7   |
 +-------------------------------+-------------+
-| ``PDFCompatibility.ACROBAT8`` | todo        |
+| ``PDFCompatibility.ACROBAT8`` | Acrobat 8   |
 +-------------------------------+-------------+
 
 ----
@@ -1679,13 +1679,13 @@ The version of the Acrobat file format to create when saving a PDF file
 PDFOverprint
 ********************************************************************************
 
-+---------------------------------------+-------------+
-|                 Value                 | Description |
-+=======================================+=============+
-| ``PDFOverprint.DISCARDPDFOVERPRINT``  | todo        |
-+---------------------------------------+-------------+
-| ``PDFOverprint.PRESERVEPDFOVERPRINT`` | todo        |
-+---------------------------------------+-------------+
++---------------------------------------+------------------------+
+|                 Value                 |      Description       |
++=======================================+========================+
+| ``PDFOverprint.DISCARDPDFOVERPRINT``  | Discard Pdf Overprint  |
++---------------------------------------+------------------------+
+| ``PDFOverprint.PRESERVEPDFOVERPRINT`` | Preserve Pdf Overprint |
++---------------------------------------+------------------------+
 
 ----
 
@@ -1694,19 +1694,19 @@ PDFOverprint
 PDFPrintAllowedEnum
 ********************************************************************************
 
-+------------------------------------------------+-------------+
-|                     Value                      | Description |
-+================================================+=============+
-| ``PDFPrintAllowedEnum.PRINT128HIGHRESOLUTION`` | todo        |
-+------------------------------------------------+-------------+
-| ``PDFPrintAllowedEnum.PRINT128LOWRESOLUTION``  | todo        |
-+------------------------------------------------+-------------+
-| ``PDFPrintAllowedEnum.PRINT128NONE``           | todo        |
-+------------------------------------------------+-------------+
-| ``PDFPrintAllowedEnum.PRINT40HIGHRESOLUTION``  | todo        |
-+------------------------------------------------+-------------+
-| ``PDFPrintAllowedEnum.PRINT40NONE``            | todo        |
-+------------------------------------------------+-------------+
++------------------------------------------------+---------------------+
+|                     Value                      |     Description     |
++================================================+=====================+
+| ``PDFPrintAllowedEnum.PRINT128HIGHRESOLUTION`` | 128 High Resolution |
++------------------------------------------------+---------------------+
+| ``PDFPrintAllowedEnum.PRINT128LOWRESOLUTION``  | 128 Low Resolution  |
++------------------------------------------------+---------------------+
+| ``PDFPrintAllowedEnum.PRINT128NONE``           | 128 None            |
++------------------------------------------------+---------------------+
+| ``PDFPrintAllowedEnum.PRINT40HIGHRESOLUTION``  | 40 High Resolution  |
++------------------------------------------------+---------------------+
+| ``PDFPrintAllowedEnum.PRINT40NONE``            | 40 None             |
++------------------------------------------------+---------------------+
 
 ----
 
@@ -1718,11 +1718,11 @@ PDFTrimMarkWeight
 +------------------------------------------+-------------+
 |                  Value                   | Description |
 +==========================================+=============+
-| ``PDFTrimMarkWeight.TRIMMARKWEIGHT0125`` | todo        |
+| ``PDFTrimMarkWeight.TRIMMARKWEIGHT0125`` | Weight 0125 |
 +------------------------------------------+-------------+
-| ``PDFTrimMarkWeight.TRIMMARKWEIGHT025``  | todo        |
+| ``PDFTrimMarkWeight.TRIMMARKWEIGHT025``  | Weight 025  |
 +------------------------------------------+-------------+
-| ``PDFTrimMarkWeight.TRIMMARKWEIGHT05``   | todo        |
+| ``PDFTrimMarkWeight.TRIMMARKWEIGHT05``   | Weight 05   |
 +------------------------------------------+-------------+
 
 ----
@@ -1735,17 +1735,17 @@ PDFXStandard
 +-----------------------------+-------------+
 |            Value            | Description |
 +=============================+=============+
-| ``PDFXStandard.PDFX1A2001`` | todo        |
+| ``PDFXStandard.PDFX1A2001`` | PDFX1A2001  |
 +-----------------------------+-------------+
-| ``PDFXStandard.PDFX1A2003`` | todo        |
+| ``PDFXStandard.PDFX1A2003`` | PDFX1A2003  |
 +-----------------------------+-------------+
-| ``PDFXStandard.PDFX32002``  | todo        |
+| ``PDFXStandard.PDFX32002``  | PDFX32002   |
 +-----------------------------+-------------+
-| ``PDFXStandard.PDFX32003``  | todo        |
+| ``PDFXStandard.PDFX32003``  | PDFX32003   |
 +-----------------------------+-------------+
-| ``PDFXStandard.PDFX42007``  | todo        |
+| ``PDFXStandard.PDFX42007``  | PDFX42007   |
 +-----------------------------+-------------+
-| ``PDFXStandard.PDFXNONE``   | todo        |
+| ``PDFXStandard.PDFXNONE``   | PDFXNONE    |
 +-----------------------------+-------------+
 
 ----
@@ -1755,17 +1755,17 @@ PDFXStandard
 PerspectiveGridType
 ********************************************************************************
 
-+-------------------------------------------------------+-------------+
-|                         Value                         | Description |
-+=======================================================+=============+
-| ``PerspectiveGridType.OnePointPerspectiveGridType``   | todo        |
-+-------------------------------------------------------+-------------+
-| ``PerspectiveGridType.TwoPointPerspectiveGridType``   | todo        |
-+-------------------------------------------------------+-------------+
-| ``PerspectiveGridType.ThreePointPerspectiveGridType`` | todo        |
-+-------------------------------------------------------+-------------+
-| ``PerspectiveGridType.InvalidPerspectiveGridType``    | todo        |
-+-------------------------------------------------------+-------------+
++-------------------------------------------------------+-----------------------------------+
+|                         Value                         |            Description            |
++=======================================================+===================================+
+| ``PerspectiveGridType.OnePointPerspectiveGridType``   | One Point Perspective Grid Type   |
++-------------------------------------------------------+-----------------------------------+
+| ``PerspectiveGridType.TwoPointPerspectiveGridType``   | Two Point Perspective Grid Type   |
++-------------------------------------------------------+-----------------------------------+
+| ``PerspectiveGridType.ThreePointPerspectiveGridType`` | Three Point Perspective Grid Type |
++-------------------------------------------------------+-----------------------------------+
+| ``PerspectiveGridType.InvalidPerspectiveGridType``    | Invalid Perspective Grid Type     |
++-------------------------------------------------------+-----------------------------------+
 
 ----
 
@@ -1774,17 +1774,17 @@ PerspectiveGridType
 PerspectiveGridPlaneType
 ********************************************************************************
 
-+---------------------------------------------------+-------------+
-|                       Value                       | Description |
-+===================================================+=============+
-| ``PerspectiveGridPlaneType.GRIDLEFTPLANETYPE``    | todo        |
-+---------------------------------------------------+-------------+
-| ``PerspectiveGridPlaneType.GRIDRIGHTPLANETYPE``   | todo        |
-+---------------------------------------------------+-------------+
-| ``PerspectiveGridPlaneType.GRIDFLOORPLANETYPE``   | todo        |
-+---------------------------------------------------+-------------+
-| ``PerspectiveGridPlaneType.INVALIDGRIDPLANETYPE`` | todo        |
-+---------------------------------------------------+-------------+
++---------------------------------------------------+-------------------------+
+|                       Value                       |       Description       |
++===================================================+=========================+
+| ``PerspectiveGridPlaneType.GRIDLEFTPLANETYPE``    | Grid Left Plane Type    |
++---------------------------------------------------+-------------------------+
+| ``PerspectiveGridPlaneType.GRIDRIGHTPLANETYPE``   | Grid Right Plane Type   |
++---------------------------------------------------+-------------------------+
+| ``PerspectiveGridPlaneType.GRIDFLOORPLANETYPE``   | Grid Floor Plane Type   |
++---------------------------------------------------+-------------------------+
+| ``PerspectiveGridPlaneType.INVALIDGRIDPLANETYPE`` | Invalid Grid Plane Type |
++---------------------------------------------------+-------------------------+
 
 ----
 
@@ -1796,9 +1796,9 @@ PhotoshopCompatibility
 +---------------------------------------+-------------+
 |                 Value                 | Description |
 +=======================================+=============+
-| ``PhotoshopCompatibility.Photoshop6`` | todo        |
+| ``PhotoshopCompatibility.Photoshop6`` | Photoshop 6 |
 +---------------------------------------+-------------+
-| ``PhotoshopCompatibility.Photoshop8`` | todo        |
+| ``PhotoshopCompatibility.Photoshop8`` | Photoshop 8 |
 +---------------------------------------+-------------+
 
 ----
@@ -1813,9 +1813,9 @@ The type of path point selected
 +----------------------+-------------+
 |        Value         | Description |
 +======================+=============+
-| ``PointType.CORNER`` | todo        |
+| ``PointType.CORNER`` | Corner      |
 +----------------------+-------------+
-| ``PointType.SMOOTH`` | todo        |
+| ``PointType.SMOOTH`` | Smooth      |
 +----------------------+-------------+
 
 ----
@@ -1828,9 +1828,9 @@ PolarityValues
 +-----------------------------+-------------+
 |            Value            | Description |
 +=============================+=============+
-| ``PolarityValues.NEGATIVE`` | todo        |
+| ``PolarityValues.NEGATIVE`` | Negative    |
 +-----------------------------+-------------+
-| ``PolarityValues.POSITIVE`` | todo        |
+| ``PolarityValues.POSITIVE`` | Positive    |
 +-----------------------------+-------------+
 
 ----
@@ -1857,15 +1857,15 @@ PostScriptImageCompressionType
 PrintArtworkDesignation
 ********************************************************************************
 
-+----------------------------------------------------+-------------+
-|                       Value                        | Description |
-+====================================================+=============+
-| ``PrintArtworkDesignation.ALLLAYERS``              | todo        |
-+----------------------------------------------------+-------------+
-| ``PrintArtworkDesignation.VISIBLELAYERS``          | todo        |
-+----------------------------------------------------+-------------+
-| ``PrintArtworkDesignation.VISIBLEPRINTABLELAYERS`` | todo        |
-+----------------------------------------------------+-------------+
++----------------------------------------------------+--------------------------+
+|                       Value                        |       Description        |
++====================================================+==========================+
+| ``PrintArtworkDesignation.ALLLAYERS``              | All Layers               |
++----------------------------------------------------+--------------------------+
+| ``PrintArtworkDesignation.VISIBLELAYERS``          | Visible Layers           |
++----------------------------------------------------+--------------------------+
+| ``PrintArtworkDesignation.VISIBLEPRINTABLELAYERS`` | Visible Printable Layers |
++----------------------------------------------------+--------------------------+
 
 ----
 
@@ -1893,17 +1893,17 @@ PrintColorIntent
 PrintColorProfile
 ********************************************************************************
 
-+---------------------------------------+-------------+
-|                 Value                 | Description |
-+=======================================+=============+
-| ``PrintColorProfile.CUSTOMPROFILE``   | todo        |
-+---------------------------------------+-------------+
-| ``PrintColorProfile.PRINTERPROFILE``  | todo        |
-+---------------------------------------+-------------+
-| ``PrintColorProfile.OLDSTYLEPROFILE`` | todo        |
-+---------------------------------------+-------------+
-| ``PrintColorProfile.SOURCEPROFILE``   | todo        |
-+---------------------------------------+-------------+
++---------------------------------------+------------------+
+|                 Value                 |   Description    |
++=======================================+==================+
+| ``PrintColorProfile.CUSTOMPROFILE``   | Custom Profile   |
++---------------------------------------+------------------+
+| ``PrintColorProfile.PRINTERPROFILE``  | Printer Profile  |
++---------------------------------------+------------------+
+| ``PrintColorProfile.OLDSTYLEPROFILE`` | Oldstyle Profile |
++---------------------------------------+------------------+
+| ``PrintColorProfile.SOURCEPROFILE``   | Source Profile   |
++---------------------------------------+------------------+
 
 ----
 
@@ -1912,15 +1912,15 @@ PrintColorProfile
 PrintColorSeparationMode
 ********************************************************************************
 
-+--------------------------------------------------+-------------+
-|                      Value                       | Description |
-+==================================================+=============+
-| ``PrintColorSeparationMode.COMPOSITE``           | todo        |
-+--------------------------------------------------+-------------+
-| ``PrintColorSeparationMode.HOSTBASEDSEPARATION`` | todo        |
-+--------------------------------------------------+-------------+
-| ``PrintColorSeparationMode.INRIPSEPARATION``     | todo        |
-+--------------------------------------------------+-------------+
++--------------------------------------------------+-----------------------+
+|                      Value                       |      Description      |
++==================================================+=======================+
+| ``PrintColorSeparationMode.COMPOSITE``           | Composite             |
++--------------------------------------------------+-----------------------+
+| ``PrintColorSeparationMode.HOSTBASEDSEPARATION`` | Host-Based Separation |
++--------------------------------------------------+-----------------------+
+| ``PrintColorSeparationMode.INRIPSEPARATION``     | Inrip Separation      |
++--------------------------------------------------+-----------------------+
 
 ----
 
@@ -1929,15 +1929,15 @@ PrintColorSeparationMode
 PrinterColorMode
 ********************************************************************************
 
-+-------------------------------------------+-------------+
-|                   Value                   | Description |
-+===========================================+=============+
-| ``PrinterColorMode.BLACKANDWHITEPRINTER`` | todo        |
-+-------------------------------------------+-------------+
-| ``PrinterColorMode.COLORPRINTER``         | todo        |
-+-------------------------------------------+-------------+
-| ``PrinterColorMode.GRAYSCALEPRINTER``     | todo        |
-+-------------------------------------------+-------------+
++-------------------------------------------+---------------+
+|                   Value                   |  Description  |
++===========================================+===============+
+| ``PrinterColorMode.BLACKANDWHITEPRINTER`` | Black & White |
++-------------------------------------------+---------------+
+| ``PrinterColorMode.COLORPRINTER``         | Color         |
++-------------------------------------------+---------------+
+| ``PrinterColorMode.GRAYSCALEPRINTER``     | Grayscale     |
++-------------------------------------------+---------------+
 
 ----
 
@@ -1949,11 +1949,11 @@ PrinterPostScriptLevelEnum
 +-----------------------------------------+-------------+
 |                  Value                  | Description |
 +=========================================+=============+
-| ``PrinterPostScriptLevelEnum.PSLEVEL1`` | todo        |
+| ``PrinterPostScriptLevelEnum.PSLEVEL1`` | PS LEVEL 1  |
 +-----------------------------------------+-------------+
-| ``PrinterPostScriptLevelEnum.PSLEVEL2`` | todo        |
+| ``PrinterPostScriptLevelEnum.PSLEVEL2`` | PS LEVEL 2  |
 +-----------------------------------------+-------------+
-| ``PrinterPostScriptLevelEnum.PSLEVEL3`` | todo        |
+| ``PrinterPostScriptLevelEnum.PSLEVEL3`` | PS LEVEL 3  |
 +-----------------------------------------+-------------+
 
 ----
@@ -1963,15 +1963,15 @@ PrinterPostScriptLevelEnum
 PrinterTypeEnum
 ********************************************************************************
 
-+------------------------------------------+-------------+
-|                  Value                   | Description |
-+==========================================+=============+
-| ``PrinterTypeEnum.NONPOSTSCRIPTPRINTER`` | todo        |
-+------------------------------------------+-------------+
-| ``PrinterTypeEnum.POSTSCRIPTPRINTER``    | todo        |
-+------------------------------------------+-------------+
-| ``PrinterTypeEnum.Unknown``              | todo        |
-+------------------------------------------+-------------+
++------------------------------------------+------------------------+
+|                  Value                   |      Description       |
++==========================================+========================+
+| ``PrinterTypeEnum.NONPOSTSCRIPTPRINTER`` | Non Postscript Printer |
++------------------------------------------+------------------------+
+| ``PrinterTypeEnum.POSTSCRIPTPRINTER``    | Postscript Printer     |
++------------------------------------------+------------------------+
+| ``PrinterTypeEnum.Unknown``              | Unknown                |
++------------------------------------------+------------------------+
 
 ----
 
@@ -1980,15 +1980,15 @@ PrinterTypeEnum
 PrintFontDownloadMode
 ********************************************************************************
 
-+--------------------------------------------+-------------+
-|                   Value                    | Description |
-+============================================+=============+
-| ``PrintFontDownloadMode.DOWNLOADNONE``     | todo        |
-+--------------------------------------------+-------------+
-| ``PrintFontDownloadMode.DOWNLOADCOMPLETE`` | todo        |
-+--------------------------------------------+-------------+
-| ``PrintFontDownloadMode.DOWNLOADSUBSET``   | todo        |
-+--------------------------------------------+-------------+
++--------------------------------------------+-------------------+
+|                   Value                    |    Description    |
++============================================+===================+
+| ``PrintFontDownloadMode.DOWNLOADNONE``     | Download None     |
++--------------------------------------------+-------------------+
+| ``PrintFontDownloadMode.DOWNLOADCOMPLETE`` | Download Complete |
++--------------------------------------------+-------------------+
+| ``PrintFontDownloadMode.DOWNLOADSUBSET``   | Download Subset   |
++--------------------------------------------+-------------------+
 
 ----
 
@@ -1997,13 +1997,13 @@ PrintFontDownloadMode
 PrintingBounds
 ********************************************************************************
 
-+-----------------------------------+-------------+
-|               Value               | Description |
-+===================================+=============+
-| ``PrintingBounds.ARTBOARDBOUNDS`` | todo        |
-+-----------------------------------+-------------+
-| ``PrintingBounds.ARTWORKBOUNDS``  | todo        |
-+-----------------------------------+-------------+
++-----------------------------------+-----------------+
+|               Value               |   Description   |
++===================================+=================+
+| ``PrintingBounds.ARTBOARDBOUNDS`` | Artboard Bounds |
++-----------------------------------+-----------------+
+| ``PrintingBounds.ARTWORKBOUNDS``  | Artwork Bounds  |
++-----------------------------------+-----------------+
 
 ----
 
@@ -2014,19 +2014,19 @@ PrintOrientation
 
 The artwork printing orientation.
 
-+---------------------------------------+-------------+
-|                 Value                 | Description |
-+=======================================+=============+
-| ``PrintOrientation.AUTOROTATE``       | todo        |
-+---------------------------------------+-------------+
-| ``PrintOrientation.LANDSCAPE``        | todo        |
-+---------------------------------------+-------------+
-| ``PrintOrientation.PORTRAIT``         | todo        |
-+---------------------------------------+-------------+
-| ``PrintOrientation.REVERSELANDSCAPE`` | todo        |
-+---------------------------------------+-------------+
-| ``PrintOrientation.REVERSEPORTRAIT``  | todo        |
-+---------------------------------------+-------------+
++---------------------------------------+-------------------+
+|                 Value                 |    Description    |
++=======================================+===================+
+| ``PrintOrientation.AUTOROTATE``       | Auto Rotate       |
++---------------------------------------+-------------------+
+| ``PrintOrientation.LANDSCAPE``        | Landscape         |
++---------------------------------------+-------------------+
+| ``PrintOrientation.PORTRAIT``         | Portrait          |
++---------------------------------------+-------------------+
+| ``PrintOrientation.REVERSELANDSCAPE`` | Reverse Landscape |
++---------------------------------------+-------------------+
+| ``PrintOrientation.REVERSEPORTRAIT``  | Reverse Portrait  |
++---------------------------------------+-------------------+
 
 ----
 
@@ -2035,27 +2035,27 @@ The artwork printing orientation.
 PrintPosition
 ********************************************************************************
 
-+----------------------------------------+-------------+
-|                 Value                  | Description |
-+========================================+=============+
-| ``.PrintPositionTRANSLATEBOTTOM``      | todo        |
-+----------------------------------------+-------------+
-| ``.PrintPositionTRANSLATEBOTTOMLEFT``  | todo        |
-+----------------------------------------+-------------+
-| ``.PrintPositionTRANSLATEBOTTOMRIGHT`` | todo        |
-+----------------------------------------+-------------+
-| ``.PrintPositionTRANSLATECENTER``      | todo        |
-+----------------------------------------+-------------+
-| ``.PrintPositionTRANSLATELEFT``        | todo        |
-+----------------------------------------+-------------+
-| ``.PrintPositionTRANSLATERIGHT``       | todo        |
-+----------------------------------------+-------------+
-| ``.PrintPositionTRANSLATETOP``         | todo        |
-+----------------------------------------+-------------+
-| ``.PrintPositionTRANSLATETOPLEFT``     | todo        |
-+----------------------------------------+-------------+
-| ``.PrintPositionTRANSLATETOPRIGHT``    | todo        |
-+----------------------------------------+-------------+
++----------------------------------------+------------------------+
+|                 Value                  |      Description       |
++========================================+========================+
+| ``PrintPosition.TRANSLATEBOTTOM``      | Translate Bottom       |
++----------------------------------------+------------------------+
+| ``PrintPosition.TRANSLATEBOTTOMLEFT``  | Translate Bottom Left  |
++----------------------------------------+------------------------+
+| ``PrintPosition.TRANSLATEBOTTOMRIGHT`` | Translate Bottom Right |
++----------------------------------------+------------------------+
+| ``PrintPosition.TRANSLATECENTER``      | Translate Center       |
++----------------------------------------+------------------------+
+| ``PrintPosition.TRANSLATELEFT``        | Translate Left         |
++----------------------------------------+------------------------+
+| ``PrintPosition.TRANSLATERIGHT``       | Translate Right        |
++----------------------------------------+------------------------+
+| ``PrintPosition.TRANSLATETOP``         | Translate Top          |
++----------------------------------------+------------------------+
+| ``PrintPosition.TRANSLATETOPLEFT``     | Translate Top Left     |
++----------------------------------------+------------------------+
+| ``PrintPosition.TRANSLATETOPRIGHT``    | Translate Top Right    |
++----------------------------------------+------------------------+
 
 ----
 
@@ -2064,15 +2064,15 @@ PrintPosition
 PrintTiling
 ********************************************************************************
 
-+------------------------------------+-------------+
-|               Value                | Description |
-+====================================+=============+
-| ``PrintTiling.TILEFULLPAGES``      | todo        |
-+------------------------------------+-------------+
-| ``PrintTiling.TILESINGLEFULLPAGE`` | todo        |
-+------------------------------------+-------------+
-| ``PrintTiling.TILEIMAGEABLEAREAS`` | todo        |
-+------------------------------------+-------------+
++------------------------------------+------------------+
+|               Value                |   Description    |
++====================================+==================+
+| ``PrintTiling.TILEFULLPAGES``      | Full Pages       |
++------------------------------------+------------------+
+| ``PrintTiling.TILESINGLEFULLPAGE`` | Single Full Page |
++------------------------------------+------------------+
+| ``PrintTiling.TILEIMAGEABLEAREAS`` | Imageable Areas  |
++------------------------------------+------------------+
 
 ----
 
@@ -2083,15 +2083,15 @@ RasterizationColorModel
 
 The color model for the rasterization.
 
-+-----------------------------------------------+-------------+
-|                     Value                     | Description |
-+===============================================+=============+
-| ``RasterizationColorModel.BITMAP``            | todo        |
-+-----------------------------------------------+-------------+
-| ``RasterizationColorModel.DEFAULTCOLORMODEL`` | todo        |
-+-----------------------------------------------+-------------+
-| ``RasterizationColorModel.GRAYSCALE``         | todo        |
-+-----------------------------------------------+-------------+
++-----------------------------------------------+---------------------+
+|                     Value                     |     Description     |
++===============================================+=====================+
+| ``RasterizationColorModel.BITMAP``            | Bitmap              |
++-----------------------------------------------+---------------------+
+| ``RasterizationColorModel.DEFAULTCOLORMODEL`` | Default Color Model |
++-----------------------------------------------+---------------------+
+| ``RasterizationColorModel.GRAYSCALE``         | Grayscale           |
++-----------------------------------------------+---------------------+
 
 ----
 
@@ -2102,15 +2102,15 @@ RasterLinkState
 
 The status of a raster item’s linked image if the image is stored externally
 
-+----------------------------------+-------------+
-|              Value               | Description |
-+==================================+=============+
-| ``RasterLinkState.DATAFROMFILE`` | todo        |
-+----------------------------------+-------------+
-| ``RasterLinkState.DATAMODIFIED`` | todo        |
-+----------------------------------+-------------+
-| ``RasterLinkState.NODATA``       | todo        |
-+----------------------------------+-------------+
++----------------------------------+----------------+
+|              Value               |  Description   |
++==================================+================+
+| ``RasterLinkState.DATAFROMFILE`` | Data From File |
++----------------------------------+----------------+
+| ``RasterLinkState.DATAMODIFIED`` | Data Modified  |
++----------------------------------+----------------+
+| ``RasterLinkState.NODATA``       | No Data        |
++----------------------------------+----------------+
 
 ----
 
@@ -2124,21 +2124,21 @@ The default measurement units for the rulers of a document
 +----------------------------+-------------+
 |           Value            | Description |
 +============================+=============+
-| ``RulerUnits.Centimeters`` | todo        |
+| ``RulerUnits.Centimeters`` | Centimeters |
 +----------------------------+-------------+
-| ``RulerUnits.Qs``          | todo        |
+| ``RulerUnits.Qs``          | Qs          |
 +----------------------------+-------------+
-| ``RulerUnits.Inches``      | todo        |
+| ``RulerUnits.Inches``      | Inches      |
 +----------------------------+-------------+
-| ``RulerUnits.Pixels``      | todo        |
+| ``RulerUnits.Pixels``      | Pixels      |
 +----------------------------+-------------+
-| ``RulerUnits.Millimeters`` | todo        |
+| ``RulerUnits.Millimeters`` | Millimeters |
 +----------------------------+-------------+
-| ``RulerUnits.Unknown``     | todo        |
+| ``RulerUnits.Unknown``     | Unknown     |
 +----------------------------+-------------+
-| ``RulerUnits.Picas``       | todo        |
+| ``RulerUnits.Picas``       | Picas       |
 +----------------------------+-------------+
-| ``RulerUnits.Points``      | todo        |
+| ``RulerUnits.Points``      | Points      |
 +----------------------------+-------------+
 
 ----
@@ -2150,15 +2150,15 @@ SaveOptions
 
 Save options provided when closing a document.
 
-+-------------------------------------+-------------+
-|                Value                | Description |
-+=====================================+=============+
-| ``SaveOptions.DONOTSAVECHANGES``    | todo        |
-+-------------------------------------+-------------+
-| ``SaveOptions.SAVECHANGES``         | todo        |
-+-------------------------------------+-------------+
-| ``SaveOptions.PROMPTTOSAVECHANGES`` | todo        |
-+-------------------------------------+-------------+
++-------------------------------------+------------------------+
+|                Value                |      Description       |
++=====================================+========================+
+| ``SaveOptions.DONOTSAVECHANGES``    | Do Not Save Changes    |
++-------------------------------------+------------------------+
+| ``SaveOptions.SAVECHANGES``         | Save Changes           |
++-------------------------------------+------------------------+
+| ``SaveOptions.PROMPTTOSAVECHANGES`` | Prompt To Save Changes |
++-------------------------------------+------------------------+
 
 ----
 
@@ -2169,15 +2169,15 @@ ScreenMode
 
 The mode of display for a view.
 
-+----------------------------+-------------+
-|           Value            | Description |
-+============================+=============+
-| ``ScreenMode.DESKTOP``     | todo        |
-+----------------------------+-------------+
-| ``ScreenMode.MULTIWINDOW`` | todo        |
-+----------------------------+-------------+
-| ``ScreenMode.FULLSCREEN``  | todo        |
-+----------------------------+-------------+
++----------------------------+--------------+
+|           Value            | Description  |
++============================+==============+
+| ``ScreenMode.DESKTOP``     | Desktop      |
++----------------------------+--------------+
+| ``ScreenMode.MULTIWINDOW`` | Multi Window |
++----------------------------+--------------+
+| ``ScreenMode.FULLSCREEN``  | Fullscreen   |
++----------------------------+--------------+
 
 ----
 
@@ -2191,11 +2191,11 @@ The custom color kind of a spot color.
 +----------------------------+-------------+
 |           Value            | Description |
 +============================+=============+
-| ``SpotColorKind.SpotCMYK`` | todo        |
+| ``SpotColorKind.SpotCMYK`` | CMYK        |
 +----------------------------+-------------+
-| ``SpotColorKind.SpotLAB``  | todo        |
+| ``SpotColorKind.SpotLAB``  | LAB         |
 +----------------------------+-------------+
-| ``SpotColorKind.SpotRGB``  | todo        |
+| ``SpotColorKind.SpotRGB``  | RGB         |
 +----------------------------+-------------+
 
 ----
@@ -2210,11 +2210,11 @@ The type of line capping for a path stroke.
 +--------------------------------+-------------+
 |             Value              | Description |
 +================================+=============+
-| ``StrokeCap.BUTTENDCAP``       | todo        |
+| ``StrokeCap.BUTTENDCAP``       | Butt        |
 +--------------------------------+-------------+
-| ``StrokeCap.ROUNDENDCAP``      | todo        |
+| ``StrokeCap.ROUNDENDCAP``      | Round       |
 +--------------------------------+-------------+
-| ``StrokeCap.PROJECTINGENDCAP`` | todo        |
+| ``StrokeCap.PROJECTINGENDCAP`` | Projecting  |
 +--------------------------------+-------------+
 
 ----
@@ -2229,11 +2229,11 @@ The type of joints for a path stroke.
 +-----------------------------+-------------+
 |            Value            | Description |
 +=============================+=============+
-| ``StrokeJoin.BEVELENDJOIN`` | todo        |
+| ``StrokeJoin.BEVELENDJOIN`` | Bevel       |
 +-----------------------------+-------------+
-| ``StrokeJoin.ROUNDENDJOIN`` | todo        |
+| ``StrokeJoin.ROUNDENDJOIN`` | Round       |
 +-----------------------------+-------------+
-| ``StrokeJoin.MITERENDJOIN`` | todo        |
+| ``StrokeJoin.MITERENDJOIN`` | Miter       |
 +-----------------------------+-------------+
 
 ----
@@ -2243,21 +2243,21 @@ The type of joints for a path stroke.
 StyleRunAlignmentType
 ********************************************************************************
 
-+-----------------------------------------+-------------+
-|                  Value                  | Description |
-+=========================================+=============+
-| ``StyleRunAlignmentType.bottom``        | todo        |
-+-----------------------------------------+-------------+
-| ``StyleRunAlignmentType.icfTop``        | todo        |
-+-----------------------------------------+-------------+
-| ``StyleRunAlignmentType.center``        | todo        |
-+-----------------------------------------+-------------+
-| ``StyleRunAlignmentType.ROMANBASELINE`` | todo        |
-+-----------------------------------------+-------------+
-| ``StyleRunAlignmentType.icfBottom``     | todo        |
-+-----------------------------------------+-------------+
-| ``StyleRunAlignmentType.top``           | todo        |
-+-----------------------------------------+-------------+
++-----------------------------------------+----------------+
+|                  Value                  |  Description   |
++=========================================+================+
+| ``StyleRunAlignmentType.bottom``        | Bottom         |
++-----------------------------------------+----------------+
+| ``StyleRunAlignmentType.icfTop``        | ICF Top        |
++-----------------------------------------+----------------+
+| ``StyleRunAlignmentType.center``        | Center         |
++-----------------------------------------+----------------+
+| ``StyleRunAlignmentType.ROMANBASELINE`` | Roman Baseline |
++-----------------------------------------+----------------+
+| ``StyleRunAlignmentType.icfBottom``     | ICF Bottom     |
++-----------------------------------------+----------------+
+| ``StyleRunAlignmentType.top``           | Top            |
++-----------------------------------------+----------------+
 
 ----
 
@@ -2268,17 +2268,17 @@ SVGCSSPropertyLocation
 
 How should the CSS properties of the document be included in an exported SVG file
 
-+---------------------------------------------------+-------------+
-|                       Value                       | Description |
-+===================================================+=============+
-| ``SVGCSSPropertyLocation.ENTITIES``               | todo        |
-+---------------------------------------------------+-------------+
-| ``SVGCSSPropertyLocation.STYLEATTRIBUTES``        | todo        |
-+---------------------------------------------------+-------------+
-| ``SVGCSSPropertyLocation.PRESENTATIONATTRIBUTES`` | todo        |
-+---------------------------------------------------+-------------+
-| ``SVGCSSPropertyLocation.STYLEELEMENTS``          | todo        |
-+---------------------------------------------------+-------------+
++---------------------------------------------------+-------------------------+
+|                       Value                       |       Description       |
++===================================================+=========================+
+| ``SVGCSSPropertyLocation.ENTITIES``               | Entities                |
++---------------------------------------------------+-------------------------+
+| ``SVGCSSPropertyLocation.STYLEATTRIBUTES``        | Style Attributes        |
++---------------------------------------------------+-------------------------+
+| ``SVGCSSPropertyLocation.PRESENTATIONATTRIBUTES`` | Presentation Attributes |
++---------------------------------------------------+-------------------------+
+| ``SVGCSSPropertyLocation.STYLEELEMENTS``          | Style Elements          |
++---------------------------------------------------+-------------------------+
 
 ----
 
@@ -2292,11 +2292,11 @@ How should the text in the document be encoded when exporting an SVG file
 +-------------------------------+-------------+
 |             Value             | Description |
 +===============================+=============+
-| ``SVGDocumentEncoding.ASCII`` | todo        |
+| ``SVGDocumentEncoding.ASCII`` | ASCII       |
 +-------------------------------+-------------+
-| ``SVGDocumentEncoding.UTF8``  | todo        |
+| ``SVGDocumentEncoding.UTF8``  | UTF8        |
 +-------------------------------+-------------+
-| ``SVGDocumentEncoding.UTF16`` | todo        |
+| ``SVGDocumentEncoding.UTF16`` | UTF16       |
 +-------------------------------+-------------+
 
 ----
@@ -2306,23 +2306,23 @@ How should the text in the document be encoded when exporting an SVG file
 SVGDTDVersion
 ********************************************************************************
 
-SVB version compatibility for exported files
+SVG version compatibility for exported files
 
-+----------------------------------+-------------+
-|              Value               | Description |
-+==================================+=============+
-| ``SVGDTDVersion.SVG1_0``         | todo        |
-+----------------------------------+-------------+
-| ``SVGDTDVersion.SVG1_1``         | todo        |
-+----------------------------------+-------------+
-| ``SVGDTDVersion.SVGBASIC1_1``    | todo        |
-+----------------------------------+-------------+
-| ``SVGDTDVersion.SVGTINY1_1``     | todo        |
-+----------------------------------+-------------+
-| ``SVGDTDVersion.SVGTINY1_1PLUS`` | todo        |
-+----------------------------------+-------------+
-| ``SVGDTDVersion.SVGTINY1_2``     | todo        |
-+----------------------------------+-------------+
++----------------------------------+----------------+
+|              Value               |  Description   |
++==================================+================+
+| ``SVGDTDVersion.SVG1_0``         | SVG1_0         |
++----------------------------------+----------------+
+| ``SVGDTDVersion.SVG1_1``         | SVG1_1         |
++----------------------------------+----------------+
+| ``SVGDTDVersion.SVGBASIC1_1``    | SVGBASIC1_1    |
++----------------------------------+----------------+
+| ``SVGDTDVersion.SVGTINY1_1``     | SVGTINY1_1     |
++----------------------------------+----------------+
+| ``SVGDTDVersion.SVGTINY1_1PLUS`` | SVGTINY1_1PLUS |
++----------------------------------+----------------+
+| ``SVGDTDVersion.SVGTINY1_2``     | SVGTINY1_2     |
++----------------------------------+----------------+
 
 ----
 
@@ -2333,23 +2333,23 @@ SVGFontSubsetting
 
 What font glyphs should be included in exported SVG files
 
-+---------------------------------------------+-------------+
-|                    Value                    | Description |
-+=============================================+=============+
-| ``SVGFontSubsetting.ALLGLYPHS``             | todo        |
-+---------------------------------------------+-------------+
-| ``SVGFontSubsetting.GLYPHSUSEDPLUSENGLISH`` | todo        |
-+---------------------------------------------+-------------+
-| ``SVGFontSubsetting.COMMONENGLISH``         | todo        |
-+---------------------------------------------+-------------+
-| ``SVGFontSubsetting.GLYPHSUSEDPLUSROMAN``   | todo        |
-+---------------------------------------------+-------------+
-| ``SVGFontSubsetting.COMMONROMAN``           | todo        |
-+---------------------------------------------+-------------+
-| ``SVGFontSubsetting.GLYPHSUSED``            | todo        |
-+---------------------------------------------+-------------+
-| ``SVGFontSubsetting.None``                  | todo        |
-+---------------------------------------------+-------------+
++---------------------------------------------+--------------------------+
+|                    Value                    |       Description        |
++=============================================+==========================+
+| ``SVGFontSubsetting.ALLGLYPHS``             | All Glyphs               |
++---------------------------------------------+--------------------------+
+| ``SVGFontSubsetting.GLYPHSUSEDPLUSENGLISH`` | Glyphs Used Plus English |
++---------------------------------------------+--------------------------+
+| ``SVGFontSubsetting.COMMONENGLISH``         | Common English           |
++---------------------------------------------+--------------------------+
+| ``SVGFontSubsetting.GLYPHSUSEDPLUSROMAN``   | Glyphs Used Plus Roman   |
++---------------------------------------------+--------------------------+
+| ``SVGFontSubsetting.COMMONROMAN``           | Common Roman             |
++---------------------------------------------+--------------------------+
+| ``SVGFontSubsetting.GLYPHSUSED``            | Glyphs Used              |
++---------------------------------------------+--------------------------+
+| ``SVGFontSubsetting.None``                  | None                     |
++---------------------------------------------+--------------------------+
 
 ----
 
@@ -2360,15 +2360,15 @@ SVGFontType
 
 Types for fonts included in exported SVG files
 
-+-----------------------------+-------------+
-|            Value            | Description |
-+=============================+=============+
-| ``SVGFontType.CEFFONT``     | todo        |
-+-----------------------------+-------------+
-| ``SVGFontType.SVGFONT``     | todo        |
-+-----------------------------+-------------+
-| ``SVGFontType.OUTLINEFONT`` | todo        |
-+-----------------------------+-------------+
++-----------------------------+--------------+
+|            Value            | Description  |
++=============================+==============+
+| ``SVGFontType.CEFFONT``     | CEF Font     |
++-----------------------------+--------------+
+| ``SVGFontType.SVGFONT``     | SVG Font     |
++-----------------------------+--------------+
+| ``SVGFontType.OUTLINEFONT`` | Outline Font |
++-----------------------------+--------------+
 
 ----
 
@@ -2379,27 +2379,27 @@ SymbolRegistrationPoint
 
 Registration points for symbols.
 
-+-----------------------------------------------------+-------------+
-|                        Value                        | Description |
-+=====================================================+=============+
-| ``SymbolRegistrationPoint.SYMBOLBOTTOMLEFTPOINT``   | todo        |
-+-----------------------------------------------------+-------------+
-| ``SymbolRegistrationPoint.SYMBOLBOTTOMMIDDLEPOINT`` | todo        |
-+-----------------------------------------------------+-------------+
-| ``SymbolRegistrationPoint.SYMBOLBOTTOMRIGHTPOINT``  | todo        |
-+-----------------------------------------------------+-------------+
-| ``SymbolRegistrationPoint.SYMBOLCENTERPOINT``       | todo        |
-+-----------------------------------------------------+-------------+
-| ``SymbolRegistrationPoint.SYMBOLMIDDLELEFTPOINT``   | todo        |
-+-----------------------------------------------------+-------------+
-| ``SymbolRegistrationPoint.SYMBOLMIDDLERIGHTPOINT``  | todo        |
-+-----------------------------------------------------+-------------+
-| ``SymbolRegistrationPoint.SYMBOLTOPLEFTPOINT``      | todo        |
-+-----------------------------------------------------+-------------+
-| ``SymbolRegistrationPoint.SYMBOLTOPMIDDLEPOINT``    | todo        |
-+-----------------------------------------------------+-------------+
-| ``SymbolRegistrationPoint.SYMBOLTOPRIGHTPOINT``     | todo        |
-+-----------------------------------------------------+-------------+
++-----------------------------------------------------+---------------------+
+|                        Value                        |     Description     |
++=====================================================+=====================+
+| ``SymbolRegistrationPoint.SYMBOLBOTTOMLEFTPOINT``   | Bottom Left Point   |
++-----------------------------------------------------+---------------------+
+| ``SymbolRegistrationPoint.SYMBOLBOTTOMMIDDLEPOINT`` | Bottom Middle Point |
++-----------------------------------------------------+---------------------+
+| ``SymbolRegistrationPoint.SYMBOLBOTTOMRIGHTPOINT``  | Bottom Right Point  |
++-----------------------------------------------------+---------------------+
+| ``SymbolRegistrationPoint.SYMBOLCENTERPOINT``       | Center Point        |
++-----------------------------------------------------+---------------------+
+| ``SymbolRegistrationPoint.SYMBOLMIDDLELEFTPOINT``   | Middle Left Point   |
++-----------------------------------------------------+---------------------+
+| ``SymbolRegistrationPoint.SYMBOLMIDDLERIGHTPOINT``  | Middle Right Point  |
++-----------------------------------------------------+---------------------+
+| ``SymbolRegistrationPoint.SYMBOLTOPLEFTPOINT``      | Top Left Point      |
++-----------------------------------------------------+---------------------+
+| ``SymbolRegistrationPoint.SYMBOLTOPMIDDLEPOINT``    | Top Middle Point    |
++-----------------------------------------------------+---------------------+
+| ``SymbolRegistrationPoint.SYMBOLTOPRIGHTPOINT``     | Top Right Point     |
++-----------------------------------------------------+---------------------+
 
 ----
 
@@ -2413,13 +2413,13 @@ The alignment of a tab stop.
 +------------------------------+-------------+
 |            Value             | Description |
 +==============================+=============+
-| ``TabStopAlignment.Center``  | todo        |
+| ``TabStopAlignment.Center``  | Center      |
 +------------------------------+-------------+
-| ``TabStopAlignment.Decimal`` | todo        |
+| ``TabStopAlignment.Decimal`` | Decimal     |
 +------------------------------+-------------+
-| ``TabStopAlignment.Left``    | todo        |
+| ``TabStopAlignment.Left``    | Left        |
 +------------------------------+-------------+
-| ``TabStopAlignment.Right``   | todo        |
+| ``TabStopAlignment.Right``   | Right       |
 +------------------------------+-------------+
 
 ----
@@ -2434,13 +2434,13 @@ The type of text anti-aliasing in a text art item.
 +--------------------------+-------------+
 |          Value           | Description |
 +==========================+=============+
-| ``TextAntialias.CRISP``  | todo        |
+| ``TextAntialias.CRISP``  | Crisp       |
 +--------------------------+-------------+
-| ``TextAntialias.NONE``   | todo        |
+| ``TextAntialias.NONE``   | None        |
 +--------------------------+-------------+
-| ``TextAntialias.SHARP``  | todo        |
+| ``TextAntialias.SHARP``  | Sharp       |
 +--------------------------+-------------+
-| ``TextAntialias.STRONG`` | todo        |
+| ``TextAntialias.STRONG`` | Strong      |
 +--------------------------+-------------+
 
 ----
@@ -2455,9 +2455,9 @@ The orientation of text in a text art item.
 +--------------------------------+-------------+
 |             Value              | Description |
 +================================+=============+
-| ``TextOrientation.HORIZONTAL`` | todo        |
+| ``TextOrientation.HORIZONTAL`` | Horizontal  |
 +--------------------------------+-------------+
-| ``TextOrientation.VERTICAL``   | todo        |
+| ``TextOrientation.VERTICAL``   | Vertical    |
 +--------------------------------+-------------+
 
 ----
@@ -2469,17 +2469,17 @@ TextPreservePolicy
 
 The text-preserve policy used by the FXG file format.
 
-+-------------------------------------------------+-------------+
-|                      Value                      | Description |
-+=================================================+=============+
-| ``TextPreservePolicy.AUTOMATICALLYCONVERTTEXT`` | todo        |
-+-------------------------------------------------+-------------+
-| ``TextPreservePolicy.OUTLINETEXT``              | todo        |
-+-------------------------------------------------+-------------+
-| ``TextPreservePolicy.KEEPTEXTEDITABLE``         | todo        |
-+-------------------------------------------------+-------------+
-| ``TextPreservePolicy.RASTERIZETEXT``            | todo        |
-+-------------------------------------------------+-------------+
++-------------------------------------------------+----------------------------+
+|                      Value                      |        Description         |
++=================================================+============================+
+| ``TextPreservePolicy.AUTOMATICALLYCONVERTTEXT`` | Automatically Convert Text |
++-------------------------------------------------+----------------------------+
+| ``TextPreservePolicy.OUTLINETEXT``              | Outline Text               |
++-------------------------------------------------+----------------------------+
+| ``TextPreservePolicy.KEEPTEXTEDITABLE``         | Keep Text Editable         |
++-------------------------------------------------+----------------------------+
+| ``TextPreservePolicy.RASTERIZETEXT``            | Rasterize Text             |
++-------------------------------------------------+----------------------------+
 
 ----
 
@@ -2493,11 +2493,11 @@ The type of text art displayed by this object.
 +------------------------+-------------+
 |         Value          | Description |
 +========================+=============+
-| ``TextType.AREATEXT``  | todo        |
+| ``TextType.AREATEXT``  | Area Text   |
 +------------------------+-------------+
-| ``TextType.POINTTEXT`` | todo        |
+| ``TextType.POINTTEXT`` | Point Text  |
 +------------------------+-------------+
-| ``TextType.PATHTEXT``  | todo        |
+| ``TextType.PATHTEXT``  | Path Text   |
 +------------------------+-------------+
 
 ----
@@ -2512,9 +2512,9 @@ The byte order to use for an exported TIFF file.
 +-----------------------------+-------------+
 |            Value            | Description |
 +=============================+=============+
-| ``TIFFByteOrder.IBMPC``     | todo        |
+| ``TIFFByteOrder.IBMPC``     | IBM PC      |
 +-----------------------------+-------------+
-| ``TIFFByteOrder.MACINTOSH`` | todo        |
+| ``TIFFByteOrder.MACINTOSH`` | Macintosh   |
 +-----------------------------+-------------+
 
 ----
@@ -2524,15 +2524,15 @@ The byte order to use for an exported TIFF file.
 TracingModeType
 ********************************************************************************
 
-+----------------------------------------------+-------------+
-|                    Value                     | Description |
-+==============================================+=============+
-| ``TracingModeType.TRACINGMODEBLACKANDWHITE`` | todo        |
-+----------------------------------------------+-------------+
-| ``TracingModeType.TRACINGMODECOLOR``         | todo        |
-+----------------------------------------------+-------------+
-| ``TracingModeType.TRACINGMODEGRAY``          | todo        |
-+----------------------------------------------+-------------+
++----------------------------------------------+---------------+
+|                    Value                     |  Description  |
++==============================================+===============+
+| ``TracingModeType.TRACINGMODEBLACKANDWHITE`` | Black & White |
++----------------------------------------------+---------------+
+| ``TracingModeType.TRACINGMODECOLOR``         | Color         |
++----------------------------------------------+---------------+
+| ``TracingModeType.TRACINGMODEGRAY``          | Gray          |
++----------------------------------------------+---------------+
 
 ----
 
@@ -2543,29 +2543,29 @@ Transformation
 
 The point to use as the anchor point about which an object is rotated, resized, or transformed.
 
-+-----------------------------------+-------------+
-|               Value               | Description |
-+===================================+=============+
-| ``Transformation.BOTTOM``         | todo        |
-+-----------------------------------+-------------+
-| ``Transformation.BOTTOMLEFT``     | todo        |
-+-----------------------------------+-------------+
-| ``Transformation.BOTTOMRIGHT``    | todo        |
-+-----------------------------------+-------------+
-| ``Transformation.CENTER``         | todo        |
-+-----------------------------------+-------------+
-| ``Transformation.DOCUMENTORIGIN`` | todo        |
-+-----------------------------------+-------------+
-| ``Transformation.LEFT``           | todo        |
-+-----------------------------------+-------------+
-| ``Transformation.RIGHT``          | todo        |
-+-----------------------------------+-------------+
-| ``Transformation.TOP``            | todo        |
-+-----------------------------------+-------------+
-| ``Transformation.TOPLEFT``        | todo        |
-+-----------------------------------+-------------+
-| ``Transformation.TOPRIGHT``       | todo        |
-+-----------------------------------+-------------+
++-----------------------------------+-----------------+
+|               Value               |   Description   |
++===================================+=================+
+| ``Transformation.BOTTOM``         | Bottom          |
++-----------------------------------+-----------------+
+| ``Transformation.BOTTOMLEFT``     | Bottom Left     |
++-----------------------------------+-----------------+
+| ``Transformation.BOTTOMRIGHT``    | Bottom Right    |
++-----------------------------------+-----------------+
+| ``Transformation.CENTER``         | Center          |
++-----------------------------------+-----------------+
+| ``Transformation.DOCUMENTORIGIN`` | Document Origin |
++-----------------------------------+-----------------+
+| ``Transformation.LEFT``           | Left            |
++-----------------------------------+-----------------+
+| ``Transformation.RIGHT``          | Right           |
++-----------------------------------+-----------------+
+| ``Transformation.TOP``            | Top             |
++-----------------------------------+-----------------+
+| ``Transformation.TOPLEFT``        | Top Left        |
++-----------------------------------+-----------------+
+| ``Transformation.TOPRIGHT``       | Top Right       |
++-----------------------------------+-----------------+
 
 ----
 
@@ -2595,13 +2595,13 @@ UserInteractionLevel
 
 User interface settings
 
-+--------------------------------------------+-------------+
-|                   Value                    | Description |
-+============================================+=============+
-| ``UserInteractionLevel.DISPLAYALERTS``     | todo        |
-+--------------------------------------------+-------------+
-| ``UserInteractionLevel.DONTDISPLAYALERTS`` | todo        |
-+--------------------------------------------+-------------+
++--------------------------------------------+----------------------+
+|                   Value                    |     Description      |
++============================================+======================+
+| ``UserInteractionLevel.DISPLAYALERTS``     | Display Alerts       |
++--------------------------------------------+----------------------+
+| ``UserInteractionLevel.DONTDISPLAYALERTS`` | Don't Display Alerts |
++--------------------------------------------+----------------------+
 
 ----
 
@@ -2615,15 +2615,15 @@ What type of variables are included in the document.
 +-----------------------------+-------------+
 |            Value            | Description |
 +=============================+=============+
-| ``VariableKind.GRAPH``      | todo        |
+| ``VariableKind.GRAPH``      | Graph       |
 +-----------------------------+-------------+
-| ``VariableKind.IMAGE``      | todo        |
+| ``VariableKind.IMAGE``      | Image       |
 +-----------------------------+-------------+
-| ``VariableKind.VISIBILITY`` | todo        |
+| ``VariableKind.VISIBILITY`` | Visibility  |
 +-----------------------------+-------------+
-| ``VariableKind.TEXTUAL``    | todo        |
+| ``VariableKind.TEXTUAL``    | Textual     |
 +-----------------------------+-------------+
-| ``VariableKind.Unknown``    | todo        |
+| ``VariableKind.Unknown``    | Unknown     |
 +-----------------------------+-------------+
 
 ----
@@ -2635,17 +2635,17 @@ ViewRasterType
 
 The raster visualization mode for tracing.
 
-+------------------------------------------------------+-------------+
-|                        Value                         | Description |
-+======================================================+=============+
-| ``ViewRasterType.TRACINGVIEWRASTERADJUSTEDIMAGE``    | todo        |
-+------------------------------------------------------+-------------+
-| ``ViewRasterType.TRACINGVIEWRASTERNOIMAGE``          | todo        |
-+------------------------------------------------------+-------------+
-| ``ViewRasterType.TRACINGVIEWRASTERORIGINALIMAGE``    | todo        |
-+------------------------------------------------------+-------------+
-| ``ViewRasterType.TRACINGVIEWRASTERTRANSPARENTIMAGE`` | todo        |
-+------------------------------------------------------+-------------+
++------------------------------------------------------+-------------------+
+|                        Value                         |    Description    |
++======================================================+===================+
+| ``ViewRasterType.TRACINGVIEWRASTERADJUSTEDIMAGE``    | Adjusted Image    |
++------------------------------------------------------+-------------------+
+| ``ViewRasterType.TRACINGVIEWRASTERNOIMAGE``          | No Image          |
++------------------------------------------------------+-------------------+
+| ``ViewRasterType.TRACINGVIEWRASTERORIGINALIMAGE``    | Original Image    |
++------------------------------------------------------+-------------------+
+| ``ViewRasterType.TRACINGVIEWRASTERTRANSPARENTIMAGE`` | Transparent Image |
++------------------------------------------------------+-------------------+
 
 ----
 
@@ -2656,17 +2656,17 @@ ViewVectorType
 
 The vector visualization mode for tracing.
 
-+---------------------------------------------------------+-------------+
-|                          Value                          | Description |
-+=========================================================+=============+
-| ``ViewVectorType.TRACINGVIEWVECTORNOTRACINGRESULT``     | todo        |
-+---------------------------------------------------------+-------------+
-| ``ViewVectorType.TRACINGVIEWVECTOROUTLINES``            | todo        |
-+---------------------------------------------------------+-------------+
-| ``ViewVectorType.TRACINGVIEWVECTOROUTLINESWITHTRACING`` | todo        |
-+---------------------------------------------------------+-------------+
-| ``ViewVectorType.TRACINGVIEWVECTORTRACINGRESULT``       | todo        |
-+---------------------------------------------------------+-------------+
++---------------------------------------------------------+-----------------------+
+|                          Value                          |      Description      |
++=========================================================+=======================+
+| ``ViewVectorType.TRACINGVIEWVECTORNOTRACINGRESULT``     | No Tracing Result     |
++---------------------------------------------------------+-----------------------+
+| ``ViewVectorType.TRACINGVIEWVECTOROUTLINES``            | Outlines              |
++---------------------------------------------------------+-----------------------+
+| ``ViewVectorType.TRACINGVIEWVECTOROUTLINESWITHTRACING`` | Outlines With Tracing |
++---------------------------------------------------------+-----------------------+
+| ``ViewVectorType.TRACINGVIEWVECTORTRACINGRESULT``       | Tracing Result        |
++---------------------------------------------------------+-----------------------+
 
 ----
 
@@ -2675,25 +2675,25 @@ The vector visualization mode for tracing.
 WariChuJustificationType
 ********************************************************************************
 
-+---------------------------------------------------------------+-------------+
-|                             Value                             | Description |
-+===============================================================+=============+
-| ``WariChuJustificationType.Center``                           | todo        |
-+---------------------------------------------------------------+-------------+
-| ``WariChuJustificationType.Left``                             | todo        |
-+---------------------------------------------------------------+-------------+
-| ``WariChuJustificationType.Right``                            | todo        |
-+---------------------------------------------------------------+-------------+
-| ``WariChuJustificationType.WARICHUAUTOJUSTIFY``               | todo        |
-+---------------------------------------------------------------+-------------+
-| ``WariChuJustificationType.WARICHUFULLJUSTIFY``               | todo        |
-+---------------------------------------------------------------+-------------+
-| ``WariChuJustificationType.WARICHUFULLJUSTIFYLASTLINECENTER`` | todo        |
-+---------------------------------------------------------------+-------------+
-| ``WariChuJustificationType.WARICHUFULLJUSTIFYLASTLINELEFT``   | todo        |
-+---------------------------------------------------------------+-------------+
-| ``WariChuJustificationType.WARICHUFULLJUSTIFYLASTLINERIGHT``  | todo        |
-+---------------------------------------------------------------+-------------+
++---------------------------------------------------------------+---------------------------------------+
+|                             Value                             |              Description              |
++===============================================================+=======================================+
+| ``WariChuJustificationType.Center``                           | Center                                |
++---------------------------------------------------------------+---------------------------------------+
+| ``WariChuJustificationType.Left``                             | Left                                  |
++---------------------------------------------------------------+---------------------------------------+
+| ``WariChuJustificationType.Right``                            | Right                                 |
++---------------------------------------------------------------+---------------------------------------+
+| ``WariChuJustificationType.WARICHUAUTOJUSTIFY``               | Warichu Auto Justify                  |
++---------------------------------------------------------------+---------------------------------------+
+| ``WariChuJustificationType.WARICHUFULLJUSTIFY``               | Warichu Full Justify                  |
++---------------------------------------------------------------+---------------------------------------+
+| ``WariChuJustificationType.WARICHUFULLJUSTIFYLASTLINECENTER`` | Warichu Full Justify Last Line Center |
++---------------------------------------------------------------+---------------------------------------+
+| ``WariChuJustificationType.WARICHUFULLJUSTIFYLASTLINELEFT``   | Warichu Full Justify Last Line Left   |
++---------------------------------------------------------------+---------------------------------------+
+| ``WariChuJustificationType.WARICHUFULLJUSTIFYLASTLINERIGHT``  | Warichu Full Justify Last Line Right  |
++---------------------------------------------------------------+---------------------------------------+
 
 ----
 
@@ -2704,14 +2704,14 @@ ZOrderMethod
 
 The method used to arrange an art item’s position in the stacking order of its parent group or layer, as specified with the zOrder method
 
-+-------------------------------+-------------+
-|             Value             | Description |
-+===============================+=============+
-| ``ZOrderMethod.BRINGFORWARD`` | todo        |
-+-------------------------------+-------------+
-| ``ZOrderMethod.SENDBACKWARD`` | todo        |
-+-------------------------------+-------------+
-| ``ZOrderMethod.BRINGTOFRONT`` | todo        |
-+-------------------------------+-------------+
-| ``ZOrderMethod.SENDTOBACK``   | todo        |
-+-------------------------------+-------------+
++-------------------------------+----------------+
+|             Value             |  Description   |
++===============================+================+
+| ``ZOrderMethod.BRINGFORWARD`` | Bring Forward  |
++-------------------------------+----------------+
+| ``ZOrderMethod.SENDBACKWARD`` | Send Backward  |
++-------------------------------+----------------+
+| ``ZOrderMethod.BRINGTOFRONT`` | Bring To Front |
++-------------------------------+----------------+
+| ``ZOrderMethod.SENDTOBACK``   | Send To Back   |
++-------------------------------+----------------+

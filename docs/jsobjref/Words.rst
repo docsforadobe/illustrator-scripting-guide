@@ -92,7 +92,7 @@ If no location is specified, adds it to the containing text frame after the curr
 +=======================+================================================================+=========================+
 | ``contents``          | String                                                         | Word to add             |
 +-----------------------+----------------------------------------------------------------+-------------------------+
-| ``relativeObject``    | :ref:`jsobjref/TextFrameItem`, optional                        | todo                    |
+| ``relativeObject``    | :ref:`jsobjref/TextFrameItem`, optional                        | Object to add item to   |
 +-----------------------+----------------------------------------------------------------+-------------------------+
 | ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to insert text |
 +-----------------------+----------------------------------------------------------------+-------------------------+

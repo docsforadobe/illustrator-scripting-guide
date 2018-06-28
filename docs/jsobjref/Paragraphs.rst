@@ -88,7 +88,7 @@ Adds a new paragraph with specified text contents at the specified location in t
 +=======================+================================================================+========================+
 | ``contents``          | String                                                         | Text contents to add   |
 +-----------------------+----------------------------------------------------------------+------------------------+
-| ``relativeObject``    | :ref:`jsobjref/TextFrameItem`, optional                        | todo                   |
+| ``relativeObject``    | :ref:`jsobjref/TextFrameItem`, optional                        | Object to add item to  |
 +-----------------------+----------------------------------------------------------------+------------------------+
 | ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to place text |
 +-----------------------+----------------------------------------------------------------+------------------------+
