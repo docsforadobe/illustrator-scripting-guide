@@ -3,7 +3,7 @@
 GraphicStyle
 ################################################################################
 
-``app.activeDocument.graphicStyles[index]``
+``app.activeDocument.graphicStyles[index``
 
 **Description**
 
@@ -83,11 +83,11 @@ Applies this art style to a specified art item.
 
 **Parameters**
 
-+-------------+--------------------------+-------------+
-|  Parameter  |           Type           | Description |
-+=============+==========================+=============+
-| ``artItem`` | :ref:`jsobjref/PageItem` | todo        |
-+-------------+--------------------------+-------------+
++-------------+--------------------------+-----------------+
+|  Parameter  |           Type           |   Description   |
++=============+==========================+=================+
+| ``artItem`` | :ref:`jsobjref/PageItem` | Target art item |
++-------------+--------------------------+-----------------+
 
 **Returns**
 
@@ -108,11 +108,11 @@ Merges this art style into the current styles of a specified art item.
 
 **Parameters**
 
-+-------------+--------------------------+-------------+
-|  Parameter  |           Type           | Description |
-+=============+==========================+=============+
-| ``artItem`` | :ref:`jsobjref/PageItem` | todo        |
-+-------------+--------------------------+-------------+
++-------------+--------------------------+-----------------+
+|  Parameter  |           Type           |   Description   |
++=============+==========================+=================+
+| ``artItem`` | :ref:`jsobjref/PageItem` | Target art item |
++-------------+--------------------------+-----------------+
 
 **Returns**
 

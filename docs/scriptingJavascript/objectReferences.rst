@@ -39,7 +39,7 @@ The following script sample gets all ``graphic style`` objects in the ``graphic 
 
 All numeric collection references in JavaScript are zero-based: the first object in the collection has the index [0].
 
-As a rule, JavaScript index numbers do not shift when you add an object to a collection. There is one exception: ``documents[0]`` is always the active or frontmost document.
+As a rule, JavaScript index numbers do not shift when you add an object to a collection. There is one exception: ``documents[0`` is always the active or frontmost document.
 
 To access the first style in a ``graphic styles`` collection, you can use the variable declared in the previous script sample, or you can use the containment hierarchy to refer to the collection:
 

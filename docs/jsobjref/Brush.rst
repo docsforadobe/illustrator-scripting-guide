@@ -3,7 +3,7 @@
 Brush
 ################################################################################
 
-``app.activeDocument.brushes[index]``
+``app.activeDocument.brushes[index``
 
 **Description**
 

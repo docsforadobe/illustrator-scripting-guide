@@ -3,7 +3,7 @@
 GradientStop
 ################################################################################
 
-``app.activeDocument.gradients[index].gradientStops[index]``
+``app.activeDocument.gradients[index].gradientStops[index``
 
 **Description**
 

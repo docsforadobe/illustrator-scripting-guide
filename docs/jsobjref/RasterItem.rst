@@ -3,7 +3,7 @@
 RasterItem
 ################################################################################
 
-``app.activeDocument.rasterItems[index]``
+``app.activeDocument.rasterItems[index``
 
 **Description**
 
@@ -737,7 +737,7 @@ Methods
 
 .. _jsobjref/RasterItem.colorize:
 
-RasterItem.colorize
+RasterItem.colorize()
 ********************************************************************************
 
 ``app.activeDocument.rasterItems[index].colorize(rasterizeColor)``
@@ -748,11 +748,11 @@ Colorizes the raster item with a CMYK or RGB Color.
 
 **Parameters**
 
-+--------------------+-----------------------+-------------+
-|     Parameter      |         Type          | Description |
-+====================+=======================+=============+
-| ``rasterizeColor`` | :ref:`jsobjref/Color` | todo        |
-+--------------------+-----------------------+-------------+
++--------------------+-----------------------+-------------------------------------+
+|     Parameter      |         Type          |             Description             |
++====================+=======================+=====================================+
+| ``rasterizeColor`` | :ref:`jsobjref/Color` | CMYK or RGB Color to rasterize with |
++--------------------+-----------------------+-------------------------------------+
 
 **Returns**
 
@@ -762,7 +762,7 @@ Nothing.
 
 .. _jsobjref/RasterItem.duplicate:
 
-RasterItem.duplicate
+RasterItem.duplicate()
 ********************************************************************************
 
 ``app.activeDocument.rasterItems[index].duplicate([relativeObject][, insertionLocation])``
@@ -773,13 +773,13 @@ Creates a duplicate of the selected object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+-------------+
-|       Parameter       |                              Type                              | Description |
-+=======================+================================================================+=============+
-| ``relativeObject``    | Object, optional                                               | todo        |
-+-----------------------+----------------------------------------------------------------+-------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | todo        |
-+-----------------------+----------------------------------------------------------------+-------------+
++-----------------------+----------------------------------------------------------------+----------------------------+
+|       Parameter       |                              Type                              |        Description         |
++=======================+================================================================+============================+
+| ``relativeObject``    | Object, optional                                               | todo                       |
++-----------------------+----------------------------------------------------------------+----------------------------+
+| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to insert element |
++-----------------------+----------------------------------------------------------------+----------------------------+
 
 **Returns**
 
@@ -789,7 +789,7 @@ Creates a duplicate of the selected object.
 
 .. _jsobjref/RasterItem.move:
 
-RasterItem.move
+RasterItem.move()
 ********************************************************************************
 
 ``app.activeDocument.rasterItems[index].move(relativeObject, insertionLocation)``
@@ -800,13 +800,13 @@ Moves the object.
 
 **Parameters**
 
-+-----------------------+------------------------------------------------------+-------------+
-|       Parameter       |                         Type                         | Description |
-+=======================+======================================================+=============+
-| ``relativeObject``    | Object                                               | todo        |
-+-----------------------+------------------------------------------------------+-------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement` | todo        |
-+-----------------------+------------------------------------------------------+-------------+
++-----------------------+----------------------------------------------------------------+-----------------------------+
+|       Parameter       |                              Type                              |         Description         |
++=======================+================================================================+=============================+
+| ``relativeObject``    | Object                                                         | todo                        |
++-----------------------+----------------------------------------------------------------+-----------------------------+
+| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to move element to |
++-----------------------+----------------------------------------------------------------+-----------------------------+
 
 **Returns**
 
@@ -816,7 +816,7 @@ Moves the object.
 
 .. _jsobjref/RasterItem.remove:
 
-RasterItem.remove
+RasterItem.remove()
 ********************************************************************************
 
 ``app.activeDocument.rasterItems[index].remove()``
@@ -833,7 +833,7 @@ Nothing.
 
 .. _jsobjref/RasterItem.resize:
 
-RasterItem.resize
+RasterItem.resize()
 ********************************************************************************
 
 ``app.activeDocument.rasterItems[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])``
@@ -844,25 +844,25 @@ Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scal
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+-------------+
-|        Parameter        |                             Type                             | Description |
-+=========================+==============================================================+=============+
-| ``scaleX``              | Number (double)                                              | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``scaleY``              | Number (double)                                              | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changePositions``     | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeFillGradients`` | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeLineWidths``    | Number (double), optional                                    | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``scaleAbout``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+|        Parameter        |                             Type                             |                       Description                       |
++=========================+==============================================================+=========================================================+
+| ``scaleX``              | Number (double)                                              | Horizontal scaling factor                               |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``scaleY``              | Number (double)                                              | Vertical scaling factor                                 |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeLineWidths``    | Number (double), optional                                    | The amount to scale line widths                         |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``scaleAbout``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
 
 **Returns**
 
@@ -872,7 +872,7 @@ Nothing.
 
 .. _jsobjref/RasterItem.rotate:
 
-RasterItem.rotate
+RasterItem.rotate()
 ********************************************************************************
 
 ``app.activeDocument.rasterItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])``
@@ -885,21 +885,21 @@ The object is rotated counter-clockwise if the ``angle`` value is positive, cloc
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+-------------+
-|        Parameter        |                             Type                             | Description |
-+=========================+==============================================================+=============+
-| ``angle``               | Number (double)                                              | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changePositions``     | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeFillGradients`` | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``rotateAbout``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+|        Parameter        |                             Type                             |                       Description                       |
++=========================+==============================================================+=========================================================+
+| ``angle``               | Number (double)                                              | The angle amount to rotate the element                  |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``rotateAbout``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
 
 **Returns**
 
@@ -909,7 +909,7 @@ Nothing.
 
 .. _jsobjref/RasterItem.trace:
 
-RasterItem.trace
+RasterItem.trace()
 ********************************************************************************
 
 ``app.activeDocument.rasterItems[index].trace()``
@@ -930,7 +930,7 @@ Creates and returns a :ref:`jsobjref/PluginItem` object that references a :ref:`
 
 .. _jsobjref/RasterItem.transform:
 
-RasterItem.transform
+RasterItem.transform()
 ********************************************************************************
 
 ``app.activeDocument.rasterItems[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])``
@@ -941,23 +941,23 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-+--------------------------+--------------------------------------------------------------+-------------+
-|        Parameter         |                             Type                             | Description |
-+==========================+==============================================================+=============+
-| ``transformationMatrix`` | Matrix                                                       | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
-| ``changePositions``      | Boolean, optional                                            | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
-| ``changeFillPatterns``   | Boolean, optional                                            | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
-| ``changeFillGradients``  | Boolean, optional                                            | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
-| ``changeStrokePattern``  | Boolean, optional                                            | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
-| ``changeLineWidths``     | Number (double), optional                                    | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
-| ``transformAbout``       | :ref:`jsobjref/scripting-constants.Transformation`, optional | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+|        Parameter         |                             Type                             |                  Description                   |
++==========================+==============================================================+================================================+
+| ``transformationMatrix`` | :ref:`jsobjref/Matrix`                                       | Transformation matrix to apply                 |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| ``changePositions``      | Boolean, optional                                            | Whether to change Positions                    |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| ``changeFillPatterns``   | Boolean, optional                                            | Whether to change Fill Patterns                |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| ``changeFillGradients``  | Boolean, optional                                            | Whether to change Fill Gradients               |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| ``changeStrokePattern``  | Boolean, optional                                            | Whether to change Stroke Pattern               |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| ``changeLineWidths``     | Number (double), optional                                    | The amount to scale line widths                |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| ``transformAbout``       | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
 
 **Returns**
 
@@ -967,7 +967,7 @@ Nothing.
 
 .. _jsobjref/RasterItem.translate:
 
-RasterItem.translate
+RasterItem.translate()
 ********************************************************************************
 
 ``app.activeDocument.rasterItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])``
@@ -978,21 +978,21 @@ Repositions the art item relative to the current position, where ``deltaX`` is t
 
 **Parameters**
 
-+-----------------------------+---------------------------+-------------+
-|          Parameter          |           Type            | Description |
-+=============================+===========================+=============+
-| ``deltaX``                  | Number (double), optional | todo        |
-+-----------------------------+---------------------------+-------------+
-| ``deltaY``                  | Number (double), optional | todo        |
-+-----------------------------+---------------------------+-------------+
-| ``transformObjects``        | Boolean, optional         | todo        |
-+-----------------------------+---------------------------+-------------+
-| ``transformFillPatterns``   | Boolean, optional         | todo        |
-+-----------------------------+---------------------------+-------------+
-| ``transformFillGradients``  | Boolean, optional         | todo        |
-+-----------------------------+---------------------------+-------------+
-| ``transformStrokePatterns`` | Boolean, optional         | todo        |
-+-----------------------------+---------------------------+-------------+
++-----------------------------+---------------------------+--------------------------------------+
+|          Parameter          |           Type            |             Description              |
++=============================+===========================+======================================+
+| ``deltaX``                  | Number (double), optional | Horizontal offset                    |
++-----------------------------+---------------------------+--------------------------------------+
+| ``deltaY``                  | Number (double), optional | Vertical offset                      |
++-----------------------------+---------------------------+--------------------------------------+
+| ``transformObjects``        | Boolean, optional         | Whether to transform Objects         |
++-----------------------------+---------------------------+--------------------------------------+
+| ``transformFillPatterns``   | Boolean, optional         | Whether to transform Fill Patterns   |
++-----------------------------+---------------------------+--------------------------------------+
+| ``transformFillGradients``  | Boolean, optional         | Whether to transform Fill Gradients  |
++-----------------------------+---------------------------+--------------------------------------+
+| ``transformStrokePatterns`` | Boolean, optional         | Whether to transform Stroke Patterns |
++-----------------------------+---------------------------+--------------------------------------+
 
 **Returns**
 
@@ -1002,7 +1002,7 @@ Nothing.
 
 .. _jsobjref/RasterItem.zOrder:
 
-RasterItem.zOrder
+RasterItem.zOrder()
 ********************************************************************************
 
 ``app.activeDocument.rasterItems[index].zOrder(zOrderCmd)``
@@ -1013,11 +1013,11 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-+---------------+--------------------------------------------------+-------------+
-|   Parameter   |                       Type                       | Description |
-+===============+==================================================+=============+
-| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | todo        |
-+---------------+--------------------------------------------------+-------------+
++---------------+--------------------------------------------------+-----------------------------------+
+|   Parameter   |                       Type                       |            Description            |
++===============+==================================================+===================================+
+| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | Stacking order arrangement method |
++---------------+--------------------------------------------------+-----------------------------------+
 
 **Returns**
 

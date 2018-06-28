@@ -95,12 +95,12 @@ The default registration point is ``SymbolRegistrationPoint.SYMBOLCENTERPOINT``.
 
 **Parameters**
 
-+-----------------------+-----------------------------------------------------------------------+-------------+
-|       Parameter       |                                 Type                                  | Description |
-+=======================+=======================================================================+=============+
-| ``sourceArt``         | :ref:`jsobjref/PageItem`                                              | todo        |
-| ``registrationPoint`` | :ref:`jsobjref/scripting-constants.SymbolRegistrationPoint`, optional | todo        |
-+-----------------------+-----------------------------------------------------------------------+-------------+
++-----------------------+-----------------------------------------------------------------------+----------------------------------+
+|       Parameter       |                                 Type                                  |           Description            |
++=======================+=======================================================================+==================================+
+| ``sourceArt``         | :ref:`jsobjref/PageItem`                                              | Source art to create symbol from |
+| ``registrationPoint`` | :ref:`jsobjref/scripting-constants.SymbolRegistrationPoint`, optional | Registration point to use        |
++-----------------------+-----------------------------------------------------------------------+----------------------------------+
 
 **Returns**
 
@@ -121,11 +121,11 @@ Get the first element in the collection with the provided name.
 
 **Parameters**
 
-+-----------+--------+-------------+
-| Parameter |  Type  | Description |
-+===========+========+=============+
-| ``name``  | String | todo        |
-+-----------+--------+-------------+
++-----------+--------+------------------------+
+| Parameter |  Type  |      Description       |
++===========+========+========================+
+| ``name``  | String | Name of element to get |
++-----------+--------+------------------------+
 
 **Returns**
 
@@ -146,11 +146,11 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+-------------+
-|  Parameter  |      Type      | Description |
-+=============+================+=============+
-| ``itemKey`` | String, Number | todo        |
-+-------------+----------------+-------------+
++-------------+----------------+----------------------+
+|  Parameter  |      Type      |     Description      |
++=============+================+======================+
+| ``itemKey`` | String, Number | String or number key |
++-------------+----------------+----------------------+
 
 **Returns**
 

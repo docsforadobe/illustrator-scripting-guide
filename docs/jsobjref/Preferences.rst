@@ -134,11 +134,11 @@ Gets the boolean value of a given application preference.
 
 **Parameters**
 
-+-----------+--------+-------------+
-| Parameter |  Type  | Description |
-+===========+========+=============+
-| ``key``   | String | todo        |
-+-----------+--------+-------------+
++-----------+--------+--------------------------+
+| Parameter |  Type  |       Description        |
++===========+========+==========================+
+| ``key``   | String | Pref key of value to get |
++-----------+--------+--------------------------+
 
 **Returns**
 
@@ -159,11 +159,11 @@ Gets the integer value of a given application preference.
 
 **Parameters**
 
-+-----------+--------+-------------+
-| Parameter |  Type  | Description |
-+===========+========+=============+
-| ``key``   | String | todo        |
-+-----------+--------+-------------+
++-----------+--------+--------------------------+
+| Parameter |  Type  |       Description        |
++===========+========+==========================+
+| ``key``   | String | Pref key of value to get |
++-----------+--------+--------------------------+
 
 **Returns**
 
@@ -184,11 +184,11 @@ Gets the real-number value of a given application preference.
 
 **Parameters**
 
-+-----------+--------+-------------+
-| Parameter |  Type  | Description |
-+===========+========+=============+
-| ``key``   | String | todo        |
-+-----------+--------+-------------+
++-----------+--------+--------------------------+
+| Parameter |  Type  |       Description        |
++===========+========+==========================+
+| ``key``   | String | Pref key of value to get |
++-----------+--------+--------------------------+
 
 **Returns**
 
@@ -209,11 +209,11 @@ Gets the string value of a given application preference.
 
 **Parameters**
 
-+-----------+--------+-------------+
-| Parameter |  Type  | Description |
-+===========+========+=============+
-| ``key``   | String | todo        |
-+-----------+--------+-------------+
++-----------+--------+--------------------------+
+| Parameter |  Type  |       Description        |
++===========+========+==========================+
+| ``key``   | String | Pref key of value to get |
++-----------+--------+--------------------------+
 
 **Returns**
 
@@ -234,11 +234,11 @@ Deletes a given application preference.
 
 **Parameters**
 
-+-----------+--------+-------------+
-| Parameter |  Type  | Description |
-+===========+========+=============+
-| ``key``   | String | todo        |
-+-----------+--------+-------------+
++-----------+--------+--------------------------+
+| Parameter |  Type  |       Description        |
++===========+========+==========================+
+| ``key``   | String | Pref key of value to get |
++-----------+--------+--------------------------+
 
 **Returns**
 
@@ -259,13 +259,13 @@ Sets the boolean value of a given application preference.
 
 **Parameters**
 
-+-----------+---------+-------------+
-| Parameter |  Type   | Description |
-+===========+=========+=============+
-| ``key``   | String  | todo        |
-+-----------+---------+-------------+
-| ``value`` | Boolean | todo        |
-+-----------+---------+-------------+
++-----------+---------+--------------------------+
+| Parameter |  Type   |       Description        |
++===========+=========+==========================+
+| ``key``   | String  | Pref key of value to get |
++-----------+---------+--------------------------+
+| ``value`` | Boolean | Value to set             |
++-----------+---------+--------------------------+
 
 **Returns**
 
@@ -286,13 +286,13 @@ Sets the integer value of a given application preference.
 
 **Parameters**
 
-+-----------+---------+-------------+
-| Parameter |  Type   | Description |
-+===========+=========+=============+
-| ``key``   | String  | todo        |
-+-----------+---------+-------------+
-| ``value`` | Integer | todo        |
-+-----------+---------+-------------+
++-----------+---------+--------------------------+
+| Parameter |  Type   |       Description        |
++===========+=========+==========================+
+| ``key``   | String  | Pref key of value to get |
++-----------+---------+--------------------------+
+| ``value`` | Integer | Value to set             |
++-----------+---------+--------------------------+
 
 **Returns**
 
@@ -313,13 +313,13 @@ Sets the real-number value of a given application preference.
 
 **Parameters**
 
-+-----------+--------+-------------+
-| Parameter |  Type  | Description |
-+===========+========+=============+
-| ``key``   | String | todo        |
-+-----------+--------+-------------+
-| ``value`` | Double | todo        |
-+-----------+--------+-------------+
++-----------+--------+--------------------------+
+| Parameter |  Type  |       Description        |
++===========+========+==========================+
+| ``key``   | String | Pref key of value to get |
++-----------+--------+--------------------------+
+| ``value`` | Double | Value to set             |
++-----------+--------+--------------------------+
 
 **Returns**
 
@@ -340,13 +340,13 @@ Sets the string value of a given application preference.
 
 **Parameters**
 
-+-----------+--------+-------------+
-| Parameter |  Type  | Description |
-+===========+========+=============+
-| ``key``   | String | todo        |
-+-----------+--------+-------------+
-| ``value`` | String | todo        |
-+-----------+--------+-------------+
++-----------+--------+--------------------------+
+| Parameter |  Type  |       Description        |
++===========+========+==========================+
+| ``key``   | String | Pref key of value to get |
++-----------+--------+--------------------------+
+| ``value`` | String | Value to set             |
++-----------+--------+--------------------------+
 
 **Returns**
 

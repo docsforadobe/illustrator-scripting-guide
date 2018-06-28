@@ -3,7 +3,7 @@
 Symbol
 ################################################################################
 
-``app.activeDocument.symbols[index]``
+``app.activeDocument.symbols[index``
 
 **Description**
 

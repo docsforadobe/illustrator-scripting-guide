@@ -83,11 +83,11 @@ Creates an instance of the specified symbol.
 
 **Parameters**
 
-+------------+------------------------+-------------+
-| Parameter  |          Type          | Description |
-+============+========================+=============+
-| ``symbol`` | :ref:`jsobjref/Symbol` | todo        |
-+------------+------------------------+-------------+
++------------+------------------------+--------------------+
+| Parameter  |          Type          |    Description     |
++============+========================+====================+
+| ``symbol`` | :ref:`jsobjref/Symbol` | Symbol to instance |
++------------+------------------------+--------------------+
 
 **Returns**
 
@@ -108,11 +108,11 @@ Get the first element in the collection with the provided name.
 
 **Parameters**
 
-+-----------+--------+-------------+
-| Parameter |  Type  | Description |
-+===========+========+=============+
-| ``name``  | String | todo        |
-+-----------+--------+-------------+
++-----------+--------+------------------------+
+| Parameter |  Type  |      Description       |
++===========+========+========================+
+| ``name``  | String | Name of element to get |
++-----------+--------+------------------------+
 
 **Returns**
 
@@ -133,11 +133,11 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+-------------+
-|  Parameter  |      Type      | Description |
-+=============+================+=============+
-| ``itemKey`` | String, Number | todo        |
-+-------------+----------------+-------------+
++-------------+----------------+----------------------+
+|  Parameter  |      Type      |     Description      |
++=============+================+======================+
+| ``itemKey`` | String, Number | String or number key |
++-------------+----------------+----------------------+
 
 **Returns**
 

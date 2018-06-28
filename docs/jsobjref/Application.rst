@@ -508,17 +508,17 @@ Joins two matrices together.
 
 **Parameters**
 
-+------------------+--------+---------------+
-|    Parameter     |  Type  |  Description  |
-+==================+========+===============+
-| ``matrix``       | Matrix | First matrix  |
-+------------------+--------+---------------+
-| ``secondMatrix`` | Matrix | Second matrix |
-+------------------+--------+---------------+
++------------------+------------------------+---------------+
+|    Parameter     |          Type          |  Description  |
++==================+========================+===============+
+| ``matrix``       | :ref:`jsobjref/Matrix` | First matrix  |
++------------------+------------------------+---------------+
+| ``secondMatrix`` | :ref:`jsobjref/Matrix` | Second matrix |
++------------------+------------------------+---------------+
 
 **Returns**
 
-Matrix.
+:ref:`jsobjref/Matrix.`
 
 ----
 
@@ -545,7 +545,7 @@ Joins a rotation translation to a transformation matrix.
 
 **Returns**
 
-Matrix.
+:ref:`jsobjref/Matrix.`
 
 ----
 
@@ -562,19 +562,19 @@ Concatenates a scale translation to a transformation matrix.
 
 **Parameters**
 
-+--------------+---------------------------+-------------+
-|  Parameter   |           Type            | Description |
-+==============+===========================+=============+
-| ``matrix``   | Matrix                    | Matrix      |
-+--------------+---------------------------+-------------+
-| ``[scaleX]`` | Number (double), optional | X Scale     |
-+--------------+---------------------------+-------------+
-| ``[scaleY]`` | Number (dobule), optional | Y Scale     |
-+--------------+---------------------------+-------------+
++------------+---------------------------+-------------+
+| Parameter  |           Type            | Description |
++============+===========================+=============+
+| ``matrix`` | Matrix                    | Matrix      |
++------------+---------------------------+-------------+
+| ``scaleX`` | Number (double), optional | X Scale     |
++------------+---------------------------+-------------+
+| ``scaleY`` | Number (dobule), optional | Y Scale     |
++------------+---------------------------+-------------+
 
 **Returns**
 
-Matrix
+:ref:`jsobjref/Matrix`
 
 ----
 
@@ -591,20 +591,20 @@ Joins a translation to a transformation matrix.
 
 **Parameters**
 
-+--------------+---------------------------+-------------+
-|  Parameter   |           Type            | Description |
-+==============+===========================+=============+
-| ``matrix``   | Matrix                    | Matrix      |
-+--------------+---------------------------+-------------+
-| ``[deltaX]`` | Number (double), optional | X Delta     |
-+--------------+---------------------------+-------------+
-| ``[deltaY]`` | Number (dobule), optional | Y Delta     |
-+--------------+---------------------------+-------------+
++------------+---------------------------+-------------+
+| Parameter  |           Type            | Description |
++============+===========================+=============+
+| ``matrix`` | Matrix                    | Matrix      |
++------------+---------------------------+-------------+
+| ``deltaX`` | Number (double), optional | X Delta     |
++------------+---------------------------+-------------+
+| ``deltaY`` | Number (dobule), optional | Y Delta     |
++------------+---------------------------+-------------+
 
 
 **Returns**
 
-Matrix
+:ref:`jsobjref/Matrix`
 
 ----
 
@@ -621,21 +621,21 @@ Converts a sample-component color from one color space to another.
 
 **Parameters**
 
-+-------------------------+---------------------------------------------------------+-------------+
-|        Parameter        |                          Type                           | Description |
-+=========================+=========================================================+=============+
-| ``sourceColorSpace``    | :ref:`jsobjref/scripting-constants.ImageColorSpace`     | todo        |
-+-------------------------+---------------------------------------------------------+-------------+
-| ``sourceColor``         | ColorComponents                                         | todo        |
-+-------------------------+---------------------------------------------------------+-------------+
-| ``destColorSpace``      | :ref:`jsobjref/scripting-constants.ImageColorSpace`     | todo        |
-+-------------------------+---------------------------------------------------------+-------------+
-| ``colorConvertPurpose`` | :ref:`jsobjref/scripting-constants.ColorConvertPurpose` | todo        |
-+-------------------------+---------------------------------------------------------+-------------+
-| ``[sourceHasAlpha]``    | Boolean, optional                                       | todo        |
-+-------------------------+---------------------------------------------------------+-------------+
-| ``[destHasAlpha]``      | Boolean, optional                                       | todo        |
-+-------------------------+---------------------------------------------------------+-------------+
++-------------------------+---------------------------------------------------------+-----------------------------------+
+|        Parameter        |                          Type                           |            Description            |
++=========================+=========================================================+===================================+
+| ``sourceColorSpace``    | :ref:`jsobjref/scripting-constants.ImageColorSpace`     | Color space of source color       |
++-------------------------+---------------------------------------------------------+-----------------------------------+
+| ``sourceColor``         | ColorComponents                                         | Source color to convert           |
++-------------------------+---------------------------------------------------------+-----------------------------------+
+| ``destColorSpace``      | :ref:`jsobjref/scripting-constants.ImageColorSpace`     | Destination color space           |
++-------------------------+---------------------------------------------------------+-----------------------------------+
+| ``colorConvertPurpose`` | :ref:`jsobjref/scripting-constants.ColorConvertPurpose` | The purpose of the convert        |
++-------------------------+---------------------------------------------------------+-----------------------------------+
+| ``sourceHasAlpha``      | Boolean, optional                                       | Whether the source has alpha      |
++-------------------------+---------------------------------------------------------+-----------------------------------+
+| ``destHasAlpha``        | Boolean, optional                                       | Whether the destination has alpha |
++-------------------------+---------------------------------------------------------+-----------------------------------+
 
 
 **Returns**
@@ -717,7 +717,7 @@ Returns an identity matrix.
 
 **Returns**
 
-Matrix
+:ref:`jsobjref/Matrix`
 
 ----
 
@@ -737,11 +737,11 @@ Returns whether the specified filePath is open
 
 **Parameters**
 
-+--------------+--------+-------------+
-|  Parameter   |  Type  | Description |
-+==============+========+=============+
-| ``filePath`` | String | todo        |
-+--------------+--------+-------------+
++--------------+--------+--------------------+
+|  Parameter   |  Type  |    Description     |
++==============+========+====================+
+| ``filePath`` | String | File path to check |
++--------------+--------+--------------------+
 
 **Returns**
 
@@ -762,11 +762,11 @@ Gets detailed file information for specified PPD file.
 
 **Parameters**
 
-+-----------+--------+-------------+
-| Parameter |  Type  | Description |
-+===========+========+=============+
-| ``name``  | String | todo        |
-+-----------+--------+-------------+
++-----------+--------+---------------------------+
+| Parameter |  Type  |        Description        |
++===========+========+===========================+
+| ``name``  | String | File name to get info for |
++-----------+--------+---------------------------+
 
 **Returns**
 
@@ -787,11 +787,11 @@ Returns the full path to the application’s default document profile for the sp
 
 **Parameters**
 
-+----------------+--------------------------------------------------------+-------------+
-|   Parameter    |                          Type                          | Description |
-+================+========================================================+=============+
-| ``presetType`` | :ref:`jsobjref/scripting-constants.DocumentPresetType` | todo        |
-+----------------+--------------------------------------------------------+-------------+
++----------------+--------------------------------------------------------+----------------------------+
+|   Parameter    |                          Type                          |        Description         |
++================+========================================================+============================+
+| ``presetType`` | :ref:`jsobjref/scripting-constants.DocumentPresetType` | Preset type to get file of |
++----------------+--------------------------------------------------------+----------------------------+
 
 **Returns**
 
@@ -812,11 +812,11 @@ Retrieves the tracing-option settings from the template with a given preset name
 
 **Parameters**
 
-+------------+--------+-------------+
-| Parameter  |  Type  | Description |
-+============+========+=============+
-| ``preset`` | String | todo        |
-+------------+--------+-------------+
++------------+--------+----------------------------------+
+| Parameter  |  Type  |           Description            |
++============+========+==================================+
+| ``preset`` | String | Preset name to get settings from |
++------------+--------+----------------------------------+
 
 **Returns**
 
@@ -836,19 +836,21 @@ Application.getRotationMatrix()
 Returns a transformation matrix containing a single rotation.
 
 .. note::
-    Requires a value in degrees. For example, 30 rotates the object 30 degrees counterclockwise; -30 rotates the object 30 degrees clockwise.
+    Requires a value in degrees.
+
+    For example, ``30`` rotates the object 30 degrees counterclockwise; ``-30`` rotates the object 30 degrees clockwise.
 
 **Parameters**
 
-+-------------+---------------------------+-------------+
-|  Parameter  |           Type            | Description |
-+=============+===========================+=============+
-| ``[angle]`` | Number (double), optional | todo        |
-+-------------+---------------------------+-------------+
++-----------+---------------------------+------------------------+
+| Parameter |           Type            |      Description       |
++===========+===========================+========================+
+| ``angle`` | Number (double), optional | Angle to get matrix of |
++-----------+---------------------------+------------------------+
 
 **Returns**
 
-Matrix
+:ref:`jsobjref/Matrix`
 
 ----
 
@@ -866,21 +868,21 @@ Returns a transformation matrix containing a single scale.
 .. note::
     Requires a value in percentage.
 
-    For example, `60` scales the object to 60% of its original size; `200` doubles the object’s bounds.
+    For example, ``60`` scales the object to 60% of its original size; ``200`` doubles the object’s bounds.
 
 **Parameters**
 
-+--------------+---------------------------+-------------+
-|  Parameter   |           Type            | Description |
-+==============+===========================+=============+
-| ``[scaleX]`` | Number (double), optional | todo        |
-+--------------+---------------------------+-------------+
-| ``[scaleY]`` | Number (double), optional | todo        |
-+--------------+---------------------------+-------------+
++------------+---------------------------+--------------------------+
+| Parameter  |           Type            |       Description        |
++============+===========================+==========================+
+| ``scaleX`` | Number (double), optional | X scale to get matrix of |
++------------+---------------------------+--------------------------+
+| ``scaleY`` | Number (double), optional | Y scale to get matrix of |
++------------+---------------------------+--------------------------+
 
 **Returns**
 
-Matrix
+:ref:`jsobjref/Matrix`
 
 ----
 
@@ -919,17 +921,17 @@ Returns a transformation matrix containing a single translation.
 
 **Parameters**
 
-+--------------+---------------------------+-------------+
-|  Parameter   |           Type            | Description |
-+==============+===========================+=============+
-| ``[deltaX]`` | Number (double), optional | X Delta     |
-+--------------+---------------------------+-------------+
-| ``[deltaY]`` | Number (dobule), optional | Y Delta     |
-+--------------+---------------------------+-------------+
++------------+---------------------------+-------------+
+| Parameter  |           Type            | Description |
++============+===========================+=============+
+| ``deltaX`` | Number (double), optional | X Delta     |
++------------+---------------------------+-------------+
+| ``deltaY`` | Number (dobule), optional | Y Delta     |
++------------+---------------------------+-------------+
 
 **Returns**
 
-Matrix
+:ref:`jsobjref/Matrix`
 
 ----
 
@@ -946,15 +948,15 @@ Inverts a matrix.
 
 **Parameters**
 
-+------------+--------+-------------+
-| Parameter  |  Type  | Description |
-+============+========+=============+
-| ``matrix`` | Matrix | todo        |
-+------------+--------+-------------+
++------------+------------------------+------------------+
+| Parameter  |          Type          |   Description    |
++============+========================+==================+
+| ``matrix`` | :ref:`jsobjref/Matrix` | Matrix to invert |
++------------+------------------------+------------------+
 
 **Returns**
 
-Matrix
+:ref:`jsobjref/Matrix`
 
 ----
 
@@ -971,13 +973,13 @@ Checks whether the two matrices are equal.
 
 **Parameters**
 
-+------------------+--------+-------------+
-|    Parameter     |  Type  | Description |
-+==================+========+=============+
-| ``matrix``       | Matrix | todo        |
-+------------------+--------+-------------+
-| ``secondMatrix`` | Matrix | todo        |
-+------------------+--------+-------------+
++------------------+------------------------+------------------------+
+|    Parameter     |          Type          |      Description       |
++==================+========================+========================+
+| ``matrix``       | :ref:`jsobjref/Matrix` | First matrix to check  |
++------------------+------------------------+------------------------+
+| ``secondMatrix`` | :ref:`jsobjref/Matrix` | Second matrix to check |
++------------------+------------------------+------------------------+
 
 **Returns**
 
@@ -998,11 +1000,11 @@ Checks whether a matrix is singular and cannot be inverted.
 
 **Parameters**
 
-+------------+--------+-----------------+
-| Parameter  |  Type  |   Description   |
-+============+========+=================+
-| ``matrix`` | Matrix | Matrix to check |
-+------------+--------+-----------------+
++------------+------------------------+-----------------+
+| Parameter  |          Type          |   Description   |
++============+========================+=================+
+| ``matrix`` | :ref:`jsobjref/Matrix` | Matrix to check |
++------------+------------------------+-----------------+
 
 **Returns**
 
@@ -1023,11 +1025,11 @@ Loads color settings from specified file, or, if file is empty, turns color mana
 
 **Parameters**
 
-+--------------+------+-------------+
-|  Parameter   | Type | Description |
-+==============+======+=============+
-| ``fileSpec`` | File | todo        |
-+--------------+------+-------------+
++--------------+------+----------------------------+
+|  Parameter   | Type |        Description         |
++==============+======+============================+
+| ``fileSpec`` | File | File to load settings from |
++--------------+------+----------------------------+
 
 **Returns**
 
@@ -1053,15 +1055,15 @@ Opens the specified document file.
 
 **Parameters**
 
-+--------------------------+--------------------------------------------------------+-------------+
-|        Parameter         |                          Type                          | Description |
-+==========================+========================================================+=============+
-| ``file``                 | File                                                   | todo        |
-+--------------------------+--------------------------------------------------------+-------------+
-| ``[documentColorSpace]`` | :ref:`jsobjref/scripting-constants.DocumentColorSpace` | todo        |
-+--------------------------+--------------------------------------------------------+-------------+
-| ``[options]``            | anything                                               | todo        |
-+--------------------------+--------------------------------------------------------+-------------+
++------------------------+------------------------------------------------------------------+-------------------------+
+|       Parameter        |                               Type                               |       Description       |
++========================+==================================================================+=========================+
+| ``file``               | File                                                             | File to open            |
++------------------------+------------------------------------------------------------------+-------------------------+
+| ``documentColorSpace`` | :ref:`jsobjref/scripting-constants.DocumentColorSpace`, optional | Color space of document |
++------------------------+------------------------------------------------------------------+-------------------------+
+| ``options``            | anything                                                         | todo                    |
++------------------------+------------------------------------------------------------------+-------------------------+
 
 **Returns**
 
@@ -1195,15 +1197,15 @@ Sends a plug-in-defined command message to a plug-in with given input arguments,
 
 **Parameters**
 
-+---------------------+--------+-------------+
-|      Parameter      |  Type  | Description |
-+=====================+========+=============+
-| ``pluginName``      | String | todo        |
-+---------------------+--------+-------------+
-| ``messageSelector`` | String | todo        |
-+---------------------+--------+-------------+
-| ``inputString``     | String | todo        |
-+---------------------+--------+-------------+
++---------------------+--------+-----------------------------------+
+|      Parameter      |  Type  |            Description            |
++=====================+========+===================================+
+| ``pluginName``      | String | Name of plugin to send message to |
++---------------------+--------+-----------------------------------+
+| ``messageSelector`` | String | Message to send to the plugin     |
++---------------------+--------+-----------------------------------+
+| ``inputString``     | String | Data to pass into the command     |
++---------------------+--------+-----------------------------------+
 
 **Returns**
 
@@ -1224,11 +1226,11 @@ Gets presets from the file.
 
 **Parameters**
 
-+--------------+------+-------------+
-|  Parameter   | Type | Description |
-+==============+======+=============+
-| ``fileSpec`` | File | File?       |
-+--------------+------+-------------+
++--------------+------+--------------------------+
+|  Parameter   | Type |       Description        |
++==============+======+==========================+
+| ``fileSpec`` | File | File to get presets from |
++--------------+------+--------------------------+
 
 **Returns**
 

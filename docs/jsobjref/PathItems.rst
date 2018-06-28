@@ -120,21 +120,21 @@ Creates a new pathItem in the shape of an ellipse using the supplied parameters.
 
 **Parameters**
 
-+---------------+---------------------------+----------------+
-|   Parameter   |           Type            |  Description   |
-+===============+===========================+================+
-| ``top``       | Number (double), optional | Top of path    |
-+---------------+---------------------------+----------------+
-| ``left``      | Number (double), optional | Left of path   |
-+---------------+---------------------------+----------------+
-| ``width``     | Number (double), optional | Width of path  |
-+---------------+---------------------------+----------------+
-| ``height``    | Number (double), optional | Height of path |
-+---------------+---------------------------+----------------+
-| ``reversed``  | Boolean, optional         | todo           |
-+---------------+---------------------------+----------------+
-| ``inscribed`` | Boolean, optional         | todo           |
-+---------------+---------------------------+----------------+
++---------------+---------------------------+---------------------------+
+|   Parameter   |           Type            |        Description        |
++===============+===========================+===========================+
+| ``top``       | Number (double), optional | Top of path               |
++---------------+---------------------------+---------------------------+
+| ``left``      | Number (double), optional | Left of path              |
++---------------+---------------------------+---------------------------+
+| ``width``     | Number (double), optional | Width of path             |
++---------------+---------------------------+---------------------------+
+| ``height``    | Number (double), optional | Height of path            |
++---------------+---------------------------+---------------------------+
+| ``reversed``  | Boolean, optional         | Whether path is reversed  |
++---------------+---------------------------+---------------------------+
+| ``inscribed`` | Boolean, optional         | Whether path is inscribed |
++---------------+---------------------------+---------------------------+
 
 **Returns**
 
@@ -180,11 +180,11 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+-------------+
-|  Parameter  |      Type      | Description |
-+=============+================+=============+
-| ``itemKey`` | String, Number | todo        |
-+-------------+----------------+-------------+
++-------------+----------------+----------------------+
+|  Parameter  |      Type      |     Description      |
++=============+================+======================+
+| ``itemKey`` | String, Number | String or number key |
++-------------+----------------+----------------------+
 
 **Returns**
 
@@ -221,19 +221,19 @@ Creates a new ``pathItem`` in the shape of an polygon using the supplied paramet
 
 **Parameters**
 
-+--------------+---------------------------+-----------------+
-|  Parameter   |           Type            |   Description   |
-+==============+===========================+=================+
-| ``centerX``  | Number (double), optional | CenterX of path |
-+--------------+---------------------------+-----------------+
-| ``centerY``  | Number (double), optional | CenterY of path |
-+--------------+---------------------------+-----------------+
-| ``radius``   | Number (double), optional | Radius of path  |
-+--------------+---------------------------+-----------------+
-| ``sides``    | Number (long), optional   | Number of sides |
-+--------------+---------------------------+-----------------+
-| ``reversed`` | Boolean, optional         | todo            |
-+--------------+---------------------------+-----------------+
++--------------+---------------------------+--------------------------+
+|  Parameter   |           Type            |       Description        |
++==============+===========================+==========================+
+| ``centerX``  | Number (double), optional | CenterX of path          |
++--------------+---------------------------+--------------------------+
+| ``centerY``  | Number (double), optional | CenterY of path          |
++--------------+---------------------------+--------------------------+
+| ``radius``   | Number (double), optional | Radius of path           |
++--------------+---------------------------+--------------------------+
+| ``sides``    | Number (long), optional   | Number of sides          |
++--------------+---------------------------+--------------------------+
+| ``reversed`` | Boolean, optional         | Whether path is reversed |
++--------------+---------------------------+--------------------------+
 
 **Returns**
 
@@ -254,19 +254,19 @@ Creates a new ``pathItem`` in the shape of an polygon using the supplied paramet
 
 **Parameters**
 
-+--------------+-------------------+----------------+
-|  Parameter   |       Type        |  Description   |
-+==============+===================+================+
-| ``top``      | number (double)   | Top of path    |
-+--------------+-------------------+----------------+
-| ``left``     | number (double)   | Left of path   |
-+--------------+-------------------+----------------+
-| ``width``    | number (double)   | Width of path  |
-+--------------+-------------------+----------------+
-| ``height``   | number (double)   | Height of path |
-+--------------+-------------------+----------------+
-| ``reversed`` | boolean, optional | todo           |
-+--------------+-------------------+----------------+
++--------------+-------------------+--------------------------+
+|  Parameter   |       Type        |       Description        |
++==============+===================+==========================+
+| ``top``      | Number (double)   | Top of path              |
++--------------+-------------------+--------------------------+
+| ``left``     | Number (double)   | Left of path             |
++--------------+-------------------+--------------------------+
+| ``width``    | Number (double)   | Width of path            |
++--------------+-------------------+--------------------------+
+| ``height``   | Number (double)   | Height of path           |
++--------------+-------------------+--------------------------+
+| ``reversed`` | Boolean, optional | Whether path is reversed |
++--------------+-------------------+--------------------------+
 
 **Returns**
 
@@ -331,7 +331,7 @@ Creates a new pathItem in the shape of a rectangle with rounded corners using th
 +----------------------+---------------------------+-------------------------------------+
 | ``verticalRadius``   | Number (double), optional | Vertical radius of rounded corner   |
 +----------------------+---------------------------+-------------------------------------+
-| ``reversed``         | Boolean, optional         | todo                                |
+| ``reversed``         | Boolean, optional         | Whether path is reversed            |
 +----------------------+---------------------------+-------------------------------------+
 
 **Returns**
@@ -371,21 +371,21 @@ Creates a new path item in the shape of a star using the supplied parameters.
 
 **Parameters**
 
-+-----------------+---------------------------+----------------------+
-|    Parameter    |           Type            |     Description      |
-+=================+===========================+======================+
-| ``centerX``     | Number (double), optional | CenterX of path      |
-+-----------------+---------------------------+----------------------+
-| ``centerY``     | Number (double), optional | CenterY of path      |
-+-----------------+---------------------------+----------------------+
-| ``radius``      | Number (double), optional | Radius of path       |
-+-----------------+---------------------------+----------------------+
-| ``innerRadius`` | Number (double), optional | Inner radius of path |
-+-----------------+---------------------------+----------------------+
-| ``points``      | Number (long), optional   | Number of points     |
-+-----------------+---------------------------+----------------------+
-| ``reversed``    | Boolean, optional         | todo                 |
-+-----------------+---------------------------+----------------------+
++-----------------+---------------------------+--------------------------+
+|    Parameter    |           Type            |       Description        |
++=================+===========================+==========================+
+| ``centerX``     | Number (double), optional | CenterX of path          |
++-----------------+---------------------------+--------------------------+
+| ``centerY``     | Number (double), optional | CenterY of path          |
++-----------------+---------------------------+--------------------------+
+| ``radius``      | Number (double), optional | Radius of path           |
++-----------------+---------------------------+--------------------------+
+| ``innerRadius`` | Number (double), optional | Inner radius of path     |
++-----------------+---------------------------+--------------------------+
+| ``points``      | Number (long), optional   | Number of points         |
++-----------------+---------------------------+--------------------------+
+| ``reversed``    | Boolean, optional         | Whether path is reversed |
++-----------------+---------------------------+--------------------------+
 
 **Returns**
 

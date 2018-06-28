@@ -731,7 +731,7 @@ The color space of a document
 DocumentLayoutStyle
 ********************************************************************************
 
-The color space of a document.
+Layout style for the document
 
 +----------------------------------------+-------------+
 |                 Value                  | Description |

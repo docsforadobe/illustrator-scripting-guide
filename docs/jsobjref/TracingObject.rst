@@ -197,11 +197,11 @@ Deletes this object and its associated :ref:`jsobjref/PluginItem` object. Any gr
 
 **Parameters**
 
-+--------------+-------------------+-------------+
-|  Parameter   |       Type        | Description |
-+==============+===================+=============+
-| ``[viewed]`` | Boolean, optional | todo        |
-+--------------+-------------------+-------------+
++------------+-------------------+-------------+
+| Parameter  |       Type        | Description |
++============+===================+=============+
+| ``viewed`` | Boolean, optional | todo        |
++------------+-------------------+-------------+
 
 **Returns**
 

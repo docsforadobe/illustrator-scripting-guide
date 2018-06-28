@@ -3,7 +3,7 @@
 Variable
 ################################################################################
 
-``app.activeDocument.variables[index]``
+``app.activeDocument.variables[index``
 
 **Description**
 

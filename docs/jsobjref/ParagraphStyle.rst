@@ -3,7 +3,7 @@
 ParagraphStyle
 ################################################################################
 
-``app.activeDocument.paragraphStyles[index]``
+``app.activeDocument.paragraphStyles[index``
 
 **Description**
 
@@ -117,13 +117,13 @@ Applies this paragraph style to the specified text item.
 
 **Parameters**
 
-+-------------------------+-------------------+-------------+
-|        Parameter        |       Type        | Description |
-+=========================+===================+=============+
-| ``textItem``            | Object            | todo        |
-+-------------------------+-------------------+-------------+
-| ``[clearingOverrides]`` | Boolean, optional | todo        |
-+-------------------------+-------------------+-------------+
++-----------------------+-------------------+----------------------------------+
+|       Parameter       |       Type        |           Description            |
++=======================+===================+==================================+
+| ``textItem``          | Object            | Paragraph item to apply style to |
++-----------------------+-------------------+----------------------------------+
+| ``clearingOverrides`` | Boolean, optional | Whether to clear overrides       |
++-----------------------+-------------------+----------------------------------+
 
 **Returns**
 

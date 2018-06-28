@@ -83,11 +83,11 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+-------------+
-| Parameter |  Type  | Description |
-+===========+========+=============+
-| ``name``  | String | todo        |
-+-----------+--------+-------------+
++-----------+--------+------------------------+
+| Parameter |  Type  |      Description       |
++===========+========+========================+
+| ``name``  | String | Name of element to get |
++-----------+--------+------------------------+
 
 **Returns**
 

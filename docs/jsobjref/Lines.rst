@@ -83,11 +83,11 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+------+-------------+
-|  Parameter  | Type | Description |
-+=============+======+=============+
-| ``itemKey`` | Type | todo        |
-+-------------+------+-------------+
++-------------+----------------+----------------------+
+|  Parameter  |      Type      |     Description      |
++=============+================+======================+
+| ``itemKey`` | String, Number | String or number key |
++-------------+----------------+----------------------+
 
 **Returns**
 

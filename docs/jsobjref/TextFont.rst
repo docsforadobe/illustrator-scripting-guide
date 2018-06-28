@@ -3,7 +3,7 @@
 TextFont
 ################################################################################
 
-``app.textFonts[index]``
+``app.textFonts[index``
 
 **Description**
 

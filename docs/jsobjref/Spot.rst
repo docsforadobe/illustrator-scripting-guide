@@ -3,7 +3,7 @@
 Spot
 ################################################################################
 
-``app.activeDocument.spots[index]``
+``app.activeDocument.spots[index``
 
 **Description**
 

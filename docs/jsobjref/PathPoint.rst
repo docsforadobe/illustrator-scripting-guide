@@ -3,7 +3,7 @@
 PathPoint
 ################################################################################
 
-``app.activeDocument.pathItems[index].pathPoints[index]``
+``app.activeDocument.pathItems[index].pathPoints[index``
 
 **Description**
 

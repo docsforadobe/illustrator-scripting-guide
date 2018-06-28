@@ -3,7 +3,7 @@
 TextFrameItem
 ################################################################################
 
-``app.activeDocument.textFrames[index]``
+``app.activeDocument.textFrames[index``
 
 **Description**
 
@@ -533,7 +533,7 @@ Methods
 
 .. _jsobjref/TextFrameItem.convertAreaObjectToPointObject:
 
-TextFrameItem.convertAreaObjectToPointObject
+TextFrameItem.convertAreaObjectToPointObject()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].convertAreaObjectToPointObject()``
@@ -550,7 +550,7 @@ Converts the area-type text frame to a point-type text frame.
 
 .. _jsobjref/TextFrameItem.convertPointObjectToAreaObject:
 
-TextFrameItem.convertPointObjectToAreaObject
+TextFrameItem.convertPointObjectToAreaObject()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].convertPointObjectToAreaObject()``
@@ -567,7 +567,7 @@ Converts the point-type text frame to an area-type text frame.
 
 .. _jsobjref/TextFrameItem.createOutline:
 
-TextFrameItem.createOutline
+TextFrameItem.createOutline()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].createOutline()``
@@ -584,7 +584,7 @@ Converts the text in the text frame to outlines.
 
 .. _jsobjref/TextFrameItem.duplicate:
 
-TextFrameItem.duplicate
+TextFrameItem.duplicate()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].duplicate([relativeObject] [,insertionLocation])``
@@ -595,13 +595,13 @@ Creates a duplicate of the selected object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+-------------+
-|       Parameter       |                              Type                              | Description |
-+=======================+================================================================+=============+
-| ``relativeObject``    | Object, optional                                               | todo        |
-+-----------------------+----------------------------------------------------------------+-------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | todo        |
-+-----------------------+----------------------------------------------------------------+-------------+
++-----------------------+----------------------------------------------------------------+----------------------------+
+|       Parameter       |                              Type                              |        Description         |
++=======================+================================================================+============================+
+| ``relativeObject``    | Object, optional                                               | todo                       |
++-----------------------+----------------------------------------------------------------+----------------------------+
+| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to insert element |
++-----------------------+----------------------------------------------------------------+----------------------------+
 
 **Returns**
 
@@ -611,7 +611,7 @@ Creates a duplicate of the selected object.
 
 .. _jsobjref/TextFrameItem.move:
 
-TextFrameItem.move
+TextFrameItem.move()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].move(relativeObject, insertionLocation)``
@@ -622,13 +622,13 @@ Moves the object.
 
 **Parameters**
 
-+-----------------------+------------------------------------------------------+-------------+
-|       Parameter       |                         Type                         | Description |
-+=======================+======================================================+=============+
-| ``relativeObject``    | Object                                               | todo        |
-+-----------------------+------------------------------------------------------+-------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement` | todo        |
-+-----------------------+------------------------------------------------------+-------------+
++-----------------------+----------------------------------------------------------------+-----------------------------+
+|       Parameter       |                              Type                              |         Description         |
++=======================+================================================================+=============================+
+| ``relativeObject``    | Object                                                         | todo                        |
++-----------------------+----------------------------------------------------------------+-----------------------------+
+| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to move element to |
++-----------------------+----------------------------------------------------------------+-----------------------------+
 
 **Returns**
 
@@ -638,7 +638,7 @@ Moves the object.
 
 .. _jsobjref/TextFrameItem.remove:
 
-TextFrameItem.remove
+TextFrameItem.remove()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].remove()``
@@ -655,7 +655,7 @@ Nothing.
 
 .. _jsobjref/TextFrameItem.resize:
 
-TextFrameItem.resize
+TextFrameItem.resize()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])``
@@ -666,25 +666,25 @@ Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scal
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+-------------+
-|        Parameter        |                             Type                             | Description |
-+=========================+==============================================================+=============+
-| ``scaleX``              | Number (double)                                              | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``scaleY``              | Number (double)                                              | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changePositions``     | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeFillGradients`` | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeLineWidths``    | Number (double), optional                                    | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``scaleAbout``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+|        Parameter        |                             Type                             |                       Description                       |
++=========================+==============================================================+=========================================================+
+| ``scaleX``              | Number (double)                                              | Horizontal scaling factor                               |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``scaleY``              | Number (double)                                              | Vertical scaling factor                                 |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeLineWidths``    | Number (double), optional                                    | The amount to scale line widths                         |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``scaleAbout``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
 
 **Returns**
 
@@ -694,7 +694,7 @@ Nothing.
 
 .. _jsobjref/TextFrameItem.rotate:
 
-TextFrameItem.rotate
+TextFrameItem.rotate()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])``
@@ -705,21 +705,21 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+-------------+
-|        Parameter        |                             Type                             | Description |
-+=========================+==============================================================+=============+
-| ``angle``               | Number (double)                                              | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changePositions``     | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeFillGradients`` | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
-| ``rotateAbout``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | todo        |
-+-------------------------+--------------------------------------------------------------+-------------+
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+|        Parameter        |                             Type                             |                       Description                       |
++=========================+==============================================================+=========================================================+
+| ``angle``               | Number (double)                                              | The angle amount to rotate the element                  |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| ``rotateAbout``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
++-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
 
 **Returns**
 
@@ -729,7 +729,7 @@ Nothing.
 
 .. _jsobjref/TextFrameItem.transform:
 
-TextFrameItem.transform
+TextFrameItem.transform()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])``
@@ -740,23 +740,23 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-+--------------------------+--------------------------------------------------------------+-------------+
-|        Parameter         |                             Type                             | Description |
-+==========================+==============================================================+=============+
-| ``transformationMatrix`` | Matrix                                                       | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
-| ``changePositions``      | Boolean, optional                                            | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
-| ``changeFillPatterns``   | Boolean, optional                                            | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
-| ``changeFillGradients``  | Boolean, optional                                            | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
-| ``changeStrokePattern``  | Boolean, optional                                            | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
-| ``changeLineWidths``     | Number (double), optional                                    | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
-| ``transformAbout``       | :ref:`jsobjref/scripting-constants.Transformation`, optional | todo        |
-+--------------------------+--------------------------------------------------------------+-------------+
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+|        Parameter         |                             Type                             |                  Description                   |
++==========================+==============================================================+================================================+
+| ``transformationMatrix`` | :ref:`jsobjref/Matrix`                                       | Transformation matrix to apply                 |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| ``changePositions``      | Boolean, optional                                            | Whether to change Positions                    |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| ``changeFillPatterns``   | Boolean, optional                                            | Whether to change Fill Patterns                |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| ``changeFillGradients``  | Boolean, optional                                            | Whether to change Fill Gradients               |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| ``changeStrokePattern``  | Boolean, optional                                            | Whether to change Stroke Pattern               |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| ``changeLineWidths``     | Number (double), optional                                    | The amount to scale line widths                |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| ``transformAbout``       | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about |
++--------------------------+--------------------------------------------------------------+------------------------------------------------+
 
 **Returns**
 
@@ -766,7 +766,7 @@ Nothing.
 
 .. _jsobjref/TextFrameItem.translate:
 
-TextFrameItem.translate
+TextFrameItem.translate()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])``
@@ -777,21 +777,21 @@ Repositions the art item relative to the current position, where ``deltaX`` is t
 
 **Parameters**
 
-+-----------------------------+---------------------------+-------------+
-|          Parameter          |           Type            | Description |
-+=============================+===========================+=============+
-| ``deltaX``                  | Number (double), optional | todo        |
-+-----------------------------+---------------------------+-------------+
-| ``deltaY``                  | Number (double), optional | todo        |
-+-----------------------------+---------------------------+-------------+
-| ``transformObjects``        | Boolean, optional         | todo        |
-+-----------------------------+---------------------------+-------------+
-| ``transformFillPatterns``   | Boolean, optional         | todo        |
-+-----------------------------+---------------------------+-------------+
-| ``transformFillGradients``  | Boolean, optional         | todo        |
-+-----------------------------+---------------------------+-------------+
-| ``transformStrokePatterns`` | Boolean, optional         | todo        |
-+-----------------------------+---------------------------+-------------+
++-----------------------------+---------------------------+--------------------------------------+
+|          Parameter          |           Type            |             Description              |
++=============================+===========================+======================================+
+| ``deltaX``                  | Number (double), optional | Horizontal offset                    |
++-----------------------------+---------------------------+--------------------------------------+
+| ``deltaY``                  | Number (double), optional | Vertical offset                      |
++-----------------------------+---------------------------+--------------------------------------+
+| ``transformObjects``        | Boolean, optional         | Whether to transform Objects         |
++-----------------------------+---------------------------+--------------------------------------+
+| ``transformFillPatterns``   | Boolean, optional         | Whether to transform Fill Patterns   |
++-----------------------------+---------------------------+--------------------------------------+
+| ``transformFillGradients``  | Boolean, optional         | Whether to transform Fill Gradients  |
++-----------------------------+---------------------------+--------------------------------------+
+| ``transformStrokePatterns`` | Boolean, optional         | Whether to transform Stroke Patterns |
++-----------------------------+---------------------------+--------------------------------------+
 
 **Returns**
 
@@ -801,7 +801,7 @@ Nothing.
 
 .. _jsobjref/TextFrameItem.zOrder:
 
-TextFrameItem.zOrder
+TextFrameItem.zOrder()
 ********************************************************************************
 
 ``app.activeDocument.textFrames[index].zOrder(zOrderCmd)``
@@ -812,11 +812,11 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-+---------------+--------------------------------------------------+-------------+
-|   Parameter   |                       Type                       | Description |
-+===============+==================================================+=============+
-| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | todo        |
-+---------------+--------------------------------------------------+-------------+
++---------------+--------------------------------------------------+-----------------------------------+
+|   Parameter   |                       Type                       |            Description            |
++===============+==================================================+===================================+
+| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | Stacking order arrangement method |
++---------------+--------------------------------------------------+-----------------------------------+
 
 **Returns**
 

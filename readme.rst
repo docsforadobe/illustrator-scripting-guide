@@ -26,6 +26,7 @@ Code Reference:
 
 - Finish JS obj ref
   - Organize into folders / sections based on root object
+  - Resolve all 'todo' parameter descriptions (what is ``relativeObject``?)
 - Add Applescript obj ref
 - Add VBScript obj ref
 - Changelog
@@ -44,19 +45,19 @@ Internal References
 
 Anchors should be defined at each page setting relative to the root folder; the anchor for the "Application" page within the JS Object Reference should be::
 
-	.. _jsobjref/Application
+  .. _jsobjref/Application
 
 And the anchor for a child item (property, method or example)::
 
-	.. _jsobjref/Application.open
+  .. _jsobjref/Application.open
 
 Then, to link to these items from other pages, we use::
 
-	:ref:`jsobjref/Application`
+  :ref:`jsobjref/Application`
 
 or::
 
-	:ref:`jsobjref/Application.open`
+  :ref:`jsobjref/Application.open`
 
 ----
 
@@ -65,9 +66,10 @@ External Links
 
 These should follow the following structure::
 
-	`Link Text <http://www.aenhancers.com>`__
+  `Link Text <http://www.aenhancers.com>`__
 
 ----
+
 Tables
 ********************************************************************************
 
@@ -92,14 +94,14 @@ Try to keep one piece of data per note, for easier parsing.
 
 ::
 
-	.. note::
-		Notes detail version added, and/or relevant pieces of information.
+  .. note::
+    Notes detail version added, and/or relevant pieces of information.
 
-	.. tip::
-		Tips supply helpful suggestions on usage or behaviours.
+  .. tip::
+    Tips supply helpful suggestions on usage or behaviours.
 
-	.. warning::
-		Warnings convey negative behaviours, or when something won't work the way you'd expect.
+  .. warning::
+    Warnings convey negative behaviours, or when something won't work the way you'd expect.
 
 ----
 

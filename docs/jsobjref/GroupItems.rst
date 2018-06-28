@@ -100,11 +100,11 @@ Places an external vector art file as a group item in the document.
 
 **Parameters**
 
-+---------------+------+-------------+
-|   Parameter   | Type | Description |
-+===============+======+=============+
-| ``imageFile`` | File | todo        |
-+---------------+------+-------------+
++---------------+------+--------------------------+
+|   Parameter   | Type |       Description        |
++===============+======+==========================+
+| ``imageFile`` | File | Vector art file to place |
++---------------+------+--------------------------+
 
 **Returns**
 
@@ -125,11 +125,11 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+------+-------------+
-| Parameter | Type | Description |
-+===========+======+=============+
-| ``name``  | File | todo        |
-+-----------+------+-------------+
++-----------+--------+------------------------+
+| Parameter |  Type  |      Description       |
++===========+========+========================+
+| ``name``  | String | Name of element to get |
++-----------+--------+------------------------+
 
 **Returns**
 
@@ -150,11 +150,11 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+-------------+
-|  Parameter  |      Type      | Description |
-+=============+================+=============+
-| ``itemKey`` | String, Number | todo        |
-+-------------+----------------+-------------+
++-------------+----------------+----------------------+
+|  Parameter  |      Type      |     Description      |
++=============+================+======================+
+| ``itemKey`` | String, Number | String or number key |
++-------------+----------------+----------------------+
 
 **Returns**
 

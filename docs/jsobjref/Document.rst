@@ -1330,11 +1330,11 @@ Arranges multiple documents in the given layout style.
 
 **Parameters**
 
-+-------------------+-------------------------------------------------------------------+-------------+
-|     Parameter     |                               Type                                | Description |
-+===================+===================================================================+=============+
-| ``[layoutStyle]`` | :ref:`jsobjref/scripting-constants.DocumentLayoutStyle`, optional | todo        |
-+-------------------+-------------------------------------------------------------------+-------------+
++-----------------+-------------------------------------------------------------------+------------------------------------------+
+|    Parameter    |                               Type                                |               Description                |
++=================+===================================================================+==========================================+
+| ``layoutStyle`` | :ref:`jsobjref/scripting-constants.DocumentLayoutStyle`, optional | The layout style to arrange documents in |
++-----------------+-------------------------------------------------------------------+------------------------------------------+
 
 **Returns**
 
@@ -1357,11 +1357,11 @@ When you close a document, you should set your document reference to ``null`` to
 
 **Parameters**
 
-+-------------------+-------------------------------------------------+-------------+
-|     Parameter     |                      Type                       | Description |
-+===================+=================================================+=============+
-| ``[saveOptions]`` | :ref:`jsobjref/scripting-constants.SaveOptions` | todo        |
-+-------------------+-------------------------------------------------+-------------+
++-----------------+-------------------------------------------------+----------------------------+
+|    Parameter    |                      Type                       |        Description         |
++=================+=================================================+============================+
+| ``saveOptions`` | :ref:`jsobjref/scripting-constants.SaveOptions` | Save options to close with |
++-----------------+-------------------------------------------------+----------------------------+
 
 **Returns**
 
@@ -1399,15 +1399,15 @@ Converts the given point between artboard and document coordinate systems. Retur
 
 **Parameters**
 
-+-----------------+------------------------------------------------------+-------------+
-|    Parameter    |                         Type                         | Description |
-+=================+======================================================+=============+
-| ``coordinate``  | Point                                                | todo        |
-+-----------------+------------------------------------------------------+-------------+
-| ``source``      | :ref:`jsobjref/scripting-constants.CoordinateSystem` | todo        |
-+-----------------+------------------------------------------------------+-------------+
-| ``destination`` | :ref:`jsobjref/scripting-constants.CoordinateSystem` | todo        |
-+-----------------+------------------------------------------------------+-------------+
++-----------------+------------------------------------------------------+-------------------------------+
+|    Parameter    |                         Type                         |          Description          |
++=================+======================================================+===============================+
+| ``coordinate``  | Point                                                | Point to convert              |
++-----------------+------------------------------------------------------+-------------------------------+
+| ``source``      | :ref:`jsobjref/scripting-constants.CoordinateSystem` | Source coordinate system      |
++-----------------+------------------------------------------------------+-------------------------------+
+| ``destination`` | :ref:`jsobjref/scripting-constants.CoordinateSystem` | Destination coordinate system |
++-----------------+------------------------------------------------------+-------------------------------+
 
 **Returns**
 
@@ -1428,15 +1428,15 @@ Exports the document to the specified file using one of the predefined export fi
 
 **Parameters**
 
-+------------------+------------------------------------------------+-------------+
-|    Parameter     |                      Type                      | Description |
-+==================+================================================+=============+
-| ``exportFile``   | File                                           | todo        |
-+------------------+------------------------------------------------+-------------+
-| ``exportFormat`` | :ref:`jsobjref/scripting-constants.ExportType` | todo        |
-+------------------+------------------------------------------------+-------------+
-| ``[options]``    | Variant, optional                              | todo        |
-+------------------+------------------------------------------------+-------------+
++------------------+------------------------------------------------+--------------------+
+|    Parameter     |                      Type                      |    Description     |
++==================+================================================+====================+
+| ``exportFile``   | File                                           | File to save       |
++------------------+------------------------------------------------+--------------------+
+| ``exportFormat`` | :ref:`jsobjref/scripting-constants.ExportType` | Export file format |
++------------------+------------------------------------------------+--------------------+
+| ``options``      | :ref:`jsobjref/Variable`, optional             | todo               |
++------------------+------------------------------------------------+--------------------+
 
 **Returns**
 
@@ -1457,11 +1457,11 @@ Exports the current PDF preset values to the file.
 
 **Parameters**
 
-+-----------+------+-------------+
-| Parameter | Type | Description |
-+===========+======+=============+
-| ``file``  | File | todo        |
-+-----------+------+-------------+
++-----------+------+--------------------------+
+| Parameter | Type |       Description        |
++===========+======+==========================+
+| ``file``  | File | Preset file to export to |
++-----------+------+--------------------------+
 
 **Returns**
 
@@ -1482,11 +1482,11 @@ Exports the current perspective grid preset values to the file.
 
 **Parameters**
 
-+-----------+------+-------------+
-| Parameter | Type | Description |
-+===========+======+=============+
-| ``file``  | File | todo        |
-+-----------+------+-------------+
++-----------+------+--------------------------+
+| Parameter | Type |       Description        |
++===========+======+==========================+
+| ``file``  | File | Preset file to export to |
++-----------+------+--------------------------+
 
 **Returns**
 
@@ -1507,11 +1507,11 @@ Exports the current print preset values to the file.
 
 **Parameters**
 
-+-----------+------+-------------+
-| Parameter | Type | Description |
-+===========+======+=============+
-| ``file``  | File | todo        |
-+-----------+------+-------------+
++-----------+------+--------------------------+
+| Parameter | Type |       Description        |
++===========+======+==========================+
+| ``file``  | File | Preset file to export to |
++-----------+------+--------------------------+
 
 **Returns**
 
@@ -1532,11 +1532,11 @@ Saves datasets into an XML library. The datasets contain variables and their ass
 
 **Parameters**
 
-+--------------+------+-------------+
-|  Parameter   | Type | Description |
-+==============+======+=============+
-| ``fileSpec`` | File | todo        |
-+--------------+------+-------------+
++--------------+------+-------------------------------+
+|  Parameter   | Type |          Description          |
++==============+======+===============================+
+| ``fileSpec`` | File | XML Library file to export to |
++--------------+------+-------------------------------+
 
 **Returns**
 
@@ -1557,11 +1557,11 @@ Resizes the artboard at the given index to fit currently selected art. Index def
 
 **Parameters**
 
-+-------------+-------------------------+-------------+
-|  Parameter  |          Type           | Description |
-+=============+=========================+=============+
-| ``[index]`` | Number (long), optional | todo        |
-+-------------+-------------------------+-------------+
++-----------+-------------------------+--------------------------+
+| Parameter |          Type           |       Description        |
++===========+=========================+==========================+
+| ``index`` | Number (long), optional | Artboard index to resize |
++-----------+-------------------------+--------------------------+
 
 **Returns**
 
@@ -1618,15 +1618,15 @@ If the bounds parameter is omitted, captures the entire artwork.
 
 **Parameters**
 
-+------------------+-----------------------------------------------+-------------+
-|    Parameter     |                     Type                      | Description |
-+==================+===============================================+=============+
-| ``imageFile``    | File                                          | todo        |
-+------------------+-----------------------------------------------+-------------+
-| ``[clipBounds]`` | Rect, optional                                | todo        |
-+------------------+-----------------------------------------------+-------------+
-| ``[options]``    | :ref:`jsobjref/ImageCaptureOptions`, optional | todo        |
-+------------------+-----------------------------------------------+-------------+
++----------------+-----------------------------------------------+------------------------+
+|   Parameter    |                     Type                      |      Description       |
++================+===============================================+========================+
+| ``imageFile``  | File                                          | Image file to write to |
++----------------+-----------------------------------------------+------------------------+
+| ``clipBounds`` | Rect, optional                                | Clipping bounds        |
++----------------+-----------------------------------------------+------------------------+
+| ``options``    | :ref:`jsobjref/ImageCaptureOptions`, optional | todo                   |
++----------------+-----------------------------------------------+------------------------+
 
 **Returns**
 
@@ -1647,11 +1647,11 @@ Loads the character styles from the Illustrator file.
 
 **Parameters**
 
-+--------------+------+-------------+
-|  Parameter   | Type | Description |
-+==============+======+=============+
-| ``fileSpec`` | File | todo        |
-+--------------+------+-------------+
++--------------+------+------------------------------------+
+|  Parameter   | Type |            Description             |
++==============+======+====================================+
+| ``fileSpec`` | File | File to load character styles from |
++--------------+------+------------------------------------+
 
 **Returns**
 
@@ -1672,11 +1672,11 @@ Loads the paragraph styles from the Illustrator file.
 
 **Parameters**
 
-+--------------+------+-------------+
-|  Parameter   | Type | Description |
-+==============+======+=============+
-| ``fileSpec`` | File | todo        |
-+--------------+------+-------------+
++--------------+------+------------------------------------+
+|  Parameter   | Type |            Description             |
++==============+======+====================================+
+| ``fileSpec`` | File | File to load paragraph styles from |
++--------------+------+------------------------------------+
 
 **Returns**
 
@@ -1697,13 +1697,13 @@ Loads all PDF presets from a file.
 
 **Parameters**
 
-+-----------------------+------------------+-------------+
-|       Parameter       |       Type       | Description |
-+=======================+==================+=============+
-| ``fileSpec``          | File             | todo        |
-+-----------------------+------------------+-------------+
-| ``[replacingPreset]`` | String, optional | todo        |
-+-----------------------+------------------+-------------+
++---------------------+------------------+-------------------------------------+
+|      Parameter      |       Type       |             Description             |
++=====================+==================+=====================================+
+| ``fileSpec``        | File             | File to load PDF presets from       |
++---------------------+------------------+-------------------------------------+
+| ``replacingPreset`` | String, optional | Whether to replace existing presets |
++---------------------+------------------+-------------------------------------+
 
 **Returns**
 
@@ -1724,13 +1724,13 @@ Loads the named print preset from the file.
 
 **Parameters**
 
-+-----------------+--------+-------------+
-|    Parameter    |  Type  | Description |
-+=================+========+=============+
-| ``printPreset`` | String | todo        |
-+-----------------+--------+-------------+
-| ``fileSpec``    | File   | todo        |
-+-----------------+--------+-------------+
++-----------------+--------+---------------------------------+
+|    Parameter    |  Type  |           Description           |
++=================+========+=================================+
+| ``printPreset`` | String | Name of preset to load          |
++-----------------+--------+---------------------------------+
+| ``fileSpec``    | File   | File to load print presets from |
++-----------------+--------+---------------------------------+
 
 **Returns**
 
@@ -1751,11 +1751,11 @@ Imports a library containing datasets, variables, and their associated dynamic d
 
 **Parameters**
 
-+--------------+------+-------------+
-|  Parameter   | Type | Description |
-+==============+======+=============+
-| ``fileSpec`` | File | todo        |
-+--------------+------+-------------+
++--------------+------+-------------------------------+
+|  Parameter   | Type |          Description          |
++==============+======+===============================+
+| ``fileSpec`` | File | File to import variables from |
++--------------+------+-------------------------------+
 
 **Returns**
 
@@ -1776,11 +1776,11 @@ Prints the document.
 
 **Parameters**
 
-+---------------+----------------------------------------+-------------+
-|   Parameter   |                  Type                  | Description |
-+===============+========================================+=============+
-| ``[options]`` | :ref:`jsobjref/PrintOptions`, optional | todo        |
-+---------------+----------------------------------------+-------------+
++-------------+----------------------------------------+-------------+
+|  Parameter  |                  Type                  | Description |
++=============+========================================+=============+
+| ``options`` | :ref:`jsobjref/PrintOptions`, optional | todo        |
++-------------+----------------------------------------+-------------+
 
 **Returns**
 
@@ -1801,15 +1801,15 @@ Rasterizes the source art(s) within the specified clip bounds. The source art(s)
 
 **Parameters**
 
-+------------------+--------------------------------------------+-------------+
-|    Parameter     |                    Type                    | Description |
-+==================+============================================+=============+
-| ``sourceArt``    | Variant                                    | todo        |
-+------------------+--------------------------------------------+-------------+
-| ``[clipBounds]`` | Rect, optional                             | todo        |
-+------------------+--------------------------------------------+-------------+
-| ``[options]``    | :ref:`jsobjref/RasterizeOptions`, optional | todo        |
-+------------------+--------------------------------------------+-------------+
++----------------+--------------------------------------------+-------------------------+
+|   Parameter    |                    Type                    |       Description       |
++================+============================================+=========================+
+| ``sourceArt``  | :ref:`jsobjref/Variable`                   | Source art to rasterize |
++----------------+--------------------------------------------+-------------------------+
+| ``clipBounds`` | Rect, optional                             | Clipping bounds         |
++----------------+--------------------------------------------+-------------------------+
+| ``options``    | :ref:`jsobjref/RasterizeOptions`, optional | todo                    |
++----------------+--------------------------------------------+-------------------------+
 
 **Returns**
 
@@ -1826,9 +1826,11 @@ Document.rearrangeArboards()
 
 **Description**
 
-Rearranges artboards in the document. All arguments are optional. Default layout style is ``DocumentArtboard Layout.GridByRow``.
+Rearranges artboards in the document. All arguments are optional.
 
-The second argument specifies the number of rows or columns, as appropriate for the chosen layout style, in the range ``[1..docNumArtboards-1]``, or 1 (the default) for single row/column layouts.
+Default layout style is ``DocumentArtboard Layout.GridByRow``.
+
+The second argument specifies the number of rows or columns, as appropriate for the chosen layout style, in the range ``1..docNumArtboards-1``, or 1 (the default) for single row/column layouts.
 
 Spacing is a number of pixels, default 20.
 
@@ -1836,17 +1838,17 @@ When last argument is true (the default), artwork is moved with the artboards.
 
 **Parameters**
 
-+---------------------------+----------------------------------------------------------------------+-------------+
-|         Parameter         |                                 Type                                 | Description |
-+===========================+======================================================================+=============+
-| ``[artboardLayout]``      | :ref:`jsobjref/scripting-constants.DocumentArtboardLayout`, optional | todo        |
-+---------------------------+----------------------------------------------------------------------+-------------+
-| ``[artboardRowsOrCols]``  | Integer, optional                                                    | todo        |
-+---------------------------+----------------------------------------------------------------------+-------------+
-| ``[artboardSpacing]``     | Number, optional                                                     | todo        |
-+---------------------------+----------------------------------------------------------------------+-------------+
-| ``[artboardMoveArtwork]`` | Boolean, optional                                                    | todo        |
-+---------------------------+----------------------------------------------------------------------+-------------+
++-------------------------+----------------------------------------------------------------------+--------------------------------------------+
+|        Parameter        |                                 Type                                 |                Description                 |
++=========================+======================================================================+============================================+
+| ``artboardLayout``      | :ref:`jsobjref/scripting-constants.DocumentArtboardLayout`, optional | Artboard layout                            |
++-------------------------+----------------------------------------------------------------------+--------------------------------------------+
+| ``artboardRowsOrCols``  | Integer, optional                                                    | Number of rows or columns                  |
++-------------------------+----------------------------------------------------------------------+--------------------------------------------+
+| ``artboardSpacing``     | Number, optional                                                     | Number of pixels for spacing               |
++-------------------------+----------------------------------------------------------------------+--------------------------------------------+
+| ``artboardMoveArtwork`` | Boolean, optional                                                    | Whether to move artwork with the artboards |
++-------------------------+----------------------------------------------------------------------+--------------------------------------------+
 
 **Returns**
 
@@ -1884,13 +1886,13 @@ Saves the document in the specified file as an Illustrator, EPS, or PDF file.
 
 **Parameters**
 
-+---------------+-----------------------------------------------------------+-------------+
-|   Parameter   |                           Type                            | Description |
-+===============+===========================================================+=============+
-| ``saveIn``    | File                                                      | todo        |
-+---------------+-----------------------------------------------------------+-------------+
-| ``[options]`` | :ref:`jsobjref/scripting-constants.SaveOptions`, optional | todo        |
-+---------------+-----------------------------------------------------------+-------------+
++-------------+-----------------------------------------------------------+------------------------------+
+|  Parameter  |                           Type                            |         Description          |
++=============+===========================================================+==============================+
+| ``saveIn``  | File                                                      | File to save the document as |
++-------------+-----------------------------------------------------------+------------------------------+
+| ``options`` | :ref:`jsobjref/scripting-constants.SaveOptions`, optional | Save options to close with   |
++-------------+-----------------------------------------------------------+------------------------------+
 
 **Returns**
 
@@ -1911,11 +1913,11 @@ Saves the non-UI document at the specified path
 
 **Parameters**
 
-+------------+------+-------------+
-| Parameter  | Type | Description |
-+============+======+=============+
-| ``saveIn`` | File | todo        |
-+------------+------+-------------+
++------------+------+------------------------------+
+| Parameter  | Type |         Description          |
++============+======+==============================+
+| ``saveIn`` | File | File to save the document as |
++------------+------+------------------------------+
 
 **Returns**
 
@@ -1953,11 +1955,11 @@ Sets the active plane of the active perspective grid of the document. Returns ``
 
 **Parameters**
 
-+---------------+--------------------------------------------------------------+-------------+
-|   Parameter   |                             Type                             | Description |
-+===============+==============================================================+=============+
-| ``gridPlane`` | :ref:`jsobjref/scripting-constants.PerspectiveGridPlaneType` | todo        |
-+---------------+--------------------------------------------------------------+-------------+
++---------------+--------------------------------------------------------------+-----------------+
+|   Parameter   |                             Type                             |   Description   |
++===============+==============================================================+=================+
+| ``gridPlane`` | :ref:`jsobjref/scripting-constants.PerspectiveGridPlaneType` | Grid plane type |
++---------------+--------------------------------------------------------------+-----------------+
 
 **Returns**
 
@@ -1978,13 +1980,13 @@ Selects a predefined preset to define grid for the current document. Returns ``t
 
 **Parameters**
 
-+----------------+---------------------------------------------------------+-------------+
-|   Parameter    |                          Type                           | Description |
-+================+=========================================================+=============+
-| ``gridType``   | :ref:`jsobjref/scripting-constants.PerspectiveGridType` | todo        |
-+----------------+---------------------------------------------------------+-------------+
-| ``presetName`` | String                                                  | todo        |
-+----------------+---------------------------------------------------------+-------------+
++----------------+---------------------------------------------------------+-----------------------+
+|   Parameter    |                          Type                           |      Description      |
++================+=========================================================+=======================+
+| ``gridType``   | :ref:`jsobjref/scripting-constants.PerspectiveGridType` | Grid type             |
++----------------+---------------------------------------------------------+-----------------------+
+| ``presetName`` | String                                                  | Preset name to select |
++----------------+---------------------------------------------------------+-----------------------+
 
 **Returns**
 
@@ -2022,13 +2024,13 @@ Captures the current document window to the target TIFF image file.
 
 **Parameters**
 
-+----------------+--------------------+-------------+
-|   Parameter    |        Type        | Description |
-+================+====================+=============+
-| ``imageFile``  | File               | todo        |
-+----------------+--------------------+-------------+
-| ``windowSize`` | Array of 2 numbers | todo        |
-+----------------+--------------------+-------------+
++----------------+--------------------+-----------------------+
+|   Parameter    |        Type        |      Description      |
++================+====================+=======================+
+| ``imageFile``  | File               | Image file to save as |
++----------------+--------------------+-----------------------+
+| ``windowSize`` | Array of 2 numbers | Window size           |
++----------------+--------------------+-----------------------+
 
 **Returns**
 
@@ -2044,7 +2046,7 @@ Deselecting all objects in the current document
 ********************************************************************************
 
 .. note::
-    The frontmost document can be referred to as either ``activeDocument`` or ``documents[0]``.
+    The frontmost document can be referred to as either ``activeDocument`` or ``documents[0``.
 
 ::
 
