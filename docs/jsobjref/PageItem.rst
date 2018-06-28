@@ -423,7 +423,7 @@ The visibility variable to which this page item path is bound.
 
 **Type**
 
-:ref:`jsobjref/Variant`
+:ref:`jsobjref/Variable`
 
 ----
 

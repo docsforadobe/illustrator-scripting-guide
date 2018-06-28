@@ -19,7 +19,6 @@ Code Reference:
 ===============
 
 - Finish JS obj ref
-	- Keep adding things from `/materials/Illustrator_JavaScript_Scripting_Reference_2017.rst`
 	- Organize into folders / sections based on root object
 - Add Applescript obj ref
 - Add VBScript obj ref
@@ -65,11 +64,15 @@ These should follow the following structure::
 
 Function parameter tables should have following order::
 
+```
+
 +---------------+------+-----------------------------+
 |   Parameter   | Type |         Description         |
 +===============+======+=============================+
 | ``parameter`` | Type | What does the parameter do? |
 +---------------+------+-----------------------------+
+
+```
 
 Use `Table Formatter <https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter>`_ for VSCode for easier table formating.
 

@@ -7,7 +7,7 @@ PDFSaveOptions
 
 **Description**
 
-Options for saving a document as an Adobe PDF file, used with the :ref:`jsobjref/Application.saveAs` method.
+Options for saving a document as an Adobe PDF file, used with the :ref:`jsobjref/Document.saveAs` method.
 
 All properties are optional.
 

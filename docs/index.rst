@@ -150,7 +150,10 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/Paragraphs
   jsobjref/ParagraphStyle
   jsobjref/ParagraphStyles
-
+  jsobjref/PathItem
+  jsobjref/PathItems
+  jsobjref/PathPoint
+  jsobjref/PathPoints
   jsobjref/Pattern
   jsobjref/Patterns
   jsobjref/PatternColor
