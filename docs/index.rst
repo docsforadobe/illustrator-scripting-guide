@@ -151,6 +151,14 @@ Welcome to the Adobe Illustrator Scripting Guide!
   jsobjref/ParagraphStyle
   jsobjref/ParagraphStyles
 
+  jsobjref/Pattern
+  jsobjref/Patterns
+  jsobjref/PatternColor
+  jsobjref/PDFFileOptions
+  jsobjref/PDFSaveOptions
+  jsobjref/PhotoshopFileOptions
+  jsobjref/PlacedItem
+  jsobjref/PlacedItems
   jsobjref/PluginItem
   jsobjref/PluginItems
   jsobjref/PPDFile
