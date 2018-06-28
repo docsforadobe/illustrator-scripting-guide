@@ -12,33 +12,35 @@ This chapter lists and describes the enumerations defined for use with Illustrat
 AlternateGlyphsForm
 ********************************************************************************
 
-+-------------------------------------------+-------------+
-|                   Value                   | Description |
-+===========================================+=============+
-| ``AlternateGlyphsForm.DEFAULTFORM``       | todo        |
-+-------------------------------------------+-------------+
-| ``AlternateGlyphsForm.TRADITIONAL``       | todo        |
-+-------------------------------------------+-------------+
-| ``AlternateGlyphsForm.EXPERT``            | todo        |
-+-------------------------------------------+-------------+
-| ``AlternateGlyphsForm.JIS78FORM``         | todo        |
-+-------------------------------------------+-------------+
-| ``AlternateGlyphsForm.JIS83FORM``         | todo        |
-+-------------------------------------------+-------------+
-| ``AlternateGlyphsForm.HALFWIDTH``         | todo        |
-+-------------------------------------------+-------------+
-| ``AlternateGlyphsForm.THIRDWIDTH``        | todo        |
-+-------------------------------------------+-------------+
-| ``AlternateGlyphsForm.QUARTERWIDTH``      | todo        |
-+-------------------------------------------+-------------+
-| ``AlternateGlyphsForm.FULLWIDTH``         | todo        |
-+-------------------------------------------+-------------+
-| ``AlternateGlyphsForm.PROPORTIONALWIDTH`` | todo        |
-+-------------------------------------------+-------------+
-| ``AlternateGlyphsForm.JIS90FORM``         | todo        |
-+-------------------------------------------+-------------+
-| ``AlternateGlyphsForm.JIS04FORM``         | todo        |
-+-------------------------------------------+-------------+
+The alternate glyphs form of text.
+
++-------------------------------------------+--------------------+
+|                   Value                   |    Description     |
++===========================================+====================+
+| ``AlternateGlyphsForm.DEFAULTFORM``       | Defaultform        |
++-------------------------------------------+--------------------+
+| ``AlternateGlyphsForm.TRADITIONAL``       | Traditional        |
++-------------------------------------------+--------------------+
+| ``AlternateGlyphsForm.EXPERT``            | Expert             |
++-------------------------------------------+--------------------+
+| ``AlternateGlyphsForm.JIS78FORM``         | JIS78FORM          |
++-------------------------------------------+--------------------+
+| ``AlternateGlyphsForm.JIS83FORM``         | JIS83FORM          |
++-------------------------------------------+--------------------+
+| ``AlternateGlyphsForm.HALFWIDTH``         | Half Width         |
++-------------------------------------------+--------------------+
+| ``AlternateGlyphsForm.THIRDWIDTH``        | Third Width        |
++-------------------------------------------+--------------------+
+| ``AlternateGlyphsForm.QUARTERWIDTH``      | Quarter Width      |
++-------------------------------------------+--------------------+
+| ``AlternateGlyphsForm.FULLWIDTH``         | Full Width         |
++-------------------------------------------+--------------------+
+| ``AlternateGlyphsForm.PROPORTIONALWIDTH`` | Proportional Width |
++-------------------------------------------+--------------------+
+| ``AlternateGlyphsForm.JIS90FORM``         | JIS90FORM          |
++-------------------------------------------+--------------------+
+| ``AlternateGlyphsForm.JIS04FORM``         | JIS04FORM          |
++-------------------------------------------+--------------------+
 
 **Example**
 
@@ -92,17 +94,17 @@ How the art should be clipped during output.
 AutoCADColors
 ********************************************************************************
 
-+--------------------------------+-------------+
-|             Value              | Description |
-+================================+=============+
-| ``AutoCADColors.Max8Colors``   | todo        |
-+--------------------------------+-------------+
-| ``AutoCADColors.Max16Colors``  | todo        |
-+--------------------------------+-------------+
-| ``AutoCADColors.Max256Colors`` | todo        |
-+--------------------------------+-------------+
-| ``AutoCADColors.TrueColors``   | todo        |
-+--------------------------------+-------------+
++--------------------------------+----------------+
+|             Value              |  Description   |
++================================+================+
+| ``AutoCADColors.Max8Colors``   | Max 8 CColors  |
++--------------------------------+----------------+
+| ``AutoCADColors.Max16Colors``  | Max 16 Colors  |
++--------------------------------+----------------+
+| ``AutoCADColors.Max256Colors`` | Max 25 6Colors |
++--------------------------------+----------------+
+| ``AutoCADColors.TrueColors``   | True Colors    |
++--------------------------------+----------------+
 
 ----
 
@@ -114,17 +116,17 @@ AutoCADCompatibility
 +-------------------------------------------+-------------+
 |                   Value                   | Description |
 +===========================================+=============+
-| ``AutoCADCompatibility.AutoCADRelease13`` | todo        |
+| ``AutoCADCompatibility.AutoCADRelease13`` | Release 13  |
 +-------------------------------------------+-------------+
-| ``AutoCADCompatibility.AutoCADRelease18`` | todo        |
+| ``AutoCADCompatibility.AutoCADRelease18`` | Release 18  |
 +-------------------------------------------+-------------+
-| ``AutoCADCompatibility.AutoCADRelease14`` | todo        |
+| ``AutoCADCompatibility.AutoCADRelease14`` | Release 14  |
 +-------------------------------------------+-------------+
-| ``AutoCADCompatibility.AutoCADRelease21`` | todo        |
+| ``AutoCADCompatibility.AutoCADRelease21`` | Release 21  |
 +-------------------------------------------+-------------+
-| ``AutoCADCompatibility.AutoCADRelease15`` | todo        |
+| ``AutoCADCompatibility.AutoCADRelease15`` | Release 15  |
 +-------------------------------------------+-------------+
-| ``AutoCADCompatibility.AutoCADRelease24`` | todo        |
+| ``AutoCADCompatibility.AutoCADRelease24`` | Release 24  |
 +-------------------------------------------+-------------+
 
 ----
@@ -137,9 +139,9 @@ AutoCADExportFileFormat
 +---------------------------------+-------------+
 |              Value              | Description |
 +=================================+=============+
-| ``AutoCADExportFileFormat.DXF`` | todo        |
+| ``AutoCADExportFileFormat.DXF`` | DXF         |
 +---------------------------------+-------------+
-| ``AutoCADExportFileFormat.DWG`` | todo        |
+| ``AutoCADExportFileFormat.DWG`` | DWG         |
 +---------------------------------+-------------+
 
 ----
@@ -149,13 +151,13 @@ AutoCADExportFileFormat
 AutoCADExportOption
 ********************************************************************************
 
-+---------------------------------------------+-------------+
-|                    Value                    | Description |
-+=============================================+=============+
-| ``AutoCADExportOption.PreserveAppearance``  | todo        |
-+---------------------------------------------+-------------+
-| ``AutoCADExportOption.MaximizeEditability`` | todo        |
-+---------------------------------------------+-------------+
++---------------------------------------------+----------------------+
+|                    Value                    |     Description      |
++=============================================+======================+
+| ``AutoCADExportOption.PreserveAppearance``  | Preserve Appearance  |
++---------------------------------------------+----------------------+
+| ``AutoCADExportOption.MaximizeEditability`` | Maximize Editability |
++---------------------------------------------+----------------------+
 
 ----
 
@@ -164,15 +166,15 @@ AutoCADExportOption
 AutoCADGlobalScaleOption
 ********************************************************************************
 
-+-------------------------------------------+-------------+
-|                   Value                   | Description |
-+===========================================+=============+
-| ``AutoCADGlobalScaleOption.OriginalSize`` | todo        |
-+-------------------------------------------+-------------+
-| ``AutoCADGlobalScaleOption.ScaleByValue`` | todo        |
-+-------------------------------------------+-------------+
-| ``AutoCADGlobalScaleOption.FitArtboard``  | todo        |
-+-------------------------------------------+-------------+
++-------------------------------------------+----------------+
+|                   Value                   |  Description   |
++===========================================+================+
+| ``AutoCADGlobalScaleOption.OriginalSize`` | Original Size  |
++-------------------------------------------+----------------+
+| ``AutoCADGlobalScaleOption.ScaleByValue`` | Scale by Value |
++-------------------------------------------+----------------+
+| ``AutoCADGlobalScaleOption.FitArtboard``  | Fit Artboard   |
++-------------------------------------------+----------------+
 
 ----
 
@@ -184,9 +186,9 @@ AutoCADRasterFormat
 +------------------------------+-------------+
 |            Value             | Description |
 +==============================+=============+
-| ``AutoCADRasterFormat.PNG``  | todo        |
+| ``AutoCADRasterFormat.PNG``  | PNG         |
 +------------------------------+-------------+
-| ``AutoCADRasterFormat.JPEG`` | todo        |
+| ``AutoCADRasterFormat.JPEG`` | JPEG        |
 +------------------------------+-------------+
 
 ----
@@ -199,17 +201,17 @@ AutoCADUnit
 +-----------------------------+-------------+
 |            Value            | Description |
 +=============================+=============+
-| ``AutoCADUnit.Points``      | todo        |
+| ``AutoCADUnit.Points``      | Points      |
 +-----------------------------+-------------+
-| ``AutoCADUnit.Picas``       | todo        |
+| ``AutoCADUnit.Picas``       | Picas       |
 +-----------------------------+-------------+
-| ``AutoCADUnit.Inches``      | todo        |
+| ``AutoCADUnit.Inches``      | Inches      |
 +-----------------------------+-------------+
-| ``AutoCADUnit.Millimeters`` | todo        |
+| ``AutoCADUnit.Millimeters`` | Millimeters |
 +-----------------------------+-------------+
-| ``AutoCADUnit.Centimeters`` | todo        |
+| ``AutoCADUnit.Centimeters`` | Centimeters |
 +-----------------------------+-------------+
-| ``AutoCADUnit.Pixels``      | todo        |
+| ``AutoCADUnit.Pixels``      | Pixels      |
 +-----------------------------+-------------+
 
 ----
@@ -219,16 +221,18 @@ AutoCADUnit
 AutoKernType
 ********************************************************************************
 
+The auto kern type.
+
 +-----------------------------------+-------------+
 |               Value               | Description |
 +===================================+=============+
-| ``AutoKernType.NOAUTOKERN``       | todo        |
+| ``AutoKernType.NOAUTOKERN``       | None        |
 +-----------------------------------+-------------+
-| ``AutoKernType.AUTO``             | todo        |
+| ``AutoKernType.AUTO``             | Auto        |
 +-----------------------------------+-------------+
-| ``AutoKernType.OPTICAL``          | todo        |
+| ``AutoKernType.OPTICAL``          | Optical     |
 +-----------------------------------+-------------+
-| ``AutoKernType.METRICSROMANONLY`` | todo        |
+| ``AutoKernType.METRICSROMANONLY`` | Metrics     |
 +-----------------------------------+-------------+
 
 ----
@@ -238,13 +242,15 @@ AutoKernType
 AutoLeadingType
 ********************************************************************************
 
-+------------------------------------+-------------+
-|               Value                | Description |
-+====================================+=============+
-| ``AutoLeadingType.BOTTOMTOBOTTOM`` | todo        |
-+------------------------------------+-------------+
-| ``AutoLeadingType.TOPTOTOP``       | todo        |
-+------------------------------------+-------------+
+The auto leading type.
+
++------------------------------------+------------------+
+|               Value                |   Description    |
++====================================+==================+
+| ``AutoLeadingType.BOTTOMTOBOTTOM`` | Bottom to Bottom |
++------------------------------------+------------------+
+| ``AutoLeadingType.TOPTOTOP``       | Top to Top       |
++------------------------------------+------------------+
 
 ----
 
@@ -253,15 +259,17 @@ AutoLeadingType
 BaselineDirectionType
 ********************************************************************************
 
-+-------------------------------------------+-------------+
-|                   Value                   | Description |
-+===========================================+=============+
-| ``BaselineDirectionType.Standard``        | todo        |
-+-------------------------------------------+-------------+
-| ``BaselineDirectionType.VerticalRotated`` | todo        |
-+-------------------------------------------+-------------+
-| ``BaselineDirectionType.TateChuYoko``     | todo        |
-+-------------------------------------------+-------------+
+The baseline direction type.
+
++-------------------------------------------+------------------+
+|                   Value                   |   Description    |
++===========================================+==================+
+| ``BaselineDirectionType.Standard``        | Standard         |
++-------------------------------------------+------------------+
+| ``BaselineDirectionType.VerticalRotated`` | Vertical Rotated |
++-------------------------------------------+------------------+
+| ``BaselineDirectionType.TateChuYoko``     | TateChuYoko      |
++-------------------------------------------+------------------+
 
 ----
 
@@ -273,11 +281,11 @@ BlendAnimationType
 +-----------------------------------------+-------------+
 |                  Value                  | Description |
 +=========================================+=============+
-| ``BlendAnimationType.INBUILD``          | todo        |
+| ``BlendAnimationType.INBUILD``          | In Build    |
 +-----------------------------------------+-------------+
-| ``BlendAnimationType.NOBLENDANIMATION`` | todo        |
+| ``BlendAnimationType.NOBLENDANIMATION`` | None        |
 +-----------------------------------------+-------------+
-| ``BlendAnimationType.INSEQUENCE``       | todo        |
+| ``BlendAnimationType.INSEQUENCE``       | In Sequence |
 +-----------------------------------------+-------------+
 
 ----
@@ -292,37 +300,37 @@ The blend mode used when compositing an object.
 +--------------------------------+-------------+
 |             Value              | Description |
 +================================+=============+
-| ``BlendModes.COLORBLEND``      | todo        |
+| ``BlendModes.COLORBLEND``      | Color       |
 +--------------------------------+-------------+
-| ``BlendModes.COLORBURN``       | todo        |
+| ``BlendModes.COLORBURN``       | Color Burn  |
 +--------------------------------+-------------+
-| ``BlendModes.COLORDODGE``      | todo        |
+| ``BlendModes.COLORDODGE``      | Color Dodge |
 +--------------------------------+-------------+
-| ``BlendModes.DARKEN``          | todo        |
+| ``BlendModes.DARKEN``          | Darken      |
 +--------------------------------+-------------+
-| ``BlendModes.DIFFERENCE``      | todo        |
+| ``BlendModes.DIFFERENCE``      | Difference  |
 +--------------------------------+-------------+
-| ``BlendModes.EXCLUSION``       | todo        |
+| ``BlendModes.EXCLUSION``       | Exclusion   |
 +--------------------------------+-------------+
-| ``BlendModes.HARDLIGHT``       | todo        |
+| ``BlendModes.HARDLIGHT``       | Hard Light  |
 +--------------------------------+-------------+
-| ``BlendModes.HUE``             | todo        |
+| ``BlendModes.HUE``             | Hue         |
 +--------------------------------+-------------+
-| ``BlendModes.LIGHTEN``         | todo        |
+| ``BlendModes.LIGHTEN``         | Lighten     |
 +--------------------------------+-------------+
-| ``BlendModes.LUMINOSITY``      | todo        |
+| ``BlendModes.LUMINOSITY``      | Luminosity  |
 +--------------------------------+-------------+
-| ``BlendModes.MULTIPLY``        | todo        |
+| ``BlendModes.MULTIPLY``        | Multiply    |
 +--------------------------------+-------------+
-| ``BlendModes.NORMAL``          | todo        |
+| ``BlendModes.NORMAL``          | Normal      |
 +--------------------------------+-------------+
-| ``BlendModes.OVERLAY``         | todo        |
+| ``BlendModes.OVERLAY``         | Overlay     |
 +--------------------------------+-------------+
-| ``BlendModes.SATURATIONBLEND`` | todo        |
+| ``BlendModes.SATURATIONBLEND`` | Saturation  |
 +--------------------------------+-------------+
-| ``BlendModes.SCREEN``          | todo        |
+| ``BlendModes.SCREEN``          | Screen      |
 +--------------------------------+-------------+
-| ``BlendModes.SOFTLIGHT``       | todo        |
+| ``BlendModes.SOFTLIGHT``       | Soft Light  |
 +--------------------------------+-------------+
 
 ----
@@ -334,13 +342,13 @@ BlendsExpandPolicy
 
 Policy used by FXG file format to expand blends.
 
-+---------------------------------------------------+-------------+
-|                       Value                       | Description |
-+===================================================+=============+
-| ``BlendsExpandPolicy.AUTOMATICALLYCONVERTBLENDS`` | todo        |
-+---------------------------------------------------+-------------+
-| ``BlendsExpandPolicy.RASTERIZEBLENDS``            | todo        |
-+---------------------------------------------------+-------------+
++---------------------------------------------------+------------------------------+
+|                       Value                       |         Description          |
++===================================================+==============================+
+| ``BlendsExpandPolicy.AUTOMATICALLYCONVERTBLENDS`` | Automatically convert blends |
++---------------------------------------------------+------------------------------+
+| ``BlendsExpandPolicy.RASTERIZEBLENDS``            | Rasterize blends             |
++---------------------------------------------------+------------------------------+
 
 ----
 
@@ -349,14 +357,16 @@ Policy used by FXG file format to expand blends.
 BurasagariTypeEnum
 ********************************************************************************
 
+The Burasagari type.
+
 +---------------------------------+-------------+
 |              Value              | Description |
 +=================================+=============+
-| ``BurasagariTypeEnum.Forced``   | todo        |
+| ``BurasagariTypeEnum.Forced``   | Forced      |
 +---------------------------------+-------------+
-| ``BurasagariTypeEnum.None``     | todo        |
+| ``BurasagariTypeEnum.None``     | None        |
 +---------------------------------+-------------+
-| ``BurasagariTypeEnum.Standard`` | todo        |
+| ``BurasagariTypeEnum.Standard`` | Standard    |
 +---------------------------------+-------------+
 
 ----
@@ -366,17 +376,19 @@ BurasagariTypeEnum
 CaseChangeType
 ********************************************************************************
 
-+---------------------------------+-------------+
-|              Value              | Description |
-+=================================+=============+
-| ``CaseChangeType.LOWERCASE``    | todo        |
-+---------------------------------+-------------+
-| ``CaseChangeType.SENTENCECASE`` | todo        |
-+---------------------------------+-------------+
-| ``CaseChangeType.TITLECASE``    | todo        |
-+---------------------------------+-------------+
-| ``CaseChangeType.UPPERCASE``    | todo        |
-+---------------------------------+-------------+
+The case change type.
+
++---------------------------------+-----------------------------------+
+|              Value              |            Description            |
++=================================+===================================+
+| ``CaseChangeType.LOWERCASE``    | Lowercase (``"hello world"``)     |
++---------------------------------+-----------------------------------+
+| ``CaseChangeType.SENTENCECASE`` | Sentence case (``"Hello world"``) |
++---------------------------------+-----------------------------------+
+| ``CaseChangeType.TITLECASE``    | Title case (``"Hello World"``)    |
++---------------------------------+-----------------------------------+
+| ``CaseChangeType.UPPERCASE``    | Uppercase (``"HELLO WORLD"``)     |
++---------------------------------+-----------------------------------+
 
 ----
 
@@ -385,15 +397,17 @@ CaseChangeType
 ColorConversion
 ********************************************************************************
 
-+----------------------------------------------+-------------+
-|                    Value                     | Description |
-+==============================================+=============+
-| ``ColorConversion.COLORCONVERSIONREPURPOSE`` | todo        |
-+----------------------------------------------+-------------+
-| ``ColorConversion.COLORCONVERSIONTODEST``    | todo        |
-+----------------------------------------------+-------------+
-| ``ColorConversion.None``                     | todo        |
-+----------------------------------------------+-------------+
+The color conversion policy.
+
++----------------------------------------------+----------------------------+
+|                    Value                     |        Description         |
++==============================================+============================+
+| ``ColorConversion.COLORCONVERSIONREPURPOSE`` | Color Conversion Repurpose |
++----------------------------------------------+----------------------------+
+| ``ColorConversion.COLORCONVERSIONTODEST``    | Color Conversion to Dest   |
++----------------------------------------------+----------------------------+
+| ``ColorConversion.None``                     | None                       |
++----------------------------------------------+----------------------------+
 
 ----
 
@@ -407,13 +421,13 @@ The purpose of color conversion using the ``ConvertSampleColor`` method of the `
 +----------------------------------------+-------------+
 |                 Value                  | Description |
 +========================================+=============+
-| ``ColorConvertPurpose.defaultpurpose`` | todo        |
+| ``ColorConvertPurpose.defaultpurpose`` | Default     |
 +----------------------------------------+-------------+
-| ``ColorConvertPurpose.exportpurpose``  | todo        |
+| ``ColorConvertPurpose.exportpurpose``  | Export      |
 +----------------------------------------+-------------+
-| ``ColorConvertPurpose.previewpurpose`` | todo        |
+| ``ColorConvertPurpose.previewpurpose`` | Preview     |
 +----------------------------------------+-------------+
-| ``ColorConvertPurpose.dummypurpose``   | todo        |
+| ``ColorConvertPurpose.dummypurpose``   | Dummy       |
 +----------------------------------------+-------------+
 
 ----
@@ -423,21 +437,23 @@ The purpose of color conversion using the ``ConvertSampleColor`` method of the `
 ColorDestination
 ********************************************************************************
 
-+--------------------------------------------------+-------------+
-|                      Value                       | Description |
-+==================================================+=============+
-| ``ColorDestination.COLORDESTINATIONDOCCMYK``     | todo        |
-+--------------------------------------------------+-------------+
-| ``ColorDestination.COLORDESTINATIONDOCRGB``      | todo        |
-+--------------------------------------------------+-------------+
-| ``ColorDestination.COLORDESTINATIONPROFILE``     | todo        |
-+--------------------------------------------------+-------------+
-| ``ColorDestination.COLORDESTINATIONWORKINGCMYK`` | todo        |
-+--------------------------------------------------+-------------+
-| ``ColorDestination.COLORDESTINATIONWORKINGRGB``  | todo        |
-+--------------------------------------------------+-------------+
-| ``ColorDestination.None``                        | todo        |
-+--------------------------------------------------+-------------+
+Destination profile
+
++--------------------------------------------------+--------------+
+|                      Value                       | Description  |
++==================================================+==============+
+| ``ColorDestination.COLORDESTINATIONDOCCMYK``     | Doc CMYK     |
++--------------------------------------------------+--------------+
+| ``ColorDestination.COLORDESTINATIONDOCRGB``      | Doc RGB      |
++--------------------------------------------------+--------------+
+| ``ColorDestination.COLORDESTINATIONPROFILE``     | Profile      |
++--------------------------------------------------+--------------+
+| ``ColorDestination.COLORDESTINATIONWORKINGCMYK`` | Working CMYK |
++--------------------------------------------------+--------------+
+| ``ColorDestination.COLORDESTINATIONWORKINGRGB``  | Working RGB  |
++--------------------------------------------------+--------------+
+| ``ColorDestination.None``                        | None         |
++--------------------------------------------------+--------------+
 
 ----
 
@@ -448,17 +464,17 @@ ColorDitherMethod
 
 The method used to dither colors in exported GIF and PNG8 images.
 
-+-------------------------------------+-------------+
-|                Value                | Description |
-+=====================================+=============+
-| ``ColorDitherMethod.DIFFUSION``     | todo        |
-+-------------------------------------+-------------+
-| ``ColorDitherMethod.NOISE``         | todo        |
-+-------------------------------------+-------------+
-| ``ColorDitherMethod.NOREDUCTION``   | todo        |
-+-------------------------------------+-------------+
-| ``ColorDitherMethod.PATTERNDITHER`` | todo        |
-+-------------------------------------+-------------+
++-------------------------------------+----------------+
+|                Value                |  Description   |
++=====================================+================+
+| ``ColorDitherMethod.DIFFUSION``     | Diffusion      |
++-------------------------------------+----------------+
+| ``ColorDitherMethod.NOISE``         | Noise          |
++-------------------------------------+----------------+
+| ``ColorDitherMethod.NOREDUCTION``   | No Reduction   |
++-------------------------------------+----------------+
+| ``ColorDitherMethod.PATTERNDITHER`` | Pattern Dither |
++-------------------------------------+----------------+
 
 ----
 
@@ -467,15 +483,17 @@ The method used to dither colors in exported GIF and PNG8 images.
 ColorModel
 ********************************************************************************
 
-+-----------------------------+-------------+
-|            Value            | Description |
-+=============================+=============+
-| ``ColorModel.PROCESS``      | todo        |
-+-----------------------------+-------------+
-| ``ColorModel.REGISTRATION`` | todo        |
-+-----------------------------+-------------+
-| ``ColorModel.SPOT``         | todo        |
-+-----------------------------+-------------+
+The color model to use.
+
++-----------------------------+--------------+
+|            Value            | Description  |
++=============================+==============+
+| ``ColorModel.PROCESS``      | Process      |
++-----------------------------+--------------+
+| ``ColorModel.REGISTRATION`` | Registration |
++-----------------------------+--------------+
+| ``ColorModel.SPOT``         | Spot         |
++-----------------------------+--------------+
 
 ----
 
@@ -484,19 +502,19 @@ ColorModel
 ColorProfile
 ********************************************************************************
 
-+----------------------------------------+-------------+
-|                 Value                  | Description |
-+========================================+=============+
-| ``ColorProfile.INCLUDEALLPROFILE``     | todo        |
-+----------------------------------------+-------------+
-| ``ColorProfile.INCLUDEDESTPROFILE``    | todo        |
-+----------------------------------------+-------------+
-| ``ColorProfile.INCLUDERGBPROFILE``     | todo        |
-+----------------------------------------+-------------+
-| ``ColorProfile.LEAVEPROFILEUNCHANGED`` | todo        |
-+----------------------------------------+-------------+
-| ``ColorProfile.None``                  | todo        |
-+----------------------------------------+-------------+
++----------------------------------------+-------------------------+
+|                 Value                  |       Description       |
++========================================+=========================+
+| ``ColorProfile.INCLUDEALLPROFILE``     | Include All Profile     |
++----------------------------------------+-------------------------+
+| ``ColorProfile.INCLUDEDESTPROFILE``    | Include Dest Profile    |
++----------------------------------------+-------------------------+
+| ``ColorProfile.INCLUDERGBPROFILE``     | Include RGB Profile     |
++----------------------------------------+-------------------------+
+| ``ColorProfile.LEAVEPROFILEUNCHANGED`` | Leave Profile Unchanged |
++----------------------------------------+-------------------------+
+| ``ColorProfile.None``                  | None                    |
++----------------------------------------+-------------------------+
 
 ----
 
@@ -510,13 +528,13 @@ The method used to reduce the number of colors in exported GIF and PNG8 images.
 +-------------------------------------+-------------+
 |                Value                | Description |
 +=====================================+=============+
-| ``ColorReductionMethod.ADAPTIVE``   | todo        |
+| ``ColorReductionMethod.ADAPTIVE``   | Adaptive    |
 +-------------------------------------+-------------+
-| ``ColorReductionMethod.SELECTIVE``  | todo        |
+| ``ColorReductionMethod.SELECTIVE``  | Selective   |
 +-------------------------------------+-------------+
-| ``ColorReductionMethod.PERCEPTUAL`` | todo        |
+| ``ColorReductionMethod.PERCEPTUAL`` | Perceptual  |
 +-------------------------------------+-------------+
-| ``ColorReductionMethod.WEB``        | todo        |
+| ``ColorReductionMethod.WEB``        | Web         |
 +-------------------------------------+-------------+
 
 ----
@@ -531,19 +549,19 @@ The color specification for an individual color.
 +------------------------+-------------+
 |         Value          | Description |
 +========================+=============+
-| ``ColorType.CMYK``     | todo        |
+| ``ColorType.CMYK``     | Cmyk        |
 +------------------------+-------------+
-| ``ColorType.GRADIENT`` | todo        |
+| ``ColorType.GRADIENT`` | Gradient    |
 +------------------------+-------------+
-| ``ColorType.GRAY``     | todo        |
+| ``ColorType.GRAY``     | Gray        |
 +------------------------+-------------+
-| ``ColorType.PATTERN``  | todo        |
+| ``ColorType.PATTERN``  | Pattern     |
 +------------------------+-------------+
-| ``ColorType.RGB``      | todo        |
+| ``ColorType.RGB``      | Rgb         |
 +------------------------+-------------+
-| ``ColorType.SPOT``     | todo        |
+| ``ColorType.SPOT``     | Spot        |
 +------------------------+-------------+
-| ``ColorType.NONE``     | todo        |
+| ``ColorType.NONE``     | None        |
 +------------------------+-------------+
 
 ----
@@ -555,33 +573,33 @@ Compatibility
 
 The version of the Illustrator file to create when saving an EPS or Illustrator file
 
-+------------------------------------+-------------+
-|               Value                | Description |
-+====================================+=============+
-| ``Compatibility.ILLUSTRATOR8``     | todo        |
-+------------------------------------+-------------+
-| ``Compatibility.ILLUSTRATOR9``     | todo        |
-+------------------------------------+-------------+
-| ``Compatibility.ILLUSTRATOR10``    | todo        |
-+------------------------------------+-------------+
-| ``Compatibility.ILLUSTRATOR11``    | todo        |
-+------------------------------------+-------------+
-| ``Compatibility.ILLUSTRATOR12``    | todo        |
-+------------------------------------+-------------+
-| ``Compatibility.ILLUSTRATOR13``    | todo        |
-+------------------------------------+-------------+
-| ``Compatibility.ILLUSTRATOR14``    | todo        |
-+------------------------------------+-------------+
-| ``Compatibility.ILLUSTRATOR15``    | todo        |
-+------------------------------------+-------------+
-| ``Compatibility.ILLUSTRATOR16``    | todo        |
-+------------------------------------+-------------+
-| ``Compatibility.ILLUSTRATOR17``    | todo        |
-+------------------------------------+-------------+
-| ``Compatibility.ILLUSTRATOR19``    | todo        |
-+------------------------------------+-------------+
-| ``Compatibility.JAPANESEVERSION3`` | todo        |
-+------------------------------------+-------------+
++------------------------------------+--------------------+
+|               Value                |    Description     |
++====================================+====================+
+| ``Compatibility.ILLUSTRATOR8``     | Illustrator 8      |
++------------------------------------+--------------------+
+| ``Compatibility.ILLUSTRATOR9``     | Illustrator 9      |
++------------------------------------+--------------------+
+| ``Compatibility.ILLUSTRATOR10``    | Illustrator 10     |
++------------------------------------+--------------------+
+| ``Compatibility.ILLUSTRATOR11``    | Illustrator 11     |
++------------------------------------+--------------------+
+| ``Compatibility.ILLUSTRATOR12``    | Illustrator 12     |
++------------------------------------+--------------------+
+| ``Compatibility.ILLUSTRATOR13``    | Illustrator 13     |
++------------------------------------+--------------------+
+| ``Compatibility.ILLUSTRATOR14``    | Illustrator 14     |
++------------------------------------+--------------------+
+| ``Compatibility.ILLUSTRATOR15``    | Illustrator 15     |
++------------------------------------+--------------------+
+| ``Compatibility.ILLUSTRATOR16``    | Illustrator 16     |
++------------------------------------+--------------------+
+| ``Compatibility.ILLUSTRATOR17``    | Illustrator 17     |
++------------------------------------+--------------------+
+| ``Compatibility.ILLUSTRATOR19``    | Illustrator 19     |
++------------------------------------+--------------------+
+| ``Compatibility.JAPANESEVERSION3`` | Japanese Version 3 |
++------------------------------------+--------------------+
 
 ----
 
