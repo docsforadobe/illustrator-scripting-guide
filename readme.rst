@@ -1,4 +1,5 @@
-**Description**
+Description
+################################################################################
 
 Repo hosting the Illustrator Scripting Guide RST docs, linked into a http://readthedocs.io system hosted at http://ai.aenhancers.com
 
@@ -6,33 +7,40 @@ This came from the Adobe Illustrator CC Scripting Guide (https://www.adobe.com/d
 
 ----
 
-This is still VERY wip! Still to do:
+To-do
+################################################################################
 
-**To-do**
+This project is still VERY wip! Still to do:
 
-Scripting Guide Section:
-========================
+----
+
+Scripting Guide Section
+********************************************************************************
 
 - Find/replace ``keyword`` with link to section
 
+----
+
 Code Reference:
-===============
+********************************************************************************
 
 - Finish JS obj ref
-	- Organize into folders / sections based on root object
+  - Organize into folders / sections based on root object
 - Add Applescript obj ref
 - Add VBScript obj ref
 - Changelog
 
 ----
 
-**Contribution**
+Contribution
+################################################################################
 
 Contributors are welcome and encouraged to suggest fixes, adjustments, notes/warnings, and anything else that may help the project.
 
 ----
 
-**Internal References**
+Internal References
+********************************************************************************
 
 Anchors should be defined at each page setting relative to the root folder; the anchor for the "Application" page within the JS Object Reference should be::
 
@@ -52,35 +60,37 @@ or::
 
 ----
 
-**External Links**
+External Links
+********************************************************************************
 
 These should follow the following structure::
 
 	`Link Text <http://www.aenhancers.com>`__
 
 ----
-
-**Tables**
+Tables
+********************************************************************************
 
 Function parameter tables should have following order::
 
-```
-
-+---------------+------+-----------------------------+
-|   Parameter   | Type |         Description         |
-+===============+======+=============================+
-| ``parameter`` | Type | What does the parameter do? |
-+---------------+------+-----------------------------+
-
-```
+  +---------------+------+-----------------------------+
+  |   Parameter   | Type |         Description         |
+  +===============+======+=============================+
+  | ``parameter`` | Type | What does the parameter do? |
+  +---------------+------+-----------------------------+
 
 Use `Table Formatter <https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter>`_ for VSCode for easier table formating.
 
 ----
 
-**Admonitions Usage**
+Admonitions Usage
+********************************************************************************
 
-Currently, the following `admonitions <http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions>`_ are in use in this project. Try to keep one piece of data per note, for easier parsing.
+Currently, the following `admonitions <http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions>`_ are in use in this project.
+
+Try to keep one piece of data per note, for easier parsing.
+
+::
 
 	.. note::
 		Notes detail version added, and/or relevant pieces of information.
@@ -93,7 +103,8 @@ Currently, the following `admonitions <http://docutils.sourceforge.net/docs/ref/
 
 ----
 
-**Build HTML Locally**
+Build HTML Locally
+################################################################################
 
 You may want to build the HTML locally before pushing, in order to ensure that the result is what you'd expect. These files aren't included in the git repo, nor are they used online; this is solely to create a local, offline version of the online docs.
 
@@ -104,7 +115,8 @@ You may want to build the HTML locally before pushing, in order to ensure that t
 
 ----
 
-**Licensing & Ownership**
+Licensing & Ownership
+################################################################################
 
 This project exists for educational purposes only.
 
