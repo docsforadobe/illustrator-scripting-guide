@@ -3,7 +3,7 @@ Description
 
 Repo hosting the Illustrator Scripting Guide RST docs, linked into a http://readthedocs.io system hosted at http://ai.aenhancers.com
 
-This came from the Adobe Illustrator CC Scripting Guide (https://www.adobe.com/devnet/illustrator/scripting.html).
+This came from the Adobe Illustrator CC Scripting Guide (https://www.adobe.io/apis/creativecloud/illustrator.html).
 
 ----
 

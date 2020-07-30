@@ -27,7 +27,7 @@ Mac OS   ``\system drive\Applications\Utilities\Adobe Utilities CC\ExtendScript 
 
 Several extended sample scripts are in the ``/Scripting/Sample Scripts/`` folder in your Illustrator CC installation directory.
 
-You also can view script samples and information about individual classes, objects, properties, methods, and parameters in **Adobe lllustrator CC Scripting Reference: JavaScript**, which you can download from http://www.adobe.com/devnet/illustrator/scripting/.
+You also can view script samples and information about individual classes, objects, properties, methods, and parameters in :ref:`Illustrator Scripting Reference: Javascript <scriptingJavascript/forMoreInfo>`.
 
 ----
 
@@ -53,7 +53,7 @@ Script Editor displays a list of the Illustrator objects and commands, which inc
 
 Several extended sample scripts are in the ``/Scripting/Sample Scripts/`` folder in your Illustrator CC installation directory.
 
-You also can view script samples and information about individual classes, objects, properties, methods, and parameters in **Adobe lllustrator CC Scripting Reference: AppleScript**, which you can download from http://www.adobe.com/devnet/illustrator/scripting/.
+You also can view script samples and information about individual classes, objects, properties, methods, and parameters in :ref:`Illustrator Scripting Reference: Applescript <scriptingApplescript/forMoreInfo>`.
 
 ----
 
@@ -72,4 +72,4 @@ VBScript provides a type library you can use to view Illustrator object properti
 
 Several extended sample scripts are in the ``/Scripting/Sample Scripts/`` folder in your lllustrator CC installation directory.
 
-You also can view script samples and information about individual classes, objects, properties, methods, and parameters in **Adobe lllustrator CC Scripting Reference: VBScript**, which you can download from http://www.adobe.com/devnet/illustrator/scripting/.
+You also can view script samples and information about individual classes, objects, properties, methods, and parameters in :ref:`Illustrator Scripting Reference: VBScript <scriptingVBScript/forMoreInfo>`.

@@ -14,5 +14,5 @@
     "--ignore D004"
   ],
   "restructuredtext.builtDocumentationPath": "${workspaceRoot}/build/html",
-  "restructuredtext.confPath": "${workspaceRoot}/docs"
+  "restructuredtext.confPath": "${workspaceFolder}\\docs"
 }
