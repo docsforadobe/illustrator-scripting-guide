@@ -410,6 +410,23 @@ String.
 
 ----
 
+.. _jsobjref/PageItem.uuid:
+
+PageItem.uuid
+********************************************************************************
+
+``app.activeDocument.pageItems[index].uuid``
+
+**Description**
+
+The unique identifier for this pageItem (Illustrator 24+)
+
+**Type**
+
+String, read-only.
+
+----
+
 .. _jsobjref/PageItem.visibilityVariable:
 
 PageItem.visibilityVariable
