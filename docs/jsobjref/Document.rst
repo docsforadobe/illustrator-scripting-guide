@@ -1569,6 +1569,34 @@ Boolean.
 
 ----
 
+.. _jsobjref/Document.getPageItemFromUuid:
+
+Document.getPageItemFromUuid()
+********************************************************************************
+
+``app.activeDocument.getPageItemFromUuid(uuid)``
+
+.. note::
+   This functionality was added in Illustrator 24.0. (CC2020)
+
+**Description**
+
+Retrieves the pageitem using Uuid.
+
+**Parameters**
+
++----------------+-----------------------------------------------+------------------------+
+|   Parameter    |                     Type                      |      Description       |
++================+===============================================+========================+
+| ``uuid``       | String                                        | uuid of PageItem       |
++----------------+-----------------------------------------------+------------------------+
+
+**Returns**
+
+:ref:`jsobjref/PageItem`.
+
+----
+
 .. _jsobjref/Document.getPerspectiveActivePlane:
 
 Document.getPerspectiveActivePlane()

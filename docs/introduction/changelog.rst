@@ -8,6 +8,16 @@ What's new and changed for scripting?
 
 ----
 
+.. _Changelog.14-0:
+
+`Illustrator XX.X (CC 2020) <>`_
+********************************************************************************
+
+- Added: :ref:`jsobjref/Document.getPageItemFromUuid`
+- Added: :ref:`jsobjref/PageItem.uuid`
+
+----
+
 .. _Changelog.13-0:
 
 `Illustrator XX.X (CC 2017) <>`_

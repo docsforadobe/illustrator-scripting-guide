@@ -417,9 +417,12 @@ PageItem.uuid
 
 ``app.activeDocument.pageItems[index].uuid``
 
+.. note::
+   This functionality was added in Illustrator 24.0. (CC2020)
+
 **Description**
 
-The unique identifier for this pageItem (Illustrator 24+)
+The unique identifier for this pageItem
 
 **Type**
 
