@@ -8,7 +8,7 @@ What's new and changed for scripting?
 
 ----
 
-.. _Changelog.14-0:
+.. _Changelog.24-0:
 
 `Illustrator XX.X (CC 2020) <>`_
 ********************************************************************************
