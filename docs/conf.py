@@ -20,6 +20,10 @@ source_suffix = '.rst'
 
 master_doc = 'index'
 
+extensions = ['sphinx_rtd_dark_mode']
+
+default_dark_mode = False
+
 # General information about the project.
 project = u'Illustrator Scripting Guide'
 copyright = u'2013 Adobe Systems Incorporated'
