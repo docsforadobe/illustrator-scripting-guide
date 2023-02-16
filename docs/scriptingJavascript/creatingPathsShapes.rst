@@ -81,7 +81,7 @@ The following script sample creates a path with three points::
   myLine.setEntirePath( [[220, 475], [375, 300]]);
 
   // Append another point to the line
-  var newPoint = myDoc.myLine.pathPoints.add();
+  var newPoint = myLine.pathPoints.add();
   newPoint.anchor = [220, 300];
   newPoint.leftDirection = newPoint.anchor;
   newPoint.rightDirection = newPoint.anchor;
