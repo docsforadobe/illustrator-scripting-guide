@@ -3,7 +3,7 @@
 TextFrameItem
 ################################################################################
 
-``app.activeDocument.textFrames[index``
+``app.activeDocument.textFrames[index]``
 
 **Description**
 
