@@ -3,7 +3,7 @@
 View
 ################################################################################
 
-``app.activeDocument.views[index``
+``app.activeDocument.views[index]``
 
 **Description**
 
