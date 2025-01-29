@@ -85,12 +85,15 @@ The color space of the exported file. Default: ``ImageColorSpace.RGB``.
 
 ----
 
-.. _jsobjref/ExportOptionsTIFF.IZWCompression:
+.. _jsobjref/ExportOptionsTIFF.lZWCompression:
 
-ExportOptionsTIFF.IZWCompression
+ExportOptionsTIFF.lZWCompression
 ********************************************************************************
 
-``exportOptionsTIFF.IZWCompression``
+``exportOptionsTIFF.lZWCompression``
+
+.. note::
+   This property was erroneously written as "IZWCompression" (with a capital "I"), as opposed to "lzwCompression" (with a lowercase "L"). Note that the latter is correct, and this doc has been updated to reflect this.
 
 **Description**
 
@@ -153,7 +156,7 @@ Exporting to TIFF format
       var exportOptions = new ExportOptionsTIFF();
       exportOptions.resolution = 150;
       exportOptions.byteOrder = TIFFByteOrder.IBMPC;
-      exportOptions.IZWCompression = false;
+      exportOptions.lZWCompression = false;
 
       var type = ExportType.TIFF;
       var fileSpec = new File(dest);
