@@ -6,8 +6,8 @@
 
 Specifies the properties of a character contained in a text frame. A `CharacterStyle` object associates these attributes with a specific text range through its `characterAttributes` property.
 
-#### NOTE
-Character attributes do not have default values, and are undefined until explicitly set.
+!!! note
+    Character attributes do not have default values, and are undefined until explicitly set.
 
 // todo: get the absolute path to characterAttributes.. `document.textFrames.textRef.textRange.characters[index].characterAttributes` ?
 

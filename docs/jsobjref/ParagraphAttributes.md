@@ -6,8 +6,8 @@
 
 Specifies the properties and attributes of a paragraph contained in a text frame.
 
-#### NOTE
-Paragraph attributes do not have default values, and are `undefined` untile xplicitly set.
+!!! note
+    Paragraph attributes do not have default values, and are `undefined` untile xplicitly set.
 
 ---
 
@@ -175,8 +175,8 @@ Number (double).
 
 The distance (in points) from the right edge of the paragraph that marks the part of the line where hyphenation is not allowed.
 
-#### NOTE
-0 allows all hyphenation. Valid only when [ParagraphAttributes.everyLineComposer](#jsobjref-paragraphattributes-everylinecomposer) is `false`.
+!!! note
+    0 allows all hyphenation. Valid only when [ParagraphAttributes.everyLineComposer](#jsobjref-paragraphattributes-everylinecomposer) is `false`.
 
 **Type**
 
@@ -290,8 +290,8 @@ Number (long).
 
 Maximum glyph scaling, expressed as a percentage of the default character width. Range: 50.0 to 200.0; at 100.0. The width of characters is not changed.
 
-#### NOTE
-Valid only for justified paragraphs.
+!!! note
+    Valid only for justified paragraphs.
 
 **Type**
 
@@ -307,8 +307,8 @@ Number (double).
 
 Maximum letter spacing, expressed as a percentage of the default kerning or tracking Range: -100.0 to 500.0; at 0. No space is added between letters. At 100.0, an entire space width is added between letters.
 
-#### NOTE
-Valid only for justified paragraphs.
+!!! note
+    Valid only for justified paragraphs.
 
 **Type**
 
@@ -324,8 +324,8 @@ Number (double).
 
 Maximum word spacing, expressed as a percentage of the default space for the font. Range: 0.0 to 1000.0; at 100.00. No space is added between words.
 
-#### NOTE
-Valid only for justified paragraphs.
+!!! note
+    Valid only for justified paragraphs.
 
 **Type**
 
@@ -369,8 +369,8 @@ Number (long).
 
 Minimum glyph scaling, expressed as a percentage of the default character width. Range: 50.0 to 200.0. At 100.0, the width of characters is not changed.
 
-#### NOTE
-Valid only for justified paragraphs.
+!!! note
+    Valid only for justified paragraphs.
 
 **Type**
 
@@ -400,8 +400,8 @@ Number (long).
 
 Minimum letter spacing, expressed as a percentage of the default kerning or tracking Range: -100.0 to 500.0; at 0. No space is added between letters. At 100.0, an entire space width is added between letters.
 
-#### NOTE
-Valid only for justified paragraphs.
+!!! note
+    Valid only for justified paragraphs.
 
 **Type**
 
@@ -417,8 +417,8 @@ Number (double).
 
 Minimum word spacing, expressed as a percentage of the default space for the font. Range: 0.0 to 1000.0; at 100.00. No space is added between words.
 
-#### NOTE
-Valid only for justified paragraphs.
+!!! note
+    Valid only for justified paragraphs.
 
 **Type**
 

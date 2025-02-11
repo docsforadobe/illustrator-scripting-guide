@@ -581,8 +581,8 @@ Returns an identity matrix.
 
 `app.getIsFileOpen(filePath)`
 
-#### NOTE
-This functionality was added in Illustrator XX.X (CC2017)
+!!! note
+    This functionality was added in Illustrator XX.X (CC2017)
 
 **Description**
 
@@ -668,8 +668,8 @@ Retrieves the tracing-option settings from the template with a given preset name
 
 Returns a transformation matrix containing a single rotation.
 
-#### NOTE
-Requires a value in degrees.
+!!! note
+    Requires a value in degrees.
 
 For example, `30` rotates the object 30 degrees counterclockwise; `-30` rotates the object 30 degrees clockwise.
 
@@ -693,8 +693,8 @@ For example, `30` rotates the object 30 degrees counterclockwise; `-30` rotates 
 
 Returns a transformation matrix containing a single scale.
 
-#### NOTE
-Requires a value in percentage.
+!!! note
+    Requires a value in percentage.
 
 For example, `60` scales the object to 60% of its original size; `200` doubles the object’s bounds.
 
@@ -733,8 +733,8 @@ Variant
 
 Returns a transformation matrix containing a single translation.
 
-#### NOTE
-Requires a value in points.
+!!! note
+    Requires a value in points.
 
 For example, (100, 200) moves the object 100 pt. to the right and 200 pt. up;  a minus before each number moves the object left and down.
 
@@ -840,8 +840,8 @@ Nothing.
 
 Opens the specified document file.
 
-#### NOTE
-If you open a pre-Illustrator 9 document that contains both RGB and CMYK colors and documentColorSpace is supplied, all colors are converted to the specified color space.
+!!! note
+    If you open a pre-Illustrator 9 document that contains both RGB and CMYK colors and documentColorSpace is supplied, all colors are converted to the specified color space.
 
 If the parameter is not supplied, Illustrator opens a dialog so the user can choose the color space.
 
@@ -881,8 +881,8 @@ Nothing.
 
 Quits Illustrator.
 
-#### NOTE
-If the clipboard contains data, Illustrator may show a dialog prompting the user to save the data for other applications.
+!!! note
+    If the clipboard contains data, Illustrator may show a dialog prompting the user to save the data for other applications.
 
 **Returns**
 

@@ -62,8 +62,8 @@ Boolean
 
 If `true`, result is LivePaint art. If `false`, it is classic art.
 
-#### NOTE
-A script should only set this value in preparation for a subsequent expand operation.  Leaving a tracing on the artboard when this property is `true` can lead to unexpected application behavior.
+!!! note
+    A script should only set this value in preparation for a subsequent expand operation.  Leaving a tracing on the artboard when this property is `true` can lead to unexpected application behavior.
 
 **Type**
 

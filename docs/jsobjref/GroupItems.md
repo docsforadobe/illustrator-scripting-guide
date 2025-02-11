@@ -148,8 +148,8 @@ Nothing.
 
 The following script shows how you can import a PDF document using the [GroupItems.createFromFile()](#jsobjref-groupitems-createfromfile) function.
 
-#### NOTE
-Before running this script you must create a one page PDF file and put it in the location `/temp/testfile1.pdf`.
+!!! note
+    Before running this script you must create a one page PDF file and put it in the location `/temp/testfile1.pdf`.
 
 ```default
 // Embeds a new group item in to the current document from a file specified by dest

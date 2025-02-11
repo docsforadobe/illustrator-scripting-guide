@@ -340,8 +340,8 @@ String.
 
 `app.activeDocument.pageItems[index].uuid`
 
-#### NOTE
-This functionality was added in Illustrator 24.0. (CC2020)
+!!! note
+    This functionality was added in Illustrator 24.0. (CC2020)
 
 **Description**
 

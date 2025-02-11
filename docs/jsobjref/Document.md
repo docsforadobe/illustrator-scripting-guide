@@ -1286,8 +1286,8 @@ Boolean.
 
 `app.activeDocument.getPageItemFromUuid(uuid)`
 
-#### NOTE
-This functionality was added in Illustrator 24.0. (CC2020)
+!!! note
+    This functionality was added in Illustrator 24.0. (CC2020)
 
 **Description**
 
@@ -1681,8 +1681,8 @@ Nothing.
 
 ### Deselecting all objects in the current document
 
-#### NOTE
-The frontmost document can be referred to as either `activeDocument` or `documents[0`.
+!!! note
+    The frontmost document can be referred to as either `activeDocument` or `documents[0`.
 
 ```default
 var docRef = activeDocument;

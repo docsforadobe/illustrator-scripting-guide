@@ -8,8 +8,8 @@ In scripting, you use the `variable` object to represent this type of variable.
 
 The `variable` object’s `kind` property indicates the type of dynamic data that a `variable` object holds. `Variable` objects are document-level objects; you create them in a `document` object.
 
-#### NOTE
-Do not confuse variable objects with scripting variables. For details on Illustrator variables, dynamic objects, and data-driven graphics, see Illustrator Help.
+!!! note
+    Do not confuse variable objects with scripting variables. For details on Illustrator variables, dynamic objects, and data-driven graphics, see Illustrator Help.
 
 Datasets, which collect variables and their associated dynamic data into one object, are represented in scripting by the `dataset` object.
 

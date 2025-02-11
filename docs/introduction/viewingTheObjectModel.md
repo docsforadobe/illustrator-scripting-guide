@@ -29,8 +29,8 @@ Apple provides a Script Editor with all Mac OS systems. You can use Script Edito
 
 For details of how to use Script Editor, see Script Editor Help.
 
-#### NOTE
-In a default Mac OS installation, Script Editor is in `Applications/AppleScript/Script Editor`
+!!! note
+    In a default Mac OS installation, Script Editor is in `Applications/AppleScript/Script Editor`
 
 If you cannot find the Script Editor application, you must reinstall it from your Mac OS system CD.
 
