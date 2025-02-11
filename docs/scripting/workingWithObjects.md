@@ -67,7 +67,7 @@ The following objects must be created explicitly:
 - `spot color`
 - `tracing options`
 
-The `file` and `folder` objects are Adobe ExtendScript devices designed to provide platform-independent access to the underlying file system. For information on using these objects, see [JavaScript Tools Guide](http://estk.aenhancers.com).
+The `file` and `folder` objects are Adobe ExtendScript devices designed to provide platform-independent access to the underlying file system. For information on using these objects, see [JavaScript Tools Guide](https://extendscript.docsforadobe.dev/).
 
 For information on creating an object explicitly, see the chapter for your scripting language.
 

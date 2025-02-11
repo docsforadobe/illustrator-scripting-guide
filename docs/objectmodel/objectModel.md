@@ -8,4 +8,4 @@ Note that the layer and group item classes can contain nested objects of the sam
 
 In addition to this application-specific object model, JavaScript provides certain utility objects, such as the File and Folder objects, which give you operating-system-independent access to the file system.
 
-For details, see [JavaScript Tools Guide](http://estk.aenhancers.com).
+For details, see [JavaScript Tools Guide](https://extendscript.docsforadobe.dev/).

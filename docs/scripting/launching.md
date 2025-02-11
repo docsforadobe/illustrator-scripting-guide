@@ -24,7 +24,7 @@ Typically, you run JavaScript scripts from the application's Scripts menu (File 
 
 Information on launching Illustrator in JavaScript is beyond the scope of this guide.
 
-For details, search for [Interapplication Communication](https://javascript-tools-guide.readthedocs.io/1%20-%20Introduction/extendscript-overview.html#interapplication-communication-and-messaging) or [Javascript Messaging Framework](https://javascript-tools-guide.readthedocs.io/5%20-%20Interapplication%20Communication%20with%20Scripts/communications-overview.html#messaging-framework) in [JavaScript Tools Guide](http://estk.aenhancers.com).
+For details, search for [Interapplication Communication](https://extendscript.docsforadobe.dev/introduction/extendscript-overview.html#interapplication-communication-and-messaging) or [Javascript Messaging Framework](https://extendscript.docsforadobe.dev/interapplication-communication/communications-overview.html#messaging-framework) in [JavaScript Tools Guide](https://extendscript.docsforadobe.dev/).
 
 ### VBScript
 

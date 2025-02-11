@@ -78,4 +78,4 @@ ExtendScript also provides various tools and utilities, including the following:
 - Tools for building user interfaces to your scripts
 - A messaging framework that allows you to send and receive scripts and data among scripting-enabled Adobe applications
 
-All of these features are available whether you use the DOM directly with a JSX file, or indirectly through the ActionScript wrapper library and Adobe Extension Builder. For details of these and other features, see [JavaScript Tools Guide](http://estk.aenhancers.com).
+All of these features are available whether you use the DOM directly with a JSX file, or indirectly through the ActionScript wrapper library and Adobe Extension Builder. For details of these and other features, see [JavaScript Tools Guide](https://extendscript.docsforadobe.dev/).
