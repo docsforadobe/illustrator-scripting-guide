@@ -46,7 +46,7 @@ Boolean.
 
 **Description**
 
-The number of colors in the exported image’s color table. Range: 2 to 256. Default: 128.
+The number of colors in the exported image's color table. Range: 2 to 256. Default: 128.
 
 **Type**
 

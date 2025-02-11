@@ -28,7 +28,7 @@ end tell
 To create a `path point` object, you must define three values for the point.
 
 - A fixed `anchor` point, which is the point on the path.
-- A pair of direction points— `left direction` and `right direction` —which allow you to control the path segment’s curve.
+- A pair of direction points— `left direction` and `right direction` —which allow you to control the path segment's curve.
 
 You define each property as an array of page coordinates in the format [x, y]:
 
@@ -81,7 +81,7 @@ end tell
 
 ## Shapes
 
-To create a shape, you use the object that corresponds to the shape’s name (like `ellipse`, `rectangle`, or `polygon`), and use the object’s properties to specify the shape’s position, size, and other information like the number of sides in a polygon.
+To create a shape, you use the object that corresponds to the shape's name (like `ellipse`, `rectangle`, or `polygon`), and use the object's properties to specify the shape's position, size, and other information like the number of sides in a polygon.
 
 Remember:
 
@@ -90,7 +90,7 @@ Remember:
 
 ### Write-once access
 
-Properties for path-item shapes use the “write-once” access status, which indicates that the property is writeable only when the object is created. For existing path-item objects, the properties are read-only
+Properties for path-item shapes use the "write-once" access status, which indicates that the property is writeable only when the object is created. For existing path-item objects, the properties are read-only
 properties whose values cannot be changed.
 
 ### Creating a rectangle

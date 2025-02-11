@@ -1,6 +1,6 @@
 # Your first Illustrator script
 
-The traditional first project in any programming language is displaying the message “Hello World!” In this example, you create a new Illustrator document, then add a text frame containing this message. Follow
+The traditional first project in any programming language is displaying the message "Hello World!" In this example, you create a new Illustrator document, then add a text frame containing this message. Follow
 these steps:
 
 For information on locating the ExtendScript Toolkit, see [Viewing the JavaScript object model](../introduction/viewingTheObjectModel.md#introduction-viewingtheobjectmodel-javascript).
@@ -22,13 +22,13 @@ For information on locating the ExtendScript Toolkit, see [Viewing the JavaScrip
 
 ---
 
-## Adding features to “Hello World”
+## Adding features to "Hello World"
 
 Next, we create a new script that makes changes to the Illustrator document you created with your first script. Our second script demonstrates how to:
 
 - Get the active document.
 - Get the width of the active document.
-- Resize the text frame to match the document’s width.
+- Resize the text frame to match the document's width.
 
 If you already closed the Illustrator document, run your first script again to create a new document.
 

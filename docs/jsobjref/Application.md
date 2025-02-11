@@ -44,7 +44,7 @@ Boolean; read-only.
 
 **Description**
 
-The application’s build number.
+The application's build number.
 
 **Type**
 
@@ -142,7 +142,7 @@ Number (long); read-only.
 
 **Description**
 
-The application’s locale.
+The application's locale.
 
 **Type**
 
@@ -156,7 +156,7 @@ String; read-only.
 
 **Description**
 
-The application’s name (not related to the filename of the application file).
+The application's name (not related to the filename of the application file).
 
 **Type**
 
@@ -226,7 +226,7 @@ Object; read-only.
 
 **Description**
 
-Illustrator’s preference settings.
+Illustrator's preference settings.
 
 **Type**
 
@@ -366,7 +366,7 @@ What level of interaction with the user should be allowed when handling script c
 
 **Description**
 
-The application’s version.
+The application's version.
 
 **Type**
 
@@ -626,7 +626,7 @@ Gets detailed file information for specified PPD file.
 
 **Description**
 
-Returns the full path to the application’s default document profile for the specified preset type.
+Returns the full path to the application's default document profile for the specified preset type.
 
 **Parameters**
 
@@ -696,7 +696,7 @@ Returns a transformation matrix containing a single scale.
 !!! note
     Requires a value in percentage.
 
-For example, `60` scales the object to 60% of its original size; `200` doubles the object’s bounds.
+For example, `60` scales the object to 60% of its original size; `200` doubles the object's bounds.
 
 **Parameters**
 

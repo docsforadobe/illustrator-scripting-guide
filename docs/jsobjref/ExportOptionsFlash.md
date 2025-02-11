@@ -172,7 +172,7 @@ The version of the exported SWF file. Default: `FlashExportVersion.FlashVersion9
 
 **Description**
 
-The display rate in frames per second. Range: 0.01–120.0. Default: 12.0.
+The display rate in frames per second. Range: 0.01-120.0. Default: 12.0.
 
 **Type**
 
@@ -340,7 +340,7 @@ If a file with the same name already exists, should it be replaced. Default: `Sa
 
 **Description**
 
-The resolution in pixels per inch. Range: 72–2400. Default: 72.
+The resolution in pixels per inch. Range: 72-2400. Default: 72.
 
 **Type**
 

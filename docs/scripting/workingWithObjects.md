@@ -2,9 +2,9 @@
 
 ## Getting the frontmost document or layer
 
-To refer to the selected document, use the `application` object’s `current document` property in AppleScript or the `active document` property in JavaScript or VBScript. Similarly, you can use the `document` object’s `current layer` or `active layer` property to refer to the selected layer.
+To refer to the selected document, use the `application` object's `current document` property in AppleScript or the `active document` property in JavaScript or VBScript. Similarly, you can use the `document` object's `current layer` or `active layer` property to refer to the selected layer.
 
-There are other types of “active” or “current” object properties, like `active dataset` or `active view`. For details, see the Adobe lllustrator CC 2017 Scripting Reference for your language.
+There are other types of "active" or "current" object properties, like `active dataset` or `active view`. For details, see the Adobe lllustrator CC 2017 Scripting Reference for your language.
 
 ---
 
@@ -125,7 +125,7 @@ For more examples of collection-item containers, see the document object Element
 
 ## Selected objects
 
-Sometimes, you want to write scripts that act on the currently selected object or objects. For example, you might want to apply formatting to selected text or change a selected path’s shape.
+Sometimes, you want to write scripts that act on the currently selected object or objects. For example, you might want to apply formatting to selected text or change a selected path's shape.
 
 ### Selecting Text
 
@@ -137,12 +137,12 @@ You can select an art object (like graph items, mesh items, raster items, and sy
 
 ### Referring to selected art items
 
-To refer to all currently selected objects in a document, use the `document` object’s `selection` property. To work with the objects in the selection array, you must determine their type, so you will know which properties and methods or commands you can use with them. In JavaScript and VBScript, each artwork object type has a read-only `typename` property that you can use to determine the object’s type. In
+To refer to all currently selected objects in a document, use the `document` object's `selection` property. To work with the objects in the selection array, you must determine their type, so you will know which properties and methods or commands you can use with them. In JavaScript and VBScript, each artwork object type has a read-only `typename` property that you can use to determine the object's type. In
 AppleScript, use the `class` property.
 
 ---
 
-## Notes on renaming objects stored in the application’s panels
+## Notes on renaming objects stored in the application's panels
 
 Several objects can be renamed; that is, their `name` property is writeable. The following types of objects can be sorted alphabetically in the corresponding Illustrator panel. If a script modifies the name of such an object, references to that object by index can become invalid.
 

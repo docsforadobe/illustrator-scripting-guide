@@ -34,7 +34,7 @@ The color information for this swatch.
 
 **Description**
 
-The swatch’s name.
+The swatch's name.
 
 **Type**
 

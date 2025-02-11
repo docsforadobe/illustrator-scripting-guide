@@ -160,7 +160,7 @@ Number (double)
 
 **Description**
 
-Optional. Downsample if the image’s resolution is above  this value.
+Optional. Downsample if the image's resolution is above  this value.
 
 Default: 225.0
 
@@ -428,7 +428,7 @@ Number (double)
 
 **Description**
 
-Optional. Downsample if the image’s resolution is above this value.
+Optional. Downsample if the image's resolution is above this value.
 
 Default: 225.0
 
@@ -508,7 +508,7 @@ Number (double)
 
 **Description**
 
-Optional. Downsample if the image’s resolution is above  this value.
+Optional. Downsample if the image's resolution is above  this value.
 
 Default: 450.0
 

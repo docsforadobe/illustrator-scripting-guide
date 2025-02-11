@@ -198,7 +198,7 @@ All referenced paragraph styles in the text range.
 
 **Description**
 
-The object’s container.
+The object's container.
 
 **Type**
 

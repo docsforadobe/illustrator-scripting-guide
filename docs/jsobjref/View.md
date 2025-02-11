@@ -18,7 +18,7 @@ Scripts cannot create new views, but can modify some properties of existing view
 
 **Description**
 
-Read-only. The bounding rectangle of this view relative to the current document’s bounds.
+Read-only. The bounding rectangle of this view relative to the current document's bounds.
 
 **Type**
 
@@ -32,7 +32,7 @@ Array of 4 Numbers
 
 **Description**
 
-The center point of this view relative to the current document’s bounds.
+The center point of this view relative to the current document's bounds.
 
 **Type**
 

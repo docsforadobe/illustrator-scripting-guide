@@ -6,7 +6,7 @@ In AppleScript, Illustrator returns object references by index position or name.
 path item 1 of layer 2 of document 1
 ```
 
-An object’s index position may change when other objects are created or deleted. For example, when a new path item is created on `layer 2`, the new path item becomes `path item 1 of layer 2 of document 1`.
+An object's index position may change when other objects are created or deleted. For example, when a new path item is created on `layer 2`, the new path item becomes `path item 1 of layer 2 of document 1`.
 
 This new object displaces the original path item, forcing the original to index position 2; therefore, any references made to `path item 1 of layer 2 of document 1` refer to the new object. This method of applying index numbers assures that lowest index number refers to the object that was worked on most recently.
 
@@ -76,7 +76,7 @@ To create a new object in AppleScript, use the `make` command.
 
 ## Working with selections
 
-When the user makes a selection in a document, the selected objects are stored in the document’s selection property. To access all selected objects in the active document:
+When the user makes a selection in a document, the selected objects are stored in the document's selection property. To access all selected objects in the active document:
 
 ```applescript
 tell application "Adobe Illustrator"
@@ -85,9 +85,9 @@ tell application "Adobe Illustrator"
 end tell
 ```
 
-Depending on what is selected, the `selection` property value can be an array of any type of art objects. To get or manipulate the properties of the selected art items, you must retrieve the individual items in the array. To find out an object’s type, use the `class` property.
+Depending on what is selected, the `selection` property value can be an array of any type of art objects. To get or manipulate the properties of the selected art items, you must retrieve the individual items in the array. To find out an object's type, use the `class` property.
 
-The following sample gets the first object in the array, then displays the object’s type:
+The following sample gets the first object in the array, then displays the object's type:
 
 ```applescript
 tell application "Adobe Illustrator"
@@ -102,4 +102,4 @@ The first object in a selection array is the selected object that was last added
 
 ### Working with selections
 
-To select an art object, the object’s `selected` property.
+To select an art object, the object's `selected` property.

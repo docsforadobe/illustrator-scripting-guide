@@ -18,7 +18,7 @@ Instances of `Symbol` in a document are associated with [SymbolItem](SymbolItem.
 
 **Description**
 
-The symbol’s name
+The symbol's name
 
 **Type**
 

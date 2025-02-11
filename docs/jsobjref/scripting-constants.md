@@ -411,7 +411,7 @@ The coordinate system used by Illustrator
 
 ## CropOptions
 
-The style of a document’s cropping box
+The style of a document's cropping box
 
 | Value                  | Description   |
 |------------------------|---------------|
@@ -1249,7 +1249,7 @@ The color model for the rasterization.
 
 ## RasterLinkState
 
-The status of a raster item’s linked image if the image is stored externally
+The status of a raster item's linked image if the image is stored externally
 
 | Value                          | Description    |
 |--------------------------------|----------------|
@@ -1555,7 +1555,7 @@ User interface settings
 | Value                                    | Description          |
 |------------------------------------------|----------------------|
 | `UserInteractionLevel.DISPLAYALERTS`     | Display Alerts       |
-| `UserInteractionLevel.DONTDISPLAYALERTS` | Don’t Display Alerts |
+| `UserInteractionLevel.DONTDISPLAYALERTS` | Don't Display Alerts |
 
 ---
 
@@ -1616,7 +1616,7 @@ The vector visualization mode for tracing.
 
 ## ZOrderMethod
 
-The method used to arrange an art item’s position in the stacking order of its parent group or layer, as specified with the zOrder method
+The method used to arrange an art item's position in the stacking order of its parent group or layer, as specified with the zOrder method
 
 | Value                       | Description    |
 |-----------------------------|----------------|

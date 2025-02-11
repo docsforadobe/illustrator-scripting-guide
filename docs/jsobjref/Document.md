@@ -6,9 +6,9 @@
 
 An Illustrator document. Documents are contained in the [Application](Application.md#jsobjref-application) object.
 
-The default document settings—those properties starting with the word “default”—are global settings that affect the current document. Be sure to modify these default properties only when a document is open. Note that if you set default properties to desired values before creating new objects, you can streamline your scripts, eliminating the need to specify specific properties such as `fillColor` and `stroked` that have default properties.
+The default document settings—those properties starting with the word "default"—are global settings that affect the current document. Be sure to modify these default properties only when a document is open. Note that if you set default properties to desired values before creating new objects, you can streamline your scripts, eliminating the need to specify specific properties such as `fillColor` and `stroked` that have default properties.
 
-A document’s color space, height, and width can only be set when the document is created. You cannot modify these properties in an existing document. See [Application.open()](Application.md#jsobjref-application-open) for more information on how document color spaces are handled.
+A document's color space, height, and width can only be set when the document is created. You cannot modify these properties in an existing document. See [Application.open()](Application.md#jsobjref-application-open) for more information on how document color spaces are handled.
 
 ---
 
@@ -48,7 +48,7 @@ The active layer in the document.
 
 **Description**
 
-The document’s current view.
+The document's current view.
 
 **Type**
 
@@ -118,7 +118,7 @@ The compound path items contained in the document.
 
 **Description**
 
-The boundary of the document’s cropping box for output, or `null` if no value has been set.
+The boundary of the document's cropping box for output, or `null` if no value has been set.
 
 **Type**
 
@@ -132,7 +132,7 @@ Array of 4 numbers.
 
 **Description**
 
-The style of the document’s cropping box.
+The style of the document's cropping box.
 
 **Type**
 
@@ -328,7 +328,7 @@ Number (double).
 
 **Description**
 
-The color specification system to use for this document’s color space.
+The color specification system to use for this document's color space.
 
 **Type**
 
@@ -524,7 +524,7 @@ Object, read-only.
 
 **Description**
 
-The document’s name (not the complete file path to the document).
+The document's name (not the complete file path to the document).
 
 **Type**
 
@@ -706,7 +706,7 @@ Boolean, read-only.
 
 **Description**
 
-The document’s raster effect settings.
+The document's raster effect settings.
 
 **Type**
 
@@ -776,7 +776,7 @@ Boolean.
 
 **Description**
 
-References to the objects in this document’s current selection, or `null` when nothing is selected.
+References to the objects in this document's current selection, or `null` when nothing is selected.
 
 A reference to an insertion point is returned when there is an active insertion point in the contents of a selected text art item. Similarly, a reference to a range of text is returned when characters are selected in the contents of a text art item.
 
@@ -974,7 +974,7 @@ String, read-only.
 
 **Description**
 
-If `true`, the printer’s default screen should be used when printing this document.
+If `true`, the printer's default screen should be used when printing this document.
 
 **Type**
 

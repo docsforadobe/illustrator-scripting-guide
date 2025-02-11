@@ -4,7 +4,7 @@
 
 **Description**
 
-Represents the “none” color. Assigning a `NoColor` object to the fill or stroke color of an art item is equivalent to setting the `filled` or `stroked` property to `false`.
+Represents the "none" color. Assigning a `NoColor` object to the fill or stroke color of an art item is equivalent to setting the `filled` or `stroked` property to `false`.
 
 ---
 

@@ -18,7 +18,7 @@ Tags allows you to assign an unlimited number of key-value pairs to any page ite
 
 **Description**
 
-The tag’s name.
+The tag's name.
 
 **Type**
 

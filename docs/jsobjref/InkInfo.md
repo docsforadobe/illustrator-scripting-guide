@@ -16,7 +16,7 @@ Ink information for printing a document.
 
 **Description**
 
-The ink’s screen angle in degrees. Range: -360 to 360.
+The ink's screen angle in degrees. Range: -360 to 360.
 
 **Type**
 
@@ -72,7 +72,7 @@ String.
 
 **Description**
 
-The ink’s frequency. Range: 0.0 to 1000.0.
+The ink's frequency. Range: 0.0 to 1000.0.
 
 **Type**
 

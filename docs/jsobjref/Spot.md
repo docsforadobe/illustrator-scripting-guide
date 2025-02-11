@@ -50,7 +50,7 @@ The color model for this custom color.
 
 **Description**
 
-The spot color’s name.
+The spot color's name.
 
 **Type**
 

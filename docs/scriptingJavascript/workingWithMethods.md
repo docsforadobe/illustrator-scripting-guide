@@ -1,6 +1,6 @@
 # Working with methods in JavaScript
 
-When you work with methods that have multiple parameters, you may omit optional parameters at the end of the parameter list, but you may not omit parameters in the middle of the list. If you do not want to specify a particular parameter in the middle of the list, you must insert the value `undefined` to use the parameter’s default value. For example, the following definition describes the `rotate()` method for an art object.
+When you work with methods that have multiple parameters, you may omit optional parameters at the end of the parameter list, but you may not omit parameters in the middle of the list. If you do not want to specify a particular parameter in the middle of the list, you must insert the value `undefined` to use the parameter's default value. For example, the following definition describes the `rotate()` method for an art object.
 
 ```default
 rotate

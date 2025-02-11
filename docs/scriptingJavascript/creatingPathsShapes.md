@@ -27,7 +27,7 @@ myLine.setEntirePath([[220, 475], [375, 300], [200, 300]]);
 To create a `pathPoint` object, you must define three values for the point.
 
 - A fixed `anchor` point, which is the point on the path.
-- A pair of direction points— `left direction` and `right direction` —which allow you to control the path segment’s curve.
+- A pair of direction points— `left direction` and `right direction` —which allow you to control the path segment's curve.
 
 You define each property as an array of page coordinates in the format [x, y]:
 
@@ -88,7 +88,7 @@ newPoint.pointType = PointType.CORNER;
 
 ## Shapes
 
-To create a shape, you use the object that corresponds to the shape’s name (like `ellipse`, `rectangle`, or `polygon`), and use the object’s properties to specify the shape’s position, size, and other information like the number of sides in a polygon.
+To create a shape, you use the object that corresponds to the shape's name (like `ellipse`, `rectangle`, or `polygon`), and use the object's properties to specify the shape's position, size, and other information like the number of sides in a polygon.
 
 Remember:
 
@@ -105,7 +105,7 @@ var artLayer = myDocument.layers.add()
 var rect = artLayer.pathItems.rectangle( 144, 144, 72, 216 );
 ```
 
-The sample uses the `pathItems` object’s `rectangle()` method to create a rectangle with these properties:
+The sample uses the `pathItems` object's `rectangle()` method to create a rectangle with these properties:
 
 - The top of the rectangle is 2 inches (144 points) from the bottom edge of the page.
 - The left edge is 2 inches (144 points) from the left edge of the page.

@@ -30,7 +30,7 @@ The character properties for the text range.
 
 **Description**
 
-The paragraph style’s name.
+The paragraph style's name.
 
 **Type**
 
@@ -58,7 +58,7 @@ The paragraph properties for the text range.
 
 **Description**
 
-The object’s container.
+The object's container.
 
 **Type**
 

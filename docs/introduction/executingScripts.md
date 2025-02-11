@@ -14,7 +14,7 @@ You also can have JavaScript scripts with a .jsx extension start automatically w
 
 To include a script in the Scripts menu (File > Scripts), save the script in the Scripts folder, located in the `/lllustrator CC/Presets` folder in your lllustrator CC installation directory.
 
-The script’s filename, minus the file extension, appears in the Scripts menu.
+The script's filename, minus the file extension, appears in the Scripts menu.
 
 Scripts that you add to the Scripts folder while Illustrator is running do not appear in the Scripts menu until the next time you launch Illustrator.
 

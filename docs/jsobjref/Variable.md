@@ -22,7 +22,7 @@ Variables are accessed in Illustrator through the Variables palette.
 
 **Description**
 
-The variable’s type.
+The variable's type.
 
 **Type**
 

@@ -32,7 +32,7 @@ Number (double)
 
 **Description**
 
-The paper’s name.
+The paper's name.
 
 **Type**
 

@@ -73,7 +73,7 @@ The color space of the exported file. Default: `ImageColorSpace.RGB`.
 `exportOptionsTIFF.lZWCompression`
 
 !!! note
-    This property was erroneously written as “IZWCompression” (with a capital “I”), as opposed to “lzwCompression” (with a lowercase “L”). Note that the latter is correct, and this doc has been updated to reflect this.
+    This property was erroneously written as "IZWCompression" (with a capital "I"), as opposed to "lzwCompression" (with a lowercase "L"). Note that the latter is correct, and this doc has been updated to reflect this.
 
 **Description**
 

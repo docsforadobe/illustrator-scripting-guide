@@ -30,7 +30,7 @@ The character properties for the style.
 
 **Description**
 
-The character style’s name.
+The character style's name.
 
 **Type**
 
@@ -44,7 +44,7 @@ String
 
 **Description**
 
-The object’s container.
+The object's container.
 
 **Type**
 

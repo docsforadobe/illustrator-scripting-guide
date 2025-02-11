@@ -58,7 +58,7 @@ Boolean.
 
 **Description**
 
-(Illustrator version 9 or later.) If `true`, the document’s ICC profile is embedded in the saved file. Default: `false`.
+(Illustrator version 9 or later.) If `true`, the document's ICC profile is embedded in the saved file. Default: `false`.
 
 **Type**
 

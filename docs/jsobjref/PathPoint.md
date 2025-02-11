@@ -18,7 +18,7 @@ Each path point is made up of an anchor point (`anchor`) and a pair of handles (
 
 **Description**
 
-The position of this point’s anchor point.
+The position of this point's anchor point.
 
 **Type**
 
@@ -32,7 +32,7 @@ Array of 2 numbers
 
 **Description**
 
-The position of this path point’s in control point.
+The position of this path point's in control point.
 
 **Type**
 
@@ -76,7 +76,7 @@ Setting the type to a corner forces the left and right direction points to be on
 
 **Description**
 
-The position of this path point’s out control point.
+The position of this path point's out control point.
 
 **Type**
 

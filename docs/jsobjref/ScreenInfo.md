@@ -16,7 +16,7 @@ Contains information about the angle and frequency of the color separation scree
 
 **Description**
 
-The screen’s angle in degrees.
+The screen's angle in degrees.
 
 **Type**
 
@@ -44,7 +44,7 @@ Boolean.
 
 **Description**
 
-The screen’s frequency.
+The screen's frequency.
 
 **Type**
 

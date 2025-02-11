@@ -6,7 +6,7 @@
 
 A text object created in Illustrator CS (version 10) or earlier, which is uneditable until converted. To convert legacy text, see [LegacyTextItems.convertToNative()](LegacyTextItems.md#jsobjref-legacytextitems-converttonative).
 
-You can view, move, and print legacy text, but you cant edit it. Legacy text has an “x” through its bounding box when selected.
+You can view, move, and print legacy text, but you cant edit it. Legacy text has an "x" through its bounding box when selected.
 
 ---
 
@@ -632,7 +632,7 @@ Nothing.
 
 **Description**
 
-Arranges the art item’s position in the stacking order of the group or layer (parent) of this object.
+Arranges the art item's position in the stacking order of the group or layer (parent) of this object.
 
 **Parameters**
 

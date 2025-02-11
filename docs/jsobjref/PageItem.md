@@ -76,7 +76,7 @@ Boolean, read-only.
 
 **Description**
 
-The object’s bounds excluding the stroke width.
+The object's bounds excluding the stroke width.
 
 **Type**
 
@@ -373,7 +373,7 @@ The visibility variable to which this page item path is bound.
 
 **Description**
 
-The object’s visible bounds, including stroke width of any objects in the illustration.
+The object's visible bounds, including stroke width of any objects in the illustration.
 
 **Type**
 
@@ -604,7 +604,7 @@ Nothing.
 
 **Description**
 
-Arranges the art item’s position in the stacking order of the group or layer (parent) of this object.
+Arranges the art item's position in the stacking order of the group or layer (parent) of this object.
 
 **Parameters**
 

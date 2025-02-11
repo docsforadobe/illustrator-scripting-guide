@@ -17,7 +17,7 @@ Also, there are properties that provide application-specific information and hig
 - The `current active` document; that is, the art canvas that is displayed and accepting user input.
 - All open `documents`.
 
-The `application` object’s methods or commands allow your script to perform application-wide actions; for example:
+The `application` object's methods or commands allow your script to perform application-wide actions; for example:
 
 - `Open` files
 - `Undo` and `redo` transactions
@@ -29,7 +29,7 @@ The `application` object’s methods or commands allow your script to perform ap
 
 The `document` object, which your scripts can create or access through the `application` object, represents an art canvas or loaded Illustrator file.
 
-The `document` object’s properties give you access to the document’s content; for example:
+The `document` object's properties give you access to the document's content; for example:
 
 - The current `selection`, or art objects that the user selected in the document
 - All contained art objects, called `page items`, that make up the artwork tree
@@ -42,11 +42,11 @@ Document properties also tell you about the state of the document itself; for ex
 - Whether the document was `saved` since the last alteration of content
 - The `path` of the associated file
 
-The document object’s methods allow your scripts to act on the document; for example:
+The document object's methods allow your scripts to act on the document; for example:
 
 - `Save` to an Illustrator file or `save as` the various supported file formats
 - `Activate` or `close` a document
-- `Print` the document. Your scripts can select a printer by referencing a `print options` object, or they can reference available printers through the application object’s `printer list` property.
+- `Print` the document. Your scripts can select a printer by referencing a `print options` object, or they can reference available printers through the application object's `printer list` property.
 
 ---
 
@@ -59,5 +59,5 @@ You access the `layer` object through the `document` object.
 The `layer` object properties provide access to, or information about, the layer, such as:
 
 - Whether the layer is `visible` or `locked`.
-- The layer’s `opacity` (overall transparency) and `z order position` (position in the stacking order).
+- The layer's `opacity` (overall transparency) and `z order position` (position in the stacking order).
 - Art-creation preferences for the layer, like `artwork knockout` and `blending mode.`

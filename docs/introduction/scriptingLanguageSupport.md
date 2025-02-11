@@ -30,11 +30,11 @@ Creative Cloud includes the Extension Manager to enable installation of extensio
 
 An example of an extension that ships with the point products is Adobe Kuler. Kuler has a consistent user interface across the different suite applications, but has different logic in each, adapted to the host application.
 
-The user interface for an extension is written in ActionScript, using the Flex framework. An extension is typically accessed through its own menu item in the application’s Extensions menu.
+The user interface for an extension is written in ActionScript, using the Flex framework. An extension is typically accessed through its own menu item in the application's Extensions menu.
 
 Adobe Extension Builder allows you to design the user interface interactively using the Design view of Flash Builder. The Creative Cloud SDK also allows you to develop all of the application logic for your extension in ActionScript; you can develop and debug your extension in the familiar Flash Builder environment.
 
-To develop your application logic, we recommend using the ActionScript Wrapper Library ( CSAWLib ), which exposes the scripting DOM of each host application as an ActionScript library. This is tightly integrated with the Adobe Extension Builder environment, which includes wizards to help you build your extension’s basic structure, and run and debug your code against suite applications such as Adobe InDesign, Photoshop and Illustrator.
+To develop your application logic, we recommend using the ActionScript Wrapper Library ( CSAWLib ), which exposes the scripting DOM of each host application as an ActionScript library. This is tightly integrated with the Adobe Extension Builder environment, which includes wizards to help you build your extension's basic structure, and run and debug your code against suite applications such as Adobe InDesign, Photoshop and Illustrator.
 
 The methods, properties, and behavior of the scripting DOM is as described in the JavaScript Scripting Reference for the host application.
 
@@ -44,7 +44,7 @@ For details of how to use Adobe Extension Builder and the wrapper libraries, see
 
 The CC JavaScript scripting interface allows for limited scripting for plug-ins. A plug-in can define a command, with an event and notifier, and a handler that performs some action. A JavaScript script can then use the `app.sendScriptMessage()` method to send parameters to that plug-in-defined command, and receive a plug-in-defined response.
 
-For example, the Adobe Custom Workspace plug-in defines a command “Switch Workspace”. A script can invoke this command with the following code
+For example, the Adobe Custom Workspace plug-in defines a command "Switch Workspace". A script can invoke this command with the following code
 
 ```default
 result = app.sendScriptMessage (

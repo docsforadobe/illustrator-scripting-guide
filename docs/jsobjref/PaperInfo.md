@@ -30,7 +30,7 @@ Boolean.
 
 **Description**
 
-The paper’s height in points.
+The paper's height in points.
 
 **Type**
 
@@ -72,7 +72,7 @@ String, read-only.
 
 **Description**
 
-The paper’s width in points.
+The paper's width in points.
 
 **Type**
 

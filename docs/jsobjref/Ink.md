@@ -30,7 +30,7 @@ The ink information
 
 **Description**
 
-The ink’s name.
+The ink's name.
 
 **Type**
 

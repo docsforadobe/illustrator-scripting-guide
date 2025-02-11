@@ -30,7 +30,7 @@ The gradient stops contained in this gradient.
 
 **Description**
 
-The gradient’s name.
+The gradient's name.
 
 **Type**
 

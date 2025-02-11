@@ -36,7 +36,7 @@ VBScript indexes start at 1 for object collections; however, VBScript allows you
 
 ## Creating new objects
 
-You can use a script to create new objects. To create objects that are available from collection objects, use the collection object’s `Add` method:
+You can use a script to create new objects. To create objects that are available from collection objects, use the collection object's `Add` method:
 
 ```basic
 Set myDoc = appRef.Documents.Add()
@@ -54,7 +54,7 @@ Set newColor = CreateObject ("Illustrator.CMYKColor")
 
 ## Working with selections
 
-When the user makes a selection in a document, the selected objects are stored in the document’s `selection` property. To access all selected objects in the active document
+When the user makes a selection in a document, the selected objects are stored in the document's `selection` property. To access all selected objects in the active document
 
 ```basic
 Set appRef = CreateObject ("Illustrator.Application")
@@ -62,9 +62,9 @@ Set documentRef = appRef.ActiveDocument
 selectedObjects = documentRef.Selection
 ```
 
-Depending on what is selected, the selection property value can be an array of any type of art objects. To get or manipulate the properties of the selected art items, you must retrieve the individual items in the array. To find out an object’s type, use the `typename` property.
+Depending on what is selected, the selection property value can be an array of any type of art objects. To get or manipulate the properties of the selected art items, you must retrieve the individual items in the array. To find out an object's type, use the `typename` property.
 
-The following sample gets the first object in the array, then displays the object’s type
+The following sample gets the first object in the array, then displays the object's type
 
 ```basic
 Set appRef = CreateObject ("Illustrator.Application")
@@ -80,4 +80,4 @@ The first object in a selection array is the selected object that was last added
 
 ### Working with selections
 
-To select an art object, the object’s `Selected` property.
+To select an art object, the object's `Selected` property.

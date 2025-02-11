@@ -46,7 +46,7 @@ The mode used when compositing an object.
 
 **Description**
 
-The layer’s selection mark color.
+The layer's selection mark color.
 
 **Type**
 
@@ -475,7 +475,7 @@ Nothing.
 
 **Description**
 
-Arranges the layer’s position in the stacking order of the containing layer or document (`parent`) of this object.
+Arranges the layer's position in the stacking order of the containing layer or document (`parent`) of this object.
 
 **Parameters**
 

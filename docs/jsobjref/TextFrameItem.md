@@ -4,7 +4,7 @@
 
 **Description**
 
-The basic art item for displaying text. From the user interface, this is text created with the Text tool. There are three types of text art in Illustrator: point text, path text, and area text. The type is indicated by the text frame’s [kind](#textframeitem-kind) property.
+The basic art item for displaying text. From the user interface, this is text created with the Text tool. There are three types of text art in Illustrator: point text, path text, and area text. The type is indicated by the text frame's [kind](#textframeitem-kind) property.
 
 When you create a text frame, you also create a [Story](Story.md#jsobjref-story) object. However, threading text frames combines the frames into a single story object. To thread frames, use the [nextFrame](#textframeitem-nextframe) or [previousFrame](#textframeitem-previousframe) property.
 
@@ -116,7 +116,7 @@ The content variable bound to this text frame item.
 
 **Description**
 
-The end position of text along a path, as a value relative to the path’s segments (path text only).
+The end position of text along a path, as a value relative to the path's segments (path text only).
 
 **Type**
 
@@ -326,7 +326,7 @@ Number (double)
 
 **Description**
 
-The start position of text along a path, as a value relative to the path’s segments (path text only).
+The start position of text along a path, as a value relative to the path's segments (path text only).
 
 **Type**
 
@@ -641,7 +641,7 @@ Nothing.
 
 **Description**
 
-Arranges the art item’s position in the stacking order of the group or layer (parent) of this object.
+Arranges the art item's position in the stacking order of the group or layer (parent) of this object.
 
 **Parameters**
 

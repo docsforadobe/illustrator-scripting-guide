@@ -88,7 +88,7 @@ The color space of the exported file. Default: `ImageColorSpace.RGB`.
 
 **Description**
 
-Preserve as much of the original document’s structure as possible when exporting. Default: `true`.
+Preserve as much of the original document's structure as possible when exporting. Default: `true`.
 
 **Type**
 

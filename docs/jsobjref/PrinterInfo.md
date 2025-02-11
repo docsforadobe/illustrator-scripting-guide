@@ -114,7 +114,7 @@ Number (double)
 
 **Description**
 
-Custom paper’s maximum height.
+Custom paper's maximum height.
 
 **Type**
 
@@ -128,7 +128,7 @@ Number (double)
 
 **Description**
 
-Custom paper’s maximum height offset.
+Custom paper's maximum height offset.
 
 **Type**
 
@@ -142,7 +142,7 @@ Number (double)
 
 **Description**
 
-Custom paper’s maximum width.
+Custom paper's maximum width.
 
 **Type**
 
@@ -156,7 +156,7 @@ Number (double)
 
 **Description**
 
-Custom paper’s maximum width offset.
+Custom paper's maximum width offset.
 
 **Type**
 
@@ -170,7 +170,7 @@ Number (double)
 
 **Description**
 
-Custom paper’s minimum height.
+Custom paper's minimum height.
 
 **Type**
 
@@ -184,7 +184,7 @@ Number (double)
 
 **Description**
 
-Custom paper’s minimum height offset.
+Custom paper's minimum height offset.
 
 **Type**
 
@@ -198,7 +198,7 @@ Number (double)
 
 **Description**
 
-Custom paper’s minimum width.
+Custom paper's minimum width.
 
 **Type**
 
@@ -212,7 +212,7 @@ Number (double)
 
 **Description**
 
-Custom paper’s minimum width offset.
+Custom paper's minimum width offset.
 
 **Type**
 

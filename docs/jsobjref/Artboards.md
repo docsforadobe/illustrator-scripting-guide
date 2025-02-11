@@ -78,7 +78,7 @@ Creates a new Artboard object.
 
 **Description**
 
-Retrieves the index position of the active artboard in the document’s list.
+Retrieves the index position of the active artboard in the document's list.
 
 Returns the 0-based index.
 

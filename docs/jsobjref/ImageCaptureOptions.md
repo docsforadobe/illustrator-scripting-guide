@@ -58,7 +58,7 @@ The color to use for the artboard matte. Default: white.
 
 **Description**
 
-The resolution of the captured image file in points-per-inch (PPI), in the range [72.0 … 2400.0]. Default: 150.
+The resolution of the captured image file in points-per-inch (PPI), in the range [72.0 ... 2400.0]. Default: 150.
 
 **Type**
 

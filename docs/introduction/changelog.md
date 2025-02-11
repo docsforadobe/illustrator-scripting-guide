@@ -1,6 +1,6 @@
 # Changelog
 
-What’s new and changed for scripting?
+What's new and changed for scripting?
 
 ---
 

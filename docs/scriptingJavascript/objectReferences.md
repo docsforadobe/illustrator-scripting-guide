@@ -81,7 +81,7 @@ If you know the name of an object, you can access the object in the collections 
 var getStyle = myStyles["Ice Type"];
 ```
 
-Each element in the collection is an object of the desired type, and you can access its properties through the collection. For example, to get an object’s name, use the `name` property:
+Each element in the collection is an object of the desired type, and you can access its properties through the collection. For example, to get an object's name, use the `name` property:
 
 ```default
 var styleName = app.activeDocument.graphicStyles[0].name;
@@ -97,7 +97,7 @@ lastStyle.applyTo( app.activeDocument.pageItems[0] );
 
 ## Creating new objects
 
-You can use a script to create new objects. To create objects that are available from collection objects, or containers, use the container object’s `add()` method
+You can use a script to create new objects. To create objects that are available from collection objects, or containers, use the container object's `add()` method
 
 ```default
 var myDoc = app.documents.add()
@@ -114,15 +114,15 @@ var myColor = new CMYKColor()
 
 ## Working with selections
 
-When the user makes a selection in a document, the selected objects are stored in the document’s `selection` property. To access all selected objects in the active document:
+When the user makes a selection in a document, the selected objects are stored in the document's `selection` property. To access all selected objects in the active document:
 
 ```default
 var selectedObjects = app.activeDocument.selection;
 ```
 
-The `selection` property value can be an array of any type of art objects, depending on what types of objects are selected. To get or manipulate the properties of the selected art items, you must retrieve the individual items in the array. To find out an object’s type, use the `typename` property.
+The `selection` property value can be an array of any type of art objects, depending on what types of objects are selected. To get or manipulate the properties of the selected art items, you must retrieve the individual items in the array. To find out an object's type, use the `typename` property.
 
-The following sample gets the first object in the array, then displays the object’s type
+The following sample gets the first object in the array, then displays the object's type
 
 ```default
 var topObject = app.activeDocument.selection[0];
@@ -133,4 +133,4 @@ The first object in a selection array is the selected object that was last added
 
 ### Selecting artwork objects
 
-To select an art object, the object’s `selected` property.
+To select an art object, the object's `selected` property.

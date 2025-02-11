@@ -16,7 +16,7 @@ Information about a font in the document, found in a [CharacterAttributes](Chara
 
 **Description**
 
-The font’s family name.
+The font's family name.
 
 **Type**
 
@@ -30,7 +30,7 @@ String, read-only.
 
 **Description**
 
-The font’s full name.
+The font's full name.
 
 **Type**
 
@@ -44,7 +44,7 @@ String, read-only.
 
 **Description**
 
-The object’s container.
+The object's container.
 
 **Type**
 
@@ -58,7 +58,7 @@ Object, read-only.
 
 **Description**
 
-The font’s style name.
+The font's style name.
 
 **Type**
 
