@@ -35,7 +35,7 @@ Number (double)
 
 **Description**
 
-The amount of inter-character spacing to be added to the right side of the character, in thousandths of an em  (that amount will not compress or expand during full-justification).
+The amount of inter-character spacing to be added to the right side of the character, in thousandths of an em (that amount will not compress or expand during full-justification).
 
 **Type**
 

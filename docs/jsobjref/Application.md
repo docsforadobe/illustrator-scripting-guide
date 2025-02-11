@@ -736,7 +736,7 @@ Returns a transformation matrix containing a single translation.
 !!! note
     Requires a value in points.
 
-For example, (100, 200) moves the object 100 pt. to the right and 200 pt. up;  a minus before each number moves the object left and down.
+For example, (100, 200) moves the object 100 pt. to the right and 200 pt. up; a minus before each number moves the object left and down.
 
 **Parameters**
 
