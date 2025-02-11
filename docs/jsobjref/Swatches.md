@@ -4,7 +4,7 @@
 
 **Description**
 
-The collection of [Swatch](Swatch.md#jsobjref-swatch) objects in the document.
+The collection of [Swatch](./Swatch.md) objects in the document.
 
 ---
 
@@ -60,11 +60,11 @@ String, read-only.
 
 **Description**
 
-Creates a new [Swatch](Swatch.md#jsobjref-swatch) object.
+Creates a new [Swatch](./Swatch.md) object.
 
 **Returns**
 
-[Swatch](Swatch.md#jsobjref-swatch)
+[Swatch](./Swatch.md)
 
 ---
 
@@ -84,7 +84,7 @@ Get the first element in the collection with the provided name.
 
 **Returns**
 
-[Swatch](Swatch.md#jsobjref-swatch)
+[Swatch](./Swatch.md)
 
 ---
 
@@ -98,7 +98,7 @@ Gets selected swatches in the document.
 
 **Returns**
 
-List of [Swatch](Swatch.md#jsobjref-swatch)
+List of [Swatch](./Swatch.md)
 
 ---
 
@@ -118,7 +118,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[Swatch](Swatch.md#jsobjref-swatch)
+[Swatch](./Swatch.md)
 
 ---
 

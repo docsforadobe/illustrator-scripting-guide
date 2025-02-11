@@ -50,7 +50,7 @@ Read-only. The document that contains this view.
 
 **Type**
 
-[Document](Document.md#jsobjref-document)
+[Document](./Document.md)
 
 ---
 

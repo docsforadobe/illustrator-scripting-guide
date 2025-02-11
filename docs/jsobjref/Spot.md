@@ -4,7 +4,7 @@
 
 **Description**
 
-A custom color definition contained in a [SpotColor](SpotColor.md#jsobjref-spotcolor) object.
+A custom color definition contained in a [SpotColor](./SpotColor.md) object.
 
 If no properties are specified when creating a spot, default values are provided.
 
@@ -26,7 +26,7 @@ The color information for this spot color.
 
 **Type**
 
-[Color](Color.md#jsobjref-color)
+[Color](./Color.md)
 
 ---
 
@@ -68,7 +68,7 @@ The document that contains this spot color.
 
 **Type**
 
-[Document](Document.md#jsobjref-document); read-only.
+[Document](./Document.md); read-only.
 
 ---
 

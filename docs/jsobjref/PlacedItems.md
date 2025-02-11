@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [PlacedItem](PlacedItem.md#jsobjref-placeditem) objects in a document.
+A collection of [PlacedItem](./PlacedItem.md) objects in a document.
 
 ---
 
@@ -62,11 +62,11 @@ String, read-only.
 
 Creates a new object.
 
-Use to place new art in a document. Use the `file` property of the resulting `placedItem` object to link the file containing the artwork. See [PlacedItem](PlacedItem.md#jsobjref-placeditem).
+Use to place new art in a document. Use the `file` property of the resulting `placedItem` object to link the file containing the artwork. See [PlacedItem](./PlacedItem.md).
 
 **Returns**
 
-[PlacedItem](PlacedItem.md#jsobjref-placeditem)
+[PlacedItem](./PlacedItem.md)
 
 ---
 
@@ -86,7 +86,7 @@ Get the first element in the collection with the provided name.
 
 **Returns**
 
-[PlacedItem](PlacedItem.md#jsobjref-placeditem)
+[PlacedItem](./PlacedItem.md)
 
 ---
 
@@ -106,7 +106,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[PlacedItem](PlacedItem.md#jsobjref-placeditem)
+[PlacedItem](./PlacedItem.md)
 
 ---
 

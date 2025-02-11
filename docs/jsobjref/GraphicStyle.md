@@ -34,7 +34,7 @@ The document that contains this graphic style.
 
 **Type**
 
-[Document](Document.md#jsobjref-document), read-only.
+[Document](./Document.md), read-only.
 
 ---
 
@@ -66,7 +66,7 @@ Applies this art style to a specified art item.
 
 | Parameter   | Type                                      | Description     |
 |-------------|-------------------------------------------|-----------------|
-| `artItem`   | [PageItem](PageItem.md#jsobjref-pageitem) | Target art item |
+| `artItem`   | [PageItem](./PageItem.md) | Target art item |
 
 **Returns**
 
@@ -86,7 +86,7 @@ Merges this art style into the current styles of a specified art item.
 
 | Parameter   | Type                                      | Description     |
 |-------------|-------------------------------------------|-----------------|
-| `artItem`   | [PageItem](PageItem.md#jsobjref-pageitem) | Target art item |
+| `artItem`   | [PageItem](./PageItem.md) | Target art item |
 
 **Returns**
 

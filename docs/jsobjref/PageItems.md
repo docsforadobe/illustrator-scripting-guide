@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [PageItem](PageItem.md#jsobjref-pageitem) objects. Provides complete access to all the art items in an Illustrator document in the following classes:
+A collection of [PageItem](./PageItem.md) objects. Provides complete access to all the art items in an Illustrator document in the following classes:
 
 * [CompoundPathItem](CompoundPathItem.md)
   * [Properties](CompoundPathItem.md#properties)
@@ -50,9 +50,9 @@ A collection of [PageItem](PageItem.md#jsobjref-pageitem) objects. Provides comp
   * [Methods](TextFrameItem.md#methods)
   * [Example](TextFrameItem.md#example)
 
-You can reference page items through the [PageItems](#jsobjref-pageitems) property in a [Document](Document.md#jsobjref-document), [Layer](Layer.md#jsobjref-layer), or [GroupItem](GroupItem.md#jsobjref-groupitem).
+You can reference page items through the [PageItems](#jsobjref-pageitems) property in a [Document](./Document.md), [Layer](./Layer.md), or [GroupItem](./GroupItem.md).
 
-When you access an individual item in one of these collections, the reference is a page item of one of a particular type. For example, if you use [PageItems](#jsobjref-pageitems) to reference a graph item, the typename value of that object is [GraphItem](GraphItem.md#jsobjref-graphitem).
+When you access an individual item in one of these collections, the reference is a page item of one of a particular type. For example, if you use [PageItems](#jsobjref-pageitems) to reference a graph item, the typename value of that object is [GraphItem](./GraphItem.md).
 
 ---
 
@@ -118,7 +118,7 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-[PageItem](PageItem.md#jsobjref-pageitem)
+[PageItem](./PageItem.md)
 
 ---
 
@@ -138,7 +138,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[PageItem](PageItem.md#jsobjref-pageitem)
+[PageItem](./PageItem.md)
 
 ---
 

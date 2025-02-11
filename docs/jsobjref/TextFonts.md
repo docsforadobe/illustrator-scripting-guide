@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [TextFont](TextFont.md#jsobjref-textfont) objects.
+A collection of [TextFont](./TextFont.md) objects.
 
 ---
 
@@ -70,7 +70,7 @@ Get the first element in the collection with the provided name.
 
 **Returns**
 
-[TextFont](TextFont.md#jsobjref-textfont)
+[TextFont](./TextFont.md)
 
 ---
 
@@ -90,7 +90,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[TextFont](TextFont.md#jsobjref-textfont)
+[TextFont](./TextFont.md)
 
 ---
 

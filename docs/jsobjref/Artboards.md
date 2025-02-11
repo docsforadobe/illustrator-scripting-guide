@@ -32,7 +32,7 @@ The name of the object that contains this dataset
 
 **Type**
 
-[Artboard](Artboard.md#jsobjref-artboard); read-only.
+[Artboard](./Artboard.md); read-only.
 
 ---
 
@@ -68,7 +68,7 @@ Creates a new Artboard object.
 
 **Returns**
 
-[Artboard](Artboard.md#jsobjref-artboard)
+[Artboard](./Artboard.md)
 
 ---
 
@@ -104,7 +104,7 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-[Artboard](Artboard.md#jsobjref-artboard)
+[Artboard](./Artboard.md)
 
 ---
 

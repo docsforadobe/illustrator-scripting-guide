@@ -20,7 +20,7 @@ All the characters in this text range.
 
 **Type**
 
-[Characters](Characters.md#jsobjref-characters), read-only.
+[Characters](./Characters.md), read-only.
 
 ---
 
@@ -34,7 +34,7 @@ All the lines in this text range.
 
 **Type**
 
-[Lines](Lines.md#jsobjref-lines), read-only.
+[Lines](./Lines.md), read-only.
 
 ---
 
@@ -48,7 +48,7 @@ All the paragraphs in this text range.
 
 **Type**
 
-[Paragraphs](Paragraphs.md#jsobjref-paragraphs), read-only.
+[Paragraphs](./Paragraphs.md), read-only.
 
 ---
 
@@ -62,7 +62,7 @@ The object's container.
 
 **Type**
 
-[TextRange](TextRange.md#jsobjref-textrange), read-only.
+[TextRange](./TextRange.md), read-only.
 
 ---
 
@@ -76,7 +76,7 @@ The story to which the text range belongs.
 
 **Type**
 
-[Story](Story.md#jsobjref-story), read-only.
+[Story](./Story.md), read-only.
 
 ---
 
@@ -90,7 +90,7 @@ All of the text in this text range.
 
 **Type**
 
-[TextRanges](TextRanges.md#jsobjref-textranges), read-only.
+[TextRanges](./TextRanges.md), read-only.
 
 ---
 
@@ -118,4 +118,4 @@ All the words contained in this text range.
 
 **Type**
 
-[Words](Words.md#jsobjref-words), read-only.
+[Words](./Words.md), read-only.

@@ -64,7 +64,7 @@ Creates a new object.
 
 **Returns**
 
-[GroupItem](GroupItem.md#jsobjref-groupitem)
+[GroupItem](./GroupItem.md)
 
 ---
 
@@ -84,7 +84,7 @@ Places an external vector art file as a group item in the document.
 
 **Returns**
 
-[GroupItem](GroupItem.md#jsobjref-groupitem)
+[GroupItem](./GroupItem.md)
 
 ---
 
@@ -104,7 +104,7 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-[GroupItem](GroupItem.md#jsobjref-groupitem)
+[GroupItem](./GroupItem.md)
 
 ---
 
@@ -124,7 +124,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[GroupItem](GroupItem.md#jsobjref-groupitem)
+[GroupItem](./GroupItem.md)
 
 ---
 

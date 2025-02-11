@@ -20,7 +20,7 @@ Options to use when opening or placing an AutoCAD file.
 
 **Type**
 
-[OpenOptionsAutoCAD](OpenOptionsAutoCAD.md#jsobjref-openoptionsautocad); read-only.
+[OpenOptionsAutoCAD](./OpenOptionsAutoCAD.md); read-only.
 
 ---
 
@@ -34,7 +34,7 @@ Options to use when opening or placing a FreeHand file.
 
 **Type**
 
-[OpenOptionsFreeHand](OpenOptionsFreeHand.md#jsobjref-openoptionsfreehand); read-only.
+[OpenOptionsFreeHand](./OpenOptionsFreeHand.md); read-only.
 
 ---
 
@@ -62,7 +62,7 @@ Options to use when opening or placing a PDF file.
 
 **Type**
 
-[PDFFileOptions](PDFFileOptions.md#jsobjref-pdffileoptions); read-only.
+[PDFFileOptions](./PDFFileOptions.md); read-only.
 
 ---
 
@@ -76,7 +76,7 @@ Options to use when opening or placing a Photoshop file.
 
 **Type**
 
-[PhotoshopFileOptions](PhotoshopFileOptions.md#jsobjref-photoshopfileoptions); read-only.
+[PhotoshopFileOptions](./PhotoshopFileOptions.md); read-only.
 
 ---
 

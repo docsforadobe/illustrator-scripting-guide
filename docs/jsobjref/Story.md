@@ -20,7 +20,7 @@ All the characters in this story.
 
 **Type**
 
-[Characters](Characters.md#jsobjref-characters); read-only.
+[Characters](./Characters.md); read-only.
 
 ---
 
@@ -34,7 +34,7 @@ All the insertion points in this story.
 
 **Type**
 
-[InsertionPoints](InsertionPoints.md#jsobjref-insertionpoints); read-only.
+[InsertionPoints](./InsertionPoints.md); read-only.
 
 ---
 
@@ -62,7 +62,7 @@ All the lines in this story.
 
 **Type**
 
-[Lines](Lines.md#jsobjref-lines); read-only.
+[Lines](./Lines.md); read-only.
 
 ---
 
@@ -76,7 +76,7 @@ All the paragraphs in this story.
 
 **Type**
 
-[Paragraphs](Paragraphs.md#jsobjref-paragraphs); read-only.
+[Paragraphs](./Paragraphs.md); read-only.
 
 ---
 
@@ -104,7 +104,7 @@ The text frame items in this story.
 
 **Type**
 
-[TextFrameItems](TextFrameItems.md#jsobjref-textframeitems); read-only.
+[TextFrameItems](./TextFrameItems.md); read-only.
 
 ---
 
@@ -118,7 +118,7 @@ The text range of the story.
 
 **Type**
 
-[TextRange](TextRange.md#jsobjref-textrange); read-only.
+[TextRange](./TextRange.md); read-only.
 
 ---
 
@@ -132,7 +132,7 @@ All the text ranges in the story.
 
 **Type**
 
-[TextRanges](TextRanges.md#jsobjref-textranges); read-only.
+[TextRanges](./TextRanges.md); read-only.
 
 ---
 
@@ -146,7 +146,7 @@ The selected text ranges in the story.
 
 **Type**
 
-Array of [TextRange](TextRange.md#jsobjref-textrange); read-only.
+Array of [TextRange](./TextRange.md); read-only.
 
 ---
 
@@ -174,7 +174,7 @@ All the words in the story.
 
 **Type**
 
-[Words](Words.md#jsobjref-words); read-only.
+[Words](./Words.md); read-only.
 
 ---
 

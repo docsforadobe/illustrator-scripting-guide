@@ -4,7 +4,7 @@
 
 **Description**
 
-Associates character attributes with characters. For an example, see [CharacterStyles](CharacterStyles.md#jsobjref-characterstyles).
+Associates character attributes with characters. For an example, see [CharacterStyles](./CharacterStyles.md).
 
 ---
 
@@ -20,7 +20,7 @@ The character properties for the style.
 
 **Type**
 
-[CharacterAttributes](CharacterAttributes.md#jsobjref-characterattributes), read-only.
+[CharacterAttributes](./CharacterAttributes.md), read-only.
 
 ---
 

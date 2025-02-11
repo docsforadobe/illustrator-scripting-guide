@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [MeshItem](MeshItem.md#jsobjref-meshitem) objects.
+A collection of [MeshItem](./MeshItem.md) objects.
 
 ---
 
@@ -70,7 +70,7 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-[MeshItem](MeshItem.md#jsobjref-meshitem)
+[MeshItem](./MeshItem.md)
 
 ---
 
@@ -90,7 +90,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[MeshItem](MeshItem.md#jsobjref-meshitem)
+[MeshItem](./MeshItem.md)
 
 ---
 

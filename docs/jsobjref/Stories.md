@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [Story](Story.md#jsobjref-story) objects in a document.
+A collection of [Story](./Story.md) objects in a document.
 
 ---
 
@@ -70,4 +70,4 @@ Gets an element from the collection.
 
 **Returns**
 
-[Story](Story.md#jsobjref-story)
+[Story](./Story.md)

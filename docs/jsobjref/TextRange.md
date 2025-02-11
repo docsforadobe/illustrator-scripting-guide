@@ -20,7 +20,7 @@ The character properties for the text range.
 
 **Type**
 
-[CharacterAttributes](CharacterAttributes.md#jsobjref-characterattributes), read-only.
+[CharacterAttributes](./CharacterAttributes.md), read-only.
 
 ---
 
@@ -48,7 +48,7 @@ All the characters in this text range.
 
 **Type**
 
-[Characters](Characters.md#jsobjref-characters), read-only.
+[Characters](./Characters.md), read-only.
 
 ---
 
@@ -62,7 +62,7 @@ All referenced character styles in the text range.
 
 **Type**
 
-[CharacterStyles](CharacterStyles.md#jsobjref-characterstyles), read-only.
+[CharacterStyles](./CharacterStyles.md), read-only.
 
 ---
 
@@ -104,7 +104,7 @@ All the insertion points in this text range.
 
 **Type**
 
-[InsertionPoints](InsertionPoints.md#jsobjref-insertionpoints), read-only.
+[InsertionPoints](./InsertionPoints.md), read-only.
 
 ---
 
@@ -146,7 +146,7 @@ All the lines in this text range.
 
 **Type**
 
-[Lines](Lines.md#jsobjref-lines), read-only.
+[Lines](./Lines.md), read-only.
 
 ---
 
@@ -160,7 +160,7 @@ The paragraph properties for the text range.
 
 **Type**
 
-[ParagraphAttributes](ParagraphAttributes.md#jsobjref-paragraphattributes), read-only.
+[ParagraphAttributes](./ParagraphAttributes.md), read-only.
 
 ---
 
@@ -174,7 +174,7 @@ All the paragraphs in this text range.
 
 **Type**
 
-[Paragraphs](Paragraphs.md#jsobjref-paragraphs), read-only.
+[Paragraphs](./Paragraphs.md), read-only.
 
 ---
 
@@ -188,7 +188,7 @@ All referenced paragraph styles in the text range.
 
 **Type**
 
-[ParagraphStyles](ParagraphStyles.md#jsobjref-paragraphstyles), read-only.
+[ParagraphStyles](./ParagraphStyles.md), read-only.
 
 ---
 
@@ -230,7 +230,7 @@ The story to which the text range belongs.
 
 **Type**
 
-[Story](Story.md#jsobjref-story), read-only.
+[Story](./Story.md), read-only.
 
 ---
 
@@ -244,7 +244,7 @@ All of the text in this text range.
 
 **Type**
 
-[TextRanges](TextRanges.md#jsobjref-textranges), read-only.
+[TextRanges](./TextRanges.md), read-only.
 
 ---
 
@@ -286,7 +286,7 @@ All the words contained in this text range.
 
 **Type**
 
-[Words](Words.md#jsobjref-words), read-only.
+[Words](./Words.md), read-only.
 
 ---
 

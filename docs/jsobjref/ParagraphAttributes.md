@@ -534,7 +534,7 @@ Tab stop settings.
 
 **Type**
 
-[TabStopInfo](TabStopInfo.md#jsobjref-tabstopinfo)
+[TabStopInfo](./TabStopInfo.md)
 
 ---
 

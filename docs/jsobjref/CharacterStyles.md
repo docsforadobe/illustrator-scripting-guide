@@ -70,7 +70,7 @@ Creates a named character style.
 
 **Returns**
 
-[CharacterStyle](CharacterStyle.md#jsobjref-characterstyle)
+[CharacterStyle](./CharacterStyle.md)
 
 ---
 
@@ -90,7 +90,7 @@ Gets the first element in the collection with the provided name.
 
 **Returns**
 
-[CharacterStyle](CharacterStyle.md#jsobjref-characterstyle)
+[CharacterStyle](./CharacterStyle.md)
 
 ---
 
@@ -110,7 +110,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[CharacterStyle](CharacterStyle.md#jsobjref-characterstyle)
+[CharacterStyle](./CharacterStyle.md)
 
 ---
 

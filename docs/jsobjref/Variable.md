@@ -8,7 +8,7 @@ A document-level variable that can be imported or exported.
 
 A variable is a dynamic object used to create data-driven graphics.
 
-For an example, see [Dataset](Dataset.md#jsobjref-dataset).
+For an example, see [Dataset](./Dataset.md).
 
 Variables are accessed in Illustrator through the Variables palette.
 
@@ -54,7 +54,7 @@ All of the artwork in the variable.
 
 **Type**
 
-[PageItems](PageItems.md#jsobjref-pageitems), read-only
+[PageItems](./PageItems.md), read-only
 
 ---
 

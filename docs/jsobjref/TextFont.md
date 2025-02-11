@@ -4,7 +4,7 @@
 
 **Description**
 
-Information about a font in the document, found in a [CharacterAttributes](CharacterAttributes.md#jsobjref-characterattributes) object.
+Information about a font in the document, found in a [CharacterAttributes](./CharacterAttributes.md) object.
 
 ---
 

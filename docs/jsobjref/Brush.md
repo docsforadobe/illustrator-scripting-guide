@@ -34,7 +34,7 @@ The document that contains this brush.
 
 **Type**
 
-[Document](Document.md#jsobjref-document); read-only.
+[Document](./Document.md); read-only.
 
 ---
 
@@ -66,7 +66,7 @@ Applies the `brush` to a specific art item.
 
 | Parameter   | Type                                      | Description                |
 |-------------|-------------------------------------------|----------------------------|
-| `artItem`   | [PageItem](PageItem.md#jsobjref-pageitem) | Art item to apply brush to |
+| `artItem`   | [PageItem](./PageItem.md) | Art item to apply brush to |
 
 **Returns**
 

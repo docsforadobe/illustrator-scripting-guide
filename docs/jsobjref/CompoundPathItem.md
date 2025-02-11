@@ -136,7 +136,7 @@ The layer to which this compound path item belongs.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer), read-only.
+[Layer](./Layer.md), read-only.
 
 ---
 
@@ -220,7 +220,7 @@ The parent of this object.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem), read-only.
+[Layer](./Layer.md) or [GroupItem](./GroupItem.md), read-only.
 
 ---
 
@@ -234,7 +234,7 @@ The path art items in this compound path.
 
 **Type**
 
-[PathItems](PathItems.md#jsobjref-pathitems), read-only.
+[PathItems](./PathItems.md), read-only.
 
 ---
 
@@ -290,7 +290,7 @@ The tags contained in this object.
 
 **Type**
 
-[Tags](Tags.md#jsobjref-tags), read-only.
+[Tags](./Tags.md), read-only.
 
 ---
 
@@ -571,7 +571,7 @@ Transforms the art item by applying a transformation matrix.
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
-| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `transformationMatrix` | [Matrix](./Matrix.md)                                                            | Transformation matrix to apply                 |
 | `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
 | `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
 | `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |

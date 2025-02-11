@@ -4,7 +4,7 @@
 
 **Description**
 
-Associates paper information with a paper name. `Paper` objects are used by [Printer](Printer.md#jsobjref-printer) objects.
+Associates paper information with a paper name. `Paper` objects are used by [Printer](./Printer.md) objects.
 
 ---
 
@@ -34,7 +34,7 @@ The paper information.
 
 **Type**
 
-[PaperInfo](PaperInfo.md#jsobjref-paperinfo)
+[PaperInfo](./PaperInfo.md)
 
 ---
 

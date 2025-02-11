@@ -20,7 +20,7 @@ A reference to the spot color object that defines the color.
 
 **Type**
 
-[Spot](Spot.md#jsobjref-spot)
+[Spot](./Spot.md)
 
 ---
 

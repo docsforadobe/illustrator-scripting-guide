@@ -70,7 +70,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[InsertionPoint](InsertionPoint.md#jsobjref-insertionpoint)
+[InsertionPoint](./InsertionPoint.md)
 
 ---
 

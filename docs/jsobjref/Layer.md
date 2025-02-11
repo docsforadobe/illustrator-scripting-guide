@@ -50,7 +50,7 @@ The layer's selection mark color.
 
 **Type**
 
-[RGBColor](RGBColor.md#jsobjref-rgbcolor)
+[RGBColor](./RGBColor.md)
 
 ---
 
@@ -64,7 +64,7 @@ The compound path items contained in this layer.
 
 **Type**
 
-[CompoundPathItems](CompoundPathItems.md#jsobjref-compoundpathitems), read-only.
+[CompoundPathItems](./CompoundPathItems.md), read-only.
 
 ---
 
@@ -92,7 +92,7 @@ The graph items contained in this layer.
 
 **Type**
 
-[GraphItems](GraphItems.md#jsobjref-graphitems), read-only.
+[GraphItems](./GraphItems.md), read-only.
 
 ---
 
@@ -106,7 +106,7 @@ The group items contained in this layer.
 
 **Type**
 
-[GroupItems](GroupItems.md#jsobjref-groupitems), read-only.
+[GroupItems](./GroupItems.md), read-only.
 
 ---
 
@@ -148,7 +148,7 @@ The layers contained in this layer.
 
 **Type**
 
-[Layers](Layers.md#jsobjref-layers), read-only.
+[Layers](./Layers.md), read-only.
 
 ---
 
@@ -162,7 +162,7 @@ The legacy text items in this layer.
 
 **Type**
 
-[LegacyTextItems](LegacyTextItems.md#jsobjref-legacytextitems), read-only.
+[LegacyTextItems](./LegacyTextItems.md), read-only.
 
 ---
 
@@ -190,7 +190,7 @@ The mesh items contained in this layer.
 
 **Type**
 
-[MeshItems](MeshItems.md#jsobjref-meshitems), read-only.
+[MeshItems](./MeshItems.md), read-only.
 
 ---
 
@@ -218,7 +218,7 @@ The non-native art items in this layer.
 
 **Type**
 
-[NonNativeItems](NonNativeItems.md#jsobjref-nonnativeitems)
+[NonNativeItems](./NonNativeItems.md)
 
 ---
 
@@ -246,7 +246,7 @@ The page items (all art item classes) contained in this layer.
 
 **Type**
 
-[PageItems](PageItems.md#jsobjref-pageitems)
+[PageItems](./PageItems.md)
 
 ---
 
@@ -260,7 +260,7 @@ The document or layer that contains this layer.
 
 **Type**
 
-[Document](Document.md#jsobjref-document) or [Layer](#jsobjref-layer), read-only.
+[Document](./Document.md) or [Layer](#jsobjref-layer), read-only.
 
 ---
 
@@ -274,7 +274,7 @@ The path items contained in this layer.
 
 **Type**
 
-[PathItems](PathItems.md#jsobjref-pathitems), read-only.
+[PathItems](./PathItems.md), read-only.
 
 ---
 
@@ -288,7 +288,7 @@ The path items contained in this layer.
 
 **Type**
 
-[PlacedItems](PlacedItems.md#jsobjref-placeditems), read-only.
+[PlacedItems](./PlacedItems.md), read-only.
 
 ---
 
@@ -302,7 +302,7 @@ The plug-in items contained in this layer.
 
 **Type**
 
-[PluginItems](PluginItems.md#jsobjref-pluginitems), read-only.
+[PluginItems](./PluginItems.md), read-only.
 
 ---
 
@@ -344,7 +344,7 @@ The raster items contained in this layer.
 
 **Type**
 
-[RasterItems](RasterItems.md#jsobjref-rasteritems), read-only.
+[RasterItems](./RasterItems.md), read-only.
 
 ---
 
@@ -372,7 +372,7 @@ The symbol items contained in the layer.
 
 **Type**
 
-[SymbolItems](SymbolItems.md#jsobjref-symbolitems), read-only.
+[SymbolItems](./SymbolItems.md), read-only.
 
 ---
 
@@ -386,7 +386,7 @@ The text art items contained in this layer.
 
 **Type**
 
-[TextFrameItems](TextFrameItems.md#jsobjref-textframeitems), read-only.
+[TextFrameItems](./TextFrameItems.md), read-only.
 
 ---
 

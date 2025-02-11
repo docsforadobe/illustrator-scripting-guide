@@ -34,7 +34,7 @@ The color separation screen information.
 
 **Type**
 
-[ScreenInfo](ScreenInfo.md#jsobjref-screeninfo)
+[ScreenInfo](./ScreenInfo.md)
 
 ---
 

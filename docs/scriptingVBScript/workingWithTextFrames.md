@@ -1,6 +1,6 @@
 # Working with text frames
 
-To create a text frame of a specific type in VBScript, use the `TextFrames` method that corresponds to the type of frame you want to create::
+To create a text frame of a specific type in VBScript, use the `TextFrames` method that corresponds to the type of frame you want to create:
 
 ```basic
 Set rectRef = docRef.PathItems.Rectangle(700, 50, 100, 100)

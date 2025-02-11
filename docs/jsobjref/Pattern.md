@@ -8,7 +8,7 @@ An Illustrator pattern definition contained in a document.
 
 Patterns are shown in the Swatches palette.
 
-Each pattern is referenced by a [PatternColor](PatternColor.md#jsobjref-patterncolor) object, which defines the pattern's appearance.
+Each pattern is referenced by a [PatternColor](./PatternColor.md) object, which defines the pattern's appearance.
 
 ---
 
@@ -38,7 +38,7 @@ The document that contains this pattern.
 
 **Type**
 
-[Document](Document.md#jsobjref-document), read-only.
+[Document](./Document.md), read-only.
 
 ---
 

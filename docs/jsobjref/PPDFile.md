@@ -34,7 +34,7 @@ The PPD file information.
 
 **Type**
 
-[PPDFileInfo](PPDFileInfo.md#jsobjref-ppdfileinfo)
+[PPDFileInfo](./PPDFileInfo.md)
 
 ---
 

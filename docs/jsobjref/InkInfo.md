@@ -34,7 +34,7 @@ The color of the custom ink.
 
 **Type**
 
-[Color](Color.md#jsobjref-color)
+[Color](./Color.md)
 
 ---
 

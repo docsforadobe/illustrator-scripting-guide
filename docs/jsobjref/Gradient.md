@@ -20,7 +20,7 @@ The gradient stops contained in this gradient.
 
 **Type**
 
-[GradientStops](GradientStops.md#jsobjref-gradientstops), read-only.
+[GradientStops](./GradientStops.md), read-only.
 
 ---
 
@@ -48,7 +48,7 @@ The document that contains this gradient.
 
 **Type**
 
-[Document](Document.md#jsobjref-document), read-only.
+[Document](./Document.md), read-only.
 
 ---
 

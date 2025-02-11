@@ -4,7 +4,7 @@
 
 **Description**
 
-Specifies a path item, which contains [PathPoint](PathPoint.md#jsobjref-pathpoint) objects that define its geometry.
+Specifies a path item, which contains [PathPoint](./PathPoint.md) objects that define its geometry.
 
 The `PathItem` class gives you complete access to paths in Illustrator.
 
@@ -140,7 +140,7 @@ The fill color of the path.
 
 **Type**
 
-[Color](Color.md#jsobjref-color)
+[Color](./Color.md)
 
 ---
 
@@ -252,7 +252,7 @@ The layer to which this item belongs.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer); read-only.
+[Layer](./Layer.md); read-only.
 
 ---
 
@@ -350,7 +350,7 @@ The parent of this object.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem)
+[Layer](./Layer.md) or [GroupItem](./GroupItem.md)
 
 ---
 
@@ -364,7 +364,7 @@ The path points contained in this path item.
 
 **Type**
 
-[PathPoints](PathPoints.md#jsobjref-pathpoints); read-only.
+[PathPoints](./PathPoints.md); read-only.
 
 ---
 
@@ -448,7 +448,7 @@ All of the selected path points in the path.
 
 **Type**
 
-[PathPoints](PathPoints.md#jsobjref-pathpoints); read-only.
+[PathPoints](./PathPoints.md); read-only.
 
 ---
 
@@ -492,7 +492,7 @@ The stroke color for the path.
 
 **Type**
 
-[Color](Color.md#jsobjref-color)
+[Color](./Color.md)
 
 ---
 
@@ -604,7 +604,7 @@ The tags contained in this item.
 
 **Type**
 
-[Tags](Tags.md#jsobjref-tags); read-only.
+[Tags](./Tags.md); read-only.
 
 ---
 
@@ -660,7 +660,7 @@ The visibility variable bound to the item.
 
 **Type**
 
-[Variable](Variable.md#jsobjref-variable)
+[Variable](./Variable.md)
 
 ---
 
@@ -892,7 +892,7 @@ Transforms the art item by applying a transformation matrix.
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
-| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `transformationMatrix` | [Matrix](./Matrix.md)                                                            | Transformation matrix to apply                 |
 | `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
 | `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
 | `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |

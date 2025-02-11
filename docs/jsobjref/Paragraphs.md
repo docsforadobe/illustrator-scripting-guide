@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [TextRange](TextRange.md#jsobjref-textrange) objects, with each `TextRange` representing a paragraph. The elements are not named; you must access them by index.
+A collection of [TextRange](./TextRange.md) objects, with each `TextRange` representing a paragraph. The elements are not named; you must access them by index.
 
 ---
 
@@ -67,12 +67,12 @@ Adds a new paragraph with specified text contents at the specified location in t
 | Parameter           | Type                                                                                               | Description            |
 |---------------------|----------------------------------------------------------------------------------------------------|------------------------|
 | `contents`          | String                                                                                             | Text contents to add   |
-| `relativeObject`    | [TextFrameItem](TextFrameItem.md#jsobjref-textframeitem), optional                                 | Object to add item to  |
+| `relativeObject`    | [TextFrameItem](./TextFrameItem.md), optional                                 | Object to add item to  |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to place text |
 
 **Returns**
 
-[TextRange](TextRange.md#jsobjref-textrange)
+[TextRange](./TextRange.md)
 
 ---
 
@@ -92,7 +92,7 @@ Adds a new paragraph with specified text contents before the current text select
 
 **Returns**
 
-[TextRange](TextRange.md#jsobjref-textrange)
+[TextRange](./TextRange.md)
 
 ---
 
@@ -112,7 +112,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[TextRange](TextRange.md#jsobjref-textrange)
+[TextRange](./TextRange.md)
 
 ---
 

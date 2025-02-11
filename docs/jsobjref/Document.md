@@ -4,7 +4,7 @@
 
 **Description**
 
-An Illustrator document. Documents are contained in the [Application](Application.md#jsobjref-application) object.
+An Illustrator document. Documents are contained in the [Application](./Application.md) object.
 
 The default document settings—those properties starting with the word "default"—are global settings that affect the current document. Be sure to modify these default properties only when a document is open. Note that if you set default properties to desired values before creating new objects, you can streamline your scripts, eliminating the need to specify specific properties such as `fillColor` and `stroked` that have default properties.
 
@@ -24,7 +24,7 @@ The currently opened dataset.
 
 **Type**
 
-[Dataset](Dataset.md#jsobjref-dataset)
+[Dataset](./Dataset.md)
 
 ---
 
@@ -38,7 +38,7 @@ The active layer in the document.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer)
+[Layer](./Layer.md)
 
 ---
 
@@ -52,7 +52,7 @@ The document's current view.
 
 **Type**
 
-[View](View.md#jsobjref-view), read-only.
+[View](./View.md), read-only.
 
 ---
 
@@ -66,7 +66,7 @@ All artboards in the document.
 
 **Type**
 
-[Artboards](Artboards.md#jsobjref-artboards), read-only.
+[Artboards](./Artboards.md), read-only.
 
 ---
 
@@ -80,7 +80,7 @@ The brushes contained in the document.
 
 **Type**
 
-[Brushes](Brushes.md#jsobjref-brushes), read-only.
+[Brushes](./Brushes.md), read-only.
 
 ---
 
@@ -94,7 +94,7 @@ The list of character styles in this document.
 
 **Type**
 
-[CharacterStyles](CharacterStyles.md#jsobjref-characterstyles), read-only.
+[CharacterStyles](./CharacterStyles.md), read-only.
 
 ---
 
@@ -108,7 +108,7 @@ The compound path items contained in the document.
 
 **Type**
 
-[CompoundPathItems](CompoundPathItems.md#jsobjref-compoundpathitems), read-only.
+[CompoundPathItems](./CompoundPathItems.md), read-only.
 
 ---
 
@@ -150,7 +150,7 @@ The datasets contained in the document.
 
 **Type**
 
-[Datasets](Datasets.md#jsobjref-datasets), read-only.
+[Datasets](./Datasets.md), read-only.
 
 ---
 
@@ -164,7 +164,7 @@ The color to use to fill new paths if `defaultFilled` is `true`.
 
 **Type**
 
-[Color](Color.md#jsobjref-color)
+[Color](./Color.md)
 
 ---
 
@@ -220,7 +220,7 @@ The stroke color for new paths if default stroked is `true`.
 
 **Type**
 
-[Color](Color.md#jsobjref-color)
+[Color](./Color.md)
 
 ---
 
@@ -374,7 +374,7 @@ The gradients contained in the document.
 
 **Type**
 
-[Gradients](Gradients.md#jsobjref-gradients), read-only.
+[Gradients](./Gradients.md), read-only.
 
 ---
 
@@ -388,7 +388,7 @@ The graphic styles defined in this document.
 
 **Type**
 
-[GraphicStyles](GraphicStyles.md#jsobjref-graphicstyles), read-only.
+[GraphicStyles](./GraphicStyles.md), read-only.
 
 ---
 
@@ -402,7 +402,7 @@ The graph art items in this document.
 
 **Type**
 
-[GraphItems](GraphItems.md#jsobjref-graphitems), read-only.
+[GraphItems](./GraphItems.md), read-only.
 
 ---
 
@@ -416,7 +416,7 @@ The group items contained in the document.
 
 **Type**
 
-[GroupItems](GroupItems.md#jsobjref-groupitems), read-only.
+[GroupItems](./GroupItems.md), read-only.
 
 ---
 
@@ -472,7 +472,7 @@ The layers contained in the document.
 
 **Type**
 
-[Layers](Layers.md#jsobjref-layers), read-only.
+[Layers](./Layers.md), read-only.
 
 ---
 
@@ -486,7 +486,7 @@ The legacy text items in the document.
 
 **Type**
 
-[LegacyTextItems](LegacyTextItems.md#jsobjref-legacytextitems), read-only.
+[LegacyTextItems](./LegacyTextItems.md), read-only.
 
 ---
 
@@ -500,7 +500,7 @@ The mesh art items contained in the document.
 
 **Type**
 
-[MeshItems](MeshItems.md#jsobjref-meshitems), read-only.
+[MeshItems](./MeshItems.md), read-only.
 
 ---
 
@@ -542,7 +542,7 @@ The non-native art items in this document.
 
 **Type**
 
-[NonNativeItems](NonNativeItems.md#jsobjref-nonnativeitems), read-only.
+[NonNativeItems](./NonNativeItems.md), read-only.
 
 ---
 
@@ -570,7 +570,7 @@ The page items (all art item classes) contained in the document.
 
 **Type**
 
-[PageItems](PageItems.md#jsobjref-pageitems), read-only.
+[PageItems](./PageItems.md), read-only.
 
 ---
 
@@ -598,7 +598,7 @@ The list of paragraph styles in this document.
 
 **Type**
 
-[ParagraphStyles](ParagraphStyles.md#jsobjref-paragraphstyles), read-only.
+[ParagraphStyles](./ParagraphStyles.md), read-only.
 
 ---
 
@@ -612,7 +612,7 @@ The application that contains this document.
 
 **Type**
 
-[Application](Application.md#jsobjref-application), read-only.
+[Application](./Application.md), read-only.
 
 ---
 
@@ -640,7 +640,7 @@ The path items contained in this document.
 
 **Type**
 
-[PathItems](PathItems.md#jsobjref-pathitems), read-only.
+[PathItems](./PathItems.md), read-only.
 
 ---
 
@@ -654,7 +654,7 @@ The patterns contained in this document.
 
 **Type**
 
-[Patterns](Patterns.md#jsobjref-patterns), read-only.
+[Patterns](./Patterns.md), read-only.
 
 ---
 
@@ -668,7 +668,7 @@ The placed items contained in this document.
 
 **Type**
 
-[PlacedItems](PlacedItems.md#jsobjref-placeditems), read-only.
+[PlacedItems](./PlacedItems.md), read-only.
 
 ---
 
@@ -682,7 +682,7 @@ The plug-in items contained in this document.
 
 **Type**
 
-[PluginItems](PluginItems.md#jsobjref-pluginitems), read-only.
+[PluginItems](./PluginItems.md), read-only.
 
 ---
 
@@ -710,7 +710,7 @@ The document's raster effect settings.
 
 **Type**
 
-[RasterEffectOptions](RasterEffectOptions.md#jsobjref-rastereffectoptions), read-only.
+[RasterEffectOptions](./RasterEffectOptions.md), read-only.
 
 ---
 
@@ -724,7 +724,7 @@ The raster items contained in this document.
 
 **Type**
 
-[RasterItems](RasterItems.md#jsobjref-rasteritems), read-only.
+[RasterItems](./RasterItems.md), read-only.
 
 ---
 
@@ -824,7 +824,7 @@ The spot colors contained in this document.
 
 **Type**
 
-[Spots](Spots.md#jsobjref-spots), read-only.
+[Spots](./Spots.md), read-only.
 
 ---
 
@@ -852,7 +852,7 @@ The story items in this document.
 
 **Type**
 
-[Stories](Stories.md#jsobjref-stories), read-only.
+[Stories](./Stories.md), read-only.
 
 ---
 
@@ -866,7 +866,7 @@ The swatches in this document.
 
 **Type**
 
-[Swatches](Swatches.md#jsobjref-swatches), read-only.
+[Swatches](./Swatches.md), read-only.
 
 ---
 
@@ -880,7 +880,7 @@ The swatch groups in this document.
 
 **Type**
 
-[SwatchGroups](SwatchGroups.md#jsobjref-swatchgroups), read-only.
+[SwatchGroups](./SwatchGroups.md), read-only.
 
 ---
 
@@ -894,7 +894,7 @@ The art items in the document linked to symbols.
 
 **Type**
 
-[SymbolItems](SymbolItems.md#jsobjref-symbolitems), read-only.
+[SymbolItems](./SymbolItems.md), read-only.
 
 ---
 
@@ -908,7 +908,7 @@ The symbols in this document.
 
 **Type**
 
-[Symbols](Symbols.md#jsobjref-symbols), read-only.
+[Symbols](./Symbols.md), read-only.
 
 ---
 
@@ -922,7 +922,7 @@ The tags in this document.
 
 **Type**
 
-[Tags](Tags.md#jsobjref-tags), read-only.
+[Tags](./Tags.md), read-only.
 
 ---
 
@@ -936,7 +936,7 @@ The text frames in this document.
 
 **Type**
 
-[TextFrameItems](TextFrameItems.md#jsobjref-textframeitems), read-only.
+[TextFrameItems](./TextFrameItems.md), read-only.
 
 ---
 
@@ -992,7 +992,7 @@ The variables defined in this document.
 
 **Type**
 
-[Variables](Variables.md#jsobjref-variables), read-only.
+[Variables](./Variables.md), read-only.
 
 ---
 
@@ -1020,7 +1020,7 @@ The views contained in this document.
 
 **Type**
 
-[Views](Views.md#jsobjref-views), read-only.
+[Views](./Views.md), read-only.
 
 ---
 
@@ -1174,7 +1174,7 @@ Exports the document to the specified file using one of the predefined export fi
 |----------------|------------------------------------------------------------------------------|--------------------|
 | `exportFile`   | File                                                                         | File to save       |
 | `exportFormat` | [ExportType](scripting-constants.md#jsobjref-scripting-constants-exporttype) | Export file format |
-| `options`      | [Variable](Variable.md#jsobjref-variable), optional                          | todo               |
+| `options`      | [Variable](./Variable.md), optional                          | todo               |
 
 **Returns**
 
@@ -1301,7 +1301,7 @@ Retrieves the pageitem using Uuid.
 
 **Returns**
 
-[PageItem](PageItem.md#jsobjref-pageitem).
+[PageItem](./PageItem.md).
 
 ---
 
@@ -1349,7 +1349,7 @@ If the bounds parameter is omitted, captures the entire artwork.
 |--------------|--------------------------------------------------------------------------------------|------------------------|
 | `imageFile`  | File                                                                                 | Image file to write to |
 | `clipBounds` | Rect, optional                                                                       | Clipping bounds        |
-| `options`    | [ImageCaptureOptions](ImageCaptureOptions.md#jsobjref-imagecaptureoptions), optional | todo                   |
+| `options`    | [ImageCaptureOptions](./ImageCaptureOptions.md), optional | todo                   |
 
 **Returns**
 
@@ -1471,7 +1471,7 @@ Prints the document.
 
 | Parameter   | Type                                                            | Description   |
 |-------------|-----------------------------------------------------------------|---------------|
-| `options`   | [PrintOptions](PrintOptions.md#jsobjref-printoptions), optional | todo          |
+| `options`   | [PrintOptions](./PrintOptions.md), optional | todo          |
 
 **Returns**
 
@@ -1491,13 +1491,13 @@ Rasterizes the source art(s) within the specified clip bounds. The source art(s)
 
 | Parameter    | Type                                                                        | Description             |
 |--------------|-----------------------------------------------------------------------------|-------------------------|
-| `sourceArt`  | [Variable](Variable.md#jsobjref-variable)                                   | Source art to rasterize |
+| `sourceArt`  | [Variable](./Variable.md)                                   | Source art to rasterize |
 | `clipBounds` | Rect, optional                                                              | Clipping bounds         |
-| `options`    | [RasterizeOptions](RasterizeOptions.md#jsobjref-rasterizeoptions), optional | todo                    |
+| `options`    | [RasterizeOptions](./RasterizeOptions.md), optional | todo                    |
 
 **Returns**
 
-[RasterItem](RasterItem.md#jsobjref-rasteritem)
+[RasterItem](./RasterItem.md)
 
 ---
 

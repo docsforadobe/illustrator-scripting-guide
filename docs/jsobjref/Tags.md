@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [Tag](Tag.md#jsobjref-tag) objects.
+A collection of [Tag](./Tag.md) objects.
 
 ---
 
@@ -60,11 +60,11 @@ String; read-only.
 
 **Description**
 
-Creates a new [Tag](Tag.md#jsobjref-tag) object.
+Creates a new [Tag](./Tag.md) object.
 
 **Returns**
 
-[Tag](Tag.md#jsobjref-tag)
+[Tag](./Tag.md)
 
 ---
 
@@ -84,7 +84,7 @@ Get the first element in the collection with the provided name.
 
 **Returns**
 
-[Tag](Tag.md#jsobjref-tag)
+[Tag](./Tag.md)
 
 ---
 
@@ -104,7 +104,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[Tag](Tag.md#jsobjref-tag)
+[Tag](./Tag.md)
 
 ---
 

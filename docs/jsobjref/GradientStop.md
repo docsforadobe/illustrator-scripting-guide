@@ -20,7 +20,7 @@ The color linked to this gradient stop.
 
 **Type**
 
-[Color](Color.md#jsobjref-color)
+[Color](./Color.md)
 
 ---
 
@@ -62,7 +62,7 @@ The gradient that contains this gradient stop.
 
 **Type**
 
-[Gradient](Gradient.md#jsobjref-gradient), read-only.
+[Gradient](./Gradient.md), read-only.
 
 ---
 

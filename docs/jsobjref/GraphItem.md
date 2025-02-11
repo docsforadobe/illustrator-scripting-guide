@@ -50,7 +50,7 @@ It is not necessary to set the type of the `contentVariable` before binding. Ill
 
 **Type**
 
-[Variable](Variable.md#jsobjref-variable)
+[Variable](./Variable.md)
 
 ---
 
@@ -150,7 +150,7 @@ The layer to which this graph item belongs.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer), read-only.
+[Layer](./Layer.md), read-only.
 
 ---
 
@@ -234,7 +234,7 @@ The parent of this object.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem)
+[Layer](./Layer.md) or [GroupItem](./GroupItem.md)
 
 ---
 
@@ -290,7 +290,7 @@ The tags contained in this graph item.
 
 **Type**
 
-[Tags](Tags.md#jsobjref-tags), read-only.
+[Tags](./Tags.md), read-only.
 
 ---
 
@@ -348,7 +348,7 @@ It is not necessary to set the type of the `visibilityVariable` before binding. 
 
 **Type**
 
-[Variable](Variable.md#jsobjref-variable)
+[Variable](./Variable.md)
 
 ---
 
@@ -573,7 +573,7 @@ Transforms the art item by applying a transformation matrix.
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
-| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `transformationMatrix` | [Matrix](./Matrix.md)                                                            | Transformation matrix to apply                 |
 | `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
 | `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
 | `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |

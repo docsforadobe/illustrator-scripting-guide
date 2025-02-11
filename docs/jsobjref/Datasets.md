@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [Dataset](Dataset.md#jsobjref-dataset) objects.
+A collection of [Dataset](./Dataset.md) objects.
 
 ---
 
@@ -34,7 +34,7 @@ The name of the object that contains this dataset.
 
 **Type**
 
-[Document](Document.md#jsobjref-document), read-only.
+[Document](./Document.md), read-only.
 
 ---
 
@@ -64,7 +64,7 @@ Creates a new dataset object.
 
 **Returns**
 
-[Dataset](Dataset.md#jsobjref-dataset)
+[Dataset](./Dataset.md)
 
 ---
 
@@ -84,7 +84,7 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-[Dataset](Dataset.md#jsobjref-dataset)
+[Dataset](./Dataset.md)
 
 ---
 
@@ -104,7 +104,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[Dataset](Dataset.md#jsobjref-dataset)
+[Dataset](./Dataset.md)
 
 ---
 

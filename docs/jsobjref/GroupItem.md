@@ -64,7 +64,7 @@ The compound path items contained in this group.
 
 **Type**
 
-[CompoundPathItems](CompoundPathItems.md#jsobjref-compoundpathitems), read-only.
+[CompoundPathItems](./CompoundPathItems.md), read-only.
 
 ---
 
@@ -120,7 +120,7 @@ he graph items contained in this group.
 
 **Type**
 
-[GraphItems](GraphItems.md#jsobjref-graphitems), read-only.
+[GraphItems](./GraphItems.md), read-only.
 
 ---
 
@@ -134,7 +134,7 @@ The group items contained in this group.
 
 **Type**
 
-[GroupItems](GroupItems.md#jsobjref-groupitems), read-only.
+[GroupItems](./GroupItems.md), read-only.
 
 ---
 
@@ -190,7 +190,7 @@ The layer to which this group item belongs.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer), read-only.
+[Layer](./Layer.md), read-only.
 
 ---
 
@@ -218,7 +218,7 @@ The legacy text items in the group.
 
 **Type**
 
-[LegacyTextItems](LegacyTextItems.md#jsobjref-legacytextitems), read-only.
+[LegacyTextItems](./LegacyTextItems.md), read-only.
 
 ---
 
@@ -246,7 +246,7 @@ The mesh items contained in this group.
 
 **Type**
 
-[MeshItems](MeshItems.md#jsobjref-meshitems), read-only.
+[MeshItems](./MeshItems.md), read-only.
 
 ---
 
@@ -274,7 +274,7 @@ The non-native art items in this group.
 
 **Type**
 
-[NonNativeItems](NonNativeItems.md#jsobjref-nonnativeitems)
+[NonNativeItems](./NonNativeItems.md)
 
 ---
 
@@ -316,7 +316,7 @@ The page items (all art item classes) contained in this group.
 
 **Type**
 
-[PageItems](PageItems.md#jsobjref-pageitems), read-only.
+[PageItems](./PageItems.md), read-only.
 
 ---
 
@@ -330,7 +330,7 @@ The parent of this object.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer) or [GroupItem](#jsobjref-groupitem), read-only.
+[Layer](./Layer.md) or [GroupItem](#jsobjref-groupitem), read-only.
 
 ---
 
@@ -344,7 +344,7 @@ The path items contained in this group.
 
 **Type**
 
-[PathItems](PathItems.md#jsobjref-pathitems), read-only.
+[PathItems](./PathItems.md), read-only.
 
 ---
 
@@ -358,7 +358,7 @@ The placed items contained in this group.
 
 **Type**
 
-[PlacedItems](PlacedItems.md#jsobjref-placeditems), read-only.
+[PlacedItems](./PlacedItems.md), read-only.
 
 ---
 
@@ -372,7 +372,7 @@ The plug-in items contained in this group.
 
 **Type**
 
-[PluginItems](PluginItems.md#jsobjref-pluginitems), read-only.
+[PluginItems](./PluginItems.md), read-only.
 
 ---
 
@@ -400,7 +400,7 @@ The raster items contained in this group.
 
 **Type**
 
-[RasterItems](RasterItems.md#jsobjref-rasteritems), read-only.
+[RasterItems](./RasterItems.md), read-only.
 
 ---
 
@@ -442,7 +442,7 @@ The symbol item objects in this group.
 
 **Type**
 
-[SymbolItems](SymbolItems.md#jsobjref-symbolitems), read-only.
+[SymbolItems](./SymbolItems.md), read-only.
 
 ---
 
@@ -456,7 +456,7 @@ The tags contained in this group.
 
 **Type**
 
-[Tags](Tags.md#jsobjref-tags), read-only.
+[Tags](./Tags.md), read-only.
 
 ---
 
@@ -470,7 +470,7 @@ The text art items contained in this group.
 
 **Type**
 
-[TextFrameItems](TextFrameItems.md#jsobjref-textframeitems), read-only.
+[TextFrameItems](./TextFrameItems.md), read-only.
 
 ---
 
@@ -526,7 +526,7 @@ The visibility variable bound to the item.
 
 **Type**
 
-[Variable](Variable.md#jsobjref-variable)
+[Variable](./Variable.md)
 
 ---
 
@@ -751,7 +751,7 @@ Transforms the art item by applying a transformation matrix.
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
-| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `transformationMatrix` | [Matrix](./Matrix.md)                                                            | Transformation matrix to apply                 |
 | `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
 | `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
 | `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |

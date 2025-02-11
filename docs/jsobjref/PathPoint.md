@@ -50,7 +50,7 @@ The path item that contains this path point.
 
 **Type**
 
-[PathItem](PathItem.md#jsobjref-pathitem); read-only.
+[PathItem](./PathItem.md); read-only.
 
 ---
 

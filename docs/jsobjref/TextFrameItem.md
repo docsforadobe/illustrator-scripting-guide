@@ -6,7 +6,7 @@
 
 The basic art item for displaying text. From the user interface, this is text created with the Text tool. There are three types of text art in Illustrator: point text, path text, and area text. The type is indicated by the text frame's [kind](#textframeitem-kind) property.
 
-When you create a text frame, you also create a [Story](Story.md#jsobjref-story) object. However, threading text frames combines the frames into a single story object. To thread frames, use the [nextFrame](#textframeitem-nextframe) or [previousFrame](#textframeitem-previousframe) property.
+When you create a text frame, you also create a [Story](./Story.md) object. However, threading text frames combines the frames into a single story object. To thread frames, use the [nextFrame](#textframeitem-nextframe) or [previousFrame](#textframeitem-previousframe) property.
 
 ---
 
@@ -50,7 +50,7 @@ All the characters in this text frame.
 
 **Type**
 
-[Characters](Characters.md#jsobjref-characters), read-only.
+[Characters](./Characters.md), read-only.
 
 ---
 
@@ -106,7 +106,7 @@ The content variable bound to this text frame item.
 
 **Type**
 
-[Variable](Variable.md#jsobjref-variable)
+[Variable](./Variable.md)
 
 ---
 
@@ -148,7 +148,7 @@ All the insertion points in this text range.
 
 **Type**
 
-[InsertionPoints](InsertionPoints.md#jsobjref-insertionpoints), read-only.
+[InsertionPoints](./InsertionPoints.md), read-only.
 
 ---
 
@@ -176,7 +176,7 @@ All the lines in this text frame.
 
 **Type**
 
-[Lines](Lines.md#jsobjref-lines), read-only.
+[Lines](./Lines.md), read-only.
 
 ---
 
@@ -190,7 +190,7 @@ The transformation matrix for this text frame.
 
 **Type**
 
-[Matrix](Matrix.md#jsobjref-matrix), read-only.
+[Matrix](./Matrix.md), read-only.
 
 ---
 
@@ -246,7 +246,7 @@ All the paragraphs in this text frame.
 
 **Type**
 
-[Paragraphs](Paragraphs.md#jsobjref-paragraphs), read-only.
+[Paragraphs](./Paragraphs.md), read-only.
 
 ---
 
@@ -260,7 +260,7 @@ The parent of this object.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem), read-only.
+[Layer](./Layer.md) or [GroupItem](./GroupItem.md), read-only.
 
 ---
 
@@ -344,7 +344,7 @@ The story to which the text frame belongs.
 
 **Type**
 
-[Story](Story.md#jsobjref-story), read-only.
+[Story](./Story.md), read-only.
 
 ---
 
@@ -358,7 +358,7 @@ The path item associated with the text frame. Note: Valid only when [kind](#text
 
 **Type**
 
-[TextPath](TextPath.md#jsobjref-textpath)
+[TextPath](./TextPath.md)
 
 ---
 
@@ -372,7 +372,7 @@ The text range of the text frame.
 
 **Type**
 
-[TextRange](TextRange.md#jsobjref-textrange), read-only.
+[TextRange](./TextRange.md), read-only.
 
 ---
 
@@ -386,7 +386,7 @@ All the text in this text frame.
 
 **Type**
 
-[TextRanges](TextRanges.md#jsobjref-textranges), read-only.
+[TextRanges](./TextRanges.md), read-only.
 
 ---
 
@@ -400,7 +400,7 @@ The selected text range(s) in the text frame.
 
 **Type**
 
-Array of [TextRange](TextRange.md#jsobjref-textrange), read-only.
+Array of [TextRange](./TextRange.md), read-only.
 
 ---
 
@@ -428,7 +428,7 @@ All the words in this text frame.
 
 **Type**
 
-[Words](Words.md#jsobjref-words), read-only.
+[Words](./Words.md), read-only.
 
 ---
 
@@ -472,7 +472,7 @@ Converts the text in the text frame to outlines.
 
 **Returns**
 
-[GroupItem](GroupItem.md#jsobjref-groupitem)
+[GroupItem](./GroupItem.md)
 
 ---
 
@@ -493,7 +493,7 @@ Creates a duplicate of the selected object.
 
 **Returns**
 
-[TextRange](TextRange.md#jsobjref-textrange)
+[TextRange](./TextRange.md)
 
 ---
 
@@ -514,7 +514,7 @@ Moves the object.
 
 **Returns**
 
-[TextRange](TextRange.md#jsobjref-textrange)
+[TextRange](./TextRange.md)
 
 ---
 
@@ -596,7 +596,7 @@ Transforms the art item by applying a transformation matrix.
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
-| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `transformationMatrix` | [Matrix](./Matrix.md)                                                            | Transformation matrix to apply                 |
 | `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
 | `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
 | `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |

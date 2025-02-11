@@ -70,7 +70,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[TextRange](TextRange.md#jsobjref-textrange)
+[TextRange](./TextRange.md)
 
 ---
 

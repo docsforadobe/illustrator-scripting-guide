@@ -20,7 +20,7 @@ The active (frontmost) document in Illustrator.
 
 **Type**
 
-[Document](Document.md#jsobjref-document)
+[Document](./Document.md)
 
 ---
 
@@ -104,7 +104,7 @@ The documents in the application.
 
 **Type**
 
-[Documents](Documents.md#jsobjref-documents)
+[Documents](./Documents.md)
 
 ---
 
@@ -230,7 +230,7 @@ Illustrator's preference settings.
 
 **Type**
 
-[Preferences](Preferences.md#jsobjref-preferences)
+[Preferences](./Preferences.md)
 
 ---
 
@@ -244,7 +244,7 @@ The list of installed printers.
 
 **Type**
 
-Array of [Printer](Printer.md#jsobjref-printer)
+Array of [Printer](./Printer.md)
 
 ---
 
@@ -314,7 +314,7 @@ The installed fonts.
 
 **Type**
 
-[TextFonts](TextFonts.md#jsobjref-textfonts)
+[TextFonts](./TextFonts.md)
 
 ---
 
@@ -416,8 +416,8 @@ Joins two matrices together.
 
 | Parameter      | Type                                | Description   |
 |----------------|-------------------------------------|---------------|
-| `matrix`       | [Matrix](Matrix.md#jsobjref-matrix) | First matrix  |
-| `secondMatrix` | [Matrix](Matrix.md#jsobjref-matrix) | Second matrix |
+| `matrix`       | [Matrix](./Matrix.md) | First matrix  |
+| `secondMatrix` | [Matrix](./Matrix.md) | Second matrix |
 
 **Returns**
 
@@ -464,7 +464,7 @@ Concatenates a scale translation to a transformation matrix.
 
 **Returns**
 
-[Matrix](Matrix.md#jsobjref-matrix)
+[Matrix](./Matrix.md)
 
 ---
 
@@ -486,7 +486,7 @@ Joins a translation to a transformation matrix.
 
 **Returns**
 
-[Matrix](Matrix.md#jsobjref-matrix)
+[Matrix](./Matrix.md)
 
 ---
 
@@ -573,7 +573,7 @@ Returns an identity matrix.
 
 **Returns**
 
-[Matrix](Matrix.md#jsobjref-matrix)
+[Matrix](./Matrix.md)
 
 ---
 
@@ -616,7 +616,7 @@ Gets detailed file information for specified PPD file.
 
 **Returns**
 
-[PPDFileInfo](PPDFileInfo.md#jsobjref-ppdfileinfo)
+[PPDFileInfo](./PPDFileInfo.md)
 
 ---
 
@@ -656,7 +656,7 @@ Retrieves the tracing-option settings from the template with a given preset name
 
 **Returns**
 
-[DocumentPreset](DocumentPreset.md#jsobjref-documentpreset)
+[DocumentPreset](./DocumentPreset.md)
 
 ---
 
@@ -681,7 +681,7 @@ For example, `30` rotates the object 30 degrees counterclockwise; `-30` rotates 
 
 **Returns**
 
-[Matrix](Matrix.md#jsobjref-matrix)
+[Matrix](./Matrix.md)
 
 ---
 
@@ -707,7 +707,7 @@ For example, `60` scales the object to 60% of its original size; `200` doubles t
 
 **Returns**
 
-[Matrix](Matrix.md#jsobjref-matrix)
+[Matrix](./Matrix.md)
 
 ---
 
@@ -747,7 +747,7 @@ For example, (100, 200) moves the object 100 pt. to the right and 200 pt. up;  a
 
 **Returns**
 
-[Matrix](Matrix.md#jsobjref-matrix)
+[Matrix](./Matrix.md)
 
 ---
 
@@ -763,11 +763,11 @@ Inverts a matrix.
 
 | Parameter   | Type                                | Description      |
 |-------------|-------------------------------------|------------------|
-| `matrix`    | [Matrix](Matrix.md#jsobjref-matrix) | Matrix to invert |
+| `matrix`    | [Matrix](./Matrix.md) | Matrix to invert |
 
 **Returns**
 
-[Matrix](Matrix.md#jsobjref-matrix)
+[Matrix](./Matrix.md)
 
 ---
 
@@ -783,8 +783,8 @@ Checks whether the two matrices are equal.
 
 | Parameter      | Type                                | Description            |
 |----------------|-------------------------------------|------------------------|
-| `matrix`       | [Matrix](Matrix.md#jsobjref-matrix) | First matrix to check  |
-| `secondMatrix` | [Matrix](Matrix.md#jsobjref-matrix) | Second matrix to check |
+| `matrix`       | [Matrix](./Matrix.md) | First matrix to check  |
+| `secondMatrix` | [Matrix](./Matrix.md) | Second matrix to check |
 
 **Returns**
 
@@ -804,7 +804,7 @@ Checks whether a matrix is singular and cannot be inverted.
 
 | Parameter   | Type                                | Description     |
 |-------------|-------------------------------------|-----------------|
-| `matrix`    | [Matrix](Matrix.md#jsobjref-matrix) | Matrix to check |
+| `matrix`    | [Matrix](./Matrix.md) | Matrix to check |
 
 **Returns**
 
@@ -855,7 +855,7 @@ If the parameter is not supplied, Illustrator opens a dialog so the user can cho
 
 **Returns**
 
-[Document](Document.md#jsobjref-document)
+[Document](./Document.md)
 
 ---
 

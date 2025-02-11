@@ -36,7 +36,7 @@ The printer information.
 
 **Type**
 
-[PrinterInfo](PrinterInfo.md#jsobjref-printerinfo)
+[PrinterInfo](./PrinterInfo.md)
 
 ---
 

@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [SpotColor](SpotColor.md#jsobjref-spotcolor) objects in a document.
+A collection of [SpotColor](./SpotColor.md) objects in a document.
 
 ---
 
@@ -64,7 +64,7 @@ Creates a new object.
 
 **Returns**
 
-[Spot](Spot.md#jsobjref-spot)
+[Spot](./Spot.md)
 
 ---
 
@@ -84,7 +84,7 @@ Get the first element in the collection with the provided name.
 
 **Returns**
 
-[Spot](Spot.md#jsobjref-spot)
+[Spot](./Spot.md)
 
 ---
 
@@ -104,7 +104,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[Spot](Spot.md#jsobjref-spot)
+[Spot](./Spot.md)
 
 ---
 

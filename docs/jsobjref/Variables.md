@@ -4,7 +4,7 @@
 
 **Description**
 
-The collection of [Variable](Variable.md#jsobjref-variable) objects in the document.
+The collection of [Variable](./Variable.md) objects in the document.
 
 For an example of how to create variables, see [Using variables and datasets](Dataset.md#jsobjref-dataset-usingvariablesanddatasets).
 
@@ -66,7 +66,7 @@ Adds a new variable to the collection.
 
 **Returns**
 
-[Variable](Variable.md#jsobjref-variable)
+[Variable](./Variable.md)
 
 ---
 
@@ -86,7 +86,7 @@ Get the first element in the collection with the provided name.
 
 **Returns**
 
-[Variable](Variable.md#jsobjref-variable)
+[Variable](./Variable.md)
 
 ---
 
@@ -106,7 +106,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[Variable](Variable.md#jsobjref-variable)
+[Variable](./Variable.md)
 
 ---
 

@@ -230,7 +230,7 @@ The list of supported paper sizes.
 
 **Type**
 
-Array of [Paper](Paper.md#jsobjref-paper)
+Array of [Paper](./Paper.md)
 
 ---
 

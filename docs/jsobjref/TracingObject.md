@@ -96,7 +96,7 @@ The raster art used to create the associated vector art plug-in group.
 
 **Type**
 
-[PlacedItem](PlacedItem.md#jsobjref-placeditem) or [RasterItem](RasterItem.md#jsobjref-rasteritem)
+[PlacedItem](./PlacedItem.md) or [RasterItem](./RasterItem.md)
 
 ---
 
@@ -110,7 +110,7 @@ The options used to convert the raster artwork to vector art.
 
 **Type**
 
-[TracingOptions](TracingOptions.md#jsobjref-tracingoptions)
+[TracingOptions](./TracingOptions.md)
 
 ---
 
@@ -156,7 +156,7 @@ By default, `viewed` is `false`, and the new group contains only the tracing res
 
 If `viewed` is `true`, the new group retains additional information that was specified for the viewing mode, such as outlines and overlays.
 
-Deletes this object and its associated [PluginItem](PluginItem.md#jsobjref-pluginitem) object. Any group-level attributes that were applied to the plug-in item are applied to the top level of the new group item.
+Deletes this object and its associated [PluginItem](./PluginItem.md) object. Any group-level attributes that were applied to the plug-in item are applied to the top level of the new group item.
 
 **Parameters**
 
@@ -166,7 +166,7 @@ Deletes this object and its associated [PluginItem](PluginItem.md#jsobjref-plugi
 
 **Returns**
 
-[GroupItem](GroupItem.md#jsobjref-groupitem)
+[GroupItem](./GroupItem.md)
 
 ---
 
@@ -182,4 +182,4 @@ Reverts the artwork in the document to the original source raster art and remove
 
 **Returns**
 
-[PlacedItem](PlacedItem.md#jsobjref-placeditem) or [RasterItem](RasterItem.md#jsobjref-rasteritem)
+[PlacedItem](./PlacedItem.md) or [RasterItem](./RasterItem.md)

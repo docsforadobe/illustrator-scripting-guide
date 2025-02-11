@@ -70,7 +70,7 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-[Brush](Brush.md#jsobjref-brush)
+[Brush](./Brush.md)
 
 ---
 
@@ -90,7 +90,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[Brush](Brush.md#jsobjref-brush)
+[Brush](./Brush.md)
 
 ---
 

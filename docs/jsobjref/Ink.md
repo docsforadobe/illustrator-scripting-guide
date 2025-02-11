@@ -20,7 +20,7 @@ The ink information
 
 **Type**
 
-[InkInfo](InkInfo.md#jsobjref-inkinfo)
+[InkInfo](./InkInfo.md)
 
 ---
 

@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [NonNativeItem](NonNativeItem.md#jsobjref-nonnativeitem) objects.
+A collection of [NonNativeItem](./NonNativeItem.md) objects.
 
 ---
 
@@ -70,4 +70,4 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-[NonNativeItem](NonNativeItem.md#jsobjref-nonnativeitem), [SymbolItem](SymbolItem.md#jsobjref-symbolitem)
+[NonNativeItem](./NonNativeItem.md), [SymbolItem](./SymbolItem.md)

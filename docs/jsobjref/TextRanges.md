@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [TextRange](TextRange.md#jsobjref-textrange) objects.
+A collection of [TextRange](./TextRange.md) objects.
 
 ---
 
@@ -70,7 +70,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[Variable](Variable.md#jsobjref-variable)
+[Variable](./Variable.md)
 
 ---
 

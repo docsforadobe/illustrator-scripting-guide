@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [Document](Document.md#jsobjref-document) objects.
+A collection of [Document](./Document.md) objects.
 
 ---
 
@@ -80,7 +80,7 @@ Creates a new document using optional parameters and returns a reference to the 
 
 **Returns**
 
-[Document](Document.md#jsobjref-document)
+[Document](./Document.md)
 
 ---
 
@@ -97,12 +97,12 @@ Creates a document from the preset, replacing any provided setting values, and r
 | Parameter           | Type                                                                  | Description                    |
 |---------------------|-----------------------------------------------------------------------|--------------------------------|
 | `startupPreset`     | String                                                                | Startup preset to use          |
-| `presetSettings`    | [DocumentPreset](DocumentPreset.md#jsobjref-documentpreset), optional | Preset document template       |
+| `presetSettings`    | [DocumentPreset](./DocumentPreset.md), optional | Preset document template       |
 | `showOptionsDialog` | Boolean, optional                                                     | Whether to show options dialog |
 
 **Returns**
 
-[Document](Document.md#jsobjref-document)
+[Document](./Document.md)
 
 ---
 
@@ -122,7 +122,7 @@ Creates a document without showing in UI.
 
 **Returns**
 
-[Document](Document.md#jsobjref-document)
+[Document](./Document.md)
 
 ---
 
@@ -142,7 +142,7 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-[Document](Document.md#jsobjref-document)
+[Document](./Document.md)
 
 ---
 
@@ -162,7 +162,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[Document](Document.md#jsobjref-document)
+[Document](./Document.md)
 
 ---
 

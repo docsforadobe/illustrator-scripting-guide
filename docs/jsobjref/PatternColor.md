@@ -22,7 +22,7 @@ Additional transformation arising from manipulating the path.
 
 **Type**
 
-[Matrix](Matrix.md#jsobjref-matrix)
+[Matrix](./Matrix.md)
 
 ---
 
@@ -36,7 +36,7 @@ A reference to the pattern object that defines the pattern to use in this color 
 
 **Type**
 
-[Pattern](Pattern.md#jsobjref-pattern)
+[Pattern](./Pattern.md)
 
 ---
 

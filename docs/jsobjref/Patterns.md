@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [Pattern](Pattern.md#jsobjref-pattern) objects in a document.
+A collection of [Pattern](./Pattern.md) objects in a document.
 
 ---
 
@@ -64,7 +64,7 @@ Creates a new object.
 
 **Returns**
 
-[Pattern](Pattern.md#jsobjref-pattern)
+[Pattern](./Pattern.md)
 
 ---
 
@@ -84,7 +84,7 @@ Get the first element in the collection with the provided name.
 
 **Returns**
 
-[Pattern](Pattern.md#jsobjref-pattern)
+[Pattern](./Pattern.md)
 
 ---
 
@@ -104,7 +104,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[Pattern](Pattern.md#jsobjref-pattern)
+[Pattern](./Pattern.md)
 
 ---
 

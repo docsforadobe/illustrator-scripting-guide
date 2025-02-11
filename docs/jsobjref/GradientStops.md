@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [GradientStop](GradientStop.md#jsobjref-gradientstop) objects in a specific gradient. The elements are not named; you must access them by index.
+A collection of [GradientStop](./GradientStop.md) objects in a specific gradient. The elements are not named; you must access them by index.
 
 ---
 
@@ -64,7 +64,7 @@ Creates a new object.
 
 **Returns**
 
-[GradientStop](GradientStop.md#jsobjref-gradientstop)
+[GradientStop](./GradientStop.md)
 
 ---
 
@@ -84,7 +84,7 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-[GradientStop](GradientStop.md#jsobjref-gradientstop)
+[GradientStop](./GradientStop.md)
 
 ---
 
@@ -104,7 +104,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[GradientStop](GradientStop.md#jsobjref-gradientstop)
+[GradientStop](./GradientStop.md)
 
 ---
 

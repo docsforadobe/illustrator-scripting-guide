@@ -4,7 +4,7 @@
 
 **Description**
 
-The collection of [Symbol](Symbol.md#jsobjref-symbol) objects in the document.
+The collection of [Symbol](./Symbol.md) objects in the document.
 
 ---
 
@@ -62,15 +62,15 @@ String, read-only.
 
 Returns a symbol object created from the source art item, any of the following:
 
-- [CompoundPathItems](CompoundPathItems.md#jsobjref-compoundpathitems)
-- [GroupItems](GroupItems.md#jsobjref-groupitems)
-- [MeshItems](MeshItems.md#jsobjref-meshitems)
-- [NonNativeItems](NonNativeItems.md#jsobjref-nonnativeitems)
-- [PageItems](PageItems.md#jsobjref-pageitems)
-- [PathItems](PathItems.md#jsobjref-pathitems)
-- [RasterItems](RasterItems.md#jsobjref-rasteritems)
-- [SymbolItems](SymbolItems.md#jsobjref-symbolitems)
-- [TextFrameItems](TextFrameItems.md#jsobjref-textframeitems)
+- [CompoundPathItems](./CompoundPathItems.md)
+- [GroupItems](./GroupItems.md)
+- [MeshItems](./MeshItems.md)
+- [NonNativeItems](./NonNativeItems.md)
+- [PageItems](./PageItems.md)
+- [PathItems](./PathItems.md)
+- [RasterItems](./RasterItems.md)
+- [SymbolItems](./SymbolItems.md)
+- [TextFrameItems](./TextFrameItems.md)
 
 The default registration point is `SymbolRegistrationPoint.SYMBOLCENTERPOINT`.
 
@@ -78,11 +78,11 @@ The default registration point is `SymbolRegistrationPoint.SYMBOLCENTERPOINT`.
 
 | Parameter                           | Type                                                                                                                                                           | Description                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| `sourceArt`<br/>`registrationPoint` | [PageItem](PageItem.md#jsobjref-pageitem)<br/>[SymbolRegistrationPoint](scripting-constants.md#jsobjref-scripting-constants-symbolregistrationpoint), optional | Source art to create symbol from<br/>Registration point to use |
+| `sourceArt`<br/>`registrationPoint` | [PageItem](./PageItem.md)<br/>[SymbolRegistrationPoint](scripting-constants.md#jsobjref-scripting-constants-symbolregistrationpoint), optional | Source art to create symbol from<br/>Registration point to use |
 
 **Returns**
 
-[Symbol](Symbol.md#jsobjref-symbol)
+[Symbol](./Symbol.md)
 
 ---
 
@@ -102,7 +102,7 @@ Get the first element in the collection with the provided name.
 
 **Returns**
 
-[Symbol](Symbol.md#jsobjref-symbol)
+[Symbol](./Symbol.md)
 
 ---
 
@@ -122,7 +122,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[Symbol](Symbol.md#jsobjref-symbol)
+[Symbol](./Symbol.md)
 
 ---
 

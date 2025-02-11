@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [LegacyTextItem](LegacyTextItem.md#jsobjref-legacytextitem) objects.
+A collection of [LegacyTextItem](./LegacyTextItem.md) objects.
 
 ---
 
@@ -84,7 +84,7 @@ Get the first element in the collection with the specified name.
 
 **Returns**
 
-[LegacyTextItem](LegacyTextItem.md#jsobjref-legacytextitem)
+[LegacyTextItem](./LegacyTextItem.md)
 
 ---
 
@@ -104,7 +104,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[LegacyTextItem](LegacyTextItem.md#jsobjref-legacytextitem)
+[LegacyTextItem](./LegacyTextItem.md)
 
 ---
 

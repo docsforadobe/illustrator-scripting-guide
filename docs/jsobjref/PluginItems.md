@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [PluginItem](PluginItem.md#jsobjref-pluginitem) objects in a document.
+A collection of [PluginItem](./PluginItem.md) objects in a document.
 
 See [Copying a plug-in item](PluginItem.md#jsobjref-pluginitem-copying-a-plugin-item).
 
@@ -72,7 +72,7 @@ Get the first element in the collection with the provided name.
 
 **Returns**
 
-[PluginItem](PluginItem.md#jsobjref-pluginitem)
+[PluginItem](./PluginItem.md)
 
 ---
 
@@ -92,7 +92,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[PluginItem](PluginItem.md#jsobjref-pluginitem)
+[PluginItem](./PluginItem.md)
 
 ---
 

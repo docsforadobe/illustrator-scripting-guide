@@ -4,7 +4,7 @@
 
 **Description**
 
-The collection of [SymbolItem](SymbolItem.md#jsobjref-symbolitem) objects in the document.
+The collection of [SymbolItem](./SymbolItem.md) objects in the document.
 
 ---
 
@@ -66,11 +66,11 @@ Creates an instance of the specified symbol.
 
 | Parameter   | Type                                | Description        |
 |-------------|-------------------------------------|--------------------|
-| `symbol`    | [Symbol](Symbol.md#jsobjref-symbol) | Symbol to instance |
+| `symbol`    | [Symbol](./Symbol.md) | Symbol to instance |
 
 **Returns**
 
-[SymbolItem](SymbolItem.md#jsobjref-symbolitem)
+[SymbolItem](./SymbolItem.md)
 
 ---
 
@@ -90,7 +90,7 @@ Get the first element in the collection with the provided name.
 
 **Returns**
 
-[SymbolItem](SymbolItem.md#jsobjref-symbolitem)
+[SymbolItem](./SymbolItem.md)
 
 ---
 
@@ -110,7 +110,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[SymbolItem](SymbolItem.md#jsobjref-symbolitem)
+[SymbolItem](./SymbolItem.md)
 
 ---
 

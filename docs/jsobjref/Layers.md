@@ -64,7 +64,7 @@ Creates a new layer in the document.
 
 **Returns**
 
-[Layer](Layer.md#jsobjref-layer)
+[Layer](./Layer.md)
 
 ---
 
@@ -84,7 +84,7 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-[Layer](Layer.md#jsobjref-layer)
+[Layer](./Layer.md)
 
 ---
 
@@ -104,7 +104,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[Layer](Layer.md#jsobjref-layer)
+[Layer](./Layer.md)
 
 ---
 

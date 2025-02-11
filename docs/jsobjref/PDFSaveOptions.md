@@ -340,7 +340,7 @@ Optional. The printing flattener options.
 
 **Type**
 
-[PrintFlattenerOptions](PrintFlattenerOptions.md#jsobjref-printflatteneroptions)
+[PrintFlattenerOptions](./PrintFlattenerOptions.md)
 
 ---
 

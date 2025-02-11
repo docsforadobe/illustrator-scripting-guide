@@ -24,7 +24,7 @@ The color information for this swatch.
 
 **Type**
 
-[Color](Color.md#jsobjref-color)
+[Color](./Color.md)
 
 ---
 
@@ -52,7 +52,7 @@ The object that contains this swatch.
 
 **Type**
 
-[Document](Document.md#jsobjref-document), read-only.
+[Document](./Document.md), read-only.
 
 ---
 

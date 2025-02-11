@@ -106,7 +106,7 @@ The fill color of the path.
 
 **Type**
 
-[Color](Color.md#jsobjref-color)
+[Color](./Color.md)
 
 ---
 
@@ -218,7 +218,7 @@ Read-only. The parent of this object.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem)
+[Layer](./Layer.md) or [GroupItem](./GroupItem.md)
 
 ---
 
@@ -232,7 +232,7 @@ Read-only. The path points contained in this path item.
 
 **Type**
 
-[PathPoints](PathPoints.md#jsobjref-pathpoints)
+[PathPoints](./PathPoints.md)
 
 ---
 
@@ -288,7 +288,7 @@ Read-only. All of the selected path points in the path.
 
 **Type**
 
-[PathPoints](PathPoints.md#jsobjref-pathpoints)
+[PathPoints](./PathPoints.md)
 
 ---
 
@@ -316,7 +316,7 @@ The stroke color for the path.
 
 **Type**
 
-[Color](Color.md#jsobjref-color)
+[Color](./Color.md)
 
 ---
 

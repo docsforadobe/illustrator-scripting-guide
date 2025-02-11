@@ -52,7 +52,7 @@ The list of inks for color separation.
 
 **Type**
 
-Array of [Ink](Ink.md#jsobjref-ink)
+Array of [Ink](./Ink.md)
 
 ---
 

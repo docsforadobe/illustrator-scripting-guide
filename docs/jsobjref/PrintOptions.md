@@ -20,7 +20,7 @@ The printing color management options.
 
 **Type**
 
-[PrintColorManagementOptions](PrintColorManagementOptions.md#jsobjref-printcolormanagementoptions)
+[PrintColorManagementOptions](./PrintColorManagementOptions.md)
 
 ---
 
@@ -34,7 +34,7 @@ The printing color separation options.
 
 **Type**
 
-[PrintColorSeparationOptions](PrintColorSeparationOptions.md#jsobjref-printcolorseparationoptions)
+[PrintColorSeparationOptions](./PrintColorSeparationOptions.md)
 
 ---
 
@@ -48,7 +48,7 @@ The printing coordinate options.
 
 **Type**
 
-[PrintCoordinateOptions](PrintCoordinateOptions.md#jsobjref-printcoordinateoptions)
+[PrintCoordinateOptions](./PrintCoordinateOptions.md)
 
 ---
 
@@ -62,7 +62,7 @@ The printing flattener options.
 
 **Type**
 
-[PrintFlattenerOptions](PrintFlattenerOptions.md#jsobjref-printflatteneroptions)
+[PrintFlattenerOptions](./PrintFlattenerOptions.md)
 
 ---
 
@@ -90,7 +90,7 @@ The printing font options.
 
 **Type**
 
-[PrintFontOptions](PrintFontOptions.md#jsobjref-printfontoptions)
+[PrintFontOptions](./PrintFontOptions.md)
 
 ---
 
@@ -104,7 +104,7 @@ The printing job options.
 
 **Type**
 
-[PrintJobOptions](PrintJobOptions.md#jsobjref-printjoboptions)
+[PrintJobOptions](./PrintJobOptions.md)
 
 ---
 
@@ -118,7 +118,7 @@ The printing page marks options.
 
 **Type**
 
-[PrintPageMarksOptions](PrintPageMarksOptions.md#jsobjref-printpagemarksoptions)
+[PrintPageMarksOptions](./PrintPageMarksOptions.md)
 
 ---
 
@@ -132,7 +132,7 @@ The paper options.
 
 **Type**
 
-[PrintPaperOptions](PrintPaperOptions.md#jsobjref-printpaperoptions)
+[PrintPaperOptions](./PrintPaperOptions.md)
 
 ---
 
@@ -146,7 +146,7 @@ The printing PostScript options.
 
 **Type**
 
-[PrintPostScriptOptions](PrintPostScriptOptions.md#jsobjref-printpostscriptoptions)
+[PrintPostScriptOptions](./PrintPostScriptOptions.md)
 
 ---
 

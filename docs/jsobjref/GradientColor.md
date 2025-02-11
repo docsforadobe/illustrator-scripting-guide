@@ -34,7 +34,7 @@ Reference to the object defining the gradient.
 
 **Type**
 
-[Gradient](Gradient.md#jsobjref-gradient)
+[Gradient](./Gradient.md)
 
 ---
 

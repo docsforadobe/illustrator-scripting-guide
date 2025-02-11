@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [PathPoint](PathPoint.md#jsobjref-pathpoint) objects in a specific path.
+A collection of [PathPoint](./PathPoint.md) objects in a specific path.
 
 The elements are not named; you must access them by index.
 
@@ -66,7 +66,7 @@ Creates a new object.
 
 **Returns**
 
-[PathPoint](PathPoint.md#jsobjref-pathpoint)
+[PathPoint](./PathPoint.md)
 
 ---
 
@@ -86,7 +86,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[PathPoint](PathPoint.md#jsobjref-pathpoint)
+[PathPoint](./PathPoint.md)
 
 ---
 

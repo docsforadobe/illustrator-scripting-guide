@@ -48,7 +48,7 @@ The color to use for the artboard matte. Default: white.
 
 **Type**
 
-[RGBColor](RGBColor.md#jsobjref-rgbcolor)
+[RGBColor](./RGBColor.md)
 
 ---
 

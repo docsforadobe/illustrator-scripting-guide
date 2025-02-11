@@ -71,12 +71,12 @@ If a location is not specified, adds the new character to the containing text fr
 | Parameter           | Type                                                                                               | Description            |
 |---------------------|----------------------------------------------------------------------------------------------------|------------------------|
 | `contents`          | String                                                                                             | Text contents to add   |
-| `relativeObject`    | [TextFrameItem](TextFrameItem.md#jsobjref-textframeitem), optional                                 | Object to add item to  |
+| `relativeObject`    | [TextFrameItem](./TextFrameItem.md), optional                                 | Object to add item to  |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to place text |
 
 **Returns**
 
-[TextRange](TextRange.md#jsobjref-textrange)
+[TextRange](./TextRange.md)
 
 ---
 
@@ -96,7 +96,7 @@ Adds a character before the specified text selection.
 
 **Returns**
 
-[TextRange](TextRange.md#jsobjref-textrange)
+[TextRange](./TextRange.md)
 
 ---
 
@@ -116,7 +116,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[TextRange](TextRange.md#jsobjref-textrange)
+[TextRange](./TextRange.md)
 
 ---
 

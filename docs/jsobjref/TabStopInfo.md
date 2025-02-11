@@ -4,7 +4,7 @@
 
 **Description**
 
-Information about the alignment, position, and other details for a tab stop in a [ParagraphAttributes](ParagraphAttributes.md#jsobjref-paragraphattributes) object.
+Information about the alignment, position, and other details for a tab stop in a [ParagraphAttributes](./ParagraphAttributes.md) object.
 
 ---
 

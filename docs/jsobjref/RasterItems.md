@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [RasterItem](RasterItem.md#jsobjref-rasteritem) objects.
+A collection of [RasterItem](./RasterItem.md) objects.
 
 ---
 
@@ -70,7 +70,7 @@ Get the first element in the collection with the provided name.
 
 **Returns**
 
-[SymbolItem](SymbolItem.md#jsobjref-symbolitem)
+[SymbolItem](./SymbolItem.md)
 
 ---
 
@@ -90,7 +90,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[SymbolItem](SymbolItem.md#jsobjref-symbolitem)
+[SymbolItem](./SymbolItem.md)
 
 ---
 

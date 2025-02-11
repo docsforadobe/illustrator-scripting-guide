@@ -46,7 +46,7 @@ The parent of this object.
 
 **Type**
 
-[Document](Document.md#jsobjref-document); read-only.
+[Document](./Document.md); read-only.
 
 ---
 

@@ -207,7 +207,7 @@ The color of the text fill.
 
 **Type**
 
-[Color](Color.md#jsobjref-color)
+[Color](./Color.md)
 
 ---
 
@@ -473,7 +473,7 @@ The color of the text stroke.
 
 **Type**
 
-[Color](Color.md#jsobjref-color)
+[Color](./Color.md)
 
 ---
 
@@ -557,7 +557,7 @@ The text font.
 
 **Type**
 
-[TextFont](TextFont.md#jsobjref-textfont)
+[TextFont](./TextFont.md)
 
 ---
 

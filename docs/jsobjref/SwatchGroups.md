@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [SwatchGroup](SwatchGroup.md#jsobjref-swatchgroup) objects.
+A collection of [SwatchGroup](./SwatchGroup.md) objects.
 
 ---
 
@@ -64,7 +64,7 @@ Creates a swatch group.
 
 **Returns**
 
-[SwatchGroup](SwatchGroup.md#jsobjref-swatchgroup)
+[SwatchGroup](./SwatchGroup.md)
 
 ---
 
@@ -84,7 +84,7 @@ Get the first element in the collection with the provided name.
 
 **Returns**
 
-[SwatchGroup](SwatchGroup.md#jsobjref-swatchgroup)
+[SwatchGroup](./SwatchGroup.md)
 
 ---
 

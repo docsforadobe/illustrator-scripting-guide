@@ -6,9 +6,9 @@
 
 Any art item. Every art item and group in a document is a page item. You may refer to a page item as an element of a document, layer, or group item.
 
-The `PageItem` class gives you complete access to every art item contained in an Illustrator document. The `PageItem` class is the superclass of all artwork objects in a document. The [CompoundPathItem](CompoundPathItem.md#jsobjref-compoundpathitem), [GroupItem](GroupItem.md#jsobjref-groupitem), [MeshItem](MeshItem.md#jsobjref-meshitem), [PathItem](PathItem.md#jsobjref-pathitem), [PlacedItem](PlacedItem.md#jsobjref-placeditem), [PluginItem](PluginItem.md#jsobjref-pluginitem), [RasterItem](RasterItem.md#jsobjref-rasteritem), and [TextFrameItem](TextFrameItem.md#jsobjref-textframeitem) classes each inherit a set of properties from the `PageItem` class.
+The `PageItem` class gives you complete access to every art item contained in an Illustrator document. The `PageItem` class is the superclass of all artwork objects in a document. The [CompoundPathItem](./CompoundPathItem.md), [GroupItem](./GroupItem.md), [MeshItem](./MeshItem.md), [PathItem](./PathItem.md), [PlacedItem](./PlacedItem.md), [PluginItem](./PluginItem.md), [RasterItem](./RasterItem.md), and [TextFrameItem](./TextFrameItem.md) classes each inherit a set of properties from the `PageItem` class.
 
-You cannot create a `PageItem` directly, you must create one of the specific `PageItem` subclasses, such as [PathItem](PathItem.md#jsobjref-pathitem).
+You cannot create a `PageItem` directly, you must create one of the specific `PageItem` subclasses, such as [PathItem](./PathItem.md).
 
 ---
 
@@ -136,7 +136,7 @@ The layer to which this page item belongs.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer), read-only.
+[Layer](./Layer.md), read-only.
 
 ---
 
@@ -290,7 +290,7 @@ The collection of tags associated with this page item.
 
 **Type**
 
-[Tags](Tags.md#jsobjref-tags)
+[Tags](./Tags.md)
 
 ---
 
@@ -363,7 +363,7 @@ The visibility variable to which this page item path is bound.
 
 **Type**
 
-[Variable](Variable.md#jsobjref-variable)
+[Variable](./Variable.md)
 
 ---
 
@@ -554,7 +554,7 @@ Transforms the art item by applying a transformation matrix.
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
-| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `transformationMatrix` | [Matrix](./Matrix.md)                                                            | Transformation matrix to apply                 |
 | `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
 | `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
 | `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |

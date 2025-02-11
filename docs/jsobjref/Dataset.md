@@ -4,7 +4,7 @@
 
 **Description**
 
-A set of data used for dynamic publishing. A dataset allows you to collect a number of variables and their dynamic data into one object. You must have at least one variable bound to an art item in order to create a dataset. See the class [Variable](Variable.md#jsobjref-variable).
+A set of data used for dynamic publishing. A dataset allows you to collect a number of variables and their dynamic data into one object. You must have at least one variable bound to an art item in order to create a dataset. See the class [Variable](./Variable.md).
 
 ---
 
@@ -34,7 +34,7 @@ The name of the object that contains this dataset.
 
 **Type**
 
-[Document](Document.md#jsobjref-document), read-only.
+[Document](./Document.md), read-only.
 
 ---
 

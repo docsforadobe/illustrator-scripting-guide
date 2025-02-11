@@ -162,7 +162,7 @@ The color to use when matting the art board. Default: `WHITE`.
 
 **Type**
 
-[RGBColor](RGBColor.md#jsobjref-rgbcolor)
+[RGBColor](./RGBColor.md)
 
 ---
 

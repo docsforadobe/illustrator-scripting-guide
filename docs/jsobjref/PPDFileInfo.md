@@ -48,7 +48,7 @@ List of color separation screens.
 
 **Type**
 
-Array of [Screen](Screen.md#jsobjref-screen)
+Array of [Screen](./Screen.md)
 
 ---
 
@@ -62,7 +62,7 @@ List of color separation screen spot functions.
 
 **Type**
 
-Array of [ScreenSpotFunction](ScreenSpotFunction.md#jsobjref-screenspotfunction)
+Array of [ScreenSpotFunction](./ScreenSpotFunction.md)
 
 ---
 

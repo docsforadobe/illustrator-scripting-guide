@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [ParagraphStyle](ParagraphStyle.md#jsobjref-paragraphstyle) objects.
+A collection of [ParagraphStyle](./ParagraphStyle.md) objects.
 
 ---
 
@@ -70,7 +70,7 @@ Creates a named paragraph style.
 
 **Returns**
 
-[CharacterAttributes](CharacterAttributes.md#jsobjref-characterattributes)
+[CharacterAttributes](./CharacterAttributes.md)
 
 ---
 
@@ -90,7 +90,7 @@ Get the first element in the collection with the provided name.
 
 **Returns**
 
-[CharacterAttributes](CharacterAttributes.md#jsobjref-characterattributes)
+[CharacterAttributes](./CharacterAttributes.md)
 
 ---
 
@@ -110,7 +110,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[CharacterAttributes](CharacterAttributes.md#jsobjref-characterattributes)
+[CharacterAttributes](./CharacterAttributes.md)
 
 ---
 

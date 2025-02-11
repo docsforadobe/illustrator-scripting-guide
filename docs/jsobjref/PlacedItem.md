@@ -8,7 +8,7 @@ An artwork item placed in a document as a linked file.
 
 For example, an artwork object created using the `File > Place` command in Illustrator or using the `add()` method of the `placedItems` collection object is a placed item.
 
-For information, see [PlacedItems](PlacedItems.md#jsobjref-placeditems).
+For information, see [PlacedItems](./PlacedItems.md).
 
 ---
 
@@ -66,7 +66,7 @@ The content variable bound to the item.
 
 **Type**
 
-[Variable](Variable.md#jsobjref-variable)
+[Variable](./Variable.md)
 
 ---
 
@@ -178,7 +178,7 @@ The layer to which this item belongs.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer); read-only.
+[Layer](./Layer.md); read-only.
 
 ---
 
@@ -220,7 +220,7 @@ The transformation matrix of the placed artwork.
 
 **Type**
 
-[Matrix](Matrix.md#jsobjref-matrix)
+[Matrix](./Matrix.md)
 
 ---
 
@@ -276,7 +276,7 @@ The parent of this object.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem)
+[Layer](./Layer.md) or [GroupItem](./GroupItem.md)
 
 ---
 
@@ -334,7 +334,7 @@ The tags contained in this item.
 
 **Type**
 
-[Tags](Tags.md#jsobjref-tags); read-only.
+[Tags](./Tags.md); read-only.
 
 ---
 
@@ -390,7 +390,7 @@ The visibility variable bound to the item.
 
 **Type**
 
-[Variable](Variable.md#jsobjref-variable)
+[Variable](./Variable.md)
 
 ---
 
@@ -634,11 +634,11 @@ Converts the raster art for this object to vector art, using default options.
 
 Reorders the raster art into the source art of a plug-in group, and converts it into a group of filled and/or stroked paths that resemble the original image.
 
-Creates and returns a [PluginItem](PluginItem.md#jsobjref-pluginitem) object that references a [TracingObject](TracingObject.md#jsobjref-tracingobject) object.
+Creates and returns a [PluginItem](./PluginItem.md) object that references a [TracingObject](./TracingObject.md) object.
 
 **Returns**
 
-[PluginItem](PluginItem.md#jsobjref-pluginitem)
+[PluginItem](./PluginItem.md)
 
 ---
 
@@ -654,7 +654,7 @@ Transforms the art item by applying a transformation matrix.
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
-| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `transformationMatrix` | [Matrix](./Matrix.md)                                                            | Transformation matrix to apply                 |
 | `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
 | `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
 | `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |

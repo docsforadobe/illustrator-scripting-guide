@@ -4,7 +4,7 @@
 
 **Description**
 
-A group of [Swatch](Swatch.md#jsobjref-swatch) objects.
+A group of [Swatch](./Swatch.md) objects.
 
 ---
 
@@ -66,7 +66,7 @@ Adds a spot swatch to the swatch group.
 
 | Parameter   | Type                          | Description   |
 |-------------|-------------------------------|---------------|
-| `spot`      | [Spot](Spot.md#jsobjref-spot) | Spot to add   |
+| `spot`      | [Spot](./Spot.md) | Spot to add   |
 
 **Returns**
 
@@ -86,7 +86,7 @@ Adds a swatch to the swatch group.
 
 | Parameter   | Type                                | Description   |
 |-------------|-------------------------------------|---------------|
-| `swatch`    | [Swatch](Swatch.md#jsobjref-swatch) | Swatch to add |
+| `swatch`    | [Swatch](./Swatch.md) | Swatch to add |
 
 **Returns**
 
@@ -104,7 +104,7 @@ Gets a list of all swatches in the swatch group.
 
 **Returns**
 
-List of [Swatch](Swatch.md#jsobjref-swatch)
+List of [Swatch](./Swatch.md)
 
 ---
 

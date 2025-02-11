@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [CompoundPathItem](CompoundPathItem.md#jsobjref-compoundpathitem) objects.
+A collection of [CompoundPathItem](./CompoundPathItem.md) objects.
 
 ---
 
@@ -64,7 +64,7 @@ Creates a new `CompoundPathItem`.
 
 **Returns**
 
-[CompoundPathItem](CompoundPathItem.md#jsobjref-compoundpathitem)
+[CompoundPathItem](./CompoundPathItem.md)
 
 ---
 
@@ -84,7 +84,7 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-[CompoundPathItem](CompoundPathItem.md#jsobjref-compoundpathitem)
+[CompoundPathItem](./CompoundPathItem.md)
 
 ---
 
@@ -104,7 +104,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[CompoundPathItem](CompoundPathItem.md#jsobjref-compoundpathitem)
+[CompoundPathItem](./CompoundPathItem.md)
 
 ---
 

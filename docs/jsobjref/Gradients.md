@@ -4,7 +4,7 @@
 
 **Description**
 
-A collection of [Gradient](Gradient.md#jsobjref-gradient) objects in a document.
+A collection of [Gradient](./Gradient.md) objects in a document.
 
 ---
 
@@ -64,7 +64,7 @@ Creates a new `Gradient` object.
 
 **Returns**
 
-[Gradient](Gradient.md#jsobjref-gradient)
+[Gradient](./Gradient.md)
 
 ---
 
@@ -84,7 +84,7 @@ Gets the first element in the collection with the specified name.
 
 **Returns**
 
-[Gradient](Gradient.md#jsobjref-gradient)
+[Gradient](./Gradient.md)
 
 ---
 
@@ -104,7 +104,7 @@ Gets an element from the collection.
 
 **Returns**
 
-[Gradient](Gradient.md#jsobjref-gradient)
+[Gradient](./Gradient.md)
 
 ---
 

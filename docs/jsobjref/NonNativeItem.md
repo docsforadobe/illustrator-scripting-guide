@@ -132,7 +132,7 @@ The layer to which this item belongs.
 
 **Type**
 
-[Layer](Layer.md#jsobjref-layer), read-only.
+[Layer](./Layer.md), read-only.
 
 ---
 
@@ -216,7 +216,7 @@ The parent of this object.
 
 **Type**
 
-[Document](Document.md#jsobjref-document), [Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem), read-only.
+[Document](./Document.md), [Layer](./Layer.md) or [GroupItem](./GroupItem.md), read-only.
 
 ---
 
@@ -272,7 +272,7 @@ The tags contained in this item.
 
 **Type**
 
-[Tags](Tags.md#jsobjref-tags), read-only.
+[Tags](./Tags.md), read-only.
 
 ---
 
@@ -328,7 +328,7 @@ The visibility variable bound to the item.
 
 **Type**
 
-[Variable](Variable.md#jsobjref-variable)
+[Variable](./Variable.md)
 
 ---
 
@@ -567,7 +567,7 @@ Transforms the art item by applying a transformation matrix.
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
-| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `transformationMatrix` | [Matrix](./Matrix.md)                                                            | Transformation matrix to apply                 |
 | `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
 | `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
 | `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |
