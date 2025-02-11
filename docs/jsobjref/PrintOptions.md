@@ -1,5 +1,3 @@
-<a id="jsobjref-printoptions"></a>
-
 # PrintOptions
 
 `new PrintOptions()`
@@ -11,8 +9,6 @@ Contains information about all printing options including flattening, color mana
 ---
 
 ## Properties
-
-<a id="jsobjref-printoptions-colormanagementoptions"></a>
 
 ### PrintOptions.colorManagementOptions
 
@@ -28,8 +24,6 @@ The printing color management options.
 
 ---
 
-<a id="jsobjref-printoptions-colorseparationoptions"></a>
-
 ### PrintOptions.colorSeparationOptions
 
 `printOptions.colorSeparationOptions`
@@ -43,8 +37,6 @@ The printing color separation options.
 [PrintColorSeparationOptions](PrintColorSeparationOptions.md#jsobjref-printcolorseparationoptions)
 
 ---
-
-<a id="jsobjref-printoptions-coordinateoptions"></a>
 
 ### PrintOptions.coordinateOptions
 
@@ -60,8 +52,6 @@ The printing coordinate options.
 
 ---
 
-<a id="jsobjref-printoptions-flatteneroptions"></a>
-
 ### PrintOptions.flattenerOptions
 
 `printOptions.flattenerOptions`
@@ -75,8 +65,6 @@ The printing flattener options.
 [PrintFlattenerOptions](PrintFlattenerOptions.md#jsobjref-printflatteneroptions)
 
 ---
-
-<a id="jsobjref-printoptions-flattenerpreset"></a>
 
 ### PrintOptions.flattenerPreset
 
@@ -92,8 +80,6 @@ String
 
 ---
 
-<a id="jsobjref-printoptions-fontoptions"></a>
-
 ### PrintOptions.fontOptions
 
 `printOptions.fontOptions`
@@ -107,8 +93,6 @@ The printing font options.
 [PrintFontOptions](PrintFontOptions.md#jsobjref-printfontoptions)
 
 ---
-
-<a id="jsobjref-printoptions-joboptions"></a>
 
 ### PrintOptions.jobOptions
 
@@ -124,8 +108,6 @@ The printing job options.
 
 ---
 
-<a id="jsobjref-printoptions-pagemarksoptions"></a>
-
 ### PrintOptions.pageMarksOptions
 
 `printOptions.pageMarksOptions`
@@ -139,8 +121,6 @@ The printing page marks options.
 [PrintPageMarksOptions](PrintPageMarksOptions.md#jsobjref-printpagemarksoptions)
 
 ---
-
-<a id="jsobjref-printoptions-paperoptions"></a>
 
 ### PrintOptions.paperOptions
 
@@ -156,8 +136,6 @@ The paper options.
 
 ---
 
-<a id="jsobjref-printoptions-postscriptoptions"></a>
-
 ### PrintOptions.postScriptOptions
 
 `printOptions.postScriptOptions`
@@ -171,8 +149,6 @@ The printing PostScript options.
 [PrintPostScriptOptions](PrintPostScriptOptions.md#jsobjref-printpostscriptoptions)
 
 ---
-
-<a id="jsobjref-printoptions-ppdname"></a>
 
 ### PrintOptions.PPDName
 
@@ -188,8 +164,6 @@ String
 
 ---
 
-<a id="jsobjref-printoptions-printername"></a>
-
 ### PrintOptions.printerName
 
 `printOptions.printerName`
@@ -203,8 +177,6 @@ The printer name.
 String
 
 ---
-
-<a id="jsobjref-printoptions-printpreset"></a>
 
 ### PrintOptions.printPreset
 

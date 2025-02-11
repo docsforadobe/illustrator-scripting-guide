@@ -1,5 +1,3 @@
-<a id="jsobjref-screen"></a>
-
 # Screen
 
 `PPDFileList[index].PPDInfo.screenList[index`
@@ -11,8 +9,6 @@ Associates a color separation screen with information to be used for printing.
 ---
 
 ## Properties
-
-<a id="jsobjref-screen-name"></a>
 
 ### Screen.name
 
@@ -28,8 +24,6 @@ String
 
 ---
 
-<a id="jsobjref-screen-screeninfo"></a>
-
 ### Screen.screenInfo
 
 `PPDFileList[index].PPDInfo.screenList[index].screenInfo`
@@ -43,8 +37,6 @@ The color separation screen information.
 [ScreenInfo](ScreenInfo.md#jsobjref-screeninfo)
 
 ---
-
-<a id="jsobjref-screen-typename"></a>
 
 ### Screen.typename
 

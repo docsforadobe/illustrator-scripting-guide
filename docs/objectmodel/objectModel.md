@@ -1,5 +1,3 @@
-<a id="objectmodel-objectmodel"></a>
-
 # The Illustrator Scripting Object Model
 
 A good understanding of the Illustrator object model will improve your scripting abilities. The following figure shows the containment hierarchy of the object model, starting with the application object.

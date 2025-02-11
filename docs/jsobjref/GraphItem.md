@@ -1,5 +1,3 @@
-<a id="jsobjref-graphitem"></a>
-
 # GraphItem
 
 `app.activeDocument.graphItems[index`
@@ -11,8 +9,6 @@ Any graph artwork object. See example [Rotating graph items](GraphItems.md#jsobj
 ---
 
 ## Properties
-
-<a id="jsobjref-graphitem-artworkknockout"></a>
 
 ### GraphItem.artworkKnockout
 
@@ -28,8 +24,6 @@ Is this object used to create a knockout, and if so, what kind of knockout. You 
 
 ---
 
-<a id="jsobjref-graphitem-blendingmode"></a>
-
 ### GraphItem.blendingMode
 
 `app.activeDocument.graphItems[index].blendingMode`
@@ -43,8 +37,6 @@ The mode used when compositing an object.
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
 ---
-
-<a id="jsobjref-graphitem-contentvariable"></a>
 
 ### GraphItem.contentVariable
 
@@ -62,8 +54,6 @@ It is not necessary to set the type of the `contentVariable` before binding. Ill
 
 ---
 
-<a id="jsobjref-graphitem-controlbounds"></a>
-
 ### GraphItem.controlBounds
 
 `app.activeDocument.graphItems[index].controlBounds`
@@ -80,8 +70,6 @@ Array of 4 numbers, read-only.
 
 ---
 
-<a id="jsobjref-graphitem-editable"></a>
-
 ### GraphItem.editable
 
 `app.activeDocument.graphItems[index].editable`
@@ -95,8 +83,6 @@ If `true`, this graph item is editable.
 Boolean, read-only.
 
 ---
-
-<a id="jsobjref-graphitem-geometricbounds"></a>
 
 ### GraphItem.geometricBounds
 
@@ -112,8 +98,6 @@ Array of 4 numbers, read-only.
 
 ---
 
-<a id="jsobjref-graphitem-height"></a>
-
 ### GraphItem.height
 
 `app.activeDocument.graphItems[index].height`
@@ -127,8 +111,6 @@ The height of the graph item.
 Number (double), read-only.
 
 ---
-
-<a id="jsobjref-graphitem-hidden"></a>
 
 ### GraphItem.hidden
 
@@ -144,8 +126,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-graphitem-isisolated"></a>
-
 ### GraphItem.isIsolated
 
 `app.activeDocument.graphItems[index].isIsolated`
@@ -159,8 +139,6 @@ If `true`, this object is isolated.
 Boolean.
 
 ---
-
-<a id="jsobjref-graphitem-layer"></a>
 
 ### GraphItem.layer
 
@@ -176,8 +154,6 @@ The layer to which this graph item belongs.
 
 ---
 
-<a id="jsobjref-graphitem-left"></a>
-
 ### GraphItem.left
 
 `app.activeDocument.graphItems[index].left`
@@ -191,8 +167,6 @@ The offset (in points) of the left side of the graph item from the left side of 
 Number.
 
 ---
-
-<a id="jsobjref-graphitem-locked"></a>
 
 ### GraphItem.locked
 
@@ -208,8 +182,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-graphitem-name"></a>
-
 ### GraphItem.name
 
 `app.activeDocument.graphItems[index].name`
@@ -223,8 +195,6 @@ The name of this graph item.
 String.
 
 ---
-
-<a id="jsobjref-graphitem-note"></a>
 
 ### GraphItem.note
 
@@ -240,8 +210,6 @@ String.
 
 ---
 
-<a id="jsobjref-graphitem-opacity"></a>
-
 ### GraphItem.opacity
 
 `app.activeDocument.graphItems[index].opacity`
@@ -255,8 +223,6 @@ The opacity of the object; the value is between 0.0 and 100.0.
 Number (double)
 
 ---
-
-<a id="jsobjref-graphitem-parent"></a>
 
 ### GraphItem.parent
 
@@ -272,8 +238,6 @@ The parent of this object.
 
 ---
 
-<a id="jsobjref-graphitem-position"></a>
-
 ### GraphItem.position
 
 `app.activeDocument.graphItems[index].position`
@@ -287,8 +251,6 @@ The position (in points) of the top left corner of the `graphItem` object in the
 Array of 2 numbers.
 
 ---
-
-<a id="jsobjref-graphitem-selected"></a>
 
 ### GraphItem.selected
 
@@ -304,8 +266,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-graphitem-sliced"></a>
-
 ### GraphItem.sliced
 
 `app.activeDocument.graphItems[index].sliced`
@@ -319,8 +279,6 @@ If `true`, the graph item is sliced. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-graphitem-tags"></a>
 
 ### GraphItem.tags
 
@@ -336,8 +294,6 @@ The tags contained in this graph item.
 
 ---
 
-<a id="jsobjref-graphitem-top"></a>
-
 ### GraphItem.top
 
 `app.activeDocument.graphItems[index].top`
@@ -351,8 +307,6 @@ The offset (in points) of the top of the graph item from the bottom of the page.
 Number (double).
 
 ---
-
-<a id="jsobjref-graphitem-typename"></a>
 
 ### GraphItem.typename
 
@@ -368,8 +322,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-graphitem-url"></a>
-
 ### GraphItem.uRL
 
 `app.activeDocument.graphItems[index].uRL`
@@ -383,8 +335,6 @@ The value of the Adobe URL tag assigned to this graph item.
 String.
 
 ---
-
-<a id="jsobjref-graphitem-visibilityvariable"></a>
 
 ### GraphItem.visibilityVariable
 
@@ -402,8 +352,6 @@ It is not necessary to set the type of the `visibilityVariable` before binding. 
 
 ---
 
-<a id="jsobjref-graphitem-visiblebounds"></a>
-
 ### GraphItem.visibleBounds
 
 `app.activeDocument.graphItems[index].visibleBounds`
@@ -417,8 +365,6 @@ The visible bounds of the graph item including stroke width.
 Array of 4 numbers, read-only.
 
 ---
-
-<a id="jsobjref-graphitem-width"></a>
 
 ### GraphItem.width
 
@@ -434,8 +380,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-graphitem-wrapinside"></a>
-
 ### GraphItem.wrapInside
 
 `app.activeDocument.graphItems[index].wrapInside`
@@ -449,8 +393,6 @@ If `true`, the text frame object should be wrapped inside this object.
 Boolean.
 
 ---
-
-<a id="jsobjref-graphitem-wrapoffset"></a>
 
 ### GraphItem.wrapOffset
 
@@ -466,8 +408,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-graphitem-wrapped"></a>
-
 ### GraphItem.wrapped
 
 `app.activeDocument.graphItems[index].wrapped`
@@ -481,8 +421,6 @@ If `true`, wrap text frame objects around this object. (Text frame must be above
 Boolean.
 
 ---
-
-<a id="jsobjref-graphitem-zorderposition"></a>
 
 ### GraphItem.zOrderPosition
 
@@ -499,8 +437,6 @@ Number (long).
 ---
 
 ## Methods
-
-<a id="jsobjref-graphitem-duplicate"></a>
 
 ### GraphItem.duplicate()
 
@@ -523,8 +459,6 @@ Creates a duplicate of the selected object.
 
 ---
 
-<a id="jsobjref-graphitem-move"></a>
-
 ### GraphItem.move()
 
 `app.activeDocument.graphItems[index].move(relativeObject, insertionLocation)`
@@ -546,8 +480,6 @@ Moves the object.
 
 ---
 
-<a id="jsobjref-graphitem-remove"></a>
-
 ### GraphItem.remove()
 
 `app.activeDocument.graphItems[index].remove()`
@@ -561,8 +493,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-graphitem-resize"></a>
 
 ### GraphItem.resize()
 
@@ -596,8 +526,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-graphitem-rotate"></a>
-
 ### GraphItem.rotate()
 
 ```default
@@ -627,8 +555,6 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 Nothing.
 
 ---
-
-<a id="jsobjref-graphitem-transform"></a>
 
 ### GraphItem.transform()
 
@@ -661,8 +587,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-graphitem-translate"></a>
-
 ### GraphItem.translate()
 
 ```default
@@ -692,8 +616,6 @@ Repositions the art item relative to the current position, where `deltaX` is the
 Nothing.
 
 ---
-
-<a id="jsobjref-graphitem-zorder"></a>
 
 ### GraphItem.zOrder()
 

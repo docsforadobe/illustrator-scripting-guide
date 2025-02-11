@@ -1,5 +1,3 @@
-<a id="scripting-workingwithobjects"></a>
-
 # Working with objects
 
 ## Getting the frontmost document or layer

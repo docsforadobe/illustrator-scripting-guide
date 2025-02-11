@@ -1,5 +1,3 @@
-<a id="jsobjref-screenspotfunction"></a>
-
 # ScreenSpotFunction
 
 `PPDFileList[index].PPDInfo.screenSpotFunctionList[index`
@@ -11,8 +9,6 @@ Contains information about a color separation screen spot function, including it
 ---
 
 ## Properties
-
-<a id="jsobjref-screenspotfunction-name"></a>
 
 ### ScreenSpotFunction.name
 
@@ -28,8 +24,6 @@ String
 
 ---
 
-<a id="jsobjref-screenspotfunction-spotfunction"></a>
-
 ### ScreenSpotFunction.spotFunction
 
 `PPDFileList[index].PPDInfo.screenSpotFunctionList[index].spotFunction`
@@ -43,8 +37,6 @@ The spot function expressed in PostScript commands.
 String
 
 ---
-
-<a id="jsobjref-screenspotfunction-typename"></a>
 
 ### ScreenSpotFunction.typename
 

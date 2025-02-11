@@ -1,5 +1,3 @@
-<a id="jsobjref-epssaveoptions"></a>
-
 # EPSSaveOptions
 
 `epsSaveOptions`
@@ -13,8 +11,6 @@ All properties are optional.
 ---
 
 ## Properties
-
-<a id="jsobjref-epssaveoptions-artboardrange"></a>
 
 ### EPSSaveOptions.artboardRange
 
@@ -30,8 +26,6 @@ String.
 
 ---
 
-<a id="jsobjref-epssaveoptions-cmykpostscript"></a>
-
 ### EPSSaveOptions.cmykPostScript
 
 `epsSaveOptions.cmykPostScript`
@@ -45,8 +39,6 @@ If `true`, use CMYK PostScript.
 Boolean.
 
 ---
-
-<a id="jsobjref-epssaveoptions-compatibility"></a>
 
 ### EPSSaveOptions.compatibility
 
@@ -64,8 +56,6 @@ Default: `Compatibility.ILLUSTRATOR1719`.
 
 ---
 
-<a id="jsobjref-epssaveoptions-compatiblegradientprinting"></a>
-
 ### EPSSaveOptions.compatibleGradientPrinting
 
 `epsSaveOptions.compatibleGradientPrinting`
@@ -81,8 +71,6 @@ Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-epssaveoptions-embedallfonts"></a>
 
 ### EPSSaveOptions.embedAllFonts
 
@@ -100,8 +88,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-epssaveoptions-embedlinkedfiles"></a>
-
 ### EPSSaveOptions.embedLinkedFiles
 
 `epsSaveOptions.embedLinkedFiles`
@@ -115,8 +101,6 @@ If `true`, linked image files are to be included in the saved document.
 Boolean.
 
 ---
-
-<a id="jsobjref-epssaveoptions-flattenouput"></a>
 
 ### EPSSaveOptions.flattenOuput
 
@@ -132,8 +116,6 @@ How should transparency be flattened for file formats older than Illustrator 9.
 
 ---
 
-<a id="jsobjref-epssaveoptions-includedocumentthumbnails"></a>
-
 ### EPSSaveOptions.includeDocumentThumbnails
 
 `epsSaveOptions.includeDocumentThumbnails`
@@ -147,8 +129,6 @@ If `true`, thumbnail image of the EPS artwork should be included.
 Boolean.
 
 ---
-
-<a id="jsobjref-epssaveoptions-overprint"></a>
 
 ### EPSSaveOptions.overprint
 
@@ -166,8 +146,6 @@ Default: `PDFOverprint.PRESERVEPDFOVERPRINT`.
 
 ---
 
-<a id="jsobjref-epssaveoptions-postscript"></a>
-
 ### EPSSaveOptions.postScript
 
 `epsSaveOptions.postScript`
@@ -184,8 +162,6 @@ Default: `EPSPostScriptLevelEnum.LEVEL2`.
 
 ---
 
-<a id="jsobjref-epssaveoptions-preview"></a>
-
 ### EPSSaveOptions.preview
 
 `epsSaveOptions.preview`
@@ -199,8 +175,6 @@ The format for the EPS preview image.
 [EPSPreview](scripting-constants.md#jsobjref-scripting-constants-epspreview)
 
 ---
-
-<a id="jsobjref-epssaveoptions-savemultipleartboards"></a>
 
 ### EPSSaveOptions.saveMultipleArtboards
 
@@ -217,8 +191,6 @@ Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-epssaveoptions-typename"></a>
 
 ### EPSSaveOptions.typename
 

@@ -1,5 +1,3 @@
-<a id="jsobjref-tags"></a>
-
 # Tags
 
 `app.activeDocument.selection[index].tags`
@@ -11,8 +9,6 @@ A collection of [Tag](Tag.md#jsobjref-tag) objects.
 ---
 
 ## Properties
-
-<a id="jsobjref-tags-length"></a>
 
 ### Tags.length
 
@@ -28,8 +24,6 @@ Number; read-only.
 
 ---
 
-<a id="jsobjref-tags-parent"></a>
-
 ### Tags.parent
 
 `app.activeDocument.selection[index].tags.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-tags-typename"></a>
 
 ### Tags.typename
 
@@ -62,8 +54,6 @@ String; read-only.
 
 ## Methods
 
-<a id="jsobjref-tags-add"></a>
-
 ### Tags.add()
 
 `app.activeDocument.selection[index].tags.add()`
@@ -77,8 +67,6 @@ Creates a new [Tag](Tag.md#jsobjref-tag) object.
 [Tag](Tag.md#jsobjref-tag)
 
 ---
-
-<a id="jsobjref-tags-getbyname"></a>
 
 ### Tags.getByName()
 
@@ -100,8 +88,6 @@ Get the first element in the collection with the provided name.
 
 ---
 
-<a id="jsobjref-tags-index"></a>
-
 ### Tags.index()
 
 `app.activeDocument.selection[index].tags.index(itemKey)`
@@ -121,8 +107,6 @@ Gets an element from the collection.
 [Tag](Tag.md#jsobjref-tag)
 
 ---
-
-<a id="jsobjref-tags-removeall"></a>
 
 ### Tags.removeAll()
 

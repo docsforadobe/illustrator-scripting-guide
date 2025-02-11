@@ -1,5 +1,3 @@
-<a id="jsobjref-story"></a>
-
 # Story
 
 `story`
@@ -11,8 +9,6 @@ A contiguous block of text as specified by a text range. A story can contain one
 ---
 
 ## Properties
-
-<a id="jsobjref-story-characters"></a>
 
 ### Story.characters
 
@@ -28,8 +24,6 @@ All the characters in this story.
 
 ---
 
-<a id="jsobjref-story-insertionpoints"></a>
-
 ### Story.insertionPoints
 
 `story.insertionPoints`
@@ -43,8 +37,6 @@ All the insertion points in this story.
 [InsertionPoints](InsertionPoints.md#jsobjref-insertionpoints); read-only.
 
 ---
-
-<a id="jsobjref-story-length"></a>
 
 ### Story.length
 
@@ -60,8 +52,6 @@ Number (long); read-only.
 
 ---
 
-<a id="jsobjref-story-lines"></a>
-
 ### Story.lines
 
 `story.lines`
@@ -75,8 +65,6 @@ All the lines in this story.
 [Lines](Lines.md#jsobjref-lines); read-only.
 
 ---
-
-<a id="jsobjref-story-paragraphs"></a>
 
 ### Story.paragraphs
 
@@ -92,8 +80,6 @@ All the paragraphs in this story.
 
 ---
 
-<a id="jsobjref-story-parent"></a>
-
 ### Story.parent
 
 `story.parent`
@@ -107,8 +93,6 @@ The object’s container.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-story-textframes"></a>
 
 ### Story.textFrames
 
@@ -124,8 +108,6 @@ The text frame items in this story.
 
 ---
 
-<a id="jsobjref-story-textrange"></a>
-
 ### Story.textRange
 
 `story.textRange`
@@ -139,8 +121,6 @@ The text range of the story.
 [TextRange](TextRange.md#jsobjref-textrange); read-only.
 
 ---
-
-<a id="jsobjref-story-textranges"></a>
 
 ### Story.textRanges
 
@@ -156,8 +136,6 @@ All the text ranges in the story.
 
 ---
 
-<a id="jsobjref-story-textselection"></a>
-
 ### Story.textSelection
 
 `story.textSelection`
@@ -172,8 +150,6 @@ Array of [TextRange](TextRange.md#jsobjref-textrange); read-only.
 
 ---
 
-<a id="jsobjref-story-typename"></a>
-
 ### Story.typename
 
 `story.typename`
@@ -187,8 +163,6 @@ The class name of the object.
 String; read-only.
 
 ---
-
-<a id="jsobjref-story-words"></a>
 
 ### Story.words
 

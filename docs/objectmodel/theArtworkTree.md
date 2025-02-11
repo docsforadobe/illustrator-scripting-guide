@@ -1,5 +1,3 @@
-<a id="objectmodel-theartworktree"></a>
-
 # The Artwork Tree
 
 The content of an Illustrator document is called the artwork tree. Artwork is represented by the following objects:

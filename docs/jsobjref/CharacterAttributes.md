@@ -1,5 +1,3 @@
-<a id="jsobjref-characterattributes"></a>
-
 # CharacterAttributes
 
 `characterAttributes`
@@ -17,8 +15,6 @@ Character attributes do not have default values, and are undefined until explici
 
 ## Properties
 
-<a id="jsobjref-characterattributes-akileft"></a>
-
 ### CharacterAttributes.akiLeft
 
 `characterAttributes.akiLeft`
@@ -32,8 +28,6 @@ The amount of inter-character spacing to be added to the left side of the charac
 Number (double)
 
 ---
-
-<a id="jsobjref-characterattributes-akiright"></a>
 
 ### CharacterAttributes.akiRight
 
@@ -49,8 +43,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-characterattributes-alignment"></a>
-
 ### CharacterAttributes.alignment
 
 `characterAttributes.alignment`
@@ -64,8 +56,6 @@ The character alignment type.
 [StyleRunAlignmentType](scripting-constants.md#jsobjref-scripting-constants-stylerunalignmenttype)
 
 ---
-
-<a id="jsobjref-characterattributes-alternateglyphs"></a>
 
 ### CharacterAttributes.alternateGlyphs
 
@@ -81,8 +71,6 @@ The alternate glyphs form.
 
 ---
 
-<a id="jsobjref-characterattributes-autoleading"></a>
-
 ### CharacterAttributes.autoLeading
 
 `characterAttributes.autoLeading`
@@ -96,8 +84,6 @@ If `true`, the automatic leading should be used.
 Boolean
 
 ---
-
-<a id="jsobjref-characterattributes-baselinedirection"></a>
 
 ### CharacterAttributes.baselineDirection
 
@@ -113,8 +99,6 @@ The Japanese text baseline direction.
 
 ---
 
-<a id="jsobjref-characterattributes-baselineposition"></a>
-
 ### CharacterAttributes.baselinePosition
 
 `characterAttributes.baselinePosition`
@@ -128,8 +112,6 @@ The baseline position of text.
 [FontBaselineOption](scripting-constants.md#jsobjref-scripting-constants-fontbaselineoption)
 
 ---
-
-<a id="jsobjref-characterattributes-baselineshift"></a>
 
 ### CharacterAttributes.baselineShift
 
@@ -145,8 +127,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-characterattributes-capitalization"></a>
-
 ### CharacterAttributes.capitalization
 
 `characterAttributes.capitalization`
@@ -160,8 +140,6 @@ The case of text.
 [FontCapsOption](scripting-constants.md#jsobjref-scripting-constants-fontcapsoption)
 
 ---
-
-<a id="jsobjref-characterattributes-connectionforms"></a>
 
 ### CharacterAttributes.connectionForms
 
@@ -177,8 +155,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-characterattributes-contextualligature"></a>
-
 ### CharacterAttributes.contextualLigature
 
 `characterAttributes.contextualLigature`
@@ -192,8 +168,6 @@ If `true`, the contextual ligature should be used.
 Boolean
 
 ---
-
-<a id="jsobjref-characterattributes-discretionaryligature"></a>
 
 ### CharacterAttributes.discretionaryLigature
 
@@ -209,8 +183,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-characterattributes-figurestyle"></a>
-
 ### CharacterAttributes.figureStyle
 
 `characterAttributes.figureStyle`
@@ -224,8 +196,6 @@ The number style in a OpenType font.
 [FigureStyleType](scripting-constants.md#jsobjref-scripting-constants-figurestyletype)
 
 ---
-
-<a id="jsobjref-characterattributes-fillcolor"></a>
 
 ### CharacterAttributes.fillColor
 
@@ -241,8 +211,6 @@ The color of the text fill.
 
 ---
 
-<a id="jsobjref-characterattributes-fractions"></a>
-
 ### CharacterAttributes.fractions
 
 `characterAttributes.fractions`
@@ -256,8 +224,6 @@ If `true`, the OpenType fractions should be used.
 Boolean
 
 ---
-
-<a id="jsobjref-characterattributes-horizontalscale"></a>
 
 ### CharacterAttributes.horizontalScale
 
@@ -273,8 +239,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-characterattributes-italics"></a>
-
 ### CharacterAttributes.italics
 
 `characterAttributes.italics`
@@ -288,8 +252,6 @@ If `true`, the Japanese OpenType font supports italics.
 Boolean
 
 ---
-
-<a id="jsobjref-characterattributes-kerningmethod"></a>
 
 ### CharacterAttributes.kerningMethod
 
@@ -305,8 +267,6 @@ The automatic kerning method to use.
 
 ---
 
-<a id="jsobjref-characterattributes-language"></a>
-
 ### CharacterAttributes.language
 
 `characterAttributes.language`
@@ -320,8 +280,6 @@ The language of text.
 [LanguageType](scripting-constants.md#jsobjref-scripting-constants-languagetype)
 
 ---
-
-<a id="jsobjref-characterattributes-leading"></a>
 
 ### CharacterAttributes.leading
 
@@ -337,8 +295,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-characterattributes-ligature"></a>
-
 ### CharacterAttributes.ligature
 
 `characterAttributes.ligature`
@@ -352,8 +308,6 @@ If `true`, the ligature should be used.
 Boolean
 
 ---
-
-<a id="jsobjref-characterattributes-nobreak"></a>
 
 ### CharacterAttributes.noBreak
 
@@ -369,8 +323,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-characterattributes-opentypeposition"></a>
-
 ### CharacterAttributes.openTypePosition
 
 `characterAttributes.openTypePosition`
@@ -384,8 +336,6 @@ The OpenType baseline position.
 [FontOpenTypePositionOption](scripting-constants.md#jsobjref-scripting-constants-fontopentypepositionoption)
 
 ---
-
-<a id="jsobjref-characterattributes-ordinals"></a>
 
 ### CharacterAttributes.ordinals
 
@@ -401,8 +351,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-characterattributes-ornaments"></a>
-
 ### CharacterAttributes.ornaments
 
 `characterAttributes.ornaments`
@@ -416,8 +364,6 @@ If `true`, the OpenType ornaments should be used.
 Boolean
 
 ---
-
-<a id="jsobjref-characterattributes-overprintfill"></a>
 
 ### CharacterAttributes.overprintFill
 
@@ -433,8 +379,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-characterattributes-overprintstroke"></a>
-
 ### CharacterAttributes.overprintStroke
 
 `characterAttributes.overprintStroke`
@@ -448,8 +392,6 @@ If `true`, the stroke of the text should be overprinted.
 Boolean
 
 ---
-
-<a id="jsobjref-characterattributes-parent"></a>
 
 ### CharacterAttributes.parent
 
@@ -465,8 +407,6 @@ Object, read-only.
 
 ---
 
-<a id="jsobjref-characterattributes-proportionalmetrics"></a>
-
 ### CharacterAttributes.proportionalMetrics
 
 `characterAttributes.proportionalMetrics`
@@ -480,8 +420,6 @@ If `true`, the Japanese OpenType font supports proportional glyphs.
 Boolean
 
 ---
-
-<a id="jsobjref-characterattributes-rotation"></a>
 
 ### CharacterAttributes.rotation
 
@@ -497,8 +435,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-characterattributes-size"></a>
-
 ### CharacterAttributes.size
 
 `characterAttributes.size`
@@ -512,8 +448,6 @@ Font size in points.
 Number (double)
 
 ---
-
-<a id="jsobjref-characterattributes-strikethrough"></a>
 
 ### CharacterAttributes.strikeThrough
 
@@ -529,8 +463,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-characterattributes-strokecolor"></a>
-
 ### CharacterAttributes.strokeColor
 
 `characterAttributes.strokeColor`
@@ -544,8 +476,6 @@ The color of the text stroke.
 [Color](Color.md#jsobjref-color)
 
 ---
-
-<a id="jsobjref-characterattributes-strokeweight"></a>
 
 ### CharacterAttributes.strokeWeight
 
@@ -561,8 +491,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-characterattributes-stylisticalternates"></a>
-
 ### CharacterAttributes.stylisticAlternates
 
 `characterAttributes.stylisticAlternates`
@@ -576,8 +504,6 @@ If `true`, the OpenType stylistic alternates should be used.
 Boolean
 
 ---
-
-<a id="jsobjref-characterattributes-swash"></a>
 
 ### CharacterAttributes.swash
 
@@ -593,8 +519,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-characterattributes-tatechuyokohorizontal"></a>
-
 ### CharacterAttributes.tateChuYokoHorizontal
 
 `characterAttributes.tateChuYokoHorizontal`
@@ -608,8 +532,6 @@ The Tate-Chu-Yoko horizontal adjustment in points.
 Number (long)
 
 ---
-
-<a id="jsobjref-characterattributes-tatechuyokovertical"></a>
 
 ### CharacterAttributes.tateChuYokoVertical
 
@@ -625,8 +547,6 @@ Number (long)
 
 ---
 
-<a id="jsobjref-characterattributes-textfont"></a>
-
 ### CharacterAttributes.textFont
 
 `characterAttributes.textFont`
@@ -640,8 +560,6 @@ The text font.
 [TextFont](TextFont.md#jsobjref-textfont)
 
 ---
-
-<a id="jsobjref-characterattributes-titling"></a>
 
 ### CharacterAttributes.titling
 
@@ -657,8 +575,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-characterattributes-tracking"></a>
-
 ### CharacterAttributes.tracking
 
 `characterAttributes.tracking`
@@ -672,8 +588,6 @@ The tracking or range kerning amount, in thousandths of an em.
 Number (long)
 
 ---
-
-<a id="jsobjref-characterattributes-tsume"></a>
 
 ### CharacterAttributes.Tsume
 
@@ -689,8 +603,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-characterattributes-typename"></a>
-
 ### CharacterAttributes.typename
 
 `characterAttributes.typename`
@@ -704,8 +616,6 @@ The class name of the object.
 String, read-only.
 
 ---
-
-<a id="jsobjref-characterattributes-underline"></a>
 
 ### CharacterAttributes.underline
 
@@ -721,8 +631,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-characterattributes-verticalscale"></a>
-
 ### CharacterAttributes.verticalScale
 
 `characterAttributes.verticalScale`
@@ -736,8 +644,6 @@ Character vertical scaling factor expressed as a percentage (= 100%).
 Number (double)
 
 ---
-
-<a id="jsobjref-characterattributes-warichucharactersafterbreak"></a>
 
 ### CharacterAttributes.wariChuCharactersAfterBreak
 
@@ -753,8 +659,6 @@ Number (long)
 
 ---
 
-<a id="jsobjref-characterattributes-warichucharactersbeforebreak"></a>
-
 ### CharacterAttributes.wariChuCharactersBeforeBreak
 
 `characterAttributes.wariChuCharactersBeforeBreak`
@@ -768,8 +672,6 @@ Specifies how the characters in Wari-Chu text (an inset note in Japanese text) a
 Number (long)
 
 ---
-
-<a id="jsobjref-characterattributes-waichuenabled"></a>
 
 ### CharacterAttributes.waiChuEnabled
 
@@ -785,8 +687,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-characterattributes-warichujustification"></a>
-
 ### CharacterAttributes.wariChuJustification
 
 `characterAttributes.wariChuJustification`
@@ -800,8 +700,6 @@ The Wari-Chu justification.
 [WariChuJustificationType](scripting-constants.md#jsobjref-scripting-constants-warichujustificationtype)
 
 ---
-
-<a id="jsobjref-characterattributes-warichulinegap"></a>
 
 ### CharacterAttributes.wariChuLineGap
 
@@ -817,8 +715,6 @@ Number (long)
 
 ---
 
-<a id="jsobjref-characterattributes-warichulines"></a>
-
 ### CharacterAttributes.wariChuLines
 
 `characterAttributes.wariChuLines`
@@ -832,8 +728,6 @@ The number of Wari-Chu (multiple text lines fit into a space meant for one) line
 Number (long)
 
 ---
-
-<a id="jsobjref-characterattributes-warichuscale"></a>
 
 ### CharacterAttributes.wariChuScale
 

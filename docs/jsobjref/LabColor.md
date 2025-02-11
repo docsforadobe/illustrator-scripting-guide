@@ -1,5 +1,3 @@
-<a id="jsobjref-labcolor"></a>
-
 # LabColor
 
 `labColor`
@@ -11,8 +9,6 @@ A color specification in the CIE Lab color space, used where a `color` object is
 ---
 
 ## Properties
-
-<a id="jsobjref-labcolor-a"></a>
 
 ### LabColor.a
 
@@ -28,8 +24,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-labcolor-b"></a>
-
 ### LabColor.b
 
 `labColor.b`
@@ -43,8 +37,6 @@ The b (yellow-blue) color value. Range -128.0–128.0. Default: 0.0.
 Number (double).
 
 ---
-
-<a id="jsobjref-labcolor-l"></a>
 
 ### LabColor.l
 

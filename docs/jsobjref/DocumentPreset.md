@@ -1,5 +1,3 @@
-<a id="jsobjref-documentpreset"></a>
-
 # DocumentPreset
 
 `documentPreset`
@@ -11,8 +9,6 @@ A preset document template to use when creating a new document. See [Documents.a
 ---
 
 ## Properties
-
-<a id="jsobjref-documentpreset-artboardlayout"></a>
 
 ### DocumentPreset.artboardLayout
 
@@ -28,8 +24,6 @@ The layout of artboards in the new document. Default: `GridByRow`.
 
 ---
 
-<a id="jsobjref-documentpreset-artboardrowsorcols"></a>
-
 ### DocumentPreset.artboardRowsOrCols
 
 `documentPreset.artboardRowsOrCols`
@@ -43,8 +37,6 @@ The number of rows (for rows layout) or columns (for column layout) of artboards
 Number (long).
 
 ---
-
-<a id="jsobjref-documentpreset-artboardspacing"></a>
 
 ### DocumentPreset.artboardSpacing
 
@@ -60,8 +52,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-documentpreset-colormode"></a>
-
 ### DocumentPreset.colorMode
 
 `documentPreset.colorMode`
@@ -75,8 +65,6 @@ The color space for the new document.
 [DocumentColorSpace](scripting-constants.md#jsobjref-scripting-constants-documentcolorspace)
 
 ---
-
-<a id="jsobjref-documentpreset-documentbleedlink"></a>
 
 ### DocumentPreset.documentBleedLink
 
@@ -92,8 +80,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-documentpreset-documentbleedoffsetrect"></a>
-
 ### DocumentPreset.documentBleedOffsetRect
 
 `documentPreset.documentBleedOffsetRect`
@@ -107,8 +93,6 @@ The document bleed offset rectangle.
 Rectangle.
 
 ---
-
-<a id="jsobjref-documentpreset-height"></a>
 
 ### DocumentPreset.height
 
@@ -124,8 +108,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-documentpreset-numartboards"></a>
-
 ### DocumentPreset.numArtboards
 
 `documentPreset.numArtboards`
@@ -139,8 +121,6 @@ The number of artboards for the new document. Range: 1 to 100. Default: 1.
 Number (long).
 
 ---
-
-<a id="jsobjref-documentpreset-previewmode"></a>
 
 ### DocumentPreset.previewMode
 
@@ -156,8 +136,6 @@ The preview mode for the new document.
 
 ---
 
-<a id="jsobjref-documentpreset-rasterresolution"></a>
-
 ### DocumentPreset.rasterResolution
 
 `documentPreset.rasterResolution`
@@ -171,8 +149,6 @@ The raster resolution for the new document.
 [DocumentRasterResolution](scripting-constants.md#jsobjref-scripting-constants-documentrasterresolution)
 
 ---
-
-<a id="jsobjref-documentpreset-title"></a>
 
 ### DocumentPreset.title
 
@@ -188,8 +164,6 @@ String.
 
 ---
 
-<a id="jsobjref-documentpreset-transparencygrid"></a>
-
 ### DocumentPreset.transparencyGrid
 
 `documentPreset.transparencyGrid`
@@ -203,8 +177,6 @@ The transparency grid color for the new document.
 [DocumentTransparencyGrid](scripting-constants.md#jsobjref-scripting-constants-documenttransparencygrid)
 
 ---
-
-<a id="jsobjref-documentpreset-typename"></a>
 
 ### DocumentPreset.typename
 
@@ -220,8 +192,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-documentpreset-units"></a>
-
 ### DocumentPreset.units
 
 `documentPreset.units`
@@ -235,8 +205,6 @@ The ruler units for the new document.
 [RulerUnits](scripting-constants.md#jsobjref-scripting-constants-rulerunits)
 
 ---
-
-<a id="jsobjref-documentpreset-width"></a>
 
 ### DocumentPreset.width
 

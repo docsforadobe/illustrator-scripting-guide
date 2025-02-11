@@ -1,5 +1,3 @@
-<a id="jsobjref-rasteritems"></a>
-
 # RasterItems
 
 `app.activeDocument.rasterItems`
@@ -11,8 +9,6 @@ A collection of [RasterItem](RasterItem.md#jsobjref-rasteritem) objects.
 ---
 
 ## Properties
-
-<a id="jsobjref-rasteritems-length"></a>
 
 ### RasterItems.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-rasteritems-parent"></a>
-
 ### RasterItems.parent
 
 `app.activeDocument.rasterItems.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-rasteritems-typename"></a>
 
 ### RasterItems.typename
 
@@ -61,8 +53,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-rasteritems-getbyname"></a>
 
 ### RasterItems.getByName()
 
@@ -84,8 +74,6 @@ Get the first element in the collection with the provided name.
 
 ---
 
-<a id="jsobjref-rasteritems-index"></a>
-
 ### RasterItems.index()
 
 `app.activeDocument.rasterItems.index(itemKey)`
@@ -105,8 +93,6 @@ Gets an element from the collection.
 [SymbolItem](SymbolItem.md#jsobjref-symbolitem)
 
 ---
-
-<a id="jsobjref-rasteritems-removeall"></a>
 
 ### RasterItems.removeAll()
 

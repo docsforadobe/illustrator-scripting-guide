@@ -1,5 +1,3 @@
-<a id="jsobjref-printjoboptions"></a>
-
 # PrintJobOptions
 
 `new PrintJobOptions()`
@@ -11,8 +9,6 @@ Contains information about how the job is to be printed.
 ---
 
 ## Properties
-
-<a id="jsobjref-printjoboptions-artboardrange"></a>
 
 ### PrintJobOptions.artboardRange
 
@@ -30,8 +26,6 @@ String
 
 ---
 
-<a id="jsobjref-printjoboptions-bitmapresolution"></a>
-
 ### PrintJobOptions.bitmapResolution
 
 `printJobOptions.bitmapResolution`
@@ -47,8 +41,6 @@ Default: 0.0
 Number (double)
 
 ---
-
-<a id="jsobjref-printjoboptions-collate"></a>
 
 ### PrintJobOptions.collate
 
@@ -66,8 +58,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printjoboptions-copies"></a>
-
 ### PrintJobOptions.copies
 
 `printJobOptions.copies`
@@ -83,8 +73,6 @@ Default: 1
 Number (long)
 
 ---
-
-<a id="jsobjref-printjoboptions-designation"></a>
 
 ### PrintJobOptions.designation
 
@@ -102,8 +90,6 @@ Default: `PrintArtworkDesignation.VISIBLEPRINTABLELAYERS`
 
 ---
 
-<a id="jsobjref-printjoboptions-file"></a>
-
 ### PrintJobOptions.file
 
 `printJobOptions.file`
@@ -118,8 +104,6 @@ File
 
 ---
 
-<a id="jsobjref-printjoboptions-name"></a>
-
 ### PrintJobOptions.name
 
 `printJobOptions.name`
@@ -133,8 +117,6 @@ The print job name.
 String
 
 ---
-
-<a id="jsobjref-printjoboptions-printallartboards"></a>
 
 ### PrintJobOptions.printAllArtboards
 
@@ -152,8 +134,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printjoboptions-printarea"></a>
-
 ### PrintJobOptions.printArea
 
 `printJobOptions.printArea`
@@ -169,8 +149,6 @@ Default: `PrintingBounds.ARTBOARDBOUNDS`
 [PrintingBounds](scripting-constants.md#jsobjref-scripting-constants-printingbounds)
 
 ---
-
-<a id="jsobjref-printjoboptions-printasbitmap"></a>
 
 ### PrintJobOptions.printAsBitmap
 
@@ -188,8 +166,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printjoboptions-reversepages"></a>
-
 ### PrintJobOptions.reversePages
 
 `printJobOptions.reversePages`
@@ -205,8 +181,6 @@ Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-printjoboptions-typename"></a>
 
 ### PrintJobOptions.typename
 

@@ -1,5 +1,3 @@
-<a id="jsobjref-brushes"></a>
-
 # Brushes
 
 `app.activeDocument.brushes`
@@ -11,8 +9,6 @@ A collection of brush objects in a document.
 ---
 
 ## Properties
-
-<a id="jsobjref-brushes-length"></a>
 
 ### Brushes.length
 
@@ -28,8 +24,6 @@ Number; read-only.
 
 ---
 
-<a id="jsobjref-brushes-parent"></a>
-
 ### Brushes.parent
 
 `app.activeDocument.brushes.parent`
@@ -43,8 +37,6 @@ The document that contains this brushes collection.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-brushes-typename"></a>
 
 ### Brushes.typename
 
@@ -61,8 +53,6 @@ String; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-brushes-getbyname"></a>
 
 ### Brushes.getByName()
 
@@ -83,8 +73,6 @@ Gets the first element in the collection with the specified name.
 [Brush](Brush.md#jsobjref-brush)
 
 ---
-
-<a id="jsobjref-brushes-index"></a>
 
 ### Brushes.index()
 

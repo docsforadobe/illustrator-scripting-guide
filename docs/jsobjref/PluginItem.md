@@ -1,5 +1,3 @@
-<a id="jsobjref-pluginitem"></a>
-
 # PluginItem
 
 `app.activeDocument.pluginItems[index`
@@ -13,8 +11,6 @@ Scripts can create a plug-in item using [PlacedItem.trace](PlacedItem.md#jsobjre
 ---
 
 ## Properties
-
-<a id="jsobjref-pluginitem-artworkknockout"></a>
 
 ### PluginItem.artworkKnockout
 
@@ -30,8 +26,6 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 ---
 
-<a id="jsobjref-pluginitem-blendingmode"></a>
-
 ### PluginItem.blendingMode
 
 `app.activeDocument.pluginItems[index].blendingMode`
@@ -45,8 +39,6 @@ The blend mode used when compositing an object.
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
 ---
-
-<a id="jsobjref-pluginitem-controlbounds"></a>
 
 ### PluginItem.controlBounds
 
@@ -62,8 +54,6 @@ Array of 4 numbers; read-only.
 
 ---
 
-<a id="jsobjref-pluginitem-editable"></a>
-
 ### PluginItem.editable
 
 `app.activeDocument.pluginItems[index].editable`
@@ -77,8 +67,6 @@ If `true`, this item is editable.
 Boolean; read-only.
 
 ---
-
-<a id="jsobjref-pluginitem-geometricbounds"></a>
 
 ### PluginItem.geometricBounds
 
@@ -94,8 +82,6 @@ Array of 4 numbers; read-only.
 
 ---
 
-<a id="jsobjref-pluginitem-height"></a>
-
 ### PluginItem.height
 
 `app.activeDocument.pluginItems[index].height`
@@ -109,8 +95,6 @@ The height of the group item.
 Number (double)
 
 ---
-
-<a id="jsobjref-pluginitem-hidden"></a>
 
 ### PluginItem.hidden
 
@@ -126,8 +110,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pluginitem-isisolated"></a>
-
 ### PluginItem.isIsolated
 
 `app.activeDocument.pluginItems[index].isIsolated`
@@ -141,8 +123,6 @@ If `true`, this object is isolated.
 Boolean
 
 ---
-
-<a id="jsobjref-pluginitem-istracing"></a>
 
 ### PluginItem.isTracing
 
@@ -160,8 +140,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pluginitem-layer"></a>
-
 ### PluginItem.layer
 
 `app.activeDocument.pluginItems[index].layer`
@@ -175,8 +153,6 @@ The layer to which this item belongs.
 [Layer](Layer.md#jsobjref-layer); read-only.
 
 ---
-
-<a id="jsobjref-pluginitem-left"></a>
 
 ### PluginItem.left
 
@@ -192,8 +168,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pluginitem-locked"></a>
-
 ### PluginItem.locked
 
 `app.activeDocument.pluginItems[index].locked`
@@ -207,8 +181,6 @@ If `true`, this item is locked.
 Boolean
 
 ---
-
-<a id="jsobjref-pluginitem-name"></a>
 
 ### PluginItem.name
 
@@ -224,8 +196,6 @@ String
 
 ---
 
-<a id="jsobjref-pluginitem-note"></a>
-
 ### PluginItem.note
 
 `app.activeDocument.pluginItems[index].note`
@@ -239,8 +209,6 @@ The note assigned to this item.
 String
 
 ---
-
-<a id="jsobjref-pluginitem-opacity"></a>
 
 ### PluginItem.opacity
 
@@ -256,8 +224,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pluginitem-parent"></a>
-
 ### PluginItem.parent
 
 `app.activeDocument.pluginItems[index].parent`
@@ -271,8 +237,6 @@ The parent of this object.
 [Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem)
 
 ---
-
-<a id="jsobjref-pluginitem-position"></a>
 
 ### PluginItem.position
 
@@ -288,8 +252,6 @@ Array of 2 numbers; read-only.
 
 ---
 
-<a id="jsobjref-pluginitem-selected"></a>
-
 ### PluginItem.selected
 
 `app.activeDocument.pluginItems[index].selected`
@@ -303,8 +265,6 @@ If `true`, this item is selected.
 Boolean
 
 ---
-
-<a id="jsobjref-pluginitem-sliced"></a>
 
 ### PluginItem.sliced
 
@@ -322,8 +282,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pluginitem-tags"></a>
-
 ### PluginItem.tags
 
 `app.activeDocument.pluginItems[index].tags`
@@ -337,8 +295,6 @@ The tags contained in this item.
 [Tags](Tags.md#jsobjref-tags); read-only.
 
 ---
-
-<a id="jsobjref-pluginitem-top"></a>
 
 ### PluginItem.top
 
@@ -354,8 +310,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pluginitem-tracing"></a>
-
 ### PluginItem.tracing
 
 `app.activeDocument.pluginItems[index].tracing`
@@ -369,8 +323,6 @@ When this plug-in group was created by tracing (`isTracing` is `true`), the trac
 [TracingObject](TracingObject.md#jsobjref-tracingobject)
 
 ---
-
-<a id="jsobjref-pluginitem-typename"></a>
 
 ### PluginItem.typename
 
@@ -386,8 +338,6 @@ String; read-only.
 
 ---
 
-<a id="jsobjref-pluginitem-url"></a>
-
 ### PluginItem.uRL
 
 `app.activeDocument.pluginItems[index].uRL`
@@ -401,8 +351,6 @@ The value of the Adobe URL tag assigned to this item.
 String
 
 ---
-
-<a id="jsobjref-pluginitem-visibilityvariable"></a>
 
 ### PluginItem.visibilityVariable
 
@@ -418,8 +366,6 @@ The visibility variable bound to the item.
 
 ---
 
-<a id="jsobjref-pluginitem-visiblebounds"></a>
-
 ### PluginItem.visibleBounds
 
 `app.activeDocument.pluginItems[index].visibleBounds`
@@ -433,8 +379,6 @@ The visible bounds of the item including stroke width.
 Array of 4 numbers; read-only.
 
 ---
-
-<a id="jsobjref-pluginitem-width"></a>
 
 ### PluginItem.width
 
@@ -450,8 +394,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pluginitem-wrapinside"></a>
-
 ### PluginItem.wrapInside
 
 `app.activeDocument.pluginItems[index].wrapInside`
@@ -465,8 +407,6 @@ If `true`, the text frame object should be wrapped inside this object.
 Boolean
 
 ---
-
-<a id="jsobjref-pluginitem-wrapoffset"></a>
 
 ### PluginItem.wrapOffset
 
@@ -482,8 +422,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pluginitem-wrapped"></a>
-
 ### PluginItem.wrapped
 
 `app.activeDocument.pluginItems[index].wrapped`
@@ -497,8 +435,6 @@ If `true`, wrap text frame objects around this object (text frame must be above 
 Boolean
 
 ---
-
-<a id="jsobjref-pluginitem-zorderposition"></a>
 
 ### PluginItem.zOrderPosition
 
@@ -515,8 +451,6 @@ Number; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-pluginitem-duplicate"></a>
 
 ### PluginItem.duplicate()
 
@@ -539,8 +473,6 @@ Creates a duplicate of the selected object.
 
 ---
 
-<a id="jsobjref-pluginitem-move"></a>
-
 ### PluginItem.move()
 
 `app.activeDocument.pluginItems[index].move(relativeObject, insertionLocation)`
@@ -562,8 +494,6 @@ Moves the object.
 
 ---
 
-<a id="jsobjref-pluginitem-remove"></a>
-
 ### PluginItem.remove()
 
 `app.activeDocument.pluginItems[index].remove()`
@@ -577,8 +507,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-pluginitem-resize"></a>
 
 ### PluginItem.resize()
 
@@ -607,8 +535,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-pluginitem-rotate"></a>
-
 ### PluginItem.rotate()
 
 `app.activeDocument.pluginItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])`
@@ -636,8 +562,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-pluginitem-transform"></a>
-
 ### PluginItem.transform()
 
 `app.activeDocument.pluginItems[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])`
@@ -664,8 +588,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-pluginitem-translate"></a>
-
 ### PluginItem.translate()
 
 `app.activeDocument.pluginItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])`
@@ -691,8 +613,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-pluginitem-zorder"></a>
-
 ### PluginItem.zOrder()
 
 `app.activeDocument.pluginItems[index].zOrder(zOrderCmd)`
@@ -714,8 +634,6 @@ Nothing.
 ---
 
 ## Example
-
-<a id="jsobjref-pluginitem-copying-a-plugin-item"></a>
 
 ### Copying a plug-in item
 

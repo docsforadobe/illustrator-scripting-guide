@@ -1,5 +1,3 @@
-<a id="workingwithtextframes"></a>
-
 # Working with text frames
 
 To create a text frame of a specific type in AppleScript, use the `kind` property of the `text` frame object

@@ -1,5 +1,3 @@
-<a id="jsobjref-paperinfo"></a>
-
 # PaperInfo
 
 `printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo`
@@ -11,8 +9,6 @@ Paper information for use in printing documents.
 ---
 
 ## Properties
-
-<a id="jsobjref-paperinfo-custompaper"></a>
 
 ### PaperInfo.customPaper
 
@@ -28,8 +24,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-paperinfo-height"></a>
-
 ### PaperInfo.height
 
 `printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo.height`
@@ -43,8 +37,6 @@ The paper’s height in points.
 Number (double).
 
 ---
-
-<a id="jsobjref-paperinfo-imageablearea"></a>
 
 ### PaperInfo.imageableArea
 
@@ -60,8 +52,6 @@ Array of 4 numbers.
 
 ---
 
-<a id="jsobjref-paperinfo-typename"></a>
-
 ### PaperInfo.typename
 
 `printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo.typename`
@@ -75,8 +65,6 @@ The class name of the object.
 String, read-only.
 
 ---
-
-<a id="jsobjref-paperinfo-width"></a>
 
 ### PaperInfo.width
 

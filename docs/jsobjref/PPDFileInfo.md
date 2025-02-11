@@ -1,5 +1,3 @@
-<a id="jsobjref-ppdfileinfo"></a>
-
 # PPDFileInfo
 
 `app.PPDFileList[index].PPDInfo`
@@ -11,8 +9,6 @@ Information about a PostScript Printer Description (PPD) file.
 ---
 
 ## Properties
-
-<a id="jsobjref-ppdfileinfo-languagelevel"></a>
 
 ### PPDFileInfo.languageLevel
 
@@ -28,8 +24,6 @@ String
 
 ---
 
-<a id="jsobjref-ppdfileinfo-ppdfilepath"></a>
-
 ### PPDFileInfo.PPDFilePath
 
 `app.PPDFileList[index].PPDInfo.PPDFilePath`
@@ -44,8 +38,6 @@ File
 
 ---
 
-<a id="jsobjref-ppdfileinfo-screenlist"></a>
-
 ### PPDFileInfo.screenList
 
 `app.PPDFileList[index].PPDInfo.screenList`
@@ -59,8 +51,6 @@ List of color separation screens.
 Array of [Screen](Screen.md#jsobjref-screen)
 
 ---
-
-<a id="jsobjref-ppdfileinfo-screenspotfunctionlist"></a>
 
 ### PPDFileInfo.screenSpotFunctionList
 

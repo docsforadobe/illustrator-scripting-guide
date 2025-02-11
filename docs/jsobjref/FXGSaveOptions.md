@@ -1,5 +1,3 @@
-<a id="jsobjref-fxgsaveoptions"></a>
-
 # FXGSaveOptions
 
 `fxgSaveOptions`
@@ -11,8 +9,6 @@ Specifies options which may be supplied when saving a document as an FXG file. A
 ---
 
 ## Properties
-
-<a id="jsobjref-fxgsaveoptions-artboardrange"></a>
 
 ### FXGSaveOptions.artboardRange
 
@@ -28,8 +24,6 @@ String.
 
 ---
 
-<a id="jsobjref-fxgsaveoptions-blendspolicy"></a>
-
 ### FXGSaveOptions.blendsPolicy
 
 `fxgSaveOptions.blendsPolicy`
@@ -43,8 +37,6 @@ The policy used by FXG to expand blends. Default: `BlendsExpandPolicy.AUTOMATICA
 [BlendsExpandPolicy](scripting-constants.md#jsobjref-scripting-constants-blendsexpandpolicy)
 
 ---
-
-<a id="jsobjref-fxgsaveoptions-downsamplelinkedimages"></a>
 
 ### FXGSaveOptions.downsampleLinkedImages
 
@@ -60,8 +52,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-fxgsaveoptions-filterspolicy"></a>
-
 ### FXGSaveOptions.filtersPolicy
 
 `fxgSaveOptions.filtersPolicy`
@@ -75,8 +65,6 @@ The policy used by FXG to preserve filters. Default: `FiltersPreservePolicy.KEEP
 [FiltersPreservePolicy](scripting-constants.md#jsobjref-scripting-constants-filterspreservepolicy)
 
 ---
-
-<a id="jsobjref-fxgsaveoptions-gradientspolicy"></a>
 
 ### FXGSaveOptions.gradientsPolicy
 
@@ -92,8 +80,6 @@ The policy used by FXG to preserve gradients. Default: `GradientsPreservePolicy.
 
 ---
 
-<a id="jsobjref-fxgsaveoptions-includeunusedsymbols"></a>
-
 ### FXGSaveOptions.includeUnusedSymbols
 
 `fxgSaveOptions.includeUnusedSymbols`
@@ -107,8 +93,6 @@ If `true`, unused symbols are included. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-fxgsaveoptions-preserveeditingcapabilities"></a>
 
 ### FXGSaveOptions.preserveEditingCapabilities
 
@@ -124,8 +108,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-fxgsaveoptions-savemultipleartboards"></a>
-
 ### FXGSaveOptions.saveMultipleArtboards
 
 `fxgSaveOptions.saveMultipleArtboards`
@@ -140,8 +122,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-fxgsaveoptions-textpolicy"></a>
-
 ### FXGSaveOptions.textPolicy
 
 `fxgSaveOptions.textPolicy`
@@ -155,8 +135,6 @@ The policy used by FXG to preserve text. Default: `TextPreservePolicy.AUTOMATICA
 [TextPreservePolicy](scripting-constants.md#jsobjref-scripting-constants-textpreservepolicy)
 
 ---
-
-<a id="jsobjref-fxgsaveoptions-version"></a>
 
 ### FXGSaveOptions.version
 

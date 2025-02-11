@@ -1,5 +1,3 @@
-<a id="scriptingapplescript-formoreinfo"></a>
-
 # For more information
 
 Several extended sample scripts are in the `/Scripting/Sample Scripts/` folder in your Illustrator CC 2017 installation directory.

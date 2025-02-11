@@ -1,5 +1,3 @@
-<a id="jsobjref-pdfsaveoptions"></a>
-
 # PDFSaveOptions
 
 `new PDFSaveOptions()`
@@ -13,8 +11,6 @@ All properties are optional.
 ---
 
 ## Properties
-
-<a id="jsobjref-pdfsaveoptions-acrobatlayers"></a>
 
 ### PDFSaveOptions.acrobatLayers
 
@@ -32,8 +28,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-artboardrange"></a>
-
 ### PDFSaveOptions.artboardRange
 
 `pDFSaveOptions.artboardRange`
@@ -49,8 +43,6 @@ Default: empty string
 String
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-bleedlink"></a>
 
 ### PDFSaveOptions.bleedLink
 
@@ -68,8 +60,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-bleedoffsetrect"></a>
-
 ### PDFSaveOptions.bleedOffsetRect
 
 `pDFSaveOptions.bleedOffsetRect`
@@ -83,8 +73,6 @@ The bleed offset rectangle.
 Array of 4 numbers
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-colorbars"></a>
 
 ### PDFSaveOptions.colorBars
 
@@ -102,8 +90,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-colorcompression"></a>
-
 ### PDFSaveOptions.colorCompression
 
 `pDFSaveOptions.colorCompression`
@@ -119,8 +105,6 @@ Default: `CompressionQuality.None`
 [CompressionQuality](scripting-constants.md#jsobjref-scripting-constants-compressionquality)
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-colorconversionid"></a>
 
 ### PDFSaveOptions.colorConversionID
 
@@ -138,8 +122,6 @@ Default: `ColorConversion.None`
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-colordestinationid"></a>
-
 ### PDFSaveOptions.colorDestinationID
 
 `pDFSaveOptions.colorDestinationID`
@@ -155,8 +137,6 @@ Default: `ColorDestination.None`
 [ColorDestination](scripting-constants.md#jsobjref-scripting-constants-colordestination)
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-colordownsampling"></a>
 
 ### PDFSaveOptions.colorDownsampling
 
@@ -174,8 +154,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-colordownsamplingimagethreshold"></a>
-
 ### PDFSaveOptions.colorDownsamplingImageThreshold
 
 `pDFSaveOptions.colorDownsamplingImageThreshold`
@@ -191,8 +169,6 @@ Default: 225.0
 Number (double)
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-colordownsamplingmethod"></a>
 
 ### PDFSaveOptions.colorDownsamplingMethod
 
@@ -210,8 +186,6 @@ Default: `DownsampleMethod.NODOWNSAMPLE`
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-colorprofileid"></a>
-
 ### PDFSaveOptions.colorProfileID
 
 `pDFSaveOptions.colorProfileID`
@@ -227,8 +201,6 @@ Default: `ColorProfile.None`
 [ColorProfile](scripting-constants.md#jsobjref-scripting-constants-colorprofile)
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-colortilesize"></a>
 
 ### PDFSaveOptions.colorTileSize
 
@@ -246,8 +218,6 @@ Number (long)
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-compatibility"></a>
-
 ### PDFSaveOptions.compatibility
 
 `pDFSaveOptions.compatibility`
@@ -263,8 +233,6 @@ Default: `PDFCompatibility.Acrobat5`
 [PDFCompatibility](scripting-constants.md#jsobjref-scripting-constants-pdfcompatibility)
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-compressart"></a>
 
 ### PDFSaveOptions.compressArt
 
@@ -282,8 +250,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-documentpassword"></a>
-
 ### PDFSaveOptions.documentPassword
 
 `pDFSaveOptions.documentPassword`
@@ -299,8 +265,6 @@ Default: no string
 String
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-enableaccess"></a>
 
 ### PDFSaveOptions.enableAccess
 
@@ -318,8 +282,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-enablecopy"></a>
-
 ### PDFSaveOptions.enableCopy
 
 `pDFSaveOptions.enableCopy`
@@ -335,8 +297,6 @@ Default: `true`
 Boolean
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-enablecopyaccess"></a>
 
 ### PDFSaveOptions.enableCopyAccess
 
@@ -354,8 +314,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-enableplaintext"></a>
-
 ### PDFSaveOptions.enablePlainText
 
 `pDFSaveOptions.enablePlainText`
@@ -372,8 +330,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-flatteneroptions"></a>
-
 ### PDFSaveOptions.flattenerOptions
 
 `pDFSaveOptions.flattenerOptions`
@@ -388,8 +344,6 @@ Optional. The printing flattener options.
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-flattenerpreset"></a>
-
 ### PDFSaveOptions.flattenerPreset
 
 `pDFSaveOptions.flattenerPreset`
@@ -403,8 +357,6 @@ Optional. The transparency flattener preset name.
 String.
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-fontsubsetthreshold"></a>
 
 ### PDFSaveOptions.fontSubsetThreshold
 
@@ -422,8 +374,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-generatethumbnails"></a>
-
 ### PDFSaveOptions.generateThumbnails
 
 `pDFSaveOptions.generateThumbnails`
@@ -439,8 +389,6 @@ Default: `true`
 Boolean
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-grayscalecompression"></a>
 
 ### PDFSaveOptions.grayscaleCompression
 
@@ -458,8 +406,6 @@ Default: `CompressionQuality.None`
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-grayscaledownsampling"></a>
-
 ### PDFSaveOptions.grayscaleDownsampling
 
 `pDFSaveOptions.grayscaleDownsampling`
@@ -475,8 +421,6 @@ Default: 150.0
 Number (double)
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-grayscaledownsamplingimagethreshold"></a>
 
 ### PDFSaveOptions.grayscaleDownsamplingImageThreshold
 
@@ -494,8 +438,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-grayscaledownsamplingmethod"></a>
-
 ### PDFSaveOptions.grayscaleDownsamplingMethod
 
 `pDFSaveOptions.grayscaleDownsamplingMethod`
@@ -511,8 +453,6 @@ Default: `DownSampleMethod.NODOWNSAMPLE`
 [DownsampleMethod](scripting-constants.md#jsobjref-scripting-constants-downsamplemethod)
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-grayscaletilesize"></a>
 
 ### PDFSaveOptions.grayscaleTileSize
 
@@ -530,8 +470,6 @@ Number (long)
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-monochromecompression"></a>
-
 ### PDFSaveOptions.monochromeCompression
 
 `pDFSaveOptions.monochromeCompression`
@@ -547,8 +485,6 @@ Default: `MonochromeCompression.None`
 [MonochromeCompression](scripting-constants.md#jsobjref-scripting-constants-monochromecompression)
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-monochromedownsampling"></a>
 
 ### PDFSaveOptions.monochromeDownsampling
 
@@ -566,8 +502,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-monochromedownsamplingimagethreshold"></a>
-
 ### PDFSaveOptions.monochromeDownsamplingImageThreshold
 
 `pDFSaveOptions.monochromeDownsamplingImageThreshold`
@@ -583,8 +517,6 @@ Default: 450.0
 Number (double)
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-monochromedownsamplingmethod"></a>
 
 ### PDFSaveOptions.monochromeDownsamplingMethod
 
@@ -602,8 +534,6 @@ Default: `DownSampleMethod.NODOWNSAMPLE`
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-offset"></a>
-
 ### PDFSaveOptions.offset
 
 `pDFSaveOptions.offset`
@@ -619,8 +549,6 @@ Default: 0.0
 Number (double)
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-optimization"></a>
 
 ### PDFSaveOptions.optimization
 
@@ -638,8 +566,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-outputcondition"></a>
-
 ### PDFSaveOptions.outputCondition
 
 `pDFSaveOptions.outputCondition`
@@ -655,8 +581,6 @@ Default: not included
 String
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-outputconditionid"></a>
 
 ### PDFSaveOptions.outputConditionID
 
@@ -674,8 +598,6 @@ String
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-pageinformation"></a>
-
 ### PDFSaveOptions.pageInformation
 
 `pDFSaveOptions.pageInformation`
@@ -691,8 +613,6 @@ Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-pagemarkstype"></a>
 
 ### PDFSaveOptions.pageMarksType
 
@@ -710,8 +630,6 @@ Default: PageMarksType.Roman
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-pdfallowprinting"></a>
-
 ### PDFSaveOptions.pDFAllowPrinting
 
 `pDFSaveOptions.pDFAllowPrinting`
@@ -727,8 +645,6 @@ Default: `PDFPrintAllowedEnum.PRINT128HIGHRESOLUTION`
 [PDFPrintAllowedEnum](scripting-constants.md#jsobjref-scripting-constants-pdfprintallowedenum)
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-pdfchangesallowed"></a>
 
 ### PDFSaveOptions.pDFChangesAllowed
 
@@ -746,8 +662,6 @@ Default: `PDFChangeAllowedEnum.CHANGE128ANYCHANGES`
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-pdfpreset"></a>
-
 ### PDFSaveOptions.pDFPreset
 
 `pDFSaveOptions.pDFPreset`
@@ -761,8 +675,6 @@ Optional. Name of PDF preset to use.
 String
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-pdfxstandard"></a>
 
 ### PDFSaveOptions.pDFXStandard
 
@@ -780,8 +692,6 @@ Default: `PDFXStandard.PDFXNONE`
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-pdfxstandarddescription"></a>
-
 ### PDFSaveOptions.pDFXStandardDescription
 
 `pDFSaveOptions.pDFXStandardDescription`
@@ -795,8 +705,6 @@ Optional. A description of the PDF standard from the selected preset.
 String
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-permissionpassword"></a>
 
 ### PDFSaveOptions.permissionPassword
 
@@ -814,8 +722,6 @@ String
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-preserveeditability"></a>
-
 ### PDFSaveOptions.preserveEditability
 
 `pDFSaveOptions.preserveEditability`
@@ -831,8 +737,6 @@ Default: `true`
 Boolean
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-printerresolution"></a>
 
 ### PDFSaveOptions.printerResolution
 
@@ -850,8 +754,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-registrationmarks"></a>
-
 ### PDFSaveOptions.registrationMarks
 
 `pDFSaveOptions.registrationMarks`
@@ -867,8 +769,6 @@ Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-requiredocumentpassword"></a>
 
 ### PDFSaveOptions.requireDocumentPassword
 
@@ -886,8 +786,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-requirepermissionpassword"></a>
-
 ### PDFSaveOptions.requirePermissionPassword
 
 `pDFSaveOptions.requirePermissionPassword`
@@ -903,8 +801,6 @@ Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-trapped"></a>
 
 ### PDFSaveOptions.trapped
 
@@ -922,8 +818,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-trimmarks"></a>
-
 ### PDFSaveOptions.trimMarks
 
 `pDFSaveOptions.trimMarks`
@@ -939,8 +833,6 @@ Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-trimmarkweight"></a>
 
 ### PDFSaveOptions.trimMarkWeight
 
@@ -958,8 +850,6 @@ Default: `PDFTrimMarkWeight.TRIMMARKWEIGHT0125`
 
 ---
 
-<a id="jsobjref-pdfsaveoptions-typename"></a>
-
 ### PDFSaveOptions.typename
 
 `pDFSaveOptions.typename`
@@ -973,8 +863,6 @@ Optional. Read-only. The class name of the referenced object.
 String
 
 ---
-
-<a id="jsobjref-pdfsaveoptions-viewaftersaving"></a>
 
 ### PDFSaveOptions.viewAfterSaving
 

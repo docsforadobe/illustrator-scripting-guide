@@ -1,5 +1,3 @@
-<a id="objectmodel-toplevelobjects"></a>
-
 # Top-Level (containing) Objects
 
 Use these objects to access global information about the Illustrator application or an individual document.

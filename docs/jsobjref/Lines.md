@@ -1,5 +1,3 @@
-<a id="jsobjref-lines"></a>
-
 # Lines
 
 `lines`
@@ -11,8 +9,6 @@ A collection of `TextRange` objects representing lines of text in a text frame. 
 ---
 
 ## Properties
-
-<a id="jsobjref-lines-length"></a>
 
 ### Lines.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-lines-parent"></a>
-
 ### Lines.parent
 
 `lines.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-lines-typename"></a>
 
 ### Lines.typename
 
@@ -61,8 +53,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-lines-index"></a>
 
 ### Lines.index()
 
@@ -83,8 +73,6 @@ Gets an element from the collection.
 [TextRange](TextRange.md#jsobjref-textrange)
 
 ---
-
-<a id="jsobjref-lines-removeall"></a>
 
 ### Lines.removeAll()
 

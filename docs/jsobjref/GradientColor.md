@@ -1,5 +1,3 @@
-<a id="jsobjref-gradientcolor"></a>
-
 # GradientColor
 
 `gradientColor`
@@ -11,8 +9,6 @@ A gradient color specification in a Gradient object. A script can create a new g
 ---
 
 ## Properties
-
-<a id="jsobjref-gradientcolor-angle"></a>
 
 ### GradientColor.angle
 
@@ -28,8 +24,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-gradientcolor-gradient"></a>
-
 ### GradientColor.gradient
 
 `gradientColor.gradient`
@@ -43,8 +37,6 @@ Reference to the object defining the gradient.
 [Gradient](Gradient.md#jsobjref-gradient)
 
 ---
-
-<a id="jsobjref-gradientcolor-hiliteangle"></a>
 
 ### GradientColor.hiliteAngle
 
@@ -60,8 +52,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-gradientcolor-hilitelength"></a>
-
 ### GradientColor.hiliteLength
 
 `gradientColor.hiliteLength`
@@ -75,8 +65,6 @@ The gradient highlight vector length.
 Number (double).
 
 ---
-
-<a id="jsobjref-gradientcolor-length"></a>
 
 ### GradientColor.length
 
@@ -92,8 +80,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-gradientcolor-matrix"></a>
-
 ### GradientColor.matrix
 
 `gradientColor.matrix`
@@ -108,8 +94,6 @@ Matrix.
 
 ---
 
-<a id="jsobjref-gradientcolor-origin"></a>
-
 ### GradientColor.origin
 
 `gradientColor.origin`
@@ -123,8 +107,6 @@ The gradient vector origin, the center point of the gradient in this color.
 Array of 2 numbers.
 
 ---
-
-<a id="jsobjref-gradientcolor-typename"></a>
 
 ### GradientColor.typename
 
@@ -141,8 +123,6 @@ String, read-only.
 ---
 
 ## Example
-
-<a id="jsobjref-gradientcolor-changinggradientstopcolor"></a>
 
 ### Changing a gradient stop color
 

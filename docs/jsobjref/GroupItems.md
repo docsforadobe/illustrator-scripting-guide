@@ -1,5 +1,3 @@
-<a id="jsobjref-groupitems"></a>
-
 # GroupItems
 
 `app.activeDocument.groupItems`
@@ -11,8 +9,6 @@ The collection of grouped art items in a document.
 ---
 
 ## Properties
-
-<a id="jsobjref-groupitems-length"></a>
 
 ### GroupItems.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-groupitems-parent"></a>
-
 ### GroupItems.parent
 
 `app.activeDocument.groupItems.parent`
@@ -43,8 +37,6 @@ The parent of this object.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-groupitems-typename"></a>
 
 ### GroupItems.typename
 
@@ -62,8 +54,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-groupitems-add"></a>
-
 ### GroupItems.add()
 
 `app.activeDocument.groupItems.add()`
@@ -77,8 +67,6 @@ Creates a new object.
 [GroupItem](GroupItem.md#jsobjref-groupitem)
 
 ---
-
-<a id="jsobjref-groupitems-createfromfile"></a>
 
 ### GroupItems.createFromFile()
 
@@ -100,8 +88,6 @@ Places an external vector art file as a group item in the document.
 
 ---
 
-<a id="jsobjref-groupitems-getbyname"></a>
-
 ### GroupItems.getByName()
 
 `app.activeDocument.groupItems.getByName(name)`
@@ -122,8 +108,6 @@ Gets the first element in the collection with the specified name.
 
 ---
 
-<a id="jsobjref-groupitems-index"></a>
-
 ### GroupItems.index()
 
 `app.activeDocument.groupItems.index(itemKey)`
@@ -143,8 +127,6 @@ Gets an element from the collection.
 [GroupItem](GroupItem.md#jsobjref-groupitem)
 
 ---
-
-<a id="jsobjref-groupitems-removeall"></a>
 
 ### GroupItems.removeAll()
 

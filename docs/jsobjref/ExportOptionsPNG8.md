@@ -1,5 +1,3 @@
-<a id="jsobjref-exportoptionspng8"></a>
-
 # ExportOptionsPNG8
 
 `exportOptionsPNG8`
@@ -13,8 +11,6 @@ When you export a document, the appropriate file extension is appended automatic
 ---
 
 ## Properties
-
-<a id="jsobjref-exportoptionspng8-antialiasing"></a>
 
 ### ExportOptionsPNG8.antiAliasing
 
@@ -30,8 +26,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionspng8-artboardclipping"></a>
-
 ### ExportOptionsPNG8.artBoardClipping
 
 `exportOptionsPNG8.artBoardClipping`
@@ -45,8 +39,6 @@ If `true`, the exported image should be clipped to the art board. Default: `fals
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionspng8-colorcount"></a>
 
 ### ExportOptionsPNG8.colorCount
 
@@ -62,8 +54,6 @@ Number (long).
 
 ---
 
-<a id="jsobjref-exportoptionspng8-colordither"></a>
-
 ### ExportOptionsPNG8.colorDither
 
 `exportOptionsPNG8.colorDither`
@@ -77,8 +67,6 @@ The method used to dither colors in the exported image. Default: `ColorDitherMet
 [ColorDitherMethod](scripting-constants.md#jsobjref-scripting-constants-colordithermethod)
 
 ---
-
-<a id="jsobjref-exportoptionspng8-colorreduction"></a>
 
 ### ExportOptionsPNG8.colorReduction
 
@@ -94,8 +82,6 @@ The method used to reduce the number of colors in the exported image. Default: `
 
 ---
 
-<a id="jsobjref-exportoptionspng8-ditherpercent"></a>
-
 ### ExportOptionsPNG8.ditherPercent
 
 `exportOptionsPNG8.ditherPercent`
@@ -109,8 +95,6 @@ The amount (as a percentage) that the colors of the exported image are dithered,
 Number (long).
 
 ---
-
-<a id="jsobjref-exportoptionspng8-horizontalscale"></a>
 
 ### ExportOptionsPNG8.horizontalScale
 
@@ -126,8 +110,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-exportoptionspng8-interlaced"></a>
-
 ### ExportOptionsPNG8.interlaced
 
 `exportOptionsPNG8.interlaced`
@@ -141,8 +123,6 @@ If `true`, the exported image should be interlaced. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionspng8-matte"></a>
 
 ### ExportOptionsPNG8.matte
 
@@ -158,8 +138,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionspng8-mattecolor"></a>
-
 ### ExportOptionsPNG8.matteColor
 
 `exportOptionsPNG8.matteColor`
@@ -173,8 +151,6 @@ The color to use when matting the art board. Default: `white`.
 [RGBColor](RGBColor.md#jsobjref-rgbcolor)
 
 ---
-
-<a id="jsobjref-exportoptionspng8-saveashtml"></a>
 
 ### ExportOptionsPNG8.saveAsHTML
 
@@ -190,8 +166,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionspng8-transparency"></a>
-
 ### ExportOptionsPNG8.transparency
 
 `exportOptionsPNG8.transparency`
@@ -205,8 +179,6 @@ If `true`, the exported image use transparency. Default: `true`.
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionspng8-typename"></a>
 
 ### ExportOptionsPNG8.typename
 
@@ -222,8 +194,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-exportoptionspng8-verticalscale"></a>
-
 ### ExportOptionsPNG8.verticalScale
 
 `exportOptionsPNG8.verticalScale`
@@ -237,8 +207,6 @@ The vertical scaling factor to apply to the exported image, where 100.0 is 100. 
 Number (double).
 
 ---
-
-<a id="jsobjref-exportoptionspng8-websnap"></a>
 
 ### ExportOptionsPNG8.webSnap
 

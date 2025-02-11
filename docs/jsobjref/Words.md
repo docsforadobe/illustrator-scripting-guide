@@ -1,5 +1,3 @@
-<a id="jsobjref-words"></a>
-
 # Words
 
 `app.activeDocument.textFrames[index].words`
@@ -13,8 +11,6 @@ The elements are not named; you must access them by index.
 ---
 
 ## Properties
-
-<a id="jsobjref-words-length"></a>
 
 ### Words.length
 
@@ -30,8 +26,6 @@ Number; read-only.
 
 ---
 
-<a id="jsobjref-words-parent"></a>
-
 ### Words.parent
 
 `app.activeDocument.textFrames[index].words.parent`
@@ -45,8 +39,6 @@ The parent of this object.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-words-typename"></a>
 
 ### Words.typename
 
@@ -63,8 +55,6 @@ String; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-words-add"></a>
 
 ### Words.add()
 
@@ -90,8 +80,6 @@ If no location is specified, adds it to the containing text frame after the curr
 
 ---
 
-<a id="jsobjref-words-addbefore"></a>
-
 ### Words.addBefore()
 
 `app.activeDocument.textFrames[index].words.addBefore(contents)`
@@ -112,8 +100,6 @@ Adds a word before the current word selection or insertion point.
 
 ---
 
-<a id="jsobjref-words-index"></a>
-
 ### Words.index()
 
 `app.activeDocument.textFrames[index].words.index(itemKey)`
@@ -133,8 +119,6 @@ Gets an element from the collection.
 [TextRange](TextRange.md#jsobjref-textrange)
 
 ---
-
-<a id="jsobjref-words-removeall"></a>
 
 ### Words.removeAll()
 

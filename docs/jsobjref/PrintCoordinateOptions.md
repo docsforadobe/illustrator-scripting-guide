@@ -1,5 +1,3 @@
-<a id="jsobjref-printcoordinateoptions"></a>
-
 # PrintCoordinateOptions
 
 `new PrintCoordinateOptions()`
@@ -11,8 +9,6 @@ Information about the media and associated printing parameters.
 ---
 
 ## Properties
-
-<a id="jsobjref-printcoordinateoptions-emulsion"></a>
 
 ### PrintCoordinateOptions.emulsion
 
@@ -30,8 +26,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printcoordinateoptions-fittopage"></a>
-
 ### PrintCoordinateOptions.fitToPage
 
 `printCoordinateOptions.fitToPage`
@@ -47,8 +41,6 @@ Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-printcoordinateoptions-horizontalscale"></a>
 
 ### PrintCoordinateOptions.horizontalScale
 
@@ -68,8 +60,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-printcoordinateoptions-orientation"></a>
-
 ### PrintCoordinateOptions.orientation
 
 `printCoordinateOptions.orientation`
@@ -85,8 +75,6 @@ Default: `PrintOrientation.PORTRAIT`
 [PrintOrientation](scripting-constants.md#jsobjref-scripting-constants-printorientation)
 
 ---
-
-<a id="jsobjref-printcoordinateoptions-position"></a>
 
 ### PrintCoordinateOptions.position
 
@@ -104,8 +92,6 @@ Default: `PrintPosition.TRANSLATECENTER`
 
 ---
 
-<a id="jsobjref-printcoordinateoptions-tiling"></a>
-
 ### PrintCoordinateOptions.tiling
 
 `printCoordinateOptions.tiling`
@@ -122,8 +108,6 @@ Default: `PrintTiling.TILESINGLEFULLPAGE`
 
 ---
 
-<a id="jsobjref-printcoordinateoptions-typename"></a>
-
 ### PrintCoordinateOptions.typename
 
 `printCoordinateOptions.typename`
@@ -137,8 +121,6 @@ The class name of the object.
 String; read-only.
 
 ---
-
-<a id="jsobjref-printcoordinateoptions-verticalscale"></a>
 
 ### PrintCoordinateOptions.verticalScale
 

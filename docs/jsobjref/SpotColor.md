@@ -1,5 +1,3 @@
-<a id="jsobjref-spotcolor"></a>
-
 # SpotColor
 
 `new SpotColor()`
@@ -11,8 +9,6 @@ Color class used to apply the color value of a spot at a specified tint value. C
 ---
 
 ## Properties
-
-<a id="jsobjref-spotcolor-spot"></a>
 
 ### SpotColor.spot
 
@@ -28,8 +24,6 @@ A reference to the spot color object that defines the color.
 
 ---
 
-<a id="jsobjref-spotcolor-tint"></a>
-
 ### SpotColor.tint
 
 `spotColor.tint`
@@ -43,8 +37,6 @@ The tint of the color. Range: 0.0 to 100.0
 Number (double)
 
 ---
-
-<a id="jsobjref-spotcolor-typename"></a>
 
 ### SpotColor.typename
 

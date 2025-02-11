@@ -1,5 +1,3 @@
-<a id="jsobjref-printpagemarksoptions"></a>
-
 # PrintPageMarksOptions
 
 `new PrintPageMarksOptions()`
@@ -11,8 +9,6 @@ The options for printing page marks.
 ---
 
 ## Properties
-
-<a id="jsobjref-printpagemarksoptions-bleedoffsetrect"></a>
 
 ### PrintPageMarksOptions.bleedOffsetRect
 
@@ -27,8 +23,6 @@ The bleed offset rectangle.
 Array of 4 numbers
 
 ---
-
-<a id="jsobjref-printpagemarksoptions-colorbars"></a>
 
 ### PrintPageMarksOptions.colorBars
 
@@ -46,8 +40,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printpagemarksoptions-marksoffsetrect"></a>
-
 ### PrintPageMarksOptions.marksOffsetRect
 
 `printPageMarksOptions.marksOffsetRect`
@@ -61,8 +53,6 @@ The page marks offset rectangle.
 Array of 4 numbers
 
 ---
-
-<a id="jsobjref-printpagemarksoptions-pageinfomarks"></a>
 
 ### PrintPageMarksOptions.pageInfoMarks
 
@@ -80,8 +70,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printpagemarksoptions-pagemarkstype"></a>
-
 ### PrintPageMarksOptions.pageMarksType
 
 `printPageMarksOptions.pageMarksType`
@@ -97,8 +85,6 @@ Default: `PageMarksType.Roman`
 [PageMarksTypes](scripting-constants.md#jsobjref-scripting-constants-pagemarkstypes)
 
 ---
-
-<a id="jsobjref-printpagemarksoptions-registrationmarks"></a>
 
 ### PrintPageMarksOptions.registrationMarks
 
@@ -116,8 +102,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printpagemarksoptions-trimmarks"></a>
-
 ### PrintPageMarksOptions.trimMarks
 
 `printPageMarksOptions.trimMarks`
@@ -134,8 +118,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printpagemarksoptions-trimmarksweight"></a>
-
 ### PrintPageMarksOptions.trimMarksWeight
 
 `printPageMarksOptions.trimMarksWeight`
@@ -151,8 +133,6 @@ Default: 0.125
 Number (double)
 
 ---
-
-<a id="jsobjref-printpagemarksoptions-typename"></a>
 
 ### PrintPageMarksOptions.typename
 

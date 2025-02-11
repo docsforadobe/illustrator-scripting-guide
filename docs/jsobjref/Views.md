@@ -1,5 +1,3 @@
-<a id="jsobjref-views"></a>
-
 # Views
 
 `app.activeDocument.views`
@@ -11,8 +9,6 @@ A collection of [View](View.md#jsobjref-view) objects in a document.
 ---
 
 ## Properties
-
-<a id="jsobjref-views-length"></a>
 
 ### Views.length
 
@@ -28,8 +24,6 @@ Number; read-only.
 
 ---
 
-<a id="jsobjref-views-parent"></a>
-
 ### Views.parent
 
 `app.activeDocument.views.parent`
@@ -43,8 +37,6 @@ The parent of this object.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-views-typename"></a>
 
 ### Views.typename
 
@@ -61,8 +53,6 @@ String; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-views-index"></a>
 
 ### Views.index()
 

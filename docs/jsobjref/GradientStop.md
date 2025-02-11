@@ -1,5 +1,3 @@
-<a id="jsobjref-gradientstop"></a>
-
 # GradientStop
 
 `app.activeDocument.gradients[index].gradientStops[index`
@@ -11,8 +9,6 @@ A gradient stop definition that represents a point on a specific gradient define
 ---
 
 ## Properties
-
-<a id="jsobjref-gradientstop-color"></a>
 
 ### GradientStop.color
 
@@ -28,8 +24,6 @@ The color linked to this gradient stop.
 
 ---
 
-<a id="jsobjref-gradientstop-midpoint"></a>
-
 ### GradientStop.midPoint
 
 `app.activeDocument.gradients[index].gradientStops[index].midPoint`
@@ -43,8 +37,6 @@ The midpoint key value, specified as a percentage from 13.0 to 87.0.
 Number (double).
 
 ---
-
-<a id="jsobjref-gradientstop-opacity"></a>
 
 ### GradientStop.opacity
 
@@ -60,8 +52,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-gradientstop-parent"></a>
-
 ### GradientStop.parent
 
 `app.activeDocument.gradients[index].gradientStops[index].parent`
@@ -76,8 +66,6 @@ The gradient that contains this gradient stop.
 
 ---
 
-<a id="jsobjref-gradientstop-ramppoint"></a>
-
 ### GradientStop.rampPoint
 
 `app.activeDocument.gradients[index].gradientStops[index].rampPoint`
@@ -91,8 +79,6 @@ The location of the color in the blend in a range from 0.0 to 100.0, where 100.0
 Number (double).
 
 ---
-
-<a id="jsobjref-gradientstop-typename"></a>
 
 ### GradientStop.typename
 
@@ -109,8 +95,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-gradientstop-remove"></a>
 
 ### GradientStop.remove()
 

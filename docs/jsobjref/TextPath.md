@@ -1,5 +1,3 @@
-<a id="jsobjref-textpath"></a>
-
 # TextPath
 
 `textPath`
@@ -11,8 +9,6 @@ A path or list of paths for area or path text. A path consists of path points th
 ---
 
 ## Properties
-
-<a id="jsobjref-textpath-area"></a>
 
 ### TextPath.area
 
@@ -30,8 +26,6 @@ Number (double), read-only.
 
 ---
 
-<a id="jsobjref-textpath-blendingmode"></a>
-
 ### TextPath.blendingMode
 
 `textPath.blendingMode`
@@ -45,8 +39,6 @@ The blend mode used when compositing an object.
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
 ---
-
-<a id="jsobjref-textpath-clipping"></a>
 
 ### TextPath.clipping
 
@@ -62,8 +54,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-textpath-closed"></a>
-
 ### TextPath.closed
 
 `textPath.closed`
@@ -77,8 +67,6 @@ If true, this path is closed.
 Boolean
 
 ---
-
-<a id="jsobjref-textpath-editable"></a>
 
 ### TextPath.editable
 
@@ -94,8 +82,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-textpath-evenodd"></a>
-
 ### TextPath.evenodd
 
 `textPath.evenodd`
@@ -109,8 +95,6 @@ If true, the even-odd rule should be used to determine insideness.
 Boolean
 
 ---
-
-<a id="jsobjref-textpath-fillcolor"></a>
 
 ### TextPath.fillColor
 
@@ -126,8 +110,6 @@ The fill color of the path.
 
 ---
 
-<a id="jsobjref-textpath-filled"></a>
-
 ### TextPath.filled
 
 `textPath.filled`
@@ -141,8 +123,6 @@ If true, the path be filled.
 Boolean
 
 ---
-
-<a id="jsobjref-textpath-filloverprint"></a>
 
 ### TextPath.fillOverprint
 
@@ -158,8 +138,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-textpath-guides"></a>
-
 ### TextPath.guides
 
 `textPath.guides`
@@ -173,8 +151,6 @@ If true, this path is a guide object.
 Boolean
 
 ---
-
-<a id="jsobjref-textpath-height"></a>
 
 ### TextPath.height
 
@@ -190,8 +166,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-textpath-left"></a>
-
 ### TextPath.left
 
 `textPath.left`
@@ -205,8 +179,6 @@ The position of the left side of the item (in points, measured from the left sid
 Number (double)
 
 ---
-
-<a id="jsobjref-textpath-note"></a>
 
 ### TextPath.note
 
@@ -222,8 +194,6 @@ String
 
 ---
 
-<a id="jsobjref-textpath-opacity"></a>
-
 ### TextPath.opacity
 
 `textPath.opacity`
@@ -237,8 +207,6 @@ The opacity of the object. Range: 0.0 to 100.0
 Number (double)
 
 ---
-
-<a id="jsobjref-textpath-parent"></a>
 
 ### TextPath.parent
 
@@ -254,8 +222,6 @@ Read-only. The parent of this object.
 
 ---
 
-<a id="jsobjref-textpath-pathpoints"></a>
-
 ### TextPath.pathPoints
 
 `textPath.pathPoints`
@@ -269,8 +235,6 @@ Read-only. The path points contained in this path item.
 [PathPoints](PathPoints.md#jsobjref-pathpoints)
 
 ---
-
-<a id="jsobjref-textpath-polarity"></a>
 
 ### TextPath.polarity
 
@@ -286,8 +250,6 @@ The polarity of the path.
 
 ---
 
-<a id="jsobjref-textpath-position"></a>
-
 ### TextPath.position
 
 `textPath.position`
@@ -301,8 +263,6 @@ The position (in points) of the top left corner of the textPathItem object in th
 Array of 2 numbers
 
 ---
-
-<a id="jsobjref-textpath-resolution"></a>
 
 ### TextPath.resolution
 
@@ -318,8 +278,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-textpath-selectedpathpoints"></a>
-
 ### TextPath.selectedPathPoints
 
 `textPath.selectedPathPoints`
@@ -333,8 +291,6 @@ Read-only. All of the selected path points in the path.
 [PathPoints](PathPoints.md#jsobjref-pathpoints)
 
 ---
-
-<a id="jsobjref-textpath-strokecap"></a>
 
 ### TextPath.strokeCap
 
@@ -350,8 +306,6 @@ The type of line capping.
 
 ---
 
-<a id="jsobjref-textpath-strokecolor"></a>
-
 ### TextPath.strokeColor
 
 `textPath.strokeColor`
@@ -365,8 +319,6 @@ The stroke color for the path.
 [Color](Color.md#jsobjref-color)
 
 ---
-
-<a id="jsobjref-textpath-stroked"></a>
 
 ### TextPath.stroked
 
@@ -382,8 +334,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-textpath-strokedashes"></a>
-
 ### TextPath.strokeDashes
 
 `textPath.strokeDashes`
@@ -397,8 +347,6 @@ Dash lengths. Set to an empty object, {}, for a solid line.
 Object
 
 ---
-
-<a id="jsobjref-textpath-strokedashoffset"></a>
 
 ### TextPath.strokeDashOffset
 
@@ -414,8 +362,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-textpath-strokejoin"></a>
-
 ### TextPath.strokeJoin
 
 `textPath.strokeJoin`
@@ -429,8 +375,6 @@ Type of joints for the path.
 [StrokeJoin](scripting-constants.md#jsobjref-scripting-constants-strokejoin)
 
 ---
-
-<a id="jsobjref-textpath-strokemiterlimit"></a>
 
 ### TextPath.strokeMiterLimit
 
@@ -446,8 +390,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-textpath-strokeoverprint"></a>
-
 ### TextPath.strokeOverprint
 
 `textPath.strokeOverprint`
@@ -461,8 +403,6 @@ If true, the art beneath a stroked object should be overprinted.
 Boolean
 
 ---
-
-<a id="jsobjref-textpath-strokewidth"></a>
 
 ### TextPath.strokeWidth
 
@@ -478,8 +418,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-textpath-top"></a>
-
 ### TextPath.top
 
 `textPath.top`
@@ -494,8 +432,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-textpath-typename"></a>
-
 ### TextPath.typename
 
 `textPath.typename`
@@ -509,8 +445,6 @@ Read-only. The class name of the referenced object.
 String
 
 ---
-
-<a id="jsobjref-textpath-width"></a>
 
 ### TextPath.width
 
@@ -527,8 +461,6 @@ Number (double)
 ---
 
 ## Methods
-
-<a id="jsobjref-textpath-setentirepath"></a>
 
 ### TextPath.setEntirePath()
 

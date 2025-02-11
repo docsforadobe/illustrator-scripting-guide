@@ -1,5 +1,3 @@
-<a id="jsobjref-photoshopfileoptions"></a>
-
 # PhotoshopFileOptions
 
 `preferences.photoshopFileOptions`
@@ -11,8 +9,6 @@ Options for opening a Photoshop file, used with the [Application.open()](Applica
 ---
 
 ## Properties
-
-<a id="jsobjref-photoshopfileoptions-parent"></a>
 
 ### PhotoshopFileOptions.parent
 
@@ -28,8 +24,6 @@ Object; read-only.
 
 ---
 
-<a id="jsobjref-photoshopfileoptions-pixelaspectratiocorrection"></a>
-
 ### PhotoshopFileOptions.pixelAspectRatioCorrection
 
 `preferences.photoshopFileOptions.pixelAspectRatioCorrection`
@@ -43,8 +37,6 @@ If `true`, imported images that have a non-square pixel aspect ratio should be a
 Boolean
 
 ---
-
-<a id="jsobjref-photoshopfileoptions-preserveimagemaps"></a>
 
 ### PhotoshopFileOptions.preserveImageMaps
 
@@ -62,8 +54,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-photoshopfileoptions-preservelayers"></a>
-
 ### PhotoshopFileOptions.preserveLayers
 
 `preferences.photoshopFileOptions.preserveLayers`
@@ -80,8 +70,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-photoshopfileoptions-preserveslices"></a>
-
 ### PhotoshopFileOptions.preserveSlices
 
 `preferences.photoshopFileOptions.preserveSlices`
@@ -97,8 +85,6 @@ Default: `true`
 Boolean
 
 ---
-
-<a id="jsobjref-photoshopfileoptions-typename"></a>
 
 ### PhotoshopFileOptions.typename
 

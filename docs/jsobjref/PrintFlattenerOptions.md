@@ -1,5 +1,3 @@
-<a id="jsobjref-printflatteneroptions"></a>
-
 # PrintFlattenerOptions
 
 `new PrintFlattenerOptions()`
@@ -11,8 +9,6 @@ Contains flattening options for use when Illustrator outputs artwork that contai
 ---
 
 ## Properties
-
-<a id="jsobjref-printflatteneroptions-clipcomplexregions"></a>
 
 ### PrintFlattenerOptions.clipComplexRegions
 
@@ -30,8 +26,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printflatteneroptions-convertstrokestooutlines"></a>
-
 ### PrintFlattenerOptions.convertStrokesToOutlines
 
 `printFlattenerOptions.convertStrokesToOutlines`
@@ -48,8 +42,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printflatteneroptions-converttexttooutlines"></a>
-
 ### PrintFlattenerOptions.convertTextToOutlines
 
 `printFlattenerOptions.convertTextToOutlines`
@@ -65,8 +57,6 @@ Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-printflatteneroptions-flatteningbalance"></a>
 
 ### PrintFlattenerOptions.flatteningBalance
 
@@ -86,8 +76,6 @@ Number (long)
 
 ---
 
-<a id="jsobjref-printflatteneroptions-gradientresolution"></a>
-
 ### PrintFlattenerOptions.gradientResolution
 
 `printFlattenerOptions.gradientResolution`
@@ -106,8 +94,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-printflatteneroptions-overprint"></a>
-
 ### PrintFlattenerOptions.overprint
 
 `printFlattenerOptions.overprint`
@@ -124,8 +110,6 @@ Default: `PDFOverprint.PRESERVEPDFOVERPRINT`
 
 ---
 
-<a id="jsobjref-printflatteneroptions-rasterizationresolution"></a>
-
 ### PrintFlattenerOptions.rasterizationResolution
 
 `printFlattenerOptions.rasterizationResolution`
@@ -141,8 +125,6 @@ Default: 300.0
 Number (double)
 
 ---
-
-<a id="jsobjref-printflatteneroptions-typename"></a>
 
 ### PrintFlattenerOptions.typename
 

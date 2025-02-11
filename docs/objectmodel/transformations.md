@@ -1,5 +1,3 @@
-<a id="objectmodel-transformations"></a>
-
 # Transformations
 
 The `matrix` object provides access to the power of geometric-transformation matrices.

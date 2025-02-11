@@ -1,5 +1,3 @@
-<a id="scriptingapplescript-creatingpathsshapes"></a>
-
 # Creating paths and shapes
 
 This section explains how to create items that contain paths.

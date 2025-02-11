@@ -1,5 +1,3 @@
-<a id="objectmodel-symbols"></a>
-
 # Symbols
 
 In Illustrator, symbols are art items that are stored in the Symbols panel.

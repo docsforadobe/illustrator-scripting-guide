@@ -1,5 +1,3 @@
-<a id="jsobjref-screeninfo"></a>
-
 # ScreenInfo
 
 `PPDFileList[index].PPDInfo.screenList[index].screenInfo`
@@ -11,8 +9,6 @@ Contains information about the angle and frequency of the color separation scree
 ---
 
 ## Properties
-
-<a id="jsobjref-screeninfo-angle"></a>
 
 ### ScreenInfo.angle
 
@@ -28,8 +24,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-screeninfo-defaultscreen"></a>
-
 ### ScreenInfo.defaultScreen
 
 `PPDFileList[index].PPDInfo.screenList[index].screenInfo.defaultScreen`
@@ -44,8 +38,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-screeninfo-frequency"></a>
-
 ### ScreenInfo.frequency
 
 `PPDFileList[index].PPDInfo.screenList[index].screenInfo.frequency`
@@ -59,8 +51,6 @@ The screen’s frequency.
 Number (double).
 
 ---
-
-<a id="jsobjref-screeninfo-typename"></a>
 
 ### ScreenInfo.typename
 

@@ -1,5 +1,3 @@
-<a id="jsobjref-characterstyle"></a>
-
 # CharacterStyle
 
 `characterStyle`
@@ -11,8 +9,6 @@ Associates character attributes with characters. For an example, see [CharacterS
 ---
 
 ## Properties
-
-<a id="jsobjref-characterstyle-characterattributes"></a>
 
 ### CharacterStyle.characterAttributes
 
@@ -28,8 +24,6 @@ The character properties for the style.
 
 ---
 
-<a id="jsobjref-characterstyle-name"></a>
-
 ### CharacterStyle.name
 
 `characterStyle.name`
@@ -44,8 +38,6 @@ String
 
 ---
 
-<a id="jsobjref-characterstyle-parent"></a>
-
 ### CharacterStyle.parent
 
 `characterStyle.parent`
@@ -59,8 +51,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-characterstyle-typename"></a>
 
 ### CharacterStyle.typename
 
@@ -77,8 +67,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-characterstyle-applyto"></a>
 
 ### CharacterStyle.applyTo()
 
@@ -100,8 +88,6 @@ Applies the character style to the text object or objects.
 Nothing
 
 ---
-
-<a id="jsobjref-characterstyle-remove"></a>
 
 ### CharacterStyle.remove()
 

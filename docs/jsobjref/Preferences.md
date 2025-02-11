@@ -1,5 +1,3 @@
-<a id="jsobjref-preferences"></a>
-
 # Preferences
 
 `app.Preferences`
@@ -11,8 +9,6 @@ Specifies the preferred options for AutoCAD, FreeHand, PDF, and Photoshop files.
 ---
 
 ## Properties
-
-<a id="jsobjref-preferences-autocadfileoptions"></a>
 
 ### Preferences.AutoCADFileOptions
 
@@ -28,8 +24,6 @@ Options to use when opening or placing an AutoCAD file.
 
 ---
 
-<a id="jsobjref-preferences-freehandfileoptions"></a>
-
 ### Preferences.FreeHandFileOptions
 
 `app.preferences.FreeHandFileOptions`
@@ -43,8 +37,6 @@ Options to use when opening or placing a FreeHand file.
 [OpenOptionsFreeHand](OpenOptionsFreeHand.md#jsobjref-openoptionsfreehand); read-only.
 
 ---
-
-<a id="jsobjref-preferences-parent"></a>
 
 ### Preferences.parent
 
@@ -60,8 +52,6 @@ object; read-only.
 
 ---
 
-<a id="jsobjref-preferences-pdffileoptions"></a>
-
 ### Preferences.PDFFileOptions
 
 `app.preferences.PDFFileOptions`
@@ -76,8 +66,6 @@ Options to use when opening or placing a PDF file.
 
 ---
 
-<a id="jsobjref-preferences-photoshopfileoptions"></a>
-
 ### Preferences.PhotoshopFileOptions
 
 `app.preferences.PhotoshopFileOptions`
@@ -91,8 +79,6 @@ Options to use when opening or placing a Photoshop file.
 [PhotoshopFileOptions](PhotoshopFileOptions.md#jsobjref-photoshopfileoptions); read-only.
 
 ---
-
-<a id="jsobjref-preferences-typename"></a>
 
 ### Preferences.typename
 
@@ -109,8 +95,6 @@ string; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-preferences-getbooleanpreference"></a>
 
 ### Preferences.getBooleanPreference
 
@@ -132,8 +116,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-preferences-getintegerpreference"></a>
-
 ### Preferences.getIntegerPreference
 
 `app.preferences.getIntegerPreference(key)`
@@ -153,8 +135,6 @@ Gets the integer value of a given application preference.
 Integer
 
 ---
-
-<a id="jsobjref-preferences-getrealpreference"></a>
 
 ### Preferences.getRealPreference
 
@@ -176,8 +156,6 @@ Real
 
 ---
 
-<a id="jsobjref-preferences-getstringpreference"></a>
-
 ### Preferences.getStringPreference
 
 `app.preferences.getStringPreference(key)`
@@ -198,8 +176,6 @@ String
 
 ---
 
-<a id="jsobjref-preferences-removepreference"></a>
-
 ### Preferences.removePreference
 
 `app.preferences.removePreference(key)`
@@ -219,8 +195,6 @@ Deletes a given application preference.
 Nothing.
 
 ---
-
-<a id="jsobjref-preferences-setbooleanpreference"></a>
 
 ### Preferences.setBooleanPreference
 
@@ -243,8 +217,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-preferences-setintegerpreference"></a>
-
 ### Preferences.setIntegerPreference
 
 `app.preferences.setIntegerPreference(key, value)`
@@ -266,8 +238,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-preferences-setrealpreference"></a>
-
 ### Preferences.setRealPreference
 
 `app.preferences.setRealPreference(key, value)`
@@ -288,8 +258,6 @@ Sets the real-number value of a given application preference.
 Nothing.
 
 ---
-
-<a id="jsobjref-preferences-setstringpreference"></a>
 
 ### Preferences.setStringPreference
 

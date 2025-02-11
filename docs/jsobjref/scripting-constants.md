@@ -1,12 +1,8 @@
-<a id="jsobjref-scripting-constants"></a>
-
 # Scripting Constants
 
 This chapter lists and describes the enumerations defined for use with Illustrator JavaScript properties and methods.
 
 ---
-
-<a id="jsobjref-scripting-constants-alternateglyphsform"></a>
 
 ## AlternateGlyphsForm
 
@@ -36,8 +32,6 @@ textRef.textRange.characters[i].characterAttributes.alternateGlyphs == Alternate
 
 ---
 
-<a id="jsobjref-scripting-constants-antialiasingmethod"></a>
-
 ## AntiAliasingMethod
 
 The type of antialiasing method used in the rasterization.
@@ -49,8 +43,6 @@ The type of antialiasing method used in the rasterization.
 | `AntiAliasingMethod.TYPEOPTIMIZED` | Optimize for the type object. |
 
 ---
-
-<a id="jsobjref-scripting-constants-artclippingoption"></a>
 
 ## ArtClippingOption
 
@@ -64,8 +56,6 @@ How the art should be clipped during output.
 
 ---
 
-<a id="jsobjref-scripting-constants-autocadcolors"></a>
-
 ## AutoCADColors
 
 | Value                        | Description    |
@@ -76,8 +66,6 @@ How the art should be clipped during output.
 | `AutoCADColors.TrueColors`   | True Colors    |
 
 ---
-
-<a id="jsobjref-scripting-constants-autocadcompatibility"></a>
 
 ## AutoCADCompatibility
 
@@ -92,8 +80,6 @@ How the art should be clipped during output.
 
 ---
 
-<a id="jsobjref-scripting-constants-autocadexportfileformat"></a>
-
 ## AutoCADExportFileFormat
 
 | Value                         | Description   |
@@ -103,8 +89,6 @@ How the art should be clipped during output.
 
 ---
 
-<a id="jsobjref-scripting-constants-autocadexportoption"></a>
-
 ## AutoCADExportOption
 
 | Value                                     | Description          |
@@ -113,8 +97,6 @@ How the art should be clipped during output.
 | `AutoCADExportOption.MaximizeEditability` | Maximize Editability |
 
 ---
-
-<a id="jsobjref-scripting-constants-autocadglobalscaleoption"></a>
 
 ## AutoCADGlobalScaleOption
 
@@ -126,8 +108,6 @@ How the art should be clipped during output.
 
 ---
 
-<a id="jsobjref-scripting-constants-autocadrasterformat"></a>
-
 ## AutoCADRasterFormat
 
 | Value                      | Description   |
@@ -136,8 +116,6 @@ How the art should be clipped during output.
 | `AutoCADRasterFormat.JPEG` | JPEG          |
 
 ---
-
-<a id="jsobjref-scripting-constants-autocadunit"></a>
 
 ## AutoCADUnit
 
@@ -152,8 +130,6 @@ How the art should be clipped during output.
 
 ---
 
-<a id="jsobjref-scripting-constants-autokerntype"></a>
-
 ## AutoKernType
 
 The auto kern type.
@@ -167,8 +143,6 @@ The auto kern type.
 
 ---
 
-<a id="jsobjref-scripting-constants-autoleadingtype"></a>
-
 ## AutoLeadingType
 
 The auto leading type.
@@ -179,8 +153,6 @@ The auto leading type.
 | `AutoLeadingType.TOPTOTOP`       | Top to Top       |
 
 ---
-
-<a id="jsobjref-scripting-constants-baselinedirectiontype"></a>
 
 ## BaselineDirectionType
 
@@ -194,8 +166,6 @@ The baseline direction type.
 
 ---
 
-<a id="jsobjref-scripting-constants-blendanimationtype"></a>
-
 ## BlendAnimationType
 
 | Value                                 | Description   |
@@ -205,8 +175,6 @@ The baseline direction type.
 | `BlendAnimationType.INSEQUENCE`       | In Sequence   |
 
 ---
-
-<a id="jsobjref-scripting-constants-blendmodes"></a>
 
 ## BlendModes
 
@@ -233,8 +201,6 @@ The blend mode used when compositing an object.
 
 ---
 
-<a id="jsobjref-scripting-constants-blendsexpandpolicy"></a>
-
 ## BlendsExpandPolicy
 
 Policy used by FXG file format to expand blends.
@@ -245,8 +211,6 @@ Policy used by FXG file format to expand blends.
 | `BlendsExpandPolicy.RASTERIZEBLENDS`            | Rasterize blends             |
 
 ---
-
-<a id="jsobjref-scripting-constants-burasagaritypeenum"></a>
 
 ## BurasagariTypeEnum
 
@@ -259,8 +223,6 @@ The Burasagari type.
 | `BurasagariTypeEnum.Standard` | Standard      |
 
 ---
-
-<a id="jsobjref-scripting-constants-casechangetype"></a>
 
 ## CaseChangeType
 
@@ -275,8 +237,6 @@ The case change type.
 
 ---
 
-<a id="jsobjref-scripting-constants-colorconversion"></a>
-
 ## ColorConversion
 
 The color conversion policy.
@@ -288,8 +248,6 @@ The color conversion policy.
 | `ColorConversion.None`                     | None                       |
 
 ---
-
-<a id="jsobjref-scripting-constants-colorconvertpurpose"></a>
 
 ## ColorConvertPurpose
 
@@ -303,8 +261,6 @@ The purpose of color conversion using the `ConvertSampleColor` method of the `Ap
 | `ColorConvertPurpose.dummypurpose`   | Dummy         |
 
 ---
-
-<a id="jsobjref-scripting-constants-colordestination"></a>
 
 ## ColorDestination
 
@@ -321,8 +277,6 @@ Destination profile
 
 ---
 
-<a id="jsobjref-scripting-constants-colordithermethod"></a>
-
 ## ColorDitherMethod
 
 The method used to dither colors in exported GIF and PNG8 images.
@@ -336,8 +290,6 @@ The method used to dither colors in exported GIF and PNG8 images.
 
 ---
 
-<a id="jsobjref-scripting-constants-colormodel"></a>
-
 ## ColorModel
 
 The color model to use.
@@ -349,8 +301,6 @@ The color model to use.
 | `ColorModel.SPOT`         | Spot          |
 
 ---
-
-<a id="jsobjref-scripting-constants-colorprofile"></a>
 
 ## ColorProfile
 
@@ -364,8 +314,6 @@ The color model to use.
 
 ---
 
-<a id="jsobjref-scripting-constants-colorreductionmethod"></a>
-
 ## ColorReductionMethod
 
 The method used to reduce the number of colors in exported GIF and PNG8 images.
@@ -378,8 +326,6 @@ The method used to reduce the number of colors in exported GIF and PNG8 images.
 | `ColorReductionMethod.WEB`        | Web           |
 
 ---
-
-<a id="jsobjref-scripting-constants-colortype"></a>
 
 ## ColorType
 
@@ -396,8 +342,6 @@ The color specification for an individual color.
 | `ColorType.NONE`     | None          |
 
 ---
-
-<a id="jsobjref-scripting-constants-compatibility"></a>
 
 ## Compatibility
 
@@ -419,8 +363,6 @@ The version of the Illustrator file to create when saving an EPS or Illustrator 
 | `Compatibility.JAPANESEVERSION3` | Japanese Version 3 |
 
 ---
-
-<a id="jsobjref-scripting-constants-compressionquality"></a>
 
 ## CompressionQuality
 
@@ -456,8 +398,6 @@ The quality of bitmap compression used when saving a PDF file
 
 ---
 
-<a id="jsobjref-scripting-constants-coordinatesystem"></a>
-
 ## CoordinateSystem
 
 The coordinate system used by Illustrator
@@ -469,8 +409,6 @@ The coordinate system used by Illustrator
 
 ---
 
-<a id="jsobjref-scripting-constants-cropoptions"></a>
-
 ## CropOptions
 
 The style of a document’s cropping box
@@ -481,8 +419,6 @@ The style of a document’s cropping box
 | `CropOptions.Standard` | Standard      |
 
 ---
-
-<a id="jsobjref-scripting-constants-documentartboardlayout"></a>
 
 ## DocumentArtboardLayout
 
@@ -500,8 +436,6 @@ The layout of in the new document.
 
 ---
 
-<a id="jsobjref-scripting-constants-documentcolorspace"></a>
-
 ## DocumentColorSpace
 
 The color space of a document
@@ -512,8 +446,6 @@ The color space of a document
 | `DocumentColorSpace.RGB`  | RGB           |
 
 ---
-
-<a id="jsobjref-scripting-constants-documentlayoutstyle"></a>
 
 ## DocumentLayoutStyle
 
@@ -528,8 +460,6 @@ Layout style for the document
 | `DocumentLayoutStyle.VERTICALTILE`   | todo          |
 
 ---
-
-<a id="jsobjref-scripting-constants-documentpresettype"></a>
 
 ## DocumentPresetType
 
@@ -546,8 +476,6 @@ The preset types available for new documents.
 
 ---
 
-<a id="jsobjref-scripting-constants-documentpreviewmode"></a>
-
 ## DocumentPreviewMode
 
 The document preview mode.
@@ -560,8 +488,6 @@ The document preview mode.
 
 ---
 
-<a id="jsobjref-scripting-constants-documentrasterresolution"></a>
-
 ## DocumentRasterResolution
 
 The preset document raster resolution.
@@ -573,8 +499,6 @@ The preset document raster resolution.
 | `DocumentRasterResolution.MediumResolution` | Medium Resolution |
 
 ---
-
-<a id="jsobjref-scripting-constants-documenttransparencygrid"></a>
 
 ## DocumentTransparencyGrid
 
@@ -594,8 +518,6 @@ Document transparency grid colors.
 
 ---
 
-<a id="jsobjref-scripting-constants-documenttype"></a>
-
 ## DocumentType
 
 The file format used to save a file.
@@ -609,8 +531,6 @@ The file format used to save a file.
 
 ---
 
-<a id="jsobjref-scripting-constants-downsamplemethod"></a>
-
 ## DownsampleMethod
 
 | Value                                | Description        |
@@ -621,8 +541,6 @@ The file format used to save a file.
 | `DownsampleMethod.SUBSAMPLE`         | Subsample          |
 
 ---
-
-<a id="jsobjref-scripting-constants-elementplacement"></a>
 
 ## ElementPlacement
 
@@ -636,8 +554,6 @@ The file format used to save a file.
 
 ---
 
-<a id="jsobjref-scripting-constants-epspostscriptlevelenum"></a>
-
 ## EPSPostScriptLevelEnum
 
 | Value                           | Description   |
@@ -646,8 +562,6 @@ The file format used to save a file.
 | `EPSPostScriptLevelEnum.LEVEL3` | Level 3       |
 
 ---
-
-<a id="jsobjref-scripting-constants-epspreview"></a>
 
 ## EPSPreview
 
@@ -661,8 +575,6 @@ The preview image format used when saving an EPS file
 | `EPSPreview.None`                 | todo          |
 
 ---
-
-<a id="jsobjref-scripting-constants-exporttype"></a>
 
 ## ExportType
 
@@ -682,8 +594,6 @@ The file format used to export a file
 
 ---
 
-<a id="jsobjref-scripting-constants-figurestyletype"></a>
-
 ## FigureStyleType
 
 | Value                                  | Description   |
@@ -696,8 +606,6 @@ The file format used to export a file
 
 ---
 
-<a id="jsobjref-scripting-constants-filterspreservepolicy"></a>
-
 ## FiltersPreservePolicy
 
 The filters preserve policy used by the FXG file format.
@@ -709,8 +617,6 @@ The filters preserve policy used by the FXG file format.
 | `FiltersPreservePolicy.RASTERIZEFILTERS`    | todo          |
 
 ---
-
-<a id="jsobjref-scripting-constants-flashexportstyle"></a>
 
 ## FlashExportStyle
 
@@ -725,8 +631,6 @@ The method used to convert Illustrator images when exporting files
 | `FlashExportStyle.TOFILES`         | todo          |
 
 ---
-
-<a id="jsobjref-scripting-constants-flashexportversion"></a>
 
 ## FlashExportVersion
 
@@ -746,8 +650,6 @@ Version for exported SWF file.
 
 ---
 
-<a id="jsobjref-scripting-constants-flashimageformat"></a>
-
 ## FlashImageFormat
 
 The format used to store flash images.
@@ -758,8 +660,6 @@ The format used to store flash images.
 | `FlashImageFormat.LOSSY`    | Lossy         |
 
 ---
-
-<a id="jsobjref-scripting-constants-flashjpegmethod"></a>
 
 ## FlashJPEGMethod
 
@@ -772,8 +672,6 @@ The method used to store JPEG images.
 
 ---
 
-<a id="jsobjref-scripting-constants-flashplaybacksecurity"></a>
-
 ## FlashPlaybackSecurity
 
 | Value                                   | Description   |
@@ -782,8 +680,6 @@ The method used to store JPEG images.
 | `FlashPlaybackSecurity.PlaybackNetwork` | Network       |
 
 ---
-
-<a id="jsobjref-scripting-constants-fontbaselineoption"></a>
 
 ## FontBaselineOption
 
@@ -795,8 +691,6 @@ The method used to store JPEG images.
 
 ---
 
-<a id="jsobjref-scripting-constants-fontcapsoption"></a>
-
 ## FontCapsOption
 
 | Value                         | Description   |
@@ -807,8 +701,6 @@ The method used to store JPEG images.
 | `FontCapsOption.SMALLCAPS`    | Small Caps    |
 
 ---
-
-<a id="jsobjref-scripting-constants-fontopentypepositionoption"></a>
 
 ## FontOpenTypePositionOption
 
@@ -822,8 +714,6 @@ The method used to store JPEG images.
 
 ---
 
-<a id="jsobjref-scripting-constants-fontsubstitutionpolicy"></a>
-
 ## FontSubstitutionPolicy
 
 | Value                                      | Description   |
@@ -833,8 +723,6 @@ The method used to store JPEG images.
 | `FontSubstitutionPolicy.SUBSTITUTETINT`    | Tint          |
 
 ---
-
-<a id="jsobjref-scripting-constants-fxgversion"></a>
 
 ## FXGVersion
 
@@ -847,8 +735,6 @@ The FXG file-format version.
 
 ---
 
-<a id="jsobjref-scripting-constants-gradientspreservepolicy"></a>
-
 ## GradientsPreservePolicy
 
 The gradients preserve policy used by the FXG file format.
@@ -860,8 +746,6 @@ The gradients preserve policy used by the FXG file format.
 
 ---
 
-<a id="jsobjref-scripting-constants-gradienttype"></a>
-
 ## GradientType
 
 The type of gradient.
@@ -872,8 +756,6 @@ The type of gradient.
 | `GradientType.RADIAL` | Radial        |
 
 ---
-
-<a id="jsobjref-scripting-constants-imagecolorspace"></a>
 
 ## ImageColorSpace
 
@@ -891,8 +773,6 @@ The color space of a raster item or an exported file
 
 ---
 
-<a id="jsobjref-scripting-constants-inkprintstatus"></a>
-
 ## InkPrintStatus
 
 | Value                       | Description   |
@@ -902,8 +782,6 @@ The color space of a raster item or an exported file
 | `InkPrintStatus.DISABLEINK` | Disable Ink   |
 
 ---
-
-<a id="jsobjref-scripting-constants-inktype"></a>
 
 ## InkType
 
@@ -917,8 +795,6 @@ The color space of a raster item or an exported file
 
 ---
 
-<a id="jsobjref-scripting-constants-javascriptexecutionmode"></a>
-
 ## JavaScriptExecutionMode
 
 | Value                                    | Description      |
@@ -928,8 +804,6 @@ The color space of a raster item or an exported file
 | `JavaScriptExecutionMode.never`          | Never            |
 
 ---
-
-<a id="jsobjref-scripting-constants-justification"></a>
 
 ## Justification
 
@@ -947,8 +821,6 @@ The alignment or justification for a paragraph of text.
 
 ---
 
-<a id="jsobjref-scripting-constants-kinsokuorderenum"></a>
-
 ## KinsokuOrderEnum
 
 | Value                           | Description   |
@@ -958,8 +830,6 @@ The alignment or justification for a paragraph of text.
 | `KinsokuOrderEnum.PUSHOUTONLY`  | todo          |
 
 ---
-
-<a id="jsobjref-scripting-constants-knockoutstate"></a>
 
 ## KnockoutState
 
@@ -973,8 +843,6 @@ The type of knockout to use on a page item.
 | `KnockoutState.Unknown`   | Unknown       |
 
 ---
-
-<a id="jsobjref-scripting-constants-languagetype"></a>
 
 ## LanguageType
 
@@ -1017,8 +885,6 @@ The type of knockout to use on a page item.
 
 ---
 
-<a id="jsobjref-scripting-constants-layerordertype"></a>
-
 ## LayerOrderType
 
 | Value                     | Description   |
@@ -1027,8 +893,6 @@ The type of knockout to use on a page item.
 | `LayerOrderType.BOTTOMUP` | Bottom Up     |
 
 ---
-
-<a id="jsobjref-scripting-constants-librarytype"></a>
 
 ## LibraryType
 
@@ -1044,8 +908,6 @@ Illustrator library type.
 
 ---
 
-<a id="jsobjref-scripting-constants-monochromecompression"></a>
-
 ## MonochromeCompression
 
 The type of compression to use on a monochrome bitmap item when saving a PDF file.
@@ -1060,8 +922,6 @@ The type of compression to use on a monochrome bitmap item when saving a PDF fil
 
 ---
 
-<a id="jsobjref-scripting-constants-outputflattening"></a>
-
 ## OutputFlattening
 
 How transparency should be flattened when saving EPS and Illustrator file formats with compatibility set to versions of Illustrator earlier than Illustrator 10
@@ -1073,8 +933,6 @@ How transparency should be flattened when saving EPS and Illustrator file format
 
 ---
 
-<a id="jsobjref-scripting-constants-pagemarkstypes"></a>
-
 ## PageMarksTypes
 
 | Value                     | Description   |
@@ -1083,8 +941,6 @@ How transparency should be flattened when saving EPS and Illustrator file format
 | `PageMarksTypes.Roman`    | Roman         |
 
 ---
-
-<a id="jsobjref-scripting-constants-pathpointselection"></a>
 
 ## PathPointSelection
 
@@ -1100,8 +956,6 @@ Which points, if any, of a path are selected.
 
 ---
 
-<a id="jsobjref-scripting-constants-pdfboxtype"></a>
-
 ## PDFBoxType
 
 | Value                       | Description   |
@@ -1114,8 +968,6 @@ Which points, if any, of a path are selected.
 | `PDFBoxType.PDFTRIMBOX`     | todo          |
 
 ---
-
-<a id="jsobjref-scripting-constants-pdfchangesallowedenum"></a>
 
 ## PDFChangesAllowedEnum
 
@@ -1133,8 +985,6 @@ Which points, if any, of a path are selected.
 
 ---
 
-<a id="jsobjref-scripting-constants-pdfcompatibility"></a>
-
 ## PDFCompatibility
 
 The version of the Acrobat file format to create when saving a PDF file
@@ -1149,8 +999,6 @@ The version of the Acrobat file format to create when saving a PDF file
 
 ---
 
-<a id="jsobjref-scripting-constants-pdfoverprint"></a>
-
 ## PDFOverprint
 
 | Value                               | Description            |
@@ -1159,8 +1007,6 @@ The version of the Acrobat file format to create when saving a PDF file
 | `PDFOverprint.PRESERVEPDFOVERPRINT` | Preserve Pdf Overprint |
 
 ---
-
-<a id="jsobjref-scripting-constants-pdfprintallowedenum"></a>
 
 ## PDFPrintAllowedEnum
 
@@ -1174,8 +1020,6 @@ The version of the Acrobat file format to create when saving a PDF file
 
 ---
 
-<a id="jsobjref-scripting-constants-pdftrimmarkweight"></a>
-
 ## PDFTrimMarkWeight
 
 | Value                                  | Description   |
@@ -1185,8 +1029,6 @@ The version of the Acrobat file format to create when saving a PDF file
 | `PDFTrimMarkWeight.TRIMMARKWEIGHT05`   | Weight 05     |
 
 ---
-
-<a id="jsobjref-scripting-constants-pdfxstandard"></a>
 
 ## PDFXStandard
 
@@ -1201,8 +1043,6 @@ The version of the Acrobat file format to create when saving a PDF file
 
 ---
 
-<a id="jsobjref-scripting-constants-perspectivegridtype"></a>
-
 ## PerspectiveGridType
 
 | Value                                               | Description                       |
@@ -1213,8 +1053,6 @@ The version of the Acrobat file format to create when saving a PDF file
 | `PerspectiveGridType.InvalidPerspectiveGridType`    | Invalid Perspective Grid Type     |
 
 ---
-
-<a id="jsobjref-scripting-constants-perspectivegridplanetype"></a>
 
 ## PerspectiveGridPlaneType
 
@@ -1227,8 +1065,6 @@ The version of the Acrobat file format to create when saving a PDF file
 
 ---
 
-<a id="jsobjref-scripting-constants-photoshopcompatibility"></a>
-
 ## PhotoshopCompatibility
 
 | Value                               | Description   |
@@ -1237,8 +1073,6 @@ The version of the Acrobat file format to create when saving a PDF file
 | `PhotoshopCompatibility.Photoshop8` | Photoshop 8   |
 
 ---
-
-<a id="jsobjref-scripting-constants-pointtype"></a>
 
 ## PointType
 
@@ -1251,8 +1085,6 @@ The type of path point selected
 
 ---
 
-<a id="jsobjref-scripting-constants-polarityvalues"></a>
-
 ## PolarityValues
 
 | Value                     | Description   |
@@ -1261,8 +1093,6 @@ The type of path point selected
 | `PolarityValues.POSITIVE` | Positive      |
 
 ---
-
-<a id="jsobjref-scripting-constants-postscriptimagecompressiontype"></a>
 
 ## PostScriptImageCompressionType
 
@@ -1274,8 +1104,6 @@ The type of path point selected
 
 ---
 
-<a id="jsobjref-scripting-constants-printartworkdesignation"></a>
-
 ## PrintArtworkDesignation
 
 | Value                                            | Description              |
@@ -1285,8 +1113,6 @@ The type of path point selected
 | `PrintArtworkDesignation.VISIBLEPRINTABLELAYERS` | Visible Printable Layers |
 
 ---
-
-<a id="jsobjref-scripting-constants-printcolorintent"></a>
 
 ## PrintColorIntent
 
@@ -1299,8 +1125,6 @@ The type of path point selected
 
 ---
 
-<a id="jsobjref-scripting-constants-printcolorprofile"></a>
-
 ## PrintColorProfile
 
 | Value                               | Description      |
@@ -1312,8 +1136,6 @@ The type of path point selected
 
 ---
 
-<a id="jsobjref-scripting-constants-printcolorseparationmode"></a>
-
 ## PrintColorSeparationMode
 
 | Value                                          | Description           |
@@ -1323,8 +1145,6 @@ The type of path point selected
 | `PrintColorSeparationMode.INRIPSEPARATION`     | Inrip Separation      |
 
 ---
-
-<a id="jsobjref-scripting-constants-printercolormode"></a>
 
 ## PrinterColorMode
 
@@ -1336,8 +1156,6 @@ The type of path point selected
 
 ---
 
-<a id="jsobjref-scripting-constants-printerpostscriptlevelenum"></a>
-
 ## PrinterPostScriptLevelEnum
 
 | Value                                 | Description   |
@@ -1347,8 +1165,6 @@ The type of path point selected
 | `PrinterPostScriptLevelEnum.PSLEVEL3` | PS LEVEL 3    |
 
 ---
-
-<a id="jsobjref-scripting-constants-printertypeenum"></a>
 
 ## PrinterTypeEnum
 
@@ -1360,8 +1176,6 @@ The type of path point selected
 
 ---
 
-<a id="jsobjref-scripting-constants-printfontdownloadmode"></a>
-
 ## PrintFontDownloadMode
 
 | Value                                    | Description       |
@@ -1372,8 +1186,6 @@ The type of path point selected
 
 ---
 
-<a id="jsobjref-scripting-constants-printingbounds"></a>
-
 ## PrintingBounds
 
 | Value                           | Description     |
@@ -1382,8 +1194,6 @@ The type of path point selected
 | `PrintingBounds.ARTWORKBOUNDS`  | Artwork Bounds  |
 
 ---
-
-<a id="jsobjref-scripting-constants-printorientation"></a>
 
 ## PrintOrientation
 
@@ -1398,8 +1208,6 @@ The artwork printing orientation.
 | `PrintOrientation.REVERSEPORTRAIT`  | Reverse Portrait  |
 
 ---
-
-<a id="jsobjref-scripting-constants-printposition"></a>
 
 ## PrintPosition
 
@@ -1417,8 +1225,6 @@ The artwork printing orientation.
 
 ---
 
-<a id="jsobjref-scripting-constants-printtiling"></a>
-
 ## PrintTiling
 
 | Value                            | Description      |
@@ -1428,8 +1234,6 @@ The artwork printing orientation.
 | `PrintTiling.TILEIMAGEABLEAREAS` | Imageable Areas  |
 
 ---
-
-<a id="jsobjref-scripting-constants-rasterizationcolormodel"></a>
 
 ## RasterizationColorModel
 
@@ -1443,8 +1247,6 @@ The color model for the rasterization.
 
 ---
 
-<a id="jsobjref-scripting-constants-rasterlinkstate"></a>
-
 ## RasterLinkState
 
 The status of a raster item’s linked image if the image is stored externally
@@ -1456,8 +1258,6 @@ The status of a raster item’s linked image if the image is stored externally
 | `RasterLinkState.NODATA`       | No Data        |
 
 ---
-
-<a id="jsobjref-scripting-constants-rulerunits"></a>
 
 ## RulerUnits
 
@@ -1476,8 +1276,6 @@ The default measurement units for the rulers of a document
 
 ---
 
-<a id="jsobjref-scripting-constants-saveoptions"></a>
-
 ## SaveOptions
 
 Save options provided when closing a document.
@@ -1489,8 +1287,6 @@ Save options provided when closing a document.
 | `SaveOptions.PROMPTTOSAVECHANGES` | Prompt To Save Changes |
 
 ---
-
-<a id="jsobjref-scripting-constants-screenmode"></a>
 
 ## ScreenMode
 
@@ -1504,8 +1300,6 @@ The mode of display for a view.
 
 ---
 
-<a id="jsobjref-scripting-constants-spotcolorkind"></a>
-
 ## SpotColorKind
 
 The custom color kind of a spot color.
@@ -1517,8 +1311,6 @@ The custom color kind of a spot color.
 | `SpotColorKind.SpotRGB`  | RGB           |
 
 ---
-
-<a id="jsobjref-scripting-constants-strokecap"></a>
 
 ## StrokeCap
 
@@ -1532,8 +1324,6 @@ The type of line capping for a path stroke.
 
 ---
 
-<a id="jsobjref-scripting-constants-strokejoin"></a>
-
 ## StrokeJoin
 
 The type of joints for a path stroke.
@@ -1545,8 +1335,6 @@ The type of joints for a path stroke.
 | `StrokeJoin.MITERENDJOIN` | Miter         |
 
 ---
-
-<a id="jsobjref-scripting-constants-stylerunalignmenttype"></a>
 
 ## StyleRunAlignmentType
 
@@ -1561,8 +1349,6 @@ The type of joints for a path stroke.
 
 ---
 
-<a id="jsobjref-scripting-constants-svgcsspropertylocation"></a>
-
 ## SVGCSSPropertyLocation
 
 How should the CSS properties of the document be included in an exported SVG file
@@ -1576,8 +1362,6 @@ How should the CSS properties of the document be included in an exported SVG fil
 
 ---
 
-<a id="jsobjref-scripting-constants-svgdocumentencoding"></a>
-
 ## SVGDocumentEncoding
 
 How should the text in the document be encoded when exporting an SVG file
@@ -1589,8 +1373,6 @@ How should the text in the document be encoded when exporting an SVG file
 | `SVGDocumentEncoding.UTF16` | UTF16         |
 
 ---
-
-<a id="jsobjref-scripting-constants-svgdtdversion"></a>
 
 ## SVGDTDVersion
 
@@ -1606,8 +1388,6 @@ SVG version compatibility for exported files
 | `SVGDTDVersion.SVGTINY1_2`     | SVGTINY1_2     |
 
 ---
-
-<a id="jsobjref-scripting-constants-svgfontsubsetting"></a>
 
 ## SVGFontSubsetting
 
@@ -1625,8 +1405,6 @@ What font glyphs should be included in exported SVG files
 
 ---
 
-<a id="jsobjref-scripting-constants-svgfonttype"></a>
-
 ## SVGFontType
 
 Types for fonts included in exported SVG files
@@ -1638,8 +1416,6 @@ Types for fonts included in exported SVG files
 | `SVGFontType.OUTLINEFONT` | Outline Font  |
 
 ---
-
-<a id="jsobjref-scripting-constants-symbolregistrationpoint"></a>
 
 ## SymbolRegistrationPoint
 
@@ -1659,8 +1435,6 @@ Registration points for symbols.
 
 ---
 
-<a id="jsobjref-scripting-constants-tabstopalignment"></a>
-
 ## TabStopAlignment
 
 The alignment of a tab stop.
@@ -1673,8 +1447,6 @@ The alignment of a tab stop.
 | `TabStopAlignment.Right`   | Right         |
 
 ---
-
-<a id="jsobjref-scripting-constants-textantialias"></a>
 
 ## TextAntialias
 
@@ -1689,8 +1461,6 @@ The type of text anti-aliasing in a text art item.
 
 ---
 
-<a id="jsobjref-scripting-constants-textorientation"></a>
-
 ## TextOrientation
 
 The orientation of text in a text art item.
@@ -1701,8 +1471,6 @@ The orientation of text in a text art item.
 | `TextOrientation.VERTICAL`   | Vertical      |
 
 ---
-
-<a id="jsobjref-scripting-constants-textpreservepolicy"></a>
 
 ## TextPreservePolicy
 
@@ -1717,8 +1485,6 @@ The text-preserve policy used by the FXG file format.
 
 ---
 
-<a id="jsobjref-scripting-constants-texttype"></a>
-
 ## TextType
 
 The type of text art displayed by this object.
@@ -1731,8 +1497,6 @@ The type of text art displayed by this object.
 
 ---
 
-<a id="jsobjref-scripting-constants-tiffbyteorder"></a>
-
 ## TIFFByteOrder
 
 The byte order to use for an exported TIFF file.
@@ -1744,8 +1508,6 @@ The byte order to use for an exported TIFF file.
 
 ---
 
-<a id="jsobjref-scripting-constants-tracingmodetype"></a>
-
 ## TracingModeType
 
 | Value                                      | Description   |
@@ -1755,8 +1517,6 @@ The byte order to use for an exported TIFF file.
 | `TracingModeType.TRACINGMODEGRAY`          | Gray          |
 
 ---
-
-<a id="jsobjref-scripting-constants-transformation"></a>
 
 ## Transformation
 
@@ -1777,8 +1537,6 @@ The point to use as the anchor point about which an object is rotated, resized, 
 
 ---
 
-<a id="jsobjref-scripting-constants-trappingtype"></a>
-
 ## TrappingType
 
 | Value                         | Description   |
@@ -1790,8 +1548,6 @@ The point to use as the anchor point about which an object is rotated, resized, 
 
 ---
 
-<a id="jsobjref-scripting-constants-userinteractionlevel"></a>
-
 ## UserInteractionLevel
 
 User interface settings
@@ -1802,8 +1558,6 @@ User interface settings
 | `UserInteractionLevel.DONTDISPLAYALERTS` | Don’t Display Alerts |
 
 ---
-
-<a id="jsobjref-scripting-constants-variablekind"></a>
 
 ## VariableKind
 
@@ -1819,8 +1573,6 @@ What type of variables are included in the document.
 
 ---
 
-<a id="jsobjref-scripting-constants-viewrastertype"></a>
-
 ## ViewRasterType
 
 The raster visualization mode for tracing.
@@ -1834,8 +1586,6 @@ The raster visualization mode for tracing.
 
 ---
 
-<a id="jsobjref-scripting-constants-viewvectortype"></a>
-
 ## ViewVectorType
 
 The vector visualization mode for tracing.
@@ -1848,8 +1598,6 @@ The vector visualization mode for tracing.
 | `ViewVectorType.TRACINGVIEWVECTORTRACINGRESULT`       | Tracing Result        |
 
 ---
-
-<a id="jsobjref-scripting-constants-warichujustificationtype"></a>
 
 ## WariChuJustificationType
 
@@ -1865,8 +1613,6 @@ The vector visualization mode for tracing.
 | `WariChuJustificationType.WARICHUFULLJUSTIFYLASTLINERIGHT`  | Warichu Full Justify Last Line Right  |
 
 ---
-
-<a id="jsobjref-scripting-constants-zordermethod"></a>
 
 ## ZOrderMethod
 

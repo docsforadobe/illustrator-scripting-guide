@@ -1,5 +1,3 @@
-<a id="introduction-viewingsamplescripts"></a>
-
 # Viewing Sample Scripts
 
 Adobe provides sample scripts for many objects, properties, and methods in the lllustrator CC DOM. You can view script samples in two locations:

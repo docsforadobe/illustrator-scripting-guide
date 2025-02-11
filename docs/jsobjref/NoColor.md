@@ -1,5 +1,3 @@
-<a id="jsobjref-nocolor"></a>
-
 # NoColor
 
 `new NoColor()`
@@ -11,8 +9,6 @@ Represents the “none” color. Assigning a `NoColor` object to the fill or str
 ---
 
 ## Properties
-
-<a id="jsobjref-nocolor-typename"></a>
 
 ### NoColor.typename
 

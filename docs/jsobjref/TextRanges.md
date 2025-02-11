@@ -1,5 +1,3 @@
-<a id="jsobjref-textranges"></a>
-
 # TextRanges
 
 `textRanges`
@@ -11,8 +9,6 @@ A collection of [TextRange](TextRange.md#jsobjref-textrange) objects.
 ---
 
 ## Properties
-
-<a id="jsobjref-textranges-length"></a>
 
 ### TextRanges.length
 
@@ -28,8 +24,6 @@ Number; read-only.
 
 ---
 
-<a id="jsobjref-textranges-parent"></a>
-
 ### TextRanges.parent
 
 `textRanges.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-textranges-typename"></a>
 
 ### TextRanges.typename
 
@@ -61,8 +53,6 @@ String; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-textranges-index"></a>
 
 ### TextRanges.index()
 
@@ -83,8 +73,6 @@ Gets an element from the collection.
 [Variable](Variable.md#jsobjref-variable)
 
 ---
-
-<a id="jsobjref-textranges-removeall"></a>
 
 ### TextRanges.removeAll()
 

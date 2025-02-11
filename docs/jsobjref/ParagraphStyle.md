@@ -1,5 +1,3 @@
-<a id="jsobjref-paragraphstyle"></a>
-
 # ParagraphStyle
 
 `app.activeDocument.paragraphStyles[index`
@@ -11,8 +9,6 @@ Associates character and paragraph attributes with a style name. The style objec
 ---
 
 ## Properties
-
-<a id="jsobjref-paragraphstyle-characterattributes"></a>
 
 ### ParagraphStyle.characterAttributes
 
@@ -28,8 +24,6 @@ The character properties for the text range.
 
 ---
 
-<a id="jsobjref-paragraphstyle-name"></a>
-
 ### ParagraphStyle.name
 
 `app.activeDocument.paragraphStyles[index.name`
@@ -43,8 +37,6 @@ The paragraph style’s name.
 String.
 
 ---
-
-<a id="jsobjref-paragraphstyle-paragraphattributes"></a>
 
 ### ParagraphStyle.paragraphAttributes
 
@@ -60,8 +52,6 @@ The paragraph properties for the text range.
 
 ---
 
-<a id="jsobjref-paragraphstyle-parent"></a>
-
 ### ParagraphStyle.parent
 
 `app.activeDocument.paragraphStyles[index.parent`
@@ -75,8 +65,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-paragraphstyle-typename"></a>
 
 ### ParagraphStyle.typename
 
@@ -93,8 +81,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-paragraphstyle-applyto"></a>
 
 ### ParagraphStyle.applyTo()
 
@@ -116,8 +102,6 @@ Applies this paragraph style to the specified text item.
 Nothing.
 
 ---
-
-<a id="jsobjref-paragraphstyle-remove"></a>
 
 ### ParagraphStyle.remove()
 

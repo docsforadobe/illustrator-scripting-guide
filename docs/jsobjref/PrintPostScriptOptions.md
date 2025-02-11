@@ -1,5 +1,3 @@
-<a id="jsobjref-printpostscriptoptions"></a>
-
 # PrintPostScriptOptions
 
 `new PrintPostScriptOptions()`
@@ -11,8 +9,6 @@ Options for printing to a PostScript printer.
 ---
 
 ## Properties
-
-<a id="jsobjref-printpostscriptoptions-binaryprinting"></a>
 
 ### PrintPostScriptOptions.binaryPrinting
 
@@ -30,8 +26,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printpostscriptoptions-compatibleshading"></a>
-
 ### PrintPostScriptOptions.compatibleShading
 
 `printPostScriptOptions.compatibleShading`
@@ -47,8 +41,6 @@ Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-printpostscriptoptions-forcecontinuoustone"></a>
 
 ### PrintPostScriptOptions.forceContinuousTone
 
@@ -66,8 +58,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printpostscriptoptions-imagecompression"></a>
-
 ### PrintPostScriptOptions.imageCompression
 
 `printPostScriptOptions.imageCompression`
@@ -83,8 +73,6 @@ Default: `PostScriptImageCompressionType.IMAGECOMPRESSIONNONE`
 [PostScriptImageCompressionType](scripting-constants.md#jsobjref-scripting-constants-postscriptimagecompressiontype)
 
 ---
-
-<a id="jsobjref-printpostscriptoptions-negativeprinting"></a>
 
 ### PrintPostScriptOptions.negativePrinting
 
@@ -102,8 +90,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printpostscriptoptions-postscriptlevel"></a>
-
 ### PrintPostScriptOptions.postScriptLevel
 
 `printPostScriptOptions.postScriptLevel`
@@ -120,8 +106,6 @@ Default: `PrinterPostScriptLevelEnum.LEVEL2`
 
 ---
 
-<a id="jsobjref-printpostscriptoptions-shadingresolution"></a>
-
 ### PrintPostScriptOptions.shadingResolution
 
 `printPostScriptOptions.shadingResolution`
@@ -137,8 +121,6 @@ Default: 300.0
 Number (double)
 
 ---
-
-<a id="jsobjref-printpostscriptoptions-typename"></a>
 
 ### PrintPostScriptOptions.typename
 

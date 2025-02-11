@@ -1,5 +1,3 @@
-<a id="jsobjref-paragraphs"></a>
-
 # Paragraphs
 
 `app.activeDocument.textFrames[index].paragraphs`
@@ -11,8 +9,6 @@ A collection of [TextRange](TextRange.md#jsobjref-textrange) objects, with each 
 ---
 
 ## Properties
-
-<a id="jsobjref-paragraphs-length"></a>
 
 ### Paragraphs.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-paragraphs-parent"></a>
-
 ### Paragraphs.parent
 
 `app.activeDocument.textFrames[index].paragraphs.parent`
@@ -43,8 +37,6 @@ The parent of this object.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-paragraphs-typename"></a>
 
 ### Paragraphs.typename
 
@@ -61,8 +53,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-paragraphs-add"></a>
 
 ### Paragraphs.add()
 
@@ -86,8 +76,6 @@ Adds a new paragraph with specified text contents at the specified location in t
 
 ---
 
-<a id="jsobjref-paragraphs-addbefore"></a>
-
 ### Paragraphs.addBefore()
 
 `app.activeDocument.textFrames[index].paragraphs.addBefore(contents)`
@@ -108,8 +96,6 @@ Adds a new paragraph with specified text contents before the current text select
 
 ---
 
-<a id="jsobjref-paragraphs-index"></a>
-
 ### Paragraphs.index()
 
 `app.activeDocument.textFrames[index].paragraphs.index(itemKey)`
@@ -129,8 +115,6 @@ Gets an element from the collection.
 [TextRange](TextRange.md#jsobjref-textrange)
 
 ---
-
-<a id="jsobjref-paragraphs-removeall"></a>
 
 ### Paragraphs.removeAll()
 

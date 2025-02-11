@@ -1,5 +1,3 @@
-<a id="objectmodel-dynamic"></a>
-
 # Dynamic Objects
 
 By creating dynamic objects, you can create data-driven graphics.

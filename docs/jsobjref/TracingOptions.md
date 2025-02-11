@@ -1,5 +1,3 @@
-<a id="jsobjref-tracingoptions"></a>
-
 # TracingOptions
 
 `image.tracing.tracingOptions`
@@ -11,8 +9,6 @@ A set of options used in converting raster art to vector art by tracing.
 ---
 
 ## Properties
-
-<a id="jsobjref-tracingoptions-cornerangle"></a>
 
 ### TracingOptions.cornerAngle
 
@@ -30,8 +26,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-tracingoptions-fills"></a>
-
 ### TracingOptions.fills
 
 `image.tracing.tracingOptions.fills`
@@ -46,8 +40,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-tracingoptions-ignorewhite"></a>
-
 ### TracingOptions.ignoreWhite
 
 `image.tracing.tracingOptions.ignoreWhite`
@@ -61,8 +53,6 @@ If `true`, ignores white fill color.
 Boolean
 
 ---
-
-<a id="jsobjref-tracingoptions-livepaintoutput"></a>
 
 ### TracingOptions.livePaintOutput
 
@@ -80,8 +70,6 @@ A script should only set this value in preparation for a subsequent expand opera
 Boolean
 
 ---
-
-<a id="jsobjref-tracingoptions-maxcolors"></a>
 
 ### TracingOptions.maxColors
 
@@ -101,8 +89,6 @@ Number (long)
 
 ---
 
-<a id="jsobjref-tracingoptions-maxstrokeweight"></a>
-
 ### TracingOptions.maxStrokeWeight
 
 `image.tracing.tracingOptions.maxStrokeWeight`
@@ -118,8 +104,6 @@ Range: 0.01 to 100.0
 Number (double)
 
 ---
-
-<a id="jsobjref-tracingoptions-minarea"></a>
 
 ### TracingOptions.minArea
 
@@ -137,8 +121,6 @@ Number (long)
 
 ---
 
-<a id="jsobjref-tracingoptions-minstrokelength"></a>
-
 ### TracingOptions.minStrokeLength
 
 `image.tracing.tracingOptions.minStrokeLength`
@@ -154,8 +136,6 @@ Smaller features are omitted. Range: 0.0 to 200.0. Default: 20.0
 Number (double)
 
 ---
-
-<a id="jsobjref-tracingoptions-outputtoswatches"></a>
 
 ### TracingOptions.outputToSwatches
 
@@ -173,8 +153,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-tracingoptions-palette"></a>
-
 ### TracingOptions.palette
 
 `image.tracing.tracingOptions.palette`
@@ -191,8 +169,6 @@ String
 
 ---
 
-<a id="jsobjref-tracingoptions-parent"></a>
-
 ### TracingOptions.parent
 
 `image.tracing.tracingOptions.parent`
@@ -206,8 +182,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-tracingoptions-pathfitting"></a>
 
 ### TracingOptions.pathFitting
 
@@ -225,8 +199,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-tracingoptions-preprocessblur"></a>
-
 ### TracingOptions.preprocessBlur
 
 `image.tracing.tracingOptions.preprocessBlur`
@@ -241,8 +213,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-tracingoptions-preset"></a>
-
 ### TracingOptions.preset
 
 `image.tracing.tracingOptions.preset`
@@ -256,8 +226,6 @@ The name of a preset file containing these options.
 String, read-only.
 
 ---
-
-<a id="jsobjref-tracingoptions-resample"></a>
 
 ### TracingOptions.resample
 
@@ -275,8 +243,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-tracingoptions-resampleresolution"></a>
-
 ### TracingOptions.resampleResolution
 
 `image.tracing.tracingOptions.resampleResolution`
@@ -293,8 +259,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-tracingoptions-strokes"></a>
-
 ### TracingOptions.strokes
 
 `image.tracing.tracingOptions.strokes`
@@ -310,8 +274,6 @@ Used only if `tracingMode` is `TracingModeType.TRACINGMODEBLACKANDWHITE`.
 Boolean
 
 ---
-
-<a id="jsobjref-tracingoptions-threshold"></a>
 
 ### TracingOptions.threshold
 
@@ -331,8 +293,6 @@ Number (long)
 
 ---
 
-<a id="jsobjref-tracingoptions-tracingmode"></a>
-
 ### TracingOptions.tracingMode
 
 `image.tracing.tracingOptions.tracingMode`
@@ -346,8 +306,6 @@ The color mode for tracing.
 [TracingModeType](scripting-constants.md#jsobjref-scripting-constants-tracingmodetype)
 
 ---
-
-<a id="jsobjref-tracingoptions-typename"></a>
 
 ### TracingOptions.typename
 
@@ -363,8 +321,6 @@ String
 
 ---
 
-<a id="jsobjref-tracingoptions-viewraster"></a>
-
 ### TracingOptions.viewRaster
 
 `image.tracing.tracingOptions.viewRaster`
@@ -378,8 +334,6 @@ The view for previews of the raster image. (This setting is not captured in a pr
 [ViewRasterType](scripting-constants.md#jsobjref-scripting-constants-viewrastertype)
 
 ---
-
-<a id="jsobjref-tracingoptions-viewvector"></a>
 
 ### TracingOptions.viewVector
 
@@ -396,8 +350,6 @@ The view for previews of the vector result. (This setting is not captured in a p
 ---
 
 ## Methods
-
-<a id="jsobjref-tracingoptions-loadfrompreset"></a>
 
 ### TracingOptions.loadFromPreset()
 
@@ -418,8 +370,6 @@ Loads a set of options from the specified preset, as found in the `Application.t
 Boolean
 
 ---
-
-<a id="jsobjref-tracingoptions-storetopreset"></a>
 
 ### TracingOptions.storeToPreset()
 

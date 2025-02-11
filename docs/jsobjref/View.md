@@ -1,5 +1,3 @@
-<a id="jsobjref-view"></a>
-
 # View
 
 `app.activeDocument.views[index]`
@@ -13,8 +11,6 @@ Scripts cannot create new views, but can modify some properties of existing view
 ---
 
 ## Properties
-
-<a id="jsobjref-view-bounds"></a>
 
 ### View.bounds
 
@@ -30,8 +26,6 @@ Array of 4 Numbers
 
 ---
 
-<a id="jsobjref-view-centerpoint"></a>
-
 ### View.centerPoint
 
 `app.activeDocument.views[index].centerPoint`
@@ -45,8 +39,6 @@ The center point of this view relative to the current document’s bounds.
 Array of 2 Numbers
 
 ---
-
-<a id="jsobjref-view-parent"></a>
 
 ### View.parent
 
@@ -62,8 +54,6 @@ Read-only. The document that contains this view.
 
 ---
 
-<a id="jsobjref-view-screenmode"></a>
-
 ### View.screenMode
 
 `app.activeDocument.views[index].screenMode`
@@ -78,8 +68,6 @@ The mode of display for this view.
 
 ---
 
-<a id="jsobjref-view-typename"></a>
-
 ### View.typename
 
 `app.activeDocument.views[index].typename`
@@ -93,8 +81,6 @@ Read-only. The class name of the referenced object.
 String
 
 ---
-
-<a id="jsobjref-view-zoom"></a>
 
 ### View.zoom
 

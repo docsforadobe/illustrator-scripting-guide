@@ -1,5 +1,3 @@
-<a id="scriptingjavascript-formoreinfo"></a>
-
 # For more information
 
 Several extended sample scripts are in the `/Scripting/Sample Scripts/` folder in your lllustrator CC 2017 installation directory.

@@ -1,5 +1,3 @@
-<a id="jsobjref-pageitems"></a>
-
 # PageItems
 
 `app.activeDocument.pageItems`
@@ -60,8 +58,6 @@ When you access an individual item in one of these collections, the reference is
 
 ## Properties
 
-<a id="jsobjref-pageitems-length"></a>
-
 ### PageItems.length
 
 `app.activeDocument.pageItems.length`
@@ -76,8 +72,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-pageitems-parent"></a>
-
 ### PageItems.parent
 
 `app.activeDocument.pageItems.parent`
@@ -91,8 +85,6 @@ The parent of this object.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-pageitems-typename"></a>
 
 ### PageItems.typename
 
@@ -109,8 +101,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-pageitems-getbyname"></a>
 
 ### PageItems.getByName()
 
@@ -132,8 +122,6 @@ Gets the first element in the collection with the specified name.
 
 ---
 
-<a id="jsobjref-pageitems-index"></a>
-
 ### PageItems.index()
 
 `app.activeDocument.pageItems.index(itemKey)`
@@ -153,8 +141,6 @@ Gets an element from the collection.
 [PageItem](PageItem.md#jsobjref-pageitem)
 
 ---
-
-<a id="jsobjref-pageitems-removeall"></a>
 
 ### PageItems.removeAll()
 

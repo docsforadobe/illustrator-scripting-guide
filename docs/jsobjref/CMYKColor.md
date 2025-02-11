@@ -1,5 +1,3 @@
-<a id="jsobjref-cmykcolor"></a>
-
 # CMYKColor
 
 `new cmykColor()`
@@ -13,8 +11,6 @@ If the color space of a document is `RGB` and you specify the color value for a 
 ---
 
 ## Properties
-
-<a id="jsobjref-cmykcolor-black"></a>
 
 ### CMYKColor.black
 
@@ -30,8 +26,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-cmykcolor-cyan"></a>
-
 ### CMYKColor.cyan
 
 `cmykColor.cyan`
@@ -45,8 +39,6 @@ The cyan color value. Range 0.0–100.0. Default: 0.0
 Number (double)
 
 ---
-
-<a id="jsobjref-cmykcolor-magenta"></a>
 
 ### CMYKColor.magenta
 
@@ -62,8 +54,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-cmykcolor-typename"></a>
-
 ### CMYKColor.typename
 
 `cmykColor.typename`
@@ -77,8 +67,6 @@ The class name of the referenced object.
 String; read-only.
 
 ---
-
-<a id="jsobjref-cmykcolor-yellow"></a>
 
 ### CMYKColor.yellow
 

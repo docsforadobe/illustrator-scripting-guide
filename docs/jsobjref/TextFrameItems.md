@@ -1,5 +1,3 @@
-<a id="jsobjref-textframeitems"></a>
-
 # TextFrameItems
 
 `app.activeDocument.textFrames`
@@ -11,8 +9,6 @@ The collection of [TextFrameItem](TextFrameItem.md#jsobjref-textframeitem) objec
 ---
 
 ## Properties
-
-<a id="jsobjref-textframeitems-length"></a>
 
 ### TextFrameItems.length
 
@@ -28,8 +24,6 @@ Number; read-only.
 
 ---
 
-<a id="jsobjref-textframeitems-parent"></a>
-
 ### TextFrameItems.parent
 
 `app.activeDocument.textFrames.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-textframeitems-typename"></a>
 
 ### TextFrameItems.typename
 
@@ -62,8 +54,6 @@ String; read-only.
 
 ## Methods
 
-<a id="jsobjref-textframeitems-add"></a>
-
 ### TextFrameItems.add()
 
 `app.activeDocument.textFrames.add()`
@@ -77,8 +67,6 @@ Creates a point text frame item.
 [TextFrameItem](TextFrameItem.md#jsobjref-textframeitem)
 
 ---
-
-<a id="jsobjref-textframeitems-areatext"></a>
 
 ### TextFrameItems.areaText()
 
@@ -103,8 +91,6 @@ Creates an area text frame item.
 
 ---
 
-<a id="jsobjref-textframeitems-getbyname"></a>
-
 ### TextFrameItems.getByName()
 
 `app.activeDocument.textFrames.getByName(name)`
@@ -125,8 +111,6 @@ Get the first element in the collection with the provided name.
 
 ---
 
-<a id="jsobjref-textframeitems-index"></a>
-
 ### TextFrameItems.index()
 
 `app.activeDocument.textFrames.index(itemKey)`
@@ -146,8 +130,6 @@ Gets an element from the collection.
 [TextFrameItem](TextFrameItem.md#jsobjref-textframeitem)
 
 ---
-
-<a id="jsobjref-textframeitems-pathtext"></a>
 
 ### TextFrameItems.pathText()
 
@@ -174,8 +156,6 @@ Creates an on-path text frame item.
 
 ---
 
-<a id="jsobjref-textframeitems-pointtext"></a>
-
 ### TextFrameItems.pointText()
 
 `app.activeDocument.textFrames.pointText(anchor[, orientation])`
@@ -196,8 +176,6 @@ Creates a point text frame item.
 [TextFrameItem](TextFrameItem.md#jsobjref-textframeitem)
 
 ---
-
-<a id="jsobjref-textframeitems-removeall"></a>
 
 ### TextFrameItems.removeAll()
 

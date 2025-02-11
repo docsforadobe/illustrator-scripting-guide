@@ -1,5 +1,3 @@
-<a id="jsobjref-pathitems"></a>
-
 # PathItems
 
 `app.activeDocument.pathItems`
@@ -16,8 +14,6 @@ If you do not provide any parameters when calling these methods, default values 
 
 ## Properties
 
-<a id="jsobjref-pathitems-length"></a>
-
 ### PathItems.length
 
 `app.activeDocument.pathItems.length`
@@ -32,8 +28,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-pathitems-parent"></a>
-
 ### PathItems.parent
 
 `app.activeDocument.pathItems.parent`
@@ -47,8 +41,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-pathitems-typename"></a>
 
 ### PathItems.typename
 
@@ -66,8 +58,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-pathitems-add"></a>
-
 ### PathItems.add()
 
 `app.activeDocument.pathItems.add()`
@@ -81,8 +71,6 @@ Creates a new object.
 [PathItem](PathItem.md#jsobjref-pathitem)
 
 ---
-
-<a id="jsobjref-pathitems-ellipse"></a>
 
 ### PathItems.ellipse()
 
@@ -119,8 +107,6 @@ Creates a new pathItem in the shape of an ellipse using the supplied parameters.
 
 ---
 
-<a id="jsobjref-pathitems-getbyname"></a>
-
 ### PathItems.getByName()
 
 `app.activeDocument.pathItems.getByName(name)`
@@ -141,8 +127,6 @@ Gets the first element in the collection with the specified name.
 
 ---
 
-<a id="jsobjref-pathitems-index"></a>
-
 ### PathItems.index()
 
 `app.activeDocument.pathItems.index(itemKey)`
@@ -162,8 +146,6 @@ Gets an element from the collection.
 [PathItem](PathItem.md#jsobjref-pathitem)
 
 ---
-
-<a id="jsobjref-pathitems-polygon"></a>
 
 ### PathItems.polygon()
 
@@ -199,8 +181,6 @@ Creates a new `pathItem` in the shape of an polygon using the supplied parameter
 
 ---
 
-<a id="jsobjref-pathitems-rectangle"></a>
-
 ### PathItems.rectangle()
 
 `app.activeDocument.pathItems.rectangle(top, left, width, height[,reversed])`
@@ -225,8 +205,6 @@ Creates a new `pathItem` in the shape of an polygon using the supplied parameter
 
 ---
 
-<a id="jsobjref-pathitems-removeall"></a>
-
 ### PathItems.removeAll()
 
 `app.activeDocument.pathItems.removeAll()`
@@ -240,8 +218,6 @@ Deletes all elements in this collection.
 Nothing
 
 ---
-
-<a id="jsobjref-pathitems-roundedrectangle"></a>
 
 ### PathItems.roundedRectangle()
 
@@ -276,8 +252,6 @@ Creates a new pathItem in the shape of a rectangle with rounded corners using th
 [PathItem](PathItem.md#jsobjref-pathitem)
 
 ---
-
-<a id="jsobjref-pathitems-star"></a>
 
 ### PathItems.star()
 

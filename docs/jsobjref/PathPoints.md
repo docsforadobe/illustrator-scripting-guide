@@ -1,5 +1,3 @@
-<a id="jsobjref-pathpoints"></a>
-
 # PathPoints
 
 `app.activeDocument.pathItems[index].pathPoints`
@@ -13,8 +11,6 @@ The elements are not named; you must access them by index.
 ---
 
 ## Properties
-
-<a id="jsobjref-pathpoints-length"></a>
 
 ### PathPoints.length
 
@@ -30,8 +26,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-pathpoints-parent"></a>
-
 ### PathPoints.parent
 
 `app.activeDocument.pathItems[index].pathPoints.parent`
@@ -45,8 +39,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-pathpoints-typename"></a>
 
 ### PathPoints.typename
 
@@ -64,8 +56,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-pathpoints-add"></a>
-
 ### PathPoints.add()
 
 `app.activeDocument.pathItems[index].pathPoints.add()`
@@ -79,8 +69,6 @@ Creates a new object.
 [PathPoint](PathPoint.md#jsobjref-pathpoint)
 
 ---
-
-<a id="jsobjref-pathpoints-index"></a>
 
 ### PathPoints.index()
 
@@ -101,8 +89,6 @@ Gets an element from the collection.
 [PathPoint](PathPoint.md#jsobjref-pathpoint)
 
 ---
-
-<a id="jsobjref-pathpoints-removeall"></a>
 
 ### PathPoints.removeAll()
 

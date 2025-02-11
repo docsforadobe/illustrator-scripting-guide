@@ -1,5 +1,3 @@
-<a id="jsobjref-openoptionsphotoshop"></a>
-
 # OpenOptionsPhotoshop
 
 `openOptionsPhotoshop`
@@ -11,8 +9,6 @@ Options for opening a Photoshop document, used with the [Application.open()](App
 ---
 
 ## Properties
-
-<a id="jsobjref-openoptionsphotoshop-layercomp"></a>
 
 ### OpenOptionsPhotoshop.layerComp
 
@@ -28,8 +24,6 @@ String.
 
 ---
 
-<a id="jsobjref-openoptionsphotoshop-preservehiddenlayers"></a>
-
 ### OpenOptionsPhotoshop.preserveHiddenLayers
 
 `openOptionsPhotoshop.preserveHiddenLayers`
@@ -43,8 +37,6 @@ If `true`, preserve hidden layers when the document is converted. Default: `fals
 Boolean.
 
 ---
-
-<a id="jsobjref-openoptionsphotoshop-preserveimagemaps"></a>
 
 ### OpenOptionsPhotoshop.preserveImageMaps
 
@@ -60,8 +52,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-openoptionsphotoshop-preservelayers"></a>
-
 ### OpenOptionsPhotoshop.preserveLayers
 
 `openOptionsPhotoshop.preserveLayers`
@@ -76,8 +66,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-openoptionsphotoshop-preserveslices"></a>
-
 ### OpenOptionsPhotoshop.preserveSlices
 
 `openOptionsPhotoshop.preserveSlices`
@@ -91,8 +79,6 @@ If `true`, preserve slices when the document is converted. Default: `true`.
 Boolean.
 
 ---
-
-<a id="jsobjref-openoptionsphotoshop-typename"></a>
 
 ### OpenOptionsPhotoshop.typename
 

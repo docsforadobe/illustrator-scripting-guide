@@ -1,5 +1,3 @@
-<a id="jsobjref-brush"></a>
-
 # Brush
 
 `app.activeDocument.brushes[index`
@@ -11,8 +9,6 @@ A brush in an Illustrator document. Brushes are contained in documents. Addition
 ---
 
 ## Properties
-
-<a id="jsobjref-brush-name"></a>
 
 ### Brush.name
 
@@ -28,8 +24,6 @@ String
 
 ---
 
-<a id="jsobjref-brush-parent"></a>
-
 ### Brush.parent
 
 `app.activeDocument.brushes[index].parent`
@@ -43,8 +37,6 @@ The document that contains this brush.
 [Document](Document.md#jsobjref-document); read-only.
 
 ---
-
-<a id="jsobjref-brush-typename"></a>
 
 ### Brush.typename
 
@@ -61,8 +53,6 @@ String; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-brush-applyto"></a>
 
 ### Brush.applyTo()
 

@@ -1,5 +1,3 @@
-<a id="jsobjref-ppdfile"></a>
-
 # PPDFile
 
 `app.PPDFileList[index`
@@ -11,8 +9,6 @@ Associates file information with a PostScript Printer Description (PPD) file.
 ---
 
 ## Properties
-
-<a id="jsobjref-ppdfile-name"></a>
 
 ### PPDFile.name
 
@@ -28,8 +24,6 @@ String
 
 ---
 
-<a id="jsobjref-ppdfile-ppdinfo"></a>
-
 ### PPDFile.PPDInfo
 
 `app.PPDFileList[index].PPDInfo`
@@ -43,8 +37,6 @@ The PPD file information.
 [PPDFileInfo](PPDFileInfo.md#jsobjref-ppdfileinfo)
 
 ---
-
-<a id="jsobjref-ppdfile-typename"></a>
 
 ### PPDFile.typename
 

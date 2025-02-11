@@ -1,5 +1,3 @@
-<a id="jsobjref-exportoptionsphotoshop"></a>
-
 # ExportOptionsPhotoshop
 
 `exportOptionsPhotoshop`
@@ -13,8 +11,6 @@ When you export a document, the appropriate file extension is appended automatic
 ---
 
 ## Properties
-
-<a id="jsobjref-exportoptionsphotoshop-antialiasing"></a>
 
 ### ExportOptionsPhotoshop.antiAliasing
 
@@ -30,8 +26,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsphotoshop-artboardrange"></a>
-
 ### ExportOptionsPhotoshop.artboardRange
 
 `exportOptionsPhotoshop.artboardRange`
@@ -45,8 +39,6 @@ If `saveMultipleArtboards` is true, this is considered for multi-asset extractio
 String.
 
 ---
-
-<a id="jsobjref-exportoptionsphotoshop-editabletext"></a>
 
 ### ExportOptionsPhotoshop.editableText
 
@@ -62,8 +54,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsphotoshop-embediccprofile"></a>
-
 ### ExportOptionsPhotoshop.embedICCProfile
 
 `exportOptionsPhotoshop.embedICCProfile`
@@ -77,8 +67,6 @@ If `true`, an ICC profile should be embedded in the exported file. Default: `fal
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionsphotoshop-imagecolorspace"></a>
 
 ### ExportOptionsPhotoshop.imageColorSpace
 
@@ -94,8 +82,6 @@ The color space of the exported file. Default: `ImageColorSpace.RGB`.
 
 ---
 
-<a id="jsobjref-exportoptionsphotoshop-maximumeditability"></a>
-
 ### ExportOptionsPhotoshop.maximumEditability
 
 `exportOptionsPhotoshop.maximumEditability`
@@ -109,8 +95,6 @@ Preserve as much of the original document’s structure as possible when exporti
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionsphotoshop-resolution"></a>
 
 ### ExportOptionsPhotoshop.resolution
 
@@ -126,8 +110,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-exportoptionsphotoshop-savemultipleartboards"></a>
-
 ### ExportOptionsPhotoshop.saveMultipleArtboards
 
 `exportOptionsPhotoshop.saveMultipleArtboards`
@@ -141,8 +123,6 @@ If `true`, all artboards or range of artboards are saved. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionsphotoshop-typename"></a>
 
 ### ExportOptionsPhotoshop.typename
 
@@ -158,8 +138,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-exportoptionsphotoshop-warnings"></a>
-
 ### ExportOptionsPhotoshop.warnings
 
 `exportOptionsPhotoshop.warnings`
@@ -173,8 +151,6 @@ If `true`, a warning dialog should be displayed in case of conflicts in the expo
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionsphotoshop-writelayers"></a>
 
 ### ExportOptionsPhotoshop.writeLayers
 

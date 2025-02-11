@@ -1,5 +1,3 @@
-<a id="scriptingvbscript-perspectivegrid"></a>
-
 # Working with the perspective grid
 
 The Perspective Grid is a new feature in lllustrator CC 2017 that enables you to create and manipulate art in a spatial environment using established laws of perspective. Enable Perspective Grid using the View > Perspective Grid menu or the perspective tools in the toolbar.

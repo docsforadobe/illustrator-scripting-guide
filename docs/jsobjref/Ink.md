@@ -1,5 +1,3 @@
-<a id="jsobjref-ink"></a>
-
 # Ink
 
 `app.activeDocument.inkLisk[index`
@@ -11,8 +9,6 @@ Associates a document ink name with ink information.
 ---
 
 ## Properties
-
-<a id="jsobjref-ink-inkinfo"></a>
 
 ### Ink.inkInfo
 
@@ -28,8 +24,6 @@ The ink information
 
 ---
 
-<a id="jsobjref-ink-name"></a>
-
 ### Ink.name
 
 `app.activeDocument.inkLisk[index].name`
@@ -43,8 +37,6 @@ The ink’s name.
 String.
 
 ---
-
-<a id="jsobjref-ink-typename"></a>
 
 ### Ink.typename
 

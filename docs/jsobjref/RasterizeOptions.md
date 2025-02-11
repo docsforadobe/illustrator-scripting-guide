@@ -1,5 +1,3 @@
-<a id="jsobjref-rasterizeoptions"></a>
-
 # RasterizeOptions
 
 `rasterizeOptions`
@@ -13,8 +11,6 @@ All properties are optional.
 ---
 
 ## Properties
-
-<a id="jsobjref-rasterizeoptions-antialiasingmethod"></a>
 
 ### RasterizeOptions.antiAliasingMethod
 
@@ -32,8 +28,6 @@ Default: `AntiAliasingMethod.ARTOPTIMIZED`
 
 ---
 
-<a id="jsobjref-rasterizeoptions-backgroundblack"></a>
-
 ### RasterizeOptions.backgroundBlack
 
 `rasterizeOptions.backgroundBlack`
@@ -49,8 +43,6 @@ Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-rasterizeoptions-clippingmask"></a>
 
 ### RasterizeOptions.clippingMask
 
@@ -68,8 +60,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-rasterizeoptions-colormodel"></a>
-
 ### RasterizeOptions.colorModel
 
 `rasterizeOptions.colorModel`
@@ -85,8 +75,6 @@ Default: `RasterizationColorModel.DEFAULTCOLORMODEL`
 [RasterizationColorModel](scripting-constants.md#jsobjref-scripting-constants-rasterizationcolormodel)
 
 ---
-
-<a id="jsobjref-rasterizeoptions-convertspotcolors"></a>
 
 ### RasterizeOptions.convertSpotColors
 
@@ -104,8 +92,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-rasterizeoptions-converttexttooutlines"></a>
-
 ### RasterizeOptions.convertTextToOutlines
 
 `rasterizeOptions.convertTextToOutlines`
@@ -121,8 +107,6 @@ Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-rasterizeoptions-includelayers"></a>
 
 ### RasterizeOptions.includeLayers
 
@@ -140,8 +124,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-rasterizeoptions-padding"></a>
-
 ### RasterizeOptions.padding
 
 `rasterizeOptions.padding`
@@ -158,8 +140,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-rasterizeoptions-resolution"></a>
-
 ### RasterizeOptions.resolution
 
 `rasterizeOptions.resolution`
@@ -175,8 +155,6 @@ Default: 300.0
 Number (double)
 
 ---
-
-<a id="jsobjref-rasterizeoptions-transparency"></a>
 
 ### RasterizeOptions.transparency
 

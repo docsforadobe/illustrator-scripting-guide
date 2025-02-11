@@ -1,5 +1,3 @@
-<a id="jsobjref-pathpoint"></a>
-
 # PathPoint
 
 `app.activeDocument.pathItems[index].pathPoints[index`
@@ -13,8 +11,6 @@ Each path point is made up of an anchor point (`anchor`) and a pair of handles (
 ---
 
 ## Properties
-
-<a id="jsobjref-pathpoint-anchor"></a>
 
 ### PathPoint.anchor
 
@@ -30,8 +26,6 @@ Array of 2 numbers
 
 ---
 
-<a id="jsobjref-pathpoint-leftdirection"></a>
-
 ### PathPoint.leftDirection
 
 `app.activeDocument.pathItems[index].pathPoints[index].leftDirection`
@@ -46,8 +40,6 @@ Array of 2 numbers
 
 ---
 
-<a id="jsobjref-pathpoint-parent"></a>
-
 ### PathPoint.parent
 
 `app.activeDocument.pathItems[index].pathPoints[index].parent`
@@ -61,8 +53,6 @@ The path item that contains this path point.
 [PathItem](PathItem.md#jsobjref-pathitem); read-only.
 
 ---
-
-<a id="jsobjref-pathpoint-pointtype"></a>
 
 ### PathPoint.pointType
 
@@ -80,8 +70,6 @@ Setting the type to a corner forces the left and right direction points to be on
 
 ---
 
-<a id="jsobjref-pathpoint-rightdirection"></a>
-
 ### PathPoint.rightDirection
 
 `app.activeDocument.pathItems[index].pathPoints[index].rightDirection`
@@ -96,8 +84,6 @@ Array of 2 numbers
 
 ---
 
-<a id="jsobjref-pathpoint-selected"></a>
-
 ### PathPoint.selected
 
 `app.activeDocument.pathItems[index].pathPoints[index].selected`
@@ -111,8 +97,6 @@ Are points of this path point selected, and if so, which ones.
 [PathPointSelection](scripting-constants.md#jsobjref-scripting-constants-pathpointselection)
 
 ---
-
-<a id="jsobjref-pathpoint-typename"></a>
 
 ### PathPoint.typename
 
@@ -129,8 +113,6 @@ String; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-pathpoint-remove"></a>
 
 ### PathPoint.remove()
 

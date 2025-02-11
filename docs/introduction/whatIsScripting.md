@@ -1,5 +1,3 @@
-<a id="introduction-whatisscripting"></a>
-
 # What is Scripting?
 
 A script is a series of commands that tells Illustrator to perform one or more tasks. These tasks can be simple, affecting only one object in the current document, or complex, affecting objects in all your Illustrator documents.

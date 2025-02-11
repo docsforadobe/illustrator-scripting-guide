@@ -1,5 +1,3 @@
-<a id="jsobjref-characters"></a>
-
 # Characters
 
 `app.activeDocument.textFrames[index].contents`
@@ -13,8 +11,6 @@ The elements are not named; you must access them by index.
 ---
 
 ## Properties
-
-<a id="jsobjref-characters-length"></a>
 
 ### Characters.length
 
@@ -30,8 +26,6 @@ Number; read-only.
 
 ---
 
-<a id="jsobjref-characters-parent"></a>
-
 ### Characters.parent
 
 `app.activeDocument.textFrames[index].contents.parent`
@@ -45,8 +39,6 @@ The text art item that contains this character.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-characters-typename"></a>
 
 ### Characters.typename
 
@@ -63,8 +55,6 @@ String; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-characters-add"></a>
 
 ### Characters.add()
 
@@ -90,8 +80,6 @@ If a location is not specified, adds the new character to the containing text fr
 
 ---
 
-<a id="jsobjref-characters-addbefore"></a>
-
 ### Characters.addBefore()
 
 `app.activeDocument.textFrames[index].contents.addBefore(contents)`
@@ -112,8 +100,6 @@ Adds a character before the specified text selection.
 
 ---
 
-<a id="jsobjref-characters-index"></a>
-
 ### Characters.index()
 
 `app.activeDocument.textFrames[index].contents.index(itemKey)`
@@ -133,8 +119,6 @@ Gets an element from the collection.
 [TextRange](TextRange.md#jsobjref-textrange)
 
 ---
-
-<a id="jsobjref-characters-removeall"></a>
 
 ### Characters.removeAll()
 

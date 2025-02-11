@@ -1,5 +1,3 @@
-<a id="jsobjref-nonnativeitems"></a>
-
 # NonNativeItems
 
 `nonNativeItems`
@@ -11,8 +9,6 @@ A collection of [NonNativeItem](NonNativeItem.md#jsobjref-nonnativeitem) objects
 ---
 
 ## Properties
-
-<a id="jsobjref-nonnativeitems-length"></a>
 
 ### NonNativeItems.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-nonnativeitems-parent"></a>
-
 ### NonNativeItems.parent
 
 `nonNativeItems.parent`
@@ -43,8 +37,6 @@ The parent of this object.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-nonnativeitems-typename"></a>
 
 ### NonNativeItems.typename
 
@@ -61,8 +53,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-nonnativeitems-getbyname"></a>
 
 ### NonNativeItems.getByName()
 

@@ -1,5 +1,3 @@
-<a id="jsobjref-documents"></a>
-
 # Documents
 
 `app.documents`
@@ -11,8 +9,6 @@ A collection of [Document](Document.md#jsobjref-document) objects.
 ---
 
 ## Properties
-
-<a id="jsobjref-documents-length"></a>
 
 ### Documents.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-documents-parent"></a>
-
 ### Documents.parent
 
 `app.documents.parent`
@@ -43,8 +37,6 @@ The parent of this object.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-documents-typename"></a>
 
 ### Documents.typename
 
@@ -61,8 +53,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-documents-add"></a>
 
 ### Documents.add()
 
@@ -94,8 +84,6 @@ Creates a new document using optional parameters and returns a reference to the 
 
 ---
 
-<a id="jsobjref-documents-adddocument"></a>
-
 ### Documents.addDocument()
 
 `app.documents.addDocument(startupPreset [, presetSettings] [, showOptionsDialog])`
@@ -118,8 +106,6 @@ Creates a document from the preset, replacing any provided setting values, and r
 
 ---
 
-<a id="jsobjref-documents-adddocumentnoui"></a>
-
 ### Documents.addDocumentNoUI()
 
 `app.documents.addDocumentNoUI(startupPreset)`
@@ -140,8 +126,6 @@ Creates a document without showing in UI.
 
 ---
 
-<a id="jsobjref-documents-getbyname"></a>
-
 ### Documents.getByName()
 
 `app.documents.getByName(name)`
@@ -161,8 +145,6 @@ Gets the first element in the collection with the specified name.
 [Document](Document.md#jsobjref-document)
 
 ---
-
-<a id="jsobjref-documents-index"></a>
 
 ### Documents.index()
 

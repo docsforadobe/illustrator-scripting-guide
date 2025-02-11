@@ -1,12 +1,8 @@
-<a id="introduction-viewingtheobjectmodel"></a>
-
 # Viewing the object model
 
 Each of the supported scripting languages provides a facility for viewing the scripting objects defined by Illustrator, with reference details.
 
 ---
-
-<a id="introduction-viewingtheobjectmodel-javascript"></a>
 
 ## Viewing the JavaScript object model
 
@@ -26,8 +22,6 @@ Several extended sample scripts are in the `/Scripting/Sample Scripts/` folder i
 You also can view script samples and information about individual classes, objects, properties, methods, and parameters in [Illustrator Scripting Reference: Javascript](../scriptingJavascript/forMoreInfo.md#scriptingjavascript-formoreinfo).
 
 ---
-
-<a id="introduction-viewingtheobjectmodel-applescript"></a>
 
 ## Viewing the AppleScript object model
 
@@ -51,8 +45,6 @@ Several extended sample scripts are in the `/Scripting/Sample Scripts/` folder i
 You also can view script samples and information about individual classes, objects, properties, methods, and parameters in [Illustrator Scripting Reference: Applescript](../scriptingApplescript/forMoreInfo.md#scriptingapplescript-formoreinfo).
 
 ---
-
-<a id="introduction-viewingtheobjectmodel-vbscript"></a>
 
 ## Viewing the VBScript object model
 

@@ -1,5 +1,3 @@
-<a id="introduction-scriptinglanguagesupport"></a>
-
 # Scripting language support in Adobe Illustrator CC
 
 Illustrator scripting supports VBScript and JavaScript scripts for Windows, and AppleScript and JavaScript scripts for Mac OS.

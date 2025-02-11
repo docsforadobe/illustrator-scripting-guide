@@ -1,5 +1,3 @@
-<a id="jsobjref-artboard"></a>
-
 # Artboard
 
 `artboard`
@@ -9,8 +7,6 @@
 An Artboard object represents a single artboard in a document. There can be between 1 to 100 artboards in one document.
 
 ## Properties
-
-<a id="jsobjref-artboard-artboardrect"></a>
 
 ### Artboard.artboardRect
 
@@ -26,8 +22,6 @@ Rect
 
 ---
 
-<a id="jsobjref-artboard-name"></a>
-
 ### Artboard.name
 
 `artboard.name`
@@ -41,8 +35,6 @@ The unique identifying name of the artboard.
 String
 
 ---
-
-<a id="jsobjref-artboard-parent"></a>
 
 ### Artboard.parent
 
@@ -58,8 +50,6 @@ The parent of this object.
 
 ---
 
-<a id="jsobjref-artboard-rulerorigin"></a>
-
 ### Artboard.rulerOrigin
 
 `artboard.rulerOrigin`
@@ -73,8 +63,6 @@ Ruler origin of the artboard, relative to the top left corner of the artboard.
 Point
 
 ---
-
-<a id="jsobjref-artboard-rulerpar"></a>
 
 ### Artboard.rulerPAR
 
@@ -92,8 +80,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-artboard-showcenter"></a>
-
 ### Artboard.showCenter
 
 `artboard.showCenter`
@@ -107,8 +93,6 @@ Show center mark.
 Boolean
 
 ---
-
-<a id="jsobjref-artboard-showcrosshairs"></a>
 
 ### Artboard.showCrossHairs
 
@@ -124,8 +108,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-artboard-showsafeareas"></a>
-
 ### Artboard.showSafeAreas
 
 `artboard.showSafeAreas`
@@ -139,8 +121,6 @@ Show title and action safe areas (for video).
 Boolean
 
 ---
-
-<a id="jsobjref-artboard-typename"></a>
 
 ### Artboard.typename
 
@@ -157,8 +137,6 @@ String
 ---
 
 ## Methods
-
-<a id="jsobjref-artboard-remove"></a>
 
 ### Artboard.remove()
 

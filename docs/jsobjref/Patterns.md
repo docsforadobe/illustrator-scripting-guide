@@ -1,5 +1,3 @@
-<a id="jsobjref-patterns"></a>
-
 # Patterns
 
 `app.activeDocument.patterns`
@@ -11,8 +9,6 @@ A collection of [Pattern](Pattern.md#jsobjref-pattern) objects in a document.
 ---
 
 ## Properties
-
-<a id="jsobjref-patterns-length"></a>
 
 ### Patterns.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-patterns-parent"></a>
-
 ### Patterns.parent
 
 `app.activeDocument.patterns.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-patterns-typename"></a>
 
 ### Patterns.typename
 
@@ -62,8 +54,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-patterns-add"></a>
-
 ### Patterns.add()
 
 `app.activeDocument.patterns.add()`
@@ -77,8 +67,6 @@ Creates a new object.
 [Pattern](Pattern.md#jsobjref-pattern)
 
 ---
-
-<a id="jsobjref-patterns-getbyname"></a>
 
 ### Patterns.getByName()
 
@@ -100,8 +88,6 @@ Get the first element in the collection with the provided name.
 
 ---
 
-<a id="jsobjref-patterns-index"></a>
-
 ### Patterns.index()
 
 `app.activeDocument.patterns.index(itemKey)`
@@ -121,8 +107,6 @@ Gets an element from the collection.
 [Pattern](Pattern.md#jsobjref-pattern)
 
 ---
-
-<a id="jsobjref-patterns-removeall"></a>
 
 ### Patterns.removeAll()
 

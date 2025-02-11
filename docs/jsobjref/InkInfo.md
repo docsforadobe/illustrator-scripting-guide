@@ -1,5 +1,3 @@
-<a id="jsobjref-inkinfo"></a>
-
 # InkInfo
 
 `app.activeDocument.inkList[index].inkInfo`
@@ -11,8 +9,6 @@ Ink information for printing a document.
 ---
 
 ## Properties
-
-<a id="jsobjref-inkinfo-angle"></a>
 
 ### InkInfo.angle
 
@@ -28,8 +24,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-inkinfo-customcolor"></a>
-
 ### InkInfo.customColor
 
 `app.activeDocument.inkList[index].inkInfo.customColor`
@@ -43,8 +37,6 @@ The color of the custom ink.
 [Color](Color.md#jsobjref-color)
 
 ---
-
-<a id="jsobjref-inkinfo-density"></a>
 
 ### InkInfo.density
 
@@ -60,8 +52,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-inkinfo-dotshape"></a>
-
 ### InkInfo.dotShape
 
 `app.activeDocument.inkList[index].inkInfo.dotShape`
@@ -75,8 +65,6 @@ The dot shape name.
 String.
 
 ---
-
-<a id="jsobjref-inkinfo-frequency"></a>
 
 ### InkInfo.frequency
 
@@ -92,8 +80,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-inkinfo-kind"></a>
-
 ### InkInfo.kind
 
 `app.activeDocument.inkList[index].inkInfo.kind`
@@ -107,8 +93,6 @@ The ink type.
 [InkType](scripting-constants.md#jsobjref-scripting-constants-inktype)
 
 ---
-
-<a id="jsobjref-inkinfo-printingstatus"></a>
 
 ### InkInfo.printingStatus
 
@@ -124,8 +108,6 @@ The ink printing status.
 
 ---
 
-<a id="jsobjref-inkinfo-trapping"></a>
-
 ### InkInfo.trapping
 
 `app.activeDocument.inkList[index].inkInfo.trapping`
@@ -140,8 +122,6 @@ The trapping type.
 
 ---
 
-<a id="jsobjref-inkinfo-trappingorder"></a>
-
 ### InkInfo.trappingOrder
 
 `app.activeDocument.inkList[index].inkInfo.trappingOrder`
@@ -155,8 +135,6 @@ The order of trapping for the ink. Range: 1 to 4 for CMYK.
 Number (long).
 
 ---
-
-<a id="jsobjref-inkinfo-typename"></a>
 
 ### InkInfo.typename
 

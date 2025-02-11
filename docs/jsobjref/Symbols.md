@@ -1,5 +1,3 @@
-<a id="jsobjref-symbols"></a>
-
 # Symbols
 
 `app.activeDocument.symbols`
@@ -11,8 +9,6 @@ The collection of [Symbol](Symbol.md#jsobjref-symbol) objects in the document.
 ---
 
 ## Properties
-
-<a id="jsobjref-symbols-length"></a>
 
 ### Symbols.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-symbols-parent"></a>
-
 ### Symbols.parent
 
 `app.activeDocument.symbols.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-symbols-typename"></a>
 
 ### Symbols.typename
 
@@ -61,8 +53,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-symbols-add"></a>
 
 ### Symbols.add()
 
@@ -96,8 +86,6 @@ The default registration point is `SymbolRegistrationPoint.SYMBOLCENTERPOINT`.
 
 ---
 
-<a id="jsobjref-symbols-getbyname"></a>
-
 ### Symbols.getByName()
 
 `app.activeDocument.symbols.getByName(name)`
@@ -118,8 +106,6 @@ Get the first element in the collection with the provided name.
 
 ---
 
-<a id="jsobjref-symbols-index"></a>
-
 ### Symbols.index()
 
 `app.activeDocument.symbols.index(itemKey)`
@@ -139,8 +125,6 @@ Gets an element from the collection.
 [Symbol](Symbol.md#jsobjref-symbol)
 
 ---
-
-<a id="jsobjref-symbols-removeall"></a>
 
 ### Symbols.removeAll()
 

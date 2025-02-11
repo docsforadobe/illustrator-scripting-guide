@@ -1,5 +1,3 @@
-<a id="jsobjref-meshitems"></a>
-
 # MeshItems
 
 `app.activeDocument.meshItems`
@@ -11,8 +9,6 @@ A collection of [MeshItem](MeshItem.md#jsobjref-meshitem) objects.
 ---
 
 ## Properties
-
-<a id="jsobjref-meshitems-length"></a>
 
 ### MeshItems.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-meshitems-parent"></a>
-
 ### MeshItems.parent
 
 `app.activeDocument.meshItems.parent`
@@ -43,8 +37,6 @@ The parent of this object.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-meshitems-typename"></a>
 
 ### MeshItems.typename
 
@@ -61,8 +53,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-meshitems-getbyname"></a>
 
 ### MeshItems.getByName()
 
@@ -84,8 +74,6 @@ Gets the first element in the collection with the specified name.
 
 ---
 
-<a id="jsobjref-meshitems-index"></a>
-
 ### MeshItems.index()
 
 `app.activeDocument.meshItems.index(itemKey)`
@@ -105,8 +93,6 @@ Gets an element from the collection.
 [MeshItem](MeshItem.md#jsobjref-meshitem)
 
 ---
-
-<a id="jsobjref-meshitems-removeall"></a>
 
 ### MeshItems.removeAll()
 

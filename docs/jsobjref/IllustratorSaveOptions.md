@@ -1,5 +1,3 @@
-<a id="jsobjref-illustratorsaveoptions"></a>
-
 # IllustratorSaveOptions
 
 `illustratorSaveOptions`
@@ -11,8 +9,6 @@ Options for saving a document as an Illustrator file, used with the [Document.sa
 ---
 
 ## Properties
-
-<a id="jsobjref-illustratorsaveoptions-artboardrange"></a>
 
 ### IllustratorSaveOptions.artboardRange
 
@@ -28,8 +24,6 @@ String.
 
 ---
 
-<a id="jsobjref-illustratorsaveoptions-compatibility"></a>
-
 ### IllustratorSaveOptions.compatibility
 
 `illustratorSaveOptions.compatibility`
@@ -43,8 +37,6 @@ Specifies the version of Illustrator file format to create. Default: `Compatibil
 [Compatibility](scripting-constants.md#jsobjref-scripting-constants-compatibility)
 
 ---
-
-<a id="jsobjref-illustratorsaveoptions-compressed"></a>
 
 ### IllustratorSaveOptions.compressed
 
@@ -60,8 +52,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-illustratorsaveoptions-embediccprofile"></a>
-
 ### IllustratorSaveOptions.embedICCProfile
 
 `illustratorSaveOptions.embedICCProfile`
@@ -75,8 +65,6 @@ Boolean.
 Boolean.
 
 ---
-
-<a id="jsobjref-illustratorsaveoptions-embedlinkedfiles"></a>
 
 ### IllustratorSaveOptions.embedLinkedFiles
 
@@ -92,8 +80,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-illustratorsaveoptions-flattenoutput"></a>
-
 ### IllustratorSaveOptions.flattenOutput
 
 `illustratorSaveOptions.flattenOutput`
@@ -107,8 +93,6 @@ Boolean.
 [OutputFlattening](scripting-constants.md#jsobjref-scripting-constants-outputflattening)
 
 ---
-
-<a id="jsobjref-illustratorsaveoptions-fontsubsetthreshold"></a>
 
 ### IllustratorSaveOptions.fontSubsetThreshold
 
@@ -124,8 +108,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-illustratorsaveoptions-pdfcompatible"></a>
-
 ### IllustratorSaveOptions.pdfCompatible
 
 `illustratorSaveOptions.pdfCompatible`
@@ -140,8 +122,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-illustratorsaveoptions-savemultipleartboards"></a>
-
 ### IllustratorSaveOptions.saveMultipleArtboards
 
 `illustratorSaveOptions.saveMultipleArtboards`
@@ -155,8 +135,6 @@ If `true`, all artboards or range of the artboards are saved. Valid for Illustra
 Boolean.
 
 ---
-
-<a id="jsobjref-illustratorsaveoptions-typename"></a>
 
 ### IllustratorSaveOptions.typename
 

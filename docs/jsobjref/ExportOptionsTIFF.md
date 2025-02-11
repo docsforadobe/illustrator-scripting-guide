@@ -1,5 +1,3 @@
-<a id="jsobjref-exportoptionstiff"></a>
-
 # ExportOptionsTIFF
 
 `exportOptionsTIFF`
@@ -13,8 +11,6 @@ When you export a document, the appropriate file extension is appended automatic
 ---
 
 ## Properties
-
-<a id="jsobjref-exportoptionstiff-antialiasing"></a>
 
 ### ExportOptionsTIFF.antiAliasing
 
@@ -30,8 +26,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionstiff-artboardrange"></a>
-
 ### ExportOptionsTIFF.artboardRange
 
 `exportOptionsTIFF.artboardRange`
@@ -45,8 +39,6 @@ If `saveMultipleArtboards` is `true`, this is considered for multi-asset extract
 String.
 
 ---
-
-<a id="jsobjref-exportoptionstiff-byteorder"></a>
 
 ### ExportOptionsTIFF.byteOrder
 
@@ -62,8 +54,6 @@ The byte order to use in the new file.
 
 ---
 
-<a id="jsobjref-exportoptionstiff-imagecolorspace"></a>
-
 ### ExportOptionsTIFF.imageColorSpace
 
 `exportOptionsTIFF.imageColorSpace`
@@ -77,8 +67,6 @@ The color space of the exported file. Default: `ImageColorSpace.RGB`.
 [ImageColorSpace](scripting-constants.md#jsobjref-scripting-constants-imagecolorspace)
 
 ---
-
-<a id="jsobjref-exportoptionstiff-lzwcompression"></a>
 
 ### ExportOptionsTIFF.lZWCompression
 
@@ -97,8 +85,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionstiff-resolution"></a>
-
 ### ExportOptionsTIFF.resolution
 
 `exportOptionsTIFF.resolution`
@@ -112,8 +98,6 @@ Resolution of the exported file in dots per inch (dpi). Range: 72.0 to 2400.0. D
 Number (double).
 
 ---
-
-<a id="jsobjref-exportoptionstiff-savemultipleartboards"></a>
 
 ### ExportOptionsTIFF.saveMultipleArtboards
 

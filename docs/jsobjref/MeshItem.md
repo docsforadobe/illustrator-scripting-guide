@@ -1,5 +1,3 @@
-<a id="jsobjref-meshitem"></a>
-
 # MeshItem
 
 `app.activeDocument.meshItems[index`
@@ -11,8 +9,6 @@ A gradient mesh art item. You cannot create mesh items from a script. However, y
 ---
 
 ## Properties
-
-<a id="jsobjref-meshitem-artworkknockout"></a>
 
 ### MeshItem.artworkKnockout
 
@@ -28,8 +24,6 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 ---
 
-<a id="jsobjref-meshitem-blendingmode"></a>
-
 ### MeshItem.blendingMode
 
 `app.activeDocument.meshItems[index].blendingMode`
@@ -43,8 +37,6 @@ The blend mode used when compositing an object.
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
 ---
-
-<a id="jsobjref-meshitem-controlbounds"></a>
 
 ### MeshItem.controlBounds
 
@@ -60,8 +52,6 @@ Array of 4 numbers, read-only.
 
 ---
 
-<a id="jsobjref-meshitem-editable"></a>
-
 ### MeshItem.editable
 
 `app.activeDocument.meshItems[index].editable`
@@ -75,8 +65,6 @@ If `true`, this item is editable.
 Boolean, read-only.
 
 ---
-
-<a id="jsobjref-meshitem-geometricbounds"></a>
 
 ### MeshItem.geometricBounds
 
@@ -92,8 +80,6 @@ Array of 4 numbers, read-only.
 
 ---
 
-<a id="jsobjref-meshitem-height"></a>
-
 ### MeshItem.height
 
 `app.activeDocument.meshItems[index].height`
@@ -107,8 +93,6 @@ The height of the group item.
 Number (double).
 
 ---
-
-<a id="jsobjref-meshitem-hidden"></a>
 
 ### MeshItem.hidden
 
@@ -124,8 +108,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-meshitem-isisolated"></a>
-
 ### MeshItem.isIsolated
 
 `app.activeDocument.meshItems[index].isIsolated`
@@ -139,8 +121,6 @@ If `true`, this object is isolated.
 Boolean.
 
 ---
-
-<a id="jsobjref-meshitem-layer"></a>
 
 ### MeshItem.layer
 
@@ -156,8 +136,6 @@ The layer to which this item belongs.
 
 ---
 
-<a id="jsobjref-meshitem-left"></a>
-
 ### MeshItem.left
 
 `app.activeDocument.meshItems[index].left`
@@ -171,8 +149,6 @@ The position of the left side of the item (in points, measured from the left sid
 Number (double).
 
 ---
-
-<a id="jsobjref-meshitem-locked"></a>
 
 ### MeshItem.locked
 
@@ -188,8 +164,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-meshitem-name"></a>
-
 ### MeshItem.name
 
 `app.activeDocument.meshItems[index].name`
@@ -203,8 +177,6 @@ The name of this item.
 String.
 
 ---
-
-<a id="jsobjref-meshitem-note"></a>
 
 ### MeshItem.note
 
@@ -220,8 +192,6 @@ String.
 
 ---
 
-<a id="jsobjref-meshitem-opacity"></a>
-
 ### MeshItem.opacity
 
 `app.activeDocument.meshItems[index].opacity`
@@ -235,8 +205,6 @@ The opacity of the object. Range: 0.0 to 100.0.
 Number (double).
 
 ---
-
-<a id="jsobjref-meshitem-parent"></a>
 
 ### MeshItem.parent
 
@@ -252,8 +220,6 @@ The parent of this object.
 
 ---
 
-<a id="jsobjref-meshitem-position"></a>
-
 ### MeshItem.position
 
 `app.activeDocument.meshItems[index].position`
@@ -267,8 +233,6 @@ The position (in points) of the top left corner of the [MeshItem](#jsobjref-mesh
 Array of 2 numbers.
 
 ---
-
-<a id="jsobjref-meshitem-selected"></a>
 
 ### MeshItem.selected
 
@@ -284,8 +248,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-meshitem-sliced"></a>
-
 ### MeshItem.sliced
 
 `app.activeDocument.meshItems[index].sliced`
@@ -299,8 +261,6 @@ If `true`, the item sliced. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-meshitem-tags"></a>
 
 ### MeshItem.tags
 
@@ -316,8 +276,6 @@ The tags contained in this item.
 
 ---
 
-<a id="jsobjref-meshitem-top"></a>
-
 ### MeshItem.top
 
 `app.activeDocument.meshItems[index].top`
@@ -331,8 +289,6 @@ The position of the top of the item (in points, measured from the bottom of the 
 Number (double).
 
 ---
-
-<a id="jsobjref-meshitem-typename"></a>
 
 ### MeshItem.typename
 
@@ -348,8 +304,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-meshitem-url"></a>
-
 ### MeshItem.uRL
 
 `app.activeDocument.meshItems[index].uRL`
@@ -363,8 +317,6 @@ The value of the Adobe URL tag assigned to this item.
 String.
 
 ---
-
-<a id="jsobjref-meshitem-visibilityvariable"></a>
 
 ### MeshItem.visibilityVariable
 
@@ -380,8 +332,6 @@ The visibility variable bound to the item.
 
 ---
 
-<a id="jsobjref-meshitem-visiblebounds"></a>
-
 ### MeshItem.visibleBounds
 
 `app.activeDocument.meshItems[index].visibleBounds`
@@ -395,8 +345,6 @@ The visible bounds of the item including stroke width.
 Array of 4 numbers, read-only.
 
 ---
-
-<a id="jsobjref-meshitem-width"></a>
 
 ### MeshItem.width
 
@@ -412,8 +360,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-meshitem-wrapinside"></a>
-
 ### MeshItem.wrapInside
 
 `app.activeDocument.meshItems[index].wrapInside`
@@ -427,8 +373,6 @@ If `true`, the text frame object should be wrapped inside this object.
 Boolean.
 
 ---
-
-<a id="jsobjref-meshitem-wrapoffset"></a>
 
 ### MeshItem.wrapOffset
 
@@ -444,8 +388,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-meshitem-wrapped"></a>
-
 ### MeshItem.wrapped
 
 `app.activeDocument.meshItems[index].wrapped`
@@ -459,8 +401,6 @@ If `true`, wrap text frame objects around this object (text frame must be above 
 Boolean.
 
 ---
-
-<a id="jsobjref-meshitem-zorderposition"></a>
 
 ### MeshItem.zOrderPosition
 
@@ -477,8 +417,6 @@ Number (long), read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-meshitem-duplicate"></a>
 
 ### MeshItem.duplicate()
 
@@ -501,8 +439,6 @@ Creates a duplicate of the selected object.
 
 ---
 
-<a id="jsobjref-meshitem-move"></a>
-
 ### MeshItem.move()
 
 `app.activeDocument.meshItems[index].move(relativeObject, insertionLocation)`
@@ -524,8 +460,6 @@ Moves the object.
 
 ---
 
-<a id="jsobjref-meshitem-remove"></a>
-
 ### MeshItem.remove()
 
 `app.activeDocument.meshItems[index].move()`
@@ -539,8 +473,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-meshitem-resize"></a>
 
 ### MeshItem.resize()
 
@@ -574,8 +506,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-meshitem-rotate"></a>
-
 ### MeshItem.rotate()
 
 ```default
@@ -605,8 +535,6 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 Nothing.
 
 ---
-
-<a id="jsobjref-meshitem-transform"></a>
 
 ### MeshItem.transform()
 
@@ -639,8 +567,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-meshitem-translate"></a>
-
 ### MeshItem.translate()
 
 ```default
@@ -670,8 +596,6 @@ Repositions the art item relative to the current position, where `deltaX` is the
 Nothing.
 
 ---
-
-<a id="jsobjref-meshitem-zorder"></a>
 
 ### MeshItem.zOrder()
 

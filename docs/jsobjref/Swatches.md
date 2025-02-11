@@ -1,5 +1,3 @@
-<a id="jsobjref-swatches"></a>
-
 # Swatches
 
 `app.activeDocument.swatches`
@@ -11,8 +9,6 @@ The collection of [Swatch](Swatch.md#jsobjref-swatch) objects in the document.
 ---
 
 ## Properties
-
-<a id="jsobjref-swatches-length"></a>
 
 ### Swatches.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-swatches-parent"></a>
-
 ### Swatches.parent
 
 `app.activeDocument.swatches.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-swatches-typename"></a>
 
 ### Swatches.typename
 
@@ -62,8 +54,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-swatches-add"></a>
-
 ### Swatches.add()
 
 `app.activeDocument.swatches.add()`
@@ -77,8 +67,6 @@ Creates a new [Swatch](Swatch.md#jsobjref-swatch) object.
 [Swatch](Swatch.md#jsobjref-swatch)
 
 ---
-
-<a id="jsobjref-swatches-getbyname"></a>
 
 ### Swatches.getByName()
 
@@ -100,8 +88,6 @@ Get the first element in the collection with the provided name.
 
 ---
 
-<a id="jsobjref-swatches-getselected"></a>
-
 ### Swatches.getSelected()
 
 `app.activeDocument.swatches.getSelected()`
@@ -115,8 +101,6 @@ Gets selected swatches in the document.
 List of [Swatch](Swatch.md#jsobjref-swatch)
 
 ---
-
-<a id="jsobjref-swatches-index"></a>
 
 ### Swatches.index()
 
@@ -137,8 +121,6 @@ Gets an element from the collection.
 [Swatch](Swatch.md#jsobjref-swatch)
 
 ---
-
-<a id="jsobjref-swatches-removeall"></a>
 
 ### Swatches.removeAll()
 

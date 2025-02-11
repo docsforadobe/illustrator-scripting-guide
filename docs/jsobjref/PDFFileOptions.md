@@ -1,5 +1,3 @@
-<a id="jsobjref-pdffileoptions"></a>
-
 # PDFFileOptions
 
 `app.preferences.PDFFileOptions`
@@ -13,8 +11,6 @@ All properties are optional.
 ---
 
 ## Properties
-
-<a id="jsobjref-pdffileoptions-pagetoopen"></a>
 
 ### PDFFileOptions.pageToOpen
 
@@ -32,8 +28,6 @@ Number (long)
 
 ---
 
-<a id="jsobjref-pdffileoptions-parent"></a>
-
 ### PDFFileOptions.parent
 
 `app.preferences.PDFFileOptions.parent`
@@ -47,8 +41,6 @@ The object’s container.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-pdffileoptions-pdfcroptobox"></a>
 
 ### PDFFileOptions.pDFCropToBox
 
@@ -65,8 +57,6 @@ Default: `PDFBoxType.PDFMediaBox`
 [PDFBoxType](scripting-constants.md#jsobjref-scripting-constants-pdfboxtype)
 
 ---
-
-<a id="jsobjref-pdffileoptions-typename"></a>
 
 ### PDFFileOptions.typename
 

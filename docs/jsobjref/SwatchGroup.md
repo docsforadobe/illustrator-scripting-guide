@@ -1,5 +1,3 @@
-<a id="jsobjref-swatchgroup"></a>
-
 # SwatchGroup
 
 `swatchGroup`
@@ -11,8 +9,6 @@ A group of [Swatch](Swatch.md#jsobjref-swatch) objects.
 ---
 
 ## Properties
-
-<a id="jsobjref-swatchgroup-name"></a>
 
 ### SwatchGroup.name
 
@@ -28,8 +24,6 @@ string
 
 ---
 
-<a id="jsobjref-swatchgroup-parent"></a>
-
 ### SwatchGroup.parent
 
 `swatchGroup.parent`
@@ -43,8 +37,6 @@ The object that contains the swatch group.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-swatchgroup-typename"></a>
 
 ### SwatchGroup.typename
 
@@ -61,8 +53,6 @@ String, read-only
 ---
 
 ## Methods
-
-<a id="jsobjref-swatchgroup-addspot"></a>
 
 ### SwatchGroup.addSpot()
 
@@ -84,8 +74,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-swatchgroup-addswatch"></a>
-
 ### SwatchGroup.addSwatch()
 
 `swatchGroup.addSwatch(swatch)`
@@ -106,8 +94,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-swatchgroup-getallswatches"></a>
-
 ### SwatchGroup.getAllSwatches()
 
 `swatchGroup.getAllSwatches()`
@@ -122,8 +108,6 @@ List of [Swatch](Swatch.md#jsobjref-swatch)
 
 ---
 
-<a id="jsobjref-swatchgroup-remove"></a>
-
 ### SwatchGroup.remove()
 
 `swatchGroup.remove()`
@@ -137,8 +121,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-swatchgroup-removeall"></a>
 
 ### SwatchGroup.removeAll()
 

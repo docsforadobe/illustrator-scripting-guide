@@ -1,5 +1,3 @@
-<a id="jsobjref-printcolormanagementoptions"></a>
-
 # PrintColorManagementOptions
 
 `new PrintColorManagementOptions()`
@@ -11,8 +9,6 @@ Information used for color management of the document.
 ---
 
 ## Properties
-
-<a id="jsobjref-printcolormanagementoptions-colorprofilemode"></a>
 
 ### PrintColorManagementOptions.colorProfileMode
 
@@ -28,8 +24,6 @@ The color management profile mode. Default: `PrintColorProfile.SOURCEPROFILE`
 
 ---
 
-<a id="jsobjref-printcolormanagementoptions-intent"></a>
-
 ### PrintColorManagementOptions.intent
 
 `printColorManagementOptions.intent`
@@ -44,8 +38,6 @@ The color management intent type. Default: `PrintColorIntent.RELATIVECOLORIMETRI
 
 ---
 
-<a id="jsobjref-printcolormanagementoptions-name"></a>
-
 ### PrintColorManagementOptions.name
 
 `printColorManagementOptions.name`
@@ -59,8 +51,6 @@ The color management profile name.
 String
 
 ---
-
-<a id="jsobjref-printcolormanagementoptions-typename"></a>
 
 ### PrintColorManagementOptions.typename
 

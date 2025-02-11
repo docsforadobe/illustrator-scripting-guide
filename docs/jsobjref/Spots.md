@@ -1,5 +1,3 @@
-<a id="jsobjref-spots"></a>
-
 # Spots
 
 `app.activeDocument.spots`
@@ -11,8 +9,6 @@ A collection of [SpotColor](SpotColor.md#jsobjref-spotcolor) objects in a docume
 ---
 
 ## Properties
-
-<a id="jsobjref-spots-length"></a>
 
 ### Spots.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-spots-parent"></a>
-
 ### Spots.parent
 
 `app.activeDocument.spots.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-spots-typename"></a>
 
 ### Spots.typename
 
@@ -62,8 +54,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-spots-add"></a>
-
 ### Spots.add()
 
 `app.activeDocument.spots.add()`
@@ -77,8 +67,6 @@ Creates a new object.
 [Spot](Spot.md#jsobjref-spot)
 
 ---
-
-<a id="jsobjref-spots-getbyname"></a>
 
 ### Spots.getByName()
 
@@ -100,8 +88,6 @@ Get the first element in the collection with the provided name.
 
 ---
 
-<a id="jsobjref-spots-index"></a>
-
 ### Spots.index()
 
 `app.activeDocument.spots.index(itemKey)`
@@ -121,8 +107,6 @@ Gets an element from the collection.
 [Spot](Spot.md#jsobjref-spot)
 
 ---
-
-<a id="jsobjref-spots-removeall"></a>
 
 ### Spots.removeAll()
 

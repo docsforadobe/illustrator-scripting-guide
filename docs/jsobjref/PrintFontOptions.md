@@ -1,5 +1,3 @@
-<a id="jsobjref-printfontoptions"></a>
-
 # PrintFontOptions
 
 `new PrintFontOptions()`
@@ -11,8 +9,6 @@ Contains information about font downloading and substitution for the fonts used 
 ---
 
 ## Properties
-
-<a id="jsobjref-printfontoptions-downloadfonts"></a>
 
 ### PrintFontOptions.downloadFonts
 
@@ -30,8 +26,6 @@ Default: `PrintFontDownloadMode.DOWNLOADSUBSET`
 
 ---
 
-<a id="jsobjref-printfontoptions-fontsubstitution"></a>
-
 ### PrintFontOptions.fontSubstitution
 
 `printFontOptions.fontSubstitution`
@@ -47,8 +41,6 @@ Default: `FontSubstitutionPolicy.SUBSTITUTEOBLIQUE`
 [FontSubstitutionPolicy](scripting-constants.md#jsobjref-scripting-constants-fontsubstitutionpolicy)
 
 ---
-
-<a id="jsobjref-printfontoptions-typename"></a>
 
 ### PrintFontOptions.typename
 

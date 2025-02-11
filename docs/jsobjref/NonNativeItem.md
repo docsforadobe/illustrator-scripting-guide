@@ -1,5 +1,3 @@
-<a id="jsobjref-nonnativeitem"></a>
-
 # NonNativeItem
 
 `nonNativeItems[index`
@@ -11,8 +9,6 @@ A non-native artwork item.
 ---
 
 ## Properties
-
-<a id="jsobjref-nonnativeitem-artworkknockout"></a>
 
 ### NonNativeItem.artworkKnockout
 
@@ -28,8 +24,6 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 ---
 
-<a id="jsobjref-nonnativeitem-blendingmode"></a>
-
 ### NonNativeItem.blendingMode
 
 `nonNativeItems[index].blendingMode`
@@ -43,8 +37,6 @@ The blend mode used when compositing an object.
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
 ---
-
-<a id="jsobjref-nonnativeitem-controlbounds"></a>
 
 ### NonNativeItem.controlBounds
 
@@ -60,8 +52,6 @@ Array of 4 numbers, read-only.
 
 ---
 
-<a id="jsobjref-nonnativeitem-editable"></a>
-
 ### NonNativeItem.editable
 
 `nonNativeItems[index].editable`
@@ -75,8 +65,6 @@ If `true`, this item is editable.
 Boolean, read-only.
 
 ---
-
-<a id="jsobjref-nonnativeitem-geometricbounds"></a>
 
 ### NonNativeItem.geometricBounds
 
@@ -92,8 +80,6 @@ Array of 4 numbers, read-only.
 
 ---
 
-<a id="jsobjref-nonnativeitem-height"></a>
-
 ### NonNativeItem.height
 
 `nonNativeItems[index].height`
@@ -107,8 +93,6 @@ The height of the group item.
 Number (double).
 
 ---
-
-<a id="jsobjref-nonnativeitem-hidden"></a>
 
 ### NonNativeItem.hidden
 
@@ -124,8 +108,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-nonnativeitem-isisolated"></a>
-
 ### NonNativeItem.isIsolated
 
 `nonNativeItems[index].isIsolated`
@@ -139,8 +121,6 @@ If `true`, this object is isolated.
 Boolean.
 
 ---
-
-<a id="jsobjref-nonnativeitem-layer"></a>
 
 ### NonNativeItem.layer
 
@@ -156,8 +136,6 @@ The layer to which this item belongs.
 
 ---
 
-<a id="jsobjref-nonnativeitem-left"></a>
-
 ### NonNativeItem.left
 
 `nonNativeItems[index].left`
@@ -171,8 +149,6 @@ The position of the left side of the item (in points, measured from the left sid
 Number (double).
 
 ---
-
-<a id="jsobjref-nonnativeitem-locked"></a>
 
 ### NonNativeItem.locked
 
@@ -188,8 +164,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-nonnativeitem-name"></a>
-
 ### NonNativeItem.name
 
 `nonNativeItems[index].name`
@@ -203,8 +177,6 @@ The name of this item.
 String.
 
 ---
-
-<a id="jsobjref-nonnativeitem-note"></a>
 
 ### NonNativeItem.note
 
@@ -220,8 +192,6 @@ String.
 
 ---
 
-<a id="jsobjref-nonnativeitem-opacity"></a>
-
 ### NonNativeItem.opacity
 
 `nonNativeItems[index].opacity`
@@ -235,8 +205,6 @@ The opacity of the object. Range: 0.0 to 100.0.
 Number (double).
 
 ---
-
-<a id="jsobjref-nonnativeitem-parent"></a>
 
 ### NonNativeItem.parent
 
@@ -252,8 +220,6 @@ The parent of this object.
 
 ---
 
-<a id="jsobjref-nonnativeitem-position"></a>
-
 ### NonNativeItem.position
 
 `nonNativeItems[index].position`
@@ -267,8 +233,6 @@ The position (in points) of the top left corner of the `NonNativeItems[index` ob
 Array of 2 numbers.
 
 ---
-
-<a id="jsobjref-nonnativeitem-selected"></a>
 
 ### NonNativeItem.selected
 
@@ -284,8 +248,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-nonnativeitem-sliced"></a>
-
 ### NonNativeItem.sliced
 
 `nonNativeItems[index].sliced`
@@ -299,8 +261,6 @@ If `true`, the item sliced. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-nonnativeitem-tags"></a>
 
 ### NonNativeItem.tags
 
@@ -316,8 +276,6 @@ The tags contained in this item.
 
 ---
 
-<a id="jsobjref-nonnativeitem-top"></a>
-
 ### NonNativeItem.top
 
 `nonNativeItems[index].top`
@@ -331,8 +289,6 @@ The position of the top of the item (in points, measured from the bottom of the 
 Number (double).
 
 ---
-
-<a id="jsobjref-nonnativeitem-typename"></a>
 
 ### NonNativeItem.typename
 
@@ -348,8 +304,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-nonnativeitem-url"></a>
-
 ### NonNativeItem.uRL
 
 `nonNativeItems[index].uRL`
@@ -363,8 +317,6 @@ The value of the Adobe URL tag assigned to this item.
 String.
 
 ---
-
-<a id="jsobjref-nonnativeitem-visibilityvariable"></a>
 
 ### NonNativeItem.visibilityVariable
 
@@ -380,8 +332,6 @@ The visibility variable bound to the item.
 
 ---
 
-<a id="jsobjref-nonnativeitem-visiblebounds"></a>
-
 ### NonNativeItem.visibleBounds
 
 `nonNativeItems[index].visibleBounds`
@@ -395,8 +345,6 @@ The visible bounds of the item including stroke width.
 Array of 4 numbers, read-only.
 
 ---
-
-<a id="jsobjref-nonnativeitem-width"></a>
 
 ### NonNativeItem.width
 
@@ -412,8 +360,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-nonnativeitem-wrapinside"></a>
-
 ### NonNativeItem.wrapInside
 
 `nonNativeItems[index].wrapInside`
@@ -427,8 +373,6 @@ If `true`, the non-native-item object should be wrapped inside this object.
 Boolean.
 
 ---
-
-<a id="jsobjref-nonnativeitem-wrapoffset"></a>
 
 ### NonNativeItem.wrapOffset
 
@@ -444,8 +388,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-nonnativeitem-wrapped"></a>
-
 ### NonNativeItem.wrapped
 
 `nonNativeItems[index].wrapped`
@@ -459,8 +401,6 @@ If `true`, wrap non-native-item objects around this object (non-native-item obje
 Boolean.
 
 ---
-
-<a id="jsobjref-nonnativeitem-zorderposition"></a>
 
 ### NonNativeItem.zOrderPosition
 
@@ -477,8 +417,6 @@ Number, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-nonnativeitem-duplicate"></a>
 
 ### NonNativeItem.duplicate()
 
@@ -501,8 +439,6 @@ Creates a duplicate of the selected object.
 
 ---
 
-<a id="jsobjref-nonnativeitem-move"></a>
-
 ### NonNativeItem.move()
 
 `nonNativeItems[index].move(relativeObject, insertionLocation)`
@@ -524,8 +460,6 @@ Moves the object.
 
 ---
 
-<a id="jsobjref-nonnativeitem-remove"></a>
-
 ### NonNativeItem.remove()
 
 `nonNativeItems[index].remove()`
@@ -540,8 +474,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-nonnativeitem-removeall"></a>
-
 ### NonNativeItem.removeAll()
 
 `nonNativeItems[index].removeAll()`
@@ -555,8 +487,6 @@ Deletes all elements in this collection.
 Nothing.
 
 ---
-
-<a id="jsobjref-nonnativeitem-resize"></a>
 
 ### NonNativeItem.resize()
 
@@ -590,8 +520,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-nonnativeitem-rotate"></a>
-
 ### NonNativeItem.rotate()
 
 ```default
@@ -621,8 +549,6 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 Nothing.
 
 ---
-
-<a id="jsobjref-nonnativeitem-transform"></a>
 
 ### NonNativeItem.transform()
 
@@ -655,8 +581,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-nonnativeitem-translate"></a>
-
 ### NonNativeItem.translate()
 
 ```default
@@ -686,8 +610,6 @@ Repositions the art item relative to the current position, where `deltaX` is the
 Nothing.
 
 ---
-
-<a id="jsobjref-nonnativeitem-zorder"></a>
 
 ### NonNativeItem.zOrder()
 

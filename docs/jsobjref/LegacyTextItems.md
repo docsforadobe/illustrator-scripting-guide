@@ -1,5 +1,3 @@
-<a id="jsobjref-legacytextitems"></a>
-
 # LegacyTextItems
 
 `legacyTextItems`
@@ -11,8 +9,6 @@ A collection of [LegacyTextItem](LegacyTextItem.md#jsobjref-legacytextitem) obje
 ---
 
 ## Properties
-
-<a id="jsobjref-legacytextitems-length"></a>
 
 ### LegacyTextItems.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-legacytextitems-parent"></a>
-
 ### LegacyTextItems.parent
 
 `legacyTextItems.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-legacytextitems-typename"></a>
 
 ### LegacyTextItems.typename
 
@@ -62,8 +54,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-legacytextitems-converttonative"></a>
-
 ### LegacyTextItems.convertToNative()
 
 `legacyTextItems.convertToNative()`
@@ -77,8 +67,6 @@ Creates text frames from all legacy text items; the original legacy text items a
 Boolean.
 
 ---
-
-<a id="jsobjref-legacytextitems-getbyname"></a>
 
 ### LegacyTextItems.getByName()
 
@@ -100,8 +88,6 @@ Get the first element in the collection with the specified name.
 
 ---
 
-<a id="jsobjref-legacytextitems-index"></a>
-
 ### LegacyTextItems.index()
 
 `legacyTextItems.index(itemKey)`
@@ -121,8 +107,6 @@ Gets an element from the collection.
 [LegacyTextItem](LegacyTextItem.md#jsobjref-legacytextitem)
 
 ---
-
-<a id="jsobjref-legacytextitems-removeall"></a>
 
 ### LegacyTextItems.removeAll()
 

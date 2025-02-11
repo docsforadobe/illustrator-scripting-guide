@@ -1,5 +1,3 @@
-<a id="jsobjref-tracingobject"></a>
-
 # TracingObject
 
 `TracingObject`
@@ -18,8 +16,6 @@ The read-only properties that describe the tracing result have valid values only
 
 ## Properties
 
-<a id="jsobjref-tracingobject-anchorcount"></a>
-
 ### TracingObject.anchorCount
 
 `tracingObject.anchorCount`
@@ -33,8 +29,6 @@ The number of anchors in the tracing result.
 Number (long); read-only.
 
 ---
-
-<a id="jsobjref-tracingobject-areacount"></a>
 
 ### TracingObject.areaCount
 
@@ -50,8 +44,6 @@ Number (long); read-only.
 
 ---
 
-<a id="jsobjref-tracingobject-imageresolution"></a>
-
 ### TracingObject.imageResolution
 
 `tracingObject.imageResolution`
@@ -65,8 +57,6 @@ The resolution of the source image in pixels per inch.
 Number (real); read-only.
 
 ---
-
-<a id="jsobjref-tracingobject-parent"></a>
 
 ### TracingObject.parent
 
@@ -82,8 +72,6 @@ Object; read-only.
 
 ---
 
-<a id="jsobjref-tracingobject-pathcount"></a>
-
 ### TracingObject.pathCount
 
 `tracingObject.pathCount`
@@ -97,8 +85,6 @@ The number of paths in the tracing result.
 Number (long); read-only.
 
 ---
-
-<a id="jsobjref-tracingobject-sourceart"></a>
 
 ### TracingObject.sourceArt
 
@@ -114,8 +100,6 @@ The raster art used to create the associated vector art plug-in group.
 
 ---
 
-<a id="jsobjref-tracingobject-tracingoptions"></a>
-
 ### TracingObject.tracingOptions
 
 `tracingObject.tracingOptions`
@@ -130,8 +114,6 @@ The options used to convert the raster artwork to vector art.
 
 ---
 
-<a id="jsobjref-tracingobject-typename"></a>
-
 ### TracingObject.typename
 
 `tracingObject.typename`
@@ -145,8 +127,6 @@ The class name of the object.
 String; read-only.
 
 ---
-
-<a id="jsobjref-tracingobject-usedcolorcount"></a>
 
 ### TracingObject.usedColorCount
 
@@ -163,8 +143,6 @@ Number (long); read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-tracingobject-expandtracing"></a>
 
 ### TracingObject.expandTracing()
 
@@ -191,8 +169,6 @@ Deletes this object and its associated [PluginItem](PluginItem.md#jsobjref-plugi
 [GroupItem](GroupItem.md#jsobjref-groupitem)
 
 ---
-
-<a id="jsobjref-tracingobject-releasetracing"></a>
 
 ### TracingObject.releaseTracing()
 

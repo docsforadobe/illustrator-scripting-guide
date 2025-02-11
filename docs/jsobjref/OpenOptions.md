@@ -1,5 +1,3 @@
-<a id="jsobjref-openoptions"></a>
-
 # OpenOptions
 
 `openOptions`
@@ -11,8 +9,6 @@ Options for opening a document, used with the [Application.open()](Application.m
 ---
 
 ## Properties
-
-<a id="jsobjref-openoptions-convertcropareatoarboard"></a>
 
 ### OpenOptions.convertCropAreaToArboard
 
@@ -28,8 +24,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-openoptions-converttilestoarboard"></a>
-
 ### OpenOptions.convertTilesToArboard
 
 `openOptions.convertTilesToArboard`
@@ -43,8 +37,6 @@ Optional. Convert print tiles to artboards when opening a legacy document in Ill
 Boolean.
 
 ---
-
-<a id="jsobjref-openoptions-createartboardwithartworkboundingbox"></a>
 
 ### OpenOptions.createArtboardWithArtworkBoundingBox
 
@@ -60,8 +52,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-openoptions-openas"></a>
-
 ### OpenOptions.openAs
 
 `openOptions.openAs`
@@ -75,8 +65,6 @@ Optional. Open the file as an Illustrator library of this type. Default: `Librar
 [LibraryType](scripting-constants.md#jsobjref-scripting-constants-librarytype)
 
 ---
-
-<a id="jsobjref-openoptions-preservelegacyartboard"></a>
 
 ### OpenOptions.preserveLegacyArtboard
 
@@ -92,8 +80,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-openoptions-updatelegacygradientmesh"></a>
-
 ### OpenOptions.updateLegacyGradientMesh
 
 `openOptions.updateLegacyGradientMesh`
@@ -107,8 +93,6 @@ If `true`, preserves the spot colors in the gradient mesh objects for legacy doc
 Boolean.
 
 ---
-
-<a id="jsobjref-openoptions-updatelegacytext"></a>
 
 ### OpenOptions.updateLegacyText
 

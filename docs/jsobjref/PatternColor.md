@@ -1,5 +1,3 @@
-<a id="jsobjref-patterncolor"></a>
-
 # PatternColor
 
 `patternColor`
@@ -13,8 +11,6 @@ A pattern color specification. You can create a new pattern color by modifying a
 ---
 
 ## Properties
-
-<a id="jsobjref-patterncolor-matrix"></a>
 
 ### PatternColor.matrix
 
@@ -30,8 +26,6 @@ Additional transformation arising from manipulating the path.
 
 ---
 
-<a id="jsobjref-patterncolor-pattern"></a>
-
 ### PatternColor.pattern
 
 `patternColor.pattern`
@@ -45,8 +39,6 @@ A reference to the pattern object that defines the pattern to use in this color 
 [Pattern](Pattern.md#jsobjref-pattern)
 
 ---
-
-<a id="jsobjref-patterncolor-reflect"></a>
 
 ### PatternColor.reflect
 
@@ -64,8 +56,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-patterncolor-reflectangle"></a>
-
 ### PatternColor.reflectAngle
 
 `patternColor.reflectAngle`
@@ -81,8 +71,6 @@ Default: 0.0
 Number (double)
 
 ---
-
-<a id="jsobjref-patterncolor-rotation"></a>
 
 ### PatternColor.rotation
 
@@ -100,8 +88,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-patterncolor-scalefactor"></a>
-
 ### PatternColor.scaleFactor
 
 `patternColor.scaleFactor`
@@ -115,8 +101,6 @@ The fraction to which to scale the prototype pattern before filling, represented
 Array of 2 numbers
 
 ---
-
-<a id="jsobjref-patterncolor-shearangle"></a>
 
 ### PatternColor.shearAngle
 
@@ -134,8 +118,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-patterncolor-shearaxis"></a>
-
 ### PatternColor.shearAxis
 
 `patternColor.shearAxis`
@@ -151,8 +133,6 @@ Default: 0.0
 Number (double)
 
 ---
-
-<a id="jsobjref-patterncolor-shiftangle"></a>
 
 ### PatternColor.shiftAngle
 
@@ -170,8 +150,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-patterncolor-shiftdistance"></a>
-
 ### PatternColor.shiftDistance
 
 `patternColor.shiftDistance`
@@ -187,8 +165,6 @@ Default: 0.0
 Number (double)
 
 ---
-
-<a id="jsobjref-patterncolor-typename"></a>
 
 ### PatternColor.typename
 

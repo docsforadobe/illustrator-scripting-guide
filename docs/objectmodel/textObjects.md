@@ -1,5 +1,3 @@
-<a id="objectmodel-textobjects"></a>
-
 # Text Objects
 
 When you type content in an Illustrator document, the type automatically becomes a `text frame` object and, at the same time, a story object.

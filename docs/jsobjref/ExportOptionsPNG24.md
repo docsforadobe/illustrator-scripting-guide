@@ -1,5 +1,3 @@
-<a id="jsobjref-exportoptionspng24"></a>
-
 # ExportOptionsPNG24
 
 `exportOptionsPNG24`
@@ -13,8 +11,6 @@ When you export a document, the appropriate file extension is appended automatic
 ---
 
 ## Properties
-
-<a id="jsobjref-exportoptionspng24-antialiasing"></a>
 
 ### ExportOptionsPNG24.antiAliasing
 
@@ -30,8 +26,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionspng24-artboardclipping"></a>
-
 ### ExportOptionsPNG24.artBoardClipping
 
 `exportOptionsPNG24.artBoardClipping`
@@ -45,8 +39,6 @@ If `true`, the exported image be clipped to the art board. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionspng24-horizontalscale"></a>
 
 ### ExportOptionsPNG24.horizontalScale
 
@@ -62,8 +54,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-exportoptionspng24-matte"></a>
-
 ### ExportOptionsPNG24.matte
 
 `exportOptionsPNG24.matte`
@@ -77,8 +67,6 @@ If `true`, the art board be matted with a color. Default: `true`.
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionspng24-mattecolor"></a>
 
 ### ExportOptionsPNG24.matteColor
 
@@ -94,8 +82,6 @@ The color to use when matting the art board. Default: `white`.
 
 ---
 
-<a id="jsobjref-exportoptionspng24-saveashtml"></a>
-
 ### ExportOptionsPNG24.saveAsHTML
 
 `exportOptionsPNG24.saveAsHTML`
@@ -109,8 +95,6 @@ If `true`, the exported image be saved with an accompanying HTML file. Default: 
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionspng24-transparency"></a>
 
 ### ExportOptionsPNG24.transparency
 
@@ -126,8 +110,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionspng24-typename"></a>
-
 ### ExportOptionsPNG24.typename
 
 `exportOptionsPNG24.typename`
@@ -141,8 +123,6 @@ The class name of the referenced object.
 String, read-only.
 
 ---
-
-<a id="jsobjref-exportoptionspng24-verticalscale"></a>
 
 ### ExportOptionsPNG24.verticalScale
 

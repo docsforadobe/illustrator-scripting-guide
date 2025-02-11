@@ -1,5 +1,3 @@
-<a id="jsobjref-swatchgroups"></a>
-
 # SwatchGroups
 
 `swatchGroups`
@@ -11,8 +9,6 @@ A collection of [SwatchGroup](SwatchGroup.md#jsobjref-swatchgroup) objects.
 ---
 
 ## Properties
-
-<a id="jsobjref-swatchgroups-length"></a>
 
 ### SwatchGroups.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-swatchgroups-parent"></a>
-
 ### SwatchGroups.parent
 
 `swatchGroups.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-swatchgroups-typename"></a>
 
 ### SwatchGroups.typename
 
@@ -62,8 +54,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-swatchgroups-add"></a>
-
 ### SwatchGroups.add()
 
 `swatchGroups.add()`
@@ -77,8 +67,6 @@ Creates a swatch group.
 [SwatchGroup](SwatchGroup.md#jsobjref-swatchgroup)
 
 ---
-
-<a id="jsobjref-swatchgroups-getbyname"></a>
 
 ### SwatchGroups.getByName()
 
@@ -99,8 +87,6 @@ Get the first element in the collection with the provided name.
 [SwatchGroup](SwatchGroup.md#jsobjref-swatchgroup)
 
 ---
-
-<a id="jsobjref-swatchgroups-removeall"></a>
 
 ### SwatchGroups.removeAll()
 

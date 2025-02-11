@@ -1,5 +1,3 @@
-<a id="jsobjref-pluginitems"></a>
-
 # PluginItems
 
 `app.activeDocument.pluginItems`
@@ -13,8 +11,6 @@ See [Copying a plug-in item](PluginItem.md#jsobjref-pluginitem-copying-a-plugin-
 ---
 
 ## Properties
-
-<a id="jsobjref-pluginitems-length"></a>
 
 ### PluginItems.length
 
@@ -30,8 +26,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-pluginitems-parent"></a>
-
 ### PluginItems.parent
 
 `app.activeDocument.pluginItems.parent`
@@ -45,8 +39,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-pluginitems-typename"></a>
 
 ### PluginItems.typename
 
@@ -63,8 +55,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-pluginitems-getbyname"></a>
 
 ### PluginItems.getByName()
 
@@ -86,8 +76,6 @@ Get the first element in the collection with the provided name.
 
 ---
 
-<a id="jsobjref-pluginitems-index"></a>
-
 ### PluginItems.index()
 
 `app.activeDocument.pluginItems.index(itemKey)`
@@ -107,8 +95,6 @@ Gets an element from the collection.
 [PluginItem](PluginItem.md#jsobjref-pluginitem)
 
 ---
-
-<a id="jsobjref-pluginitems-removeall"></a>
 
 ### PluginItems.removeAll()
 

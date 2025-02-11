@@ -1,5 +1,3 @@
-<a id="scriptingvbscript-workingwithtextframes"></a>
-
 # Working with text frames
 
 To create a text frame of a specific type in VBScript, use the `TextFrames` method that corresponds to the type of frame you want to create::

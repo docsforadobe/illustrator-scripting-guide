@@ -1,5 +1,3 @@
-<a id="jsobjref-graphitems"></a>
-
 # GraphItems
 
 `app.activeDocument.graphItems`
@@ -11,8 +9,6 @@ A collection `GraphItems` objects, which gives you access to all the graph art i
 ---
 
 ## Properties
-
-<a id="jsobjref-graphitems-length"></a>
 
 ### GraphItems.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-graphitems-parent"></a>
-
 ### GraphItems.parent
 
 `app.activeDocument.graphItems.parent`
@@ -43,8 +37,6 @@ The parent of this object.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-graphitems-typename"></a>
 
 ### GraphItems.typename
 
@@ -61,8 +53,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-graphitems-getbyname"></a>
 
 ### GraphItems.getByName()
 
@@ -84,8 +74,6 @@ Gets the first element in the collection with the specified name.
 
 ---
 
-<a id="jsobjref-graphitems-index"></a>
-
 ### GraphItems.index()
 
 `app.activeDocument.graphItems.index(itemKey)`
@@ -106,8 +94,6 @@ Gets an element from the collection.
 
 ---
 
-<a id="jsobjref-graphitems-removeall"></a>
-
 ### GraphItems.removeAll()
 
 `app.activeDocument.graphItems.removeAll()`
@@ -123,8 +109,6 @@ Nothing.
 ---
 
 ## Example
-
-<a id="jsobjref-graphitems-rotatinggraphitems"></a>
 
 ### Rotating graph items
 

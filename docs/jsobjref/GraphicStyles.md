@@ -1,5 +1,3 @@
-<a id="jsobjref-graphicstyles"></a>
-
 # GraphicStyles
 
 `app.activeDocument.graphicStyles`
@@ -11,8 +9,6 @@ A collection of GraphicStyle objects in a document.
 ---
 
 ## Properties
-
-<a id="jsobjref-graphicstyles-length"></a>
 
 ### GraphicStyles.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-graphicstyles-parent"></a>
-
 ### GraphicStyles.parent
 
 `app.activeDocument.graphicStyles.parent`
@@ -43,8 +37,6 @@ The document that contains this graphic styles collection.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-graphicstyles-typename"></a>
 
 ### GraphicStyles.typename
 
@@ -61,8 +53,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-graphicstyles-getbyname"></a>
 
 ### GraphicStyles.getByName()
 
@@ -84,8 +74,6 @@ String.
 
 ---
 
-<a id="jsobjref-graphicstyles-index"></a>
-
 ### GraphicStyles.index()
 
 `app.activeDocument.graphicStyles.index(itemKey)`
@@ -105,8 +93,6 @@ Gets an element from the collection.
 String, Number.
 
 ---
-
-<a id="jsobjref-graphicstyles-removeall"></a>
 
 ### GraphicStyles.removeAll()
 

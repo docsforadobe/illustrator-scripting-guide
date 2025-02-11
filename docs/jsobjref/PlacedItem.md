@@ -1,5 +1,3 @@
-<a id="jsobjref-placeditem"></a>
-
 # PlacedItem
 
 `app.activeDocument.placedItems[index`
@@ -16,8 +14,6 @@ For information, see [PlacedItems](PlacedItems.md#jsobjref-placeditems).
 
 ## Properties
 
-<a id="jsobjref-placeditem-artworkknockout"></a>
-
 ### PlacedItem.artworkKnockout
 
 `app.activeDocument.placedItems[index].artworkKnockout`
@@ -31,8 +27,6 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 [KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
 ---
-
-<a id="jsobjref-placeditem-blendingmode"></a>
 
 ### PlacedItem.blendingMode
 
@@ -48,8 +42,6 @@ The blend mode used when compositing an object.
 
 ---
 
-<a id="jsobjref-placeditem-boundingbox"></a>
-
 ### PlacedItem.boundingBox
 
 `app.activeDocument.placedItems[index].boundingBox`
@@ -63,8 +55,6 @@ The dimensions of the placed art item regardless of transformations.
 Array of 4 numbers
 
 ---
-
-<a id="jsobjref-placeditem-contentvariable"></a>
 
 ### PlacedItem.contentVariable
 
@@ -80,8 +70,6 @@ The content variable bound to the item.
 
 ---
 
-<a id="jsobjref-placeditem-controlbounds"></a>
-
 ### PlacedItem.controlBounds
 
 `app.activeDocument.placedItems[index].controlBounds`
@@ -95,8 +83,6 @@ The bounds of the object including stroke width and controls.
 Array of 4 numbers; read-only.
 
 ---
-
-<a id="jsobjref-placeditem-editable"></a>
 
 ### PlacedItem.editable
 
@@ -112,8 +98,6 @@ Boolean; read-only.
 
 ---
 
-<a id="jsobjref-placeditem-file"></a>
-
 ### PlacedItem.file
 
 `app.activeDocument.placedItems[index].file`
@@ -127,8 +111,6 @@ The file containing the artwork.
 File; read-only.
 
 ---
-
-<a id="jsobjref-placeditem-geometricbounds"></a>
 
 ### PlacedItem.geometricBounds
 
@@ -144,8 +126,6 @@ Array of 4 numbers; read-only.
 
 ---
 
-<a id="jsobjref-placeditem-height"></a>
-
 ### PlacedItem.height
 
 `app.activeDocument.placedItems[index].height`
@@ -159,8 +139,6 @@ The height of the group item.
 Number (double)
 
 ---
-
-<a id="jsobjref-placeditem-hidden"></a>
 
 ### PlacedItem.hidden
 
@@ -176,8 +154,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-placeditem-isisolated"></a>
-
 ### PlacedItem.isIsolated
 
 `app.activeDocument.placedItems[index].isIsolated`
@@ -191,8 +167,6 @@ If `true`, this object is isolated.
 Boolean
 
 ---
-
-<a id="jsobjref-placeditem-layer"></a>
 
 ### PlacedItem.layer
 
@@ -208,8 +182,6 @@ The layer to which this item belongs.
 
 ---
 
-<a id="jsobjref-placeditem-left"></a>
-
 ### PlacedItem.left
 
 `app.activeDocument.placedItems[index].left`
@@ -223,8 +195,6 @@ The position of the left side of the item (in points, measured from the left sid
 Number (double)
 
 ---
-
-<a id="jsobjref-placeditem-locked"></a>
 
 ### PlacedItem.locked
 
@@ -240,8 +210,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-placeditem-matrix"></a>
-
 ### PlacedItem.matrix
 
 `app.activeDocument.placedItems[index].matrix`
@@ -255,8 +223,6 @@ The transformation matrix of the placed artwork.
 [Matrix](Matrix.md#jsobjref-matrix)
 
 ---
-
-<a id="jsobjref-placeditem-name"></a>
 
 ### PlacedItem.name
 
@@ -272,8 +238,6 @@ String
 
 ---
 
-<a id="jsobjref-placeditem-note"></a>
-
 ### PlacedItem.note
 
 `app.activeDocument.placedItems[index].note`
@@ -287,8 +251,6 @@ The note assigned to this item.
 String
 
 ---
-
-<a id="jsobjref-placeditem-opacity"></a>
 
 ### PlacedItem.opacity
 
@@ -304,8 +266,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-placeditem-parent"></a>
-
 ### PlacedItem.parent
 
 `app.activeDocument.placedItems[index].parent`
@@ -319,8 +279,6 @@ The parent of this object.
 [Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem)
 
 ---
-
-<a id="jsobjref-placeditem-position"></a>
 
 ### PlacedItem.position
 
@@ -336,8 +294,6 @@ Array of 2 numbers; read-only.
 
 ---
 
-<a id="jsobjref-placeditem-selected"></a>
-
 ### PlacedItem.selected
 
 `app.activeDocument.placedItems[index].selected`
@@ -351,8 +307,6 @@ If `true`, this item is selected.
 Boolean
 
 ---
-
-<a id="jsobjref-placeditem-sliced"></a>
 
 ### PlacedItem.sliced
 
@@ -370,8 +324,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-placeditem-tags"></a>
-
 ### PlacedItem.tags
 
 `app.activeDocument.placedItems[index].tags`
@@ -385,8 +337,6 @@ The tags contained in this item.
 [Tags](Tags.md#jsobjref-tags); read-only.
 
 ---
-
-<a id="jsobjref-placeditem-top"></a>
 
 ### PlacedItem.top
 
@@ -402,8 +352,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-placeditem-typename"></a>
-
 ### PlacedItem.typename
 
 `app.activeDocument.placedItems[index].typename`
@@ -417,8 +365,6 @@ The class name of the referenced object.
 String; read-only.
 
 ---
-
-<a id="jsobjref-placeditem-url"></a>
 
 ### PlacedItem.uRL
 
@@ -434,8 +380,6 @@ String
 
 ---
 
-<a id="jsobjref-placeditem-visibilityvariable"></a>
-
 ### PlacedItem.visibilityVariable
 
 `app.activeDocument.placedItems[index].visibilityVariable`
@@ -449,8 +393,6 @@ The visibility variable bound to the item.
 [Variable](Variable.md#jsobjref-variable)
 
 ---
-
-<a id="jsobjref-placeditem-visiblebounds"></a>
 
 ### PlacedItem.visibleBounds
 
@@ -466,8 +408,6 @@ Array of 4 numbers; read-only.
 
 ---
 
-<a id="jsobjref-placeditem-width"></a>
-
 ### PlacedItem.width
 
 `app.activeDocument.placedItems[index].width`
@@ -481,8 +421,6 @@ The width of the item.
 Number (double)
 
 ---
-
-<a id="jsobjref-placeditem-wrapinside"></a>
 
 ### PlacedItem.wrapInside
 
@@ -498,8 +436,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-placeditem-wrapoffset"></a>
-
 ### PlacedItem.wrapOffset
 
 `app.activeDocument.placedItems[index].wrapOffset`
@@ -514,8 +450,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-placeditem-wrapped"></a>
-
 ### PlacedItem.wrapped
 
 `app.activeDocument.placedItems[index].wrapped`
@@ -529,8 +463,6 @@ If `true`, wrap text frame objects around this object (text frame must be above 
 Boolean
 
 ---
-
-<a id="jsobjref-placeditem-zorderposition"></a>
 
 ### PlacedItem.zOrderPosition
 
@@ -547,8 +479,6 @@ Number; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-placeditem-duplicate"></a>
 
 ### PlacedItem.duplicate()
 
@@ -571,8 +501,6 @@ Creates a duplicate of the selected object.
 
 ---
 
-<a id="jsobjref-placeditem-embed"></a>
-
 ### PlacedItem.embed()
 
 `app.activeDocument.placedItems[index].embed()`
@@ -586,8 +514,6 @@ Embeds this art in the document. Converts the art to art item objects as needed 
 Nothing.
 
 ---
-
-<a id="jsobjref-placeditem-move"></a>
 
 ### PlacedItem.move()
 
@@ -610,8 +536,6 @@ Moves the object.
 
 ---
 
-<a id="jsobjref-placeditem-relink"></a>
-
 ### PlacedItem.relink()
 
 `app.activeDocument.placedItems[index].relink(linkFile)`
@@ -632,8 +556,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-placeditem-remove"></a>
-
 ### PlacedItem.remove()
 
 `app.activeDocument.placedItems[index].remove()`
@@ -647,8 +569,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-placeditem-resize"></a>
 
 ### PlacedItem.resize()
 
@@ -677,8 +597,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-placeditem-rotate"></a>
-
 ### PlacedItem.rotate()
 
 `app.activeDocument.placedItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])`
@@ -706,8 +624,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-placeditem-trace"></a>
-
 ### PlacedItem.trace
 
 `app.activeDocument.placedItems[index].trace()`
@@ -725,8 +641,6 @@ Creates and returns a [PluginItem](PluginItem.md#jsobjref-pluginitem) object tha
 [PluginItem](PluginItem.md#jsobjref-pluginitem)
 
 ---
-
-<a id="jsobjref-placeditem-transform"></a>
 
 ### PlacedItem.transform()
 
@@ -754,8 +668,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-placeditem-translate"></a>
-
 ### PlacedItem.translate()
 
 `app.activeDocument.placedItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])`
@@ -780,8 +692,6 @@ Repositions the art item relative to the current position, where `deltaX` is the
 Nothing.
 
 ---
-
-<a id="jsobjref-placeditem-zorder"></a>
 
 ### PlacedItem.zOrder()
 

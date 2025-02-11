@@ -1,5 +1,3 @@
-<a id="jsobjref-artboards"></a>
-
 # Artboards
 
 `artboards`
@@ -9,8 +7,6 @@
 A collection of Artboard objects.
 
 ## Properties
-
-<a id="jsobjref-artboards-length"></a>
 
 ### Artboards.length
 
@@ -26,8 +22,6 @@ Number; read-only.
 
 ---
 
-<a id="jsobjref-artboards-parent"></a>
-
 ### Artboards.parent
 
 `artboards.parent`
@@ -41,8 +35,6 @@ The name of the object that contains this dataset
 [Artboard](Artboard.md#jsobjref-artboard); read-only.
 
 ---
-
-<a id="jsobjref-artboards-typename"></a>
 
 ### Artboards.typename
 
@@ -59,8 +51,6 @@ String; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-artboards-add"></a>
 
 ### Artboards.add()
 
@@ -82,8 +72,6 @@ Creates a new Artboard object.
 
 ---
 
-<a id="jsobjref-artboards-getactiveartboardindex"></a>
-
 ### Artboards.getActiveArtboardIndex()
 
 `artboards.getActiveArtboardIndex()`
@@ -99,8 +87,6 @@ Returns the 0-based index.
 Number (long)
 
 ---
-
-<a id="jsobjref-artboards-getbyname"></a>
 
 ### Artboards.getByName()
 
@@ -121,8 +107,6 @@ Gets the first element in the collection with the specified name.
 [Artboard](Artboard.md#jsobjref-artboard)
 
 ---
-
-<a id="jsobjref-artboards-insert"></a>
 
 ### Artboards.insert()
 
@@ -145,8 +129,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-artboards-remove"></a>
-
 ### Artboards.remove()
 
 `artboards.remove(index)`
@@ -166,8 +148,6 @@ Deletes an artboard object. You cannot remove the last artboard in a document.
 Nothing.
 
 ---
-
-<a id="jsobjref-artboards-setactiveartboardindex"></a>
 
 ### Artboards.setActiveArtboardIndex()
 

@@ -1,5 +1,3 @@
-<a id="jsobjref-application"></a>
-
 # Application
 
 `app`
@@ -11,8 +9,6 @@ The Adobe® Illustrator® application object, referenced using the pre-defined g
 ---
 
 ## Properties
-
-<a id="jsobjref-application-activedocument"></a>
 
 ### Application.activeDocument
 
@@ -28,8 +24,6 @@ The active (frontmost) document in Illustrator.
 
 ---
 
-<a id="jsobjref-application-browseravailable"></a>
-
 ### Application.browserAvailable
 
 `app.browserAvailable`
@@ -43,8 +37,6 @@ If `true`, a web browser is available.
 Boolean; read-only.
 
 ---
-
-<a id="jsobjref-application-buildnumber"></a>
 
 ### Application.buildNumber
 
@@ -60,8 +52,6 @@ String; read-only.
 
 ---
 
-<a id="jsobjref-application-colorsettingslist"></a>
-
 ### Application.colorSettingsList
 
 `app.colorSettingsList`
@@ -75,8 +65,6 @@ The list of color-settings files currently available for use.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-application-coordinatesystem"></a>
 
 ### Application.coordinateSystem
 
@@ -92,8 +80,6 @@ The coordinate system currently in use, document or artboard.
 
 ---
 
-<a id="jsobjref-application-defaultcolorsettings"></a>
-
 ### Application.defaultColorSettings
 
 `app.defaultColorSettings`
@@ -107,8 +93,6 @@ The default color-settings file for the current application locale.
 File; read-only.
 
 ---
-
-<a id="jsobjref-application-documents"></a>
 
 ### Application.documents
 
@@ -124,8 +108,6 @@ The documents in the application.
 
 ---
 
-<a id="jsobjref-application-flattenerpresetlist"></a>
-
 ### Application.flattenerPresetList
 
 `app.flattenerPresetList`
@@ -139,8 +121,6 @@ The list of flattener style names currently available for use.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-application-freememory"></a>
 
 ### Application.freeMemory
 
@@ -156,8 +136,6 @@ Number (long); read-only.
 
 ---
 
-<a id="jsobjref-application-locale"></a>
-
 ### Application.locale
 
 `app.locale`
@@ -171,8 +149,6 @@ The application’s locale.
 String; read-only.
 
 ---
-
-<a id="jsobjref-application-name"></a>
 
 ### Application.name
 
@@ -188,8 +164,6 @@ String; read-only.
 
 ---
 
-<a id="jsobjref-application-pasterememberlayers"></a>
-
 ### Application.pasteRememberLayers
 
 `app.pasteRememberLayers`
@@ -203,8 +177,6 @@ If `true`, the paste operation maintains the layer structure.
 Boolean; read-only.
 
 ---
-
-<a id="jsobjref-application-path"></a>
 
 ### Application.path
 
@@ -220,8 +192,6 @@ File; read-only.
 
 ---
 
-<a id="jsobjref-application-pdfpresetslist"></a>
-
 ### Application.PDFPresetsList
 
 `app.PDFPresetsList`
@@ -235,8 +205,6 @@ The list of preset PDF-options names available for use.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-application-ppdfilelist"></a>
 
 ### Application.PPDFileList
 
@@ -252,8 +220,6 @@ Object; read-only.
 
 ---
 
-<a id="jsobjref-application-preferences"></a>
-
 ### Application.preferences
 
 `app.preferences`
@@ -267,8 +233,6 @@ Illustrator’s preference settings.
 [Preferences](Preferences.md#jsobjref-preferences)
 
 ---
-
-<a id="jsobjref-application-printerlist"></a>
 
 ### Application.printerList
 
@@ -284,8 +248,6 @@ Array of [Printer](Printer.md#jsobjref-printer)
 
 ---
 
-<a id="jsobjref-application-printpresetslist"></a>
-
 ### Application.printPresetsList
 
 `app.printPresetsList`
@@ -299,8 +261,6 @@ The list of preset printing-options names available for use.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-application-scriptingversion"></a>
 
 ### Application.scriptingVersion
 
@@ -316,8 +276,6 @@ String; read-only.
 
 ---
 
-<a id="jsobjref-application-selection"></a>
-
 ### Application.selection
 
 `app.selection`
@@ -331,8 +289,6 @@ All currently selected objects in the active (frontmost) document.
 Array of Objects; read-only.
 
 ---
-
-<a id="jsobjref-application-startuppresetslist"></a>
 
 ### Application.startupPresetsList
 
@@ -348,8 +304,6 @@ Object; read-only.
 
 ---
 
-<a id="jsobjref-application-textfonts"></a>
-
 ### Application.textFonts
 
 `app.textFonts`
@@ -363,8 +317,6 @@ The installed fonts.
 [TextFonts](TextFonts.md#jsobjref-textfonts)
 
 ---
-
-<a id="jsobjref-application-tracingpresetlist"></a>
 
 ### Application.tracingPresetList
 
@@ -380,8 +332,6 @@ Array of Strings; read-only.
 
 ---
 
-<a id="jsobjref-application-typename"></a>
-
 ### Application.typename
 
 `app.typename`
@@ -395,8 +345,6 @@ The class name of the referenced object.
 String; read-only.
 
 ---
-
-<a id="jsobjref-application-userinteractionlevel"></a>
 
 ### Application.userInteractionLevel
 
@@ -412,8 +360,6 @@ What level of interaction with the user should be allowed when handling script c
 
 ---
 
-<a id="jsobjref-application-version"></a>
-
 ### Application.version
 
 `app.version`
@@ -427,8 +373,6 @@ The application’s version.
 String; read-only.
 
 ---
-
-<a id="jsobjref-application-visible"></a>
 
 ### Application.visible
 
@@ -446,8 +390,6 @@ Boolean; read-only.
 
 ## Methods
 
-<a id="jsobjref-application-beep"></a>
-
 ### Application.beep()
 
 `app.beep()`
@@ -461,8 +403,6 @@ Alerts the user.
 Nothing.
 
 ---
-
-<a id="jsobjref-application-concatenatematrix"></a>
 
 ### Application.concatenateMatrix()
 
@@ -485,8 +425,6 @@ jsobjref/Matrix.
 
 ---
 
-<a id="jsobjref-application-concatenaterotationmatrix"></a>
-
 ### Application.concatenateRotationMatrix()
 
 `app.concatenateRotationMatrix(matrix, angle)`
@@ -507,8 +445,6 @@ Joins a rotation translation to a transformation matrix.
 jsobjref/Matrix.
 
 ---
-
-<a id="jsobjref-application-concatenatescalematrix"></a>
 
 ### Application.concatenateScaleMatrix()
 
@@ -532,8 +468,6 @@ Concatenates a scale translation to a transformation matrix.
 
 ---
 
-<a id="jsobjref-application-concatenatetranslationmatrix"></a>
-
 ### Application.concatenateTranslationMatrix()
 
 `app.concatenateTranslationMatrix(matrix[, deltaX][, deltaY])`
@@ -555,8 +489,6 @@ Joins a translation to a transformation matrix.
 [Matrix](Matrix.md#jsobjref-matrix)
 
 ---
-
-<a id="jsobjref-application-convertsamplecolor"></a>
 
 ### Application.convertSampleColor()
 
@@ -583,8 +515,6 @@ Array of ColorComponents
 
 ---
 
-<a id="jsobjref-application-copy"></a>
-
 ### Application.copy()
 
 `app.copy()`
@@ -599,8 +529,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-application-cut"></a>
-
 ### Application.cut()
 
 `app.cut()`
@@ -614,8 +542,6 @@ Cuts current selection to the clipboard.
 Nothing.
 
 ---
-
-<a id="jsobjref-application-deleteworkspace"></a>
 
 ### Application.deleteWorkspace()
 
@@ -637,8 +563,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-application-getidentitymatrix"></a>
-
 ### Application.getIdentityMatrix()
 
 `app.getIdentityMatrix()`
@@ -652,8 +576,6 @@ Returns an identity matrix.
 [Matrix](Matrix.md#jsobjref-matrix)
 
 ---
-
-<a id="jsobjref-application-getisfileopen"></a>
 
 ### Application.getIsFileOpen()
 
@@ -678,8 +600,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-application-getppdfileinfo"></a>
-
 ### Application.getPPDFileInfo()
 
 `app.getPPDFileInfo(name)`
@@ -699,8 +619,6 @@ Gets detailed file information for specified PPD file.
 [PPDFileInfo](PPDFileInfo.md#jsobjref-ppdfileinfo)
 
 ---
-
-<a id="jsobjref-application-getpresetfileoftype"></a>
 
 ### Application.getPresetFileOfType()
 
@@ -722,8 +640,6 @@ File
 
 ---
 
-<a id="jsobjref-application-getpresetsettings"></a>
-
 ### Application.getPresetSettings()
 
 `app.getPresetSettings(preset)`
@@ -743,8 +659,6 @@ Retrieves the tracing-option settings from the template with a given preset name
 [DocumentPreset](DocumentPreset.md#jsobjref-documentpreset)
 
 ---
-
-<a id="jsobjref-application-getrotationmatrix"></a>
 
 ### Application.getRotationMatrix()
 
@@ -770,8 +684,6 @@ For example, `30` rotates the object 30 degrees counterclockwise; `-30` rotates 
 [Matrix](Matrix.md#jsobjref-matrix)
 
 ---
-
-<a id="jsobjref-application-getscalematrix"></a>
 
 ### Application.getScaleMatrix()
 
@@ -799,8 +711,6 @@ For example, `60` scales the object to 60% of its original size; `200` doubles t
 
 ---
 
-<a id="jsobjref-application-getscriptablehelpgroup"></a>
-
 ### Application.getScriptableHelpGroup()
 
 `app.getScriptableHelpGroup()`
@@ -814,8 +724,6 @@ Gets the scriptable help group object that represents the search widget in the a
 Variant
 
 ---
-
-<a id="jsobjref-application-gettranslationmatrix"></a>
 
 ### Application.getTranslationMatrix()
 
@@ -843,8 +751,6 @@ For example, (100, 200) moves the object 100 pt. to the right and 200 pt. up;  a
 
 ---
 
-<a id="jsobjref-application-invertmatrix"></a>
-
 ### Application.invertMatrix()
 
 `app.invertMatrix(matrix)`
@@ -864,8 +770,6 @@ Inverts a matrix.
 [Matrix](Matrix.md#jsobjref-matrix)
 
 ---
-
-<a id="jsobjref-application-isequalmatrix"></a>
 
 ### Application.isEqualMatrix()
 
@@ -888,8 +792,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-application-issingularmatrix"></a>
-
 ### Application.isSingularMatrix()
 
 `app.isSingularMatrix(matrix)`
@@ -910,8 +812,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-application-loadcolorsettings"></a>
-
 ### Application.loadColorSettings()
 
 `app.loadColorSettings(fileSpec)`
@@ -931,8 +831,6 @@ Loads color settings from specified file, or, if file is empty, turns color mana
 Nothing.
 
 ---
-
-<a id="jsobjref-application-open"></a>
 
 ### Application.open()
 
@@ -961,8 +859,6 @@ If the parameter is not supplied, Illustrator opens a dialog so the user can cho
 
 ---
 
-<a id="jsobjref-application-paste"></a>
-
 ### Application.paste()
 
 `app.paste()`
@@ -976,8 +872,6 @@ Pastes current clipboard content into the current document.
 Nothing.
 
 ---
-
-<a id="jsobjref-application-quit"></a>
 
 ### Application.quit()
 
@@ -996,8 +890,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-application-redo"></a>
-
 ### Application.redo()
 
 `app.redo()`
@@ -1011,8 +903,6 @@ Redoes the most recently undone transaction.
 Nothing.
 
 ---
-
-<a id="jsobjref-application-redraw"></a>
 
 ### Application.redraw()
 
@@ -1028,8 +918,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-application-resetworkspace"></a>
-
 ### Application.resetWorkspace()
 
 `app.resetWorkspace()`
@@ -1043,8 +931,6 @@ Resets the current workspace.
 Boolean
 
 ---
-
-<a id="jsobjref-application-saveworkspace"></a>
 
 ### Application.saveWorkspace()
 
@@ -1065,8 +951,6 @@ Saves a new workspace.
 Boolean
 
 ---
-
-<a id="jsobjref-application-sendscriptmessage"></a>
 
 ### Application.sendScriptMessage()
 
@@ -1090,8 +974,6 @@ String
 
 ---
 
-<a id="jsobjref-application-showpresets"></a>
-
 ### Application.showPresets()
 
 `app.showPresets(fileSpec)`
@@ -1111,8 +993,6 @@ Gets presets from the file.
 PrintPresetList
 
 ---
-
-<a id="jsobjref-application-switchworkspace"></a>
 
 ### Application.switchWorkspace()
 
@@ -1134,8 +1014,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-application-translateplaceholdertext"></a>
-
 ### Application.translatePlaceholderText()
 
 `app.translatePlaceholderText(text)`
@@ -1155,8 +1033,6 @@ Translates the placeholder text to regular text (a way to enter Unicode points i
 String
 
 ---
-
-<a id="jsobjref-application-undo"></a>
 
 ### Application.undo()
 

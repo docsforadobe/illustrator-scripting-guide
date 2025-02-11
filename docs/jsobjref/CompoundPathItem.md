@@ -1,5 +1,3 @@
-<a id="jsobjref-compoundpathitem"></a>
-
 # CompoundPathItem
 
 `app.activeDocument.activeLayer.compoundPathItems[index`
@@ -16,8 +14,6 @@ All paths within a compound path share property values. Therefore, if you set th
 
 ## Properties
 
-<a id="jsobjref-compoundpathitem-artworkknockout"></a>
-
 ### CompoundPathItem.artworkKnockout
 
 `app.activeDocument.activeLayer.compoundPathItems[index].artworkKnockout`
@@ -31,8 +27,6 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 [KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
 ---
-
-<a id="jsobjref-compoundpathitem-blendingmode"></a>
 
 ### CompoundPathItem.blendingMode
 
@@ -48,8 +42,6 @@ The mode used when compositing an object.
 
 ---
 
-<a id="jsobjref-compoundpathitem-controlbounds"></a>
-
 ### CompoundPathItem.controlBounds
 
 `app.activeDocument.activeLayer.compoundPathItems[index].controlBounds`
@@ -63,8 +55,6 @@ The bounds of the object including stroke width and controls.
 Array of 4 numbers, read-only.
 
 ---
-
-<a id="jsobjref-compoundpathitem-editable"></a>
 
 ### CompoundPathItem.editable
 
@@ -80,8 +70,6 @@ Boolean, read-only.
 
 ---
 
-<a id="jsobjref-compoundpathitem-geometricbounds"></a>
-
 ### CompoundPathItem.geometricBounds
 
 `app.activeDocument.activeLayer.compoundPathItems[index].geometricBounds`
@@ -95,8 +83,6 @@ The bounds of the object excluding stroke width.
 Array of 4 numbers, read-only.
 
 ---
-
-<a id="jsobjref-compoundpathitem-height"></a>
 
 ### CompoundPathItem.height
 
@@ -112,8 +98,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-compoundpathitem-hidden"></a>
-
 ### CompoundPathItem.hidden
 
 `app.activeDocument.activeLayer.compoundPathItems[index].hidden`
@@ -127,8 +111,6 @@ If `true`, this compound path item is hidden.
 Boolean.
 
 ---
-
-<a id="jsobjref-compoundpathitem-isisolated"></a>
 
 ### CompoundPathItem.isIsolated
 
@@ -144,8 +126,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-compoundpathitem-layer"></a>
-
 ### CompoundPathItem.layer
 
 `app.activeDocument.activeLayer.compoundPathItems[index].layer`
@@ -159,8 +139,6 @@ The layer to which this compound path item belongs.
 [Layer](Layer.md#jsobjref-layer), read-only.
 
 ---
-
-<a id="jsobjref-compoundpathitem-left"></a>
 
 ### CompoundPathItem.left
 
@@ -176,8 +154,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-compoundpathitem-locked"></a>
-
 ### CompoundPathItem.locked
 
 `app.activeDocument.activeLayer.compoundPathItems[index].locked`
@@ -191,8 +167,6 @@ If `true`, this compound path item is locked.
 Boolean.
 
 ---
-
-<a id="jsobjref-compoundpathitem-name"></a>
 
 ### CompoundPathItem.name
 
@@ -208,8 +182,6 @@ String.
 
 ---
 
-<a id="jsobjref-compoundpathitem-note"></a>
-
 ### CompoundPathItem.note
 
 `app.activeDocument.activeLayer.compoundPathItems[index].note`
@@ -223,8 +195,6 @@ The note assigned to this item.
 String.
 
 ---
-
-<a id="jsobjref-compoundpathitem-opacity"></a>
 
 ### CompoundPathItem.opacity
 
@@ -240,8 +210,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-compoundpathitem-parent"></a>
-
 ### CompoundPathItem.parent
 
 `app.activeDocument.activeLayer.compoundPathItems[index].parent`
@@ -255,8 +223,6 @@ The parent of this object.
 [Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem), read-only.
 
 ---
-
-<a id="jsobjref-compoundpathitem-pathitems"></a>
 
 ### CompoundPathItem.pathItems
 
@@ -272,8 +238,6 @@ The path art items in this compound path.
 
 ---
 
-<a id="jsobjref-compoundpathitem-position"></a>
-
 ### CompoundPathItem.position
 
 `app.activeDocument.activeLayer.compoundPathItems[index].position`
@@ -287,8 +251,6 @@ The position (in points) of the top left corner of the `compoundPathItem` object
 Array of 2 numbers.
 
 ---
-
-<a id="jsobjref-compoundpathitem-selected"></a>
 
 ### CompoundPathItem.selected
 
@@ -304,8 +266,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-compoundpathitem-sliced"></a>
-
 ### CompoundPathItem.sliced
 
 `app.activeDocument.activeLayer.compoundPathItems[index].sliced`
@@ -319,8 +279,6 @@ If `true`, the item is sliced. Default: `false`
 Boolean.
 
 ---
-
-<a id="jsobjref-compoundpathitem-tags"></a>
 
 ### CompoundPathItem.tags
 
@@ -336,8 +294,6 @@ The tags contained in this object.
 
 ---
 
-<a id="jsobjref-compoundpathitem-top"></a>
-
 ### CompoundPathItem.top
 
 `app.activeDocument.activeLayer.compoundPathItems[index].top`
@@ -351,8 +307,6 @@ The position of the top of the item (in points, measured from the bottom of the 
 Number (double).
 
 ---
-
-<a id="jsobjref-compoundpathitem-typename"></a>
 
 ### CompoundPathItem.typename
 
@@ -368,8 +322,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-compoundpathitem-url"></a>
-
 ### CompoundPathItem.uRL
 
 `app.activeDocument.activeLayer.compoundPathItems[index].uRL`
@@ -383,8 +335,6 @@ The value of the Adobe URL tag assigned to this compound path item.
 String.
 
 ---
-
-<a id="jsobjref-compoundpathitem-visibilityvariable"></a>
 
 ### CompoundPathItem.visibilityVariable
 
@@ -400,8 +350,6 @@ Variant.
 
 ---
 
-<a id="jsobjref-compoundpathitem-visiblebounds"></a>
-
 ### CompoundPathItem.visibleBounds
 
 `app.activeDocument.activeLayer.compoundPathItems[index].visibleBounds`
@@ -415,8 +363,6 @@ The visible bounds of the compound path item including stroke width.
 Array of 4 numbers, read-only.
 
 ---
-
-<a id="jsobjref-compoundpathitem-width"></a>
 
 ### CompoundPathItem.width
 
@@ -432,8 +378,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-compoundpathitem-wrapinside"></a>
-
 ### CompoundPathItem.wrapInside
 
 `app.activeDocument.activeLayer.compoundPathItems[index].wrapInside`
@@ -447,8 +391,6 @@ If `true`, the text frame object should be wrapped inside this object.
 Boolean.
 
 ---
-
-<a id="jsobjref-compoundpathitem-wrapoffset"></a>
 
 ### CompoundPathItem.wrapOffset
 
@@ -464,8 +406,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-compoundpathitem-wrapped"></a>
-
 ### CompoundPathItem.wrapped
 
 `app.activeDocument.activeLayer.compoundPathItems[index].wrapped`
@@ -479,8 +419,6 @@ If `true`, wrap text frame objects around this object (text frame must be above 
 Boolean.
 
 ---
-
-<a id="jsobjref-compoundpathitem-zorderposition"></a>
 
 ### CompoundPathItem.zOrderPosition
 
@@ -497,8 +435,6 @@ Number (long), read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-compoundpathitem-duplicate"></a>
 
 ### CompoundPathItem.duplicate()
 
@@ -521,8 +457,6 @@ Creates a duplicate of the selected object.
 
 ---
 
-<a id="jsobjref-compoundpathitem-move"></a>
-
 ### CompoundPathItem.move()
 
 `app.activeDocument.activeLayer.compoundPathItems[index].move(relativeObject, insertionLocation)`
@@ -544,8 +478,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-compoundpathitem-remove"></a>
-
 ### CompoundPathItem.remove()
 
 `app.activeDocument.activeLayer.compoundPathItems[index].remove()`
@@ -559,8 +491,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-compoundpathitem-resize"></a>
 
 ### CompoundPathItem.resize()
 
@@ -594,8 +524,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-compoundpathitem-rotate"></a>
-
 ### CompoundPathItem.rotate()
 
 ```default
@@ -625,8 +553,6 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 Nothing.
 
 ---
-
-<a id="jsobjref-compoundpathitem-transform"></a>
 
 ### compoundPathItem.transform()
 
@@ -659,8 +585,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-compoundpathitem-translate"></a>
-
 ### CompoundPathItem.translate()
 
 ```default
@@ -690,8 +614,6 @@ Repositions the art item relative to the current position, where `deltaX` is the
 Nothing.
 
 ---
-
-<a id="jsobjref-compoundpathitem-zorder"></a>
 
 ### CompoundPathItem.zOrder()
 

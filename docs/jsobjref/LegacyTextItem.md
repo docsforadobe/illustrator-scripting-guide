@@ -1,5 +1,3 @@
-<a id="jsobjref-legacytextitem"></a>
-
 # LegacyTextItem
 
 `legacyTextItems[index`
@@ -13,8 +11,6 @@ You can view, move, and print legacy text, but you cant edit it. Legacy text has
 ---
 
 ## Properties
-
-<a id="jsobjref-legacytextitem-artworkknockout"></a>
 
 ### LegacyTextItem.artworkKnockout
 
@@ -30,8 +26,6 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 ---
 
-<a id="jsobjref-legacytextitem-blendingmode"></a>
-
 ### LegacyTextItem.blendingMode
 
 `legacyTextItems[index].blendingMode`
@@ -45,8 +39,6 @@ The blend mode used when compositing an object.
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
 ---
-
-<a id="jsobjref-legacytextitem-controlbounds"></a>
 
 ### LegacyTextItem.controlBounds
 
@@ -62,8 +54,6 @@ Array of 4 numbers, read-only.
 
 ---
 
-<a id="jsobjref-legacytextitem-converted"></a>
-
 ### LegacyTextItem.converted
 
 `legacyTextItems[index].converted`
@@ -77,8 +67,6 @@ If `true`, the legacy text item has been updated to a native text frame item.
 Boolean, read-only.
 
 ---
-
-<a id="jsobjref-legacytextitem-editable"></a>
 
 ### LegacyTextItem.editable
 
@@ -94,8 +82,6 @@ Boolean, read-only.
 
 ---
 
-<a id="jsobjref-legacytextitem-geometricbounds"></a>
-
 ### LegacyTextItem.geometricBounds
 
 `legacyTextItems[index].geometricBounds`
@@ -109,8 +95,6 @@ The bounds of the object excluding stroke width.
 Array of 4 numbers, read-only.
 
 ---
-
-<a id="jsobjref-legacytextitem-height"></a>
 
 ### LegacyTextItem.height
 
@@ -126,8 +110,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-legacytextitem-hidden"></a>
-
 ### LegacyTextItem.hidden
 
 `legacyTextItems[index].hidden`
@@ -141,8 +123,6 @@ If `true`, this item is hidden.
 Boolean.
 
 ---
-
-<a id="jsobjref-legacytextitem-isisolated"></a>
 
 ### LegacyTextItem.isIsolated
 
@@ -158,8 +138,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-legacytextitem-layer"></a>
-
 ### LegacyTextItem.layer
 
 `legacyTextItems[index].layer`
@@ -173,8 +151,6 @@ The layer to which this item belongs.
 [Layer](Layer.md#jsobjref-layer), read-only.
 
 ---
-
-<a id="jsobjref-legacytextitem-left"></a>
 
 ### LegacyTextItem.left
 
@@ -190,8 +166,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-legacytextitem-locked"></a>
-
 ### LegacyTextItem.locked
 
 `legacyTextItems[index].locked`
@@ -205,8 +179,6 @@ If `true`, this item is locked.
 Boolean.
 
 ---
-
-<a id="jsobjref-legacytextitem-name"></a>
 
 ### LegacyTextItem.name
 
@@ -222,8 +194,6 @@ String.
 
 ---
 
-<a id="jsobjref-legacytextitem-note"></a>
-
 ### LegacyTextItem.note
 
 `legacyTextItems[index].note`
@@ -237,8 +207,6 @@ The note assigned to this item.
 String.
 
 ---
-
-<a id="jsobjref-legacytextitem-opacity"></a>
 
 ### LegacyTextItem.opacity
 
@@ -254,8 +222,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-legacytextitem-parent"></a>
-
 ### LegacyTextItem.parent
 
 `legacyTextItems[index].parent`
@@ -269,8 +235,6 @@ The parent of this object.
 [Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem), read-only.
 
 ---
-
-<a id="jsobjref-legacytextitem-position"></a>
 
 ### LegacyTextItem.position
 
@@ -286,8 +250,6 @@ Array of 2 numbers.
 
 ---
 
-<a id="jsobjref-legacytextitem-selected"></a>
-
 ### LegacyTextItem.selected
 
 `legacyTextItems[index].selected`
@@ -301,8 +263,6 @@ If `true`, this item is selected.
 Boolean.
 
 ---
-
-<a id="jsobjref-legacytextitem-sliced"></a>
 
 ### LegacyTextItem.sliced
 
@@ -318,8 +278,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-legacytextitem-tags"></a>
-
 ### LegacyTextItem.tags
 
 `legacyTextItems[index].tags`
@@ -333,8 +291,6 @@ The tags contained in this item.
 [Tags](Tags.md#jsobjref-tags), read-only.
 
 ---
-
-<a id="jsobjref-legacytextitem-top"></a>
 
 ### LegacyTextItem.top
 
@@ -350,8 +306,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-legacytextitem-typename"></a>
-
 ### LegacyTextItem.typename
 
 `legacyTextItems[index].typename`
@@ -365,8 +319,6 @@ The class name of the referenced object.
 String, read-only.
 
 ---
-
-<a id="jsobjref-legacytextitem-url"></a>
 
 ### LegacyTextItem.uRL
 
@@ -382,8 +334,6 @@ String.
 
 ---
 
-<a id="jsobjref-legacytextitem-visibilityvariable"></a>
-
 ### LegacyTextItem.visibilityVariable
 
 `legacyTextItems[index].visibilityVariable`
@@ -397,8 +347,6 @@ The visibility variable bound to the item.
 [Variable](Variable.md#jsobjref-variable)
 
 ---
-
-<a id="jsobjref-legacytextitem-visiblebounds"></a>
 
 ### LegacyTextItem.visibleBounds
 
@@ -414,8 +362,6 @@ Array of 4 numbers, read-only.
 
 ---
 
-<a id="jsobjref-legacytextitem-width"></a>
-
 ### LegacyTextItem.width
 
 `legacyTextItems[index].width`
@@ -429,8 +375,6 @@ The width of the item.
 Number (double).
 
 ---
-
-<a id="jsobjref-legacytextitem-wrapinside"></a>
 
 ### LegacyTextItem.wrapInside
 
@@ -446,8 +390,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-legacytextitem-wrapoffset"></a>
-
 ### LegacyTextItem.wrapOffset
 
 `legacyTextItems[index].wrapOffset`
@@ -462,8 +404,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-legacytextitem-wrapped"></a>
-
 ### LegacyTextItem.wrapped
 
 `legacyTextItems[index].wrapped`
@@ -477,8 +417,6 @@ If `true`, wrap text frame objects around this object (text frame must be above 
 Boolean.
 
 ---
-
-<a id="jsobjref-legacytextitem-zorderposition"></a>
 
 ### LegacyTextItem.zOrderPosition
 
@@ -496,8 +434,6 @@ Number (long), read-only.
 
 ## Methods
 
-<a id="jsobjref-legacytextitem-converttonative"></a>
-
 ### LegacyTextItem.convertToNative()
 
 `legacyTextItems[index].convertToNative()`
@@ -511,8 +447,6 @@ Converts the legacy text item to a text frame and deletes the original legacy te
 [GroupItem](GroupItem.md#jsobjref-groupitem)
 
 ---
-
-<a id="jsobjref-legacytextitem-duplicate"></a>
 
 ### LegacyTextItem.duplicate()
 
@@ -535,8 +469,6 @@ Creates a duplicate of the selected object.
 
 ---
 
-<a id="jsobjref-legacytextitem-move"></a>
-
 ### LegacyTextItem.move()
 
 `legacyTextItems[index].move(relativeObject, insertionLocation)`
@@ -558,8 +490,6 @@ Moves the object.
 
 ---
 
-<a id="jsobjref-legacytextitem-remove"></a>
-
 ### LegacyTextItem.remove()
 
 `legacyTextItems[index].remove()`
@@ -573,8 +503,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-legacytextitem-resize"></a>
 
 ### LegacyTextItem.resize()
 
@@ -608,8 +536,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-legacytextitem-rotate"></a>
-
 ### LegacyTextItem.rotate()
 
 ```default
@@ -638,8 +564,6 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 Nothing.
 
 ---
-
-<a id="jsobjref-legacytextitem-transform"></a>
 
 ### LegacyTextItem.transform()
 
@@ -672,8 +596,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-legacytextitem-translate"></a>
-
 ### LegacyTextItem.translate()
 
 ```default
@@ -703,8 +625,6 @@ Repositions the art item relative to the current position, where `deltaX` is the
 Nothing.
 
 ---
-
-<a id="jsobjref-legacytextitem-zorder"></a>
 
 ### LegacyTextItem.zOrder()
 

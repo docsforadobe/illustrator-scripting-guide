@@ -1,5 +1,3 @@
-<a id="jsobjref-symbolitems"></a>
-
 # SymbolItems
 
 `app.activeDocument.symbolItems`
@@ -11,8 +9,6 @@ The collection of [SymbolItem](SymbolItem.md#jsobjref-symbolitem) objects in the
 ---
 
 ## Properties
-
-<a id="jsobjref-symbolitems-length"></a>
 
 ### SymbolItems.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-symbolitems-parent"></a>
-
 ### SymbolItems.parent
 
 `app.activeDocument.symbolItems.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-symbolitems-typename"></a>
 
 ### SymbolItems.typename
 
@@ -61,8 +53,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-symbolitems-add"></a>
 
 ### SymbolItems.add()
 
@@ -84,8 +74,6 @@ Creates an instance of the specified symbol.
 
 ---
 
-<a id="jsobjref-symbolitems-getbyname"></a>
-
 ### SymbolItems.getByName()
 
 `app.activeDocument.symbolItems.getByName(name)`
@@ -106,8 +94,6 @@ Get the first element in the collection with the provided name.
 
 ---
 
-<a id="jsobjref-symbolitems-index"></a>
-
 ### SymbolItems.index()
 
 `app.activeDocument.symbolItems.index(itemKey)`
@@ -127,8 +113,6 @@ Gets an element from the collection.
 [SymbolItem](SymbolItem.md#jsobjref-symbolitem)
 
 ---
-
-<a id="jsobjref-symbolitems-removeall"></a>
 
 ### SymbolItems.removeAll()
 

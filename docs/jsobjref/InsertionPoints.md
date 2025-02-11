@@ -1,5 +1,3 @@
-<a id="jsobjref-insertionpoints"></a>
-
 # InsertionPoints
 
 `app.activeDocument.textFrames[index].insertionPoints`
@@ -11,8 +9,6 @@ A collection of `InsertionPoint` objects.
 ---
 
 ## Properties
-
-<a id="jsobjref-insertionpoints-length"></a>
 
 ### InsertionPoints.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-insertionpoints-parent"></a>
-
 ### InsertionPoints.parent
 
 `app.activeDocument.textFrames[index].insertionPoints.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-insertionpoints-typename"></a>
 
 ### InsertionPoints.typename
 
@@ -61,8 +53,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-insertionpoints-index"></a>
 
 ### InsertionPoints.index()
 

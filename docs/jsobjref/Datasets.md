@@ -1,5 +1,3 @@
-<a id="jsobjref-datasets"></a>
-
 # Datasets
 
 `app.activeDocument.dataSets`
@@ -11,8 +9,6 @@ A collection of [Dataset](Dataset.md#jsobjref-dataset) objects.
 ---
 
 ## Properties
-
-<a id="jsobjref-datasets-length"></a>
 
 ### Datasets.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-datasets-parent"></a>
-
 ### Datasets.parent
 
 `app.activeDocument.dataSets.parent`
@@ -43,8 +37,6 @@ The name of the object that contains this dataset.
 [Document](Document.md#jsobjref-document), read-only.
 
 ---
-
-<a id="jsobjref-datasets-typename"></a>
 
 ### Datasets.typename
 
@@ -62,8 +54,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-datasets-add"></a>
-
 ### Datasets.add()
 
 `app.activeDocument.dataSets.add()`
@@ -77,8 +67,6 @@ Creates a new dataset object.
 [Dataset](Dataset.md#jsobjref-dataset)
 
 ---
-
-<a id="jsobjref-datasets-getbyname"></a>
 
 ### Datasets.getByName()
 
@@ -100,8 +88,6 @@ Gets the first element in the collection with the specified name.
 
 ---
 
-<a id="jsobjref-datasets-index"></a>
-
 ### Datasets.index()
 
 `app.activeDocument.dataSets.index(itemKey)`
@@ -121,8 +107,6 @@ Gets an element from the collection.
 [Dataset](Dataset.md#jsobjref-dataset)
 
 ---
-
-<a id="jsobjref-datasets-removeall"></a>
 
 ### Datasets.removeAll()
 

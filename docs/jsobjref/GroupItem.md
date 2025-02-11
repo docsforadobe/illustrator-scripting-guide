@@ -1,5 +1,3 @@
-<a id="jsobjref-groupitem"></a>
-
 # GroupItem
 
 `app.activeDocument.groupItems[index`
@@ -13,8 +11,6 @@ Paths contained in a group or compound path in a document are returned as indivi
 ---
 
 ## Properties
-
-<a id="jsobjref-groupitem-artworkknockout"></a>
 
 ### GroupItem.artworkKnockout
 
@@ -30,8 +26,6 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 ---
 
-<a id="jsobjref-groupitem-blendingmode"></a>
-
 ### GroupItem.blendingMode
 
 `app.activeDocument.groupItems[index].blendingMode`
@@ -45,8 +39,6 @@ The blend mode used when compositing an object.
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
 ---
-
-<a id="jsobjref-groupitem-clipped"></a>
 
 ### GroupItem.clipped
 
@@ -62,8 +54,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-groupitem-compoundpathitems"></a>
-
 ### GroupItem.compoundPathItems
 
 `app.activeDocument.groupItems[index].compoundPathItems`
@@ -77,8 +67,6 @@ The compound path items contained in this group.
 [CompoundPathItems](CompoundPathItems.md#jsobjref-compoundpathitems), read-only.
 
 ---
-
-<a id="jsobjref-groupitem-controlbounds"></a>
 
 ### GroupItem.controlBounds
 
@@ -94,8 +82,6 @@ Array of 4 numbers, read-only.
 
 ---
 
-<a id="jsobjref-groupitem-editable"></a>
-
 ### GroupItem.editable
 
 `app.activeDocument.groupItems[index].editable`
@@ -109,8 +95,6 @@ If true, this item is editable.
 Boolean, read-only.
 
 ---
-
-<a id="jsobjref-groupitem-geometricbounds"></a>
 
 ### GroupItem.geometricBounds
 
@@ -126,8 +110,6 @@ Array of 4 numbers, read-only.
 
 ---
 
-<a id="jsobjref-groupitem-graphitems"></a>
-
 ### GroupItem.graphItems
 
 `app.activeDocument.groupItems[index].graphItems`
@@ -141,8 +123,6 @@ he graph items contained in this group.
 [GraphItems](GraphItems.md#jsobjref-graphitems), read-only.
 
 ---
-
-<a id="jsobjref-groupitem-groupitems"></a>
 
 ### GroupItem.groupItems
 
@@ -158,8 +138,6 @@ The group items contained in this group.
 
 ---
 
-<a id="jsobjref-groupitem-height"></a>
-
 ### GroupItem.height
 
 `app.activeDocument.groupItems[index].height`
@@ -173,8 +151,6 @@ The height of the group item.
 Number (double).
 
 ---
-
-<a id="jsobjref-groupitem-hidden"></a>
 
 ### GroupItem.hidden
 
@@ -190,8 +166,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-groupitem-isisolated"></a>
-
 ### GroupItem.isIsolated
 
 `app.activeDocument.groupItems[index].isIsolated`
@@ -205,8 +179,6 @@ If `true`, this object is isolated.
 Boolean.
 
 ---
-
-<a id="jsobjref-groupitem-layer"></a>
 
 ### GroupItem.layer
 
@@ -222,8 +194,6 @@ The layer to which this group item belongs.
 
 ---
 
-<a id="jsobjref-groupitem-left"></a>
-
 ### GroupItem.left
 
 `app.activeDocument.groupItems[index].left`
@@ -237,8 +207,6 @@ The position of the left side of the item (in points, measured from the left sid
 Number (double).
 
 ---
-
-<a id="jsobjref-groupitem-legacytextitems"></a>
 
 ### GroupItem.legacyTextItems
 
@@ -254,8 +222,6 @@ The legacy text items in the group.
 
 ---
 
-<a id="jsobjref-groupitem-locked"></a>
-
 ### GroupItem.locked
 
 `app.activeDocument.groupItems[index].locked`
@@ -269,8 +235,6 @@ If `true`, this group item is locked.
 Boolean.
 
 ---
-
-<a id="jsobjref-groupitem-meshitems"></a>
 
 ### GroupItem.meshItems
 
@@ -286,8 +250,6 @@ The mesh items contained in this group.
 
 ---
 
-<a id="jsobjref-groupitem-name"></a>
-
 ### GroupItem.name
 
 `app.activeDocument.groupItems[index].name`
@@ -301,8 +263,6 @@ The name of this group item.
 String.
 
 ---
-
-<a id="jsobjref-groupitem-nonnativeitems"></a>
 
 ### GroupItem.nonNativeItems
 
@@ -318,8 +278,6 @@ The non-native art items in this group.
 
 ---
 
-<a id="jsobjref-groupitem-note"></a>
-
 ### GroupItem.note
 
 `app.activeDocument.groupItems[index].note`
@@ -333,8 +291,6 @@ The note assigned to this item.
 String.
 
 ---
-
-<a id="jsobjref-groupitem-opacity"></a>
 
 ### GroupItem.opacity
 
@@ -350,8 +306,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-groupitem-pageitems"></a>
-
 ### GroupItem.pageItems
 
 `app.activeDocument.groupItems[index].pageItems`
@@ -365,8 +319,6 @@ The page items (all art item classes) contained in this group.
 [PageItems](PageItems.md#jsobjref-pageitems), read-only.
 
 ---
-
-<a id="jsobjref-groupitem-parent"></a>
 
 ### GroupItem.parent
 
@@ -382,8 +334,6 @@ The parent of this object.
 
 ---
 
-<a id="jsobjref-groupitem-pathitems"></a>
-
 ### GroupItem.pathItems
 
 `app.activeDocument.groupItems[index].pathItems`
@@ -397,8 +347,6 @@ The path items contained in this group.
 [PathItems](PathItems.md#jsobjref-pathitems), read-only.
 
 ---
-
-<a id="jsobjref-groupitem-placeditems"></a>
 
 ### GroupItem.placedItems
 
@@ -414,8 +362,6 @@ The placed items contained in this group.
 
 ---
 
-<a id="jsobjref-groupitem-pluginitems"></a>
-
 ### GroupItem.pluginItems
 
 `app.activeDocument.groupItems[index].pluginItems`
@@ -429,8 +375,6 @@ The plug-in items contained in this group.
 [PluginItems](PluginItems.md#jsobjref-pluginitems), read-only.
 
 ---
-
-<a id="jsobjref-groupitem-position"></a>
 
 ### GroupItem.position
 
@@ -446,8 +390,6 @@ Array of 2 numbers.
 
 ---
 
-<a id="jsobjref-groupitem-rasteritems"></a>
-
 ### GroupItem.rasterItems
 
 `app.activeDocument.groupItems[index].rasterItems`
@@ -461,8 +403,6 @@ The raster items contained in this group.
 [RasterItems](RasterItems.md#jsobjref-rasteritems), read-only.
 
 ---
-
-<a id="jsobjref-groupitem-selected"></a>
 
 ### GroupItem.selected
 
@@ -478,8 +418,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-groupitem-sliced"></a>
-
 ### GroupItem.sliced
 
 `app.activeDocument.groupItems[index].sliced`
@@ -493,8 +431,6 @@ If `true`, the item sliced. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-groupitem-symbolitems"></a>
 
 ### GroupItem.symbolItems
 
@@ -510,8 +446,6 @@ The symbol item objects in this group.
 
 ---
 
-<a id="jsobjref-groupitem-tags"></a>
-
 ### GroupItem.tags
 
 `app.activeDocument.groupItems[index].tags`
@@ -525,8 +459,6 @@ The tags contained in this group.
 [Tags](Tags.md#jsobjref-tags), read-only.
 
 ---
-
-<a id="jsobjref-groupitem-textframes"></a>
 
 ### GroupItem.textFrames
 
@@ -542,8 +474,6 @@ The text art items contained in this group.
 
 ---
 
-<a id="jsobjref-groupitem-top"></a>
-
 ### GroupItem.top
 
 `app.activeDocument.groupItems[index].top`
@@ -557,8 +487,6 @@ The position of the top of the item (in points, measured from the bottom of the 
 Number (double).
 
 ---
-
-<a id="jsobjref-groupitem-typename"></a>
 
 ### GroupItem.typename
 
@@ -574,8 +502,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-groupitem-url"></a>
-
 ### GroupItem.uRL
 
 `app.activeDocument.groupItems[index].uRL`
@@ -589,8 +515,6 @@ The value of the Adobe URL tag assigned to this group item.
 String.
 
 ---
-
-<a id="jsobjref-groupitem-visibilityvariable"></a>
 
 ### GroupItem.visibilityVariable
 
@@ -606,8 +530,6 @@ The visibility variable bound to the item.
 
 ---
 
-<a id="jsobjref-groupitem-visiblebounds"></a>
-
 ### GroupItem.visibleBounds
 
 `app.activeDocument.groupItems[index].visibleBounds`
@@ -621,8 +543,6 @@ The visible bounds of the group item including stroke width.
 Array of 4 numbers, read-only.
 
 ---
-
-<a id="jsobjref-groupitem-width"></a>
 
 ### GroupItem.width
 
@@ -638,8 +558,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-groupitem-wrapinside"></a>
-
 ### GroupItem.wrapInside
 
 `app.activeDocument.groupItems[index].wrapInside`
@@ -653,8 +571,6 @@ If `true`, the text frame object should be wrapped inside this object.
 Boolean.
 
 ---
-
-<a id="jsobjref-groupitem-wrapoffset"></a>
 
 ### GroupItem.wrapOffset
 
@@ -670,8 +586,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-groupitem-wrapped"></a>
-
 ### GroupItem.wrapped
 
 `app.activeDocument.groupItems[index].wrapped`
@@ -685,8 +599,6 @@ If `true`, wrap text frame objects around this object (text frame must be above 
 Boolean.
 
 ---
-
-<a id="jsobjref-groupitem-zorderposition"></a>
 
 ### GroupItem.zOrderPosition
 
@@ -703,8 +615,6 @@ Number (long).
 ---
 
 ## Methods
-
-<a id="jsobjref-groupitem-duplicate"></a>
 
 ### GroupItem.duplicate()
 
@@ -727,8 +637,6 @@ Creates a duplicate of the selected object.
 
 ---
 
-<a id="jsobjref-groupitem-move"></a>
-
 ### GroupItem.move()
 
 `app.activeDocument.groupItems[index].move(relativeObject, insertionLocation)`
@@ -750,8 +658,6 @@ Moves the object.
 
 ---
 
-<a id="jsobjref-groupitem-remove"></a>
-
 ### GroupItem.remove()
 
 `app.activeDocument.groupItems[index].remove()`
@@ -765,8 +671,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-groupitem-resize"></a>
 
 ### GroupItem.resize()
 
@@ -800,8 +704,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-groupitem-rotate"></a>
-
 ### GroupItem.rotate()
 
 ```default
@@ -831,8 +733,6 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 Nothing.
 
 ---
-
-<a id="jsobjref-groupitem-transform"></a>
 
 ### GroupItem.transform()
 
@@ -865,8 +765,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-groupitem-translate"></a>
-
 ### GroupItem.translate()
 
 ```default
@@ -896,8 +794,6 @@ Repositions the art item relative to the current position, where `deltaX` is the
 Nothing.
 
 ---
-
-<a id="jsobjref-groupitem-zorder"></a>
 
 ### GroupItem.zOrder()
 

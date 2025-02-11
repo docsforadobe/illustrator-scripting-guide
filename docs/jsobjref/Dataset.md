@@ -1,5 +1,3 @@
-<a id="jsobjref-dataset"></a>
-
 # Dataset
 
 `app.activeDocument.dataSets[index`
@@ -11,8 +9,6 @@ A set of data used for dynamic publishing. A dataset allows you to collect a num
 ---
 
 ## Properties
-
-<a id="jsobjref-dataset-name"></a>
 
 ### Dataset.name
 
@@ -28,8 +24,6 @@ String.
 
 ---
 
-<a id="jsobjref-dataset-parent"></a>
-
 ### Dataset.parent
 
 `app.activeDocument.dataSets[index].parent`
@@ -43,8 +37,6 @@ The name of the object that contains this dataset.
 [Document](Document.md#jsobjref-document), read-only.
 
 ---
-
-<a id="jsobjref-dataset-typename"></a>
 
 ### Dataset.typename
 
@@ -62,8 +54,6 @@ String.
 
 ## Methods
 
-<a id="jsobjref-dataset-display"></a>
-
 ### Dataset.display()
 
 `app.activeDocument.dataSets[index].display()`
@@ -78,8 +68,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-dataset-remove"></a>
-
 ### Dataset.remove()
 
 `app.activeDocument.dataSets[index].remove()`
@@ -93,8 +81,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-dataset-update"></a>
 
 ### Dataset.update()
 
@@ -111,8 +97,6 @@ Nothing.
 ---
 
 ## Example
-
-<a id="jsobjref-dataset-usingvariablesanddatasets"></a>
 
 ### Using variables and datasets
 

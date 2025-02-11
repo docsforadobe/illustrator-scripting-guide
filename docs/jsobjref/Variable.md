@@ -1,5 +1,3 @@
-<a id="jsobjref-variable"></a>
-
 # Variable
 
 `app.activeDocument.variables[index`
@@ -18,8 +16,6 @@ Variables are accessed in Illustrator through the Variables palette.
 
 ## Properties
 
-<a id="jsobjref-variable-kind"></a>
-
 ### Variable.kind
 
 `app.activeDocument.variables[index].kind`
@@ -33,8 +29,6 @@ The variable’s type.
 [VariableKind](scripting-constants.md#jsobjref-scripting-constants-variablekind)
 
 ---
-
-<a id="jsobjref-variable-name"></a>
 
 ### Variable.name
 
@@ -50,8 +44,6 @@ string
 
 ---
 
-<a id="jsobjref-variable-pageitems"></a>
-
 ### Variable.pageItems
 
 `app.activeDocument.variables[index].pageItems`
@@ -66,8 +58,6 @@ All of the artwork in the variable.
 
 ---
 
-<a id="jsobjref-variable-parent"></a>
-
 ### Variable.parent
 
 `app.activeDocument.variables[index].parent`
@@ -81,8 +71,6 @@ Read-only. The object that contains the variable.
 Object
 
 ---
-
-<a id="jsobjref-variable-typename"></a>
 
 ### Variable.typename
 
@@ -99,8 +87,6 @@ String, read-only
 ---
 
 ## Methods
-
-<a id="jsobjref-variable-remove"></a>
 
 ### Variable.remove()
 

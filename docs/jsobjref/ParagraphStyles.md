@@ -1,5 +1,3 @@
-<a id="jsobjref-paragraphstyles"></a>
-
 # ParagraphStyles
 
 `app.activeDocument.paragraphStyles`
@@ -11,8 +9,6 @@ A collection of [ParagraphStyle](ParagraphStyle.md#jsobjref-paragraphstyle) obje
 ---
 
 ## Properties
-
-<a id="jsobjref-paragraphstyles-length"></a>
 
 ### ParagraphStyles.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-paragraphstyles-parent"></a>
-
 ### ParagraphStyles.parent
 
 `app.activeDocument.paragraphStyles.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-paragraphstyles-typename"></a>
 
 ### ParagraphStyles.typename
 
@@ -61,8 +53,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-paragraphstyles-add"></a>
 
 ### ParagraphStyles.add()
 
@@ -84,8 +74,6 @@ Creates a named paragraph style.
 
 ---
 
-<a id="jsobjref-paragraphstyles-getbyname"></a>
-
 ### ParagraphStyles.getByName()
 
 `app.activeDocument.paragraphStyles.getByName(name)`
@@ -105,8 +93,6 @@ Get the first element in the collection with the provided name.
 [CharacterAttributes](CharacterAttributes.md#jsobjref-characterattributes)
 
 ---
-
-<a id="jsobjref-paragraphstyles-index"></a>
 
 ### ParagraphStyles.index()
 
@@ -128,8 +114,6 @@ Gets an element from the collection.
 
 ---
 
-<a id="jsobjref-paragraphstyles-removeall"></a>
-
 ### ParagraphStyles.removeAll()
 
 `app.activeDocument.paragraphStyles.removeAll()`
@@ -145,8 +129,6 @@ Nothing.
 ---
 
 ## Example
-
-<a id="jsobjref-paragraphstyles-creatingandapplyingparagraphstyle"></a>
 
 ### Creating and applying a paragraph style
 

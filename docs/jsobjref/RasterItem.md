@@ -1,5 +1,3 @@
-<a id="jsobjref-rasteritem"></a>
-
 # RasterItem
 
 `app.activeDocument.rasterItems[index`
@@ -11,8 +9,6 @@ A bitmap art item in a document. A script can create a raster item from an exter
 ---
 
 ## Properties
-
-<a id="jsobjref-rasteritem-artworkknockout"></a>
 
 ### RasterItem.artworkKnockout
 
@@ -28,8 +24,6 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 ---
 
-<a id="jsobjref-rasteritem-bitsperchannel"></a>
-
 ### RasterItem.bitsPerChannel
 
 `app.activeDocument.rasterItems[index].bitsPerChannel`
@@ -43,8 +37,6 @@ The number of bits per channel.
 Number (long); read-only.
 
 ---
-
-<a id="jsobjref-rasteritem-blendingmode"></a>
 
 ### RasterItem.blendingMode
 
@@ -60,8 +52,6 @@ The blend mode used when compositing an object.
 
 ---
 
-<a id="jsobjref-rasteritem-boundingbox"></a>
-
 ### RasterItem.boundingBox
 
 `app.activeDocument.rasterItems[index].boundingBox`
@@ -75,8 +65,6 @@ The dimensions of the placed art item regardless of transformations.
 Array of 4 numbers
 
 ---
-
-<a id="jsobjref-rasteritem-channels"></a>
 
 ### RasterItem.channels
 
@@ -92,8 +80,6 @@ Number (long); read-only.
 
 ---
 
-<a id="jsobjref-rasteritem-colorants"></a>
-
 ### RasterItem.colorants
 
 `app.activeDocument.rasterItems[index].colorants`
@@ -107,8 +93,6 @@ The colorants used in the raster art.
 Array of string; read-only.
 
 ---
-
-<a id="jsobjref-rasteritem-colorizedgrayscale"></a>
 
 ### RasterItem.colorizedGrayscale
 
@@ -124,8 +108,6 @@ Boolean; read-only.
 
 ---
 
-<a id="jsobjref-rasteritem-contentvariable"></a>
-
 ### RasterItem.contentVariable
 
 `app.activeDocument.rasterItems[index].contentVariable`
@@ -139,8 +121,6 @@ The content variable bound to the item.
 [Variable](Variable.md#jsobjref-variable)
 
 ---
-
-<a id="jsobjref-rasteritem-controlbounds"></a>
 
 ### RasterItem.controlBounds
 
@@ -156,8 +136,6 @@ Array of 4 numbers; read-only.
 
 ---
 
-<a id="jsobjref-rasteritem-editable"></a>
-
 ### RasterItem.editable
 
 `app.activeDocument.rasterItems[index].editable`
@@ -171,8 +149,6 @@ If `true`, this item is editable.
 Boolean; read-only.
 
 ---
-
-<a id="jsobjref-rasteritem-embedded"></a>
 
 ### RasterItem.embedded
 
@@ -188,8 +164,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-rasteritem-file"></a>
-
 ### RasterItem.file
 
 `app.activeDocument.rasterItems[index].file`
@@ -203,8 +177,6 @@ The file containing the artwork.
 File; read-only.
 
 ---
-
-<a id="jsobjref-rasteritem-geometricbounds"></a>
 
 ### RasterItem.geometricBounds
 
@@ -220,8 +192,6 @@ Array of 4 numbers; read-only.
 
 ---
 
-<a id="jsobjref-rasteritem-height"></a>
-
 ### RasterItem.height
 
 `app.activeDocument.rasterItems[index].height`
@@ -235,8 +205,6 @@ The height of the group item.
 Number (double)
 
 ---
-
-<a id="jsobjref-rasteritem-hidden"></a>
 
 ### RasterItem.hidden
 
@@ -252,8 +220,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-rasteritem-imagecolorspace"></a>
-
 ### RasterItem.imageColorSpace
 
 `app.activeDocument.rasterItems[index].imageColorSpace`
@@ -267,8 +233,6 @@ The color space of the raster image.
 [ImageColorSpace](scripting-constants.md#jsobjref-scripting-constants-imagecolorspace); read-only.
 
 ---
-
-<a id="jsobjref-rasteritem-isisolated"></a>
 
 ### RasterItem.isIsolated
 
@@ -284,8 +248,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-rasteritem-layer"></a>
-
 ### RasterItem.layer
 
 `app.activeDocument.rasterItems[index].layer`
@@ -299,8 +261,6 @@ The layer to which this item belongs.
 [Layer](Layer.md#jsobjref-layer); read-only.
 
 ---
-
-<a id="jsobjref-rasteritem-left"></a>
 
 ### RasterItem.left
 
@@ -316,8 +276,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-rasteritem-locked"></a>
-
 ### RasterItem.locked
 
 `app.activeDocument.rasterItems[index].locked`
@@ -331,8 +289,6 @@ If `true`, this item is locked.
 Boolean
 
 ---
-
-<a id="jsobjref-rasteritem-matrix"></a>
 
 ### RasterItem.matrix
 
@@ -348,8 +304,6 @@ The transformation matrix of the placed artwork.
 
 ---
 
-<a id="jsobjref-rasteritem-name"></a>
-
 ### RasterItem.name
 
 `app.activeDocument.rasterItems[index].name`
@@ -363,8 +317,6 @@ The name of this item.
 String
 
 ---
-
-<a id="jsobjref-rasteritem-note"></a>
 
 ### RasterItem.note
 
@@ -380,8 +332,6 @@ String
 
 ---
 
-<a id="jsobjref-rasteritem-opacity"></a>
-
 ### RasterItem.opacity
 
 `app.activeDocument.rasterItems[index].opacity`
@@ -395,8 +345,6 @@ The opacity of the object. Range: 0.0 to 100.0
 Number (double)
 
 ---
-
-<a id="jsobjref-rasteritem-overprint"></a>
 
 ### RasterItem.overprint
 
@@ -412,8 +360,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-rasteritem-parent"></a>
-
 ### RasterItem.parent
 
 `app.activeDocument.rasterItems[index].parent`
@@ -427,8 +373,6 @@ The parent of this object.
 [Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem)
 
 ---
-
-<a id="jsobjref-rasteritem-position"></a>
 
 ### RasterItem.position
 
@@ -444,8 +388,6 @@ Array of 2 numbers; read-only.
 
 ---
 
-<a id="jsobjref-rasteritem-selected"></a>
-
 ### RasterItem.selected
 
 `app.activeDocument.rasterItems[index].selected`
@@ -459,8 +401,6 @@ If `true`, this item is selected.
 Boolean
 
 ---
-
-<a id="jsobjref-rasteritem-sliced"></a>
 
 ### RasterItem.sliced
 
@@ -478,8 +418,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-rasteritem-status"></a>
-
 ### RasterItem.status
 
 `app.activeDocument.rasterItems[index].status`
@@ -493,8 +431,6 @@ Status of the linked image.
 [RasterLinkState](scripting-constants.md#jsobjref-scripting-constants-rasterlinkstate)
 
 ---
-
-<a id="jsobjref-rasteritem-tags"></a>
 
 ### RasterItem.tags
 
@@ -510,8 +446,6 @@ The tags contained in this item.
 
 ---
 
-<a id="jsobjref-rasteritem-top"></a>
-
 ### RasterItem.top
 
 `app.activeDocument.rasterItems[index].top`
@@ -525,8 +459,6 @@ The position of the top of the item (in points, measured from the bottom of the 
 Number (double)
 
 ---
-
-<a id="jsobjref-rasteritem-transparent"></a>
 
 ### RasterItem.transparent
 
@@ -542,8 +474,6 @@ Boolean; read-only.
 
 ---
 
-<a id="jsobjref-rasteritem-typename"></a>
-
 ### RasterItem.typename
 
 `app.activeDocument.rasterItems[index].typename`
@@ -557,8 +487,6 @@ The class name of the referenced object.
 String; read-only.
 
 ---
-
-<a id="jsobjref-rasteritem-url"></a>
 
 ### RasterItem.uRL
 
@@ -574,8 +502,6 @@ String
 
 ---
 
-<a id="jsobjref-rasteritem-visibilityvariable"></a>
-
 ### RasterItem.visibilityVariable
 
 `app.activeDocument.rasterItems[index].visibilityVariable`
@@ -589,8 +515,6 @@ The visibility variable bound to the item.
 [Variable](Variable.md#jsobjref-variable)
 
 ---
-
-<a id="jsobjref-rasteritem-visiblebounds"></a>
 
 ### RasterItem.visibleBounds
 
@@ -606,8 +530,6 @@ Array of 4 numbers; read-only.
 
 ---
 
-<a id="jsobjref-rasteritem-width"></a>
-
 ### RasterItem.width
 
 `app.activeDocument.rasterItems[index].width`
@@ -621,8 +543,6 @@ The width of the item.
 Number (double)
 
 ---
-
-<a id="jsobjref-rasteritem-wrapinside"></a>
 
 ### RasterItem.wrapInside
 
@@ -638,8 +558,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-rasteritem-wrapoffset"></a>
-
 ### RasterItem.wrapOffset
 
 `app.activeDocument.rasterItems[index].wrapOffset`
@@ -654,8 +572,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-rasteritem-wrapped"></a>
-
 ### RasterItem.wrapped
 
 `app.activeDocument.rasterItems[index].wrapped`
@@ -669,8 +585,6 @@ If `true`, wrap text frame objects around this object (text frame must be above 
 Boolean
 
 ---
-
-<a id="jsobjref-rasteritem-zorderposition"></a>
 
 ### RasterItem.zOrderPosition
 
@@ -687,8 +601,6 @@ Number; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-rasteritem-colorize"></a>
 
 ### RasterItem.colorize()
 
@@ -709,8 +621,6 @@ Colorizes the raster item with a CMYK or RGB Color.
 Nothing.
 
 ---
-
-<a id="jsobjref-rasteritem-duplicate"></a>
 
 ### RasterItem.duplicate()
 
@@ -733,8 +643,6 @@ Creates a duplicate of the selected object.
 
 ---
 
-<a id="jsobjref-rasteritem-move"></a>
-
 ### RasterItem.move()
 
 `app.activeDocument.rasterItems[index].move(relativeObject, insertionLocation)`
@@ -756,8 +664,6 @@ Moves the object.
 
 ---
 
-<a id="jsobjref-rasteritem-remove"></a>
-
 ### RasterItem.remove()
 
 `app.activeDocument.rasterItems[index].remove()`
@@ -771,8 +677,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-rasteritem-resize"></a>
 
 ### RasterItem.resize()
 
@@ -801,8 +705,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-rasteritem-rotate"></a>
-
 ### RasterItem.rotate()
 
 `app.activeDocument.rasterItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])`
@@ -830,8 +732,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-rasteritem-trace"></a>
-
 ### RasterItem.trace()
 
 `app.activeDocument.rasterItems[index].trace()`
@@ -849,8 +749,6 @@ Creates and returns a [PluginItem](PluginItem.md#jsobjref-pluginitem) object tha
 [PluginItem](PluginItem.md#jsobjref-pluginitem)
 
 ---
-
-<a id="jsobjref-rasteritem-transform"></a>
 
 ### RasterItem.transform()
 
@@ -878,8 +776,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-rasteritem-translate"></a>
-
 ### RasterItem.translate()
 
 `app.activeDocument.rasterItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])`
@@ -904,8 +800,6 @@ Repositions the art item relative to the current position, where `deltaX` is the
 Nothing.
 
 ---
-
-<a id="jsobjref-rasteritem-zorder"></a>
 
 ### RasterItem.zOrder()
 

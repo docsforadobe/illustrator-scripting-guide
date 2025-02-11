@@ -1,5 +1,3 @@
-<a id="jsobjref-pageitem"></a>
-
 # PageItem
 
 `app.activeDocument.pageItems[index`
@@ -16,8 +14,6 @@ You cannot create a `PageItem` directly, you must create one of the specific `Pa
 
 ## Properties
 
-<a id="jsobjref-pageitem-artworkknockout"></a>
-
 ### PageItem.artworkKnockout
 
 `app.activeDocument.pageItems[index].artworkKnockout`
@@ -31,8 +27,6 @@ Is this object used to create a knockout.
 [KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
 ---
-
-<a id="jsobjref-pageitem-blendingmode"></a>
 
 ### PageItem.blendingMode
 
@@ -48,8 +42,6 @@ The mode to use when compositing this object. An object is considered composited
 
 ---
 
-<a id="jsobjref-pageitem-controlbounds"></a>
-
 ### PageItem.controlBounds
 
 `app.activeDocument.pageItems[index].controlBounds`
@@ -63,8 +55,6 @@ The bounds of the object including stroke width and controls.
 Rect, read-only.
 
 ---
-
-<a id="jsobjref-pageitem-editable"></a>
 
 ### PageItem.editable
 
@@ -80,8 +70,6 @@ Boolean, read-only.
 
 ---
 
-<a id="jsobjref-pageitem-geometricbounds"></a>
-
 ### PageItem.geometricBounds
 
 `app.activeDocument.pageItems[index].geometricBounds`
@@ -95,8 +83,6 @@ The object’s bounds excluding the stroke width.
 Array of 4 numbers, read-only.
 
 ---
-
-<a id="jsobjref-pageitem-height"></a>
 
 ### PageItem.height
 
@@ -112,8 +98,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-pageitem-hidden"></a>
-
 ### PageItem.hidden
 
 `app.activeDocument.pageItems[index].hidden`
@@ -127,8 +111,6 @@ If `true`, this page item is hidden.
 Boolean.
 
 ---
-
-<a id="jsobjref-pageitem-isisolated"></a>
 
 ### PageItem.isIsolated
 
@@ -144,8 +126,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-pageitem-layer"></a>
-
 ### PageItem.layer
 
 `app.activeDocument.pageItems[index].layer`
@@ -159,8 +139,6 @@ The layer to which this page item belongs.
 [Layer](Layer.md#jsobjref-layer), read-only.
 
 ---
-
-<a id="jsobjref-pageitem-left"></a>
 
 ### PageItem.left
 
@@ -176,8 +154,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-pageitem-locked"></a>
-
 ### PageItem.locked
 
 `app.activeDocument.pageItems[index].locked`
@@ -191,8 +167,6 @@ If `true`, this page item is locked.
 Boolean.
 
 ---
-
-<a id="jsobjref-pageitem-name"></a>
 
 ### PageItem.name
 
@@ -208,8 +182,6 @@ String.
 
 ---
 
-<a id="jsobjref-pageitem-note"></a>
-
 ### PageItem.note
 
 `app.activeDocument.pageItems[index].note`
@@ -223,8 +195,6 @@ The note assigned to this item.
 String.
 
 ---
-
-<a id="jsobjref-pageitem-opacity"></a>
 
 ### PageItem.opacity
 
@@ -240,8 +210,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-pageitem-parent"></a>
-
 ### PageItem.parent
 
 `app.activeDocument.pageItems[index].parent`
@@ -255,8 +223,6 @@ The parent of this object.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-pageitem-pixelaligned"></a>
 
 ### PageItem.pixelAligned
 
@@ -272,8 +238,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-pageitem-position"></a>
-
 ### PageItem.position
 
 `app.activeDocument.pageItems[index].position`
@@ -287,8 +251,6 @@ The position (in points) of the top left corner of the item in the format {x, y}
 Array of 2 numbers.
 
 ---
-
-<a id="jsobjref-pageitem-selected"></a>
 
 ### PageItem.selected
 
@@ -304,8 +266,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-pageitem-sliced"></a>
-
 ### PageItem.sliced
 
 `app.activeDocument.pageItems[index].sliced`
@@ -319,8 +279,6 @@ If `true`, preserve slices.
 Boolean.
 
 ---
-
-<a id="jsobjref-pageitem-tags"></a>
 
 ### PageItem.tags
 
@@ -336,8 +294,6 @@ The collection of tags associated with this page item.
 
 ---
 
-<a id="jsobjref-pageitem-top"></a>
-
 ### PageItem.top
 
 `app.activeDocument.pageItems[index].top`
@@ -351,8 +307,6 @@ The top position of the art item.
 Number (double).
 
 ---
-
-<a id="jsobjref-pageitem-typename"></a>
 
 ### PageItem.typename
 
@@ -368,8 +322,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-pageitem-url"></a>
-
 ### PageItem.uRL
 
 `app.activeDocument.pageItems[index].uRL`
@@ -383,8 +335,6 @@ The value of the Adobe URL tag assigned to this page item.
 String.
 
 ---
-
-<a id="jsobjref-pageitem-uuid"></a>
 
 ### PageItem.uuid
 
@@ -403,8 +353,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-pageitem-visibilityvariable"></a>
-
 ### PageItem.visibilityVariable
 
 `app.activeDocument.pageItems[index].visibilityVariable`
@@ -418,8 +366,6 @@ The visibility variable to which this page item path is bound.
 [Variable](Variable.md#jsobjref-variable)
 
 ---
-
-<a id="jsobjref-pageitem-visiblebounds"></a>
 
 ### PageItem.visibleBounds
 
@@ -435,8 +381,6 @@ Array of 4 numbers, read-only.
 
 ---
 
-<a id="jsobjref-pageitem-width"></a>
-
 ### PageItem.width
 
 `app.activeDocument.pageItems[index].width`
@@ -450,8 +394,6 @@ The width of the page item, calculated from the geometric bounds. Range: 0.0 to 
 Number (double).
 
 ---
-
-<a id="jsobjref-pageitem-wrapinside"></a>
 
 ### PageItem.wrapInside
 
@@ -467,8 +409,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-pageitem-wrapoffset"></a>
-
 ### PageItem.wrapOffset
 
 `app.activeDocument.pageItems[index].wrapOffset`
@@ -483,8 +423,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-pageitem-wrapped"></a>
-
 ### PageItem.wrapped
 
 `app.activeDocument.pageItems[index].wrapped`
@@ -498,8 +436,6 @@ If `true`, wrap text frame objects around this object (text frame must be above 
 Boolean.
 
 ---
-
-<a id="jsobjref-pageitem-zorderposition"></a>
 
 ### PageItem.zOrderPosition
 
@@ -516,8 +452,6 @@ Number (long), read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-pageitem-bringinperspective"></a>
 
 ### PageItem.bringInPerspective()
 
@@ -540,8 +474,6 @@ Places art object(s) in a perspective grid at a specified position and grid plan
 Returns.
 
 ---
-
-<a id="jsobjref-pageitem-resize"></a>
 
 ### PageItem.resize()
 
@@ -575,8 +507,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-pageitem-rotate"></a>
-
 ### PageItem.rotate()
 
 ```default
@@ -606,8 +536,6 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 Nothing.
 
 ---
-
-<a id="jsobjref-pageitem-transform"></a>
 
 ### PageItem.transform()
 
@@ -640,8 +568,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-pageitem-translate"></a>
-
 ### PageItem.translate()
 
 ```default
@@ -671,8 +597,6 @@ Repositions the art item relative to the current position, where `deltaX` is the
 Nothing.
 
 ---
-
-<a id="jsobjref-pageitem-zorder"></a>
 
 ### PageItem.zOrder()
 

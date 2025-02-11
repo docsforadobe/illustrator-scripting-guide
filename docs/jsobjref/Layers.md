@@ -1,5 +1,3 @@
-<a id="jsobjref-layers"></a>
-
 # Layers
 
 `app.activeDocument.layers`
@@ -11,8 +9,6 @@ The collection of layers in the document.
 ---
 
 ## Properties
-
-<a id="jsobjref-layers-length"></a>
 
 ### Layers.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-layers-parent"></a>
-
 ### Layers.parent
 
 `app.activeDocument.layers.parent`
@@ -43,8 +37,6 @@ The parent of this object.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-layers-typename"></a>
 
 ### Layers.typename
 
@@ -62,8 +54,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-layers-add"></a>
-
 ### Layers.add()
 
 `app.activeDocument.layers.add()`
@@ -77,8 +67,6 @@ Creates a new layer in the document.
 [Layer](Layer.md#jsobjref-layer)
 
 ---
-
-<a id="jsobjref-layers-getbyname"></a>
 
 ### Layers.getByName()
 
@@ -100,8 +88,6 @@ Gets the first element in the collection with the specified name.
 
 ---
 
-<a id="jsobjref-layers-index"></a>
-
 ### Layers.index()
 
 `app.activeDocument.layers.index(itemKey)`
@@ -121,8 +107,6 @@ Gets an element from the collection.
 [Layer](Layer.md#jsobjref-layer)
 
 ---
-
-<a id="jsobjref-layers-removeall"></a>
 
 ### Layers.removeAll()
 

@@ -1,5 +1,3 @@
-<a id="jsobjref-compoundpathitems"></a>
-
 # CompoundPathItems
 
 `app.activeDocument.activeLayer.compoundPathItems`
@@ -11,8 +9,6 @@ A collection of [CompoundPathItem](CompoundPathItem.md#jsobjref-compoundpathitem
 ---
 
 ## Properties
-
-<a id="jsobjref-compoundpathitems-length"></a>
 
 ### CompoundPathItems.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-compoundpathitems-parent"></a>
-
 ### CompoundPathItems.parent
 
 `app.activeDocument.activeLayer.compoundPathItems.parent`
@@ -43,8 +37,6 @@ The parent of this collection (either a `Layer` or a `GroupItem`).
 Object, read-only.
 
 ---
-
-<a id="jsobjref-compoundpathitems-typename"></a>
 
 ### CompoundPathItems.typename
 
@@ -62,8 +54,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-compoundpathitems-add"></a>
-
 ### CompoundPathItems.add()
 
 `app.activeDocument.activeLayer.compoundPathItems.add()`
@@ -77,8 +67,6 @@ Creates a new `CompoundPathItem`.
 [CompoundPathItem](CompoundPathItem.md#jsobjref-compoundpathitem)
 
 ---
-
-<a id="jsobjref-compoundpathitems-getbyname"></a>
 
 ### CompoundPathItems.getByName()
 
@@ -100,8 +88,6 @@ Gets the first element in the collection with the specified name.
 
 ---
 
-<a id="jsobjref-compoundpathitems-index"></a>
-
 ### CompoundPathItems.index()
 
 `app.activeDocument.activeLayer.compoundPathItems.index(itemKey)`
@@ -121,8 +107,6 @@ Gets an element from the collection.
 [CompoundPathItem](CompoundPathItem.md#jsobjref-compoundpathitem)
 
 ---
-
-<a id="jsobjref-compoundpathitems-removeall"></a>
 
 ### CompoundPathItems.removeAll()
 

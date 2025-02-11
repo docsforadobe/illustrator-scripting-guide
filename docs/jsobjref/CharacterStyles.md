@@ -1,5 +1,3 @@
-<a id="jsobjref-characterstyles"></a>
-
 # CharacterStyles
 
 `app.activeDocument.characterStyles`
@@ -11,8 +9,6 @@ A collection of CharacterStyle objects.
 ---
 
 ## Properties
-
-<a id="jsobjref-characterstyles-length"></a>
 
 ### CharacterStyles.length
 
@@ -28,8 +24,6 @@ Number; read-only.
 
 ---
 
-<a id="jsobjref-characterstyles-parent"></a>
-
 ### CharacterStyles.parent
 
 `app.activeDocument.characterStyles.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-characterstyles-typename"></a>
 
 ### CharacterStyles.typename
 
@@ -61,8 +53,6 @@ String; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-characterstyles-add"></a>
 
 ### CharacterStyles.add()
 
@@ -84,8 +74,6 @@ Creates a named character style.
 
 ---
 
-<a id="jsobjref-characterstyles-getbyname"></a>
-
 ### CharacterStyles.getByName()
 
 `getByName(name)`
@@ -106,8 +94,6 @@ Gets the first element in the collection with the provided name.
 
 ---
 
-<a id="jsobjref-characterstyles-index"></a>
-
 ### CharacterStyles.index()
 
 `index(itemKey)`
@@ -127,8 +113,6 @@ Gets an element from the collection.
 [CharacterStyle](CharacterStyle.md#jsobjref-characterstyle)
 
 ---
-
-<a id="jsobjref-characterstyles-removeall"></a>
 
 ### CharacterStyles.removeAll()
 

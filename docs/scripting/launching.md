@@ -1,5 +1,3 @@
-<a id="scripting-launching"></a>
-
 # Launching and quitting Illustrator from a script
 
 Your scripts can control the activation and termination of Illustrator.

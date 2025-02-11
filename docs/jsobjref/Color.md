@@ -1,5 +1,3 @@
-<a id="jsobjref-color"></a>
-
 # Color
 
 `color`

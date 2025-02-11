@@ -1,5 +1,3 @@
-<a id="scriptingapplescript-objectreferences"></a>
-
 # Object references
 
 In AppleScript, Illustrator returns object references by index position or name. For example, this is a reference to the first path in layer 2

@@ -1,5 +1,3 @@
-<a id="jsobjref-document"></a>
-
 # Document
 
 `app.activeDocument`
@@ -16,8 +14,6 @@ A document’s color space, height, and width can only be set when the document 
 
 ## Properties
 
-<a id="jsobjref-document-activedataset"></a>
-
 ### Document.activeDataset
 
 `app.activeDocument.activeDataset`
@@ -31,8 +27,6 @@ The currently opened dataset.
 [Dataset](Dataset.md#jsobjref-dataset)
 
 ---
-
-<a id="jsobjref-document-activelayer"></a>
 
 ### Document.activeLayer
 
@@ -48,8 +42,6 @@ The active layer in the document.
 
 ---
 
-<a id="jsobjref-document-activeview"></a>
-
 ### Document.activeView
 
 `app.activeDocument.activeView`
@@ -63,8 +55,6 @@ The document’s current view.
 [View](View.md#jsobjref-view), read-only.
 
 ---
-
-<a id="jsobjref-document-artboards"></a>
 
 ### Document.artboards
 
@@ -80,8 +70,6 @@ All artboards in the document.
 
 ---
 
-<a id="jsobjref-document-brushes"></a>
-
 ### Document.brushes
 
 `app.activeDocument.brushes`
@@ -95,8 +83,6 @@ The brushes contained in the document.
 [Brushes](Brushes.md#jsobjref-brushes), read-only.
 
 ---
-
-<a id="jsobjref-document-characterstyles"></a>
 
 ### Document.characterStyles
 
@@ -112,8 +98,6 @@ The list of character styles in this document.
 
 ---
 
-<a id="jsobjref-document-compoundpathitems"></a>
-
 ### Document.compoundPathItems
 
 `app.activeDocument.compoundPathItems`
@@ -127,8 +111,6 @@ The compound path items contained in the document.
 [CompoundPathItems](CompoundPathItems.md#jsobjref-compoundpathitems), read-only.
 
 ---
-
-<a id="jsobjref-document-cropbox"></a>
 
 ### Document.cropBox
 
@@ -144,8 +126,6 @@ Array of 4 numbers.
 
 ---
 
-<a id="jsobjref-document-cropstyle"></a>
-
 ### Document.cropStyle
 
 `app.activeDocument.cropStyle`
@@ -159,8 +139,6 @@ The style of the document’s cropping box.
 [CropOptions](scripting-constants.md#jsobjref-scripting-constants-cropoptions)
 
 ---
-
-<a id="jsobjref-document-datasets"></a>
 
 ### Document.dataSets
 
@@ -176,8 +154,6 @@ The datasets contained in the document.
 
 ---
 
-<a id="jsobjref-document-defaultfillcolor"></a>
-
 ### Document.defaultFillColor
 
 `app.activeDocument.defaultFillColor`
@@ -191,8 +167,6 @@ The color to use to fill new paths if `defaultFilled` is `true`.
 [Color](Color.md#jsobjref-color)
 
 ---
-
-<a id="jsobjref-document-defaultfilled"></a>
 
 ### Document.defaultFilled
 
@@ -208,8 +182,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-document-defaultfilloverprint"></a>
-
 ### Document.defaultFillOverprint
 
 `app.activeDocument.defaultFillOverprint`
@@ -223,8 +195,6 @@ If `true`, the art beneath a filled object should be overprinted by default.
 Boolean.
 
 ---
-
-<a id="jsobjref-document-defaultstrokecap"></a>
 
 ### Document.defaultStrokeCap
 
@@ -240,8 +210,6 @@ Default type of line capping for paths created.
 
 ---
 
-<a id="jsobjref-document-defaultstrokecolor"></a>
-
 ### Document.defaultStrokeColor
 
 `app.activeDocument.defaultStrokeColor`
@@ -255,8 +223,6 @@ The stroke color for new paths if default stroked is `true`.
 [Color](Color.md#jsobjref-color)
 
 ---
-
-<a id="jsobjref-document-defaultstroked"></a>
 
 ### Document.defaultStroked
 
@@ -272,8 +238,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-document-defaultstrokedashes"></a>
-
 ### Document.defaultStrokeDashes
 
 `app.activeDocument.defaultStrokeDashes`
@@ -287,8 +251,6 @@ Default lengths for dashes and gaps in dashed lines, starting with the first das
 Object.
 
 ---
-
-<a id="jsobjref-document-defaultstrokedashoffset"></a>
 
 ### Document.defaultStrokeDashOffset
 
@@ -304,8 +266,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-document-defaultstrokejoin"></a>
-
 ### Document.defaultStrokeJoin
 
 `app.activeDocument.defaultStrokeJoin`
@@ -319,8 +279,6 @@ Default type of joints in new paths.
 [StrokeJoin](scripting-constants.md#jsobjref-scripting-constants-strokejoin)
 
 ---
-
-<a id="jsobjref-document-defaultstrokemiterlimit"></a>
 
 ### Document.defaultStrokeMiterLimit
 
@@ -336,8 +294,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-document-defaultstrokeoverprint"></a>
-
 ### Document.defaultStrokeOverprint
 
 `app.activeDocument.defaultStrokeOverprint`
@@ -351,8 +307,6 @@ If `true`, the art beneath a stroked object should be overprinted by default.
 Boolean.
 
 ---
-
-<a id="jsobjref-document-defaultstrokewidth"></a>
 
 ### Document.defaultStrokeWidth
 
@@ -368,8 +322,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-document-documentcolorspace"></a>
-
 ### Document.documentColorSpace
 
 `app.activeDocument.documentColorSpace`
@@ -383,8 +335,6 @@ The color specification system to use for this document’s color space.
 [DocumentColorSpace](scripting-constants.md#jsobjref-scripting-constants-documentcolorspace)
 
 ---
-
-<a id="jsobjref-document-fullname"></a>
 
 ### Document.fullName
 
@@ -400,8 +350,6 @@ File, read-only.
 
 ---
 
-<a id="jsobjref-document-geometricbounds"></a>
-
 ### Document.geometricBounds
 
 `app.activeDocument.geometricBounds`
@@ -415,8 +363,6 @@ The bounds of the illustration excluding the stroke width of any objects in the 
 Array of 4 numbers, read-only.
 
 ---
-
-<a id="jsobjref-document-gradients"></a>
 
 ### Document.gradients
 
@@ -432,8 +378,6 @@ The gradients contained in the document.
 
 ---
 
-<a id="jsobjref-document-graphicstyles"></a>
-
 ### Document.graphicStyles
 
 `app.activeDocument.graphicStyles`
@@ -447,8 +391,6 @@ The graphic styles defined in this document.
 [GraphicStyles](GraphicStyles.md#jsobjref-graphicstyles), read-only.
 
 ---
-
-<a id="jsobjref-document-graphitems"></a>
 
 ### Document.graphItems
 
@@ -464,8 +406,6 @@ The graph art items in this document.
 
 ---
 
-<a id="jsobjref-document-groupitems"></a>
-
 ### Document.groupItems
 
 `app.activeDocument.groupItems`
@@ -479,8 +419,6 @@ The group items contained in the document.
 [GroupItems](GroupItems.md#jsobjref-groupitems), read-only.
 
 ---
-
-<a id="jsobjref-document-height"></a>
 
 ### Document.height
 
@@ -496,8 +434,6 @@ Number (double), read-only.
 
 ---
 
-<a id="jsobjref-document-inklist"></a>
-
 ### Document.inkList
 
 `app.activeDocument.inkList`
@@ -511,8 +447,6 @@ The list of inks in this document.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-document-kinsokuset"></a>
 
 ### Document.kinsokuSet
 
@@ -528,8 +462,6 @@ Object, read-only.
 
 ---
 
-<a id="jsobjref-document-layers"></a>
-
 ### Document.layers
 
 `app.activeDocument.layers`
@@ -543,8 +475,6 @@ The layers contained in the document.
 [Layers](Layers.md#jsobjref-layers), read-only.
 
 ---
-
-<a id="jsobjref-document-legacytextitems"></a>
 
 ### Document.legacyTextItems
 
@@ -560,8 +490,6 @@ The legacy text items in the document.
 
 ---
 
-<a id="jsobjref-document-meshitems"></a>
-
 ### Document.meshItems
 
 `app.activeDocument.meshItems`
@@ -575,8 +503,6 @@ The mesh art items contained in the document.
 [MeshItems](MeshItems.md#jsobjref-meshitems), read-only.
 
 ---
-
-<a id="jsobjref-document-mojikumiset"></a>
 
 ### Document.mojikumiSet
 
@@ -592,8 +518,6 @@ Object, read-only.
 
 ---
 
-<a id="jsobjref-document-name"></a>
-
 ### Document.name
 
 `app.activeDocument.name`
@@ -607,8 +531,6 @@ The document’s name (not the complete file path to the document).
 String, read-only.
 
 ---
-
-<a id="jsobjref-document-nonnativeitems"></a>
 
 ### Document.nonNativeItems
 
@@ -624,8 +546,6 @@ The non-native art items in this document.
 
 ---
 
-<a id="jsobjref-document-outputresolution"></a>
-
 ### Document.outputResolution
 
 `app.activeDocument.outputResolution`
@@ -639,8 +559,6 @@ The current output resolution for the document in dots per inch (dpi).
 Number (double), read-only.
 
 ---
-
-<a id="jsobjref-document-pageitems"></a>
 
 ### Document.pageItems
 
@@ -656,8 +574,6 @@ The page items (all art item classes) contained in the document.
 
 ---
 
-<a id="jsobjref-document-pageorigin"></a>
-
 ### Document.pageOrigin
 
 `app.activeDocument.pageOrigin`
@@ -671,8 +587,6 @@ The zero-point of the page in the document without margins, relative to the over
 Array of 2 numbers.
 
 ---
-
-<a id="jsobjref-document-paragraphstyles"></a>
 
 ### Document.paragraphStyles
 
@@ -688,8 +602,6 @@ The list of paragraph styles in this document.
 
 ---
 
-<a id="jsobjref-document-parent"></a>
-
 ### Document.parent
 
 `app.activeDocument.parent`
@@ -703,8 +615,6 @@ The application that contains this document.
 [Application](Application.md#jsobjref-application), read-only.
 
 ---
-
-<a id="jsobjref-document-path"></a>
 
 ### Document.path
 
@@ -720,8 +630,6 @@ File, read-only.
 
 ---
 
-<a id="jsobjref-document-pathitems"></a>
-
 ### Document.pathItems
 
 `app.activeDocument.pathItems`
@@ -735,8 +643,6 @@ The path items contained in this document.
 [PathItems](PathItems.md#jsobjref-pathitems), read-only.
 
 ---
-
-<a id="jsobjref-document-patterns"></a>
 
 ### Document.patterns
 
@@ -752,8 +658,6 @@ The patterns contained in this document.
 
 ---
 
-<a id="jsobjref-document-placeditems"></a>
-
 ### Document.placedItems
 
 `app.activeDocument.placedItems`
@@ -767,8 +671,6 @@ The placed items contained in this document.
 [PlacedItems](PlacedItems.md#jsobjref-placeditems), read-only.
 
 ---
-
-<a id="jsobjref-document-pluginitems"></a>
 
 ### Document.pluginItems
 
@@ -784,8 +686,6 @@ The plug-in items contained in this document.
 
 ---
 
-<a id="jsobjref-document-printtiles"></a>
-
 ### Document.printTiles
 
 `app.activeDocument.printTiles`
@@ -799,8 +699,6 @@ If `true`, this document should be printed as tiled output.
 Boolean, read-only.
 
 ---
-
-<a id="jsobjref-document-rastereffectsettings"></a>
 
 ### Document.rasterEffectSettings
 
@@ -816,8 +714,6 @@ The document’s raster effect settings.
 
 ---
 
-<a id="jsobjref-document-rasteritems"></a>
-
 ### Document.rasterItems
 
 `app.activeDocument.rasterItems`
@@ -831,8 +727,6 @@ The raster items contained in this document.
 [RasterItems](RasterItems.md#jsobjref-rasteritems), read-only.
 
 ---
-
-<a id="jsobjref-document-rulerorigin"></a>
 
 ### Document.rulerOrigin
 
@@ -848,8 +742,6 @@ Array of 2 numbers.
 
 ---
 
-<a id="jsobjref-document-rulerunits"></a>
-
 ### Document.rulerUnits
 
 `app.activeDocument.rulerUnits`
@@ -864,8 +756,6 @@ The default measurement units for the rulers in the document.
 
 ---
 
-<a id="jsobjref-document-saved"></a>
-
 ### Document.saved
 
 `app.activeDocument.saved`
@@ -879,8 +769,6 @@ If `true`, the document has not been changed since last time it was saved.
 Boolean.
 
 ---
-
-<a id="jsobjref-document-selection"></a>
 
 ### Document.selection
 
@@ -898,8 +786,6 @@ Array of objects.
 
 ---
 
-<a id="jsobjref-document-showplacedimages"></a>
-
 ### Document.showPlacedImages
 
 `app.activeDocument.showPlacedImages`
@@ -913,8 +799,6 @@ If `true`, placed images should be displayed in the document.
 Boolean, read-only.
 
 ---
-
-<a id="jsobjref-document-splitlongpaths"></a>
 
 ### Document.splitLongPaths
 
@@ -930,8 +814,6 @@ Boolean, read-only.
 
 ---
 
-<a id="jsobjref-document-spots"></a>
-
 ### Document.spots
 
 `app.activeDocument.spots`
@@ -945,8 +827,6 @@ The spot colors contained in this document.
 [Spots](Spots.md#jsobjref-spots), read-only.
 
 ---
-
-<a id="jsobjref-document-stationery"></a>
 
 ### Document.stationery
 
@@ -962,8 +842,6 @@ Boolean, read-only.
 
 ---
 
-<a id="jsobjref-document-stories"></a>
-
 ### Document.stories
 
 `app.activeDocument.stories`
@@ -977,8 +855,6 @@ The story items in this document.
 [Stories](Stories.md#jsobjref-stories), read-only.
 
 ---
-
-<a id="jsobjref-document-swatches"></a>
 
 ### Document.swatches
 
@@ -994,8 +870,6 @@ The swatches in this document.
 
 ---
 
-<a id="jsobjref-document-swatchgroups"></a>
-
 ### Document.swatchGroups
 
 `app.activeDocument.swatchGroups`
@@ -1009,8 +883,6 @@ The swatch groups in this document.
 [SwatchGroups](SwatchGroups.md#jsobjref-swatchgroups), read-only.
 
 ---
-
-<a id="jsobjref-document-symbolitems"></a>
 
 ### Document.symbolItems
 
@@ -1026,8 +898,6 @@ The art items in the document linked to symbols.
 
 ---
 
-<a id="jsobjref-document-symbols"></a>
-
 ### Document.symbols
 
 `app.activeDocument.symbols`
@@ -1041,8 +911,6 @@ The symbols in this document.
 [Symbols](Symbols.md#jsobjref-symbols), read-only.
 
 ---
-
-<a id="jsobjref-document-tags"></a>
 
 ### Document.tags
 
@@ -1058,8 +926,6 @@ The tags in this document.
 
 ---
 
-<a id="jsobjref-document-textframes"></a>
-
 ### Document.textFrames
 
 `app.activeDocument.textFrames`
@@ -1073,8 +939,6 @@ The text frames in this document.
 [TextFrameItems](TextFrameItems.md#jsobjref-textframeitems), read-only.
 
 ---
-
-<a id="jsobjref-document-tilefullpages"></a>
 
 ### Document.tileFullPages
 
@@ -1090,8 +954,6 @@ Boolean, read-only.
 
 ---
 
-<a id="jsobjref-document-typename"></a>
-
 ### Document.typename
 
 `app.activeDocument.typename`
@@ -1105,8 +967,6 @@ The class name of the referenced object.
 String, read-only.
 
 ---
-
-<a id="jsobjref-document-usedefaultscreen"></a>
 
 ### Document.useDefaultScreen
 
@@ -1122,8 +982,6 @@ Boolean, read-only.
 
 ---
 
-<a id="jsobjref-document-variables"></a>
-
 ### Document.variables
 
 `app.activeDocument.variables`
@@ -1137,8 +995,6 @@ The variables defined in this document.
 [Variables](Variables.md#jsobjref-variables), read-only.
 
 ---
-
-<a id="jsobjref-document-variableslocked"></a>
 
 ### Document.variablesLocked
 
@@ -1154,8 +1010,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-document-views"></a>
-
 ### Document.views
 
 `app.activeDocument.views`
@@ -1169,8 +1023,6 @@ The views contained in this document.
 [Views](Views.md#jsobjref-views), read-only.
 
 ---
-
-<a id="jsobjref-document-visiblebounds"></a>
 
 ### Document.visibleBounds
 
@@ -1186,8 +1038,6 @@ Array of 4 numbers, read-only.
 
 ---
 
-<a id="jsobjref-document-width"></a>
-
 ### Document.width
 
 `app.activeDocument.width`
@@ -1201,8 +1051,6 @@ The width of this document.
 Number (double), read-only.
 
 ---
-
-<a id="jsobjref-document-xmpstring"></a>
 
 ### Document.XMPString
 
@@ -1220,8 +1068,6 @@ String.
 
 ## Methods
 
-<a id="jsobjref-document-activate"></a>
-
 ### Document.activate()
 
 `app.activeDocument.activate()`
@@ -1235,8 +1081,6 @@ Brings the first window associated with the document to the front.
 Nothing.
 
 ---
-
-<a id="jsobjref-document-arrange"></a>
 
 ### Document.arrange()
 
@@ -1257,8 +1101,6 @@ Arranges multiple documents in the given layout style.
 Boolean.
 
 ---
-
-<a id="jsobjref-document-close"></a>
 
 ### Document.close()
 
@@ -1282,8 +1124,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-document-closenoui"></a>
-
 ### Document.closeNoUI()
 
 `app.activeDocument.closeNoUI()`
@@ -1297,8 +1137,6 @@ Closes the specified non-UI document.
 Nothing.
 
 ---
-
-<a id="jsobjref-document-convertcoordinate"></a>
 
 ### Document.convertCoordinate()
 
@@ -1322,8 +1160,6 @@ Point.
 
 ---
 
-<a id="jsobjref-document-exportfile"></a>
-
 ### Document.exportFile()
 
 `app.activeDocument.exportFile(exportFile, exportFormat [,options])`
@@ -1346,8 +1182,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-document-exportpdfpreset"></a>
-
 ### Document.exportPDFPreset()
 
 `app.activeDocument.exportPDFPreset(file)`
@@ -1367,8 +1201,6 @@ Exports the current PDF preset values to the file.
 Nothing.
 
 ---
-
-<a id="jsobjref-document-exportperspectivegridpreset"></a>
 
 ### Document.exportPerspectiveGridPreset()
 
@@ -1390,8 +1222,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-document-exportprintpreset"></a>
-
 ### Document.exportPrintPreset()
 
 `app.activeDocument.exportPrintPreset(file)`
@@ -1411,8 +1241,6 @@ Exports the current print preset values to the file.
 Nothing.
 
 ---
-
-<a id="jsobjref-document-exportvariables"></a>
 
 ### Document.exportVariables()
 
@@ -1434,8 +1262,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-document-fitartboardtoselectedart"></a>
-
 ### Document.fitArtboardToSelectedArt()
 
 `app.activeDocument.fitArtboardToSelectedArt([index])`
@@ -1455,8 +1281,6 @@ Resizes the artboard at the given index to fit currently selected art. Index def
 Boolean.
 
 ---
-
-<a id="jsobjref-document-getpageitemfromuuid"></a>
 
 ### Document.getPageItemFromUuid()
 
@@ -1481,8 +1305,6 @@ Retrieves the pageitem using Uuid.
 
 ---
 
-<a id="jsobjref-document-getperspectiveactiveplane"></a>
-
 ### Document.getPerspectiveActivePlane()
 
 `app.activeDocument.getPerspectiveActivePlane()`
@@ -1497,8 +1319,6 @@ Retrieves the active plane of the active perspective grid of the document.
 
 ---
 
-<a id="jsobjref-document-hideperspectivegrid"></a>
-
 ### Document.hidePerspectiveGrid()
 
 `app.activeDocument.hidePerspectiveGrid()`
@@ -1512,8 +1332,6 @@ Hides the current active grid for the document. If no grid is visible, does noth
 Boolean.
 
 ---
-
-<a id="jsobjref-document-imagecapture"></a>
 
 ### Document.imageCapture()
 
@@ -1539,8 +1357,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-document-importcharacterstyles"></a>
-
 ### Document.importCharacterStyles()
 
 `app.activeDocument.importCharacterStyles(fileSpec)`
@@ -1561,8 +1377,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-document-importparagraphstyles"></a>
-
 ### Document.importParagraphStyles()
 
 `app.activeDocument.importParagraphStyles(fileSpec)`
@@ -1582,8 +1396,6 @@ Loads the paragraph styles from the Illustrator file.
 Nothing.
 
 ---
-
-<a id="jsobjref-document-importpdfpreset"></a>
 
 ### Document.importPDFPreset()
 
@@ -1606,8 +1418,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-document-importprintpreset"></a>
-
 ### Document.importPrintPreset()
 
 `app.activeDocument.importPrintPreset(printPreset, fileSpec)`
@@ -1629,8 +1439,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-document-importvariables"></a>
-
 ### Document.importVariables()
 
 `app.activeDocument.importVariables(fileSpec)`
@@ -1651,8 +1459,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-document-print"></a>
-
 ### Document.print()
 
 `app.activeDocument.print([options])`
@@ -1672,8 +1478,6 @@ Prints the document.
 Nothing.
 
 ---
-
-<a id="jsobjref-document-rasterize"></a>
 
 ### Document.rasterize()
 
@@ -1696,8 +1500,6 @@ Rasterizes the source art(s) within the specified clip bounds. The source art(s)
 [RasterItem](RasterItem.md#jsobjref-rasteritem)
 
 ---
-
-<a id="jsobjref-document-rearrangearboards"></a>
 
 ### Document.rearrangeArboards()
 
@@ -1730,8 +1532,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-document-save"></a>
-
 ### Document.save()
 
 `app.activeDocument.save()`
@@ -1745,8 +1545,6 @@ Saves the document in it current location.
 Nothing.
 
 ---
-
-<a id="jsobjref-document-saveas"></a>
 
 ### Document.saveAs()
 
@@ -1769,8 +1567,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-document-savenoui"></a>
-
 ### Document.saveNoUI()
 
 `app.activeDocument.saveNoUI(saveIn)`
@@ -1791,8 +1587,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-document-selectobjectsonactiveartboard"></a>
-
 ### Document.selectObjectsOnActiveArtboard()
 
 `app.activeDocument.selectObjectsOnActiveArtboard()`
@@ -1806,8 +1600,6 @@ Selects the objects on the currently active artboard. Returns `true` on success.
 Boolean.
 
 ---
-
-<a id="jsobjref-document-setactiveplane"></a>
 
 ### Document.setActivePlane()
 
@@ -1828,8 +1620,6 @@ Sets the active plane of the active perspective grid of the document. Returns `t
 Boolean.
 
 ---
-
-<a id="jsobjref-document-selectperspectivepreset"></a>
 
 ### Document.selectPerspectivePreset()
 
@@ -1852,8 +1642,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-document-showperspectivegrid"></a>
-
 ### Document.showPerspectiveGrid()
 
 `app.activeDocument.showPerspectiveGrid()`
@@ -1867,8 +1655,6 @@ Shows the current active grid for the document, or if no grid is active, shows t
 Boolean.
 
 ---
-
-<a id="jsobjref-document-windowcapture"></a>
 
 ### Document.windowCapture()
 

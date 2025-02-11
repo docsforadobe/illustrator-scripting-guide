@@ -1,5 +1,3 @@
-<a id="jsobjref-imagecaptureoptions"></a>
-
 # ImageCaptureOptions
 
 `imageCaptureOptions`
@@ -11,8 +9,6 @@ Options for image capture, used with the [Document.imageCapture()](Document.md#j
 ---
 
 ## Properties
-
-<a id="jsobjref-imagecaptureoptions-antialiasing"></a>
 
 ### ImageCaptureOptions.antiAliasing
 
@@ -28,8 +24,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-imagecaptureoptions-matte"></a>
-
 ### ImageCaptureOptions.matte
 
 `imageCaptureOptions.matte`
@@ -43,8 +37,6 @@ If `true`, the artboard is matted with a color. Default: `false`.
 Boolean
 
 ---
-
-<a id="jsobjref-imagecaptureoptions-mattecolor"></a>
 
 ### ImageCaptureOptions.matteColor
 
@@ -60,8 +52,6 @@ The color to use for the artboard matte. Default: white.
 
 ---
 
-<a id="jsobjref-imagecaptureoptions-resolution"></a>
-
 ### ImageCaptureOptions.resolution
 
 `imageCaptureOptions.resolution`
@@ -76,8 +66,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-imagecaptureoptions-transparency"></a>
-
 ### ImageCaptureOptions.transparency
 
 `imageCaptureOptions.transparency`
@@ -91,8 +79,6 @@ If `true`, the image result is transparent. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-imagecaptureoptions-typename"></a>
 
 ### ImageCaptureOptions.typename
 

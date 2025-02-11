@@ -1,5 +1,3 @@
-<a id="scripting-pathsshapes"></a>
-
 # Paths and shapes
 
 Paths are represented in the Illustrator DOM by the `path item` object. Path items include all artwork that contains paths, such as rectangles, ellipses, and polygons, as well as freeform paths.

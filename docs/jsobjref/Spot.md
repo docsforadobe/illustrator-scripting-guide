@@ -1,5 +1,3 @@
-<a id="jsobjref-spot"></a>
-
 # Spot
 
 `app.activeDocument.spots[index`
@@ -18,8 +16,6 @@ The new spot is added to the end of the swatches list in the Swatches palette.
 
 ## Properties
 
-<a id="jsobjref-spot-color"></a>
-
 ### Spot.color
 
 `app.activeDocument.spots[index].color`
@@ -33,8 +29,6 @@ The color information for this spot color.
 [Color](Color.md#jsobjref-color)
 
 ---
-
-<a id="jsobjref-spot-colortype"></a>
 
 ### Spot.colorType
 
@@ -50,8 +44,6 @@ The color model for this custom color.
 
 ---
 
-<a id="jsobjref-spot-name"></a>
-
 ### Spot.name
 
 `app.activeDocument.spots[index].name`
@@ -65,8 +57,6 @@ The spot color’s name.
 String
 
 ---
-
-<a id="jsobjref-spot-parent"></a>
 
 ### Spot.parent
 
@@ -82,8 +72,6 @@ The document that contains this spot color.
 
 ---
 
-<a id="jsobjref-spot-spotkind"></a>
-
 ### Spot.spotKind
 
 `app.activeDocument.spots[index].spotKind`
@@ -97,8 +85,6 @@ The kind of spot color (RGB, CMYK or LAB). This is the name of the color kind co
 [SpotColorKind](scripting-constants.md#jsobjref-scripting-constants-spotcolorkind); read-only.
 
 ---
-
-<a id="jsobjref-spot-typename"></a>
 
 ### Spot.typename
 
@@ -116,8 +102,6 @@ String; read-only.
 
 ## Methods
 
-<a id="jsobjref-spot-getinternalcolor"></a>
-
 ### Spot.getInternalColor()
 
 `app.activeDocument.spots[index].getInternalColor()`
@@ -131,8 +115,6 @@ Gets the internal color of a spot.
 Color components.
 
 ---
-
-<a id="jsobjref-spot-remove"></a>
 
 ### Spot.remove()
 

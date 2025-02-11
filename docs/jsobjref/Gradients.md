@@ -1,5 +1,3 @@
-<a id="jsobjref-gradients"></a>
-
 # Gradients
 
 `app.activeDocument.gradients`
@@ -11,8 +9,6 @@ A collection of [Gradient](Gradient.md#jsobjref-gradient) objects in a document.
 ---
 
 ## Properties
-
-<a id="jsobjref-gradients-length"></a>
 
 ### Gradients.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-gradients-parent"></a>
-
 ### Gradients.parent
 
 `app.activeDocument.gradients.parent`
@@ -43,8 +37,6 @@ The parent of this object.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-gradients-typename"></a>
 
 ### Gradients.typename
 
@@ -62,8 +54,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-gradients-add"></a>
-
 ### Gradients.add()
 
 `app.activeDocument.gradients.add()`
@@ -77,8 +67,6 @@ Creates a new `Gradient` object.
 [Gradient](Gradient.md#jsobjref-gradient)
 
 ---
-
-<a id="jsobjref-gradients-getbyname"></a>
 
 ### Gradients.getByName()
 
@@ -100,8 +88,6 @@ Gets the first element in the collection with the specified name.
 
 ---
 
-<a id="jsobjref-gradients-index"></a>
-
 ### Gradients.index()
 
 `app.activeDocument.gradients.index(itemKey)`
@@ -121,8 +107,6 @@ Gets an element from the collection.
 [Gradient](Gradient.md#jsobjref-gradient)
 
 ---
-
-<a id="jsobjref-gradients-removeall"></a>
 
 ### Gradients.removeAll()
 

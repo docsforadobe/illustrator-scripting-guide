@@ -1,5 +1,3 @@
-<a id="jsobjref-paper"></a>
-
 # Paper
 
 `app.class`
@@ -11,8 +9,6 @@ Associates paper information with a paper name. `Paper` objects are used by [Pri
 ---
 
 ## Properties
-
-<a id="jsobjref-paper-name"></a>
 
 ### Paper.name
 
@@ -28,8 +24,6 @@ String.
 
 ---
 
-<a id="jsobjref-paper-paperinfo"></a>
-
 ### Paper.paperInfo
 
 `paper.paperInfo`
@@ -43,8 +37,6 @@ The paper information.
 [PaperInfo](PaperInfo.md#jsobjref-paperinfo)
 
 ---
-
-<a id="jsobjref-paper-typename"></a>
 
 ### Paper.typename
 

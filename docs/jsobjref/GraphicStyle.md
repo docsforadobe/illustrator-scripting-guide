@@ -1,5 +1,3 @@
-<a id="jsobjref-graphicstyle"></a>
-
 # GraphicStyle
 
 `app.activeDocument.graphicStyles[index`
@@ -11,8 +9,6 @@ A graphic style. Each graphic style defines a set of appearance attributes that 
 ---
 
 ## Properties
-
-<a id="jsobjref-graphicstyle-name"></a>
 
 ### GraphicStyle.name
 
@@ -28,8 +24,6 @@ String.
 
 ---
 
-<a id="jsobjref-graphicstyle-parent"></a>
-
 ### GraphicStyle.parent
 
 `app.activeDocument.graphicStyles[index].parent`
@@ -43,8 +37,6 @@ The document that contains this graphic style.
 [Document](Document.md#jsobjref-document), read-only.
 
 ---
-
-<a id="jsobjref-graphicstyle-typename"></a>
 
 ### GraphicStyle.typename
 
@@ -61,8 +53,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-class-applyto"></a>
 
 ### GraphicStyle.applyTo()
 
@@ -84,8 +74,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-class-mergeto"></a>
-
 ### GraphicStyle.mergeTo()
 
 `app.activeDocument.graphicStyles[index].mergeTo(artItem)`
@@ -105,8 +93,6 @@ Merges this art style into the current styles of a specified art item.
 Nothing.
 
 ---
-
-<a id="jsobjref-class-remove"></a>
 
 ### GraphicStyle.remove()
 

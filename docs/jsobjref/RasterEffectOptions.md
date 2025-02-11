@@ -1,5 +1,3 @@
-<a id="jsobjref-rastereffectoptions"></a>
-
 # RasterEffectOptions
 
 `RasterEffectOptions`
@@ -11,8 +9,6 @@ Specifies raster effects settings for the document. All properties are optional.
 ---
 
 ## Properties
-
-<a id="jsobjref-rastereffectoptions-antialiasing"></a>
 
 ### RasterEffectOptions.antiAliasing
 
@@ -30,8 +26,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-rastereffectoptions-clippingmask"></a>
-
 ### RasterEffectOptions.clippingMask
 
 `rasterEffectOptions.clippingMask`
@@ -47,8 +41,6 @@ Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-rastereffectoptions-colormodel"></a>
 
 ### RasterEffectOptions.colorModel
 
@@ -66,8 +58,6 @@ Default: `RasterizationColorModel.DEFAULTCOLORMODEL`
 
 ---
 
-<a id="jsobjref-rastereffectoptions-convertspotcolors"></a>
-
 ### RasterEffectOptions.convertSpotColors
 
 `rasterEffectOptions.convertSpotColors`
@@ -83,8 +73,6 @@ Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-rastereffectoptions-padding"></a>
 
 ### RasterEffectOptions.padding
 
@@ -102,8 +90,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-rastereffectoptions-resolution"></a>
-
 ### RasterEffectOptions.resolution
 
 `rasterEffectOptions.resolution`
@@ -119,8 +105,6 @@ Default: 300.0
 Number (double)
 
 ---
-
-<a id="jsobjref-rastereffectoptions-transparency"></a>
 
 ### RasterEffectOptions.transparency
 

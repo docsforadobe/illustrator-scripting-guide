@@ -1,5 +1,3 @@
-<a id="jsobjref-layer"></a>
-
 # Layer
 
 `app.activeDocument.layers[index`
@@ -13,8 +11,6 @@ The `layer` object contains all of the page items in the specific layer as eleme
 ---
 
 ## Properties
-
-<a id="jsobjref-layer-artworkknockout"></a>
 
 ### Layer.artworkKnockout
 
@@ -30,8 +26,6 @@ Is this object used to create a knockout, and if so, what kind of knockout. You 
 
 ---
 
-<a id="jsobjref-layer-blendingmode"></a>
-
 ### Layer.blendingMode
 
 `app.activeDocument.layers[index].blendingMode`
@@ -45,8 +39,6 @@ The mode used when compositing an object.
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
 ---
-
-<a id="jsobjref-layer-color"></a>
 
 ### Layer.color
 
@@ -62,8 +54,6 @@ The layer’s selection mark color.
 
 ---
 
-<a id="jsobjref-layer-compoundpathitems"></a>
-
 ### Layer.compoundPathItems
 
 `app.activeDocument.layers[index].compoundPathItems`
@@ -77,8 +67,6 @@ The compound path items contained in this layer.
 [CompoundPathItems](CompoundPathItems.md#jsobjref-compoundpathitems), read-only.
 
 ---
-
-<a id="jsobjref-layer-dimplacedimages"></a>
 
 ### Layer.dimPlacedImages
 
@@ -94,8 +82,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-layer-graphitems"></a>
-
 ### Layer.graphItems
 
 `app.activeDocument.layers[index].graphItems`
@@ -109,8 +95,6 @@ The graph items contained in this layer.
 [GraphItems](GraphItems.md#jsobjref-graphitems), read-only.
 
 ---
-
-<a id="jsobjref-layer-groupitems"></a>
 
 ### Layer.groupItems
 
@@ -126,8 +110,6 @@ The group items contained in this layer.
 
 ---
 
-<a id="jsobjref-layer-hasselectedartwork"></a>
-
 ### Layer.hasSelectedArtwork
 
 `app.activeDocument.layers[index].hasSelectedArtwork`
@@ -141,8 +123,6 @@ If `true`, an object in this layer has been selected; set to `false` to deselect
 Boolean.
 
 ---
-
-<a id="jsobjref-layer-isisolated"></a>
 
 ### Layer.isIsolated
 
@@ -158,8 +138,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-layer-layers"></a>
-
 ### Layer.layers
 
 `app.activeDocument.layers[index].layers`
@@ -173,8 +151,6 @@ The layers contained in this layer.
 [Layers](Layers.md#jsobjref-layers), read-only.
 
 ---
-
-<a id="jsobjref-layer-legacytextitems"></a>
 
 ### Layer.legacyTextItems
 
@@ -190,8 +166,6 @@ The legacy text items in this layer.
 
 ---
 
-<a id="jsobjref-layer-locked"></a>
-
 ### Layer.locked
 
 `app.activeDocument.layers[index].locked`
@@ -205,8 +179,6 @@ If `true`, this layer is editable; set to false to lock the layer.
 Boolean.
 
 ---
-
-<a id="jsobjref-layer-meshitems"></a>
 
 ### Layer.meshItems
 
@@ -222,8 +194,6 @@ The mesh items contained in this layer.
 
 ---
 
-<a id="jsobjref-layer-name"></a>
-
 ### Layer.name
 
 `app.activeDocument.layers[index].name`
@@ -237,8 +207,6 @@ The name of this layer.
 String.
 
 ---
-
-<a id="jsobjref-layer-nonnativeitems"></a>
 
 ### Layer.nonNativeItems
 
@@ -254,8 +222,6 @@ The non-native art items in this layer.
 
 ---
 
-<a id="jsobjref-layer-opacity"></a>
-
 ### Layer.opacity
 
 `app.activeDocument.layers[index].opacity`
@@ -269,8 +235,6 @@ The opacity of the layer. Range: 0.0 to 100.0.
 Number (double).
 
 ---
-
-<a id="jsobjref-layer-pageitems"></a>
 
 ### Layer.pageItems
 
@@ -286,8 +250,6 @@ The page items (all art item classes) contained in this layer.
 
 ---
 
-<a id="jsobjref-layer-parent"></a>
-
 ### Layer.parent
 
 `app.activeDocument.layers[index].parent`
@@ -301,8 +263,6 @@ The document or layer that contains this layer.
 [Document](Document.md#jsobjref-document) or [Layer](#jsobjref-layer), read-only.
 
 ---
-
-<a id="jsobjref-layer-pathitems"></a>
 
 ### Layer.pathItems
 
@@ -318,8 +278,6 @@ The path items contained in this layer.
 
 ---
 
-<a id="jsobjref-layer-placeditems"></a>
-
 ### Layer.placedItems
 
 `app.activeDocument.layers[index].placedItems`
@@ -333,8 +291,6 @@ The path items contained in this layer.
 [PlacedItems](PlacedItems.md#jsobjref-placeditems), read-only.
 
 ---
-
-<a id="jsobjref-layer-pluginitems"></a>
 
 ### Layer.pluginItems
 
@@ -350,8 +306,6 @@ The plug-in items contained in this layer.
 
 ---
 
-<a id="jsobjref-layer-preview"></a>
-
 ### Layer.preview
 
 `app.activeDocument.layers[index].preview`
@@ -365,8 +319,6 @@ If `true`, this layer should be displayed using preview mode.
 Boolean.
 
 ---
-
-<a id="jsobjref-layer-printable"></a>
 
 ### Layer.printable
 
@@ -382,8 +334,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-layer-rasteritems"></a>
-
 ### Layer.rasterItems
 
 `app.activeDocument.layers[index].rasterItems`
@@ -397,8 +347,6 @@ The raster items contained in this layer.
 [RasterItems](RasterItems.md#jsobjref-rasteritems), read-only.
 
 ---
-
-<a id="jsobjref-layer-sliced"></a>
 
 ### Layer.sliced
 
@@ -414,8 +362,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-layer-symbolitems"></a>
-
 ### Layer.symbolItems
 
 `app.activeDocument.layers[index].symbolItems`
@@ -429,8 +375,6 @@ The symbol items contained in the layer.
 [SymbolItems](SymbolItems.md#jsobjref-symbolitems), read-only.
 
 ---
-
-<a id="jsobjref-layer-textframes"></a>
 
 ### Layer.textFrames
 
@@ -446,8 +390,6 @@ The text art items contained in this layer.
 
 ---
 
-<a id="jsobjref-layer-typename"></a>
-
 ### Layer.typename
 
 `app.activeDocument.layers[index].typename`
@@ -462,8 +404,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-layer-visible"></a>
-
 ### Layer.visible
 
 `app.activeDocument.layers[index].visible`
@@ -477,8 +417,6 @@ If `true`, this layer is visible.
 Boolean.
 
 ---
-
-<a id="jsobjref-layer-zorderposition"></a>
 
 ### Layer.zOrderPosition
 
@@ -495,8 +433,6 @@ Number (long), read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-layer-move"></a>
 
 ### Layer.move()
 
@@ -519,8 +455,6 @@ Moves the object.
 
 ---
 
-<a id="jsobjref-layer-remove"></a>
-
 ### Layer.remove()
 
 `app.activeDocument.layers[index].remove()`
@@ -534,8 +468,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-layer-zorder"></a>
 
 ### Layer.zOrder()
 

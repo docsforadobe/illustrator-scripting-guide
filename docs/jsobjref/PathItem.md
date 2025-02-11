@@ -1,5 +1,3 @@
-<a id="jsobjref-pathitem"></a>
-
 # PathItem
 
 `app.activeDocument.pathItems[index]`
@@ -15,8 +13,6 @@ The `setEntirePath` method provides an extremely efficient way to create paths c
 ---
 
 ## Properties
-
-<a id="jsobjref-pathitem-area"></a>
 
 ### PathItem.area
 
@@ -36,8 +32,6 @@ Number (double); read-only.
 
 ---
 
-<a id="jsobjref-pathitem-artworkknockout"></a>
-
 ### PathItem.artworkKnockout
 
 `app.activeDocument.pathItems[index].artworkKnockout`
@@ -51,8 +45,6 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 [KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
 ---
-
-<a id="jsobjref-pathitem-blendingmode"></a>
 
 ### PathItem.blendingMode
 
@@ -68,8 +60,6 @@ The blend mode used when compositing an object.
 
 ---
 
-<a id="jsobjref-pathitem-clipping"></a>
-
 ### PathItem.clipping
 
 `app.activeDocument.pathItems[index].clipping`
@@ -83,8 +73,6 @@ If `true`, this path should be used as a clipping path.
 Boolean
 
 ---
-
-<a id="jsobjref-pathitem-closed"></a>
 
 ### PathItem.closed
 
@@ -100,8 +88,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pathitem-controlbounds"></a>
-
 ### PathItem.controlBounds
 
 `app.activeDocument.pathItems[index].controlBounds`
@@ -115,8 +101,6 @@ The bounds of the object including stroke width and controls.
 Array of 4 numbers; read-only.
 
 ---
-
-<a id="jsobjref-pathitem-editable"></a>
 
 ### PathItem.editable
 
@@ -132,8 +116,6 @@ Boolean; read-only.
 
 ---
 
-<a id="jsobjref-pathitem-evenodd"></a>
-
 ### PathItem.evenodd
 
 `app.activeDocument.pathItems[index].evenodd`
@@ -147,8 +129,6 @@ If `true`, the even-odd rule should be used to determine “insideness.”
 Boolean
 
 ---
-
-<a id="jsobjref-pathitem-fillcolor"></a>
 
 ### PathItem.fillColor
 
@@ -164,8 +144,6 @@ The fill color of the path.
 
 ---
 
-<a id="jsobjref-pathitem-filled"></a>
-
 ### PathItem.filled
 
 `app.activeDocument.pathItems[index].filled`
@@ -179,8 +157,6 @@ If `true`, the path is filled.
 Boolean
 
 ---
-
-<a id="jsobjref-pathitem-filloverprint"></a>
 
 ### PathItem.fillOverprint
 
@@ -196,8 +172,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pathitem-geometricbounds"></a>
-
 ### PathItem.geometricBounds
 
 `app.activeDocument.pathItems[index].geometricBounds`
@@ -211,8 +185,6 @@ The bounds of the object excluding stroke width.
 Array of 4 numbers; read-only.
 
 ---
-
-<a id="jsobjref-pathitem-guides"></a>
 
 ### PathItem.guides
 
@@ -228,8 +200,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pathitem-height"></a>
-
 ### PathItem.height
 
 `app.activeDocument.pathItems[index].height`
@@ -243,8 +213,6 @@ The height of the group item.
 Number (double)
 
 ---
-
-<a id="jsobjref-pathitem-hidden"></a>
 
 ### PathItem.hidden
 
@@ -260,8 +228,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pathitem-isisolated"></a>
-
 ### PathItem.isIsolated
 
 `app.activeDocument.pathItems[index].isIsolated`
@@ -275,8 +241,6 @@ If `true`, this object is isolated.
 Boolean
 
 ---
-
-<a id="jsobjref-pathitem-layer"></a>
 
 ### PathItem.layer
 
@@ -292,8 +256,6 @@ The layer to which this item belongs.
 
 ---
 
-<a id="jsobjref-pathitem-left"></a>
-
 ### PathItem.left
 
 `app.activeDocument.pathItems[index].left`
@@ -307,8 +269,6 @@ The position of the left side of the item (in points, measured from the left sid
 Number (double)
 
 ---
-
-<a id="jsobjref-pathitem-length"></a>
 
 ### PathItem.length
 
@@ -324,8 +284,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pathitem-locked"></a>
-
 ### PathItem.locked
 
 `app.activeDocument.pathItems[index].locked`
@@ -339,8 +297,6 @@ If `true`, this item is locked.
 Boolean
 
 ---
-
-<a id="jsobjref-pathitem-name"></a>
 
 ### PathItem.name
 
@@ -356,8 +312,6 @@ String
 
 ---
 
-<a id="jsobjref-pathitem-note"></a>
-
 ### PathItem.note
 
 `app.activeDocument.pathItems[index].note`
@@ -371,8 +325,6 @@ The note assigned to this item.
 String
 
 ---
-
-<a id="jsobjref-pathitem-opacity"></a>
 
 ### PathItem.opacity
 
@@ -388,8 +340,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pathitem-parent"></a>
-
 ### PathItem.parent
 
 `app.activeDocument.pathItems[index].parent`
@@ -403,8 +353,6 @@ The parent of this object.
 [Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem)
 
 ---
-
-<a id="jsobjref-pathitem-pathpoints"></a>
 
 ### PathItem.pathPoints
 
@@ -420,8 +368,6 @@ The path points contained in this path item.
 
 ---
 
-<a id="jsobjref-pathitem-pixelaligned"></a>
-
 ### PathItem.pixelAligned
 
 `app.activeDocument.pathItems[index].pixelAligned`
@@ -435,8 +381,6 @@ The path points contained in this path item.
 Boolean
 
 ---
-
-<a id="jsobjref-pathitem-polarity"></a>
 
 ### PathItem.polarity
 
@@ -452,8 +396,6 @@ The polarity of the path.
 
 ---
 
-<a id="jsobjref-pathitem-position"></a>
-
 ### PathItem.position
 
 `app.activeDocument.pathItems[index].position`
@@ -467,8 +409,6 @@ The position (in points) of the top left corner of the `pluginItem` object in th
 Array of 2 numbers; read-only.
 
 ---
-
-<a id="jsobjref-pathitem-resolution"></a>
 
 ### PathItem.resolution
 
@@ -484,8 +424,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pathitem-selected"></a>
-
 ### PathItem.selected
 
 `app.activeDocument.pathItems[index].selected`
@@ -500,8 +438,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pathitem-selectedpathpoints"></a>
-
 ### PathItem.selectedPathPoints
 
 `app.activeDocument.pathItems[index].selectedPathPoints`
@@ -515,8 +451,6 @@ All of the selected path points in the path.
 [PathPoints](PathPoints.md#jsobjref-pathpoints); read-only.
 
 ---
-
-<a id="jsobjref-pathitem-sliced"></a>
 
 ### PathItem.sliced
 
@@ -534,8 +468,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pathitem-strokecap"></a>
-
 ### PathItem.strokeCap
 
 `app.activeDocument.pathItems[index].strokeCap`
@@ -549,8 +481,6 @@ The type of line capping.
 [StrokeCap](scripting-constants.md#jsobjref-scripting-constants-strokecap)
 
 ---
-
-<a id="jsobjref-pathitem-strokecolor"></a>
 
 ### PathItem.strokeColor
 
@@ -566,8 +496,6 @@ The stroke color for the path.
 
 ---
 
-<a id="jsobjref-pathitem-stroked"></a>
-
 ### PathItem.stroked
 
 `app.activeDocument.pathItems[index].stroked`
@@ -581,8 +509,6 @@ If `true`, the path should be stroked.
 Boolean
 
 ---
-
-<a id="jsobjref-pathitem-strokedashes"></a>
 
 ### PathItem.strokeDashes
 
@@ -598,8 +524,6 @@ Object
 
 ---
 
-<a id="jsobjref-pathitem-strokedashoffset"></a>
-
 ### PathItem.strokeDashOffset
 
 `app.activeDocument.pathItems[index].strokeDashOffset`
@@ -613,8 +537,6 @@ The default distance into the dash pattern at which the pattern should be starte
 Number (double)
 
 ---
-
-<a id="jsobjref-pathitem-strokejoin"></a>
 
 ### PathItem.strokeJoin
 
@@ -630,8 +552,6 @@ Type of joints for the path.
 
 ---
 
-<a id="jsobjref-pathitem-strokemiterlimit"></a>
-
 ### PathItem.strokeMiterLimit
 
 `app.activeDocument.pathItems[index].strokeMiterLimit`
@@ -645,8 +565,6 @@ When a default stroke join is set to mitered, this property specifies when the j
 Number (double)
 
 ---
-
-<a id="jsobjref-pathitem-strokeoverprint"></a>
 
 ### PathItem.strokeOverprint
 
@@ -662,8 +580,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-pathitem-strokewidth"></a>
-
 ### PathItem.strokeWidth
 
 `app.activeDocument.pathItems[index].strokeWidth`
@@ -677,8 +593,6 @@ The width of the stroke (in points).
 Number (double)
 
 ---
-
-<a id="jsobjref-pathitem-tags"></a>
 
 ### PathItem.tags
 
@@ -694,8 +608,6 @@ The tags contained in this item.
 
 ---
 
-<a id="jsobjref-pathitem-top"></a>
-
 ### PathItem.top
 
 `app.activeDocument.pathItems[index].top`
@@ -709,8 +621,6 @@ The position of the top of the item (in points, measured from the bottom of the 
 Number (double)
 
 ---
-
-<a id="jsobjref-pathitem-typename"></a>
 
 ### PathItem.typename
 
@@ -726,8 +636,6 @@ String; read-only.
 
 ---
 
-<a id="jsobjref-pathitem-url"></a>
-
 ### PathItem.uRL
 
 `app.activeDocument.pathItems[index].uRL`
@@ -741,8 +649,6 @@ The value of the Adobe URL tag assigned to this item.
 String
 
 ---
-
-<a id="jsobjref-pathitem-visibilityvariable"></a>
 
 ### PathItem.visibilityVariable
 
@@ -758,8 +664,6 @@ The visibility variable bound to the item.
 
 ---
 
-<a id="jsobjref-pathitem-visiblebounds"></a>
-
 ### PathItem.visibleBounds
 
 `app.activeDocument.pathItems[index].visibleBounds`
@@ -773,8 +677,6 @@ The visible bounds of the item including stroke width.
 Array of 4 numbers; read-only.
 
 ---
-
-<a id="jsobjref-pathitem-width"></a>
 
 ### PathItem.width
 
@@ -790,8 +692,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pathitem-wrapinside"></a>
-
 ### PathItem.wrapInside
 
 `app.activeDocument.pathItems[index].wrapInside`
@@ -805,8 +705,6 @@ If `true`, the text frame object should be wrapped inside this object.
 Boolean
 
 ---
-
-<a id="jsobjref-pathitem-wrapoffset"></a>
 
 ### PathItem.wrapOffset
 
@@ -822,8 +720,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-pathitem-wrapped"></a>
-
 ### PathItem.wrapped
 
 `app.activeDocument.pathItems[index].wrapped`
@@ -837,8 +733,6 @@ If `true`, wrap text frame objects around this object (text frame must be above 
 Boolean
 
 ---
-
-<a id="jsobjref-pathitem-zorderposition"></a>
 
 ### PathItem.zOrderPosition
 
@@ -855,8 +749,6 @@ Number; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-pathitem-duplicate"></a>
 
 ### PathItem.duplicate()
 
@@ -879,8 +771,6 @@ Creates a duplicate of the selected object.
 
 ---
 
-<a id="jsobjref-pathitem-move"></a>
-
 ### PathItem.move()
 
 `app.activeDocument.pathItems[index].move(relativeObject, insertionLocation)`
@@ -902,8 +792,6 @@ Moves the object.
 
 ---
 
-<a id="jsobjref-pathitem-remove"></a>
-
 ### PathItem.remove()
 
 `app.activeDocument.pathItems[index].remove()`
@@ -917,8 +805,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-pathitem-resize"></a>
 
 ### PathItem.resize()
 
@@ -947,8 +833,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-pathitem-rotate"></a>
-
 ### PathItem.rotate()
 
 `app.activeDocument.pathItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])`
@@ -976,8 +860,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-pathitem-setentirepath"></a>
-
 ### PathItem.setEntirePath()
 
 `app.activeDocument.pathItems[index].setEntirePath(pathPoints)`
@@ -997,8 +879,6 @@ Sets the path using an array of [x, y] coordinate pairs.
 Nothing.
 
 ---
-
-<a id="jsobjref-pathitem-transform"></a>
 
 ### PathItem.transform()
 
@@ -1026,8 +906,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-pathitem-translate"></a>
-
 ### PathItem.translate()
 
 `app.activeDocument.pathItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])`
@@ -1052,8 +930,6 @@ Repositions the art item relative to the current position, where `deltaX` is the
 Nothing.
 
 ---
-
-<a id="jsobjref-pathitem-zorder"></a>
 
 ### PathItem.zOrder()
 

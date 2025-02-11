@@ -1,5 +1,3 @@
-<a id="jsobjref-exportoptionsgif"></a>
-
 # ExportOptionsGIF
 
 `exportOptionsGIF`
@@ -13,8 +11,6 @@ When you export a document, the appropriate file extension is appended automatic
 ---
 
 ## Properties
-
-<a id="jsobjref-exportoptionsgif-antialiasing"></a>
 
 ### ExportOptionsGIF.antiAliasing
 
@@ -30,8 +26,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsgif-artboardclipping"></a>
-
 ### ExportOptionsGIF.artBoardClipping
 
 `exportOptionsGIF.artBoardClipping`
@@ -45,8 +39,6 @@ If `true`, the exported image should be clipped to the art board. Default: `fals
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionsgif-colorcount"></a>
 
 ### ExportOptionsGIF.colorCount
 
@@ -62,8 +54,6 @@ Number (long).
 
 ---
 
-<a id="jsobjref-exportoptionsgif-colordither"></a>
-
 ### ExportOptionsGIF.colorDither
 
 `exportOptionsGIF.colorDither`
@@ -77,8 +67,6 @@ The method used to dither colors in the exported image. Default: `ColorDitherMet
 [ColorDitherMethod](scripting-constants.md#jsobjref-scripting-constants-colordithermethod)
 
 ---
-
-<a id="jsobjref-exportoptionsgif-colorreduction"></a>
 
 ### ExportOptionsGIF.colorReduction
 
@@ -94,8 +82,6 @@ The method used to reduce the number of colors in the exported image. `Default: 
 
 ---
 
-<a id="jsobjref-exportoptionsgif-ditherpercent"></a>
-
 ### ExportOptionsGIF.ditherPercent
 
 `exportOptionsGIF.ditherPercent`
@@ -109,8 +95,6 @@ How much should the colors of the exported image be dithered, where 100.0 is 100
 Number (long).
 
 ---
-
-<a id="jsobjref-exportoptionsgif-horizontalscale"></a>
 
 ### ExportOptionsGIF.horizontalScale
 
@@ -126,8 +110,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-exportoptionsgif-infolosspercent"></a>
-
 ### ExportOptionsGIF.infoLossPercent
 
 `exportOptionsGIF.infoLossPercent`
@@ -141,8 +123,6 @@ The level of information loss allowed during compression, where 100.0 is 100%.
 Number (long).
 
 ---
-
-<a id="jsobjref-exportoptionsgif-interlaced"></a>
 
 ### ExportOptionsGIF.interlaced
 
@@ -158,8 +138,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsgif-matte"></a>
-
 ### ExportOptionsGIF.matte
 
 `exportOptionsGIF.matte`
@@ -173,8 +151,6 @@ If `true`, the art board should be matted with a color. Default: `true`.
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionsgif-mattecolor"></a>
 
 ### ExportOptionsGIF.matteColor
 
@@ -190,8 +166,6 @@ The color to use when matting the art board. Default: `WHITE`.
 
 ---
 
-<a id="jsobjref-exportoptionsgif-saveashtml"></a>
-
 ### ExportOptionsGIF.saveAsHTML
 
 `exportOptionsGIF.saveAsHTML`
@@ -205,8 +179,6 @@ If `true`, the exported image should be saved with an accompanying HTML file. De
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionsgif-transparency"></a>
 
 ### ExportOptionsGIF.transparency
 
@@ -222,8 +194,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsgif-typename"></a>
-
 ### ExportOptionsGIF.typename
 
 `exportOptionsGIF.typename`
@@ -238,8 +208,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-exportoptionsgif-verticalscale"></a>
-
 ### ExportOptionsGIF.verticalScale
 
 `exportOptionsGIF.verticalScale`
@@ -253,8 +221,6 @@ The vertical scaling factor to apply to the exported image, where 100.0 is 100%.
 Number (double).
 
 ---
-
-<a id="jsobjref-exportoptionsgif-websnap"></a>
 
 ### ExportOptionsGIF.webSnap
 

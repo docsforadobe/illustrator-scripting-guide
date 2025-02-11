@@ -1,5 +1,3 @@
-<a id="objectmodel-objectnamingconventions"></a>
-
 # Object Naming Conventions
 
 There is one object model for the Illustrator scripting interface, but actual object names vary slightly in the different scripting languages:

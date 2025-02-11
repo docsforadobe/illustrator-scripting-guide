@@ -1,5 +1,3 @@
-<a id="jsobjref-placeditems"></a>
-
 # PlacedItems
 
 `app.activeDocument.placedItems`
@@ -11,8 +9,6 @@ A collection of [PlacedItem](PlacedItem.md#jsobjref-placeditem) objects in a doc
 ---
 
 ## Properties
-
-<a id="jsobjref-placeditems-length"></a>
 
 ### PlacedItems.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-placeditems-parent"></a>
-
 ### PlacedItems.parent
 
 `app.activeDocument.placedItems.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-placeditems-typename"></a>
 
 ### PlacedItems.typename
 
@@ -62,8 +54,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-placeditems-add"></a>
-
 ### PlacedItems.add()
 
 `app.activeDocument.placedItems.add()`
@@ -79,8 +69,6 @@ Use to place new art in a document. Use the `file` property of the resulting `pl
 [PlacedItem](PlacedItem.md#jsobjref-placeditem)
 
 ---
-
-<a id="jsobjref-placeditems-getbyname"></a>
 
 ### PlacedItems.getByName()
 
@@ -102,8 +90,6 @@ Get the first element in the collection with the provided name.
 
 ---
 
-<a id="jsobjref-placeditems-index"></a>
-
 ### PlacedItems.index()
 
 `app.activeDocument.placedItems.index(itemKey)`
@@ -123,8 +109,6 @@ Gets an element from the collection.
 [PlacedItem](PlacedItem.md#jsobjref-placeditem)
 
 ---
-
-<a id="jsobjref-placeditems-removeall"></a>
 
 ### PlacedItems.removeAll()
 

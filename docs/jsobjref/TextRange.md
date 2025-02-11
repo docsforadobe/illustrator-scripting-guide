@@ -1,5 +1,3 @@
-<a id="jsobjref-textrange"></a>
-
 # TextRange
 
 `app.activeDocument.textFrames[index].textRange`
@@ -11,8 +9,6 @@ A range of text in a specific text art item. TextRange gives you access to the t
 ---
 
 ## Properties
-
-<a id="jsobjref-textrange-characterattributes"></a>
 
 ### TextRange.characterAttributes
 
@@ -28,8 +24,6 @@ The character properties for the text range.
 
 ---
 
-<a id="jsobjref-textrange-characteroffset"></a>
-
 ### TextRange.characterOffset
 
 `app.activeDocument.textFrames[index].textRange.characterOffset`
@@ -43,8 +37,6 @@ Offset of the first character.
 Number (long)
 
 ---
-
-<a id="jsobjref-textrange-characters"></a>
 
 ### TextRange.characters
 
@@ -60,8 +52,6 @@ All the characters in this text range.
 
 ---
 
-<a id="jsobjref-textrange-characterstyles"></a>
-
 ### TextRange.characterStyles
 
 `app.activeDocument.textFrames[index].textRange.characterStyles`
@@ -75,8 +65,6 @@ All referenced character styles in the text range.
 [CharacterStyles](CharacterStyles.md#jsobjref-characterstyles), read-only.
 
 ---
-
-<a id="jsobjref-textrange-contents"></a>
 
 ### TextRange.contents
 
@@ -92,8 +80,6 @@ String
 
 ---
 
-<a id="jsobjref-textrange-end"></a>
-
 ### TextRange.end
 
 `app.activeDocument.textFrames[index].textRange.end`
@@ -107,8 +93,6 @@ End index of the text range.
 Int32
 
 ---
-
-<a id="jsobjref-textrange-insertionpoints"></a>
 
 ### TextRange.insertionPoints
 
@@ -124,8 +108,6 @@ All the insertion points in this text range.
 
 ---
 
-<a id="jsobjref-textrange-kerning"></a>
-
 ### TextRange.kerning
 
 `app.activeDocument.textFrames[index].textRange.kerning`
@@ -139,8 +121,6 @@ Controls the spacing between two characters, in thousandths of an em. An integer
 Number (long)
 
 ---
-
-<a id="jsobjref-textrange-length"></a>
 
 ### TextRange.length
 
@@ -156,8 +136,6 @@ Number (long)
 
 ---
 
-<a id="jsobjref-textrange-lines"></a>
-
 ### TextRange.lines
 
 `app.activeDocument.textFrames[index].textRange.lines`
@@ -171,8 +149,6 @@ All the lines in this text range.
 [Lines](Lines.md#jsobjref-lines), read-only.
 
 ---
-
-<a id="jsobjref-textrange-paragraphattributes"></a>
 
 ### TextRange.paragraphAttributes
 
@@ -188,8 +164,6 @@ The paragraph properties for the text range.
 
 ---
 
-<a id="jsobjref-textrange-paragraphs"></a>
-
 ### TextRange.paragraphs
 
 `app.activeDocument.textFrames[index].textRange.paragraphs`
@@ -203,8 +177,6 @@ All the paragraphs in this text range.
 [Paragraphs](Paragraphs.md#jsobjref-paragraphs), read-only.
 
 ---
-
-<a id="jsobjref-textrange-paragraphstyles"></a>
 
 ### TextRange.paragraphStyles
 
@@ -220,8 +192,6 @@ All referenced paragraph styles in the text range.
 
 ---
 
-<a id="jsobjref-textrange-parent"></a>
-
 ### TextRange.parent
 
 `app.activeDocument.textFrames[index].textRange.parent`
@@ -235,8 +205,6 @@ The object’s container.
 [TextRange](#jsobjref-textrange), read-only.
 
 ---
-
-<a id="jsobjref-textrange-start"></a>
 
 ### TextRange.start
 
@@ -252,8 +220,6 @@ Int32
 
 ---
 
-<a id="jsobjref-textrange-story"></a>
-
 ### TextRange.story
 
 `app.activeDocument.textFrames[index].textRange.story`
@@ -267,8 +233,6 @@ The story to which the text range belongs.
 [Story](Story.md#jsobjref-story), read-only.
 
 ---
-
-<a id="jsobjref-textrange-textranges"></a>
 
 ### TextRange.textRanges
 
@@ -284,8 +248,6 @@ All of the text in this text range.
 
 ---
 
-<a id="jsobjref-textrange-textselection"></a>
-
 ### TextRange.textSelection
 
 `app.activeDocument.textFrames[index].textRange.textSelection`
@@ -300,8 +262,6 @@ Array of [TextRange](#jsobjref-textrange), read-only.
 
 ---
 
-<a id="jsobjref-textrange-typename"></a>
-
 ### TextRange.typename
 
 `app.activeDocument.textFrames[index].textRange.typename`
@@ -315,8 +275,6 @@ The class name of the object.
 String, read-only.
 
 ---
-
-<a id="jsobjref-textrange-words"></a>
 
 ### TextRange.words
 
@@ -333,8 +291,6 @@ All the words contained in this text range.
 ---
 
 ## Methods
-
-<a id="jsobjref-textrange-changecaseto"></a>
 
 ### TextRange.changeCaseTo()
 
@@ -356,8 +312,6 @@ Nothing
 
 ---
 
-<a id="jsobjref-textrange-deselect"></a>
-
 ### TextRange.deSelect()
 
 `app.activeDocument.textFrames[index].textRange.deSelect()`
@@ -371,8 +325,6 @@ Deselects the text range.
 Nothing.
 
 ---
-
-<a id="jsobjref-textrange-duplicate"></a>
 
 ### TextRange.duplicate()
 
@@ -395,8 +347,6 @@ Creates a duplicate of this object.
 
 ---
 
-<a id="jsobjref-textrange-getlocalcharoverridesjson"></a>
-
 ### TextRange.getLocalCharOverridesJSON()
 
 `app.activeDocument.textFrames[index].textRange.getLocalCharOverridesJSON()`
@@ -410,8 +360,6 @@ Gets json representation of character overrides.
 String
 
 ---
-
-<a id="jsobjref-textrange-getlocalparaoverridesjson"></a>
 
 ### TextRange.getLocalParaOverridesJSON()
 
@@ -427,8 +375,6 @@ String
 
 ---
 
-<a id="jsobjref-textrange-getparagraphlength"></a>
-
 ### TextRange.getParagraphLength()
 
 `app.activeDocument.textFrames[index].textRange.getParagraphLength()`
@@ -443,8 +389,6 @@ Int32
 
 ---
 
-<a id="jsobjref-textrange-gettextrunlength"></a>
-
 ### TextRange.getTextRunLength()
 
 `app.activeDocument.textFrames[index].textRange.getTextRunLength()`
@@ -458,8 +402,6 @@ Gets the length of the first text run of the text range.
 Int32
 
 ---
-
-<a id="jsobjref-textrange-move"></a>
 
 ### TextRange.move()
 
@@ -482,8 +424,6 @@ Moves the object.
 
 ---
 
-<a id="jsobjref-textrange-remove"></a>
-
 ### TextRange.remove()
 
 `app.activeDocument.textFrames[index].textRange.remove()`
@@ -497,8 +437,6 @@ Deletes the object.
 Nothing
 
 ---
-
-<a id="jsobjref-textrange-select"></a>
 
 ### TextRange.select()
 

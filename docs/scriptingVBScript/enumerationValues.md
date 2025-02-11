@@ -1,5 +1,3 @@
-<a id="scriptingvbscript-enumerationvalues"></a>
-
 # Working with enumeration values
 
 Properties that use enumeration values in VBScript use a numeral rather than a text value. For example, the Orientation property of the `TextFrame` object specifies whether text content in the text frame is horizontal or vertical. The property uses the `aiTextOrientation` enumeration, which has two possible values, `aiHorizontal` and `aiVertical`.

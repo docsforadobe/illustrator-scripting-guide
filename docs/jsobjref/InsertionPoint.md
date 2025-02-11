@@ -1,5 +1,3 @@
-<a id="jsobjref-insertionpoint"></a>
-
 # InsertionPoint
 
 `app.activeDocument.textFrames[index].insertionPoints[index`
@@ -11,8 +9,6 @@ A location between characters that is used to insert new text objects. An insert
 ---
 
 ## Properties
-
-<a id="jsobjref-insertionpoint-characters"></a>
 
 ### InsertionPoint.characters
 
@@ -28,8 +24,6 @@ All the characters in this text range.
 
 ---
 
-<a id="jsobjref-insertionpoint-lines"></a>
-
 ### InsertionPoint.lines
 
 `app.activeDocument.textFrames[index].insertionPoints[index].lines`
@@ -43,8 +37,6 @@ All the lines in this text range.
 [Lines](Lines.md#jsobjref-lines), read-only.
 
 ---
-
-<a id="jsobjref-insertionpoint-paragraphs"></a>
 
 ### InsertionPoint.paragraphs
 
@@ -60,8 +52,6 @@ All the paragraphs in this text range.
 
 ---
 
-<a id="jsobjref-insertionpoint-parent"></a>
-
 ### InsertionPoint.parent
 
 `app.activeDocument.textFrames[index].insertionPoints[index].parent`
@@ -75,8 +65,6 @@ The object’s container.
 [TextRange](TextRange.md#jsobjref-textrange), read-only.
 
 ---
-
-<a id="jsobjref-insertionpoint-story"></a>
 
 ### InsertionPoint.story
 
@@ -92,8 +80,6 @@ The story to which the text range belongs.
 
 ---
 
-<a id="jsobjref-insertionpoint-textranges"></a>
-
 ### InsertionPoint.textRanges
 
 `app.activeDocument.textFrames[index].insertionPoints[index].textRanges`
@@ -108,8 +94,6 @@ All of the text in this text range.
 
 ---
 
-<a id="jsobjref-insertionpoint-typename"></a>
-
 ### InsertionPoint.typename
 
 `app.activeDocument.textFrames[index].insertionPoints[index].typename`
@@ -123,8 +107,6 @@ The class name of the object.
 String, read-only.
 
 ---
-
-<a id="jsobjref-insertionpoint-words"></a>
 
 ### InsertionPoint.words
 

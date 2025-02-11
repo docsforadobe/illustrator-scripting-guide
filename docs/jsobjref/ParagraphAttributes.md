@@ -1,5 +1,3 @@
-<a id="jsobjref-paragraphattributes"></a>
-
 # ParagraphAttributes
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes`
@@ -15,8 +13,6 @@ Paragraph attributes do not have default values, and are `undefined` untile xpli
 
 ## Properties
 
-<a id="jsobjref-paragraphattributes-autoleadingamount"></a>
-
 ### ParagraphAttributes.autoLeadingAmount
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.autoLeadingAmount`
@@ -30,8 +26,6 @@ Auto leading amount expressed as a percentage.
 Number (double).
 
 ---
-
-<a id="jsobjref-paragraphattributes-bunrikinshi"></a>
 
 ### ParagraphAttributes.bunriKinshi
 
@@ -47,8 +41,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-paragraphattributes-burasagaritype"></a>
-
 ### ParagraphAttributes.burasagariType
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.burasagariType`
@@ -62,8 +54,6 @@ The Burasagari type.
 [BurasagariTypeEnum](scripting-constants.md#jsobjref-scripting-constants-burasagaritypeenum)
 
 ---
-
-<a id="jsobjref-paragraphattributes-desiredglyphscaling"></a>
 
 ### ParagraphAttributes.desiredGlyphScaling
 
@@ -79,8 +69,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-paragraphattributes-desiredletterspacing"></a>
-
 ### ParagraphAttributes.desiredLetterSpacing
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.desiredLetterSpacing`
@@ -94,8 +82,6 @@ Desired letter, spacing expressed as a percentage of the default kerning or trac
 Number (double).
 
 ---
-
-<a id="jsobjref-paragraphattributes-desiredwordspacing"></a>
 
 ### ParagraphAttributes.desiredWordSpacing
 
@@ -111,8 +97,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-paragraphattributes-everylinecomposer"></a>
-
 ### ParagraphAttributes.everyLineComposer
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.everyLineComposer`
@@ -126,8 +110,6 @@ If `true`, the Every-line Composer is enabled. If `false`, the Single-line Compo
 Boolean.
 
 ---
-
-<a id="jsobjref-paragraphattributes-firstlineindent"></a>
 
 ### ParagraphAttributes.firstLineIndent
 
@@ -143,8 +125,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-paragraphattributes-hyphenatecapitalizedwords"></a>
-
 ### ParagraphAttributes.hyphenateCapitalizedWords
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenateCapitalizedWords`
@@ -158,8 +138,6 @@ If `true`, hyphenation is enabled for capitalized words.
 Boolean.
 
 ---
-
-<a id="jsobjref-paragraphattributes-hyphenation"></a>
 
 ### ParagraphAttributes.hyphenation
 
@@ -175,8 +153,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-paragraphattributes-hyphenationpreference"></a>
-
 ### ParagraphAttributes.hyphenationPreference
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenationPreference`
@@ -190,8 +166,6 @@ Hyphenation preference scale for better spacing (0) or fewer hyphens (1). Range:
 Number (double).
 
 ---
-
-<a id="jsobjref-paragraphattributes-hyphenationzone"></a>
 
 ### ParagraphAttributes.hyphenationZone
 
@@ -210,8 +184,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-paragraphattributes-justification"></a>
-
 ### ParagraphAttributes.justification
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.justification`
@@ -225,8 +197,6 @@ Paragraph justification.
 [Justification](scripting-constants.md#jsobjref-scripting-constants-justification)
 
 ---
-
-<a id="jsobjref-paragraphattributes-kinsoku"></a>
 
 ### ParagraphAttributes.kinsoku
 
@@ -242,8 +212,6 @@ String.
 
 ---
 
-<a id="jsobjref-paragraphattributes-kinsokuorder"></a>
-
 ### ParagraphAttributes.kinsokuOrder
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.kinsokuOrder`
@@ -257,8 +225,6 @@ The preferred Kinsoku order.
 [KinsokuOrderEnum](scripting-constants.md#jsobjref-scripting-constants-kinsokuorderenum)
 
 ---
-
-<a id="jsobjref-paragraphattributes-kurikaeshimojishori"></a>
 
 ### ParagraphAttributes.kurikaeshiMojiShori
 
@@ -274,8 +240,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-paragraphattributes-leadingtype"></a>
-
 ### ParagraphAttributes.leadingType
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.leadingType`
@@ -289,8 +253,6 @@ Auto leading type.
 [AutoLeadingType](scripting-constants.md#jsobjref-scripting-constants-autoleadingtype)
 
 ---
-
-<a id="jsobjref-paragraphattributes-leftindent"></a>
 
 ### ParagraphAttributes.leftIndent
 
@@ -306,8 +268,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-paragraphattributes-maximumconsecutivehyphens"></a>
-
 ### ParagraphAttributes.maximumConsecutiveHyphens
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumConsecutiveHyphens`
@@ -321,8 +281,6 @@ Maximum number of consecutive hyphenated lines.
 Number (long).
 
 ---
-
-<a id="jsobjref-paragraphattributes-maximumglyphscaling"></a>
 
 ### ParagraphAttributes.maximumGlyphScaling
 
@@ -341,8 +299,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-paragraphattributes-maximumletterspacing"></a>
-
 ### ParagraphAttributes.maximumLetterSpacing
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumLetterSpacing`
@@ -359,8 +315,6 @@ Valid only for justified paragraphs.
 Number (double).
 
 ---
-
-<a id="jsobjref-paragraphattributes-maximumwordspacing"></a>
 
 ### ParagraphAttributes.maximumWordSpacing
 
@@ -379,8 +333,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-paragraphattributes-minimumafterhyphen"></a>
-
 ### ParagraphAttributes.minimumAfterHyphen
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumAfterHyphen`
@@ -395,8 +347,6 @@ Number (long).
 
 ---
 
-<a id="jsobjref-paragraphattributes-minimumbeforehyphen"></a>
-
 ### ParagraphAttributes.minimumBeforeHyphen
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumBeforeHyphen`
@@ -410,8 +360,6 @@ Minimum number of characters before a hyphen.
 Number (long).
 
 ---
-
-<a id="jsobjref-paragraphattributes-minimumglyphscaling"></a>
 
 ### ParagraphAttributes.minimumGlyphScaling
 
@@ -430,8 +378,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-paragraphattributes-minimumhyphenatedwordsize"></a>
-
 ### ParagraphAttributes.minimumHyphenatedWordSize
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumHyphenatedWordSize`
@@ -445,8 +391,6 @@ Minimum number of characters for a word to be hyphenated.
 Number (long).
 
 ---
-
-<a id="jsobjref-paragraphattributes-minimumletterspacing"></a>
 
 ### ParagraphAttributes.minimumLetterSpacing
 
@@ -465,8 +409,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-paragraphattributes-minimumwordspacing"></a>
-
 ### ParagraphAttributes.minimumWordSpacing
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumWordSpacing`
@@ -484,8 +426,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-paragraphattributes-mojikumi"></a>
-
 ### ParagraphAttributes.mojikumi
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.mojikumi`
@@ -499,8 +439,6 @@ The Mojikumi name.
 String.
 
 ---
-
-<a id="jsobjref-paragraphattributes-parent"></a>
 
 ### ParagraphAttributes.parent
 
@@ -516,8 +454,6 @@ Object, read-only.
 
 ---
 
-<a id="jsobjref-paragraphattributes-rightindent"></a>
-
 ### ParagraphAttributes.rightIndent
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.rightIndent`
@@ -531,8 +467,6 @@ Right indent of margin in points.
 Number (double).
 
 ---
-
-<a id="jsobjref-paragraphattributes-romanhanging"></a>
 
 ### ParagraphAttributes.romanHanging
 
@@ -548,8 +482,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-paragraphattributes-singlewordjustification"></a>
-
 ### ParagraphAttributes.singleWordJustification
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.singleWordJustification`
@@ -563,8 +495,6 @@ Single word justification.
 [Justification](scripting-constants.md#jsobjref-scripting-constants-justification)
 
 ---
-
-<a id="jsobjref-paragraphattributes-spaceafter"></a>
 
 ### ParagraphAttributes.spaceAfter
 
@@ -580,8 +510,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-paragraphattributes-spacebefore"></a>
-
 ### ParagraphAttributes.spaceBefore
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.spaceBefore`
@@ -596,8 +524,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-paragraphattributes-tabstops"></a>
-
 ### ParagraphAttributes.tabStops
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops`
@@ -611,8 +537,6 @@ Tab stop settings.
 [TabStopInfo](TabStopInfo.md#jsobjref-tabstopinfo)
 
 ---
-
-<a id="jsobjref-paragraphattributes-typename"></a>
 
 ### ParagraphAttributes.typename
 

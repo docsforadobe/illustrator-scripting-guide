@@ -1,5 +1,3 @@
-<a id="jsobjref-stories"></a>
-
 # Stories
 
 `stories`
@@ -11,8 +9,6 @@ A collection of [Story](Story.md#jsobjref-story) objects in a document.
 ---
 
 ## Properties
-
-<a id="jsobjref-stories-length"></a>
 
 ### Stories.length
 
@@ -28,8 +24,6 @@ Number; read-only.
 
 ---
 
-<a id="jsobjref-stories-parent"></a>
-
 ### Stories.parent
 
 `stories.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-stories-typename"></a>
 
 ### Stories.typename
 
@@ -61,8 +53,6 @@ String; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-stories-index"></a>
 
 ### Stories.index()
 

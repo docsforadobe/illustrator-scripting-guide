@@ -1,5 +1,3 @@
-<a id="jsobjref-exportoptionsjpeg"></a>
-
 # ExportOptionsJPEG
 
 `exportOptionsJPEG`
@@ -13,8 +11,6 @@ When you export a document, the appropriate file extension is appended automatic
 ---
 
 ## Properties
-
-<a id="jsobjref-exportoptionsjpeg-antialiasing"></a>
 
 ### ExportOptionsJPEG.antiAliasing
 
@@ -30,8 +26,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsjpeg-artboardclipping"></a>
-
 ### ExportOptionsJPEG.artBoardClipping
 
 `exportOptionsJPEG.artBoardClipping`
@@ -45,8 +39,6 @@ If `true`, the exported image should be clipped to the art board.
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionsjpeg-bluramount"></a>
 
 ### ExportOptionsJPEG.blurAmount
 
@@ -62,8 +54,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-exportoptionsjpeg-horizontalscale"></a>
-
 ### ExportOptionsJPEG.horizontalScale
 
 `exportOptionsJPEG.horizontalScale`
@@ -77,8 +67,6 @@ The horizontal scaling factor to apply to the exported image, where 100.0 is 100
 Number (double).
 
 ---
-
-<a id="jsobjref-exportoptionsjpeg-matte"></a>
 
 ### ExportOptionsJPEG.matte
 
@@ -94,8 +82,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsjpeg-mattecolor"></a>
-
 ### ExportOptionsJPEG.matteColor
 
 `exportOptionsJPEG.matteColor`
@@ -109,8 +95,6 @@ The color to use when matting the art board. Default: `white`.
 [RGBColor](RGBColor.md#jsobjref-rgbcolor)
 
 ---
-
-<a id="jsobjref-exportoptionsjpeg-optimization"></a>
 
 ### ExportOptionsJPEG.optimization
 
@@ -126,8 +110,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsjpeg-qualitysetting"></a>
-
 ### ExportOptionsJPEG.qualitySetting
 
 `exportOptionsJPEG.qualitySetting`
@@ -141,8 +123,6 @@ The quality of the exported image. Range: 0 to 100. Default: 30.
 Number (long).
 
 ---
-
-<a id="jsobjref-exportoptionsjpeg-saveashtml"></a>
 
 ### ExportOptionsJPEG.saveAsHTML
 
@@ -158,8 +138,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsjpeg-typename"></a>
-
 ### ExportOptionsJPEG.typename
 
 `exportOptionsJPEG.typename`
@@ -173,8 +151,6 @@ The class name of the referenced object.
 String, read-only.
 
 ---
-
-<a id="jsobjref-exportoptionsjpeg-verticalscale"></a>
 
 ### ExportOptionsJPEG.verticalScale
 

@@ -1,5 +1,3 @@
-<a id="jsobjref-printpaperoptions"></a>
-
 # PrintPaperOptions
 
 `new PrintPaperOptions()`
@@ -11,8 +9,6 @@ Information about the paper to be used in the print job.
 ---
 
 ## Properties
-
-<a id="jsobjref-printpaperoptions-height"></a>
 
 ### PrintPaperOptions.height
 
@@ -30,8 +26,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-printpaperoptions-name"></a>
-
 ### PrintPaperOptions.name
 
 `printPaperOptions.name`
@@ -45,8 +39,6 @@ The paper’s name.
 String
 
 ---
-
-<a id="jsobjref-printpaperoptions-offset"></a>
 
 ### PrintPaperOptions.offset
 
@@ -64,8 +56,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-printpaperoptions-transverse"></a>
-
 ### PrintPaperOptions.transverse
 
 `printPaperOptions.transverse`
@@ -82,8 +72,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printpaperoptions-typename"></a>
-
 ### PrintPaperOptions.typename
 
 `printPaperOptions.typename`
@@ -97,8 +85,6 @@ The class name of the object.
 String; read-only.
 
 ---
-
-<a id="jsobjref-printpaperoptions-width"></a>
 
 ### PrintPaperOptions.width
 

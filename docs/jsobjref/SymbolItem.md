@@ -1,5 +1,3 @@
-<a id="jsobjref-symbolitem"></a>
-
 # SymbolItem
 
 `app.activeDocument.symbolItems[index`
@@ -13,8 +11,6 @@ A `SymbolItem` is linked to the [Symbol](Symbol.md#jsobjref-symbol) from which i
 ---
 
 ## Properties
-
-<a id="jsobjref-symbolitem-artworkknockout"></a>
 
 ### SymbolItem.artworkKnockout
 
@@ -30,8 +26,6 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 ---
 
-<a id="jsobjref-symbolitem-blendingmode"></a>
-
 ### SymbolItem.blendingMode
 
 `app.activeDocument.symbolItems[index].blendingMode`
@@ -45,8 +39,6 @@ The blend mode used when compositing an object.
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
 ---
-
-<a id="jsobjref-symbolitem-controlbounds"></a>
 
 ### SymbolItem.controlBounds
 
@@ -62,8 +54,6 @@ Array of 4 Numbers; read-only.
 
 ---
 
-<a id="jsobjref-symbolitem-editable"></a>
-
 ### SymbolItem.editable
 
 `app.activeDocument.symbolItems[index].editable`
@@ -77,8 +67,6 @@ If `true`, this item is editable.
 Boolean; read-only.
 
 ---
-
-<a id="jsobjref-symbolitem-geometricbounds"></a>
 
 ### SymbolItem.geometricBounds
 
@@ -94,8 +82,6 @@ Array of 4 Numbers; read-only.
 
 ---
 
-<a id="jsobjref-symbolitem-height"></a>
-
 ### SymbolItem.height
 
 `app.activeDocument.symbolItems[index].height`
@@ -109,8 +95,6 @@ The height of the group item.
 Number (double)
 
 ---
-
-<a id="jsobjref-symbolitem-hidden"></a>
 
 ### SymbolItem.hidden
 
@@ -126,8 +110,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-symbolitem-isisolated"></a>
-
 ### SymbolItem.isIsolated
 
 `app.activeDocument.symbolItems[index].isIsolated`
@@ -141,8 +123,6 @@ If `true`, this object is isolated.
 Boolean
 
 ---
-
-<a id="jsobjref-symbolitem-layer"></a>
 
 ### SymbolItem.layer
 
@@ -158,8 +138,6 @@ The layer to which this item belongs.
 
 ---
 
-<a id="jsobjref-symbolitem-left"></a>
-
 ### SymbolItem.left
 
 `app.activeDocument.symbolItems[index].left`
@@ -173,8 +151,6 @@ The position of the left side of the item (in points, measured from the left sid
 Number (double)
 
 ---
-
-<a id="jsobjref-symbolitem-locked"></a>
 
 ### SymbolItem.locked
 
@@ -190,8 +166,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-symbolitem-name"></a>
-
 ### SymbolItem.name
 
 `app.activeDocument.symbolItems[index].name`
@@ -205,8 +179,6 @@ The name of this item.
 String
 
 ---
-
-<a id="jsobjref-symbolitem-note"></a>
 
 ### SymbolItem.note
 
@@ -222,8 +194,6 @@ String
 
 ---
 
-<a id="jsobjref-symbolitem-opacity"></a>
-
 ### SymbolItem.opacity
 
 `app.activeDocument.symbolItems[index].opacity`
@@ -237,8 +207,6 @@ The opacity of the object. Range: 0.0 to 100.0
 Number (double)
 
 ---
-
-<a id="jsobjref-symbolitem-parent"></a>
 
 ### SymbolItem.parent
 
@@ -254,8 +222,6 @@ The parent of this object.
 
 ---
 
-<a id="jsobjref-symbolitem-position"></a>
-
 ### SymbolItem.position
 
 `app.activeDocument.symbolItems[index].position`
@@ -269,8 +235,6 @@ The position (in points) of the top left corner of the `symbolItem` object in th
 Array of 2 Numbers
 
 ---
-
-<a id="jsobjref-symbolitem-selected"></a>
 
 ### SymbolItem.selected
 
@@ -286,8 +250,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-symbolitem-sliced"></a>
-
 ### SymbolItem.sliced
 
 `app.activeDocument.symbolItems[index].sliced`
@@ -301,8 +263,6 @@ If `true`, the item sliced. Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-symbolitem-symbol"></a>
 
 ### SymbolItem.symbol
 
@@ -318,8 +278,6 @@ The symbol that was used to create this `symbolItem`.
 
 ---
 
-<a id="jsobjref-symbolitem-tags"></a>
-
 ### SymbolItem.tags
 
 `app.activeDocument.symbolItems[index].tags`
@@ -333,8 +291,6 @@ The tags contained in this item.
 [Tags](Tags.md#jsobjref-tags); read-only.
 
 ---
-
-<a id="jsobjref-symbolitem-top"></a>
 
 ### SymbolItem.top
 
@@ -350,8 +306,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-symbolitem-typename"></a>
-
 ### SymbolItem.typename
 
 `app.activeDocument.symbolItems[index].typename`
@@ -365,8 +319,6 @@ The class name of the referenced object.
 String; read-only.
 
 ---
-
-<a id="jsobjref-symbolitem-url"></a>
 
 ### SymbolItem.uRL
 
@@ -382,8 +334,6 @@ String
 
 ---
 
-<a id="jsobjref-symbolitem-visibilityvariable"></a>
-
 ### SymbolItem.visibilityVariable
 
 `app.activeDocument.symbolItems[index].visibilityVariable`
@@ -397,8 +347,6 @@ The visibility variable bound to the item.
 Variable
 
 ---
-
-<a id="jsobjref-symbolitem-visiblebounds"></a>
 
 ### SymbolItem.visibleBounds
 
@@ -414,8 +362,6 @@ Array of 4 Numbers; read-only.
 
 ---
 
-<a id="jsobjref-symbolitem-width"></a>
-
 ### SymbolItem.width
 
 `app.activeDocument.symbolItems[index].width`
@@ -429,8 +375,6 @@ The width of the item.
 Number (double)
 
 ---
-
-<a id="jsobjref-symbolitem-wrapinside"></a>
 
 ### SymbolItem.wrapInside
 
@@ -446,8 +390,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-symbolitem-wrapoffset"></a>
-
 ### SymbolItem.wrapOffset
 
 `app.activeDocument.symbolItems[index].wrapOffset`
@@ -462,8 +404,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-symbolitem-wrapped"></a>
-
 ### SymbolItem.wrapped
 
 `app.activeDocument.symbolItems[index].wrapped`
@@ -477,8 +417,6 @@ If `true`, wrap text frame objects around this object (text frame must be above 
 Boolean
 
 ---
-
-<a id="jsobjref-symbolitem-zorderposition"></a>
 
 ### SymbolItem.zOrderPosition
 
@@ -495,8 +433,6 @@ Number; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-symbolitem-duplicate"></a>
 
 ### SymbolItem.duplicate()
 
@@ -519,8 +455,6 @@ Creates a duplicate of the selected object.
 
 ---
 
-<a id="jsobjref-symbolitem-move"></a>
-
 ### SymbolItem.move()
 
 `app.activeDocument.symbolItems[index].move(relativeObject, insertionLocation)`
@@ -542,8 +476,6 @@ Moves the object.
 
 ---
 
-<a id="jsobjref-symbolitem-remove"></a>
-
 ### SymbolItem.remove()
 
 `app.activeDocument.symbolItems[index].remove()`
@@ -557,8 +489,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-symbolitem-resize"></a>
 
 ### SymbolItem.resize()
 
@@ -587,8 +517,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-symbolitem-rotate"></a>
-
 ### SymbolItem.rotate()
 
 `app.activeDocument.symbolItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])`
@@ -616,8 +544,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-symbolitem-transform"></a>
-
 ### SymbolItem.transform()
 
 `app.activeDocument.symbolItems[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])`
@@ -644,8 +570,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-symbolitem-translate"></a>
-
 ### SymbolItem.translate()
 
 `app.activeDocument.symbolItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])`
@@ -670,8 +594,6 @@ Repositions the art item relative to the current position, where `deltaX` is the
 Nothing.
 
 ---
-
-<a id="jsobjref-symbolitem-zorder"></a>
 
 ### SymbolItem.zOrder()
 

@@ -1,5 +1,3 @@
-<a id="jsobjref-symbol"></a>
-
 # Symbol
 
 `app.activeDocument.symbols[index`
@@ -13,8 +11,6 @@ Instances of `Symbol` in a document are associated with [SymbolItem](SymbolItem.
 ---
 
 ## Properties
-
-<a id="jsobjref-symbol-name"></a>
 
 ### Symbol.name
 
@@ -30,8 +26,6 @@ String.
 
 ---
 
-<a id="jsobjref-symbol-parent"></a>
-
 ### Symbol.parent
 
 `app.activeDocument.symbols[index].parent`
@@ -45,8 +39,6 @@ The object that contains the symbol object.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-symbol-typename"></a>
 
 ### Symbol.typename
 
@@ -64,8 +56,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-symbol-duplicate"></a>
-
 ### Symbol.duplicate()
 
 `app.activeDocument.symbols[index].duplicate()`
@@ -79,8 +69,6 @@ Creates a duplicate of this object.
 [Symbol](#jsobjref-symbol)
 
 ---
-
-<a id="jsobjref-symbol-remove"></a>
 
 ### Symbol.remove()
 

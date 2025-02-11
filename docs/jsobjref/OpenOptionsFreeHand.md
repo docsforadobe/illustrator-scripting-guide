@@ -1,5 +1,3 @@
-<a id="jsobjref-openoptionsfreehand"></a>
-
 # OpenOptionsFreeHand
 
 `openOptionsFreeHand`
@@ -11,8 +9,6 @@ Options for opening a FreeHand file.
 ---
 
 ## Properties
-
-<a id="jsobjref-openoptionsfreehand-converttexttooutlines"></a>
 
 ### OpenOptionsFreeHand.convertTextToOutlines
 
@@ -28,8 +24,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-openoptionsfreehand-importsinglepage"></a>
-
 ### OpenOptionsFreeHand.importSinglePage
 
 `openOptionsFreeHand.importSinglePage`
@@ -43,8 +37,6 @@ If `true`, imports only the page specified in the `pageToOpen` property. Default
 Boolean.
 
 ---
-
-<a id="jsobjref-openoptionsfreehand-pagetoopen"></a>
 
 ### OpenOptionsFreeHand.pageToOpen
 
@@ -60,8 +52,6 @@ Number (long).
 
 ---
 
-<a id="jsobjref-openoptionsfreehand-parent"></a>
-
 ### OpenOptionsFreeHand.parent
 
 `openOptionsFreeHand.parent`
@@ -75,8 +65,6 @@ The parent of this object.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-openoptionsfreehand-typename"></a>
 
 ### OpenOptionsFreeHand.typename
 

@@ -1,5 +1,3 @@
-<a id="scripting-positioning"></a>
-
 # Page-item positioning and dimensions
 
 Illustrator uses simple, two-dimensional geometry in the form of points to record the position of page item objects in a document. Every page item object in a document has a position property that

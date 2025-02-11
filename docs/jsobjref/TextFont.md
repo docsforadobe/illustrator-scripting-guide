@@ -1,5 +1,3 @@
-<a id="jsobjref-textfont"></a>
-
 # TextFont
 
 `app.textFonts[index`
@@ -11,8 +9,6 @@ Information about a font in the document, found in a [CharacterAttributes](Chara
 ---
 
 ## Properties
-
-<a id="jsobjref-textfont-family"></a>
 
 ### TextFont.family
 
@@ -28,8 +24,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-textfont-name"></a>
-
 ### TextFont.name
 
 `app.textFonts[index].name`
@@ -43,8 +37,6 @@ The font’s full name.
 String, read-only.
 
 ---
-
-<a id="jsobjref-textfont-parent"></a>
 
 ### TextFont.parent
 
@@ -60,8 +52,6 @@ Object, read-only.
 
 ---
 
-<a id="jsobjref-textfont-style"></a>
-
 ### TextFont.style
 
 `app.textFonts[index].style`
@@ -75,8 +65,6 @@ The font’s style name.
 String, read-only.
 
 ---
-
-<a id="jsobjref-textfont-typename"></a>
 
 ### TextFont.typename
 

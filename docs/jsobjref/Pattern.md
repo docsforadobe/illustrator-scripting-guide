@@ -1,5 +1,3 @@
-<a id="jsobjref-pattern"></a>
-
 # Pattern
 
 `app.activeDocument.patterns[index`
@@ -16,8 +14,6 @@ Each pattern is referenced by a [PatternColor](PatternColor.md#jsobjref-patternc
 
 ## Properties
 
-<a id="jsobjref-pattern-name"></a>
-
 ### Pattern.name
 
 `app.activeDocument.patterns[index].name`
@@ -32,8 +28,6 @@ String
 
 ---
 
-<a id="jsobjref-pattern-parent"></a>
-
 ### Pattern.parent
 
 `app.activeDocument.patterns[index].parent`
@@ -47,8 +41,6 @@ The document that contains this pattern.
 [Document](Document.md#jsobjref-document), read-only.
 
 ---
-
-<a id="jsobjref-pattern-typename"></a>
 
 ### Pattern.typename
 
@@ -66,8 +58,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-pattern-remove"></a>
-
 ### Pattern.remove()
 
 `app.activeDocument.patterns[index].remove()`
@@ -81,8 +71,6 @@ Removes the referenced pattern from the document.
 Nothing.
 
 ---
-
-<a id="jsobjref-pattern-tostring"></a>
 
 ### Pattern.toString()
 

@@ -1,5 +1,3 @@
-<a id="scripting-measurementunits"></a>
-
 # Measurement Units
 
 Illustrator uses points as the unit of measurement for almost all distances. One inch equals 72 points. The exception is values for properties like `kerning`, `tracking`, and the `aki` properties (used for Japanese text composition), which use em units. (See [Em space units](#scripting-measurementunits-emspaceunits))
@@ -19,8 +17,6 @@ The following table shows conversion formulas for various units of measurement:
 JavaScript provides the UnitValue object type, which offers unit-conversion utilities. For details, see [JavaScript Tools Guide](http://estk.aenhancers.com)
 
 ---
-
-<a id="scripting-measurementunits-emspaceunits"></a>
 
 ## Em space units
 

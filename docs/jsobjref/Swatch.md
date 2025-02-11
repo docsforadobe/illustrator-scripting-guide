@@ -1,5 +1,3 @@
-<a id="jsobjref-swatch"></a>
-
 # Swatch
 
 `app.activeDocument.swatches[index`
@@ -16,8 +14,6 @@ The swatch can hold all types of color data, such as pattern, gradient, CMYK, RG
 
 ## Properties
 
-<a id="jsobjref-swatch-color"></a>
-
 ### Swatch.color
 
 `app.activeDocument.swatches[index].color`
@@ -31,8 +27,6 @@ The color information for this swatch.
 [Color](Color.md#jsobjref-color)
 
 ---
-
-<a id="jsobjref-swatch-name"></a>
 
 ### Swatch.name
 
@@ -48,8 +42,6 @@ String.
 
 ---
 
-<a id="jsobjref-swatch-parent"></a>
-
 ### Swatch.parent
 
 `app.activeDocument.swatches[index].parent`
@@ -63,8 +55,6 @@ The object that contains this swatch.
 [Document](Document.md#jsobjref-document), read-only.
 
 ---
-
-<a id="jsobjref-swatch-typename"></a>
 
 ### Swatch.typename
 
@@ -81,8 +71,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-swatch-remove"></a>
 
 ### Swatch.remove()
 

@@ -1,5 +1,3 @@
-<a id="scriptingvbscript-objectreferences"></a>
-
 # Accessing and referencing objects
 
 When you write a script, you must first decide which file, or `Document`, the script should act on. Through the `Application` object, the script can create a new document, open an existing document, or act on a document that is already open.

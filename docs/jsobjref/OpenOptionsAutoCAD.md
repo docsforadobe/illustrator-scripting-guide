@@ -1,5 +1,3 @@
-<a id="jsobjref-openoptionsautocad"></a>
-
 # OpenOptionsAutoCAD
 
 `openOptionsAutoCAD`
@@ -11,8 +9,6 @@ Options for opening an AutoCAD drawing, used with the [Application.open()](Appli
 ---
 
 ## Properties
-
-<a id="jsobjref-openoptionsautocad-centerartwork"></a>
 
 ### OpenOptionsAutoCAD.centerArtwork
 
@@ -28,8 +24,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-openoptionsautocad-globalscaleoption"></a>
-
 ### OpenOptionsAutoCAD.globalScaleOption
 
 `openOptionsAutoCAD.globalScaleOption`
@@ -43,8 +37,6 @@ How to scale the drawing on import. Default: `AutoCADGlobalScaleOption.FitArtboa
 [AutoCADGlobalScaleOption](scripting-constants.md#jsobjref-scripting-constants-autocadglobalscaleoption)
 
 ---
-
-<a id="jsobjref-openoptionsautocad-globalscalepercent"></a>
 
 ### OpenOptionsAutoCAD.globalScalePercent
 
@@ -60,8 +52,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-openoptionsautocad-mergelayers"></a>
-
 ### OpenOptionsAutoCAD.mergeLayers
 
 `openOptionsAutoCAD.mergeLayers`
@@ -75,8 +65,6 @@ If `true`, the layers of the artwork are merged. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-openoptionsautocad-parent"></a>
 
 ### OpenOptionsAutoCAD.parent
 
@@ -92,8 +80,6 @@ Object, read-only.
 
 ---
 
-<a id="jsobjref-openoptionsautocad-scalelineweights"></a>
-
 ### OpenOptionsAutoCAD.scaleLineweights
 
 `openOptionsAutoCAD.scaleLineweights`
@@ -107,8 +93,6 @@ If `true`, line weights are scaled by the same factor as the rest of the drawing
 Boolean.
 
 ---
-
-<a id="jsobjref-openoptionsautocad-selectedlayoutname"></a>
 
 ### OpenOptionsAutoCAD.selectedLayoutName
 
@@ -124,8 +108,6 @@ String.
 
 ---
 
-<a id="jsobjref-openoptionsautocad-typename"></a>
-
 ### OpenOptionsAutoCAD.typename
 
 `openOptionsAutoCAD.typename`
@@ -140,8 +122,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-openoptionsautocad-unit"></a>
-
 ### OpenOptionsAutoCAD.unit
 
 `openOptionsAutoCAD.unit`
@@ -155,8 +135,6 @@ The unit to map to. Default: `AutoCADUnit.Millimeters`.
 [AutoCADUnit](scripting-constants.md#jsobjref-scripting-constants-autocadunit)
 
 ---
-
-<a id="jsobjref-openoptionsautocad-unitscaleratio"></a>
 
 ### OpenOptionsAutoCAD.unitScaleRatio
 

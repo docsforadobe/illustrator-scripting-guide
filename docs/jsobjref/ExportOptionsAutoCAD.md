@@ -1,5 +1,3 @@
-<a id="jsobjref-exportoptionsautocad"></a>
-
 # ExportOptionsAutoCAD
 
 `exportOptionsAutoCAD`
@@ -17,8 +15,6 @@ To override the default AutoCAD export format (DWG), use the [ExportOptionsAutoC
 
 ## Properties
 
-<a id="jsobjref-exportoptionsautocad-alterpathsforappearance"></a>
-
 ### ExportOptionsAutoCAD.alterPathsForAppearance
 
 `exportOptionsAutoCAD.alterPathsForAppearance`
@@ -35,8 +31,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsautocad-colors"></a>
-
 ### ExportOptionsAutoCAD.colors
 
 `exportOptionsAutoCAD.colors`
@@ -50,8 +44,6 @@ The colors exported into the AutoCAD file.
 [AutoCADColors](scripting-constants.md#jsobjref-scripting-constants-autocadcolors)
 
 ---
-
-<a id="jsobjref-exportoptionsautocad-converttexttooutlines"></a>
 
 ### ExportOptionsAutoCAD.convertTextToOutlines
 
@@ -69,8 +61,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsautocad-exportfileformat"></a>
-
 ### ExportOptionsAutoCAD.exportFileFormat
 
 `exportOptionsAutoCAD.exportFileFormat`
@@ -86,8 +76,6 @@ Default: `AutoCADExportFileFormat.DWG`.
 [AutoCADExportFileFormat](scripting-constants.md#jsobjref-scripting-constants-autocadexportfileformat)
 
 ---
-
-<a id="jsobjref-exportoptionsautocad-exportoption"></a>
 
 ### ExportOptionsAutoCAD.exportOption
 
@@ -105,8 +93,6 @@ Default: `AutoCADExportOption.MaximizeEditability`.
 
 ---
 
-<a id="jsobjref-exportoptionsautocad-exportselectedartonly"></a>
-
 ### ExportOptionsAutoCAD.exportSelectedArtOnly
 
 `exportOptionsAutoCAD.exportSelectedArtOnly`
@@ -123,8 +109,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsautocad-rasterformat"></a>
-
 ### ExportOptionsAutoCAD.rasterFormat
 
 `exportOptionsAutoCAD.rasterFormat`
@@ -138,8 +122,6 @@ The format in which raster art is exported.
 [AutoCADRasterFormat](scripting-constants.md#jsobjref-scripting-constants-autocadrasterformat)
 
 ---
-
-<a id="jsobjref-exportoptionsautocad-scalelineweights"></a>
 
 ### ExportOptionsAutoCAD.scaleLineweights
 
@@ -157,8 +139,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsautocad-typename"></a>
-
 ### ExportOptionsAutoCAD.typename
 
 `exportOptionsAutoCAD.typename`
@@ -173,8 +153,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-exportoptionsautocad-unit"></a>
-
 ### ExportOptionsAutoCAD.unit
 
 `exportOptionsAutoCAD.unit`
@@ -188,8 +166,6 @@ The measurement units from which to map.
 [AutoCADUnit](scripting-constants.md#jsobjref-scripting-constants-autocadunit)
 
 ---
-
-<a id="jsobjref-exportoptionsautocad-unitscaleratio"></a>
 
 ### ExportOptionsAutoCAD.unitScaleRatio
 
@@ -206,8 +182,6 @@ Range: 0 to 1000
 Number (double).
 
 ---
-
-<a id="jsobjref-exportoptionsautocad-version"></a>
 
 ### ExportOptionsAutoCAD.version
 

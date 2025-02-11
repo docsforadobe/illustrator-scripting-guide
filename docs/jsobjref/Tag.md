@@ -1,5 +1,3 @@
-<a id="jsobjref-tag"></a>
-
 # Tag
 
 `app.activeDocument.selection[index].tags[index`
@@ -13,8 +11,6 @@ Tags allows you to assign an unlimited number of key-value pairs to any page ite
 ---
 
 ## Properties
-
-<a id="jsobjref-tag-name"></a>
 
 ### Tag.name
 
@@ -30,8 +26,6 @@ String, read-only.
 
 ---
 
-<a id="jsobjref-tag-parent"></a>
-
 ### Tag.parent
 
 `app.activeDocument.selection[index].tags[index].parent`
@@ -43,8 +37,6 @@ The object that contains this tag.
 **Type**
 
 Object, read-only.
-
-<a id="jsobjref-tag-typename"></a>
 
 ### Tag.typename
 
@@ -59,8 +51,6 @@ The class name of the object.
 String, read-only.
 
 ---
-
-<a id="jsobjref-tag-value"></a>
 
 ### Tag.value
 
@@ -77,8 +67,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-tag-remove"></a>
 
 ### Tag.remove()
 

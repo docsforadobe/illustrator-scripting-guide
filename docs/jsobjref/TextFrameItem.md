@@ -1,5 +1,3 @@
-<a id="jsobjref-textframeitem"></a>
-
 # TextFrameItem
 
 `app.activeDocument.textFrames[index]`
@@ -13,8 +11,6 @@ When you create a text frame, you also create a [Story](Story.md#jsobjref-story)
 ---
 
 ## Properties
-
-<a id="jsobjref-textframeitem-anchor"></a>
 
 ### TextFrameItem.anchor
 
@@ -30,8 +26,6 @@ Array of 2 numbers
 
 ---
 
-<a id="jsobjref-textframeitem-antialias"></a>
-
 ### TextFrameItem.antialias
 
 `app.activeDocument.textFrames[index].antialias`
@@ -45,8 +39,6 @@ The type of anti-aliasing to use in the text.
 [TextAntialias](scripting-constants.md#jsobjref-scripting-constants-textantialias)
 
 ---
-
-<a id="jsobjref-textframeitem-characters"></a>
 
 ### TextFrameItem.characters
 
@@ -62,8 +54,6 @@ All the characters in this text frame.
 
 ---
 
-<a id="jsobjref-textframeitem-columncount"></a>
-
 ### TextFrameItem.columnCount
 
 `app.activeDocument.textFrames[index].columnCount`
@@ -77,8 +67,6 @@ The column count in the text frame (area text only).
 Number (long)
 
 ---
-
-<a id="jsobjref-textframeitem-columngutter"></a>
 
 ### TextFrameItem.columnGutter
 
@@ -94,8 +82,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-textframeitem-contents"></a>
-
 ### TextFrameItem.contents
 
 `app.activeDocument.textFrames[index].contents`
@@ -109,8 +95,6 @@ The text string.
 String
 
 ---
-
-<a id="jsobjref-textframeitem-contentvariable"></a>
 
 ### TextFrameItem.contentVariable
 
@@ -126,8 +110,6 @@ The content variable bound to this text frame item.
 
 ---
 
-<a id="jsobjref-textframeitem-endtvalue"></a>
-
 ### TextFrameItem.endTValue
 
 `app.activeDocument.textFrames[index].endTValue`
@@ -141,8 +123,6 @@ The end position of text along a path, as a value relative to the path’s segme
 Number (double)
 
 ---
-
-<a id="jsobjref-textframeitem-flowlinkshorizontally"></a>
 
 ### TextFrameItem.flowLinksHorizontally
 
@@ -158,8 +138,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-textframeitem-insertionpoints"></a>
-
 ### TextFrameItem.insertionPoints
 
 `app.activeDocument.textFrames[index].insertionPoints`
@@ -173,8 +151,6 @@ All the insertion points in this text range.
 [InsertionPoints](InsertionPoints.md#jsobjref-insertionpoints), read-only.
 
 ---
-
-<a id="jsobjref-textframeitem-kind"></a>
 
 ### TextFrameItem.kind
 
@@ -190,8 +166,6 @@ The type of a text frame item (area, path or point).
 
 ---
 
-<a id="jsobjref-textframeitem-lines"></a>
-
 ### TextFrameItem.lines
 
 `app.activeDocument.textFrames[index].lines`
@@ -205,8 +179,6 @@ All the lines in this text frame.
 [Lines](Lines.md#jsobjref-lines), read-only.
 
 ---
-
-<a id="jsobjref-textframeitem-matrix"></a>
 
 ### TextFrameItem.matrix
 
@@ -222,8 +194,6 @@ The transformation matrix for this text frame.
 
 ---
 
-<a id="jsobjref-textframeitem-nextframe"></a>
-
 ### TextFrameItem.nextFrame
 
 `app.activeDocument.textFrames[index].nextFrame`
@@ -237,8 +207,6 @@ The linked text frame following this one.
 [TextFrameItem](#jsobjref-textframeitem)
 
 ---
-
-<a id="jsobjref-textframeitem-opticalalignment"></a>
 
 ### TextFrameItem.opticalAlignment
 
@@ -254,8 +222,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-textframeitem-orientation"></a>
-
 ### TextFrameItem.orientation
 
 `app.activeDocument.textFrames[index].orientation`
@@ -269,8 +235,6 @@ The orientation of the text.
 [TextOrientation](scripting-constants.md#jsobjref-scripting-constants-textorientation)
 
 ---
-
-<a id="jsobjref-textframeitem-paragraphs"></a>
 
 ### TextFrameItem.paragraphs
 
@@ -286,8 +250,6 @@ All the paragraphs in this text frame.
 
 ---
 
-<a id="jsobjref-textframeitem-parent"></a>
-
 ### TextFrameItem.parent
 
 `app.activeDocument.textFrames[index].parent`
@@ -301,8 +263,6 @@ The parent of this object.
 [Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem), read-only.
 
 ---
-
-<a id="jsobjref-textframeitem-previousframe"></a>
 
 ### TextFrameItem.previousFrame
 
@@ -318,8 +278,6 @@ The linked text frame preceding this one.
 
 ---
 
-<a id="jsobjref-textframeitem-rowcount"></a>
-
 ### TextFrameItem.rowCount
 
 `app.activeDocument.textFrames[index].rowCount`
@@ -333,8 +291,6 @@ The row count in the text frame (area text only).
 Number (long)
 
 ---
-
-<a id="jsobjref-textframeitem-rowgutter"></a>
 
 ### TextFrameItem.rowGutter
 
@@ -350,8 +306,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-textframeitem-spacing"></a>
-
 ### TextFrameItem.spacing
 
 `app.activeDocument.textFrames[index].spacing`
@@ -365,8 +319,6 @@ The amount of spacing.
 Number (double)
 
 ---
-
-<a id="jsobjref-textframeitem-starttvalue"></a>
 
 ### TextFrameItem.startTValue
 
@@ -382,8 +334,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-textframeitem-story"></a>
-
 ### TextFrameItem.story
 
 `app.activeDocument.textFrames[index].story`
@@ -397,8 +347,6 @@ The story to which the text frame belongs.
 [Story](Story.md#jsobjref-story), read-only.
 
 ---
-
-<a id="jsobjref-textframeitem-textpath"></a>
 
 ### TextFrameItem.textPath
 
@@ -414,8 +362,6 @@ The path item associated with the text frame. Note: Valid only when [kind](#text
 
 ---
 
-<a id="jsobjref-textframeitem-textrange"></a>
-
 ### TextFrameItem.textRange
 
 `app.activeDocument.textFrames[index].textRange`
@@ -429,8 +375,6 @@ The text range of the text frame.
 [TextRange](TextRange.md#jsobjref-textrange), read-only.
 
 ---
-
-<a id="jsobjref-textframeitem-textranges"></a>
 
 ### TextFrameItem.textRanges
 
@@ -446,8 +390,6 @@ All the text in this text frame.
 
 ---
 
-<a id="jsobjref-textframeitem-textselection"></a>
-
 ### TextFrameItem.textSelection
 
 `app.activeDocument.textFrames[index].textSelection`
@@ -462,8 +404,6 @@ Array of [TextRange](TextRange.md#jsobjref-textrange), read-only.
 
 ---
 
-<a id="jsobjref-textframeitem-typename"></a>
-
 ### TextFrameItem.typename
 
 `app.activeDocument.textFrames[index].typename`
@@ -477,8 +417,6 @@ The class name of the referenced object.
 String, read-only.
 
 ---
-
-<a id="jsobjref-textframeitem-words"></a>
 
 ### TextFrameItem.words
 
@@ -496,8 +434,6 @@ All the words in this text frame.
 
 ## Methods
 
-<a id="jsobjref-textframeitem-convertareaobjecttopointobject"></a>
-
 ### TextFrameItem.convertAreaObjectToPointObject()
 
 `app.activeDocument.textFrames[index].convertAreaObjectToPointObject()`
@@ -511,8 +447,6 @@ Converts the area-type text frame to a point-type text frame.
 [TextFrameItem](#jsobjref-textframeitem)
 
 ---
-
-<a id="jsobjref-textframeitem-convertpointobjecttoareaobject"></a>
 
 ### TextFrameItem.convertPointObjectToAreaObject()
 
@@ -528,8 +462,6 @@ Converts the point-type text frame to an area-type text frame.
 
 ---
 
-<a id="jsobjref-textframeitem-createoutline"></a>
-
 ### TextFrameItem.createOutline()
 
 `app.activeDocument.textFrames[index].createOutline()`
@@ -543,8 +475,6 @@ Converts the text in the text frame to outlines.
 [GroupItem](GroupItem.md#jsobjref-groupitem)
 
 ---
-
-<a id="jsobjref-textframeitem-duplicate"></a>
 
 ### TextFrameItem.duplicate()
 
@@ -567,8 +497,6 @@ Creates a duplicate of the selected object.
 
 ---
 
-<a id="jsobjref-textframeitem-move"></a>
-
 ### TextFrameItem.move()
 
 `app.activeDocument.textFrames[index].move(relativeObject, insertionLocation)`
@@ -590,8 +518,6 @@ Moves the object.
 
 ---
 
-<a id="jsobjref-textframeitem-remove"></a>
-
 ### TextFrameItem.remove()
 
 `app.activeDocument.textFrames[index].remove()`
@@ -605,8 +531,6 @@ Deletes this object.
 Nothing.
 
 ---
-
-<a id="jsobjref-textframeitem-resize"></a>
 
 ### TextFrameItem.resize()
 
@@ -635,8 +559,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-textframeitem-rotate"></a>
-
 ### TextFrameItem.rotate()
 
 `app.activeDocument.textFrames[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])`
@@ -661,8 +583,6 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 Nothing.
 
 ---
-
-<a id="jsobjref-textframeitem-transform"></a>
 
 ### TextFrameItem.transform()
 
@@ -690,8 +610,6 @@ Nothing.
 
 ---
 
-<a id="jsobjref-textframeitem-translate"></a>
-
 ### TextFrameItem.translate()
 
 `app.activeDocument.textFrames[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])`
@@ -716,8 +634,6 @@ Repositions the art item relative to the current position, where `deltaX` is the
 Nothing.
 
 ---
-
-<a id="jsobjref-textframeitem-zorder"></a>
 
 ### TextFrameItem.zOrder()
 

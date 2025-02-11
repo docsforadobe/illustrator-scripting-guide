@@ -1,5 +1,3 @@
-<a id="jsobjref-printcolorseparationoptions"></a>
-
 # PrintColorSeparationOptions
 
 `new PrintColorSeparationOptions()`
@@ -11,8 +9,6 @@ Information about the color separations to be used in printing the document.
 ---
 
 ## Properties
-
-<a id="jsobjref-printcolorseparationoptions-colorseparationmode"></a>
 
 ### PrintColorSeparationOptions.colorSeparationMode
 
@@ -30,8 +26,6 @@ Default: `PrintColorSeparationMode.COMPOSITE`
 
 ---
 
-<a id="jsobjref-printcolorseparationoptions-convertspotcolors"></a>
-
 ### PrintColorSeparationOptions.convertSpotColors
 
 `printColorSeparationOptions.convertSpotColors`
@@ -48,8 +42,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printcolorseparationoptions-inklist"></a>
-
 ### PrintColorSeparationOptions.inkList
 
 `printColorSeparationOptions.inkList`
@@ -63,8 +55,6 @@ The list of inks for color separation.
 Array of [Ink](Ink.md#jsobjref-ink)
 
 ---
-
-<a id="jsobjref-printcolorseparationoptions-overprintblack"></a>
 
 ### PrintColorSeparationOptions.overPrintBlack
 
@@ -81,8 +71,6 @@ Default: `false`
 Boolean
 
 ---
-
-<a id="jsobjref-printcolorseparationoptions-typename"></a>
 
 ### PrintColorSeparationOptions.typename
 

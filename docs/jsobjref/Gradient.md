@@ -1,5 +1,3 @@
-<a id="jsobjref-gradient"></a>
-
 # Gradient
 
 `gradient`
@@ -11,8 +9,6 @@ A gradient definition contained in a document. Scripts can create new gradients.
 ---
 
 ## Properties
-
-<a id="jsobjref-gradient-gradientstops"></a>
 
 ### Gradient.gradientStops
 
@@ -28,8 +24,6 @@ The gradient stops contained in this gradient.
 
 ---
 
-<a id="jsobjref-gradient-name"></a>
-
 ### Gradient.name
 
 `gradient.name`
@@ -43,8 +37,6 @@ The gradient’s name.
 String.
 
 ---
-
-<a id="jsobjref-gradient-parent"></a>
 
 ### Gradient.parent
 
@@ -60,8 +52,6 @@ The document that contains this gradient.
 
 ---
 
-<a id="jsobjref-gradient-type"></a>
-
 ### Gradient.type
 
 `gradient.type`
@@ -75,8 +65,6 @@ The kind of the gradient, either radial or linear.
 [GradientType](scripting-constants.md#jsobjref-scripting-constants-gradienttype)
 
 ---
-
-<a id="jsobjref-gradient-typename"></a>
 
 ### Gradient.typename
 
@@ -93,8 +81,6 @@ String, read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-gradient-remove"></a>
 
 ### Gradient.remove()
 

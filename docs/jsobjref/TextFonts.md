@@ -1,5 +1,3 @@
-<a id="jsobjref-textfonts"></a>
-
 # TextFonts
 
 `app.textFonts`
@@ -11,8 +9,6 @@ A collection of [TextFont](TextFont.md#jsobjref-textfont) objects.
 ---
 
 ## Properties
-
-<a id="jsobjref-textfonts-length"></a>
 
 ### TextFonts.length
 
@@ -28,8 +24,6 @@ Number; read-only.
 
 ---
 
-<a id="jsobjref-textfonts-parent"></a>
-
 ### TextFonts.parent
 
 `app.textFonts.parent`
@@ -43,8 +37,6 @@ The object’s container.
 Object; read-only.
 
 ---
-
-<a id="jsobjref-textfonts-typename"></a>
 
 ### TextFonts.typename
 
@@ -61,8 +53,6 @@ String; read-only.
 ---
 
 ## Methods
-
-<a id="jsobjref-textfonts-getbyname"></a>
 
 ### TextFonts.getByName()
 
@@ -83,8 +73,6 @@ Get the first element in the collection with the provided name.
 [TextFont](TextFont.md#jsobjref-textfont)
 
 ---
-
-<a id="jsobjref-textfonts-index"></a>
 
 ### TextFonts.index()
 

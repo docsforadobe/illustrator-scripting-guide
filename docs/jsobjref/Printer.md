@@ -1,5 +1,3 @@
-<a id="jsobjref-printer"></a>
-
 # Printer
 
 `app.PrinterList[index`

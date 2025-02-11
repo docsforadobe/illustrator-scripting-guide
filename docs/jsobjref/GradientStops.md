@@ -1,5 +1,3 @@
-<a id="jsobjref-gradientstops"></a>
-
 # GradientStops
 
 `app.activeDocument.gradients[index].gradientStops`
@@ -11,8 +9,6 @@ A collection of [GradientStop](GradientStop.md#jsobjref-gradientstop) objects in
 ---
 
 ## Properties
-
-<a id="jsobjref-gradientstops-length"></a>
 
 ### GradientStops.length
 
@@ -28,8 +24,6 @@ Number, read-only.
 
 ---
 
-<a id="jsobjref-gradientstops-parent"></a>
-
 ### GradientStops.parent
 
 `app.activeDocument.gradients[index].gradientStops.parent`
@@ -43,8 +37,6 @@ The parent of this object.
 Object, read-only.
 
 ---
-
-<a id="jsobjref-gradientstops-typename"></a>
 
 ### GradientStops.typename
 
@@ -62,8 +54,6 @@ String, read-only.
 
 ## Methods
 
-<a id="jsobjref-gradientstops-add"></a>
-
 ### GradientStops.add()
 
 `app.activeDocument.gradients[index].gradientStops.add()`
@@ -77,8 +67,6 @@ Creates a new object.
 [GradientStop](GradientStop.md#jsobjref-gradientstop)
 
 ---
-
-<a id="jsobjref-gradientstops-getbyname"></a>
 
 ### GradientStops.getByName()
 
@@ -100,8 +88,6 @@ Gets the first element in the collection with the specified name.
 
 ---
 
-<a id="jsobjref-gradientstops-index"></a>
-
 ### GradientStops.index()
 
 `app.activeDocument.gradients[index].gradientStops.index(itemKey)`
@@ -121,8 +107,6 @@ Gets an element from the collection.
 [GradientStop](GradientStop.md#jsobjref-gradientstop)
 
 ---
-
-<a id="jsobjref-gradientstops-removeall"></a>
 
 ### GradientStops.removeAll()
 

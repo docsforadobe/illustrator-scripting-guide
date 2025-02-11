@@ -1,5 +1,3 @@
-<a id="jsobjref-rgbcolor"></a>
-
 # RGBColor
 
 `new RGBColor()`
@@ -13,8 +11,6 @@ If the color space of a document is RGB and you specify the color value for a pa
 ---
 
 ## Properties
-
-<a id="jsobjref-rgbcolor-blue"></a>
 
 ### RGBColor.blue
 
@@ -30,8 +26,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-rgbcolor-green"></a>
-
 ### RGBColor.green
 
 `rgbColor.green`
@@ -46,8 +40,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-rgbcolor-red"></a>
-
 ### RGBColor.red
 
 `rgbColor.red`
@@ -61,8 +53,6 @@ The red color value. Range: 0.0 to 255.0.
 Number (double).
 
 ---
-
-<a id="jsobjref-rgbcolor-typename"></a>
 
 ### RGBColor.typename
 

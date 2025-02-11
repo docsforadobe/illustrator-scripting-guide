@@ -1,5 +1,3 @@
-<a id="scripting-printingdocuments"></a>
-
 # Printing Illustrator documents
 
 Using the `print options` scripting feature, you can capture and automate parts of your print workflow. Scripting exposes the full capabilities of Illustrator printing, some of which may not be accessible through the application’s user interface.

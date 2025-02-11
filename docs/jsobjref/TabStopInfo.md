@@ -1,5 +1,3 @@
-<a id="jsobjref-tabstopinfo"></a>
-
 # TabStopInfo
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops`
@@ -11,8 +9,6 @@ Information about the alignment, position, and other details for a tab stop in a
 ---
 
 ## Properties
-
-<a id="jsobjref-tabstopinfo-alignment"></a>
 
 ### TabStopInfo.alignment
 
@@ -30,8 +26,6 @@ Default: `Left`
 
 ---
 
-<a id="jsobjref-tabstopinfo-decimalcharacter"></a>
-
 ### TabStopInfo.decimalCharacter
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.decimalCharacter`
@@ -48,8 +42,6 @@ String
 
 ---
 
-<a id="jsobjref-tabstopinfo-leader"></a>
-
 ### TabStopInfo.leader
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.leader`
@@ -63,8 +55,6 @@ The leader dot character.
 String
 
 ---
-
-<a id="jsobjref-tabstopinfo-position"></a>
 
 ### TabStopInfo.position
 
@@ -81,8 +71,6 @@ Default: 0.0
 Number (double)
 
 ---
-
-<a id="jsobjref-tabstopinfo-typename"></a>
 
 ### TabStopInfo.typename
 

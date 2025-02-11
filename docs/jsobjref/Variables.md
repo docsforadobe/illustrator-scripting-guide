@@ -1,5 +1,3 @@
-<a id="jsobjref-variables"></a>
-
 # Variables
 
 `app.activeDocument.variables`
@@ -13,8 +11,6 @@ For an example of how to create variables, see [Using variables and datasets](Da
 ---
 
 ## Properties
-
-<a id="jsobjref-variables-length"></a>
 
 ### Variables.length
 
@@ -30,8 +26,6 @@ Number; read-only.
 
 ---
 
-<a id="jsobjref-variables-parent"></a>
-
 ### Variables.parent
 
 `app.activeDocument.variables.parent`
@@ -45,8 +39,6 @@ The object that contains the collection of variables
 Object; read-only.
 
 ---
-
-<a id="jsobjref-variables-typename"></a>
 
 ### Variables.typename
 
@@ -64,8 +56,6 @@ String; read-only.
 
 ## Methods
 
-<a id="jsobjref-variables-add"></a>
-
 ### Variables.add()
 
 `app.activeDocument.variables.add()`
@@ -79,8 +69,6 @@ Adds a new variable to the collection.
 [Variable](Variable.md#jsobjref-variable)
 
 ---
-
-<a id="jsobjref-variables-getbyname"></a>
 
 ### Variables.getByName()
 
@@ -102,8 +90,6 @@ Get the first element in the collection with the provided name.
 
 ---
 
-<a id="jsobjref-variables-index"></a>
-
 ### Variables.index()
 
 `app.activeDocument.variables.index(itemKey)`
@@ -123,8 +109,6 @@ Gets an element from the collection.
 [Variable](Variable.md#jsobjref-variable)
 
 ---
-
-<a id="jsobjref-variables-removeall"></a>
 
 ### Variables.removeAll()
 

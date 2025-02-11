@@ -1,5 +1,3 @@
-<a id="jsobjref-exportoptionssvg"></a>
-
 # ExportOptionsSVG
 
 `exportOptionsSVG`
@@ -13,8 +11,6 @@ When you export a document, the appropriate file extension is appended automatic
 ---
 
 ## Properties
-
-<a id="jsobjref-exportoptionssvg-artboardrange"></a>
 
 ### ExportOptionsSVG.artboardRange
 
@@ -30,8 +26,6 @@ String.
 
 ---
 
-<a id="jsobjref-exportoptionssvg-compressed"></a>
-
 ### ExportOptionsSVG.compressed
 
 `exportOptionsSVG.compressed`
@@ -45,8 +39,6 @@ If `true`, the exported file should be compressed. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionssvg-coordinateprecision"></a>
 
 ### ExportOptionsSVG.coordinatePrecision
 
@@ -62,8 +54,6 @@ Number (long)
 
 ---
 
-<a id="jsobjref-exportoptionssvg-cssproperties"></a>
-
 ### ExportOptionsSVG.cssProperties
 
 `exportOptionsSVG.cssProperties`
@@ -77,8 +67,6 @@ How the CSS properties of the document should be included in the exported file. 
 [SVGCSSPropertyLocation](scripting-constants.md#jsobjref-scripting-constants-svgcsspropertylocation)
 
 ---
-
-<a id="jsobjref-exportoptionssvg-documentencoding"></a>
 
 ### ExportOptionsSVG.documentEncoding
 
@@ -94,8 +82,6 @@ How the text in the document should be encoded. Default: `SVGDocumentEncoding.AS
 
 ---
 
-<a id="jsobjref-exportoptionssvg-dtd"></a>
-
 ### ExportOptionsSVG.DTD
 
 `exportOptionsSVG.DTD`
@@ -109,8 +95,6 @@ The SVG version to which the file should conform. Default: `SVGDTDVersion.SVG1_1
 [SVGDTDVersion](scripting-constants.md#jsobjref-scripting-constants-svgdtdversion)
 
 ---
-
-<a id="jsobjref-exportoptionssvg-embedrasterimages"></a>
 
 ### ExportOptionsSVG.embedRasterImages
 
@@ -126,8 +110,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionssvg-fontsubsetting"></a>
-
 ### ExportOptionsSVG.fontSubsetting
 
 `exportOptionsSVG.fontSubsetting`
@@ -141,8 +123,6 @@ Which font glyphs should be included in the exported file. Default: `SVGFontSubs
 [SVGFontSubsetting](scripting-constants.md#jsobjref-scripting-constants-svgfontsubsetting)
 
 ---
-
-<a id="jsobjref-exportoptionssvg-fonttype"></a>
 
 ### ExportOptionsSVG.fontType
 
@@ -158,8 +138,6 @@ The type of font to included in the exported file. Default: `SVGFontType.CEFFONT
 
 ---
 
-<a id="jsobjref-exportoptionssvg-includefileinfo"></a>
-
 ### ExportOptionsSVG.includeFileInfo
 
 `exportOptionsSVG.includeFileInfo`
@@ -173,8 +151,6 @@ If `true`, file information should be saved in the exported file. Default: `fals
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionssvg-includeunusedstyles"></a>
 
 ### ExportOptionsSVG.includeUnusedStyles
 
@@ -190,8 +166,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionssvg-includevariablesanddatasets"></a>
-
 ### ExportOptionsSVG.includeVariablesAndDatasets
 
 `exportOptionsSVG.includeVariablesAndDatasets`
@@ -205,8 +179,6 @@ If `true`, variables and datasets should be saved in the exported file. Default:
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionssvg-optimizeforsvgviewer"></a>
 
 ### ExportOptionsSVG.optimizeForSVGViewer
 
@@ -222,8 +194,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionssvg-preserveeditability"></a>
-
 ### ExportOptionsSVG.preserveEditability
 
 `exportOptionsSVG.preserveEditability`
@@ -237,8 +207,6 @@ If `true`, Illustrator editing capabilities should be preserved when exporting t
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionssvg-savemultipleartboards"></a>
 
 ### ExportOptionsSVG.saveMultipleArtboards
 
@@ -254,8 +222,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionssvg-slices"></a>
-
 ### ExportOptionsSVG.slices
 
 `exportOptionsSVG.slices`
@@ -269,8 +235,6 @@ If `true`, slice data should be exported with the file. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionssvg-svgautokerning"></a>
 
 ### ExportOptionsSVG.sVGAutoKerning
 
@@ -286,8 +250,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionssvg-svgtextonpath"></a>
-
 ### ExportOptionsSVG.sVGTextOnPath
 
 `exportOptionsSVG.sVGTextOnPath`
@@ -301,8 +263,6 @@ If `true`, the SVG text-on-path construct is allowed in the file. Default: `fals
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionssvg-typename"></a>
 
 ### ExportOptionsSVG.typename
 

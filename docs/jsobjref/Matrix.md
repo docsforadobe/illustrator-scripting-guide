@@ -1,5 +1,3 @@
-<a id="jsobjref-matrix"></a>
-
 # Matrix
 
 `matrix`
@@ -16,8 +14,6 @@ A `Matrix` is a record containing the matrix values, not a reference to a matrix
 
 ## Properties
 
-<a id="jsobjref-matrix-mvaluea"></a>
-
 ### Matrix.mValueA
 
 `matrix.mValueA`
@@ -31,8 +27,6 @@ Matrix property `a`.
 Number (double).
 
 ---
-
-<a id="jsobjref-matrix-mvalueb"></a>
 
 ### Matrix.mValueB
 
@@ -48,8 +42,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-matrix-mvaluec"></a>
-
 ### Matrix.mValueC
 
 `matrix.mValueC`
@@ -63,8 +55,6 @@ Matrix property `c`.
 Number (double).
 
 ---
-
-<a id="jsobjref-matrix-mvalued"></a>
 
 ### Matrix.mValueD
 
@@ -80,8 +70,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-matrix-mvaluetx"></a>
-
 ### Matrix.mValueTX
 
 `matrix.mValueTX`
@@ -96,8 +84,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-matrix-mvaluety"></a>
-
 ### Matrix.mValueTY
 
 `matrix.mValueTY`
@@ -111,8 +97,6 @@ Matrix property `ty`.
 Number (double).
 
 ---
-
-<a id="jsobjref-matrix-typename"></a>
 
 ### Matrix.typename
 

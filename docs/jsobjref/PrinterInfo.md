@@ -1,5 +1,3 @@
-<a id="jsobjref-printerinfo"></a>
-
 # PrinterInfo
 
 `printerInfo`
@@ -11,8 +9,6 @@ Configuration information about a printer.
 ---
 
 ## Properties
-
-<a id="jsobjref-printerinfo-binaryprintingsupport"></a>
 
 ### PrinterInfo.binaryPrintingSupport
 
@@ -28,8 +24,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printerinfo-colorsupport"></a>
-
 ### PrinterInfo.colorSupport
 
 `printerInfo.colorSupport`
@@ -43,8 +37,6 @@ The printer color capability.
 [PrinterColorMode](scripting-constants.md#jsobjref-scripting-constants-printercolormode)
 
 ---
-
-<a id="jsobjref-printerinfo-custompapersupport"></a>
 
 ### PrinterInfo.customPaperSupport
 
@@ -60,8 +52,6 @@ Boolean
 
 ---
 
-<a id="jsobjref-printerinfo-custompapertransversesupport"></a>
-
 ### PrinterInfo.customPaperTransverseSupport
 
 `printerInfo.customPaperTransverseSupport`
@@ -75,8 +65,6 @@ If `true`, the printer supports custom paper transverse.
 Boolean
 
 ---
-
-<a id="jsobjref-printerinfo-deviceresolution"></a>
 
 ### PrinterInfo.deviceResolution
 
@@ -92,8 +80,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-printerinfo-inripseparationsupport"></a>
-
 ### PrinterInfo.inRIPSeparationSupport
 
 `printerInfo.inRIPSeparationSupport`
@@ -107,8 +93,6 @@ If `true`, the printer supports InRIP color separation.
 Boolean
 
 ---
-
-<a id="jsobjref-printerinfo-maxdeviceresolution"></a>
 
 ### PrinterInfo.maxDeviceResolution
 
@@ -124,8 +108,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-printerinfo-maxpaperheight"></a>
-
 ### PrinterInfo.maxPaperHeight
 
 `printerInfo.maxPaperHeight`
@@ -139,8 +121,6 @@ Custom paper’s maximum height.
 Number (double)
 
 ---
-
-<a id="jsobjref-printerinfo-maxpaperheightoffset"></a>
 
 ### PrinterInfo.maxPaperHeightOffset
 
@@ -156,8 +136,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-printerinfo-maxpaperwidth"></a>
-
 ### PrinterInfo.maxPaperWidth
 
 `printerInfo.maxPaperWidth`
@@ -171,8 +149,6 @@ Custom paper’s maximum width.
 Number (double)
 
 ---
-
-<a id="jsobjref-printerinfo-maxpaperwidthoffset"></a>
 
 ### PrinterInfo.maxPaperWidthOffset
 
@@ -188,8 +164,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-printerinfo-minpaperheight"></a>
-
 ### PrinterInfo.minPaperHeight
 
 `printerInfo.minPaperHeight`
@@ -203,8 +177,6 @@ Custom paper’s minimum height.
 Number (double)
 
 ---
-
-<a id="jsobjref-printerinfo-minpaperheightoffset"></a>
 
 ### PrinterInfo.minPaperHeightOffset
 
@@ -220,8 +192,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-printerinfo-minpaperwidth"></a>
-
 ### PrinterInfo.minPaperWidth
 
 `printerInfo.minPaperWidth`
@@ -235,8 +205,6 @@ Custom paper’s minimum width.
 Number (double)
 
 ---
-
-<a id="jsobjref-printerinfo-minpaperwidthoffset"></a>
 
 ### PrinterInfo.minPaperWidthOffset
 
@@ -252,8 +220,6 @@ Number (double)
 
 ---
 
-<a id="jsobjref-printerinfo-papersizes"></a>
-
 ### PrinterInfo.paperSizes
 
 `printerInfo.paperSizes`
@@ -267,8 +233,6 @@ The list of supported paper sizes.
 Array of [Paper](Paper.md#jsobjref-paper)
 
 ---
-
-<a id="jsobjref-printerinfo-postscriptlevel"></a>
 
 ### PrinterInfo.postScriptLevel
 
@@ -284,8 +248,6 @@ The PostScript Language level.
 
 ---
 
-<a id="jsobjref-printerinfo-printertype"></a>
-
 ### PrinterInfo.printerType
 
 `printerInfo.printerType`
@@ -299,8 +261,6 @@ The printer type.
 [PrinterTypeEnum](scripting-constants.md#jsobjref-scripting-constants-printertypeenum)
 
 ---
-
-<a id="jsobjref-printerinfo-typename"></a>
 
 ### PrinterInfo.typename
 

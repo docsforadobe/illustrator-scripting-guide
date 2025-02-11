@@ -1,5 +1,3 @@
-<a id="jsobjref-exportoptionsflash"></a>
-
 # ExportOptionsFlash
 
 `exportOptionsFlash`
@@ -13,8 +11,6 @@ When you export a document, the appropriate file extension is appended automatic
 ---
 
 ## Properties
-
-<a id="jsobjref-exportoptionsflash-artclipping"></a>
 
 ### ExportOptionsFlash.artClipping
 
@@ -30,8 +26,6 @@ How the art should be clipped during output. Default: `ArtClippingOption.OUTPUTA
 
 ---
 
-<a id="jsobjref-exportoptionsflash-artboardrange"></a>
-
 ### ExportOptionsFlash.artboardRange
 
 `exportOptionsFlash.artboardRange`
@@ -45,8 +39,6 @@ If `saveMultipleArtboards` is `true`, this is considered for multi-asset extract
 String.
 
 ---
-
-<a id="jsobjref-exportoptionsflash-backgroundcolor"></a>
 
 ### ExportOptionsFlash.backgroundColor
 
@@ -62,8 +54,6 @@ The background color of the exported Flash frames.
 
 ---
 
-<a id="jsobjref-exportoptionsflash-backgroundlayers"></a>
-
 ### ExportOptionsFlash.backgroundLayers
 
 `exportOptionsFlash.backgroundLayers`
@@ -77,8 +67,6 @@ A list of layers to be included as the static background of the exported Flash f
 Array of [Layers](Layers.md#jsobjref-layers)
 
 ---
-
-<a id="jsobjref-exportoptionsflash-blendanimation"></a>
 
 ### ExportOptionsFlash.blendAnimation
 
@@ -94,8 +82,6 @@ The animation type for blended objects. Default: `BlendAnimationType.NOBLENDANIM
 
 ---
 
-<a id="jsobjref-exportoptionsflash-compressed"></a>
-
 ### ExportOptionsFlash.compressed
 
 `exportOptionsFlash.compressed`
@@ -109,8 +95,6 @@ If `true`, the exported file should be exported compressed. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionsflash-converttexttooutlines"></a>
 
 ### ExportOptionsFlash.convertTextToOutlines
 
@@ -126,8 +110,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsflash-curvequality"></a>
-
 ### ExportOptionsFlash.curveQuality
 
 `exportOptionsFlash.curveQuality`
@@ -141,8 +123,6 @@ The amount of curve information that should be presented. Default: 7.
 Number (long).
 
 ---
-
-<a id="jsobjref-exportoptionsflash-exportallsymbols"></a>
 
 ### ExportOptionsFlash.exportAllSymbols
 
@@ -158,8 +138,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsflash-exportstyle"></a>
-
 ### ExportOptionsFlash.exportStyle
 
 `exportOptionsFlash.exportStyle`
@@ -173,8 +151,6 @@ The style in which the exported data should be created in Flash. Default: `Flash
 [FlashExportStyle](scripting-constants.md#jsobjref-scripting-constants-flashexportstyle)
 
 ---
-
-<a id="jsobjref-exportoptionsflash-exportversion"></a>
 
 ### ExportOptionsFlash.exportVersion
 
@@ -190,8 +166,6 @@ The version of the exported SWF file. Default: `FlashExportVersion.FlashVersion9
 
 ---
 
-<a id="jsobjref-exportoptionsflash-framerate"></a>
-
 ### ExportOptionsFlash.frameRate
 
 `exportOptionsFlash.frameRate`
@@ -205,8 +179,6 @@ The display rate in frames per second. Range: 0.01–120.0. Default: 12.0.
 Number (double).
 
 ---
-
-<a id="jsobjref-exportoptionsflash-ignoretextkerning"></a>
 
 ### ExportOptionsFlash.ignoreTextKerning
 
@@ -222,8 +194,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsflash-imageformat"></a>
-
 ### ExportOptionsFlash.imageFormat
 
 `exportOptionsFlash.imageFormat`
@@ -237,8 +207,6 @@ How should the image in the exported Flash file be compressed. Default: `FlashIm
 [FlashImageFormat](scripting-constants.md#jsobjref-scripting-constants-flashimageformat)
 
 ---
-
-<a id="jsobjref-exportoptionsflash-includemetadata"></a>
 
 ### ExportOptionsFlash.includeMetadata
 
@@ -254,8 +222,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsflash-jpegmethod"></a>
-
 ### ExportOptionsFlash.jpegMethod
 
 `exportOptionsFlash.jpegMethod`
@@ -269,8 +235,6 @@ Specifies the JPEG method to use. Default: `FlashJPEGMethod.Standard`.
 [FlashJPEGMethod](scripting-constants.md#jsobjref-scripting-constants-flashjpegmethod)
 
 ---
-
-<a id="jsobjref-exportoptionsflash-jpegquality"></a>
 
 ### ExportOptionsFlash.jpegQuality
 
@@ -286,8 +250,6 @@ Number (long).
 
 ---
 
-<a id="jsobjref-exportoptionsflash-layerorder"></a>
-
 ### ExportOptionsFlash.layerOrder
 
 `exportOptionsFlash.layerOrder`
@@ -301,8 +263,6 @@ The order in which layers are exported to Flash frames. Default: `LayerOrderType
 [LayerOrderType](scripting-constants.md#jsobjref-scripting-constants-layerordertype)
 
 ---
-
-<a id="jsobjref-exportoptionsflash-looping"></a>
 
 ### ExportOptionsFlash.looping
 
@@ -318,8 +278,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsflash-playbackaccess"></a>
-
 ### ExportOptionsFlash.playbackAccess
 
 `exportOptionsFlash.playbackAccess`
@@ -333,8 +291,6 @@ The access level for the exported SWF file. Default: `FlashPlaybackSecurity.Play
 [FlashPlaybackSecurity](scripting-constants.md#jsobjref-scripting-constants-flashplaybacksecurity)
 
 ---
-
-<a id="jsobjref-exportoptionsflash-preserveappearance"></a>
 
 ### ExportOptionsFlash.preserveAppearance
 
@@ -350,8 +306,6 @@ Boolean.
 
 ---
 
-<a id="jsobjref-exportoptionsflash-readonly"></a>
-
 ### ExportOptionsFlash.readOnly
 
 `exportOptionsFlash.readOnly`
@@ -365,8 +319,6 @@ If `true`, export as read-only file. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionsflash-replacing"></a>
 
 ### ExportOptionsFlash.replacing
 
@@ -382,8 +334,6 @@ If a file with the same name already exists, should it be replaced. Default: `Sa
 
 ---
 
-<a id="jsobjref-exportoptionsflash-resolution"></a>
-
 ### ExportOptionsFlash.resolution
 
 `exportOptionsFlash.resolution`
@@ -398,8 +348,6 @@ Number (double).
 
 ---
 
-<a id="jsobjref-exportoptionsflash-savemultipleartboards"></a>
-
 ### ExportOptionsFlash.saveMultipleArtboards
 
 `exportOptionsFlash.saveMultipleArtboards`
@@ -413,8 +361,6 @@ If `true`, all artboards or range of artboards are saved. Default: `false`.
 Boolean.
 
 ---
-
-<a id="jsobjref-exportoptionsflash-typename"></a>
 
 ### ExportOptionsFlash.typename
 

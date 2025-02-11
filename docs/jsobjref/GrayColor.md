@@ -1,5 +1,3 @@
-<a id="jsobjref-graycolor"></a>
-
 # GrayColor
 
 `new GrayColor()`
@@ -11,8 +9,6 @@ A grayscale color specification, used where a `color` object is required.
 ---
 
 ## Properties
-
-<a id="jsobjref-graycolor-gray"></a>
 
 ### GrayColor.gray
 
@@ -27,8 +23,6 @@ The tint of the gray. Range: 0.0 to 100.0, where 0.0 is black and 100.0 is white
 Number (double).
 
 ---
-
-<a id="jsobjref-graycolor-typename"></a>
 
 ### GrayColor.typename
 

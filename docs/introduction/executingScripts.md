@@ -1,5 +1,3 @@
-<a id="introduction-executingscripts"></a>
-
 # Executing Scripts
 
 The Illustrator interface includes a Scripts menu (File > Scripts) that provides quick and easy access to your scripts.
@@ -11,8 +9,6 @@ You can navigate from the menu to any script in your file system and then run th
 You also can have JavaScript scripts with a .jsx extension start automatically when you launch the application. For information, see [Startup scripts (.jsx scripts only)](#introduction-executingscripts-startup).
 
 ---
-
-<a id="introduction-executingscripts-installing"></a>
 
 ## Installing scripts in the Scripts menu
 
@@ -28,8 +24,6 @@ Each subfolder is displayed as a separate submenu containing the scripts in that
 
 ---
 
-<a id="introduction-executingscripts-executing"></a>
-
 ## Executing scripts from the Other Scripts menu item
 
 The Other Scripts item at the end of the Scripts menu `(File > Scripts > Other Scripts)` allows you to execute scripts that are not installed in the Scripts folder.
@@ -39,8 +33,6 @@ Selecting Other Scripts displays a Browse dialog, which you use to navigate to a
 Only files that are of one of the supported file types are displayed in the browse dialog. For details, see [Scripting language support in Adobe Illustrator CC](scriptingLanguageSupport.md#introduction-scriptinglanguagesupport).
 
 ---
-
-<a id="introduction-executingscripts-startup"></a>
 
 ## Startup scripts (.jsx scripts only)
 
