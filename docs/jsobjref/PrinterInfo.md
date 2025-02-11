@@ -1,43 +1,38 @@
-.. _jsobjref/PrinterInfo:
+<a id="jsobjref-printerinfo"></a>
 
-PrinterInfo
-################################################################################
+# PrinterInfo
 
-``printerInfo``
+`printerInfo`
 
 **Description**
 
 Configuration information about a printer.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PrinterInfo.binaryPrintingSupport:
+<a id="jsobjref-printerinfo-binaryprintingsupport"></a>
 
-PrinterInfo.binaryPrintingSupport
-********************************************************************************
+### PrinterInfo.binaryPrintingSupport
 
-``printerInfo.binaryPrintingSupport``
+`printerInfo.binaryPrintingSupport`
 
 **Description**
 
-If ``true``, the printer supports binary printing.
+If `true`, the printer supports binary printing.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrinterInfo.colorSupport:
+<a id="jsobjref-printerinfo-colorsupport"></a>
 
-PrinterInfo.colorSupport
-********************************************************************************
+### PrinterInfo.colorSupport
 
-``printerInfo.colorSupport``
+`printerInfo.colorSupport`
 
 **Description**
 
@@ -45,50 +40,47 @@ The printer color capability.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PrinterColorMode`
+[PrinterColorMode](scripting-constants.md#jsobjref-scripting-constants-printercolormode)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.customPaperSupport:
+<a id="jsobjref-printerinfo-custompapersupport"></a>
 
-PrinterInfo.customPaperSupport
-********************************************************************************
+### PrinterInfo.customPaperSupport
 
-``printerInfo.customPaperSupport``
+`printerInfo.customPaperSupport`
 
 **Description**
 
-If ``true``, the printer supports custom paper size.
+If `true`, the printer supports custom paper size.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrinterInfo.customPaperTransverseSupport:
+<a id="jsobjref-printerinfo-custompapertransversesupport"></a>
 
-PrinterInfo.customPaperTransverseSupport
-********************************************************************************
+### PrinterInfo.customPaperTransverseSupport
 
-``printerInfo.customPaperTransverseSupport``
+`printerInfo.customPaperTransverseSupport`
 
 **Description**
 
-If ``true``, the printer supports custom paper transverse.
+If `true`, the printer supports custom paper transverse.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrinterInfo.deviceResolution:
+<a id="jsobjref-printerinfo-deviceresolution"></a>
 
-PrinterInfo.deviceResolution
-********************************************************************************
+### PrinterInfo.deviceResolution
 
-``printerInfo.deviceResolution``
+`printerInfo.deviceResolution`
 
 **Description**
 
@@ -98,31 +90,29 @@ The printer default resolution.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.inRIPSeparationSupport:
+<a id="jsobjref-printerinfo-inripseparationsupport"></a>
 
-PrinterInfo.inRIPSeparationSupport
-********************************************************************************
+### PrinterInfo.inRIPSeparationSupport
 
-``printerInfo.inRIPSeparationSupport``
+`printerInfo.inRIPSeparationSupport`
 
 **Description**
 
-If ``true``, the printer supports InRIP color separation.
+If `true`, the printer supports InRIP color separation.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrinterInfo.maxDeviceResolution:
+<a id="jsobjref-printerinfo-maxdeviceresolution"></a>
 
-PrinterInfo.maxDeviceResolution
-********************************************************************************
+### PrinterInfo.maxDeviceResolution
 
-``printerInfo.maxDeviceResolution``
+`printerInfo.maxDeviceResolution`
 
 **Description**
 
@@ -132,14 +122,13 @@ The printer maximum device resolution.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.maxPaperHeight:
+<a id="jsobjref-printerinfo-maxpaperheight"></a>
 
-PrinterInfo.maxPaperHeight
-********************************************************************************
+### PrinterInfo.maxPaperHeight
 
-``printerInfo.maxPaperHeight``
+`printerInfo.maxPaperHeight`
 
 **Description**
 
@@ -149,14 +138,13 @@ Custom paper’s maximum height.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.maxPaperHeightOffset:
+<a id="jsobjref-printerinfo-maxpaperheightoffset"></a>
 
-PrinterInfo.maxPaperHeightOffset
-********************************************************************************
+### PrinterInfo.maxPaperHeightOffset
 
-``printerInfo.maxPaperHeightOffset``
+`printerInfo.maxPaperHeightOffset`
 
 **Description**
 
@@ -166,14 +154,13 @@ Custom paper’s maximum height offset.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.maxPaperWidth:
+<a id="jsobjref-printerinfo-maxpaperwidth"></a>
 
-PrinterInfo.maxPaperWidth
-********************************************************************************
+### PrinterInfo.maxPaperWidth
 
-``printerInfo.maxPaperWidth``
+`printerInfo.maxPaperWidth`
 
 **Description**
 
@@ -183,14 +170,13 @@ Custom paper’s maximum width.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.maxPaperWidthOffset:
+<a id="jsobjref-printerinfo-maxpaperwidthoffset"></a>
 
-PrinterInfo.maxPaperWidthOffset
-********************************************************************************
+### PrinterInfo.maxPaperWidthOffset
 
-``printerInfo.maxPaperWidthOffset``
+`printerInfo.maxPaperWidthOffset`
 
 **Description**
 
@@ -200,14 +186,13 @@ Custom paper’s maximum width offset.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.minPaperHeight:
+<a id="jsobjref-printerinfo-minpaperheight"></a>
 
-PrinterInfo.minPaperHeight
-********************************************************************************
+### PrinterInfo.minPaperHeight
 
-``printerInfo.minPaperHeight``
+`printerInfo.minPaperHeight`
 
 **Description**
 
@@ -217,14 +202,13 @@ Custom paper’s minimum height.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.minPaperHeightOffset:
+<a id="jsobjref-printerinfo-minpaperheightoffset"></a>
 
-PrinterInfo.minPaperHeightOffset
-********************************************************************************
+### PrinterInfo.minPaperHeightOffset
 
-``printerInfo.minPaperHeightOffset``
+`printerInfo.minPaperHeightOffset`
 
 **Description**
 
@@ -234,14 +218,13 @@ Custom paper’s minimum height offset.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.minPaperWidth:
+<a id="jsobjref-printerinfo-minpaperwidth"></a>
 
-PrinterInfo.minPaperWidth
-********************************************************************************
+### PrinterInfo.minPaperWidth
 
-``printerInfo.minPaperWidth``
+`printerInfo.minPaperWidth`
 
 **Description**
 
@@ -251,14 +234,13 @@ Custom paper’s minimum width.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.minPaperWidthOffset:
+<a id="jsobjref-printerinfo-minpaperwidthoffset"></a>
 
-PrinterInfo.minPaperWidthOffset
-********************************************************************************
+### PrinterInfo.minPaperWidthOffset
 
-``printerInfo.minPaperWidthOffset``
+`printerInfo.minPaperWidthOffset`
 
 **Description**
 
@@ -268,14 +250,13 @@ Custom paper’s minimum width offset.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.paperSizes:
+<a id="jsobjref-printerinfo-papersizes"></a>
 
-PrinterInfo.paperSizes
-********************************************************************************
+### PrinterInfo.paperSizes
 
-``printerInfo.paperSizes``
+`printerInfo.paperSizes`
 
 **Description**
 
@@ -283,16 +264,15 @@ The list of supported paper sizes.
 
 **Type**
 
-Array of :ref:`jsobjref/Paper`
+Array of [Paper](Paper.md#jsobjref-paper)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.postScriptLevel:
+<a id="jsobjref-printerinfo-postscriptlevel"></a>
 
-PrinterInfo.postScriptLevel
-********************************************************************************
+### PrinterInfo.postScriptLevel
 
-``printerInfo.postScriptLevel``
+`printerInfo.postScriptLevel`
 
 **Description**
 
@@ -300,16 +280,15 @@ The PostScript Language level.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PrinterPostScriptLevelEnum`
+[PrinterPostScriptLevelEnum](scripting-constants.md#jsobjref-scripting-constants-printerpostscriptlevelenum)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.printerType:
+<a id="jsobjref-printerinfo-printertype"></a>
 
-PrinterInfo.printerType
-********************************************************************************
+### PrinterInfo.printerType
 
-``printerInfo.printerType``
+`printerInfo.printerType`
 
 **Description**
 
@@ -317,16 +296,15 @@ The printer type.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PrinterTypeEnum`
+[PrinterTypeEnum](scripting-constants.md#jsobjref-scripting-constants-printertypeenum)
 
-----
+---
 
-.. _jsobjref/PrinterInfo.typename:
+<a id="jsobjref-printerinfo-typename"></a>
 
-PrinterInfo.typename
-********************************************************************************
+### PrinterInfo.typename
 
-``printerInfo.typename``
+`printerInfo.typename`
 
 **Description**
 
@@ -336,30 +314,27 @@ The class name of the object.
 
 String; read-only.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Finding available printers
-********************************************************************************
+### Finding available printers
 
-::
+```default
+// Displays a list of available printers in a new text frame
+var docRef = documents.add();
+var iCount = printerList.length;
 
-   // Displays a list of available printers in a new text frame
-   var docRef = documents.add();
-   var iCount = printerList.length;
+var textRef = docRef.textFrames.add();
+textRef.contents += "Printers...\r";
 
-   var textRef = docRef.textFrames.add();
-   textRef.contents += "Printers...\r";
+for (var i = 0; i < iCount; i++) {
+  textRef.contents += printerList[i].name;
+  textRef.contents += "\r\t";
+}
 
-   for (var i = 0; i < iCount; i++) {
-     textRef.contents += printerList[i].name;
-     textRef.contents += "\r\t";
-   }
+textRef.top = 600;
+textRef.left = 200;
 
-   textRef.top = 600;
-   textRef.left = 200;
-
-   redraw();
+redraw();
+```

@@ -1,26 +1,22 @@
-.. _jsobjref/LabColor:
+<a id="jsobjref-labcolor"></a>
 
-LabColor
-################################################################################
+# LabColor
 
-``labColor``
+`labColor`
 
 **Description**
 
-A color specification in the CIE Lab color space, used where a ``color`` object is required.
+A color specification in the CIE Lab color space, used where a `color` object is required.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/LabColor.a:
+<a id="jsobjref-labcolor-a"></a>
 
-LabColor.a
-********************************************************************************
+### LabColor.a
 
-``labColor.a``
+`labColor.a`
 
 **Description**
 
@@ -30,14 +26,13 @@ The a (red-green) color value. Range -128.0–128.0. Default: 0.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/LabColor.b:
+<a id="jsobjref-labcolor-b"></a>
 
-LabColor.b
-********************************************************************************
+### LabColor.b
 
-``labColor.b``
+`labColor.b`
 
 **Description**
 
@@ -47,14 +42,13 @@ The b (yellow-blue) color value. Range -128.0–128.0. Default: 0.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/LabColor.l:
+<a id="jsobjref-labcolor-l"></a>
 
-LabColor.l
-********************************************************************************
+### LabColor.l
 
-``labColor.l``
+`labColor.l`
 
 **Description**
 

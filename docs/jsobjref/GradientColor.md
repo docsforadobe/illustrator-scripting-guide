@@ -1,26 +1,22 @@
-.. _jsobjref/GradientColor:
+<a id="jsobjref-gradientcolor"></a>
 
-GradientColor
-################################################################################
+# GradientColor
 
-``gradientColor``
+`gradientColor`
 
 **Description**
 
 A gradient color specification in a Gradient object. A script can create a new gradient color using a reference to an existing gradient in the document. If no existing gradient object is referenced, a default gradient is supplied.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/GradientColor.angle:
+<a id="jsobjref-gradientcolor-angle"></a>
 
-GradientColor.angle
-********************************************************************************
+### GradientColor.angle
 
-``gradientColor.angle``
+`gradientColor.angle`
 
 **Description**
 
@@ -30,14 +26,13 @@ The gradient vector angle in degrees. Default: 0.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GradientColor.gradient:
+<a id="jsobjref-gradientcolor-gradient"></a>
 
-GradientColor.gradient
-********************************************************************************
+### GradientColor.gradient
 
-``gradientColor.gradient``
+`gradientColor.gradient`
 
 **Description**
 
@@ -45,16 +40,15 @@ Reference to the object defining the gradient.
 
 **Type**
 
-:ref:`jsobjref/Gradient`
+[Gradient](Gradient.md#jsobjref-gradient)
 
-----
+---
 
-.. _jsobjref/GradientColor.hiliteAngle:
+<a id="jsobjref-gradientcolor-hiliteangle"></a>
 
-GradientColor.hiliteAngle
-********************************************************************************
+### GradientColor.hiliteAngle
 
-``gradientColor.hiliteAngle``
+`gradientColor.hiliteAngle`
 
 **Description**
 
@@ -64,14 +58,13 @@ The gradient highlight vector angle in degrees.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GradientColor.hiliteLength:
+<a id="jsobjref-gradientcolor-hilitelength"></a>
 
-GradientColor.hiliteLength
-********************************************************************************
+### GradientColor.hiliteLength
 
-``gradientColor.hiliteLength``
+`gradientColor.hiliteLength`
 
 **Description**
 
@@ -81,14 +74,13 @@ The gradient highlight vector length.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GradientColor.length:
+<a id="jsobjref-gradientcolor-length"></a>
 
-GradientColor.length
-********************************************************************************
+### GradientColor.length
 
-``gradientColor.length``
+`gradientColor.length`
 
 **Description**
 
@@ -98,14 +90,13 @@ The gradient vector length.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GradientColor.matrix:
+<a id="jsobjref-gradientcolor-matrix"></a>
 
-GradientColor.matrix
-********************************************************************************
+### GradientColor.matrix
 
-``gradientColor.matrix``
+`gradientColor.matrix`
 
 **Description**
 
@@ -115,14 +106,13 @@ An additional transformation matrix to manipulate the gradient path.
 
 Matrix.
 
-----
+---
 
-.. _jsobjref/GradientColor.origin:
+<a id="jsobjref-gradientcolor-origin"></a>
 
-GradientColor.origin
-********************************************************************************
+### GradientColor.origin
 
-``gradientColor.origin``
+`gradientColor.origin`
 
 **Description**
 
@@ -132,14 +122,13 @@ The gradient vector origin, the center point of the gradient in this color.
 
 Array of 2 numbers.
 
-----
+---
 
-.. _jsobjref/GradientColor.typename:
+<a id="jsobjref-gradientcolor-typename"></a>
 
-GradientColor.typename
-********************************************************************************
+### GradientColor.typename
 
-``gradientColor.typename``
+`gradientColor.typename`
 
 **Description**
 
@@ -149,30 +138,27 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-.. _jsobjref/GradientColor.changingGradientStopColor:
+<a id="jsobjref-gradientcolor-changinggradientstopcolor"></a>
 
-Changing a gradient stop color
-********************************************************************************
+### Changing a gradient stop color
 
-::
+```default
+// Creates a new RGB document, then changes the color of the first gradient stop of an indexed gradient
+app.documents.add(DocumentColorSpace.RGB);
 
-  // Creates a new RGB document, then changes the color of the first gradient stop of an indexed gradient
-  app.documents.add(DocumentColorSpace.RGB);
+// Get a reference to the gradient that you want to change
+var gradientRef = app.activeDocument.gradients[1];
 
-  // Get a reference to the gradient that you want to change
-  var gradientRef = app.activeDocument.gradients[1];
+// Create the new color
+var startColor = new RGBColor();
+startColor.red = 255;
+startColor.green = 238;
+startColor.blue = 98;
 
-  // Create the new color
-  var startColor = new RGBColor();
-  startColor.red = 255;
-  startColor.green = 238;
-  startColor.blue = 98;
-
-  // apply new color to the first gradient stop
-  gradientRef.gradientStops[0].color = startColor;
+// apply new color to the first gradient stop
+gradientRef.gradientStops[0].color = startColor;
+```

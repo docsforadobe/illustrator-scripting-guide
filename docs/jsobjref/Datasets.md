@@ -1,26 +1,22 @@
-.. _jsobjref/Datasets:
+<a id="jsobjref-datasets"></a>
 
-Datasets
-################################################################################
+# Datasets
 
-``app.activeDocument.dataSets``
+`app.activeDocument.dataSets`
 
 **Description**
 
-A collection of :ref:`jsobjref/Dataset` objects.
+A collection of [Dataset](Dataset.md#jsobjref-dataset) objects.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Datasets.length:
+<a id="jsobjref-datasets-length"></a>
 
-Datasets.length
-********************************************************************************
+### Datasets.length
 
-``app.activeDocument.dataSets.length``
+`app.activeDocument.dataSets.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ The number of datasets in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/Datasets.parent:
+<a id="jsobjref-datasets-parent"></a>
 
-Datasets.parent
-********************************************************************************
+### Datasets.parent
 
-``app.activeDocument.dataSets.parent``
+`app.activeDocument.dataSets.parent`
 
 **Description**
 
@@ -45,16 +40,15 @@ The name of the object that contains this dataset.
 
 **Type**
 
-:ref:`jsobjref/Document`, read-only.
+[Document](Document.md#jsobjref-document), read-only.
 
-----
+---
 
-.. _jsobjref/Datasets.typename:
+<a id="jsobjref-datasets-typename"></a>
 
-Datasets.typename
-********************************************************************************
+### Datasets.typename
 
-``app.activeDocument.dataSets.typename``
+`app.activeDocument.dataSets.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Datasets.add:
+<a id="jsobjref-datasets-add"></a>
 
-Datasets.add()
-********************************************************************************
+### Datasets.add()
 
-``app.activeDocument.dataSets.add()``
+`app.activeDocument.dataSets.add()`
 
 **Description**
 
@@ -83,16 +74,15 @@ Creates a new dataset object.
 
 **Returns**
 
-:ref:`jsobjref/Dataset`
+[Dataset](Dataset.md#jsobjref-dataset)
 
-----
+---
 
-.. _jsobjref/Datasets.getByName:
+<a id="jsobjref-datasets-getbyname"></a>
 
-Datasets.getByName()
-********************************************************************************
+### Datasets.getByName()
 
-``app.activeDocument.dataSets.getByName(name)``
+`app.activeDocument.dataSets.getByName(name)`
 
 **Description**
 
@@ -100,24 +90,21 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/Dataset`
+[Dataset](Dataset.md#jsobjref-dataset)
 
-----
+---
 
-.. _jsobjref/Datasets.index:
+<a id="jsobjref-datasets-index"></a>
 
-Datasets.index()
-********************************************************************************
+### Datasets.index()
 
-``app.activeDocument.dataSets.index(itemKey)``
+`app.activeDocument.dataSets.index(itemKey)`
 
 **Description**
 
@@ -125,24 +112,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/Dataset`
+[Dataset](Dataset.md#jsobjref-dataset)
 
-----
+---
 
-.. _jsobjref/Datasets.removeAll:
+<a id="jsobjref-datasets-removeall"></a>
 
-Datasets.removeAll()
-********************************************************************************
+### Datasets.removeAll()
 
-``app.activeDocument.dataSets.removeAll()``
+`app.activeDocument.dataSets.removeAll()`
 
 **Description**
 

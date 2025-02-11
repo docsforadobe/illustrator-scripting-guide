@@ -1,28 +1,24 @@
-.. _jsobjref/PDFFileOptions:
+<a id="jsobjref-pdffileoptions"></a>
 
-PDFFileOptions
-################################################################################
+# PDFFileOptions
 
-``app.preferences.PDFFileOptions``
+`app.preferences.PDFFileOptions`
 
 **Description**
 
-Options for opening a PDF file, used with the :ref:`jsobjref/Application.open` method.
+Options for opening a PDF file, used with the [Application.open()](Application.md#jsobjref-application-open) method.
 
 All properties are optional.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PDFFileOptions.pageToOpen:
+<a id="jsobjref-pdffileoptions-pagetoopen"></a>
 
-PDFFileOptions.pageToOpen
-********************************************************************************
+### PDFFileOptions.pageToOpen
 
-``app.preferences.PDFFileOptions.pageToOpen``
+`app.preferences.PDFFileOptions.pageToOpen`
 
 **Description**
 
@@ -34,14 +30,13 @@ Default: 1
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/PDFFileOptions.parent:
+<a id="jsobjref-pdffileoptions-parent"></a>
 
-PDFFileOptions.parent
-********************************************************************************
+### PDFFileOptions.parent
 
-``app.preferences.PDFFileOptions.parent``
+`app.preferences.PDFFileOptions.parent`
 
 **Description**
 
@@ -51,33 +46,31 @@ The object’s container.
 
 Object; read-only.
 
-----
+---
 
-.. _jsobjref/PDFFileOptions.pDFCropToBox:
+<a id="jsobjref-pdffileoptions-pdfcroptobox"></a>
 
-PDFFileOptions.pDFCropToBox
-********************************************************************************
+### PDFFileOptions.pDFCropToBox
 
-``app.preferences.PDFFileOptions.pDFCropToBox``
+`app.preferences.PDFFileOptions.pDFCropToBox`
 
 **Description**
 
 Which box should be used when placing a multipage document.
 
-Default: ``PDFBoxType.PDFMediaBox``
+Default: `PDFBoxType.PDFMediaBox`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PDFBoxType`
+[PDFBoxType](scripting-constants.md#jsobjref-scripting-constants-pdfboxtype)
 
-----
+---
 
-.. _jsobjref/PDFFileOptions.typename:
+<a id="jsobjref-pdffileoptions-typename"></a>
 
-PDFFileOptions.typename
-********************************************************************************
+### PDFFileOptions.typename
 
-``app.preferences.PDFFileOptions.typename``
+`app.preferences.PDFFileOptions.typename`
 
 **Description**
 
@@ -87,25 +80,22 @@ The class name of the object.
 
 String; read-only.
 
-----
+---
 
-==========
-Example
-==========
+## Example
 
-Opening a PDF with options
-********************************************************************************
+### Opening a PDF with options
 
-::
+```default
+// Opens a PDF file with specified options
+var pdfOptions = app.preferences.PDFFileOptions;
+pdfOptions.pDFCropToBox = PDFBoxType.PDFBOUNDINGBOX;
+pdfOptions.pageToOpen = 2;
 
-  // Opens a PDF file with specified options
-  var pdfOptions = app.preferences.PDFFileOptions;
-  pdfOptions.pDFCropToBox = PDFBoxType.PDFBOUNDINGBOX;
-  pdfOptions.pageToOpen = 2;
+// Open a file using these preferences
+var fileRef = filePath;
 
-  // Open a file using these preferences
-  var fileRef = filePath;
-
-  if (fileRef != null) {
-    var docRef = open(fileRef, DocumentColorSpace.RGB);
-  }
+if (fileRef != null) {
+  var docRef = open(fileRef, DocumentColorSpace.RGB);
+}
+```

@@ -1,102 +1,94 @@
-.. _jsobjref/RasterEffectOptions:
+<a id="jsobjref-rastereffectoptions"></a>
 
-RasterEffectOptions
-################################################################################
+# RasterEffectOptions
 
-``RasterEffectOptions``
+`RasterEffectOptions`
 
 **Description**
 
 Specifies raster effects settings for the document. All properties are optional.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/RasterEffectOptions.antiAliasing:
+<a id="jsobjref-rastereffectoptions-antialiasing"></a>
 
-RasterEffectOptions.antiAliasing
-********************************************************************************
+### RasterEffectOptions.antiAliasing
 
-``rasterEffectOptions.antiAliasing``
+`rasterEffectOptions.antiAliasing`
 
 **Description**
 
-If ``true``, the image should be antialiased.
+If `true`, the image should be antialiased.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/RasterEffectOptions.clippingMask:
+<a id="jsobjref-rastereffectoptions-clippingmask"></a>
 
-RasterEffectOptions.clippingMask
-********************************************************************************
+### RasterEffectOptions.clippingMask
 
-``rasterEffectOptions.clippingMask``
+`rasterEffectOptions.clippingMask`
 
 **Description**
 
-If ``true``, a clipping mask is created for the image.
+If `true`, a clipping mask is created for the image.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/RasterEffectOptions.colorModel:
+<a id="jsobjref-rastereffectoptions-colormodel"></a>
 
-RasterEffectOptions.colorModel
-********************************************************************************
+### RasterEffectOptions.colorModel
 
-``rasterEffectOptions.colorModel``
+`rasterEffectOptions.colorModel`
 
 **Description**
 
 The color model for the rasterization.
 
-Default: ``RasterizationColorModel.DEFAULTCOLORMODEL``
+Default: `RasterizationColorModel.DEFAULTCOLORMODEL`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.RasterizationColorModel`
+[RasterizationColorModel](scripting-constants.md#jsobjref-scripting-constants-rasterizationcolormodel)
 
-----
+---
 
-.. _jsobjref/RasterEffectOptions.convertSpotColors:
+<a id="jsobjref-rastereffectoptions-convertspotcolors"></a>
 
-RasterEffectOptions.convertSpotColors
-********************************************************************************
+### RasterEffectOptions.convertSpotColors
 
-``rasterEffectOptions.convertSpotColors``
+`rasterEffectOptions.convertSpotColors`
 
 **Description**
 
-If ``true``, all spot colors are converted to process colors for the image.
+If `true`, all spot colors are converted to process colors for the image.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/RasterEffectOptions.padding:
+<a id="jsobjref-rastereffectoptions-padding"></a>
 
-RasterEffectOptions.padding
-********************************************************************************
+### RasterEffectOptions.padding
 
-``rasterEffectOptions.padding``
+`rasterEffectOptions.padding`
 
 **Description**
 
@@ -108,14 +100,13 @@ Default: .0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/RasterEffectOptions.resolution:
+<a id="jsobjref-rastereffectoptions-resolution"></a>
 
-RasterEffectOptions.resolution
-********************************************************************************
+### RasterEffectOptions.resolution
 
-``rasterEffectOptions.resolution``
+`rasterEffectOptions.resolution`
 
 **Description**
 
@@ -127,20 +118,19 @@ Default: 300.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/RasterEffectOptions.transparency:
+<a id="jsobjref-rastereffectoptions-transparency"></a>
 
-RasterEffectOptions.transparency
-********************************************************************************
+### RasterEffectOptions.transparency
 
-``rasterEffectOptions.transparency``
+`rasterEffectOptions.transparency`
 
 **Description**
 
-If ``true``, the image should use transparency.
+If `true`, the image should use transparency.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 

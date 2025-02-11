@@ -1,28 +1,24 @@
-.. _jsobjref/PatternColor:
+<a id="jsobjref-patterncolor"></a>
 
-PatternColor
-################################################################################
+# PatternColor
 
-``patternColor``
+`patternColor`
 
 **Description**
 
 A pattern color specification. You can create a new pattern color by modifying an existing pattern in the document. Any modification you make to a pattern affects that pattern in the Palette.
 
-``PatternColor`` objects can be used in any property that takes a color object, such as ``fillColor`` or ``strokeColor``.
+`PatternColor` objects can be used in any property that takes a color object, such as `fillColor` or `strokeColor`.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PatternColor.matrix:
+<a id="jsobjref-patterncolor-matrix"></a>
 
-PatternColor.matrix
-********************************************************************************
+### PatternColor.matrix
 
-``patternColor.matrix``
+`patternColor.matrix`
 
 **Description**
 
@@ -30,16 +26,15 @@ Additional transformation arising from manipulating the path.
 
 **Type**
 
-:ref:`jsobjref/Matrix`
+[Matrix](Matrix.md#jsobjref-matrix)
 
-----
+---
 
-.. _jsobjref/PatternColor.pattern:
+<a id="jsobjref-patterncolor-pattern"></a>
 
-PatternColor.pattern
-********************************************************************************
+### PatternColor.pattern
 
-``patternColor.pattern``
+`patternColor.pattern`
 
 **Description**
 
@@ -47,35 +42,33 @@ A reference to the pattern object that defines the pattern to use in this color 
 
 **Type**
 
-:ref:`jsobjref/Pattern`
+[Pattern](Pattern.md#jsobjref-pattern)
 
-----
+---
 
-.. _jsobjref/PatternColor.reflect:
+<a id="jsobjref-patterncolor-reflect"></a>
 
-PatternColor.reflect
-********************************************************************************
+### PatternColor.reflect
 
-``patternColor.reflect``
+`patternColor.reflect`
 
 **Description**
 
-If ``true``, the prototype should be reflected before filling.
+If `true`, the prototype should be reflected before filling.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PatternColor.reflectAngle:
+<a id="jsobjref-patterncolor-reflectangle"></a>
 
-PatternColor.reflectAngle
-********************************************************************************
+### PatternColor.reflectAngle
 
-``patternColor.reflectAngle``
+`patternColor.reflectAngle`
 
 **Description**
 
@@ -87,14 +80,13 @@ Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PatternColor.rotation:
+<a id="jsobjref-patterncolor-rotation"></a>
 
-PatternColor.rotation
-********************************************************************************
+### PatternColor.rotation
 
-``patternColor.rotation``
+`patternColor.rotation`
 
 **Description**
 
@@ -106,14 +98,13 @@ Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PatternColor.scaleFactor:
+<a id="jsobjref-patterncolor-scalefactor"></a>
 
-PatternColor.scaleFactor
-********************************************************************************
+### PatternColor.scaleFactor
 
-``patternColor.scaleFactor``
+`patternColor.scaleFactor`
 
 **Description**
 
@@ -123,14 +114,13 @@ The fraction to which to scale the prototype pattern before filling, represented
 
 Array of 2 numbers
 
-----
+---
 
-.. _jsobjref/PatternColor.shearAngle:
+<a id="jsobjref-patterncolor-shearangle"></a>
 
-PatternColor.shearAngle
-********************************************************************************
+### PatternColor.shearAngle
 
-``patternColor.shearAngle``
+`patternColor.shearAngle`
 
 **Description**
 
@@ -142,14 +132,13 @@ Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PatternColor.shearAxis:
+<a id="jsobjref-patterncolor-shearaxis"></a>
 
-PatternColor.shearAxis
-********************************************************************************
+### PatternColor.shearAxis
 
-``patternColor.shearAxis``
+`patternColor.shearAxis`
 
 **Description**
 
@@ -161,14 +150,13 @@ Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PatternColor.shiftAngle:
+<a id="jsobjref-patterncolor-shiftangle"></a>
 
-PatternColor.shiftAngle
-********************************************************************************
+### PatternColor.shiftAngle
 
-``patternColor.shiftAngle``
+`patternColor.shiftAngle`
 
 **Description**
 
@@ -180,14 +168,13 @@ Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PatternColor.shiftDistance:
+<a id="jsobjref-patterncolor-shiftdistance"></a>
 
-PatternColor.shiftDistance
-********************************************************************************
+### PatternColor.shiftDistance
 
-``patternColor.shiftDistance``
+`patternColor.shiftDistance`
 
 **Description**
 
@@ -199,14 +186,13 @@ Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PatternColor.typename:
+<a id="jsobjref-patterncolor-typename"></a>
 
-PatternColor.typename
-********************************************************************************
+### PatternColor.typename
 
-``patternColor.typename``
+`patternColor.typename`
 
 **Description**
 
@@ -216,39 +202,36 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Modifying and applying pattern colors
-********************************************************************************
+### Modifying and applying pattern colors
 
-::
+```default
+// Rotates the color of each pattern in the current document,
+// then applies the last pattern to the first path item
+if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {
+  var doc = app.activeDocument;
+  var swatchIndex = 0;
 
-  // Rotates the color of each pattern in the current document,
-  // then applies the last pattern to the first path item
-  if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {
-    var doc = app.activeDocument;
-    var swatchIndex = 0;
+  for (i = 0; i < doc.swatches.length; i++) {
+    // Get the generic color object of the swatch
+    var currentSwatch = doc.swatches[i];
+    var swatchColor = currentSwatch.color;
 
-    for (i = 0; i < doc.swatches.length; i++) {
-      // Get the generic color object of the swatch
-      var currentSwatch = doc.swatches[i];
-      var swatchColor = currentSwatch.color;
+    // Only operate on patterns
+    if (currentSwatch.color.typename == "PatternColor") {
 
-      // Only operate on patterns
-      if (currentSwatch.color.typename == "PatternColor") {
-
-        // Change a pattern property
-        currentSwatch.color.rotation = 10;
-        swatchIndex = i;
-      }
+      // Change a pattern property
+      currentSwatch.color.rotation = 10;
+      swatchIndex = i;
     }
-
-    // Apply the last pattern color swatch to the frontmost path
-    var firstPath = app.activeDocument.pathItems[0];
-    firstPath.filled = true;
-    firstPath.fillColor = doc.swatches[swatchIndex].color;
   }
+
+  // Apply the last pattern color swatch to the frontmost path
+  var firstPath = app.activeDocument.pathItems[0];
+  firstPath.filled = true;
+  firstPath.fillColor = doc.swatches[swatchIndex].color;
+}
+```

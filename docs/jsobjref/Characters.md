@@ -1,28 +1,24 @@
-.. _jsobjref/Characters:
+<a id="jsobjref-characters"></a>
 
-Characters
-################################################################################
+# Characters
 
-``app.activeDocument.textFrames[index].contents``
+`app.activeDocument.textFrames[index].contents`
 
 **Description**
 
-A collection of characters (``TextRange`` objects of length 1).
+A collection of characters (`TextRange` objects of length 1).
 
 The elements are not named; you must access them by index.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Characters.length:
+<a id="jsobjref-characters-length"></a>
 
-Characters.length
-********************************************************************************
+### Characters.length
 
-``app.activeDocument.textFrames[index].contents.length``
+`app.activeDocument.textFrames[index].contents.length`
 
 **Description**
 
@@ -32,14 +28,13 @@ The number of characters in the collection.
 
 Number; read-only.
 
-----
+---
 
-.. _jsobjref/Characters.parent:
+<a id="jsobjref-characters-parent"></a>
 
-Characters.parent
-********************************************************************************
+### Characters.parent
 
-``app.activeDocument.textFrames[index].contents.parent``
+`app.activeDocument.textFrames[index].contents.parent`
 
 **Description**
 
@@ -49,14 +44,13 @@ The text art item that contains this character.
 
 Object; read-only.
 
-----
+---
 
-.. _jsobjref/Characters.typename:
+<a id="jsobjref-characters-typename"></a>
 
-Characters.typename
-********************************************************************************
+### Characters.typename
 
-``app.activeDocument.textFrames[index].contents.typename``
+`app.activeDocument.textFrames[index].contents.typename`
 
 **Description**
 
@@ -66,18 +60,15 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Characters.add:
+<a id="jsobjref-characters-add"></a>
 
-Characters.add()
-********************************************************************************
+### Characters.add()
 
-``app.activeDocument.textFrames[index].contents.add(contents[,relativeObject][,insertionLocation])``
+`app.activeDocument.textFrames[index].contents.add(contents[,relativeObject][,insertionLocation])`
 
 **Description**
 
@@ -87,28 +78,23 @@ If a location is not specified, adds the new character to the containing text fr
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+------------------------+
-|       Parameter       |                              Type                              |      Description       |
-+=======================+================================================================+========================+
-| ``contents``          | String                                                         | Text contents to add   |
-+-----------------------+----------------------------------------------------------------+------------------------+
-| ``relativeObject``    | :ref:`jsobjref/TextFrameItem`, optional                        | Object to add item to  |
-+-----------------------+----------------------------------------------------------------+------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to place text |
-+-----------------------+----------------------------------------------------------------+------------------------+
+| Parameter           | Type                                                                                               | Description            |
+|---------------------|----------------------------------------------------------------------------------------------------|------------------------|
+| `contents`          | String                                                                                             | Text contents to add   |
+| `relativeObject`    | [TextFrameItem](TextFrameItem.md#jsobjref-textframeitem), optional                                 | Object to add item to  |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to place text |
 
 **Returns**
 
-:ref:`jsobjref/TextRange`
+[TextRange](TextRange.md#jsobjref-textrange)
 
-----
+---
 
-.. _jsobjref/Characters.addBefore:
+<a id="jsobjref-characters-addbefore"></a>
 
-Characters.addBefore()
-********************************************************************************
+### Characters.addBefore()
 
-``app.activeDocument.textFrames[index].contents.addBefore(contents)``
+`app.activeDocument.textFrames[index].contents.addBefore(contents)`
 
 **Description**
 
@@ -116,24 +102,21 @@ Adds a character before the specified text selection.
 
 **Parameters**
 
-+--------------+--------+----------------------+
-|  Parameter   |  Type  |     Description      |
-+==============+========+======================+
-| ``contents`` | String | Text contents to add |
-+--------------+--------+----------------------+
+| Parameter   | Type   | Description          |
+|-------------|--------|----------------------|
+| `contents`  | String | Text contents to add |
 
 **Returns**
 
-:ref:`jsobjref/TextRange`
+[TextRange](TextRange.md#jsobjref-textrange)
 
-----
+---
 
-.. _jsobjref/Characters.index:
+<a id="jsobjref-characters-index"></a>
 
-Characters.index()
-********************************************************************************
+### Characters.index()
 
-``app.activeDocument.textFrames[index].contents.index(itemKey)``
+`app.activeDocument.textFrames[index].contents.index(itemKey)`
 
 **Description**
 
@@ -141,24 +124,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/TextRange`
+[TextRange](TextRange.md#jsobjref-textrange)
 
-----
+---
 
-.. _jsobjref/Characters.removeAll:
+<a id="jsobjref-characters-removeall"></a>
 
-Characters.removeAll()
-********************************************************************************
+### Characters.removeAll()
 
-``app.activeDocument.textFrames[index].contents.removeAll()``
+`app.activeDocument.textFrames[index].contents.removeAll()`
 
 **Description**
 
@@ -168,25 +148,22 @@ Deletes all elements in the collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Counting characters
-********************************************************************************
+### Counting characters
 
-::
+```default
+// Counts all characters in the active document,
+// including whitespace, and stores in numChars
 
-  // Counts all characters in the active document,
-  // including whitespace, and stores in numChars
-
-  if (app.documents.length > 0) {
-    var doc = app.activeDocument;
-    var numChars = 0;
-    for (var i = 0; i < doc.textFrames.length; i++) {
-      var textArtRange = doc.textFrames[i].contents;
-      numChars += textArtRange.length;
-    }
+if (app.documents.length > 0) {
+  var doc = app.activeDocument;
+  var numChars = 0;
+  for (var i = 0; i < doc.textFrames.length; i++) {
+    var textArtRange = doc.textFrames[i].contents;
+    numChars += textArtRange.length;
   }
+}
+```

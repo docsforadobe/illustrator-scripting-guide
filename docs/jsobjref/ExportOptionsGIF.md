@@ -1,62 +1,56 @@
-.. _jsobjref/ExportOptionsGIF:
+<a id="jsobjref-exportoptionsgif"></a>
 
-ExportOptionsGIF
-################################################################################
+# ExportOptionsGIF
 
-``exportOptionsGIF``
+`exportOptionsGIF`
 
 **Description**
 
-Options for exporting a document as a GIF file, used with the :ref:`jsobjref/Document.exportFile` method. All properties are optional.
+Options for exporting a document as a GIF file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method. All properties are optional.
 
 When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/ExportOptionsGIF.antiAliasing:
+<a id="jsobjref-exportoptionsgif-antialiasing"></a>
 
-ExportOptionsGIF.antiAliasing
-********************************************************************************
+### ExportOptionsGIF.antiAliasing
 
-``exportOptionsGIF.antiAliasing``
+`exportOptionsGIF.antiAliasing`
 
 **Description**
 
-If ``true``, the exported image should be anti-aliased. Default: ``true``.
+If `true`, the exported image should be anti-aliased. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsGIF.artBoardClipping:
+<a id="jsobjref-exportoptionsgif-artboardclipping"></a>
 
-ExportOptionsGIF.artBoardClipping
-********************************************************************************
+### ExportOptionsGIF.artBoardClipping
 
-``exportOptionsGIF.artBoardClipping``
+`exportOptionsGIF.artBoardClipping`
 
 **Description**
 
-If ``true``, the exported image should be clipped to the art board. Default: ``false``.
+If `true`, the exported image should be clipped to the art board. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsGIF.colorCount:
+<a id="jsobjref-exportoptionsgif-colorcount"></a>
 
-ExportOptionsGIF.colorCount
-********************************************************************************
+### ExportOptionsGIF.colorCount
 
-``exportOptionsGIF.colorCount``
+`exportOptionsGIF.colorCount`
 
 **Description**
 
@@ -66,48 +60,45 @@ The number of colors in the exported image’s color table. Range: 2 to 256. Def
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/ExportOptionsGIF.colorDither:
+<a id="jsobjref-exportoptionsgif-colordither"></a>
 
-ExportOptionsGIF.colorDither
-********************************************************************************
+### ExportOptionsGIF.colorDither
 
-``exportOptionsGIF.colorDither``
-
-**Description**
-
-The method used to dither colors in the exported image. Default: ``ColorDitherMethod.DIFFUSION``.
-
-**Type**
-
-:ref:`jsobjref/scripting-constants.ColorDitherMethod`
-
-----
-
-.. _jsobjref/ExportOptionsGIF.colorReduction:
-
-ExportOptionsGIF.colorReduction
-********************************************************************************
-
-``exportOptionsGIF.colorReduction``
+`exportOptionsGIF.colorDither`
 
 **Description**
 
-The method used to reduce the number of colors in the exported image. ``Default: ColorReductionMethod.SELECTIVE``.
+The method used to dither colors in the exported image. Default: `ColorDitherMethod.DIFFUSION`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.ColorReductionMethod`
+[ColorDitherMethod](scripting-constants.md#jsobjref-scripting-constants-colordithermethod)
 
-----
+---
 
-.. _jsobjref/ExportOptionsGIF.ditherPercent:
+<a id="jsobjref-exportoptionsgif-colorreduction"></a>
 
-ExportOptionsGIF.ditherPercent
-********************************************************************************
+### ExportOptionsGIF.colorReduction
 
-``exportOptionsGIF.ditherPercent``
+`exportOptionsGIF.colorReduction`
+
+**Description**
+
+The method used to reduce the number of colors in the exported image. `Default: ColorReductionMethod.SELECTIVE`.
+
+**Type**
+
+[ColorReductionMethod](scripting-constants.md#jsobjref-scripting-constants-colorreductionmethod)
+
+---
+
+<a id="jsobjref-exportoptionsgif-ditherpercent"></a>
+
+### ExportOptionsGIF.ditherPercent
+
+`exportOptionsGIF.ditherPercent`
 
 **Description**
 
@@ -117,14 +108,13 @@ How much should the colors of the exported image be dithered, where 100.0 is 100
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/ExportOptionsGIF.horizontalScale:
+<a id="jsobjref-exportoptionsgif-horizontalscale"></a>
 
-ExportOptionsGIF.horizontalScale
-********************************************************************************
+### ExportOptionsGIF.horizontalScale
 
-``exportOptionsGIF.horizontalScale``
+`exportOptionsGIF.horizontalScale`
 
 **Description**
 
@@ -134,14 +124,13 @@ The horizontal scaling factor to apply to the exported image, where 100.0 is 100
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ExportOptionsGIF.infoLossPercent:
+<a id="jsobjref-exportoptionsgif-infolosspercent"></a>
 
-ExportOptionsGIF.infoLossPercent
-********************************************************************************
+### ExportOptionsGIF.infoLossPercent
 
-``exportOptionsGIF.infoLossPercent``
+`exportOptionsGIF.infoLossPercent`
 
 **Description**
 
@@ -151,99 +140,93 @@ The level of information loss allowed during compression, where 100.0 is 100%.
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/ExportOptionsGIF.interlaced:
+<a id="jsobjref-exportoptionsgif-interlaced"></a>
 
-ExportOptionsGIF.interlaced
-********************************************************************************
+### ExportOptionsGIF.interlaced
 
-``exportOptionsGIF.interlaced``
+`exportOptionsGIF.interlaced`
 
 **Description**
 
-If ``true``, the exported image should be interlaced. Default: ``false``.
+If `true`, the exported image should be interlaced. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsGIF.matte:
+<a id="jsobjref-exportoptionsgif-matte"></a>
 
-ExportOptionsGIF.matte
-********************************************************************************
+### ExportOptionsGIF.matte
 
-``exportOptionsGIF.matte``
+`exportOptionsGIF.matte`
 
 **Description**
 
-If ``true``, the art board should be matted with a color. Default: ``true``.
+If `true`, the art board should be matted with a color. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsGIF.matteColor:
+<a id="jsobjref-exportoptionsgif-mattecolor"></a>
 
-ExportOptionsGIF.matteColor
-********************************************************************************
+### ExportOptionsGIF.matteColor
 
-``exportOptionsGIF.matteColor``
+`exportOptionsGIF.matteColor`
 
 **Description**
 
-The color to use when matting the art board. Default: ``WHITE``.
+The color to use when matting the art board. Default: `WHITE`.
 
 **Type**
 
-:ref:`jsobjref/RGBColor`
+[RGBColor](RGBColor.md#jsobjref-rgbcolor)
 
-----
+---
 
-.. _jsobjref/ExportOptionsGIF.saveAsHTML:
+<a id="jsobjref-exportoptionsgif-saveashtml"></a>
 
-ExportOptionsGIF.saveAsHTML
-********************************************************************************
+### ExportOptionsGIF.saveAsHTML
 
-``exportOptionsGIF.saveAsHTML``
-
-**Description**
-
-If ``true``, the exported image should be saved with an accompanying HTML file. Default: ``false``.
-
-**Type**
-
-Boolean.
-
-----
-
-.. _jsobjref/ExportOptionsGIF.transparency:
-
-ExportOptionsGIF.transparency
-********************************************************************************
-
-``exportOptionsGIF.transparency``
+`exportOptionsGIF.saveAsHTML`
 
 **Description**
 
-If ``true``, the exported image should use transparency. Default: ``true``.
+If `true`, the exported image should be saved with an accompanying HTML file. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsGIF.typename:
+<a id="jsobjref-exportoptionsgif-transparency"></a>
 
-ExportOptionsGIF.typename
-********************************************************************************
+### ExportOptionsGIF.transparency
 
-``exportOptionsGIF.typename``
+`exportOptionsGIF.transparency`
+
+**Description**
+
+If `true`, the exported image should use transparency. Default: `true`.
+
+**Type**
+
+Boolean.
+
+---
+
+<a id="jsobjref-exportoptionsgif-typename"></a>
+
+### ExportOptionsGIF.typename
+
+`exportOptionsGIF.typename`
 
 **Description**
 
@@ -253,14 +236,13 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/ExportOptionsGIF.verticalScale:
+<a id="jsobjref-exportoptionsgif-verticalscale"></a>
 
-ExportOptionsGIF.verticalScale
-********************************************************************************
+### ExportOptionsGIF.verticalScale
 
-``exportOptionsGIF.verticalScale``
+`exportOptionsGIF.verticalScale`
 
 **Description**
 
@@ -270,14 +252,13 @@ The vertical scaling factor to apply to the exported image, where 100.0 is 100%.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ExportOptionsGIF.webSnap:
+<a id="jsobjref-exportoptionsgif-websnap"></a>
 
-ExportOptionsGIF.webSnap
-********************************************************************************
+### ExportOptionsGIF.webSnap
 
-``exportOptionsGIF.webSnap``
+`exportOptionsGIF.webSnap`
 
 **Description**
 
@@ -287,30 +268,27 @@ Howmuchshouldthecolortablebechangedtomatch the web palette, where 100 is maximum
 
 Number (long).
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Exporting to GIF format
-********************************************************************************
+### Exporting to GIF format
 
-::
+```default
+// Exports current document to dest as a GIF file with specified options,
+// dest contains the full path including the file name
 
-  // Exports current document to dest as a GIF file with specified options,
-  // dest contains the full path including the file name
+function exportToGIFFile(dest) {
+  if (app.documents.length > 0) {
+    var exportOptions = new ExportOptionsGIF();
+    exportOptions.antiAliasing = false;
+    exportOptions.colorCount = 64;
+    exportOptions.colorDither = ColorDitherMethod.DIFFUSION;
 
-  function exportToGIFFile(dest) {
-    if (app.documents.length > 0) {
-      var exportOptions = new ExportOptionsGIF();
-      exportOptions.antiAliasing = false;
-      exportOptions.colorCount = 64;
-      exportOptions.colorDither = ColorDitherMethod.DIFFUSION;
+    var type = ExportType.GIF;
+    var fileSpec = new File(dest);
 
-      var type = ExportType.GIF;
-      var fileSpec = new File(dest);
-
-      app.activeDocument.exportFile(fileSpec, type, exportOptions);
-    }
+    app.activeDocument.exportFile(fileSpec, type, exportOptions);
   }
+}
+```

@@ -1,28 +1,24 @@
-.. _jsobjref/LegacyTextItem:
+<a id="jsobjref-legacytextitem"></a>
 
-LegacyTextItem
-################################################################################
+# LegacyTextItem
 
-``legacyTextItems[index``
+`legacyTextItems[index`
 
 **Description**
 
-A text object created in Illustrator CS (version 10) or earlier, which is uneditable until converted. To convert legacy text, see :ref:`jsobjref/LegacyTextItems.convertToNative`.
+A text object created in Illustrator CS (version 10) or earlier, which is uneditable until converted. To convert legacy text, see [LegacyTextItems.convertToNative()](LegacyTextItems.md#jsobjref-legacytextitems-converttonative).
 
 You can view, move, and print legacy text, but you cant edit it. Legacy text has an “x” through its bounding box when selected.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/LegacyTextItem.artworkKnockout:
+<a id="jsobjref-legacytextitem-artworkknockout"></a>
 
-LegacyTextItem.artworkKnockout
-********************************************************************************
+### LegacyTextItem.artworkKnockout
 
-``legacyTextItems[index].artworkKnockout``
+`legacyTextItems[index].artworkKnockout`
 
 **Description**
 
@@ -30,16 +26,15 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.KnockoutState`
+[KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.blendingMode:
+<a id="jsobjref-legacytextitem-blendingmode"></a>
 
-LegacyTextItem.blendingMode
-********************************************************************************
+### LegacyTextItem.blendingMode
 
-``legacyTextItems[index].blendingMode``
+`legacyTextItems[index].blendingMode`
 
 **Description**
 
@@ -47,16 +42,15 @@ The blend mode used when compositing an object.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BlendModes`
+[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.controlBounds:
+<a id="jsobjref-legacytextitem-controlbounds"></a>
 
-LegacyTextItem.controlBounds
-********************************************************************************
+### LegacyTextItem.controlBounds
 
-``legacyTextItems[index].controlBounds``
+`legacyTextItems[index].controlBounds`
 
 **Description**
 
@@ -66,48 +60,45 @@ The bounds of the object including stroke width and controls.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.converted:
+<a id="jsobjref-legacytextitem-converted"></a>
 
-LegacyTextItem.converted
-********************************************************************************
+### LegacyTextItem.converted
 
-``legacyTextItems[index].converted``
+`legacyTextItems[index].converted`
 
 **Description**
 
-If ``true``, the legacy text item has been updated to a native text frame item.
+If `true`, the legacy text item has been updated to a native text frame item.
 
 **Type**
 
 Boolean, read-only.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.editable:
+<a id="jsobjref-legacytextitem-editable"></a>
 
-LegacyTextItem.editable
-********************************************************************************
+### LegacyTextItem.editable
 
-``legacyTextItems[index].editable``
+`legacyTextItems[index].editable`
 
 **Description**
 
-If ``true``, this item is editable.
+If `true`, this item is editable.
 
 **Type**
 
 Boolean, read-only.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.geometricBounds:
+<a id="jsobjref-legacytextitem-geometricbounds"></a>
 
-LegacyTextItem.geometricBounds
-********************************************************************************
+### LegacyTextItem.geometricBounds
 
-``legacyTextItems[index].geometricBounds``
+`legacyTextItems[index].geometricBounds`
 
 **Description**
 
@@ -117,14 +108,13 @@ The bounds of the object excluding stroke width.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.height:
+<a id="jsobjref-legacytextitem-height"></a>
 
-LegacyTextItem.height
-********************************************************************************
+### LegacyTextItem.height
 
-``legacyTextItems[index].height``
+`legacyTextItems[index].height`
 
 **Description**
 
@@ -134,48 +124,45 @@ The height of the group item.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.hidden:
+<a id="jsobjref-legacytextitem-hidden"></a>
 
-LegacyTextItem.hidden
-********************************************************************************
+### LegacyTextItem.hidden
 
-``legacyTextItems[index].hidden``
+`legacyTextItems[index].hidden`
 
 **Description**
 
-If ``true``, this item is hidden.
+If `true`, this item is hidden.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.isIsolated:
+<a id="jsobjref-legacytextitem-isisolated"></a>
 
-LegacyTextItem.isIsolated
-********************************************************************************
+### LegacyTextItem.isIsolated
 
-``legacyTextItems[index].isIsolated``
+`legacyTextItems[index].isIsolated`
 
 **Description**
 
-If ``true``, this object is isolated.
+If `true`, this object is isolated.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.layer:
+<a id="jsobjref-legacytextitem-layer"></a>
 
-LegacyTextItem.layer
-********************************************************************************
+### LegacyTextItem.layer
 
-``legacyTextItems[index].layer``
+`legacyTextItems[index].layer`
 
 **Description**
 
@@ -183,16 +170,15 @@ The layer to which this item belongs.
 
 **Type**
 
-:ref:`jsobjref/Layer`, read-only.
+[Layer](Layer.md#jsobjref-layer), read-only.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.left:
+<a id="jsobjref-legacytextitem-left"></a>
 
-LegacyTextItem.left
-********************************************************************************
+### LegacyTextItem.left
 
-``legacyTextItems[index].left``
+`legacyTextItems[index].left`
 
 **Description**
 
@@ -202,31 +188,29 @@ The position of the left side of the item (in points, measured from the left sid
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.locked:
+<a id="jsobjref-legacytextitem-locked"></a>
 
-LegacyTextItem.locked
-********************************************************************************
+### LegacyTextItem.locked
 
-``legacyTextItems[index].locked``
+`legacyTextItems[index].locked`
 
 **Description**
 
-If ``true``, this item is locked.
+If `true`, this item is locked.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.name:
+<a id="jsobjref-legacytextitem-name"></a>
 
-LegacyTextItem.name
-********************************************************************************
+### LegacyTextItem.name
 
-``legacyTextItems[index].name``
+`legacyTextItems[index].name`
 
 **Description**
 
@@ -236,14 +220,13 @@ The name of this item.
 
 String.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.note:
+<a id="jsobjref-legacytextitem-note"></a>
 
-LegacyTextItem.note
-********************************************************************************
+### LegacyTextItem.note
 
-``legacyTextItems[index].note``
+`legacyTextItems[index].note`
 
 **Description**
 
@@ -253,14 +236,13 @@ The note assigned to this item.
 
 String.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.opacity:
+<a id="jsobjref-legacytextitem-opacity"></a>
 
-LegacyTextItem.opacity
-********************************************************************************
+### LegacyTextItem.opacity
 
-``legacyTextItems[index].opacity``
+`legacyTextItems[index].opacity`
 
 **Description**
 
@@ -270,14 +252,13 @@ The opacity of the object. Range: 0.0 to 100.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.parent:
+<a id="jsobjref-legacytextitem-parent"></a>
 
-LegacyTextItem.parent
-********************************************************************************
+### LegacyTextItem.parent
 
-``legacyTextItems[index].parent``
+`legacyTextItems[index].parent`
 
 **Description**
 
@@ -285,67 +266,63 @@ The parent of this object.
 
 **Type**
 
-:ref:`jsobjref/Layer` or :ref:`jsobjref/GroupItem`, read-only.
+[Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem), read-only.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.position:
+<a id="jsobjref-legacytextitem-position"></a>
 
-LegacyTextItem.position
-********************************************************************************
+### LegacyTextItem.position
 
-``legacyTextItems[index].position``
+`legacyTextItems[index].position`
 
 **Description**
 
-The position (in points) of the top left corner of the ``legacyTextItems[index`` object in the format [x, y]. Does not include stroke weight.
+The position (in points) of the top left corner of the `legacyTextItems[index` object in the format [x, y]. Does not include stroke weight.
 
 **Type**
 
 Array of 2 numbers.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.selected:
+<a id="jsobjref-legacytextitem-selected"></a>
 
-LegacyTextItem.selected
-********************************************************************************
+### LegacyTextItem.selected
 
-``legacyTextItems[index].selected``
+`legacyTextItems[index].selected`
 
 **Description**
 
-If ``true``, this item is selected.
+If `true`, this item is selected.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.sliced:
+<a id="jsobjref-legacytextitem-sliced"></a>
 
-LegacyTextItem.sliced
-********************************************************************************
+### LegacyTextItem.sliced
 
-``legacyTextItems[index].sliced``
+`legacyTextItems[index].sliced`
 
 **Description**
 
-If ``true``, the item sliced. Default: ``false``.
+If `true`, the item sliced. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.tags:
+<a id="jsobjref-legacytextitem-tags"></a>
 
-LegacyTextItem.tags
-********************************************************************************
+### LegacyTextItem.tags
 
-``legacyTextItems[index].tags``
+`legacyTextItems[index].tags`
 
 **Description**
 
@@ -353,16 +330,15 @@ The tags contained in this item.
 
 **Type**
 
-:ref:`jsobjref/Tags`, read-only.
+[Tags](Tags.md#jsobjref-tags), read-only.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.top:
+<a id="jsobjref-legacytextitem-top"></a>
 
-LegacyTextItem.top
-********************************************************************************
+### LegacyTextItem.top
 
-``legacyTextItems[index].top``
+`legacyTextItems[index].top`
 
 **Description**
 
@@ -372,14 +348,13 @@ The position of the top of the item (in points, measured from the bottom of the 
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.typename:
+<a id="jsobjref-legacytextitem-typename"></a>
 
-LegacyTextItem.typename
-********************************************************************************
+### LegacyTextItem.typename
 
-``legacyTextItems[index].typename``
+`legacyTextItems[index].typename`
 
 **Description**
 
@@ -389,14 +364,13 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.uRL:
+<a id="jsobjref-legacytextitem-url"></a>
 
-LegacyTextItem.uRL
-********************************************************************************
+### LegacyTextItem.uRL
 
-``legacyTextItems[index].uRL``
+`legacyTextItems[index].uRL`
 
 **Description**
 
@@ -406,14 +380,13 @@ The value of the Adobe URL tag assigned to this item.
 
 String.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.visibilityVariable:
+<a id="jsobjref-legacytextitem-visibilityvariable"></a>
 
-LegacyTextItem.visibilityVariable
-********************************************************************************
+### LegacyTextItem.visibilityVariable
 
-``legacyTextItems[index].visibilityVariable``
+`legacyTextItems[index].visibilityVariable`
 
 **Description**
 
@@ -421,16 +394,15 @@ The visibility variable bound to the item.
 
 **Type**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.visibleBounds:
+<a id="jsobjref-legacytextitem-visiblebounds"></a>
 
-LegacyTextItem.visibleBounds
-********************************************************************************
+### LegacyTextItem.visibleBounds
 
-``legacyTextItems[index].visibleBounds``
+`legacyTextItems[index].visibleBounds`
 
 **Description**
 
@@ -440,14 +412,13 @@ The visible bounds of the item including stroke width.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.width:
+<a id="jsobjref-legacytextitem-width"></a>
 
-LegacyTextItem.width
-********************************************************************************
+### LegacyTextItem.width
 
-``legacyTextItems[index].width``
+`legacyTextItems[index].width`
 
 **Description**
 
@@ -457,31 +428,29 @@ The width of the item.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.wrapInside:
+<a id="jsobjref-legacytextitem-wrapinside"></a>
 
-LegacyTextItem.wrapInside
-********************************************************************************
+### LegacyTextItem.wrapInside
 
-``legacyTextItems[index].wrapInside``
+`legacyTextItems[index].wrapInside`
 
 **Description**
 
-If ``true``, the text frame object should be wrapped inside this object.
+If `true`, the text frame object should be wrapped inside this object.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.wrapOffset:
+<a id="jsobjref-legacytextitem-wrapoffset"></a>
 
-LegacyTextItem.wrapOffset
-********************************************************************************
+### LegacyTextItem.wrapOffset
 
-``legacyTextItems[index].wrapOffset``
+`legacyTextItems[index].wrapOffset`
 
 **Description**
 
@@ -491,52 +460,47 @@ The offset to use when wrapping text around this object.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.wrapped:
+<a id="jsobjref-legacytextitem-wrapped"></a>
 
-LegacyTextItem.wrapped
-********************************************************************************
+### LegacyTextItem.wrapped
 
-``legacyTextItems[index].wrapped``
+`legacyTextItems[index].wrapped`
 
 **Description**
 
-If ``true``, wrap text frame objects around this object (text frame must be above the object).
+If `true`, wrap text frame objects around this object (text frame must be above the object).
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.zOrderPosition:
+<a id="jsobjref-legacytextitem-zorderposition"></a>
 
-LegacyTextItem.zOrderPosition
-********************************************************************************
+### LegacyTextItem.zOrderPosition
 
-``legacyTextItems[index].zOrderPosition``
+`legacyTextItems[index].zOrderPosition`
 
 **Description**
 
-The position of this item within the stacking order of the group or layer (``parent``) that contains the item.
+The position of this item within the stacking order of the group or layer (`parent`) that contains the item.
 
 **Type**
 
 Number (long), read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/LegacyTextItem.convertToNative:
+<a id="jsobjref-legacytextitem-converttonative"></a>
 
-LegacyTextItem.convertToNative()
-********************************************************************************
+### LegacyTextItem.convertToNative()
 
-``legacyTextItems[index].convertToNative()``
+`legacyTextItems[index].convertToNative()`
 
 **Description**
 
@@ -544,16 +508,15 @@ Converts the legacy text item to a text frame and deletes the original legacy te
 
 **Returns**
 
-:ref:`jsobjref/GroupItem`
+[GroupItem](GroupItem.md#jsobjref-groupitem)
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.duplicate:
+<a id="jsobjref-legacytextitem-duplicate"></a>
 
-LegacyTextItem.duplicate()
-********************************************************************************
+### LegacyTextItem.duplicate()
 
-``legacyTextItems[index].duplicate([relativeObject] [,insertionLocation])``
+`legacyTextItems[index].duplicate([relativeObject] [,insertionLocation])`
 
 **Description**
 
@@ -561,26 +524,22 @@ Creates a duplicate of the selected object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+----------------------------+
-|       Parameter       |                              Type                              |        Description         |
-+=======================+================================================================+============================+
-| ``relativeObject``    | Object, optional                                               | Object to duplicate to     |
-+-----------------------+----------------------------------------------------------------+----------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to insert element |
-+-----------------------+----------------------------------------------------------------+----------------------------+
+| Parameter           | Type                                                                                               | Description                |
+|---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
+| `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
 **Returns**
 
-:ref:`jsobjref/LegacyTextItem`
+[LegacyTextItem](#jsobjref-legacytextitem)
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.move:
+<a id="jsobjref-legacytextitem-move"></a>
 
-LegacyTextItem.move()
-********************************************************************************
+### LegacyTextItem.move()
 
-``legacyTextItems[index].move(relativeObject, insertionLocation)``
+`legacyTextItems[index].move(relativeObject, insertionLocation)`
 
 **Description**
 
@@ -588,26 +547,22 @@ Moves the object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-|       Parameter       |                              Type                              |          Description          |
-+=======================+================================================================+===============================+
-| ``relativeObject``    | Object                                                         | Object to move element within |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to move element to   |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
+| Parameter           | Type                                                                                               | Description                   |
+|---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
+| `relativeObject`    | Object                                                                                             | Object to move element within |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
 **Returns**
 
-:ref:`jsobjref/LegacyTextItem`
+[LegacyTextItem](#jsobjref-legacytextitem)
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.remove:
+<a id="jsobjref-legacytextitem-remove"></a>
 
-LegacyTextItem.remove()
-********************************************************************************
+### LegacyTextItem.remove()
 
-``legacyTextItems[index].remove()``
+`legacyTextItems[index].remove()`
 
 **Description**
 
@@ -617,19 +572,18 @@ Deletes this object.
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.resize:
+<a id="jsobjref-legacytextitem-resize"></a>
 
-LegacyTextItem.resize()
-********************************************************************************
+### LegacyTextItem.resize()
 
-::
-
-  legacyTextItem.resize(scaleX, scaleY
-    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
-  )
+```default
+legacyTextItem.resize(scaleX, scaleY
+  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+  [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
+)
+```
 
 **Description**
 
@@ -637,82 +591,64 @@ Scales the art item where scaleX is the horizontal scaling factor and scaleY is 
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``scaleX``              | Number (double)                                              | Horizontal scaling factor                               |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleY``              | Number (double)                                              | Vertical scaling factor                                 |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeLineWidths``    | Number (double), optional                                    | The amount to scale line widths                         |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleAbout``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `scaleX`              | Number (double)                                                                                | Horizontal scaling factor                               |
+| `scaleY`              | Number (double)                                                                                | Vertical scaling factor                                 |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
+| `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.rotate:
+<a id="jsobjref-legacytextitem-rotate"></a>
 
-LegacyTextItem.rotate()
-********************************************************************************
+### LegacyTextItem.rotate()
 
-::
-
-  legacyTextItem.rotate(angle [,changePositions] [,changeFillPatterns]
-    [,changeFillGradients] [,changeStrokePattern] [,rotateAbout]
-  )
+```default
+legacyTextItem.rotate(angle [,changePositions] [,changeFillPatterns]
+  [,changeFillGradients] [,changeStrokePattern] [,rotateAbout]
+)
+```
 
 **Description**
 
-Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the ``angle`` value is positive, clockwise if the value is negative.
+Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``angle``               | Number (double)                                              | The angle amount to rotate the element                  |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``rotateAbout``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `angle`               | Number (double)                                                                                | The angle amount to rotate the element                  |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.transform:
+<a id="jsobjref-legacytextitem-transform"></a>
 
-LegacyTextItem.transform()
-********************************************************************************
+### LegacyTextItem.transform()
 
-::
-
-  legacyTextItem.transform(transformationMatrix
-    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
-  )
+```default
+legacyTextItem.transform(transformationMatrix
+  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+  [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
+)
+```
 
 **Description**
 
@@ -720,76 +656,59 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-|        Parameter         |                             Type                             |                  Description                   |
-+==========================+==============================================================+================================================+
-| ``transformationMatrix`` | :ref:`jsobjref/Matrix`                                       | Transformation matrix to apply                 |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changePositions``      | Boolean, optional                                            | Whether to change Positions                    |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillPatterns``   | Boolean, optional                                            | Whether to change Fill Patterns                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillGradients``  | Boolean, optional                                            | Whether to change Fill Gradients               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeStrokePattern``  | Boolean, optional                                            | Whether to change Stroke Pattern               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeLineWidths``     | Number (double), optional                                    | The amount to scale line widths                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``transformAbout``       | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| Parameter              | Type                                                                                           | Description                                    |
+|------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
+| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
+| `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
+| `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |
+| `changeStrokePattern`  | Boolean, optional                                                                              | Whether to change Stroke Pattern               |
+| `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
+| `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.translate:
+<a id="jsobjref-legacytextitem-translate"></a>
 
-LegacyTextItem.translate()
-********************************************************************************
+### LegacyTextItem.translate()
 
-::
-
-  legacyTextItem.translate([deltaX] [,deltaY]
-    [,transformObjects] [,transformFillPatterns]
-    [,transformFillGradients] [,transformStrokePatterns]
-  )
+```default
+legacyTextItem.translate([deltaX] [,deltaY]
+  [,transformObjects] [,transformFillPatterns]
+  [,transformFillGradients] [,transformStrokePatterns]
+)
+```
 
 **Description**
 
-Repositions the art item relative to the current position, where ``deltaX`` is the horizontal offset and ``deltaY`` is the vertical offset.
+Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
 **Parameters**
 
-+-----------------------------+---------------------------+--------------------------------------+
-|          Parameter          |           Type            |             Description              |
-+=============================+===========================+======================================+
-| ``deltaX``                  | Number (double), optional | Horizontal offset                    |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``deltaY``                  | Number (double), optional | Vertical offset                      |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformObjects``        | Boolean, optional         | Whether to transform Objects         |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillPatterns``   | Boolean, optional         | Whether to transform Fill Patterns   |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillGradients``  | Boolean, optional         | Whether to transform Fill Gradients  |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformStrokePatterns`` | Boolean, optional         | Whether to transform Stroke Patterns |
-+-----------------------------+---------------------------+--------------------------------------+
+| Parameter                 | Type                      | Description                          |
+|---------------------------|---------------------------|--------------------------------------|
+| `deltaX`                  | Number (double), optional | Horizontal offset                    |
+| `deltaY`                  | Number (double), optional | Vertical offset                      |
+| `transformObjects`        | Boolean, optional         | Whether to transform Objects         |
+| `transformFillPatterns`   | Boolean, optional         | Whether to transform Fill Patterns   |
+| `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
+| `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/LegacyTextItem.zOrder:
+<a id="jsobjref-legacytextitem-zorder"></a>
 
-LegacyTextItem.zOrder()
-********************************************************************************
+### LegacyTextItem.zOrder()
 
-``legacyTextItems[index].zOrder(zOrderCmd)``
+`legacyTextItems[index].zOrder(zOrderCmd)`
 
 **Description**
 
@@ -797,11 +716,9 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-+---------------+--------------------------------------------------+-----------------------------------+
-|   Parameter   |                       Type                       |            Description            |
-+===============+==================================================+===================================+
-| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | Stacking order arrangement method |
-+---------------+--------------------------------------------------+-----------------------------------+
+| Parameter   | Type                                                                             | Description                       |
+|-------------|----------------------------------------------------------------------------------|-----------------------------------|
+| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
 **Returns**
 

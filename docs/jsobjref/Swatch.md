@@ -1,9 +1,8 @@
-.. _jsobjref/Swatch:
+<a id="jsobjref-swatch"></a>
 
-Swatch
-################################################################################
+# Swatch
 
-``app.activeDocument.swatches[index``
+`app.activeDocument.swatches[index`
 
 **Description**
 
@@ -13,18 +12,15 @@ A script can create a new swatch.
 
 The swatch can hold all types of color data, such as pattern, gradient, CMYK, RGB, gray, and spot.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Swatch.color:
+<a id="jsobjref-swatch-color"></a>
 
-Swatch.color
-********************************************************************************
+### Swatch.color
 
-``app.activeDocument.swatches[index].color``
+`app.activeDocument.swatches[index].color`
 
 **Description**
 
@@ -32,33 +28,31 @@ The color information for this swatch.
 
 **Type**
 
-:ref:`jsobjref/Color`
+[Color](Color.md#jsobjref-color)
 
-----
+---
 
-.. _jsobjref/Swatch.name:
+<a id="jsobjref-swatch-name"></a>
 
-Swatch.name
-********************************************************************************
+### Swatch.name
 
-``app.activeDocument.swatches[index].name``
+`app.activeDocument.swatches[index].name`
 
 **Description**
 
-The swatch's name.
+The swatch’s name.
 
 **Type**
 
 String.
 
-----
+---
 
-.. _jsobjref/Swatch.parent:
+<a id="jsobjref-swatch-parent"></a>
 
-Swatch.parent
-********************************************************************************
+### Swatch.parent
 
-``app.activeDocument.swatches[index].parent``
+`app.activeDocument.swatches[index].parent`
 
 **Description**
 
@@ -66,16 +60,15 @@ The object that contains this swatch.
 
 **Type**
 
-:ref:`jsobjref/Document`, read-only.
+[Document](Document.md#jsobjref-document), read-only.
 
-----
+---
 
-.. _jsobjref/Swatch.typename:
+<a id="jsobjref-swatch-typename"></a>
 
-Swatch.typename
-********************************************************************************
+### Swatch.typename
 
-``app.activeDocument.swatches[index].typename``
+`app.activeDocument.swatches[index].typename`
 
 **Description**
 
@@ -85,18 +78,15 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Swatch.remove:
+<a id="jsobjref-swatch-remove"></a>
 
-Swatch.remove()
-********************************************************************************
+### Swatch.remove()
 
-``app.activeDocument.swatches[index].remove()``
+`app.activeDocument.swatches[index].remove()`
 
 **Description**
 
@@ -106,20 +96,17 @@ Deletes this object.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Modifying a swatch
-********************************************************************************
+### Modifying a swatch
 
-::
-
-  // Changes the name of the last swatch
-  if ( app.documents.length > 0 && app.activeDocument.swatches.length > 0 ) {
-    var lastIndex = app.activeDocument.swatches.length - 1;
-    var lastSwatch = app.activeDocument.swatches[lastIndex];
-    lastSwatch.name = "TheLastSwatch";
-  }
+```default
+// Changes the name of the last swatch
+if ( app.documents.length > 0 && app.activeDocument.swatches.length > 0 ) {
+  var lastIndex = app.activeDocument.swatches.length - 1;
+  var lastSwatch = app.activeDocument.swatches[lastIndex];
+  lastSwatch.name = "TheLastSwatch";
+}
+```

@@ -1,26 +1,22 @@
-.. _jsobjref/NonNativeItems:
+<a id="jsobjref-nonnativeitems"></a>
 
-NonNativeItems
-################################################################################
+# NonNativeItems
 
-``nonNativeItems``
+`nonNativeItems`
 
 **Description**
 
-A collection of :ref:`jsobjref/NonNativeItem` objects.
+A collection of [NonNativeItem](NonNativeItem.md#jsobjref-nonnativeitem) objects.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/NonNativeItems.length:
+<a id="jsobjref-nonnativeitems-length"></a>
 
-NonNativeItems.length
-********************************************************************************
+### NonNativeItems.length
 
-``nonNativeItems.length``
+`nonNativeItems.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ The number of objects in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/NonNativeItems.parent:
+<a id="jsobjref-nonnativeitems-parent"></a>
 
-NonNativeItems.parent
-********************************************************************************
+### NonNativeItems.parent
 
-``nonNativeItems.parent``
+`nonNativeItems.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The parent of this object.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/NonNativeItems.typename:
+<a id="jsobjref-nonnativeitems-typename"></a>
 
-NonNativeItems.typename
-********************************************************************************
+### NonNativeItems.typename
 
-``nonNativeItems.typename``
+`nonNativeItems.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/NonNativeItems.getByName:
+<a id="jsobjref-nonnativeitems-getbyname"></a>
 
-NonNativeItems.getByName()
-********************************************************************************
+### NonNativeItems.getByName()
 
-``nonNativeItems.getByName(name)``
+`nonNativeItems.getByName(name)`
 
 **Description**
 
@@ -83,12 +74,10 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/NonNativeItem`, :ref:`jsobjref/SymbolItem`
+[NonNativeItem](NonNativeItem.md#jsobjref-nonnativeitem), [SymbolItem](SymbolItem.md#jsobjref-symbolitem)

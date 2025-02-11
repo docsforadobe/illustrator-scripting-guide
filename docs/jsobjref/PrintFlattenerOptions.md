@@ -1,84 +1,76 @@
-.. _jsobjref/PrintFlattenerOptions:
+<a id="jsobjref-printflatteneroptions"></a>
 
-PrintFlattenerOptions
-################################################################################
+# PrintFlattenerOptions
 
-``new PrintFlattenerOptions()``
+`new PrintFlattenerOptions()`
 
 **Description**
 
 Contains flattening options for use when Illustrator outputs artwork that contains transparency into a non-native format.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
+<a id="jsobjref-printflatteneroptions-clipcomplexregions"></a>
 
-.. _jsobjref/PrintFlattenerOptions.clipComplexRegions:
+### PrintFlattenerOptions.clipComplexRegions
 
-PrintFlattenerOptions.clipComplexRegions
-********************************************************************************
-
-``printFlattenerOptions.clipComplexRegions``
+`printFlattenerOptions.clipComplexRegions`
 
 **Description**
 
-If ``true``, complex regions should be clipped.
+If `true`, complex regions should be clipped.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintFlattenerOptions.convertStrokesToOutlines:
+<a id="jsobjref-printflatteneroptions-convertstrokestooutlines"></a>
 
-PrintFlattenerOptions.convertStrokesToOutlines
-********************************************************************************
+### PrintFlattenerOptions.convertStrokesToOutlines
 
-``printFlattenerOptions.convertStrokesToOutlines``
+`printFlattenerOptions.convertStrokesToOutlines`
 
 **Description**
 
-If ``true``, convert all strokes to outlines.
+If `true`, convert all strokes to outlines.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintFlattenerOptions.convertTextToOutlines:
+<a id="jsobjref-printflatteneroptions-converttexttooutlines"></a>
 
-PrintFlattenerOptions.convertTextToOutlines
-********************************************************************************
+### PrintFlattenerOptions.convertTextToOutlines
 
-``printFlattenerOptions.convertTextToOutlines``
+`printFlattenerOptions.convertTextToOutlines`
 
 **Description**
 
-If ``true``, all text is converted to vector paths; preserves the visual appearance of type.
+If `true`, all text is converted to vector paths; preserves the visual appearance of type.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintFlattenerOptions.flatteningBalance:
+<a id="jsobjref-printflatteneroptions-flatteningbalance"></a>
 
-PrintFlattenerOptions.flatteningBalance
-********************************************************************************
+### PrintFlattenerOptions.flatteningBalance
 
-``printFlattenerOptions.flatteningBalance``
+`printFlattenerOptions.flatteningBalance`
 
 **Description**
 
@@ -92,14 +84,13 @@ Default: 100.0
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/PrintFlattenerOptions.gradientResolution:
+<a id="jsobjref-printflatteneroptions-gradientresolution"></a>
 
-PrintFlattenerOptions.gradientResolution
-********************************************************************************
+### PrintFlattenerOptions.gradientResolution
 
-``printFlattenerOptions.gradientResolution``
+`printFlattenerOptions.gradientResolution`
 
 **Description**
 
@@ -113,33 +104,31 @@ Default: 300.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrintFlattenerOptions.overprint:
+<a id="jsobjref-printflatteneroptions-overprint"></a>
 
-PrintFlattenerOptions.overprint
-********************************************************************************
+### PrintFlattenerOptions.overprint
 
-``printFlattenerOptions.overprint``
+`printFlattenerOptions.overprint`
 
 **Description**
 
 Whether to preserve, discard, or simulate overprinting.
 
-Default: ``PDFOverprint.PRESERVEPDFOVERPRINT``
+Default: `PDFOverprint.PRESERVEPDFOVERPRINT`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PDFOverprint`
+[PDFOverprint](scripting-constants.md#jsobjref-scripting-constants-pdfoverprint)
 
-----
+---
 
-.. _jsobjref/PrintFlattenerOptions.rasterizationResolution:
+<a id="jsobjref-printflatteneroptions-rasterizationresolution"></a>
 
-PrintFlattenerOptions.rasterizationResolution
-********************************************************************************
+### PrintFlattenerOptions.rasterizationResolution
 
-``printFlattenerOptions.rasterizationResolution``
+`printFlattenerOptions.rasterizationResolution`
 
 **Description**
 
@@ -151,14 +140,13 @@ Default: 300.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrintFlattenerOptions.typename:
+<a id="jsobjref-printflatteneroptions-typename"></a>
 
-PrintFlattenerOptions.typename
-********************************************************************************
+### PrintFlattenerOptions.typename
 
-``printFlattenerOptions.typename``
+`printFlattenerOptions.typename`
 
 **Description**
 
@@ -168,46 +156,43 @@ The class name of the object.
 
 String; read-only.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Setting print flattening
-********************************************************************************
+### Setting print flattening
 
-::
+```default
+// Creates a new document, adds symbols to the document
+// then prints with a range of flattener balance settings
+var docRef = documents.add();
+var y = docRef.height - 30;
 
-  // Creates a new document, adds symbols to the document
-  // then prints with a range of flattener balance settings
-  var docRef = documents.add();
-  var y = docRef.height - 30;
+for (var i = 0; i < (docRef.symbols.length); i++) {
+  symbolRef = docRef.symbols[i];
 
-  for (var i = 0; i < (docRef.symbols.length); i++) {
-    symbolRef = docRef.symbols[i];
+  symbolItemRef1 = docRef.symbolItems.add(symbolRef);
+  symbolItemRef1.top = y;
+  symbolItemRef1.left = 100;
 
-    symbolItemRef1 = docRef.symbolItems.add(symbolRef);
-    symbolItemRef1.top = y;
-    symbolItemRef1.left = 100;
+  y -= (symbolItemRef1.height + 10);
+}
 
-    y -= (symbolItemRef1.height + 10);
-  }
+redraw();
 
-  redraw();
+// Create PrintFlattenerOptions object and assign to a PrintOptions object
+var flatOpts = new PrintFlattenerOptions();
+var printOpts = new PrintOptions();
+printOpts.flattenerOptions = flatOpts;
 
-  // Create PrintFlattenerOptions object and assign to a PrintOptions object
-  var flatOpts = new PrintFlattenerOptions();
-  var printOpts = new PrintOptions();
-  printOpts.flattenerOptions = flatOpts;
+// Set other print options
+printOpts.ClipComplexRegions = true;
+printOpts.GradientResoultion = 360;
+printOpts.RasterizatonResotion = 360;
 
-  // Set other print options
-  printOpts.ClipComplexRegions = true;
-  printOpts.GradientResoultion = 360;
-  printOpts.RasterizatonResotion = 360;
-
-  // Print the current document with flattening balance increments of 20
-  for (var i = 0; i <= 100; i += 20) {
-    flatOpts.flatteningBalance = i;
-    activeDocument.print(printOpts);
-  }
+// Print the current document with flattening balance increments of 20
+for (var i = 0; i <= 100; i += 20) {
+  flatOpts.flatteningBalance = i;
+  activeDocument.print(printOpts);
+}
+```

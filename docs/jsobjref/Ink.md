@@ -1,26 +1,22 @@
-.. _jsobjref/Ink:
+<a id="jsobjref-ink"></a>
 
-Ink
-################################################################################
+# Ink
 
-``app.activeDocument.inkLisk[index``
+`app.activeDocument.inkLisk[index`
 
 **Description**
 
 Associates a document ink name with ink information.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Ink.inkInfo:
+<a id="jsobjref-ink-inkinfo"></a>
 
-Ink.inkInfo
-********************************************************************************
+### Ink.inkInfo
 
-``app.activeDocument.inkLisk[index].inkInfo``
+`app.activeDocument.inkLisk[index].inkInfo`
 
 **Description**
 
@@ -28,16 +24,15 @@ The ink information
 
 **Type**
 
-:ref:`jsobjref/InkInfo`
+[InkInfo](InkInfo.md#jsobjref-inkinfo)
 
-----
+---
 
-.. _jsobjref/Ink.name:
+<a id="jsobjref-ink-name"></a>
 
-Ink.name
-********************************************************************************
+### Ink.name
 
-``app.activeDocument.inkLisk[index].name``
+`app.activeDocument.inkLisk[index].name`
 
 **Description**
 
@@ -47,14 +42,13 @@ The ink’s name.
 
 String.
 
-----
+---
 
-.. _jsobjref/Ink.typename:
+<a id="jsobjref-ink-typename"></a>
 
-Ink.typename
-********************************************************************************
+### Ink.typename
 
-``app.activeDocument.inkLisk[index].typename``
+`app.activeDocument.inkLisk[index].typename`
 
 **Description**
 

@@ -1,62 +1,56 @@
-.. _jsobjref/ExportOptionsTIFF:
+<a id="jsobjref-exportoptionstiff"></a>
 
-ExportOptionsTIFF
-################################################################################
+# ExportOptionsTIFF
 
-``exportOptionsTIFF``
+`exportOptionsTIFF`
 
 **Description**
 
-Options for exporting a document as a TIFF file, used with the :ref:`jsobjref/Document.exportFile` method. All properties are optional.
+Options for exporting a document as a TIFF file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method. All properties are optional.
 
 When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/ExportOptionsTIFF.antiAliasing:
+<a id="jsobjref-exportoptionstiff-antialiasing"></a>
 
-ExportOptionsTIFF.antiAliasing
-********************************************************************************
+### ExportOptionsTIFF.antiAliasing
 
-``exportOptionsTIFF.antiAliasing``
+`exportOptionsTIFF.antiAliasing`
 
 **Description**
 
-If ``true``, the exported image should be anti-aliased. Default: ``true``.
+If `true`, the exported image should be anti-aliased. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsTIFF.artboardRange:
+<a id="jsobjref-exportoptionstiff-artboardrange"></a>
 
-ExportOptionsTIFF.artboardRange
-********************************************************************************
+### ExportOptionsTIFF.artboardRange
 
-``exportOptionsTIFF.artboardRange``
+`exportOptionsTIFF.artboardRange`
 
 **Description**
 
-If ``saveMultipleArtboards`` is ``true``, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty String.
+If `saveMultipleArtboards` is `true`, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty String.
 
 **Type**
 
 String.
 
-----
+---
 
-.. _jsobjref/ExportOptionsTIFF.byteOrder:
+<a id="jsobjref-exportoptionstiff-byteorder"></a>
 
-ExportOptionsTIFF.byteOrder
-********************************************************************************
+### ExportOptionsTIFF.byteOrder
 
-``exportOptionsTIFF.byteOrder``
+`exportOptionsTIFF.byteOrder`
 
 **Description**
 
@@ -64,53 +58,50 @@ The byte order to use in the new file.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.TIFFByteOrder`
+[TIFFByteOrder](scripting-constants.md#jsobjref-scripting-constants-tiffbyteorder)
 
-----
+---
 
-.. _jsobjref/ExportOptionsTIFF.imageColorSpace:
+<a id="jsobjref-exportoptionstiff-imagecolorspace"></a>
 
-ExportOptionsTIFF.imageColorSpace
-********************************************************************************
+### ExportOptionsTIFF.imageColorSpace
 
-``exportOptionsTIFF.imageColorSpace``
+`exportOptionsTIFF.imageColorSpace`
 
 **Description**
 
-The color space of the exported file. Default: ``ImageColorSpace.RGB``.
+The color space of the exported file. Default: `ImageColorSpace.RGB`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.ImageColorSpace`
+[ImageColorSpace](scripting-constants.md#jsobjref-scripting-constants-imagecolorspace)
 
-----
+---
 
-.. _jsobjref/ExportOptionsTIFF.lZWCompression:
+<a id="jsobjref-exportoptionstiff-lzwcompression"></a>
 
-ExportOptionsTIFF.lZWCompression
-********************************************************************************
+### ExportOptionsTIFF.lZWCompression
 
-``exportOptionsTIFF.lZWCompression``
+`exportOptionsTIFF.lZWCompression`
 
-.. note::
-   This property was erroneously written as "IZWCompression" (with a capital "I"), as opposed to "lzwCompression" (with a lowercase "L"). Note that the latter is correct, and this doc has been updated to reflect this.
+#### NOTE
+This property was erroneously written as “IZWCompression” (with a capital “I”), as opposed to “lzwCompression” (with a lowercase “L”). Note that the latter is correct, and this doc has been updated to reflect this.
 
 **Description**
 
-If ``true``, use IZW compression in the new file.
+If `true`, use IZW compression in the new file.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsTIFF.resolution:
+<a id="jsobjref-exportoptionstiff-resolution"></a>
 
-ExportOptionsTIFF.resolution
-********************************************************************************
+### ExportOptionsTIFF.resolution
 
-``exportOptionsTIFF.resolution``
+`exportOptionsTIFF.resolution`
 
 **Description**
 
@@ -120,47 +111,43 @@ Resolution of the exported file in dots per inch (dpi). Range: 72.0 to 2400.0. D
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ExportOptionsTIFF.saveMultipleArtboards:
+<a id="jsobjref-exportoptionstiff-savemultipleartboards"></a>
 
-ExportOptionsTIFF.saveMultipleArtboards
-********************************************************************************
+### ExportOptionsTIFF.saveMultipleArtboards
 
-``exportOptionsTIFF.saveMultipleArtboards``
+`exportOptionsTIFF.saveMultipleArtboards`
 
 **Description**
 
-If ``true``, all artboards or range of artboards are saved. Default: ``false``.
+If `true`, all artboards or range of artboards are saved. Default: `false`.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Exporting to TIFF format
-********************************************************************************
+### Exporting to TIFF format
 
-::
+```default
+// Exports current document to dest as a TIFF file with specified options,
+// dest contains the full path including the file name
 
-  // Exports current document to dest as a TIFF file with specified options,
-  // dest contains the full path including the file name
+function exportFileToPSD(dest) {
+  if (app.documents.length > 0) {
+    var exportOptions = new ExportOptionsTIFF();
+    exportOptions.resolution = 150;
+    exportOptions.byteOrder = TIFFByteOrder.IBMPC;
+    exportOptions.lZWCompression = false;
 
-  function exportFileToPSD(dest) {
-    if (app.documents.length > 0) {
-      var exportOptions = new ExportOptionsTIFF();
-      exportOptions.resolution = 150;
-      exportOptions.byteOrder = TIFFByteOrder.IBMPC;
-      exportOptions.lZWCompression = false;
+    var type = ExportType.TIFF;
+    var fileSpec = new File(dest);
 
-      var type = ExportType.TIFF;
-      var fileSpec = new File(dest);
-
-      app.activeDocument.exportFile(fileSpec, type, exportOptions);
-    }
+    app.activeDocument.exportFile(fileSpec, type, exportOptions);
   }
+}
+```

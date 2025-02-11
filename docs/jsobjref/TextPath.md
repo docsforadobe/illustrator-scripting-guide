@@ -1,26 +1,22 @@
-.. _jsobjref/TextPath:
+<a id="jsobjref-textpath"></a>
 
-TextPath
-################################################################################
+# TextPath
 
-``textPath``
+`textPath`
 
 **Description**
 
 A path or list of paths for area or path text. A path consists of path points that define its geometry.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/TextPath.area:
+<a id="jsobjref-textpath-area"></a>
 
-TextPath.area
-********************************************************************************
+### TextPath.area
 
-``textPath.area``
+`textPath.area`
 
 **Description**
 
@@ -32,14 +28,13 @@ Self-intersecting paths can contain sub-areas that cancel each other out, which 
 
 Number (double), read-only.
 
-----
+---
 
-.. _jsobjref/TextPath.blendingMode:
+<a id="jsobjref-textpath-blendingmode"></a>
 
-TextPath.blendingMode
-********************************************************************************
+### TextPath.blendingMode
 
-``textPath.blendingMode``
+`textPath.blendingMode`
 
 **Description**
 
@@ -47,16 +42,15 @@ The blend mode used when compositing an object.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BlendModes`
+[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
-----
+---
 
-.. _jsobjref/TextPath.clipping:
+<a id="jsobjref-textpath-clipping"></a>
 
-TextPath.clipping
-********************************************************************************
+### TextPath.clipping
 
-``textPath.clipping``
+`textPath.clipping`
 
 **Description**
 
@@ -66,14 +60,13 @@ If true, this path should be used as a clipping path.
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TextPath.closed:
+<a id="jsobjref-textpath-closed"></a>
 
-TextPath.closed
-********************************************************************************
+### TextPath.closed
 
-``textPath.closed``
+`textPath.closed`
 
 **Description**
 
@@ -83,14 +76,13 @@ If true, this path is closed.
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TextPath.editable:
+<a id="jsobjref-textpath-editable"></a>
 
-TextPath.editable
-********************************************************************************
+### TextPath.editable
 
-``textPath.editable``
+`textPath.editable`
 
 **Description**
 
@@ -100,14 +92,13 @@ Read-only. If true, this item is editable.
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TextPath.evenodd:
+<a id="jsobjref-textpath-evenodd"></a>
 
-TextPath.evenodd
-********************************************************************************
+### TextPath.evenodd
 
-``textPath.evenodd``
+`textPath.evenodd`
 
 **Description**
 
@@ -117,14 +108,13 @@ If true, the even-odd rule should be used to determine insideness.
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TextPath.fillColor:
+<a id="jsobjref-textpath-fillcolor"></a>
 
-TextPath.fillColor
-********************************************************************************
+### TextPath.fillColor
 
-``textPath.fillColor``
+`textPath.fillColor`
 
 **Description**
 
@@ -132,16 +122,15 @@ The fill color of the path.
 
 **Type**
 
-:ref:`jsobjref/Color`
+[Color](Color.md#jsobjref-color)
 
-----
+---
 
-.. _jsobjref/TextPath.filled:
+<a id="jsobjref-textpath-filled"></a>
 
-TextPath.filled
-********************************************************************************
+### TextPath.filled
 
-``textPath.filled``
+`textPath.filled`
 
 **Description**
 
@@ -151,14 +140,13 @@ If true, the path be filled.
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TextPath.fillOverprint:
+<a id="jsobjref-textpath-filloverprint"></a>
 
-TextPath.fillOverprint
-********************************************************************************
+### TextPath.fillOverprint
 
-``textPath.fillOverprint``
+`textPath.fillOverprint`
 
 **Description**
 
@@ -168,14 +156,13 @@ If true, the art beneath a filled object should be overprinted.
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TextPath.guides:
+<a id="jsobjref-textpath-guides"></a>
 
-TextPath.guides
-********************************************************************************
+### TextPath.guides
 
-``textPath.guides``
+`textPath.guides`
 
 **Description**
 
@@ -185,14 +172,13 @@ If true, this path is a guide object.
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TextPath.height:
+<a id="jsobjref-textpath-height"></a>
 
-TextPath.height
-********************************************************************************
+### TextPath.height
 
-``textPath.height``
+`textPath.height`
 
 **Description**
 
@@ -202,14 +188,13 @@ The height of the group item.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TextPath.left:
+<a id="jsobjref-textpath-left"></a>
 
-TextPath.left
-********************************************************************************
+### TextPath.left
 
-``textPath.left``
+`textPath.left`
 
 **Description**
 
@@ -219,14 +204,13 @@ The position of the left side of the item (in points, measured from the left sid
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TextPath.note:
+<a id="jsobjref-textpath-note"></a>
 
-TextPath.note
-********************************************************************************
+### TextPath.note
 
-``textPath.note``
+`textPath.note`
 
 **Description**
 
@@ -236,14 +220,13 @@ The note text assigned to the path.
 
 String
 
-----
+---
 
-.. _jsobjref/TextPath.opacity:
+<a id="jsobjref-textpath-opacity"></a>
 
-TextPath.opacity
-********************************************************************************
+### TextPath.opacity
 
-``textPath.opacity``
+`textPath.opacity`
 
 **Description**
 
@@ -253,14 +236,13 @@ The opacity of the object. Range: 0.0 to 100.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TextPath.parent:
+<a id="jsobjref-textpath-parent"></a>
 
-TextPath.parent
-********************************************************************************
+### TextPath.parent
 
-``textPath.parent``
+`textPath.parent`
 
 **Description**
 
@@ -268,16 +250,15 @@ Read-only. The parent of this object.
 
 **Type**
 
-:ref:`jsobjref/Layer` or :ref:`jsobjref/GroupItem`
+[Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem)
 
-----
+---
 
-.. _jsobjref/TextPath.pathPoints:
+<a id="jsobjref-textpath-pathpoints"></a>
 
-TextPath.pathPoints
-********************************************************************************
+### TextPath.pathPoints
 
-``textPath.pathPoints``
+`textPath.pathPoints`
 
 **Description**
 
@@ -285,16 +266,15 @@ Read-only. The path points contained in this path item.
 
 **Type**
 
-:ref:`jsobjref/PathPoints`
+[PathPoints](PathPoints.md#jsobjref-pathpoints)
 
-----
+---
 
-.. _jsobjref/TextPath.polarity:
+<a id="jsobjref-textpath-polarity"></a>
 
-TextPath.polarity
-********************************************************************************
+### TextPath.polarity
 
-``textPath.polarity``
+`textPath.polarity`
 
 **Description**
 
@@ -302,16 +282,15 @@ The polarity of the path.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PolarityValues`
+[PolarityValues](scripting-constants.md#jsobjref-scripting-constants-polarityvalues)
 
-----
+---
 
-.. _jsobjref/TextPath.position:
+<a id="jsobjref-textpath-position"></a>
 
-TextPath.position
-********************************************************************************
+### TextPath.position
 
-``textPath.position``
+`textPath.position`
 
 **Description**
 
@@ -321,14 +300,13 @@ The position (in points) of the top left corner of the textPathItem object in th
 
 Array of 2 numbers
 
-----
+---
 
-.. _jsobjref/TextPath.resolution:
+<a id="jsobjref-textpath-resolution"></a>
 
-TextPath.resolution
-********************************************************************************
+### TextPath.resolution
 
-``textPath.resolution``
+`textPath.resolution`
 
 **Description**
 
@@ -338,14 +316,13 @@ The resolution of the path in dots per inch (dpi).
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TextPath.selectedPathPoints:
+<a id="jsobjref-textpath-selectedpathpoints"></a>
 
-TextPath.selectedPathPoints
-********************************************************************************
+### TextPath.selectedPathPoints
 
-``textPath.selectedPathPoints``
+`textPath.selectedPathPoints`
 
 **Description**
 
@@ -353,16 +330,15 @@ Read-only. All of the selected path points in the path.
 
 **Type**
 
-:ref:`jsobjref/PathPoints`
+[PathPoints](PathPoints.md#jsobjref-pathpoints)
 
-----
+---
 
-.. _jsobjref/TextPath.strokeCap:
+<a id="jsobjref-textpath-strokecap"></a>
 
-TextPath.strokeCap
-********************************************************************************
+### TextPath.strokeCap
 
-``textPath.strokeCap``
+`textPath.strokeCap`
 
 **Description**
 
@@ -370,16 +346,15 @@ The type of line capping.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.StrokeCap`
+[StrokeCap](scripting-constants.md#jsobjref-scripting-constants-strokecap)
 
-----
+---
 
-.. _jsobjref/TextPath.strokeColor:
+<a id="jsobjref-textpath-strokecolor"></a>
 
-TextPath.strokeColor
-********************************************************************************
+### TextPath.strokeColor
 
-``textPath.strokeColor``
+`textPath.strokeColor`
 
 **Description**
 
@@ -387,16 +362,15 @@ The stroke color for the path.
 
 **Type**
 
-:ref:`jsobjref/Color`
+[Color](Color.md#jsobjref-color)
 
-----
+---
 
-.. _jsobjref/TextPath.stroked:
+<a id="jsobjref-textpath-stroked"></a>
 
-TextPath.stroked
-********************************************************************************
+### TextPath.stroked
 
-``textPath.stroked``
+`textPath.stroked`
 
 **Description**
 
@@ -406,14 +380,13 @@ If true, the path should be stroked.
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TextPath.strokeDashes:
+<a id="jsobjref-textpath-strokedashes"></a>
 
-TextPath.strokeDashes
-********************************************************************************
+### TextPath.strokeDashes
 
-``textPath.strokeDashes``
+`textPath.strokeDashes`
 
 **Description**
 
@@ -423,14 +396,13 @@ Dash lengths. Set to an empty object, {}, for a solid line.
 
 Object
 
-----
+---
 
-.. _jsobjref/TextPath.strokeDashOffset:
+<a id="jsobjref-textpath-strokedashoffset"></a>
 
-TextPath.strokeDashOffset
-********************************************************************************
+### TextPath.strokeDashOffset
 
-``textPath.strokeDashOffset``
+`textPath.strokeDashOffset`
 
 **Description**
 
@@ -440,14 +412,13 @@ The default distance into the dash pattern at which the pattern should be starte
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TextPath.strokeJoin:
+<a id="jsobjref-textpath-strokejoin"></a>
 
-TextPath.strokeJoin
-********************************************************************************
+### TextPath.strokeJoin
 
-``textPath.strokeJoin``
+`textPath.strokeJoin`
 
 **Description**
 
@@ -455,16 +426,15 @@ Type of joints for the path.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.StrokeJoin`
+[StrokeJoin](scripting-constants.md#jsobjref-scripting-constants-strokejoin)
 
-----
+---
 
-.. _jsobjref/TextPath.strokeMiterLimit:
+<a id="jsobjref-textpath-strokemiterlimit"></a>
 
-TextPath.strokeMiterLimit
-********************************************************************************
+### TextPath.strokeMiterLimit
 
-``textPath.strokeMiterLimit``
+`textPath.strokeMiterLimit`
 
 **Description**
 
@@ -474,14 +444,13 @@ When a default stroke join is set to mitered, this property specifies when the j
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TextPath.strokeOverprint:
+<a id="jsobjref-textpath-strokeoverprint"></a>
 
-TextPath.strokeOverprint
-********************************************************************************
+### TextPath.strokeOverprint
 
-``textPath.strokeOverprint``
+`textPath.strokeOverprint`
 
 **Description**
 
@@ -491,14 +460,13 @@ If true, the art beneath a stroked object should be overprinted.
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TextPath.strokeWidth:
+<a id="jsobjref-textpath-strokewidth"></a>
 
-TextPath.strokeWidth
-********************************************************************************
+### TextPath.strokeWidth
 
-``textPath.strokeWidth``
+`textPath.strokeWidth`
 
 **Description**
 
@@ -508,14 +476,13 @@ Width of the stroke.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TextPath.top:
+<a id="jsobjref-textpath-top"></a>
 
-TextPath.top
-********************************************************************************
+### TextPath.top
 
-``textPath.top``
+`textPath.top`
 
 **Description**
 
@@ -525,14 +492,13 @@ The position of the top of the item (in points, measured from the bottom of the 
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TextPath.typename:
+<a id="jsobjref-textpath-typename"></a>
 
-TextPath.typename
-********************************************************************************
+### TextPath.typename
 
-``textPath.typename``
+`textPath.typename`
 
 **Description**
 
@@ -542,14 +508,13 @@ Read-only. The class name of the referenced object.
 
 String
 
-----
+---
 
-.. _jsobjref/TextPath.width:
+<a id="jsobjref-textpath-width"></a>
 
-TextPath.width
-********************************************************************************
+### TextPath.width
 
-``textPath.width``
+`textPath.width`
 
 **Description**
 
@@ -559,18 +524,15 @@ The width of the item.
 
 Number (double)
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/TextPath.setEntirePath:
+<a id="jsobjref-textpath-setentirepath"></a>
 
-TextPath.setEntirePath()
-********************************************************************************
+### TextPath.setEntirePath()
 
-``textPath.setEntirePath(pathPoints)``
+`textPath.setEntirePath(pathPoints)`
 
 **Description**
 
@@ -578,18 +540,14 @@ Sets the path using the array of points specified as [x, y] coordinate pairs.
 
 **Parameters**
 
-+----------------+----------------------------------+----------------------------+
-|   Parameter    |               Type               |        Description         |
-+================+==================================+============================+
-| ``pathPoints`` | Array of [x, y] coordinate pairs | Path points to set path as |
-+----------------+----------------------------------+----------------------------+
+| Parameter    | Type                             | Description                |
+|--------------|----------------------------------|----------------------------|
+| `pathPoints` | Array of [x, y] coordinate pairs | Path points to set path as |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example

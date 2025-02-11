@@ -1,45 +1,40 @@
-.. _jsobjref/Symbol:
+<a id="jsobjref-symbol"></a>
 
-Symbol
-################################################################################
+# Symbol
 
-``app.activeDocument.symbols[index``
+`app.activeDocument.symbols[index`
 
 **Description**
 
 An art item that is stored in the Symbols palette, and can be reused one or more times in the document without duplicating the art data. Symbols are contained in documents.
 
-Instances of ``Symbol`` in a document are associated with :ref:`jsobjref/SymbolItem` objects, which store the art object properties.
+Instances of `Symbol` in a document are associated with [SymbolItem](SymbolItem.md#jsobjref-symbolitem) objects, which store the art object properties.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Symbol.name:
+<a id="jsobjref-symbol-name"></a>
 
-Symbol.name
-********************************************************************************
+### Symbol.name
 
-``app.activeDocument.symbols[index].name``
+`app.activeDocument.symbols[index].name`
 
 **Description**
 
-The symbol's name
+The symbol’s name
 
 **Type**
 
 String.
 
-----
+---
 
-.. _jsobjref/Symbol.parent:
+<a id="jsobjref-symbol-parent"></a>
 
-Symbol.parent
-********************************************************************************
+### Symbol.parent
 
-``app.activeDocument.symbols[index].parent``
+`app.activeDocument.symbols[index].parent`
 
 **Description**
 
@@ -49,14 +44,13 @@ The object that contains the symbol object.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/Symbol.typename:
+<a id="jsobjref-symbol-typename"></a>
 
-Symbol.typename
-********************************************************************************
+### Symbol.typename
 
-``app.activeDocument.symbols[index].typename``
+`app.activeDocument.symbols[index].typename`
 
 **Description**
 
@@ -66,18 +60,15 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Symbol.duplicate:
+<a id="jsobjref-symbol-duplicate"></a>
 
-Symbol.duplicate()
-********************************************************************************
+### Symbol.duplicate()
 
-``app.activeDocument.symbols[index].duplicate()``
+`app.activeDocument.symbols[index].duplicate()`
 
 **Description**
 
@@ -85,16 +76,15 @@ Creates a duplicate of this object.
 
 **Returns**
 
-:ref:`jsobjref/Symbol`
+[Symbol](#jsobjref-symbol)
 
-----
+---
 
-.. _jsobjref/Symbol.remove:
+<a id="jsobjref-symbol-remove"></a>
 
-Symbol.remove()
-********************************************************************************
+### Symbol.remove()
 
-``app.activeDocument.symbols[index].remove()``
+`app.activeDocument.symbols[index].remove()`
 
 **Description**
 

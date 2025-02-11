@@ -1,26 +1,22 @@
-.. _jsobjref/NonNativeItem:
+<a id="jsobjref-nonnativeitem"></a>
 
-NonNativeItem
-################################################################################
+# NonNativeItem
 
-``nonNativeItems[index``
+`nonNativeItems[index`
 
 **Description**
 
 A non-native artwork item.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/NonNativeItem.artworkKnockout:
+<a id="jsobjref-nonnativeitem-artworkknockout"></a>
 
-NonNativeItem.artworkKnockout
-********************************************************************************
+### NonNativeItem.artworkKnockout
 
-``nonNativeItems[index].artworkKnockout``
+`nonNativeItems[index].artworkKnockout`
 
 **Description**
 
@@ -28,16 +24,15 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.KnockoutState`
+[KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
-----
+---
 
-.. _jsobjref/NonNativeItem.blendingMode:
+<a id="jsobjref-nonnativeitem-blendingmode"></a>
 
-NonNativeItem.blendingMode
-********************************************************************************
+### NonNativeItem.blendingMode
 
-``nonNativeItems[index].blendingMode``
+`nonNativeItems[index].blendingMode`
 
 **Description**
 
@@ -45,16 +40,15 @@ The blend mode used when compositing an object.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BlendModes`
+[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
-----
+---
 
-.. _jsobjref/NonNativeItem.controlBounds:
+<a id="jsobjref-nonnativeitem-controlbounds"></a>
 
-NonNativeItem.controlBounds
-********************************************************************************
+### NonNativeItem.controlBounds
 
-``nonNativeItems[index].controlBounds``
+`nonNativeItems[index].controlBounds`
 
 **Description**
 
@@ -64,31 +58,29 @@ The bounds of the object including stroke width and controls.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.editable:
+<a id="jsobjref-nonnativeitem-editable"></a>
 
-NonNativeItem.editable
-********************************************************************************
+### NonNativeItem.editable
 
-``nonNativeItems[index].editable``
+`nonNativeItems[index].editable`
 
 **Description**
 
-If ``true``, this item is editable.
+If `true`, this item is editable.
 
 **Type**
 
 Boolean, read-only.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.geometricBounds:
+<a id="jsobjref-nonnativeitem-geometricbounds"></a>
 
-NonNativeItem.geometricBounds
-********************************************************************************
+### NonNativeItem.geometricBounds
 
-``nonNativeItems[index].geometricBounds``
+`nonNativeItems[index].geometricBounds`
 
 **Description**
 
@@ -98,14 +90,13 @@ The bounds of the object excluding stroke width.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.height:
+<a id="jsobjref-nonnativeitem-height"></a>
 
-NonNativeItem.height
-********************************************************************************
+### NonNativeItem.height
 
-``nonNativeItems[index].height``
+`nonNativeItems[index].height`
 
 **Description**
 
@@ -115,48 +106,45 @@ The height of the group item.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/NonNativeItem.hidden:
+<a id="jsobjref-nonnativeitem-hidden"></a>
 
-NonNativeItem.hidden
-********************************************************************************
+### NonNativeItem.hidden
 
-``nonNativeItems[index].hidden``
+`nonNativeItems[index].hidden`
 
 **Description**
 
-If ``true``, this item is hidden.
+If `true`, this item is hidden.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.isIsolated:
+<a id="jsobjref-nonnativeitem-isisolated"></a>
 
-NonNativeItem.isIsolated
-********************************************************************************
+### NonNativeItem.isIsolated
 
-``nonNativeItems[index].isIsolated``
+`nonNativeItems[index].isIsolated`
 
 **Description**
 
-If ``true``, this object is isolated.
+If `true`, this object is isolated.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.layer:
+<a id="jsobjref-nonnativeitem-layer"></a>
 
-NonNativeItem.layer
-********************************************************************************
+### NonNativeItem.layer
 
-``nonNativeItems[index].layer``
+`nonNativeItems[index].layer`
 
 **Description**
 
@@ -164,16 +152,15 @@ The layer to which this item belongs.
 
 **Type**
 
-:ref:`jsobjref/Layer`, read-only.
+[Layer](Layer.md#jsobjref-layer), read-only.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.left:
+<a id="jsobjref-nonnativeitem-left"></a>
 
-NonNativeItem.left
-********************************************************************************
+### NonNativeItem.left
 
-``nonNativeItems[index].left``
+`nonNativeItems[index].left`
 
 **Description**
 
@@ -183,31 +170,29 @@ The position of the left side of the item (in points, measured from the left sid
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/NonNativeItem.locked:
+<a id="jsobjref-nonnativeitem-locked"></a>
 
-NonNativeItem.locked
-********************************************************************************
+### NonNativeItem.locked
 
-``nonNativeItems[index].locked``
+`nonNativeItems[index].locked`
 
 **Description**
 
-If ``true``, this item is locked.
+If `true`, this item is locked.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.name:
+<a id="jsobjref-nonnativeitem-name"></a>
 
-NonNativeItem.name
-********************************************************************************
+### NonNativeItem.name
 
-``nonNativeItems[index].name``
+`nonNativeItems[index].name`
 
 **Description**
 
@@ -217,14 +202,13 @@ The name of this item.
 
 String.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.note:
+<a id="jsobjref-nonnativeitem-note"></a>
 
-NonNativeItem.note
-********************************************************************************
+### NonNativeItem.note
 
-``nonNativeItems[index].note``
+`nonNativeItems[index].note`
 
 **Description**
 
@@ -234,14 +218,13 @@ The note assigned to this item.
 
 String.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.opacity:
+<a id="jsobjref-nonnativeitem-opacity"></a>
 
-NonNativeItem.opacity
-********************************************************************************
+### NonNativeItem.opacity
 
-``nonNativeItems[index].opacity``
+`nonNativeItems[index].opacity`
 
 **Description**
 
@@ -251,14 +234,13 @@ The opacity of the object. Range: 0.0 to 100.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/NonNativeItem.parent:
+<a id="jsobjref-nonnativeitem-parent"></a>
 
-NonNativeItem.parent
-********************************************************************************
+### NonNativeItem.parent
 
-``nonNativeItems[index].parent``
+`nonNativeItems[index].parent`
 
 **Description**
 
@@ -266,67 +248,63 @@ The parent of this object.
 
 **Type**
 
-:ref:`jsobjref/Document`, :ref:`jsobjref/Layer` or :ref:`jsobjref/GroupItem`, read-only.
+[Document](Document.md#jsobjref-document), [Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem), read-only.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.position:
+<a id="jsobjref-nonnativeitem-position"></a>
 
-NonNativeItem.position
-********************************************************************************
+### NonNativeItem.position
 
-``nonNativeItems[index].position``
+`nonNativeItems[index].position`
 
 **Description**
 
-The position (in points) of the top left corner of the ``NonNativeItems[index`` object in the format [x, y]. Does not include stroke weight.
+The position (in points) of the top left corner of the `NonNativeItems[index` object in the format [x, y]. Does not include stroke weight.
 
 **Type**
 
 Array of 2 numbers.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.selected:
+<a id="jsobjref-nonnativeitem-selected"></a>
 
-NonNativeItem.selected
-********************************************************************************
+### NonNativeItem.selected
 
-``nonNativeItems[index].selected``
+`nonNativeItems[index].selected`
 
 **Description**
 
-If ``true``, this item is selected.
+If `true`, this item is selected.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.sliced:
+<a id="jsobjref-nonnativeitem-sliced"></a>
 
-NonNativeItem.sliced
-********************************************************************************
+### NonNativeItem.sliced
 
-``nonNativeItems[index].sliced``
+`nonNativeItems[index].sliced`
 
 **Description**
 
-If ``true``, the item sliced. Default: ``false``.
+If `true`, the item sliced. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.tags:
+<a id="jsobjref-nonnativeitem-tags"></a>
 
-NonNativeItem.tags
-********************************************************************************
+### NonNativeItem.tags
 
-``nonNativeItems[index].tags``
+`nonNativeItems[index].tags`
 
 **Description**
 
@@ -334,16 +312,15 @@ The tags contained in this item.
 
 **Type**
 
-:ref:`jsobjref/Tags`, read-only.
+[Tags](Tags.md#jsobjref-tags), read-only.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.top:
+<a id="jsobjref-nonnativeitem-top"></a>
 
-NonNativeItem.top
-********************************************************************************
+### NonNativeItem.top
 
-``nonNativeItems[index].top``
+`nonNativeItems[index].top`
 
 **Description**
 
@@ -353,14 +330,13 @@ The position of the top of the item (in points, measured from the bottom of the 
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/NonNativeItem.typename:
+<a id="jsobjref-nonnativeitem-typename"></a>
 
-NonNativeItem.typename
-********************************************************************************
+### NonNativeItem.typename
 
-``nonNativeItems[index].typename``
+`nonNativeItems[index].typename`
 
 **Description**
 
@@ -370,14 +346,13 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.uRL:
+<a id="jsobjref-nonnativeitem-url"></a>
 
-NonNativeItem.uRL
-********************************************************************************
+### NonNativeItem.uRL
 
-``nonNativeItems[index].uRL``
+`nonNativeItems[index].uRL`
 
 **Description**
 
@@ -387,14 +362,13 @@ The value of the Adobe URL tag assigned to this item.
 
 String.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.visibilityVariable:
+<a id="jsobjref-nonnativeitem-visibilityvariable"></a>
 
-NonNativeItem.visibilityVariable
-********************************************************************************
+### NonNativeItem.visibilityVariable
 
-``nonNativeItems[index].visibilityVariable``
+`nonNativeItems[index].visibilityVariable`
 
 **Description**
 
@@ -402,16 +376,15 @@ The visibility variable bound to the item.
 
 **Type**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/NonNativeItem.visibleBounds:
+<a id="jsobjref-nonnativeitem-visiblebounds"></a>
 
-NonNativeItem.visibleBounds
-********************************************************************************
+### NonNativeItem.visibleBounds
 
-``nonNativeItems[index].visibleBounds``
+`nonNativeItems[index].visibleBounds`
 
 **Description**
 
@@ -421,14 +394,13 @@ The visible bounds of the item including stroke width.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.width:
+<a id="jsobjref-nonnativeitem-width"></a>
 
-NonNativeItem.width
-********************************************************************************
+### NonNativeItem.width
 
-``nonNativeItems[index].width``
+`nonNativeItems[index].width`
 
 **Description**
 
@@ -438,31 +410,29 @@ The width of the item.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/NonNativeItem.wrapInside:
+<a id="jsobjref-nonnativeitem-wrapinside"></a>
 
-NonNativeItem.wrapInside
-********************************************************************************
+### NonNativeItem.wrapInside
 
-``nonNativeItems[index].wrapInside``
+`nonNativeItems[index].wrapInside`
 
 **Description**
 
-If ``true``, the non-native-item object should be wrapped inside this object.
+If `true`, the non-native-item object should be wrapped inside this object.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.wrapOffset:
+<a id="jsobjref-nonnativeitem-wrapoffset"></a>
 
-NonNativeItem.wrapOffset
-********************************************************************************
+### NonNativeItem.wrapOffset
 
-``nonNativeItems[index].wrapOffset``
+`nonNativeItems[index].wrapOffset`
 
 **Description**
 
@@ -472,52 +442,47 @@ The offset to use when wrapping text around this object.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/NonNativeItem.wrapped:
+<a id="jsobjref-nonnativeitem-wrapped"></a>
 
-NonNativeItem.wrapped
-********************************************************************************
+### NonNativeItem.wrapped
 
-``nonNativeItems[index].wrapped``
+`nonNativeItems[index].wrapped`
 
 **Description**
 
-If ``true``, wrap non-native-item objects around this object (non-native-item object must be above the object).
+If `true`, wrap non-native-item objects around this object (non-native-item object must be above the object).
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.zOrderPosition:
+<a id="jsobjref-nonnativeitem-zorderposition"></a>
 
-NonNativeItem.zOrderPosition
-********************************************************************************
+### NonNativeItem.zOrderPosition
 
-``nonNativeItems[index].zOrderPosition``
+`nonNativeItems[index].zOrderPosition`
 
 **Description**
 
-The position of this item within the stacking order of the group or layer (``parent``) that contains the item.
+The position of this item within the stacking order of the group or layer (`parent`) that contains the item.
 
 **Type**
 
 Number, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/NonNativeItem.duplicate:
+<a id="jsobjref-nonnativeitem-duplicate"></a>
 
-NonNativeItem.duplicate()
-********************************************************************************
+### NonNativeItem.duplicate()
 
-``nonNativeItems[index].duplicate([relativeObject] [,insertionLocation])``
+`nonNativeItems[index].duplicate([relativeObject] [,insertionLocation])`
 
 **Description**
 
@@ -525,26 +490,22 @@ Creates a duplicate of the selected object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+----------------------------+
-|       Parameter       |                              Type                              |        Description         |
-+=======================+================================================================+============================+
-| ``relativeObject``    | Object, optional                                               | Object to duplicate to     |
-+-----------------------+----------------------------------------------------------------+----------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to insert element |
-+-----------------------+----------------------------------------------------------------+----------------------------+
+| Parameter           | Type                                                                                               | Description                |
+|---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
+| `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
 **Returns**
 
-:ref:`jsobjref/NonNativeItem`
+[NonNativeItem](#jsobjref-nonnativeitem)
 
-----
+---
 
-.. _jsobjref/NonNativeItem.move:
+<a id="jsobjref-nonnativeitem-move"></a>
 
-NonNativeItem.move()
-********************************************************************************
+### NonNativeItem.move()
 
-``nonNativeItems[index].move(relativeObject, insertionLocation)``
+`nonNativeItems[index].move(relativeObject, insertionLocation)`
 
 **Description**
 
@@ -552,26 +513,22 @@ Moves the object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-|       Parameter       |                              Type                              |          Description          |
-+=======================+================================================================+===============================+
-| ``relativeObject``    | Object                                                         | Object to move element within |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to move element to   |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
+| Parameter           | Type                                                                                               | Description                   |
+|---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
+| `relativeObject`    | Object                                                                                             | Object to move element within |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
 **Returns**
 
-:ref:`jsobjref/NonNativeItem`
+[NonNativeItem](#jsobjref-nonnativeitem)
 
-----
+---
 
-.. _jsobjref/NonNativeItem.remove:
+<a id="jsobjref-nonnativeitem-remove"></a>
 
-NonNativeItem.remove()
-********************************************************************************
+### NonNativeItem.remove()
 
-``nonNativeItems[index].remove()``
+`nonNativeItems[index].remove()`
 
 **Description**
 
@@ -581,14 +538,13 @@ Deletes this object.
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.removeAll:
+<a id="jsobjref-nonnativeitem-removeall"></a>
 
-NonNativeItem.removeAll()
-********************************************************************************
+### NonNativeItem.removeAll()
 
-``nonNativeItems[index].removeAll()``
+`nonNativeItems[index].removeAll()`
 
 **Description**
 
@@ -598,103 +554,84 @@ Deletes all elements in this collection.
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.resize:
+<a id="jsobjref-nonnativeitem-resize"></a>
 
-NonNativeItem.resize()
-********************************************************************************
+### NonNativeItem.resize()
 
-::
-
-  nonNativeItem.resize(scaleX, scaleY
-    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
-  )
+```default
+nonNativeItem.resize(scaleX, scaleY
+  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+  [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
+)
+```
 
 **Description**
 
-Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scaleY`` is the vertical scaling factor. 100.0 = 100%.
+Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``scaleX``              | Number (double)                                              | Horizontal scaling factor                               |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleY``              | Number (double)                                              | Vertical scaling factor                                 |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeLineWidths``    | Number (double), optional                                    | The amount to scale line widths                         |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleAbout``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `scaleX`              | Number (double)                                                                                | Horizontal scaling factor                               |
+| `scaleY`              | Number (double)                                                                                | Vertical scaling factor                                 |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
+| `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.rotate:
+<a id="jsobjref-nonnativeitem-rotate"></a>
 
-NonNativeItem.rotate()
-********************************************************************************
+### NonNativeItem.rotate()
 
-::
-
-  nonNativeItem.rotate(angle
-    [,changePositions] [,changeFillPatterns]
-    [,changeFillGradients] [,changeStrokePattern] [,rotateAbout]
-  )
+```default
+nonNativeItem.rotate(angle
+  [,changePositions] [,changeFillPatterns]
+  [,changeFillGradients] [,changeStrokePattern] [,rotateAbout]
+)
+```
 
 **Description**
 
-Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the ``angle`` value is positive, clockwise if the value is negative.
+Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``angle``               | Number (double)                                              | The angle amount to rotate the element                  |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``rotateAbout``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `angle`               | Number (double)                                                                                | The angle amount to rotate the element                  |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.transform:
+<a id="jsobjref-nonnativeitem-transform"></a>
 
-NonNativeItem.transform()
-********************************************************************************
+### NonNativeItem.transform()
 
-::
-
-  nonNativeItem.transform(transformationMatrix
-    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
-  )
+```default
+nonNativeItem.transform(transformationMatrix
+  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+  [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
+)
+```
 
 **Description**
 
@@ -702,76 +639,59 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-|        Parameter         |                             Type                             |                  Description                   |
-+==========================+==============================================================+================================================+
-| ``transformationMatrix`` | :ref:`jsobjref/Matrix`                                       | Transformation matrix to apply                 |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changePositions``      | Boolean, optional                                            | Whether to change Positions                    |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillPatterns``   | Boolean, optional                                            | Whether to change Fill Patterns                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillGradients``  | Boolean, optional                                            | Whether to change Fill Gradients               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeStrokePattern``  | Boolean, optional                                            | Whether to change Stroke Pattern               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeLineWidths``     | Number (double), optional                                    | The amount to scale line widths                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``transformAbout``       | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| Parameter              | Type                                                                                           | Description                                    |
+|------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
+| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
+| `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
+| `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |
+| `changeStrokePattern`  | Boolean, optional                                                                              | Whether to change Stroke Pattern               |
+| `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
+| `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.translate:
+<a id="jsobjref-nonnativeitem-translate"></a>
 
-NonNativeItem.translate()
-********************************************************************************
+### NonNativeItem.translate()
 
-::
-
-  nonNativeItem.translate([deltaX] [,deltaY]
-    [,transformObjects] [,transformFillPatterns]
-    [,transformFillGradients] [,transformStrokePatterns]
-  )
+```default
+nonNativeItem.translate([deltaX] [,deltaY]
+  [,transformObjects] [,transformFillPatterns]
+  [,transformFillGradients] [,transformStrokePatterns]
+)
+```
 
 **Description**
 
-Repositions the art item relative to the current position, where ``deltaX`` is the horizontal offset and ``deltaY`` is the vertical offset.
+Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
 **Parameters**
 
-+-----------------------------+---------------------------+--------------------------------------+
-|          Parameter          |           Type            |             Description              |
-+=============================+===========================+======================================+
-| ``deltaX``                  | Number (double), optional | Horizontal offset                    |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``deltaY``                  | Number (double), optional | Vertical offset                      |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformObjects``        | Boolean, optional         | Whether to transform Objects         |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillPatterns``   | Boolean, optional         | Whether to transform Fill Patterns   |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillGradients``  | Boolean, optional         | Whether to transform Fill Gradients  |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformStrokePatterns`` | Boolean, optional         | Whether to transform Stroke Patterns |
-+-----------------------------+---------------------------+--------------------------------------+
+| Parameter                 | Type                      | Description                          |
+|---------------------------|---------------------------|--------------------------------------|
+| `deltaX`                  | Number (double), optional | Horizontal offset                    |
+| `deltaY`                  | Number (double), optional | Vertical offset                      |
+| `transformObjects`        | Boolean, optional         | Whether to transform Objects         |
+| `transformFillPatterns`   | Boolean, optional         | Whether to transform Fill Patterns   |
+| `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
+| `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/NonNativeItem.zOrder:
+<a id="jsobjref-nonnativeitem-zorder"></a>
 
-NonNativeItem.zOrder()
-********************************************************************************
+### NonNativeItem.zOrder()
 
-``nonNativeItems[index].zOrder(zOrderCmd)``
+`nonNativeItems[index].zOrder(zOrderCmd)`
 
 **Description**
 
@@ -779,11 +699,9 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-+---------------+--------------------------------------------------+-----------------------------------+
-|   Parameter   |                       Type                       |            Description            |
-+===============+==================================================+===================================+
-| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | Stacking order arrangement method |
-+---------------+--------------------------------------------------+-----------------------------------+
+| Parameter   | Type                                                                             | Description                       |
+|-------------|----------------------------------------------------------------------------------|-----------------------------------|
+| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
 **Returns**
 

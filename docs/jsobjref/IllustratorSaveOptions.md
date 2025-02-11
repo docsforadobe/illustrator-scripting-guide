@@ -1,128 +1,118 @@
-.. _jsobjref/IllustratorSaveOptions:
+<a id="jsobjref-illustratorsaveoptions"></a>
 
-IllustratorSaveOptions
-################################################################################
+# IllustratorSaveOptions
 
-``illustratorSaveOptions``
-
-**Description**
-
-Options for saving a document as an Illustrator file, used with the :ref:`jsobjref/Document.saveAs` method. All properties are optional.
-
-----
-
-==========
-Properties
-==========
-
-.. _jsobjref/IllustratorSaveOptions.artboardRange:
-
-IllustratorSaveOptions.artboardRange
-********************************************************************************
-
-``illustratorSaveOptions.artboardRange``
+`illustratorSaveOptions`
 
 **Description**
 
-If ``saveMultipleArtboards`` is ``true`` (which is valid only for Illustrator 13 or earlier), the document is considered for multi-asset extraction, which specifies an artboard range. An empty string extracts all artboards. Default: empty String.
+Options for saving a document as an Illustrator file, used with the [Document.saveAs()](Document.md#jsobjref-document-saveas) method. All properties are optional.
+
+---
+
+## Properties
+
+<a id="jsobjref-illustratorsaveoptions-artboardrange"></a>
+
+### IllustratorSaveOptions.artboardRange
+
+`illustratorSaveOptions.artboardRange`
+
+**Description**
+
+If `saveMultipleArtboards` is `true` (which is valid only for Illustrator 13 or earlier), the document is considered for multi-asset extraction, which specifies an artboard range. An empty string extracts all artboards. Default: empty String.
 
 **Type**
 
 String.
 
-----
+---
 
-.. _jsobjref/IllustratorSaveOptions.compatibility:
+<a id="jsobjref-illustratorsaveoptions-compatibility"></a>
 
-IllustratorSaveOptions.compatibility
-********************************************************************************
+### IllustratorSaveOptions.compatibility
 
-``illustratorSaveOptions.compatibility``
+`illustratorSaveOptions.compatibility`
 
 **Description**
 
-Specifies the version of Illustrator file format to create. Default: ``Compatibility.ILLUSTRATOR19``.
+Specifies the version of Illustrator file format to create. Default: `Compatibility.ILLUSTRATOR19`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.Compatibility`
+[Compatibility](scripting-constants.md#jsobjref-scripting-constants-compatibility)
 
-----
+---
 
-.. _jsobjref/IllustratorSaveOptions.compressed:
+<a id="jsobjref-illustratorsaveoptions-compressed"></a>
 
-IllustratorSaveOptions.compressed
-********************************************************************************
+### IllustratorSaveOptions.compressed
 
-``illustratorSaveOptions.compressed``
-
-**Description**
-
-(Illustrator version 10 or later.) If ``true``, the saved file is compressed. Default: ``true``.
-
-**Type**
-
-Boolean.
-
-----
-
-.. _jsobjref/IllustratorSaveOptions.embedICCProfile:
-
-IllustratorSaveOptions.embedICCProfile
-********************************************************************************
-
-``illustratorSaveOptions.embedICCProfile``
+`illustratorSaveOptions.compressed`
 
 **Description**
 
-(Illustrator version 9 or later.) If ``true``, the document’s ICC profile is embedded in the saved file. Default: ``false``.
+(Illustrator version 10 or later.) If `true`, the saved file is compressed. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/IllustratorSaveOptions.embedLinkedFiles:
+<a id="jsobjref-illustratorsaveoptions-embediccprofile"></a>
 
-IllustratorSaveOptions.embedLinkedFiles
-********************************************************************************
+### IllustratorSaveOptions.embedICCProfile
 
-``illustratorSaveOptions.embedLinkedFiles``
+`illustratorSaveOptions.embedICCProfile`
 
 **Description**
 
-(Illustrator version 7 or later.) If ``true``, the linked image files is embedded in the saved file. Default: ``false``.
+(Illustrator version 9 or later.) If `true`, the document’s ICC profile is embedded in the saved file. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/IllustratorSaveOptions.flattenOutput:
+<a id="jsobjref-illustratorsaveoptions-embedlinkedfiles"></a>
 
-IllustratorSaveOptions.flattenOutput
-********************************************************************************
+### IllustratorSaveOptions.embedLinkedFiles
 
-``illustratorSaveOptions.flattenOutput``
+`illustratorSaveOptions.embedLinkedFiles`
 
 **Description**
 
-(Versions before Illustrator 9.) How transparency should be flattened for older file format versions. Default: ``OutputFlattening.PRESERVEAPPEARANCE``.
+(Illustrator version 7 or later.) If `true`, the linked image files is embedded in the saved file. Default: `false`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.OutputFlattening`
+Boolean.
 
-----
+---
 
-.. _jsobjref/IllustratorSaveOptions.fontSubsetThreshold:
+<a id="jsobjref-illustratorsaveoptions-flattenoutput"></a>
 
-IllustratorSaveOptions.fontSubsetThreshold
-********************************************************************************
+### IllustratorSaveOptions.flattenOutput
 
-``illustratorSaveOptions.fontSubsetThreshold``
+`illustratorSaveOptions.flattenOutput`
+
+**Description**
+
+(Versions before Illustrator 9.) How transparency should be flattened for older file format versions. Default: `OutputFlattening.PRESERVEAPPEARANCE`.
+
+**Type**
+
+[OutputFlattening](scripting-constants.md#jsobjref-scripting-constants-outputflattening)
+
+---
+
+<a id="jsobjref-illustratorsaveoptions-fontsubsetthreshold"></a>
+
+### IllustratorSaveOptions.fontSubsetThreshold
+
+`illustratorSaveOptions.fontSubsetThreshold`
 
 **Description**
 
@@ -132,48 +122,45 @@ IllustratorSaveOptions.fontSubsetThreshold
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/IllustratorSaveOptions.pdfCompatible:
+<a id="jsobjref-illustratorsaveoptions-pdfcompatible"></a>
 
-IllustratorSaveOptions.pdfCompatible
-********************************************************************************
+### IllustratorSaveOptions.pdfCompatible
 
-``illustratorSaveOptions.pdfCompatible``
+`illustratorSaveOptions.pdfCompatible`
 
 **Description**
 
-(Illustrator version 10 or later.) If ``true``, the file is saved as a PDF compatible file. Default: ``true``.
+(Illustrator version 10 or later.) If `true`, the file is saved as a PDF compatible file. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/IllustratorSaveOptions.saveMultipleArtboards:
+<a id="jsobjref-illustratorsaveoptions-savemultipleartboards"></a>
 
-IllustratorSaveOptions.saveMultipleArtboards
-********************************************************************************
+### IllustratorSaveOptions.saveMultipleArtboards
 
-``illustratorSaveOptions.saveMultipleArtboards``
+`illustratorSaveOptions.saveMultipleArtboards`
 
 **Description**
 
-If ``true``, all artboards or range of the artboards are saved. Valid for Illustrator 13 or earlier.
+If `true`, all artboards or range of the artboards are saved. Valid for Illustrator 13 or earlier.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/IllustratorSaveOptions.typename:
+<a id="jsobjref-illustratorsaveoptions-typename"></a>
 
-IllustratorSaveOptions.typename
-********************************************************************************
+### IllustratorSaveOptions.typename
 
-``illustratorSaveOptions.typename``
+`illustratorSaveOptions.typename`
 
 **Description**
 
@@ -183,27 +170,24 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Saving with options
-********************************************************************************
+### Saving with options
 
-::
+```default
+// Saves the current document to dest as an AI file with specified options,
+// dest specifies the full path and file name of the new file
 
-  // Saves the current document to dest as an AI file with specified options,
-  // dest specifies the full path and file name of the new file
+function exportFileToAI(dest) {
+  if (app.documents.length > 0) {
+    var ai8Doc = new File(dest);
+    var saveOptions = new IllustratorSaveOptions();
+    saveOptions.compatibility = Compatibility.ILLUSTRATOR8;
+    saveOptions.flattenOutput = OutputFlattening.PRESERVEAPPEARANCE;
 
-  function exportFileToAI(dest) {
-    if (app.documents.length > 0) {
-      var ai8Doc = new File(dest);
-      var saveOptions = new IllustratorSaveOptions();
-      saveOptions.compatibility = Compatibility.ILLUSTRATOR8;
-      saveOptions.flattenOutput = OutputFlattening.PRESERVEAPPEARANCE;
-
-      app.activeDocument.saveAs(ai8Doc, saveOptions);
-    }
+    app.activeDocument.saveAs(ai8Doc, saveOptions);
   }
+}
+```

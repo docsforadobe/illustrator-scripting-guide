@@ -1,26 +1,22 @@
-.. _jsobjref/MeshItems:
+<a id="jsobjref-meshitems"></a>
 
-MeshItems
-################################################################################
+# MeshItems
 
-``app.activeDocument.meshItems``
+`app.activeDocument.meshItems`
 
 **Description**
 
-A collection of :ref:`jsobjref/MeshItem` objects.
+A collection of [MeshItem](MeshItem.md#jsobjref-meshitem) objects.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/MeshItems.length:
+<a id="jsobjref-meshitems-length"></a>
 
-MeshItems.length
-********************************************************************************
+### MeshItems.length
 
-``app.activeDocument.meshItems.length``
+`app.activeDocument.meshItems.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ The number of objects in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/MeshItems.parent:
+<a id="jsobjref-meshitems-parent"></a>
 
-MeshItems.parent
-********************************************************************************
+### MeshItems.parent
 
-``app.activeDocument.meshItems.parent``
+`app.activeDocument.meshItems.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The parent of this object.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/MeshItems.typename:
+<a id="jsobjref-meshitems-typename"></a>
 
-MeshItems.typename
-********************************************************************************
+### MeshItems.typename
 
-``app.activeDocument.meshItems.typename``
+`app.activeDocument.meshItems.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/MeshItems.getByName:
+<a id="jsobjref-meshitems-getbyname"></a>
 
-MeshItems.getByName()
-********************************************************************************
+### MeshItems.getByName()
 
-``app.activeDocument.meshItems.getByName(name)``
+`app.activeDocument.meshItems.getByName(name)`
 
 **Description**
 
@@ -83,24 +74,21 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/MeshItem`
+[MeshItem](MeshItem.md#jsobjref-meshitem)
 
-----
+---
 
-.. _jsobjref/MeshItems.index:
+<a id="jsobjref-meshitems-index"></a>
 
-MeshItems.index()
-********************************************************************************
+### MeshItems.index()
 
-``app.activeDocument.meshItems.index(itemKey)``
+`app.activeDocument.meshItems.index(itemKey)`
 
 **Description**
 
@@ -108,24 +96,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/MeshItem`
+[MeshItem](MeshItem.md#jsobjref-meshitem)
 
-----
+---
 
-.. _jsobjref/MeshItems.removeAll:
+<a id="jsobjref-meshitems-removeall"></a>
 
-MeshItems.removeAll()
-********************************************************************************
+### MeshItems.removeAll()
 
-``app.activeDocument.meshItems.removeAll()``
+`app.activeDocument.meshItems.removeAll()`
 
 **Description**
 
@@ -135,30 +120,27 @@ Deletes all elements in this collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Copying mesh items to another document
-********************************************************************************
+### Copying mesh items to another document
 
 To run this script, have two open documents. One document should contain at least one mesh item, the other document can be empty. Make the empty document the frontmost before running the script.
 
-::
+```default
+// Copies all mesh items from one document to a new document
+if (app.documents.length > 0) {
+  var srcDoc = documents[0];
+  var locationOffset = 0;
+  var targetDoc = documents.add();
+  for (var i = 0; i < srcDoc.meshItems.length; i++) {
+    var srcItem = srcDoc.meshItems[i];
+    var dupItem = srcDoc.meshItems[i].duplicate(targetDoc, ElementPlacement.PLACEATEND);
 
-  // Copies all mesh items from one document to a new document
-  if (app.documents.length > 0) {
-    var srcDoc = documents[0];
-    var locationOffset = 0;
-    var targetDoc = documents.add();
-    for (var i = 0; i < srcDoc.meshItems.length; i++) {
-      var srcItem = srcDoc.meshItems[i];
-      var dupItem = srcDoc.meshItems[i].duplicate(targetDoc, ElementPlacement.PLACEATEND);
-
-      // offset the copied items' position on the y axis
-      dupItem.position = Array(100, 50 + locationOffset);
-      locationOffset += 50;
-    }
+    // offset the copied items' position on the y axis
+    dupItem.position = Array(100, 50 + locationOffset);
+    locationOffset += 50;
   }
+}
+```

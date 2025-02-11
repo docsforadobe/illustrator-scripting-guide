@@ -1,26 +1,22 @@
-.. _jsobjref/Brushes:
+<a id="jsobjref-brushes"></a>
 
-Brushes
-################################################################################
+# Brushes
 
-``app.activeDocument.brushes``
+`app.activeDocument.brushes`
 
 **Description**
 
 A collection of brush objects in a document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Brushes.length:
+<a id="jsobjref-brushes-length"></a>
 
-Brushes.length
-********************************************************************************
+### Brushes.length
 
-``app.activeDocument.brushes.length``
+`app.activeDocument.brushes.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ The number of objects in the collection
 
 Number; read-only.
 
-----
+---
 
-.. _jsobjref/Brushes.parent:
+<a id="jsobjref-brushes-parent"></a>
 
-Brushes.parent
-********************************************************************************
+### Brushes.parent
 
-``app.activeDocument.brushes.parent``
+`app.activeDocument.brushes.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The document that contains this brushes collection.
 
 Object; read-only.
 
-----
+---
 
-.. _jsobjref/Brushes.typename:
+<a id="jsobjref-brushes-typename"></a>
 
-Brushes.typename
-********************************************************************************
+### Brushes.typename
 
-``app.activeDocument.brushes.typename``
+`app.activeDocument.brushes.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Brushes.getByName:
+<a id="jsobjref-brushes-getbyname"></a>
 
-Brushes.getByName()
-********************************************************************************
+### Brushes.getByName()
 
-``app.activeDocument.brushes.getByName(name)``
+`app.activeDocument.brushes.getByName(name)`
 
 **Description**
 
@@ -83,24 +74,21 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/Brush`
+[Brush](Brush.md#jsobjref-brush)
 
-----
+---
 
-.. _jsobjref/Brushes.index:
+<a id="jsobjref-brushes-index"></a>
 
-Brushes.index()
-********************************************************************************
+### Brushes.index()
 
-``app.activeDocument.brushes.index(itemKey)``
+`app.activeDocument.brushes.index(itemKey)`
 
 **Description**
 
@@ -108,29 +96,24 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/Brush`
+[Brush](Brush.md#jsobjref-brush)
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Counting brushes
-********************************************************************************
+### Counting brushes
 
-::
+```default
+// Counts all brushes in the active document
 
-  // Counts all brushes in the active document
-
-  if (app.documents.length > 0) {
-    var numberOfBrushes = app.activeDocument.brushes.length;
-  }
+if (app.documents.length > 0) {
+  var numberOfBrushes = app.activeDocument.brushes.length;
+}
+```

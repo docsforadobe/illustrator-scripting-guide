@@ -1,26 +1,22 @@
-.. _jsobjref/TracingOptions:
+<a id="jsobjref-tracingoptions"></a>
 
-TracingOptions
-################################################################################
+# TracingOptions
 
-``image.tracing.tracingOptions``
+`image.tracing.tracingOptions`
 
 **Description**
 
 A set of options used in converting raster art to vector art by tracing.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/TracingOptions.cornerAngle:
+<a id="jsobjref-tracingoptions-cornerangle"></a>
 
-TracingOptions.cornerAngle
-********************************************************************************
+### TracingOptions.cornerAngle
 
-``image.tracing.tracingOptions.cornerAngle``
+`image.tracing.tracingOptions.cornerAngle`
 
 **Description**
 
@@ -32,74 +28,70 @@ Range: 0 to 180
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TracingOptions.fills:
+<a id="jsobjref-tracingoptions-fills"></a>
 
-TracingOptions.fills
-********************************************************************************
+### TracingOptions.fills
 
-``image.tracing.tracingOptions.fills``
+`image.tracing.tracingOptions.fills`
 
 **Description**
 
-If ``true``, trace with fills. At least one of ``fills`` or ``strokes`` must be true.
+If `true`, trace with fills. At least one of `fills` or `strokes` must be true.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TracingOptions.ignoreWhite:
+<a id="jsobjref-tracingoptions-ignorewhite"></a>
 
-TracingOptions.ignoreWhite
-********************************************************************************
+### TracingOptions.ignoreWhite
 
-``image.tracing.tracingOptions.ignoreWhite``
+`image.tracing.tracingOptions.ignoreWhite`
 
 **Description**
 
-If ``true``, ignores white fill color.
+If `true`, ignores white fill color.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TracingOptions.livePaintOutput:
+<a id="jsobjref-tracingoptions-livepaintoutput"></a>
 
-TracingOptions.livePaintOutput
-********************************************************************************
+### TracingOptions.livePaintOutput
 
-``image.tracing.tracingOptions.livePaintOutput``
+`image.tracing.tracingOptions.livePaintOutput`
 
 **Description**
 
-If ``true``, result is LivePaint art. If ``false``, it is classic art.
+If `true`, result is LivePaint art. If `false`, it is classic art.
 
-.. note::
-  A script should only set this value in preparation for a subsequent expand operation.  Leaving a tracing on the artboard when this property is ``true`` can lead to unexpected application behavior.
+#### NOTE
+A script should only set this value in preparation for a subsequent expand operation.  Leaving a tracing on the artboard when this property is `true` can lead to unexpected application behavior.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TracingOptions.maxColors:
+<a id="jsobjref-tracingoptions-maxcolors"></a>
 
-TracingOptions.maxColors
-********************************************************************************
+### TracingOptions.maxColors
 
-``image.tracing.tracingOptions.maxColors``
+`image.tracing.tracingOptions.maxColors`
 
 **Description**
 
 The maximum number of colors allowed for automatic palette generation.
 
-Used only if ``tracingMode`` is ``TracingModeType.TRACINGMODECOLOR`` or ``TracingModeType.TRACINGMODEGRAY``.
+Used only if `tracingMode` is `TracingModeType.TRACINGMODECOLOR` or `TracingModeType.TRACINGMODEGRAY`.
 
 Range: 2 to 256
 
@@ -107,18 +99,17 @@ Range: 2 to 256
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/TracingOptions.maxStrokeWeight:
+<a id="jsobjref-tracingoptions-maxstrokeweight"></a>
 
-TracingOptions.maxStrokeWeight
-********************************************************************************
+### TracingOptions.maxStrokeWeight
 
-``image.tracing.tracingOptions.maxStrokeWeight``
+`image.tracing.tracingOptions.maxStrokeWeight`
 
 **Description**
 
-The maximum stroke weight, when ``strokes`` is true.
+The maximum stroke weight, when `strokes` is true.
 
 Range: 0.01 to 100.0
 
@@ -126,14 +117,13 @@ Range: 0.01 to 100.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TracingOptions.minArea:
+<a id="jsobjref-tracingoptions-minarea"></a>
 
-TracingOptions.minArea
-********************************************************************************
+### TracingOptions.minArea
 
-``image.tracing.tracingOptions.minArea``
+`image.tracing.tracingOptions.minArea`
 
 **Description**
 
@@ -145,18 +135,17 @@ For example, if it is 4, a feature of 2 pixels wide by 2 pixels high is traced.
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/TracingOptions.minStrokeLength:
+<a id="jsobjref-tracingoptions-minstrokelength"></a>
 
-TracingOptions.minStrokeLength
-********************************************************************************
+### TracingOptions.minStrokeLength
 
-``image.tracing.tracingOptions.minStrokeLength``
+`image.tracing.tracingOptions.minStrokeLength`
 
 **Description**
 
-The minimum length in pixels of features in the original image that can be stroked, when ``strokes`` is ``true``.
+The minimum length in pixels of features in the original image that can be stroked, when `strokes` is `true`.
 
 Smaller features are omitted. Range: 0.0 to 200.0. Default: 20.0
 
@@ -164,52 +153,49 @@ Smaller features are omitted. Range: 0.0 to 200.0. Default: 20.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TracingOptions.outputToSwatches:
+<a id="jsobjref-tracingoptions-outputtoswatches"></a>
 
-TracingOptions.outputToSwatches
-********************************************************************************
+### TracingOptions.outputToSwatches
 
-``image.tracing.tracingOptions.outputToSwatches``
+`image.tracing.tracingOptions.outputToSwatches`
 
 **Description**
 
-If ``true``, named colors (swatches) are generated for each new color created by the tracing result.
+If `true`, named colors (swatches) are generated for each new color created by the tracing result.
 
-Used only if ``tracingMode`` is ``TracingModeType.TRACINGMODECOLOR`` or ``TracingModeType.TRACINGMODEGRAY``.
+Used only if `tracingMode` is `TracingModeType.TRACINGMODECOLOR` or `TracingModeType.TRACINGMODEGRAY`.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TracingOptions.palette:
+<a id="jsobjref-tracingoptions-palette"></a>
 
-TracingOptions.palette
-********************************************************************************
+### TracingOptions.palette
 
-``image.tracing.tracingOptions.palette``
+`image.tracing.tracingOptions.palette`
 
 **Description**
 
 The name of a color palette to use for tracing. If the empty string, use the automatic palette.
 
-Used only if ``tracingMode`` is ``TracingModeType.TRACINGMODECOLOR`` or ``TracingModeType.TRACINGMODEGRAY``.
+Used only if `tracingMode` is `TracingModeType.TRACINGMODECOLOR` or `TracingModeType.TRACINGMODEGRAY`.
 
 **Type**
 
 String
 
-----
+---
 
-.. _jsobjref/TracingOptions.parent:
+<a id="jsobjref-tracingoptions-parent"></a>
 
-TracingOptions.parent
-********************************************************************************
+### TracingOptions.parent
 
-``image.tracing.tracingOptions.parent``
+`image.tracing.tracingOptions.parent`
 
 **Description**
 
@@ -219,14 +205,13 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/TracingOptions.pathFitting:
+<a id="jsobjref-tracingoptions-pathfitting"></a>
 
-TracingOptions.pathFitting
-********************************************************************************
+### TracingOptions.pathFitting
 
-``image.tracing.tracingOptions.pathFitting``
+`image.tracing.tracingOptions.pathFitting`
 
 **Description**
 
@@ -238,14 +223,13 @@ Higher values create a looser path fitting. Range: 0.0 to 10.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TracingOptions.preprocessBlur:
+<a id="jsobjref-tracingoptions-preprocessblur"></a>
 
-TracingOptions.preprocessBlur
-********************************************************************************
+### TracingOptions.preprocessBlur
 
-``image.tracing.tracingOptions.preprocessBlur``
+`image.tracing.tracingOptions.preprocessBlur`
 
 **Description**
 
@@ -255,14 +239,13 @@ The amount of blur used during preprocessing, in pixels. Blurring helps reduce s
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TracingOptions.preset:
+<a id="jsobjref-tracingoptions-preset"></a>
 
-TracingOptions.preset
-********************************************************************************
+### TracingOptions.preset
 
-``image.tracing.tracingOptions.preset``
+`image.tracing.tracingOptions.preset`
 
 **Description**
 
@@ -272,33 +255,31 @@ The name of a preset file containing these options.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/TracingOptions.resample:
+<a id="jsobjref-tracingoptions-resample"></a>
 
-TracingOptions.resample
-********************************************************************************
+### TracingOptions.resample
 
-``image.tracing.tracingOptions.resample``
+`image.tracing.tracingOptions.resample`
 
 **Description**
 
-If ``true``, resample when tracing. (This setting is not captured in a preset file.)
+If `true`, resample when tracing. (This setting is not captured in a preset file.)
 
-Always ``true`` when the raster source art is placed or linked.
+Always `true` when the raster source art is placed or linked.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TracingOptions.resampleResolution:
+<a id="jsobjref-tracingoptions-resampleresolution"></a>
 
-TracingOptions.resampleResolution
-********************************************************************************
+### TracingOptions.resampleResolution
 
-``image.tracing.tracingOptions.resampleResolution``
+`image.tracing.tracingOptions.resampleResolution`
 
 **Description**
 
@@ -310,39 +291,37 @@ Lower resolution increases the speed of the tracing operation. (This setting is 
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TracingOptions.strokes:
+<a id="jsobjref-tracingoptions-strokes"></a>
 
-TracingOptions.strokes
-********************************************************************************
+### TracingOptions.strokes
 
-``image.tracing.tracingOptions.strokes``
+`image.tracing.tracingOptions.strokes`
 
 **Description**
 
-If ``true``, trace with strokes. At least one of fills or strokes must be true.
+If `true`, trace with strokes. At least one of fills or strokes must be true.
 
-Used only if ``tracingMode`` is ``TracingModeType.TRACINGMODEBLACKANDWHITE``.
+Used only if `tracingMode` is `TracingModeType.TRACINGMODEBLACKANDWHITE`.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TracingOptions.threshold:
+<a id="jsobjref-tracingoptions-threshold"></a>
 
-TracingOptions.threshold
-********************************************************************************
+### TracingOptions.threshold
 
-``image.tracing.tracingOptions.threshold``
+`image.tracing.tracingOptions.threshold`
 
 **Description**
 
 The threshold value of black-and-white tracing. All pixels with a grayscale value greater than this are converted to black.
 
-Used only if ``tracingMode`` is ``TracingModeType.TRACINGMODEBLACKANDWHITE``.
+Used only if `tracingMode` is `TracingModeType.TRACINGMODEBLACKANDWHITE`.
 
 Range: 0 to 255
 
@@ -350,14 +329,13 @@ Range: 0 to 255
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/TracingOptions.tracingMode:
+<a id="jsobjref-tracingoptions-tracingmode"></a>
 
-TracingOptions.tracingMode
-********************************************************************************
+### TracingOptions.tracingMode
 
-``image.tracing.tracingOptions.tracingMode``
+`image.tracing.tracingOptions.tracingMode`
 
 **Description**
 
@@ -365,16 +343,15 @@ The color mode for tracing.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.TracingModeType`
+[TracingModeType](scripting-constants.md#jsobjref-scripting-constants-tracingmodetype)
 
-----
+---
 
-.. _jsobjref/TracingOptions.typename:
+<a id="jsobjref-tracingoptions-typename"></a>
 
-TracingOptions.typename
-********************************************************************************
+### TracingOptions.typename
 
-``image.tracing.tracingOptions.typename``
+`image.tracing.tracingOptions.typename`
 
 **Description**
 
@@ -384,14 +361,13 @@ Read-only. The class name of the object.
 
 String
 
-----
+---
 
-.. _jsobjref/TracingOptions.viewRaster:
+<a id="jsobjref-tracingoptions-viewraster"></a>
 
-TracingOptions.viewRaster
-********************************************************************************
+### TracingOptions.viewRaster
 
-``image.tracing.tracingOptions.viewRaster``
+`image.tracing.tracingOptions.viewRaster`
 
 **Description**
 
@@ -399,16 +375,15 @@ The view for previews of the raster image. (This setting is not captured in a pr
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.ViewRasterType`
+[ViewRasterType](scripting-constants.md#jsobjref-scripting-constants-viewrastertype)
 
-----
+---
 
-.. _jsobjref/TracingOptions.viewVector:
+<a id="jsobjref-tracingoptions-viewvector"></a>
 
-TracingOptions.viewVector
-********************************************************************************
+### TracingOptions.viewVector
 
-``image.tracing.tracingOptions.viewVector``
+`image.tracing.tracingOptions.viewVector`
 
 **Description**
 
@@ -416,63 +391,55 @@ The view for previews of the vector result. (This setting is not captured in a p
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.ViewVectorType`
+[ViewVectorType](scripting-constants.md#jsobjref-scripting-constants-viewvectortype)
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/TracingOptions.loadFromPreset:
+<a id="jsobjref-tracingoptions-loadfrompreset"></a>
 
-TracingOptions.loadFromPreset()
-********************************************************************************
+### TracingOptions.loadFromPreset()
 
-``image.tracing.tracingOptions.loadFromPreset(parameter)``
+`image.tracing.tracingOptions.loadFromPreset(parameter)`
 
 **Description**
 
-Loads a set of options from the specified preset, as found in the ``Application.tracingPresetList`` array.
+Loads a set of options from the specified preset, as found in the `Application.tracingPresetList` array.
 
 **Parameters**
 
-+----------------+--------+---------------------+
-|   Parameter    |  Type  |     Description     |
-+================+========+=====================+
-| ``presetName`` | String | Preset name to load |
-+----------------+--------+---------------------+
+| Parameter    | Type   | Description         |
+|--------------|--------|---------------------|
+| `presetName` | String | Preset name to load |
 
 **Returns**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TracingOptions.storeToPreset:
+<a id="jsobjref-tracingoptions-storetopreset"></a>
 
-TracingOptions.storeToPreset()
-********************************************************************************
+### TracingOptions.storeToPreset()
 
-``image.tracing.tracingOptions.storeToPreset(parameter)``
+`image.tracing.tracingOptions.storeToPreset(parameter)`
 
 **Description**
 
 Saves this set of options in the specified preset.
 
-Use a name found in the ``Application.tracingPresetList`` array, or a new name to create a new preset.
+Use a name found in the `Application.tracingPresetList` array, or a new name to create a new preset.
 
-For an existing preset, overwrites an unlocked preset and returns ``true``.
+For an existing preset, overwrites an unlocked preset and returns `true`.
 
-Returns ``false`` if the preset is locked.
+Returns `false` if the preset is locked.
 
 **Parameters**
 
-+----------------+--------+------------------------+
-|   Parameter    |  Type  |      Description       |
-+================+========+========================+
-| ``presetName`` | String | Preset name to save as |
-+----------------+--------+------------------------+
+| Parameter    | Type   | Description            |
+|--------------|--------|------------------------|
+| `presetName` | String | Preset name to save as |
 
 **Returns**
 

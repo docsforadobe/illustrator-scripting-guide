@@ -1,28 +1,24 @@
-.. _jsobjref/CMYKColor:
+<a id="jsobjref-cmykcolor"></a>
 
-CMYKColor
-################################################################################
+# CMYKColor
 
-``new cmykColor()``
+`new cmykColor()`
 
 **Description**
 
-A CMYK color specification, used where a ``color`` object is required.
+A CMYK color specification, used where a `color` object is required.
 
-If the color space of a document is ``RGB`` and you specify the color value for a page item in that document using CMYK, Illustrator will translate the CMYK color specification into an RGB color specification. The same thing happens if the document’s color space is CMYK and you specify colors using RGB. Since this translation can lose information, you should specify colors using the class that matches the document’s actual color space.
+If the color space of a document is `RGB` and you specify the color value for a page item in that document using CMYK, Illustrator will translate the CMYK color specification into an RGB color specification. The same thing happens if the document’s color space is CMYK and you specify colors using RGB. Since this translation can lose information, you should specify colors using the class that matches the document’s actual color space.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/CMYKColor.black:
+<a id="jsobjref-cmykcolor-black"></a>
 
-CMYKColor.black
-********************************************************************************
+### CMYKColor.black
 
-``cmykColor.black``
+`cmykColor.black`
 
 **Description**
 
@@ -32,14 +28,13 @@ The black color value. Range 0.0–100.0. Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/CMYKColor.cyan:
+<a id="jsobjref-cmykcolor-cyan"></a>
 
-CMYKColor.cyan
-********************************************************************************
+### CMYKColor.cyan
 
-``cmykColor.cyan``
+`cmykColor.cyan`
 
 **Description**
 
@@ -49,14 +44,13 @@ The cyan color value. Range 0.0–100.0. Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/CMYKColor.magenta:
+<a id="jsobjref-cmykcolor-magenta"></a>
 
-CMYKColor.magenta
-********************************************************************************
+### CMYKColor.magenta
 
-``cmykColor.magenta``
+`cmykColor.magenta`
 
 **Description**
 
@@ -66,14 +60,13 @@ The magenta color value. Range 0.0–100.0. Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/CMYKColor.typename:
+<a id="jsobjref-cmykcolor-typename"></a>
 
-CMYKColor.typename
-********************************************************************************
+### CMYKColor.typename
 
-``cmykColor.typename``
+`cmykColor.typename`
 
 **Description**
 
@@ -83,14 +76,13 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-.. _jsobjref/CMYKColor.yellow:
+<a id="jsobjref-cmykcolor-yellow"></a>
 
-CMYKColor.yellow
-********************************************************************************
+### CMYKColor.yellow
 
-``cmykColor.yellow``
+`cmykColor.yellow`
 
 **Description**
 
@@ -100,31 +92,28 @@ The yellow color value. Range 0.0–100.0. Default: 0.0
 
 Number (double)
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Setting a CMYK color
-********************************************************************************
+### Setting a CMYK color
 
-::
+```default
+// Sets the fill color of the frontmost path item in
+// the current document to a light purple CMYK color
 
-  // Sets the fill color of the frontmost path item in
-  // the current document to a light purple CMYK color
+if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {
+  var frontPath = app.activeDocument.pathItems[0];
 
-  if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {
-    var frontPath = app.activeDocument.pathItems[0];
+  // Set color values for the CMYK object
+  var newCMYKColor = new cmykColor();
+  newCMYKColor.black = 0;
+  newCMYKColor.cyan = 30.4;
+  newCMYKColor.magenta = 32;
+  newCMYKColor.yellow = 0;
 
-    // Set color values for the CMYK object
-    var newCMYKColor = new cmykColor();
-    newCMYKColor.black = 0;
-    newCMYKColor.cyan = 30.4;
-    newCMYKColor.magenta = 32;
-    newCMYKColor.yellow = 0;
-
-    // Use the color object in the path item
-    frontPath.filled = true;
-    frontPath.fillColor = newCMYKColor;
-  }
+  // Use the color object in the path item
+  frontPath.filled = true;
+  frontPath.fillColor = newCMYKColor;
+}
+```

@@ -1,24 +1,20 @@
-.. _jsobjref/Artboards:
+<a id="jsobjref-artboards"></a>
 
-Artboards
-################################################################################
+# Artboards
 
-``artboards``
+`artboards`
 
 **Description**
 
 A collection of Artboard objects.
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Artboards.length:
+<a id="jsobjref-artboards-length"></a>
 
-Artboards.length
-********************************************************************************
+### Artboards.length
 
-``artboards.length``
+`artboards.length`
 
 **Description**
 
@@ -28,14 +24,13 @@ The number of datasets in the collection
 
 Number; read-only.
 
-----
+---
 
-.. _jsobjref/Artboards.parent:
+<a id="jsobjref-artboards-parent"></a>
 
-Artboards.parent
-********************************************************************************
+### Artboards.parent
 
-``artboards.parent``
+`artboards.parent`
 
 **Description**
 
@@ -43,17 +38,15 @@ The name of the object that contains this dataset
 
 **Type**
 
-:ref:`jsobjref/Artboard`; read-only.
+[Artboard](Artboard.md#jsobjref-artboard); read-only.
 
+---
 
-----
+<a id="jsobjref-artboards-typename"></a>
 
-.. _jsobjref/Artboards.typename:
+### Artboards.typename
 
-Artboards.typename
-********************************************************************************
-
-``artboards.typename``
+`artboards.typename`
 
 **Description**
 
@@ -63,18 +56,15 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Artboards.add:
+<a id="jsobjref-artboards-add"></a>
 
-Artboards.add()
-********************************************************************************
+### Artboards.add()
 
-``artboards.add(artboardRect)``
+`artboards.add(artboardRect)`
 
 **Description**
 
@@ -82,28 +72,25 @@ Creates a new Artboard object.
 
 **Parameters**
 
-+------------------+------+---------------------+
-|    Parameter     | Type |     Description     |
-+==================+======+=====================+
-| ``artboardRect`` | Rect | Artboard dimensions |
-+------------------+------+---------------------+
+| Parameter      | Type   | Description         |
+|----------------|--------|---------------------|
+| `artboardRect` | Rect   | Artboard dimensions |
 
 **Returns**
 
-:ref:`jsobjref/Artboard`
+[Artboard](Artboard.md#jsobjref-artboard)
 
-----
+---
 
-.. _jsobjref/Artboards.getActiveArtboardIndex:
+<a id="jsobjref-artboards-getactiveartboardindex"></a>
 
-Artboards.getActiveArtboardIndex()
-********************************************************************************
+### Artboards.getActiveArtboardIndex()
 
-``artboards.getActiveArtboardIndex()``
+`artboards.getActiveArtboardIndex()`
 
 **Description**
 
-Retrieves the index position of the active artboard in the document's list.
+Retrieves the index position of the active artboard in the document’s list.
 
 Returns the 0-based index.
 
@@ -111,14 +98,13 @@ Returns the 0-based index.
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/Artboards.getByName:
+<a id="jsobjref-artboards-getbyname"></a>
 
-Artboards.getByName()
-********************************************************************************
+### Artboards.getByName()
 
-``artboards.getByName(name)``
+`artboards.getByName(name)`
 
 **Description**
 
@@ -126,24 +112,21 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/Artboard`
+[Artboard](Artboard.md#jsobjref-artboard)
 
-----
+---
 
-.. _jsobjref/Artboards.insert:
+<a id="jsobjref-artboards-insert"></a>
 
-Artboards.insert()
-********************************************************************************
+### Artboards.insert()
 
-``artboards.insert(artboardRect, index)``
+`artboards.insert(artboardRect, index)`
 
 **Description**
 
@@ -151,26 +134,22 @@ Creates a new Artboard object and inserts it at the given index in the list.
 
 **Parameters**
 
-+------------------+---------------+-----------------------------+
-|    Parameter     |     Type      |         Description         |
-+==================+===============+=============================+
-| ``artboardRect`` | Rect          | Artboard dimensions         |
-+------------------+---------------+-----------------------------+
-| ``index``        | Number (long) | Index to insert artboard at |
-+------------------+---------------+-----------------------------+
+| Parameter      | Type          | Description                 |
+|----------------|---------------|-----------------------------|
+| `artboardRect` | Rect          | Artboard dimensions         |
+| `index`        | Number (long) | Index to insert artboard at |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/Artboards.remove:
+<a id="jsobjref-artboards-remove"></a>
 
-Artboards.remove()
-********************************************************************************
+### Artboards.remove()
 
-``artboards.remove(index)``
+`artboards.remove(index)`
 
 **Description**
 
@@ -178,24 +157,21 @@ Deletes an artboard object. You cannot remove the last artboard in a document.
 
 **Parameters**
 
-+-----------+---------------+-----------------------------+
-| Parameter |     Type      |         Description         |
-+===========+===============+=============================+
-| ``index`` | Number (long) | Index of artboard to remove |
-+-----------+---------------+-----------------------------+
+| Parameter   | Type          | Description                 |
+|-------------|---------------|-----------------------------|
+| `index`     | Number (long) | Index of artboard to remove |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/Artboards.setActiveArtboardIndex:
+<a id="jsobjref-artboards-setactiveartboardindex"></a>
 
-Artboards.setActiveArtboardIndex()
-********************************************************************************
+### Artboards.setActiveArtboardIndex()
 
-``artboards.setActiveArtboardIndex(index)``
+`artboards.setActiveArtboardIndex(index)`
 
 **Description**
 
@@ -203,11 +179,9 @@ Makes a specific artboard active and makes it current in the iteration order.
 
 **Parameters**
 
-+-----------+---------------+---------------------------------+
-| Parameter |     Type      |           Description           |
-+===========+===============+=================================+
-| ``index`` | Number (long) | Index of artboard to set active |
-+-----------+---------------+---------------------------------+
+| Parameter   | Type          | Description                     |
+|-------------|---------------|---------------------------------|
+| `index`     | Number (long) | Index of artboard to set active |
 
 **Returns**
 

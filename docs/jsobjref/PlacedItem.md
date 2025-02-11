@@ -1,30 +1,26 @@
-.. _jsobjref/PlacedItem:
+<a id="jsobjref-placeditem"></a>
 
-PlacedItem
-################################################################################
+# PlacedItem
 
-``app.activeDocument.placedItems[index``
+`app.activeDocument.placedItems[index`
 
 **Description**
 
 An artwork item placed in a document as a linked file.
 
-For example, an artwork object created using the ``File > Place`` command in Illustrator or using the ``add()`` method of the ``placedItems`` collection object is a placed item.
+For example, an artwork object created using the `File > Place` command in Illustrator or using the `add()` method of the `placedItems` collection object is a placed item.
 
-For information, see :ref:`jsobjref/PlacedItems`.
+For information, see [PlacedItems](PlacedItems.md#jsobjref-placeditems).
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PlacedItem.artworkKnockout:
+<a id="jsobjref-placeditem-artworkknockout"></a>
 
-PlacedItem.artworkKnockout
-********************************************************************************
+### PlacedItem.artworkKnockout
 
-``app.activeDocument.placedItems[index].artworkKnockout``
+`app.activeDocument.placedItems[index].artworkKnockout`
 
 **Description**
 
@@ -32,16 +28,15 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.KnockoutState`
+[KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
-----
+---
 
-.. _jsobjref/PlacedItem.blendingMode:
+<a id="jsobjref-placeditem-blendingmode"></a>
 
-PlacedItem.blendingMode
-********************************************************************************
+### PlacedItem.blendingMode
 
-``app.activeDocument.placedItems[index].blendingMode``
+`app.activeDocument.placedItems[index].blendingMode`
 
 **Description**
 
@@ -49,16 +44,15 @@ The blend mode used when compositing an object.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BlendModes`
+[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
-----
+---
 
-.. _jsobjref/PlacedItem.boundingBox:
+<a id="jsobjref-placeditem-boundingbox"></a>
 
-PlacedItem.boundingBox
-********************************************************************************
+### PlacedItem.boundingBox
 
-``app.activeDocument.placedItems[index].boundingBox``
+`app.activeDocument.placedItems[index].boundingBox`
 
 **Description**
 
@@ -68,14 +62,13 @@ The dimensions of the placed art item regardless of transformations.
 
 Array of 4 numbers
 
-----
+---
 
-.. _jsobjref/PlacedItem.contentVariable:
+<a id="jsobjref-placeditem-contentvariable"></a>
 
-PlacedItem.contentVariable
-********************************************************************************
+### PlacedItem.contentVariable
 
-``app.activeDocument.placedItems[index].contentVariable``
+`app.activeDocument.placedItems[index].contentVariable`
 
 **Description**
 
@@ -83,16 +76,15 @@ The content variable bound to the item.
 
 **Type**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/PlacedItem.controlBounds:
+<a id="jsobjref-placeditem-controlbounds"></a>
 
-PlacedItem.controlBounds
-********************************************************************************
+### PlacedItem.controlBounds
 
-``app.activeDocument.placedItems[index].controlBounds``
+`app.activeDocument.placedItems[index].controlBounds`
 
 **Description**
 
@@ -102,31 +94,29 @@ The bounds of the object including stroke width and controls.
 
 Array of 4 numbers; read-only.
 
-----
+---
 
-.. _jsobjref/PlacedItem.editable:
+<a id="jsobjref-placeditem-editable"></a>
 
-PlacedItem.editable
-********************************************************************************
+### PlacedItem.editable
 
-``app.activeDocument.placedItems[index].editable``
+`app.activeDocument.placedItems[index].editable`
 
 **Description**
 
-If ``true``, this item is editable.
+If `true`, this item is editable.
 
 **Type**
 
 Boolean; read-only.
 
-----
+---
 
-.. _jsobjref/PlacedItem.file:
+<a id="jsobjref-placeditem-file"></a>
 
-PlacedItem.file
-********************************************************************************
+### PlacedItem.file
 
-``app.activeDocument.placedItems[index].file``
+`app.activeDocument.placedItems[index].file`
 
 **Description**
 
@@ -136,14 +126,13 @@ The file containing the artwork.
 
 File; read-only.
 
-----
+---
 
-.. _jsobjref/PlacedItem.geometricBounds:
+<a id="jsobjref-placeditem-geometricbounds"></a>
 
-PlacedItem.geometricBounds
-********************************************************************************
+### PlacedItem.geometricBounds
 
-``app.activeDocument.placedItems[index].geometricBounds``
+`app.activeDocument.placedItems[index].geometricBounds`
 
 **Description**
 
@@ -153,14 +142,13 @@ The bounds of the object excluding stroke width.
 
 Array of 4 numbers; read-only.
 
-----
+---
 
-.. _jsobjref/PlacedItem.height:
+<a id="jsobjref-placeditem-height"></a>
 
-PlacedItem.height
-********************************************************************************
+### PlacedItem.height
 
-``app.activeDocument.placedItems[index].height``
+`app.activeDocument.placedItems[index].height`
 
 **Description**
 
@@ -170,48 +158,45 @@ The height of the group item.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PlacedItem.hidden:
+<a id="jsobjref-placeditem-hidden"></a>
 
-PlacedItem.hidden
-********************************************************************************
+### PlacedItem.hidden
 
-``app.activeDocument.placedItems[index].hidden``
+`app.activeDocument.placedItems[index].hidden`
 
 **Description**
 
-If ``true``, this item is hidden.
+If `true`, this item is hidden.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PlacedItem.isIsolated:
+<a id="jsobjref-placeditem-isisolated"></a>
 
-PlacedItem.isIsolated
-********************************************************************************
+### PlacedItem.isIsolated
 
-``app.activeDocument.placedItems[index].isIsolated``
+`app.activeDocument.placedItems[index].isIsolated`
 
 **Description**
 
-If ``true``, this object is isolated.
+If `true`, this object is isolated.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PlacedItem.layer:
+<a id="jsobjref-placeditem-layer"></a>
 
-PlacedItem.layer
-********************************************************************************
+### PlacedItem.layer
 
-``app.activeDocument.placedItems[index].layer``
+`app.activeDocument.placedItems[index].layer`
 
 **Description**
 
@@ -219,16 +204,15 @@ The layer to which this item belongs.
 
 **Type**
 
-:ref:`jsobjref/Layer`; read-only.
+[Layer](Layer.md#jsobjref-layer); read-only.
 
-----
+---
 
-.. _jsobjref/PlacedItem.left:
+<a id="jsobjref-placeditem-left"></a>
 
-PlacedItem.left
-********************************************************************************
+### PlacedItem.left
 
-``app.activeDocument.placedItems[index].left``
+`app.activeDocument.placedItems[index].left`
 
 **Description**
 
@@ -238,31 +222,29 @@ The position of the left side of the item (in points, measured from the left sid
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PlacedItem.locked:
+<a id="jsobjref-placeditem-locked"></a>
 
-PlacedItem.locked
-********************************************************************************
+### PlacedItem.locked
 
-``app.activeDocument.placedItems[index].locked``
+`app.activeDocument.placedItems[index].locked`
 
 **Description**
 
-If ``true``, this item is locked.
+If `true`, this item is locked.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PlacedItem.matrix:
+<a id="jsobjref-placeditem-matrix"></a>
 
-PlacedItem.matrix
-********************************************************************************
+### PlacedItem.matrix
 
-``app.activeDocument.placedItems[index].matrix``
+`app.activeDocument.placedItems[index].matrix`
 
 **Description**
 
@@ -270,16 +252,15 @@ The transformation matrix of the placed artwork.
 
 **Type**
 
-:ref:`jsobjref/Matrix`
+[Matrix](Matrix.md#jsobjref-matrix)
 
-----
+---
 
-.. _jsobjref/PlacedItem.name:
+<a id="jsobjref-placeditem-name"></a>
 
-PlacedItem.name
-********************************************************************************
+### PlacedItem.name
 
-``app.activeDocument.placedItems[index].name``
+`app.activeDocument.placedItems[index].name`
 
 **Description**
 
@@ -289,14 +270,13 @@ The name of this item.
 
 String
 
-----
+---
 
-.. _jsobjref/PlacedItem.note:
+<a id="jsobjref-placeditem-note"></a>
 
-PlacedItem.note
-********************************************************************************
+### PlacedItem.note
 
-``app.activeDocument.placedItems[index].note``
+`app.activeDocument.placedItems[index].note`
 
 **Description**
 
@@ -306,14 +286,13 @@ The note assigned to this item.
 
 String
 
-----
+---
 
-.. _jsobjref/PlacedItem.opacity:
+<a id="jsobjref-placeditem-opacity"></a>
 
-PlacedItem.opacity
-********************************************************************************
+### PlacedItem.opacity
 
-``app.activeDocument.placedItems[index].opacity``
+`app.activeDocument.placedItems[index].opacity`
 
 **Description**
 
@@ -323,14 +302,13 @@ The opacity of the object. Range: 0.0 to 100.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PlacedItem.parent:
+<a id="jsobjref-placeditem-parent"></a>
 
-PlacedItem.parent
-********************************************************************************
+### PlacedItem.parent
 
-``app.activeDocument.placedItems[index].parent``
+`app.activeDocument.placedItems[index].parent`
 
 **Description**
 
@@ -338,69 +316,65 @@ The parent of this object.
 
 **Type**
 
-:ref:`jsobjref/Layer` or :ref:`jsobjref/GroupItem`
+[Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem)
 
-----
+---
 
-.. _jsobjref/PlacedItem.position:
+<a id="jsobjref-placeditem-position"></a>
 
-PlacedItem.position
-********************************************************************************
+### PlacedItem.position
 
-``app.activeDocument.placedItems[index].position``
+`app.activeDocument.placedItems[index].position`
 
 **Description**
 
-The position (in points) of the top left corner of the ``pluginItem`` object in the format [x, y]. Does not include stroke weight.
+The position (in points) of the top left corner of the `pluginItem` object in the format [x, y]. Does not include stroke weight.
 
 **Type**
 
 Array of 2 numbers; read-only.
 
-----
+---
 
-.. _jsobjref/PlacedItem.selected:
+<a id="jsobjref-placeditem-selected"></a>
 
-PlacedItem.selected
-********************************************************************************
+### PlacedItem.selected
 
-``app.activeDocument.placedItems[index].selected``
+`app.activeDocument.placedItems[index].selected`
 
 **Description**
 
-If ``true``, this item is selected.
+If `true`, this item is selected.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PlacedItem.sliced:
+<a id="jsobjref-placeditem-sliced"></a>
 
-PlacedItem.sliced
-********************************************************************************
+### PlacedItem.sliced
 
-``app.activeDocument.placedItems[index].sliced``
+`app.activeDocument.placedItems[index].sliced`
 
 **Description**
 
-If ``true``, the item sliced.
+If `true`, the item sliced.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PlacedItem.tags:
+<a id="jsobjref-placeditem-tags"></a>
 
-PlacedItem.tags
-********************************************************************************
+### PlacedItem.tags
 
-``app.activeDocument.placedItems[index].tags``
+`app.activeDocument.placedItems[index].tags`
 
 **Description**
 
@@ -408,16 +382,15 @@ The tags contained in this item.
 
 **Type**
 
-:ref:`jsobjref/Tags`; read-only.
+[Tags](Tags.md#jsobjref-tags); read-only.
 
-----
+---
 
-.. _jsobjref/PlacedItem.top:
+<a id="jsobjref-placeditem-top"></a>
 
-PlacedItem.top
-********************************************************************************
+### PlacedItem.top
 
-``app.activeDocument.placedItems[index].top``
+`app.activeDocument.placedItems[index].top`
 
 **Description**
 
@@ -427,14 +400,13 @@ The position of the top of the item (in points, measured from the bottom of the 
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PlacedItem.typename:
+<a id="jsobjref-placeditem-typename"></a>
 
-PlacedItem.typename
-********************************************************************************
+### PlacedItem.typename
 
-``app.activeDocument.placedItems[index].typename``
+`app.activeDocument.placedItems[index].typename`
 
 **Description**
 
@@ -444,14 +416,13 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-.. _jsobjref/PlacedItem.uRL:
+<a id="jsobjref-placeditem-url"></a>
 
-PlacedItem.uRL
-********************************************************************************
+### PlacedItem.uRL
 
-``app.activeDocument.placedItems[index].uRL``
+`app.activeDocument.placedItems[index].uRL`
 
 **Description**
 
@@ -461,14 +432,13 @@ The value of the Adobe URL tag assigned to this item.
 
 String
 
-----
+---
 
-.. _jsobjref/PlacedItem.visibilityVariable:
+<a id="jsobjref-placeditem-visibilityvariable"></a>
 
-PlacedItem.visibilityVariable
-********************************************************************************
+### PlacedItem.visibilityVariable
 
-``app.activeDocument.placedItems[index].visibilityVariable``
+`app.activeDocument.placedItems[index].visibilityVariable`
 
 **Description**
 
@@ -476,16 +446,15 @@ The visibility variable bound to the item.
 
 **Type**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/PlacedItem.visibleBounds:
+<a id="jsobjref-placeditem-visiblebounds"></a>
 
-PlacedItem.visibleBounds
-********************************************************************************
+### PlacedItem.visibleBounds
 
-``app.activeDocument.placedItems[index].visibleBounds``
+`app.activeDocument.placedItems[index].visibleBounds`
 
 **Description**
 
@@ -495,14 +464,13 @@ The visible bounds of the item including stroke width.
 
 Array of 4 numbers; read-only.
 
-----
+---
 
-.. _jsobjref/PlacedItem.width:
+<a id="jsobjref-placeditem-width"></a>
 
-PlacedItem.width
-********************************************************************************
+### PlacedItem.width
 
-``app.activeDocument.placedItems[index].width``
+`app.activeDocument.placedItems[index].width`
 
 **Description**
 
@@ -512,31 +480,29 @@ The width of the item.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PlacedItem.wrapInside:
+<a id="jsobjref-placeditem-wrapinside"></a>
 
-PlacedItem.wrapInside
-********************************************************************************
+### PlacedItem.wrapInside
 
-``app.activeDocument.placedItems[index].wrapInside``
+`app.activeDocument.placedItems[index].wrapInside`
 
 **Description**
 
-If ``true``, the text frame object should be wrapped inside this object.
+If `true`, the text frame object should be wrapped inside this object.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PlacedItem.wrapOffset:
+<a id="jsobjref-placeditem-wrapoffset"></a>
 
-PlacedItem.wrapOffset
-********************************************************************************
+### PlacedItem.wrapOffset
 
-``app.activeDocument.placedItems[index].wrapOffset``
+`app.activeDocument.placedItems[index].wrapOffset`
 
 **Description**
 
@@ -546,52 +512,47 @@ The offset to use when wrapping text around this object.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PlacedItem.wrapped:
+<a id="jsobjref-placeditem-wrapped"></a>
 
-PlacedItem.wrapped
-********************************************************************************
+### PlacedItem.wrapped
 
-``app.activeDocument.placedItems[index].wrapped``
+`app.activeDocument.placedItems[index].wrapped`
 
 **Description**
 
-If ``true``, wrap text frame objects around this object (text frame must be above the object).
+If `true`, wrap text frame objects around this object (text frame must be above the object).
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PlacedItem.zOrderPosition:
+<a id="jsobjref-placeditem-zorderposition"></a>
 
-PlacedItem.zOrderPosition
-********************************************************************************
+### PlacedItem.zOrderPosition
 
-``app.activeDocument.placedItems[index].zOrderPosition``
+`app.activeDocument.placedItems[index].zOrderPosition`
 
 **Description**
 
-The position of this item within the stacking order of the group or layer (``parent``) that contains the item.
+The position of this item within the stacking order of the group or layer (`parent`) that contains the item.
 
 **Type**
 
 Number; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/PlacedItem.duplicate:
+<a id="jsobjref-placeditem-duplicate"></a>
 
-PlacedItem.duplicate()
-********************************************************************************
+### PlacedItem.duplicate()
 
-``app.activeDocument.placedItems[index].duplicate([relativeObject][, insertionLocation])``
+`app.activeDocument.placedItems[index].duplicate([relativeObject][, insertionLocation])`
 
 **Description**
 
@@ -599,26 +560,22 @@ Creates a duplicate of the selected object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+----------------------------+
-|       Parameter       |                              Type                              |        Description         |
-+=======================+================================================================+============================+
-| ``relativeObject``    | Object, optional                                               | Object to duplicate to     |
-+-----------------------+----------------------------------------------------------------+----------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to insert element |
-+-----------------------+----------------------------------------------------------------+----------------------------+
+| Parameter           | Type                                                                                               | Description                |
+|---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
+| `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
 **Returns**
 
-:ref:`jsobjref/PlacedItem`
+[PlacedItem](#jsobjref-placeditem)
 
-----
+---
 
-.. _jsobjref/PlacedItem.embed:
+<a id="jsobjref-placeditem-embed"></a>
 
-PlacedItem.embed()
-********************************************************************************
+### PlacedItem.embed()
 
-``app.activeDocument.placedItems[index].embed()``
+`app.activeDocument.placedItems[index].embed()`
 
 **Description**
 
@@ -628,14 +585,13 @@ Embeds this art in the document. Converts the art to art item objects as needed 
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PlacedItem.move:
+<a id="jsobjref-placeditem-move"></a>
 
-PlacedItem.move()
-********************************************************************************
+### PlacedItem.move()
 
-``app.activeDocument.placedItems[index].move(relativeObject, insertionLocation)``
+`app.activeDocument.placedItems[index].move(relativeObject, insertionLocation)`
 
 **Description**
 
@@ -643,26 +599,22 @@ Moves the object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-|       Parameter       |                              Type                              |          Description          |
-+=======================+================================================================+===============================+
-| ``relativeObject``    | Object                                                         | Object to move element within |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to move element to   |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
+| Parameter           | Type                                                                                               | Description                   |
+|---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
+| `relativeObject`    | Object                                                                                             | Object to move element within |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
 **Returns**
 
-:ref:`jsobjref/PlacedItem`
+[PlacedItem](#jsobjref-placeditem)
 
-----
+---
 
-.. _jsobjref/PlacedItem.relink:
+<a id="jsobjref-placeditem-relink"></a>
 
-PlacedItem.relink()
-********************************************************************************
+### PlacedItem.relink()
 
-``app.activeDocument.placedItems[index].relink(linkFile)``
+`app.activeDocument.placedItems[index].relink(linkFile)`
 
 **Description**
 
@@ -670,24 +622,21 @@ Relinks the art object with the file that defines its content.
 
 **Parameters**
 
-+--------------+-------------+----------------+
-|  Parameter   |    Type     |  Description   |
-+==============+=============+================+
-| ``linkFile`` | File object | File to relink |
-+--------------+-------------+----------------+
+| Parameter   | Type        | Description    |
+|-------------|-------------|----------------|
+| `linkFile`  | File object | File to relink |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PlacedItem.remove:
+<a id="jsobjref-placeditem-remove"></a>
 
-PlacedItem.remove()
-********************************************************************************
+### PlacedItem.remove()
 
-``app.activeDocument.placedItems[index].remove()``
+`app.activeDocument.placedItems[index].remove()`
 
 **Description**
 
@@ -697,90 +646,71 @@ Deletes this object.
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PlacedItem.resize:
+<a id="jsobjref-placeditem-resize"></a>
 
-PlacedItem.resize()
-********************************************************************************
+### PlacedItem.resize()
 
-``app.activeDocument.placedItems[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])``
+`app.activeDocument.placedItems[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])`
 
 **Description**
 
-Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scaleY`` is the vertical scaling factor. 100.0 = 100%.
+Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``scaleX``              | Number (double)                                              | Horizontal scaling factor                               |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleY``              | Number (double)                                              | Vertical scaling factor                                 |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeLineWidths``    | Number (double), optional                                    | The amount to scale line widths                         |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleAbout``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `scaleX`              | Number (double)                                                                                | Horizontal scaling factor                               |
+| `scaleY`              | Number (double)                                                                                | Vertical scaling factor                                 |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
+| `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PlacedItem.rotate:
+<a id="jsobjref-placeditem-rotate"></a>
 
-PlacedItem.rotate()
-********************************************************************************
+### PlacedItem.rotate()
 
-``app.activeDocument.placedItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])``
+`app.activeDocument.placedItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])`
 
 **Description**
 
 Rotates the art item relative to the current rotation.
 
-The object is rotated counter-clockwise if the ``angle`` value is positive, clockwise if the value is negative.
+The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``angle``               | Number (double)                                              | The angle amount to rotate the element                  |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``rotateAbout``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `angle`               | Number (double)                                                                                | The angle amount to rotate the element                  |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PlacedItem.trace:
+<a id="jsobjref-placeditem-trace"></a>
 
-PlacedItem.trace
-********************************************************************************
+### PlacedItem.trace
 
-``app.activeDocument.placedItems[index].trace()``
+`app.activeDocument.placedItems[index].trace()`
 
 **Description**
 
@@ -788,20 +718,19 @@ Converts the raster art for this object to vector art, using default options.
 
 Reorders the raster art into the source art of a plug-in group, and converts it into a group of filled and/or stroked paths that resemble the original image.
 
-Creates and returns a :ref:`jsobjref/PluginItem` object that references a :ref:`jsobjref/TracingObject` object.
+Creates and returns a [PluginItem](PluginItem.md#jsobjref-pluginitem) object that references a [TracingObject](TracingObject.md#jsobjref-tracingobject) object.
 
 **Returns**
 
-:ref:`jsobjref/PluginItem`
+[PluginItem](PluginItem.md#jsobjref-pluginitem)
 
-----
+---
 
-.. _jsobjref/PlacedItem.transform:
+<a id="jsobjref-placeditem-transform"></a>
 
-PlacedItem.transform()
-********************************************************************************
+### PlacedItem.transform()
 
-``app.activeDocument.placedItems[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])``
+`app.activeDocument.placedItems[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])`
 
 **Description**
 
@@ -809,71 +738,54 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-|        Parameter         |                             Type                             |                  Description                   |
-+==========================+==============================================================+================================================+
-| ``transformationMatrix`` | :ref:`jsobjref/Matrix`                                       | Transformation matrix to apply                 |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changePositions``      | Boolean, optional                                            | Whether to change Positions                    |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillPatterns``   | Boolean, optional                                            | Whether to change Fill Patterns                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillGradients``  | Boolean, optional                                            | Whether to change Fill Gradients               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeStrokePattern``  | Boolean, optional                                            | Whether to change Stroke Pattern               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeLineWidths``     | Number (double), optional                                    | The amount to scale line widths                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``transformAbout``       | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| Parameter              | Type                                                                                           | Description                                    |
+|------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
+| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
+| `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
+| `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |
+| `changeStrokePattern`  | Boolean, optional                                                                              | Whether to change Stroke Pattern               |
+| `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
+| `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PlacedItem.translate:
+<a id="jsobjref-placeditem-translate"></a>
 
-PlacedItem.translate()
-********************************************************************************
+### PlacedItem.translate()
 
-``app.activeDocument.placedItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])``
+`app.activeDocument.placedItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])`
 
 **Description**
 
-Repositions the art item relative to the current position, where ``deltaX`` is the horizontal offset and ``deltaY`` is the vertical offset.
+Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
 **Parameters**
 
-+-----------------------------+---------------------------+--------------------------------------+
-|          Parameter          |           Type            |             Description              |
-+=============================+===========================+======================================+
-| ``deltaX``                  | Number (double), optional | Horizontal offset                    |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``deltaY``                  | Number (double), optional | Vertical offset                      |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformObjects``        | Boolean, optional         | Whether to transform Objects         |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillPatterns``   | Boolean, optional         | Whether to transform Fill Patterns   |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillGradients``  | Boolean, optional         | Whether to transform Fill Gradients  |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformStrokePatterns`` | Boolean, optional         | Whether to transform Stroke Patterns |
-+-----------------------------+---------------------------+--------------------------------------+
+| Parameter                 | Type                      | Description                          |
+|---------------------------|---------------------------|--------------------------------------|
+| `deltaX`                  | Number (double), optional | Horizontal offset                    |
+| `deltaY`                  | Number (double), optional | Vertical offset                      |
+| `transformObjects`        | Boolean, optional         | Whether to transform Objects         |
+| `transformFillPatterns`   | Boolean, optional         | Whether to transform Fill Patterns   |
+| `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
+| `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PlacedItem.zOrder:
+<a id="jsobjref-placeditem-zorder"></a>
 
-PlacedItem.zOrder()
-********************************************************************************
+### PlacedItem.zOrder()
 
-``app.activeDocument.placedItems[index].zOrder(zOrderCmd)``
+`app.activeDocument.placedItems[index].zOrder(zOrderCmd)`
 
 **Description**
 
@@ -881,31 +793,26 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-+---------------+--------------------------------------------------+-----------------------------------+
-|   Parameter   |                       Type                       |            Description            |
-+===============+==================================================+===================================+
-| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | Stacking order arrangement method |
-+---------------+--------------------------------------------------+-----------------------------------+
+| Parameter   | Type                                                                             | Description                       |
+|-------------|----------------------------------------------------------------------------------|-----------------------------------|
+| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Changing the selection state of placed items
-********************************************************************************
+### Changing the selection state of placed items
 
-::
-
-  // Toggles the selection state of all placed items.
-  if (app.documents.length > 0) {
-    for (i = 0; i < app.activeDocument.placedItems.length; i++) {
-      var placedArt = app.activeDocument.placedItems[i];
-      placedArt.selected = !(placedArt.selected);
-    }
+```default
+// Toggles the selection state of all placed items.
+if (app.documents.length > 0) {
+  for (i = 0; i < app.activeDocument.placedItems.length; i++) {
+    var placedArt = app.activeDocument.placedItems[i];
+    placedArt.selected = !(placedArt.selected);
   }
+}
+```

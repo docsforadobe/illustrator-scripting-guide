@@ -1,155 +1,142 @@
-.. _jsobjref/OpenOptions:
+<a id="jsobjref-openoptions"></a>
 
-OpenOptions
-################################################################################
+# OpenOptions
 
-``openOptions``
-
-**Description**
-
-Options for opening a document, used with the :ref:`jsobjref/Application.open` method.
-
-----
-
-==========
-Properties
-==========
-
-.. _jsobjref/OpenOptions.convertCropAreaToArboard:
-
-OpenOptions.convertCropAreaToArboard
-********************************************************************************
-
-``openOptions.convertCropAreaToArboard``
+`openOptions`
 
 **Description**
 
-Optional. Convert crop areas to artboards when opening a legacy document in Illustrator CS4 or later. When ``false``, crop areas are discarded. Default: ``true``.
+Options for opening a document, used with the [Application.open()](Application.md#jsobjref-application-open) method.
+
+---
+
+## Properties
+
+<a id="jsobjref-openoptions-convertcropareatoarboard"></a>
+
+### OpenOptions.convertCropAreaToArboard
+
+`openOptions.convertCropAreaToArboard`
+
+**Description**
+
+Optional. Convert crop areas to artboards when opening a legacy document in Illustrator CS4 or later. When `false`, crop areas are discarded. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/OpenOptions.convertTilesToArboard:
+<a id="jsobjref-openoptions-converttilestoarboard"></a>
 
-OpenOptions.convertTilesToArboard
-********************************************************************************
+### OpenOptions.convertTilesToArboard
 
-``openOptions.convertTilesToArboard``
+`openOptions.convertTilesToArboard`
 
 **Description**
 
-Optional. Convert print tiles to artboards when opening a legacy document in Illustrator CS4 or later. Default: ``false``.
+Optional. Convert print tiles to artboards when opening a legacy document in Illustrator CS4 or later. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/OpenOptions.createArtboardWithArtworkBoundingBox:
+<a id="jsobjref-openoptions-createartboardwithartworkboundingbox"></a>
 
-OpenOptions.createArtboardWithArtworkBoundingBox
-********************************************************************************
+### OpenOptions.createArtboardWithArtworkBoundingBox
 
-``openOptions.createArtboardWithArtworkBoundingBox``
+`openOptions.createArtboardWithArtworkBoundingBox`
 
 **Description**
 
-Optional. Create an artboard with the dimensions of the bounding box of the artwork when opening a legacy document in Illustrator CS4 or later. Default: ``false``.
+Optional. Create an artboard with the dimensions of the bounding box of the artwork when opening a legacy document in Illustrator CS4 or later. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/OpenOptions.openAs:
+<a id="jsobjref-openoptions-openas"></a>
 
-OpenOptions.openAs
-********************************************************************************
+### OpenOptions.openAs
 
-``openOptions.openAs``
+`openOptions.openAs`
 
 **Description**
 
-Optional. Open the file as an Illustrator library of this type. Default: ``LibraryType.IllustratorArtwork``.
+Optional. Open the file as an Illustrator library of this type. Default: `LibraryType.IllustratorArtwork`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.LibraryType`
+[LibraryType](scripting-constants.md#jsobjref-scripting-constants-librarytype)
 
-----
+---
 
-.. _jsobjref/OpenOptions.preserveLegacyArtboard:
+<a id="jsobjref-openoptions-preservelegacyartboard"></a>
 
-OpenOptions.preserveLegacyArtboard
-********************************************************************************
+### OpenOptions.preserveLegacyArtboard
 
-``openOptions.preserveLegacyArtboard``
-
-**Description**
-
-Optional. Preserve legacy artboards when opening a legacy document in Illustrator CS4 or later. Default: ``true``.
-
-**Type**
-
-Boolean.
-
-----
-
-.. _jsobjref/OpenOptions.updateLegacyGradientMesh:
-
-OpenOptions.updateLegacyGradientMesh
-********************************************************************************
-
-``openOptions.updateLegacyGradientMesh``
+`openOptions.preserveLegacyArtboard`
 
 **Description**
 
-If ``true``, preserves the spot colors in the gradient mesh objects for legacy documents (pre-Illustrator CS4). Default: ``true``.
+Optional. Preserve legacy artboards when opening a legacy document in Illustrator CS4 or later. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/OpenOptions.updateLegacyText:
+<a id="jsobjref-openoptions-updatelegacygradientmesh"></a>
 
-OpenOptions.updateLegacyText
-********************************************************************************
+### OpenOptions.updateLegacyGradientMesh
 
-``openOptions.updateLegacyText``
+`openOptions.updateLegacyGradientMesh`
 
 **Description**
 
-Optional. If ``true``, update all legacy text items (from previous versions of Illustrator). Default: ``false``.
+If `true`, preserves the spot colors in the gradient mesh objects for legacy documents (pre-Illustrator CS4). Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-=======
-Example
-=======
+<a id="jsobjref-openoptions-updatelegacytext"></a>
 
-Automatically updating legacy text on open
-********************************************************************************
+### OpenOptions.updateLegacyText
 
-::
+`openOptions.updateLegacyText`
 
-  // Opens a file with legacy text (AI 10 or older), using
-  // OpenOptions to automatically update the legacy text.
+**Description**
 
-  var fileRef = filePath;
-  if (fileRef != null) {
-    var openOptions = new OpenOptions();
-    openOptions.updateLegacyText = true;
+Optional. If `true`, update all legacy text items (from previous versions of Illustrator). Default: `false`.
 
-    var docRef = open(fileRef, DocumentColorSpace.RGB, openOptions);
-  }
+**Type**
+
+Boolean.
+
+---
+
+## Example
+
+### Automatically updating legacy text on open
+
+```default
+// Opens a file with legacy text (AI 10 or older), using
+// OpenOptions to automatically update the legacy text.
+
+var fileRef = filePath;
+if (fileRef != null) {
+  var openOptions = new OpenOptions();
+  openOptions.updateLegacyText = true;
+
+  var docRef = open(fileRef, DocumentColorSpace.RGB, openOptions);
+}
+```

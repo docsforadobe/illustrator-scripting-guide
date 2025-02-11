@@ -1,26 +1,22 @@
-.. _jsobjref/TextFonts:
+<a id="jsobjref-textfonts"></a>
 
-TextFonts
-################################################################################
+# TextFonts
 
-``app.textFonts``
+`app.textFonts`
 
 **Description**
 
-A collection of :ref:`jsobjref/TextFont` objects.
+A collection of [TextFont](TextFont.md#jsobjref-textfont) objects.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/TextFonts.length:
+<a id="jsobjref-textfonts-length"></a>
 
-TextFonts.length
-********************************************************************************
+### TextFonts.length
 
-``app.textFonts.length``
+`app.textFonts.length`
 
 **Description**
 
@@ -30,31 +26,29 @@ The number of elements in the collection.
 
 Number; read-only.
 
-----
+---
 
-.. _jsobjref/TextFonts.parent:
+<a id="jsobjref-textfonts-parent"></a>
 
-TextFonts.parent
-********************************************************************************
+### TextFonts.parent
 
-``app.textFonts.parent``
+`app.textFonts.parent`
 
 **Description**
 
-The object's container.
+The object’s container.
 
 **Type**
 
 Object; read-only.
 
-----
+---
 
-.. _jsobjref/TextFonts.typename:
+<a id="jsobjref-textfonts-typename"></a>
 
-TextFonts.typename
-********************************************************************************
+### TextFonts.typename
 
-``app.textFonts.typename``
+`app.textFonts.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/TextFonts.getByName:
+<a id="jsobjref-textfonts-getbyname"></a>
 
-TextFonts.getByName()
-********************************************************************************
+### TextFonts.getByName()
 
-``app.textFonts.getByName(name)``
+`app.textFonts.getByName(name)`
 
 **Description**
 
@@ -83,24 +74,21 @@ Get the first element in the collection with the provided name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/TextFont`
+[TextFont](TextFont.md#jsobjref-textfont)
 
-----
+---
 
-.. _jsobjref/TextFonts.index:
+<a id="jsobjref-textfonts-index"></a>
 
-TextFonts.index()
-********************************************************************************
+### TextFonts.index()
 
-``app.textFonts.index(itemKey)``
+`app.textFonts.index(itemKey)`
 
 **Description**
 
@@ -108,66 +96,61 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/TextFont`
+[TextFont](TextFont.md#jsobjref-textfont)
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Finding fonts
-********************************************************************************
+### Finding fonts
 
-::
+```default
+ // Creates a new A3 sized document and display a list of available fonts until the document is full.
 
-   // Creates a new A3 sized document and display a list of available fonts until the document is full.
+ var edgeSpacing = 10;
+ var columnSpacing = 230;
+ var docPreset = new DocumentPreset;
+ docPreset.width = 1191.0;
+ docPreset.height = 842.0
 
-   var edgeSpacing = 10;
-   var columnSpacing = 230;
-   var docPreset = new DocumentPreset;
-   docPreset.width = 1191.0;
-   docPreset.height = 842.0
+ var docRef = documents.addDocument(DocumentColorSpace.CMYK, docPreset);
+ var sFontNames = "";
+ var x = edgeSpacing;
+ var y = (docRef.height - edgeSpacing);
 
-   var docRef = documents.addDocument(DocumentColorSpace.CMYK, docPreset);
-   var sFontNames = "";
-   var x = edgeSpacing;
-   var y = (docRef.height - edgeSpacing);
+ var iCount = textFonts.length;
 
-   var iCount = textFonts.length;
+ for (var i=0; i<iCount; i++) {
+  sFontName = textFonts[i].name;
+  sFontName += " ";
+  sFontNames = sFontName + textFonts[i].style;
 
-   for (var i=0; i<iCount; i++) {
-    sFontName = textFonts[i].name;
-    sFontName += " ";
-    sFontNames = sFontName + textFonts[i].style;
+  var textRef = docRef.textFrames.add();
+  textRef.textRange.characterAttributes.size = 10;
+  textRef.contents = sFontNames;
+  textRef.top = y;
+  textRef.left = x;
 
-    var textRef = docRef.textFrames.add();
-    textRef.textRange.characterAttributes.size = 10;
-    textRef.contents = sFontNames;
-    textRef.top = y;
-    textRef.left = x;
+  // check wether the text frame will go off the edge of the document
+  if ((x + textRef.width)> docRef.width) {
+    textRef.remove();
+    iCount = i;
+    break;
+  } else {
+    // display text frame
+    textRef.textRange.characterAttributes.textFont = textFonts.getByName(textFonts[i].name);
+    redraw();
 
-    // check wether the text frame will go off the edge of the document
-    if ((x + textRef.width)> docRef.width) {
-      textRef.remove();
-      iCount = i;
-      break;
-    } else {
-      // display text frame
-      textRef.textRange.characterAttributes.textFont = textFonts.getByName(textFonts[i].name);
-      redraw();
-
-      if ((y-=(textRef.height)) <= 20) {
-        y = (docRef.height - edgeSpacing);
-        x += columnSpacing;
-      }
+    if ((y-=(textRef.height)) <= 20) {
+      y = (docRef.height - edgeSpacing);
+      x += columnSpacing;
     }
   }
+}
+```

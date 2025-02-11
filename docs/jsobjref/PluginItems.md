@@ -1,28 +1,24 @@
-.. _jsobjref/PluginItems:
+<a id="jsobjref-pluginitems"></a>
 
-PluginItems
-################################################################################
+# PluginItems
 
-``app.activeDocument.pluginItems``
+`app.activeDocument.pluginItems`
 
 **Description**
 
-A collection of :ref:`jsobjref/PluginItem` objects in a document.
+A collection of [PluginItem](PluginItem.md#jsobjref-pluginitem) objects in a document.
 
-See :ref:`jsobjref/PluginItem.copying-a-plugin-item`.
+See [Copying a plug-in item](PluginItem.md#jsobjref-pluginitem-copying-a-plugin-item).
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PluginItems.length:
+<a id="jsobjref-pluginitems-length"></a>
 
-PluginItems.length
-********************************************************************************
+### PluginItems.length
 
-``app.activeDocument.pluginItems.length``
+`app.activeDocument.pluginItems.length`
 
 **Description**
 
@@ -32,14 +28,13 @@ Number of elements in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/PluginItems.parent:
+<a id="jsobjref-pluginitems-parent"></a>
 
-PluginItems.parent
-********************************************************************************
+### PluginItems.parent
 
-``app.activeDocument.pluginItems.parent``
+`app.activeDocument.pluginItems.parent`
 
 **Description**
 
@@ -49,14 +44,13 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/PluginItems.typename:
+<a id="jsobjref-pluginitems-typename"></a>
 
-PluginItems.typename
-********************************************************************************
+### PluginItems.typename
 
-``app.activeDocument.pluginItems.typename``
+`app.activeDocument.pluginItems.typename`
 
 **Description**
 
@@ -66,18 +60,15 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/PluginItems.getByName:
+<a id="jsobjref-pluginitems-getbyname"></a>
 
-PluginItems.getByName()
-********************************************************************************
+### PluginItems.getByName()
 
-``app.activeDocument.pluginItems.getByName(name)``
+`app.activeDocument.pluginItems.getByName(name)`
 
 **Description**
 
@@ -85,24 +76,21 @@ Get the first element in the collection with the provided name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/PluginItem`
+[PluginItem](PluginItem.md#jsobjref-pluginitem)
 
-----
+---
 
-.. _jsobjref/PluginItems.index:
+<a id="jsobjref-pluginitems-index"></a>
 
-PluginItems.index()
-********************************************************************************
+### PluginItems.index()
 
-``app.activeDocument.pluginItems.index(itemKey)``
+`app.activeDocument.pluginItems.index(itemKey)`
 
 **Description**
 
@@ -110,24 +98,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/PluginItem`
+[PluginItem](PluginItem.md#jsobjref-pluginitem)
 
-----
+---
 
-.. _jsobjref/PluginItems.removeAll:
+<a id="jsobjref-pluginitems-removeall"></a>
 
-PluginItems.removeAll()
-********************************************************************************
+### PluginItems.removeAll()
 
-``app.activeDocument.pluginItems.removeAll()``
+`app.activeDocument.pluginItems.removeAll()`
 
 **Description**
 

@@ -1,30 +1,26 @@
-.. _jsobjref/PageItem:
+<a id="jsobjref-pageitem"></a>
 
-PageItem
-################################################################################
+# PageItem
 
-``app.activeDocument.pageItems[index``
+`app.activeDocument.pageItems[index`
 
 **Description**
 
 Any art item. Every art item and group in a document is a page item. You may refer to a page item as an element of a document, layer, or group item.
 
-The ``PageItem`` class gives you complete access to every art item contained in an Illustrator document. The ``PageItem`` class is the superclass of all artwork objects in a document. The :ref:`jsobjref/CompoundPathItem`, :ref:`jsobjref/GroupItem`, :ref:`jsobjref/MeshItem`, :ref:`jsobjref/PathItem`, :ref:`jsobjref/PlacedItem`, :ref:`jsobjref/PluginItem`, :ref:`jsobjref/RasterItem`, and :ref:`jsobjref/TextFrameItem` classes each inherit a set of properties from the ``PageItem`` class.
+The `PageItem` class gives you complete access to every art item contained in an Illustrator document. The `PageItem` class is the superclass of all artwork objects in a document. The [CompoundPathItem](CompoundPathItem.md#jsobjref-compoundpathitem), [GroupItem](GroupItem.md#jsobjref-groupitem), [MeshItem](MeshItem.md#jsobjref-meshitem), [PathItem](PathItem.md#jsobjref-pathitem), [PlacedItem](PlacedItem.md#jsobjref-placeditem), [PluginItem](PluginItem.md#jsobjref-pluginitem), [RasterItem](RasterItem.md#jsobjref-rasteritem), and [TextFrameItem](TextFrameItem.md#jsobjref-textframeitem) classes each inherit a set of properties from the `PageItem` class.
 
-You cannot create a ``PageItem`` directly, you must create one of the specific ``PageItem`` subclasses, such as :ref:`jsobjref/PathItem`.
+You cannot create a `PageItem` directly, you must create one of the specific `PageItem` subclasses, such as [PathItem](PathItem.md#jsobjref-pathitem).
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PageItem.artworkKnockout:
+<a id="jsobjref-pageitem-artworkknockout"></a>
 
-PageItem.artworkKnockout
-********************************************************************************
+### PageItem.artworkKnockout
 
-``app.activeDocument.pageItems[index].artworkKnockout``
+`app.activeDocument.pageItems[index].artworkKnockout`
 
 **Description**
 
@@ -32,16 +28,15 @@ Is this object used to create a knockout.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.KnockoutState`
+[KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
-----
+---
 
-.. _jsobjref/PageItem.blendingMode:
+<a id="jsobjref-pageitem-blendingmode"></a>
 
-PageItem.blendingMode
-********************************************************************************
+### PageItem.blendingMode
 
-``app.activeDocument.pageItems[index].blendingMode``
+`app.activeDocument.pageItems[index].blendingMode`
 
 **Description**
 
@@ -49,16 +44,15 @@ The mode to use when compositing this object. An object is considered composited
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BlendModes`
+[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
-----
+---
 
-.. _jsobjref/PageItem.controlBounds:
+<a id="jsobjref-pageitem-controlbounds"></a>
 
-PageItem.controlBounds
-********************************************************************************
+### PageItem.controlBounds
 
-``app.activeDocument.pageItems[index].controlBounds``
+`app.activeDocument.pageItems[index].controlBounds`
 
 **Description**
 
@@ -68,31 +62,29 @@ The bounds of the object including stroke width and controls.
 
 Rect, read-only.
 
-----
+---
 
-.. _jsobjref/PageItem.editable:
+<a id="jsobjref-pageitem-editable"></a>
 
-PageItem.editable
-********************************************************************************
+### PageItem.editable
 
-``app.activeDocument.pageItems[index].editable``
+`app.activeDocument.pageItems[index].editable`
 
 **Description**
 
-If ``true``, this page item is editable.
+If `true`, this page item is editable.
 
 **Type**
 
 Boolean, read-only.
 
-----
+---
 
-.. _jsobjref/PageItem.geometricBounds:
+<a id="jsobjref-pageitem-geometricbounds"></a>
 
-PageItem.geometricBounds
-********************************************************************************
+### PageItem.geometricBounds
 
-``app.activeDocument.pageItems[index].geometricBounds``
+`app.activeDocument.pageItems[index].geometricBounds`
 
 **Description**
 
@@ -102,14 +94,13 @@ The object’s bounds excluding the stroke width.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/PageItem.height:
+<a id="jsobjref-pageitem-height"></a>
 
-PageItem.height
-********************************************************************************
+### PageItem.height
 
-``app.activeDocument.pageItems[index].height``
+`app.activeDocument.pageItems[index].height`
 
 **Description**
 
@@ -119,48 +110,45 @@ The height of the page item, calculated from the geometric bounds. Range: 0.0 to
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/PageItem.hidden:
+<a id="jsobjref-pageitem-hidden"></a>
 
-PageItem.hidden
-********************************************************************************
+### PageItem.hidden
 
-``app.activeDocument.pageItems[index].hidden``
+`app.activeDocument.pageItems[index].hidden`
 
 **Description**
 
-If ``true``, this page item is hidden.
+If `true`, this page item is hidden.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/PageItem.isIsolated:
+<a id="jsobjref-pageitem-isisolated"></a>
 
-PageItem.isIsolated
-********************************************************************************
+### PageItem.isIsolated
 
-``app.activeDocument.pageItems[index].isIsolated``
+`app.activeDocument.pageItems[index].isIsolated`
 
 **Description**
 
-If ``true``, this object is isolated.
+If `true`, this object is isolated.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/PageItem.layer:
+<a id="jsobjref-pageitem-layer"></a>
 
-PageItem.layer
-********************************************************************************
+### PageItem.layer
 
-``app.activeDocument.pageItems[index].layer``
+`app.activeDocument.pageItems[index].layer`
 
 **Description**
 
@@ -168,16 +156,15 @@ The layer to which this page item belongs.
 
 **Type**
 
-:ref:`jsobjref/Layer`, read-only.
+[Layer](Layer.md#jsobjref-layer), read-only.
 
-----
+---
 
-.. _jsobjref/PageItem.left:
+<a id="jsobjref-pageitem-left"></a>
 
-PageItem.left
-********************************************************************************
+### PageItem.left
 
-``app.activeDocument.pageItems[index].left``
+`app.activeDocument.pageItems[index].left`
 
 **Description**
 
@@ -187,31 +174,29 @@ The left position of the art item.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/PageItem.locked:
+<a id="jsobjref-pageitem-locked"></a>
 
-PageItem.locked
-********************************************************************************
+### PageItem.locked
 
-``app.activeDocument.pageItems[index].locked``
+`app.activeDocument.pageItems[index].locked`
 
 **Description**
 
-If ``true``, this page item is locked.
+If `true`, this page item is locked.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/PageItem.name:
+<a id="jsobjref-pageitem-name"></a>
 
-PageItem.name
-********************************************************************************
+### PageItem.name
 
-``app.activeDocument.pageItems[index].name``
+`app.activeDocument.pageItems[index].name`
 
 **Description**
 
@@ -221,14 +206,13 @@ The name of this page item.
 
 String.
 
-----
+---
 
-.. _jsobjref/PageItem.note:
+<a id="jsobjref-pageitem-note"></a>
 
-PageItem.note
-********************************************************************************
+### PageItem.note
 
-``app.activeDocument.pageItems[index].note``
+`app.activeDocument.pageItems[index].note`
 
 **Description**
 
@@ -238,14 +222,13 @@ The note assigned to this item.
 
 String.
 
-----
+---
 
-.. _jsobjref/PageItem.opacity:
+<a id="jsobjref-pageitem-opacity"></a>
 
-PageItem.opacity
-********************************************************************************
+### PageItem.opacity
 
-``app.activeDocument.pageItems[index].opacity``
+`app.activeDocument.pageItems[index].opacity`
 
 **Description**
 
@@ -255,14 +238,13 @@ The opacity of this object, where 100.0 is completely opaque and 0.0 is complete
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/PageItem.parent:
+<a id="jsobjref-pageitem-parent"></a>
 
-PageItem.parent
-********************************************************************************
+### PageItem.parent
 
-``app.activeDocument.pageItems[index].parent``
+`app.activeDocument.pageItems[index].parent`
 
 **Description**
 
@@ -272,31 +254,29 @@ The parent of this object.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/PageItem.pixelAligned:
+<a id="jsobjref-pageitem-pixelaligned"></a>
 
-PageItem.pixelAligned
-********************************************************************************
+### PageItem.pixelAligned
 
-``app.activeDocument.pageItems[index].pixelAligned``
+`app.activeDocument.pageItems[index].pixelAligned`
 
 **Description**
 
-``True`` if this item is aligned to the pixel grid.
+`True` if this item is aligned to the pixel grid.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/PageItem.position:
+<a id="jsobjref-pageitem-position"></a>
 
-PageItem.position
-********************************************************************************
+### PageItem.position
 
-``app.activeDocument.pageItems[index].position``
+`app.activeDocument.pageItems[index].position`
 
 **Description**
 
@@ -306,48 +286,45 @@ The position (in points) of the top left corner of the item in the format {x, y}
 
 Array of 2 numbers.
 
-----
+---
 
-.. _jsobjref/PageItem.selected:
+<a id="jsobjref-pageitem-selected"></a>
 
-PageItem.selected
-********************************************************************************
+### PageItem.selected
 
-``app.activeDocument.pageItems[index].selected``
+`app.activeDocument.pageItems[index].selected`
 
 **Description**
 
-If ``true``, this object is selected.
+If `true`, this object is selected.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/PageItem.sliced:
+<a id="jsobjref-pageitem-sliced"></a>
 
-PageItem.sliced
-********************************************************************************
+### PageItem.sliced
 
-``app.activeDocument.pageItems[index].sliced``
+`app.activeDocument.pageItems[index].sliced`
 
 **Description**
 
-If ``true``, preserve slices.
+If `true`, preserve slices.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/PageItem.tags:
+<a id="jsobjref-pageitem-tags"></a>
 
-PageItem.tags
-********************************************************************************
+### PageItem.tags
 
-``app.activeDocument.pageItems[index].tags``
+`app.activeDocument.pageItems[index].tags`
 
 **Description**
 
@@ -355,16 +332,15 @@ The collection of tags associated with this page item.
 
 **Type**
 
-:ref:`jsobjref/Tags`
+[Tags](Tags.md#jsobjref-tags)
 
-----
+---
 
-.. _jsobjref/PageItem.top:
+<a id="jsobjref-pageitem-top"></a>
 
-PageItem.top
-********************************************************************************
+### PageItem.top
 
-``app.activeDocument.pageItems[index].top``
+`app.activeDocument.pageItems[index].top`
 
 **Description**
 
@@ -374,14 +350,13 @@ The top position of the art item.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/PageItem.typename:
+<a id="jsobjref-pageitem-typename"></a>
 
-PageItem.typename
-********************************************************************************
+### PageItem.typename
 
-``app.activeDocument.pageItems[index].typename``
+`app.activeDocument.pageItems[index].typename`
 
 **Description**
 
@@ -391,14 +366,13 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/PageItem.uRL:
+<a id="jsobjref-pageitem-url"></a>
 
-PageItem.uRL
-********************************************************************************
+### PageItem.uRL
 
-``app.activeDocument.pageItems[index].uRL``
+`app.activeDocument.pageItems[index].uRL`
 
 **Description**
 
@@ -408,17 +382,16 @@ The value of the Adobe URL tag assigned to this page item.
 
 String.
 
-----
+---
 
-.. _jsobjref/PageItem.uuid:
+<a id="jsobjref-pageitem-uuid"></a>
 
-PageItem.uuid
-********************************************************************************
+### PageItem.uuid
 
-``app.activeDocument.pageItems[index].uuid``
+`app.activeDocument.pageItems[index].uuid`
 
-.. note::
-   This functionality was added in Illustrator 24.0. (CC2020)
+#### NOTE
+This functionality was added in Illustrator 24.0. (CC2020)
 
 **Description**
 
@@ -428,14 +401,13 @@ The unique identifier for this pageItem
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/PageItem.visibilityVariable:
+<a id="jsobjref-pageitem-visibilityvariable"></a>
 
-PageItem.visibilityVariable
-********************************************************************************
+### PageItem.visibilityVariable
 
-``app.activeDocument.pageItems[index].visibilityVariable``
+`app.activeDocument.pageItems[index].visibilityVariable`
 
 **Description**
 
@@ -443,16 +415,15 @@ The visibility variable to which this page item path is bound.
 
 **Type**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/PageItem.visibleBounds:
+<a id="jsobjref-pageitem-visiblebounds"></a>
 
-PageItem.visibleBounds
-********************************************************************************
+### PageItem.visibleBounds
 
-``app.activeDocument.pageItems[index].visibleBounds``
+`app.activeDocument.pageItems[index].visibleBounds`
 
 **Description**
 
@@ -462,14 +433,13 @@ The object’s visible bounds, including stroke width of any objects in the illu
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/PageItem.width:
+<a id="jsobjref-pageitem-width"></a>
 
-PageItem.width
-********************************************************************************
+### PageItem.width
 
-``app.activeDocument.pageItems[index].width``
+`app.activeDocument.pageItems[index].width`
 
 **Description**
 
@@ -479,31 +449,29 @@ The width of the page item, calculated from the geometric bounds. Range: 0.0 to 
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/PageItem.wrapInside:
+<a id="jsobjref-pageitem-wrapinside"></a>
 
-PageItem.wrapInside
-********************************************************************************
+### PageItem.wrapInside
 
-``app.activeDocument.pageItems[index].wrapInside``
+`app.activeDocument.pageItems[index].wrapInside`
 
 **Description**
 
-If ``true``, the text frame object should be wrapped inside this object.
+If `true`, the text frame object should be wrapped inside this object.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/PageItem.wrapOffset:
+<a id="jsobjref-pageitem-wrapoffset"></a>
 
-PageItem.wrapOffset
-********************************************************************************
+### PageItem.wrapOffset
 
-``app.activeDocument.pageItems[index].wrapOffset``
+`app.activeDocument.pageItems[index].wrapOffset`
 
 **Description**
 
@@ -513,31 +481,29 @@ The offset to use when wrapping text around this object.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/PageItem.wrapped:
+<a id="jsobjref-pageitem-wrapped"></a>
 
-PageItem.wrapped
-********************************************************************************
+### PageItem.wrapped
 
-``app.activeDocument.pageItems[index].wrapped``
+`app.activeDocument.pageItems[index].wrapped`
 
 **Description**
 
-If ``true``, wrap text frame objects around this object (text frame must be above the object).
+If `true`, wrap text frame objects around this object (text frame must be above the object).
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/PageItem.zOrderPosition:
+<a id="jsobjref-pageitem-zorderposition"></a>
 
-PageItem.zOrderPosition
-********************************************************************************
+### PageItem.zOrderPosition
 
-``app.activeDocument.pageItems[index].zOrderPosition``
+`app.activeDocument.pageItems[index].zOrderPosition`
 
 **Description**
 
@@ -547,18 +513,15 @@ The drawing order of the art within its group or layer.
 
 Number (long), read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/PageItem.bringInPerspective:
+<a id="jsobjref-pageitem-bringinperspective"></a>
 
-PageItem.bringInPerspective()
-********************************************************************************
+### PageItem.bringInPerspective()
 
-``app.activeDocument.pageItems[index].bringInPerspective(posX, posY, perspectiveGridPlane)``
+`app.activeDocument.pageItems[index].bringInPerspective(posX, posY, perspectiveGridPlane)`
 
 **Description**
 
@@ -566,117 +529,94 @@ Places art object(s) in a perspective grid at a specified position and grid plan
 
 **Parameters**
 
-+--------------------------+--------------------------------------------------------------+------------------------------------+
-|        Parameter         |                             Type                             |            Description             |
-+==========================+==============================================================+====================================+
-| ``posX``                 | Number                                                       | X position to place art at         |
-+--------------------------+--------------------------------------------------------------+------------------------------------+
-| ``posY``                 | Number                                                       | Y position to place art at         |
-+--------------------------+--------------------------------------------------------------+------------------------------------+
-| ``perspectiveGridPlane`` | :ref:`jsobjref/scripting-constants.PerspectiveGridPlaneType` | Perspective grid plane type to use |
-+--------------------------+--------------------------------------------------------------+------------------------------------+
+| Parameter              | Type                                                                                                     | Description                        |
+|------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------|
+| `posX`                 | Number                                                                                                   | X position to place art at         |
+| `posY`                 | Number                                                                                                   | Y position to place art at         |
+| `perspectiveGridPlane` | [PerspectiveGridPlaneType](scripting-constants.md#jsobjref-scripting-constants-perspectivegridplanetype) | Perspective grid plane type to use |
 
 **Returns**
 
 Returns.
 
-----
+---
 
-.. _jsobjref/PageItem.resize:
+<a id="jsobjref-pageitem-resize"></a>
 
-PageItem.resize()
-********************************************************************************
+### PageItem.resize()
 
-::
-
-  app.activeDocument.pageItems[index].resize(
-      scaleX, scaleY [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-      [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
-  )
+```default
+app.activeDocument.pageItems[index].resize(
+    scaleX, scaleY [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+    [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
+)
+```
 
 **Description**
 
-Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scaleY`` is the vertical scaling factor. 100.0 = 100%.
+Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``scaleX``              | Number (double)                                              | Horizontal scaling factor                               |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleY``              | Number (double)                                              | Vertical scaling factor                                 |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeLineWidths``    | Number (double), optional                                    | The amount to scale line widths                         |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleAbout``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `scaleX`              | Number (double)                                                                                | Horizontal scaling factor                               |
+| `scaleY`              | Number (double)                                                                                | Vertical scaling factor                                 |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
+| `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PageItem.rotate:
+<a id="jsobjref-pageitem-rotate"></a>
 
-PageItem.rotate()
-********************************************************************************
+### PageItem.rotate()
 
-::
-
-  app.activeDocument.pageItems[index].rotate(
-      angle [,changePositions] [,changeFillPatterns]
-      [,changeFillGradients] [,changeStrokePattern] [,rotateAbout]
-  )
+```default
+app.activeDocument.pageItems[index].rotate(
+    angle [,changePositions] [,changeFillPatterns]
+    [,changeFillGradients] [,changeStrokePattern] [,rotateAbout]
+)
+```
 
 **Description**
 
-Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the ``angle`` value is positive, clockwise if the value is negative.
+Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``angle``               | Number (double)                                              | The angle amount to rotate the element                  |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``rotateAbout``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `angle`               | Number (double)                                                                                | The angle amount to rotate the element                  |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PageItem.transform:
+<a id="jsobjref-pageitem-transform"></a>
 
-PageItem.transform()
-********************************************************************************
+### PageItem.transform()
 
-::
-
-  app.activeDocument.pageItems[index].transform(
-      transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-      [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
-  )
+```default
+app.activeDocument.pageItems[index].transform(
+    transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+    [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
+)
+```
 
 **Description**
 
@@ -684,77 +624,59 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-|        Parameter         |                             Type                             |                  Description                   |
-+==========================+==============================================================+================================================+
-| ``transformationMatrix`` | :ref:`jsobjref/Matrix`                                       | Transformation matrix to apply                 |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changePositions``      | Boolean, optional                                            | Whether to change Positions                    |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillPatterns``   | Boolean, optional                                            | Whether to change Fill Patterns                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillGradients``  | Boolean, optional                                            | Whether to change Fill Gradients               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeStrokePattern``  | Boolean, optional                                            | Whether to change Stroke Pattern               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeLineWidths``     | Number (double), optional                                    | The amount to scale line widths                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``transformAbout``       | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| Parameter              | Type                                                                                           | Description                                    |
+|------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
+| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
+| `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
+| `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |
+| `changeStrokePattern`  | Boolean, optional                                                                              | Whether to change Stroke Pattern               |
+| `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
+| `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PageItem.translate:
+<a id="jsobjref-pageitem-translate"></a>
 
-PageItem.translate()
-********************************************************************************
+### PageItem.translate()
 
-::
-
-  app.activeDocument.pageItems[index].translate(
-      deltaX [,deltaY] [,transformObjects] [,transformFillPatterns]
-      [,transformFillGradients] [,transformStrokePatterns]
-  )
-
+```default
+app.activeDocument.pageItems[index].translate(
+    deltaX [,deltaY] [,transformObjects] [,transformFillPatterns]
+    [,transformFillGradients] [,transformStrokePatterns]
+)
+```
 
 **Description**
 
-Repositions the art item relative to the current position, where ``deltaX`` is the horizontal offset and ``deltaY`` is the vertical offset.
+Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
 **Parameters**
 
-+-----------------------------+---------------------------+--------------------------------------+
-|          Parameter          |           Type            |             Description              |
-+=============================+===========================+======================================+
-| ``deltaX``                  | Number (double), optional | Horizontal offset                    |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``deltaY``                  | Number (double), optional | Vertical offset                      |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformObjects``        | Boolean, optional         | Whether to transform Objects         |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillPatterns``   | Boolean, optional         | Whether to transform Fill Patterns   |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillGradients``  | Boolean, optional         | Whether to transform Fill Gradients  |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformStrokePatterns`` | Boolean, optional         | Whether to transform Stroke Patterns |
-+-----------------------------+---------------------------+--------------------------------------+
+| Parameter                 | Type                      | Description                          |
+|---------------------------|---------------------------|--------------------------------------|
+| `deltaX`                  | Number (double), optional | Horizontal offset                    |
+| `deltaY`                  | Number (double), optional | Vertical offset                      |
+| `transformObjects`        | Boolean, optional         | Whether to transform Objects         |
+| `transformFillPatterns`   | Boolean, optional         | Whether to transform Fill Patterns   |
+| `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
+| `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PageItem.zOrder:
+<a id="jsobjref-pageitem-zorder"></a>
 
-PageItem.zOrder()
-********************************************************************************
+### PageItem.zOrder()
 
-``app.activeDocument.pageItems[index].zOrder(zOrderCmd)``
+`app.activeDocument.pageItems[index].zOrder(zOrderCmd)`
 
 **Description**
 
@@ -762,11 +684,9 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-+---------------+--------------------------------------------------+-----------------------------------+
-|   Parameter   |                       Type                       |            Description            |
-+===============+==================================================+===================================+
-| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | Stacking order arrangement method |
-+---------------+--------------------------------------------------+-----------------------------------+
+| Parameter   | Type                                                                             | Description                       |
+|-------------|----------------------------------------------------------------------------------|-----------------------------------|
+| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
 **Returns**
 

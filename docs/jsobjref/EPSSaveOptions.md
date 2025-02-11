@@ -1,136 +1,126 @@
-.. _jsobjref/EPSSaveOptions:
+<a id="jsobjref-epssaveoptions"></a>
 
-EPSSaveOptions
-################################################################################
+# EPSSaveOptions
 
-``epsSaveOptions``
+`epsSaveOptions`
 
 **Description**
 
-Options for saving a document as an Illustrator EPS file, used with the :ref:`jsobjref/Document.saveAs` method.
+Options for saving a document as an Illustrator EPS file, used with the [Document.saveAs()](Document.md#jsobjref-document-saveas) method.
 
 All properties are optional.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/EPSSaveOptions.artboardRange:
+<a id="jsobjref-epssaveoptions-artboardrange"></a>
 
-EPSSaveOptions.artboardRange
-********************************************************************************
+### EPSSaveOptions.artboardRange
 
-``epsSaveOptions.artboardRange``
+`epsSaveOptions.artboardRange`
 
 **Description**
 
-If ``saveMultipleArtboards`` is ``true``, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty string
+If `saveMultipleArtboards` is `true`, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty string
 
 **Type**
 
 String.
 
-----
+---
 
-.. _jsobjref/EPSSaveOptions.cmykPostScript:
+<a id="jsobjref-epssaveoptions-cmykpostscript"></a>
 
-EPSSaveOptions.cmykPostScript
-********************************************************************************
+### EPSSaveOptions.cmykPostScript
 
-``epsSaveOptions.cmykPostScript``
+`epsSaveOptions.cmykPostScript`
 
 **Description**
 
-If ``true``, use CMYK PostScript.
+If `true`, use CMYK PostScript.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/EPSSaveOptions.compatibility:
+<a id="jsobjref-epssaveoptions-compatibility"></a>
 
-EPSSaveOptions.compatibility
-********************************************************************************
+### EPSSaveOptions.compatibility
 
-``epsSaveOptions.compatibility``
+`epsSaveOptions.compatibility`
 
 **Description**
 
 Specifies the version of the EPS file format to save.
 
-Default: ``Compatibility.ILLUSTRATOR1719``.
+Default: `Compatibility.ILLUSTRATOR1719`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.Compatibility`
+[Compatibility](scripting-constants.md#jsobjref-scripting-constants-compatibility)
 
-----
+---
 
-.. _jsobjref/EPSSaveOptions.compatibleGradientPrinting:
+<a id="jsobjref-epssaveoptions-compatiblegradientprinting"></a>
 
-EPSSaveOptions.compatibleGradientPrinting
-********************************************************************************
+### EPSSaveOptions.compatibleGradientPrinting
 
-``epsSaveOptions.compatibleGradientPrinting``
+`epsSaveOptions.compatibleGradientPrinting`
 
 **Description**
 
-If ``true``, create a raster item of the gradient or gradient mesh so that PostScript Level 2 printers can print the object.
+If `true`, create a raster item of the gradient or gradient mesh so that PostScript Level 2 printers can print the object.
 
-Default: ``false``.
+Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/EPSSaveOptions.embedAllFonts:
+<a id="jsobjref-epssaveoptions-embedallfonts"></a>
 
-EPSSaveOptions.embedAllFonts
-********************************************************************************
+### EPSSaveOptions.embedAllFonts
 
-``epsSaveOptions.embedAllFonts``
+`epsSaveOptions.embedAllFonts`
 
 **Description**
 
-If ``true``, all fonts used by the document should be embedded in the saved file (version 7 or later).
+If `true`, all fonts used by the document should be embedded in the saved file (version 7 or later).
 
-Default: ``false``.
+Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/EPSSaveOptions.embedLinkedFiles:
+<a id="jsobjref-epssaveoptions-embedlinkedfiles"></a>
 
-EPSSaveOptions.embedLinkedFiles
-********************************************************************************
+### EPSSaveOptions.embedLinkedFiles
 
-``epsSaveOptions.embedLinkedFiles``
+`epsSaveOptions.embedLinkedFiles`
 
 **Description**
 
-If ``true``, linked image files are to be included in the saved document.
+If `true`, linked image files are to be included in the saved document.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/EPSSaveOptions.flattenOuput:
+<a id="jsobjref-epssaveoptions-flattenouput"></a>
 
-EPSSaveOptions.flattenOuput
-********************************************************************************
+### EPSSaveOptions.flattenOuput
 
-``epsSaveOptions.flattenOuput``
+`epsSaveOptions.flattenOuput`
 
 **Description**
 
@@ -138,71 +128,67 @@ How should transparency be flattened for file formats older than Illustrator 9.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.OutputFlattening`
+[OutputFlattening](scripting-constants.md#jsobjref-scripting-constants-outputflattening)
 
-----
+---
 
-.. _jsobjref/EPSSaveOptions.includeDocumentThumbnails:
+<a id="jsobjref-epssaveoptions-includedocumentthumbnails"></a>
 
-EPSSaveOptions.includeDocumentThumbnails
-********************************************************************************
+### EPSSaveOptions.includeDocumentThumbnails
 
-``epsSaveOptions.includeDocumentThumbnails``
+`epsSaveOptions.includeDocumentThumbnails`
 
 **Description**
 
-If ``true``, thumbnail image of the EPS artwork should be included.
+If `true`, thumbnail image of the EPS artwork should be included.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/EPSSaveOptions.overprint:
+<a id="jsobjref-epssaveoptions-overprint"></a>
 
-EPSSaveOptions.overprint
-********************************************************************************
+### EPSSaveOptions.overprint
 
-``epsSaveOptions.overprint``
+`epsSaveOptions.overprint`
 
 **Description**
 
 Whether to preserve, discard, or simulate the overprint.
 
-Default: ``PDFOverprint.PRESERVEPDFOVERPRINT``.
+Default: `PDFOverprint.PRESERVEPDFOVERPRINT`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PDFOverprint`
+[PDFOverprint](scripting-constants.md#jsobjref-scripting-constants-pdfoverprint)
 
-----
+---
 
-.. _jsobjref/EPSSaveOptions.postScript:
+<a id="jsobjref-epssaveoptions-postscript"></a>
 
-EPSSaveOptions.postScript
-********************************************************************************
+### EPSSaveOptions.postScript
 
-``epsSaveOptions.postScript``
+`epsSaveOptions.postScript`
 
 **Description**
 
 PostScript Language Level to use (Level 1 valid for file format version 8 or older).
 
-Default: ``EPSPostScriptLevelEnum.LEVEL2``.
+Default: `EPSPostScriptLevelEnum.LEVEL2`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.EPSPostScriptLevelEnum`
+[EPSPostScriptLevelEnum](scripting-constants.md#jsobjref-scripting-constants-epspostscriptlevelenum)
 
-----
+---
 
-.. _jsobjref/EPSSaveOptions.preview:
+<a id="jsobjref-epssaveoptions-preview"></a>
 
-EPSSaveOptions.preview
-********************************************************************************
+### EPSSaveOptions.preview
 
-``epsSaveOptions.preview``
+`epsSaveOptions.preview`
 
 **Description**
 
@@ -210,35 +196,33 @@ The format for the EPS preview image.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.EPSPreview`
+[EPSPreview](scripting-constants.md#jsobjref-scripting-constants-epspreview)
 
-----
+---
 
-.. _jsobjref/EPSSaveOptions.saveMultipleArtboards:
+<a id="jsobjref-epssaveoptions-savemultipleartboards"></a>
 
-EPSSaveOptions.saveMultipleArtboards
-********************************************************************************
+### EPSSaveOptions.saveMultipleArtboards
 
-``epsSaveOptions.saveMultipleArtboards``
+`epsSaveOptions.saveMultipleArtboards`
 
 **Description**
 
-If ``true``, all artboards or range of artboards are saved.
+If `true`, all artboards or range of artboards are saved.
 
-Default: ``false``.
+Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/EPSSaveOptions.typename:
+<a id="jsobjref-epssaveoptions-typename"></a>
 
-EPSSaveOptions.typename
-********************************************************************************
+### EPSSaveOptions.typename
 
-``epsSaveOptions.typename``
+`epsSaveOptions.typename`
 
 **Description**
 
@@ -248,32 +232,29 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Exporting to EPS format
-********************************************************************************
+### Exporting to EPS format
 
-::
+```default
+// Exports current document to destFile as an EPS file with specified options,
+// destFile contains the full path including the file name
 
-  // Exports current document to destFile as an EPS file with specified options,
-  // destFile contains the full path including the file name
-
-  function exportFileAsEPS(destFile) {
-    var newFile = new File(destFile);
-    var saveDoc;
-    if (app.documents.length == 0) {
-      saveDoc = app.documents.add();
-    } else {
-      saveDoc = app.activeDocument;
-    }
-
-    var saveOpts = new ePSSaveOptions();
-    saveOpts.cmykPostScript = true;
-    saveOpts.embedAllFonts = true;
-
-    saveDoc.saveAs(newFile, saveOpts);
+function exportFileAsEPS(destFile) {
+  var newFile = new File(destFile);
+  var saveDoc;
+  if (app.documents.length == 0) {
+    saveDoc = app.documents.add();
+  } else {
+    saveDoc = app.activeDocument;
   }
+
+  var saveOpts = new ePSSaveOptions();
+  saveOpts.cmykPostScript = true;
+  saveOpts.embedAllFonts = true;
+
+  saveDoc.saveAs(newFile, saveOpts);
+}
+```

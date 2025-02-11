@@ -1,26 +1,22 @@
-.. _jsobjref/PlacedItems:
+<a id="jsobjref-placeditems"></a>
 
-PlacedItems
-################################################################################
+# PlacedItems
 
-``app.activeDocument.placedItems``
+`app.activeDocument.placedItems`
 
 **Description**
 
-A collection of :ref:`jsobjref/PlacedItem` objects in a document.
+A collection of [PlacedItem](PlacedItem.md#jsobjref-placeditem) objects in a document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PlacedItems.length:
+<a id="jsobjref-placeditems-length"></a>
 
-PlacedItems.length
-********************************************************************************
+### PlacedItems.length
 
-``app.activeDocument.placedItems.length``
+`app.activeDocument.placedItems.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ Number of elements in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/PlacedItems.parent:
+<a id="jsobjref-placeditems-parent"></a>
 
-PlacedItems.parent
-********************************************************************************
+### PlacedItems.parent
 
-``app.activeDocument.placedItems.parent``
+`app.activeDocument.placedItems.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/PlacedItems.typename:
+<a id="jsobjref-placeditems-typename"></a>
 
-PlacedItems.typename
-********************************************************************************
+### PlacedItems.typename
 
-``app.activeDocument.placedItems.typename``
+`app.activeDocument.placedItems.typename`
 
 **Description**
 
@@ -64,37 +58,33 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/PlacedItems.add:
+<a id="jsobjref-placeditems-add"></a>
 
-PlacedItems.add()
-********************************************************************************
+### PlacedItems.add()
 
-``app.activeDocument.placedItems.add()``
+`app.activeDocument.placedItems.add()`
 
 **Description**
 
 Creates a new object.
 
-Use to place new art in a document. Use the ``file`` property of the resulting ``placedItem`` object to link the file containing the artwork. See :ref:`jsobjref/PlacedItem`.
+Use to place new art in a document. Use the `file` property of the resulting `placedItem` object to link the file containing the artwork. See [PlacedItem](PlacedItem.md#jsobjref-placeditem).
 
 **Returns**
 
-:ref:`jsobjref/PlacedItem`
+[PlacedItem](PlacedItem.md#jsobjref-placeditem)
 
-----
+---
 
-.. _jsobjref/PlacedItems.getByName:
+<a id="jsobjref-placeditems-getbyname"></a>
 
-PlacedItems.getByName()
-********************************************************************************
+### PlacedItems.getByName()
 
-``app.activeDocument.placedItems.getByName(name)``
+`app.activeDocument.placedItems.getByName(name)`
 
 **Description**
 
@@ -102,24 +92,21 @@ Get the first element in the collection with the provided name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/PlacedItem`
+[PlacedItem](PlacedItem.md#jsobjref-placeditem)
 
-----
+---
 
-.. _jsobjref/PlacedItems.index:
+<a id="jsobjref-placeditems-index"></a>
 
-PlacedItems.index()
-********************************************************************************
+### PlacedItems.index()
 
-``app.activeDocument.placedItems.index(itemKey)``
+`app.activeDocument.placedItems.index(itemKey)`
 
 **Description**
 
@@ -127,24 +114,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/PlacedItem`
+[PlacedItem](PlacedItem.md#jsobjref-placeditem)
 
-----
+---
 
-.. _jsobjref/PlacedItems.removeAll:
+<a id="jsobjref-placeditems-removeall"></a>
 
-PlacedItems.removeAll()
-********************************************************************************
+### PlacedItems.removeAll()
 
-``app.activeDocument.placedItems.removeAll()``
+`app.activeDocument.placedItems.removeAll()`
 
 **Description**
 

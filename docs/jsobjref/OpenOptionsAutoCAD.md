@@ -1,94 +1,86 @@
-.. _jsobjref/OpenOptionsAutoCAD:
+<a id="jsobjref-openoptionsautocad"></a>
 
-OpenOptionsAutoCAD
-################################################################################
+# OpenOptionsAutoCAD
 
-``openOptionsAutoCAD``
-
-**Description**
-
-Options for opening an AutoCAD drawing, used with the :ref:`jsobjref/Application.open` method.
-
-----
-
-==========
-Properties
-==========
-
-.. _jsobjref/OpenOptionsAutoCAD.centerArtwork:
-
-OpenOptionsAutoCAD.centerArtwork
-********************************************************************************
-
-``openOptionsAutoCAD.centerArtwork``
+`openOptionsAutoCAD`
 
 **Description**
 
-If ``true``, the artwork is centered on the artboard. Default: ``true``.
+Options for opening an AutoCAD drawing, used with the [Application.open()](Application.md#jsobjref-application-open) method.
+
+---
+
+## Properties
+
+<a id="jsobjref-openoptionsautocad-centerartwork"></a>
+
+### OpenOptionsAutoCAD.centerArtwork
+
+`openOptionsAutoCAD.centerArtwork`
+
+**Description**
+
+If `true`, the artwork is centered on the artboard. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/OpenOptionsAutoCAD.globalScaleOption:
+<a id="jsobjref-openoptionsautocad-globalscaleoption"></a>
 
-OpenOptionsAutoCAD.globalScaleOption
-********************************************************************************
+### OpenOptionsAutoCAD.globalScaleOption
 
-``openOptionsAutoCAD.globalScaleOption``
+`openOptionsAutoCAD.globalScaleOption`
 
 **Description**
 
-How to scale the drawing on import. Default: ``AutoCADGlobalScaleOption.FitArtboard``.
+How to scale the drawing on import. Default: `AutoCADGlobalScaleOption.FitArtboard`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.AutoCADGlobalScaleOption`
+[AutoCADGlobalScaleOption](scripting-constants.md#jsobjref-scripting-constants-autocadglobalscaleoption)
 
-----
+---
 
-.. _jsobjref/OpenOptionsAutoCAD.globalScalePercent:
+<a id="jsobjref-openoptionsautocad-globalscalepercent"></a>
 
-OpenOptionsAutoCAD.globalScalePercent
-********************************************************************************
+### OpenOptionsAutoCAD.globalScalePercent
 
-``openOptionsAutoCAD.globalScalePercent``
+`openOptionsAutoCAD.globalScalePercent`
 
 **Description**
 
-The value when ``globalScaleOption`` is ``AutoCADGlobalScaleOption.ScaleByValue``, expressed as a percentage. Range: 0.0 to 100.0. Default is 100.0.
+The value when `globalScaleOption` is `AutoCADGlobalScaleOption.ScaleByValue`, expressed as a percentage. Range: 0.0 to 100.0. Default is 100.0.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/OpenOptionsAutoCAD.mergeLayers:
+<a id="jsobjref-openoptionsautocad-mergelayers"></a>
 
-OpenOptionsAutoCAD.mergeLayers
-********************************************************************************
+### OpenOptionsAutoCAD.mergeLayers
 
-``openOptionsAutoCAD.mergeLayers``
+`openOptionsAutoCAD.mergeLayers`
 
 **Description**
 
-If ``true``, the layers of the artwork are merged. Default: ``false``.
+If `true`, the layers of the artwork are merged. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/OpenOptionsAutoCAD.parent:
+<a id="jsobjref-openoptionsautocad-parent"></a>
 
-OpenOptionsAutoCAD.parent
-********************************************************************************
+### OpenOptionsAutoCAD.parent
 
-``openOptionsAutoCAD.parent``
+`openOptionsAutoCAD.parent`
 
 **Description**
 
@@ -98,31 +90,29 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/OpenOptionsAutoCAD.scaleLineweights:
+<a id="jsobjref-openoptionsautocad-scalelineweights"></a>
 
-OpenOptionsAutoCAD.scaleLineweights
-********************************************************************************
+### OpenOptionsAutoCAD.scaleLineweights
 
-``openOptionsAutoCAD.scaleLineweights``
+`openOptionsAutoCAD.scaleLineweights`
 
 **Description**
 
-If ``true``, line weights are scaled by the same factor as the rest of the drawing. Default: ``false``.
+If `true`, line weights are scaled by the same factor as the rest of the drawing. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/OpenOptionsAutoCAD.selectedLayoutName:
+<a id="jsobjref-openoptionsautocad-selectedlayoutname"></a>
 
-OpenOptionsAutoCAD.selectedLayoutName
-********************************************************************************
+### OpenOptionsAutoCAD.selectedLayoutName
 
-``openOptionsAutoCAD.selectedLayoutName``
+`openOptionsAutoCAD.selectedLayoutName`
 
 **Description**
 
@@ -132,14 +122,13 @@ The name of the layout in the drawing to import.
 
 String.
 
-----
+---
 
-.. _jsobjref/OpenOptionsAutoCAD.typename:
+<a id="jsobjref-openoptionsautocad-typename"></a>
 
-OpenOptionsAutoCAD.typename
-********************************************************************************
+### OpenOptionsAutoCAD.typename
 
-``openOptionsAutoCAD.typename``
+`openOptionsAutoCAD.typename`
 
 **Description**
 
@@ -149,31 +138,29 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/OpenOptionsAutoCAD.unit:
+<a id="jsobjref-openoptionsautocad-unit"></a>
 
-OpenOptionsAutoCAD.unit
-********************************************************************************
+### OpenOptionsAutoCAD.unit
 
-``openOptionsAutoCAD.unit``
+`openOptionsAutoCAD.unit`
 
 **Description**
 
-The unit to map to. Default: ``AutoCADUnit.Millimeters``.
+The unit to map to. Default: `AutoCADUnit.Millimeters`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.AutoCADUnit`
+[AutoCADUnit](scripting-constants.md#jsobjref-scripting-constants-autocadunit)
 
-----
+---
 
-.. _jsobjref/OpenOptionsAutoCAD.unitScaleRatio:
+<a id="jsobjref-openoptionsautocad-unitscaleratio"></a>
 
-OpenOptionsAutoCAD.unitScaleRatio
-********************************************************************************
+### OpenOptionsAutoCAD.unitScaleRatio
 
-``openOptionsAutoCAD.unitScaleRatio``
+`openOptionsAutoCAD.unitScaleRatio`
 
 **Description**
 

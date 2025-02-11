@@ -1,26 +1,22 @@
-.. _jsobjref/SpotColor:
+<a id="jsobjref-spotcolor"></a>
 
-SpotColor
-################################################################################
+# SpotColor
 
-``new SpotColor()``
+`new SpotColor()`
 
 **Description**
 
 Color class used to apply the color value of a spot at a specified tint value. Can be used in any property that takes a color object.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/SpotColor.spot:
+<a id="jsobjref-spotcolor-spot"></a>
 
-SpotColor.spot
-********************************************************************************
+### SpotColor.spot
 
-``spotColor.spot``
+`spotColor.spot`
 
 **Description**
 
@@ -28,16 +24,15 @@ A reference to the spot color object that defines the color.
 
 **Type**
 
-:ref:`jsobjref/Spot`
+[Spot](Spot.md#jsobjref-spot)
 
-----
+---
 
-.. _jsobjref/SpotColor.tint:
+<a id="jsobjref-spotcolor-tint"></a>
 
-SpotColor.tint
-********************************************************************************
+### SpotColor.tint
 
-``spotColor.tint``
+`spotColor.tint`
 
 **Description**
 
@@ -47,14 +42,13 @@ The tint of the color. Range: 0.0 to 100.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/SpotColor.typename:
+<a id="jsobjref-spotcolor-typename"></a>
 
-SpotColor.typename
-********************************************************************************
+### SpotColor.typename
 
-``spotColor.typename``
+`spotColor.typename`
 
 **Description**
 

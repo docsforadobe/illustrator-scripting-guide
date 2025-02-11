@@ -1,26 +1,22 @@
-.. _jsobjref/SymbolItems:
+<a id="jsobjref-symbolitems"></a>
 
-SymbolItems
-################################################################################
+# SymbolItems
 
-``app.activeDocument.symbolItems``
+`app.activeDocument.symbolItems`
 
 **Description**
 
-The collection of :ref:`jsobjref/SymbolItem` objects in the document.
+The collection of [SymbolItem](SymbolItem.md#jsobjref-symbolitem) objects in the document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/SymbolItems.length:
+<a id="jsobjref-symbolitems-length"></a>
 
-SymbolItems.length
-********************************************************************************
+### SymbolItems.length
 
-``app.activeDocument.symbolItems.length``
+`app.activeDocument.symbolItems.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ Number of elements in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/SymbolItems.parent:
+<a id="jsobjref-symbolitems-parent"></a>
 
-SymbolItems.parent
-********************************************************************************
+### SymbolItems.parent
 
-``app.activeDocument.symbolItems.parent``
+`app.activeDocument.symbolItems.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/SymbolItems.typename:
+<a id="jsobjref-symbolitems-typename"></a>
 
-SymbolItems.typename
-********************************************************************************
+### SymbolItems.typename
 
-``app.activeDocument.symbolItems.typename``
+`app.activeDocument.symbolItems.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/SymbolItems.add:
+<a id="jsobjref-symbolitems-add"></a>
 
-SymbolItems.add()
-********************************************************************************
+### SymbolItems.add()
 
-``app.activeDocument.symbolItems.add(symbol)``
+`app.activeDocument.symbolItems.add(symbol)`
 
 **Description**
 
@@ -83,24 +74,21 @@ Creates an instance of the specified symbol.
 
 **Parameters**
 
-+------------+------------------------+--------------------+
-| Parameter  |          Type          |    Description     |
-+============+========================+====================+
-| ``symbol`` | :ref:`jsobjref/Symbol` | Symbol to instance |
-+------------+------------------------+--------------------+
+| Parameter   | Type                                | Description        |
+|-------------|-------------------------------------|--------------------|
+| `symbol`    | [Symbol](Symbol.md#jsobjref-symbol) | Symbol to instance |
 
 **Returns**
 
-:ref:`jsobjref/SymbolItem`
+[SymbolItem](SymbolItem.md#jsobjref-symbolitem)
 
-----
+---
 
-.. _jsobjref/SymbolItems.getByName:
+<a id="jsobjref-symbolitems-getbyname"></a>
 
-SymbolItems.getByName()
-********************************************************************************
+### SymbolItems.getByName()
 
-``app.activeDocument.symbolItems.getByName(name)``
+`app.activeDocument.symbolItems.getByName(name)`
 
 **Description**
 
@@ -108,24 +96,21 @@ Get the first element in the collection with the provided name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/SymbolItem`
+[SymbolItem](SymbolItem.md#jsobjref-symbolitem)
 
-----
+---
 
-.. _jsobjref/SymbolItems.index:
+<a id="jsobjref-symbolitems-index"></a>
 
-SymbolItems.index()
-********************************************************************************
+### SymbolItems.index()
 
-``app.activeDocument.symbolItems.index(itemKey)``
+`app.activeDocument.symbolItems.index(itemKey)`
 
 **Description**
 
@@ -133,24 +118,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/SymbolItem`
+[SymbolItem](SymbolItem.md#jsobjref-symbolitem)
 
-----
+---
 
-.. _jsobjref/SymbolItems.removeAll:
+<a id="jsobjref-symbolitems-removeall"></a>
 
-SymbolItems.removeAll()
-********************************************************************************
+### SymbolItems.removeAll()
 
-``app.activeDocument.symbolItems.removeAll()``
+`app.activeDocument.symbolItems.removeAll()`
 
 **Description**
 
@@ -160,37 +142,34 @@ Deletes all elements in the collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Creating a symbol
-********************************************************************************
+### Creating a symbol
 
-::
+```default
+// Creates a path item from each graphic style
+// then adds each item as a new symbol
 
-  // Creates a path item from each graphic style
-  // then adds each item as a new symbol
+var docRef = documents.add();
+var y = 750;
+var x = 25;
 
-  var docRef = documents.add();
-  var y = 750;
-  var x = 25;
+var iCount = docRef.graphicStyles.length;
 
-  var iCount = docRef.graphicStyles.length;
+for (var i=0; i<iCount; i++) {
 
-  for (var i=0; i<iCount; i++) {
+  var pathRef = docRef.pathItems.rectangle( y, x, 20, 20 );
+  docRef.graphicStyles[i].applyTo(pathRef);
 
-    var pathRef = docRef.pathItems.rectangle( y, x, 20, 20 );
-    docRef.graphicStyles[i].applyTo(pathRef);
-
-    // are we at bottom?
-    if ( (y-=60) <= 60 ) {
-      y = 750; // go back to the top.
-      x+= 200
-    }
-
-    redraw();
-    docRef.symbolItems.add(pathRef);
+  // are we at bottom?
+  if ( (y-=60) <= 60 ) {
+    y = 750; // go back to the top.
+    x+= 200
   }
+
+  redraw();
+  docRef.symbolItems.add(pathRef);
+}
+```

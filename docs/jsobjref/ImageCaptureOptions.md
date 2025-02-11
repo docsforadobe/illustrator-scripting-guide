@@ -1,60 +1,54 @@
-.. _jsobjref/ImageCaptureOptions:
+<a id="jsobjref-imagecaptureoptions"></a>
 
-ImageCaptureOptions
-################################################################################
+# ImageCaptureOptions
 
-``imageCaptureOptions``
-
-**Description**
-
-Options for image capture, used with the :ref:`jsobjref/Document.imageCapture` method. All properties are optional.
-
-----
-
-==========
-Properties
-==========
-
-.. _jsobjref/ImageCaptureOptions.antiAliasing:
-
-ImageCaptureOptions.antiAliasing
-********************************************************************************
-
-``imageCaptureOptions.antiAliasing``
+`imageCaptureOptions`
 
 **Description**
 
-If ``true``, the image result is anti-aliased. Default: ``false``.
+Options for image capture, used with the [Document.imageCapture()](Document.md#jsobjref-document-imagecapture) method. All properties are optional.
+
+---
+
+## Properties
+
+<a id="jsobjref-imagecaptureoptions-antialiasing"></a>
+
+### ImageCaptureOptions.antiAliasing
+
+`imageCaptureOptions.antiAliasing`
+
+**Description**
+
+If `true`, the image result is anti-aliased. Default: `false`.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/ImageCaptureOptions.matte:
+<a id="jsobjref-imagecaptureoptions-matte"></a>
 
-ImageCaptureOptions.matte
-********************************************************************************
+### ImageCaptureOptions.matte
 
-``imageCaptureOptions.matte``
+`imageCaptureOptions.matte`
 
 **Description**
 
-If ``true``, the artboard is matted with a color. Default: ``false``.
+If `true`, the artboard is matted with a color. Default: `false`.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/ImageCaptureOptions.matteColor:
+<a id="jsobjref-imagecaptureoptions-mattecolor"></a>
 
-ImageCaptureOptions.matteColor
-********************************************************************************
+### ImageCaptureOptions.matteColor
 
-``imageCaptureOptions.matteColor``
+`imageCaptureOptions.matteColor`
 
 **Description**
 
@@ -62,50 +56,47 @@ The color to use for the artboard matte. Default: white.
 
 **Type**
 
-:ref:`jsobjref/RGBColor`
+[RGBColor](RGBColor.md#jsobjref-rgbcolor)
 
-----
+---
 
-.. _jsobjref/ImageCaptureOptions.resolution:
+<a id="jsobjref-imagecaptureoptions-resolution"></a>
 
-ImageCaptureOptions.resolution
-********************************************************************************
+### ImageCaptureOptions.resolution
 
-``imageCaptureOptions.resolution``
+`imageCaptureOptions.resolution`
 
 **Description**
 
-The resolution of the captured image file in points-per-inch (PPI), in the range [72.0 ... 2400.0]. Default: 150.
+The resolution of the captured image file in points-per-inch (PPI), in the range [72.0 … 2400.0]. Default: 150.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ImageCaptureOptions.transparency:
+<a id="jsobjref-imagecaptureoptions-transparency"></a>
 
-ImageCaptureOptions.transparency
-********************************************************************************
+### ImageCaptureOptions.transparency
 
-``imageCaptureOptions.transparency``
+`imageCaptureOptions.transparency`
 
 **Description**
 
-If ``true``, the image result is transparent. Default: ``false``.
+If `true`, the image result is transparent. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ImageCaptureOptions.typename:
+<a id="jsobjref-imagecaptureoptions-typename"></a>
 
-ImageCaptureOptions.typename
-********************************************************************************
+### ImageCaptureOptions.typename
 
-``imageCaptureOptions.typename``
+`imageCaptureOptions.typename`
 
 **Description**
 

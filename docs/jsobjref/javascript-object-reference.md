@@ -1,7 +1,6 @@
-.. _jsobjref/javascript-object-reference:
+<a id="jsobjref-javascript-object-reference"></a>
 
-JavaScript Object Reference
-===========================
+# JavaScript Object Reference
 
 This section presents all of the object classes in the type library.
 

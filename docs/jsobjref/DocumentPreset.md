@@ -1,60 +1,54 @@
-.. _jsobjref/DocumentPreset:
+<a id="jsobjref-documentpreset"></a>
 
-DocumentPreset
-################################################################################
+# DocumentPreset
 
-``documentPreset``
-
-**Description**
-
-A preset document template to use when creating a new document. See :ref:`jsobjref/Documents.addDocument`.
-
-----
-
-==========
-Properties
-==========
-
-.. _jsobjref/DocumentPreset.artboardLayout:
-
-DocumentPreset.artboardLayout
-********************************************************************************
-
-``documentPreset.artboardLayout``
+`documentPreset`
 
 **Description**
 
-The layout of artboards in the new document. Default: ``GridByRow``.
+A preset document template to use when creating a new document. See [Documents.addDocument()](Documents.md#jsobjref-documents-adddocument).
+
+---
+
+## Properties
+
+<a id="jsobjref-documentpreset-artboardlayout"></a>
+
+### DocumentPreset.artboardLayout
+
+`documentPreset.artboardLayout`
+
+**Description**
+
+The layout of artboards in the new document. Default: `GridByRow`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.DocumentArtboardLayout`
+[DocumentArtboardLayout](scripting-constants.md#jsobjref-scripting-constants-documentartboardlayout)
 
-----
+---
 
-.. _jsobjref/DocumentPreset.artboardRowsOrCols:
+<a id="jsobjref-documentpreset-artboardrowsorcols"></a>
 
-DocumentPreset.artboardRowsOrCols
-********************************************************************************
+### DocumentPreset.artboardRowsOrCols
 
-``documentPreset.artboardRowsOrCols``
+`documentPreset.artboardRowsOrCols`
 
 **Description**
 
-The number of rows (for rows layout) or columns (for column layout) of artboards. Range: 1 to (``numArtboards`` - 1) or 1 for single row or column layouts. Default: 1
+The number of rows (for rows layout) or columns (for column layout) of artboards. Range: 1 to (`numArtboards` - 1) or 1 for single row or column layouts. Default: 1
 
 **Type**
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/DocumentPreset.artboardSpacing:
+<a id="jsobjref-documentpreset-artboardspacing"></a>
 
-DocumentPreset.artboardSpacing
-********************************************************************************
+### DocumentPreset.artboardSpacing
 
-``documentPreset.artboardSpacing``
+`documentPreset.artboardSpacing`
 
 **Description**
 
@@ -64,14 +58,13 @@ The spacing between artboards in the new document. Default: 20.0
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/DocumentPreset.colorMode:
+<a id="jsobjref-documentpreset-colormode"></a>
 
-DocumentPreset.colorMode
-********************************************************************************
+### DocumentPreset.colorMode
 
-``documentPreset.colorMode``
+`documentPreset.colorMode`
 
 **Description**
 
@@ -79,16 +72,15 @@ The color space for the new document.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.DocumentColorSpace`
+[DocumentColorSpace](scripting-constants.md#jsobjref-scripting-constants-documentcolorspace)
 
-----
+---
 
-.. _jsobjref/DocumentPreset.documentBleedLink:
+<a id="jsobjref-documentpreset-documentbleedlink"></a>
 
-DocumentPreset.documentBleedLink
-********************************************************************************
+### DocumentPreset.documentBleedLink
 
-``documentPreset.documentBleedLink``
+`documentPreset.documentBleedLink`
 
 **Description**
 
@@ -98,14 +90,13 @@ The document link for bleed values.
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/DocumentPreset.documentBleedOffsetRect:
+<a id="jsobjref-documentpreset-documentbleedoffsetrect"></a>
 
-DocumentPreset.documentBleedOffsetRect
-********************************************************************************
+### DocumentPreset.documentBleedOffsetRect
 
-``documentPreset.documentBleedOffsetRect``
+`documentPreset.documentBleedOffsetRect`
 
 **Description**
 
@@ -115,14 +106,13 @@ The document bleed offset rectangle.
 
 Rectangle.
 
-----
+---
 
-.. _jsobjref/DocumentPreset.height:
+<a id="jsobjref-documentpreset-height"></a>
 
-DocumentPreset.height
-********************************************************************************
+### DocumentPreset.height
 
-``documentPreset.height``
+`documentPreset.height`
 
 **Description**
 
@@ -132,14 +122,13 @@ The height in document points. Default: 792.0
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/DocumentPreset.numArtboards:
+<a id="jsobjref-documentpreset-numartboards"></a>
 
-DocumentPreset.numArtboards
-********************************************************************************
+### DocumentPreset.numArtboards
 
-``documentPreset.numArtboards``
+`documentPreset.numArtboards`
 
 **Description**
 
@@ -149,14 +138,13 @@ The number of artboards for the new document. Range: 1 to 100. Default: 1.
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/DocumentPreset.previewMode:
+<a id="jsobjref-documentpreset-previewmode"></a>
 
-DocumentPreset.previewMode
-********************************************************************************
+### DocumentPreset.previewMode
 
-``documentPreset.previewMode``
+`documentPreset.previewMode`
 
 **Description**
 
@@ -164,16 +152,15 @@ The preview mode for the new document.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.DocumentPreviewMode`
+[DocumentPreviewMode](scripting-constants.md#jsobjref-scripting-constants-documentpreviewmode)
 
-----
+---
 
-.. _jsobjref/DocumentPreset.rasterResolution:
+<a id="jsobjref-documentpreset-rasterresolution"></a>
 
-DocumentPreset.rasterResolution
-********************************************************************************
+### DocumentPreset.rasterResolution
 
-``documentPreset.rasterResolution``
+`documentPreset.rasterResolution`
 
 **Description**
 
@@ -181,16 +168,15 @@ The raster resolution for the new document.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.DocumentRasterResolution`
+[DocumentRasterResolution](scripting-constants.md#jsobjref-scripting-constants-documentrasterresolution)
 
-----
+---
 
-.. _jsobjref/DocumentPreset.title:
+<a id="jsobjref-documentpreset-title"></a>
 
-DocumentPreset.title
-********************************************************************************
+### DocumentPreset.title
 
-``documentPreset.title``
+`documentPreset.title`
 
 **Description**
 
@@ -200,14 +186,13 @@ The document title.
 
 String.
 
-----
+---
 
-.. _jsobjref/DocumentPreset.transparencyGrid:
+<a id="jsobjref-documentpreset-transparencygrid"></a>
 
-DocumentPreset.transparencyGrid
-********************************************************************************
+### DocumentPreset.transparencyGrid
 
-``documentPreset.transparencyGrid``
+`documentPreset.transparencyGrid`
 
 **Description**
 
@@ -215,16 +200,15 @@ The transparency grid color for the new document.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.DocumentTransparencyGrid`
+[DocumentTransparencyGrid](scripting-constants.md#jsobjref-scripting-constants-documenttransparencygrid)
 
-----
+---
 
-.. _jsobjref/DocumentPreset.typename:
+<a id="jsobjref-documentpreset-typename"></a>
 
-DocumentPreset.typename
-********************************************************************************
+### DocumentPreset.typename
 
-``documentPreset.typename``
+`documentPreset.typename`
 
 **Description**
 
@@ -234,14 +218,13 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/DocumentPreset.units:
+<a id="jsobjref-documentpreset-units"></a>
 
-DocumentPreset.units
-********************************************************************************
+### DocumentPreset.units
 
-``documentPreset.units``
+`documentPreset.units`
 
 **Description**
 
@@ -249,16 +232,15 @@ The ruler units for the new document.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.RulerUnits`
+[RulerUnits](scripting-constants.md#jsobjref-scripting-constants-rulerunits)
 
-----
+---
 
-.. _jsobjref/DocumentPreset.width:
+<a id="jsobjref-documentpreset-width"></a>
 
-DocumentPreset.width
-********************************************************************************
+### DocumentPreset.width
 
-``documentPreset.width``
+`documentPreset.width`
 
 **Description**
 

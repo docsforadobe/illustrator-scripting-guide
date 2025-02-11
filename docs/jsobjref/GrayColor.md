@@ -1,26 +1,22 @@
-.. _jsobjref/GrayColor:
+<a id="jsobjref-graycolor"></a>
 
-GrayColor
-################################################################################
+# GrayColor
 
-``new GrayColor()``
+`new GrayColor()`
 
 **Description**
 
-A grayscale color specification, used where a ``color`` object is required.
+A grayscale color specification, used where a `color` object is required.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/GrayColor.gray:
+<a id="jsobjref-graycolor-gray"></a>
 
-GrayColor.gray
-********************************************************************************
+### GrayColor.gray
 
-``grayColor.gray``
+`grayColor.gray`
 
 **Description**
 
@@ -30,14 +26,13 @@ The tint of the gray. Range: 0.0 to 100.0, where 0.0 is black and 100.0 is white
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GrayColor.typename:
+<a id="jsobjref-graycolor-typename"></a>
 
-GrayColor.typename
-********************************************************************************
+### GrayColor.typename
 
-``grayColor.typename``
+`grayColor.typename`
 
 **Description**
 
@@ -47,27 +42,24 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Changing a color to gray
-********************************************************************************
+### Changing a color to gray
 
-::
+```default
+// Sets the color of the first word in the active document to a shade of gray
 
-  // Sets the color of the first word in the active document to a shade of gray
+if (app.documents.length > 0 && app.activeDocument.textFrames.length > 0) {
+  var text = app.activeDocument.textFrames[0].textRange;
+  var firstWord = text.words[0];
 
-  if (app.documents.length > 0 && app.activeDocument.textFrames.length > 0) {
-    var text = app.activeDocument.textFrames[0].textRange;
-    var firstWord = text.words[0];
+  // Create the new color
+  var textColor = new GrayColor();
+  textColor.gray = 45;
 
-    // Create the new color
-    var textColor = new GrayColor();
-    textColor.gray = 45;
-
-    firstWord.filled = true;
-    firstWord.fillColor = textColor;
-  }
+  firstWord.filled = true;
+  firstWord.fillColor = textColor;
+}
+```

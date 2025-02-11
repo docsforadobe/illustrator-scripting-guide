@@ -1,9 +1,8 @@
-.. _jsobjref/Variable:
+<a id="jsobjref-variable"></a>
 
-Variable
-################################################################################
+# Variable
 
-``app.activeDocument.variables[index``
+`app.activeDocument.variables[index`
 
 **Description**
 
@@ -11,22 +10,19 @@ A document-level variable that can be imported or exported.
 
 A variable is a dynamic object used to create data-driven graphics.
 
-For an example, see :ref:`jsobjref/Dataset`.
+For an example, see [Dataset](Dataset.md#jsobjref-dataset).
 
 Variables are accessed in Illustrator through the Variables palette.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Variable.kind:
+<a id="jsobjref-variable-kind"></a>
 
-Variable.kind
-********************************************************************************
+### Variable.kind
 
-``app.activeDocument.variables[index].kind``
+`app.activeDocument.variables[index].kind`
 
 **Description**
 
@@ -34,16 +30,15 @@ The variable’s type.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.VariableKind`
+[VariableKind](scripting-constants.md#jsobjref-scripting-constants-variablekind)
 
-----
+---
 
-.. _jsobjref/Variable.name:
+<a id="jsobjref-variable-name"></a>
 
-Variable.name
-********************************************************************************
+### Variable.name
 
-``app.activeDocument.variables[index].name``
+`app.activeDocument.variables[index].name`
 
 **Description**
 
@@ -53,14 +48,13 @@ The name of the variable.
 
 string
 
-----
+---
 
-.. _jsobjref/Variable.pageItems:
+<a id="jsobjref-variable-pageitems"></a>
 
-Variable.pageItems
-********************************************************************************
+### Variable.pageItems
 
-``app.activeDocument.variables[index].pageItems``
+`app.activeDocument.variables[index].pageItems`
 
 **Description**
 
@@ -68,16 +62,15 @@ All of the artwork in the variable.
 
 **Type**
 
-:ref:`jsobjref/PageItems`, read-only
+[PageItems](PageItems.md#jsobjref-pageitems), read-only
 
-----
+---
 
-.. _jsobjref/Variable.parent:
+<a id="jsobjref-variable-parent"></a>
 
-Variable.parent
-********************************************************************************
+### Variable.parent
 
-``app.activeDocument.variables[index].parent``
+`app.activeDocument.variables[index].parent`
 
 **Description**
 
@@ -87,14 +80,13 @@ Read-only. The object that contains the variable.
 
 Object
 
-----
+---
 
-.. _jsobjref/Variable.typename:
+<a id="jsobjref-variable-typename"></a>
 
-Variable.typename
-********************************************************************************
+### Variable.typename
 
-``app.activeDocument.variables[index].typename``
+`app.activeDocument.variables[index].typename`
 
 **Description**
 
@@ -104,18 +96,15 @@ The class name of the referenced object.
 
 String, read-only
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Variable.remove:
+<a id="jsobjref-variable-remove"></a>
 
-Variable.remove()
-********************************************************************************
+### Variable.remove()
 
-``app.activeDocument.variables[index].remove()``
+`app.activeDocument.variables[index].remove()`
 
 **Description**
 

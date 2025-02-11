@@ -1,29 +1,25 @@
-.. _jsobjref/ParagraphAttributes:
+<a id="jsobjref-paragraphattributes"></a>
 
-ParagraphAttributes
-################################################################################
+# ParagraphAttributes
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes`
 
 **Description**
 
 Specifies the properties and attributes of a paragraph contained in a text frame.
 
-.. note::
-  Paragraph attributes do not have default values, and are ``undefined`` untile xplicitly set.
+#### NOTE
+Paragraph attributes do not have default values, and are `undefined` untile xplicitly set.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/ParagraphAttributes.autoLeadingAmount:
+<a id="jsobjref-paragraphattributes-autoleadingamount"></a>
 
-ParagraphAttributes.autoLeadingAmount
-********************************************************************************
+### ParagraphAttributes.autoLeadingAmount
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.autoLeadingAmount``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.autoLeadingAmount`
 
 **Description**
 
@@ -33,31 +29,29 @@ Auto leading amount expressed as a percentage.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.bunriKinshi:
+<a id="jsobjref-paragraphattributes-bunrikinshi"></a>
 
-ParagraphAttributes.bunriKinshi
-********************************************************************************
+### ParagraphAttributes.bunriKinshi
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.bunriKinshi``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.bunriKinshi`
 
 **Description**
 
-If ``true``, BunriKinshi is enabled.
+If `true`, BunriKinshi is enabled.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.burasagariType:
+<a id="jsobjref-paragraphattributes-burasagaritype"></a>
 
-ParagraphAttributes.burasagariType
-********************************************************************************
+### ParagraphAttributes.burasagariType
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.burasagariType``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.burasagariType`
 
 **Description**
 
@@ -65,16 +59,15 @@ The Burasagari type.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BurasagariTypeEnum`
+[BurasagariTypeEnum](scripting-constants.md#jsobjref-scripting-constants-burasagaritypeenum)
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.desiredGlyphScaling:
+<a id="jsobjref-paragraphattributes-desiredglyphscaling"></a>
 
-ParagraphAttributes.desiredGlyphScaling
-********************************************************************************
+### ParagraphAttributes.desiredGlyphScaling
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.desiredGlyphScaling``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.desiredGlyphScaling`
 
 **Description**
 
@@ -84,14 +77,13 @@ Desired glyph scaling, expressed as a percentage of the default character width.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.desiredLetterSpacing:
+<a id="jsobjref-paragraphattributes-desiredletterspacing"></a>
 
-ParagraphAttributes.desiredLetterSpacing
-********************************************************************************
+### ParagraphAttributes.desiredLetterSpacing
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.desiredLetterSpacing``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.desiredLetterSpacing`
 
 **Description**
 
@@ -101,14 +93,13 @@ Desired letter, spacing expressed as a percentage of the default kerning or trac
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.desiredWordSpacing:
+<a id="jsobjref-paragraphattributes-desiredwordspacing"></a>
 
-ParagraphAttributes.desiredWordSpacing
-********************************************************************************
+### ParagraphAttributes.desiredWordSpacing
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.desiredWordSpacing``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.desiredWordSpacing`
 
 **Description**
 
@@ -118,31 +109,29 @@ Desired word spacing, expressed as a percentage of the default space for the fon
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.everyLineComposer:
+<a id="jsobjref-paragraphattributes-everylinecomposer"></a>
 
-ParagraphAttributes.everyLineComposer
-********************************************************************************
+### ParagraphAttributes.everyLineComposer
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.everyLineComposer``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.everyLineComposer`
 
 **Description**
 
-If ``true``, the Every-line Composer is enabled. If ``false``, the Single-line Composer is enabled.
+If `true`, the Every-line Composer is enabled. If `false`, the Single-line Composer is enabled.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.firstLineIndent:
+<a id="jsobjref-paragraphattributes-firstlineindent"></a>
 
-ParagraphAttributes.firstLineIndent
-********************************************************************************
+### ParagraphAttributes.firstLineIndent
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.firstLineIndent``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.firstLineIndent`
 
 **Description**
 
@@ -152,48 +141,45 @@ First line left indent in points.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.hyphenateCapitalizedWords:
+<a id="jsobjref-paragraphattributes-hyphenatecapitalizedwords"></a>
 
-ParagraphAttributes.hyphenateCapitalizedWords
-********************************************************************************
+### ParagraphAttributes.hyphenateCapitalizedWords
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenateCapitalizedWords``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenateCapitalizedWords`
 
 **Description**
 
-If ``true``, hyphenation is enabled for capitalized words.
+If `true`, hyphenation is enabled for capitalized words.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.hyphenation:
+<a id="jsobjref-paragraphattributes-hyphenation"></a>
 
-ParagraphAttributes.hyphenation
-********************************************************************************
+### ParagraphAttributes.hyphenation
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenation``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenation`
 
 **Description**
 
-If ``true``, hyphenation is enabled for the paragraph.
+If `true`, hyphenation is enabled for the paragraph.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.hyphenationPreference:
+<a id="jsobjref-paragraphattributes-hyphenationpreference"></a>
 
-ParagraphAttributes.hyphenationPreference
-********************************************************************************
+### ParagraphAttributes.hyphenationPreference
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenationPreference``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenationPreference`
 
 **Description**
 
@@ -203,34 +189,32 @@ Hyphenation preference scale for better spacing (0) or fewer hyphens (1). Range:
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.hyphenationZone:
+<a id="jsobjref-paragraphattributes-hyphenationzone"></a>
 
-ParagraphAttributes.hyphenationZone
-********************************************************************************
+### ParagraphAttributes.hyphenationZone
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenationZone``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenationZone`
 
 **Description**
 
 The distance (in points) from the right edge of the paragraph that marks the part of the line where hyphenation is not allowed.
 
-.. note::
-  0 allows all hyphenation. Valid only when :ref:`jsobjref/ParagraphAttributes.everyLineComposer` is ``false``.
+#### NOTE
+0 allows all hyphenation. Valid only when [ParagraphAttributes.everyLineComposer](#jsobjref-paragraphattributes-everylinecomposer) is `false`.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.justification:
+<a id="jsobjref-paragraphattributes-justification"></a>
 
-ParagraphAttributes.justification
-********************************************************************************
+### ParagraphAttributes.justification
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.justification``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.justification`
 
 **Description**
 
@@ -238,16 +222,15 @@ Paragraph justification.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.Justification`
+[Justification](scripting-constants.md#jsobjref-scripting-constants-justification)
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.kinsoku:
+<a id="jsobjref-paragraphattributes-kinsoku"></a>
 
-ParagraphAttributes.kinsoku
-********************************************************************************
+### ParagraphAttributes.kinsoku
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.kinsoku``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.kinsoku`
 
 **Description**
 
@@ -257,14 +240,13 @@ The Kinsoku Shori name.
 
 String.
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.kinsokuOrder:
+<a id="jsobjref-paragraphattributes-kinsokuorder"></a>
 
-ParagraphAttributes.kinsokuOrder
-********************************************************************************
+### ParagraphAttributes.kinsokuOrder
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.kinsokuOrder``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.kinsokuOrder`
 
 **Description**
 
@@ -272,33 +254,31 @@ The preferred Kinsoku order.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.KinsokuOrderEnum`
+[KinsokuOrderEnum](scripting-constants.md#jsobjref-scripting-constants-kinsokuorderenum)
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.kurikaeshiMojiShori:
+<a id="jsobjref-paragraphattributes-kurikaeshimojishori"></a>
 
-ParagraphAttributes.kurikaeshiMojiShori
-********************************************************************************
+### ParagraphAttributes.kurikaeshiMojiShori
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.kurikaeshiMojiShori``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.kurikaeshiMojiShori`
 
 **Description**
 
-If ``true``, KurikaeshiMojiShori is enabled.
+If `true`, KurikaeshiMojiShori is enabled.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.leadingType:
+<a id="jsobjref-paragraphattributes-leadingtype"></a>
 
-ParagraphAttributes.leadingType
-********************************************************************************
+### ParagraphAttributes.leadingType
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.leadingType``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.leadingType`
 
 **Description**
 
@@ -306,16 +286,15 @@ Auto leading type.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.AutoLeadingType`
+[AutoLeadingType](scripting-constants.md#jsobjref-scripting-constants-autoleadingtype)
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.leftIndent:
+<a id="jsobjref-paragraphattributes-leftindent"></a>
 
-ParagraphAttributes.leftIndent
-********************************************************************************
+### ParagraphAttributes.leftIndent
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.leftIndent``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.leftIndent`
 
 **Description**
 
@@ -325,14 +304,13 @@ The left indent of margin in points.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.maximumConsecutiveHyphens:
+<a id="jsobjref-paragraphattributes-maximumconsecutivehyphens"></a>
 
-ParagraphAttributes.maximumConsecutiveHyphens
-********************************************************************************
+### ParagraphAttributes.maximumConsecutiveHyphens
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumConsecutiveHyphens``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumConsecutiveHyphens`
 
 **Description**
 
@@ -342,74 +320,70 @@ Maximum number of consecutive hyphenated lines.
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.maximumGlyphScaling:
+<a id="jsobjref-paragraphattributes-maximumglyphscaling"></a>
 
-ParagraphAttributes.maximumGlyphScaling
-********************************************************************************
+### ParagraphAttributes.maximumGlyphScaling
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumGlyphScaling``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumGlyphScaling`
 
 **Description**
 
 Maximum glyph scaling, expressed as a percentage of the default character width. Range: 50.0 to 200.0; at 100.0. The width of characters is not changed.
 
-.. note::
-  Valid only for justified paragraphs.
+#### NOTE
+Valid only for justified paragraphs.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.maximumLetterSpacing:
+<a id="jsobjref-paragraphattributes-maximumletterspacing"></a>
 
-ParagraphAttributes.maximumLetterSpacing
-********************************************************************************
+### ParagraphAttributes.maximumLetterSpacing
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumLetterSpacing``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumLetterSpacing`
 
 **Description**
 
 Maximum letter spacing, expressed as a percentage of the default kerning or tracking Range: -100.0 to 500.0; at 0. No space is added between letters. At 100.0, an entire space width is added between letters.
 
-.. note::
-  Valid only for justified paragraphs.
+#### NOTE
+Valid only for justified paragraphs.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.maximumWordSpacing:
+<a id="jsobjref-paragraphattributes-maximumwordspacing"></a>
 
-ParagraphAttributes.maximumWordSpacing
-********************************************************************************
+### ParagraphAttributes.maximumWordSpacing
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumWordSpacing``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumWordSpacing`
 
 **Description**
 
 Maximum word spacing, expressed as a percentage of the default space for the font. Range: 0.0 to 1000.0; at 100.00. No space is added between words.
 
-.. note::
-  Valid only for justified paragraphs.
+#### NOTE
+Valid only for justified paragraphs.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.minimumAfterHyphen:
+<a id="jsobjref-paragraphattributes-minimumafterhyphen"></a>
 
-ParagraphAttributes.minimumAfterHyphen
-********************************************************************************
+### ParagraphAttributes.minimumAfterHyphen
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumAfterHyphen``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumAfterHyphen`
 
 **Description**
 
@@ -419,14 +393,13 @@ Minimum number of characters after a hyphen.
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.minimumBeforeHyphen:
+<a id="jsobjref-paragraphattributes-minimumbeforehyphen"></a>
 
-ParagraphAttributes.minimumBeforeHyphen
-********************************************************************************
+### ParagraphAttributes.minimumBeforeHyphen
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumBeforeHyphen``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumBeforeHyphen`
 
 **Description**
 
@@ -436,34 +409,32 @@ Minimum number of characters before a hyphen.
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.minimumGlyphScaling:
+<a id="jsobjref-paragraphattributes-minimumglyphscaling"></a>
 
-ParagraphAttributes.minimumGlyphScaling
-********************************************************************************
+### ParagraphAttributes.minimumGlyphScaling
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumGlyphScaling``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumGlyphScaling`
 
 **Description**
 
 Minimum glyph scaling, expressed as a percentage of the default character width. Range: 50.0 to 200.0. At 100.0, the width of characters is not changed.
 
-.. note::
-  Valid only for justified paragraphs.
+#### NOTE
+Valid only for justified paragraphs.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.minimumHyphenatedWordSize:
+<a id="jsobjref-paragraphattributes-minimumhyphenatedwordsize"></a>
 
-ParagraphAttributes.minimumHyphenatedWordSize
-********************************************************************************
+### ParagraphAttributes.minimumHyphenatedWordSize
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumHyphenatedWordSize``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumHyphenatedWordSize`
 
 **Description**
 
@@ -473,54 +444,51 @@ Minimum number of characters for a word to be hyphenated.
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.minimumLetterSpacing:
+<a id="jsobjref-paragraphattributes-minimumletterspacing"></a>
 
-ParagraphAttributes.minimumLetterSpacing
-********************************************************************************
+### ParagraphAttributes.minimumLetterSpacing
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumLetterSpacing``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumLetterSpacing`
 
 **Description**
 
 Minimum letter spacing, expressed as a percentage of the default kerning or tracking Range: -100.0 to 500.0; at 0. No space is added between letters. At 100.0, an entire space width is added between letters.
 
-.. note::
-  Valid only for justified paragraphs.
+#### NOTE
+Valid only for justified paragraphs.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.minimumWordSpacing:
+<a id="jsobjref-paragraphattributes-minimumwordspacing"></a>
 
-ParagraphAttributes.minimumWordSpacing
-********************************************************************************
+### ParagraphAttributes.minimumWordSpacing
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumWordSpacing``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumWordSpacing`
 
 **Description**
 
 Minimum word spacing, expressed as a percentage of the default space for the font. Range: 0.0 to 1000.0; at 100.00. No space is added between words.
 
-.. note::
-  Valid only for justified paragraphs.
+#### NOTE
+Valid only for justified paragraphs.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.mojikumi:
+<a id="jsobjref-paragraphattributes-mojikumi"></a>
 
-ParagraphAttributes.mojikumi
-********************************************************************************
+### ParagraphAttributes.mojikumi
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.mojikumi``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.mojikumi`
 
 **Description**
 
@@ -530,14 +498,13 @@ The Mojikumi name.
 
 String.
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.parent:
+<a id="jsobjref-paragraphattributes-parent"></a>
 
-ParagraphAttributes.parent
-********************************************************************************
+### ParagraphAttributes.parent
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.parent``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.parent`
 
 **Description**
 
@@ -547,14 +514,13 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.rightIndent:
+<a id="jsobjref-paragraphattributes-rightindent"></a>
 
-ParagraphAttributes.rightIndent
-********************************************************************************
+### ParagraphAttributes.rightIndent
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.rightIndent``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.rightIndent`
 
 **Description**
 
@@ -564,31 +530,29 @@ Right indent of margin in points.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.romanHanging:
+<a id="jsobjref-paragraphattributes-romanhanging"></a>
 
-ParagraphAttributes.romanHanging
-********************************************************************************
+### ParagraphAttributes.romanHanging
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.romanHanging``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.romanHanging`
 
 **Description**
 
-If ``true``, Roman hanging punctuation is enabled.
+If `true`, Roman hanging punctuation is enabled.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.singleWordJustification:
+<a id="jsobjref-paragraphattributes-singlewordjustification"></a>
 
-ParagraphAttributes.singleWordJustification
-********************************************************************************
+### ParagraphAttributes.singleWordJustification
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.singleWordJustification``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.singleWordJustification`
 
 **Description**
 
@@ -596,16 +560,15 @@ Single word justification.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.Justification`
+[Justification](scripting-constants.md#jsobjref-scripting-constants-justification)
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.spaceAfter:
+<a id="jsobjref-paragraphattributes-spaceafter"></a>
 
-ParagraphAttributes.spaceAfter
-********************************************************************************
+### ParagraphAttributes.spaceAfter
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.spaceAfter``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.spaceAfter`
 
 **Description**
 
@@ -615,14 +578,13 @@ Spacing after paragraph in points.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.spaceBefore:
+<a id="jsobjref-paragraphattributes-spacebefore"></a>
 
-ParagraphAttributes.spaceBefore
-********************************************************************************
+### ParagraphAttributes.spaceBefore
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.spaceBefore``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.spaceBefore`
 
 **Description**
 
@@ -632,14 +594,13 @@ Spacing before paragraph in points.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.tabStops:
+<a id="jsobjref-paragraphattributes-tabstops"></a>
 
-ParagraphAttributes.tabStops
-********************************************************************************
+### ParagraphAttributes.tabStops
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops`
 
 **Description**
 
@@ -647,54 +608,50 @@ Tab stop settings.
 
 **Type**
 
-:ref:`jsobjref/TabStopInfo`
+[TabStopInfo](TabStopInfo.md#jsobjref-tabstopinfo)
 
-----
+---
 
-.. _jsobjref/ParagraphAttributes.typename:
+<a id="jsobjref-paragraphattributes-typename"></a>
 
-ParagraphAttributes.typename
-********************************************************************************
+### ParagraphAttributes.typename
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.typename``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.typename`
 
 **Description**
 
- The class name of the object.
+> The class name of the object.
 
 **Type**
 
 String, read-only.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Changing justification in paragraphs
-********************************************************************************
+### Changing justification in paragraphs
 
-::
+```default
+// Creates a new document with 1 text frame and 3 paragraphs
+// then gives each paragraph a different justification
 
-  // Creates a new document with 1 text frame and 3 paragraphs
-  // then gives each paragraph a different justification
+var docRef = documents.add();
+var pathRef = docRef.pathItems.rectangle(600, 200, 200, 400);
+var textRef = docRef.textFrames.areaText(pathRef);
+textRef.paragraphs.add("Left justified paragraph.");
+textRef.paragraphs.add("Center justified paragraph.");
+textRef.paragraphs.add("Right justified paragraph.");
+textRef.textRange.characterAttributes.size = 28;
 
-  var docRef = documents.add();
-  var pathRef = docRef.pathItems.rectangle(600, 200, 200, 400);
-  var textRef = docRef.textFrames.areaText(pathRef);
-  textRef.paragraphs.add("Left justified paragraph.");
-  textRef.paragraphs.add("Center justified paragraph.");
-  textRef.paragraphs.add("Right justified paragraph.");
-  textRef.textRange.characterAttributes.size = 28;
+// change the justification of each paragraph
+// using the paragraph attributes object
+var paraAttr_0 = textRef.paragraphs[0].paragraphAttributes;
+paraAttr_0.justification = Justification.RIGHT;
 
-  // change the justification of each paragraph
-  // using the paragraph attributes object
-  var paraAttr_0 = textRef.paragraphs[0].paragraphAttributes;
-  paraAttr_0.justification = Justification.RIGHT;
+var paraAttr_1 = textRef.paragraphs[1].paragraphAttributes;
+paraAttr_1.justification = Justification.CENTER;
 
-  var paraAttr_1 = textRef.paragraphs[1].paragraphAttributes;
-  paraAttr_1.justification = Justification.CENTER;
-
-  var paraAttr_2 = textRef.paragraphs[2].paragraphAttributes;
-  paraAttr_2.justification = Justification.LEFT;
+var paraAttr_2 = textRef.paragraphs[2].paragraphAttributes;
+paraAttr_2.justification = Justification.LEFT;
+```

@@ -1,9 +1,8 @@
-.. _jsobjref/GroupItem:
+<a id="jsobjref-groupitem"></a>
 
-GroupItem
-################################################################################
+# GroupItem
 
-``app.activeDocument.groupItems[index``
+`app.activeDocument.groupItems[index`
 
 **Description**
 
@@ -11,18 +10,15 @@ A grouped set of art items. Group items can contain all of the same page items t
 
 Paths contained in a group or compound path in a document are returned as individual paths when a script asks for the paths contained in the document. However, paths contained in a group or compound path are not returned when a script asks for the paths in a layer which contains the group or compound path.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/GroupItem.artworkKnockout:
+<a id="jsobjref-groupitem-artworkknockout"></a>
 
-GroupItem.artworkKnockout
-********************************************************************************
+### GroupItem.artworkKnockout
 
-``app.activeDocument.groupItems[index].artworkKnockout``
+`app.activeDocument.groupItems[index].artworkKnockout`
 
 **Description**
 
@@ -30,16 +26,15 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.KnockoutState`
+[KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
-----
+---
 
-.. _jsobjref/GroupItem.blendingMode:
+<a id="jsobjref-groupitem-blendingmode"></a>
 
-GroupItem.blendingMode
-********************************************************************************
+### GroupItem.blendingMode
 
-``app.activeDocument.groupItems[index].blendingMode``
+`app.activeDocument.groupItems[index].blendingMode`
 
 **Description**
 
@@ -47,33 +42,31 @@ The blend mode used when compositing an object.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BlendModes`
+[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
-----
+---
 
-.. _jsobjref/GroupItem.clipped:
+<a id="jsobjref-groupitem-clipped"></a>
 
-GroupItem.clipped
-********************************************************************************
+### GroupItem.clipped
 
-``app.activeDocument.groupItems[index].clipped``
+`app.activeDocument.groupItems[index].clipped`
 
 **Description**
 
-If ``true``, the group is clipped to the clipping mask.
+If `true`, the group is clipped to the clipping mask.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GroupItem.compoundPathItems:
+<a id="jsobjref-groupitem-compoundpathitems"></a>
 
-GroupItem.compoundPathItems
-********************************************************************************
+### GroupItem.compoundPathItems
 
-``app.activeDocument.groupItems[index].compoundPathItems``
+`app.activeDocument.groupItems[index].compoundPathItems`
 
 **Description**
 
@@ -81,16 +74,15 @@ The compound path items contained in this group.
 
 **Type**
 
-:ref:`jsobjref/CompoundPathItems`, read-only.
+[CompoundPathItems](CompoundPathItems.md#jsobjref-compoundpathitems), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.controlBounds:
+<a id="jsobjref-groupitem-controlbounds"></a>
 
-GroupItem.controlBounds
-********************************************************************************
+### GroupItem.controlBounds
 
-``app.activeDocument.groupItems[index].controlBounds``
+`app.activeDocument.groupItems[index].controlBounds`
 
 **Description**
 
@@ -100,14 +92,13 @@ The bounds of the object including stroke width and controls.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.editable:
+<a id="jsobjref-groupitem-editable"></a>
 
-GroupItem.editable
-********************************************************************************
+### GroupItem.editable
 
-``app.activeDocument.groupItems[index].editable``
+`app.activeDocument.groupItems[index].editable`
 
 **Description**
 
@@ -117,14 +108,13 @@ If true, this item is editable.
 
 Boolean, read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.geometricBounds:
+<a id="jsobjref-groupitem-geometricbounds"></a>
 
-GroupItem.geometricBounds
-********************************************************************************
+### GroupItem.geometricBounds
 
-``app.activeDocument.groupItems[index].geometricBounds``
+`app.activeDocument.groupItems[index].geometricBounds`
 
 **Description**
 
@@ -134,14 +124,13 @@ The bounds of the object excluding stroke width.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.graphItems:
+<a id="jsobjref-groupitem-graphitems"></a>
 
-GroupItem.graphItems
-********************************************************************************
+### GroupItem.graphItems
 
-``app.activeDocument.groupItems[index].graphItems``
+`app.activeDocument.groupItems[index].graphItems`
 
 **Description**
 
@@ -149,16 +138,15 @@ he graph items contained in this group.
 
 **Type**
 
-:ref:`jsobjref/GraphItems`, read-only.
+[GraphItems](GraphItems.md#jsobjref-graphitems), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.groupItems:
+<a id="jsobjref-groupitem-groupitems"></a>
 
-GroupItem.groupItems
-********************************************************************************
+### GroupItem.groupItems
 
-``app.activeDocument.groupItems[index].groupItems``
+`app.activeDocument.groupItems[index].groupItems`
 
 **Description**
 
@@ -166,16 +154,15 @@ The group items contained in this group.
 
 **Type**
 
-:ref:`jsobjref/GroupItems`, read-only.
+[GroupItems](GroupItems.md#jsobjref-groupitems), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.height:
+<a id="jsobjref-groupitem-height"></a>
 
-GroupItem.height
-********************************************************************************
+### GroupItem.height
 
-``app.activeDocument.groupItems[index].height``
+`app.activeDocument.groupItems[index].height`
 
 **Description**
 
@@ -185,48 +172,45 @@ The height of the group item.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GroupItem.hidden:
+<a id="jsobjref-groupitem-hidden"></a>
 
-GroupItem.hidden
-********************************************************************************
+### GroupItem.hidden
 
-``app.activeDocument.groupItems[index].hidden``
+`app.activeDocument.groupItems[index].hidden`
 
 **Description**
 
-If ``true``, this group item is hidden.
+If `true`, this group item is hidden.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GroupItem.isIsolated:
+<a id="jsobjref-groupitem-isisolated"></a>
 
-GroupItem.isIsolated
-********************************************************************************
+### GroupItem.isIsolated
 
-``app.activeDocument.groupItems[index].isIsolated``
+`app.activeDocument.groupItems[index].isIsolated`
 
 **Description**
 
-If ``true``, this object is isolated.
+If `true`, this object is isolated.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GroupItem.layer:
+<a id="jsobjref-groupitem-layer"></a>
 
-GroupItem.layer
-********************************************************************************
+### GroupItem.layer
 
-``app.activeDocument.groupItems[index].layer``
+`app.activeDocument.groupItems[index].layer`
 
 **Description**
 
@@ -234,16 +218,15 @@ The layer to which this group item belongs.
 
 **Type**
 
-:ref:`jsobjref/Layer`, read-only.
+[Layer](Layer.md#jsobjref-layer), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.left:
+<a id="jsobjref-groupitem-left"></a>
 
-GroupItem.left
-********************************************************************************
+### GroupItem.left
 
-``app.activeDocument.groupItems[index].left``
+`app.activeDocument.groupItems[index].left`
 
 **Description**
 
@@ -253,14 +236,13 @@ The position of the left side of the item (in points, measured from the left sid
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GroupItem.legacyTextItems:
+<a id="jsobjref-groupitem-legacytextitems"></a>
 
-GroupItem.legacyTextItems
-********************************************************************************
+### GroupItem.legacyTextItems
 
-``app.activeDocument.groupItems[index].legacyTextItems``
+`app.activeDocument.groupItems[index].legacyTextItems`
 
 **Description**
 
@@ -268,33 +250,31 @@ The legacy text items in the group.
 
 **Type**
 
-:ref:`jsobjref/LegacyTextItems`, read-only.
+[LegacyTextItems](LegacyTextItems.md#jsobjref-legacytextitems), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.locked:
+<a id="jsobjref-groupitem-locked"></a>
 
-GroupItem.locked
-********************************************************************************
+### GroupItem.locked
 
-``app.activeDocument.groupItems[index].locked``
+`app.activeDocument.groupItems[index].locked`
 
 **Description**
 
-If ``true``, this group item is locked.
+If `true`, this group item is locked.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GroupItem.meshItems:
+<a id="jsobjref-groupitem-meshitems"></a>
 
-GroupItem.meshItems
-********************************************************************************
+### GroupItem.meshItems
 
-``app.activeDocument.groupItems[index].meshItems``
+`app.activeDocument.groupItems[index].meshItems`
 
 **Description**
 
@@ -302,16 +282,15 @@ The mesh items contained in this group.
 
 **Type**
 
-:ref:`jsobjref/MeshItems`, read-only.
+[MeshItems](MeshItems.md#jsobjref-meshitems), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.name:
+<a id="jsobjref-groupitem-name"></a>
 
-GroupItem.name
-********************************************************************************
+### GroupItem.name
 
-``app.activeDocument.groupItems[index].name``
+`app.activeDocument.groupItems[index].name`
 
 **Description**
 
@@ -321,14 +300,13 @@ The name of this group item.
 
 String.
 
-----
+---
 
-.. _jsobjref/GroupItem.nonNativeItems:
+<a id="jsobjref-groupitem-nonnativeitems"></a>
 
-GroupItem.nonNativeItems
-********************************************************************************
+### GroupItem.nonNativeItems
 
-``app.activeDocument.groupItems[index].nonNativeItems``
+`app.activeDocument.groupItems[index].nonNativeItems`
 
 **Description**
 
@@ -336,16 +314,15 @@ The non-native art items in this group.
 
 **Type**
 
-:ref:`jsobjref/NonNativeItems`
+[NonNativeItems](NonNativeItems.md#jsobjref-nonnativeitems)
 
-----
+---
 
-.. _jsobjref/GroupItem.note:
+<a id="jsobjref-groupitem-note"></a>
 
-GroupItem.note
-********************************************************************************
+### GroupItem.note
 
-``app.activeDocument.groupItems[index].note``
+`app.activeDocument.groupItems[index].note`
 
 **Description**
 
@@ -355,14 +332,13 @@ The note assigned to this item.
 
 String.
 
-----
+---
 
-.. _jsobjref/GroupItem.opacity:
+<a id="jsobjref-groupitem-opacity"></a>
 
-GroupItem.opacity
-********************************************************************************
+### GroupItem.opacity
 
-``app.activeDocument.groupItems[index].opacity``
+`app.activeDocument.groupItems[index].opacity`
 
 **Description**
 
@@ -372,14 +348,13 @@ The opacity of the object. Range: 0.0 to 100.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GroupItem.pageItems:
+<a id="jsobjref-groupitem-pageitems"></a>
 
-GroupItem.pageItems
-********************************************************************************
+### GroupItem.pageItems
 
-``app.activeDocument.groupItems[index].pageItems``
+`app.activeDocument.groupItems[index].pageItems`
 
 **Description**
 
@@ -387,16 +362,15 @@ The page items (all art item classes) contained in this group.
 
 **Type**
 
-:ref:`jsobjref/PageItems`, read-only.
+[PageItems](PageItems.md#jsobjref-pageitems), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.parent:
+<a id="jsobjref-groupitem-parent"></a>
 
-GroupItem.parent
-********************************************************************************
+### GroupItem.parent
 
-``app.activeDocument.groupItems[index].parent``
+`app.activeDocument.groupItems[index].parent`
 
 **Description**
 
@@ -404,16 +378,15 @@ The parent of this object.
 
 **Type**
 
-:ref:`jsobjref/Layer` or :ref:`jsobjref/GroupItem`, read-only.
+[Layer](Layer.md#jsobjref-layer) or [GroupItem](#jsobjref-groupitem), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.pathItems:
+<a id="jsobjref-groupitem-pathitems"></a>
 
-GroupItem.pathItems
-********************************************************************************
+### GroupItem.pathItems
 
-``app.activeDocument.groupItems[index].pathItems``
+`app.activeDocument.groupItems[index].pathItems`
 
 **Description**
 
@@ -421,16 +394,15 @@ The path items contained in this group.
 
 **Type**
 
-:ref:`jsobjref/PathItems`, read-only.
+[PathItems](PathItems.md#jsobjref-pathitems), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.placedItems:
+<a id="jsobjref-groupitem-placeditems"></a>
 
-GroupItem.placedItems
-********************************************************************************
+### GroupItem.placedItems
 
-``app.activeDocument.groupItems[index].placedItems``
+`app.activeDocument.groupItems[index].placedItems`
 
 **Description**
 
@@ -438,16 +410,15 @@ The placed items contained in this group.
 
 **Type**
 
-:ref:`jsobjref/PlacedItems`, read-only.
+[PlacedItems](PlacedItems.md#jsobjref-placeditems), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.pluginItems:
+<a id="jsobjref-groupitem-pluginitems"></a>
 
-GroupItem.pluginItems
-********************************************************************************
+### GroupItem.pluginItems
 
-``app.activeDocument.groupItems[index].pluginItems``
+`app.activeDocument.groupItems[index].pluginItems`
 
 **Description**
 
@@ -455,33 +426,31 @@ The plug-in items contained in this group.
 
 **Type**
 
-:ref:`jsobjref/PluginItems`, read-only.
+[PluginItems](PluginItems.md#jsobjref-pluginitems), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.position:
+<a id="jsobjref-groupitem-position"></a>
 
-GroupItem.position
-********************************************************************************
+### GroupItem.position
 
-``app.activeDocument.groupItems[index].position``
+`app.activeDocument.groupItems[index].position`
 
 **Description**
 
-The position (in points) of the top left corner of the ``groupItem`` object in the format [x, y]. Does not include stroke weight.
+The position (in points) of the top left corner of the `groupItem` object in the format [x, y]. Does not include stroke weight.
 
 **Type**
 
 Array of 2 numbers.
 
-----
+---
 
-.. _jsobjref/GroupItem.rasterItems:
+<a id="jsobjref-groupitem-rasteritems"></a>
 
-GroupItem.rasterItems
-********************************************************************************
+### GroupItem.rasterItems
 
-``app.activeDocument.groupItems[index].rasterItems``
+`app.activeDocument.groupItems[index].rasterItems`
 
 **Description**
 
@@ -489,50 +458,47 @@ The raster items contained in this group.
 
 **Type**
 
-:ref:`jsobjref/RasterItems`, read-only.
+[RasterItems](RasterItems.md#jsobjref-rasteritems), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.selected:
+<a id="jsobjref-groupitem-selected"></a>
 
-GroupItem.selected
-********************************************************************************
+### GroupItem.selected
 
-``app.activeDocument.groupItems[index].selected``
+`app.activeDocument.groupItems[index].selected`
 
 **Description**
 
-If ``true``, this group item is selected.
+If `true`, this group item is selected.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GroupItem.sliced:
+<a id="jsobjref-groupitem-sliced"></a>
 
-GroupItem.sliced
-********************************************************************************
+### GroupItem.sliced
 
-``app.activeDocument.groupItems[index].sliced``
+`app.activeDocument.groupItems[index].sliced`
 
 **Description**
 
-If ``true``, the item sliced. Default: ``false``.
+If `true`, the item sliced. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GroupItem.symbolItems:
+<a id="jsobjref-groupitem-symbolitems"></a>
 
-GroupItem.symbolItems
-********************************************************************************
+### GroupItem.symbolItems
 
-``app.activeDocument.groupItems[index].symbolItems``
+`app.activeDocument.groupItems[index].symbolItems`
 
 **Description**
 
@@ -540,16 +506,15 @@ The symbol item objects in this group.
 
 **Type**
 
-:ref:`jsobjref/SymbolItems`, read-only.
+[SymbolItems](SymbolItems.md#jsobjref-symbolitems), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.tags:
+<a id="jsobjref-groupitem-tags"></a>
 
-GroupItem.tags
-********************************************************************************
+### GroupItem.tags
 
-``app.activeDocument.groupItems[index].tags``
+`app.activeDocument.groupItems[index].tags`
 
 **Description**
 
@@ -557,16 +522,15 @@ The tags contained in this group.
 
 **Type**
 
-:ref:`jsobjref/Tags`, read-only.
+[Tags](Tags.md#jsobjref-tags), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.textFrames:
+<a id="jsobjref-groupitem-textframes"></a>
 
-GroupItem.textFrames
-********************************************************************************
+### GroupItem.textFrames
 
-``app.activeDocument.groupItems[index].textFrames``
+`app.activeDocument.groupItems[index].textFrames`
 
 **Description**
 
@@ -574,16 +538,15 @@ The text art items contained in this group.
 
 **Type**
 
-:ref:`jsobjref/TextFrameItems`, read-only.
+[TextFrameItems](TextFrameItems.md#jsobjref-textframeitems), read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.top:
+<a id="jsobjref-groupitem-top"></a>
 
-GroupItem.top
-********************************************************************************
+### GroupItem.top
 
-``app.activeDocument.groupItems[index].top``
+`app.activeDocument.groupItems[index].top`
 
 **Description**
 
@@ -593,14 +556,13 @@ The position of the top of the item (in points, measured from the bottom of the 
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GroupItem.typename:
+<a id="jsobjref-groupitem-typename"></a>
 
-GroupItem.typename
-********************************************************************************
+### GroupItem.typename
 
-``app.activeDocument.groupItems[index].typename``
+`app.activeDocument.groupItems[index].typename`
 
 **Description**
 
@@ -610,14 +572,13 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.uRL:
+<a id="jsobjref-groupitem-url"></a>
 
-GroupItem.uRL
-********************************************************************************
+### GroupItem.uRL
 
-``app.activeDocument.groupItems[index].uRL``
+`app.activeDocument.groupItems[index].uRL`
 
 **Description**
 
@@ -627,14 +588,13 @@ The value of the Adobe URL tag assigned to this group item.
 
 String.
 
-----
+---
 
-.. _jsobjref/GroupItem.visibilityVariable:
+<a id="jsobjref-groupitem-visibilityvariable"></a>
 
-GroupItem.visibilityVariable
-********************************************************************************
+### GroupItem.visibilityVariable
 
-``app.activeDocument.groupItems[index].visibilityVariable``
+`app.activeDocument.groupItems[index].visibilityVariable`
 
 **Description**
 
@@ -642,16 +602,15 @@ The visibility variable bound to the item.
 
 **Type**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/GroupItem.visibleBounds:
+<a id="jsobjref-groupitem-visiblebounds"></a>
 
-GroupItem.visibleBounds
-********************************************************************************
+### GroupItem.visibleBounds
 
-``app.activeDocument.groupItems[index].visibleBounds``
+`app.activeDocument.groupItems[index].visibleBounds`
 
 **Description**
 
@@ -661,14 +620,13 @@ The visible bounds of the group item including stroke width.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/GroupItem.width:
+<a id="jsobjref-groupitem-width"></a>
 
-GroupItem.width
-********************************************************************************
+### GroupItem.width
 
-``app.activeDocument.groupItems[index].width``
+`app.activeDocument.groupItems[index].width`
 
 **Description**
 
@@ -678,31 +636,29 @@ The width of the group item.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GroupItem.wrapInside:
+<a id="jsobjref-groupitem-wrapinside"></a>
 
-GroupItem.wrapInside
-********************************************************************************
+### GroupItem.wrapInside
 
-``app.activeDocument.groupItems[index].wrapInside``
+`app.activeDocument.groupItems[index].wrapInside`
 
 **Description**
 
-If ``true``, the text frame object should be wrapped inside this object.
+If `true`, the text frame object should be wrapped inside this object.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GroupItem.wrapOffset:
+<a id="jsobjref-groupitem-wrapoffset"></a>
 
-GroupItem.wrapOffset
-********************************************************************************
+### GroupItem.wrapOffset
 
-``app.activeDocument.groupItems[index].wrapOffset``
+`app.activeDocument.groupItems[index].wrapOffset`
 
 **Description**
 
@@ -712,52 +668,47 @@ The offset to use when wrapping text around this object.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GroupItem.wrapped:
+<a id="jsobjref-groupitem-wrapped"></a>
 
-GroupItem.wrapped
-********************************************************************************
+### GroupItem.wrapped
 
-``app.activeDocument.groupItems[index].wrapped``
+`app.activeDocument.groupItems[index].wrapped`
 
 **Description**
 
-If ``true``, wrap text frame objects around this object (text frame must be above the object).
+If `true`, wrap text frame objects around this object (text frame must be above the object).
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GroupItem.zOrderPosition:
+<a id="jsobjref-groupitem-zorderposition"></a>
 
-GroupItem.zOrderPosition
-********************************************************************************
+### GroupItem.zOrderPosition
 
-``app.activeDocument.groupItems[index].zOrderPosition``
+`app.activeDocument.groupItems[index].zOrderPosition`
 
 **Description**
 
-The position of this group object within the stacking order of the group or layer (``parent``) that contains the group object.
+The position of this group object within the stacking order of the group or layer (`parent`) that contains the group object.
 
 **Type**
 
 Number (long).
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/GroupItem.duplicate:
+<a id="jsobjref-groupitem-duplicate"></a>
 
-GroupItem.duplicate()
-********************************************************************************
+### GroupItem.duplicate()
 
-``app.activeDocument.groupItems[index].duplicate([relativeObject] [,insertionLocation])``
+`app.activeDocument.groupItems[index].duplicate([relativeObject] [,insertionLocation])`
 
 **Description**
 
@@ -765,26 +716,22 @@ Creates a duplicate of the selected object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+----------------------------+
-|       Parameter       |                              Type                              |        Description         |
-+=======================+================================================================+============================+
-| ``relativeObject``    | Object, optional                                               | Object to duplicate to     |
-+-----------------------+----------------------------------------------------------------+----------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to insert element |
-+-----------------------+----------------------------------------------------------------+----------------------------+
+| Parameter           | Type                                                                                               | Description                |
+|---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
+| `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
 **Returns**
 
-:ref:`jsobjref/GroupItem`
+[GroupItem](#jsobjref-groupitem)
 
-----
+---
 
-.. _jsobjref/GroupItem.move:
+<a id="jsobjref-groupitem-move"></a>
 
-GroupItem.move()
-********************************************************************************
+### GroupItem.move()
 
-``app.activeDocument.groupItems[index].move(relativeObject, insertionLocation)``
+`app.activeDocument.groupItems[index].move(relativeObject, insertionLocation)`
 
 **Description**
 
@@ -792,26 +739,22 @@ Moves the object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-|       Parameter       |                              Type                              |          Description          |
-+=======================+================================================================+===============================+
-| ``relativeObject``    | Object                                                         | Object to move element within |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to move element to   |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
+| Parameter           | Type                                                                                               | Description                   |
+|---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
+| `relativeObject`    | Object                                                                                             | Object to move element within |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
 **Returns**
 
-:ref:`jsobjref/GroupItem`
+[GroupItem](#jsobjref-groupitem)
 
-----
+---
 
-.. _jsobjref/GroupItem.remove:
+<a id="jsobjref-groupitem-remove"></a>
 
-GroupItem.remove()
-********************************************************************************
+### GroupItem.remove()
 
-``app.activeDocument.groupItems[index].remove()``
+`app.activeDocument.groupItems[index].remove()`
 
 **Description**
 
@@ -821,103 +764,84 @@ Deletes this object.
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/GroupItem.resize:
+<a id="jsobjref-groupitem-resize"></a>
 
-GroupItem.resize()
-********************************************************************************
+### GroupItem.resize()
 
-::
-
-  app.activeDocument.groupItems[index].resize(scaleX, scaleY
-    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
-  )
+```default
+app.activeDocument.groupItems[index].resize(scaleX, scaleY
+  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+  [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
+)
+```
 
 **Description**
 
-Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scaleY`` is the vertical scaling factor. 100.0 = 100%.
+Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``scaleX``              | Number (double)                                              | Horizontal scaling factor                               |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleY``              | Number (double)                                              | Vertical scaling factor                                 |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeLineWidths``    | Number (double), optional                                    | The amount to scale line widths                         |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleAbout``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `scaleX`              | Number (double)                                                                                | Horizontal scaling factor                               |
+| `scaleY`              | Number (double)                                                                                | Vertical scaling factor                                 |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
+| `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/GroupItem.rotate:
+<a id="jsobjref-groupitem-rotate"></a>
 
-GroupItem.rotate()
-********************************************************************************
+### GroupItem.rotate()
 
-::
-
-  app.activeDocument.groupItems[index].rotate(angle
-    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,rotateAbout]
-  )
+```default
+app.activeDocument.groupItems[index].rotate(angle
+  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+  [,changeStrokePattern] [,rotateAbout]
+)
+```
 
 **Description**
 
-Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the ``angle`` value is positive, clockwise if the value is negative.
+Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``angle``               | Number (double)                                              | The angle amount to rotate the element                  |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``rotateAbout``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `angle`               | Number (double)                                                                                | The angle amount to rotate the element                  |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/GroupItem.transform:
+<a id="jsobjref-groupitem-transform"></a>
 
-GroupItem.transform()
-********************************************************************************
+### GroupItem.transform()
 
-::
-
-  app.activeDocument.groupItems[index].transform(transformationMatrix
-    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
-  )
+```default
+app.activeDocument.groupItems[index].transform(transformationMatrix
+  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+  [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
+)
+```
 
 **Description**
 
@@ -925,76 +849,59 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-|        Parameter         |                             Type                             |                  Description                   |
-+==========================+==============================================================+================================================+
-| ``transformationMatrix`` | :ref:`jsobjref/Matrix`                                       | Transformation matrix to apply                 |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changePositions``      | Boolean, optional                                            | Whether to change Positions                    |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillPatterns``   | Boolean, optional                                            | Whether to change Fill Patterns                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillGradients``  | Boolean, optional                                            | Whether to change Fill Gradients               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeStrokePattern``  | Boolean, optional                                            | Whether to change Stroke Pattern               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeLineWidths``     | Number (double), optional                                    | The amount to scale line widths                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``transformAbout``       | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| Parameter              | Type                                                                                           | Description                                    |
+|------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
+| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
+| `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
+| `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |
+| `changeStrokePattern`  | Boolean, optional                                                                              | Whether to change Stroke Pattern               |
+| `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
+| `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/GroupItem.translate:
+<a id="jsobjref-groupitem-translate"></a>
 
-GroupItem.translate()
-********************************************************************************
+### GroupItem.translate()
 
-::
-
-  app.activeDocument.groupItems[index].translate([deltaX] [,deltaY]
-    [,transformObjects] [,transformFillPatterns]
-    [,transformFillGradients] [,transformStrokePatterns]
-  )
+```default
+app.activeDocument.groupItems[index].translate([deltaX] [,deltaY]
+  [,transformObjects] [,transformFillPatterns]
+  [,transformFillGradients] [,transformStrokePatterns]
+)
+```
 
 **Description**
 
-Repositions the art item relative to the current position, where ``deltaX`` is the horizontal offset and ``deltaY`` is the vertical offset.
+Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
 **Parameters**
 
-+-----------------------------+---------------------------+--------------------------------------+
-|          Parameter          |           Type            |             Description              |
-+=============================+===========================+======================================+
-| ``deltaX``                  | Number (double), optional | Horizontal offset                    |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``deltaY``                  | Number (double), optional | Vertical offset                      |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformObjects``        | Boolean, optional         | Whether to transform Objects         |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillPatterns``   | Boolean, optional         | Whether to transform Fill Patterns   |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillGradients``  | Boolean, optional         | Whether to transform Fill Gradients  |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformStrokePatterns`` | Boolean, optional         | Whether to transform Stroke Patterns |
-+-----------------------------+---------------------------+--------------------------------------+
+| Parameter                 | Type                      | Description                          |
+|---------------------------|---------------------------|--------------------------------------|
+| `deltaX`                  | Number (double), optional | Horizontal offset                    |
+| `deltaY`                  | Number (double), optional | Vertical offset                      |
+| `transformObjects`        | Boolean, optional         | Whether to transform Objects         |
+| `transformFillPatterns`   | Boolean, optional         | Whether to transform Fill Patterns   |
+| `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
+| `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/GroupItem.zOrder:
+<a id="jsobjref-groupitem-zorder"></a>
 
-GroupItem.zOrder()
-********************************************************************************
+### GroupItem.zOrder()
 
-``app.activeDocument.groupItems[index].zOrder(zOrderCmd)``
+`app.activeDocument.groupItems[index].zOrder(zOrderCmd)`
 
 **Description**
 
@@ -1002,51 +909,46 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-+---------------+--------------------------------------------------+-----------------------------------+
-|   Parameter   |                       Type                       |            Description            |
-+===============+==================================================+===================================+
-| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | Stacking order arrangement method |
-+---------------+--------------------------------------------------+-----------------------------------+
+| Parameter   | Type                                                                             | Description                       |
+|-------------|----------------------------------------------------------------------------------|-----------------------------------|
+| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Modifying all objects in a group
-********************************************************************************
+### Modifying all objects in a group
 
 It is easy to modify all of the objects contained in a group. This example demonstrates how to simplify your operations on multiple objects by creating group to contain them.
 
-::
+```default
+// Creates a new group item, adds a new path item, of triangle shape, to the group,
+// then adds a new text item to the group and sets the fill color of the text to red
 
-  // Creates a new group item, adds a new path item, of triangle shape, to the group,
-  // then adds a new text item to the group and sets the fill color of the text to red
+if (app.documents.length > 0) {
+  var triangleGroup = app.activeDocument.groupItems.add();
 
-  if (app.documents.length > 0) {
-    var triangleGroup = app.activeDocument.groupItems.add();
+  // Create a triangle and add text, the new art is created inside the group
+  var trianglePath = triangleGroup.pathItems.add();
+  trianglePath.setEntirePath(Array(Array(100, 100), Array(300, 100), Array(200, Math.tan(1.0471975) * 100 + 100)));
+  trianglePath.closed = true;
+  trianglePath.stroked = true;
+  trianglePath.filled = false;
+  trianglePath.strokeWidth = 3;
 
-    // Create a triangle and add text, the new art is created inside the group
-    var trianglePath = triangleGroup.pathItems.add();
-    trianglePath.setEntirePath(Array(Array(100, 100), Array(300, 100), Array(200, Math.tan(1.0471975) * 100 + 100)));
-    trianglePath.closed = true;
-    trianglePath.stroked = true;
-    trianglePath.filled = false;
-    trianglePath.strokeWidth = 3;
+  var captionText = triangleGroup.textFrames.add();
+  captionText.position = Array(100, 150);
+  captionText.textRange.size = 48;
+  captionText.contents = "A triangle";
 
-    var captionText = triangleGroup.textFrames.add();
-    captionText.position = Array(100, 150);
-    captionText.textRange.size = 48;
-    captionText.contents = "A triangle";
-
-    var fillColor = new RGBColor();
-    fillColor.red = 255;
-    fillColor.green = 0;
-    fillColor.blue = 0;
-    captionText.characters.fillColor = fillColor;
-  }
+  var fillColor = new RGBColor();
+  fillColor.red = 255;
+  fillColor.green = 0;
+  fillColor.blue = 0;
+  captionText.characters.fillColor = fillColor;
+}
+```

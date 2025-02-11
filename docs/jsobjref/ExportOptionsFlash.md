@@ -1,62 +1,56 @@
-.. _jsobjref/ExportOptionsFlash:
+<a id="jsobjref-exportoptionsflash"></a>
 
-ExportOptionsFlash
-################################################################################
+# ExportOptionsFlash
 
-``exportOptionsFlash``
+`exportOptionsFlash`
 
 **Description**
 
-Options for exporting a document as a Macromedia® Flash® (SWF) file, used with the :ref:`jsobjref/Document.exportFile` method. All properties are optional.
+Options for exporting a document as a Macromedia® Flash® (SWF) file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method. All properties are optional.
 
 When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/ExportOptionsFlash.artClipping:
+<a id="jsobjref-exportoptionsflash-artclipping"></a>
 
-ExportOptionsFlash.artClipping
-********************************************************************************
+### ExportOptionsFlash.artClipping
 
-``exportOptionsFlash.artClipping``
+`exportOptionsFlash.artClipping`
 
 **Description**
 
-How the art should be clipped during output. Default: ``ArtClippingOption.OUTPUTARTBOUNDS``.
+How the art should be clipped during output. Default: `ArtClippingOption.OUTPUTARTBOUNDS`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.ArtClippingOption`
+[ArtClippingOption](scripting-constants.md#jsobjref-scripting-constants-artclippingoption)
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.artboardRange:
+<a id="jsobjref-exportoptionsflash-artboardrange"></a>
 
-ExportOptionsFlash.artboardRange
-********************************************************************************
+### ExportOptionsFlash.artboardRange
 
-``exportOptionsFlash.artboardRange``
+`exportOptionsFlash.artboardRange`
 
 **Description**
 
-If ``saveMultipleArtboards`` is ``true``, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty String.
+If `saveMultipleArtboards` is `true`, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty String.
 
 **Type**
 
 String.
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.backgroundColor:
+<a id="jsobjref-exportoptionsflash-backgroundcolor"></a>
 
-ExportOptionsFlash.backgroundColor
-********************************************************************************
+### ExportOptionsFlash.backgroundColor
 
-``exportOptionsFlash.backgroundColor``
+`exportOptionsFlash.backgroundColor`
 
 **Description**
 
@@ -64,16 +58,15 @@ The background color of the exported Flash frames.
 
 **Type**
 
-:ref:`jsobjref/RGBColor`
+[RGBColor](RGBColor.md#jsobjref-rgbcolor)
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.backgroundLayers:
+<a id="jsobjref-exportoptionsflash-backgroundlayers"></a>
 
-ExportOptionsFlash.backgroundLayers
-********************************************************************************
+### ExportOptionsFlash.backgroundLayers
 
-``exportOptionsFlash.backgroundLayers``
+`exportOptionsFlash.backgroundLayers`
 
 **Description**
 
@@ -81,67 +74,63 @@ A list of layers to be included as the static background of the exported Flash f
 
 **Type**
 
-Array of :ref:`jsobjref/Layers`
+Array of [Layers](Layers.md#jsobjref-layers)
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.blendAnimation:
+<a id="jsobjref-exportoptionsflash-blendanimation"></a>
 
-ExportOptionsFlash.blendAnimation
-********************************************************************************
+### ExportOptionsFlash.blendAnimation
 
-``exportOptionsFlash.blendAnimation``
+`exportOptionsFlash.blendAnimation`
 
 **Description**
 
-The animation type for blended objects. Default: ``BlendAnimationType.NOBLENDANIMATION``.
+The animation type for blended objects. Default: `BlendAnimationType.NOBLENDANIMATION`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BlendAnimationType`
+[BlendAnimationType](scripting-constants.md#jsobjref-scripting-constants-blendanimationtype)
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.compressed:
+<a id="jsobjref-exportoptionsflash-compressed"></a>
 
-ExportOptionsFlash.compressed
-********************************************************************************
+### ExportOptionsFlash.compressed
 
-``exportOptionsFlash.compressed``
-
-**Description**
-
-If ``true``, the exported file should be exported compressed. Default: ``false``.
-
-**Type**
-
-Boolean.
-
-----
-
-.. _jsobjref/ExportOptionsFlash.convertTextToOutlines:
-
-ExportOptionsFlash.convertTextToOutlines
-********************************************************************************
-
-``exportOptionsFlash.convertTextToOutlines``
+`exportOptionsFlash.compressed`
 
 **Description**
 
-If ``true``, all text is converted to vector paths; preserves the visual appearance of type in all Flash players. Default: ``false``.
+If `true`, the exported file should be exported compressed. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.curveQuality:
+<a id="jsobjref-exportoptionsflash-converttexttooutlines"></a>
 
-ExportOptionsFlash.curveQuality
-********************************************************************************
+### ExportOptionsFlash.convertTextToOutlines
 
-``exportOptionsFlash.curveQuality``
+`exportOptionsFlash.convertTextToOutlines`
+
+**Description**
+
+If `true`, all text is converted to vector paths; preserves the visual appearance of type in all Flash players. Default: `false`.
+
+**Type**
+
+Boolean.
+
+---
+
+<a id="jsobjref-exportoptionsflash-curvequality"></a>
+
+### ExportOptionsFlash.curveQuality
+
+`exportOptionsFlash.curveQuality`
 
 **Description**
 
@@ -151,65 +140,61 @@ The amount of curve information that should be presented. Default: 7.
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.exportAllSymbols:
+<a id="jsobjref-exportoptionsflash-exportallsymbols"></a>
 
-ExportOptionsFlash.exportAllSymbols
-********************************************************************************
+### ExportOptionsFlash.exportAllSymbols
 
-``exportOptionsFlash.exportAllSymbols``
+`exportOptionsFlash.exportAllSymbols`
 
 **Description**
 
-If ``true``, export all symbols defined in the palette. Default: ``false``.
+If `true`, export all symbols defined in the palette. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.exportStyle:
+<a id="jsobjref-exportoptionsflash-exportstyle"></a>
 
-ExportOptionsFlash.exportStyle
-********************************************************************************
+### ExportOptionsFlash.exportStyle
 
-``exportOptionsFlash.exportStyle``
-
-**Description**
-
-The style in which the exported data should be created in Flash. Default: ``FlashExportStyle.ASFLASHFILE``.
-
-**Type**
-
-:ref:`jsobjref/scripting-constants.FlashExportStyle`
-
-----
-
-.. _jsobjref/ExportOptionsFlash.exportVersion:
-
-ExportOptionsFlash.exportVersion
-********************************************************************************
-
-``exportOptionsFlash.exportVersion``
+`exportOptionsFlash.exportStyle`
 
 **Description**
 
-The version of the exported SWF file. Default: ``FlashExportVersion.FlashVersion9``.
+The style in which the exported data should be created in Flash. Default: `FlashExportStyle.ASFLASHFILE`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.FlashExportVersion`
+[FlashExportStyle](scripting-constants.md#jsobjref-scripting-constants-flashexportstyle)
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.frameRate:
+<a id="jsobjref-exportoptionsflash-exportversion"></a>
 
-ExportOptionsFlash.frameRate
-********************************************************************************
+### ExportOptionsFlash.exportVersion
 
-``exportOptionsFlash.frameRate``
+`exportOptionsFlash.exportVersion`
+
+**Description**
+
+The version of the exported SWF file. Default: `FlashExportVersion.FlashVersion9`.
+
+**Type**
+
+[FlashExportVersion](scripting-constants.md#jsobjref-scripting-constants-flashexportversion)
+
+---
+
+<a id="jsobjref-exportoptionsflash-framerate"></a>
+
+### ExportOptionsFlash.frameRate
+
+`exportOptionsFlash.frameRate`
 
 **Description**
 
@@ -219,82 +204,77 @@ The display rate in frames per second. Range: 0.01–120.0. Default: 12.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.ignoreTextKerning:
+<a id="jsobjref-exportoptionsflash-ignoretextkerning"></a>
 
-ExportOptionsFlash.ignoreTextKerning
-********************************************************************************
+### ExportOptionsFlash.ignoreTextKerning
 
-``exportOptionsFlash.ignoreTextKerning``
+`exportOptionsFlash.ignoreTextKerning`
 
 **Description**
 
-If ``true``, ignore kerning information in text objects. Default: ``false``.
+If `true`, ignore kerning information in text objects. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.imageFormat:
+<a id="jsobjref-exportoptionsflash-imageformat"></a>
 
-ExportOptionsFlash.imageFormat
-********************************************************************************
+### ExportOptionsFlash.imageFormat
 
-``exportOptionsFlash.imageFormat``
+`exportOptionsFlash.imageFormat`
 
 **Description**
 
-How should the image in the exported Flash file be compressed. Default: ``FlashImageFormat.LOSSLESS``.
+How should the image in the exported Flash file be compressed. Default: `FlashImageFormat.LOSSLESS`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.FlashImageFormat`
+[FlashImageFormat](scripting-constants.md#jsobjref-scripting-constants-flashimageformat)
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.includeMetadata:
+<a id="jsobjref-exportoptionsflash-includemetadata"></a>
 
-ExportOptionsFlash.includeMetadata
-********************************************************************************
+### ExportOptionsFlash.includeMetadata
 
-``exportOptionsFlash.includeMetadata``
+`exportOptionsFlash.includeMetadata`
 
 **Description**
 
-If ``true``, include minimal XMP metadata in the SWF file. Default: ``false``.
+If `true`, include minimal XMP metadata in the SWF file. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.jpegMethod:
+<a id="jsobjref-exportoptionsflash-jpegmethod"></a>
 
-ExportOptionsFlash.jpegMethod
-********************************************************************************
+### ExportOptionsFlash.jpegMethod
 
-``exportOptionsFlash.jpegMethod``
+`exportOptionsFlash.jpegMethod`
 
 **Description**
 
-Specifies the JPEG method to use. Default: ``FlashJPEGMethod.Standard``.
+Specifies the JPEG method to use. Default: `FlashJPEGMethod.Standard`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.FlashJPEGMethod`
+[FlashJPEGMethod](scripting-constants.md#jsobjref-scripting-constants-flashjpegmethod)
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.jpegQuality:
+<a id="jsobjref-exportoptionsflash-jpegquality"></a>
 
-ExportOptionsFlash.jpegQuality
-********************************************************************************
+### ExportOptionsFlash.jpegQuality
 
-``exportOptionsFlash.jpegQuality``
+`exportOptionsFlash.jpegQuality`
 
 **Description**
 
@@ -304,116 +284,109 @@ Level of compression to use. Range 1 to 10. Default: 3.
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.layerOrder:
+<a id="jsobjref-exportoptionsflash-layerorder"></a>
 
-ExportOptionsFlash.layerOrder
-********************************************************************************
+### ExportOptionsFlash.layerOrder
 
-``exportOptionsFlash.layerOrder``
+`exportOptionsFlash.layerOrder`
 
 **Description**
 
-The order in which layers are exported to Flash frames. Default: ``LayerOrderType.BOTTOMUP``.
+The order in which layers are exported to Flash frames. Default: `LayerOrderType.BOTTOMUP`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.LayerOrderType`
+[LayerOrderType](scripting-constants.md#jsobjref-scripting-constants-layerordertype)
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.looping:
+<a id="jsobjref-exportoptionsflash-looping"></a>
 
-ExportOptionsFlash.looping
-********************************************************************************
+### ExportOptionsFlash.looping
 
-``exportOptionsFlash.looping``
-
-**Description**
-
-If ``true``, the Flash file is set to loop when run. Default: ``false``.
-
-**Type**
-
-Boolean.
-
-----
-
-.. _jsobjref/ExportOptionsFlash.playbackAccess:
-
-ExportOptionsFlash.playbackAccess
-********************************************************************************
-
-``exportOptionsFlash.playbackAccess``
+`exportOptionsFlash.looping`
 
 **Description**
 
-The access level for the exported SWF file. Default: ``FlashPlaybackSecurity.PlaybackLocal``.
-
-**Type**
-
-:ref:`jsobjref/scripting-constants.FlashPlaybackSecurity`
-
-----
-
-.. _jsobjref/ExportOptionsFlash.preserveAppearance:
-
-ExportOptionsFlash.preserveAppearance
-********************************************************************************
-
-``exportOptionsFlash.preserveAppearance``
-
-**Description**
-
-If ``true``, preserve appearance. If ``false``, preserve editability. Default: ``false``.
+If `true`, the Flash file is set to loop when run. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.readOnly:
+<a id="jsobjref-exportoptionsflash-playbackaccess"></a>
 
-ExportOptionsFlash.readOnly
-********************************************************************************
+### ExportOptionsFlash.playbackAccess
 
-``exportOptionsFlash.readOnly``
+`exportOptionsFlash.playbackAccess`
 
 **Description**
 
-If ``true``, export as read-only file. Default: ``false``.
+The access level for the exported SWF file. Default: `FlashPlaybackSecurity.PlaybackLocal`.
+
+**Type**
+
+[FlashPlaybackSecurity](scripting-constants.md#jsobjref-scripting-constants-flashplaybacksecurity)
+
+---
+
+<a id="jsobjref-exportoptionsflash-preserveappearance"></a>
+
+### ExportOptionsFlash.preserveAppearance
+
+`exportOptionsFlash.preserveAppearance`
+
+**Description**
+
+If `true`, preserve appearance. If `false`, preserve editability. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.replacing:
+<a id="jsobjref-exportoptionsflash-readonly"></a>
 
-ExportOptionsFlash.replacing
-********************************************************************************
+### ExportOptionsFlash.readOnly
 
-``exportOptionsFlash.replacing``
+`exportOptionsFlash.readOnly`
 
 **Description**
 
-If a file with the same name already exists, should it be replaced. Default: ``SaveOptions.PROMPTTOSAVECHANGES``.
+If `true`, export as read-only file. Default: `false`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.SaveOptions`
+Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.resolution:
+<a id="jsobjref-exportoptionsflash-replacing"></a>
 
-ExportOptionsFlash.resolution
-********************************************************************************
+### ExportOptionsFlash.replacing
 
-``exportOptionsFlash.resolution``
+`exportOptionsFlash.replacing`
+
+**Description**
+
+If a file with the same name already exists, should it be replaced. Default: `SaveOptions.PROMPTTOSAVECHANGES`.
+
+**Type**
+
+[SaveOptions](scripting-constants.md#jsobjref-scripting-constants-saveoptions)
+
+---
+
+<a id="jsobjref-exportoptionsflash-resolution"></a>
+
+### ExportOptionsFlash.resolution
+
+`exportOptionsFlash.resolution`
 
 **Description**
 
@@ -423,31 +396,29 @@ The resolution in pixels per inch. Range: 72–2400. Default: 72.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.saveMultipleArtboards:
+<a id="jsobjref-exportoptionsflash-savemultipleartboards"></a>
 
-ExportOptionsFlash.saveMultipleArtboards
-********************************************************************************
+### ExportOptionsFlash.saveMultipleArtboards
 
-``exportOptionsFlash.saveMultipleArtboards``
+`exportOptionsFlash.saveMultipleArtboards`
 
 **Description**
 
-If ``true``, all artboards or range of artboards are saved. Default: ``false``.
+If `true`, all artboards or range of artboards are saved. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsFlash.typename:
+<a id="jsobjref-exportoptionsflash-typename"></a>
 
-ExportOptionsFlash.typename
-********************************************************************************
+### ExportOptionsFlash.typename
 
-``exportOptionsFlash.typename``
+`exportOptionsFlash.typename`
 
 **Description**
 
@@ -457,28 +428,25 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Exporting to Flash format
-********************************************************************************
+### Exporting to Flash format
 
-::
+```default
+// Exports current document to destFile as a flash file with specified options,
+// destFile contains the full path including the file name
 
-  // Exports current document to destFile as a flash file with specified options,
-  // destFile contains the full path including the file name
+function exportToFlashFile(destFile) {
+  if (app.documents.length > 0) {
+    var exportOptions = new ExportOptionsFlash();
+    exportOptions.resolution = 150;
 
-  function exportToFlashFile(destFile) {
-    if (app.documents.length > 0) {
-      var exportOptions = new ExportOptionsFlash();
-      exportOptions.resolution = 150;
+    var type = ExportType.FLASH;
+    var fileSpec = new File(destFile);
 
-      var type = ExportType.FLASH;
-      var fileSpec = new File(destFile);
-
-      app.activeDocument.exportFile(fileSpec, type, exportOptions);
-    }
+    app.activeDocument.exportFile(fileSpec, type, exportOptions);
   }
+}
+```

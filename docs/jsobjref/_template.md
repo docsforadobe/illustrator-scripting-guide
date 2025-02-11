@@ -1,31 +1,27 @@
-.. _jsobjref/Class:
+<a id="jsobjref-class"></a>
 
-Class
-################################################################################
+# Class
 
-``app.class``
+`app.class`
 
-.. note::
-  This is an example of an absolute path to the class from the application root.
+#### NOTE
+This is an example of an absolute path to the class from the application root.
 
-  For example: `Document` => ``app.activeDocument``
+For example: Document => `app.activeDocument`
 
 **Description**
 
 Description of the class as a whole.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Class.property:
+<a id="jsobjref-class-property"></a>
 
-Class.property
-********************************************************************************
+### Class.property
 
-``app.class.property``
+`app.class.property`
 
 **Description**
 
@@ -35,18 +31,15 @@ Description of this property.
 
 Property type.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Class.method:
+<a id="jsobjref-class-method"></a>
 
-Class.method()
-********************************************************************************
+### Class.method()
 
-``app.class.method(parameter)``
+`app.class.method(parameter)`
 
 **Description**
 
@@ -54,28 +47,23 @@ Description of this method.
 
 **Parameters**
 
-.. note::
-  If there are no parameters, exclude this whole section!
+#### NOTE
+If there are no parameters, exclude this whole section!
 
-+---------------+------+-----------------------------+
-|   Parameter   | Type |         Description         |
-+===============+======+=============================+
-| ``parameter`` | Type | What does the parameter do? |
-+---------------+------+-----------------------------+
+| Parameter   | Type   | Description                 |
+|-------------|--------|-----------------------------|
+| `parameter` | Type   | What does the parameter do? |
 
 **Returns**
 
 Returns.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Example name
-********************************************************************************
+### Example name
 
-::
-
-  // Sample code goes here. If there is no example, remove this section.
+```default
+// Sample code goes here. If there is no example, remove this section.
+```

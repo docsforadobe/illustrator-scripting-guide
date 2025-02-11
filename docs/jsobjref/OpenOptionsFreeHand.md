@@ -1,77 +1,70 @@
-.. _jsobjref/OpenOptionsFreeHand:
+<a id="jsobjref-openoptionsfreehand"></a>
 
-OpenOptionsFreeHand
-################################################################################
+# OpenOptionsFreeHand
 
-``openOptionsFreeHand``
+`openOptionsFreeHand`
 
 **Description**
 
 Options for opening a FreeHand file.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/OpenOptionsFreeHand.convertTextToOutlines:
+<a id="jsobjref-openoptionsfreehand-converttexttooutlines"></a>
 
-OpenOptionsFreeHand.convertTextToOutlines
-********************************************************************************
+### OpenOptionsFreeHand.convertTextToOutlines
 
-``openOptionsFreeHand.convertTextToOutlines``
+`openOptionsFreeHand.convertTextToOutlines`
 
 **Description**
 
-If ``true``, all text is converted to vector paths; preserves the visual appearance of type. Default: ``false``.
+If `true`, all text is converted to vector paths; preserves the visual appearance of type. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/OpenOptionsFreeHand.importSinglePage:
+<a id="jsobjref-openoptionsfreehand-importsinglepage"></a>
 
-OpenOptionsFreeHand.importSinglePage
-********************************************************************************
+### OpenOptionsFreeHand.importSinglePage
 
-``openOptionsFreeHand.importSinglePage``
+`openOptionsFreeHand.importSinglePage`
 
 **Description**
 
-If ``true``, imports only the page specified in the ``pageToOpen`` property. Default: ``true``.
+If `true`, imports only the page specified in the `pageToOpen` property. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/OpenOptionsFreeHand.pageToOpen:
+<a id="jsobjref-openoptionsfreehand-pagetoopen"></a>
 
-OpenOptionsFreeHand.pageToOpen
-********************************************************************************
+### OpenOptionsFreeHand.pageToOpen
 
-``openOptionsFreeHand.pageToOpen``
+`openOptionsFreeHand.pageToOpen`
 
 **Description**
 
-The number of the page to import when opening a multipage document. Valid only when ``importSinglePage`` is ``true``.
+The number of the page to import when opening a multipage document. Valid only when `importSinglePage` is `true`.
 
 **Type**
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/OpenOptionsFreeHand.parent:
+<a id="jsobjref-openoptionsfreehand-parent"></a>
 
-OpenOptionsFreeHand.parent
-********************************************************************************
+### OpenOptionsFreeHand.parent
 
-``openOptionsFreeHand.parent``
+`openOptionsFreeHand.parent`
 
 **Description**
 
@@ -81,14 +74,13 @@ The parent of this object.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/OpenOptionsFreeHand.typename:
+<a id="jsobjref-openoptionsfreehand-typename"></a>
 
-OpenOptionsFreeHand.typename
-********************************************************************************
+### OpenOptionsFreeHand.typename
 
-``openOptionsFreeHand.typename``
+`openOptionsFreeHand.typename`
 
 **Description**
 

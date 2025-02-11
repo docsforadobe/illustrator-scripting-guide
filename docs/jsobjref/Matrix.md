@@ -1,132 +1,122 @@
-.. _jsobjref/Matrix:
+<a id="jsobjref-matrix"></a>
 
-Matrix
-################################################################################
+# Matrix
 
-``matrix``
+`matrix`
 
 **Description**
 
 A transformation matrix specification, used to transform the geometry of objects. Use it to specify and retrieve matrix information from an Illustrator document or from page items in a document.
 
-Matrices are used in conjunction with the ``transform`` method and as a property of a number of objects. A matrix specifies how to transform the geometry of an object. You can generate an original matrix using the :ref:`jsobjref/Application` object methods :ref:`jsobjref/Application.getTranslationMatrix`, :ref:`jsobjref/Application.getScaleMatrix`, or :ref:`jsobjref/Application.getRotationMatrix`.
+Matrices are used in conjunction with the `transform` method and as a property of a number of objects. A matrix specifies how to transform the geometry of an object. You can generate an original matrix using the [Application](Application.md#jsobjref-application) object methods [Application.getTranslationMatrix()](Application.md#jsobjref-application-gettranslationmatrix), [Application.getScaleMatrix()](Application.md#jsobjref-application-getscalematrix), or [Application.getRotationMatrix()](Application.md#jsobjref-application-getrotationmatrix).
 
-A ``Matrix`` is a record containing the matrix values, not a reference to a matrix object. The matrix commands operate on the values of a matrix record. If a command modifies a matrix, a modified matrix record is returned as the result of the command. The original matrix record passed to the command is not modified.
+A `Matrix` is a record containing the matrix values, not a reference to a matrix object. The matrix commands operate on the values of a matrix record. If a command modifies a matrix, a modified matrix record is returned as the result of the command. The original matrix record passed to the command is not modified.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Matrix.mValueA:
+<a id="jsobjref-matrix-mvaluea"></a>
 
-Matrix.mValueA
-********************************************************************************
+### Matrix.mValueA
 
-``matrix.mValueA``
+`matrix.mValueA`
 
 **Description**
 
-Matrix property ``a``.
+Matrix property `a`.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/Matrix.mValueB:
+<a id="jsobjref-matrix-mvalueb"></a>
 
-Matrix.mValueB
-********************************************************************************
+### Matrix.mValueB
 
-``matrix.mValueB``
+`matrix.mValueB`
 
 **Description**
 
-Matrix property ``b``.
+Matrix property `b`.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/Matrix.mValueC:
+<a id="jsobjref-matrix-mvaluec"></a>
 
-Matrix.mValueC
-********************************************************************************
+### Matrix.mValueC
 
-``matrix.mValueC``
+`matrix.mValueC`
 
 **Description**
 
-Matrix property ``c``.
+Matrix property `c`.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/Matrix.mValueD:
+<a id="jsobjref-matrix-mvalued"></a>
 
-Matrix.mValueD
-********************************************************************************
+### Matrix.mValueD
 
-``matrix.mValueD``
+`matrix.mValueD`
 
 **Description**
 
-Matrix property ``d``.
+Matrix property `d`.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/Matrix.mValueTX:
+<a id="jsobjref-matrix-mvaluetx"></a>
 
-Matrix.mValueTX
-********************************************************************************
+### Matrix.mValueTX
 
-``matrix.mValueTX``
+`matrix.mValueTX`
 
 **Description**
 
-Matrix property ``tx``.
+Matrix property `tx`.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/Matrix.mValueTY:
+<a id="jsobjref-matrix-mvaluety"></a>
 
-Matrix.mValueTY
-********************************************************************************
+### Matrix.mValueTY
 
-``matrix.mValueTY``
+`matrix.mValueTY`
 
 **Description**
 
-Matrix property ``ty``.
+Matrix property `ty`.
 
 **Type**
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/Matrix.typename:
+<a id="jsobjref-matrix-typename"></a>
 
-Matrix.typename
-********************************************************************************
+### Matrix.typename
 
-``matrix.typename``
+`matrix.typename`
 
 **Description**
 
@@ -136,30 +126,27 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Combining matrices to apply multiple transformations
-********************************************************************************
+### Combining matrices to apply multiple transformations
 
 To apply multiple transformations to objects, it is more efficient to use the matrix suite than to apply the transformations one at a time. The following script demonstrates how to combine multiple matrices.
 
-::
+```default
+// Tranforms all art in a document using translation and rotation matrices,
+// moves art half an inch to the right and 1.5 inches up on the page
+if (app.documents.length > 0) {
+  var moveMatrix = app.getTranslationMatrix(0.5, 1.5);
 
-  // Tranforms all art in a document using translation and rotation matrices,
-  // moves art half an inch to the right and 1.5 inches up on the page
-  if (app.documents.length > 0) {
-    var moveMatrix = app.getTranslationMatrix(0.5, 1.5);
+  // Add a rotation to the translation, 10 degrees counter clockwise
+  var totalMatrix = concatenateRotationMatrix(moveMatrix, 10);
 
-    // Add a rotation to the translation, 10 degrees counter clockwise
-    var totalMatrix = concatenateRotationMatrix(moveMatrix, 10);
-
-    // apply the transformation to all art in the document
-    var doc = app.activeDocument;
-    for (var i = 0; i < doc.pageItems.length; i++) {
-      doc.pageItems[i].transform(totalMatrix);
-    }
+  // apply the transformation to all art in the document
+  var doc = app.activeDocument;
+  for (var i = 0; i < doc.pageItems.length; i++) {
+    doc.pageItems[i].transform(totalMatrix);
   }
+}
+```

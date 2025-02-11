@@ -1,62 +1,56 @@
-.. _jsobjref/ExportOptionsJPEG:
+<a id="jsobjref-exportoptionsjpeg"></a>
 
-ExportOptionsJPEG
-################################################################################
+# ExportOptionsJPEG
 
-``exportOptionsJPEG``
+`exportOptionsJPEG`
 
 **Description**
 
-Options for exporting a document as a JPEG file, used with the :ref:`jsobjref/Document.exportFile` method. All properties are optional.
+Options for exporting a document as a JPEG file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method. All properties are optional.
 
 When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/ExportOptionsJPEG.antiAliasing:
+<a id="jsobjref-exportoptionsjpeg-antialiasing"></a>
 
-ExportOptionsJPEG.antiAliasing
-********************************************************************************
+### ExportOptionsJPEG.antiAliasing
 
-``exportOptionsJPEG.antiAliasing``
+`exportOptionsJPEG.antiAliasing`
 
 **Description**
 
-If ``true``, the exported image should be anti-aliased. Default: ``true``.
+If `true`, the exported image should be anti-aliased. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsJPEG.artBoardClipping:
+<a id="jsobjref-exportoptionsjpeg-artboardclipping"></a>
 
-ExportOptionsJPEG.artBoardClipping
-********************************************************************************
+### ExportOptionsJPEG.artBoardClipping
 
-``exportOptionsJPEG.artBoardClipping``
+`exportOptionsJPEG.artBoardClipping`
 
 **Description**
 
-If ``true``, the exported image should be clipped to the art board.
+If `true`, the exported image should be clipped to the art board.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsJPEG.blurAmount:
+<a id="jsobjref-exportoptionsjpeg-bluramount"></a>
 
-ExportOptionsJPEG.blurAmount
-********************************************************************************
+### ExportOptionsJPEG.blurAmount
 
-``exportOptionsJPEG.blurAmount``
+`exportOptionsJPEG.blurAmount`
 
 **Description**
 
@@ -66,14 +60,13 @@ The amount of blur to apply to the exported image. Range: 0.0 to 2.0. Default: 0
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ExportOptionsJPEG.horizontalScale:
+<a id="jsobjref-exportoptionsjpeg-horizontalscale"></a>
 
-ExportOptionsJPEG.horizontalScale
-********************************************************************************
+### ExportOptionsJPEG.horizontalScale
 
-``exportOptionsJPEG.horizontalScale``
+`exportOptionsJPEG.horizontalScale`
 
 **Description**
 
@@ -83,65 +76,61 @@ The horizontal scaling factor to apply to the exported image, where 100.0 is 100
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ExportOptionsJPEG.matte:
+<a id="jsobjref-exportoptionsjpeg-matte"></a>
 
-ExportOptionsJPEG.matte
-********************************************************************************
+### ExportOptionsJPEG.matte
 
-``exportOptionsJPEG.matte``
+`exportOptionsJPEG.matte`
 
 **Description**
 
-If ``true``, the art board should be matted with a color. Default: ``true``.
+If `true`, the art board should be matted with a color. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsJPEG.matteColor:
+<a id="jsobjref-exportoptionsjpeg-mattecolor"></a>
 
-ExportOptionsJPEG.matteColor
-********************************************************************************
+### ExportOptionsJPEG.matteColor
 
-``exportOptionsJPEG.matteColor``
+`exportOptionsJPEG.matteColor`
 
 **Description**
 
-The color to use when matting the art board. Default: ``white``.
+The color to use when matting the art board. Default: `white`.
 
 **Type**
 
-:ref:`jsobjref/RGBColor`
+[RGBColor](RGBColor.md#jsobjref-rgbcolor)
 
-----
+---
 
-.. _jsobjref/ExportOptionsJPEG.optimization:
+<a id="jsobjref-exportoptionsjpeg-optimization"></a>
 
-ExportOptionsJPEG.optimization
-********************************************************************************
+### ExportOptionsJPEG.optimization
 
-``exportOptionsJPEG.optimization``
+`exportOptionsJPEG.optimization`
 
 **Description**
 
-If ``true``, the exported image should be optimized for web viewing. Default: ``true``.
+If `true`, the exported image should be optimized for web viewing. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsJPEG.qualitySetting:
+<a id="jsobjref-exportoptionsjpeg-qualitysetting"></a>
 
-ExportOptionsJPEG.qualitySetting
-********************************************************************************
+### ExportOptionsJPEG.qualitySetting
 
-``exportOptionsJPEG.qualitySetting``
+`exportOptionsJPEG.qualitySetting`
 
 **Description**
 
@@ -151,31 +140,29 @@ The quality of the exported image. Range: 0 to 100. Default: 30.
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/ExportOptionsJPEG.saveAsHTML:
+<a id="jsobjref-exportoptionsjpeg-saveashtml"></a>
 
-ExportOptionsJPEG.saveAsHTML
-********************************************************************************
+### ExportOptionsJPEG.saveAsHTML
 
-``exportOptionsJPEG.saveAsHTML``
+`exportOptionsJPEG.saveAsHTML`
 
 **Description**
 
-If ``true``, the exported image should be saved with an accompanying HTML file. Default: ``false``.
+If `true`, the exported image should be saved with an accompanying HTML file. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsJPEG.typename:
+<a id="jsobjref-exportoptionsjpeg-typename"></a>
 
-ExportOptionsJPEG.typename
-********************************************************************************
+### ExportOptionsJPEG.typename
 
-``exportOptionsJPEG.typename``
+`exportOptionsJPEG.typename`
 
 **Description**
 
@@ -185,14 +172,13 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/ExportOptionsJPEG.verticalScale:
+<a id="jsobjref-exportoptionsjpeg-verticalscale"></a>
 
-ExportOptionsJPEG.verticalScale
-********************************************************************************
+### ExportOptionsJPEG.verticalScale
 
-``exportOptionsJPEG.verticalScale``
+`exportOptionsJPEG.verticalScale`
 
 **Description**
 
@@ -202,29 +188,26 @@ The vertical scaling factor to apply to the exported image. Range: 0.0 to 776.19
 
 Number (double)
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Exporting to JPEG format
-********************************************************************************
+### Exporting to JPEG format
 
-::
+```default
+// Exports current document to dest as a JPEG file with specified options,
+// dest contains the full path including the file name
 
-  // Exports current document to dest as a JPEG file with specified options,
-  // dest contains the full path including the file name
+function exportFileToJPEG(dest) {
+  if (app.documents.length > 0) {
+    var exportOptions = new ExportOptionsJPEG();
+    exportOptions.antiAliasing = false;
+    exportOptions.qualitySetting = 70;
 
-  function exportFileToJPEG(dest) {
-    if (app.documents.length > 0) {
-      var exportOptions = new ExportOptionsJPEG();
-      exportOptions.antiAliasing = false;
-      exportOptions.qualitySetting = 70;
+    var type = ExportType.JPEG;
+    var fileSpec = new File(dest);
 
-      var type = ExportType.JPEG;
-      var fileSpec = new File(dest);
-
-      app.activeDocument.exportFile(fileSpec, type, exportOptions);
-    }
+    app.activeDocument.exportFile(fileSpec, type, exportOptions);
   }
+}
+```

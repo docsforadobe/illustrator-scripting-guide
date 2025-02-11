@@ -1,45 +1,40 @@
-.. _jsobjref/Layer:
+<a id="jsobjref-layer"></a>
 
-Layer
-################################################################################
+# Layer
 
-``app.activeDocument.layers[index``
+`app.activeDocument.layers[index`
 
 **Description**
 
 A layer in an Illustrator document. Layers may contain nested layers, which are called sublayers in the user interface.
 
-The ``layer`` object contains all of the page items in the specific layer as elements. Your script can access page items as elements of either the Layer object or as elements of the ``Document`` object. When accessing page items as elements of a layer, only objects in that layer can be accessed. To access page items throughout the entire document, be sure to refer to them as contained by the document.
+The `layer` object contains all of the page items in the specific layer as elements. Your script can access page items as elements of either the Layer object or as elements of the `Document` object. When accessing page items as elements of a layer, only objects in that layer can be accessed. To access page items throughout the entire document, be sure to refer to them as contained by the document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Layer.artworkKnockout:
+<a id="jsobjref-layer-artworkknockout"></a>
 
-Layer.artworkKnockout
-********************************************************************************
+### Layer.artworkKnockout
 
-``app.activeDocument.layers[index].artworkKnockout``
+`app.activeDocument.layers[index].artworkKnockout`
 
 **Description**
 
-Is this object used to create a knockout, and if so, what kind of knockout. You cannot set this value to ``KnockoutState.Unknown``.
+Is this object used to create a knockout, and if so, what kind of knockout. You cannot set this value to `KnockoutState.Unknown`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.KnockoutState`
+[KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
-----
+---
 
-.. _jsobjref/Layer.blendingMode:
+<a id="jsobjref-layer-blendingmode"></a>
 
-Layer.blendingMode
-********************************************************************************
+### Layer.blendingMode
 
-``app.activeDocument.layers[index].blendingMode``
+`app.activeDocument.layers[index].blendingMode`
 
 **Description**
 
@@ -47,16 +42,15 @@ The mode used when compositing an object.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BlendModes`
+[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
-----
+---
 
-.. _jsobjref/Layer.color:
+<a id="jsobjref-layer-color"></a>
 
-Layer.color
-********************************************************************************
+### Layer.color
 
-``app.activeDocument.layers[index].color``
+`app.activeDocument.layers[index].color`
 
 **Description**
 
@@ -64,16 +58,15 @@ The layer’s selection mark color.
 
 **Type**
 
-:ref:`jsobjref/RGBColor`
+[RGBColor](RGBColor.md#jsobjref-rgbcolor)
 
-----
+---
 
-.. _jsobjref/Layer.compoundPathItems:
+<a id="jsobjref-layer-compoundpathitems"></a>
 
-Layer.compoundPathItems
-********************************************************************************
+### Layer.compoundPathItems
 
-``app.activeDocument.layers[index].compoundPathItems``
+`app.activeDocument.layers[index].compoundPathItems`
 
 **Description**
 
@@ -81,33 +74,31 @@ The compound path items contained in this layer.
 
 **Type**
 
-:ref:`jsobjref/CompoundPathItems`, read-only.
+[CompoundPathItems](CompoundPathItems.md#jsobjref-compoundpathitems), read-only.
 
-----
+---
 
-.. _jsobjref/Layer.dimPlacedImages:
+<a id="jsobjref-layer-dimplacedimages"></a>
 
-Layer.dimPlacedImages
-********************************************************************************
+### Layer.dimPlacedImages
 
-``app.activeDocument.layers[index].dimPlacedImages``
+`app.activeDocument.layers[index].dimPlacedImages`
 
 **Description**
 
-If ``true``, placed images should be rendered as dimmed in this layer.
+If `true`, placed images should be rendered as dimmed in this layer.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/Layer.graphItems:
+<a id="jsobjref-layer-graphitems"></a>
 
-Layer.graphItems
-********************************************************************************
+### Layer.graphItems
 
-``app.activeDocument.layers[index].graphItems``
+`app.activeDocument.layers[index].graphItems`
 
 **Description**
 
@@ -115,16 +106,15 @@ The graph items contained in this layer.
 
 **Type**
 
-:ref:`jsobjref/GraphItems`, read-only.
+[GraphItems](GraphItems.md#jsobjref-graphitems), read-only.
 
-----
+---
 
-.. _jsobjref/Layer.groupItems:
+<a id="jsobjref-layer-groupitems"></a>
 
-Layer.groupItems
-********************************************************************************
+### Layer.groupItems
 
-``app.activeDocument.layers[index].groupItems``
+`app.activeDocument.layers[index].groupItems`
 
 **Description**
 
@@ -132,50 +122,47 @@ The group items contained in this layer.
 
 **Type**
 
-:ref:`jsobjref/GroupItems`, read-only.
+[GroupItems](GroupItems.md#jsobjref-groupitems), read-only.
 
-----
+---
 
-.. _jsobjref/Layer.hasSelectedArtwork:
+<a id="jsobjref-layer-hasselectedartwork"></a>
 
-Layer.hasSelectedArtwork
-********************************************************************************
+### Layer.hasSelectedArtwork
 
-``app.activeDocument.layers[index].hasSelectedArtwork``
+`app.activeDocument.layers[index].hasSelectedArtwork`
 
 **Description**
 
-If ``true``, an object in this layer has been selected; set to ``false`` to deselect all objects in the layer.
+If `true`, an object in this layer has been selected; set to `false` to deselect all objects in the layer.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/Layer.isIsolated:
+<a id="jsobjref-layer-isisolated"></a>
 
-Layer.isIsolated
-********************************************************************************
+### Layer.isIsolated
 
-``app.activeDocument.layers[index].isIsolated``
+`app.activeDocument.layers[index].isIsolated`
 
 **Description**
 
-If ``true``, this object is isolated.
+If `true`, this object is isolated.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/Layer.layers:
+<a id="jsobjref-layer-layers"></a>
 
-Layer.layers
-********************************************************************************
+### Layer.layers
 
-``app.activeDocument.layers[index].layers``
+`app.activeDocument.layers[index].layers`
 
 **Description**
 
@@ -183,16 +170,15 @@ The layers contained in this layer.
 
 **Type**
 
-:ref:`jsobjref/Layers`, read-only.
+[Layers](Layers.md#jsobjref-layers), read-only.
 
-----
+---
 
-.. _jsobjref/Layer.legacyTextItems:
+<a id="jsobjref-layer-legacytextitems"></a>
 
-Layer.legacyTextItems
-********************************************************************************
+### Layer.legacyTextItems
 
-``app.activeDocument.layers[index].legacyTextItems``
+`app.activeDocument.layers[index].legacyTextItems`
 
 **Description**
 
@@ -200,33 +186,31 @@ The legacy text items in this layer.
 
 **Type**
 
-:ref:`jsobjref/LegacyTextItems`, read-only.
+[LegacyTextItems](LegacyTextItems.md#jsobjref-legacytextitems), read-only.
 
-----
+---
 
-.. _jsobjref/Layer.locked:
+<a id="jsobjref-layer-locked"></a>
 
-Layer.locked
-********************************************************************************
+### Layer.locked
 
-``app.activeDocument.layers[index].locked``
+`app.activeDocument.layers[index].locked`
 
 **Description**
 
-If ``true``, this layer is editable; set to false to lock the layer.
+If `true`, this layer is editable; set to false to lock the layer.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/Layer.meshItems:
+<a id="jsobjref-layer-meshitems"></a>
 
-Layer.meshItems
-********************************************************************************
+### Layer.meshItems
 
-``app.activeDocument.layers[index].meshItems``
+`app.activeDocument.layers[index].meshItems`
 
 **Description**
 
@@ -234,16 +218,15 @@ The mesh items contained in this layer.
 
 **Type**
 
-:ref:`jsobjref/MeshItems`, read-only.
+[MeshItems](MeshItems.md#jsobjref-meshitems), read-only.
 
-----
+---
 
-.. _jsobjref/Layer.name:
+<a id="jsobjref-layer-name"></a>
 
-Layer.name
-********************************************************************************
+### Layer.name
 
-``app.activeDocument.layers[index].name``
+`app.activeDocument.layers[index].name`
 
 **Description**
 
@@ -253,14 +236,13 @@ The name of this layer.
 
 String.
 
-----
+---
 
-.. _jsobjref/Layer.nonNativeItems:
+<a id="jsobjref-layer-nonnativeitems"></a>
 
-Layer.nonNativeItems
-********************************************************************************
+### Layer.nonNativeItems
 
-``app.activeDocument.layers[index].nonNativeItems``
+`app.activeDocument.layers[index].nonNativeItems`
 
 **Description**
 
@@ -268,16 +250,15 @@ The non-native art items in this layer.
 
 **Type**
 
-:ref:`jsobjref/NonNativeItems`
+[NonNativeItems](NonNativeItems.md#jsobjref-nonnativeitems)
 
-----
+---
 
-.. _jsobjref/Layer.opacity:
+<a id="jsobjref-layer-opacity"></a>
 
-Layer.opacity
-********************************************************************************
+### Layer.opacity
 
-``app.activeDocument.layers[index].opacity``
+`app.activeDocument.layers[index].opacity`
 
 **Description**
 
@@ -287,14 +268,13 @@ The opacity of the layer. Range: 0.0 to 100.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/Layer.pageItems:
+<a id="jsobjref-layer-pageitems"></a>
 
-Layer.pageItems
-********************************************************************************
+### Layer.pageItems
 
-``app.activeDocument.layers[index].pageItems``
+`app.activeDocument.layers[index].pageItems`
 
 **Description**
 
@@ -302,16 +282,15 @@ The page items (all art item classes) contained in this layer.
 
 **Type**
 
-:ref:`jsobjref/PageItems`
+[PageItems](PageItems.md#jsobjref-pageitems)
 
-----
+---
 
-.. _jsobjref/Layer.parent:
+<a id="jsobjref-layer-parent"></a>
 
-Layer.parent
-********************************************************************************
+### Layer.parent
 
-``app.activeDocument.layers[index].parent``
+`app.activeDocument.layers[index].parent`
 
 **Description**
 
@@ -319,16 +298,15 @@ The document or layer that contains this layer.
 
 **Type**
 
-:ref:`jsobjref/Document` or :ref:`jsobjref/Layer`, read-only.
+[Document](Document.md#jsobjref-document) or [Layer](#jsobjref-layer), read-only.
 
-----
+---
 
-.. _jsobjref/Layer.pathItems:
+<a id="jsobjref-layer-pathitems"></a>
 
-Layer.pathItems
-********************************************************************************
+### Layer.pathItems
 
-``app.activeDocument.layers[index].pathItems``
+`app.activeDocument.layers[index].pathItems`
 
 **Description**
 
@@ -336,33 +314,31 @@ The path items contained in this layer.
 
 **Type**
 
-:ref:`jsobjref/PathItems`, read-only.
+[PathItems](PathItems.md#jsobjref-pathitems), read-only.
 
-----
+---
 
-.. _jsobjref/Layer.placedItems:
+<a id="jsobjref-layer-placeditems"></a>
 
-Layer.placedItems
-********************************************************************************
+### Layer.placedItems
 
-``app.activeDocument.layers[index].placedItems``
+`app.activeDocument.layers[index].placedItems`
 
 **Description**
 
- The placed items contained in this layer.
+> The placed items contained in this layer.
 
 **Type**
 
-:ref:`jsobjref/PlacedItems`, read-only.
+[PlacedItems](PlacedItems.md#jsobjref-placeditems), read-only.
 
-----
+---
 
-.. _jsobjref/Layer.pluginItems:
+<a id="jsobjref-layer-pluginitems"></a>
 
-Layer.pluginItems
-********************************************************************************
+### Layer.pluginItems
 
-``app.activeDocument.layers[index].pluginItems``
+`app.activeDocument.layers[index].pluginItems`
 
 **Description**
 
@@ -370,50 +346,47 @@ The plug-in items contained in this layer.
 
 **Type**
 
-:ref:`jsobjref/PluginItems`, read-only.
+[PluginItems](PluginItems.md#jsobjref-pluginitems), read-only.
 
-----
+---
 
-.. _jsobjref/Layer.preview:
+<a id="jsobjref-layer-preview"></a>
 
-Layer.preview
-********************************************************************************
+### Layer.preview
 
-``app.activeDocument.layers[index].preview``
+`app.activeDocument.layers[index].preview`
 
 **Description**
 
-If ``true``, this layer should be displayed using preview mode.
+If `true`, this layer should be displayed using preview mode.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/Layer.printable:
+<a id="jsobjref-layer-printable"></a>
 
-Layer.printable
-********************************************************************************
+### Layer.printable
 
-``app.activeDocument.layers[index].printable``
+`app.activeDocument.layers[index].printable`
 
 **Description**
 
-If ``true``, this layer should be printed when printing the document.
+If `true`, this layer should be printed when printing the document.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/Layer.rasterItems:
+<a id="jsobjref-layer-rasteritems"></a>
 
-Layer.rasterItems
-********************************************************************************
+### Layer.rasterItems
 
-``app.activeDocument.layers[index].rasterItems``
+`app.activeDocument.layers[index].rasterItems`
 
 **Description**
 
@@ -421,33 +394,31 @@ The raster items contained in this layer.
 
 **Type**
 
-:ref:`jsobjref/RasterItems`, read-only.
+[RasterItems](RasterItems.md#jsobjref-rasteritems), read-only.
 
-----
+---
 
-.. _jsobjref/Layer.sliced:
+<a id="jsobjref-layer-sliced"></a>
 
-Layer.sliced
-********************************************************************************
+### Layer.sliced
 
-``app.activeDocument.layers[index].sliced``
+`app.activeDocument.layers[index].sliced`
 
 **Description**
 
-If ``true``, the layer item is sliced. Default: ``false``.
+If `true`, the layer item is sliced. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/Layer.symbolItems:
+<a id="jsobjref-layer-symbolitems"></a>
 
-Layer.symbolItems
-********************************************************************************
+### Layer.symbolItems
 
-``app.activeDocument.layers[index].symbolItems``
+`app.activeDocument.layers[index].symbolItems`
 
 **Description**
 
@@ -455,16 +426,15 @@ The symbol items contained in the layer.
 
 **Type**
 
-:ref:`jsobjref/SymbolItems`, read-only.
+[SymbolItems](SymbolItems.md#jsobjref-symbolitems), read-only.
 
-----
+---
 
-.. _jsobjref/Layer.textFrames:
+<a id="jsobjref-layer-textframes"></a>
 
-Layer.textFrames
-********************************************************************************
+### Layer.textFrames
 
-``app.activeDocument.layers[index].textFrames``
+`app.activeDocument.layers[index].textFrames`
 
 **Description**
 
@@ -472,16 +442,15 @@ The text art items contained in this layer.
 
 **Type**
 
-:ref:`jsobjref/TextFrameItems`, read-only.
+[TextFrameItems](TextFrameItems.md#jsobjref-textframeitems), read-only.
 
-----
+---
 
-.. _jsobjref/Layer.typename:
+<a id="jsobjref-layer-typename"></a>
 
-Layer.typename
-********************************************************************************
+### Layer.typename
 
-``app.activeDocument.layers[index].typename``
+`app.activeDocument.layers[index].typename`
 
 **Description**
 
@@ -491,31 +460,29 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/Layer.visible:
+<a id="jsobjref-layer-visible"></a>
 
-Layer.visible
-********************************************************************************
+### Layer.visible
 
-``app.activeDocument.layers[index].visible``
+`app.activeDocument.layers[index].visible`
 
 **Description**
 
-If ``true``, this layer is visible.
+If `true`, this layer is visible.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/Layer.zOrderPosition:
+<a id="jsobjref-layer-zorderposition"></a>
 
-Layer.zOrderPosition
-********************************************************************************
+### Layer.zOrderPosition
 
-``app.activeDocument.layers[index].zOrderPosition``
+`app.activeDocument.layers[index].zOrderPosition`
 
 **Description**
 
@@ -525,18 +492,15 @@ The position of this layer within the stacking order of layers in the document.
 
 Number (long), read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Layer.move:
+<a id="jsobjref-layer-move"></a>
 
-Layer.move()
-********************************************************************************
+### Layer.move()
 
-``app.activeDocument.layers[index].move(relativeObject, insertionLocation)``
+`app.activeDocument.layers[index].move(relativeObject, insertionLocation)`
 
 **Description**
 
@@ -544,26 +508,22 @@ Moves the object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-|       Parameter       |                              Type                              |          Description          |
-+=======================+================================================================+===============================+
-| ``relativeObject``    | Object                                                         | Object to move element within |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to move element to   |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
+| Parameter           | Type                                                                                               | Description                   |
+|---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
+| `relativeObject`    | Object                                                                                             | Object to move element within |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
 **Returns**
 
-:ref:`jsobjref/Layer`
+[Layer](#jsobjref-layer)
 
-----
+---
 
-.. _jsobjref/Layer.remove:
+<a id="jsobjref-layer-remove"></a>
 
-Layer.remove()
-********************************************************************************
+### Layer.remove()
 
-``app.activeDocument.layers[index].remove()``
+`app.activeDocument.layers[index].remove()`
 
 **Description**
 
@@ -573,50 +533,44 @@ Deletes this object.
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/Layer.zOrder:
+<a id="jsobjref-layer-zorder"></a>
 
-Layer.zOrder()
-********************************************************************************
+### Layer.zOrder()
 
-``app.activeDocument.layers[index].zOrder(ZOrderCmd)``
+`app.activeDocument.layers[index].zOrder(ZOrderCmd)`
 
 **Description**
 
-Arranges the layer’s position in the stacking order of the containing layer or document (``parent``) of this object.
+Arranges the layer’s position in the stacking order of the containing layer or document (`parent`) of this object.
 
 **Parameters**
 
-+---------------+--------------------------------------------------+-----------------------------------+
-|   Parameter   |                       Type                       |            Description            |
-+===============+==================================================+===================================+
-| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | Stacking order arrangement method |
-+---------------+--------------------------------------------------+-----------------------------------+
+| Parameter   | Type                                                                             | Description                       |
+|-------------|----------------------------------------------------------------------------------|-----------------------------------|
+| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Bringing a layer to the front
-********************************************************************************
+### Bringing a layer to the front
 
-::
+```default
+// Moves the bottom layer to become the topmost layer
 
-  // Moves the bottom layer to become the topmost layer
-
-  if (documents.length > 0) {
-    var countOfLayers = activeDocument.layers.length;
-    if (countOfLayers > 1) {
-      var bottomLayer = activeDocument.layers[countOfLayers - 1];
-      bottomLayer.zOrder(ZOrderMethod.BRINGTOFRONT);
-    } else {
-      alert("The active document only has only 1 layer");
-    }
+if (documents.length > 0) {
+  var countOfLayers = activeDocument.layers.length;
+  if (countOfLayers > 1) {
+    var bottomLayer = activeDocument.layers[countOfLayers - 1];
+    bottomLayer.zOrder(ZOrderMethod.BRINGTOFRONT);
+  } else {
+    alert("The active document only has only 1 layer");
   }
+}
+```

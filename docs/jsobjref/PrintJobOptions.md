@@ -1,26 +1,22 @@
-.. _jsobjref/PrintJobOptions:
+<a id="jsobjref-printjoboptions"></a>
 
-PrintJobOptions
-################################################################################
+# PrintJobOptions
 
-``new PrintJobOptions()``
+`new PrintJobOptions()`
 
 **Description**
 
 Contains information about how the job is to be printed.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PrintJobOptions.artboardRange:
+<a id="jsobjref-printjoboptions-artboardrange"></a>
 
-PrintJobOptions.artboardRange
-********************************************************************************
+### PrintJobOptions.artboardRange
 
-``printJobOptions.artboardRange``
+`printJobOptions.artboardRange`
 
 **Description**
 
@@ -32,14 +28,13 @@ Default: 1-
 
 String
 
-----
+---
 
-.. _jsobjref/PrintJobOptions.bitmapResolution:
+<a id="jsobjref-printjoboptions-bitmapresolution"></a>
 
-PrintJobOptions.bitmapResolution
-********************************************************************************
+### PrintJobOptions.bitmapResolution
 
-``printJobOptions.bitmapResolution``
+`printJobOptions.bitmapResolution`
 
 **Description**
 
@@ -51,33 +46,31 @@ Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrintJobOptions.collate:
+<a id="jsobjref-printjoboptions-collate"></a>
 
-PrintJobOptions.collate
-********************************************************************************
+### PrintJobOptions.collate
 
-``printJobOptions.collate``
+`printJobOptions.collate`
 
 **Description**
 
-If ``true``, collate print pages.
+If `true`, collate print pages.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintJobOptions.copies:
+<a id="jsobjref-printjoboptions-copies"></a>
 
-PrintJobOptions.copies
-********************************************************************************
+### PrintJobOptions.copies
 
-``printJobOptions.copies``
+`printJobOptions.copies`
 
 **Description**
 
@@ -89,33 +82,31 @@ Default: 1
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/PrintJobOptions.designation:
+<a id="jsobjref-printjoboptions-designation"></a>
 
-PrintJobOptions.designation
-********************************************************************************
+### PrintJobOptions.designation
 
-``printJobOptions.designation``
+`printJobOptions.designation`
 
 **Description**
 
 The layers/objects to be printed.
 
-Default: ``PrintArtworkDesignation.VISIBLEPRINTABLELAYERS``
+Default: `PrintArtworkDesignation.VISIBLEPRINTABLELAYERS`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PrintArtworkDesignation`
+[PrintArtworkDesignation](scripting-constants.md#jsobjref-scripting-constants-printartworkdesignation)
 
-----
+---
 
-.. _jsobjref/PrintJobOptions.file:
+<a id="jsobjref-printjoboptions-file"></a>
 
-PrintJobOptions.file
-********************************************************************************
+### PrintJobOptions.file
 
-``printJobOptions.file``
+`printJobOptions.file`
 
 **Description**
 
@@ -125,14 +116,13 @@ The file to which to print.
 
 File
 
-----
+---
 
-.. _jsobjref/PrintJobOptions.name:
+<a id="jsobjref-printjoboptions-name"></a>
 
-PrintJobOptions.name
-********************************************************************************
+### PrintJobOptions.name
 
-``printJobOptions.name``
+`printJobOptions.name`
 
 **Description**
 
@@ -142,14 +132,13 @@ The print job name.
 
 String
 
-----
+---
 
-.. _jsobjref/PrintJobOptions.printAllArtboards:
+<a id="jsobjref-printjoboptions-printallartboards"></a>
 
-PrintJobOptions.printAllArtboards
-********************************************************************************
+### PrintJobOptions.printAllArtboards
 
-``printJobOptions.printAllArtboards``
+`printJobOptions.printAllArtboards`
 
 **Description**
 
@@ -161,71 +150,67 @@ Default: true
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintJobOptions.printArea:
+<a id="jsobjref-printjoboptions-printarea"></a>
 
-PrintJobOptions.printArea
-********************************************************************************
+### PrintJobOptions.printArea
 
-``printJobOptions.printArea``
+`printJobOptions.printArea`
 
 **Description**
 
 The printing bounds.
 
-Default: ``PrintingBounds.ARTBOARDBOUNDS``
+Default: `PrintingBounds.ARTBOARDBOUNDS`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PrintingBounds`
+[PrintingBounds](scripting-constants.md#jsobjref-scripting-constants-printingbounds)
 
-----
+---
 
-.. _jsobjref/PrintJobOptions.printAsBitmap:
+<a id="jsobjref-printjoboptions-printasbitmap"></a>
 
-PrintJobOptions.printAsBitmap
-********************************************************************************
+### PrintJobOptions.printAsBitmap
 
-``printJobOptions.printAsBitmap``
+`printJobOptions.printAsBitmap`
 
 **Description**
 
-If ``true``, print as bitmap.
+If `true`, print as bitmap.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintJobOptions.reversePages:
+<a id="jsobjref-printjoboptions-reversepages"></a>
 
-PrintJobOptions.reversePages
-********************************************************************************
+### PrintJobOptions.reversePages
 
-``printJobOptions.reversePages``
+`printJobOptions.reversePages`
 
 **Description**
 
-If ``true``, print pages in reverse order.
+If `true`, print pages in reverse order.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintJobOptions.typename:
+<a id="jsobjref-printjoboptions-typename"></a>
 
-PrintJobOptions.typename
-********************************************************************************
+### PrintJobOptions.typename
 
-``printJobOptions.typename``
+`printJobOptions.typename`
 
 **Description**
 
@@ -235,57 +220,54 @@ Read-only. The class name of the object.
 
 String
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Printing with job options
-********************************************************************************
+### Printing with job options
 
-::
+```default
+// Creates a new document with layers containing visible, printable,
+// non visible and non printable items then prints with each designation
+// to view effects of using different job options
 
-  // Creates a new document with layers containing visible, printable,
-  // non visible and non printable items then prints with each designation
-  // to view effects of using different job options
+var docRef = documents.add();
+var textRef_0 = docRef.layers[0].textFrames.add();
+textRef_0.contents = "Visible and Printable";
+textRef_0.top = 600;
+textRef_0.left = 200;
 
-  var docRef = documents.add();
-  var textRef_0 = docRef.layers[0].textFrames.add();
-  textRef_0.contents = "Visible and Printable";
-  textRef_0.top = 600;
-  textRef_0.left = 200;
+var layerRef_1 = docRef.layers.add();
+var textRef_1 = layerRef_1.textFrames.add();
+textRef_1.contents = "Visible and Non-Printable";
+textRef_1.top = 500;
+textRef_1.left = 250;
+layerRef_1.printable = false;
 
-  var layerRef_1 = docRef.layers.add();
-  var textRef_1 = layerRef_1.textFrames.add();
-  textRef_1.contents = "Visible and Non-Printable";
-  textRef_1.top = 500;
-  textRef_1.left = 250;
-  layerRef_1.printable = false;
+var layerRef_2 = docRef.layers.add();
+var textRef_2 = layerRef_2.textFrames.add();
+textRef_2.contents = "Non-Visible";
+textRef_2.top = 400;
+textRef_2.left = 300;
+layerRef_2.visible = false;
+redraw();
 
-  var layerRef_2 = docRef.layers.add();
-  var textRef_2 = layerRef_2.textFrames.add();
-  textRef_2.contents = "Non-Visible";
-  textRef_2.top = 400;
-  textRef_2.left = 300;
-  layerRef_2.visible = false;
-  redraw();
+// Print with various job options
+var printJobOptions = new PrintJobOptions();
+var options = new PrintOptions();
+options.jobOptions = printJobOptions;
 
-  // Print with various job options
-  var printJobOptions = new PrintJobOptions();
-  var options = new PrintOptions();
-  options.jobOptions = printJobOptions;
+printJobOptions.designation = PrintArtworkDesignation.ALLLAYERS;
+printJobOptions.reverse = true;
+docRef.print(options);
 
-  printJobOptions.designation = PrintArtworkDesignation.ALLLAYERS;
-  printJobOptions.reverse = true;
-  docRef.print(options);
+printJobOptions.collate = false;
+printJobOptions.designation = PrintArtworkDesignation.VISIBLELAYERS;
+printJobOptions.reverse = false;
+docRef.print(options);
 
-  printJobOptions.collate = false;
-  printJobOptions.designation = PrintArtworkDesignation.VISIBLELAYERS;
-  printJobOptions.reverse = false;
-  docRef.print(options);
-
-  printJobOptions.designation = PrintArtworkDesignation.VISIBLEPRINTABLELAYERS;
-  var docPath = new File("~/printJobTest1.ps");
-  printJobOptions.file = docPath;
-  docRef.print(options);
+printJobOptions.designation = PrintArtworkDesignation.VISIBLEPRINTABLELAYERS;
+var docPath = new File("~/printJobTest1.ps");
+printJobOptions.file = docPath;
+docRef.print(options);
+```

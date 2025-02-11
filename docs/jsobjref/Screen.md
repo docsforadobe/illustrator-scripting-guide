@@ -1,26 +1,22 @@
-.. _jsobjref/Screen:
+<a id="jsobjref-screen"></a>
 
-Screen
-################################################################################
+# Screen
 
-``PPDFileList[index].PPDInfo.screenList[index``
+`PPDFileList[index].PPDInfo.screenList[index`
 
 **Description**
 
 Associates a color separation screen with information to be used for printing.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Screen.name:
+<a id="jsobjref-screen-name"></a>
 
-Screen.name
-********************************************************************************
+### Screen.name
 
-``PPDFileList[index].PPDInfo.screenList[index].name``
+`PPDFileList[index].PPDInfo.screenList[index].name`
 
 **Description**
 
@@ -30,14 +26,13 @@ The color separation screen name.
 
 String
 
-----
+---
 
-.. _jsobjref/Screen.screenInfo:
+<a id="jsobjref-screen-screeninfo"></a>
 
-Screen.screenInfo
-********************************************************************************
+### Screen.screenInfo
 
-``PPDFileList[index].PPDInfo.screenList[index].screenInfo``
+`PPDFileList[index].PPDInfo.screenList[index].screenInfo`
 
 **Description**
 
@@ -45,16 +40,15 @@ The color separation screen information.
 
 **Type**
 
-:ref:`jsobjref/ScreenInfo`
+[ScreenInfo](ScreenInfo.md#jsobjref-screeninfo)
 
-----
+---
 
-.. _jsobjref/Screen.typename:
+<a id="jsobjref-screen-typename"></a>
 
-Screen.typename
-********************************************************************************
+### Screen.typename
 
-``PPDFileList[index].PPDInfo.screenList[index].typename``
+`PPDFileList[index].PPDInfo.screenList[index].typename`
 
 **Description**
 

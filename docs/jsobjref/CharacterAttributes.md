@@ -1,31 +1,27 @@
-.. _jsobjref/CharacterAttributes:
+<a id="jsobjref-characterattributes"></a>
 
-CharacterAttributes
-################################################################################
+# CharacterAttributes
 
-``characterAttributes``
+`characterAttributes`
 
 **Description**
 
-Specifies the properties of a character contained in a text frame. A ``CharacterStyle`` object associates these attributes with a specific text range through its ``characterAttributes`` property.
+Specifies the properties of a character contained in a text frame. A `CharacterStyle` object associates these attributes with a specific text range through its `characterAttributes` property.
 
-.. note::
-  Character attributes do not have default values, and are undefined until explicitly set.
+#### NOTE
+Character attributes do not have default values, and are undefined until explicitly set.
 
-// todo: get the absolute path to characterAttributes.. ``document.textFrames.textRef.textRange.characters[index].characterAttributes`` ?
+// todo: get the absolute path to characterAttributes.. `document.textFrames.textRef.textRange.characters[index].characterAttributes` ?
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/CharacterAttributes.akiLeft:
+<a id="jsobjref-characterattributes-akileft"></a>
 
-CharacterAttributes.akiLeft
-********************************************************************************
+### CharacterAttributes.akiLeft
 
-``characterAttributes.akiLeft``
+`characterAttributes.akiLeft`
 
 **Description**
 
@@ -35,14 +31,13 @@ The amount of inter-character spacing to be added to the left side of the charac
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.akiRight:
+<a id="jsobjref-characterattributes-akiright"></a>
 
-CharacterAttributes.akiRight
-********************************************************************************
+### CharacterAttributes.akiRight
 
-``characterAttributes.akiRight``
+`characterAttributes.akiRight`
 
 **Description**
 
@@ -52,14 +47,13 @@ The amount of inter-character spacing to be added to the right side of the chara
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.alignment:
+<a id="jsobjref-characterattributes-alignment"></a>
 
-CharacterAttributes.alignment
-********************************************************************************
+### CharacterAttributes.alignment
 
-``characterAttributes.alignment``
+`characterAttributes.alignment`
 
 **Description**
 
@@ -67,16 +61,15 @@ The character alignment type.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.StyleRunAlignmentType`
+[StyleRunAlignmentType](scripting-constants.md#jsobjref-scripting-constants-stylerunalignmenttype)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.alternateGlyphs:
+<a id="jsobjref-characterattributes-alternateglyphs"></a>
 
-CharacterAttributes.alternateGlyphs
-********************************************************************************
+### CharacterAttributes.alternateGlyphs
 
-``characterAttributes.alternateGlyphs``
+`characterAttributes.alternateGlyphs`
 
 **Description**
 
@@ -84,33 +77,31 @@ The alternate glyphs form.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.AlternateGlyphsForm`
+[AlternateGlyphsForm](scripting-constants.md#jsobjref-scripting-constants-alternateglyphsform)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.autoLeading:
+<a id="jsobjref-characterattributes-autoleading"></a>
 
-CharacterAttributes.autoLeading
-********************************************************************************
+### CharacterAttributes.autoLeading
 
-``characterAttributes.autoLeading``
+`characterAttributes.autoLeading`
 
 **Description**
 
-If ``true``, the automatic leading should be used.
+If `true`, the automatic leading should be used.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.baselineDirection:
+<a id="jsobjref-characterattributes-baselinedirection"></a>
 
-CharacterAttributes.baselineDirection
-********************************************************************************
+### CharacterAttributes.baselineDirection
 
-``characterAttributes.baselineDirection``
+`characterAttributes.baselineDirection`
 
 **Description**
 
@@ -118,16 +109,15 @@ The Japanese text baseline direction.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BaselineDirectionType`
+[BaselineDirectionType](scripting-constants.md#jsobjref-scripting-constants-baselinedirectiontype)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.baselinePosition:
+<a id="jsobjref-characterattributes-baselineposition"></a>
 
-CharacterAttributes.baselinePosition
-********************************************************************************
+### CharacterAttributes.baselinePosition
 
-``characterAttributes.baselinePosition``
+`characterAttributes.baselinePosition`
 
 **Description**
 
@@ -135,16 +125,15 @@ The baseline position of text.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.FontBaselineOption`
+[FontBaselineOption](scripting-constants.md#jsobjref-scripting-constants-fontbaselineoption)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.baselineShift:
+<a id="jsobjref-characterattributes-baselineshift"></a>
 
-CharacterAttributes.baselineShift
-********************************************************************************
+### CharacterAttributes.baselineShift
 
-``characterAttributes.baselineShift``
+`characterAttributes.baselineShift`
 
 **Description**
 
@@ -154,14 +143,13 @@ The amount of shift in points of the text baseline.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.capitalization:
+<a id="jsobjref-characterattributes-capitalization"></a>
 
-CharacterAttributes.capitalization
-********************************************************************************
+### CharacterAttributes.capitalization
 
-``characterAttributes.capitalization``
+`characterAttributes.capitalization`
 
 **Description**
 
@@ -169,67 +157,63 @@ The case of text.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.FontCapsOption`
+[FontCapsOption](scripting-constants.md#jsobjref-scripting-constants-fontcapsoption)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.connectionForms:
+<a id="jsobjref-characterattributes-connectionforms"></a>
 
-CharacterAttributes.connectionForms
-********************************************************************************
+### CharacterAttributes.connectionForms
 
-``characterAttributes.connectionForms``
+`characterAttributes.connectionForms`
 
 **Description**
 
-If ``true``, the OpenType® connection forms should be used.
+If `true`, the OpenType® connection forms should be used.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.contextualLigature:
+<a id="jsobjref-characterattributes-contextualligature"></a>
 
-CharacterAttributes.contextualLigature
-********************************************************************************
+### CharacterAttributes.contextualLigature
 
-``characterAttributes.contextualLigature``
+`characterAttributes.contextualLigature`
 
 **Description**
 
-If ``true``, the contextual ligature should be used.
+If `true`, the contextual ligature should be used.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.discretionaryLigature:
+<a id="jsobjref-characterattributes-discretionaryligature"></a>
 
-CharacterAttributes.discretionaryLigature
-********************************************************************************
+### CharacterAttributes.discretionaryLigature
 
-``characterAttributes.discretionaryLigature``
+`characterAttributes.discretionaryLigature`
 
 **Description**
 
-If ``true``, the discretionary ligature should be used.
+If `true`, the discretionary ligature should be used.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.figureStyle:
+<a id="jsobjref-characterattributes-figurestyle"></a>
 
-CharacterAttributes.figureStyle
-********************************************************************************
+### CharacterAttributes.figureStyle
 
-``characterAttributes.figureStyle``
+`characterAttributes.figureStyle`
 
 **Description**
 
@@ -237,16 +221,15 @@ The number style in a OpenType font.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.FigureStyleType`
+[FigureStyleType](scripting-constants.md#jsobjref-scripting-constants-figurestyletype)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.fillColor:
+<a id="jsobjref-characterattributes-fillcolor"></a>
 
-CharacterAttributes.fillColor
-********************************************************************************
+### CharacterAttributes.fillColor
 
-``characterAttributes.fillColor``
+`characterAttributes.fillColor`
 
 **Description**
 
@@ -254,33 +237,31 @@ The color of the text fill.
 
 **Type**
 
-:ref:`jsobjref/Color`
+[Color](Color.md#jsobjref-color)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.fractions:
+<a id="jsobjref-characterattributes-fractions"></a>
 
-CharacterAttributes.fractions
-********************************************************************************
+### CharacterAttributes.fractions
 
-``characterAttributes.fractions``
+`characterAttributes.fractions`
 
 **Description**
 
-If ``true``, the OpenType fractions should be used.
+If `true`, the OpenType fractions should be used.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.horizontalScale:
+<a id="jsobjref-characterattributes-horizontalscale"></a>
 
-CharacterAttributes.horizontalScale
-********************************************************************************
+### CharacterAttributes.horizontalScale
 
-``characterAttributes.horizontalScale``
+`characterAttributes.horizontalScale`
 
 **Description**
 
@@ -290,31 +271,29 @@ The character horizontal scaling factor expressed as a percentage (100 = 100%).
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.italics:
+<a id="jsobjref-characterattributes-italics"></a>
 
-CharacterAttributes.italics
-********************************************************************************
+### CharacterAttributes.italics
 
-``characterAttributes.italics``
+`characterAttributes.italics`
 
 **Description**
 
-If ``true``, the Japanese OpenType font supports italics.
+If `true`, the Japanese OpenType font supports italics.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.kerningMethod:
+<a id="jsobjref-characterattributes-kerningmethod"></a>
 
-CharacterAttributes.kerningMethod
-********************************************************************************
+### CharacterAttributes.kerningMethod
 
-``characterAttributes.kerningMethod``
+`characterAttributes.kerningMethod`
 
 **Description**
 
@@ -322,16 +301,15 @@ The automatic kerning method to use.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.AutoKernType`
+[AutoKernType](scripting-constants.md#jsobjref-scripting-constants-autokerntype)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.language:
+<a id="jsobjref-characterattributes-language"></a>
 
-CharacterAttributes.language
-********************************************************************************
+### CharacterAttributes.language
 
-``characterAttributes.language``
+`characterAttributes.language`
 
 **Description**
 
@@ -339,16 +317,15 @@ The language of text.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.LanguageType`
+[LanguageType](scripting-constants.md#jsobjref-scripting-constants-languagetype)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.leading:
+<a id="jsobjref-characterattributes-leading"></a>
 
-CharacterAttributes.leading
-********************************************************************************
+### CharacterAttributes.leading
 
-``characterAttributes.leading``
+`characterAttributes.leading`
 
 **Description**
 
@@ -358,48 +335,45 @@ The amount of space between two lines of text, in points.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.ligature:
+<a id="jsobjref-characterattributes-ligature"></a>
 
-CharacterAttributes.ligature
-********************************************************************************
+### CharacterAttributes.ligature
 
-``characterAttributes.ligature``
+`characterAttributes.ligature`
 
 **Description**
 
-If ``true``, the ligature should be used.
+If `true`, the ligature should be used.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.noBreak:
+<a id="jsobjref-characterattributes-nobreak"></a>
 
-CharacterAttributes.noBreak
-********************************************************************************
+### CharacterAttributes.noBreak
 
-``characterAttributes.noBreak``
+`characterAttributes.noBreak`
 
 **Description**
 
-If ``true``, line breaks are not allowed.
+If `true`, line breaks are not allowed.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.openTypePosition:
+<a id="jsobjref-characterattributes-opentypeposition"></a>
 
-CharacterAttributes.openTypePosition
-********************************************************************************
+### CharacterAttributes.openTypePosition
 
-``characterAttributes.openTypePosition``
+`characterAttributes.openTypePosition`
 
 **Description**
 
@@ -407,84 +381,79 @@ The OpenType baseline position.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.FontOpenTypePositionOption`
+[FontOpenTypePositionOption](scripting-constants.md#jsobjref-scripting-constants-fontopentypepositionoption)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.ordinals:
+<a id="jsobjref-characterattributes-ordinals"></a>
 
-CharacterAttributes.ordinals
-********************************************************************************
+### CharacterAttributes.ordinals
 
-``characterAttributes.ordinals``
+`characterAttributes.ordinals`
 
 **Description**
 
-If ``true``, the OpenType ordinals should be used.
+If `true`, the OpenType ordinals should be used.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.ornaments:
+<a id="jsobjref-characterattributes-ornaments"></a>
 
-CharacterAttributes.ornaments
-********************************************************************************
+### CharacterAttributes.ornaments
 
-``characterAttributes.ornaments``
+`characterAttributes.ornaments`
 
 **Description**
 
-If ``true``, the OpenType ornaments should be used.
+If `true`, the OpenType ornaments should be used.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.overprintFill:
+<a id="jsobjref-characterattributes-overprintfill"></a>
 
-CharacterAttributes.overprintFill
-********************************************************************************
+### CharacterAttributes.overprintFill
 
-``characterAttributes.overprintFill``
+`characterAttributes.overprintFill`
 
 **Description**
 
-If ``true``, the fill of the text should be overprinted.
+If `true`, the fill of the text should be overprinted.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.overprintStroke:
+<a id="jsobjref-characterattributes-overprintstroke"></a>
 
-CharacterAttributes.overprintStroke
-********************************************************************************
+### CharacterAttributes.overprintStroke
 
-``characterAttributes.overprintStroke``
+`characterAttributes.overprintStroke`
 
 **Description**
 
-If ``true``, the stroke of the text should be overprinted.
+If `true`, the stroke of the text should be overprinted.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.parent:
+<a id="jsobjref-characterattributes-parent"></a>
 
-CharacterAttributes.parent
-********************************************************************************
+### CharacterAttributes.parent
 
-``characterAttributes.parent``
+`characterAttributes.parent`
 
 **Description**
 
@@ -494,31 +463,29 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.proportionalMetrics:
+<a id="jsobjref-characterattributes-proportionalmetrics"></a>
 
-CharacterAttributes.proportionalMetrics
-********************************************************************************
+### CharacterAttributes.proportionalMetrics
 
-``characterAttributes.proportionalMetrics``
+`characterAttributes.proportionalMetrics`
 
 **Description**
 
-If ``true``, the Japanese OpenType font supports proportional glyphs.
+If `true`, the Japanese OpenType font supports proportional glyphs.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.rotation:
+<a id="jsobjref-characterattributes-rotation"></a>
 
-CharacterAttributes.rotation
-********************************************************************************
+### CharacterAttributes.rotation
 
-``characterAttributes.rotation``
+`characterAttributes.rotation`
 
 **Description**
 
@@ -528,14 +495,13 @@ The character rotation angle in degrees.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.size:
+<a id="jsobjref-characterattributes-size"></a>
 
-CharacterAttributes.size
-********************************************************************************
+### CharacterAttributes.size
 
-``characterAttributes.size``
+`characterAttributes.size`
 
 **Description**
 
@@ -545,31 +511,29 @@ Font size in points.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.strikeThrough:
+<a id="jsobjref-characterattributes-strikethrough"></a>
 
-CharacterAttributes.strikeThrough
-********************************************************************************
+### CharacterAttributes.strikeThrough
 
-``characterAttributes.strikeThrough``
+`characterAttributes.strikeThrough`
 
 **Description**
 
-If ``true``, characters use strike-through style.
+If `true`, characters use strike-through style.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.strokeColor:
+<a id="jsobjref-characterattributes-strokecolor"></a>
 
-CharacterAttributes.strokeColor
-********************************************************************************
+### CharacterAttributes.strokeColor
 
-``characterAttributes.strokeColor``
+`characterAttributes.strokeColor`
 
 **Description**
 
@@ -577,16 +541,15 @@ The color of the text stroke.
 
 **Type**
 
-:ref:`jsobjref/Color`
+[Color](Color.md#jsobjref-color)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.strokeWeight:
+<a id="jsobjref-characterattributes-strokeweight"></a>
 
-CharacterAttributes.strokeWeight
-********************************************************************************
+### CharacterAttributes.strokeWeight
 
-``characterAttributes.strokeWeight``
+`characterAttributes.strokeWeight`
 
 **Description**
 
@@ -596,48 +559,45 @@ Line width of stroke.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.stylisticAlternates:
+<a id="jsobjref-characterattributes-stylisticalternates"></a>
 
-CharacterAttributes.stylisticAlternates
-********************************************************************************
+### CharacterAttributes.stylisticAlternates
 
-``characterAttributes.stylisticAlternates``
+`characterAttributes.stylisticAlternates`
 
 **Description**
 
-If ``true``, the OpenType stylistic alternates should be used.
+If `true`, the OpenType stylistic alternates should be used.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.swash:
+<a id="jsobjref-characterattributes-swash"></a>
 
-CharacterAttributes.swash
-********************************************************************************
+### CharacterAttributes.swash
 
-``characterAttributes.swash``
+`characterAttributes.swash`
 
 **Description**
 
-If ``true``, the OpenType swash should be used.
+If `true`, the OpenType swash should be used.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.tateChuYokoHorizontal:
+<a id="jsobjref-characterattributes-tatechuyokohorizontal"></a>
 
-CharacterAttributes.tateChuYokoHorizontal
-********************************************************************************
+### CharacterAttributes.tateChuYokoHorizontal
 
-``characterAttributes.tateChuYokoHorizontal``
+`characterAttributes.tateChuYokoHorizontal`
 
 **Description**
 
@@ -647,14 +607,13 @@ The Tate-Chu-Yoko horizontal adjustment in points.
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.tateChuYokoVertical:
+<a id="jsobjref-characterattributes-tatechuyokovertical"></a>
 
-CharacterAttributes.tateChuYokoVertical
-********************************************************************************
+### CharacterAttributes.tateChuYokoVertical
 
-``characterAttributes.tateChuYokoVertical``
+`characterAttributes.tateChuYokoVertical`
 
 **Description**
 
@@ -664,14 +623,13 @@ The Tate-Chu-Yoko vertical adjustment in points.
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.textFont:
+<a id="jsobjref-characterattributes-textfont"></a>
 
-CharacterAttributes.textFont
-********************************************************************************
+### CharacterAttributes.textFont
 
-``characterAttributes.textFont``
+`characterAttributes.textFont`
 
 **Description**
 
@@ -679,33 +637,31 @@ The text font.
 
 **Type**
 
-:ref:`jsobjref/TextFont`
+[TextFont](TextFont.md#jsobjref-textfont)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.titling:
+<a id="jsobjref-characterattributes-titling"></a>
 
-CharacterAttributes.titling
-********************************************************************************
+### CharacterAttributes.titling
 
-``characterAttributes.titling``
+`characterAttributes.titling`
 
 **Description**
 
-If ``true``, the OpenType titling alternates should be used.
+If `true`, the OpenType titling alternates should be used.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.tracking:
+<a id="jsobjref-characterattributes-tracking"></a>
 
-CharacterAttributes.tracking
-********************************************************************************
+### CharacterAttributes.tracking
 
-``characterAttributes.tracking``
+`characterAttributes.tracking`
 
 **Description**
 
@@ -715,14 +671,13 @@ The tracking or range kerning amount, in thousandths of an em.
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.Tsume:
+<a id="jsobjref-characterattributes-tsume"></a>
 
-CharacterAttributes.Tsume
-********************************************************************************
+### CharacterAttributes.Tsume
 
-``characterAttributes.Tsume``
+`characterAttributes.Tsume`
 
 **Description**
 
@@ -732,14 +687,13 @@ The percentage of space reduction around a Japanese character.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.typename:
+<a id="jsobjref-characterattributes-typename"></a>
 
-CharacterAttributes.typename
-********************************************************************************
+### CharacterAttributes.typename
 
-``characterAttributes.typename``
+`characterAttributes.typename`
 
 **Description**
 
@@ -749,31 +703,29 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.underline:
+<a id="jsobjref-characterattributes-underline"></a>
 
-CharacterAttributes.underline
-********************************************************************************
+### CharacterAttributes.underline
 
-``characterAttributes.underline``
+`characterAttributes.underline`
 
 **Description**
 
-If ``true``, characters are underlined.
+If `true`, characters are underlined.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.verticalScale:
+<a id="jsobjref-characterattributes-verticalscale"></a>
 
-CharacterAttributes.verticalScale
-********************************************************************************
+### CharacterAttributes.verticalScale
 
-``characterAttributes.verticalScale``
+`characterAttributes.verticalScale`
 
 **Description**
 
@@ -783,31 +735,13 @@ Character vertical scaling factor expressed as a percentage (= 100%).
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.wariChuCharactersAfterBreak:
+<a id="jsobjref-characterattributes-warichucharactersafterbreak"></a>
 
-CharacterAttributes.wariChuCharactersAfterBreak
-********************************************************************************
+### CharacterAttributes.wariChuCharactersAfterBreak
 
-``characterAttributes.wariChuCharactersAfterBreak``
-
-**Description**
-
-Specifies how the characters in Wari-Chu text (an inset note in Japanese text) are divided into two or more lines.
-
-**Type**
-
-Number (long)
-
-----
-
-.. _jsobjref/CharacterAttributes.wariChuCharactersBeforeBreak:
-
-CharacterAttributes.wariChuCharactersBeforeBreak
-********************************************************************************
-
-``characterAttributes.wariChuCharactersBeforeBreak``
+`characterAttributes.wariChuCharactersAfterBreak`
 
 **Description**
 
@@ -817,31 +751,45 @@ Specifies how the characters in Wari-Chu text (an inset note in Japanese text) a
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.waiChuEnabled:
+<a id="jsobjref-characterattributes-warichucharactersbeforebreak"></a>
 
-CharacterAttributes.waiChuEnabled
-********************************************************************************
+### CharacterAttributes.wariChuCharactersBeforeBreak
 
-``characterAttributes.waiChuEnabled``
+`characterAttributes.wariChuCharactersBeforeBreak`
 
 **Description**
 
-If ``true``, Wari-Chu is enabled.
+Specifies how the characters in Wari-Chu text (an inset note in Japanese text) are divided into two or more lines.
+
+**Type**
+
+Number (long)
+
+---
+
+<a id="jsobjref-characterattributes-waichuenabled"></a>
+
+### CharacterAttributes.waiChuEnabled
+
+`characterAttributes.waiChuEnabled`
+
+**Description**
+
+If `true`, Wari-Chu is enabled.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.wariChuJustification:
+<a id="jsobjref-characterattributes-warichujustification"></a>
 
-CharacterAttributes.wariChuJustification
-********************************************************************************
+### CharacterAttributes.wariChuJustification
 
-``characterAttributes.wariChuJustification``
+`characterAttributes.wariChuJustification`
 
 **Description**
 
@@ -849,16 +797,15 @@ The Wari-Chu justification.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.WariChuJustificationType`
+[WariChuJustificationType](scripting-constants.md#jsobjref-scripting-constants-warichujustificationtype)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.wariChuLineGap:
+<a id="jsobjref-characterattributes-warichulinegap"></a>
 
-CharacterAttributes.wariChuLineGap
-********************************************************************************
+### CharacterAttributes.wariChuLineGap
 
-``characterAttributes.wariChuLineGap``
+`characterAttributes.wariChuLineGap`
 
 **Description**
 
@@ -868,14 +815,13 @@ The Wari-Chu line gap.
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.wariChuLines:
+<a id="jsobjref-characterattributes-warichulines"></a>
 
-CharacterAttributes.wariChuLines
-********************************************************************************
+### CharacterAttributes.wariChuLines
 
-``characterAttributes.wariChuLines``
+`characterAttributes.wariChuLines`
 
 **Description**
 
@@ -885,14 +831,13 @@ The number of Wari-Chu (multiple text lines fit into a space meant for one) line
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/CharacterAttributes.wariChuScale:
+<a id="jsobjref-characterattributes-warichuscale"></a>
 
-CharacterAttributes.wariChuScale
-********************************************************************************
+### CharacterAttributes.wariChuScale
 
-``characterAttributes.wariChuScale``
+`characterAttributes.wariChuScale`
 
 **Description**
 
@@ -902,31 +847,28 @@ The Wari-Chu scale.
 
 Number (double)
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Setting character attributes
-********************************************************************************
+### Setting character attributes
 
-::
+```default
+// Creates a new document, adds a simple text item
+// then incrementally increases the horizontal and
+// vertical scale attributes of each character
 
-  // Creates a new document, adds a simple text item
-  // then incrementally increases the horizontal and
-  // vertical scale attributes of each character
+var docRef = documents.add();
+var textRef = docRef.textFrames.add();
+textRef.contents = "I Love Scripting!";
+textRef.top = 400;
+textRef.left = 100;
 
-  var docRef = documents.add();
-  var textRef = docRef.textFrames.add();
-  textRef.contents = "I Love Scripting!";
-  textRef.top = 400;
-  textRef.left = 100;
-
-  // incrementally increase the scale of each character
-  var charCount = textRef.textRange.characters.length;
-  var size = 100;
-  for (var i = 0; i < charCount; i++, size *= 1.2) {
-    textRef.textRange.characters[i].characterAttributes.horizontalScale = size;
-    textRef.textRange.characters[i].characterAttributes.verticalScale = size;
-  }
+// incrementally increase the scale of each character
+var charCount = textRef.textRange.characters.length;
+var size = 100;
+for (var i = 0; i < charCount; i++, size *= 1.2) {
+  textRef.textRange.characters[i].characterAttributes.horizontalScale = size;
+  textRef.textRange.characters[i].characterAttributes.verticalScale = size;
+}
+```

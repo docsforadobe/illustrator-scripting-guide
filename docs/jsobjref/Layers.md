@@ -1,26 +1,22 @@
-.. _jsobjref/Layers:
+<a id="jsobjref-layers"></a>
 
-Layers
-################################################################################
+# Layers
 
-``app.activeDocument.layers``
+`app.activeDocument.layers`
 
 **Description**
 
 The collection of layers in the document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Layers.length:
+<a id="jsobjref-layers-length"></a>
 
-Layers.length
-********************************************************************************
+### Layers.length
 
-``app.activeDocument.layers.length``
+`app.activeDocument.layers.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ The number of objects in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/Layers.parent:
+<a id="jsobjref-layers-parent"></a>
 
-Layers.parent
-********************************************************************************
+### Layers.parent
 
-``app.activeDocument.layers.parent``
+`app.activeDocument.layers.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The parent of this object.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/Layers.typename:
+<a id="jsobjref-layers-typename"></a>
 
-Layers.typename
-********************************************************************************
+### Layers.typename
 
-``app.activeDocument.layers.typename``
+`app.activeDocument.layers.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Layers.add:
+<a id="jsobjref-layers-add"></a>
 
-Layers.add()
-********************************************************************************
+### Layers.add()
 
-``app.activeDocument.layers.add()``
+`app.activeDocument.layers.add()`
 
 **Description**
 
@@ -83,16 +74,15 @@ Creates a new layer in the document.
 
 **Returns**
 
-:ref:`jsobjref/Layer`
+[Layer](Layer.md#jsobjref-layer)
 
-----
+---
 
-.. _jsobjref/Layers.getByName:
+<a id="jsobjref-layers-getbyname"></a>
 
-Layers.getByName()
-********************************************************************************
+### Layers.getByName()
 
-``app.activeDocument.layers.getByName(name)``
+`app.activeDocument.layers.getByName(name)`
 
 **Description**
 
@@ -100,24 +90,21 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/Layer`
+[Layer](Layer.md#jsobjref-layer)
 
-----
+---
 
-.. _jsobjref/Layers.index:
+<a id="jsobjref-layers-index"></a>
 
-Layers.index()
-********************************************************************************
+### Layers.index()
 
-``app.activeDocument.layers.index(itemKey)``
+`app.activeDocument.layers.index(itemKey)`
 
 **Description**
 
@@ -125,24 +112,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/Layer`
+[Layer](Layer.md#jsobjref-layer)
 
-----
+---
 
-.. _jsobjref/Layers.removeAll:
+<a id="jsobjref-layers-removeall"></a>
 
-Layers.removeAll()
-********************************************************************************
+### Layers.removeAll()
 
-``app.activeDocument.layers.removeAll()``
+`app.activeDocument.layers.removeAll()`
 
 **Description**
 
@@ -152,32 +136,29 @@ Deletes all elements in this collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Finding and deleting layers
-********************************************************************************
+### Finding and deleting layers
 
-::
+```default
+// Deletes all layers whose name begins with "Temp" in all open documents
 
-  // Deletes all layers whose name begins with "Temp" in all open documents
+var layersDeleted = 0;
+for (var i = 0; i < app.documents.length; i++) {
+  var targetDocument = app.documents[i];
+  var layerCount = targetDocument.layers.length;
 
-  var layersDeleted = 0;
-  for (var i = 0; i < app.documents.length; i++) {
-    var targetDocument = app.documents[i];
-    var layerCount = targetDocument.layers.length;
-
-    // Loop through layers from the back, to preserve index
-    // of remaining layers when we remove one
-    for (var ii = layerCount - 1; ii >= 0; ii--) {
-      var targetLayer = targetDocument.layers[ii];
-      var layerName = new String(targetLayer.name);
-      if (layerName.indexOf("Temp") == 0) {
-        targetDocument.layers[ii].remove();
-        layersDeleted++;
-      }
+  // Loop through layers from the back, to preserve index
+  // of remaining layers when we remove one
+  for (var ii = layerCount - 1; ii >= 0; ii--) {
+    var targetLayer = targetDocument.layers[ii];
+    var layerName = new String(targetLayer.name);
+    if (layerName.indexOf("Temp") == 0) {
+      targetDocument.layers[ii].remove();
+      layersDeleted++;
     }
   }
+}
+```

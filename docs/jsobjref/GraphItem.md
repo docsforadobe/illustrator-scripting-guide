@@ -1,43 +1,38 @@
-.. _jsobjref/GraphItem:
+<a id="jsobjref-graphitem"></a>
 
-GraphItem
-################################################################################
+# GraphItem
 
-``app.activeDocument.graphItems[index``
-
-**Description**
-
-Any graph artwork object. See example :ref:`jsobjref/GraphItems.rotatingGraphItems`.
-
-----
-
-==========
-Properties
-==========
-
-.. _jsobjref/GraphItem.artworkKnockout:
-
-GraphItem.artworkKnockout
-********************************************************************************
-
-``app.activeDocument.graphItems[index].artworkKnockout``
+`app.activeDocument.graphItems[index`
 
 **Description**
 
-Is this object used to create a knockout, and if so, what kind of knockout. You cannot set this value to ``KnockoutState.Unknown``.
+Any graph artwork object. See example [Rotating graph items](GraphItems.md#jsobjref-graphitems-rotatinggraphitems).
+
+---
+
+## Properties
+
+<a id="jsobjref-graphitem-artworkknockout"></a>
+
+### GraphItem.artworkKnockout
+
+`app.activeDocument.graphItems[index].artworkKnockout`
+
+**Description**
+
+Is this object used to create a knockout, and if so, what kind of knockout. You cannot set this value to `KnockoutState.Unknown`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.KnockoutState`
+[KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
-----
+---
 
-.. _jsobjref/GraphItem.blendingMode:
+<a id="jsobjref-graphitem-blendingmode"></a>
 
-GraphItem.blendingMode
-********************************************************************************
+### GraphItem.blendingMode
 
-``app.activeDocument.graphItems[index].blendingMode``
+`app.activeDocument.graphItems[index].blendingMode`
 
 **Description**
 
@@ -45,35 +40,33 @@ The mode used when compositing an object.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BlendModes`
+[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
-----
+---
 
-.. _jsobjref/GraphItem.contentVariable:
+<a id="jsobjref-graphitem-contentvariable"></a>
 
-GraphItem.contentVariable
-********************************************************************************
+### GraphItem.contentVariable
 
-``app.activeDocument.graphItems[index].contentVariable``
+`app.activeDocument.graphItems[index].contentVariable`
 
 **Description**
 
 The content variable bound to the graph item.
 
-It is not necessary to set the type of the ``contentVariable`` before binding. Illustrator automatically set the type to ``GRAPH``.
+It is not necessary to set the type of the `contentVariable` before binding. Illustrator automatically set the type to `GRAPH`.
 
 **Type**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/GraphItem.controlBounds:
+<a id="jsobjref-graphitem-controlbounds"></a>
 
-GraphItem.controlBounds
-********************************************************************************
+### GraphItem.controlBounds
 
-``app.activeDocument.graphItems[index].controlBounds``
+`app.activeDocument.graphItems[index].controlBounds`
 
 **Description**
 
@@ -85,31 +78,29 @@ The bounds of the object including stroke width and controls.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/GraphItem.editable:
+<a id="jsobjref-graphitem-editable"></a>
 
-GraphItem.editable
-********************************************************************************
+### GraphItem.editable
 
-``app.activeDocument.graphItems[index].editable``
+`app.activeDocument.graphItems[index].editable`
 
 **Description**
 
-If ``true``, this graph item is editable.
+If `true`, this graph item is editable.
 
 **Type**
 
 Boolean, read-only.
 
-----
+---
 
-.. _jsobjref/GraphItem.geometricBounds:
+<a id="jsobjref-graphitem-geometricbounds"></a>
 
-GraphItem.geometricBounds
-********************************************************************************
+### GraphItem.geometricBounds
 
-``app.activeDocument.graphItems[index].geometricBounds``
+`app.activeDocument.graphItems[index].geometricBounds`
 
 **Description**
 
@@ -119,14 +110,13 @@ The bounds of the object excluding stroke width.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/GraphItem.height:
+<a id="jsobjref-graphitem-height"></a>
 
-GraphItem.height
-********************************************************************************
+### GraphItem.height
 
-``app.activeDocument.graphItems[index].height``
+`app.activeDocument.graphItems[index].height`
 
 **Description**
 
@@ -136,48 +126,45 @@ The height of the graph item.
 
 Number (double), read-only.
 
-----
+---
 
-.. _jsobjref/GraphItem.hidden:
+<a id="jsobjref-graphitem-hidden"></a>
 
-GraphItem.hidden
-********************************************************************************
+### GraphItem.hidden
 
-``app.activeDocument.graphItems[index].hidden``
+`app.activeDocument.graphItems[index].hidden`
 
 **Description**
 
-If ``true``, this graph item is hidden.
+If `true`, this graph item is hidden.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GraphItem.isIsolated:
+<a id="jsobjref-graphitem-isisolated"></a>
 
-GraphItem.isIsolated
-********************************************************************************
+### GraphItem.isIsolated
 
-``app.activeDocument.graphItems[index].isIsolated``
+`app.activeDocument.graphItems[index].isIsolated`
 
 **Description**
 
-If ``true``, this object is isolated.
+If `true`, this object is isolated.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GraphItem.layer:
+<a id="jsobjref-graphitem-layer"></a>
 
-GraphItem.layer
-********************************************************************************
+### GraphItem.layer
 
-``app.activeDocument.graphItems[index].layer``
+`app.activeDocument.graphItems[index].layer`
 
 **Description**
 
@@ -185,16 +172,15 @@ The layer to which this graph item belongs.
 
 **Type**
 
-:ref:`jsobjref/Layer`, read-only.
+[Layer](Layer.md#jsobjref-layer), read-only.
 
-----
+---
 
-.. _jsobjref/GraphItem.left:
+<a id="jsobjref-graphitem-left"></a>
 
-GraphItem.left
-********************************************************************************
+### GraphItem.left
 
-``app.activeDocument.graphItems[index].left``
+`app.activeDocument.graphItems[index].left`
 
 **Description**
 
@@ -204,31 +190,29 @@ The offset (in points) of the left side of the graph item from the left side of 
 
 Number.
 
-----
+---
 
-.. _jsobjref/GraphItem.locked:
+<a id="jsobjref-graphitem-locked"></a>
 
-GraphItem.locked
-********************************************************************************
+### GraphItem.locked
 
-``app.activeDocument.graphItems[index].locked``
+`app.activeDocument.graphItems[index].locked`
 
 **Description**
 
-If ``true``, this graph item is locked.
+If `true`, this graph item is locked.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GraphItem.name:
+<a id="jsobjref-graphitem-name"></a>
 
-GraphItem.name
-********************************************************************************
+### GraphItem.name
 
-``app.activeDocument.graphItems[index].name``
+`app.activeDocument.graphItems[index].name`
 
 **Description**
 
@@ -238,14 +222,13 @@ The name of this graph item.
 
 String.
 
-----
+---
 
-.. _jsobjref/GraphItem.note:
+<a id="jsobjref-graphitem-note"></a>
 
-GraphItem.note
-********************************************************************************
+### GraphItem.note
 
-``app.activeDocument.graphItems[index].note``
+`app.activeDocument.graphItems[index].note`
 
 **Description**
 
@@ -255,14 +238,13 @@ The note assigned to this item.
 
 String.
 
-----
+---
 
-.. _jsobjref/GraphItem.opacity:
+<a id="jsobjref-graphitem-opacity"></a>
 
-GraphItem.opacity
-********************************************************************************
+### GraphItem.opacity
 
-``app.activeDocument.graphItems[index].opacity``
+`app.activeDocument.graphItems[index].opacity`
 
 **Description**
 
@@ -272,14 +254,13 @@ The opacity of the object; the value is between 0.0 and 100.0.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/GraphItem.parent:
+<a id="jsobjref-graphitem-parent"></a>
 
-GraphItem.parent
-********************************************************************************
+### GraphItem.parent
 
-``app.activeDocument.graphItems[index].parent``
+`app.activeDocument.graphItems[index].parent`
 
 **Description**
 
@@ -287,67 +268,63 @@ The parent of this object.
 
 **Type**
 
-:ref:`jsobjref/Layer` or :ref:`jsobjref/GroupItem`
+[Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem)
 
-----
+---
 
-.. _jsobjref/GraphItem.position:
+<a id="jsobjref-graphitem-position"></a>
 
-GraphItem.position
-********************************************************************************
+### GraphItem.position
 
-``app.activeDocument.graphItems[index].position``
+`app.activeDocument.graphItems[index].position`
 
 **Description**
 
-The position (in points) of the top left corner of the ``graphItem`` object in the format [x, y]. Does not include stroke weight.
+The position (in points) of the top left corner of the `graphItem` object in the format [x, y]. Does not include stroke weight.
 
 **Type**
 
 Array of 2 numbers.
 
-----
+---
 
-.. _jsobjref/GraphItem.selected:
+<a id="jsobjref-graphitem-selected"></a>
 
-GraphItem.selected
-********************************************************************************
+### GraphItem.selected
 
-``app.activeDocument.graphItems[index].selected``
+`app.activeDocument.graphItems[index].selected`
 
 **Description**
 
-If ``true``, this object is selected.
+If `true`, this object is selected.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GraphItem.sliced:
+<a id="jsobjref-graphitem-sliced"></a>
 
-GraphItem.sliced
-********************************************************************************
+### GraphItem.sliced
 
-``app.activeDocument.graphItems[index].sliced``
+`app.activeDocument.graphItems[index].sliced`
 
 **Description**
 
-If ``true``, the graph item is sliced. Default: ``false``.
+If `true`, the graph item is sliced. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GraphItem.tags:
+<a id="jsobjref-graphitem-tags"></a>
 
-GraphItem.tags
-********************************************************************************
+### GraphItem.tags
 
-``app.activeDocument.graphItems[index].tags``
+`app.activeDocument.graphItems[index].tags`
 
 **Description**
 
@@ -355,16 +332,15 @@ The tags contained in this graph item.
 
 **Type**
 
-:ref:`jsobjref/Tags`, read-only.
+[Tags](Tags.md#jsobjref-tags), read-only.
 
-----
+---
 
-.. _jsobjref/GraphItem.top:
+<a id="jsobjref-graphitem-top"></a>
 
-GraphItem.top
-********************************************************************************
+### GraphItem.top
 
-``app.activeDocument.graphItems[index].top``
+`app.activeDocument.graphItems[index].top`
 
 **Description**
 
@@ -374,14 +350,13 @@ The offset (in points) of the top of the graph item from the bottom of the page.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GraphItem.typename:
+<a id="jsobjref-graphitem-typename"></a>
 
-GraphItem.typename
-********************************************************************************
+### GraphItem.typename
 
-``app.activeDocument.graphItems[index].typename``
+`app.activeDocument.graphItems[index].typename`
 
 **Description**
 
@@ -391,14 +366,13 @@ The type of the graph item.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/GraphItem.uRL:
+<a id="jsobjref-graphitem-url"></a>
 
-GraphItem.uRL
-********************************************************************************
+### GraphItem.uRL
 
-``app.activeDocument.graphItems[index].uRL``
+`app.activeDocument.graphItems[index].uRL`
 
 **Description**
 
@@ -408,33 +382,31 @@ The value of the Adobe URL tag assigned to this graph item.
 
 String.
 
-----
+---
 
-.. _jsobjref/GraphItem.visibilityVariable:
+<a id="jsobjref-graphitem-visibilityvariable"></a>
 
-GraphItem.visibilityVariable
-********************************************************************************
+### GraphItem.visibilityVariable
 
-``app.activeDocument.graphItems[index].visibilityVariable``
+`app.activeDocument.graphItems[index].visibilityVariable`
 
 **Description**
 
 The visibility variable bound to the graph item.
 
-It is not necessary to set the type of the ``visibilityVariable`` before binding. Illustrator automatically set the type to ``VISIBILITY``.
+It is not necessary to set the type of the `visibilityVariable` before binding. Illustrator automatically set the type to `VISIBILITY`.
 
 **Type**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/GraphItem.visibleBounds:
+<a id="jsobjref-graphitem-visiblebounds"></a>
 
-GraphItem.visibleBounds
-********************************************************************************
+### GraphItem.visibleBounds
 
-``app.activeDocument.graphItems[index].visibleBounds``
+`app.activeDocument.graphItems[index].visibleBounds`
 
 **Description**
 
@@ -444,14 +416,13 @@ The visible bounds of the graph item including stroke width.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/GraphItem.width:
+<a id="jsobjref-graphitem-width"></a>
 
-GraphItem.width
-********************************************************************************
+### GraphItem.width
 
-``app.activeDocument.graphItems[index].width``
+`app.activeDocument.graphItems[index].width`
 
 **Description**
 
@@ -461,31 +432,29 @@ The width of the graph item. Range: 0.0 to 16348.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GraphItem.wrapInside:
+<a id="jsobjref-graphitem-wrapinside"></a>
 
-GraphItem.wrapInside
-********************************************************************************
+### GraphItem.wrapInside
 
-``app.activeDocument.graphItems[index].wrapInside``
+`app.activeDocument.graphItems[index].wrapInside`
 
 **Description**
 
-If ``true``, the text frame object should be wrapped inside this object.
+If `true`, the text frame object should be wrapped inside this object.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GraphItem.wrapOffset:
+<a id="jsobjref-graphitem-wrapoffset"></a>
 
-GraphItem.wrapOffset
-********************************************************************************
+### GraphItem.wrapOffset
 
-``app.activeDocument.graphItems[index].wrapOffset``
+`app.activeDocument.graphItems[index].wrapOffset`
 
 **Description**
 
@@ -495,31 +464,29 @@ The offset to use when wrapping text around this object.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/GraphItem.wrapped:
+<a id="jsobjref-graphitem-wrapped"></a>
 
-GraphItem.wrapped
-********************************************************************************
+### GraphItem.wrapped
 
-``app.activeDocument.graphItems[index].wrapped``
+`app.activeDocument.graphItems[index].wrapped`
 
 **Description**
 
-If ``true``, wrap text frame objects around this object. (Text frame must be above the object.)
+If `true`, wrap text frame objects around this object. (Text frame must be above the object.)
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/GraphItem.zOrderPosition:
+<a id="jsobjref-graphitem-zorderposition"></a>
 
-GraphItem.zOrderPosition
-********************************************************************************
+### GraphItem.zOrderPosition
 
-``app.activeDocument.graphItems[index].zOrderPosition``
+`app.activeDocument.graphItems[index].zOrderPosition`
 
 **Description**
 
@@ -529,18 +496,15 @@ The position of this art item within the stacking order of the group or layer (p
 
 Number (long).
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/GraphItem.duplicate:
+<a id="jsobjref-graphitem-duplicate"></a>
 
-GraphItem.duplicate()
-********************************************************************************
+### GraphItem.duplicate()
 
-``app.activeDocument.graphItems[index].duplicate([relativeObject] [,insertionLocation])``
+`app.activeDocument.graphItems[index].duplicate([relativeObject] [,insertionLocation])`
 
 **Description**
 
@@ -548,26 +512,22 @@ Creates a duplicate of the selected object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+----------------------------+
-|       Parameter       |                              Type                              |        Description         |
-+=======================+================================================================+============================+
-| ``relativeObject``    | Object, optional                                               | Object to duplicate to     |
-+-----------------------+----------------------------------------------------------------+----------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to insert element |
-+-----------------------+----------------------------------------------------------------+----------------------------+
+| Parameter           | Type                                                                                               | Description                |
+|---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
+| `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
 **Returns**
 
-:ref:`jsobjref/GraphItem`
+[GraphItem](#jsobjref-graphitem)
 
-----
+---
 
-.. _jsobjref/GraphItem.move:
+<a id="jsobjref-graphitem-move"></a>
 
-GraphItem.move()
-********************************************************************************
+### GraphItem.move()
 
-``app.activeDocument.graphItems[index].move(relativeObject, insertionLocation)``
+`app.activeDocument.graphItems[index].move(relativeObject, insertionLocation)`
 
 **Description**
 
@@ -575,26 +535,22 @@ Moves the object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-|       Parameter       |                              Type                              |          Description          |
-+=======================+================================================================+===============================+
-| ``relativeObject``    | Object                                                         | Object to move element within |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to move element to   |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
+| Parameter           | Type                                                                                               | Description                   |
+|---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
+| `relativeObject`    | Object                                                                                             | Object to move element within |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
 **Returns**
 
-:ref:`jsobjref/GraphItem`
+[GraphItem](#jsobjref-graphitem)
 
-----
+---
 
-.. _jsobjref/GraphItem.remove:
+<a id="jsobjref-graphitem-remove"></a>
 
-GraphItem.remove()
-********************************************************************************
+### GraphItem.remove()
 
-``app.activeDocument.graphItems[index].remove()``
+`app.activeDocument.graphItems[index].remove()`
 
 **Description**
 
@@ -604,103 +560,84 @@ Deletes this object.
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/GraphItem.resize:
+<a id="jsobjref-graphitem-resize"></a>
 
-GraphItem.resize()
-********************************************************************************
+### GraphItem.resize()
 
-::
-
-  app.activeDocument.graphItems[index].resize(scaleX, scaleY
-    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,changeLineWidths] [,scaleAbout])
-  )
+```default
+app.activeDocument.graphItems[index].resize(scaleX, scaleY
+  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+  [,changeStrokePattern] [,changeLineWidths] [,scaleAbout])
+)
+```
 
 **Description**
 
-Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scaleY`` is the vertical scaling factor. 100.0 = 100%.
+Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``scaleX``              | Number (double)                                              | Horizontal scaling factor                               |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleY``              | Number (double)                                              | Vertical scaling factor                                 |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeLineWidths``    | Number (double), optional                                    | The amount to scale line widths                         |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleAbout``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `scaleX`              | Number (double)                                                                                | Horizontal scaling factor                               |
+| `scaleY`              | Number (double)                                                                                | Vertical scaling factor                                 |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
+| `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/GraphItem.rotate:
+<a id="jsobjref-graphitem-rotate"></a>
 
-GraphItem.rotate()
-********************************************************************************
+### GraphItem.rotate()
 
-::
-
-  app.activeDocument.graphItems[index].rotate(angle
-    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,rotateAbout]
-  )
+```default
+app.activeDocument.graphItems[index].rotate(angle
+  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+  [,changeStrokePattern] [,rotateAbout]
+)
+```
 
 **Description**
 
-Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the ``angle`` value is positive, clockwise if the value is negative.
+Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``angle``               | Number (double)                                              | The angle amount to rotate the element                  |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``rotateAbout``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `angle`               | Number (double)                                                                                | The angle amount to rotate the element                  |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/GraphItem.transform:
+<a id="jsobjref-graphitem-transform"></a>
 
-GraphItem.transform()
-********************************************************************************
+### GraphItem.transform()
 
-::
-
-  app.activeDocument.graphItems[index].transform(transformationMatrix
-    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
-  )
+```default
+app.activeDocument.graphItems[index].transform(transformationMatrix
+  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+  [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
+)
+```
 
 **Description**
 
@@ -708,76 +645,59 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-|        Parameter         |                             Type                             |                  Description                   |
-+==========================+==============================================================+================================================+
-| ``transformationMatrix`` | :ref:`jsobjref/Matrix`                                       | Transformation matrix to apply                 |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changePositions``      | Boolean, optional                                            | Whether to change Positions                    |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillPatterns``   | Boolean, optional                                            | Whether to change Fill Patterns                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillGradients``  | Boolean, optional                                            | Whether to change Fill Gradients               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeStrokePattern``  | Boolean, optional                                            | Whether to change Stroke Pattern               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeLineWidths``     | Number (double), optional                                    | The amount to scale line widths                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``transformAbout``       | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| Parameter              | Type                                                                                           | Description                                    |
+|------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
+| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
+| `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
+| `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |
+| `changeStrokePattern`  | Boolean, optional                                                                              | Whether to change Stroke Pattern               |
+| `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
+| `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/GraphItem.translate:
+<a id="jsobjref-graphitem-translate"></a>
 
-GraphItem.translate()
-********************************************************************************
+### GraphItem.translate()
 
-::
-
-  app.activeDocument.graphItems[index].translate([deltaX] [,deltaY]
-    [,transformObjects] [,transformFillPatterns]
-    [,transformFillGradients] [,transformStrokePatterns]
-  )
+```default
+app.activeDocument.graphItems[index].translate([deltaX] [,deltaY]
+  [,transformObjects] [,transformFillPatterns]
+  [,transformFillGradients] [,transformStrokePatterns]
+)
+```
 
 **Description**
 
-Repositions the art item relative to the current position, where ``deltaX`` is the horizontal offset and ``deltaY`` is the vertical offset.
+Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
 **Parameters**
 
-+-----------------------------+---------------------------+--------------------------------------+
-|          Parameter          |           Type            |             Description              |
-+=============================+===========================+======================================+
-| ``deltaX``                  | Number (double), optional | Horizontal offset                    |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``deltaY``                  | Number (double), optional | Vertical offset                      |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformObjects``        | Boolean, optional         | Whether to transform Objects         |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillPatterns``   | Boolean, optional         | Whether to transform Fill Patterns   |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillGradients``  | Boolean, optional         | Whether to transform Fill Gradients  |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformStrokePatterns`` | Boolean, optional         | Whether to transform Stroke Patterns |
-+-----------------------------+---------------------------+--------------------------------------+
+| Parameter                 | Type                      | Description                          |
+|---------------------------|---------------------------|--------------------------------------|
+| `deltaX`                  | Number (double), optional | Horizontal offset                    |
+| `deltaY`                  | Number (double), optional | Vertical offset                      |
+| `transformObjects`        | Boolean, optional         | Whether to transform Objects         |
+| `transformFillPatterns`   | Boolean, optional         | Whether to transform Fill Patterns   |
+| `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
+| `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/GraphItem.zOrder:
+<a id="jsobjref-graphitem-zorder"></a>
 
-GraphItem.zOrder()
-********************************************************************************
+### GraphItem.zOrder()
 
-``app.activeDocument.graphItems[index].zOrder(zOrderCmd)``
+`app.activeDocument.graphItems[index].zOrder(zOrderCmd)`
 
 **Description**
 
@@ -785,11 +705,9 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-+---------------+--------------------------------------------------+-----------------------------------+
-|   Parameter   |                       Type                       |            Description            |
-+===============+==================================================+===================================+
-| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | Stacking order arrangement method |
-+---------------+--------------------------------------------------+-----------------------------------+
+| Parameter   | Type                                                                             | Description                       |
+|-------------|----------------------------------------------------------------------------------|-----------------------------------|
+| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
 **Returns**
 

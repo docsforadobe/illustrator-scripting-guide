@@ -1,26 +1,22 @@
-.. _jsobjref/Views:
+<a id="jsobjref-views"></a>
 
-Views
-################################################################################
+# Views
 
-``app.activeDocument.views``
+`app.activeDocument.views`
 
 **Description**
 
-A collection of :ref:`jsobjref/View` objects in a document.
+A collection of [View](View.md#jsobjref-view) objects in a document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Views.length:
+<a id="jsobjref-views-length"></a>
 
-Views.length
-********************************************************************************
+### Views.length
 
-``app.activeDocument.views.length``
+`app.activeDocument.views.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ The number of objects in the collection
 
 Number; read-only.
 
-----
+---
 
-.. _jsobjref/Views.parent:
+<a id="jsobjref-views-parent"></a>
 
-Views.parent
-********************************************************************************
+### Views.parent
 
-``app.activeDocument.views.parent``
+`app.activeDocument.views.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The parent of this object.
 
 Object; read-only.
 
-----
+---
 
-.. _jsobjref/Views.typename:
+<a id="jsobjref-views-typename"></a>
 
-Views.typename
-********************************************************************************
+### Views.typename
 
-``app.activeDocument.views.typename``
+`app.activeDocument.views.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Views.index:
+<a id="jsobjref-views-index"></a>
 
-Views.index()
-********************************************************************************
+### Views.index()
 
-``app.activeDocument.views.index(itemKey)``
+`app.activeDocument.views.index(itemKey)`
 
 **Description**
 
@@ -83,12 +74,10 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/View`
+[View](View.md#jsobjref-view)

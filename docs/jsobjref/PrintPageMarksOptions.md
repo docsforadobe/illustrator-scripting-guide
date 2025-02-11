@@ -1,26 +1,22 @@
-.. _jsobjref/PrintPageMarksOptions:
+<a id="jsobjref-printpagemarksoptions"></a>
 
-PrintPageMarksOptions
-################################################################################
+# PrintPageMarksOptions
 
-``new PrintPageMarksOptions()``
+`new PrintPageMarksOptions()`
 
 **Description**
 
 The options for printing page marks.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PrintPageMarksOptions.bleedOffsetRect:
+<a id="jsobjref-printpagemarksoptions-bleedoffsetrect"></a>
 
-PrintPageMarksOptions.bleedOffsetRect
-********************************************************************************
+### PrintPageMarksOptions.bleedOffsetRect
 
-``printPageMarksOptions.bleedOffsetRect``
+`printPageMarksOptions.bleedOffsetRect`
 
 **Description**
 
@@ -30,33 +26,31 @@ The bleed offset rectangle.
 
 Array of 4 numbers
 
-----
+---
 
-.. _jsobjref/PrintPageMarksOptions.colorBars:
+<a id="jsobjref-printpagemarksoptions-colorbars"></a>
 
-PrintPageMarksOptions.colorBars
-********************************************************************************
+### PrintPageMarksOptions.colorBars
 
-``printPageMarksOptions.colorBars``
+`printPageMarksOptions.colorBars`
 
 **Description**
 
-If ``true``, enable printing of color bars.
+If `true`, enable printing of color bars.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintPageMarksOptions.marksOffsetRect:
+<a id="jsobjref-printpagemarksoptions-marksoffsetrect"></a>
 
-PrintPageMarksOptions.marksOffsetRect
-********************************************************************************
+### PrintPageMarksOptions.marksOffsetRect
 
-``printPageMarksOptions.marksOffsetRect``
+`printPageMarksOptions.marksOffsetRect`
 
 **Description**
 
@@ -66,90 +60,85 @@ The page marks offset rectangle.
 
 Array of 4 numbers
 
-----
+---
 
-.. _jsobjref/PrintPageMarksOptions.pageInfoMarks:
+<a id="jsobjref-printpagemarksoptions-pageinfomarks"></a>
 
-PrintPageMarksOptions.pageInfoMarks
-********************************************************************************
+### PrintPageMarksOptions.pageInfoMarks
 
-``printPageMarksOptions.pageInfoMarks``
+`printPageMarksOptions.pageInfoMarks`
 
 **Description**
 
-If ``true``, page info marks printing is enabled.
+If `true`, page info marks printing is enabled.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintPageMarksOptions.pageMarksType:
+<a id="jsobjref-printpagemarksoptions-pagemarkstype"></a>
 
-PrintPageMarksOptions.pageMarksType
-********************************************************************************
+### PrintPageMarksOptions.pageMarksType
 
-``printPageMarksOptions.pageMarksType``
+`printPageMarksOptions.pageMarksType`
 
 **Description**
 
 The page marks style.
 
-Default: ``PageMarksType.Roman``
+Default: `PageMarksType.Roman`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PageMarksTypes`
+[PageMarksTypes](scripting-constants.md#jsobjref-scripting-constants-pagemarkstypes)
 
-----
+---
 
-.. _jsobjref/PrintPageMarksOptions.registrationMarks:
+<a id="jsobjref-printpagemarksoptions-registrationmarks"></a>
 
-PrintPageMarksOptions.registrationMarks
-********************************************************************************
+### PrintPageMarksOptions.registrationMarks
 
-``printPageMarksOptions.registrationMarks``
+`printPageMarksOptions.registrationMarks`
 
 **Description**
 
-If ``true``, registration marks should be printed.
+If `true`, registration marks should be printed.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintPageMarksOptions.trimMarks:
+<a id="jsobjref-printpagemarksoptions-trimmarks"></a>
 
-PrintPageMarksOptions.trimMarks
-********************************************************************************
+### PrintPageMarksOptions.trimMarks
 
-``printPageMarksOptions.trimMarks``
+`printPageMarksOptions.trimMarks`
 
 **Description**
 
-If ``true``, trim marks should be printed.
+If `true`, trim marks should be printed.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintPageMarksOptions.trimMarksWeight:
+<a id="jsobjref-printpagemarksoptions-trimmarksweight"></a>
 
-PrintPageMarksOptions.trimMarksWeight
-********************************************************************************
+### PrintPageMarksOptions.trimMarksWeight
 
-``printPageMarksOptions.trimMarksWeight``
+`printPageMarksOptions.trimMarksWeight`
 
 **Description**
 
@@ -161,14 +150,13 @@ Default: 0.125
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrintPageMarksOptions.typename:
+<a id="jsobjref-printpagemarksoptions-typename"></a>
 
-PrintPageMarksOptions.typename
-********************************************************************************
+### PrintPageMarksOptions.typename
 
-``printPageMarksOptions.typename``
+`printPageMarksOptions.typename`
 
 **Description**
 
@@ -178,29 +166,25 @@ The class name of the object.
 
 String; read-only.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Setting page mark printing options
-********************************************************************************
+### Setting page mark printing options
 
-::
+```default
+// Creates a PrintPageMarksOptions object, assigns it
+// to a PrintOptions object, then prints the current document.
+var docRef = activeDocument;
+var pageMarkOptions= new PrintPageMarksOptions();
 
-  // Creates a PrintPageMarksOptions object, assigns it
-  // to a PrintOptions object, then prints the current document.
-  var docRef = activeDocument;
-  var pageMarkOptions= new PrintPageMarksOptions();
+var options = new PrintOptions();
+options.pageMarksOptions = pageMarkOptions;
 
-  var options = new PrintOptions();
-  options.pageMarksOptions = pageMarkOptions;
+pageMarkOptions.colorBars = true;
+pageMarkOptions.pageInfoMarks = true;
+pageMarkOptions.registrationMarks = true;
+pageMarkOptions.trimMarks = true;
 
-  pageMarkOptions.colorBars = true;
-  pageMarkOptions.pageInfoMarks = true;
-  pageMarkOptions.registrationMarks = true;
-  pageMarkOptions.trimMarks = true;
-
-  docRef.print(options);
-
+docRef.print(options);
+```

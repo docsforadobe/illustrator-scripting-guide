@@ -1,26 +1,22 @@
-.. _jsobjref/PPDFile:
+<a id="jsobjref-ppdfile"></a>
 
-PPDFile
-################################################################################
+# PPDFile
 
-``app.PPDFileList[index``
+`app.PPDFileList[index`
 
 **Description**
 
 Associates file information with a PostScript Printer Description (PPD) file.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PPDFile.name:
+<a id="jsobjref-ppdfile-name"></a>
 
-PPDFile.name
-********************************************************************************
+### PPDFile.name
 
-``app.PPDFileList[index].name``
+`app.PPDFileList[index].name`
 
 **Description**
 
@@ -30,14 +26,13 @@ The PPD model name.
 
 String
 
-----
+---
 
-.. _jsobjref/PPDFile.PPDInfo:
+<a id="jsobjref-ppdfile-ppdinfo"></a>
 
-PPDFile.PPDInfo
-********************************************************************************
+### PPDFile.PPDInfo
 
-``app.PPDFileList[index].PPDInfo``
+`app.PPDFileList[index].PPDInfo`
 
 **Description**
 
@@ -45,16 +40,15 @@ The PPD file information.
 
 **Type**
 
-:ref:`jsobjref/PPDFileInfo`
+[PPDFileInfo](PPDFileInfo.md#jsobjref-ppdfileinfo)
 
-----
+---
 
-.. _jsobjref/PPDFile.typename:
+<a id="jsobjref-ppdfile-typename"></a>
 
-PPDFile.typename
-********************************************************************************
+### PPDFile.typename
 
-``app.PPDFileList[index].typename``
+`app.PPDFileList[index].typename`
 
 **Description**
 

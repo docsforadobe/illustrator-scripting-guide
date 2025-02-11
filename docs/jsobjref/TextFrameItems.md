@@ -1,26 +1,22 @@
-.. _jsobjref/TextFrameItems:
+<a id="jsobjref-textframeitems"></a>
 
-TextFrameItems
-################################################################################
+# TextFrameItems
 
-``app.activeDocument.textFrames``
+`app.activeDocument.textFrames`
 
 **Description**
 
-The collection of :ref:`jsobjref/TextFrameItem` objects in the document.
+The collection of [TextFrameItem](TextFrameItem.md#jsobjref-textframeitem) objects in the document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/TextFrameItems.length:
+<a id="jsobjref-textframeitems-length"></a>
 
-TextFrameItems.length
-********************************************************************************
+### TextFrameItems.length
 
-``app.activeDocument.textFrames.length``
+`app.activeDocument.textFrames.length`
 
 **Description**
 
@@ -30,31 +26,29 @@ The number of elements in the collection.
 
 Number; read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItems.parent:
+<a id="jsobjref-textframeitems-parent"></a>
 
-TextFrameItems.parent
-********************************************************************************
+### TextFrameItems.parent
 
-``app.activeDocument.textFrames.parent``
+`app.activeDocument.textFrames.parent`
 
 **Description**
 
-The object's container.
+The object’s container.
 
 **Type**
 
 Object; read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItems.typename:
+<a id="jsobjref-textframeitems-typename"></a>
 
-TextFrameItems.typename
-********************************************************************************
+### TextFrameItems.typename
 
-``app.activeDocument.textFrames.typename``
+`app.activeDocument.textFrames.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/TextFrameItems.add:
+<a id="jsobjref-textframeitems-add"></a>
 
-TextFrameItems.add()
-********************************************************************************
+### TextFrameItems.add()
 
-``app.activeDocument.textFrames.add()``
+`app.activeDocument.textFrames.add()`
 
 **Description**
 
@@ -83,16 +74,15 @@ Creates a point text frame item.
 
 **Returns**
 
-:ref:`jsobjref/TextFrameItem`
+[TextFrameItem](TextFrameItem.md#jsobjref-textframeitem)
 
-----
+---
 
-.. _jsobjref/TextFrameItems.areaText:
+<a id="jsobjref-textframeitems-areatext"></a>
 
-TextFrameItems.areaText()
-********************************************************************************
+### TextFrameItems.areaText()
 
-``app.activeDocument.textFrames.areaText(textPath[, orientation][, baseFrame][, postFix])``
+`app.activeDocument.textFrames.areaText(textPath[, orientation][, baseFrame][, postFix])`
 
 **Description**
 
@@ -100,30 +90,24 @@ Creates an area text frame item.
 
 **Parameters**
 
-+-----------------+---------------------------------------------------------------+---------------------------------------------+
-|    Parameter    |                             Type                              |                 Description                 |
-+=================+===============================================================+=============================================+
-| ``textPath``    | :ref:`jsobjref/PathItem`                                      | Path item to use                            |
-+-----------------+---------------------------------------------------------------+---------------------------------------------+
-| ``orientation`` | :ref:`jsobjref/scripting-constants.TextOrientation`, optional | Orientation of text                         |
-+-----------------+---------------------------------------------------------------+---------------------------------------------+
-| ``baseFrame``   | :ref:`jsobjref/TextFrameItem`, optional                       | Text frame to use                           |
-+-----------------+---------------------------------------------------------------+---------------------------------------------+
-| ``postFix``     | Boolean, optional                                             | Whether to prefix or postfix the text frame |
-+-----------------+---------------------------------------------------------------+---------------------------------------------+
+| Parameter     | Type                                                                                             | Description                                 |
+|---------------|--------------------------------------------------------------------------------------------------|---------------------------------------------|
+| `textPath`    | [PathItem](PathItem.md#jsobjref-pathitem)                                                        | Path item to use                            |
+| `orientation` | [TextOrientation](scripting-constants.md#jsobjref-scripting-constants-textorientation), optional | Orientation of text                         |
+| `baseFrame`   | [TextFrameItem](TextFrameItem.md#jsobjref-textframeitem), optional                               | Text frame to use                           |
+| `postFix`     | Boolean, optional                                                                                | Whether to prefix or postfix the text frame |
 
 **Returns**
 
-:ref:`jsobjref/TextFrameItem`
+[TextFrameItem](TextFrameItem.md#jsobjref-textframeitem)
 
-----
+---
 
-.. _jsobjref/TextFrameItems.getByName:
+<a id="jsobjref-textframeitems-getbyname"></a>
 
-TextFrameItems.getByName()
-********************************************************************************
+### TextFrameItems.getByName()
 
-``app.activeDocument.textFrames.getByName(name)``
+`app.activeDocument.textFrames.getByName(name)`
 
 **Description**
 
@@ -131,24 +115,21 @@ Get the first element in the collection with the provided name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/TextFrameItem`
+[TextFrameItem](TextFrameItem.md#jsobjref-textframeitem)
 
-----
+---
 
-.. _jsobjref/TextFrameItems.index:
+<a id="jsobjref-textframeitems-index"></a>
 
-TextFrameItems.index()
-********************************************************************************
+### TextFrameItems.index()
 
-``app.activeDocument.textFrames.index(itemKey)``
+`app.activeDocument.textFrames.index(itemKey)`
 
 **Description**
 
@@ -156,24 +137,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/TextFrameItem`
+[TextFrameItem](TextFrameItem.md#jsobjref-textframeitem)
 
-----
+---
 
-.. _jsobjref/TextFrameItems.pathText:
+<a id="jsobjref-textframeitems-pathtext"></a>
 
-TextFrameItems.pathText()
-********************************************************************************
+### TextFrameItems.pathText()
 
-``app.activeDocument.textFrames.pathText(textPath[,startTValue][,endTValue][, orientation][, baseFrame][, postFix])``
+`app.activeDocument.textFrames.pathText(textPath[,startTValue][,endTValue][, orientation][, baseFrame][, postFix])`
 
 **Description**
 
@@ -181,34 +159,26 @@ Creates an on-path text frame item.
 
 **Parameters**
 
-+-----------------+---------------------------------------------------------------+---------------------------------------------+
-|    Parameter    |                             Type                              |                 Description                 |
-+=================+===============================================================+=============================================+
-| ``textPath``    | :ref:`jsobjref/PathItem`                                      | Path item to use                            |
-+-----------------+---------------------------------------------------------------+---------------------------------------------+
-| ``startTValue`` | Number (double)                                               | Start position of text along the path       |
-+-----------------+---------------------------------------------------------------+---------------------------------------------+
-| ``endTValue``   | Number (double)                                               | End position of text along the path         |
-+-----------------+---------------------------------------------------------------+---------------------------------------------+
-| ``orientation`` | :ref:`jsobjref/scripting-constants.TextOrientation`, optional | Orientation of text                         |
-+-----------------+---------------------------------------------------------------+---------------------------------------------+
-| ``baseFrame``   | :ref:`jsobjref/TextFrameItem`, optional                       | Text frame to use                           |
-+-----------------+---------------------------------------------------------------+---------------------------------------------+
-| ``postFix``     | Boolean, optional                                             | Whether to prefix or postfix the text frame |
-+-----------------+---------------------------------------------------------------+---------------------------------------------+
+| Parameter     | Type                                                                                             | Description                                 |
+|---------------|--------------------------------------------------------------------------------------------------|---------------------------------------------|
+| `textPath`    | [PathItem](PathItem.md#jsobjref-pathitem)                                                        | Path item to use                            |
+| `startTValue` | Number (double)                                                                                  | Start position of text along the path       |
+| `endTValue`   | Number (double)                                                                                  | End position of text along the path         |
+| `orientation` | [TextOrientation](scripting-constants.md#jsobjref-scripting-constants-textorientation), optional | Orientation of text                         |
+| `baseFrame`   | [TextFrameItem](TextFrameItem.md#jsobjref-textframeitem), optional                               | Text frame to use                           |
+| `postFix`     | Boolean, optional                                                                                | Whether to prefix or postfix the text frame |
 
 **Returns**
 
-:ref:`jsobjref/TextFrameItem`
+[TextFrameItem](TextFrameItem.md#jsobjref-textframeitem)
 
-----
+---
 
-.. _jsobjref/TextFrameItems.pointText:
+<a id="jsobjref-textframeitems-pointtext"></a>
 
-TextFrameItems.pointText()
-********************************************************************************
+### TextFrameItems.pointText()
 
-``app.activeDocument.textFrames.pointText(anchor[, orientation])``
+`app.activeDocument.textFrames.pointText(anchor[, orientation])`
 
 **Description**
 
@@ -216,26 +186,22 @@ Creates a point text frame item.
 
 **Parameters**
 
-+-----------------+---------------------------------------------------------------+---------------------+
-|    Parameter    |                             Type                              |     Description     |
-+=================+===============================================================+=====================+
-| ``anchor``      | Array of 2 numbers                                            | Point text anchor   |
-+-----------------+---------------------------------------------------------------+---------------------+
-| ``orientation`` | :ref:`jsobjref/scripting-constants.TextOrientation`, optional | Orientation of text |
-+-----------------+---------------------------------------------------------------+---------------------+
+| Parameter     | Type                                                                                             | Description         |
+|---------------|--------------------------------------------------------------------------------------------------|---------------------|
+| `anchor`      | Array of 2 numbers                                                                               | Point text anchor   |
+| `orientation` | [TextOrientation](scripting-constants.md#jsobjref-scripting-constants-textorientation), optional | Orientation of text |
 
 **Returns**
 
-:ref:`jsobjref/TextFrameItem`
+[TextFrameItem](TextFrameItem.md#jsobjref-textframeitem)
 
-----
+---
 
-.. _jsobjref/TextFrameItems.removeAll:
+<a id="jsobjref-textframeitems-removeall"></a>
 
-TextFrameItems.removeAll()
-********************************************************************************
+### TextFrameItems.removeAll()
 
-``app.activeDocument.textFrames.removeAll()``
+`app.activeDocument.textFrames.removeAll()`
 
 **Description**
 
@@ -245,44 +211,41 @@ Deletes all elements in this collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Creating and modifying text frames
-********************************************************************************
+### Creating and modifying text frames
 
-::
+```default
+// Creates a document with text frames displaying path, area and point
+// text, changes the content of each frame then deletes the 2nd frame
 
-   // Creates a document with text frames displaying path, area and point
-   // text, changes the content of each frame then deletes the 2nd frame
+// create a new document
+var docRef = documents.add();
 
-   // create a new document
-   var docRef = documents.add();
+// create 3 new textFrames (area, line, point)
+// Area Text
+var rectRef = docRef.pathItems.rectangle(700, 50, 100, 100); var areaTextRef = docRef.textFrames.areaText(rectRef); areaTextRef.contents = "TextFrame #1";
+areaTextRef.selected = true;
 
-   // create 3 new textFrames (area, line, point)
-   // Area Text
-   var rectRef = docRef.pathItems.rectangle(700, 50, 100, 100); var areaTextRef = docRef.textFrames.areaText(rectRef); areaTextRef.contents = "TextFrame #1";
-   areaTextRef.selected = true;
+// Line Text
+var lineRef = docRef.pathItems.add();
+lineRef.setEntirePath( Array(Array(200, 700), Array(300, 550) ) ); var pathTextRef = docRef.textFrames.pathText(lineRef); pathTextRef.contents = "TextFrame #2";
+pathTextRef.selected = true;
 
-   // Line Text
-   var lineRef = docRef.pathItems.add();
-   lineRef.setEntirePath( Array(Array(200, 700), Array(300, 550) ) ); var pathTextRef = docRef.textFrames.pathText(lineRef); pathTextRef.contents = "TextFrame #2";
-   pathTextRef.selected = true;
+// Point Text
+var pointTextRef = docRef.textFrames.add(); pointTextRef.contents = "TextFrame #3"; pointTextRef.top = 700;
+pointTextRef.left = 400; pointTextRef.selected = true; redraw();
 
-   // Point Text
-   var pointTextRef = docRef.textFrames.add(); pointTextRef.contents = "TextFrame #3"; pointTextRef.top = 700;
-   pointTextRef.left = 400; pointTextRef.selected = true; redraw();
+// count the TextFrames
+var iCount = docRef.textFrames.length;
+var sText = "There are " + iCount + " TextFrames.\r" sText += "Changing contents of each TextFrame.";
 
-   // count the TextFrames
-   var iCount = docRef.textFrames.length;
-   var sText = "There are " + iCount + " TextFrames.\r" sText += "Changing contents of each TextFrame.";
+// change the content of each docRef.textFrames[0].contents = "Area TextFrame."; docRef.textFrames[1].contents = "Path TextFrame."; docRef.textFrames[2].contents = "Point TextFrame."; redraw();
+docRef.textFrames[1].remove(); redraw();
 
-   // change the content of each docRef.textFrames[0].contents = "Area TextFrame."; docRef.textFrames[1].contents = "Path TextFrame."; docRef.textFrames[2].contents = "Point TextFrame."; redraw();
-   docRef.textFrames[1].remove(); redraw();
+// count again
 
-   // count again
-
-   var iCount = docRef.textFrames.length;
+var iCount = docRef.textFrames.length;
+```

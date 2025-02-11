@@ -1,26 +1,22 @@
-.. _jsobjref/Gradient:
+<a id="jsobjref-gradient"></a>
 
-Gradient
-################################################################################
+# Gradient
 
-``gradient``
+`gradient`
 
 **Description**
 
 A gradient definition contained in a document. Scripts can create new gradients.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Gradient.gradientStops:
+<a id="jsobjref-gradient-gradientstops"></a>
 
-Gradient.gradientStops
-********************************************************************************
+### Gradient.gradientStops
 
-``gradient.gradientStops``
+`gradient.gradientStops`
 
 **Description**
 
@@ -28,16 +24,15 @@ The gradient stops contained in this gradient.
 
 **Type**
 
-:ref:`jsobjref/GradientStops`, read-only.
+[GradientStops](GradientStops.md#jsobjref-gradientstops), read-only.
 
-----
+---
 
-.. _jsobjref/Gradient.name:
+<a id="jsobjref-gradient-name"></a>
 
-Gradient.name
-********************************************************************************
+### Gradient.name
 
-``gradient.name``
+`gradient.name`
 
 **Description**
 
@@ -47,14 +42,13 @@ The gradient’s name.
 
 String.
 
-----
+---
 
-.. _jsobjref/Gradient.parent:
+<a id="jsobjref-gradient-parent"></a>
 
-Gradient.parent
-********************************************************************************
+### Gradient.parent
 
-``gradient.parent``
+`gradient.parent`
 
 **Description**
 
@@ -62,16 +56,15 @@ The document that contains this gradient.
 
 **Type**
 
-:ref:`jsobjref/Document`, read-only.
+[Document](Document.md#jsobjref-document), read-only.
 
-----
+---
 
-.. _jsobjref/Gradient.type:
+<a id="jsobjref-gradient-type"></a>
 
-Gradient.type
-********************************************************************************
+### Gradient.type
 
-``gradient.type``
+`gradient.type`
 
 **Description**
 
@@ -79,16 +72,15 @@ The kind of the gradient, either radial or linear.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.GradientType`
+[GradientType](scripting-constants.md#jsobjref-scripting-constants-gradienttype)
 
-----
+---
 
-.. _jsobjref/Gradient.typename:
+<a id="jsobjref-gradient-typename"></a>
 
-Gradient.typename
-********************************************************************************
+### Gradient.typename
 
-``gradient.typename``
+`gradient.typename`
 
 **Description**
 
@@ -98,18 +90,15 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Gradient.remove:
+<a id="jsobjref-gradient-remove"></a>
 
-Gradient.remove()
-********************************************************************************
+### Gradient.remove()
 
-``app.activeDocument.gradients[index].remove()``
+`app.activeDocument.gradients[index].remove()`
 
 **Description**
 
@@ -119,52 +108,49 @@ Removes the referenced object from the document.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Creating and applying a gradient
-********************************************************************************
+### Creating and applying a gradient
 
-::
+```default
+// Creates a new gradient in current document then applies the gradient to the frontmost path item
 
-  // Creates a new gradient in current document then applies the gradient to the frontmost path item
+if (app.documents.length > 0) {
+  // Create a color for both ends of the gradient
+  var startColor = new RGBColor();
+  startColor.red = 0;
+  startColor.green = 100;
+  startColor.blue = 255;
 
-  if (app.documents.length > 0) {
-    // Create a color for both ends of the gradient
-    var startColor = new RGBColor();
-    startColor.red = 0;
-    startColor.green = 100;
-    startColor.blue = 255;
+  var endColor = new RGBColor();
+  endColor.red = 220;
+  endColor.green = 0;
+  endColor.blue = 100;
 
-    var endColor = new RGBColor();
-    endColor.red = 220;
-    endColor.green = 0;
-    endColor.blue = 100;
+  // Create a new gradient
+  // A new gradient always has 2 stops
+  var newGradient = app.activeDocument.gradients.add();
+  newGradient.name = "NewGradient";
+  newGradient.type = GradientType.LINEAR;
 
-    // Create a new gradient
-    // A new gradient always has 2 stops
-    var newGradient = app.activeDocument.gradients.add();
-    newGradient.name = "NewGradient";
-    newGradient.type = GradientType.LINEAR;
+  // Modify the first gradient stop
+  newGradient.gradientStops[0].rampPoint = 30;
+  newGradient.gradientStops[0].midPoint = 60;
+  newGradient.gradientStops[0].color = startColor;
 
-    // Modify the first gradient stop
-    newGradient.gradientStops[0].rampPoint = 30;
-    newGradient.gradientStops[0].midPoint = 60;
-    newGradient.gradientStops[0].color = startColor;
+  // Modify the last gradient stop
+  newGradient.gradientStops[1].rampPoint = 80;
+  newGradient.gradientStops[1].color = endColor;
 
-    // Modify the last gradient stop
-    newGradient.gradientStops[1].rampPoint = 80;
-    newGradient.gradientStops[1].color = endColor;
+  // construct an Illustrator.GradientColor object referring to the newly created gradient
+  var colorOfGradient = new GradientColor();
+  colorOfGradient.gradient = newGradient;
 
-    // construct an Illustrator.GradientColor object referring to the newly created gradient
-    var colorOfGradient = new GradientColor();
-    colorOfGradient.gradient = newGradient;
-
-    // get first path item, apply new gradient as its fill
-    var topPath = app.activeDocument.pathItems[0];
-    topPath.filled = true;
-    topPath.fillColor = colorOfGradient;
-  }
+  // get first path item, apply new gradient as its fill
+  var topPath = app.activeDocument.pathItems[0];
+  topPath.filled = true;
+  topPath.fillColor = colorOfGradient;
+}
+```

@@ -1,49 +1,44 @@
-.. _introduction/viewingTheObjectModel:
+<a id="introduction-viewingtheobjectmodel"></a>
 
-Viewing the object model
-################################################################################
+# Viewing the object model
 
 Each of the supported scripting languages provides a facility for viewing the scripting objects defined by Illustrator, with reference details.
 
-----
+---
 
-.. _introduction/viewingTheObjectModel/javascript:
+<a id="introduction-viewingtheobjectmodel-javascript"></a>
 
-Viewing the JavaScript object model
-================================================================================
+## Viewing the JavaScript object model
 
 To view the JavaScript object model for Illustrator, follow these steps:
 
 In a default Adobe installation, the ESTK is in the following location:
 
-=======  ===================================================================================
-Windows  ``\system drive\Program Files\Adobe\Adobe Utilities CC\ExtendScript Toolkit CC``
-Mac OS   ``\system drive\Applications\Utilities\Adobe Utilities CC\ExtendScript Toolkit CC``
-=======  ===================================================================================
-
+| Windows   | `\system drive\Program Files\Adobe\Adobe Utilities CC\ExtendScript Toolkit CC`    |
+|-----------|-----------------------------------------------------------------------------------|
+| Mac OS    | `\system drive\Applications\Utilities\Adobe Utilities CC\ExtendScript Toolkit CC` |
 1. Start the ESTK.
 2. In the ESTK, choose Help > Object Model Viewer.
 3. In the Object Model Viewer window, select Adobe lllustrator CC Type Library from the Browser drop-down list.
 
-Several extended sample scripts are in the ``/Scripting/Sample Scripts/`` folder in your Illustrator CC installation directory.
+Several extended sample scripts are in the `/Scripting/Sample Scripts/` folder in your Illustrator CC installation directory.
 
-You also can view script samples and information about individual classes, objects, properties, methods, and parameters in :ref:`Illustrator Scripting Reference: Javascript <scriptingJavascript/forMoreInfo>`.
+You also can view script samples and information about individual classes, objects, properties, methods, and parameters in [Illustrator Scripting Reference: Javascript](../scriptingJavascript/forMoreInfo.md#scriptingjavascript-formoreinfo).
 
-----
+---
 
-.. _introduction/viewingTheObjectModel/applescript:
+<a id="introduction-viewingtheobjectmodel-applescript"></a>
 
-Viewing the AppleScript object model
-================================================================================
+## Viewing the AppleScript object model
 
 Apple provides a Script Editor with all Mac OS systems. You can use Script Editor to view the AppleScript dictionary that describes Illustrator objects and commands.
 
 For details of how to use Script Editor, see Script Editor Help.
 
-.. note::
-  In a default Mac OS installation, Script Editor is in ``Applications/AppleScript/Script Editor``
+#### NOTE
+In a default Mac OS installation, Script Editor is in `Applications/AppleScript/Script Editor`
 
-  If you cannot find the Script Editor application, you must reinstall it from your Mac OS system CD.
+If you cannot find the Script Editor application, you must reinstall it from your Mac OS system CD.
 
 1. Start Script Editor.
 2. Choose File > Open Dictionary. Script Editor displays an Open Dictionary dialog.
@@ -51,16 +46,15 @@ For details of how to use Script Editor, see Script Editor Help.
 
 Script Editor displays a list of the Illustrator objects and commands, which include the properties and elements associated with each object and the parameters for each command.
 
-Several extended sample scripts are in the ``/Scripting/Sample Scripts/`` folder in your Illustrator CC installation directory.
+Several extended sample scripts are in the `/Scripting/Sample Scripts/` folder in your Illustrator CC installation directory.
 
-You also can view script samples and information about individual classes, objects, properties, methods, and parameters in :ref:`Illustrator Scripting Reference: Applescript <scriptingApplescript/forMoreInfo>`.
+You also can view script samples and information about individual classes, objects, properties, methods, and parameters in [Illustrator Scripting Reference: Applescript](../scriptingApplescript/forMoreInfo.md#scriptingapplescript-formoreinfo).
 
-----
+---
 
-.. _introduction/viewingTheObjectModel/vbscript:
+<a id="introduction-viewingtheobjectmodel-vbscript"></a>
 
-Viewing the VBScript object model
-================================================================================
+## Viewing the VBScript object model
 
 VBScript provides a type library you can use to view Illustrator object properties and methods. This procedure explains how to view the type library through any Microsoft Office program. Your VBScript editor probably provides access to the library. For information see your editor’s Help.
 
@@ -68,8 +62,8 @@ VBScript provides a type library you can use to view Illustrator object properti
 2. In the Visual Basic Editor, choose Tools > References.
 3. In the dialog that appears, select the check box for Adobe lllustrator CC Type Library, and click OK.
 4. Choose View > Object Browser, to display the Object Browser window.
-5. Choose "Illustrator" from the list of open libraries in the top-left pull-down menu of the Object Browser window.
+5. Choose “Illustrator” from the list of open libraries in the top-left pull-down menu of the Object Browser window.
 
-Several extended sample scripts are in the ``/Scripting/Sample Scripts/`` folder in your lllustrator CC installation directory.
+Several extended sample scripts are in the `/Scripting/Sample Scripts/` folder in your lllustrator CC installation directory.
 
-You also can view script samples and information about individual classes, objects, properties, methods, and parameters in :ref:`Illustrator Scripting Reference: VBScript <scriptingVBScript/forMoreInfo>`.
+You also can view script samples and information about individual classes, objects, properties, methods, and parameters in [Illustrator Scripting Reference: VBScript](../scriptingVBScript/forMoreInfo.md#scriptingvbscript-formoreinfo).

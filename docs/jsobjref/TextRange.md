@@ -1,26 +1,22 @@
-.. _jsobjref/TextRange:
+<a id="jsobjref-textrange"></a>
 
-TextRange
-################################################################################
+# TextRange
 
-``app.activeDocument.textFrames[index].textRange``
+`app.activeDocument.textFrames[index].textRange`
 
 **Description**
 
 A range of text in a specific text art item. TextRange gives you access to the text contained in text art items.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/TextRange.characterAttributes:
+<a id="jsobjref-textrange-characterattributes"></a>
 
-TextRange.characterAttributes
-********************************************************************************
+### TextRange.characterAttributes
 
-``app.activeDocument.textFrames[index].textRange.characterAttributes``
+`app.activeDocument.textFrames[index].textRange.characterAttributes`
 
 **Description**
 
@@ -28,16 +24,15 @@ The character properties for the text range.
 
 **Type**
 
-:ref:`jsobjref/CharacterAttributes`, read-only.
+[CharacterAttributes](CharacterAttributes.md#jsobjref-characterattributes), read-only.
 
-----
+---
 
-.. _jsobjref/TextRange.characterOffset:
+<a id="jsobjref-textrange-characteroffset"></a>
 
-TextRange.characterOffset
-********************************************************************************
+### TextRange.characterOffset
 
-``app.activeDocument.textFrames[index].textRange.characterOffset``
+`app.activeDocument.textFrames[index].textRange.characterOffset`
 
 **Description**
 
@@ -47,14 +42,13 @@ Offset of the first character.
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/TextRange.characters:
+<a id="jsobjref-textrange-characters"></a>
 
-TextRange.characters
-********************************************************************************
+### TextRange.characters
 
-``app.activeDocument.textFrames[index].textRange.characters``
+`app.activeDocument.textFrames[index].textRange.characters`
 
 **Description**
 
@@ -62,16 +56,15 @@ All the characters in this text range.
 
 **Type**
 
-:ref:`jsobjref/Characters`, read-only.
+[Characters](Characters.md#jsobjref-characters), read-only.
 
-----
+---
 
-.. _jsobjref/TextRange.characterStyles:
+<a id="jsobjref-textrange-characterstyles"></a>
 
-TextRange.characterStyles
-********************************************************************************
+### TextRange.characterStyles
 
-``app.activeDocument.textFrames[index].textRange.characterStyles``
+`app.activeDocument.textFrames[index].textRange.characterStyles`
 
 **Description**
 
@@ -79,16 +72,15 @@ All referenced character styles in the text range.
 
 **Type**
 
-:ref:`jsobjref/CharacterStyles`, read-only.
+[CharacterStyles](CharacterStyles.md#jsobjref-characterstyles), read-only.
 
-----
+---
 
-.. _jsobjref/TextRange.contents:
+<a id="jsobjref-textrange-contents"></a>
 
-TextRange.contents
-********************************************************************************
+### TextRange.contents
 
-``app.activeDocument.textFrames[index].textRange.contents``
+`app.activeDocument.textFrames[index].textRange.contents`
 
 **Description**
 
@@ -98,14 +90,13 @@ The text string.
 
 String
 
-----
+---
 
-.. _jsobjref/TextRange.end:
+<a id="jsobjref-textrange-end"></a>
 
-TextRange.end
-********************************************************************************
+### TextRange.end
 
-``app.activeDocument.textFrames[index].textRange.end``
+`app.activeDocument.textFrames[index].textRange.end`
 
 **Description**
 
@@ -115,14 +106,13 @@ End index of the text range.
 
 Int32
 
-----
+---
 
-.. _jsobjref/TextRange.insertionPoints:
+<a id="jsobjref-textrange-insertionpoints"></a>
 
-TextRange.insertionPoints
-********************************************************************************
+### TextRange.insertionPoints
 
-``app.activeDocument.textFrames[index].textRange.insertionPoints``
+`app.activeDocument.textFrames[index].textRange.insertionPoints`
 
 **Description**
 
@@ -130,16 +120,15 @@ All the insertion points in this text range.
 
 **Type**
 
-:ref:`jsobjref/InsertionPoints`, read-only.
+[InsertionPoints](InsertionPoints.md#jsobjref-insertionpoints), read-only.
 
-----
+---
 
-.. _jsobjref/TextRange.kerning:
+<a id="jsobjref-textrange-kerning"></a>
 
-TextRange.kerning
-********************************************************************************
+### TextRange.kerning
 
-``app.activeDocument.textFrames[index].textRange.kerning``
+`app.activeDocument.textFrames[index].textRange.kerning`
 
 **Description**
 
@@ -149,14 +138,13 @@ Controls the spacing between two characters, in thousandths of an em. An integer
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/TextRange.length:
+<a id="jsobjref-textrange-length"></a>
 
-TextRange.length
-********************************************************************************
+### TextRange.length
 
-``app.activeDocument.textFrames[index].textRange.length``
+`app.activeDocument.textFrames[index].textRange.length`
 
 **Description**
 
@@ -166,14 +154,13 @@ The length (in characters). Minimum: 0
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/TextRange.lines:
+<a id="jsobjref-textrange-lines"></a>
 
-TextRange.lines
-********************************************************************************
+### TextRange.lines
 
-``app.activeDocument.textFrames[index].textRange.lines``
+`app.activeDocument.textFrames[index].textRange.lines`
 
 **Description**
 
@@ -181,16 +168,15 @@ All the lines in this text range.
 
 **Type**
 
-:ref:`jsobjref/Lines`, read-only.
+[Lines](Lines.md#jsobjref-lines), read-only.
 
-----
+---
 
-.. _jsobjref/TextRange.paragraphAttributes:
+<a id="jsobjref-textrange-paragraphattributes"></a>
 
-TextRange.paragraphAttributes
-********************************************************************************
+### TextRange.paragraphAttributes
 
-``app.activeDocument.textFrames[index].textRange.paragraphAttributes``
+`app.activeDocument.textFrames[index].textRange.paragraphAttributes`
 
 **Description**
 
@@ -198,16 +184,15 @@ The paragraph properties for the text range.
 
 **Type**
 
-:ref:`jsobjref/ParagraphAttributes`, read-only.
+[ParagraphAttributes](ParagraphAttributes.md#jsobjref-paragraphattributes), read-only.
 
-----
+---
 
-.. _jsobjref/TextRange.paragraphs:
+<a id="jsobjref-textrange-paragraphs"></a>
 
-TextRange.paragraphs
-********************************************************************************
+### TextRange.paragraphs
 
-``app.activeDocument.textFrames[index].textRange.paragraphs``
+`app.activeDocument.textFrames[index].textRange.paragraphs`
 
 **Description**
 
@@ -215,16 +200,15 @@ All the paragraphs in this text range.
 
 **Type**
 
-:ref:`jsobjref/Paragraphs`, read-only.
+[Paragraphs](Paragraphs.md#jsobjref-paragraphs), read-only.
 
-----
+---
 
-.. _jsobjref/TextRange.paragraphStyles:
+<a id="jsobjref-textrange-paragraphstyles"></a>
 
-TextRange.paragraphStyles
-********************************************************************************
+### TextRange.paragraphStyles
 
-``app.activeDocument.textFrames[index].textRange.paragraphStyles``
+`app.activeDocument.textFrames[index].textRange.paragraphStyles`
 
 **Description**
 
@@ -232,16 +216,15 @@ All referenced paragraph styles in the text range.
 
 **Type**
 
-:ref:`jsobjref/ParagraphStyles`, read-only.
+[ParagraphStyles](ParagraphStyles.md#jsobjref-paragraphstyles), read-only.
 
-----
+---
 
-.. _jsobjref/TextRange.parent:
+<a id="jsobjref-textrange-parent"></a>
 
-TextRange.parent
-********************************************************************************
+### TextRange.parent
 
-``app.activeDocument.textFrames[index].textRange.parent``
+`app.activeDocument.textFrames[index].textRange.parent`
 
 **Description**
 
@@ -249,16 +232,15 @@ The object’s container.
 
 **Type**
 
-:ref:`jsobjref/TextRange`, read-only.
+[TextRange](#jsobjref-textrange), read-only.
 
-----
+---
 
-.. _jsobjref/TextRange.start:
+<a id="jsobjref-textrange-start"></a>
 
-TextRange.start
-********************************************************************************
+### TextRange.start
 
-``app.activeDocument.textFrames[index].textRange.start``
+`app.activeDocument.textFrames[index].textRange.start`
 
 **Description**
 
@@ -268,14 +250,13 @@ Start index of the text range.
 
 Int32
 
-----
+---
 
-.. _jsobjref/TextRange.story:
+<a id="jsobjref-textrange-story"></a>
 
-TextRange.story
-********************************************************************************
+### TextRange.story
 
-``app.activeDocument.textFrames[index].textRange.story``
+`app.activeDocument.textFrames[index].textRange.story`
 
 **Description**
 
@@ -283,16 +264,15 @@ The story to which the text range belongs.
 
 **Type**
 
-:ref:`jsobjref/Story`, read-only.
+[Story](Story.md#jsobjref-story), read-only.
 
-----
+---
 
-.. _jsobjref/TextRange.textRanges:
+<a id="jsobjref-textrange-textranges"></a>
 
-TextRange.textRanges
-********************************************************************************
+### TextRange.textRanges
 
-``app.activeDocument.textFrames[index].textRange.textRanges``
+`app.activeDocument.textFrames[index].textRange.textRanges`
 
 **Description**
 
@@ -300,16 +280,15 @@ All of the text in this text range.
 
 **Type**
 
-:ref:`jsobjref/TextRanges`, read-only.
+[TextRanges](TextRanges.md#jsobjref-textranges), read-only.
 
-----
+---
 
-.. _jsobjref/TextRange.textSelection:
+<a id="jsobjref-textrange-textselection"></a>
 
-TextRange.textSelection
-********************************************************************************
+### TextRange.textSelection
 
-``app.activeDocument.textFrames[index].textRange.textSelection``
+`app.activeDocument.textFrames[index].textRange.textSelection`
 
 **Description**
 
@@ -317,16 +296,15 @@ The selected text ranges in the text range.
 
 **Type**
 
-Array of :ref:`jsobjref/TextRange`, read-only.
+Array of [TextRange](#jsobjref-textrange), read-only.
 
-----
+---
 
-.. _jsobjref/TextRange.typename:
+<a id="jsobjref-textrange-typename"></a>
 
-TextRange.typename
-********************************************************************************
+### TextRange.typename
 
-``app.activeDocument.textFrames[index].textRange.typename``
+`app.activeDocument.textFrames[index].textRange.typename`
 
 **Description**
 
@@ -336,14 +314,13 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/TextRange.words:
+<a id="jsobjref-textrange-words"></a>
 
-TextRange.words
-********************************************************************************
+### TextRange.words
 
-``app.activeDocument.textFrames[index].textRange.words``
+`app.activeDocument.textFrames[index].textRange.words`
 
 **Description**
 
@@ -351,20 +328,17 @@ All the words contained in this text range.
 
 **Type**
 
-:ref:`jsobjref/Words`, read-only.
+[Words](Words.md#jsobjref-words), read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/TextRange.changeCaseTo:
+<a id="jsobjref-textrange-changecaseto"></a>
 
-TextRange.changeCaseTo()
-********************************************************************************
+### TextRange.changeCaseTo()
 
-``app.activeDocument.textFrames[index].textRange.changeCaseTo(type)``
+`app.activeDocument.textFrames[index].textRange.changeCaseTo(type)`
 
 **Description**
 
@@ -372,24 +346,21 @@ Changes the capitalization of text
 
 **Parameters**
 
-+-----------+----------------------------------------------------+----------------------------------+
-| Parameter |                        Type                        |           Description            |
-+===========+====================================================+==================================+
-| ``type``  | :ref:`jsobjref/scripting-constants.CaseChangeType` | Capitalization case to change to |
-+-----------+----------------------------------------------------+----------------------------------+
+| Parameter   | Type                                                                                 | Description                      |
+|-------------|--------------------------------------------------------------------------------------|----------------------------------|
+| `type`      | [CaseChangeType](scripting-constants.md#jsobjref-scripting-constants-casechangetype) | Capitalization case to change to |
 
 **Returns**
 
 Nothing
 
-----
+---
 
-.. _jsobjref/TextRange.deSelect:
+<a id="jsobjref-textrange-deselect"></a>
 
-TextRange.deSelect()
-********************************************************************************
+### TextRange.deSelect()
 
-``app.activeDocument.textFrames[index].textRange.deSelect()``
+`app.activeDocument.textFrames[index].textRange.deSelect()`
 
 **Description**
 
@@ -399,14 +370,13 @@ Deselects the text range.
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/TextRange.duplicate:
+<a id="jsobjref-textrange-duplicate"></a>
 
-TextRange.duplicate()
-********************************************************************************
+### TextRange.duplicate()
 
-``app.activeDocument.textFrames[index].textRange.duplicate([relativeObject][, insertionLocation])``
+`app.activeDocument.textFrames[index].textRange.duplicate([relativeObject][, insertionLocation])`
 
 **Description**
 
@@ -414,26 +384,22 @@ Creates a duplicate of this object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+----------------------------+
-|       Parameter       |                              Type                              |        Description         |
-+=======================+================================================================+============================+
-| ``relativeObject``    | Object, optional                                               | Object to duplicate to     |
-+-----------------------+----------------------------------------------------------------+----------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to insert element |
-+-----------------------+----------------------------------------------------------------+----------------------------+
+| Parameter           | Type                                                                                               | Description                |
+|---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
+| `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
 **Returns**
 
-:ref:`jsobjref/TextRange`
+[TextRange](#jsobjref-textrange)
 
-----
+---
 
-.. _jsobjref/TextRange.getLocalCharOverridesJSON:
+<a id="jsobjref-textrange-getlocalcharoverridesjson"></a>
 
-TextRange.getLocalCharOverridesJSON()
-********************************************************************************
+### TextRange.getLocalCharOverridesJSON()
 
-``app.activeDocument.textFrames[index].textRange.getLocalCharOverridesJSON()``
+`app.activeDocument.textFrames[index].textRange.getLocalCharOverridesJSON()`
 
 **Description**
 
@@ -443,14 +409,13 @@ Gets json representation of character overrides.
 
 String
 
-----
+---
 
-.. _jsobjref/TextRange.getLocalParaOverridesJSON:
+<a id="jsobjref-textrange-getlocalparaoverridesjson"></a>
 
-TextRange.getLocalParaOverridesJSON()
-********************************************************************************
+### TextRange.getLocalParaOverridesJSON()
 
-``app.activeDocument.textFrames[index].textRange.getLocalParaOverridesJSON()``
+`app.activeDocument.textFrames[index].textRange.getLocalParaOverridesJSON()`
 
 **Description**
 
@@ -460,14 +425,13 @@ Gets json representation of paragraph overrides.
 
 String
 
-----
+---
 
-.. _jsobjref/TextRange.getParagraphLength:
+<a id="jsobjref-textrange-getparagraphlength"></a>
 
-TextRange.getParagraphLength()
-********************************************************************************
+### TextRange.getParagraphLength()
 
-``app.activeDocument.textFrames[index].textRange.getParagraphLength()``
+`app.activeDocument.textFrames[index].textRange.getParagraphLength()`
 
 **Description**
 
@@ -477,14 +441,13 @@ Gets the length of the first paragraph of the text range.
 
 Int32
 
-----
+---
 
-.. _jsobjref/TextRange.getTextRunLength:
+<a id="jsobjref-textrange-gettextrunlength"></a>
 
-TextRange.getTextRunLength()
-********************************************************************************
+### TextRange.getTextRunLength()
 
-``app.activeDocument.textFrames[index].textRange.getTextRunLength()``
+`app.activeDocument.textFrames[index].textRange.getTextRunLength()`
 
 **Description**
 
@@ -494,14 +457,13 @@ Gets the length of the first text run of the text range.
 
 Int32
 
-----
+---
 
-.. _jsobjref/TextRange.move:
+<a id="jsobjref-textrange-move"></a>
 
-TextRange.move()
-********************************************************************************
+### TextRange.move()
 
-``app.activeDocument.textFrames[index].textRange.move(relativeObject, insertionLocation)``
+`app.activeDocument.textFrames[index].textRange.move(relativeObject, insertionLocation)`
 
 **Description**
 
@@ -509,27 +471,22 @@ Moves the object.
 
 **Parameters**
 
-
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-|       Parameter       |                              Type                              |          Description          |
-+=======================+================================================================+===============================+
-| ``relativeObject``    | Object                                                         | Object to move element within |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to move element to   |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
+| Parameter           | Type                                                                                               | Description                   |
+|---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
+| `relativeObject`    | Object                                                                                             | Object to move element within |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
 **Returns**
 
-:ref:`jsobjref/TextRange`
+[TextRange](#jsobjref-textrange)
 
-----
+---
 
-.. _jsobjref/TextRange.remove:
+<a id="jsobjref-textrange-remove"></a>
 
-TextRange.remove()
-********************************************************************************
+### TextRange.remove()
 
-``app.activeDocument.textFrames[index].textRange.remove()``
+`app.activeDocument.textFrames[index].textRange.remove()`
 
 **Description**
 
@@ -539,14 +496,13 @@ Deletes the object.
 
 Nothing
 
-----
+---
 
-.. _jsobjref/TextRange.select:
+<a id="jsobjref-textrange-select"></a>
 
-TextRange.select()
-********************************************************************************
+### TextRange.select()
 
-``app.activeDocument.textFrames[index].textRange.select([addToDocument])``
+`app.activeDocument.textFrames[index].textRange.select([addToDocument])`
 
 **Description**
 
@@ -554,42 +510,37 @@ Selects the text range.
 
 **Parameters**
 
-+-------------------+-------------------+---------------------------------------------+
-|     Parameter     |       Type        |                 Description                 |
-+===================+===================+=============================================+
-| ``addToDocument`` | Boolean, optional | Whether to add or replace current selection |
-+-------------------+-------------------+---------------------------------------------+
+| Parameter       | Type              | Description                                 |
+|-----------------|-------------------|---------------------------------------------|
+| `addToDocument` | Boolean, optional | Whether to add or replace current selection |
 
 **Returns**
 
 Nothing
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Manipulating Text
-********************************************************************************
+### Manipulating Text
 
-::
+```default
+// Changes size of the first character of each word in the
+// current document by changing the size attribute of each character
 
-  // Changes size of the first character of each word in the
-  // current document by changing the size attribute of each character
+if ( app.documents.length > 0 ) {
+  for ( i = 0; i < app.activeDocument.textFrames.length; i++ ) {
+    var text = app.activeDocument.textFrames[i].textRange;
+    for ( j = 0 ; j < text.words.length; j++ ) {
+      //each word is a textRange object
+      var textWord = text.words[j];
 
-  if ( app.documents.length > 0 ) {
-    for ( i = 0; i < app.activeDocument.textFrames.length; i++ ) {
-      var text = app.activeDocument.textFrames[i].textRange;
-      for ( j = 0 ; j < text.words.length; j++ ) {
-        //each word is a textRange object
-        var textWord = text.words[j];
+      // Characters are textRanges too.
+      // Get the first character of each word and increase it's size.
 
-        // Characters are textRanges too.
-        // Get the first character of each word and increase it's size.
-
-        var firstChars = textWord.characters[0];
-        firstChars.size = firstChars.size * 1.5;
-      }
+      var firstChars = textWord.characters[0];
+      firstChars.size = firstChars.size * 1.5;
     }
   }
+}
+```

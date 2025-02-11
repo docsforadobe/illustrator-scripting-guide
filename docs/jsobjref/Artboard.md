@@ -1,24 +1,20 @@
-.. _jsobjref/Artboard:
+<a id="jsobjref-artboard"></a>
 
-Artboard
-################################################################################
+# Artboard
 
-``artboard``
+`artboard`
 
 **Description**
 
 An Artboard object represents a single artboard in a document. There can be between 1 to 100 artboards in one document.
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Artboard.artboardRect:
+<a id="jsobjref-artboard-artboardrect"></a>
 
-Artboard.artboardRect
-********************************************************************************
+### Artboard.artboardRect
 
-``artboard.artboardRect``
+`artboard.artboardRect`
 
 **Description**
 
@@ -28,14 +24,13 @@ Size and position of the artboard.
 
 Rect
 
-----
+---
 
-.. _jsobjref/Artboard.name:
+<a id="jsobjref-artboard-name"></a>
 
-Artboard.name
-********************************************************************************
+### Artboard.name
 
-``artboard.name``
+`artboard.name`
 
 **Description**
 
@@ -45,14 +40,13 @@ The unique identifying name of the artboard.
 
 String
 
-----
+---
 
-.. _jsobjref/Artboard.parent:
+<a id="jsobjref-artboard-parent"></a>
 
-Artboard.parent
-********************************************************************************
+### Artboard.parent
 
-``artboard.parent``
+`artboard.parent`
 
 **Description**
 
@@ -60,16 +54,15 @@ The parent of this object.
 
 **Type**
 
-:ref:`jsobjref/Document`; read-only.
+[Document](Document.md#jsobjref-document); read-only.
 
-----
+---
 
-.. _jsobjref/Artboard.rulerOrigin:
+<a id="jsobjref-artboard-rulerorigin"></a>
 
-Artboard.rulerOrigin
-********************************************************************************
+### Artboard.rulerOrigin
 
-``artboard.rulerOrigin``
+`artboard.rulerOrigin`
 
 **Description**
 
@@ -79,14 +72,13 @@ Ruler origin of the artboard, relative to the top left corner of the artboard.
 
 Point
 
-----
+---
 
-.. _jsobjref/Artboard.rulerPAR:
+<a id="jsobjref-artboard-rulerpar"></a>
 
-Artboard.rulerPAR
-********************************************************************************
+### Artboard.rulerPAR
 
-``artboard.rulerPAR``
+`artboard.rulerPAR`
 
 **Description**
 
@@ -98,14 +90,13 @@ Range: 0.1 to 10.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/Artboard.showCenter:
+<a id="jsobjref-artboard-showcenter"></a>
 
-Artboard.showCenter
-********************************************************************************
+### Artboard.showCenter
 
-``artboard.showCenter``
+`artboard.showCenter`
 
 **Description**
 
@@ -115,14 +106,13 @@ Show center mark.
 
 Boolean
 
-----
+---
 
-.. _jsobjref/Artboard.showCrossHairs:
+<a id="jsobjref-artboard-showcrosshairs"></a>
 
-Artboard.showCrossHairs
-********************************************************************************
+### Artboard.showCrossHairs
 
-``artboard.showCrossHairs``
+`artboard.showCrossHairs`
 
 **Description**
 
@@ -132,14 +122,13 @@ Show cross hairs.
 
 Boolean
 
-----
+---
 
-.. _jsobjref/Artboard.showSafeAreas:
+<a id="jsobjref-artboard-showsafeareas"></a>
 
-Artboard.showSafeAreas
-********************************************************************************
+### Artboard.showSafeAreas
 
-``artboard.showSafeAreas``
+`artboard.showSafeAreas`
 
 **Description**
 
@@ -149,14 +138,13 @@ Show title and action safe areas (for video).
 
 Boolean
 
-----
+---
 
-.. _jsobjref/Artboard.typename:
+<a id="jsobjref-artboard-typename"></a>
 
-Artboard.typename
-********************************************************************************
+### Artboard.typename
 
-``artboard.typename``
+`artboard.typename`
 
 **Description**
 
@@ -166,18 +154,15 @@ Read-only. The class name of this object.
 
 String
 
-----
+---
 
-==========
-Methods
-==========
+## Methods
 
-.. _jsobjref/Artboard.remove:
+<a id="jsobjref-artboard-remove"></a>
 
-Artboard.remove()
-********************************************************************************
+### Artboard.remove()
 
-``artboard.remove()``
+`artboard.remove()`
 
 **Description**
 

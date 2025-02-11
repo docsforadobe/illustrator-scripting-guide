@@ -1,9 +1,8 @@
-.. _jsobjref/Printer:
+<a id="jsobjref-printer"></a>
 
-Printer
-################################################################################
+# Printer
 
-``app.PrinterList[index``
+`app.PrinterList[index`
 
 **Description**
 
@@ -11,18 +10,15 @@ Associates an available printer with printer information.
 
 To request a list of printers, you must first have a document open or an error is returned.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. jsobjref/Printer.name:
+<!-- jsobjref/Printer.name: -->
 
-Printer.name
-********************************************************************************
+### Printer.name
 
-``app.printerList[index].name``
+`app.printerList[index].name`
 
 **Description**
 
@@ -32,14 +28,12 @@ The printer name.
 
 String
 
-----
+---
+<!-- jsobjref/Printer.printerInfo: -->
 
-.. jsobjref/Printer.printerInfo:
+### Printer.printerInfo
 
-Printer.printerInfo
-********************************************************************************
-
-``app.printerList[index].printerInfo``
+`app.printerList[index].printerInfo`
 
 **Description**
 
@@ -47,16 +41,14 @@ The printer information.
 
 **Type**
 
-:ref:`jsobjref/PrinterInfo`
+[PrinterInfo](PrinterInfo.md#jsobjref-printerinfo)
 
-----
+---
+<!-- jsobjref/Printer.typename: -->
 
-.. jsobjref/Printer.typename:
+### Printer.typename
 
-Printer.typename
-********************************************************************************
-
-``app.printerList[index].typename``
+`app.printerList[index].typename`
 
 **Description**
 

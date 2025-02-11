@@ -1,219 +1,203 @@
-Welcome to the Adobe Illustrator Scripting Guide!
-#################################################
+# Welcome to the Adobe Illustrator Scripting Guide!
 
-.. toctree::
-  :maxdepth: 1
-  :caption: Introduction
+# Introduction
 
-  introduction/whatIsScripting
-  introduction/changelog
-  introduction/scriptingLanguageSupport
-  introduction/viewingSampleScripts
-  introduction/viewingTheObjectModel
-  introduction/executingScripts
+* [What is Scripting?](introduction/whatIsScripting.md)
+* [Changelog](introduction/changelog.md)
+* [Scripting language support in Adobe Illustrator CC](introduction/scriptingLanguageSupport.md)
+* [Viewing Sample Scripts](introduction/viewingSampleScripts.md)
+* [Viewing the object model](introduction/viewingTheObjectModel.md)
+* [Executing Scripts](introduction/executingScripts.md)
 
-.. toctree::
-  :maxdepth: 1
-  :caption: Illustrator Scripting Object Model
+# Illustrator Scripting Object Model
 
-  objectmodel/objectModel
-  objectmodel/objectNamingConventions
-  objectmodel/topLevelObjects
-  objectmodel/theArtworkTree
-  objectmodel/textObjects
-  objectmodel/dynamic
-  objectmodel/symbols
-  objectmodel/transformations
+* [The Illustrator Scripting Object Model](objectmodel/objectModel.md)
+* [Object Naming Conventions](objectmodel/objectNamingConventions.md)
+* [Top-Level (containing) Objects](objectmodel/topLevelObjects.md)
+* [The Artwork Tree](objectmodel/theArtworkTree.md)
+* [Text Objects](objectmodel/textObjects.md)
+* [Dynamic Objects](objectmodel/dynamic.md)
+* [Symbols](objectmodel/symbols.md)
+* [Transformations](objectmodel/transformations.md)
 
-.. toctree::
-  :maxdepth: 1
-  :caption: Scripting Illustrator
+# Scripting Illustrator
 
-  scripting/launching
-  scripting/workingWithObjects
-  scripting/measurementUnits
-  scripting/positioning
-  scripting/pathsShapes
-  scripting/userInteractionLevels
-  scripting/printingDocuments
+* [Launching and quitting Illustrator from a script](scripting/launching.md)
+* [Working with objects](scripting/workingWithObjects.md)
+* [Measurement Units](scripting/measurementUnits.md)
+* [Page-item positioning and dimensions](scripting/positioning.md)
+* [Paths and shapes](scripting/pathsShapes.md)
+* [User-interaction levels](scripting/userInteractionLevels.md)
+* [Printing Illustrator documents](scripting/printingDocuments.md)
 
-.. toctree::
-  :maxdepth: 1
-  :caption: Scripting with AppleScript
+# Scripting with AppleScript
 
-  scriptingApplescript/forMoreInfo
-  scriptingApplescript/yourFirstScript
-  scriptingApplescript/objectReferences
-  scriptingApplescript/workingWithTextFrames
-  scriptingApplescript/creatingPathsShapes
-  scriptingApplescript/perspectiveGrid
+* [For more information](scriptingApplescript/forMoreInfo.md)
+* [Your first Illustrator script](scriptingApplescript/yourFirstScript.md)
+* [Object references](scriptingApplescript/objectReferences.md)
+* [Working with text frames](scriptingApplescript/workingWithTextFrames.md)
+* [Creating paths and shapes](scriptingApplescript/creatingPathsShapes.md)
+* [Working with the perspective grid](scriptingApplescript/perspectiveGrid.md)
 
-.. toctree::
-  :maxdepth: 1
-  :caption: Scripting with JavaScript
+# Scripting with JavaScript
 
-  scriptingJavascript/forMoreInfo
-  scriptingJavascript/yourFirstScript
-  scriptingJavascript/workingWithMethods
-  scriptingJavascript/objectReferences
-  scriptingJavascript/workingWithTextFrames
-  scriptingJavascript/creatingPathsShapes
-  scriptingJavascript/perspectiveGrid
+* [For more information](scriptingJavascript/forMoreInfo.md)
+* [Your first Illustrator script](scriptingJavascript/yourFirstScript.md)
+* [Working with methods in JavaScript](scriptingJavascript/workingWithMethods.md)
+* [Accessing and referencing objects](scriptingJavascript/objectReferences.md)
+* [Working with text frames](scriptingJavascript/workingWithTextFrames.md)
+* [Creating paths and shapes](scriptingJavascript/creatingPathsShapes.md)
+* [Working with the perspective grid](scriptingJavascript/perspectiveGrid.md)
 
-.. toctree::
-  :maxdepth: 1
-  :caption: Scripting with VBScript
+# Scripting with VBScript
 
-  scriptingVBScript/forMoreInfo
-  scriptingVBScript/yourFirstScript
-  scriptingVBScript/objectReferences
-  scriptingVBScript/workingWithTextFrames
-  scriptingVBScript/creatingPathsShapes
-  scriptingVBScript/enumerationValues
-  scriptingVBScript/perspectiveGrid
+* [For more information](scriptingVBScript/forMoreInfo.md)
+* [Your first Illustrator script](scriptingVBScript/yourFirstScript.md)
+* [Accessing and referencing objects](scriptingVBScript/objectReferences.md)
+* [Working with text frames](scriptingVBScript/workingWithTextFrames.md)
+* [Creating paths and shapes](scriptingVBScript/creatingPathsShapes.md)
+* [Working with enumeration values](scriptingVBScript/enumerationValues.md)
+* [Working with the perspective grid](scriptingVBScript/perspectiveGrid.md)
 
-.. toctree::
-  :maxdepth: 1
-  :caption: Javascript Object Reference
+# Javascript Object Reference
 
-  jsobjref/scripting-constants
-  jsobjref/javascript-object-reference
-
-  jsobjref/Application
-  jsobjref/Artboard
-  jsobjref/Artboards
-  jsobjref/Brush
-  jsobjref/Brushes
-  jsobjref/CharacterAttributes
-  jsobjref/Characters
-  jsobjref/CharacterStyle
-  jsobjref/CharacterStyles
-  jsobjref/CMYKColor
-  jsobjref/Color
-  jsobjref/CompoundPathItem
-  jsobjref/CompoundPathItems
-  jsobjref/Dataset
-  jsobjref/Datasets
-  jsobjref/Document
-  jsobjref/DocumentPreset
-  jsobjref/Documents
-  jsobjref/EPSSaveOptions
-  jsobjref/ExportOptionsAutoCAD
-  jsobjref/ExportOptionsFlash
-  jsobjref/ExportOptionsGIF
-  jsobjref/ExportOptionsJPEG
-  jsobjref/ExportOptionsPhotoshop
-  jsobjref/ExportOptionsPNG24
-  jsobjref/ExportOptionsPNG8
-  jsobjref/ExportOptionsSVG
-  jsobjref/ExportOptionsTIFF
-  jsobjref/FXGSaveOptions
-  jsobjref/Gradient
-  jsobjref/GradientColor
-  jsobjref/Gradients
-  jsobjref/GradientStop
-  jsobjref/GradientStops
-  jsobjref/GraphicStyle
-  jsobjref/GraphicStyles
-  jsobjref/GraphItem
-  jsobjref/GraphItems
-  jsobjref/GrayColor
-  jsobjref/GroupItem
-  jsobjref/GroupItems
-  jsobjref/IllustratorSaveOptions
-  jsobjref/ImageCaptureOptions
-  jsobjref/Ink
-  jsobjref/InkInfo
-  jsobjref/InsertionPoint
-  jsobjref/InsertionPoints
-  jsobjref/LabColor
-  jsobjref/Layer
-  jsobjref/Layers
-  jsobjref/LegacyTextItem
-  jsobjref/LegacyTextItems
-  jsobjref/Lines
-  jsobjref/Matrix
-  jsobjref/MeshItem
-  jsobjref/MeshItems
-  jsobjref/NoColor
-  jsobjref/NonNativeItem
-  jsobjref/NonNativeItems
-  jsobjref/OpenOptions
-  jsobjref/OpenOptionsAutoCAD
-  jsobjref/OpenOptionsFreeHand
-  jsobjref/OpenOptionsPhotoshop
-  jsobjref/PageItem
-  jsobjref/PageItems
-  jsobjref/Paper
-  jsobjref/PaperInfo
-  jsobjref/ParagraphAttributes
-  jsobjref/Paragraphs
-  jsobjref/ParagraphStyle
-  jsobjref/ParagraphStyles
-  jsobjref/PathItem
-  jsobjref/PathItems
-  jsobjref/PathPoint
-  jsobjref/PathPoints
-  jsobjref/Pattern
-  jsobjref/Patterns
-  jsobjref/PatternColor
-  jsobjref/PDFFileOptions
-  jsobjref/PDFSaveOptions
-  jsobjref/PhotoshopFileOptions
-  jsobjref/PlacedItem
-  jsobjref/PlacedItems
-  jsobjref/PluginItem
-  jsobjref/PluginItems
-  jsobjref/PPDFile
-  jsobjref/PPDFileInfo
-  jsobjref/Preferences
-  jsobjref/PrintColorManagementOptions
-  jsobjref/PrintColorSeparationOptions
-  jsobjref/PrintCoordinateOptions
-  jsobjref/Printer
-  jsobjref/PrinterInfo
-  jsobjref/PrintFlattenerOptions
-  jsobjref/PrintFontOptions
-  jsobjref/PrintJobOptions
-  jsobjref/PrintOptions
-  jsobjref/PrintPageMarksOptions
-  jsobjref/PrintPaperOptions
-  jsobjref/PrintPostScriptOptions
-  jsobjref/RasterEffectOptions
-  jsobjref/RasterItem
-  jsobjref/RasterItems
-  jsobjref/RasterizeOptions
-  jsobjref/RGBColor
-  jsobjref/Screen
-  jsobjref/ScreenInfo
-  jsobjref/ScreenSpotFunction
-  jsobjref/Spot
-  jsobjref/SpotColor
-  jsobjref/Spots
-  jsobjref/Story
-  jsobjref/Stories
-  jsobjref/Swatch
-  jsobjref/Swatches
-  jsobjref/SwatchGroup
-  jsobjref/SwatchGroups
-  jsobjref/SymbolItem
-  jsobjref/SymbolItems
-  jsobjref/Symbol
-  jsobjref/Symbols
-  jsobjref/TabStopInfo
-  jsobjref/Tag
-  jsobjref/Tags
-  jsobjref/TextFont
-  jsobjref/TextFonts
-  jsobjref/TextFrameItem
-  jsobjref/TextFrameItems
-  jsobjref/TextPath
-  jsobjref/TextRange
-  jsobjref/TextRanges
-  jsobjref/TracingObject
-  jsobjref/TracingOptions
-  jsobjref/Variable
-  jsobjref/Variables
-  jsobjref/View
-  jsobjref/Views
-  jsobjref/Words
+* [Scripting Constants](jsobjref/scripting-constants.md)
+* [JavaScript Object Reference](jsobjref/javascript-object-reference.md)
+* [Application](jsobjref/Application.md)
+* [Artboard](jsobjref/Artboard.md)
+* [Artboards](jsobjref/Artboards.md)
+* [Brush](jsobjref/Brush.md)
+* [Brushes](jsobjref/Brushes.md)
+* [CharacterAttributes](jsobjref/CharacterAttributes.md)
+* [Characters](jsobjref/Characters.md)
+* [CharacterStyle](jsobjref/CharacterStyle.md)
+* [CharacterStyles](jsobjref/CharacterStyles.md)
+* [CMYKColor](jsobjref/CMYKColor.md)
+* [Color](jsobjref/Color.md)
+* [CompoundPathItem](jsobjref/CompoundPathItem.md)
+* [CompoundPathItems](jsobjref/CompoundPathItems.md)
+* [Dataset](jsobjref/Dataset.md)
+* [Datasets](jsobjref/Datasets.md)
+* [Document](jsobjref/Document.md)
+* [DocumentPreset](jsobjref/DocumentPreset.md)
+* [Documents](jsobjref/Documents.md)
+* [EPSSaveOptions](jsobjref/EPSSaveOptions.md)
+* [ExportOptionsAutoCAD](jsobjref/ExportOptionsAutoCAD.md)
+* [ExportOptionsFlash](jsobjref/ExportOptionsFlash.md)
+* [ExportOptionsGIF](jsobjref/ExportOptionsGIF.md)
+* [ExportOptionsJPEG](jsobjref/ExportOptionsJPEG.md)
+* [ExportOptionsPhotoshop](jsobjref/ExportOptionsPhotoshop.md)
+* [ExportOptionsPNG24](jsobjref/ExportOptionsPNG24.md)
+* [ExportOptionsPNG8](jsobjref/ExportOptionsPNG8.md)
+* [ExportOptionsSVG](jsobjref/ExportOptionsSVG.md)
+* [ExportOptionsTIFF](jsobjref/ExportOptionsTIFF.md)
+* [FXGSaveOptions](jsobjref/FXGSaveOptions.md)
+* [Gradient](jsobjref/Gradient.md)
+* [GradientColor](jsobjref/GradientColor.md)
+* [Gradients](jsobjref/Gradients.md)
+* [GradientStop](jsobjref/GradientStop.md)
+* [GradientStops](jsobjref/GradientStops.md)
+* [GraphicStyle](jsobjref/GraphicStyle.md)
+* [GraphicStyles](jsobjref/GraphicStyles.md)
+* [GraphItem](jsobjref/GraphItem.md)
+* [GraphItems](jsobjref/GraphItems.md)
+* [GrayColor](jsobjref/GrayColor.md)
+* [GroupItem](jsobjref/GroupItem.md)
+* [GroupItems](jsobjref/GroupItems.md)
+* [IllustratorSaveOptions](jsobjref/IllustratorSaveOptions.md)
+* [ImageCaptureOptions](jsobjref/ImageCaptureOptions.md)
+* [Ink](jsobjref/Ink.md)
+* [InkInfo](jsobjref/InkInfo.md)
+* [InsertionPoint](jsobjref/InsertionPoint.md)
+* [InsertionPoints](jsobjref/InsertionPoints.md)
+* [LabColor](jsobjref/LabColor.md)
+* [Layer](jsobjref/Layer.md)
+* [Layers](jsobjref/Layers.md)
+* [LegacyTextItem](jsobjref/LegacyTextItem.md)
+* [LegacyTextItems](jsobjref/LegacyTextItems.md)
+* [Lines](jsobjref/Lines.md)
+* [Matrix](jsobjref/Matrix.md)
+* [MeshItem](jsobjref/MeshItem.md)
+* [MeshItems](jsobjref/MeshItems.md)
+* [NoColor](jsobjref/NoColor.md)
+* [NonNativeItem](jsobjref/NonNativeItem.md)
+* [NonNativeItems](jsobjref/NonNativeItems.md)
+* [OpenOptions](jsobjref/OpenOptions.md)
+* [OpenOptionsAutoCAD](jsobjref/OpenOptionsAutoCAD.md)
+* [OpenOptionsFreeHand](jsobjref/OpenOptionsFreeHand.md)
+* [OpenOptionsPhotoshop](jsobjref/OpenOptionsPhotoshop.md)
+* [PageItem](jsobjref/PageItem.md)
+* [PageItems](jsobjref/PageItems.md)
+* [Paper](jsobjref/Paper.md)
+* [PaperInfo](jsobjref/PaperInfo.md)
+* [ParagraphAttributes](jsobjref/ParagraphAttributes.md)
+* [Paragraphs](jsobjref/Paragraphs.md)
+* [ParagraphStyle](jsobjref/ParagraphStyle.md)
+* [ParagraphStyles](jsobjref/ParagraphStyles.md)
+* [PathItem](jsobjref/PathItem.md)
+* [PathItems](jsobjref/PathItems.md)
+* [PathPoint](jsobjref/PathPoint.md)
+* [PathPoints](jsobjref/PathPoints.md)
+* [Pattern](jsobjref/Pattern.md)
+* [Patterns](jsobjref/Patterns.md)
+* [PatternColor](jsobjref/PatternColor.md)
+* [PDFFileOptions](jsobjref/PDFFileOptions.md)
+* [PDFSaveOptions](jsobjref/PDFSaveOptions.md)
+* [PhotoshopFileOptions](jsobjref/PhotoshopFileOptions.md)
+* [PlacedItem](jsobjref/PlacedItem.md)
+* [PlacedItems](jsobjref/PlacedItems.md)
+* [PluginItem](jsobjref/PluginItem.md)
+* [PluginItems](jsobjref/PluginItems.md)
+* [PPDFile](jsobjref/PPDFile.md)
+* [PPDFileInfo](jsobjref/PPDFileInfo.md)
+* [Preferences](jsobjref/Preferences.md)
+* [PrintColorManagementOptions](jsobjref/PrintColorManagementOptions.md)
+* [PrintColorSeparationOptions](jsobjref/PrintColorSeparationOptions.md)
+* [PrintCoordinateOptions](jsobjref/PrintCoordinateOptions.md)
+* [Printer](jsobjref/Printer.md)
+* [PrinterInfo](jsobjref/PrinterInfo.md)
+* [PrintFlattenerOptions](jsobjref/PrintFlattenerOptions.md)
+* [PrintFontOptions](jsobjref/PrintFontOptions.md)
+* [PrintJobOptions](jsobjref/PrintJobOptions.md)
+* [PrintOptions](jsobjref/PrintOptions.md)
+* [PrintPageMarksOptions](jsobjref/PrintPageMarksOptions.md)
+* [PrintPaperOptions](jsobjref/PrintPaperOptions.md)
+* [PrintPostScriptOptions](jsobjref/PrintPostScriptOptions.md)
+* [RasterEffectOptions](jsobjref/RasterEffectOptions.md)
+* [RasterItem](jsobjref/RasterItem.md)
+* [RasterItems](jsobjref/RasterItems.md)
+* [RasterizeOptions](jsobjref/RasterizeOptions.md)
+* [RGBColor](jsobjref/RGBColor.md)
+* [Screen](jsobjref/Screen.md)
+* [ScreenInfo](jsobjref/ScreenInfo.md)
+* [ScreenSpotFunction](jsobjref/ScreenSpotFunction.md)
+* [Spot](jsobjref/Spot.md)
+* [SpotColor](jsobjref/SpotColor.md)
+* [Spots](jsobjref/Spots.md)
+* [Story](jsobjref/Story.md)
+* [Stories](jsobjref/Stories.md)
+* [Swatch](jsobjref/Swatch.md)
+* [Swatches](jsobjref/Swatches.md)
+* [SwatchGroup](jsobjref/SwatchGroup.md)
+* [SwatchGroups](jsobjref/SwatchGroups.md)
+* [SymbolItem](jsobjref/SymbolItem.md)
+* [SymbolItems](jsobjref/SymbolItems.md)
+* [Symbol](jsobjref/Symbol.md)
+* [Symbols](jsobjref/Symbols.md)
+* [TabStopInfo](jsobjref/TabStopInfo.md)
+* [Tag](jsobjref/Tag.md)
+* [Tags](jsobjref/Tags.md)
+* [TextFont](jsobjref/TextFont.md)
+* [TextFonts](jsobjref/TextFonts.md)
+* [TextFrameItem](jsobjref/TextFrameItem.md)
+* [TextFrameItems](jsobjref/TextFrameItems.md)
+* [TextPath](jsobjref/TextPath.md)
+* [TextRange](jsobjref/TextRange.md)
+* [TextRanges](jsobjref/TextRanges.md)
+* [TracingObject](jsobjref/TracingObject.md)
+* [TracingOptions](jsobjref/TracingOptions.md)
+* [Variable](jsobjref/Variable.md)
+* [Variables](jsobjref/Variables.md)
+* [View](jsobjref/View.md)
+* [Views](jsobjref/Views.md)
+* [Words](jsobjref/Words.md)

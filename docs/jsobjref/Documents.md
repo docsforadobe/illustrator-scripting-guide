@@ -1,26 +1,22 @@
-.. _jsobjref/Documents:
+<a id="jsobjref-documents"></a>
 
-Documents
-################################################################################
+# Documents
 
-``app.documents``
+`app.documents`
 
 **Description**
 
-A collection of :ref:`jsobjref/Document` objects.
+A collection of [Document](Document.md#jsobjref-document) objects.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Documents.length:
+<a id="jsobjref-documents-length"></a>
 
-Documents.length
-********************************************************************************
+### Documents.length
 
-``app.documents.length``
+`app.documents.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ The number of objects in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/Documents.parent:
+<a id="jsobjref-documents-parent"></a>
 
-Documents.parent
-********************************************************************************
+### Documents.parent
 
-``app.documents.parent``
+`app.documents.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The parent of this object.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/Documents.typename:
+<a id="jsobjref-documents-typename"></a>
 
-Documents.typename
-********************************************************************************
+### Documents.typename
 
-``app.documents.typename``
+`app.documents.typename`
 
 **Description**
 
@@ -64,22 +58,19 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Documents.add:
+<a id="jsobjref-documents-add"></a>
 
-Documents.add()
-********************************************************************************
+### Documents.add()
 
-::
-
-    app.documents.add([documentColorSpace] [, width] [, height] [, numArtBoards]
-        [, artboardLayout] [, artboardSpacing] [, artboardRowsOrCols]
-    )
+```default
+app.documents.add([documentColorSpace] [, width] [, height] [, numArtBoards]
+    [, artboardLayout] [, artboardSpacing] [, artboardRowsOrCols]
+)
+```
 
 **Description**
 
@@ -87,36 +78,27 @@ Creates a new document using optional parameters and returns a reference to the 
 
 **Parameters**
 
-+------------------------+----------------------------------------------------------------------+-------------------------------+
-|       Parameter        |                                 Type                                 |          Description          |
-+========================+======================================================================+===============================+
-| ``documentColorSpace`` | :ref:`jsobjref/scripting-constants.DocumentColorSpace`, optional     | Color space of document       |
-+------------------------+----------------------------------------------------------------------+-------------------------------+
-| ``width``              | Number (double), optional                                            | Width of document to add      |
-+------------------------+----------------------------------------------------------------------+-------------------------------+
-| ``height``             | Number (double), optional                                            | Height of document to add     |
-+------------------------+----------------------------------------------------------------------+-------------------------------+
-| ``numArtBoards``       | Number (long), optional                                              | Number of artboards to create |
-+------------------------+----------------------------------------------------------------------+-------------------------------+
-| ``artboardLayout``     | :ref:`jsobjref/scripting-constants.DocumentArtboardLayout`, optional | Artboard layout               |
-+------------------------+----------------------------------------------------------------------+-------------------------------+
-| ``artboardSpacing``    | Number, optional                                                     | Number of pixels for spacing  |
-+------------------------+----------------------------------------------------------------------+-------------------------------+
-| ``artboardRowsOrCols`` | Integer, optional                                                    | Number of rows or columns     |
-+------------------------+----------------------------------------------------------------------+-------------------------------+
+| Parameter            | Type                                                                                                           | Description                   |
+|----------------------|----------------------------------------------------------------------------------------------------------------|-------------------------------|
+| `documentColorSpace` | [DocumentColorSpace](scripting-constants.md#jsobjref-scripting-constants-documentcolorspace), optional         | Color space of document       |
+| `width`              | Number (double), optional                                                                                      | Width of document to add      |
+| `height`             | Number (double), optional                                                                                      | Height of document to add     |
+| `numArtBoards`       | Number (long), optional                                                                                        | Number of artboards to create |
+| `artboardLayout`     | [DocumentArtboardLayout](scripting-constants.md#jsobjref-scripting-constants-documentartboardlayout), optional | Artboard layout               |
+| `artboardSpacing`    | Number, optional                                                                                               | Number of pixels for spacing  |
+| `artboardRowsOrCols` | Integer, optional                                                                                              | Number of rows or columns     |
 
 **Returns**
 
-:ref:`jsobjref/Document`
+[Document](Document.md#jsobjref-document)
 
-----
+---
 
-.. _jsobjref/Documents.addDocument:
+<a id="jsobjref-documents-adddocument"></a>
 
-Documents.addDocument()
-********************************************************************************
+### Documents.addDocument()
 
-``app.documents.addDocument(startupPreset [, presetSettings] [, showOptionsDialog])``
+`app.documents.addDocument(startupPreset [, presetSettings] [, showOptionsDialog])`
 
 **Description**
 
@@ -124,28 +106,23 @@ Creates a document from the preset, replacing any provided setting values, and r
 
 **Parameters**
 
-+-----------------------+------------------------------------------+--------------------------------+
-|       Parameter       |                   Type                   |          Description           |
-+=======================+==========================================+================================+
-| ``startupPreset``     | String                                   | Startup preset to use          |
-+-----------------------+------------------------------------------+--------------------------------+
-| ``presetSettings``    | :ref:`jsobjref/DocumentPreset`, optional | Preset document template       |
-+-----------------------+------------------------------------------+--------------------------------+
-| ``showOptionsDialog`` | Boolean, optional                        | Whether to show options dialog |
-+-----------------------+------------------------------------------+--------------------------------+
+| Parameter           | Type                                                                  | Description                    |
+|---------------------|-----------------------------------------------------------------------|--------------------------------|
+| `startupPreset`     | String                                                                | Startup preset to use          |
+| `presetSettings`    | [DocumentPreset](DocumentPreset.md#jsobjref-documentpreset), optional | Preset document template       |
+| `showOptionsDialog` | Boolean, optional                                                     | Whether to show options dialog |
 
 **Returns**
 
-:ref:`jsobjref/Document`
+[Document](Document.md#jsobjref-document)
 
-----
+---
 
-.. _jsobjref/Documents.addDocumentNoUI:
+<a id="jsobjref-documents-adddocumentnoui"></a>
 
-Documents.addDocumentNoUI()
-********************************************************************************
+### Documents.addDocumentNoUI()
 
-``app.documents.addDocumentNoUI(startupPreset)``
+`app.documents.addDocumentNoUI(startupPreset)`
 
 **Description**
 
@@ -153,24 +130,21 @@ Creates a document without showing in UI.
 
 **Parameters**
 
-+-------------------+--------+-----------------------+
-|     Parameter     |  Type  |      Description      |
-+===================+========+=======================+
-| ``startupPreset`` | String | Startup preset to use |
-+-------------------+--------+-----------------------+
+| Parameter       | Type   | Description           |
+|-----------------|--------|-----------------------|
+| `startupPreset` | String | Startup preset to use |
 
 **Returns**
 
-:ref:`jsobjref/Document`
+[Document](Document.md#jsobjref-document)
 
-----
+---
 
-.. _jsobjref/Documents.getByName:
+<a id="jsobjref-documents-getbyname"></a>
 
-Documents.getByName()
-********************************************************************************
+### Documents.getByName()
 
-``app.documents.getByName(name)``
+`app.documents.getByName(name)`
 
 **Description**
 
@@ -178,24 +152,21 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/Document`
+[Document](Document.md#jsobjref-document)
 
-----
+---
 
-.. _jsobjref/Documents.index:
+<a id="jsobjref-documents-index"></a>
 
-Documents.index()
-********************************************************************************
+### Documents.index()
 
-``app.documents.index(itemKey)``
+`app.documents.index(itemKey)`
 
 **Description**
 
@@ -203,27 +174,22 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/Document`
+[Document](Document.md#jsobjref-document)
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Creating a new document
-********************************************************************************
+### Creating a new document
 
-::
+```default
+// Creates a new document with an RGB color space
 
-  // Creates a new document with an RGB color space
-
-  app.documents.add(DocumentColorSpace.RGB);
+app.documents.add(DocumentColorSpace.RGB);
+```

@@ -1,46 +1,70 @@
-.. _jsobjref/PageItems:
+<a id="jsobjref-pageitems"></a>
 
-PageItems
-################################################################################
+# PageItems
 
-``app.activeDocument.pageItems``
+`app.activeDocument.pageItems`
 
 **Description**
 
-A collection of :ref:`jsobjref/PageItem` objects. Provides complete access to all the art items in an Illustrator document in the following classes:
+A collection of [PageItem](PageItem.md#jsobjref-pageitem) objects. Provides complete access to all the art items in an Illustrator document in the following classes:
 
-.. toctree::
-  :maxdepth: 2
+* [CompoundPathItem](CompoundPathItem.md)
+  * [Properties](CompoundPathItem.md#properties)
+  * [Methods](CompoundPathItem.md#methods)
+  * [Example](CompoundPathItem.md#example)
+* [GraphItem](GraphItem.md)
+  * [Properties](GraphItem.md#properties)
+  * [Methods](GraphItem.md#methods)
+* [GroupItem](GroupItem.md)
+  * [Properties](GroupItem.md#properties)
+  * [Methods](GroupItem.md#methods)
+  * [Example](GroupItem.md#example)
+* [LegacyTextItem](LegacyTextItem.md)
+  * [Properties](LegacyTextItem.md#properties)
+  * [Methods](LegacyTextItem.md#methods)
+* [MeshItem](MeshItem.md)
+  * [Properties](MeshItem.md#properties)
+  * [Methods](MeshItem.md#methods)
+  * [Example](MeshItem.md#example)
+* [NonNativeItem](NonNativeItem.md)
+  * [Properties](NonNativeItem.md#properties)
+  * [Methods](NonNativeItem.md#methods)
+* [PathItem](PathItem.md)
+  * [Properties](PathItem.md#properties)
+  * [Methods](PathItem.md#methods)
+  * [Example](PathItem.md#example)
+* [PlacedItem](PlacedItem.md)
+  * [Properties](PlacedItem.md#properties)
+  * [Methods](PlacedItem.md#methods)
+  * [Example](PlacedItem.md#example)
+* [PluginItem](PluginItem.md)
+  * [Properties](PluginItem.md#properties)
+  * [Methods](PluginItem.md#methods)
+  * [Example](PluginItem.md#example)
+* [RasterItem](RasterItem.md)
+  * [Properties](RasterItem.md#properties)
+  * [Methods](RasterItem.md#methods)
+* [SymbolItem](SymbolItem.md)
+  * [Properties](SymbolItem.md#properties)
+  * [Methods](SymbolItem.md#methods)
+* [TextFrameItem](TextFrameItem.md)
+  * [Properties](TextFrameItem.md#properties)
+  * [Methods](TextFrameItem.md#methods)
+  * [Example](TextFrameItem.md#example)
 
-  CompoundPathItem
-  GraphItem
-  GroupItem
-  LegacyTextItem
-  MeshItem
-  NonNativeItem
-  PathItem
-  PlacedItem
-  PluginItem
-  RasterItem
-  SymbolItem
-  TextFrameItem
+You can reference page items through the [PageItems](#jsobjref-pageitems) property in a [Document](Document.md#jsobjref-document), [Layer](Layer.md#jsobjref-layer), or [GroupItem](GroupItem.md#jsobjref-groupitem).
 
-You can reference page items through the :ref:`jsobjref/PageItems` property in a :ref:`jsobjref/Document`, :ref:`jsobjref/Layer`, or :ref:`jsobjref/GroupItem`.
+When you access an individual item in one of these collections, the reference is a page item of one of a particular type. For example, if you use [PageItems](#jsobjref-pageitems) to reference a graph item, the typename value of that object is [GraphItem](GraphItem.md#jsobjref-graphitem).
 
-When you access an individual item in one of these collections, the reference is a page item of one of a particular type. For example, if you use :ref:`jsobjref/PageItems` to reference a graph item, the typename value of that object is :ref:`jsobjref/GraphItem`.
+---
 
-----
+## Properties
 
-==========
-Properties
-==========
+<a id="jsobjref-pageitems-length"></a>
 
-.. _jsobjref/PageItems.length:
+### PageItems.length
 
-PageItems.length
-********************************************************************************
-
-``app.activeDocument.pageItems.length``
+`app.activeDocument.pageItems.length`
 
 **Description**
 
@@ -50,14 +74,13 @@ The number of objects in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/PageItems.parent:
+<a id="jsobjref-pageitems-parent"></a>
 
-PageItems.parent
-********************************************************************************
+### PageItems.parent
 
-``app.activeDocument.pageItems.parent``
+`app.activeDocument.pageItems.parent`
 
 **Description**
 
@@ -67,14 +90,13 @@ The parent of this object.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/PageItems.typename:
+<a id="jsobjref-pageitems-typename"></a>
 
-PageItems.typename
-********************************************************************************
+### PageItems.typename
 
-``app.activeDocument.pageItems.typename``
+`app.activeDocument.pageItems.typename`
 
 **Description**
 
@@ -84,18 +106,15 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/PageItems.getByName:
+<a id="jsobjref-pageitems-getbyname"></a>
 
-PageItems.getByName()
-********************************************************************************
+### PageItems.getByName()
 
-``app.activeDocument.pageItems.getByName(name)``
+`app.activeDocument.pageItems.getByName(name)`
 
 **Description**
 
@@ -103,24 +122,21 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/PageItem`
+[PageItem](PageItem.md#jsobjref-pageitem)
 
-----
+---
 
-.. _jsobjref/PageItems.index:
+<a id="jsobjref-pageitems-index"></a>
 
-PageItems.index()
-********************************************************************************
+### PageItems.index()
 
-``app.activeDocument.pageItems.index(itemKey)``
+`app.activeDocument.pageItems.index(itemKey)`
 
 **Description**
 
@@ -128,24 +144,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/PageItem`
+[PageItem](PageItem.md#jsobjref-pageitem)
 
-----
+---
 
-.. _jsobjref/PageItems.removeAll:
+<a id="jsobjref-pageitems-removeall"></a>
 
-PageItems.removeAll()
-********************************************************************************
+### PageItems.removeAll()
 
-``app.activeDocument.pageItems.removeAll()``
+`app.activeDocument.pageItems.removeAll()`
 
 **Description**
 
@@ -155,49 +168,46 @@ Deletes all elements in this collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Getting references to external files in page items
-********************************************************************************
+### Getting references to external files in page items
 
-::
+```default
+// Gets all file-references in the current document using the pageItems object,
+// then displays them in a new document
 
-  // Gets all file-references in the current document using the pageItems object,
-  // then displays them in a new document
+if (app.documents.length > 0) {
+  var fileReferences = new Array();
+  var sourceDoc = app.activeDocument;
 
-  if (app.documents.length > 0) {
-    var fileReferences = new Array();
-    var sourceDoc = app.activeDocument;
-
-    for (var i = 0; i < sourceDoc.pageItems.length; i++) {
-      var artItem = sourceDoc.pageItems[i];
-      switch (artItem.typename) {
-        case "PlacedItem":
+  for (var i = 0; i < sourceDoc.pageItems.length; i++) {
+    var artItem = sourceDoc.pageItems[i];
+    switch (artItem.typename) {
+      case "PlacedItem":
+        fileReferences.push(artItem.file.fsName);
+        break;
+      case "RasterItem":
+        if (!artItem.embedded) {
           fileReferences.push(artItem.file.fsName);
-          break;
-        case "RasterItem":
-          if (!artItem.embedded) {
-            fileReferences.push(artItem.file.fsName);
-          }
-          break;
-      }
+        }
+        break;
     }
-
-    // Write the file references to a new document
-    var reportDoc = documents.add();
-    var areaTextPath = reportDoc.pathItems.rectangle(reportDoc.height, 0, reportDoc.width, reportDoc.height);
-    var fileNameText = reportDoc.textFrames.areaText(areaTextPath);
-    fileNameText.textRange.size = 24;
-    var paragraphCount = 3;
-    var sourceName = sourceDoc.name;
-    var text = "File references in \'" + sourceName + "\':\r\r";
-    for (i = 0; i < fileReferences.length; i++) {
-      text += (fileReferences[i] + "\r");
-      paragraphCount++;
-    }
-    fileNameText.contents = text;
   }
+
+  // Write the file references to a new document
+  var reportDoc = documents.add();
+  var areaTextPath = reportDoc.pathItems.rectangle(reportDoc.height, 0, reportDoc.width, reportDoc.height);
+  var fileNameText = reportDoc.textFrames.areaText(areaTextPath);
+  fileNameText.textRange.size = 24;
+  var paragraphCount = 3;
+  var sourceName = sourceDoc.name;
+  var text = "File references in \'" + sourceName + "\':\r\r";
+  for (i = 0; i < fileReferences.length; i++) {
+    text += (fileReferences[i] + "\r");
+    paragraphCount++;
+  }
+  fileNameText.contents = text;
+}
+```

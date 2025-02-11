@@ -1,32 +1,28 @@
-.. _jsobjref/TracingObject:
+<a id="jsobjref-tracingobject"></a>
 
-TracingObject
-################################################################################
+# TracingObject
 
-``TracingObject``
+`TracingObject`
 
 **Description**
 
-A tracing object, which associates source raster art item with a vector-art plug-in group created by tracing. Scripts can initiate tracing using :ref:`jsobjref/PlacedItem.trace` or :ref:`jsobjref/RasterItem.trace`.
+A tracing object, which associates source raster art item with a vector-art plug-in group created by tracing. Scripts can initiate tracing using [PlacedItem.trace](PlacedItem.md#jsobjref-placeditem-trace) or [RasterItem.trace()](RasterItem.md#jsobjref-rasteritem-trace).
 
 The resulting PluginItem object represents the vector art group, and has this object in its tracing property.
 
-A script can force the tracing operation by calling :ref:`jsobjref/Application.redraw`. The operation is asynchronous, so a script should call ``redraw`` after creating the tracing object, but before accessing its properties or expanding the tracing to convert it to an art item group.
+A script can force the tracing operation by calling [Application.redraw()](Application.md#jsobjref-application-redraw). The operation is asynchronous, so a script should call `redraw` after creating the tracing object, but before accessing its properties or expanding the tracing to convert it to an art item group.
 
 The read-only properties that describe the tracing result have valid values only after the first tracing operation completes. A value of 0 indicates that the operation has not yet been completed.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/TracingObject.anchorCount:
+<a id="jsobjref-tracingobject-anchorcount"></a>
 
-TracingObject.anchorCount
-********************************************************************************
+### TracingObject.anchorCount
 
-``tracingObject.anchorCount``
+`tracingObject.anchorCount`
 
 **Description**
 
@@ -36,14 +32,13 @@ The number of anchors in the tracing result.
 
 Number (long); read-only.
 
-----
+---
 
-.. _jsobjref/TracingObject.areaCount:
+<a id="jsobjref-tracingobject-areacount"></a>
 
-TracingObject.areaCount
-********************************************************************************
+### TracingObject.areaCount
 
-``tracingObject.areaCount``
+`tracingObject.areaCount`
 
 **Description**
 
@@ -53,14 +48,13 @@ The number of areas in the tracing result.
 
 Number (long); read-only.
 
-----
+---
 
-.. _jsobjref/TracingObject.imageResolution:
+<a id="jsobjref-tracingobject-imageresolution"></a>
 
-TracingObject.imageResolution
-********************************************************************************
+### TracingObject.imageResolution
 
-``tracingObject.imageResolution``
+`tracingObject.imageResolution`
 
 **Description**
 
@@ -70,14 +64,13 @@ The resolution of the source image in pixels per inch.
 
 Number (real); read-only.
 
-----
+---
 
-.. _jsobjref/TracingObject.parent:
+<a id="jsobjref-tracingobject-parent"></a>
 
-TracingObject.parent
-********************************************************************************
+### TracingObject.parent
 
-``tracingObject.parent``
+`tracingObject.parent`
 
 **Description**
 
@@ -87,14 +80,13 @@ The object’s container.
 
 Object; read-only.
 
-----
+---
 
-.. _jsobjref/TracingObject.pathCount:
+<a id="jsobjref-tracingobject-pathcount"></a>
 
-TracingObject.pathCount
-********************************************************************************
+### TracingObject.pathCount
 
-``tracingObject.pathCount``
+`tracingObject.pathCount`
 
 **Description**
 
@@ -104,14 +96,13 @@ The number of paths in the tracing result.
 
 Number (long); read-only.
 
-----
+---
 
-.. _jsobjref/TracingObject.sourceArt:
+<a id="jsobjref-tracingobject-sourceart"></a>
 
-TracingObject.sourceArt
-********************************************************************************
+### TracingObject.sourceArt
 
-``tracingObject.sourceArt``
+`tracingObject.sourceArt`
 
 **Description**
 
@@ -119,16 +110,15 @@ The raster art used to create the associated vector art plug-in group.
 
 **Type**
 
-:ref:`jsobjref/PlacedItem` or :ref:`jsobjref/RasterItem`
+[PlacedItem](PlacedItem.md#jsobjref-placeditem) or [RasterItem](RasterItem.md#jsobjref-rasteritem)
 
-----
+---
 
-.. _jsobjref/TracingObject.tracingOptions:
+<a id="jsobjref-tracingobject-tracingoptions"></a>
 
-TracingObject.tracingOptions
-********************************************************************************
+### TracingObject.tracingOptions
 
-``tracingObject.tracingOptions``
+`tracingObject.tracingOptions`
 
 **Description**
 
@@ -136,16 +126,15 @@ The options used to convert the raster artwork to vector art.
 
 **Type**
 
-:ref:`jsobjref/TracingOptions`
+[TracingOptions](TracingOptions.md#jsobjref-tracingoptions)
 
-----
+---
 
-.. _jsobjref/TracingObject.typename:
+<a id="jsobjref-tracingobject-typename"></a>
 
-TracingObject.typename
-********************************************************************************
+### TracingObject.typename
 
-``tracingObject.typename``
+`tracingObject.typename`
 
 **Description**
 
@@ -155,14 +144,13 @@ The class name of the object.
 
 String; read-only.
 
-----
+---
 
-.. _jsobjref/TracingObject.usedColorCount:
+<a id="jsobjref-tracingobject-usedcolorcount"></a>
 
-TracingObject.usedColorCount
-********************************************************************************
+### TracingObject.usedColorCount
 
-``tracingObject.usedColorCount``
+`tracingObject.usedColorCount`
 
 **Description**
 
@@ -172,49 +160,43 @@ The number of colors used in the tracing result.
 
 Number (long); read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/TracingObject.expandTracing:
+<a id="jsobjref-tracingobject-expandtracing"></a>
 
-TracingObject.expandTracing()
-********************************************************************************
+### TracingObject.expandTracing()
 
-``tracingObject.expandTracing([viewed])``
+`tracingObject.expandTracing([viewed])`
 
 **Description**
 
 Converts the vector art into a new group item. The new GroupItem object replaces the PluginItem object in the document.
 
-By default, ``viewed`` is ``false``, and the new group contains only the tracing result (the filled or stroked paths).
+By default, `viewed` is `false`, and the new group contains only the tracing result (the filled or stroked paths).
 
-If ``viewed`` is ``true``, the new group retains additional information that was specified for the viewing mode, such as outlines and overlays.
+If `viewed` is `true`, the new group retains additional information that was specified for the viewing mode, such as outlines and overlays.
 
-Deletes this object and its associated :ref:`jsobjref/PluginItem` object. Any group-level attributes that were applied to the plug-in item are applied to the top level of the new group item.
+Deletes this object and its associated [PluginItem](PluginItem.md#jsobjref-pluginitem) object. Any group-level attributes that were applied to the plug-in item are applied to the top level of the new group item.
 
 **Parameters**
 
-+------------+-------------------+-------------+
-| Parameter  |       Type        | Description |
-+============+===================+=============+
-| ``viewed`` | Boolean, optional | todo        |
-+------------+-------------------+-------------+
+| Parameter   | Type              | Description   |
+|-------------|-------------------|---------------|
+| `viewed`    | Boolean, optional | todo          |
 
 **Returns**
 
-:ref:`jsobjref/GroupItem`
+[GroupItem](GroupItem.md#jsobjref-groupitem)
 
-----
+---
 
-.. _jsobjref/TracingObject.releaseTracing:
+<a id="jsobjref-tracingobject-releasetracing"></a>
 
-TracingObject.releaseTracing()
-********************************************************************************
+### TracingObject.releaseTracing()
 
-``tracingObject.releaseTracing()``
+`tracingObject.releaseTracing()`
 
 **Description**
 
@@ -224,4 +206,4 @@ Reverts the artwork in the document to the original source raster art and remove
 
 **Returns**
 
-:ref:`jsobjref/PlacedItem` or :ref:`jsobjref/RasterItem`
+[PlacedItem](PlacedItem.md#jsobjref-placeditem) or [RasterItem](RasterItem.md#jsobjref-rasteritem)

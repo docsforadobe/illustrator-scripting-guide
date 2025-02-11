@@ -1,26 +1,22 @@
-.. _jsobjref/GradientStops:
+<a id="jsobjref-gradientstops"></a>
 
-GradientStops
-################################################################################
+# GradientStops
 
-``app.activeDocument.gradients[index].gradientStops``
+`app.activeDocument.gradients[index].gradientStops`
 
 **Description**
 
-A collection of :ref:`jsobjref/GradientStop` objects in a specific gradient. The elements are not named; you must access them by index.
+A collection of [GradientStop](GradientStop.md#jsobjref-gradientstop) objects in a specific gradient. The elements are not named; you must access them by index.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/GradientStops.length:
+<a id="jsobjref-gradientstops-length"></a>
 
-GradientStops.length
-********************************************************************************
+### GradientStops.length
 
-``app.activeDocument.gradients[index].gradientStops.length``
+`app.activeDocument.gradients[index].gradientStops.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ The number of objects in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/GradientStops.parent:
+<a id="jsobjref-gradientstops-parent"></a>
 
-GradientStops.parent
-********************************************************************************
+### GradientStops.parent
 
-``app.activeDocument.gradients[index].gradientStops.parent``
+`app.activeDocument.gradients[index].gradientStops.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The parent of this object.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/GradientStops.typename:
+<a id="jsobjref-gradientstops-typename"></a>
 
-GradientStops.typename
-********************************************************************************
+### GradientStops.typename
 
-``app.activeDocument.gradients[index].gradientStops.typename``
+`app.activeDocument.gradients[index].gradientStops.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/GradientStops.add:
+<a id="jsobjref-gradientstops-add"></a>
 
-GradientStops.add()
-********************************************************************************
+### GradientStops.add()
 
-``app.activeDocument.gradients[index].gradientStops.add()``
+`app.activeDocument.gradients[index].gradientStops.add()`
 
 **Description**
 
@@ -83,16 +74,15 @@ Creates a new object.
 
 **Returns**
 
-:ref:`jsobjref/gradientStop`
+[GradientStop](GradientStop.md#jsobjref-gradientstop)
 
-----
+---
 
-.. _jsobjref/GradientStops.getByName:
+<a id="jsobjref-gradientstops-getbyname"></a>
 
-GradientStops.getByName()
-********************************************************************************
+### GradientStops.getByName()
 
-``app.activeDocument.gradients[index].gradientStops.getByName(name)``
+`app.activeDocument.gradients[index].gradientStops.getByName(name)`
 
 **Description**
 
@@ -100,24 +90,21 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/gradientStop`
+[GradientStop](GradientStop.md#jsobjref-gradientstop)
 
-----
+---
 
-.. _jsobjref/GradientStops.index:
+<a id="jsobjref-gradientstops-index"></a>
 
-GradientStops.index()
-********************************************************************************
+### GradientStops.index()
 
-``app.activeDocument.gradients[index].gradientStops.index(itemKey)``
+`app.activeDocument.gradients[index].gradientStops.index(itemKey)`
 
 **Description**
 
@@ -125,24 +112,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/gradientStop`
+[GradientStop](GradientStop.md#jsobjref-gradientstop)
 
-----
+---
 
-.. _jsobjref/GradientStops.removeAll:
+<a id="jsobjref-gradientstops-removeall"></a>
 
-GradientStops.removeAll()
-********************************************************************************
+### GradientStops.removeAll()
 
-``app.activeDocument.gradients[index].gradientStops.removeAll()``
+`app.activeDocument.gradients[index].gradientStops.removeAll()`
 
 **Description**
 
@@ -152,36 +136,33 @@ Deletes all objects in this collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Adding a new gradient stop
-********************************************************************************
+### Adding a new gradient stop
 
-::
+```default
+// Adds a new gradient stop to a gradient, color of new stop is 70% gray
+if (app.documents.length > 0 && app.activeDocument.gradients.length > 0) {
+  // Get a reference to the gradient to change
+  var changeGradient = app.activeDocument.gradients[0];
 
-  // Adds a new gradient stop to a gradient, color of new stop is 70% gray
-  if (app.documents.length > 0 && app.activeDocument.gradients.length > 0) {
-    // Get a reference to the gradient to change
-    var changeGradient = app.activeDocument.gradients[0];
+  // Get a reference to the last gradient stop
+  var origCount = changeGradient.gradientStops.length;
+  var lastStop = changeGradient.gradientStops[origCount - 1];
 
-    // Get a reference to the last gradient stop
-    var origCount = changeGradient.gradientStops.length;
-    var lastStop = changeGradient.gradientStops[origCount - 1];
+  // add the new gradient stop
+  var newStop = changeGradient.gradientStops.add();
 
-    // add the new gradient stop
-    var newStop = changeGradient.gradientStops.add();
+  // Set the values of the new gradient stop.
+  // Move the original last gradient stop a bit to the left and insert the new gradient stop at the old position
+  newStop.rampPoint = lastStop.rampPoint;
+  lastStop.rampPoint = lastStop.rampPoint - 10;
 
-    // Set the values of the new gradient stop.
-    // Move the original last gradient stop a bit to the left and insert the new gradient stop at the old position
-    newStop.rampPoint = lastStop.rampPoint;
-    lastStop.rampPoint = lastStop.rampPoint - 10;
-
-    // Create a new color to apply to the newly created gradient stop
-    var newStopColor = new GrayColor();
-    newStopColor.gray = 70.0;
-    newStop.color = newStopColor;
-  }
+  // Create a new color to apply to the newly created gradient stop
+  var newStopColor = new GrayColor();
+  newStopColor.gray = 70.0;
+  newStop.color = newStopColor;
+}
+```

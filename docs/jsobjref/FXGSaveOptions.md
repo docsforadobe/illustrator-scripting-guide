@@ -1,26 +1,22 @@
-.. _jsobjref/FXGSaveOptions:
+<a id="jsobjref-fxgsaveoptions"></a>
 
-FXGSaveOptions
-################################################################################
+# FXGSaveOptions
 
-``fxgSaveOptions``
+`fxgSaveOptions`
 
 **Description**
 
 Specifies options which may be supplied when saving a document as an FXG file. All properties are optional.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/FXGSaveOptions.artboardRange:
+<a id="jsobjref-fxgsaveoptions-artboardrange"></a>
 
-FXGSaveOptions.artboardRange
-********************************************************************************
+### FXGSaveOptions.artboardRange
 
-``fxgSaveOptions.artboardRange``
+`fxgSaveOptions.artboardRange`
 
 **Description**
 
@@ -30,155 +26,146 @@ If saveMultipleArtboards is true, this is considered for multi-asset extraction,
 
 String.
 
-----
+---
 
-.. _jsobjref/FXGSaveOptions.blendsPolicy:
+<a id="jsobjref-fxgsaveoptions-blendspolicy"></a>
 
-FXGSaveOptions.blendsPolicy
-********************************************************************************
+### FXGSaveOptions.blendsPolicy
 
-``fxgSaveOptions.blendsPolicy``
+`fxgSaveOptions.blendsPolicy`
 
 **Description**
 
-The policy used by FXG to expand blends. Default: ``BlendsExpandPolicy.AUTOMATICALLYCONVERTBLENDS``.
+The policy used by FXG to expand blends. Default: `BlendsExpandPolicy.AUTOMATICALLYCONVERTBLENDS`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BlendsExpandPolicy`
+[BlendsExpandPolicy](scripting-constants.md#jsobjref-scripting-constants-blendsexpandpolicy)
 
-----
+---
 
-.. _jsobjref/FXGSaveOptions.downsampleLinkedImages:
+<a id="jsobjref-fxgsaveoptions-downsamplelinkedimages"></a>
 
-FXGSaveOptions.downsampleLinkedImages
-********************************************************************************
+### FXGSaveOptions.downsampleLinkedImages
 
-``fxgSaveOptions.downsampleLinkedImages``
-
-**Description**
-
-If ``true``, linked images are downsampled (at 72 dpi). Default: ``false``.
-
-**Type**
-
-Boolean.
-
-----
-
-.. _jsobjref/FXGSaveOptions.filtersPolicy:
-
-FXGSaveOptions.filtersPolicy
-********************************************************************************
-
-``fxgSaveOptions.filtersPolicy``
+`fxgSaveOptions.downsampleLinkedImages`
 
 **Description**
 
-The policy used by FXG to preserve filters. Default: ``FiltersPreservePolicy.KEEPFILTERSEDITABLE``.
-
-**Type**
-
-:ref:`jsobjref/scripting-constants.FiltersPreservePolicy`
-
-----
-
-.. _jsobjref/FXGSaveOptions.gradientsPolicy:
-
-FXGSaveOptions.gradientsPolicy
-********************************************************************************
-
-``fxgSaveOptions.gradientsPolicy``
-
-**Description**
-
-The policy used by FXG to preserve gradients. Default: ``GradientsPreservePolicy.AUTOMATICALLYCONVERTGRADIENTS``.
-
-**Type**
-
-:ref:`jsobjref/scripting-constants.GradientsPreservePolicy`
-
-----
-
-.. _jsobjref/FXGSaveOptions.includeUnusedSymbols:
-
-FXGSaveOptions.includeUnusedSymbols
-********************************************************************************
-
-``fxgSaveOptions.includeUnusedSymbols``
-
-**Description**
-
-If ``true``, unused symbols are included. Default: ``false``.
+If `true`, linked images are downsampled (at 72 dpi). Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/FXGSaveOptions.preserveEditingCapabilities:
+<a id="jsobjref-fxgsaveoptions-filterspolicy"></a>
 
-FXGSaveOptions.preserveEditingCapabilities
-********************************************************************************
+### FXGSaveOptions.filtersPolicy
 
-``fxgSaveOptions.preserveEditingCapabilities``
+`fxgSaveOptions.filtersPolicy`
 
 **Description**
 
-If ``true``, the editing capabilities of FXG are preserved. Default: ``true``.
+The policy used by FXG to preserve filters. Default: `FiltersPreservePolicy.KEEPFILTERSEDITABLE`.
+
+**Type**
+
+[FiltersPreservePolicy](scripting-constants.md#jsobjref-scripting-constants-filterspreservepolicy)
+
+---
+
+<a id="jsobjref-fxgsaveoptions-gradientspolicy"></a>
+
+### FXGSaveOptions.gradientsPolicy
+
+`fxgSaveOptions.gradientsPolicy`
+
+**Description**
+
+The policy used by FXG to preserve gradients. Default: `GradientsPreservePolicy.AUTOMATICALLYCONVERTGRADIENTS`.
+
+**Type**
+
+[GradientsPreservePolicy](scripting-constants.md#jsobjref-scripting-constants-gradientspreservepolicy)
+
+---
+
+<a id="jsobjref-fxgsaveoptions-includeunusedsymbols"></a>
+
+### FXGSaveOptions.includeUnusedSymbols
+
+`fxgSaveOptions.includeUnusedSymbols`
+
+**Description**
+
+If `true`, unused symbols are included. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/FXGSaveOptions.saveMultipleArtboards:
+<a id="jsobjref-fxgsaveoptions-preserveeditingcapabilities"></a>
 
-FXGSaveOptions.saveMultipleArtboards
-********************************************************************************
+### FXGSaveOptions.preserveEditingCapabilities
 
-``fxgSaveOptions.saveMultipleArtboards``
+`fxgSaveOptions.preserveEditingCapabilities`
 
 **Description**
 
-If ``true``, all artboards or range of artboards are saved. Default: ``false``.
+If `true`, the editing capabilities of FXG are preserved. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/FXGSaveOptions.textPolicy:
+<a id="jsobjref-fxgsaveoptions-savemultipleartboards"></a>
 
-FXGSaveOptions.textPolicy
-********************************************************************************
+### FXGSaveOptions.saveMultipleArtboards
 
-``fxgSaveOptions.textPolicy``
-
-**Description**
-
-The policy used by FXG to preserve text. Default: ``TextPreservePolicy.AUTOMATICALLYCONVERTTEXT``.
-
-**Type**
-
-:ref:`jsobjref/scripting-constants.TextPreservePolicy`
-
-----
-
-.. _jsobjref/FXGSaveOptions.version:
-
-FXGSaveOptions.version
-********************************************************************************
-
-``fxgSaveOptions.version``
+`fxgSaveOptions.saveMultipleArtboards`
 
 **Description**
 
-The version of the FXG file format to create. Default ``FXGVersion.VERSION2PT0``.
+If `true`, all artboards or range of artboards are saved. Default: `false`.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.FXGVersion`
+Boolean.
+
+---
+
+<a id="jsobjref-fxgsaveoptions-textpolicy"></a>
+
+### FXGSaveOptions.textPolicy
+
+`fxgSaveOptions.textPolicy`
+
+**Description**
+
+The policy used by FXG to preserve text. Default: `TextPreservePolicy.AUTOMATICALLYCONVERTTEXT`.
+
+**Type**
+
+[TextPreservePolicy](scripting-constants.md#jsobjref-scripting-constants-textpreservepolicy)
+
+---
+
+<a id="jsobjref-fxgsaveoptions-version"></a>
+
+### FXGSaveOptions.version
+
+`fxgSaveOptions.version`
+
+**Description**
+
+The version of the FXG file format to create. Default `FXGVersion.VERSION2PT0`.
+
+**Type**
+
+[FXGVersion](scripting-constants.md#jsobjref-scripting-constants-fxgversion)

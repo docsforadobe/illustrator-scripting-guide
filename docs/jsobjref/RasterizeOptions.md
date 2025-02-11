@@ -1,9 +1,8 @@
-.. _jsobjref/RasterizeOptions:
+<a id="jsobjref-rasterizeoptions"></a>
 
-RasterizeOptions
-################################################################################
+# RasterizeOptions
 
-``rasterizeOptions``
+`rasterizeOptions`
 
 **Description**
 
@@ -11,151 +10,141 @@ Specifies options that may be supplied when rasterizing artwork.
 
 All properties are optional.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/RasterizeOptions.antiAliasingMethod:
+<a id="jsobjref-rasterizeoptions-antialiasingmethod"></a>
 
-RasterizeOptions.antiAliasingMethod
-********************************************************************************
+### RasterizeOptions.antiAliasingMethod
 
-``rasterizeOptions.antiAliasingMethod``
+`rasterizeOptions.antiAliasingMethod`
 
 **Description**
 
 The type of antialiasing method.
 
-Default: ``AntiAliasingMethod.ARTOPTIMIZED``
+Default: `AntiAliasingMethod.ARTOPTIMIZED`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.AntiAliasingMethod`
+[AntiAliasingMethod](scripting-constants.md#jsobjref-scripting-constants-antialiasingmethod)
 
-----
+---
 
-.. _jsobjref/RasterizeOptions.backgroundBlack:
+<a id="jsobjref-rasterizeoptions-backgroundblack"></a>
 
-RasterizeOptions.backgroundBlack
-********************************************************************************
+### RasterizeOptions.backgroundBlack
 
-``rasterizeOptions.backgroundBlack``
+`rasterizeOptions.backgroundBlack`
 
 **Description**
 
-If ``true``, the rasterization is done against a black background (instead of white).
+If `true`, the rasterization is done against a black background (instead of white).
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/RasterizeOptions.clippingMask:
+<a id="jsobjref-rasterizeoptions-clippingmask"></a>
 
-RasterizeOptions.clippingMask
-********************************************************************************
+### RasterizeOptions.clippingMask
 
-``rasterizeOptions.clippingMask``
+`rasterizeOptions.clippingMask`
 
 **Description**
 
-If ``true``, a clipping mask should be created for the image.
+If `true`, a clipping mask should be created for the image.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/RasterizeOptions.colorModel:
+<a id="jsobjref-rasterizeoptions-colormodel"></a>
 
-RasterizeOptions.colorModel
-********************************************************************************
+### RasterizeOptions.colorModel
 
-``rasterizeOptions.colorModel``
+`rasterizeOptions.colorModel`
 
 **Description**
 
 The color model for the rasterization.
 
-Default: ``RasterizationColorModel.DEFAULTCOLORMODEL``
+Default: `RasterizationColorModel.DEFAULTCOLORMODEL`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.RasterizationColorModel`
+[RasterizationColorModel](scripting-constants.md#jsobjref-scripting-constants-rasterizationcolormodel)
 
-----
+---
 
-.. _jsobjref/RasterizeOptions.convertSpotColors:
+<a id="jsobjref-rasterizeoptions-convertspotcolors"></a>
 
-RasterizeOptions.convertSpotColors
-********************************************************************************
+### RasterizeOptions.convertSpotColors
 
-``rasterizeOptions.convertSpotColors``
+`rasterizeOptions.convertSpotColors`
 
 **Description**
 
-If ``true``, spot colors should be converted to process colors for the image.
+If `true`, spot colors should be converted to process colors for the image.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/RasterizeOptions.convertTextToOutlines:
+<a id="jsobjref-rasterizeoptions-converttexttooutlines"></a>
 
-RasterizeOptions.convertTextToOutlines
-********************************************************************************
+### RasterizeOptions.convertTextToOutlines
 
-``rasterizeOptions.convertTextToOutlines``
+`rasterizeOptions.convertTextToOutlines`
 
 **Description**
 
-If ``true``, all text is converted to outlines before rasterization.
+If `true`, all text is converted to outlines before rasterization.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/RasterizeOptions.includeLayers:
+<a id="jsobjref-rasterizeoptions-includelayers"></a>
 
-RasterizeOptions.includeLayers
-********************************************************************************
+### RasterizeOptions.includeLayers
 
-``rasterizeOptions.includeLayers``
+`rasterizeOptions.includeLayers`
 
 **Description**
 
-If ``true``, the resulting image incorporates layer attributes (like opacity and blend mode).
+If `true`, the resulting image incorporates layer attributes (like opacity and blend mode).
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/RasterizeOptions.padding:
+<a id="jsobjref-rasterizeoptions-padding"></a>
 
-RasterizeOptions.padding
-********************************************************************************
+### RasterizeOptions.padding
 
-``rasterizeOptions.padding``
+`rasterizeOptions.padding`
 
 **Description**
 
@@ -167,14 +156,13 @@ Default: .0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/RasterizeOptions.resolution:
+<a id="jsobjref-rasterizeoptions-resolution"></a>
 
-RasterizeOptions.resolution
-********************************************************************************
+### RasterizeOptions.resolution
 
-``rasterizeOptions.resolution``
+`rasterizeOptions.resolution`
 
 **Description**
 
@@ -186,20 +174,19 @@ Default: 300.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/RasterizeOptions.transparency:
+<a id="jsobjref-rasterizeoptions-transparency"></a>
 
-RasterizeOptions.transparency
-********************************************************************************
+### RasterizeOptions.transparency
 
-``rasterizeOptions.transparency``
+`rasterizeOptions.transparency`
 
 **Description**
 
-If ``true``, the image should use transparency.
+If `true`, the image should use transparency.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 

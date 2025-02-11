@@ -1,30 +1,26 @@
-.. _jsobjref/PathItem:
+<a id="jsobjref-pathitem"></a>
 
-PathItem
-################################################################################
+# PathItem
 
-``app.activeDocument.pathItems[index]``
+`app.activeDocument.pathItems[index]`
 
 **Description**
 
-Specifies a path item, which contains :ref:`jsobjref/PathPoint` objects that define its geometry.
+Specifies a path item, which contains [PathPoint](PathPoint.md#jsobjref-pathpoint) objects that define its geometry.
 
-The ``PathItem`` class gives you complete access to paths in Illustrator.
+The `PathItem` class gives you complete access to paths in Illustrator.
 
-The ``setEntirePath`` method provides an extremely efficient way to create paths comprised of straight lines.
+The `setEntirePath` method provides an extremely efficient way to create paths comprised of straight lines.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PathItem.area:
+<a id="jsobjref-pathitem-area"></a>
 
-PathItem.area
-********************************************************************************
+### PathItem.area
 
-``app.activeDocument.pathItems[index].area``
+`app.activeDocument.pathItems[index].area`
 
 **Description**
 
@@ -38,14 +34,13 @@ Self-intersecting paths can contain sub-areas that cancel each other out, which 
 
 Number (double); read-only.
 
-----
+---
 
-.. _jsobjref/PathItem.artworkKnockout:
+<a id="jsobjref-pathitem-artworkknockout"></a>
 
-PathItem.artworkKnockout
-********************************************************************************
+### PathItem.artworkKnockout
 
-``app.activeDocument.pathItems[index].artworkKnockout``
+`app.activeDocument.pathItems[index].artworkKnockout`
 
 **Description**
 
@@ -53,16 +48,15 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.KnockoutState`
+[KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
-----
+---
 
-.. _jsobjref/PathItem.blendingMode:
+<a id="jsobjref-pathitem-blendingmode"></a>
 
-PathItem.blendingMode
-********************************************************************************
+### PathItem.blendingMode
 
-``app.activeDocument.pathItems[index].blendingMode``
+`app.activeDocument.pathItems[index].blendingMode`
 
 **Description**
 
@@ -70,50 +64,47 @@ The blend mode used when compositing an object.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BlendModes`
+[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
-----
+---
 
-.. _jsobjref/PathItem.clipping:
+<a id="jsobjref-pathitem-clipping"></a>
 
-PathItem.clipping
-********************************************************************************
+### PathItem.clipping
 
-``app.activeDocument.pathItems[index].clipping``
+`app.activeDocument.pathItems[index].clipping`
 
 **Description**
 
-If ``true``, this path should be used as a clipping path.
+If `true`, this path should be used as a clipping path.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.closed:
+<a id="jsobjref-pathitem-closed"></a>
 
-PathItem.closed
-********************************************************************************
+### PathItem.closed
 
-``app.activeDocument.pathItems[index].closed``
+`app.activeDocument.pathItems[index].closed`
 
 **Description**
 
-If ``true``, this path is closed.
+If `true`, this path is closed.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.controlBounds:
+<a id="jsobjref-pathitem-controlbounds"></a>
 
-PathItem.controlBounds
-********************************************************************************
+### PathItem.controlBounds
 
-``app.activeDocument.pathItems[index].controlBounds``
+`app.activeDocument.pathItems[index].controlBounds`
 
 **Description**
 
@@ -123,48 +114,45 @@ The bounds of the object including stroke width and controls.
 
 Array of 4 numbers; read-only.
 
-----
+---
 
-.. _jsobjref/PathItem.editable:
+<a id="jsobjref-pathitem-editable"></a>
 
-PathItem.editable
-********************************************************************************
+### PathItem.editable
 
-``app.activeDocument.pathItems[index].editable``
+`app.activeDocument.pathItems[index].editable`
 
 **Description**
 
-If ``true``, this item is editable.
+If `true`, this item is editable.
 
 **Type**
 
 Boolean; read-only.
 
-----
+---
 
-.. _jsobjref/PathItem.evenodd:
+<a id="jsobjref-pathitem-evenodd"></a>
 
-PathItem.evenodd
-********************************************************************************
+### PathItem.evenodd
 
-``app.activeDocument.pathItems[index].evenodd``
+`app.activeDocument.pathItems[index].evenodd`
 
 **Description**
 
-If ``true``, the even-odd rule should be used to determine "insideness."
+If `true`, the even-odd rule should be used to determine “insideness.”
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.fillColor:
+<a id="jsobjref-pathitem-fillcolor"></a>
 
-PathItem.fillColor
-********************************************************************************
+### PathItem.fillColor
 
-``app.activeDocument.pathItems[index].fillColor``
+`app.activeDocument.pathItems[index].fillColor`
 
 **Description**
 
@@ -172,50 +160,47 @@ The fill color of the path.
 
 **Type**
 
-:ref:`jsobjref/Color`
+[Color](Color.md#jsobjref-color)
 
-----
+---
 
-.. _jsobjref/PathItem.filled:
+<a id="jsobjref-pathitem-filled"></a>
 
-PathItem.filled
-********************************************************************************
+### PathItem.filled
 
-``app.activeDocument.pathItems[index].filled``
+`app.activeDocument.pathItems[index].filled`
 
 **Description**
 
-If ``true``, the path is filled.
+If `true`, the path is filled.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.fillOverprint:
+<a id="jsobjref-pathitem-filloverprint"></a>
 
-PathItem.fillOverprint
-********************************************************************************
+### PathItem.fillOverprint
 
-``app.activeDocument.pathItems[index].fillOverprint``
+`app.activeDocument.pathItems[index].fillOverprint`
 
 **Description**
 
-If ``true``, the art beneath a filled object should be overprinted.
+If `true`, the art beneath a filled object should be overprinted.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.geometricBounds:
+<a id="jsobjref-pathitem-geometricbounds"></a>
 
-PathItem.geometricBounds
-********************************************************************************
+### PathItem.geometricBounds
 
-``app.activeDocument.pathItems[index].geometricBounds``
+`app.activeDocument.pathItems[index].geometricBounds`
 
 **Description**
 
@@ -225,31 +210,29 @@ The bounds of the object excluding stroke width.
 
 Array of 4 numbers; read-only.
 
-----
+---
 
-.. _jsobjref/PathItem.guides:
+<a id="jsobjref-pathitem-guides"></a>
 
-PathItem.guides
-********************************************************************************
+### PathItem.guides
 
-``app.activeDocument.pathItems[index].guides``
+`app.activeDocument.pathItems[index].guides`
 
 **Description**
 
-If ``true``, this path is a guide object.
+If `true`, this path is a guide object.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.height:
+<a id="jsobjref-pathitem-height"></a>
 
-PathItem.height
-********************************************************************************
+### PathItem.height
 
-``app.activeDocument.pathItems[index].height``
+`app.activeDocument.pathItems[index].height`
 
 **Description**
 
@@ -259,48 +242,45 @@ The height of the group item.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PathItem.hidden:
+<a id="jsobjref-pathitem-hidden"></a>
 
-PathItem.hidden
-********************************************************************************
+### PathItem.hidden
 
-``app.activeDocument.pathItems[index].hidden``
+`app.activeDocument.pathItems[index].hidden`
 
 **Description**
 
-If ``true``, this item is hidden.
+If `true`, this item is hidden.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.isIsolated:
+<a id="jsobjref-pathitem-isisolated"></a>
 
-PathItem.isIsolated
-********************************************************************************
+### PathItem.isIsolated
 
-``app.activeDocument.pathItems[index].isIsolated``
+`app.activeDocument.pathItems[index].isIsolated`
 
 **Description**
 
-If ``true``, this object is isolated.
+If `true`, this object is isolated.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.layer:
+<a id="jsobjref-pathitem-layer"></a>
 
-PathItem.layer
-********************************************************************************
+### PathItem.layer
 
-``app.activeDocument.pathItems[index].layer``
+`app.activeDocument.pathItems[index].layer`
 
 **Description**
 
@@ -308,16 +288,15 @@ The layer to which this item belongs.
 
 **Type**
 
-:ref:`jsobjref/Layer`; read-only.
+[Layer](Layer.md#jsobjref-layer); read-only.
 
-----
+---
 
-.. _jsobjref/PathItem.left:
+<a id="jsobjref-pathitem-left"></a>
 
-PathItem.left
-********************************************************************************
+### PathItem.left
 
-``app.activeDocument.pathItems[index].left``
+`app.activeDocument.pathItems[index].left`
 
 **Description**
 
@@ -327,14 +306,13 @@ The position of the left side of the item (in points, measured from the left sid
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PathItem.length:
+<a id="jsobjref-pathitem-length"></a>
 
-PathItem.length
-********************************************************************************
+### PathItem.length
 
-``app.activeDocument.pathItems[index].length``
+`app.activeDocument.pathItems[index].length`
 
 **Description**
 
@@ -344,31 +322,29 @@ The length of this path in points.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PathItem.locked:
+<a id="jsobjref-pathitem-locked"></a>
 
-PathItem.locked
-********************************************************************************
+### PathItem.locked
 
-``app.activeDocument.pathItems[index].locked``
+`app.activeDocument.pathItems[index].locked`
 
 **Description**
 
-If ``true``, this item is locked.
+If `true`, this item is locked.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.name:
+<a id="jsobjref-pathitem-name"></a>
 
-PathItem.name
-********************************************************************************
+### PathItem.name
 
-``app.activeDocument.pathItems[index].name``
+`app.activeDocument.pathItems[index].name`
 
 **Description**
 
@@ -378,14 +354,13 @@ The name of this item.
 
 String
 
-----
+---
 
-.. _jsobjref/PathItem.note:
+<a id="jsobjref-pathitem-note"></a>
 
-PathItem.note
-********************************************************************************
+### PathItem.note
 
-``app.activeDocument.pathItems[index].note``
+`app.activeDocument.pathItems[index].note`
 
 **Description**
 
@@ -395,14 +370,13 @@ The note assigned to this item.
 
 String
 
-----
+---
 
-.. _jsobjref/PathItem.opacity:
+<a id="jsobjref-pathitem-opacity"></a>
 
-PathItem.opacity
-********************************************************************************
+### PathItem.opacity
 
-``app.activeDocument.pathItems[index].opacity``
+`app.activeDocument.pathItems[index].opacity`
 
 **Description**
 
@@ -412,14 +386,13 @@ The opacity of the object. Range: 0.0 to 100.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PathItem.parent:
+<a id="jsobjref-pathitem-parent"></a>
 
-PathItem.parent
-********************************************************************************
+### PathItem.parent
 
-``app.activeDocument.pathItems[index].parent``
+`app.activeDocument.pathItems[index].parent`
 
 **Description**
 
@@ -427,16 +400,15 @@ The parent of this object.
 
 **Type**
 
-:ref:`jsobjref/Layer` or :ref:`jsobjref/GroupItem`
+[Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem)
 
-----
+---
 
-.. _jsobjref/PathItem.pathPoints:
+<a id="jsobjref-pathitem-pathpoints"></a>
 
-PathItem.pathPoints
-********************************************************************************
+### PathItem.pathPoints
 
-``app.activeDocument.pathItems[index].pathPoints``
+`app.activeDocument.pathItems[index].pathPoints`
 
 **Description**
 
@@ -444,33 +416,31 @@ The path points contained in this path item.
 
 **Type**
 
-:ref:`jsobjref/PathPoints`; read-only.
+[PathPoints](PathPoints.md#jsobjref-pathpoints); read-only.
 
-----
+---
 
-.. _jsobjref/PathItem.pixelAligned:
+<a id="jsobjref-pathitem-pixelaligned"></a>
 
-PathItem.pixelAligned
-********************************************************************************
+### PathItem.pixelAligned
 
-``app.activeDocument.pathItems[index].pixelAligned``
+`app.activeDocument.pathItems[index].pixelAligned`
 
 **Description**
 
-``true`` if this item is aligned to the pixel grid.
+`true` if this item is aligned to the pixel grid.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.polarity:
+<a id="jsobjref-pathitem-polarity"></a>
 
-PathItem.polarity
-********************************************************************************
+### PathItem.polarity
 
-``app.activeDocument.pathItems[index].polarity``
+`app.activeDocument.pathItems[index].polarity`
 
 **Description**
 
@@ -478,33 +448,31 @@ The polarity of the path.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PolarityValues`
+[PolarityValues](scripting-constants.md#jsobjref-scripting-constants-polarityvalues)
 
-----
+---
 
-.. _jsobjref/PathItem.position:
+<a id="jsobjref-pathitem-position"></a>
 
-PathItem.position
-********************************************************************************
+### PathItem.position
 
-``app.activeDocument.pathItems[index].position``
+`app.activeDocument.pathItems[index].position`
 
 **Description**
 
-The position (in points) of the top left corner of the ``pluginItem`` object in the format [x, y]. Does not include stroke weight.
+The position (in points) of the top left corner of the `pluginItem` object in the format [x, y]. Does not include stroke weight.
 
 **Type**
 
 Array of 2 numbers; read-only.
 
-----
+---
 
-.. _jsobjref/PathItem.resolution:
+<a id="jsobjref-pathitem-resolution"></a>
 
-PathItem.resolution
-********************************************************************************
+### PathItem.resolution
 
-``app.activeDocument.pathItems[index].resolution``
+`app.activeDocument.pathItems[index].resolution`
 
 **Description**
 
@@ -514,31 +482,29 @@ The resolution of the path in dots per inch (dpi).
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PathItem.selected:
+<a id="jsobjref-pathitem-selected"></a>
 
-PathItem.selected
-********************************************************************************
+### PathItem.selected
 
-``app.activeDocument.pathItems[index].selected``
+`app.activeDocument.pathItems[index].selected`
 
 **Description**
 
-If ``true``, this item is selected.
+If `true`, this item is selected.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.selectedPathPoints:
+<a id="jsobjref-pathitem-selectedpathpoints"></a>
 
-PathItem.selectedPathPoints
-********************************************************************************
+### PathItem.selectedPathPoints
 
-``app.activeDocument.pathItems[index].selectedPathPoints``
+`app.activeDocument.pathItems[index].selectedPathPoints`
 
 **Description**
 
@@ -546,35 +512,33 @@ All of the selected path points in the path.
 
 **Type**
 
-:ref:`jsobjref/PathPoints`; read-only.
+[PathPoints](PathPoints.md#jsobjref-pathpoints); read-only.
 
-----
+---
 
-.. _jsobjref/PathItem.sliced:
+<a id="jsobjref-pathitem-sliced"></a>
 
-PathItem.sliced
-********************************************************************************
+### PathItem.sliced
 
-``app.activeDocument.pathItems[index].sliced``
+`app.activeDocument.pathItems[index].sliced`
 
 **Description**
 
-If ``true``, the item sliced.
+If `true`, the item sliced.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.strokeCap:
+<a id="jsobjref-pathitem-strokecap"></a>
 
-PathItem.strokeCap
-********************************************************************************
+### PathItem.strokeCap
 
-``app.activeDocument.pathItems[index].strokeCap``
+`app.activeDocument.pathItems[index].strokeCap`
 
 **Description**
 
@@ -582,16 +546,15 @@ The type of line capping.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.StrokeCap`
+[StrokeCap](scripting-constants.md#jsobjref-scripting-constants-strokecap)
 
-----
+---
 
-.. _jsobjref/PathItem.strokeColor:
+<a id="jsobjref-pathitem-strokecolor"></a>
 
-PathItem.strokeColor
-********************************************************************************
+### PathItem.strokeColor
 
-``app.activeDocument.pathItems[index].strokeColor``
+`app.activeDocument.pathItems[index].strokeColor`
 
 **Description**
 
@@ -599,33 +562,31 @@ The stroke color for the path.
 
 **Type**
 
-:ref:`jsobjref/Color`
+[Color](Color.md#jsobjref-color)
 
-----
+---
 
-.. _jsobjref/PathItem.stroked:
+<a id="jsobjref-pathitem-stroked"></a>
 
-PathItem.stroked
-********************************************************************************
+### PathItem.stroked
 
-``app.activeDocument.pathItems[index].stroked``
+`app.activeDocument.pathItems[index].stroked`
 
 **Description**
 
-If ``true``, the path should be stroked.
+If `true`, the path should be stroked.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.strokeDashes:
+<a id="jsobjref-pathitem-strokedashes"></a>
 
-PathItem.strokeDashes
-********************************************************************************
+### PathItem.strokeDashes
 
-``app.activeDocument.pathItems[index].strokeDashes``
+`app.activeDocument.pathItems[index].strokeDashes`
 
 **Description**
 
@@ -635,14 +596,13 @@ Dash lengths. Set to an empty object, {}, for a solid line.
 
 Object
 
-----
+---
 
-.. _jsobjref/PathItem.strokeDashOffset:
+<a id="jsobjref-pathitem-strokedashoffset"></a>
 
-PathItem.strokeDashOffset
-********************************************************************************
+### PathItem.strokeDashOffset
 
-``app.activeDocument.pathItems[index].strokeDashOffset``
+`app.activeDocument.pathItems[index].strokeDashOffset`
 
 **Description**
 
@@ -652,14 +612,13 @@ The default distance into the dash pattern at which the pattern should be starte
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PathItem.strokeJoin:
+<a id="jsobjref-pathitem-strokejoin"></a>
 
-PathItem.strokeJoin
-********************************************************************************
+### PathItem.strokeJoin
 
-``app.activeDocument.pathItems[index].strokeJoin``
+`app.activeDocument.pathItems[index].strokeJoin`
 
 **Description**
 
@@ -667,16 +626,15 @@ Type of joints for the path.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.StrokeJoin`
+[StrokeJoin](scripting-constants.md#jsobjref-scripting-constants-strokejoin)
 
-----
+---
 
-.. _jsobjref/PathItem.strokeMiterLimit:
+<a id="jsobjref-pathitem-strokemiterlimit"></a>
 
-PathItem.strokeMiterLimit
-********************************************************************************
+### PathItem.strokeMiterLimit
 
-``app.activeDocument.pathItems[index].strokeMiterLimit``
+`app.activeDocument.pathItems[index].strokeMiterLimit`
 
 **Description**
 
@@ -686,31 +644,29 @@ When a default stroke join is set to mitered, this property specifies when the j
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PathItem.strokeOverprint:
+<a id="jsobjref-pathitem-strokeoverprint"></a>
 
-PathItem.strokeOverprint
-********************************************************************************
+### PathItem.strokeOverprint
 
-``app.activeDocument.pathItems[index].strokeOverprint``
+`app.activeDocument.pathItems[index].strokeOverprint`
 
 **Description**
 
-If ``true``, the art beneath a stroked object should be overprinted.
+If `true`, the art beneath a stroked object should be overprinted.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.strokeWidth:
+<a id="jsobjref-pathitem-strokewidth"></a>
 
-PathItem.strokeWidth
-********************************************************************************
+### PathItem.strokeWidth
 
-``app.activeDocument.pathItems[index].strokeWidth``
+`app.activeDocument.pathItems[index].strokeWidth`
 
 **Description**
 
@@ -720,14 +676,13 @@ The width of the stroke (in points).
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PathItem.tags:
+<a id="jsobjref-pathitem-tags"></a>
 
-PathItem.tags
-********************************************************************************
+### PathItem.tags
 
-``app.activeDocument.pathItems[index].tags``
+`app.activeDocument.pathItems[index].tags`
 
 **Description**
 
@@ -735,16 +690,15 @@ The tags contained in this item.
 
 **Type**
 
-:ref:`jsobjref/Tags`; read-only.
+[Tags](Tags.md#jsobjref-tags); read-only.
 
-----
+---
 
-.. _jsobjref/PathItem.top:
+<a id="jsobjref-pathitem-top"></a>
 
-PathItem.top
-********************************************************************************
+### PathItem.top
 
-``app.activeDocument.pathItems[index].top``
+`app.activeDocument.pathItems[index].top`
 
 **Description**
 
@@ -754,14 +708,13 @@ The position of the top of the item (in points, measured from the bottom of the 
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PathItem.typename:
+<a id="jsobjref-pathitem-typename"></a>
 
-PathItem.typename
-********************************************************************************
+### PathItem.typename
 
-``app.activeDocument.pathItems[index].typename``
+`app.activeDocument.pathItems[index].typename`
 
 **Description**
 
@@ -771,14 +724,13 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-.. _jsobjref/PathItem.uRL:
+<a id="jsobjref-pathitem-url"></a>
 
-PathItem.uRL
-********************************************************************************
+### PathItem.uRL
 
-``app.activeDocument.pathItems[index].uRL``
+`app.activeDocument.pathItems[index].uRL`
 
 **Description**
 
@@ -788,14 +740,13 @@ The value of the Adobe URL tag assigned to this item.
 
 String
 
-----
+---
 
-.. _jsobjref/PathItem.visibilityVariable:
+<a id="jsobjref-pathitem-visibilityvariable"></a>
 
-PathItem.visibilityVariable
-********************************************************************************
+### PathItem.visibilityVariable
 
-``app.activeDocument.pathItems[index].visibilityVariable``
+`app.activeDocument.pathItems[index].visibilityVariable`
 
 **Description**
 
@@ -803,16 +754,15 @@ The visibility variable bound to the item.
 
 **Type**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/PathItem.visibleBounds:
+<a id="jsobjref-pathitem-visiblebounds"></a>
 
-PathItem.visibleBounds
-********************************************************************************
+### PathItem.visibleBounds
 
-``app.activeDocument.pathItems[index].visibleBounds``
+`app.activeDocument.pathItems[index].visibleBounds`
 
 **Description**
 
@@ -822,14 +772,13 @@ The visible bounds of the item including stroke width.
 
 Array of 4 numbers; read-only.
 
-----
+---
 
-.. _jsobjref/PathItem.width:
+<a id="jsobjref-pathitem-width"></a>
 
-PathItem.width
-********************************************************************************
+### PathItem.width
 
-``app.activeDocument.pathItems[index].width``
+`app.activeDocument.pathItems[index].width`
 
 **Description**
 
@@ -839,31 +788,29 @@ The width of the item.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PathItem.wrapInside:
+<a id="jsobjref-pathitem-wrapinside"></a>
 
-PathItem.wrapInside
-********************************************************************************
+### PathItem.wrapInside
 
-``app.activeDocument.pathItems[index].wrapInside``
+`app.activeDocument.pathItems[index].wrapInside`
 
 **Description**
 
-If ``true``, the text frame object should be wrapped inside this object.
+If `true`, the text frame object should be wrapped inside this object.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.wrapOffset:
+<a id="jsobjref-pathitem-wrapoffset"></a>
 
-PathItem.wrapOffset
-********************************************************************************
+### PathItem.wrapOffset
 
-``app.activeDocument.pathItems[index].wrapOffset``
+`app.activeDocument.pathItems[index].wrapOffset`
 
 **Description**
 
@@ -873,52 +820,47 @@ The offset to use when wrapping text around this object.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PathItem.wrapped:
+<a id="jsobjref-pathitem-wrapped"></a>
 
-PathItem.wrapped
-********************************************************************************
+### PathItem.wrapped
 
-``app.activeDocument.pathItems[index].wrapped``
+`app.activeDocument.pathItems[index].wrapped`
 
 **Description**
 
-If ``true``, wrap text frame objects around this object (text frame must be above the object).
+If `true`, wrap text frame objects around this object (text frame must be above the object).
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PathItem.zOrderPosition:
+<a id="jsobjref-pathitem-zorderposition"></a>
 
-PathItem.zOrderPosition
-********************************************************************************
+### PathItem.zOrderPosition
 
-``app.activeDocument.pathItems[index].zOrderPosition``
+`app.activeDocument.pathItems[index].zOrderPosition`
 
 **Description**
 
-The position of this item within the stacking order of the group or layer (``parent``) that contains the item.
+The position of this item within the stacking order of the group or layer (`parent`) that contains the item.
 
 **Type**
 
 Number; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/PathItem.duplicate:
+<a id="jsobjref-pathitem-duplicate"></a>
 
-PathItem.duplicate()
-********************************************************************************
+### PathItem.duplicate()
 
-``app.activeDocument.pathItems[index].duplicate([relativeObject][, insertionLocation])``
+`app.activeDocument.pathItems[index].duplicate([relativeObject][, insertionLocation])`
 
 **Description**
 
@@ -926,26 +868,22 @@ Creates a duplicate of the selected object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+----------------------------+
-|       Parameter       |                              Type                              |        Description         |
-+=======================+================================================================+============================+
-| ``relativeObject``    | Object, optional                                               | Object to duplicate to     |
-+-----------------------+----------------------------------------------------------------+----------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to insert element |
-+-----------------------+----------------------------------------------------------------+----------------------------+
+| Parameter           | Type                                                                                               | Description                |
+|---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
+| `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
 **Returns**
 
-:ref:`jsobjref/PathItem`
+[PathItem](#jsobjref-pathitem)
 
-----
+---
 
-.. _jsobjref/PathItem.move:
+<a id="jsobjref-pathitem-move"></a>
 
-PathItem.move()
-********************************************************************************
+### PathItem.move()
 
-``app.activeDocument.pathItems[index].move(relativeObject, insertionLocation)``
+`app.activeDocument.pathItems[index].move(relativeObject, insertionLocation)`
 
 **Description**
 
@@ -953,26 +891,22 @@ Moves the object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-|       Parameter       |                              Type                              |          Description          |
-+=======================+================================================================+===============================+
-| ``relativeObject``    | Object                                                         | Object to move element within |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to move element to   |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
+| Parameter           | Type                                                                                               | Description                   |
+|---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
+| `relativeObject`    | Object                                                                                             | Object to move element within |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
 **Returns**
 
-:ref:`jsobjref/PathItem`
+[PathItem](#jsobjref-pathitem)
 
-----
+---
 
-.. _jsobjref/PathItem.remove:
+<a id="jsobjref-pathitem-remove"></a>
 
-PathItem.remove()
-********************************************************************************
+### PathItem.remove()
 
-``app.activeDocument.pathItems[index].remove()``
+`app.activeDocument.pathItems[index].remove()`
 
 **Description**
 
@@ -982,90 +916,71 @@ Deletes this object.
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PathItem.resize:
+<a id="jsobjref-pathitem-resize"></a>
 
-PathItem.resize()
-********************************************************************************
+### PathItem.resize()
 
-``app.activeDocument.pathItems[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])``
+`app.activeDocument.pathItems[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])`
 
 **Description**
 
-Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scaleY`` is the vertical scaling factor. 100.0 = 100%.
+Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``scaleX``              | Number (double)                                              | Horizontal scaling factor                               |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleY``              | Number (double)                                              | Vertical scaling factor                                 |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeLineWidths``    | Number (double), optional                                    | The amount to scale line widths                         |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleAbout``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `scaleX`              | Number (double)                                                                                | Horizontal scaling factor                               |
+| `scaleY`              | Number (double)                                                                                | Vertical scaling factor                                 |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
+| `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PathItem.rotate:
+<a id="jsobjref-pathitem-rotate"></a>
 
-PathItem.rotate()
-********************************************************************************
+### PathItem.rotate()
 
-``app.activeDocument.pathItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])``
+`app.activeDocument.pathItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])`
 
 **Description**
 
 Rotates the art item relative to the current rotation.
 
-The object is rotated counter-clockwise if the ``angle`` value is positive, clockwise if the value is negative.
+The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``angle``               | Number (double)                                              | The angle amount to rotate the element                  |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``rotateAbout``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `angle`               | Number (double)                                                                                | The angle amount to rotate the element                  |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PathItem.setEntirePath:
+<a id="jsobjref-pathitem-setentirepath"></a>
 
-PathItem.setEntirePath()
-********************************************************************************
+### PathItem.setEntirePath()
 
-``app.activeDocument.pathItems[index].setEntirePath(pathPoints)``
+`app.activeDocument.pathItems[index].setEntirePath(pathPoints)`
 
 **Description**
 
@@ -1073,24 +988,21 @@ Sets the path using an array of [x, y] coordinate pairs.
 
 **Parameters**
 
-+----------------+----------------------------------+-----------------------------------+
-|   Parameter    |               Type               |            Description            |
-+================+==================================+===================================+
-| ``pathPoints`` | Array of [x, y] coordinate pairs | Array of point coordinates to set |
-+----------------+----------------------------------+-----------------------------------+
+| Parameter    | Type                             | Description                       |
+|--------------|----------------------------------|-----------------------------------|
+| `pathPoints` | Array of [x, y] coordinate pairs | Array of point coordinates to set |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PathItem.transform:
+<a id="jsobjref-pathitem-transform"></a>
 
-PathItem.transform()
-********************************************************************************
+### PathItem.transform()
 
-``app.activeDocument.pathItems[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])``
+`app.activeDocument.pathItems[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])`
 
 **Description**
 
@@ -1098,71 +1010,54 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-|        Parameter         |                             Type                             |                  Description                   |
-+==========================+==============================================================+================================================+
-| ``transformationMatrix`` | :ref:`jsobjref/Matrix`                                       | Transformation matrix to apply                 |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changePositions``      | Boolean, optional                                            | Whether to change Positions                    |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillPatterns``   | Boolean, optional                                            | Whether to change Fill Patterns                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillGradients``  | Boolean, optional                                            | Whether to change Fill Gradients               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeStrokePattern``  | Boolean, optional                                            | Whether to change Stroke Pattern               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeLineWidths``     | Number (double), optional                                    | The amount to scale line widths                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``transformAbout``       | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| Parameter              | Type                                                                                           | Description                                    |
+|------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
+| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
+| `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
+| `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |
+| `changeStrokePattern`  | Boolean, optional                                                                              | Whether to change Stroke Pattern               |
+| `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
+| `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PathItem.translate:
+<a id="jsobjref-pathitem-translate"></a>
 
-PathItem.translate()
-********************************************************************************
+### PathItem.translate()
 
-``app.activeDocument.pathItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])``
+`app.activeDocument.pathItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])`
 
 **Description**
 
-Repositions the art item relative to the current position, where ``deltaX`` is the horizontal offset and ``deltaY`` is the vertical offset.
+Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
 **Parameters**
 
-+-----------------------------+---------------------------+--------------------------------------+
-|          Parameter          |           Type            |             Description              |
-+=============================+===========================+======================================+
-| ``deltaX``                  | Number (double), optional | Horizontal offset                    |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``deltaY``                  | Number (double), optional | Vertical offset                      |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformObjects``        | Boolean, optional         | Whether to transform Objects         |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillPatterns``   | Boolean, optional         | Whether to transform Fill Patterns   |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillGradients``  | Boolean, optional         | Whether to transform Fill Gradients  |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformStrokePatterns`` | Boolean, optional         | Whether to transform Stroke Patterns |
-+-----------------------------+---------------------------+--------------------------------------+
+| Parameter                 | Type                      | Description                          |
+|---------------------------|---------------------------|--------------------------------------|
+| `deltaX`                  | Number (double), optional | Horizontal offset                    |
+| `deltaY`                  | Number (double), optional | Vertical offset                      |
+| `transformObjects`        | Boolean, optional         | Whether to transform Objects         |
+| `transformFillPatterns`   | Boolean, optional         | Whether to transform Fill Patterns   |
+| `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
+| `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/PathItem.zOrder:
+<a id="jsobjref-pathitem-zorder"></a>
 
-PathItem.zOrder()
-********************************************************************************
+### PathItem.zOrder()
 
-``app.activeDocument.pathItems[index].zOrder(zOrderCmd)``
+`app.activeDocument.pathItems[index].zOrder(zOrderCmd)`
 
 **Description**
 
@@ -1170,59 +1065,53 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-+---------------+--------------------------------------------------+-----------------------------------+
-|   Parameter   |                       Type                       |            Description            |
-+===============+==================================================+===================================+
-| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | Stacking order arrangement method |
-+---------------+--------------------------------------------------+-----------------------------------+
+| Parameter   | Type                                                                             | Description                       |
+|-------------|----------------------------------------------------------------------------------|-----------------------------------|
+| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Setting colors in a path
-********************************************************************************
+### Setting colors in a path
 
-::
+```default
+// Sets the stroke and fill of a path item to colors of a randomly selected swatch
+if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {
+  var doc = app.activeDocument;
 
-  // Sets the stroke and fill of a path item to colors of a randomly selected swatch
-  if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {
-    var doc = app.activeDocument;
+  for (var i = 0; i < doc.pathItems.length; i++) {
+    var pathRef = doc.pathItems[i];
+    pathRef.filled = true;
+    pathRef.stroked = true;
 
-    for (var i = 0; i < doc.pathItems.length; i++) {
-      var pathRef = doc.pathItems[i];
-      pathRef.filled = true;
-      pathRef.stroked = true;
+    var swatchIndex = Math.round(Math.random() * (doc.swatches.length - 1));
+    pathRef.fillColor = doc.swatches[swatchIndex].color;
+    pathRef.strokeColor = doc.swatches[swatchIndex].color;
+  }
+}
+```
 
-      var swatchIndex = Math.round(Math.random() * (doc.swatches.length - 1));
-      pathRef.fillColor = doc.swatches[swatchIndex].color;
-      pathRef.strokeColor = doc.swatches[swatchIndex].color;
-    }
+---
+
+### Creating a path from straight lines
+
+```default
+// This script illustrates the use of the setEntirePath method.
+// Creates a new open path consisting of 10 straight lines
+if (app.documents.length > 0) {
+  var lineList = [];
+
+  for (i = 0; i < lineList.length; i++) {
+    lineList.push([i * 10 + 50, ((i - 5) ^ 2) * 5 + 50];
   }
 
-----
-
-Creating a path from straight lines
-********************************************************************************
-
-::
-
-  // This script illustrates the use of the setEntirePath method.
-  // Creates a new open path consisting of 10 straight lines
-  if (app.documents.length > 0) {
-    var lineList = [];
-
-    for (i = 0; i < lineList.length; i++) {
-      lineList.push([i * 10 + 50, ((i - 5) ^ 2) * 5 + 50];
-    }
-
-    app.defaultStroked = true;
-    newPath = app.activeDocument.pathItems.add();
-    newPath.setEntirePath(lineList);
-  }
+  app.defaultStroked = true;
+  newPath = app.activeDocument.pathItems.add();
+  newPath.setEntirePath(lineList);
+}
+```

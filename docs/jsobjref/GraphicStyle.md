@@ -1,26 +1,22 @@
-.. _jsobjref/GraphicStyle:
+<a id="jsobjref-graphicstyle"></a>
 
-GraphicStyle
-################################################################################
+# GraphicStyle
 
-``app.activeDocument.graphicStyles[index``
+`app.activeDocument.graphicStyles[index`
 
 **Description**
 
 A graphic style. Each graphic style defines a set of appearance attributes that you can apply non-destructively to page items. Graphic styles are contained in documents. Scripts cannot create new graphic styles.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/GraphicStyle.name:
+<a id="jsobjref-graphicstyle-name"></a>
 
-GraphicStyle.name
-********************************************************************************
+### GraphicStyle.name
 
-``app.activeDocument.graphicStyles[index].name``
+`app.activeDocument.graphicStyles[index].name`
 
 **Description**
 
@@ -30,14 +26,13 @@ The graphic style name.
 
 String.
 
-----
+---
 
-.. _jsobjref/GraphicStyle.parent:
+<a id="jsobjref-graphicstyle-parent"></a>
 
-GraphicStyle.parent
-********************************************************************************
+### GraphicStyle.parent
 
-``app.activeDocument.graphicStyles[index].parent``
+`app.activeDocument.graphicStyles[index].parent`
 
 **Description**
 
@@ -45,16 +40,15 @@ The document that contains this graphic style.
 
 **Type**
 
-:ref:`jsobjref/Document`, read-only.
+[Document](Document.md#jsobjref-document), read-only.
 
-----
+---
 
-.. _jsobjref/GraphicStyle.typename:
+<a id="jsobjref-graphicstyle-typename"></a>
 
-GraphicStyle.typename
-********************************************************************************
+### GraphicStyle.typename
 
-``app.activeDocument.graphicStyles[index].typename``
+`app.activeDocument.graphicStyles[index].typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/class.applyTo:
+<a id="jsobjref-class-applyto"></a>
 
-GraphicStyle.applyTo()
-********************************************************************************
+### GraphicStyle.applyTo()
 
-``app.activeDocument.graphicStyles[index].applyTo(artItem)``
+`app.activeDocument.graphicStyles[index].applyTo(artItem)`
 
 **Description**
 
@@ -83,24 +74,21 @@ Applies this art style to a specified art item.
 
 **Parameters**
 
-+-------------+--------------------------+-----------------+
-|  Parameter  |           Type           |   Description   |
-+=============+==========================+=================+
-| ``artItem`` | :ref:`jsobjref/PageItem` | Target art item |
-+-------------+--------------------------+-----------------+
+| Parameter   | Type                                      | Description     |
+|-------------|-------------------------------------------|-----------------|
+| `artItem`   | [PageItem](PageItem.md#jsobjref-pageitem) | Target art item |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/class.mergeTo:
+<a id="jsobjref-class-mergeto"></a>
 
-GraphicStyle.mergeTo()
-********************************************************************************
+### GraphicStyle.mergeTo()
 
-``app.activeDocument.graphicStyles[index].mergeTo(artItem)``
+`app.activeDocument.graphicStyles[index].mergeTo(artItem)`
 
 **Description**
 
@@ -108,24 +96,21 @@ Merges this art style into the current styles of a specified art item.
 
 **Parameters**
 
-+-------------+--------------------------+-----------------+
-|  Parameter  |           Type           |   Description   |
-+=============+==========================+=================+
-| ``artItem`` | :ref:`jsobjref/PageItem` | Target art item |
-+-------------+--------------------------+-----------------+
+| Parameter   | Type                                      | Description     |
+|-------------|-------------------------------------------|-----------------|
+| `artItem`   | [PageItem](PageItem.md#jsobjref-pageitem) | Target art item |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/class.remove:
+<a id="jsobjref-class-remove"></a>
 
-GraphicStyle.remove()
-********************************************************************************
+### GraphicStyle.remove()
 
-``app.activeDocument.graphicStyles[index].remove()``
+`app.activeDocument.graphicStyles[index].remove()`
 
 **Description**
 
@@ -135,34 +120,31 @@ Deletes this object.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Applying a graphic style
-********************************************************************************
+### Applying a graphic style
 
-::
+```default
+// Duplicates each path item in the selection, places the duplicate into a new group,
+// then applies a graphic style to the new groups items
 
-  // Duplicates each path item in the selection, places the duplicate into a new group,
-  // then applies a graphic style to the new groups items
+if (app.documents.length > 0) {
+  var doc = app.activeDocument;
+  var selected = doc.selection;
+  var newGroup = doc.groupItems.add();
+  newGroup.name = "NewGroup";
+  newGroup.move(doc, ElementPlacement.PLACEATEND);
 
-  if (app.documents.length > 0) {
-    var doc = app.activeDocument;
-    var selected = doc.selection;
-    var newGroup = doc.groupItems.add();
-    newGroup.name = "NewGroup";
-    newGroup.move(doc, ElementPlacement.PLACEATEND);
-
-    var endIndex = selected.length;
-    for (var i = 0; i < endIndex; i++) {
-      if (selected[i].typename == "PathItem")
-        selected[i].duplicate(newGroup, ElementPlacement.PLACEATEND);
-    }
-
-    for (i = 0; i < newGroup.pageItems.length; i++) {
-      doc.graphicStyles[1].applyTo(newGroup.pageItems[i]);
-    }
+  var endIndex = selected.length;
+  for (var i = 0; i < endIndex; i++) {
+    if (selected[i].typename == "PathItem")
+      selected[i].duplicate(newGroup, ElementPlacement.PLACEATEND);
   }
+
+  for (i = 0; i < newGroup.pageItems.length; i++) {
+    doc.graphicStyles[1].applyTo(newGroup.pageItems[i]);
+  }
+}
+```

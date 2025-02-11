@@ -1,26 +1,22 @@
-.. _jsobjref/SwatchGroups:
+<a id="jsobjref-swatchgroups"></a>
 
-SwatchGroups
-################################################################################
+# SwatchGroups
 
-``swatchGroups``
+`swatchGroups`
 
 **Description**
 
-A collection of :ref:`jsobjref/SwatchGroup` objects.
+A collection of [SwatchGroup](SwatchGroup.md#jsobjref-swatchgroup) objects.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/SwatchGroups.length:
+<a id="jsobjref-swatchgroups-length"></a>
 
-SwatchGroups.length
-********************************************************************************
+### SwatchGroups.length
 
-``swatchGroups.length``
+`swatchGroups.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ The number of objects in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/SwatchGroups.parent:
+<a id="jsobjref-swatchgroups-parent"></a>
 
-SwatchGroups.parent
-********************************************************************************
+### SwatchGroups.parent
 
-``swatchGroups.parent``
+`swatchGroups.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/SwatchGroups.typename:
+<a id="jsobjref-swatchgroups-typename"></a>
 
-SwatchGroups.typename
-********************************************************************************
+### SwatchGroups.typename
 
-``swatchGroups.typename``
+`swatchGroups.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/SwatchGroups.add:
+<a id="jsobjref-swatchgroups-add"></a>
 
-SwatchGroups.add()
-********************************************************************************
+### SwatchGroups.add()
 
-``swatchGroups.add()``
+`swatchGroups.add()`
 
 **Description**
 
@@ -83,16 +74,15 @@ Creates a swatch group.
 
 **Returns**
 
-:ref:`jsobjref/SwatchGroup`
+[SwatchGroup](SwatchGroup.md#jsobjref-swatchgroup)
 
-----
+---
 
-.. _jsobjref/SwatchGroups.getByName:
+<a id="jsobjref-swatchgroups-getbyname"></a>
 
-SwatchGroups.getByName()
-********************************************************************************
+### SwatchGroups.getByName()
 
-``swatchGroups.getByName(name)``
+`swatchGroups.getByName(name)`
 
 **Description**
 
@@ -100,24 +90,21 @@ Get the first element in the collection with the provided name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/SwatchGroup`
+[SwatchGroup](SwatchGroup.md#jsobjref-swatchgroup)
 
-----
+---
 
-.. _jsobjref/SwatchGroups.removeAll:
+<a id="jsobjref-swatchgroups-removeall"></a>
 
-SwatchGroups.removeAll()
-********************************************************************************
+### SwatchGroups.removeAll()
 
-``swatchGroups.removeAll()``
+`swatchGroups.removeAll()`
 
 **Description**
 

@@ -1,26 +1,22 @@
-.. _jsobjref/InsertionPoint:
+<a id="jsobjref-insertionpoint"></a>
 
-InsertionPoint
-################################################################################
+# InsertionPoint
 
-``app.activeDocument.textFrames[index].insertionPoints[index``
+`app.activeDocument.textFrames[index].insertionPoints[index`
 
 **Description**
 
-A location between characters that is used to insert new text objects. An insertion point is contained in an ``InsertionPoints`` collection.
+A location between characters that is used to insert new text objects. An insertion point is contained in an `InsertionPoints` collection.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/InsertionPoint.characters:
+<a id="jsobjref-insertionpoint-characters"></a>
 
-InsertionPoint.characters
-********************************************************************************
+### InsertionPoint.characters
 
-``app.activeDocument.textFrames[index].insertionPoints[index].characters``
+`app.activeDocument.textFrames[index].insertionPoints[index].characters`
 
 **Description**
 
@@ -28,16 +24,15 @@ All the characters in this text range.
 
 **Type**
 
-:ref:`jsobjref/Characters`, read-only.
+[Characters](Characters.md#jsobjref-characters), read-only.
 
-----
+---
 
-.. _jsobjref/InsertionPoint.lines:
+<a id="jsobjref-insertionpoint-lines"></a>
 
-InsertionPoint.lines
-********************************************************************************
+### InsertionPoint.lines
 
-``app.activeDocument.textFrames[index].insertionPoints[index].lines``
+`app.activeDocument.textFrames[index].insertionPoints[index].lines`
 
 **Description**
 
@@ -45,16 +40,15 @@ All the lines in this text range.
 
 **Type**
 
-:ref:`jsobjref/Lines`, read-only.
+[Lines](Lines.md#jsobjref-lines), read-only.
 
-----
+---
 
-.. _jsobjref/InsertionPoint.paragraphs:
+<a id="jsobjref-insertionpoint-paragraphs"></a>
 
-InsertionPoint.paragraphs
-********************************************************************************
+### InsertionPoint.paragraphs
 
-``app.activeDocument.textFrames[index].insertionPoints[index].paragraphs``
+`app.activeDocument.textFrames[index].insertionPoints[index].paragraphs`
 
 **Description**
 
@@ -62,16 +56,15 @@ All the paragraphs in this text range.
 
 **Type**
 
-:ref:`jsobjref/Paragraphs`, read-only.
+[Paragraphs](Paragraphs.md#jsobjref-paragraphs), read-only.
 
-----
+---
 
-.. _jsobjref/InsertionPoint.parent:
+<a id="jsobjref-insertionpoint-parent"></a>
 
-InsertionPoint.parent
-********************************************************************************
+### InsertionPoint.parent
 
-``app.activeDocument.textFrames[index].insertionPoints[index].parent``
+`app.activeDocument.textFrames[index].insertionPoints[index].parent`
 
 **Description**
 
@@ -79,16 +72,15 @@ The object’s container.
 
 **Type**
 
-:ref:`jsobjref/TextRange`, read-only.
+[TextRange](TextRange.md#jsobjref-textrange), read-only.
 
-----
+---
 
-.. _jsobjref/InsertionPoint.story:
+<a id="jsobjref-insertionpoint-story"></a>
 
-InsertionPoint.story
-********************************************************************************
+### InsertionPoint.story
 
-``app.activeDocument.textFrames[index].insertionPoints[index].story``
+`app.activeDocument.textFrames[index].insertionPoints[index].story`
 
 **Description**
 
@@ -96,16 +88,15 @@ The story to which the text range belongs.
 
 **Type**
 
-:ref:`jsobjref/Story`, read-only.
+[Story](Story.md#jsobjref-story), read-only.
 
-----
+---
 
-.. _jsobjref/InsertionPoint.textRanges:
+<a id="jsobjref-insertionpoint-textranges"></a>
 
-InsertionPoint.textRanges
-********************************************************************************
+### InsertionPoint.textRanges
 
-``app.activeDocument.textFrames[index].insertionPoints[index].textRanges``
+`app.activeDocument.textFrames[index].insertionPoints[index].textRanges`
 
 **Description**
 
@@ -113,16 +104,15 @@ All of the text in this text range.
 
 **Type**
 
-:ref:`jsobjref/TextRanges`, read-only.
+[TextRanges](TextRanges.md#jsobjref-textranges), read-only.
 
-----
+---
 
-.. _jsobjref/InsertionPoint.typename:
+<a id="jsobjref-insertionpoint-typename"></a>
 
-InsertionPoint.typename
-********************************************************************************
+### InsertionPoint.typename
 
-``app.activeDocument.textFrames[index].insertionPoints[index].typename``
+`app.activeDocument.textFrames[index].insertionPoints[index].typename`
 
 **Description**
 
@@ -132,14 +122,13 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/InsertionPoint.words:
+<a id="jsobjref-insertionpoint-words"></a>
 
-InsertionPoint.words
-********************************************************************************
+### InsertionPoint.words
 
-``app.activeDocument.textFrames[index].insertionPoints[index].words``
+`app.activeDocument.textFrames[index].insertionPoints[index].words`
 
 **Description**
 
@@ -147,4 +136,4 @@ All the words contained in this text range.
 
 **Type**
 
-:ref:`jsobjref/Words`, read-only.
+[Words](Words.md#jsobjref-words), read-only.

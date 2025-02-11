@@ -1,26 +1,22 @@
-.. _jsobjref/CharacterStyle:
+<a id="jsobjref-characterstyle"></a>
 
-CharacterStyle
-################################################################################
+# CharacterStyle
 
-``characterStyle``
+`characterStyle`
 
 **Description**
 
-Associates character attributes with characters. For an example, see :ref:`jsobjref/CharacterStyles`.
+Associates character attributes with characters. For an example, see [CharacterStyles](CharacterStyles.md#jsobjref-characterstyles).
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/CharacterStyle.characterAttributes:
+<a id="jsobjref-characterstyle-characterattributes"></a>
 
-CharacterStyle.characterAttributes
-********************************************************************************
+### CharacterStyle.characterAttributes
 
-``characterStyle.characterAttributes``
+`characterStyle.characterAttributes`
 
 **Description**
 
@@ -28,16 +24,15 @@ The character properties for the style.
 
 **Type**
 
-:ref:`jsobjref/CharacterAttributes`, read-only.
+[CharacterAttributes](CharacterAttributes.md#jsobjref-characterattributes), read-only.
 
-----
+---
 
-.. _jsobjref/CharacterStyle.name:
+<a id="jsobjref-characterstyle-name"></a>
 
-CharacterStyle.name
-********************************************************************************
+### CharacterStyle.name
 
-``characterStyle.name``
+`characterStyle.name`
 
 **Description**
 
@@ -47,14 +42,13 @@ The character style’s name.
 
 String
 
-----
+---
 
-.. _jsobjref/CharacterStyle.parent:
+<a id="jsobjref-characterstyle-parent"></a>
 
-CharacterStyle.parent
-********************************************************************************
+### CharacterStyle.parent
 
-``characterStyle.parent``
+`characterStyle.parent`
 
 **Description**
 
@@ -64,14 +58,13 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/CharacterStyle.typename:
+<a id="jsobjref-characterstyle-typename"></a>
 
-CharacterStyle.typename
-********************************************************************************
+### CharacterStyle.typename
 
-``characterStyle.typename``
+`characterStyle.typename`
 
 **Description**
 
@@ -81,18 +74,15 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/CharacterStyle.applyTo:
+<a id="jsobjref-characterstyle-applyto"></a>
 
-CharacterStyle.applyTo()
-********************************************************************************
+### CharacterStyle.applyTo()
 
-``characterStyle.applyTo(textItem [,clearingOverrides])``
+`characterStyle.applyTo(textItem [,clearingOverrides])`
 
 **Description**
 
@@ -100,26 +90,22 @@ Applies the character style to the text object or objects.
 
 **Paramaters**
 
-+-----------------------+-------------------+-----------------------------+
-|       Parameter       |       Type        |         Description         |
-+=======================+===================+=============================+
-| ``textItem``          | Object            | Text item to apply style to |
-+-----------------------+-------------------+-----------------------------+
-| ``clearingOverrides`` | Boolean, optional | Whether to clear overrides  |
-+-----------------------+-------------------+-----------------------------+
+| Parameter           | Type              | Description                 |
+|---------------------|-------------------|-----------------------------|
+| `textItem`          | Object            | Text item to apply style to |
+| `clearingOverrides` | Boolean, optional | Whether to clear overrides  |
 
 **Returns**
 
 Nothing
 
------
+---
 
-.. _jsobjref/CharacterStyle.remove:
+<a id="jsobjref-characterstyle-remove"></a>
 
-CharacterStyle.remove()
-********************************************************************************
+### CharacterStyle.remove()
 
-``characterStyle.remove()``
+`characterStyle.remove()`
 
 **Description**
 

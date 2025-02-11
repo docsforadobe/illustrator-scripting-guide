@@ -1,26 +1,22 @@
-.. _jsobjref/MeshItem:
+<a id="jsobjref-meshitem"></a>
 
-MeshItem
-################################################################################
+# MeshItem
 
-``app.activeDocument.meshItems[index``
+`app.activeDocument.meshItems[index`
 
 **Description**
 
-A gradient mesh art item. You cannot create mesh items from a script. However, you can copy an existing mesh item with the ``duplicate`` method, then use the one of the move methods to place the copy at the proper location.
+A gradient mesh art item. You cannot create mesh items from a script. However, you can copy an existing mesh item with the `duplicate` method, then use the one of the move methods to place the copy at the proper location.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/MeshItem.artworkKnockout:
+<a id="jsobjref-meshitem-artworkknockout"></a>
 
-MeshItem.artworkKnockout
-********************************************************************************
+### MeshItem.artworkKnockout
 
-``app.activeDocument.meshItems[index].artworkKnockout``
+`app.activeDocument.meshItems[index].artworkKnockout`
 
 **Description**
 
@@ -28,16 +24,15 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.KnockoutState`
+[KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
-----
+---
 
-.. _jsobjref/MeshItem.blendingMode:
+<a id="jsobjref-meshitem-blendingmode"></a>
 
-MeshItem.blendingMode
-********************************************************************************
+### MeshItem.blendingMode
 
-``app.activeDocument.meshItems[index].blendingMode``
+`app.activeDocument.meshItems[index].blendingMode`
 
 **Description**
 
@@ -45,16 +40,15 @@ The blend mode used when compositing an object.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.BlendModes`
+[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
-----
+---
 
-.. _jsobjref/MeshItem.controlBounds:
+<a id="jsobjref-meshitem-controlbounds"></a>
 
-MeshItem.controlBounds
-********************************************************************************
+### MeshItem.controlBounds
 
-``app.activeDocument.meshItems[index].controlBounds``
+`app.activeDocument.meshItems[index].controlBounds`
 
 **Description**
 
@@ -64,31 +58,29 @@ The bounds of the object including stroke width and controls.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/MeshItem.editable:
+<a id="jsobjref-meshitem-editable"></a>
 
-MeshItem.editable
-********************************************************************************
+### MeshItem.editable
 
-``app.activeDocument.meshItems[index].editable``
+`app.activeDocument.meshItems[index].editable`
 
 **Description**
 
-If ``true``, this item is editable.
+If `true`, this item is editable.
 
 **Type**
 
 Boolean, read-only.
 
-----
+---
 
-.. _jsobjref/MeshItem.geometricBounds:
+<a id="jsobjref-meshitem-geometricbounds"></a>
 
-MeshItem.geometricBounds
-********************************************************************************
+### MeshItem.geometricBounds
 
-``app.activeDocument.meshItems[index].geometricBounds``
+`app.activeDocument.meshItems[index].geometricBounds`
 
 **Description**
 
@@ -98,14 +90,13 @@ The bounds of the object excluding stroke width.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/MeshItem.height:
+<a id="jsobjref-meshitem-height"></a>
 
-MeshItem.height
-********************************************************************************
+### MeshItem.height
 
-``app.activeDocument.meshItems[index].height``
+`app.activeDocument.meshItems[index].height`
 
 **Description**
 
@@ -115,48 +106,45 @@ The height of the group item.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/MeshItem.hidden:
+<a id="jsobjref-meshitem-hidden"></a>
 
-MeshItem.hidden
-********************************************************************************
+### MeshItem.hidden
 
-``app.activeDocument.meshItems[index].hidden``
+`app.activeDocument.meshItems[index].hidden`
 
 **Description**
 
-If ``true``, this item is hidden.
+If `true`, this item is hidden.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/MeshItem.isIsolated:
+<a id="jsobjref-meshitem-isisolated"></a>
 
-MeshItem.isIsolated
-********************************************************************************
+### MeshItem.isIsolated
 
-``app.activeDocument.meshItems[index].isIsolated``
+`app.activeDocument.meshItems[index].isIsolated`
 
 **Description**
 
-If ``true``, this object is isolated.
+If `true`, this object is isolated.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/MeshItem.layer:
+<a id="jsobjref-meshitem-layer"></a>
 
-MeshItem.layer
-********************************************************************************
+### MeshItem.layer
 
-``app.activeDocument.meshItems[index].layer``
+`app.activeDocument.meshItems[index].layer`
 
 **Description**
 
@@ -164,16 +152,15 @@ The layer to which this item belongs.
 
 **Type**
 
-:ref:`jsobjref/Layer`, read-only.
+[Layer](Layer.md#jsobjref-layer), read-only.
 
-----
+---
 
-.. _jsobjref/MeshItem.left:
+<a id="jsobjref-meshitem-left"></a>
 
-MeshItem.left
-********************************************************************************
+### MeshItem.left
 
-``app.activeDocument.meshItems[index].left``
+`app.activeDocument.meshItems[index].left`
 
 **Description**
 
@@ -183,31 +170,29 @@ The position of the left side of the item (in points, measured from the left sid
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/MeshItem.locked:
+<a id="jsobjref-meshitem-locked"></a>
 
-MeshItem.locked
-********************************************************************************
+### MeshItem.locked
 
-``app.activeDocument.meshItems[index].locked``
+`app.activeDocument.meshItems[index].locked`
 
 **Description**
 
-If ``true``, this item is locked.
+If `true`, this item is locked.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/MeshItem.name:
+<a id="jsobjref-meshitem-name"></a>
 
-MeshItem.name
-********************************************************************************
+### MeshItem.name
 
-``app.activeDocument.meshItems[index].name``
+`app.activeDocument.meshItems[index].name`
 
 **Description**
 
@@ -217,14 +202,13 @@ The name of this item.
 
 String.
 
-----
+---
 
-.. _jsobjref/MeshItem.note:
+<a id="jsobjref-meshitem-note"></a>
 
-MeshItem.note
-********************************************************************************
+### MeshItem.note
 
-``app.activeDocument.meshItems[index].note``
+`app.activeDocument.meshItems[index].note`
 
 **Description**
 
@@ -234,14 +218,13 @@ The note assigned to this item.
 
 String.
 
-----
+---
 
-.. _jsobjref/MeshItem.opacity:
+<a id="jsobjref-meshitem-opacity"></a>
 
-MeshItem.opacity
-********************************************************************************
+### MeshItem.opacity
 
-``app.activeDocument.meshItems[index].opacity``
+`app.activeDocument.meshItems[index].opacity`
 
 **Description**
 
@@ -251,14 +234,13 @@ The opacity of the object. Range: 0.0 to 100.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/MeshItem.parent:
+<a id="jsobjref-meshitem-parent"></a>
 
-MeshItem.parent
-********************************************************************************
+### MeshItem.parent
 
-``app.activeDocument.meshItems[index].parent``
+`app.activeDocument.meshItems[index].parent`
 
 **Description**
 
@@ -266,67 +248,63 @@ The parent of this object.
 
 **Type**
 
-:ref:`jsobjref/Layer` or :ref:`jsobjref/GroupItem`, read-only.
+[Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem), read-only.
 
-----
+---
 
-.. _jsobjref/MeshItem.position:
+<a id="jsobjref-meshitem-position"></a>
 
-MeshItem.position
-********************************************************************************
+### MeshItem.position
 
-``app.activeDocument.meshItems[index].position``
+`app.activeDocument.meshItems[index].position`
 
 **Description**
 
-The position (in points) of the top left corner of the :ref:`jsobjref/MeshItem` object in the format [x, y]. Does not include stroke weight.
+The position (in points) of the top left corner of the [MeshItem](#jsobjref-meshitem) object in the format [x, y]. Does not include stroke weight.
 
 **Type**
 
 Array of 2 numbers.
 
-----
+---
 
-.. _jsobjref/MeshItem.selected:
+<a id="jsobjref-meshitem-selected"></a>
 
-MeshItem.selected
-********************************************************************************
+### MeshItem.selected
 
-``app.activeDocument.meshItems[index].selected``
+`app.activeDocument.meshItems[index].selected`
 
 **Description**
 
-If ``true``, this item is selected.
+If `true`, this item is selected.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/MeshItem.sliced:
+<a id="jsobjref-meshitem-sliced"></a>
 
-MeshItem.sliced
-********************************************************************************
+### MeshItem.sliced
 
-``app.activeDocument.meshItems[index].sliced``
+`app.activeDocument.meshItems[index].sliced`
 
 **Description**
 
-If ``true``, the item sliced. Default: ``false``.
+If `true`, the item sliced. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/MeshItem.tags:
+<a id="jsobjref-meshitem-tags"></a>
 
-MeshItem.tags
-********************************************************************************
+### MeshItem.tags
 
-``app.activeDocument.meshItems[index].tags``
+`app.activeDocument.meshItems[index].tags`
 
 **Description**
 
@@ -334,16 +312,15 @@ The tags contained in this item.
 
 **Type**
 
-:ref:`jsobjref/Tags`, read-only.
+[Tags](Tags.md#jsobjref-tags), read-only.
 
-----
+---
 
-.. _jsobjref/MeshItem.top:
+<a id="jsobjref-meshitem-top"></a>
 
-MeshItem.top
-********************************************************************************
+### MeshItem.top
 
-``app.activeDocument.meshItems[index].top``
+`app.activeDocument.meshItems[index].top`
 
 **Description**
 
@@ -353,14 +330,13 @@ The position of the top of the item (in points, measured from the bottom of the 
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/MeshItem.typename:
+<a id="jsobjref-meshitem-typename"></a>
 
-MeshItem.typename
-********************************************************************************
+### MeshItem.typename
 
-``app.activeDocument.meshItems[index].typename``
+`app.activeDocument.meshItems[index].typename`
 
 **Description**
 
@@ -370,14 +346,13 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/MeshItem.uRL:
+<a id="jsobjref-meshitem-url"></a>
 
-MeshItem.uRL
-********************************************************************************
+### MeshItem.uRL
 
-``app.activeDocument.meshItems[index].uRL``
+`app.activeDocument.meshItems[index].uRL`
 
 **Description**
 
@@ -387,14 +362,13 @@ The value of the Adobe URL tag assigned to this item.
 
 String.
 
-----
+---
 
-.. _jsobjref/MeshItem.visibilityVariable:
+<a id="jsobjref-meshitem-visibilityvariable"></a>
 
-MeshItem.visibilityVariable
-********************************************************************************
+### MeshItem.visibilityVariable
 
-``app.activeDocument.meshItems[index].visibilityVariable``
+`app.activeDocument.meshItems[index].visibilityVariable`
 
 **Description**
 
@@ -402,16 +376,15 @@ The visibility variable bound to the item.
 
 **Type**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/MeshItem.visibleBounds:
+<a id="jsobjref-meshitem-visiblebounds"></a>
 
-MeshItem.visibleBounds
-********************************************************************************
+### MeshItem.visibleBounds
 
-``app.activeDocument.meshItems[index].visibleBounds``
+`app.activeDocument.meshItems[index].visibleBounds`
 
 **Description**
 
@@ -421,14 +394,13 @@ The visible bounds of the item including stroke width.
 
 Array of 4 numbers, read-only.
 
-----
+---
 
-.. _jsobjref/MeshItem.width:
+<a id="jsobjref-meshitem-width"></a>
 
-MeshItem.width
-********************************************************************************
+### MeshItem.width
 
-``app.activeDocument.meshItems[index].width``
+`app.activeDocument.meshItems[index].width`
 
 **Description**
 
@@ -438,31 +410,29 @@ The width of the item.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/MeshItem.wrapInside:
+<a id="jsobjref-meshitem-wrapinside"></a>
 
-MeshItem.wrapInside
-********************************************************************************
+### MeshItem.wrapInside
 
-``app.activeDocument.meshItems[index].wrapInside``
+`app.activeDocument.meshItems[index].wrapInside`
 
 **Description**
 
-If ``true``, the text frame object should be wrapped inside this object.
+If `true`, the text frame object should be wrapped inside this object.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/MeshItem.wrapOffset:
+<a id="jsobjref-meshitem-wrapoffset"></a>
 
-MeshItem.wrapOffset
-********************************************************************************
+### MeshItem.wrapOffset
 
-``app.activeDocument.meshItems[index].wrapOffset``
+`app.activeDocument.meshItems[index].wrapOffset`
 
 **Description**
 
@@ -472,52 +442,47 @@ The offset to use when wrapping text around this object.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/MeshItem.wrapped:
+<a id="jsobjref-meshitem-wrapped"></a>
 
-MeshItem.wrapped
-********************************************************************************
+### MeshItem.wrapped
 
-``app.activeDocument.meshItems[index].wrapped``
+`app.activeDocument.meshItems[index].wrapped`
 
 **Description**
 
-If ``true``, wrap text frame objects around this object (text frame must be above the object).
+If `true`, wrap text frame objects around this object (text frame must be above the object).
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/MeshItem.zOrderPosition:
+<a id="jsobjref-meshitem-zorderposition"></a>
 
-MeshItem.zOrderPosition
-********************************************************************************
+### MeshItem.zOrderPosition
 
-``app.activeDocument.meshItems[index].zOrderPosition``
+`app.activeDocument.meshItems[index].zOrderPosition`
 
 **Description**
 
-The position of this item within the stacking order of the group or layer (``parent``) that contains the item.
+The position of this item within the stacking order of the group or layer (`parent`) that contains the item.
 
 **Type**
 
 Number (long), read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/MeshItem.duplicate:
+<a id="jsobjref-meshitem-duplicate"></a>
 
-MeshItem.duplicate()
-********************************************************************************
+### MeshItem.duplicate()
 
-``app.activeDocument.meshItems[index].duplicate([relativeObject] [,insertionLocation])``
+`app.activeDocument.meshItems[index].duplicate([relativeObject] [,insertionLocation])`
 
 **Description**
 
@@ -525,26 +490,22 @@ Creates a duplicate of the selected object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+----------------------------+
-|       Parameter       |                              Type                              |        Description         |
-+=======================+================================================================+============================+
-| ``relativeObject``    | Object, optional                                               | Object to duplicate to     |
-+-----------------------+----------------------------------------------------------------+----------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to insert element |
-+-----------------------+----------------------------------------------------------------+----------------------------+
+| Parameter           | Type                                                                                               | Description                |
+|---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
+| `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
 **Returns**
 
-:ref:`jsobjref/MeshItem`
+[MeshItem](#jsobjref-meshitem)
 
-----
+---
 
-.. _jsobjref/MeshItem.move:
+<a id="jsobjref-meshitem-move"></a>
 
-MeshItem.move()
-********************************************************************************
+### MeshItem.move()
 
-``app.activeDocument.meshItems[index].move(relativeObject, insertionLocation)``
+`app.activeDocument.meshItems[index].move(relativeObject, insertionLocation)`
 
 **Description**
 
@@ -552,26 +513,22 @@ Moves the object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-|       Parameter       |                              Type                              |          Description          |
-+=======================+================================================================+===============================+
-| ``relativeObject``    | Object                                                         | Object to move element within |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to move element to   |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
+| Parameter           | Type                                                                                               | Description                   |
+|---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
+| `relativeObject`    | Object                                                                                             | Object to move element within |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
 **Returns**
 
-:ref:`jsobjref/MeshItem`
+[MeshItem](#jsobjref-meshitem)
 
-----
+---
 
-.. _jsobjref/MeshItem.remove:
+<a id="jsobjref-meshitem-remove"></a>
 
-MeshItem.remove()
-********************************************************************************
+### MeshItem.remove()
 
-``app.activeDocument.meshItems[index].move()``
+`app.activeDocument.meshItems[index].move()`
 
 **Description**
 
@@ -581,103 +538,84 @@ Deletes this object.
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/MeshItem.resize:
+<a id="jsobjref-meshitem-resize"></a>
 
-MeshItem.resize()
-********************************************************************************
+### MeshItem.resize()
 
-::
-
-  app.activeDocument.meshItems[index].resize(scaleX, scaleY
-    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
-  )
+```default
+app.activeDocument.meshItems[index].resize(scaleX, scaleY
+  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+  [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
+)
+```
 
 **Description**
 
-Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scaleY`` is the vertical scaling factor. 100.0 = 100%.
+Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``scaleX``              | Number (double)                                              | Horizontal scaling factor                               |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleY``              | Number (double)                                              | Vertical scaling factor                                 |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeLineWidths``    | Number (double), optional                                    | The amount to scale line widths                         |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleAbout``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `scaleX`              | Number (double)                                                                                | Horizontal scaling factor                               |
+| `scaleY`              | Number (double)                                                                                | Vertical scaling factor                                 |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
+| `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/MeshItem.rotate:
+<a id="jsobjref-meshitem-rotate"></a>
 
-MeshItem.rotate()
-********************************************************************************
+### MeshItem.rotate()
 
-::
-
-  app.activeDocument.meshItems[index].rotate(angle [,changePositions]
-    [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,rotateAbout]
-  )
+```default
+app.activeDocument.meshItems[index].rotate(angle [,changePositions]
+  [,changeFillPatterns] [,changeFillGradients]
+  [,changeStrokePattern] [,rotateAbout]
+)
+```
 
 **Description**
 
-Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the ``angle`` value is positive, clockwise if the value is negative.
+Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``angle``               | Number (double)                                              | The angle amount to rotate the element                  |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``rotateAbout``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `angle`               | Number (double)                                                                                | The angle amount to rotate the element                  |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/MeshItem.transform:
+<a id="jsobjref-meshitem-transform"></a>
 
-MeshItem.transform()
-********************************************************************************
+### MeshItem.transform()
 
-::
-
-  app.activeDocument.meshItems[index].transform(transformationMatrix
-    [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
-  )
+```default
+app.activeDocument.meshItems[index].transform(transformationMatrix
+  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
+  [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
+)
+```
 
 **Description**
 
@@ -685,77 +623,59 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-|        Parameter         |                             Type                             |                  Description                   |
-+==========================+==============================================================+================================================+
-| ``transformationMatrix`` | :ref:`jsobjref/Matrix`                                       | Transformation matrix to apply                 |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changePositions``      | Boolean, optional                                            | Whether to change Positions                    |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillPatterns``   | Boolean, optional                                            | Whether to change Fill Patterns                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillGradients``  | Boolean, optional                                            | Whether to change Fill Gradients               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeStrokePattern``  | Boolean, optional                                            | Whether to change Stroke Pattern               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeLineWidths``     | Number (double), optional                                    | The amount to scale line widths                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``transformAbout``       | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| Parameter              | Type                                                                                           | Description                                    |
+|------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
+| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
+| `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
+| `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |
+| `changeStrokePattern`  | Boolean, optional                                                                              | Whether to change Stroke Pattern               |
+| `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
+| `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
+<a id="jsobjref-meshitem-translate"></a>
 
-.. _jsobjref/MeshItem.translate:
+### MeshItem.translate()
 
-MeshItem.translate()
-********************************************************************************
-
-::
-
-  app.activeDocument.meshItems[index].translate([deltaX] [,deltaY]
-    [,transformObjects] [,transformFillPatterns]
-    [,transformFillGradients] [,transformStrokePatterns]
-  )
+```default
+app.activeDocument.meshItems[index].translate([deltaX] [,deltaY]
+  [,transformObjects] [,transformFillPatterns]
+  [,transformFillGradients] [,transformStrokePatterns]
+)
+```
 
 **Description**
 
-Repositions the art item relative to the current position, where ``deltaX`` is the horizontal offset and ``deltaY`` is the vertical offset.
+Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
 **Parameters**
 
-+-----------------------------+---------------------------+--------------------------------------+
-|          Parameter          |           Type            |             Description              |
-+=============================+===========================+======================================+
-| ``deltaX``                  | Number (double), optional | Horizontal offset                    |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``deltaY``                  | Number (double), optional | Vertical offset                      |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformObjects``        | Boolean, optional         | Whether to transform Objects         |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillPatterns``   | Boolean, optional         | Whether to transform Fill Patterns   |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillGradients``  | Boolean, optional         | Whether to transform Fill Gradients  |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformStrokePatterns`` | Boolean, optional         | Whether to transform Stroke Patterns |
-+-----------------------------+---------------------------+--------------------------------------+
+| Parameter                 | Type                      | Description                          |
+|---------------------------|---------------------------|--------------------------------------|
+| `deltaX`                  | Number (double), optional | Horizontal offset                    |
+| `deltaY`                  | Number (double), optional | Vertical offset                      |
+| `transformObjects`        | Boolean, optional         | Whether to transform Objects         |
+| `transformFillPatterns`   | Boolean, optional         | Whether to transform Fill Patterns   |
+| `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
+| `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/MeshItem.zOrder:
+<a id="jsobjref-meshitem-zorder"></a>
 
-MeshItem.zOrder()
-********************************************************************************
+### MeshItem.zOrder()
 
-``app.activeDocument.meshItems[index].zOrder(zOrderCmd)``
+`app.activeDocument.meshItems[index].zOrder(zOrderCmd)`
 
 **Description**
 
@@ -763,31 +683,26 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-+---------------+--------------------------------------------------+-----------------------------------+
-|   Parameter   |                       Type                       |            Description            |
-+===============+==================================================+===================================+
-| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | Stacking order arrangement method |
-+---------------+--------------------------------------------------+-----------------------------------+
+| Parameter   | Type                                                                             | Description                       |
+|-------------|----------------------------------------------------------------------------------|-----------------------------------|
+| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Example name
-********************************************************************************
+### Example name
 
-::
-
-  // Locks all mesh items in the current document
-  if (app.documents.length > 0) {
-    var doc = app.activeDocument;
-    for (var i = 0; i < doc.meshItems.length; i++) {
-      doc.meshItems[i].locked = true;
-    }
+```default
+// Locks all mesh items in the current document
+if (app.documents.length > 0) {
+  var doc = app.activeDocument;
+  for (var i = 0; i < doc.meshItems.length; i++) {
+    doc.meshItems[i].locked = true;
   }
+}
+```

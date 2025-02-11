@@ -1,140 +1,130 @@
-.. _jsobjref/PrintPostScriptOptions:
+<a id="jsobjref-printpostscriptoptions"></a>
 
-PrintPostScriptOptions
-################################################################################
+# PrintPostScriptOptions
 
-``new PrintPostScriptOptions()``
+`new PrintPostScriptOptions()`
 
 **Description**
 
 Options for printing to a PostScript printer.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PrintPostScriptOptions.binaryPrinting:
+<a id="jsobjref-printpostscriptoptions-binaryprinting"></a>
 
-PrintPostScriptOptions.binaryPrinting
-********************************************************************************
+### PrintPostScriptOptions.binaryPrinting
 
-``printPostScriptOptions.binaryPrinting``
+`printPostScriptOptions.binaryPrinting`
 
 **Description**
 
-If ``true``, printing should be in binary mode.
+If `true`, printing should be in binary mode.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintPostScriptOptions.compatibleShading:
+<a id="jsobjref-printpostscriptoptions-compatibleshading"></a>
 
-PrintPostScriptOptions.compatibleShading
-********************************************************************************
+### PrintPostScriptOptions.compatibleShading
 
-``printPostScriptOptions.compatibleShading``
+`printPostScriptOptions.compatibleShading`
 
 **Description**
 
-If ``true``, use PostScript Level 1-compatible gradient and gradient mesh printing.
+If `true`, use PostScript Level 1-compatible gradient and gradient mesh printing.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintPostScriptOptions.forceContinuousTone:
+<a id="jsobjref-printpostscriptoptions-forcecontinuoustone"></a>
 
-PrintPostScriptOptions.forceContinuousTone
-********************************************************************************
+### PrintPostScriptOptions.forceContinuousTone
 
-``printPostScriptOptions.forceContinuousTone``
+`printPostScriptOptions.forceContinuousTone`
 
 **Description**
 
-If ``true``, force continuous tone.
+If `true`, force continuous tone.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintPostScriptOptions.imageCompression:
+<a id="jsobjref-printpostscriptoptions-imagecompression"></a>
 
-PrintPostScriptOptions.imageCompression
-********************************************************************************
+### PrintPostScriptOptions.imageCompression
 
-``printPostScriptOptions.imageCompression``
+`printPostScriptOptions.imageCompression`
 
 **Description**
 
 The image compression type.
 
-Default: ``PostScriptImageCompressionType.IMAGECOMPRESSIONNONE``
+Default: `PostScriptImageCompressionType.IMAGECOMPRESSIONNONE`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PostScriptImageCompressionType`
+[PostScriptImageCompressionType](scripting-constants.md#jsobjref-scripting-constants-postscriptimagecompressiontype)
 
-----
+---
 
-.. _jsobjref/PrintPostScriptOptions.negativePrinting:
+<a id="jsobjref-printpostscriptoptions-negativeprinting"></a>
 
-PrintPostScriptOptions.negativePrinting
-********************************************************************************
+### PrintPostScriptOptions.negativePrinting
 
-``printPostScriptOptions.negativePrinting``
+`printPostScriptOptions.negativePrinting`
 
 **Description**
 
-If ``true``, print in negative mode.
+If `true`, print in negative mode.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintPostScriptOptions.postScriptLevel:
+<a id="jsobjref-printpostscriptoptions-postscriptlevel"></a>
 
-PrintPostScriptOptions.postScriptLevel
-********************************************************************************
+### PrintPostScriptOptions.postScriptLevel
 
-``printPostScriptOptions.postScriptLevel``
+`printPostScriptOptions.postScriptLevel`
 
 **Description**
 
 The PostScript language level.
 
-Default: ``PrinterPostScriptLevelEnum.LEVEL2``
+Default: `PrinterPostScriptLevelEnum.LEVEL2`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PrinterPostScriptLevelEnum`
+[PrinterPostScriptLevelEnum](scripting-constants.md#jsobjref-scripting-constants-printerpostscriptlevelenum)
 
-----
+---
 
-.. _jsobjref/PrintPostScriptOptions.shadingResolution:
+<a id="jsobjref-printpostscriptoptions-shadingresolution"></a>
 
-PrintPostScriptOptions.shadingResolution
-********************************************************************************
+### PrintPostScriptOptions.shadingResolution
 
-``printPostScriptOptions.shadingResolution``
+`printPostScriptOptions.shadingResolution`
 
 **Description**
 
@@ -146,14 +136,13 @@ Default: 300.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrintPostScriptOptions.typename:
+<a id="jsobjref-printpostscriptoptions-typename"></a>
 
-PrintPostScriptOptions.typename
-********************************************************************************
+### PrintPostScriptOptions.typename
 
-``printPostScriptOptions.typename``
+`printPostScriptOptions.typename`
 
 **Description**
 
@@ -163,27 +152,24 @@ Read-only. The class name of the object.
 
 String
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Setting PostScript printing options
-********************************************************************************
+### Setting PostScript printing options
 
-::
+```default
+// Prints current document with various postscript levels
+// Create new postscript options object, assign to print options
+var psOpts = new PrintPostScriptOptions();
 
-   // Prints current document with various postscript levels
-   // Create new postscript options object, assign to print options
-   var psOpts = new PrintPostScriptOptions();
+var printOpts = new PrintOptions();
+printOpts.postScriptOptions = psOpts;
 
-   var printOpts = new PrintOptions();
-   printOpts.postScriptOptions = psOpts;
+// Assign PS level, print
+psOpts.postScriptLevel = PrinterPostScriptLevelEnum.PSLEVEL2;
+activeDocument.print(printOpts);
 
-   // Assign PS level, print
-   psOpts.postScriptLevel = PrinterPostScriptLevelEnum.PSLEVEL2;
-   activeDocument.print(printOpts);
-
-   psOpts.postScriptLevel = PrinterPostScriptLevelEnum.PSLEVEL3;
-   activeDocument.print(printOpts);
+psOpts.postScriptLevel = PrinterPostScriptLevelEnum.PSLEVEL3;
+activeDocument.print(printOpts);
+```

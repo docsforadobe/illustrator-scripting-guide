@@ -1,47 +1,42 @@
-.. _jsobjref/PDFSaveOptions:
+<a id="jsobjref-pdfsaveoptions"></a>
 
-PDFSaveOptions
-################################################################################
+# PDFSaveOptions
 
-``new PDFSaveOptions()``
+`new PDFSaveOptions()`
 
 **Description**
 
-Options for saving a document as an Adobe PDF file, used with the :ref:`jsobjref/Document.saveAs` method.
+Options for saving a document as an Adobe PDF file, used with the [Document.saveAs()](Document.md#jsobjref-document-saveas) method.
 
 All properties are optional.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PDFSaveOptions.acrobatLayers:
+<a id="jsobjref-pdfsaveoptions-acrobatlayers"></a>
 
-PDFSaveOptions.acrobatLayers
-********************************************************************************
+### PDFSaveOptions.acrobatLayers
 
-``pDFSaveOptions.acrobatLayers``
+`pDFSaveOptions.acrobatLayers`
 
 **Description**
 
 Optional. Create Acrobat® layers from top-level layers. Acrobat 6 only.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.artboardRange:
+<a id="jsobjref-pdfsaveoptions-artboardrange"></a>
 
-PDFSaveOptions.artboardRange
-********************************************************************************
+### PDFSaveOptions.artboardRange
 
-``pDFSaveOptions.artboardRange``
+`pDFSaveOptions.artboardRange`
 
 **Description**
 
@@ -53,33 +48,31 @@ Default: empty string
 
 String
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.bleedLink:
+<a id="jsobjref-pdfsaveoptions-bleedlink"></a>
 
-PDFSaveOptions.bleedLink
-********************************************************************************
+### PDFSaveOptions.bleedLink
 
-``pDFSaveOptions.bleedLink``
+`pDFSaveOptions.bleedLink`
 
 **Description**
 
 Optional. Link 4 bleed values.
 
-Default: ``true``
+Default: `true`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.bleedOffsetRect:
+<a id="jsobjref-pdfsaveoptions-bleedoffsetrect"></a>
 
-PDFSaveOptions.bleedOffsetRect
-********************************************************************************
+### PDFSaveOptions.bleedOffsetRect
 
-``pDFSaveOptions.bleedOffsetRect``
+`pDFSaveOptions.bleedOffsetRect`
 
 **Description**
 
@@ -89,90 +82,85 @@ The bleed offset rectangle.
 
 Array of 4 numbers
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.colorBars:
+<a id="jsobjref-pdfsaveoptions-colorbars"></a>
 
-PDFSaveOptions.colorBars
-********************************************************************************
+### PDFSaveOptions.colorBars
 
-``pDFSaveOptions.colorBars``
+`pDFSaveOptions.colorBars`
 
 **Description**
 
 Optional. Draw color bars.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.colorCompression:
+<a id="jsobjref-pdfsaveoptions-colorcompression"></a>
 
-PDFSaveOptions.colorCompression
-********************************************************************************
+### PDFSaveOptions.colorCompression
 
-``pDFSaveOptions.colorCompression``
+`pDFSaveOptions.colorCompression`
 
 **Description**
 
 Optional. The type of color bitmap compression used.
 
-Default: ``CompressionQuality.None``
+Default: `CompressionQuality.None`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.CompressionQuality`
+[CompressionQuality](scripting-constants.md#jsobjref-scripting-constants-compressionquality)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.colorConversionID:
+<a id="jsobjref-pdfsaveoptions-colorconversionid"></a>
 
-PDFSaveOptions.colorConversionID
-********************************************************************************
+### PDFSaveOptions.colorConversionID
 
-``pDFSaveOptions.colorConversionID``
+`pDFSaveOptions.colorConversionID`
 
 **Description**
 
 Optional. The PDF color conversion policy.
 
-Default: ``ColorConversion.None``
+Default: `ColorConversion.None`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.ColorConversion`
+[ColorConversion](scripting-constants.md#jsobjref-scripting-constants-colorconversion)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.colorDestinationID:
+<a id="jsobjref-pdfsaveoptions-colordestinationid"></a>
 
-PDFSaveOptions.colorDestinationID
-********************************************************************************
+### PDFSaveOptions.colorDestinationID
 
-``pDFSaveOptions.colorDestinationID``
+`pDFSaveOptions.colorDestinationID`
 
 **Description**
 
 Optional. The conversion target for color conversion.
 
-Default: ``ColorDestination.None``
+Default: `ColorDestination.None`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.ColorDestination`
+[ColorDestination](scripting-constants.md#jsobjref-scripting-constants-colordestination)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.colorDownsampling:
+<a id="jsobjref-pdfsaveoptions-colordownsampling"></a>
 
-PDFSaveOptions.colorDownsampling
-********************************************************************************
+### PDFSaveOptions.colorDownsampling
 
-``pDFSaveOptions.colorDownsampling``
+`pDFSaveOptions.colorDownsampling`
 
 **Description**
 
@@ -184,14 +172,13 @@ Default: 150.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.colorDownsamplingImageThreshold:
+<a id="jsobjref-pdfsaveoptions-colordownsamplingimagethreshold"></a>
 
-PDFSaveOptions.colorDownsamplingImageThreshold
-********************************************************************************
+### PDFSaveOptions.colorDownsamplingImageThreshold
 
-``pDFSaveOptions.colorDownsamplingImageThreshold``
+`pDFSaveOptions.colorDownsamplingImageThreshold`
 
 **Description**
 
@@ -203,52 +190,49 @@ Default: 225.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.colorDownsamplingMethod:
+<a id="jsobjref-pdfsaveoptions-colordownsamplingmethod"></a>
 
-PDFSaveOptions.colorDownsamplingMethod
-********************************************************************************
+### PDFSaveOptions.colorDownsamplingMethod
 
-``pDFSaveOptions.colorDownsamplingMethod``
+`pDFSaveOptions.colorDownsamplingMethod`
 
 **Description**
 
 Optional. How color bitmap images should be resampled.
 
-Default: ``DownsampleMethod.NODOWNSAMPLE``
+Default: `DownsampleMethod.NODOWNSAMPLE`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.DownsampleMethod`
+[DownsampleMethod](scripting-constants.md#jsobjref-scripting-constants-downsamplemethod)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.colorProfileID:
+<a id="jsobjref-pdfsaveoptions-colorprofileid"></a>
 
-PDFSaveOptions.colorProfileID
-********************************************************************************
+### PDFSaveOptions.colorProfileID
 
-``pDFSaveOptions.colorProfileID``
+`pDFSaveOptions.colorProfileID`
 
 **Description**
 
 Optional. The color profile to include.
 
-Default: ``ColorProfile.None``
+Default: `ColorProfile.None`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.ColorProfile`
+[ColorProfile](scripting-constants.md#jsobjref-scripting-constants-colorprofile)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.colorTileSize:
+<a id="jsobjref-pdfsaveoptions-colortilesize"></a>
 
-PDFSaveOptions.colorTileSize
-********************************************************************************
+### PDFSaveOptions.colorTileSize
 
-``pDFSaveOptions.colorTileSize``
+`pDFSaveOptions.colorTileSize`
 
 **Description**
 
@@ -260,52 +244,49 @@ Default: 256
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.compatibility:
+<a id="jsobjref-pdfsaveoptions-compatibility"></a>
 
-PDFSaveOptions.compatibility
-********************************************************************************
+### PDFSaveOptions.compatibility
 
-``pDFSaveOptions.compatibility``
+`pDFSaveOptions.compatibility`
 
 **Description**
 
 Optional. The version of the Acrobat file format to create.
 
-Default: ``PDFCompatibility.Acrobat5``
+Default: `PDFCompatibility.Acrobat5`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PDFCompatibility`
+[PDFCompatibility](scripting-constants.md#jsobjref-scripting-constants-pdfcompatibility)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.compressArt:
+<a id="jsobjref-pdfsaveoptions-compressart"></a>
 
-PDFSaveOptions.compressArt
-********************************************************************************
+### PDFSaveOptions.compressArt
 
-``pDFSaveOptions.compressArt``
+`pDFSaveOptions.compressArt`
 
 **Description**
 
-Optional. If ``true``, the line art and text should be compressed.
+Optional. If `true`, the line art and text should be compressed.
 
-Default: ``true``
+Default: `true`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.documentPassword:
+<a id="jsobjref-pdfsaveoptions-documentpassword"></a>
 
-PDFSaveOptions.documentPassword
-********************************************************************************
+### PDFSaveOptions.documentPassword
 
-``pDFSaveOptions.documentPassword``
+`pDFSaveOptions.documentPassword`
 
 **Description**
 
@@ -317,90 +298,85 @@ Default: no string
 
 String
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.enableAccess:
+<a id="jsobjref-pdfsaveoptions-enableaccess"></a>
 
-PDFSaveOptions.enableAccess
-********************************************************************************
+### PDFSaveOptions.enableAccess
 
-``pDFSaveOptions.enableAccess``
+`pDFSaveOptions.enableAccess`
 
 **Description**
 
-Optional. If ``true``, enable accessing 128-bit.
+Optional. If `true`, enable accessing 128-bit.
 
-Default: ``true``
+Default: `true`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.enableCopy:
+<a id="jsobjref-pdfsaveoptions-enablecopy"></a>
 
-PDFSaveOptions.enableCopy
-********************************************************************************
+### PDFSaveOptions.enableCopy
 
-``pDFSaveOptions.enableCopy``
+`pDFSaveOptions.enableCopy`
 
 **Description**
 
-Optional. If ``true``, enable copying of text 128-bit.
+Optional. If `true`, enable copying of text 128-bit.
 
-Default: ``true``
+Default: `true`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.enableCopyAccess:
+<a id="jsobjref-pdfsaveoptions-enablecopyaccess"></a>
 
-PDFSaveOptions.enableCopyAccess
-********************************************************************************
+### PDFSaveOptions.enableCopyAccess
 
-``pDFSaveOptions.enableCopyAccess``
+`pDFSaveOptions.enableCopyAccess`
 
 **Description**
 
-Optional. If ``true``, enable copying and accessing 40-bit.
+Optional. If `true`, enable copying and accessing 40-bit.
 
-Default: ``true``
+Default: `true`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.enablePlainText:
+<a id="jsobjref-pdfsaveoptions-enableplaintext"></a>
 
-PDFSaveOptions.enablePlainText
-********************************************************************************
+### PDFSaveOptions.enablePlainText
 
-``pDFSaveOptions.enablePlainText``
+`pDFSaveOptions.enablePlainText`
 
 **Description**
 
-Optional. If ``true``, enable plaintext metadata 128-bit. Available only for Acrobat 6.
+Optional. If `true`, enable plaintext metadata 128-bit. Available only for Acrobat 6.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.flattenerOptions:
+<a id="jsobjref-pdfsaveoptions-flatteneroptions"></a>
 
-PDFSaveOptions.flattenerOptions
-********************************************************************************
+### PDFSaveOptions.flattenerOptions
 
-``pDFSaveOptions.flattenerOptions``
+`pDFSaveOptions.flattenerOptions`
 
 **Description**
 
@@ -408,16 +384,15 @@ Optional. The printing flattener options.
 
 **Type**
 
-:ref:`jsobjref/PrintFlattenerOptions`
+[PrintFlattenerOptions](PrintFlattenerOptions.md#jsobjref-printflatteneroptions)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.flattenerPreset:
+<a id="jsobjref-pdfsaveoptions-flattenerpreset"></a>
 
-PDFSaveOptions.flattenerPreset
-********************************************************************************
+### PDFSaveOptions.flattenerPreset
 
-``pDFSaveOptions.flattenerPreset``
+`pDFSaveOptions.flattenerPreset`
 
 **Description**
 
@@ -427,14 +402,13 @@ Optional. The transparency flattener preset name.
 
 String.
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.fontSubsetThreshold:
+<a id="jsobjref-pdfsaveoptions-fontsubsetthreshold"></a>
 
-PDFSaveOptions.fontSubsetThreshold
-********************************************************************************
+### PDFSaveOptions.fontSubsetThreshold
 
-``pDFSaveOptions.fontSubsetThreshold``
+`pDFSaveOptions.fontSubsetThreshold`
 
 **Description**
 
@@ -446,52 +420,49 @@ Default: 100.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.generateThumbnails:
+<a id="jsobjref-pdfsaveoptions-generatethumbnails"></a>
 
-PDFSaveOptions.generateThumbnails
-********************************************************************************
+### PDFSaveOptions.generateThumbnails
 
-``pDFSaveOptions.generateThumbnails``
+`pDFSaveOptions.generateThumbnails`
 
 **Description**
 
-Optional. If ``true``, thumbnail images are generated with the saved file.
+Optional. If `true`, thumbnail images are generated with the saved file.
 
-Default: ``true``
+Default: `true`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.grayscaleCompression:
+<a id="jsobjref-pdfsaveoptions-grayscalecompression"></a>
 
-PDFSaveOptions.grayscaleCompression
-********************************************************************************
+### PDFSaveOptions.grayscaleCompression
 
-``pDFSaveOptions.grayscaleCompression``
+`pDFSaveOptions.grayscaleCompression`
 
 **Description**
 
 Optional. Quality of grayscale bitmap compression.
 
-Default: ``CompressionQuality.None``
+Default: `CompressionQuality.None`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.CompressionQuality`
+[CompressionQuality](scripting-constants.md#jsobjref-scripting-constants-compressionquality)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.grayscaleDownsampling:
+<a id="jsobjref-pdfsaveoptions-grayscaledownsampling"></a>
 
-PDFSaveOptions.grayscaleDownsampling
-********************************************************************************
+### PDFSaveOptions.grayscaleDownsampling
 
-``pDFSaveOptions.grayscaleDownsampling``
+`pDFSaveOptions.grayscaleDownsampling`
 
 **Description**
 
@@ -503,14 +474,13 @@ Default: 150.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.grayscaleDownsamplingImageThreshold:
+<a id="jsobjref-pdfsaveoptions-grayscaledownsamplingimagethreshold"></a>
 
-PDFSaveOptions.grayscaleDownsamplingImageThreshold
-********************************************************************************
+### PDFSaveOptions.grayscaleDownsamplingImageThreshold
 
-``pDFSaveOptions.grayscaleDownsamplingImageThreshold``
+`pDFSaveOptions.grayscaleDownsamplingImageThreshold`
 
 **Description**
 
@@ -522,33 +492,31 @@ Default: 225.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.grayscaleDownsamplingMethod:
+<a id="jsobjref-pdfsaveoptions-grayscaledownsamplingmethod"></a>
 
-PDFSaveOptions.grayscaleDownsamplingMethod
-********************************************************************************
+### PDFSaveOptions.grayscaleDownsamplingMethod
 
-``pDFSaveOptions.grayscaleDownsamplingMethod``
+`pDFSaveOptions.grayscaleDownsamplingMethod`
 
 **Description**
 
 Optional. How grayscale bitmap images should be resampled
 
-Default: ``DownSampleMethod.NODOWNSAMPLE``
+Default: `DownSampleMethod.NODOWNSAMPLE`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.DownsampleMethod`
+[DownsampleMethod](scripting-constants.md#jsobjref-scripting-constants-downsamplemethod)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.grayscaleTileSize:
+<a id="jsobjref-pdfsaveoptions-grayscaletilesize"></a>
 
-PDFSaveOptions.grayscaleTileSize
-********************************************************************************
+### PDFSaveOptions.grayscaleTileSize
 
-``pDFSaveOptions.grayscaleTileSize``
+`pDFSaveOptions.grayscaleTileSize`
 
 **Description**
 
@@ -560,33 +528,31 @@ Default: 256
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.monochromeCompression:
+<a id="jsobjref-pdfsaveoptions-monochromecompression"></a>
 
-PDFSaveOptions.monochromeCompression
-********************************************************************************
+### PDFSaveOptions.monochromeCompression
 
-``pDFSaveOptions.monochromeCompression``
+`pDFSaveOptions.monochromeCompression`
 
 **Description**
 
 Optional. Type of monochrome bitmap compression used.
 
-Default: ``MonochromeCompression.None``
+Default: `MonochromeCompression.None`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.MonochromeCompression`
+[MonochromeCompression](scripting-constants.md#jsobjref-scripting-constants-monochromecompression)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.monochromeDownsampling:
+<a id="jsobjref-pdfsaveoptions-monochromedownsampling"></a>
 
-PDFSaveOptions.monochromeDownsampling
-********************************************************************************
+### PDFSaveOptions.monochromeDownsampling
 
-``pDFSaveOptions.monochromeDownsampling``
+`pDFSaveOptions.monochromeDownsampling`
 
 **Description**
 
@@ -598,14 +564,13 @@ Default: 300
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.monochromeDownsamplingImageThreshold:
+<a id="jsobjref-pdfsaveoptions-monochromedownsamplingimagethreshold"></a>
 
-PDFSaveOptions.monochromeDownsamplingImageThreshold
-********************************************************************************
+### PDFSaveOptions.monochromeDownsamplingImageThreshold
 
-``pDFSaveOptions.monochromeDownsamplingImageThreshold``
+`pDFSaveOptions.monochromeDownsamplingImageThreshold`
 
 **Description**
 
@@ -617,33 +582,31 @@ Default: 450.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.monochromeDownsamplingMethod:
+<a id="jsobjref-pdfsaveoptions-monochromedownsamplingmethod"></a>
 
-PDFSaveOptions.monochromeDownsamplingMethod
-********************************************************************************
+### PDFSaveOptions.monochromeDownsamplingMethod
 
-``pDFSaveOptions.monochromeDownsamplingMethod``
+`pDFSaveOptions.monochromeDownsamplingMethod`
 
 **Description**
 
 Optional. How monochrome bitmap images should be resampled.
 
-Default: ``DownSampleMethod.NODOWNSAMPLE``
+Default: `DownSampleMethod.NODOWNSAMPLE`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.DownsampleMethod`
+[DownsampleMethod](scripting-constants.md#jsobjref-scripting-constants-downsamplemethod)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.offset:
+<a id="jsobjref-pdfsaveoptions-offset"></a>
 
-PDFSaveOptions.offset
-********************************************************************************
+### PDFSaveOptions.offset
 
-``pDFSaveOptions.offset``
+`pDFSaveOptions.offset`
 
 **Description**
 
@@ -655,33 +618,31 @@ Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.optimization:
+<a id="jsobjref-pdfsaveoptions-optimization"></a>
 
-PDFSaveOptions.optimization
-********************************************************************************
+### PDFSaveOptions.optimization
 
-``pDFSaveOptions.optimization``
+`pDFSaveOptions.optimization`
 
 **Description**
 
-Optional. If ``true``, the PDF document should be optimized for fast web viewing.
+Optional. If `true`, the PDF document should be optimized for fast web viewing.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.outputCondition:
+<a id="jsobjref-pdfsaveoptions-outputcondition"></a>
 
-PDFSaveOptions.outputCondition
-********************************************************************************
+### PDFSaveOptions.outputCondition
 
-``pDFSaveOptions.outputCondition``
+`pDFSaveOptions.outputCondition`
 
 **Description**
 
@@ -693,14 +654,13 @@ Default: not included
 
 String
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.outputConditionID:
+<a id="jsobjref-pdfsaveoptions-outputconditionid"></a>
 
-PDFSaveOptions.outputConditionID
-********************************************************************************
+### PDFSaveOptions.outputConditionID
 
-``pDFSaveOptions.outputConditionID``
+`pDFSaveOptions.outputConditionID`
 
 **Description**
 
@@ -712,33 +672,31 @@ Default: not included
 
 String
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.pageInformation:
+<a id="jsobjref-pdfsaveoptions-pageinformation"></a>
 
-PDFSaveOptions.pageInformation
-********************************************************************************
+### PDFSaveOptions.pageInformation
 
-``pDFSaveOptions.pageInformation``
+`pDFSaveOptions.pageInformation`
 
 **Description**
 
-Optional. If ``true``, raw page information.
+Optional. If `true`, raw page information.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.pageMarksType:
+<a id="jsobjref-pdfsaveoptions-pagemarkstype"></a>
 
-PDFSaveOptions.pageMarksType
-********************************************************************************
+### PDFSaveOptions.pageMarksType
 
-``pDFSaveOptions.pageMarksType``
+`pDFSaveOptions.pageMarksType`
 
 **Description**
 
@@ -748,54 +706,51 @@ Default: PageMarksType.Roman
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PageMarksTypes`
+[PageMarksTypes](scripting-constants.md#jsobjref-scripting-constants-pagemarkstypes)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.pDFAllowPrinting:
+<a id="jsobjref-pdfsaveoptions-pdfallowprinting"></a>
 
-PDFSaveOptions.pDFAllowPrinting
-********************************************************************************
+### PDFSaveOptions.pDFAllowPrinting
 
-``pDFSaveOptions.pDFAllowPrinting``
+`pDFSaveOptions.pDFAllowPrinting`
 
 **Description**
 
 Optional. PDF security printing permission.
 
-Default: ``PDFPrintAllowedEnum.PRINT128HIGHRESOLUTION``
+Default: `PDFPrintAllowedEnum.PRINT128HIGHRESOLUTION`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PDFPrintAllowedEnum`
+[PDFPrintAllowedEnum](scripting-constants.md#jsobjref-scripting-constants-pdfprintallowedenum)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.pDFChangesAllowed:
+<a id="jsobjref-pdfsaveoptions-pdfchangesallowed"></a>
 
-PDFSaveOptions.pDFChangesAllowed
-********************************************************************************
+### PDFSaveOptions.pDFChangesAllowed
 
-``pDFSaveOptions.pDFChangesAllowed``
+`pDFSaveOptions.pDFChangesAllowed`
 
 **Description**
 
 Optional. Security changes allowed.
 
-Default: ``PDFChangeAllowedEnum.CHANGE128ANYCHANGES``
+Default: `PDFChangeAllowedEnum.CHANGE128ANYCHANGES`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PDFChangesAllowedEnum`
+[PDFChangesAllowedEnum](scripting-constants.md#jsobjref-scripting-constants-pdfchangesallowedenum)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.pDFPreset:
+<a id="jsobjref-pdfsaveoptions-pdfpreset"></a>
 
-PDFSaveOptions.pDFPreset
-********************************************************************************
+### PDFSaveOptions.pDFPreset
 
-``pDFSaveOptions.pDFPreset``
+`pDFSaveOptions.pDFPreset`
 
 **Description**
 
@@ -805,33 +760,31 @@ Optional. Name of PDF preset to use.
 
 String
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.pDFXStandard:
+<a id="jsobjref-pdfsaveoptions-pdfxstandard"></a>
 
-PDFSaveOptions.pDFXStandard
-********************************************************************************
+### PDFSaveOptions.pDFXStandard
 
-``pDFSaveOptions.pDFXStandard``
+`pDFSaveOptions.pDFXStandard`
 
 **Description**
 
 Optional. The PDF standard with which this document complies.
 
-Default: ``PDFXStandard.PDFXNONE``
+Default: `PDFXStandard.PDFXNONE`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PDFXStandard`
+[PDFXStandard](scripting-constants.md#jsobjref-scripting-constants-pdfxstandard)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.pDFXStandardDescription:
+<a id="jsobjref-pdfsaveoptions-pdfxstandarddescription"></a>
 
-PDFSaveOptions.pDFXStandardDescription
-********************************************************************************
+### PDFSaveOptions.pDFXStandardDescription
 
-``pDFSaveOptions.pDFXStandardDescription``
+`pDFSaveOptions.pDFXStandardDescription`
 
 **Description**
 
@@ -841,14 +794,13 @@ Optional. A description of the PDF standard from the selected preset.
 
 String
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.permissionPassword:
+<a id="jsobjref-pdfsaveoptions-permissionpassword"></a>
 
-PDFSaveOptions.permissionPassword
-********************************************************************************
+### PDFSaveOptions.permissionPassword
 
-``pDFSaveOptions.permissionPassword``
+`pDFSaveOptions.permissionPassword`
 
 **Description**
 
@@ -860,33 +812,31 @@ Default: no string
 
 String
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.preserveEditability:
+<a id="jsobjref-pdfsaveoptions-preserveeditability"></a>
 
-PDFSaveOptions.preserveEditability
-********************************************************************************
+### PDFSaveOptions.preserveEditability
 
-``pDFSaveOptions.preserveEditability``
+`pDFSaveOptions.preserveEditability`
 
 **Description**
 
-Optional. If ``true``, Illustrator editing capabilities should be preserved when saving the document.
+Optional. If `true`, Illustrator editing capabilities should be preserved when saving the document.
 
-Default: ``true``
+Default: `true`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.printerResolution:
+<a id="jsobjref-pdfsaveoptions-printerresolution"></a>
 
-PDFSaveOptions.printerResolution
-********************************************************************************
+### PDFSaveOptions.printerResolution
 
-``pDFSaveOptions.printerResolution``
+`pDFSaveOptions.printerResolution`
 
 **Description**
 
@@ -898,128 +848,121 @@ Default: 800.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.registrationMarks:
+<a id="jsobjref-pdfsaveoptions-registrationmarks"></a>
 
-PDFSaveOptions.registrationMarks
-********************************************************************************
+### PDFSaveOptions.registrationMarks
 
-``pDFSaveOptions.registrationMarks``
+`pDFSaveOptions.registrationMarks`
 
 **Description**
 
-Optional. If ``true``, draw registration marks.
+Optional. If `true`, draw registration marks.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.requireDocumentPassword:
+<a id="jsobjref-pdfsaveoptions-requiredocumentpassword"></a>
 
-PDFSaveOptions.requireDocumentPassword
-********************************************************************************
+### PDFSaveOptions.requireDocumentPassword
 
-``pDFSaveOptions.requireDocumentPassword``
+`pDFSaveOptions.requireDocumentPassword`
 
 **Description**
 
 Optional. Require a password to open the document.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.requirePermissionPassword:
+<a id="jsobjref-pdfsaveoptions-requirepermissionpassword"></a>
 
-PDFSaveOptions.requirePermissionPassword
-********************************************************************************
+### PDFSaveOptions.requirePermissionPassword
 
-``pDFSaveOptions.requirePermissionPassword``
+`pDFSaveOptions.requirePermissionPassword`
 
 **Description**
 
 Optional. Use a password to restrict editing security settings.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.trapped:
+<a id="jsobjref-pdfsaveoptions-trapped"></a>
 
-PDFSaveOptions.trapped
-********************************************************************************
+### PDFSaveOptions.trapped
 
-``pDFSaveOptions.trapped``
+`pDFSaveOptions.trapped`
 
 **Description**
 
-Optional. If ``true``, manual trapping has been prepared for the document.
+Optional. If `true`, manual trapping has been prepared for the document.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.trimMarks:
+<a id="jsobjref-pdfsaveoptions-trimmarks"></a>
 
-PDFSaveOptions.trimMarks
-********************************************************************************
+### PDFSaveOptions.trimMarks
 
-``pDFSaveOptions.trimMarks``
+`pDFSaveOptions.trimMarks`
 
 **Description**
 
 Optional. Draw trim marks.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.trimMarkWeight:
+<a id="jsobjref-pdfsaveoptions-trimmarkweight"></a>
 
-PDFSaveOptions.trimMarkWeight
-********************************************************************************
+### PDFSaveOptions.trimMarkWeight
 
-``pDFSaveOptions.trimMarkWeight``
+`pDFSaveOptions.trimMarkWeight`
 
 **Description**
 
 Optional. The trim mark weight.
 
-Default: ``PDFTrimMarkWeight.TRIMMARKWEIGHT0125``
+Default: `PDFTrimMarkWeight.TRIMMARKWEIGHT0125`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PDFTrimMarkWeight`
+[PDFTrimMarkWeight](scripting-constants.md#jsobjref-scripting-constants-pdftrimmarkweight)
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.typename:
+<a id="jsobjref-pdfsaveoptions-typename"></a>
 
-PDFSaveOptions.typename
-********************************************************************************
+### PDFSaveOptions.typename
 
-``pDFSaveOptions.typename``
+`pDFSaveOptions.typename`
 
 **Description**
 
@@ -1029,49 +972,45 @@ Optional. Read-only. The class name of the referenced object.
 
 String
 
-----
+---
 
-.. _jsobjref/PDFSaveOptions.viewAfterSaving:
+<a id="jsobjref-pdfsaveoptions-viewaftersaving"></a>
 
-PDFSaveOptions.viewAfterSaving
-********************************************************************************
+### PDFSaveOptions.viewAfterSaving
 
-``pDFSaveOptions.viewAfterSaving``
+`pDFSaveOptions.viewAfterSaving`
 
 **Description**
 
 Optional. View PDF after saving.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Saving to PDF format
-********************************************************************************
+### Saving to PDF format
 
-::
+```default
+// Saves the current document as PDF to dest with specified options
+// dest contains the full path and file name to save to
+function saveFileToPDF(dest) {
+  var doc = app.activeDocument;
 
-  // Saves the current document as PDF to dest with specified options
-  // dest contains the full path and file name to save to
-  function saveFileToPDF(dest) {
-    var doc = app.activeDocument;
+  if (app.documents.length > 0) {
+    var saveName = new File(dest);
+    saveOpts = new PDFSaveOptions();
 
-    if (app.documents.length > 0) {
-      var saveName = new File(dest);
-      saveOpts = new PDFSaveOptions();
+    saveOpts.compatibility = PDFCompatibility.ACROBAT5;
+    saveOpts.generateThumbnails = true;
+    saveOpts.preserveEditability = true;
 
-      saveOpts.compatibility = PDFCompatibility.ACROBAT5;
-      saveOpts.generateThumbnails = true;
-      saveOpts.preserveEditability = true;
-
-      doc.saveAs(saveName, saveOpts);
-    }
+    doc.saveAs(saveName, saveOpts);
   }
+}
+```

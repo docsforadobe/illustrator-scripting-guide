@@ -1,28 +1,24 @@
-.. _jsobjref/PathPoint:
+<a id="jsobjref-pathpoint"></a>
 
-PathPoint
-################################################################################
+# PathPoint
 
-``app.activeDocument.pathItems[index].pathPoints[index``
+`app.activeDocument.pathItems[index].pathPoints[index`
 
 **Description**
 
 A point on a specific path.
 
-Each path point is made up of an anchor point (``anchor``) and a pair of handles (``leftDirection`` and ``rightDirection``).
+Each path point is made up of an anchor point (`anchor`) and a pair of handles (`leftDirection` and `rightDirection`).
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PathPoint.anchor:
+<a id="jsobjref-pathpoint-anchor"></a>
 
-PathPoint.anchor
-********************************************************************************
+### PathPoint.anchor
 
-``app.activeDocument.pathItems[index].pathPoints[index].anchor``
+`app.activeDocument.pathItems[index].pathPoints[index].anchor`
 
 **Description**
 
@@ -32,14 +28,13 @@ The position of this point’s anchor point.
 
 Array of 2 numbers
 
-----
+---
 
-.. _jsobjref/PathPoint.leftDirection:
+<a id="jsobjref-pathpoint-leftdirection"></a>
 
-PathPoint.leftDirection
-********************************************************************************
+### PathPoint.leftDirection
 
-``app.activeDocument.pathItems[index].pathPoints[index].leftDirection``
+`app.activeDocument.pathItems[index].pathPoints[index].leftDirection`
 
 **Description**
 
@@ -49,14 +44,13 @@ The position of this path point’s in control point.
 
 Array of 2 numbers
 
-----
+---
 
-.. _jsobjref/PathPoint.parent:
+<a id="jsobjref-pathpoint-parent"></a>
 
-PathPoint.parent
-********************************************************************************
+### PathPoint.parent
 
-``app.activeDocument.pathItems[index].pathPoints[index].parent``
+`app.activeDocument.pathItems[index].pathPoints[index].parent`
 
 **Description**
 
@@ -64,16 +58,15 @@ The path item that contains this path point.
 
 **Type**
 
-:ref:`jsobjref/PathItem`; read-only.
+[PathItem](PathItem.md#jsobjref-pathitem); read-only.
 
-----
+---
 
-.. _jsobjref/PathPoint.pointType:
+<a id="jsobjref-pathpoint-pointtype"></a>
 
-PathPoint.pointType
-********************************************************************************
+### PathPoint.pointType
 
-``app.activeDocument.pathItems[index].pathPoints[index].pointType``
+`app.activeDocument.pathItems[index].pathPoints[index].pointType`
 
 **Description**
 
@@ -83,16 +76,15 @@ Setting the type to a corner forces the left and right direction points to be on
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PointType`
+[PointType](scripting-constants.md#jsobjref-scripting-constants-pointtype)
 
-----
+---
 
-.. _jsobjref/PathPoint.rightDirection:
+<a id="jsobjref-pathpoint-rightdirection"></a>
 
-PathPoint.rightDirection
-********************************************************************************
+### PathPoint.rightDirection
 
-``app.activeDocument.pathItems[index].pathPoints[index].rightDirection``
+`app.activeDocument.pathItems[index].pathPoints[index].rightDirection`
 
 **Description**
 
@@ -102,14 +94,13 @@ The position of this path point’s out control point.
 
 Array of 2 numbers
 
-----
+---
 
-.. _jsobjref/PathPoint.selected:
+<a id="jsobjref-pathpoint-selected"></a>
 
-PathPoint.selected
-********************************************************************************
+### PathPoint.selected
 
-``app.activeDocument.pathItems[index].pathPoints[index].selected``
+`app.activeDocument.pathItems[index].pathPoints[index].selected`
 
 **Description**
 
@@ -117,16 +108,15 @@ Are points of this path point selected, and if so, which ones.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.PathPointSelection`
+[PathPointSelection](scripting-constants.md#jsobjref-scripting-constants-pathpointselection)
 
-----
+---
 
-.. _jsobjref/PathPoint.typename:
+<a id="jsobjref-pathpoint-typename"></a>
 
-PathPoint.typename
-********************************************************************************
+### PathPoint.typename
 
-``app.activeDocument.pathItems[index].pathPoints[index].typename``
+`app.activeDocument.pathItems[index].pathPoints[index].typename`
 
 **Description**
 
@@ -136,18 +126,15 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/PathPoint.remove:
+<a id="jsobjref-pathpoint-remove"></a>
 
-PathPoint.remove()
-********************************************************************************
+### PathPoint.remove()
 
-``app.activeDocument.pathItems[index].pathPoints[index].remove()``
+`app.activeDocument.pathItems[index].pathPoints[index].remove()`
 
 **Description**
 

@@ -1,64 +1,58 @@
-.. _jsobjref/TabStopInfo:
+<a id="jsobjref-tabstopinfo"></a>
 
-TabStopInfo
-################################################################################
+# TabStopInfo
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops`
 
 **Description**
 
-Information about the alignment, position, and other details for a tab stop in a :ref:`jsobjref/ParagraphAttributes` object.
+Information about the alignment, position, and other details for a tab stop in a [ParagraphAttributes](ParagraphAttributes.md#jsobjref-paragraphattributes) object.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/TabStopInfo.alignment:
+<a id="jsobjref-tabstopinfo-alignment"></a>
 
-TabStopInfo.alignment
-********************************************************************************
+### TabStopInfo.alignment
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.alignment``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.alignment`
 
 **Description**
 
 The alignment of the tab stop.
 
-Default: ``Left``
+Default: `Left`
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.TabStopAlignment`
+[TabStopAlignment](scripting-constants.md#jsobjref-scripting-constants-tabstopalignment)
 
-----
+---
 
-.. _jsobjref/TabStopInfo.decimalCharacter:
+<a id="jsobjref-tabstopinfo-decimalcharacter"></a>
 
-TabStopInfo.decimalCharacter
-********************************************************************************
+### TabStopInfo.decimalCharacter
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.decimalCharacter``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.decimalCharacter`
 
 **Description**
 
 The character used for decimal tab stops.
 
-Default: ``.``
+Default: `.`
 
 **Type**
 
 String
 
-----
+---
 
-.. _jsobjref/TabStopInfo.leader:
+<a id="jsobjref-tabstopinfo-leader"></a>
 
-TabStopInfo.leader
-********************************************************************************
+### TabStopInfo.leader
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.leader``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.leader`
 
 **Description**
 
@@ -68,14 +62,13 @@ The leader dot character.
 
 String
 
-----
+---
 
-.. _jsobjref/TabStopInfo.position:
+<a id="jsobjref-tabstopinfo-position"></a>
 
-TabStopInfo.position
-********************************************************************************
+### TabStopInfo.position
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.position``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.position`
 
 **Description**
 
@@ -87,14 +80,13 @@ Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TabStopInfo.typename:
+<a id="jsobjref-tabstopinfo-typename"></a>
 
-TabStopInfo.typename
-********************************************************************************
+### TabStopInfo.typename
 
-``app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.typename``
+`app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.typename`
 
 **Description**
 
@@ -104,44 +96,40 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
+## Example
 
-=======
-Example
-=======
+### Displaying tab stop information
 
-Displaying tab stop information
-********************************************************************************
+```default
+// Displays tab stop information found in each text frame
+// of current document, if any.
 
-::
+var docRef = app.activeDocument;
+var sData = "Tab Stops Found \\rTabStop Leader\t\tTabStop Position\r";
+var textRef = docRef.textFrames;
 
-  // Displays tab stop information found in each text frame
-  // of current document, if any.
+for( var i=0 ; i < textRef.length; i++ ) {
+  // Get all paragraphs in the textFrames
+  var paraRef = textRef[i].paragraphs;
 
-  var docRef = app.activeDocument;
-  var sData = "Tab Stops Found \\rTabStop Leader\t\tTabStop Position\r";
-  var textRef = docRef.textFrames;
+  for ( p=0 ; p < paraRef.length ; p++ ) {
+    // Get para attributes for all textRanges in paragraph
+    var attrRef = paraRef[p].paragraphAttributes;
+    var tabRef = attrRef.tabStops;
 
-  for( var i=0 ; i < textRef.length; i++ ) {
-    // Get all paragraphs in the textFrames
-    var paraRef = textRef[i].paragraphs;
-
-    for ( p=0 ; p < paraRef.length ; p++ ) {
-      // Get para attributes for all textRanges in paragraph
-      var attrRef = paraRef[p].paragraphAttributes;
-      var tabRef = attrRef.tabStops;
-
-      if ( tabRef.length > 0 ) {
-        for(var t=0; t<tabRef.length; t++){
-          sData += "\t" + tabRef[t].leader + "\t\t";
-          sData += "\t\t" + tabRef[t].position + "\r";
-        } // end for
-      } // end if
-    } // end for
+    if ( tabRef.length > 0 ) {
+      for(var t=0; t<tabRef.length; t++){
+        sData += "\t" + tabRef[t].leader + "\t\t";
+        sData += "\t\t" + tabRef[t].position + "\r";
+      } // end for
+    } // end if
   } // end for
+} // end for
 
-  var newTF = docRef.textFrames.add();
-  newTF.contents = sData;
-  newTF.top = 400;
-  newTF.left = 100; redraw();
+var newTF = docRef.textFrames.add();
+newTF.contents = sData;
+newTF.top = 400;
+newTF.left = 100; redraw();
+```

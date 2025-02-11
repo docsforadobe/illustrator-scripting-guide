@@ -1,26 +1,22 @@
-.. _jsobjref/Tags:
+<a id="jsobjref-tags"></a>
 
-Tags
-################################################################################
+# Tags
 
-``app.activeDocument.selection[index].tags``
+`app.activeDocument.selection[index].tags`
 
 **Description**
 
-A collection of :ref:`jsobjref/Tag` objects.
+A collection of [Tag](Tag.md#jsobjref-tag) objects.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Tags.length:
+<a id="jsobjref-tags-length"></a>
 
-Tags.length
-********************************************************************************
+### Tags.length
 
-``app.activeDocument.selection[index].tags.length``
+`app.activeDocument.selection[index].tags.length`
 
 **Description**
 
@@ -30,31 +26,29 @@ The number of elements in the collection.
 
 Number; read-only.
 
-----
+---
 
-.. _jsobjref/Tags.parent:
+<a id="jsobjref-tags-parent"></a>
 
-Tags.parent
-********************************************************************************
+### Tags.parent
 
-``app.activeDocument.selection[index].tags.parent``
+`app.activeDocument.selection[index].tags.parent`
 
 **Description**
 
-The object's container.
+The object’s container.
 
 **Type**
 
 Object; read-only.
 
-----
+---
 
-.. _jsobjref/Tags.typename:
+<a id="jsobjref-tags-typename"></a>
 
-Tags.typename
-********************************************************************************
+### Tags.typename
 
-``app.activeDocument.selection[index].tags.typename``
+`app.activeDocument.selection[index].tags.typename`
 
 **Description**
 
@@ -64,35 +58,31 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Tags.add:
+<a id="jsobjref-tags-add"></a>
 
-Tags.add()
-********************************************************************************
+### Tags.add()
 
-``app.activeDocument.selection[index].tags.add()``
+`app.activeDocument.selection[index].tags.add()`
 
 **Description**
 
-Creates a new :ref:`jsobjref/Tag` object.
+Creates a new [Tag](Tag.md#jsobjref-tag) object.
 
 **Returns**
 
-:ref:`jsobjref/Tag`
+[Tag](Tag.md#jsobjref-tag)
 
-----
+---
 
-.. _jsobjref/Tags.getByName:
+<a id="jsobjref-tags-getbyname"></a>
 
-Tags.getByName()
-********************************************************************************
+### Tags.getByName()
 
-``app.activeDocument.selection[index].tags.getByName(name)``
+`app.activeDocument.selection[index].tags.getByName(name)`
 
 **Description**
 
@@ -100,24 +90,21 @@ Get the first element in the collection with the provided name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/Tag`
+[Tag](Tag.md#jsobjref-tag)
 
-----
+---
 
-.. _jsobjref/Tags.index:
+<a id="jsobjref-tags-index"></a>
 
-Tags.index()
-********************************************************************************
+### Tags.index()
 
-``app.activeDocument.selection[index].tags.index(itemKey)``
+`app.activeDocument.selection[index].tags.index(itemKey)`
 
 **Description**
 
@@ -125,24 +112,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/Tag`
+[Tag](Tag.md#jsobjref-tag)
 
-----
+---
 
-.. _jsobjref/Tags.removeAll:
+<a id="jsobjref-tags-removeall"></a>
 
-Tags.removeAll()
-********************************************************************************
+### Tags.removeAll()
 
-``app.activeDocument.selection[index].tags.removeAll()``
+`app.activeDocument.selection[index].tags.removeAll()`
 
 **Description**
 
@@ -152,35 +136,32 @@ Deletes all elements in this collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Setting tag values
-********************************************************************************
+### Setting tag values
 
-::
+```default
+// Adds tags to all RasterItems and PlacedItems in the current document
+if ( app.documents.length > 0 ) {
+  var doc = app.activeDocument;
 
-  // Adds tags to all RasterItems and PlacedItems in the current document
-  if ( app.documents.length > 0 ) {
-    var doc = app.activeDocument;
+  if ( doc.placedItems.length + doc.rasterItems.length > 0 ) {
+    for ( i = 0; i < doc.pageItems.length; i++ ) {
+      var imageArt = doc.pageItems[i];
 
-    if ( doc.placedItems.length + doc.rasterItems.length > 0 ) {
-      for ( i = 0; i < doc.pageItems.length; i++ ) {
-        var imageArt = doc.pageItems[i];
+      if ( imageArt.typename == "PlacedItem" || imageArt.typename == "RasterItem") {
+        // Create a new Tag with the name AdobeURL and the
+        // value of the www link
 
-        if ( imageArt.typename == "PlacedItem" || imageArt.typename == "RasterItem") {
-          // Create a new Tag with the name AdobeURL and the
-          // value of the www link
-
-          var urlTAG = imageArt.tags.add();
-          urlTAG.name = "AdobeWebSite";
-          urlTAG.value = "http://www.adobe.com/";
-        }
+        var urlTAG = imageArt.tags.add();
+        urlTAG.name = "AdobeWebSite";
+        urlTAG.value = "http://www.adobe.com/";
       }
-    } else {
-      alert( "No placed or raster items in the document" );
     }
+  } else {
+    alert( "No placed or raster items in the document" );
   }
+}
+```

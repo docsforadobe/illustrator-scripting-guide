@@ -1,26 +1,22 @@
-.. _jsobjref/LegacyTextItems:
+<a id="jsobjref-legacytextitems"></a>
 
-LegacyTextItems
-################################################################################
+# LegacyTextItems
 
-``legacyTextItems``
+`legacyTextItems`
 
 **Description**
 
-A collection of :ref:`jsobjref/LegacyTextItem` objects.
+A collection of [LegacyTextItem](LegacyTextItem.md#jsobjref-legacytextitem) objects.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/LegacyTextItems.length:
+<a id="jsobjref-legacytextitems-length"></a>
 
-LegacyTextItems.length
-********************************************************************************
+### LegacyTextItems.length
 
-``legacyTextItems.length``
+`legacyTextItems.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ Number of elements in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/LegacyTextItems.parent:
+<a id="jsobjref-legacytextitems-parent"></a>
 
-LegacyTextItems.parent
-********************************************************************************
+### LegacyTextItems.parent
 
-``legacyTextItems.parent``
+`legacyTextItems.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/LegacyTextItems.typename:
+<a id="jsobjref-legacytextitems-typename"></a>
 
-LegacyTextItems.typename
-********************************************************************************
+### LegacyTextItems.typename
 
-``legacyTextItems.typename``
+`legacyTextItems.typename`
 
 **Description**
 
@@ -64,35 +58,31 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/LegacyTextItems.convertToNative:
+<a id="jsobjref-legacytextitems-converttonative"></a>
 
-LegacyTextItems.convertToNative()
-********************************************************************************
+### LegacyTextItems.convertToNative()
 
-``legacyTextItems.convertToNative()``
+`legacyTextItems.convertToNative()`
 
 **Description**
 
-Creates text frames from all legacy text items; the original legacy text items are deleted. Returns ``true`` on success.
+Creates text frames from all legacy text items; the original legacy text items are deleted. Returns `true` on success.
 
 **Returns**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/LegacyTextItems.getByName:
+<a id="jsobjref-legacytextitems-getbyname"></a>
 
-LegacyTextItems.getByName()
-********************************************************************************
+### LegacyTextItems.getByName()
 
-``legacyTextItems.getByName(name)``
+`legacyTextItems.getByName(name)`
 
 **Description**
 
@@ -100,24 +90,21 @@ Get the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/LegacyTextItem`
+[LegacyTextItem](LegacyTextItem.md#jsobjref-legacytextitem)
 
-----
+---
 
-.. _jsobjref/LegacyTextItems.index:
+<a id="jsobjref-legacytextitems-index"></a>
 
-LegacyTextItems.index()
-********************************************************************************
+### LegacyTextItems.index()
 
-``legacyTextItems.index(itemKey)``
+`legacyTextItems.index(itemKey)`
 
 **Description**
 
@@ -125,24 +112,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/LegacyTextItem`
+[LegacyTextItem](LegacyTextItem.md#jsobjref-legacytextitem)
 
-----
+---
 
-.. _jsobjref/LegacyTextItems.removeAll:
+<a id="jsobjref-legacytextitems-removeall"></a>
 
-LegacyTextItems.removeAll()
-********************************************************************************
+### LegacyTextItems.removeAll()
 
-``legacyTextItems.removeAll()``
+`legacyTextItems.removeAll()`
 
 **Description**
 

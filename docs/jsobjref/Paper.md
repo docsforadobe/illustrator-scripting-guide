@@ -1,26 +1,22 @@
-.. _jsobjref/Paper:
+<a id="jsobjref-paper"></a>
 
-Paper
-################################################################################
+# Paper
 
-``app.class``
+`app.class`
 
 **Description**
 
-Associates paper information with a paper name. ``Paper`` objects are used by :ref:`jsobjref/Printer` objects.
+Associates paper information with a paper name. `Paper` objects are used by [Printer](Printer.md#jsobjref-printer) objects.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Paper.name:
+<a id="jsobjref-paper-name"></a>
 
-Paper.name
-********************************************************************************
+### Paper.name
 
-``paper.name``
+`paper.name`
 
 **Description**
 
@@ -30,14 +26,13 @@ The paper name.
 
 String.
 
-----
+---
 
-.. _jsobjref/Paper.paperInfo:
+<a id="jsobjref-paper-paperinfo"></a>
 
-Paper.paperInfo
-********************************************************************************
+### Paper.paperInfo
 
-``paper.paperInfo``
+`paper.paperInfo`
 
 **Description**
 
@@ -45,16 +40,15 @@ The paper information.
 
 **Type**
 
-:ref:`jsobjref/PaperInfo`
+[PaperInfo](PaperInfo.md#jsobjref-paperinfo)
 
-----
+---
 
-.. _jsobjref/Paper.typename:
+<a id="jsobjref-paper-typename"></a>
 
-Paper.typename
-********************************************************************************
+### Paper.typename
 
-``paper.typename``
+`paper.typename`
 
 **Description**
 

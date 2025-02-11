@@ -1,26 +1,22 @@
-.. _jsobjref/Gradients:
+<a id="jsobjref-gradients"></a>
 
-Gradients
-################################################################################
+# Gradients
 
-``app.activeDocument.gradients``
+`app.activeDocument.gradients`
 
 **Description**
 
-A collection of :ref:`jsobjref/Gradient` objects in a document.
+A collection of [Gradient](Gradient.md#jsobjref-gradient) objects in a document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Gradients.length:
+<a id="jsobjref-gradients-length"></a>
 
-Gradients.length
-********************************************************************************
+### Gradients.length
 
-``app.activeDocument.gradients.length``
+`app.activeDocument.gradients.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ The number of objects in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/Gradients.parent:
+<a id="jsobjref-gradients-parent"></a>
 
-Gradients.parent
-********************************************************************************
+### Gradients.parent
 
-``app.activeDocument.gradients.parent``
+`app.activeDocument.gradients.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The parent of this object.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/Gradients.typename:
+<a id="jsobjref-gradients-typename"></a>
 
-Gradients.typename
-********************************************************************************
+### Gradients.typename
 
-``app.activeDocument.gradients.typename``
+`app.activeDocument.gradients.typename`
 
 **Description**
 
@@ -64,35 +58,31 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Gradients.add:
+<a id="jsobjref-gradients-add"></a>
 
-Gradients.add()
-********************************************************************************
+### Gradients.add()
 
-``app.activeDocument.gradients.add()``
+`app.activeDocument.gradients.add()`
 
 **Description**
 
-Creates a new ``Gradient`` object.
+Creates a new `Gradient` object.
 
 **Returns**
 
-:ref:`jsobjref/Gradient`
+[Gradient](Gradient.md#jsobjref-gradient)
 
-----
+---
 
-.. _jsobjref/Gradients.getByName:
+<a id="jsobjref-gradients-getbyname"></a>
 
-Gradients.getByName()
-********************************************************************************
+### Gradients.getByName()
 
-``app.activeDocument.gradients.getByName(name)``
+`app.activeDocument.gradients.getByName(name)`
 
 **Description**
 
@@ -100,24 +90,21 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/Gradient`
+[Gradient](Gradient.md#jsobjref-gradient)
 
-----
+---
 
-.. _jsobjref/Gradients.index:
+<a id="jsobjref-gradients-index"></a>
 
-Gradients.index()
-********************************************************************************
+### Gradients.index()
 
-``app.activeDocument.gradients.index(itemKey)``
+`app.activeDocument.gradients.index(itemKey)`
 
 **Description**
 
@@ -125,24 +112,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/Gradient`
+[Gradient](Gradient.md#jsobjref-gradient)
 
-----
+---
 
-.. _jsobjref/Gradients.removeAll:
+<a id="jsobjref-gradients-removeall"></a>
 
-Gradients.removeAll()
-********************************************************************************
+### Gradients.removeAll()
 
-``app.activeDocument.gradients.removeAll()``
+`app.activeDocument.gradients.removeAll()`
 
 **Description**
 
@@ -152,18 +136,15 @@ Deletes all elements in this collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Removing a gradient
-********************************************************************************
+### Removing a gradient
 
-::
-
-  // Deletes the first gradient from the current document
-  if (app.documents.length > 0) {
-    app.activeDocument.gradients[0].remove();
-  }
+```default
+// Deletes the first gradient from the current document
+if (app.documents.length > 0) {
+  app.activeDocument.gradients[0].remove();
+}
+```

@@ -1,26 +1,22 @@
-.. _jsobjref/Paragraphs:
+<a id="jsobjref-paragraphs"></a>
 
-Paragraphs
-################################################################################
+# Paragraphs
 
-``app.activeDocument.textFrames[index].paragraphs``
+`app.activeDocument.textFrames[index].paragraphs`
 
 **Description**
 
-A collection of :ref:`jsobjref/TextRange` objects, with each ``TextRange`` representing a paragraph. The elements are not named; you must access them by index.
+A collection of [TextRange](TextRange.md#jsobjref-textrange) objects, with each `TextRange` representing a paragraph. The elements are not named; you must access them by index.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Paragraphs.length:
+<a id="jsobjref-paragraphs-length"></a>
 
-Paragraphs.length
-********************************************************************************
+### Paragraphs.length
 
-``app.activeDocument.textFrames[index].paragraphs.length``
+`app.activeDocument.textFrames[index].paragraphs.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ The number of objects in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/Paragraphs.parent:
+<a id="jsobjref-paragraphs-parent"></a>
 
-Paragraphs.parent
-********************************************************************************
+### Paragraphs.parent
 
-``app.activeDocument.textFrames[index].paragraphs.parent``
+`app.activeDocument.textFrames[index].paragraphs.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The parent of this object.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/Paragraphs.typename:
+<a id="jsobjref-paragraphs-typename"></a>
 
-Paragraphs.typename
-********************************************************************************
+### Paragraphs.typename
 
-``app.activeDocument.textFrames[index].paragraphs.typename``
+`app.activeDocument.textFrames[index].paragraphs.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Paragraphs.add:
+<a id="jsobjref-paragraphs-add"></a>
 
-Paragraphs.add()
-********************************************************************************
+### Paragraphs.add()
 
-``app.activeDocument.textFrames[index].paragraphs.add(contents [,relativeObject] [,insertionLocation])``
+`app.activeDocument.textFrames[index].paragraphs.add(contents [,relativeObject] [,insertionLocation])`
 
 **Description**
 
@@ -83,28 +74,23 @@ Adds a new paragraph with specified text contents at the specified location in t
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+------------------------+
-|       Parameter       |                              Type                              |      Description       |
-+=======================+================================================================+========================+
-| ``contents``          | String                                                         | Text contents to add   |
-+-----------------------+----------------------------------------------------------------+------------------------+
-| ``relativeObject``    | :ref:`jsobjref/TextFrameItem`, optional                        | Object to add item to  |
-+-----------------------+----------------------------------------------------------------+------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to place text |
-+-----------------------+----------------------------------------------------------------+------------------------+
+| Parameter           | Type                                                                                               | Description            |
+|---------------------|----------------------------------------------------------------------------------------------------|------------------------|
+| `contents`          | String                                                                                             | Text contents to add   |
+| `relativeObject`    | [TextFrameItem](TextFrameItem.md#jsobjref-textframeitem), optional                                 | Object to add item to  |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to place text |
 
 **Returns**
 
-:ref:`jsobjref/TextRange`
+[TextRange](TextRange.md#jsobjref-textrange)
 
-----
+---
 
-.. _jsobjref/Paragraphs.addBefore:
+<a id="jsobjref-paragraphs-addbefore"></a>
 
-Paragraphs.addBefore()
-********************************************************************************
+### Paragraphs.addBefore()
 
-``app.activeDocument.textFrames[index].paragraphs.addBefore(contents)``
+`app.activeDocument.textFrames[index].paragraphs.addBefore(contents)`
 
 **Description**
 
@@ -112,24 +98,21 @@ Adds a new paragraph with specified text contents before the current text select
 
 **Parameters**
 
-+--------------+--------+----------------------+
-|  Parameter   |  Type  |     Description      |
-+==============+========+======================+
-| ``contents`` | String | Text contents to add |
-+--------------+--------+----------------------+
+| Parameter   | Type   | Description          |
+|-------------|--------|----------------------|
+| `contents`  | String | Text contents to add |
 
 **Returns**
 
-:ref:`jsobjref/TextRange`
+[TextRange](TextRange.md#jsobjref-textrange)
 
-----
+---
 
-.. _jsobjref/Paragraphs.index:
+<a id="jsobjref-paragraphs-index"></a>
 
-Paragraphs.index()
-********************************************************************************
+### Paragraphs.index()
 
-``app.activeDocument.textFrames[index].paragraphs.index(itemKey)``
+`app.activeDocument.textFrames[index].paragraphs.index(itemKey)`
 
 **Description**
 
@@ -137,24 +120,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/TextRange`
+[TextRange](TextRange.md#jsobjref-textrange)
 
-----
+---
 
-.. _jsobjref/Paragraphs.removeAll:
+<a id="jsobjref-paragraphs-removeall"></a>
 
-Paragraphs.removeAll()
-********************************************************************************
+### Paragraphs.removeAll()
 
-``app.activeDocument.textFrames[index].paragraphs.removeAll()``
+`app.activeDocument.textFrames[index].paragraphs.removeAll()`
 
 **Description**
 
@@ -164,22 +144,19 @@ Deletes all elements in this collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Counting paragraphs
-********************************************************************************
+### Counting paragraphs
 
-::
-
-  // Counts all paragraphs in current doc and stores result in paragraphCount
-  if (app.documents.length > 0) {
-    var doc = app.activeDocument;
-    var paragraphCount = 0;
-    for (var i = 0; i < doc.textFrames.length; i++) {
-      paragraphCount += doc.textFrames[i].paragraphs.length;
-    }
+```default
+// Counts all paragraphs in current doc and stores result in paragraphCount
+if (app.documents.length > 0) {
+  var doc = app.activeDocument;
+  var paragraphCount = 0;
+  for (var i = 0; i < doc.textFrames.length; i++) {
+    paragraphCount += doc.textFrames[i].paragraphs.length;
   }
+}
+```

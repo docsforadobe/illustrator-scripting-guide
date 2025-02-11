@@ -1,26 +1,22 @@
-.. _jsobjref/Preferences:
+<a id="jsobjref-preferences"></a>
 
-Preferences
-################################################################################
+# Preferences
 
-``app.Preferences``
+`app.Preferences`
 
 **Description**
 
 Specifies the preferred options for AutoCAD, FreeHand, PDF, and Photoshop files.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Preferences.AutoCADFileOptions:
+<a id="jsobjref-preferences-autocadfileoptions"></a>
 
-Preferences.AutoCADFileOptions
-********************************************************************************
+### Preferences.AutoCADFileOptions
 
-``app.preferences.AutoCADFileOptions``
+`app.preferences.AutoCADFileOptions`
 
 **Description**
 
@@ -28,16 +24,15 @@ Options to use when opening or placing an AutoCAD file.
 
 **Type**
 
-:ref:`jsobjref/OpenOptionsAutoCAD`; read-only.
+[OpenOptionsAutoCAD](OpenOptionsAutoCAD.md#jsobjref-openoptionsautocad); read-only.
 
-----
+---
 
-.. _jsobjref/Preferences.FreeHandFileOptions:
+<a id="jsobjref-preferences-freehandfileoptions"></a>
 
-Preferences.FreeHandFileOptions
-********************************************************************************
+### Preferences.FreeHandFileOptions
 
-``app.preferences.FreeHandFileOptions``
+`app.preferences.FreeHandFileOptions`
 
 **Description**
 
@@ -45,16 +40,15 @@ Options to use when opening or placing a FreeHand file.
 
 **Type**
 
-:ref:`jsobjref/OpenOptionsFreeHand`; read-only.
+[OpenOptionsFreeHand](OpenOptionsFreeHand.md#jsobjref-openoptionsfreehand); read-only.
 
-----
+---
 
-.. _jsobjref/Preferences.parent:
+<a id="jsobjref-preferences-parent"></a>
 
-Preferences.parent
-********************************************************************************
+### Preferences.parent
 
-``app.preferences.parent``
+`app.preferences.parent`
 
 **Description**
 
@@ -64,14 +58,13 @@ The parent of this object.
 
 object; read-only.
 
-----
+---
 
-.. _jsobjref/Preferences.PDFFileOptions:
+<a id="jsobjref-preferences-pdffileoptions"></a>
 
-Preferences.PDFFileOptions
-********************************************************************************
+### Preferences.PDFFileOptions
 
-``app.preferences.PDFFileOptions``
+`app.preferences.PDFFileOptions`
 
 **Description**
 
@@ -79,16 +72,15 @@ Options to use when opening or placing a PDF file.
 
 **Type**
 
-:ref:`jsobjref/PDFFileOptions`; read-only.
+[PDFFileOptions](PDFFileOptions.md#jsobjref-pdffileoptions); read-only.
 
-----
+---
 
-.. _jsobjref/Preferences.PhotoshopFileOptions:
+<a id="jsobjref-preferences-photoshopfileoptions"></a>
 
-Preferences.PhotoshopFileOptions
-********************************************************************************
+### Preferences.PhotoshopFileOptions
 
-``app.preferences.PhotoshopFileOptions``
+`app.preferences.PhotoshopFileOptions`
 
 **Description**
 
@@ -96,16 +88,15 @@ Options to use when opening or placing a Photoshop file.
 
 **Type**
 
-:ref:`jsobjref/PhotoshopFileOptions`; read-only.
+[PhotoshopFileOptions](PhotoshopFileOptions.md#jsobjref-photoshopfileoptions); read-only.
 
-----
+---
 
-.. _jsobjref/Preferences.typename:
+<a id="jsobjref-preferences-typename"></a>
 
-Preferences.typename
-********************************************************************************
+### Preferences.typename
 
-``app.preferences.typename``
+`app.preferences.typename`
 
 **Description**
 
@@ -115,18 +106,15 @@ The class name of the referenced object.
 
 string; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Preferences.getBooleanPreference:
+<a id="jsobjref-preferences-getbooleanpreference"></a>
 
-Preferences.getBooleanPreference
-********************************************************************************
+### Preferences.getBooleanPreference
 
-``app.preferences.getBooleanPreference(key)``
+`app.preferences.getBooleanPreference(key)`
 
 **Description**
 
@@ -134,24 +122,21 @@ Gets the boolean value of a given application preference.
 
 **Parameters**
 
-+-----------+--------+--------------------------+
-| Parameter |  Type  |       Description        |
-+===========+========+==========================+
-| ``key``   | String | Pref key of value to get |
-+-----------+--------+--------------------------+
+| Parameter   | Type   | Description              |
+|-------------|--------|--------------------------|
+| `key`       | String | Pref key of value to get |
 
 **Returns**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/Preferences.getIntegerPreference:
+<a id="jsobjref-preferences-getintegerpreference"></a>
 
-Preferences.getIntegerPreference
-********************************************************************************
+### Preferences.getIntegerPreference
 
-``app.preferences.getIntegerPreference(key)``
+`app.preferences.getIntegerPreference(key)`
 
 **Description**
 
@@ -159,24 +144,21 @@ Gets the integer value of a given application preference.
 
 **Parameters**
 
-+-----------+--------+--------------------------+
-| Parameter |  Type  |       Description        |
-+===========+========+==========================+
-| ``key``   | String | Pref key of value to get |
-+-----------+--------+--------------------------+
+| Parameter   | Type   | Description              |
+|-------------|--------|--------------------------|
+| `key`       | String | Pref key of value to get |
 
 **Returns**
 
 Integer
 
-----
+---
 
-.. _jsobjref/Preferences.getRealPreference:
+<a id="jsobjref-preferences-getrealpreference"></a>
 
-Preferences.getRealPreference
-********************************************************************************
+### Preferences.getRealPreference
 
-``app.preferences.getRealPreference(key)``
+`app.preferences.getRealPreference(key)`
 
 **Description**
 
@@ -184,24 +166,21 @@ Gets the real-number value of a given application preference.
 
 **Parameters**
 
-+-----------+--------+--------------------------+
-| Parameter |  Type  |       Description        |
-+===========+========+==========================+
-| ``key``   | String | Pref key of value to get |
-+-----------+--------+--------------------------+
+| Parameter   | Type   | Description              |
+|-------------|--------|--------------------------|
+| `key`       | String | Pref key of value to get |
 
 **Returns**
 
 Real
 
-----
+---
 
-.. _jsobjref/Preferences.getStringPreference:
+<a id="jsobjref-preferences-getstringpreference"></a>
 
-Preferences.getStringPreference
-********************************************************************************
+### Preferences.getStringPreference
 
-``app.preferences.getStringPreference(key)``
+`app.preferences.getStringPreference(key)`
 
 **Description**
 
@@ -209,24 +188,21 @@ Gets the string value of a given application preference.
 
 **Parameters**
 
-+-----------+--------+--------------------------+
-| Parameter |  Type  |       Description        |
-+===========+========+==========================+
-| ``key``   | String | Pref key of value to get |
-+-----------+--------+--------------------------+
+| Parameter   | Type   | Description              |
+|-------------|--------|--------------------------|
+| `key`       | String | Pref key of value to get |
 
 **Returns**
 
 String
 
-----
+---
 
-.. _jsobjref/Preferences.removePreference:
+<a id="jsobjref-preferences-removepreference"></a>
 
-Preferences.removePreference
-********************************************************************************
+### Preferences.removePreference
 
-``app.preferences.removePreference(key)``
+`app.preferences.removePreference(key)`
 
 **Description**
 
@@ -234,24 +210,21 @@ Deletes a given application preference.
 
 **Parameters**
 
-+-----------+--------+--------------------------+
-| Parameter |  Type  |       Description        |
-+===========+========+==========================+
-| ``key``   | String | Pref key of value to get |
-+-----------+--------+--------------------------+
+| Parameter   | Type   | Description              |
+|-------------|--------|--------------------------|
+| `key`       | String | Pref key of value to get |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/Preferences.setBooleanPreference:
+<a id="jsobjref-preferences-setbooleanpreference"></a>
 
-Preferences.setBooleanPreference
-********************************************************************************
+### Preferences.setBooleanPreference
 
-``app.preferences.setBooleanPreference(key, value)``
+`app.preferences.setBooleanPreference(key, value)`
 
 **Description**
 
@@ -259,26 +232,22 @@ Sets the boolean value of a given application preference.
 
 **Parameters**
 
-+-----------+---------+--------------------------+
-| Parameter |  Type   |       Description        |
-+===========+=========+==========================+
-| ``key``   | String  | Pref key of value to get |
-+-----------+---------+--------------------------+
-| ``value`` | Boolean | Value to set             |
-+-----------+---------+--------------------------+
+| Parameter   | Type    | Description              |
+|-------------|---------|--------------------------|
+| `key`       | String  | Pref key of value to get |
+| `value`     | Boolean | Value to set             |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/Preferences.setIntegerPreference:
+<a id="jsobjref-preferences-setintegerpreference"></a>
 
-Preferences.setIntegerPreference
-********************************************************************************
+### Preferences.setIntegerPreference
 
-``app.preferences.setIntegerPreference(key, value)``
+`app.preferences.setIntegerPreference(key, value)`
 
 **Description**
 
@@ -286,26 +255,22 @@ Sets the integer value of a given application preference.
 
 **Parameters**
 
-+-----------+---------+--------------------------+
-| Parameter |  Type   |       Description        |
-+===========+=========+==========================+
-| ``key``   | String  | Pref key of value to get |
-+-----------+---------+--------------------------+
-| ``value`` | Integer | Value to set             |
-+-----------+---------+--------------------------+
+| Parameter   | Type    | Description              |
+|-------------|---------|--------------------------|
+| `key`       | String  | Pref key of value to get |
+| `value`     | Integer | Value to set             |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/Preferences.setRealPreference:
+<a id="jsobjref-preferences-setrealpreference"></a>
 
-Preferences.setRealPreference
-********************************************************************************
+### Preferences.setRealPreference
 
-``app.preferences.setRealPreference(key, value)``
+`app.preferences.setRealPreference(key, value)`
 
 **Description**
 
@@ -313,26 +278,22 @@ Sets the real-number value of a given application preference.
 
 **Parameters**
 
-+-----------+--------+--------------------------+
-| Parameter |  Type  |       Description        |
-+===========+========+==========================+
-| ``key``   | String | Pref key of value to get |
-+-----------+--------+--------------------------+
-| ``value`` | Double | Value to set             |
-+-----------+--------+--------------------------+
+| Parameter   | Type   | Description              |
+|-------------|--------|--------------------------|
+| `key`       | String | Pref key of value to get |
+| `value`     | Double | Value to set             |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/Preferences.setStringPreference:
+<a id="jsobjref-preferences-setstringpreference"></a>
 
-Preferences.setStringPreference
-********************************************************************************
+### Preferences.setStringPreference
 
-``app.preferences.setStringPreference(key, value)``
+`app.preferences.setStringPreference(key, value)`
 
 **Description**
 
@@ -340,13 +301,10 @@ Sets the string value of a given application preference.
 
 **Parameters**
 
-+-----------+--------+--------------------------+
-| Parameter |  Type  |       Description        |
-+===========+========+==========================+
-| ``key``   | String | Pref key of value to get |
-+-----------+--------+--------------------------+
-| ``value`` | String | Value to set             |
-+-----------+--------+--------------------------+
+| Parameter   | Type   | Description              |
+|-------------|--------|--------------------------|
+| `key`       | String | Pref key of value to get |
+| `value`     | String | Value to set             |
 
 **Returns**
 

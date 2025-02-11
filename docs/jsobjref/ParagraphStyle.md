@@ -1,26 +1,22 @@
-.. _jsobjref/ParagraphStyle:
+<a id="jsobjref-paragraphstyle"></a>
 
-ParagraphStyle
-################################################################################
+# ParagraphStyle
 
-``app.activeDocument.paragraphStyles[index``
+`app.activeDocument.paragraphStyles[index`
 
 **Description**
 
-Associates character and paragraph attributes with a style name. The style object can be used to apply those attributes to the text in a TextFrame object. See :ref:`jsobjref/ParagraphStyles.creatingAndApplyingParagraphStyle` example.
+Associates character and paragraph attributes with a style name. The style object can be used to apply those attributes to the text in a TextFrame object. See [Creating and applying a paragraph style](ParagraphStyles.md#jsobjref-paragraphstyles-creatingandapplyingparagraphstyle) example.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/ParagraphStyle.characterAttributes:
+<a id="jsobjref-paragraphstyle-characterattributes"></a>
 
-ParagraphStyle.characterAttributes
-********************************************************************************
+### ParagraphStyle.characterAttributes
 
-``app.activeDocument.paragraphStyles[index.characterAttributes``
+`app.activeDocument.paragraphStyles[index.characterAttributes`
 
 **Description**
 
@@ -28,16 +24,15 @@ The character properties for the text range.
 
 **Type**
 
-:ref:`jsobjref/CharacterAttributes`, read-only.
+[CharacterAttributes](CharacterAttributes.md#jsobjref-characterattributes), read-only.
 
-----
+---
 
-.. _jsobjref/ParagraphStyle.name:
+<a id="jsobjref-paragraphstyle-name"></a>
 
-ParagraphStyle.name
-********************************************************************************
+### ParagraphStyle.name
 
-``app.activeDocument.paragraphStyles[index.name``
+`app.activeDocument.paragraphStyles[index.name`
 
 **Description**
 
@@ -47,14 +42,13 @@ The paragraph style’s name.
 
 String.
 
-----
+---
 
-.. _jsobjref/ParagraphStyle.paragraphAttributes:
+<a id="jsobjref-paragraphstyle-paragraphattributes"></a>
 
-ParagraphStyle.paragraphAttributes
-********************************************************************************
+### ParagraphStyle.paragraphAttributes
 
-``app.activeDocument.paragraphStyles[index.paragraphAttributes``
+`app.activeDocument.paragraphStyles[index.paragraphAttributes`
 
 **Description**
 
@@ -62,16 +56,15 @@ The paragraph properties for the text range.
 
 **Type**
 
-:ref:`jsobjref/CharacterAttributes`, read-only.
+[CharacterAttributes](CharacterAttributes.md#jsobjref-characterattributes), read-only.
 
-----
+---
 
-.. _jsobjref/ParagraphStyle.parent:
+<a id="jsobjref-paragraphstyle-parent"></a>
 
-ParagraphStyle.parent
-********************************************************************************
+### ParagraphStyle.parent
 
-``app.activeDocument.paragraphStyles[index.parent``
+`app.activeDocument.paragraphStyles[index.parent`
 
 **Description**
 
@@ -81,14 +74,13 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/ParagraphStyle.typename:
+<a id="jsobjref-paragraphstyle-typename"></a>
 
-ParagraphStyle.typename
-********************************************************************************
+### ParagraphStyle.typename
 
-``app.activeDocument.paragraphStyles[index.typename``
+`app.activeDocument.paragraphStyles[index.typename`
 
 **Description**
 
@@ -98,18 +90,15 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/ParagraphStyle.applyTo:
+<a id="jsobjref-paragraphstyle-applyto"></a>
 
-ParagraphStyle.applyTo()
-********************************************************************************
+### ParagraphStyle.applyTo()
 
-``app.activeDocument.paragraphStyles[index.applyTo(textItem [,clearingOverrides])``
+`app.activeDocument.paragraphStyles[index.applyTo(textItem [,clearingOverrides])`
 
 **Description**
 
@@ -117,26 +106,22 @@ Applies this paragraph style to the specified text item.
 
 **Parameters**
 
-+-----------------------+-------------------+----------------------------------+
-|       Parameter       |       Type        |           Description            |
-+=======================+===================+==================================+
-| ``textItem``          | Object            | Paragraph item to apply style to |
-+-----------------------+-------------------+----------------------------------+
-| ``clearingOverrides`` | Boolean, optional | Whether to clear overrides       |
-+-----------------------+-------------------+----------------------------------+
+| Parameter           | Type              | Description                      |
+|---------------------|-------------------|----------------------------------|
+| `textItem`          | Object            | Paragraph item to apply style to |
+| `clearingOverrides` | Boolean, optional | Whether to clear overrides       |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/ParagraphStyle.remove:
+<a id="jsobjref-paragraphstyle-remove"></a>
 
-ParagraphStyle.remove()
-********************************************************************************
+### ParagraphStyle.remove()
 
-``app.activeDocument.paragraphStyles[index.remove()``
+`app.activeDocument.paragraphStyles[index.remove()`
 
 **Description**
 

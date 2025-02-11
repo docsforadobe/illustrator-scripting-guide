@@ -1,26 +1,22 @@
-.. _jsobjref/Stories:
+<a id="jsobjref-stories"></a>
 
-Stories
-################################################################################
+# Stories
 
-``stories``
+`stories`
 
 **Description**
 
-A collection of :ref:`jsobjref/Story` objects in a document.
+A collection of [Story](Story.md#jsobjref-story) objects in a document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Stories.length:
+<a id="jsobjref-stories-length"></a>
 
-Stories.length
-********************************************************************************
+### Stories.length
 
-``stories.length``
+`stories.length`
 
 **Description**
 
@@ -30,31 +26,29 @@ The number of elements in the collection.
 
 Number; read-only.
 
-----
+---
 
-.. _jsobjref/Stories.parent:
+<a id="jsobjref-stories-parent"></a>
 
-Stories.parent
-********************************************************************************
+### Stories.parent
 
-``stories.parent``
+`stories.parent`
 
 **Description**
 
-The object's container.
+The object’s container.
 
 **Type**
 
 Object; read-only.
 
-----
+---
 
-.. _jsobjref/Stories.typename:
+<a id="jsobjref-stories-typename"></a>
 
-Stories.typename
-********************************************************************************
+### Stories.typename
 
-``stories.typename``
+`stories.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Stories.index:
+<a id="jsobjref-stories-index"></a>
 
-Stories.index()
-********************************************************************************
+### Stories.index()
 
-``stories.index(itemKey)``
+`stories.index(itemKey)`
 
 **Description**
 
@@ -83,12 +74,10 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/Story`
+[Story](Story.md#jsobjref-story)

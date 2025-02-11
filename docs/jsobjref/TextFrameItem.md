@@ -1,28 +1,24 @@
-.. _jsobjref/TextFrameItem:
+<a id="jsobjref-textframeitem"></a>
 
-TextFrameItem
-################################################################################
+# TextFrameItem
 
-``app.activeDocument.textFrames[index]``
+`app.activeDocument.textFrames[index]`
 
 **Description**
 
-The basic art item for displaying text. From the user interface, this is text created with the Text tool. There are three types of text art in Illustrator: point text, path text, and area text. The type is indicated by the text frame’s `kind <#textframeitem-kind>`__ property.
+The basic art item for displaying text. From the user interface, this is text created with the Text tool. There are three types of text art in Illustrator: point text, path text, and area text. The type is indicated by the text frame’s [kind](#textframeitem-kind) property.
 
-When you create a text frame, you also create a :ref:`jsobjref/Story` object. However, threading text frames combines the frames into a single story object. To thread frames, use the `nextFrame <#textframeitem-nextframe>`__ or `previousFrame <#textframeitem-previousframe>`__ property.
+When you create a text frame, you also create a [Story](Story.md#jsobjref-story) object. However, threading text frames combines the frames into a single story object. To thread frames, use the [nextFrame](#textframeitem-nextframe) or [previousFrame](#textframeitem-previousframe) property.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/TextFrameItem.anchor:
+<a id="jsobjref-textframeitem-anchor"></a>
 
-TextFrameItem.anchor
-********************************************************************************
+### TextFrameItem.anchor
 
-``app.activeDocument.textFrames[index].anchor``
+`app.activeDocument.textFrames[index].anchor`
 
 **Description**
 
@@ -32,14 +28,13 @@ The position of the anchor point, the start of the base line for point text.
 
 Array of 2 numbers
 
-----
+---
 
-.. _jsobjref/TextFrameItem.antialias:
+<a id="jsobjref-textframeitem-antialias"></a>
 
-TextFrameItem.antialias
-********************************************************************************
+### TextFrameItem.antialias
 
-``app.activeDocument.textFrames[index].antialias``
+`app.activeDocument.textFrames[index].antialias`
 
 **Description**
 
@@ -47,16 +42,15 @@ The type of anti-aliasing to use in the text.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.TextAntialias`
+[TextAntialias](scripting-constants.md#jsobjref-scripting-constants-textantialias)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.characters:
+<a id="jsobjref-textframeitem-characters"></a>
 
-TextFrameItem.characters
-********************************************************************************
+### TextFrameItem.characters
 
-``app.activeDocument.textFrames[index].characters``
+`app.activeDocument.textFrames[index].characters`
 
 **Description**
 
@@ -64,16 +58,15 @@ All the characters in this text frame.
 
 **Type**
 
-:ref:`jsobjref/Characters`, read-only.
+[Characters](Characters.md#jsobjref-characters), read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.columnCount:
+<a id="jsobjref-textframeitem-columncount"></a>
 
-TextFrameItem.columnCount
-********************************************************************************
+### TextFrameItem.columnCount
 
-``app.activeDocument.textFrames[index].columnCount``
+`app.activeDocument.textFrames[index].columnCount`
 
 **Description**
 
@@ -83,14 +76,13 @@ The column count in the text frame (area text only).
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.columnGutter:
+<a id="jsobjref-textframeitem-columngutter"></a>
 
-TextFrameItem.columnGutter
-********************************************************************************
+### TextFrameItem.columnGutter
 
-``app.activeDocument.textFrames[index].columnGutter``
+`app.activeDocument.textFrames[index].columnGutter`
 
 **Description**
 
@@ -100,14 +92,13 @@ The column gutter in the text frame (area text only).
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.contents:
+<a id="jsobjref-textframeitem-contents"></a>
 
-TextFrameItem.contents
-********************************************************************************
+### TextFrameItem.contents
 
-``app.activeDocument.textFrames[index].contents``
+`app.activeDocument.textFrames[index].contents`
 
 **Description**
 
@@ -117,14 +108,13 @@ The text string.
 
 String
 
-----
+---
 
-.. _jsobjref/TextFrameItem.contentVariable:
+<a id="jsobjref-textframeitem-contentvariable"></a>
 
-TextFrameItem.contentVariable
-********************************************************************************
+### TextFrameItem.contentVariable
 
-``app.activeDocument.textFrames[index].contentVariable``
+`app.activeDocument.textFrames[index].contentVariable`
 
 **Description**
 
@@ -132,16 +122,15 @@ The content variable bound to this text frame item.
 
 **Type**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.endTValue:
+<a id="jsobjref-textframeitem-endtvalue"></a>
 
-TextFrameItem.endTValue
-********************************************************************************
+### TextFrameItem.endTValue
 
-``app.activeDocument.textFrames[index].endTValue``
+`app.activeDocument.textFrames[index].endTValue`
 
 **Description**
 
@@ -151,31 +140,29 @@ The end position of text along a path, as a value relative to the path’s segme
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.flowLinksHorizontally:
+<a id="jsobjref-textframeitem-flowlinkshorizontally"></a>
 
-TextFrameItem.flowLinksHorizontally
-********************************************************************************
+### TextFrameItem.flowLinksHorizontally
 
-``app.activeDocument.textFrames[index].flowLinksHorizontally``
+`app.activeDocument.textFrames[index].flowLinksHorizontally`
 
 **Description**
 
-If ``true``, flow text between linked frames horizontally first (area text only).
+If `true`, flow text between linked frames horizontally first (area text only).
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TextFrameItem.insertionPoints:
+<a id="jsobjref-textframeitem-insertionpoints"></a>
 
-TextFrameItem.insertionPoints
-********************************************************************************
+### TextFrameItem.insertionPoints
 
-``app.activeDocument.textFrames[index].insertionPoints``
+`app.activeDocument.textFrames[index].insertionPoints`
 
 **Description**
 
@@ -183,16 +170,15 @@ All the insertion points in this text range.
 
 **Type**
 
-:ref:`jsobjref/InsertionPoints`, read-only.
+[InsertionPoints](InsertionPoints.md#jsobjref-insertionpoints), read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.kind:
+<a id="jsobjref-textframeitem-kind"></a>
 
-TextFrameItem.kind
-********************************************************************************
+### TextFrameItem.kind
 
-``app.activeDocument.textFrames[index].kind``
+`app.activeDocument.textFrames[index].kind`
 
 **Description**
 
@@ -200,16 +186,15 @@ The type of a text frame item (area, path or point).
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.TextType`, read-only.
+[TextType](scripting-constants.md#jsobjref-scripting-constants-texttype), read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.lines:
+<a id="jsobjref-textframeitem-lines"></a>
 
-TextFrameItem.lines
-********************************************************************************
+### TextFrameItem.lines
 
-``app.activeDocument.textFrames[index].lines``
+`app.activeDocument.textFrames[index].lines`
 
 **Description**
 
@@ -217,16 +202,15 @@ All the lines in this text frame.
 
 **Type**
 
-:ref:`jsobjref/Lines`, read-only.
+[Lines](Lines.md#jsobjref-lines), read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.matrix:
+<a id="jsobjref-textframeitem-matrix"></a>
 
-TextFrameItem.matrix
-********************************************************************************
+### TextFrameItem.matrix
 
-``app.activeDocument.textFrames[index].matrix``
+`app.activeDocument.textFrames[index].matrix`
 
 **Description**
 
@@ -234,16 +218,15 @@ The transformation matrix for this text frame.
 
 **Type**
 
-:ref:`jsobjref/Matrix`, read-only.
+[Matrix](Matrix.md#jsobjref-matrix), read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.nextFrame:
+<a id="jsobjref-textframeitem-nextframe"></a>
 
-TextFrameItem.nextFrame
-********************************************************************************
+### TextFrameItem.nextFrame
 
-``app.activeDocument.textFrames[index].nextFrame``
+`app.activeDocument.textFrames[index].nextFrame`
 
 **Description**
 
@@ -251,33 +234,31 @@ The linked text frame following this one.
 
 **Type**
 
-:ref:`jsobjref/TextFrameItem`
+[TextFrameItem](#jsobjref-textframeitem)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.opticalAlignment:
+<a id="jsobjref-textframeitem-opticalalignment"></a>
 
-TextFrameItem.opticalAlignment
-********************************************************************************
+### TextFrameItem.opticalAlignment
 
-``app.activeDocument.textFrames[index].opticalAlignment``
+`app.activeDocument.textFrames[index].opticalAlignment`
 
 **Description**
 
-If ``true``, the optical alignment feature is active.
+If `true`, the optical alignment feature is active.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/TextFrameItem.orientation:
+<a id="jsobjref-textframeitem-orientation"></a>
 
-TextFrameItem.orientation
-********************************************************************************
+### TextFrameItem.orientation
 
-``app.activeDocument.textFrames[index].orientation``
+`app.activeDocument.textFrames[index].orientation`
 
 **Description**
 
@@ -285,16 +266,15 @@ The orientation of the text.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.TextOrientation`
+[TextOrientation](scripting-constants.md#jsobjref-scripting-constants-textorientation)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.paragraphs:
+<a id="jsobjref-textframeitem-paragraphs"></a>
 
-TextFrameItem.paragraphs
-********************************************************************************
+### TextFrameItem.paragraphs
 
-``app.activeDocument.textFrames[index].paragraphs``
+`app.activeDocument.textFrames[index].paragraphs`
 
 **Description**
 
@@ -302,16 +282,15 @@ All the paragraphs in this text frame.
 
 **Type**
 
-:ref:`jsobjref/Paragraphs`, read-only.
+[Paragraphs](Paragraphs.md#jsobjref-paragraphs), read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.parent:
+<a id="jsobjref-textframeitem-parent"></a>
 
-TextFrameItem.parent
-********************************************************************************
+### TextFrameItem.parent
 
-``app.activeDocument.textFrames[index].parent``
+`app.activeDocument.textFrames[index].parent`
 
 **Description**
 
@@ -319,16 +298,15 @@ The parent of this object.
 
 **Type**
 
-:ref:`jsobjref/Layer` or :ref:`jsobjref/GroupItem`, read-only.
+[Layer](Layer.md#jsobjref-layer) or [GroupItem](GroupItem.md#jsobjref-groupitem), read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.previousFrame:
+<a id="jsobjref-textframeitem-previousframe"></a>
 
-TextFrameItem.previousFrame
-********************************************************************************
+### TextFrameItem.previousFrame
 
-``app.activeDocument.textFrames[index].previousFrame``
+`app.activeDocument.textFrames[index].previousFrame`
 
 **Description**
 
@@ -336,16 +314,15 @@ The linked text frame preceding this one.
 
 **Type**
 
-:ref:`jsobjref/TextFrameItem`
+[TextFrameItem](#jsobjref-textframeitem)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.rowCount:
+<a id="jsobjref-textframeitem-rowcount"></a>
 
-TextFrameItem.rowCount
-********************************************************************************
+### TextFrameItem.rowCount
 
-``app.activeDocument.textFrames[index].rowCount``
+`app.activeDocument.textFrames[index].rowCount`
 
 **Description**
 
@@ -355,14 +332,13 @@ The row count in the text frame (area text only).
 
 Number (long)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.rowGutter:
+<a id="jsobjref-textframeitem-rowgutter"></a>
 
-TextFrameItem.rowGutter
-********************************************************************************
+### TextFrameItem.rowGutter
 
-``app.activeDocument.textFrames[index].rowGutter``
+`app.activeDocument.textFrames[index].rowGutter`
 
 **Description**
 
@@ -372,14 +348,13 @@ The row gutter in the text frame (area text only).
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.spacing:
+<a id="jsobjref-textframeitem-spacing"></a>
 
-TextFrameItem.spacing
-********************************************************************************
+### TextFrameItem.spacing
 
-``app.activeDocument.textFrames[index].spacing``
+`app.activeDocument.textFrames[index].spacing`
 
 **Description**
 
@@ -389,14 +364,13 @@ The amount of spacing.
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.startTValue:
+<a id="jsobjref-textframeitem-starttvalue"></a>
 
-TextFrameItem.startTValue
-********************************************************************************
+### TextFrameItem.startTValue
 
-``app.activeDocument.textFrames[index].startTValue``
+`app.activeDocument.textFrames[index].startTValue`
 
 **Description**
 
@@ -406,14 +380,13 @@ The start position of text along a path, as a value relative to the path’s seg
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.story:
+<a id="jsobjref-textframeitem-story"></a>
 
-TextFrameItem.story
-********************************************************************************
+### TextFrameItem.story
 
-``app.activeDocument.textFrames[index].story``
+`app.activeDocument.textFrames[index].story`
 
 **Description**
 
@@ -421,33 +394,31 @@ The story to which the text frame belongs.
 
 **Type**
 
-:ref:`jsobjref/Story`, read-only.
+[Story](Story.md#jsobjref-story), read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.textPath:
+<a id="jsobjref-textframeitem-textpath"></a>
 
-TextFrameItem.textPath
-********************************************************************************
+### TextFrameItem.textPath
 
-``app.activeDocument.textFrames[index].textPath``
+`app.activeDocument.textFrames[index].textPath`
 
 **Description**
 
-The path item associated with the text frame. Note: Valid only when `kind <#textframeitem-kind>`__ is area or path.
+The path item associated with the text frame. Note: Valid only when [kind](#textframeitem-kind) is area or path.
 
 **Type**
 
-:ref:`jsobjref/TextPath`
+[TextPath](TextPath.md#jsobjref-textpath)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.textRange:
+<a id="jsobjref-textframeitem-textrange"></a>
 
-TextFrameItem.textRange
-********************************************************************************
+### TextFrameItem.textRange
 
-``app.activeDocument.textFrames[index].textRange``
+`app.activeDocument.textFrames[index].textRange`
 
 **Description**
 
@@ -455,16 +426,15 @@ The text range of the text frame.
 
 **Type**
 
-:ref:`jsobjref/TextRange`, read-only.
+[TextRange](TextRange.md#jsobjref-textrange), read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.textRanges:
+<a id="jsobjref-textframeitem-textranges"></a>
 
-TextFrameItem.textRanges
-********************************************************************************
+### TextFrameItem.textRanges
 
-``app.activeDocument.textFrames[index].textRanges``
+`app.activeDocument.textFrames[index].textRanges`
 
 **Description**
 
@@ -472,16 +442,15 @@ All the text in this text frame.
 
 **Type**
 
-:ref:`jsobjref/TextRanges`, read-only.
+[TextRanges](TextRanges.md#jsobjref-textranges), read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.textSelection:
+<a id="jsobjref-textframeitem-textselection"></a>
 
-TextFrameItem.textSelection
-********************************************************************************
+### TextFrameItem.textSelection
 
-``app.activeDocument.textFrames[index].textSelection``
+`app.activeDocument.textFrames[index].textSelection`
 
 **Description**
 
@@ -489,16 +458,15 @@ The selected text range(s) in the text frame.
 
 **Type**
 
-Array of :ref:`jsobjref/TextRange`, read-only.
+Array of [TextRange](TextRange.md#jsobjref-textrange), read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.typename:
+<a id="jsobjref-textframeitem-typename"></a>
 
-TextFrameItem.typename
-********************************************************************************
+### TextFrameItem.typename
 
-``app.activeDocument.textFrames[index].typename``
+`app.activeDocument.textFrames[index].typename`
 
 **Description**
 
@@ -508,14 +476,13 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.words:
+<a id="jsobjref-textframeitem-words"></a>
 
-TextFrameItem.words
-********************************************************************************
+### TextFrameItem.words
 
-``app.activeDocument.textFrames[index].words``
+`app.activeDocument.textFrames[index].words`
 
 **Description**
 
@@ -523,20 +490,17 @@ All the words in this text frame.
 
 **Type**
 
-:ref:`jsobjref/Words`, read-only.
+[Words](Words.md#jsobjref-words), read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/TextFrameItem.convertAreaObjectToPointObject:
+<a id="jsobjref-textframeitem-convertareaobjecttopointobject"></a>
 
-TextFrameItem.convertAreaObjectToPointObject()
-********************************************************************************
+### TextFrameItem.convertAreaObjectToPointObject()
 
-``app.activeDocument.textFrames[index].convertAreaObjectToPointObject()``
+`app.activeDocument.textFrames[index].convertAreaObjectToPointObject()`
 
 **Description**
 
@@ -544,16 +508,15 @@ Converts the area-type text frame to a point-type text frame.
 
 **Returns**
 
-:ref:`jsobjref/TextFrameItem`
+[TextFrameItem](#jsobjref-textframeitem)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.convertPointObjectToAreaObject:
+<a id="jsobjref-textframeitem-convertpointobjecttoareaobject"></a>
 
-TextFrameItem.convertPointObjectToAreaObject()
-********************************************************************************
+### TextFrameItem.convertPointObjectToAreaObject()
 
-``app.activeDocument.textFrames[index].convertPointObjectToAreaObject()``
+`app.activeDocument.textFrames[index].convertPointObjectToAreaObject()`
 
 **Description**
 
@@ -561,16 +524,15 @@ Converts the point-type text frame to an area-type text frame.
 
 **Returns**
 
-:ref:`jsobjref/TextFrameItem`
+[TextFrameItem](#jsobjref-textframeitem)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.createOutline:
+<a id="jsobjref-textframeitem-createoutline"></a>
 
-TextFrameItem.createOutline()
-********************************************************************************
+### TextFrameItem.createOutline()
 
-``app.activeDocument.textFrames[index].createOutline()``
+`app.activeDocument.textFrames[index].createOutline()`
 
 **Description**
 
@@ -578,16 +540,15 @@ Converts the text in the text frame to outlines.
 
 **Returns**
 
-:ref:`jsobjref/GroupItem`
+[GroupItem](GroupItem.md#jsobjref-groupitem)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.duplicate:
+<a id="jsobjref-textframeitem-duplicate"></a>
 
-TextFrameItem.duplicate()
-********************************************************************************
+### TextFrameItem.duplicate()
 
-``app.activeDocument.textFrames[index].duplicate([relativeObject] [,insertionLocation])``
+`app.activeDocument.textFrames[index].duplicate([relativeObject] [,insertionLocation])`
 
 **Description**
 
@@ -595,26 +556,22 @@ Creates a duplicate of the selected object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+----------------------------+
-|       Parameter       |                              Type                              |        Description         |
-+=======================+================================================================+============================+
-| ``relativeObject``    | Object, optional                                               | Object to duplicate to     |
-+-----------------------+----------------------------------------------------------------+----------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to insert element |
-+-----------------------+----------------------------------------------------------------+----------------------------+
+| Parameter           | Type                                                                                               | Description                |
+|---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
+| `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
 **Returns**
 
-:ref:`jsobjref/TextRange`
+[TextRange](TextRange.md#jsobjref-textrange)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.move:
+<a id="jsobjref-textframeitem-move"></a>
 
-TextFrameItem.move()
-********************************************************************************
+### TextFrameItem.move()
 
-``app.activeDocument.textFrames[index].move(relativeObject, insertionLocation)``
+`app.activeDocument.textFrames[index].move(relativeObject, insertionLocation)`
 
 **Description**
 
@@ -622,26 +579,22 @@ Moves the object.
 
 **Parameters**
 
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-|       Parameter       |                              Type                              |          Description          |
-+=======================+================================================================+===============================+
-| ``relativeObject``    | Object                                                         | Object to move element within |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
-| ``insertionLocation`` | :ref:`jsobjref/scripting-constants.ElementPlacement`, optional | Location to move element to   |
-+-----------------------+----------------------------------------------------------------+-------------------------------+
+| Parameter           | Type                                                                                               | Description                   |
+|---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
+| `relativeObject`    | Object                                                                                             | Object to move element within |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
 **Returns**
 
-:ref:`jsobjref/TextRange`
+[TextRange](TextRange.md#jsobjref-textrange)
 
-----
+---
 
-.. _jsobjref/TextFrameItem.remove:
+<a id="jsobjref-textframeitem-remove"></a>
 
-TextFrameItem.remove()
-********************************************************************************
+### TextFrameItem.remove()
 
-``app.activeDocument.textFrames[index].remove()``
+`app.activeDocument.textFrames[index].remove()`
 
 **Description**
 
@@ -651,88 +604,69 @@ Deletes this object.
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.resize:
+<a id="jsobjref-textframeitem-resize"></a>
 
-TextFrameItem.resize()
-********************************************************************************
+### TextFrameItem.resize()
 
-``app.activeDocument.textFrames[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])``
+`app.activeDocument.textFrames[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])`
 
 **Description**
 
-Scales the art item where ``scaleX`` is the horizontal scaling factor and ``scaleY`` is the vertical scaling factor. 100.0 = 100%.
+Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``scaleX``              | Number (double)                                              | Horizontal scaling factor                               |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleY``              | Number (double)                                              | Vertical scaling factor                                 |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeLineWidths``    | Number (double), optional                                    | The amount to scale line widths                         |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``scaleAbout``          | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `scaleX`              | Number (double)                                                                                | Horizontal scaling factor                               |
+| `scaleY`              | Number (double)                                                                                | Vertical scaling factor                                 |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
+| `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.rotate:
+<a id="jsobjref-textframeitem-rotate"></a>
 
-TextFrameItem.rotate()
-********************************************************************************
+### TextFrameItem.rotate()
 
-``app.activeDocument.textFrames[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])``
+`app.activeDocument.textFrames[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])`
 
 **Description**
 
-Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the ``angle`` value is positive, clockwise if the value is negative.
+Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
 **Parameters**
 
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-|        Parameter        |                             Type                             |                       Description                       |
-+=========================+==============================================================+=========================================================+
-| ``angle``               | Number (double)                                              | The angle amount to rotate the element                  |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changePositions``     | Boolean, optional                                            | Whether to effect art object positions and orientations |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillPatterns``  | Boolean, optional                                            | Whether to transform fill patterns                      |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeFillGradients`` | Boolean, optional                                            | Whether to transform fill gradients                     |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``changeStrokePattern`` | Boolean, optional                                            | Whether to transform stroke patterns                    |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
-| ``rotateAbout``         | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about          |
-+-------------------------+--------------------------------------------------------------+---------------------------------------------------------+
+| Parameter             | Type                                                                                           | Description                                             |
+|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| `angle`               | Number (double)                                                                                | The angle amount to rotate the element                  |
+| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
+| `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.transform:
+<a id="jsobjref-textframeitem-transform"></a>
 
-TextFrameItem.transform()
-********************************************************************************
+### TextFrameItem.transform()
 
-``app.activeDocument.textFrames[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])``
+`app.activeDocument.textFrames[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])`
 
 **Description**
 
@@ -740,71 +674,54 @@ Transforms the art item by applying a transformation matrix.
 
 **Parameters**
 
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-|        Parameter         |                             Type                             |                  Description                   |
-+==========================+==============================================================+================================================+
-| ``transformationMatrix`` | :ref:`jsobjref/Matrix`                                       | Transformation matrix to apply                 |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changePositions``      | Boolean, optional                                            | Whether to change Positions                    |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillPatterns``   | Boolean, optional                                            | Whether to change Fill Patterns                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeFillGradients``  | Boolean, optional                                            | Whether to change Fill Gradients               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeStrokePattern``  | Boolean, optional                                            | Whether to change Stroke Pattern               |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``changeLineWidths``     | Number (double), optional                                    | The amount to scale line widths                |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
-| ``transformAbout``       | :ref:`jsobjref/scripting-constants.Transformation`, optional | The point to use as anchor, to transform about |
-+--------------------------+--------------------------------------------------------------+------------------------------------------------+
+| Parameter              | Type                                                                                           | Description                                    |
+|------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
+| `transformationMatrix` | [Matrix](Matrix.md#jsobjref-matrix)                                                            | Transformation matrix to apply                 |
+| `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
+| `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
+| `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |
+| `changeStrokePattern`  | Boolean, optional                                                                              | Whether to change Stroke Pattern               |
+| `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
+| `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.translate:
+<a id="jsobjref-textframeitem-translate"></a>
 
-TextFrameItem.translate()
-********************************************************************************
+### TextFrameItem.translate()
 
-``app.activeDocument.textFrames[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])``
+`app.activeDocument.textFrames[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])`
 
 **Description**
 
-Repositions the art item relative to the current position, where ``deltaX`` is the horizontal offset and ``deltaY`` is the vertical offset.
+Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
 **Parameters**
 
-+-----------------------------+---------------------------+--------------------------------------+
-|          Parameter          |           Type            |             Description              |
-+=============================+===========================+======================================+
-| ``deltaX``                  | Number (double), optional | Horizontal offset                    |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``deltaY``                  | Number (double), optional | Vertical offset                      |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformObjects``        | Boolean, optional         | Whether to transform Objects         |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillPatterns``   | Boolean, optional         | Whether to transform Fill Patterns   |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformFillGradients``  | Boolean, optional         | Whether to transform Fill Gradients  |
-+-----------------------------+---------------------------+--------------------------------------+
-| ``transformStrokePatterns`` | Boolean, optional         | Whether to transform Stroke Patterns |
-+-----------------------------+---------------------------+--------------------------------------+
+| Parameter                 | Type                      | Description                          |
+|---------------------------|---------------------------|--------------------------------------|
+| `deltaX`                  | Number (double), optional | Horizontal offset                    |
+| `deltaY`                  | Number (double), optional | Vertical offset                      |
+| `transformObjects`        | Boolean, optional         | Whether to transform Objects         |
+| `transformFillPatterns`   | Boolean, optional         | Whether to transform Fill Patterns   |
+| `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
+| `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/TextFrameItem.zOrder:
+<a id="jsobjref-textframeitem-zorder"></a>
 
-TextFrameItem.zOrder()
-********************************************************************************
+### TextFrameItem.zOrder()
 
-``app.activeDocument.textFrames[index].zOrder(zOrderCmd)``
+`app.activeDocument.textFrames[index].zOrder(zOrderCmd)`
 
 **Description**
 
@@ -812,47 +729,42 @@ Arranges the art item’s position in the stacking order of the group or layer (
 
 **Parameters**
 
-+---------------+--------------------------------------------------+-----------------------------------+
-|   Parameter   |                       Type                       |            Description            |
-+===============+==================================================+===================================+
-| ``zOrderCmd`` | :ref:`jsobjref/scripting-constants.ZOrderMethod` | Stacking order arrangement method |
-+---------------+--------------------------------------------------+-----------------------------------+
+| Parameter   | Type                                                                             | Description                       |
+|-------------|----------------------------------------------------------------------------------|-----------------------------------|
+| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Rotate a text art item
-********************************************************************************
+### Rotate a text art item
 
-::
+```default
+// Duplicates and rotates the selected text art item 5 times
+if ( app.documents.length > 0 ) {
+  selectedItems = app.activeDocument.selection;
 
-  // Duplicates and rotates the selected text art item 5 times
-  if ( app.documents.length > 0 ) {
-    selectedItems = app.activeDocument.selection;
+  // make sure something is selected.
+  if ( selectedItems.length > 0 ) {
 
-    // make sure something is selected.
-    if ( selectedItems.length > 0 ) {
+    // The selection must be a text art item
+    if ( selectedItems[0].typename == "TextFrame" ) {
 
-      // The selection must be a text art item
-      if ( selectedItems[0].typename == "TextFrame" ) {
+      // Get the parent of the text art so new text art items
+      // can be inserted in the same group or layer
+      dupSrc = selectedItems[0];
+      textContainer = dupSrc.parent;
 
-        // Get the parent of the text art so new text art items
-        // can be inserted in the same group or layer
-        dupSrc = selectedItems[0];
-        textContainer = dupSrc.parent;
-
-        // Create 5 new versions of the text art each rotated a bit
-        for ( i = 1; i <= 5; i++ ) {
-          dupText = dupSrc.duplicate( textContainer, ElementPlacement.PLACEATEND );
-          dupText.rotate(180 * i/6);
-        }
+      // Create 5 new versions of the text art each rotated a bit
+      for ( i = 1; i <= 5; i++ ) {
+        dupText = dupSrc.duplicate( textContainer, ElementPlacement.PLACEATEND );
+        dupText.rotate(180 * i/6);
       }
     }
   }
+}
+```

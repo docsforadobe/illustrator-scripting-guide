@@ -1,12 +1,11 @@
-.. _scripting/positioning:
+<a id="scripting-positioning"></a>
 
-Page-item positioning and dimensions
-################################################################################
+# Page-item positioning and dimensions
 
 Illustrator uses simple, two-dimensional geometry in the form of points to record the position of page item objects in a document. Every page item object in a document has a position property that
 defines a fixed point as a pair of page coordinates in the format [x, y]. The fixed point is the top-left corner of the object’s bounding box.
 
-For information on the types of objects that comprise the page items collection, see "The artwork tree" on
+For information on the types of objects that comprise the page items collection, see “The artwork tree” on
 
 A point is designated by a pair of coordinates:
 
@@ -19,10 +18,9 @@ For the artboard, the default coordinate origin, (0,0), is the top-left corner, 
 
 Each page item object has width and height properties. The maximum value allowed for the width or height of a page item is 16348 points.
 
-----
+---
 
-Art item bounds
-================================================================================
+## Art item bounds
 
 Every page item object has three properties that use fixed rectangles to describe the object’s overall extent:
 
@@ -32,5 +30,4 @@ Every page item object has three properties that use fixed rectangles to describ
 
 The following figure illustrates these properties, using JavaScript naming conventions.
 
-.. image:: ../_static/artItemBounds.jpg
-   :alt: Art Item Bounds
+![Art Item Bounds](_static/artItemBounds.jpg)

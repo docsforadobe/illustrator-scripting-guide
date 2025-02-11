@@ -1,26 +1,22 @@
-.. _jsobjref/GraphicStyles:
+<a id="jsobjref-graphicstyles"></a>
 
-GraphicStyles
-################################################################################
+# GraphicStyles
 
-``app.activeDocument.graphicStyles``
+`app.activeDocument.graphicStyles`
 
 **Description**
 
 A collection of GraphicStyle objects in a document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/GraphicStyles.length:
+<a id="jsobjref-graphicstyles-length"></a>
 
-GraphicStyles.length
-********************************************************************************
+### GraphicStyles.length
 
-``app.activeDocument.graphicStyles.length``
+`app.activeDocument.graphicStyles.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ The number of graphic styles in the document.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/GraphicStyles.parent:
+<a id="jsobjref-graphicstyles-parent"></a>
 
-GraphicStyles.parent
-********************************************************************************
+### GraphicStyles.parent
 
-``app.activeDocument.graphicStyles.parent``
+`app.activeDocument.graphicStyles.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The document that contains this graphic styles collection.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/GraphicStyles.typename:
+<a id="jsobjref-graphicstyles-typename"></a>
 
-GraphicStyles.typename
-********************************************************************************
+### GraphicStyles.typename
 
-``app.activeDocument.graphicStyles.typename``
+`app.activeDocument.graphicStyles.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/GraphicStyles.getByName:
+<a id="jsobjref-graphicstyles-getbyname"></a>
 
-GraphicStyles.getByName()
-********************************************************************************
+### GraphicStyles.getByName()
 
-``app.activeDocument.graphicStyles.getByName(name)``
+`app.activeDocument.graphicStyles.getByName(name)`
 
 **Description**
 
@@ -83,24 +74,21 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
 String.
 
-----
+---
 
-.. _jsobjref/GraphicStyles.index:
+<a id="jsobjref-graphicstyles-index"></a>
 
-GraphicStyles.index()
-********************************************************************************
+### GraphicStyles.index()
 
-``app.activeDocument.graphicStyles.index(itemKey)``
+`app.activeDocument.graphicStyles.index(itemKey)`
 
 **Description**
 
@@ -108,24 +96,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
 String, Number.
 
-----
+---
 
-.. _jsobjref/GraphicStyles.removeAll:
+<a id="jsobjref-graphicstyles-removeall"></a>
 
-GraphicStyles.removeAll()
-********************************************************************************
+### GraphicStyles.removeAll()
 
-``app.activeDocument.graphicStyles.removeAll()``
+`app.activeDocument.graphicStyles.removeAll()`
 
 **Description**
 
@@ -135,20 +120,17 @@ Removes all elements in the referenced collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Counting graphics styles
-********************************************************************************
+### Counting graphics styles
 
-::
+```default
+// Counts the number of graphic styles in the active document
+// and stores result in numberOfStyles
 
-  // Counts the number of graphic styles in the active document
-  // and stores result in numberOfStyles
-
-  if (app.documents.length > 0) {
-    var numberOfStyles = app.activeDocument.graphicStyles.length;
-  }
+if (app.documents.length > 0) {
+  var numberOfStyles = app.activeDocument.graphicStyles.length;
+}
+```

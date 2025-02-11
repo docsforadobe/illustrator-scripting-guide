@@ -1,36 +1,30 @@
-.. highlight:: javascript
-.. _introduction/changelog:
+<a id="introduction-changelog"></a>
 
-Changelog
-#########
+# Changelog
 
-What's new and changed for scripting?
+What’s new and changed for scripting?
 
-----
+---
 
-.. _Changelog.24-0:
+<a id="changelog-24-0"></a>
 
-`Illustrator 24.0 (CC 2020) <>`_
-********************************************************************************
+## [Illustrator 24.0 (CC 2020) <>]()
 
-- Added: :ref:`jsobjref/Document.getPageItemFromUuid`
-- Added: :ref:`jsobjref/PageItem.uuid`
+- Added: [Document.getPageItemFromUuid()](../jsobjref/Document.md#jsobjref-document-getpageitemfromuuid)
+- Added: [PageItem.uuid](../jsobjref/PageItem.md#jsobjref-pageitem-uuid)
 
-----
+---
 
-.. _Changelog.13-0:
+<a id="changelog-13-0"></a>
 
-`Illustrator XX.X (CC 2017) <>`_
-********************************************************************************
+## [Illustrator XX.X (CC 2017) <>]()
 
-- Added: :ref:`jsobjref/Application.getIsFileOpen`
+- Added: [Application.getIsFileOpen()](../jsobjref/Application.md#jsobjref-application-getisfileopen)
 
-----
+---
 
-.. _Changelog.12-0:
+<a id="changelog-12-0"></a>
 
-`Illustrator XX.X (CC) <>`_
-********************************************************************************
-
+## [Illustrator XX.X (CC) <>]()
 
 - ?

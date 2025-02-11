@@ -1,9 +1,8 @@
-.. _jsobjref/RGBColor:
+<a id="jsobjref-rgbcolor"></a>
 
-RGBColor
-################################################################################
+# RGBColor
 
-``new RGBColor()``
+`new RGBColor()`
 
 **Description**
 
@@ -11,18 +10,15 @@ An RGB color specification, used to apply an RGB color to a layer or art item.
 
 If the color space of a document is RGB and you specify the color value for a page item in that document using CMYK, Illustrator will translate the CMYK color specification into an RGB color specification. The same thing happens if the document’s color space is CMYK and you specify colors using RGB. Since this translation can lose information, you should specify colors using the class that matches the document’s actual color space.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/RGBColor.blue:
+<a id="jsobjref-rgbcolor-blue"></a>
 
-RGBColor.blue
-********************************************************************************
+### RGBColor.blue
 
-``rgbColor.blue``
+`rgbColor.blue`
 
 **Description**
 
@@ -32,14 +28,13 @@ The blue color value. Range: 0.0 to 255.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/RGBColor.green:
+<a id="jsobjref-rgbcolor-green"></a>
 
-RGBColor.green
-********************************************************************************
+### RGBColor.green
 
-``rgbColor.green``
+`rgbColor.green`
 
 **Description**
 
@@ -49,14 +44,13 @@ The green color value. Range: 0.0 to 255.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/RGBColor.red:
+<a id="jsobjref-rgbcolor-red"></a>
 
-RGBColor.red
-********************************************************************************
+### RGBColor.red
 
-``rgbColor.red``
+`rgbColor.red`
 
 **Description**
 
@@ -66,14 +60,13 @@ The red color value. Range: 0.0 to 255.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/RGBColor.typename:
+<a id="jsobjref-rgbcolor-typename"></a>
 
-RGBColor.typename
-********************************************************************************
+### RGBColor.typename
 
-``rgbColor.typename``
+`rgbColor.typename`
 
 **Description**
 
@@ -83,25 +76,22 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Setting an RGB color
-********************************************************************************
+### Setting an RGB color
 
-::
+```default
+// Sets the default fill color in the current document to yellow.
 
-  // Sets the default fill color in the current document to yellow.
+if (app.documents.length > 0) {
+  // Define the new color
+  var newRGBColor = new RGBColor();
+  newRGBColor.red = 255;
+  newRGBColor.green = 255;
+  newRGBColor.blue = 0;
 
-  if (app.documents.length > 0) {
-    // Define the new color
-    var newRGBColor = new RGBColor();
-    newRGBColor.red = 255;
-    newRGBColor.green = 255;
-    newRGBColor.blue = 0;
-
-    app.activeDocument.defaultFillColor = newRGBColor;
-  }
+  app.activeDocument.defaultFillColor = newRGBColor;
+}
+```

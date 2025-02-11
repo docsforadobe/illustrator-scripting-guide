@@ -1,26 +1,22 @@
-.. _jsobjref/InkInfo:
+<a id="jsobjref-inkinfo"></a>
 
-InkInfo
-################################################################################
+# InkInfo
 
-``app.activeDocument.inkList[index].inkInfo``
+`app.activeDocument.inkList[index].inkInfo`
 
 **Description**
 
 Ink information for printing a document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/InkInfo.angle:
+<a id="jsobjref-inkinfo-angle"></a>
 
-InkInfo.angle
-********************************************************************************
+### InkInfo.angle
 
-``app.activeDocument.inkList[index].inkInfo.angle``
+`app.activeDocument.inkList[index].inkInfo.angle`
 
 **Description**
 
@@ -30,14 +26,13 @@ The ink’s screen angle in degrees. Range: -360 to 360.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/InkInfo.customColor:
+<a id="jsobjref-inkinfo-customcolor"></a>
 
-InkInfo.customColor
-********************************************************************************
+### InkInfo.customColor
 
-``app.activeDocument.inkList[index].inkInfo.customColor``
+`app.activeDocument.inkList[index].inkInfo.customColor`
 
 **Description**
 
@@ -45,16 +40,15 @@ The color of the custom ink.
 
 **Type**
 
-:ref:`jsobjref/Color`
+[Color](Color.md#jsobjref-color)
 
-----
+---
 
-.. _jsobjref/InkInfo.density:
+<a id="jsobjref-inkinfo-density"></a>
 
-InkInfo.density
-********************************************************************************
+### InkInfo.density
 
-``app.activeDocument.inkList[index].inkInfo.density``
+`app.activeDocument.inkList[index].inkInfo.density`
 
 **Description**
 
@@ -64,14 +58,13 @@ The neutral density. Minimum: 0.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/InkInfo.dotShape:
+<a id="jsobjref-inkinfo-dotshape"></a>
 
-InkInfo.dotShape
-********************************************************************************
+### InkInfo.dotShape
 
-``app.activeDocument.inkList[index].inkInfo.dotShape``
+`app.activeDocument.inkList[index].inkInfo.dotShape`
 
 **Description**
 
@@ -81,14 +74,13 @@ The dot shape name.
 
 String.
 
-----
+---
 
-.. _jsobjref/InkInfo.frequency:
+<a id="jsobjref-inkinfo-frequency"></a>
 
-InkInfo.frequency
-********************************************************************************
+### InkInfo.frequency
 
-``app.activeDocument.inkList[index].inkInfo.frequency``
+`app.activeDocument.inkList[index].inkInfo.frequency`
 
 **Description**
 
@@ -98,14 +90,13 @@ The ink’s frequency. Range: 0.0 to 1000.0.
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/InkInfo.kind:
+<a id="jsobjref-inkinfo-kind"></a>
 
-InkInfo.kind
-********************************************************************************
+### InkInfo.kind
 
-``app.activeDocument.inkList[index].inkInfo.kind``
+`app.activeDocument.inkList[index].inkInfo.kind`
 
 **Description**
 
@@ -113,16 +104,15 @@ The ink type.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.InkType`
+[InkType](scripting-constants.md#jsobjref-scripting-constants-inktype)
 
-----
+---
 
-.. _jsobjref/InkInfo.printingStatus:
+<a id="jsobjref-inkinfo-printingstatus"></a>
 
-InkInfo.printingStatus
-********************************************************************************
+### InkInfo.printingStatus
 
-``app.activeDocument.inkList[index].inkInfo.printingStatus``
+`app.activeDocument.inkList[index].inkInfo.printingStatus`
 
 **Description**
 
@@ -130,16 +120,15 @@ The ink printing status.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.InkPrintStatus`
+[InkPrintStatus](scripting-constants.md#jsobjref-scripting-constants-inkprintstatus)
 
-----
+---
 
-.. _jsobjref/InkInfo.trapping:
+<a id="jsobjref-inkinfo-trapping"></a>
 
-InkInfo.trapping
-********************************************************************************
+### InkInfo.trapping
 
-``app.activeDocument.inkList[index].inkInfo.trapping``
+`app.activeDocument.inkList[index].inkInfo.trapping`
 
 **Description**
 
@@ -147,16 +136,15 @@ The trapping type.
 
 **Type**
 
-:ref:`jsobjref/scripting-constants.TrappingType`
+[TrappingType](scripting-constants.md#jsobjref-scripting-constants-trappingtype)
 
-----
+---
 
-.. _jsobjref/InkInfo.trappingOrder:
+<a id="jsobjref-inkinfo-trappingorder"></a>
 
-InkInfo.trappingOrder
-********************************************************************************
+### InkInfo.trappingOrder
 
-``app.activeDocument.inkList[index].inkInfo.trappingOrder``
+`app.activeDocument.inkList[index].inkInfo.trappingOrder`
 
 **Description**
 
@@ -166,14 +154,13 @@ The order of trapping for the ink. Range: 1 to 4 for CMYK.
 
 Number (long).
 
-----
+---
 
-.. _jsobjref/InkInfo.typename:
+<a id="jsobjref-inkinfo-typename"></a>
 
-InkInfo.typename
-********************************************************************************
+### InkInfo.typename
 
-``app.activeDocument.inkList[index].inkInfo.typename``
+`app.activeDocument.inkList[index].inkInfo.typename`
 
 **Description**
 
@@ -183,36 +170,33 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Getting ink information
-********************************************************************************
+### Getting ink information
 
-::
+```default
+// Displays the current documents inks in a text frame
 
-  // Displays the current documents inks in a text frame
+var docRef = documents.add();
 
-  var docRef = documents.add();
+// assemble a string of the inks in this document
+var sInks = "";
+var iLength = activeDocument.inkList.length;
+for (var i = 0; i < iLength; i++) {
+  sInks += docRef.inkList[i].name;
+  sInks += "\r\t";
+  sInks += "Frequency = " + docRef.inkList[i].inkInfo.frequency;
+  sInks += "\r\t";
+  sInks += "Density = " + docRef.inkList[i].inkInfo.density;
+  sInks += "\r";
+}
 
-  // assemble a string of the inks in this document
-  var sInks = "";
-  var iLength = activeDocument.inkList.length;
-  for (var i = 0; i < iLength; i++) {
-    sInks += docRef.inkList[i].name;
-    sInks += "\r\t";
-    sInks += "Frequency = " + docRef.inkList[i].inkInfo.frequency;
-    sInks += "\r\t";
-    sInks += "Density = " + docRef.inkList[i].inkInfo.density;
-    sInks += "\r";
-  }
+var textRef = docRef.textFrames.add();
+textRef.contents = sInks;
+textRef.top = 600;
+textRef.left = 200;
 
-  var textRef = docRef.textFrames.add();
-  textRef.contents = sInks;
-  textRef.top = 600;
-  textRef.left = 200;
-
-  redraw();
+redraw();
+```

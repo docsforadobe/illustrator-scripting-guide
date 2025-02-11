@@ -1,26 +1,22 @@
-.. _jsobjref/OpenOptionsPhotoshop:
+<a id="jsobjref-openoptionsphotoshop"></a>
 
-OpenOptionsPhotoshop
-################################################################################
+# OpenOptionsPhotoshop
 
-``openOptionsPhotoshop``
+`openOptionsPhotoshop`
 
 **Description**
 
-Options for opening a Photoshop document, used with the :ref:`jsobjref/Application.open` method.
+Options for opening a Photoshop document, used with the [Application.open()](Application.md#jsobjref-application-open) method.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/OpenOptionsPhotoshop.layerComp:
+<a id="jsobjref-openoptionsphotoshop-layercomp"></a>
 
-OpenOptionsPhotoshop.layerComp
-********************************************************************************
+### OpenOptionsPhotoshop.layerComp
 
-``openOptionsPhotoshop.layerComp``
+`openOptionsPhotoshop.layerComp`
 
 **Description**
 
@@ -30,82 +26,77 @@ The name of the layer comp to use when the document is converted.
 
 String.
 
-----
+---
 
-.. _jsobjref/OpenOptionsPhotoshop.preserveHiddenLayers:
+<a id="jsobjref-openoptionsphotoshop-preservehiddenlayers"></a>
 
-OpenOptionsPhotoshop.preserveHiddenLayers
-********************************************************************************
+### OpenOptionsPhotoshop.preserveHiddenLayers
 
-``openOptionsPhotoshop.preserveHiddenLayers``
+`openOptionsPhotoshop.preserveHiddenLayers`
 
 **Description**
 
-If ``true``, preserve hidden layers when the document is converted. Default: ``false``.
+If `true`, preserve hidden layers when the document is converted. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/OpenOptionsPhotoshop.preserveImageMaps:
+<a id="jsobjref-openoptionsphotoshop-preserveimagemaps"></a>
 
-OpenOptionsPhotoshop.preserveImageMaps
-********************************************************************************
+### OpenOptionsPhotoshop.preserveImageMaps
 
-``openOptionsPhotoshop.preserveImageMaps``
+`openOptionsPhotoshop.preserveImageMaps`
 
 **Description**
 
-If ``true``, preserve image maps when the document is converted. Default: ``true``.
+If `true`, preserve image maps when the document is converted. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/OpenOptionsPhotoshop.preserveLayers:
+<a id="jsobjref-openoptionsphotoshop-preservelayers"></a>
 
-OpenOptionsPhotoshop.preserveLayers
-********************************************************************************
+### OpenOptionsPhotoshop.preserveLayers
 
-``openOptionsPhotoshop.preserveLayers``
+`openOptionsPhotoshop.preserveLayers`
 
 **Description**
 
-If ``true``, preserve layers when the document is converted. Default: ``true``.
+If `true`, preserve layers when the document is converted. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/OpenOptionsPhotoshop.preserveSlices:
+<a id="jsobjref-openoptionsphotoshop-preserveslices"></a>
 
-OpenOptionsPhotoshop.preserveSlices
-********************************************************************************
+### OpenOptionsPhotoshop.preserveSlices
 
-``openOptionsPhotoshop.preserveSlices``
+`openOptionsPhotoshop.preserveSlices`
 
 **Description**
 
-If ``true``, preserve slices when the document is converted. Default: ``true``.
+If `true`, preserve slices when the document is converted. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/OpenOptionsPhotoshop.typename:
+<a id="jsobjref-openoptionsphotoshop-typename"></a>
 
-OpenOptionsPhotoshop.typename
-********************************************************************************
+### OpenOptionsPhotoshop.typename
 
-``openOptionsPhotoshop.typename``
+`openOptionsPhotoshop.typename`
 
 **Description**
 

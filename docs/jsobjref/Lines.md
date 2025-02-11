@@ -1,26 +1,22 @@
-.. _jsobjref/Lines:
+<a id="jsobjref-lines"></a>
 
-Lines
-################################################################################
+# Lines
 
-``lines``
+`lines`
 
 **Description**
 
-A collection of ``TextRange`` objects representing lines of text in a text frame. The elements are not named; you must access them by index.
+A collection of `TextRange` objects representing lines of text in a text frame. The elements are not named; you must access them by index.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Lines.length:
+<a id="jsobjref-lines-length"></a>
 
-Lines.length
-********************************************************************************
+### Lines.length
 
-``lines.length``
+`lines.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ Number of elements in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/Lines.parent:
+<a id="jsobjref-lines-parent"></a>
 
-Lines.parent
-********************************************************************************
+### Lines.parent
 
-``lines.parent``
+`lines.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/Lines.typename:
+<a id="jsobjref-lines-typename"></a>
 
-Lines.typename
-********************************************************************************
+### Lines.typename
 
-``lines.typename``
+`lines.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Lines.index:
+<a id="jsobjref-lines-index"></a>
 
-Lines.index()
-********************************************************************************
+### Lines.index()
 
-``lines.index(itemKey)``
+`lines.index(itemKey)`
 
 **Description**
 
@@ -83,24 +74,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/TextRange`
+[TextRange](TextRange.md#jsobjref-textrange)
 
-----
+---
 
-.. _jsobjref/Lines.removeAll:
+<a id="jsobjref-lines-removeall"></a>
 
-Lines.removeAll()
-********************************************************************************
+### Lines.removeAll()
 
-``lines.removeAll()``
+`lines.removeAll()`
 
 **Description**
 

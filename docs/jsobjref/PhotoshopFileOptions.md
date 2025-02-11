@@ -1,26 +1,22 @@
-.. _jsobjref/PhotoshopFileOptions:
+<a id="jsobjref-photoshopfileoptions"></a>
 
-PhotoshopFileOptions
-################################################################################
+# PhotoshopFileOptions
 
-``preferences.photoshopFileOptions``
+`preferences.photoshopFileOptions`
 
 **Description**
 
-Options for opening a Photoshop file, used with the :ref:`jsobjref/Application.open` method. All properties are optional.
+Options for opening a Photoshop file, used with the [Application.open()](Application.md#jsobjref-application-open) method. All properties are optional.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PhotoshopFileOptions.parent:
+<a id="jsobjref-photoshopfileoptions-parent"></a>
 
-PhotoshopFileOptions.parent
-********************************************************************************
+### PhotoshopFileOptions.parent
 
-``preferences.photoshopFileOptions.parent``
+`preferences.photoshopFileOptions.parent`
 
 **Description**
 
@@ -30,88 +26,83 @@ The parent of this object.
 
 Object; read-only.
 
-----
+---
 
-.. _jsobjref/PhotoshopFileOptions.pixelAspectRatioCorrection:
+<a id="jsobjref-photoshopfileoptions-pixelaspectratiocorrection"></a>
 
-PhotoshopFileOptions.pixelAspectRatioCorrection
-********************************************************************************
+### PhotoshopFileOptions.pixelAspectRatioCorrection
 
-``preferences.photoshopFileOptions.pixelAspectRatioCorrection``
+`preferences.photoshopFileOptions.pixelAspectRatioCorrection`
 
 **Description**
 
-If ``true``, imported images that have a non-square pixel aspect ratio should be adjusted.
+If `true`, imported images that have a non-square pixel aspect ratio should be adjusted.
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PhotoshopFileOptions.preserveImageMaps:
+<a id="jsobjref-photoshopfileoptions-preserveimagemaps"></a>
 
-PhotoshopFileOptions.preserveImageMaps
-********************************************************************************
+### PhotoshopFileOptions.preserveImageMaps
 
-``preferences.photoshopFileOptions.preserveImageMaps``
+`preferences.photoshopFileOptions.preserveImageMaps`
 
 **Description**
 
-If ``true``, image maps should be preserved when document is converted.
+If `true`, image maps should be preserved when document is converted.
 
-Default: ``true``
+Default: `true`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PhotoshopFileOptions.preserveLayers:
+<a id="jsobjref-photoshopfileoptions-preservelayers"></a>
 
-PhotoshopFileOptions.preserveLayers
-********************************************************************************
+### PhotoshopFileOptions.preserveLayers
 
-``preferences.photoshopFileOptions.preserveLayers``
+`preferences.photoshopFileOptions.preserveLayers`
 
 **Description**
 
-If ``true``, layers should be preserved when document is converted.
+If `true`, layers should be preserved when document is converted.
 
-Default: ``true``
+Default: `true`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PhotoshopFileOptions.preserveSlices:
+<a id="jsobjref-photoshopfileoptions-preserveslices"></a>
 
-PhotoshopFileOptions.preserveSlices
-********************************************************************************
+### PhotoshopFileOptions.preserveSlices
 
-``preferences.photoshopFileOptions.preserveSlices``
+`preferences.photoshopFileOptions.preserveSlices`
 
 **Description**
 
-If ``true``, slices should be preserved when document is converted.
+If `true`, slices should be preserved when document is converted.
 
-Default: ``true``
+Default: `true`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PhotoshopFileOptions.typename:
+<a id="jsobjref-photoshopfileoptions-typename"></a>
 
-PhotoshopFileOptions.typename
-********************************************************************************
+### PhotoshopFileOptions.typename
 
-``preferences.photoshopFileOptions.typename``
+`preferences.photoshopFileOptions.typename`
 
 **Description**
 
@@ -121,25 +112,22 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-==========
-Example
-==========
+## Example
 
-Opening a Photoshop file
-********************************************************************************
+### Opening a Photoshop file
 
-::
+```default
+// Opens a Photoshop file containing layers with
+// preferences set to preserve layers
+var psdOptions = preferences.photoshopFileOptions;
+psdOptions.preserveLayers = true;
+psdOptions.pixelAspectRatioCorrection = false;
 
-  // Opens a Photoshop file containing layers with
-  // preferences set to preserve layers
-  var psdOptions = preferences.photoshopFileOptions;
-  psdOptions.preserveLayers = true;
-  psdOptions.pixelAspectRatioCorrection = false;
-
-  // open a file using these prefs
-  var fileRef = File(psdFilePath);
-  if (fileRef != null) {
-    var docRef = open(fileRef, DocumentColorSpace.RGB);
-  }
+// open a file using these prefs
+var fileRef = File(psdFilePath);
+if (fileRef != null) {
+  var docRef = open(fileRef, DocumentColorSpace.RGB);
+}
+```

@@ -1,62 +1,56 @@
-.. _jsobjref/ExportOptionsPNG24:
+<a id="jsobjref-exportoptionspng24"></a>
 
-ExportOptionsPNG24
-################################################################################
+# ExportOptionsPNG24
 
-``exportOptionsPNG24``
+`exportOptionsPNG24`
 
 **Description**
 
-Options for exporting a document as a 24-bit PNG file, used with the :ref:`jsobjref/Document.exportFile` method. All properties are optional.
+Options for exporting a document as a 24-bit PNG file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method. All properties are optional.
 
 When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/ExportOptionsPNG24.antiAliasing:
+<a id="jsobjref-exportoptionspng24-antialiasing"></a>
 
-ExportOptionsPNG24.antiAliasing
-********************************************************************************
+### ExportOptionsPNG24.antiAliasing
 
-``exportOptionsPNG24.antiAliasing``
+`exportOptionsPNG24.antiAliasing`
 
 **Description**
 
-If ``true``, the exported image be anti-aliased. Default: ``true``.
+If `true`, the exported image be anti-aliased. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsPNG24.artBoardClipping:
+<a id="jsobjref-exportoptionspng24-artboardclipping"></a>
 
-ExportOptionsPNG24.artBoardClipping
-********************************************************************************
+### ExportOptionsPNG24.artBoardClipping
 
-``exportOptionsPNG24.artBoardClipping``
+`exportOptionsPNG24.artBoardClipping`
 
 **Description**
 
-If ``true``, the exported image be clipped to the art board. Default: ``false``.
+If `true`, the exported image be clipped to the art board. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsPNG24.horizontalScale:
+<a id="jsobjref-exportoptionspng24-horizontalscale"></a>
 
-ExportOptionsPNG24.horizontalScale
-********************************************************************************
+### ExportOptionsPNG24.horizontalScale
 
-``exportOptionsPNG24.horizontalScale``
+`exportOptionsPNG24.horizontalScale`
 
 **Description**
 
@@ -66,82 +60,77 @@ The horizontal scaling factor to apply to the exported image, where 100.0 is 100
 
 Number (double).
 
-----
+---
 
-.. _jsobjref/ExportOptionsPNG24.matte:
+<a id="jsobjref-exportoptionspng24-matte"></a>
 
-ExportOptionsPNG24.matte
-********************************************************************************
+### ExportOptionsPNG24.matte
 
-``exportOptionsPNG24.matte``
+`exportOptionsPNG24.matte`
 
 **Description**
 
-If ``true``, the art board be matted with a color. Default: ``true``.
+If `true`, the art board be matted with a color. Default: `true`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsPNG24.matteColor:
+<a id="jsobjref-exportoptionspng24-mattecolor"></a>
 
-ExportOptionsPNG24.matteColor
-********************************************************************************
+### ExportOptionsPNG24.matteColor
 
-``exportOptionsPNG24.matteColor``
+`exportOptionsPNG24.matteColor`
 
 **Description**
 
-The color to use when matting the art board. Default: ``white``.
+The color to use when matting the art board. Default: `white`.
 
 **Type**
 
-:ref:`jsobjref/RGBColor`
+[RGBColor](RGBColor.md#jsobjref-rgbcolor)
 
-----
+---
 
-.. _jsobjref/ExportOptionsPNG24.saveAsHTML:
+<a id="jsobjref-exportoptionspng24-saveashtml"></a>
 
-ExportOptionsPNG24.saveAsHTML
-********************************************************************************
+### ExportOptionsPNG24.saveAsHTML
 
-``exportOptionsPNG24.saveAsHTML``
-
-**Description**
-
-If ``true``, the exported image be saved with an accompanying HTML file. Default: ``false``.
-
-**Type**
-
-Boolean.
-
-----
-
-.. _jsobjref/ExportOptionsPNG24.transparency:
-
-ExportOptionsPNG24.transparency
-********************************************************************************
-
-``exportOptionsPNG24.transparency``
+`exportOptionsPNG24.saveAsHTML`
 
 **Description**
 
-If ``true``, the exported image use transparency. Default: ``true``.
+If `true`, the exported image be saved with an accompanying HTML file. Default: `false`.
 
 **Type**
 
 Boolean.
 
-----
+---
 
-.. _jsobjref/ExportOptionsPNG24.typename:
+<a id="jsobjref-exportoptionspng24-transparency"></a>
 
-ExportOptionsPNG24.typename
-********************************************************************************
+### ExportOptionsPNG24.transparency
 
-``exportOptionsPNG24.typename``
+`exportOptionsPNG24.transparency`
+
+**Description**
+
+If `true`, the exported image use transparency. Default: `true`.
+
+**Type**
+
+Boolean.
+
+---
+
+<a id="jsobjref-exportoptionspng24-typename"></a>
+
+### ExportOptionsPNG24.typename
+
+`exportOptionsPNG24.typename`
 
 **Description**
 
@@ -151,14 +140,13 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-.. _jsobjref/ExportOptionsPNG24.verticalScale:
+<a id="jsobjref-exportoptionspng24-verticalscale"></a>
 
-ExportOptionsPNG24.verticalScale
-********************************************************************************
+### ExportOptionsPNG24.verticalScale
 
-``exportOptionsPNG24.verticalScale``
+`exportOptionsPNG24.verticalScale`
 
 **Description**
 
@@ -168,31 +156,28 @@ The vertical scaling factor to apply to the exported image, where 100.0 is 100. 
 
 Number (double).
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Exporting to PNG24 format
-********************************************************************************
+### Exporting to PNG24 format
 
-::
+```default
+// Exports current document to dest as a PNG24 file with specified options,
+// dest contains the full path including the file name,
+// saveAsHTML option creates an HTML version with the PNG file in an images folder
 
-  // Exports current document to dest as a PNG24 file with specified options,
-  // dest contains the full path including the file name,
-  // saveAsHTML option creates an HTML version with the PNG file in an images folder
+function exportFileToPNG24(dest) {
+  if (app.documents.length > 0) {
+    var exportOptions = new ExportOptionsPNG24();
+    exportOptions.antiAliasing = false;
+    exportOptions.transparency = false;
+    exportOptions.saveAsHTML = true;
 
-  function exportFileToPNG24(dest) {
-    if (app.documents.length > 0) {
-      var exportOptions = new ExportOptionsPNG24();
-      exportOptions.antiAliasing = false;
-      exportOptions.transparency = false;
-      exportOptions.saveAsHTML = true;
+    var type = ExportType.PNG24;
+    var fileSpec = new File(dest);
 
-      var type = ExportType.PNG24;
-      var fileSpec = new File(dest);
-
-      app.activeDocument.exportFile(fileSpec, type, exportOptions);
-    }
+    app.activeDocument.exportFile(fileSpec, type, exportOptions);
   }
+}
+```

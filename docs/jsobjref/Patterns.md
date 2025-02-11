@@ -1,26 +1,22 @@
-.. _jsobjref/Patterns:
+<a id="jsobjref-patterns"></a>
 
-Patterns
-################################################################################
+# Patterns
 
-``app.activeDocument.patterns``
+`app.activeDocument.patterns`
 
 **Description**
 
-A collection of :ref:`jsobjref/Pattern` objects in a document.
+A collection of [Pattern](Pattern.md#jsobjref-pattern) objects in a document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Patterns.length:
+<a id="jsobjref-patterns-length"></a>
 
-Patterns.length
-********************************************************************************
+### Patterns.length
 
-``app.activeDocument.patterns.length``
+`app.activeDocument.patterns.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ Number of elements in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/Patterns.parent:
+<a id="jsobjref-patterns-parent"></a>
 
-Patterns.parent
-********************************************************************************
+### Patterns.parent
 
-``app.activeDocument.patterns.parent``
+`app.activeDocument.patterns.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/Patterns.typename:
+<a id="jsobjref-patterns-typename"></a>
 
-Patterns.typename
-********************************************************************************
+### Patterns.typename
 
-``app.activeDocument.patterns.typename``
+`app.activeDocument.patterns.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Patterns.add:
+<a id="jsobjref-patterns-add"></a>
 
-Patterns.add()
-********************************************************************************
+### Patterns.add()
 
-``app.activeDocument.patterns.add()``
+`app.activeDocument.patterns.add()`
 
 **Description**
 
@@ -83,16 +74,15 @@ Creates a new object.
 
 **Returns**
 
-:ref:`jsobjref/Pattern`
+[Pattern](Pattern.md#jsobjref-pattern)
 
-----
+---
 
-.. _jsobjref/Patterns.getByName:
+<a id="jsobjref-patterns-getbyname"></a>
 
-Patterns.getByName()
-********************************************************************************
+### Patterns.getByName()
 
-``app.activeDocument.patterns.getByName(name)``
+`app.activeDocument.patterns.getByName(name)`
 
 **Description**
 
@@ -100,24 +90,21 @@ Get the first element in the collection with the provided name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/Pattern`
+[Pattern](Pattern.md#jsobjref-pattern)
 
-----
+---
 
-.. _jsobjref/Patterns.index:
+<a id="jsobjref-patterns-index"></a>
 
-Patterns.index()
-********************************************************************************
+### Patterns.index()
 
-``app.activeDocument.patterns.index(itemKey)``
+`app.activeDocument.patterns.index(itemKey)`
 
 **Description**
 
@@ -125,24 +112,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/Pattern`
+[Pattern](Pattern.md#jsobjref-pattern)
 
-----
+---
 
-.. _jsobjref/Patterns.removeAll:
+<a id="jsobjref-patterns-removeall"></a>
 
-Patterns.removeAll()
-********************************************************************************
+### Patterns.removeAll()
 
-``app.activeDocument.patterns.removeAll()``
+`app.activeDocument.patterns.removeAll()`
 
 **Description**
 
@@ -152,26 +136,23 @@ Deletes all elements in the collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Removing a pattern
-********************************************************************************
+### Removing a pattern
 
-::
+```default
+// Deletes the last pattern from the current document.
+if (app.documents.length > 0) {
+  var lastIndex = app.activeDocument.patterns.length - 1;
 
-  // Deletes the last pattern from the current document.
-  if (app.documents.length > 0) {
-    var lastIndex = app.activeDocument.patterns.length - 1;
+  var patternToRemove = app.activeDocument.patterns[lastIndex];
+  var patternName = patternToRemove.name;
+  patternToRemove.remove();
 
-    var patternToRemove = app.activeDocument.patterns[lastIndex];
-    var patternName = patternToRemove.name;
-    patternToRemove.remove();
-
-    // Note after removing Illustrator objects, set the variable that
-    // referenced the removed object to null, since it is now invalid.
-    patternToRemove = null;
-  }
+  // Note after removing Illustrator objects, set the variable that
+  // referenced the removed object to null, since it is now invalid.
+  patternToRemove = null;
+}
+```

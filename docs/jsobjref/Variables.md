@@ -1,28 +1,24 @@
-.. _jsobjref/Variables:
+<a id="jsobjref-variables"></a>
 
-Variables
-################################################################################
+# Variables
 
-``app.activeDocument.variables``
+`app.activeDocument.variables`
 
 **Description**
 
-The collection of :ref:`jsobjref/Variable` objects in the document.
+The collection of [Variable](Variable.md#jsobjref-variable) objects in the document.
 
-For an example of how to create variables, see :ref:`jsobjref/Dataset.usingVariablesAndDatasets`.
+For an example of how to create variables, see [Using variables and datasets](Dataset.md#jsobjref-dataset-usingvariablesanddatasets).
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Variables.length:
+<a id="jsobjref-variables-length"></a>
 
-Variables.length
-********************************************************************************
+### Variables.length
 
-``app.activeDocument.variables.length``
+`app.activeDocument.variables.length`
 
 **Description**
 
@@ -32,14 +28,13 @@ The number of variables in the document
 
 Number; read-only.
 
-----
+---
 
-.. _jsobjref/Variables.parent:
+<a id="jsobjref-variables-parent"></a>
 
-Variables.parent
-********************************************************************************
+### Variables.parent
 
-``app.activeDocument.variables.parent``
+`app.activeDocument.variables.parent`
 
 **Description**
 
@@ -49,14 +44,13 @@ The object that contains the collection of variables
 
 Object; read-only.
 
-----
+---
 
-.. _jsobjref/Variables.typename:
+<a id="jsobjref-variables-typename"></a>
 
-Variables.typename
-********************************************************************************
+### Variables.typename
 
-``app.activeDocument.variables.typename``
+`app.activeDocument.variables.typename`
 
 **Description**
 
@@ -66,18 +60,15 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Variables.add:
+<a id="jsobjref-variables-add"></a>
 
-Variables.add()
-********************************************************************************
+### Variables.add()
 
-``app.activeDocument.variables.add()``
+`app.activeDocument.variables.add()`
 
 **Description**
 
@@ -85,16 +76,15 @@ Adds a new variable to the collection.
 
 **Returns**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/Variables.getByName:
+<a id="jsobjref-variables-getbyname"></a>
 
-Variables.getByName()
-********************************************************************************
+### Variables.getByName()
 
-``app.activeDocument.variables.getByName(name)``
+`app.activeDocument.variables.getByName(name)`
 
 **Description**
 
@@ -102,24 +92,21 @@ Get the first element in the collection with the provided name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/Variables.index:
+<a id="jsobjref-variables-index"></a>
 
-Variables.index()
-********************************************************************************
+### Variables.index()
 
-``app.activeDocument.variables.index(itemKey)``
+`app.activeDocument.variables.index(itemKey)`
 
 **Description**
 
@@ -127,24 +114,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/Variables.removeAll:
+<a id="jsobjref-variables-removeall"></a>
 
-Variables.removeAll()
-********************************************************************************
+### Variables.removeAll()
 
-``app.activeDocument.variables.removeAll()``
+`app.activeDocument.variables.removeAll()`
 
 **Description**
 

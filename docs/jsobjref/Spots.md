@@ -1,26 +1,22 @@
-.. _jsobjref/Spots:
+<a id="jsobjref-spots"></a>
 
-Spots
-################################################################################
+# Spots
 
-``app.activeDocument.spots``
+`app.activeDocument.spots`
 
 **Description**
 
-A collection of :ref:`jsobjref/Spotcolor` objects in a document.
+A collection of [SpotColor](SpotColor.md#jsobjref-spotcolor) objects in a document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Spots.length:
+<a id="jsobjref-spots-length"></a>
 
-Spots.length
-********************************************************************************
+### Spots.length
 
-``app.activeDocument.spots.length``
+`app.activeDocument.spots.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ Number of elements in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/Spots.parent:
+<a id="jsobjref-spots-parent"></a>
 
-Spots.parent
-********************************************************************************
+### Spots.parent
 
-``app.activeDocument.spots.parent``
+`app.activeDocument.spots.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/Spots.typename:
+<a id="jsobjref-spots-typename"></a>
 
-Spots.typename
-********************************************************************************
+### Spots.typename
 
-``app.activeDocument.spots.typename``
+`app.activeDocument.spots.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Spots.add:
+<a id="jsobjref-spots-add"></a>
 
-Spots.add()
-********************************************************************************
+### Spots.add()
 
-``app.activeDocument.spots.add()``
+`app.activeDocument.spots.add()`
 
 **Description**
 
@@ -83,16 +74,15 @@ Creates a new object.
 
 **Returns**
 
-:ref:`jsobjref/Spot`
+[Spot](Spot.md#jsobjref-spot)
 
-----
+---
 
-.. _jsobjref/Spots.getByName:
+<a id="jsobjref-spots-getbyname"></a>
 
-Spots.getByName()
-********************************************************************************
+### Spots.getByName()
 
-``app.activeDocument.spots.getByName(name)``
+`app.activeDocument.spots.getByName(name)`
 
 **Description**
 
@@ -100,24 +90,21 @@ Get the first element in the collection with the provided name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/Spot`
+[Spot](Spot.md#jsobjref-spot)
 
-----
+---
 
-.. _jsobjref/Spots.index:
+<a id="jsobjref-spots-index"></a>
 
-Spots.index()
-********************************************************************************
+### Spots.index()
 
-``app.activeDocument.spots.index(itemKey)``
+`app.activeDocument.spots.index(itemKey)`
 
 **Description**
 
@@ -125,24 +112,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+-----------------------+
-|  Parameter  |      Type      |      Description      |
-+=============+================+=======================+
-| ``itemKey`` | String, Number | Key of element to get |
-+-------------+----------------+-----------------------+
+| Parameter   | Type           | Description           |
+|-------------|----------------|-----------------------|
+| `itemKey`   | String, Number | Key of element to get |
 
 **Returns**
 
-:ref:`jsobjref/Spot`
+[Spot](Spot.md#jsobjref-spot)
 
-----
+---
 
-.. _jsobjref/Spots.removeAll:
+<a id="jsobjref-spots-removeall"></a>
 
-Spots.removeAll()
-********************************************************************************
+### Spots.removeAll()
 
-``app.activeDocument.spots.removeAll()``
+`app.activeDocument.spots.removeAll()`
 
 **Description**
 
@@ -152,58 +136,54 @@ Deletes all elements in the collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Removing spot colors
-********************************************************************************
+### Removing spot colors
 
-::
+```default
+// Deletes all spots colors from the current document
+if ( app.documents.length > 0 ) {
+  var spotCount = app.activeDocument.spots.length;
 
-  // Deletes all spots colors from the current document
-  if ( app.documents.length > 0 ) {
-    var spotCount = app.activeDocument.spots.length;
-
-    if (spotCount > 0) {
-      app.activeDocument.spots.removeAll();
-    }
+  if (spotCount > 0) {
+    app.activeDocument.spots.removeAll();
   }
+}
+```
 
-----
+---
 
-Creating and applying spot colors
-********************************************************************************
+### Creating and applying spot colors
 
-::
+```default
+// Defines and applies a new spot color in the current document,
+// then applies the color to the first path item
+if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {
+  // Define the new color value
+  var newRGBColor = new RGBColor();
+  newRGBColor.red = 255;
+  newRGBColor.green = 0;
+  newRGBColor.blue = 0;
 
-  // Defines and applies a new spot color in the current document,
-  // then applies the color to the first path item
-  if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {
-    // Define the new color value
-    var newRGBColor = new RGBColor();
-    newRGBColor.red = 255;
-    newRGBColor.green = 0;
-    newRGBColor.blue = 0;
+  // Create the new spot
+  var newSpot = app.activeDocument.spots.add();
 
-    // Create the new spot
-    var newSpot = app.activeDocument.spots.add();
+  // Define the new SpotColor as 80% of the RGB color
+  newSpot.name = "Scripted Red spot";
+  newSpot.tint = 80;
+  newSpot.color = newRGBColor;
 
-    // Define the new SpotColor as 80% of the RGB color
-    newSpot.name = "Scripted Red spot";
-    newSpot.tint = 80;
-    newSpot.color = newRGBColor;
+  // Apply a 50% tint of the new spot color to the frontmost path item.
+  // Create a spotcolor object, set the tint value,
+  var newSpotColor = new SpotColor();
+  newSpotColor.spot = newSpot;
+  newSpotColor.tint = 50;
 
-    // Apply a 50% tint of the new spot color to the frontmost path item.
-    // Create a spotcolor object, set the tint value,
-    var newSpotColor = new SpotColor();
-    newSpotColor.spot = newSpot;
-    newSpotColor.tint = 50;
-
-    // Use the spot color to set the fill color
-    var frontPath = app.activeDocument.pathItems[0];
-    frontPath.filled = true;
-    frontPath.fillColor = newSpotColor;
-  }
+  // Use the spot color to set the fill color
+  var frontPath = app.activeDocument.pathItems[0];
+  frontPath.filled = true;
+  frontPath.fillColor = newSpotColor;
+}
+```

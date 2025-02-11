@@ -1,26 +1,22 @@
-.. _jsobjref/TextRanges:
+<a id="jsobjref-textranges"></a>
 
-TextRanges
-################################################################################
+# TextRanges
 
-``textRanges``
+`textRanges`
 
 **Description**
 
-A collection of :ref:`jsobjref/TextRange` objects.
+A collection of [TextRange](TextRange.md#jsobjref-textrange) objects.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/TextRanges.length:
+<a id="jsobjref-textranges-length"></a>
 
-TextRanges.length
-********************************************************************************
+### TextRanges.length
 
-``textRanges.length``
+`textRanges.length`
 
 **Description**
 
@@ -30,31 +26,29 @@ The number of elements in the collection.
 
 Number; read-only.
 
-----
+---
 
-.. _jsobjref/TextRanges.parent:
+<a id="jsobjref-textranges-parent"></a>
 
-TextRanges.parent
-********************************************************************************
+### TextRanges.parent
 
-``textRanges.parent``
+`textRanges.parent`
 
 **Description**
 
-The object's container.
+The object’s container.
 
 **Type**
 
 Object; read-only.
 
-----
+---
 
-.. _jsobjref/TextRanges.typename:
+<a id="jsobjref-textranges-typename"></a>
 
-TextRanges.typename
-********************************************************************************
+### TextRanges.typename
 
-``textRanges.typename``
+`textRanges.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String; read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/TextRanges.index:
+<a id="jsobjref-textranges-index"></a>
 
-TextRanges.index()
-********************************************************************************
+### TextRanges.index()
 
-``textRanges.index(itemKey)``
+`textRanges.index(itemKey)`
 
 **Description**
 
@@ -83,24 +74,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/Variable`
+[Variable](Variable.md#jsobjref-variable)
 
-----
+---
 
-.. _jsobjref/TextRanges.removeAll:
+<a id="jsobjref-textranges-removeall"></a>
 
-TextRanges.removeAll()
-********************************************************************************
+### TextRanges.removeAll()
 
-``textRanges.removeAll()``
+`textRanges.removeAll()`
 
 **Description**
 

@@ -1,26 +1,22 @@
-.. _jsobjref/SwatchGroup:
+<a id="jsobjref-swatchgroup"></a>
 
-SwatchGroup
-################################################################################
+# SwatchGroup
 
-``swatchGroup``
+`swatchGroup`
 
 **Description**
 
-A group of :ref:`jsobjref/Swatch` objects.
+A group of [Swatch](Swatch.md#jsobjref-swatch) objects.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/SwatchGroup.name:
+<a id="jsobjref-swatchgroup-name"></a>
 
-SwatchGroup.name
-********************************************************************************
+### SwatchGroup.name
 
-``swatchGroup.name``
+`swatchGroup.name`
 
 **Description**
 
@@ -30,14 +26,13 @@ The name of the swatch group.
 
 string
 
-----
+---
 
-.. _jsobjref/SwatchGroup.parent:
+<a id="jsobjref-swatchgroup-parent"></a>
 
-SwatchGroup.parent
-********************************************************************************
+### SwatchGroup.parent
 
-``swatchGroup.parent``
+`swatchGroup.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The object that contains the swatch group.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/SwatchGroup.typename:
+<a id="jsobjref-swatchgroup-typename"></a>
 
-SwatchGroup.typename
-********************************************************************************
+### SwatchGroup.typename
 
-``swatchGroup.typename``
+`swatchGroup.typename`
 
 **Description**
 
@@ -64,18 +58,15 @@ The class name of the referenced object.
 
 String, read-only
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/SwatchGroup.addSpot:
+<a id="jsobjref-swatchgroup-addspot"></a>
 
-SwatchGroup.addSpot()
-********************************************************************************
+### SwatchGroup.addSpot()
 
-``swatchGroup.addSpot(spot)``
+`swatchGroup.addSpot(spot)`
 
 **Description**
 
@@ -83,24 +74,21 @@ Adds a spot swatch to the swatch group.
 
 **Parameters**
 
-+-----------+----------------------+-------------+
-| Parameter |         Type         | Description |
-+===========+======================+=============+
-| ``spot``  | :ref:`jsobjref/Spot` | Spot to add |
-+-----------+----------------------+-------------+
+| Parameter   | Type                          | Description   |
+|-------------|-------------------------------|---------------|
+| `spot`      | [Spot](Spot.md#jsobjref-spot) | Spot to add   |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/SwatchGroup.addSwatch:
+<a id="jsobjref-swatchgroup-addswatch"></a>
 
-SwatchGroup.addSwatch()
-********************************************************************************
+### SwatchGroup.addSwatch()
 
-``swatchGroup.addSwatch(swatch)``
+`swatchGroup.addSwatch(swatch)`
 
 **Description**
 
@@ -108,24 +96,21 @@ Adds a swatch to the swatch group.
 
 **Parameters**
 
-+------------+------------------------+---------------+
-| Parameter  |          Type          |  Description  |
-+============+========================+===============+
-| ``swatch`` | :ref:`jsobjref/Swatch` | Swatch to add |
-+------------+------------------------+---------------+
+| Parameter   | Type                                | Description   |
+|-------------|-------------------------------------|---------------|
+| `swatch`    | [Swatch](Swatch.md#jsobjref-swatch) | Swatch to add |
 
 **Returns**
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/SwatchGroup.getAllSwatches:
+<a id="jsobjref-swatchgroup-getallswatches"></a>
 
-SwatchGroup.getAllSwatches()
-********************************************************************************
+### SwatchGroup.getAllSwatches()
 
-``swatchGroup.getAllSwatches()``
+`swatchGroup.getAllSwatches()`
 
 **Description**
 
@@ -133,16 +118,15 @@ Gets a list of all swatches in the swatch group.
 
 **Returns**
 
-List of :ref:`jsobjref/Swatch`
+List of [Swatch](Swatch.md#jsobjref-swatch)
 
-----
+---
 
-.. _jsobjref/SwatchGroup.remove:
+<a id="jsobjref-swatchgroup-remove"></a>
 
-SwatchGroup.remove()
-********************************************************************************
+### SwatchGroup.remove()
 
-``swatchGroup.remove()``
+`swatchGroup.remove()`
 
 **Description**
 
@@ -152,14 +136,13 @@ Deletes this object.
 
 Nothing.
 
-----
+---
 
-.. _jsobjref/SwatchGroup.removeAll:
+<a id="jsobjref-swatchgroup-removeall"></a>
 
-SwatchGroup.removeAll()
-********************************************************************************
+### SwatchGroup.removeAll()
 
-``swatchGroup.removeAll()``
+`swatchGroup.removeAll()`
 
 **Description**
 

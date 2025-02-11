@@ -1,26 +1,22 @@
-.. _jsobjref/PrintPaperOptions:
+<a id="jsobjref-printpaperoptions"></a>
 
-PrintPaperOptions
-################################################################################
+# PrintPaperOptions
 
-``new PrintPaperOptions()``
+`new PrintPaperOptions()`
 
 **Description**
 
 Information about the paper to be used in the print job.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/PrintPaperOptions.height:
+<a id="jsobjref-printpaperoptions-height"></a>
 
-PrintPaperOptions.height
-********************************************************************************
+### PrintPaperOptions.height
 
-``printPaperOptions.height``
+`printPaperOptions.height`
 
 **Description**
 
@@ -32,14 +28,13 @@ Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrintPaperOptions.name:
+<a id="jsobjref-printpaperoptions-name"></a>
 
-PrintPaperOptions.name
-********************************************************************************
+### PrintPaperOptions.name
 
-``printPaperOptions.name``
+`printPaperOptions.name`
 
 **Description**
 
@@ -49,14 +44,13 @@ The paper’s name.
 
 String
 
-----
+---
 
-.. _jsobjref/PrintPaperOptions.offset:
+<a id="jsobjref-printpaperoptions-offset"></a>
 
-PrintPaperOptions.offset
-********************************************************************************
+### PrintPaperOptions.offset
 
-``printPaperOptions.offset``
+`printPaperOptions.offset`
 
 **Description**
 
@@ -68,33 +62,31 @@ Default: 0.0
 
 Number (double)
 
-----
+---
 
-.. _jsobjref/PrintPaperOptions.transverse:
+<a id="jsobjref-printpaperoptions-transverse"></a>
 
-PrintPaperOptions.transverse
-********************************************************************************
+### PrintPaperOptions.transverse
 
-``printPaperOptions.transverse``
+`printPaperOptions.transverse`
 
 **Description**
 
-If ``true``, transverse the artwork (rotate 90 degrees) on the custom paper.
+If `true`, transverse the artwork (rotate 90 degrees) on the custom paper.
 
-Default: ``false``
+Default: `false`
 
 **Type**
 
 Boolean
 
-----
+---
 
-.. _jsobjref/PrintPaperOptions.typename:
+<a id="jsobjref-printpaperoptions-typename"></a>
 
-PrintPaperOptions.typename
-********************************************************************************
+### PrintPaperOptions.typename
 
-``printPaperOptions.typename``
+`printPaperOptions.typename`
 
 **Description**
 
@@ -104,14 +96,13 @@ The class name of the object.
 
 String; read-only.
 
-----
+---
 
-.. _jsobjref/PrintPaperOptions.width:
+<a id="jsobjref-printpaperoptions-width"></a>
 
-PrintPaperOptions.width
-********************************************************************************
+### PrintPaperOptions.width
 
-``printPaperOptions.width``
+`printPaperOptions.width`
 
 **Description**
 
@@ -123,42 +114,39 @@ Default: 0.0
 
 Number (double)
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Setting print paper options
-********************************************************************************
+### Setting print paper options
 
-::
+```default
+// Creates a new document, adds a path item, applies a graphic style
+// then prints with specified paper options
+var docRef = documents.add();
+var pathRef = docRef.pathItems.rectangle(600, 200, 200, 200);
+docRef.graphicStyles[1].applyTo(pathRef);
 
-  // Creates a new document, adds a path item, applies a graphic style
-  // then prints with specified paper options
-  var docRef = documents.add();
-  var pathRef = docRef.pathItems.rectangle(600, 200, 200, 200);
-  docRef.graphicStyles[1].applyTo(pathRef);
+var paperOpts = new PrintPaperOptions;
+var printOpts = new PrintOptions;
+printOpts.paperOptions = paperOpts;
 
-  var paperOpts = new PrintPaperOptions;
-  var printOpts = new PrintOptions;
-  printOpts.paperOptions = paperOpts;
+var printerCount = printerList.length;
+if (printerCount > 0) {
 
-  var printerCount = printerList.length;
-  if (printerCount > 0) {
+  // Print with the 1st paper from the 1st printer
+  for (var i = 0; i < printerList.length; i++) {
 
-    // Print with the 1st paper from the 1st printer
-    for (var i = 0; i < printerList.length; i++) {
+    if (printerList[i].printerInfo.paperSizes.length > 0) {
+      var printerRef = printerList[i];
+    }
 
-      if (printerList[i].printerInfo.paperSizes.length > 0) {
-        var printerRef = printerList[i];
-      }
-
-      var paperRef = printerRef.printerInfo.paperSizes[0];
-      if (printerRef.printerInfo.paperSizes.length > 0){
-        paperOpts.name = paperRef.name;
-        printOpts.printerName = printerRef.name;
-        docRef.print(printOpts);
-      }
+    var paperRef = printerRef.printerInfo.paperSizes[0];
+    if (printerRef.printerInfo.paperSizes.length > 0){
+      paperOpts.name = paperRef.name;
+      printOpts.printerName = printerRef.name;
+      docRef.print(printOpts);
     }
   }
+}
+```

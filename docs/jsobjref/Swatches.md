@@ -1,26 +1,22 @@
-.. _jsobjref/Swatches:
+<a id="jsobjref-swatches"></a>
 
-Swatches
-################################################################################
+# Swatches
 
-``app.activeDocument.swatches``
+`app.activeDocument.swatches`
 
 **Description**
 
-The collection of :ref:`jsobjref/Swatch` objects in the document.
+The collection of [Swatch](Swatch.md#jsobjref-swatch) objects in the document.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/Swatches.length:
+<a id="jsobjref-swatches-length"></a>
 
-Swatches.length
-********************************************************************************
+### Swatches.length
 
-``app.activeDocument.swatches.length``
+`app.activeDocument.swatches.length`
 
 **Description**
 
@@ -30,14 +26,13 @@ Number of elements in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/Swatches.parent:
+<a id="jsobjref-swatches-parent"></a>
 
-Swatches.parent
-********************************************************************************
+### Swatches.parent
 
-``app.activeDocument.swatches.parent``
+`app.activeDocument.swatches.parent`
 
 **Description**
 
@@ -47,14 +42,13 @@ The object’s container.
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/Swatches.typename:
+<a id="jsobjref-swatches-typename"></a>
 
-Swatches.typename
-********************************************************************************
+### Swatches.typename
 
-``app.activeDocument.swatches.typename``
+`app.activeDocument.swatches.typename`
 
 **Description**
 
@@ -64,35 +58,31 @@ The class name of the object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/Swatches.add:
+<a id="jsobjref-swatches-add"></a>
 
-Swatches.add()
-********************************************************************************
+### Swatches.add()
 
-``app.activeDocument.swatches.add()``
+`app.activeDocument.swatches.add()`
 
 **Description**
 
-Creates a new :ref:`jsobjref/Swatch` object.
+Creates a new [Swatch](Swatch.md#jsobjref-swatch) object.
 
 **Returns**
 
-:ref:`jsobjref/Swatch`
+[Swatch](Swatch.md#jsobjref-swatch)
 
-----
+---
 
-.. _jsobjref/Swatches.getByName:
+<a id="jsobjref-swatches-getbyname"></a>
 
-Swatches.getByName()
-********************************************************************************
+### Swatches.getByName()
 
-``app.activeDocument.swatches.getByName(name)``
+`app.activeDocument.swatches.getByName(name)`
 
 **Description**
 
@@ -100,24 +90,21 @@ Get the first element in the collection with the provided name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/Swatch`
+[Swatch](Swatch.md#jsobjref-swatch)
 
-----
+---
 
-.. _jsobjref/Swatches.getSelected:
+<a id="jsobjref-swatches-getselected"></a>
 
-Swatches.getSelected()
-********************************************************************************
+### Swatches.getSelected()
 
-``app.activeDocument.swatches.getSelected()``
+`app.activeDocument.swatches.getSelected()`
 
 **Description**
 
@@ -125,16 +112,15 @@ Gets selected swatches in the document.
 
 **Returns**
 
-List of :ref:`jsobjref/Swatch`
+List of [Swatch](Swatch.md#jsobjref-swatch)
 
-----
+---
 
-.. _jsobjref/Swatches.index:
+<a id="jsobjref-swatches-index"></a>
 
-Swatches.index()
-********************************************************************************
+### Swatches.index()
 
-``app.activeDocument.swatches.index(itemKey)``
+`app.activeDocument.swatches.index(itemKey)`
 
 **Description**
 
@@ -142,24 +128,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+-----------------------+
-|  Parameter  |      Type      |      Description      |
-+=============+================+=======================+
-| ``itemKey`` | String, Number | Key of element to get |
-+-------------+----------------+-----------------------+
+| Parameter   | Type           | Description           |
+|-------------|----------------|-----------------------|
+| `itemKey`   | String, Number | Key of element to get |
 
 **Returns**
 
-:ref:`jsobjref/Swatch`
+[Swatch](Swatch.md#jsobjref-swatch)
 
-----
+---
 
-.. _jsobjref/Swatches.removeAll:
+<a id="jsobjref-swatches-removeall"></a>
 
-Swatches.removeAll()
-********************************************************************************
+### Swatches.removeAll()
 
-``app.activeDocument.swatches.removeAll()``
+`app.activeDocument.swatches.removeAll()`
 
 **Description**
 
@@ -169,21 +152,18 @@ Deletes all elements in the collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Finding and deleting a swatch
-********************************************************************************
+### Finding and deleting a swatch
 
-::
-
-  // Deletes swatch 4 from the current document
-  if ( app.documents.length > 0 ) {
-    if (app.activeDocument.swatches.length > 4) {
-      var swatchToDelete = app.activeDocument.swatches[3];
-      swatchToDelete.remove();
-    }
+```default
+// Deletes swatch 4 from the current document
+if ( app.documents.length > 0 ) {
+  if (app.activeDocument.swatches.length > 4) {
+    var swatchToDelete = app.activeDocument.swatches[3];
+    swatchToDelete.remove();
   }
+}
+```

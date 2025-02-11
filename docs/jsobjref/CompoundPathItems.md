@@ -1,26 +1,22 @@
-.. _jsobjref/CompoundPathItems:
+<a id="jsobjref-compoundpathitems"></a>
 
-CompoundPathItems
-################################################################################
+# CompoundPathItems
 
-``app.activeDocument.activeLayer.compoundPathItems``
+`app.activeDocument.activeLayer.compoundPathItems`
 
 **Description**
 
-A collection of :ref:`jsobjref/CompoundPathItem` objects.
+A collection of [CompoundPathItem](CompoundPathItem.md#jsobjref-compoundpathitem) objects.
 
-----
+---
 
-==========
-Properties
-==========
+## Properties
 
-.. _jsobjref/CompoundPathItems.length:
+<a id="jsobjref-compoundpathitems-length"></a>
 
-CompoundPathItems.length
-********************************************************************************
+### CompoundPathItems.length
 
-``app.activeDocument.activeLayer.compoundPathItems.length``
+`app.activeDocument.activeLayer.compoundPathItems.length`
 
 **Description**
 
@@ -30,31 +26,29 @@ The number of objects in the collection.
 
 Number, read-only.
 
-----
+---
 
-.. _jsobjref/CompoundPathItems.parent:
+<a id="jsobjref-compoundpathitems-parent"></a>
 
-CompoundPathItems.parent
-********************************************************************************
+### CompoundPathItems.parent
 
-``app.activeDocument.activeLayer.compoundPathItems.parent``
+`app.activeDocument.activeLayer.compoundPathItems.parent`
 
 **Description**
 
-The parent of this collection (either a ``Layer`` or a ``GroupItem``).
+The parent of this collection (either a `Layer` or a `GroupItem`).
 
 **Type**
 
 Object, read-only.
 
-----
+---
 
-.. _jsobjref/CompoundPathItems.typename:
+<a id="jsobjref-compoundpathitems-typename"></a>
 
-CompoundPathItems.typename
-********************************************************************************
+### CompoundPathItems.typename
 
-``app.activeDocument.activeLayer.compoundPathItems.typename``
+`app.activeDocument.activeLayer.compoundPathItems.typename`
 
 **Description**
 
@@ -64,35 +58,31 @@ The class name of the referenced object.
 
 String, read-only.
 
-----
+---
 
-=======
-Methods
-=======
+## Methods
 
-.. _jsobjref/CompoundPathItems.add:
+<a id="jsobjref-compoundpathitems-add"></a>
 
-CompoundPathItems.add()
-********************************************************************************
+### CompoundPathItems.add()
 
-``app.activeDocument.activeLayer.compoundPathItems.add()``
+`app.activeDocument.activeLayer.compoundPathItems.add()`
 
 **Description**
 
-Creates a new ``CompoundPathItem``.
+Creates a new `CompoundPathItem`.
 
 **Returns**
 
-:ref:`jsobjref/CompoundPathItem`
+[CompoundPathItem](CompoundPathItem.md#jsobjref-compoundpathitem)
 
-----
+---
 
-.. _jsobjref/CompoundPathItems.getByName:
+<a id="jsobjref-compoundpathitems-getbyname"></a>
 
-CompoundPathItems.getByName()
-********************************************************************************
+### CompoundPathItems.getByName()
 
-``app.activeDocument.activeLayer.compoundPathItems.getByName(name)``
+`app.activeDocument.activeLayer.compoundPathItems.getByName(name)`
 
 **Description**
 
@@ -100,24 +90,21 @@ Gets the first element in the collection with the specified name.
 
 **Parameters**
 
-+-----------+--------+------------------------+
-| Parameter |  Type  |      Description       |
-+===========+========+========================+
-| ``name``  | String | Name of element to get |
-+-----------+--------+------------------------+
+| Parameter   | Type   | Description            |
+|-------------|--------|------------------------|
+| `name`      | String | Name of element to get |
 
 **Returns**
 
-:ref:`jsobjref/CompoundPathItem`
+[CompoundPathItem](CompoundPathItem.md#jsobjref-compoundpathitem)
 
-----
+---
 
-.. _jsobjref/CompoundPathItems.index:
+<a id="jsobjref-compoundpathitems-index"></a>
 
-CompoundPathItems.index()
-********************************************************************************
+### CompoundPathItems.index()
 
-``app.activeDocument.activeLayer.compoundPathItems.index(itemKey)``
+`app.activeDocument.activeLayer.compoundPathItems.index(itemKey)`
 
 **Description**
 
@@ -125,24 +112,21 @@ Gets an element from the collection.
 
 **Parameters**
 
-+-------------+----------------+----------------------+
-|  Parameter  |      Type      |     Description      |
-+=============+================+======================+
-| ``itemKey`` | String, Number | String or number key |
-+-------------+----------------+----------------------+
+| Parameter   | Type           | Description          |
+|-------------|----------------|----------------------|
+| `itemKey`   | String, Number | String or number key |
 
 **Returns**
 
-:ref:`jsobjref/CompoundPathItem`
+[CompoundPathItem](CompoundPathItem.md#jsobjref-compoundpathitem)
 
-----
+---
 
-.. _jsobjref/CompoundPathItems.removeAll:
+<a id="jsobjref-compoundpathitems-removeall"></a>
 
-CompoundPathItems.removeAll()
-********************************************************************************
+### CompoundPathItems.removeAll()
 
-``app.activeDocument.activeLayer.compoundPathItems.removeAll()``
+`app.activeDocument.activeLayer.compoundPathItems.removeAll()`
 
 **Description**
 
@@ -152,19 +136,16 @@ Deletes all elements in this collection.
 
 Nothing.
 
-----
+---
 
-=======
-Example
-=======
+## Example
 
-Counting compound paths
-********************************************************************************
+### Counting compound paths
 
-::
-
-  // Counts all compound path items in layer 1 of the current document
-  if (app.documents.length > 0) {
-    var doc = app.activeDocument;
-    var numCompoundPaths = doc.layers[0].compoundPathItems.length;
-  }
+```default
+// Counts all compound path items in layer 1 of the current document
+if (app.documents.length > 0) {
+  var doc = app.activeDocument;
+  var numCompoundPaths = doc.layers[0].compoundPathItems.length;
+}
+```
