@@ -18,7 +18,7 @@ To specify a path using page-coordinate pairs, use the `entire path` property of
 Set appRef = CreateObject ("Illustrator.Application")
 
 Set firstPath = appRef.ActiveDocument.PathItems.Add
-  firstPath.Stroked = True
+    firstPath.Stroked = True
 firstPath.SetEntirePath(Array(Array(220, 475),Array(375, 300),Array(200, 300)))
 ```
 
@@ -40,7 +40,7 @@ To create a path or add points to an existing path using `PathPoint` objects, cr
 Set appRef = CreateObject ("Illustrator.Application")
 
 Set firstPath = appRef.ActiveDocument.PathItems.Add
-  firstPath.Stroked = true
+    firstPath.Stroked = true
 Set newPoint = firstPath.PathPoints.Add
 'Using identical coordinates creates a straight segment
 newPoint.Anchor = Array(75, 300)
@@ -67,15 +67,15 @@ The following script sample creates a path with three points
 Set appRef = CreateObject("Illustrator.Application")
 Set myDoc = appRef.ActiveDocument
 Set myLine = myDoc.PathItems.Add
-  myLine.Stroked = True
-  myLine.SetEntirePath( Array( Array(320, 475), Array(375, 300)))
+    myLine.Stroked = True
+    myLine.SetEntirePath( Array( Array(320, 475), Array(375, 300)))
 
 ' Append another point to the line
 Set newPoint = myLine.PathPoints.Add
-  'Using identical coordinates creates a straight segment
-  newPoint.Anchor = Array(220, 300)
-  newPoint.LeftDirection = Array(220, 300)
-  newPoint.RightDirection = Array(220, 300)
+    'Using identical coordinates creates a straight segment
+    newPoint.Anchor = Array(220, 300)
+    newPoint.LeftDirection = Array(220, 300)
+    newPoint.RightDirection = Array(220, 300)
 ```
 
 ---

@@ -102,15 +102,15 @@ var paragraphCount = 2;
 // get details of each paper
 var iCount = printerRef.printerInfo.paperSizes.length;
 for (var i = 0; i < iCount; i++) {
-  var paperRef = printerRef.printerInfo.paperSizes[i];
-  var paperInfoRef = paperRef.paperInfo;
-  textRef.contents += paperRef.name;
-  textRef.contents += "\t";
-  textRef.contents += paperInfoRef.height;
-  textRef.contents += " x ";
-  textRef.contents += paperInfoRef.width;
-  textRef.contents += "\r";
-  paragraphCount++;
+    var paperRef = printerRef.printerInfo.paperSizes[i];
+    var paperInfoRef = paperRef.paperInfo;
+    textRef.contents += paperRef.name;
+    textRef.contents += "\t";
+    textRef.contents += paperInfoRef.height;
+    textRef.contents += " x ";
+    textRef.contents += paperInfoRef.width;
+    textRef.contents += "\r";
+    paragraphCount++;
 }
 redraw();
 ```

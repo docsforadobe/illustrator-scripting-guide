@@ -287,16 +287,16 @@ String, read-only.
 // dest contains the full path including the file name
 
 function exportFileToSVG(dest) {
-  if (app.documents.length > 0) {
-    var exportOptions = new ExportOptionsSVG();
-    exportOptions.embedRasterImages = true;
-    exportOptions.embedAllFonts = false;
-    exportOptions.fontSubsetting = SVGFontSubsetting.GLYPHSUSED;
+    if (app.documents.length > 0) {
+        var exportOptions = new ExportOptionsSVG();
+        exportOptions.embedRasterImages = true;
+        exportOptions.embedAllFonts = false;
+        exportOptions.fontSubsetting = SVGFontSubsetting.GLYPHSUSED;
 
-    var type = ExportType.SVG;
-    var fileSpec = new File(dest);
+        var type = ExportType.SVG;
+        var fileSpec = new File(dest);
 
-    app.activeDocument.exportFile(fileSpec, type, exportOptions);
-  }
+        app.activeDocument.exportFile(fileSpec, type, exportOptions);
+    }
 }
 ```

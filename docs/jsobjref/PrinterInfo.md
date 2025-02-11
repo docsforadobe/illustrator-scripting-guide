@@ -289,8 +289,8 @@ var textRef = docRef.textFrames.add();
 textRef.contents += "Printers...\r";
 
 for (var i = 0; i < iCount; i++) {
-  textRef.contents += printerList[i].name;
-  textRef.contents += "\r\t";
+    textRef.contents += printerList[i].name;
+    textRef.contents += "\r\t";
 }
 
 textRef.top = 600;

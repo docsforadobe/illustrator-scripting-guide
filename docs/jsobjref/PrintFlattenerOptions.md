@@ -151,13 +151,13 @@ var docRef = documents.add();
 var y = docRef.height - 30;
 
 for (var i = 0; i < (docRef.symbols.length); i++) {
-  symbolRef = docRef.symbols[i];
+    symbolRef = docRef.symbols[i];
 
-  symbolItemRef1 = docRef.symbolItems.add(symbolRef);
-  symbolItemRef1.top = y;
-  symbolItemRef1.left = 100;
+    symbolItemRef1 = docRef.symbolItems.add(symbolRef);
+    symbolItemRef1.top = y;
+    symbolItemRef1.left = 100;
 
-  y -= (symbolItemRef1.height + 10);
+    y -= (symbolItemRef1.height + 10);
 }
 
 redraw();
@@ -174,7 +174,7 @@ printOpts.RasterizatonResotion = 360;
 
 // Print the current document with flattening balance increments of 20
 for (var i = 0; i <= 100; i += 20) {
-  flatOpts.flatteningBalance = i;
-  activeDocument.print(printOpts);
+    flatOpts.flatteningBalance = i;
+    activeDocument.print(printOpts);
 }
 ```

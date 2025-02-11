@@ -497,9 +497,15 @@ Nothing.
 ### GraphItem.resize()
 
 ```default
-app.activeDocument.graphItems[index].resize(scaleX, scaleY
-  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-  [,changeStrokePattern] [,changeLineWidths] [,scaleAbout])
+app.activeDocument.graphItems[index].resize(
+    scaleX,
+    scaleY
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,changeLineWidths]
+    [,scaleAbout]
 )
 ```
 
@@ -529,9 +535,13 @@ Nothing.
 ### GraphItem.rotate()
 
 ```default
-app.activeDocument.graphItems[index].rotate(angle
-  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-  [,changeStrokePattern] [,rotateAbout]
+app.activeDocument.graphItems[index].rotate(
+    angle
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,rotateAbout]
 )
 ```
 
@@ -559,9 +569,14 @@ Nothing.
 ### GraphItem.transform()
 
 ```default
-app.activeDocument.graphItems[index].transform(transformationMatrix
-  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-  [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
+app.activeDocument.graphItems[index].transform(
+    transformationMatrix
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,changeLineWidths]
+    [,transformAbout]
 )
 ```
 
@@ -590,9 +605,13 @@ Nothing.
 ### GraphItem.translate()
 
 ```default
-app.activeDocument.graphItems[index].translate([deltaX] [,deltaY]
-  [,transformObjects] [,transformFillPatterns]
-  [,transformFillGradients] [,transformStrokePatterns]
+app.activeDocument.graphItems[index].translate(
+    [deltaX]
+    [,deltaY]
+    [,transformObjects]
+    [,transformFillPatterns]
+    [,transformFillGradients]
+    [,transformStrokePatterns]
 )
 ```
 

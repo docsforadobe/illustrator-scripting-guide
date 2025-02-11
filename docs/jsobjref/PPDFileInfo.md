@@ -80,30 +80,30 @@ var y = (docRef.height - 30);
 
 var iLength = PPDFileList.length;
 if (iLength > 20)
-  iLength = 20;
+    iLength = 20;
 
 for (var i = 0; i < iLength; i++) {
-  var ppdRef = PPDFileList[i];
-  sPPD = ppdRef.name;
-  sPPD += "\r\tPS Level ";
+    var ppdRef = PPDFileList[i];
+    sPPD = ppdRef.name;
+    sPPD += "\r\tPS Level ";
 
-  var ppdInfoRef = ppdRef.PPDInfo;
-  sPPD += ppdInfoRef.languageLevel;
-  sPPD += "\r\tPath: ";
-  sPPD += ppdInfoRef.PPDFilePath;
+    var ppdInfoRef = ppdRef.PPDInfo;
+    sPPD += ppdInfoRef.languageLevel;
+    sPPD += "\r\tPath: ";
+    sPPD += ppdInfoRef.PPDFilePath;
 
-  var textRef = docRef.textFrames.add();
-  textRef.textRange.characterAttributes.size = 8;
-  textRef.contents = sPPD;
-  textRef.top = (y);
-  textRef.left = x;
+    var textRef = docRef.textFrames.add();
+    textRef.textRange.characterAttributes.size = 8;
+    textRef.contents = sPPD;
+    textRef.top = (y);
+    textRef.left = x;
 
-  redraw();
+    redraw();
 
-  if ((y -= (textRef.height)) <= 30) {
-    y = (docRef.height - 30);
-    x += 150;
-  }
+    if ((y -= (textRef.height)) <= 30) {
+        y = (docRef.height - 30);
+        x += 150;
+    }
 }
 ```
 
@@ -124,54 +124,54 @@ var y = (docRef.height - 30);
 var iLength = PPDFileList.length;
 
 if (iLength > 10)
-  iLength = 10;
+    iLength = 10;
 
 for (var i = 0; i < iLength; i++) {
-  var ppdRef = PPDFileList[i];
-  sPPD = ppdRef.name;
-  sPPD += "\r\tPS Level ";
+    var ppdRef = PPDFileList[i];
+    sPPD = ppdRef.name;
+    sPPD += "\r\tPS Level ";
 
-  var ppdInfoRef = ppdRef.PPDInfo;
-  sPPD += ppdInfoRef.languageLevel;
-  sPPD += "\r\tPath: ";
-  sPPD += ppdInfoRef.PPDFilePath;
-  sPPD += "\r\tScreens:\r";
+    var ppdInfoRef = ppdRef.PPDInfo;
+    sPPD += ppdInfoRef.languageLevel;
+    sPPD += "\r\tPath: ";
+    sPPD += ppdInfoRef.PPDFilePath;
+    sPPD += "\r\tScreens:\r";
 
-  var iScreens = ppdInfoRef.screenList.length;
-  for (var c = 0; c < iScreens; c++) {
+    var iScreens = ppdInfoRef.screenList.length;
+    for (var c = 0; c < iScreens; c++) {
 
-    var screenRef = ppdInfoRef.screenList[c];
-    sPPD += "\t\t";
-    sPPD += screenRef.name;
+        var screenRef = ppdInfoRef.screenList[c];
+        sPPD += "\t\t";
+        sPPD += screenRef.name;
 
-    var screenInfoRef = screenRef.screenInfo;
-    sPPD += ", Angle = ";
-    sPPD += screenInfoRef.angle;
-    sPPD += ", Frequency = ";
-    sPPD += screenInfoRef.frequency;
-    sPPD += "\r";
-  }
+        var screenInfoRef = screenRef.screenInfo;
+        sPPD += ", Angle = ";
+        sPPD += screenInfoRef.angle;
+        sPPD += ", Frequency = ";
+        sPPD += screenInfoRef.frequency;
+        sPPD += "\r";
+    }
 
-  sPPD += "\r\tScreenSpots:\r";
+    sPPD += "\r\tScreenSpots:\r";
 
-  var iScreenSpots = ppdInfoRef.screenSpotFunctionList.length;
-  for (var n = 0; n < iScreenSpots; n++) {
-    var screenSpotRef = ppdInfoRef.screenSpotFunctionList[n];
-    sPPD += "\t\t";
-    sPPD += screenSpotRef.name;
-    sPPD += ", spotFunction: ";
-    sPPD += screenSpotRef.spotFunction;
-    sPPD += "\r";
-  }
+    var iScreenSpots = ppdInfoRef.screenSpotFunctionList.length;
+    for (var n = 0; n < iScreenSpots; n++) {
+        var screenSpotRef = ppdInfoRef.screenSpotFunctionList[n];
+        sPPD += "\t\t";
+        sPPD += screenSpotRef.name;
+        sPPD += ", spotFunction: ";
+        sPPD += screenSpotRef.spotFunction;
+        sPPD += "\r";
+    }
 
-  var textRef = docRef.textFrames.add();
-  textRef.textRange.characterAttributes.size = 8;
-  textRef.contents = sPPD;
-  textRef.top = (y);
-  textRef.left = x;
+    var textRef = docRef.textFrames.add();
+    textRef.textRange.characterAttributes.size = 8;
+    textRef.contents = sPPD;
+    textRef.top = (y);
+    textRef.left = x;
 
-  redraw();
+    redraw();
 
-  y -= (textRef.height);
+    y -= (textRef.height);
 }
 ```

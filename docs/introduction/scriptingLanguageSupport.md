@@ -48,9 +48,9 @@ For example, the Adobe Custom Workspace plug-in defines a command "Switch Worksp
 
 ```default
 result = app.sendScriptMessage (
-  "Adobe Custom Workspace",
-  "Switch Workspace",
-  '<workspace="Essentials" >'
+    "Adobe Custom Workspace",
+    "Switch Workspace",
+    '<workspace="Essentials" >'
 );
 ```
 

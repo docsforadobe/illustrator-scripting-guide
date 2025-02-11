@@ -163,12 +163,12 @@ var docRef = documents.add();
 var sInks = "";
 var iLength = activeDocument.inkList.length;
 for (var i = 0; i < iLength; i++) {
-  sInks += docRef.inkList[i].name;
-  sInks += "\r\t";
-  sInks += "Frequency = " + docRef.inkList[i].inkInfo.frequency;
-  sInks += "\r\t";
-  sInks += "Density = " + docRef.inkList[i].inkInfo.density;
-  sInks += "\r";
+    sInks += docRef.inkList[i].name;
+    sInks += "\r\t";
+    sInks += "Frequency = " + docRef.inkList[i].inkInfo.frequency;
+    sInks += "\r\t";
+    sInks += "Density = " + docRef.inkList[i].inkInfo.density;
+    sInks += "\r";
 }
 
 var textRef = docRef.textFrames.add();

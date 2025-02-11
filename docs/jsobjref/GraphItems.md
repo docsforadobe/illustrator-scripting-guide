@@ -119,16 +119,16 @@ Nothing.
 var ok = false;
 
 if (documents.length > 0) {
-  var docRef = activeDocument;
-  var iCount = docRef.graphItems.length;
-  if (iCount > 0) {
-    ok = true;
-    for (var i = 0; i < iCount; i++) {
-      var graphRef = docRef.graphItems[i];
-      graphRef.selected = true;
-      graphRef.rotate(90); //rotate clockwise 90 degrees
+    var docRef = activeDocument;
+    var iCount = docRef.graphItems.length;
+    if (iCount > 0) {
+        ok = true;
+        for (var i = 0; i < iCount; i++) {
+            var graphRef = docRef.graphItems[i];
+            graphRef.selected = true;
+            graphRef.rotate(90); //rotate clockwise 90 degrees
+        }
+        redraw();
     }
-    redraw();
-  }
 }
 ```

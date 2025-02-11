@@ -477,9 +477,15 @@ Nothing.
 ### MeshItem.resize()
 
 ```default
-app.activeDocument.meshItems[index].resize(scaleX, scaleY
-  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-  [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
+app.activeDocument.meshItems[index].resize(
+    scaleX,
+    scaleY
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,changeLineWidths]
+    [,scaleAbout]
 )
 ```
 
@@ -509,9 +515,13 @@ Nothing.
 ### MeshItem.rotate()
 
 ```default
-app.activeDocument.meshItems[index].rotate(angle [,changePositions]
-  [,changeFillPatterns] [,changeFillGradients]
-  [,changeStrokePattern] [,rotateAbout]
+app.activeDocument.meshItems[index].rotate(
+    angle
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,rotateAbout]
 )
 ```
 
@@ -539,9 +549,14 @@ Nothing.
 ### MeshItem.transform()
 
 ```default
-app.activeDocument.meshItems[index].transform(transformationMatrix
-  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-  [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
+app.activeDocument.meshItems[index].transform(
+    transformationMatrix
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,changeLineWidths]
+    [,transformAbout]
 )
 ```
 
@@ -570,9 +585,13 @@ Nothing.
 ### MeshItem.translate()
 
 ```default
-app.activeDocument.meshItems[index].translate([deltaX] [,deltaY]
-  [,transformObjects] [,transformFillPatterns]
-  [,transformFillGradients] [,transformStrokePatterns]
+app.activeDocument.meshItems[index].translate(
+    [deltaX]
+    [,deltaY]
+    [,transformObjects]
+    [,transformFillPatterns]
+    [,transformFillGradients]
+    [,transformStrokePatterns]
 )
 ```
 
@@ -624,9 +643,9 @@ Nothing.
 ```default
 // Locks all mesh items in the current document
 if (app.documents.length > 0) {
-  var doc = app.activeDocument;
-  for (var i = 0; i < doc.meshItems.length; i++) {
-    doc.meshItems[i].locked = true;
-  }
+    var doc = app.activeDocument;
+    for (var i = 0; i < doc.meshItems.length; i++) {
+        doc.meshItems[i].locked = true;
+    }
 }
 ```

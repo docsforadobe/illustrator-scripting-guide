@@ -314,7 +314,7 @@ var octagon = artLayer.pathItems.polygon(300.0, 325.0, 75.0, 8);
 var star = artLayer.pathItems.star(300.0, 125.0, 100.0, 20.0, 4);
 
 for (i = 0; i < artLayer.pathItems.length; i++) {
-  var styleIndex = Math.round(Math.random() * (doc.graphicStyles.length - 1));
-  doc.graphicStyles[styleIndex].applyTo(artLayer.pathItems[i]);
+    var styleIndex = Math.round(Math.random() * (doc.graphicStyles.length - 1));
+    doc.graphicStyles[styleIndex].applyTo(artLayer.pathItems[i]);
 }
 ```

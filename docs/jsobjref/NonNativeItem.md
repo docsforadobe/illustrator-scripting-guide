@@ -420,7 +420,8 @@ Number, read-only.
 
 ### NonNativeItem.duplicate()
 
-`nonNativeItems[index].duplicate([relativeObject] [,insertionLocation])`
+`nonNativeItems[index].duplicate([relativeObject]
+[,insertionLocation])`
 
 **Description**
 
@@ -491,9 +492,15 @@ Nothing.
 ### NonNativeItem.resize()
 
 ```default
-nonNativeItem.resize(scaleX, scaleY
-  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-  [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
+nonNativeItem.resize(
+    scaleX,
+    scaleY
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,changeLineWidths]
+    [,scaleAbout]
 )
 ```
 
@@ -523,9 +530,13 @@ Nothing.
 ### NonNativeItem.rotate()
 
 ```default
-nonNativeItem.rotate(angle
-  [,changePositions] [,changeFillPatterns]
-  [,changeFillGradients] [,changeStrokePattern] [,rotateAbout]
+nonNativeItem.rotate(
+    angle
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,rotateAbout]
 )
 ```
 
@@ -553,9 +564,14 @@ Nothing.
 ### NonNativeItem.transform()
 
 ```default
-nonNativeItem.transform(transformationMatrix
-  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-  [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
+nonNativeItem.transform(
+    transformationMatrix
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,changeLineWidths]
+    [,transformAbout]
 )
 ```
 
@@ -584,9 +600,13 @@ Nothing.
 ### NonNativeItem.translate()
 
 ```default
-nonNativeItem.translate([deltaX] [,deltaY]
-  [,transformObjects] [,transformFillPatterns]
-  [,transformFillGradients] [,transformStrokePatterns]
+nonNativeItem.translate(
+    [deltaX]
+    [,deltaY]
+    [,transformObjects]
+    [,transformFillPatterns]
+    [,transformFillGradients]
+    [,transformStrokePatterns]
 )
 ```
 

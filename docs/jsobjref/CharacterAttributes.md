@@ -762,7 +762,7 @@ textRef.left = 100;
 var charCount = textRef.textRange.characters.length;
 var size = 100;
 for (var i = 0; i < charCount; i++, size *= 1.2) {
-  textRef.textRange.characters[i].characterAttributes.horizontalScale = size;
-  textRef.textRange.characters[i].characterAttributes.verticalScale = size;
+    textRef.textRange.characters[i].characterAttributes.horizontalScale = size;
+    textRef.textRange.characters[i].characterAttributes.verticalScale = size;
 }
 ```

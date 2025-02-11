@@ -15,10 +15,10 @@ Consider the following sample script:
 ```applescript
 -- Make 2 new objects and try to select both
 tell application "Adobe Illustrator"
-  set newDocument to make new document
-  set rectPath to make new rectangle in newDocument
-  set starPath to make new star in newDocument
-  set selection of newDocument to {rectPath, starPath}
+    set newDocument to make new document
+    set rectPath to make new rectangle in newDocument
+    set starPath to make new star in newDocument
+    set selection of newDocument to {rectPath, starPath}
 end tell
 ```
 
@@ -26,17 +26,17 @@ This script does not select both the rectangle and the star, as intended; instea
 
 ```applescript
 set selection of document 1 to {path item 1 of layer 1 of document 1,
-  path item 1 of layer 1 of document 1}
+    path item 1 of layer 1 of document 1}
 ```
 
 A better approach is to reference the objects by name:
 
 ```applescript
 tell application "Adobe Illustrator"
-  set newDocument to make new document
-  make new rectangle in newDocument with properties {name:"rectangle"}
-  make new star in newDocument with properties {name:"star"}
-  set selection of newDocument to
+    set newDocument to make new document
+    make new rectangle in newDocument with properties {name:"rectangle"}
+    make new star in newDocument with properties {name:"star"}
+    set selection of newDocument to
     {path item "rectangle" of newDocument,
     path item "star" of newDocument}
 end tell
@@ -53,7 +53,7 @@ This script references an object as part of a document:
 ```applescript
 -- Get reference for first page item of document 1
 tell application "Adobe Illustrator"
-  set pageItemRef to page item 1 of document 1
+    set pageItemRef to page item 1 of document 1
 end tell
 ```
 
@@ -62,7 +62,7 @@ In the following script, the pageItemRef variable does not necessarily refer to 
 ```applescript
 -- Get reference for first page item of layer 1 of document 1
 tell application "Adobe Illustrator"
-  set pageItemRef to page item 1 of layer 1 of document 1
+    set pageItemRef to page item 1 of layer 1 of document 1
 end tell
 ```
 
@@ -80,8 +80,8 @@ When the user makes a selection in a document, the selected objects are stored i
 
 ```applescript
 tell application "Adobe Illustrator"
-  set myDoc to current document
-  set selectedObjects to selection of myDoc
+    set myDoc to current document
+    set selectedObjects to selection of myDoc
 end tell
 ```
 
@@ -91,10 +91,10 @@ The following sample gets the first object in the array, then displays the objec
 
 ```applescript
 tell application "Adobe Illustrator"
-  set myDoc to current document
-  set selectedObjects to selection of myDoc
-  set topObject to item 1 of selectedObjects
-  display dialog (class of topObject)
+    set myDoc to current document
+    set selectedObjects to selection of myDoc
+    set topObject to item 1 of selectedObjects
+    display dialog (class of topObject)
 end tell
 ```
 

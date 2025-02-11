@@ -61,29 +61,29 @@ String; read-only.
 var docRef = documents.add();
 var sInfo = "";
 if (PPDFileList.length == 0) {
-  sInfo = "\r\t\tEmpty PPDFileList"
+    sInfo = "\r\t\tEmpty PPDFileList"
 } else {
-  var ppdRef = PPDFileList[0];
-  var ppdInfoRef = ppdRef.PPDInfo;
+    var ppdRef = PPDFileList[0];
+    var ppdInfoRef = ppdRef.PPDInfo;
 
-  var sInfo = "\r\t\tScreenSpotFunctions for 1st PPD File:\r";
-  sInfo += "\t\t" + ppdRef.name + "\r";
+    var sInfo = "\r\t\tScreenSpotFunctions for 1st PPD File:\r";
+    sInfo += "\t\t" + ppdRef.name + "\r";
 
-  var iScreenSpots = ppdInfoRef.screenSpotFunctionList.length;
-  if (iScreenSpots > 0) {
-    for (var n = 0; n < iScreenSpots; n++) {
-      var screenSpotRef = ppdInfoRef.screenSpotFunctionList[n];
-      sInfo += "\t\t";
+    var iScreenSpots = ppdInfoRef.screenSpotFunctionList.length;
+    if (iScreenSpots > 0) {
+        for (var n = 0; n < iScreenSpots; n++) {
+        var screenSpotRef = ppdInfoRef.screenSpotFunctionList[n];
+        sInfo += "\t\t";
 
-      sInfo += screenSpotRef.name;
-      sInfo += ", spotFunction: ";
+        sInfo += screenSpotRef.name;
+        sInfo += ", spotFunction: ";
 
-      sInfo += screenSpotRef.spotFunction;
-      sInfo += "\r";
+        sInfo += screenSpotRef.spotFunction;
+        sInfo += "\r";
+        }
+    } else {
+        sInfo += "\t\tEmpty ScreenSpotFunctionList";
     }
-  } else {
-    sInfo += "\t\tEmpty ScreenSpotFunctionList";
-  }
 }
 
 var textRef = docRef.textFrames.add();

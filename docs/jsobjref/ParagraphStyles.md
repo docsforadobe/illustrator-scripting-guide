@@ -167,7 +167,7 @@ paraAttr.firstLineIndent = 10;
 // apply the style to each item in the document
 var iCount = textRef.paragraphs.length;
 for (var i = 0; i < iCount; i++) {
-  paraStyle.applyTo(textRef.paragraphs[i], true);
+    paraStyle.applyTo(textRef.paragraphs[i], true);
 }
 redraw();
 ```

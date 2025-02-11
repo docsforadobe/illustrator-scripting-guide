@@ -143,11 +143,11 @@ Nothing.
 // including whitespace, and stores in numChars
 
 if (app.documents.length > 0) {
-  var doc = app.activeDocument;
-  var numChars = 0;
-  for (var i = 0; i < doc.textFrames.length; i++) {
-    var textArtRange = doc.textFrames[i].contents;
-    numChars += textArtRange.length;
-  }
+    var doc = app.activeDocument;
+    var numChars = 0;
+    for (var i = 0; i < doc.textFrames.length; i++) {
+        var textArtRange = doc.textFrames[i].contents;
+        numChars += textArtRange.length;
+    }
 }
 ```

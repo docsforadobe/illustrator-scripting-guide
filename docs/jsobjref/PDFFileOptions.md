@@ -86,6 +86,6 @@ pdfOptions.pageToOpen = 2;
 var fileRef = filePath;
 
 if (fileRef != null) {
-  var docRef = open(fileRef, DocumentColorSpace.RGB);
+    var docRef = open(fileRef, DocumentColorSpace.RGB);
 }
 ```

@@ -120,19 +120,19 @@ printOpts.paperOptions = paperOpts;
 var printerCount = printerList.length;
 if (printerCount > 0) {
 
-  // Print with the 1st paper from the 1st printer
-  for (var i = 0; i < printerList.length; i++) {
+    // Print with the 1st paper from the 1st printer
+    for (var i = 0; i < printerList.length; i++) {
 
-    if (printerList[i].printerInfo.paperSizes.length > 0) {
-      var printerRef = printerList[i];
-    }
+        if (printerList[i].printerInfo.paperSizes.length > 0) {
+            var printerRef = printerList[i];
+        }
 
-    var paperRef = printerRef.printerInfo.paperSizes[0];
-    if (printerRef.printerInfo.paperSizes.length > 0){
-      paperOpts.name = paperRef.name;
-      printOpts.printerName = printerRef.name;
-      docRef.print(printOpts);
+        var paperRef = printerRef.printerInfo.paperSizes[0];
+        if (printerRef.printerInfo.paperSizes.length > 0){
+            paperOpts.name = paperRef.name;
+            printOpts.printerName = printerRef.name;
+            docRef.print(printOpts);
+        }
     }
-  }
 }
 ```

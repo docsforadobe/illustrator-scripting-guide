@@ -24,7 +24,7 @@ Set appRef = CreateObject("Illustrator.Application")
 Set myDoc = appRef.Documents.Add
 Set myPathItem1 = myDoc.PathItems.Rectangle(244, 64, 82, 76)
 Set myTextFrame1 = myDoc.TextFrames.AreaText(myPathItem1)
-  myTextFrame1.Contents = "This is two text frames linked together as one story, with text flowing from the first to the last."
+    myTextFrame1.Contents = "This is two text frames linked together as one story, with text flowing from the first to the last."
 Set myPathItem2 = myDoc.PathItems.Rectangle(144, 144, 42, 116)
 Set myTextFrame2 = myDoc.TextFrames.AreaText(myPathItem2)
 

@@ -6,15 +6,15 @@ these steps:
 For information on locating the ExtendScript Toolkit, see [Viewing the JavaScript object model](../introduction/viewingTheObjectModel.md#introduction-viewingtheobjectmodel-javascript).
 
 1. Using any text editor (including Adobe^ InDesign® or the ESTK), enter the following text:
-   ```default
-   //Hello World!
-   var myDocument = app.documents.add();
-   //Create a new text frame and assign it to the variable "myTextFrame"
-   var myTextFrame = myDocument.textFrames.add();
-   // Set the contents and position of the text frame
-   myTextFrame.position = [200,200];
-   myTextFrame.contents = "Hello World!"
-   ```
+    ```default
+    //Hello World!
+    var myDocument = app.documents.add();
+    //Create a new text frame and assign it to the variable "myTextFrame"
+    var myTextFrame = myDocument.textFrames.add();
+    // Set the contents and position of the text frame
+    myTextFrame.position = [200,200];
+    myTextFrame.contents = "Hello World!"
+    ```
 2. To test the script, do either of the following:
 
 > - If you are using the ESTK, select Adobe lllustrator CC 2017 from the drop-down list in the upper-left corner, select Yes to start Illustrator, then choose Debug > Run in the ESTK to run the script.
@@ -36,10 +36,10 @@ Follow these steps:
 
 1. In Script Editor, choose File > New to create a new script.
 2. Enter the following code:
-   ```default
-   var docRef = app.activeDocument;
-   var docWidth = docRef.width
-   var frameRef = docRef.textFrames[0]
-   frameRef.width = docWidth
-   ```
+    ```default
+    var docRef = app.activeDocument;
+    var docWidth = docRef.width
+    var frameRef = docRef.textFrames[0]
+    frameRef.width = docWidth
+    ```
 3. Run the script.

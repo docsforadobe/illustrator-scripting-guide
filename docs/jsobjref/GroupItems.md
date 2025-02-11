@@ -156,10 +156,10 @@ The following script shows how you can import a PDF document using the [GroupIte
 // dest should contain the full path and file name
 
 function embedPDF(dest) {
-  var embedDoc = new File(dest);
-  if (app.documents.length > 0 && embedDoc.exists) {
-    var doc = app.activeDocument;
-    var placed = doc.groupItems.createFromFile(embedDoc);
-  }
+    var embedDoc = new File(dest);
+    if (app.documents.length > 0 && embedDoc.exists) {
+        var doc = app.activeDocument;
+        var placed = doc.groupItems.createFromFile(embedDoc);
+    }
 }
 ```

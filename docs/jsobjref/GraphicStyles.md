@@ -117,6 +117,6 @@ Nothing.
 // and stores result in numberOfStyles
 
 if (app.documents.length > 0) {
-  var numberOfStyles = app.activeDocument.graphicStyles.length;
+    var numberOfStyles = app.activeDocument.graphicStyles.length;
 }
 ```

@@ -450,7 +450,8 @@ Converts the legacy text item to a text frame and deletes the original legacy te
 
 ### LegacyTextItem.duplicate()
 
-`legacyTextItems[index].duplicate([relativeObject] [,insertionLocation])`
+`legacyTextItems[index].duplicate([relativeObject]
+[,insertionLocation])`
 
 **Description**
 
@@ -507,9 +508,15 @@ Nothing.
 ### LegacyTextItem.resize()
 
 ```default
-legacyTextItem.resize(scaleX, scaleY
-  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-  [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
+legacyTextItem.resize(
+    scaleX,
+    scaleY
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,changeLineWidths]
+    [,scaleAbout]
 )
 ```
 
@@ -539,8 +546,13 @@ Nothing.
 ### LegacyTextItem.rotate()
 
 ```default
-legacyTextItem.rotate(angle [,changePositions] [,changeFillPatterns]
-  [,changeFillGradients] [,changeStrokePattern] [,rotateAbout]
+legacyTextItem.rotate(
+    angle
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,rotateAbout]
 )
 ```
 
@@ -568,9 +580,14 @@ Nothing.
 ### LegacyTextItem.transform()
 
 ```default
-legacyTextItem.transform(transformationMatrix
-  [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-  [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
+legacyTextItem.transform(
+    transformationMatrix
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,changeLineWidths]
+    [,transformAbout]
 )
 ```
 
@@ -599,9 +616,13 @@ Nothing.
 ### LegacyTextItem.translate()
 
 ```default
-legacyTextItem.translate([deltaX] [,deltaY]
-  [,transformObjects] [,transformFillPatterns]
-  [,transformFillGradients] [,transformStrokePatterns]
+legacyTextItem.translate(
+    [deltaX]
+    [,deltaY]
+    [,transformObjects]
+    [,transformFillPatterns]
+    [,transformFillGradients]
+    [,transformStrokePatterns]
 )
 ```
 

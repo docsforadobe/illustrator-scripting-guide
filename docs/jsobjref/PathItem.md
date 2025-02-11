@@ -958,17 +958,17 @@ Nothing.
 ```default
 // Sets the stroke and fill of a path item to colors of a randomly selected swatch
 if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {
-  var doc = app.activeDocument;
+    var doc = app.activeDocument;
 
-  for (var i = 0; i < doc.pathItems.length; i++) {
-    var pathRef = doc.pathItems[i];
-    pathRef.filled = true;
-    pathRef.stroked = true;
+    for (var i = 0; i < doc.pathItems.length; i++) {
+        var pathRef = doc.pathItems[i];
+        pathRef.filled = true;
+        pathRef.stroked = true;
 
-    var swatchIndex = Math.round(Math.random() * (doc.swatches.length - 1));
-    pathRef.fillColor = doc.swatches[swatchIndex].color;
-    pathRef.strokeColor = doc.swatches[swatchIndex].color;
-  }
+        var swatchIndex = Math.round(Math.random() * (doc.swatches.length - 1));
+        pathRef.fillColor = doc.swatches[swatchIndex].color;
+        pathRef.strokeColor = doc.swatches[swatchIndex].color;
+    }
 }
 ```
 
@@ -980,14 +980,14 @@ if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {
 // This script illustrates the use of the setEntirePath method.
 // Creates a new open path consisting of 10 straight lines
 if (app.documents.length > 0) {
-  var lineList = [];
+    var lineList = [];
 
-  for (i = 0; i < lineList.length; i++) {
-    lineList.push([i * 10 + 50, ((i - 5) ^ 2) * 5 + 50];
-  }
+    for (i = 0; i < lineList.length; i++) {
+        lineList.push([i * 10 + 50, ((i - 5) ^ 2) * 5 + 50];
+    }
 
-  app.defaultStroked = true;
-  newPath = app.activeDocument.pathItems.add();
-  newPath.setEntirePath(lineList);
+    app.defaultStroked = true;
+    newPath = app.activeDocument.pathItems.add();
+    newPath.setEntirePath(lineList);
 }
 ```

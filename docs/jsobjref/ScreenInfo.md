@@ -76,33 +76,33 @@ String; read-only.
 var sInfo = "";
 var docRef = documents.add();
 if (PPDFileList.length == 0) {
-  sInfo = "\r\t\tEmpty PPDFileList";
+    sInfo = "\r\t\tEmpty PPDFileList";
 } else {
-  var ppdRef = PPDFileList[0];
-  var ppdInfoRef = ppdRef.PPDInfo;
-  sInfo += "\r\t\tScreen Objects for 1st PPD File:\r";
-  sInfo += "\t\t" + ppdRef.name;
+    var ppdRef = PPDFileList[0];
+    var ppdInfoRef = ppdRef.PPDInfo;
+    sInfo += "\r\t\tScreen Objects for 1st PPD File:\r";
+    sInfo += "\t\t" + ppdRef.name;
 
-  var iScreens = ppdInfoRef.screenList.length;
-  if (iScreens > 0) {
-    for (var c = 0; c < iScreens; c++) {
+    var iScreens = ppdInfoRef.screenList.length;
+    if (iScreens > 0) {
+        for (var c = 0; c < iScreens; c++) {
 
-      var screenRef = ppdInfoRef.screenList[c];
-      sInfo += "\r\t\t";
-      sInfo += screenRef.name;
+        var screenRef = ppdInfoRef.screenList[c];
+        sInfo += "\r\t\t";
+        sInfo += screenRef.name;
 
-      var screenInfoRef = screenRef.screenInfo;
+        var screenInfoRef = screenRef.screenInfo;
 
-      sInfo += ", Angle = ";
-      sInfo += screenInfoRef.angle;
+        sInfo += ", Angle = ";
+        sInfo += screenInfoRef.angle;
 
-      sInfo += ", Frequency = ";
-      sInfo += screenInfoRef.frequency;
-      sInfo += "\r";
+        sInfo += ", Frequency = ";
+        sInfo += screenInfoRef.frequency;
+        sInfo += "\r";
+        }
+    } else {
+        sInfo += "\r\t\tEmpty ScreenList";
     }
-  } else {
-    sInfo += "\r\t\tEmpty ScreenList";
-  }
 }
 
 var textRef = docRef.textFrames.add();

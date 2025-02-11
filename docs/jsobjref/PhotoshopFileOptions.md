@@ -114,6 +114,6 @@ psdOptions.pixelAspectRatioCorrection = false;
 // open a file using these prefs
 var fileRef = File(psdFilePath);
 if (fileRef != null) {
-  var docRef = open(fileRef, DocumentColorSpace.RGB);
+    var docRef = open(fileRef, DocumentColorSpace.RGB);
 }
 ```

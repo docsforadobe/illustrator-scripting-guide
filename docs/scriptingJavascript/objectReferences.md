@@ -41,15 +41,14 @@ As a rule, JavaScript index numbers do not shift when you add an object to a col
 To access the first style in a `graphic styles` collection, you can use the variable declared in the previous script sample, or you can use the containment hierarchy to refer to the collection:
 
 - Using the myStyles variable
-
-```default
-var firstStyle = myStyles[0];
-```
+    ```default
+    var firstStyle = myStyles[0];
+    ```
 
 - Using the containment hierarchy:
-  ```default
-  var firstStyle = app.activeDocument.graphicStyles[0];
-  ```
+    ```default
+    var firstStyle = app.activeDocument.graphicStyles[0];
+    ```
 
 The following statements assign the name of the first graphic style in the collection to a variable. You can use these statements interchangeably.
 

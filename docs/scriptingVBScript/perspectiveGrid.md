@@ -110,7 +110,7 @@ docRef.ShowPerspectiveGrid()
 
 Rem Check if active plane is set to left, otherwise set it to left
 If docRef.GetPerspectiveActivePlane() <> 1 Then
-  docRef.SetPerspectiveActivePlane(1) 'aiLEFTPLANE
+    docRef.SetPerspectiveActivePlane(1) 'aiLEFTPLANE
 End If
 
 Rem Draw rectangle in perspective, then resize to 200% and move
@@ -167,7 +167,7 @@ docRef.ShowPerspectiveGrid()
 
 Rem Check if active plane is set to left, otherwise set it to left
 If docRef.GetPerspectiveActivePlane() <> 1 Then
-  docRef.SetPerspectiveActivePlane(1) 'aiLEFTPLANE
+    docRef.SetPerspectiveActivePlane(1) 'aiLEFTPLANE
 End If
 
 Rem Bring the ellipse to the active plane (left plane)

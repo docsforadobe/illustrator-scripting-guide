@@ -23,11 +23,8 @@ Scripting also can enhance your creativity, by quickly performing tasks you migh
 Both actions and scripts are ways of automating repetitive tasks, but they work very differently:
 
 - Actions use a program's user interface to do their work. As an action runs, menu choices are executed, objects are selected, and recorded paths are created.
-
-  Scripts do not use a program's user interface to perform tasks, and scripts can execute faster than actions.
+    - Scripts do not use a program's user interface to perform tasks, and scripts can execute faster than actions.
 - Actions have very limited facilities for getting and responding to information.
-
-  You cannot add conditional logic to an action; therefore, actions cannot make decisions based on the current situation, like changing the stroke type of rectangles but not ellipses.
-
-  Scripts can get information and make decisions and calculations based on the information they receive from Illustrator.
+    - You cannot add conditional logic to an action; therefore, actions cannot make decisions based on the current situation, like changing the stroke type of rectangles but not ellipses.
+    - Scripts can get information and make decisions and calculations based on the information they receive from Illustrator.
 - A script can execute an action, but actions cannot execute scripts.

@@ -72,6 +72,6 @@ If a script in the general startup folder is meant to be executed only by Illust
 
 ```default
 if (BridgeTalk.appName == "illustrator") {
-  // continue executing script
+    // continue executing script
 }
 ```
