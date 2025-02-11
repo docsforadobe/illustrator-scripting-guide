@@ -12,8 +12,6 @@ To request a list of printers, you must first have a document open or an error i
 
 ## Properties
 
-<!-- jsobjref/Printer.name: -->
-
 ### Printer.name
 
 `app.printerList[index].name`
@@ -27,7 +25,6 @@ The printer name.
 String
 
 ---
-<!-- jsobjref/Printer.printerInfo: -->
 
 ### Printer.printerInfo
 
@@ -42,7 +39,6 @@ The printer information.
 [PrinterInfo](PrinterInfo.md#jsobjref-printerinfo)
 
 ---
-<!-- jsobjref/Printer.typename: -->
 
 ### Printer.typename
 
