@@ -42,7 +42,7 @@ For details of how to use Adobe Extension Builder and the wrapper libraries, see
 
 ### Scripting plug-ins
 
-The CC JavaScript scripting interface allows for limited scripting for plug-ins. A plug-in can define a command, with an event and notifier, and a handler that performs some action. A JavaScript script can then use the `app.sendScriptMessage()` method to send parameters to that plug-in-defined command, and receive a plug-in-defined response.
+The CC JavaScript scripting interface allows for limited scripting for plug-ins. A plug-in can define a command, with an event and notifier, and a handler that performs some action. A JavaScript script can then use the [`app.sendScriptMessage()`](../jsobjref/Application.md#applicationsendscriptmessage) method to send parameters to that plug-in-defined command, and receive a plug-in-defined response.
 
 For example, the Adobe Custom Workspace plug-in defines a command "Switch Workspace". A script can invoke this command with the following code
 

@@ -14,7 +14,6 @@ nav:
         - What is Scripting?: introduction/whatIsScripting.md
         - Changelog: introduction/changelog.md
         - Scripting language support in Adobe Illustrator CC: introduction/scriptingLanguageSupport.md
-        - Viewing Sample Scripts: introduction/viewingSampleScripts.md
         - Viewing the object model: introduction/viewingTheObjectModel.md
         - Executing Scripts: introduction/executingScripts.md
     - Illustrator Scripting Object Model:
