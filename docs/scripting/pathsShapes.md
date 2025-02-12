@@ -7,6 +7,6 @@ A freeform path consists of a series of path points. A path point can be specifi
 - As an array of x and y page coordinates.
 - As a `path point` object, which defines an anchor point and two direction points or handles that define the path segment's curve:
 
-![Path Point Object](_static/pathPointObject.jpg)
+![Path Point Object](../_static/pathPointObject.jpg)
 
 For details, samples, and information on creating shapes, see the chapter for your scripting language.
