@@ -2,7 +2,7 @@
 
 `app.activeDocument.pluginItems`
 
-**Description**
+#### Description
 
 A collection of [PluginItem](./PluginItem.md) objects in a document.
 
@@ -16,11 +16,11 @@ See [Copying a plug-in item](PluginItem.md#jsobjref-pluginitem-copying-a-plugin-
 
 `app.activeDocument.pluginItems.length`
 
-**Description**
+#### Description
 
 Number of elements in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -30,11 +30,11 @@ Number, read-only.
 
 `app.activeDocument.pluginItems.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -44,11 +44,11 @@ Object, read-only.
 
 `app.activeDocument.pluginItems.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -60,17 +60,17 @@ String, read-only.
 
 `app.activeDocument.pluginItems.getByName(name)`
 
-**Description**
+#### Description
 
 Get the first element in the collection with the provided name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [PluginItem](./PluginItem.md)
 
@@ -80,17 +80,17 @@ Get the first element in the collection with the provided name.
 
 `app.activeDocument.pluginItems.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [PluginItem](./PluginItem.md)
 
@@ -100,10 +100,10 @@ Gets an element from the collection.
 
 `app.activeDocument.pluginItems.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in the collection.
 
-**Returns**
+#### Returns
 
 Nothing.

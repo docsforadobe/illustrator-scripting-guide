@@ -2,7 +2,7 @@
 
 `app.preferences.PDFFileOptions`
 
-**Description**
+#### Description
 
 Options for opening a PDF file, used with the [Application.open()](Application.md#jsobjref-application-open) method.
 
@@ -16,13 +16,13 @@ All properties are optional.
 
 `app.preferences.PDFFileOptions.pageToOpen`
 
-**Description**
+#### Description
 
 What page should be used when opening a multipage document.
 
 Default: 1
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -32,11 +32,11 @@ Number (long)
 
 `app.preferences.PDFFileOptions.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -46,13 +46,13 @@ Object; read-only.
 
 `app.preferences.PDFFileOptions.pDFCropToBox`
 
-**Description**
+#### Description
 
 Which box should be used when placing a multipage document.
 
 Default: `PDFBoxType.PDFMediaBox`
 
-**Type**
+#### Type
 
 [PDFBoxType](scripting-constants.md#jsobjref-scripting-constants-pdfboxtype)
 
@@ -62,11 +62,11 @@ Default: `PDFBoxType.PDFMediaBox`
 
 `app.preferences.PDFFileOptions.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String; read-only.
 

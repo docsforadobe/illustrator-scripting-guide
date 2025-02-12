@@ -2,7 +2,7 @@
 
 `exportOptionsPNG8`
 
-**Description**
+#### Description
 
 Options for exporting a document as an 8-bit PNG file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method. All properties are optional.
 
@@ -16,11 +16,11 @@ When you export a document, the appropriate file extension is appended automatic
 
 `exportOptionsPNG8.antiAliasing`
 
-**Description**
+#### Description
 
 If `true`, the exported image should be anti-aliased. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -30,11 +30,11 @@ Boolean.
 
 `exportOptionsPNG8.artBoardClipping`
 
-**Description**
+#### Description
 
 If `true`, the exported image should be clipped to the art board. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -44,11 +44,11 @@ Boolean.
 
 `exportOptionsPNG8.colorCount`
 
-**Description**
+#### Description
 
 The number of colors in the exported image's color table. Range: 2 to 256. Default: 128.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -58,11 +58,11 @@ Number (long).
 
 `exportOptionsPNG8.colorDither`
 
-**Description**
+#### Description
 
 The method used to dither colors in the exported image. Default: `ColorDitherMethod.Diffusion`.
 
-**Type**
+#### Type
 
 [ColorDitherMethod](scripting-constants.md#jsobjref-scripting-constants-colordithermethod)
 
@@ -72,11 +72,11 @@ The method used to dither colors in the exported image. Default: `ColorDitherMet
 
 `exportOptionsPNG8.colorReduction`
 
-**Description**
+#### Description
 
 The method used to reduce the number of colors in the exported image. Default: `ColorReductionMethod.SELECTIVE`.
 
-**Type**
+#### Type
 
 [ColorReductionMethod](scripting-constants.md#jsobjref-scripting-constants-colorreductionmethod)
 
@@ -86,11 +86,11 @@ The method used to reduce the number of colors in the exported image. Default: `
 
 `exportOptionsPNG8.ditherPercent`
 
-**Description**
+#### Description
 
 The amount (as a percentage) that the colors of the exported image are dithered, where 100.0 is 100%. Range: 0 to 100. Default: 88.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -100,11 +100,11 @@ Number (long).
 
 `exportOptionsPNG8.horizontalScale`
 
-**Description**
+#### Description
 
 The horizontal scaling factor to apply to the exported image, where 100.0 is 100%. Default: 100.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -114,11 +114,11 @@ Number (double).
 
 `exportOptionsPNG8.interlaced`
 
-**Description**
+#### Description
 
 If `true`, the exported image should be interlaced. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -128,11 +128,11 @@ Boolean.
 
 `exportOptionsPNG8.matte`
 
-**Description**
+#### Description
 
 If `true`, the art board should be matted with a color. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -142,11 +142,11 @@ Boolean.
 
 `exportOptionsPNG8.matteColor`
 
-**Description**
+#### Description
 
 The color to use when matting the art board. Default: `white`.
 
-**Type**
+#### Type
 
 [RGBColor](./RGBColor.md)
 
@@ -156,11 +156,11 @@ The color to use when matting the art board. Default: `white`.
 
 `exportOptionsPNG8.saveAsHTML`
 
-**Description**
+#### Description
 
 If `true`, the exported image be saved with an accompanying HTML file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -170,11 +170,11 @@ Boolean.
 
 `exportOptionsPNG8.transparency`
 
-**Description**
+#### Description
 
 If `true`, the exported image use transparency. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -184,11 +184,11 @@ Boolean.
 
 `exportOptionsPNG8.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -198,11 +198,11 @@ String, read-only.
 
 `exportOptionsPNG8.verticalScale`
 
-**Description**
+#### Description
 
 The vertical scaling factor to apply to the exported image, where 100.0 is 100. Default: 100.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -212,11 +212,11 @@ Number (double).
 
 `exportOptionsPNG8.webSnap`
 
-**Description**
+#### Description
 
 Specifies how much the color table should be changed to match the web palette, where 100 is maximum. Default: 0.
 
-**Type**
+#### Type
 
 Number (long).
 

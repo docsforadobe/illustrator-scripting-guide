@@ -2,7 +2,7 @@
 
 `app.activeDocument.symbolItems`
 
-**Description**
+#### Description
 
 The collection of [SymbolItem](./SymbolItem.md) objects in the document.
 
@@ -14,11 +14,11 @@ The collection of [SymbolItem](./SymbolItem.md) objects in the document.
 
 `app.activeDocument.symbolItems.length`
 
-**Description**
+#### Description
 
 Number of elements in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `app.activeDocument.symbolItems.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `app.activeDocument.symbolItems.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,17 +58,17 @@ String, read-only.
 
 `app.activeDocument.symbolItems.add(symbol)`
 
-**Description**
+#### Description
 
 Creates an instance of the specified symbol.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                | Description        |
 |-------------|-------------------------------------|--------------------|
 | `symbol`    | [Symbol](./Symbol.md) | Symbol to instance |
 
-**Returns**
+#### Returns
 
 [SymbolItem](./SymbolItem.md)
 
@@ -78,17 +78,17 @@ Creates an instance of the specified symbol.
 
 `app.activeDocument.symbolItems.getByName(name)`
 
-**Description**
+#### Description
 
 Get the first element in the collection with the provided name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [SymbolItem](./SymbolItem.md)
 
@@ -98,17 +98,17 @@ Get the first element in the collection with the provided name.
 
 `app.activeDocument.symbolItems.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [SymbolItem](./SymbolItem.md)
 
@@ -118,11 +118,11 @@ Gets an element from the collection.
 
 `app.activeDocument.symbolItems.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in the collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

@@ -2,7 +2,7 @@
 
 `app.activeDocument.textFrames[index]`
 
-**Description**
+#### Description
 
 The basic art item for displaying text. From the user interface, this is text created with the Text tool. There are three types of text art in Illustrator: point text, path text, and area text. The type is indicated by the text frame's [kind](#textframeitem-kind) property.
 
@@ -16,11 +16,11 @@ When you create a text frame, you also create a [Story](./Story.md) object. Howe
 
 `app.activeDocument.textFrames[index].anchor`
 
-**Description**
+#### Description
 
 The position of the anchor point, the start of the base line for point text.
 
-**Type**
+#### Type
 
 Array of 2 numbers
 
@@ -30,11 +30,11 @@ Array of 2 numbers
 
 `app.activeDocument.textFrames[index].antialias`
 
-**Description**
+#### Description
 
 The type of anti-aliasing to use in the text.
 
-**Type**
+#### Type
 
 [TextAntialias](scripting-constants.md#jsobjref-scripting-constants-textantialias)
 
@@ -44,11 +44,11 @@ The type of anti-aliasing to use in the text.
 
 `app.activeDocument.textFrames[index].characters`
 
-**Description**
+#### Description
 
 All the characters in this text frame.
 
-**Type**
+#### Type
 
 [Characters](./Characters.md), read-only.
 
@@ -58,11 +58,11 @@ All the characters in this text frame.
 
 `app.activeDocument.textFrames[index].columnCount`
 
-**Description**
+#### Description
 
 The column count in the text frame (area text only).
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -72,11 +72,11 @@ Number (long)
 
 `app.activeDocument.textFrames[index].columnGutter`
 
-**Description**
+#### Description
 
 The column gutter in the text frame (area text only).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -86,11 +86,11 @@ Number (double)
 
 `app.activeDocument.textFrames[index].contents`
 
-**Description**
+#### Description
 
 The text string.
 
-**Type**
+#### Type
 
 String
 
@@ -100,11 +100,11 @@ String
 
 `app.activeDocument.textFrames[index].contentVariable`
 
-**Description**
+#### Description
 
 The content variable bound to this text frame item.
 
-**Type**
+#### Type
 
 [Variable](./Variable.md)
 
@@ -114,11 +114,11 @@ The content variable bound to this text frame item.
 
 `app.activeDocument.textFrames[index].endTValue`
 
-**Description**
+#### Description
 
 The end position of text along a path, as a value relative to the path's segments (path text only).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -128,11 +128,11 @@ Number (double)
 
 `app.activeDocument.textFrames[index].flowLinksHorizontally`
 
-**Description**
+#### Description
 
 If `true`, flow text between linked frames horizontally first (area text only).
 
-**Type**
+#### Type
 
 Boolean
 
@@ -142,11 +142,11 @@ Boolean
 
 `app.activeDocument.textFrames[index].insertionPoints`
 
-**Description**
+#### Description
 
 All the insertion points in this text range.
 
-**Type**
+#### Type
 
 [InsertionPoints](./InsertionPoints.md), read-only.
 
@@ -156,11 +156,11 @@ All the insertion points in this text range.
 
 `app.activeDocument.textFrames[index].kind`
 
-**Description**
+#### Description
 
 The type of a text frame item (area, path or point).
 
-**Type**
+#### Type
 
 [TextType](scripting-constants.md#jsobjref-scripting-constants-texttype), read-only.
 
@@ -170,11 +170,11 @@ The type of a text frame item (area, path or point).
 
 `app.activeDocument.textFrames[index].lines`
 
-**Description**
+#### Description
 
 All the lines in this text frame.
 
-**Type**
+#### Type
 
 [Lines](./Lines.md), read-only.
 
@@ -184,11 +184,11 @@ All the lines in this text frame.
 
 `app.activeDocument.textFrames[index].matrix`
 
-**Description**
+#### Description
 
 The transformation matrix for this text frame.
 
-**Type**
+#### Type
 
 [Matrix](./Matrix.md), read-only.
 
@@ -198,11 +198,11 @@ The transformation matrix for this text frame.
 
 `app.activeDocument.textFrames[index].nextFrame`
 
-**Description**
+#### Description
 
 The linked text frame following this one.
 
-**Type**
+#### Type
 
 [TextFrameItem](#jsobjref-textframeitem)
 
@@ -212,11 +212,11 @@ The linked text frame following this one.
 
 `app.activeDocument.textFrames[index].opticalAlignment`
 
-**Description**
+#### Description
 
 If `true`, the optical alignment feature is active.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -226,11 +226,11 @@ Boolean
 
 `app.activeDocument.textFrames[index].orientation`
 
-**Description**
+#### Description
 
 The orientation of the text.
 
-**Type**
+#### Type
 
 [TextOrientation](scripting-constants.md#jsobjref-scripting-constants-textorientation)
 
@@ -240,11 +240,11 @@ The orientation of the text.
 
 `app.activeDocument.textFrames[index].paragraphs`
 
-**Description**
+#### Description
 
 All the paragraphs in this text frame.
 
-**Type**
+#### Type
 
 [Paragraphs](./Paragraphs.md), read-only.
 
@@ -254,11 +254,11 @@ All the paragraphs in this text frame.
 
 `app.activeDocument.textFrames[index].parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md) or [GroupItem](./GroupItem.md), read-only.
 
@@ -268,11 +268,11 @@ The parent of this object.
 
 `app.activeDocument.textFrames[index].previousFrame`
 
-**Description**
+#### Description
 
 The linked text frame preceding this one.
 
-**Type**
+#### Type
 
 [TextFrameItem](#jsobjref-textframeitem)
 
@@ -282,11 +282,11 @@ The linked text frame preceding this one.
 
 `app.activeDocument.textFrames[index].rowCount`
 
-**Description**
+#### Description
 
 The row count in the text frame (area text only).
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -296,11 +296,11 @@ Number (long)
 
 `app.activeDocument.textFrames[index].rowGutter`
 
-**Description**
+#### Description
 
 The row gutter in the text frame (area text only).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -310,11 +310,11 @@ Number (double)
 
 `app.activeDocument.textFrames[index].spacing`
 
-**Description**
+#### Description
 
 The amount of spacing.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -324,11 +324,11 @@ Number (double)
 
 `app.activeDocument.textFrames[index].startTValue`
 
-**Description**
+#### Description
 
 The start position of text along a path, as a value relative to the path's segments (path text only).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -338,11 +338,11 @@ Number (double)
 
 `app.activeDocument.textFrames[index].story`
 
-**Description**
+#### Description
 
 The story to which the text frame belongs.
 
-**Type**
+#### Type
 
 [Story](./Story.md), read-only.
 
@@ -352,11 +352,11 @@ The story to which the text frame belongs.
 
 `app.activeDocument.textFrames[index].textPath`
 
-**Description**
+#### Description
 
 The path item associated with the text frame. Note: Valid only when [kind](#textframeitem-kind) is area or path.
 
-**Type**
+#### Type
 
 [TextPath](./TextPath.md)
 
@@ -366,11 +366,11 @@ The path item associated with the text frame. Note: Valid only when [kind](#text
 
 `app.activeDocument.textFrames[index].textRange`
 
-**Description**
+#### Description
 
 The text range of the text frame.
 
-**Type**
+#### Type
 
 [TextRange](./TextRange.md), read-only.
 
@@ -380,11 +380,11 @@ The text range of the text frame.
 
 `app.activeDocument.textFrames[index].textRanges`
 
-**Description**
+#### Description
 
 All the text in this text frame.
 
-**Type**
+#### Type
 
 [TextRanges](./TextRanges.md), read-only.
 
@@ -394,11 +394,11 @@ All the text in this text frame.
 
 `app.activeDocument.textFrames[index].textSelection`
 
-**Description**
+#### Description
 
 The selected text range(s) in the text frame.
 
-**Type**
+#### Type
 
 Array of [TextRange](./TextRange.md), read-only.
 
@@ -408,11 +408,11 @@ Array of [TextRange](./TextRange.md), read-only.
 
 `app.activeDocument.textFrames[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -422,11 +422,11 @@ String, read-only.
 
 `app.activeDocument.textFrames[index].words`
 
-**Description**
+#### Description
 
 All the words in this text frame.
 
-**Type**
+#### Type
 
 [Words](./Words.md), read-only.
 
@@ -438,11 +438,11 @@ All the words in this text frame.
 
 `app.activeDocument.textFrames[index].convertAreaObjectToPointObject()`
 
-**Description**
+#### Description
 
 Converts the area-type text frame to a point-type text frame.
 
-**Returns**
+#### Returns
 
 [TextFrameItem](#jsobjref-textframeitem)
 
@@ -452,11 +452,11 @@ Converts the area-type text frame to a point-type text frame.
 
 `app.activeDocument.textFrames[index].convertPointObjectToAreaObject()`
 
-**Description**
+#### Description
 
 Converts the point-type text frame to an area-type text frame.
 
-**Returns**
+#### Returns
 
 [TextFrameItem](#jsobjref-textframeitem)
 
@@ -466,11 +466,11 @@ Converts the point-type text frame to an area-type text frame.
 
 `app.activeDocument.textFrames[index].createOutline()`
 
-**Description**
+#### Description
 
 Converts the text in the text frame to outlines.
 
-**Returns**
+#### Returns
 
 [GroupItem](./GroupItem.md)
 
@@ -480,18 +480,18 @@ Converts the text in the text frame to outlines.
 
 `app.activeDocument.textFrames[index].duplicate([relativeObject] [,insertionLocation])`
 
-**Description**
+#### Description
 
 Creates a duplicate of the selected object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                |
 |---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
 | `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
-**Returns**
+#### Returns
 
 [TextRange](./TextRange.md)
 
@@ -501,18 +501,18 @@ Creates a duplicate of the selected object.
 
 `app.activeDocument.textFrames[index].move(relativeObject, insertionLocation)`
 
-**Description**
+#### Description
 
 Moves the object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                   |
 |---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
 | `relativeObject`    | Object                                                                                             | Object to move element within |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
-**Returns**
+#### Returns
 
 [TextRange](./TextRange.md)
 
@@ -522,11 +522,11 @@ Moves the object.
 
 `app.activeDocument.textFrames[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -536,11 +536,11 @@ Nothing.
 
 `app.activeDocument.textFrames[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])`
 
-**Description**
+#### Description
 
 Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -553,7 +553,7 @@ Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY`
 | `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
 | `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -563,11 +563,11 @@ Nothing.
 
 `app.activeDocument.textFrames[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])`
 
-**Description**
+#### Description
 
 Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -578,7 +578,7 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 | `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
 | `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -588,11 +588,11 @@ Nothing.
 
 `app.activeDocument.textFrames[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])`
 
-**Description**
+#### Description
 
 Transforms the art item by applying a transformation matrix.
 
-**Parameters**
+#### Parameters
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
@@ -604,7 +604,7 @@ Transforms the art item by applying a transformation matrix.
 | `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
 | `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -614,11 +614,11 @@ Nothing.
 
 `app.activeDocument.textFrames[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])`
 
-**Description**
+#### Description
 
 Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
-**Parameters**
+#### Parameters
 
 | Parameter                 | Type                      | Description                          |
 |---------------------------|---------------------------|--------------------------------------|
@@ -629,7 +629,7 @@ Repositions the art item relative to the current position, where `deltaX` is the
 | `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
 | `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -639,17 +639,17 @@ Nothing.
 
 `app.activeDocument.textFrames[index].zOrder(zOrderCmd)`
 
-**Description**
+#### Description
 
 Arranges the art item's position in the stacking order of the group or layer (parent) of this object.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                                                             | Description                       |
 |-------------|----------------------------------------------------------------------------------|-----------------------------------|
 | `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
-**Returns**
+#### Returns
 
 Nothing.
 

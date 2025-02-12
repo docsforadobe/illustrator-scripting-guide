@@ -2,7 +2,7 @@
 
 `app.activeDocument.pathItems`
 
-**Description**
+#### Description
 
 A collection of [PathItem](./PathItem.md) objects.
 
@@ -18,11 +18,11 @@ If you do not provide any parameters when calling these methods, default values 
 
 `app.activeDocument.pathItems.length`
 
-**Description**
+#### Description
 
 Number of elements in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -32,11 +32,11 @@ Number, read-only.
 
 `app.activeDocument.pathItems.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -46,11 +46,11 @@ Object, read-only.
 
 `app.activeDocument.pathItems.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -62,11 +62,11 @@ String, read-only.
 
 `app.activeDocument.pathItems.add()`
 
-**Description**
+#### Description
 
 Creates a new object.
 
-**Returns**
+#### Returns
 
 [PathItem](./PathItem.md)
 
@@ -76,7 +76,7 @@ Creates a new object.
 
 `app.activeDocument.pathItems.ellipse([top][, left][, width][, height][, reversed][, inscribed])`
 
-**Description**
+#### Description
 
 Creates a new pathItem in the shape of an ellipse using the supplied parameters.
 
@@ -90,7 +90,7 @@ Creates a new pathItem in the shape of an ellipse using the supplied parameters.
 | `height`    | 100 pt. |
 | `reversed`  | false   |
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                      | Description               |
 |-------------|---------------------------|---------------------------|
@@ -101,7 +101,7 @@ Creates a new pathItem in the shape of an ellipse using the supplied parameters.
 | `reversed`  | Boolean, optional         | Whether path is reversed  |
 | `inscribed` | Boolean, optional         | Whether path is inscribed |
 
-**Returns**
+#### Returns
 
 [PathItem](./PathItem.md)
 
@@ -111,17 +111,17 @@ Creates a new pathItem in the shape of an ellipse using the supplied parameters.
 
 `app.activeDocument.pathItems.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [PathItem](./PathItem.md)
 
@@ -131,17 +131,17 @@ Gets the first element in the collection with the specified name.
 
 `app.activeDocument.pathItems.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [PathItem](./PathItem.md)
 
@@ -151,7 +151,7 @@ Gets an element from the collection.
 
 `app.activeDocument.pathItems.polygon([centerX][, centerY][, radius][, sides][, reversed])`
 
-**Description**
+#### Description
 
 Creates a new `pathItem` in the shape of an polygon using the supplied parameters.
 
@@ -165,7 +165,7 @@ Creates a new `pathItem` in the shape of an polygon using the supplied parameter
 | `sides`     | 8       |
 | `reversed`  | false   |
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                      | Description              |
 |-------------|---------------------------|--------------------------|
@@ -175,7 +175,7 @@ Creates a new `pathItem` in the shape of an polygon using the supplied parameter
 | `sides`     | Number (long), optional   | Number of sides          |
 | `reversed`  | Boolean, optional         | Whether path is reversed |
 
-**Returns**
+#### Returns
 
 [PathItem](./PathItem.md)
 
@@ -185,11 +185,11 @@ Creates a new `pathItem` in the shape of an polygon using the supplied parameter
 
 `app.activeDocument.pathItems.rectangle(top, left, width, height[,reversed])`
 
-**Description**
+#### Description
 
 Creates a new `pathItem` in the shape of an polygon using the supplied parameters.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type              | Description              |
 |-------------|-------------------|--------------------------|
@@ -199,7 +199,7 @@ Creates a new `pathItem` in the shape of an polygon using the supplied parameter
 | `height`    | Number (double)   | Height of path           |
 | `reversed`  | Boolean, optional | Whether path is reversed |
 
-**Returns**
+#### Returns
 
 [PathItem](./PathItem.md)
 
@@ -209,11 +209,11 @@ Creates a new `pathItem` in the shape of an polygon using the supplied parameter
 
 `app.activeDocument.pathItems.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing
 
@@ -223,7 +223,7 @@ Nothing
 
 `app.activeDocument.pathItems.roundedRectangle(top, left, width, height[, horizontalRadius][, verticalRadius][, reversed])`
 
-**Description**
+#### Description
 
 Creates a new pathItem in the shape of a rectangle with rounded corners using the supplied parameters.
 
@@ -235,7 +235,7 @@ Creates a new pathItem in the shape of a rectangle with rounded corners using th
 | `verticalRadius`   | 20 pt.  |
 | `reversed`         | false   |
 
-**Parameters**
+#### Parameters
 
 | Parameter          | Type                      | Description                         |
 |--------------------|---------------------------|-------------------------------------|
@@ -247,7 +247,7 @@ Creates a new pathItem in the shape of a rectangle with rounded corners using th
 | `verticalRadius`   | Number (double), optional | Vertical radius of rounded corner   |
 | `reversed`         | Boolean, optional         | Whether path is reversed            |
 
-**Returns**
+#### Returns
 
 [PathItem](./PathItem.md)
 
@@ -257,7 +257,7 @@ Creates a new pathItem in the shape of a rectangle with rounded corners using th
 
 `app.activeDocument.pathItems.star([centerX][, centerY][, radius][, innerRadius][, points][, reversed])`
 
-**Description**
+#### Description
 
 Creates a new path item in the shape of a star using the supplied parameters.
 
@@ -272,7 +272,7 @@ Creates a new path item in the shape of a star using the supplied parameters.
 | `points`      | 5       |
 | `reversed`    | false   |
 
-**Parameters**
+#### Parameters
 
 | Parameter     | Type                      | Description              |
 |---------------|---------------------------|--------------------------|
@@ -283,7 +283,7 @@ Creates a new path item in the shape of a star using the supplied parameters.
 | `points`      | Number (long), optional   | Number of points         |
 | `reversed`    | Boolean, optional         | Whether path is reversed |
 
-**Returns**
+#### Returns
 
 [PathItem](./PathItem.md)
 

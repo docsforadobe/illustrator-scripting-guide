@@ -2,7 +2,7 @@
 
 `exportOptionsPhotoshop`
 
-**Description**
+#### Description
 
 Options for exporting a document as a Photoshop file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method. All properties are optional.
 
@@ -16,11 +16,11 @@ When you export a document, the appropriate file extension is appended automatic
 
 `exportOptionsPhotoshop.antiAliasing`
 
-**Description**
+#### Description
 
 If `true`, the exported image should be anti-aliased. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -30,11 +30,11 @@ Boolean.
 
 `exportOptionsPhotoshop.artboardRange`
 
-**Description**
+#### Description
 
 If `saveMultipleArtboards` is true, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty String.
 
-**Type**
+#### Type
 
 String.
 
@@ -44,11 +44,11 @@ String.
 
 `exportOptionsPhotoshop.editableText`
 
-**Description**
+#### Description
 
 If `true`, text objects should be exported as editable text layers. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -58,11 +58,11 @@ Boolean.
 
 `exportOptionsPhotoshop.embedICCProfile`
 
-**Description**
+#### Description
 
 If `true`, an ICC profile should be embedded in the exported file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -72,11 +72,11 @@ Boolean.
 
 `exportOptionsPhotoshop.imageColorSpace`
 
-**Description**
+#### Description
 
 The color space of the exported file. Default: `ImageColorSpace.RGB`.
 
-**Type**
+#### Type
 
 [ImageColorSpace](scripting-constants.md#jsobjref-scripting-constants-imagecolorspace)
 
@@ -86,11 +86,11 @@ The color space of the exported file. Default: `ImageColorSpace.RGB`.
 
 `exportOptionsPhotoshop.maximumEditability`
 
-**Description**
+#### Description
 
 Preserve as much of the original document's structure as possible when exporting. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -100,11 +100,11 @@ Boolean.
 
 `exportOptionsPhotoshop.resolution`
 
-**Description**
+#### Description
 
 Resolution of the exported file in dots per inch (dpi). Range: 72.0 to 2400.0. Default: 150.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -114,11 +114,11 @@ Number (double).
 
 `exportOptionsPhotoshop.saveMultipleArtboards`
 
-**Description**
+#### Description
 
 If `true`, all artboards or range of artboards are saved. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -128,11 +128,11 @@ Boolean.
 
 `exportOptionsPhotoshop.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -142,11 +142,11 @@ String, read-only.
 
 `exportOptionsPhotoshop.warnings`
 
-**Description**
+#### Description
 
 If `true`, a warning dialog should be displayed in case of conflicts in the export settings. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -156,11 +156,11 @@ Boolean.
 
 `exportOptionsPhotoshop.writeLayers`
 
-**Description**
+#### Description
 
 If `true`, the document layers should be presented in the exported document. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 

@@ -2,7 +2,7 @@
 
 `exportOptionsSVG`
 
-**Description**
+#### Description
 
 Options for exporting a document as a SVG file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method. All properties are optional.
 
@@ -16,11 +16,11 @@ When you export a document, the appropriate file extension is appended automatic
 
 `exportOptionsSVG.artboardRange`
 
-**Description**
+#### Description
 
 A range of artboards to save, if `saveMultipleArtboards` is `true`. A comma-delimited list of artboard names., or the empty string to save all artboards. Default: empty String.
 
-**Type**
+#### Type
 
 String.
 
@@ -30,11 +30,11 @@ String.
 
 `exportOptionsSVG.compressed`
 
-**Description**
+#### Description
 
 If `true`, the exported file should be compressed. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -44,11 +44,11 @@ Boolean.
 
 `exportOptionsSVG.coordinatePrecision`
 
-**Description**
+#### Description
 
 The decimal precision for element coordinate values. Range: 1 to 7. Default: 3.
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -58,11 +58,11 @@ Number (long)
 
 `exportOptionsSVG.cssProperties`
 
-**Description**
+#### Description
 
 How the CSS properties of the document should be included in the exported file. Default: `SVGCSSPropertyLocation.STYLEATTRIBUTES`.
 
-**Type**
+#### Type
 
 [SVGCSSPropertyLocation](scripting-constants.md#jsobjref-scripting-constants-svgcsspropertylocation)
 
@@ -72,11 +72,11 @@ How the CSS properties of the document should be included in the exported file. 
 
 `exportOptionsSVG.documentEncoding`
 
-**Description**
+#### Description
 
 How the text in the document should be encoded. Default: `SVGDocumentEncoding.ASCII`.
 
-**Type**
+#### Type
 
 [SVGDocumentEncoding](scripting-constants.md#jsobjref-scripting-constants-svgdocumentencoding)
 
@@ -86,11 +86,11 @@ How the text in the document should be encoded. Default: `SVGDocumentEncoding.AS
 
 `exportOptionsSVG.DTD`
 
-**Description**
+#### Description
 
 The SVG version to which the file should conform. Default: `SVGDTDVersion.SVG1_1`.
 
-**Type**
+#### Type
 
 [SVGDTDVersion](scripting-constants.md#jsobjref-scripting-constants-svgdtdversion)
 
@@ -100,11 +100,11 @@ The SVG version to which the file should conform. Default: `SVGDTDVersion.SVG1_1
 
 `exportOptionsSVG.embedRasterImages`
 
-**Description**
+#### Description
 
 If `true`, the raster images contained in the document should be embedded in the exported file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -114,11 +114,11 @@ Boolean.
 
 `exportOptionsSVG.fontSubsetting`
 
-**Description**
+#### Description
 
 Which font glyphs should be included in the exported file. Default: `SVGFontSubsetting.ALLGLYPHS`.
 
-**Type**
+#### Type
 
 [SVGFontSubsetting](scripting-constants.md#jsobjref-scripting-constants-svgfontsubsetting)
 
@@ -128,11 +128,11 @@ Which font glyphs should be included in the exported file. Default: `SVGFontSubs
 
 `exportOptionsSVG.fontType`
 
-**Description**
+#### Description
 
 The type of font to included in the exported file. Default: `SVGFontType.CEFFONT`.
 
-**Type**
+#### Type
 
 [SVGFontType](scripting-constants.md#jsobjref-scripting-constants-svgfonttype)
 
@@ -142,11 +142,11 @@ The type of font to included in the exported file. Default: `SVGFontType.CEFFONT
 
 `exportOptionsSVG.includeFileInfo`
 
-**Description**
+#### Description
 
 If `true`, file information should be saved in the exported file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -156,11 +156,11 @@ Boolean.
 
 `exportOptionsSVG.includeUnusedStyles`
 
-**Description**
+#### Description
 
 If `true`, save unused styles in the exported file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -170,11 +170,11 @@ Boolean.
 
 `exportOptionsSVG.includeVariablesAndDatasets`
 
-**Description**
+#### Description
 
 If `true`, variables and datasets should be saved in the exported file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -184,11 +184,11 @@ Boolean.
 
 `exportOptionsSVG.optimizeForSVGViewer`
 
-**Description**
+#### Description
 
 If `true`, the exported file should be optimized for the SVG Viewer. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -198,11 +198,11 @@ Boolean.
 
 `exportOptionsSVG.preserveEditability`
 
-**Description**
+#### Description
 
 If `true`, Illustrator editing capabilities should be preserved when exporting the document. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -212,11 +212,11 @@ Boolean.
 
 `exportOptionsSVG.saveMultipleArtboards`
 
-**Description**
+#### Description
 
 If `true`, save the artboards specified by artboardRange in the exported file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -226,11 +226,11 @@ Boolean.
 
 `exportOptionsSVG.slices`
 
-**Description**
+#### Description
 
 If `true`, slice data should be exported with the file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -240,11 +240,11 @@ Boolean.
 
 `exportOptionsSVG.sVGAutoKerning`
 
-**Description**
+#### Description
 
 If `true`, SVG automatic kerning is allowed in the file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -254,11 +254,11 @@ Boolean.
 
 `exportOptionsSVG.sVGTextOnPath`
 
-**Description**
+#### Description
 
 If `true`, the SVG text-on-path construct is allowed in the file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -268,11 +268,11 @@ Boolean.
 
 `exportOptionsSVG.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 

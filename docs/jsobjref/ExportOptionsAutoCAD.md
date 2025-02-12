@@ -2,7 +2,7 @@
 
 `exportOptionsAutoCAD`
 
-**Description**
+#### Description
 
 Options for exporting a document as an AutoCAD file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method.
 All properties are optional.
@@ -19,13 +19,13 @@ To override the default AutoCAD export format (DWG), use the [ExportOptionsAutoC
 
 `exportOptionsAutoCAD.alterPathsForAppearance`
 
-**Description**
+#### Description
 
 If `true`, paths are altered if needed to maintain appearance.
 
 Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -35,11 +35,11 @@ Boolean.
 
 `exportOptionsAutoCAD.colors`
 
-**Description**
+#### Description
 
 The colors exported into the AutoCAD file.
 
-**Type**
+#### Type
 
 [AutoCADColors](scripting-constants.md#jsobjref-scripting-constants-autocadcolors)
 
@@ -49,13 +49,13 @@ The colors exported into the AutoCAD file.
 
 `exportOptionsAutoCAD.convertTextToOutlines`
 
-**Description**
+#### Description
 
 If `true`, text is converted to vector paths; preserves the visual appearance of type.
 
 Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -65,13 +65,13 @@ Boolean.
 
 `exportOptionsAutoCAD.exportFileFormat`
 
-**Description**
+#### Description
 
 The format to which the file is exported.
 
 Default: `AutoCADExportFileFormat.DWG`.
 
-**Type**
+#### Type
 
 [AutoCADExportFileFormat](scripting-constants.md#jsobjref-scripting-constants-autocadexportfileformat)
 
@@ -81,13 +81,13 @@ Default: `AutoCADExportFileFormat.DWG`.
 
 `exportOptionsAutoCAD.exportOption`
 
-**Description**
+#### Description
 
 Specifies whether to preserve appearance or editability during export.
 
 Default: `AutoCADExportOption.MaximizeEditability`.
 
-**Type**
+#### Type
 
 [AutoCADExportOption](scripting-constants.md#jsobjref-scripting-constants-autocadexportoption)
 
@@ -97,13 +97,13 @@ Default: `AutoCADExportOption.MaximizeEditability`.
 
 `exportOptionsAutoCAD.exportSelectedArtOnly`
 
-**Description**
+#### Description
 
 If `true`, only selected artwork is exported.
 
 Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -113,11 +113,11 @@ Boolean.
 
 `exportOptionsAutoCAD.rasterFormat`
 
-**Description**
+#### Description
 
 The format in which raster art is exported.
 
-**Type**
+#### Type
 
 [AutoCADRasterFormat](scripting-constants.md#jsobjref-scripting-constants-autocadrasterformat)
 
@@ -127,13 +127,13 @@ The format in which raster art is exported.
 
 `exportOptionsAutoCAD.scaleLineweights`
 
-**Description**
+#### Description
 
 If `true`, line weights are scaled by the same scaling factor as the rest of the drawing.
 
 Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -143,11 +143,11 @@ Boolean.
 
 `exportOptionsAutoCAD.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -157,11 +157,11 @@ String, read-only.
 
 `exportOptionsAutoCAD.unit`
 
-**Description**
+#### Description
 
 The measurement units from which to map.
 
-**Type**
+#### Type
 
 [AutoCADUnit](scripting-constants.md#jsobjref-scripting-constants-autocadunit)
 
@@ -171,13 +171,13 @@ The measurement units from which to map.
 
 `exportOptionsAutoCAD.unitScaleRatio`
 
-**Description**
+#### Description
 
 The ratio (as a percentage) by which output is scaled.
 
 Range: 0 to 1000
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -187,12 +187,12 @@ Number (double).
 
 `exportOptionsAutoCAD.version`
 
-**Description**
+#### Description
 
 The release of AutoCAD to which the file is exported.
 
 Default: `AutoCADCompatibility.AutoCADRelease24`.
 
-**Type**
+#### Type
 
 [AutoCADCompatibility](scripting-constants.md#jsobjref-scripting-constants-autocadcompatibility)

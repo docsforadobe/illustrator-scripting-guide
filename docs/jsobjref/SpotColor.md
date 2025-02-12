@@ -2,7 +2,7 @@
 
 `new SpotColor()`
 
-**Description**
+#### Description
 
 Color class used to apply the color value of a spot at a specified tint value. Can be used in any property that takes a color object.
 
@@ -14,11 +14,11 @@ Color class used to apply the color value of a spot at a specified tint value. C
 
 `spotColor.spot`
 
-**Description**
+#### Description
 
 A reference to the spot color object that defines the color.
 
-**Type**
+#### Type
 
 [Spot](./Spot.md)
 
@@ -28,11 +28,11 @@ A reference to the spot color object that defines the color.
 
 `spotColor.tint`
 
-**Description**
+#### Description
 
 The tint of the color. Range: 0.0 to 100.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -42,10 +42,10 @@ Number (double)
 
 `spotColor.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.

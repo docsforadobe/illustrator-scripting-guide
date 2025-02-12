@@ -2,7 +2,7 @@
 
 `artboards`
 
-**Description**
+#### Description
 
 A collection of Artboard objects.
 
@@ -12,11 +12,11 @@ A collection of Artboard objects.
 
 `artboards.length`
 
-**Description**
+#### Description
 
 The number of datasets in the collection
 
-**Type**
+#### Type
 
 Number; read-only.
 
@@ -26,11 +26,11 @@ Number; read-only.
 
 `artboards.parent`
 
-**Description**
+#### Description
 
 The name of the object that contains this dataset
 
-**Type**
+#### Type
 
 [Artboard](./Artboard.md); read-only.
 
@@ -40,11 +40,11 @@ The name of the object that contains this dataset
 
 `artboards.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -56,17 +56,17 @@ String; read-only.
 
 `artboards.add(artboardRect)`
 
-**Description**
+#### Description
 
 Creates a new Artboard object.
 
-**Parameters**
+#### Parameters
 
 | Parameter      | Type   | Description         |
 |----------------|--------|---------------------|
 | `artboardRect` | Rect   | Artboard dimensions |
 
-**Returns**
+#### Returns
 
 [Artboard](./Artboard.md)
 
@@ -76,13 +76,13 @@ Creates a new Artboard object.
 
 `artboards.getActiveArtboardIndex()`
 
-**Description**
+#### Description
 
 Retrieves the index position of the active artboard in the document's list.
 
 Returns the 0-based index.
 
-**Returns**
+#### Returns
 
 Number (long)
 
@@ -92,17 +92,17 @@ Number (long)
 
 `artboards.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [Artboard](./Artboard.md)
 
@@ -112,18 +112,18 @@ Gets the first element in the collection with the specified name.
 
 `artboards.insert(artboardRect, index)`
 
-**Description**
+#### Description
 
 Creates a new Artboard object and inserts it at the given index in the list.
 
-**Parameters**
+#### Parameters
 
 | Parameter      | Type          | Description                 |
 |----------------|---------------|-----------------------------|
 | `artboardRect` | Rect          | Artboard dimensions         |
 | `index`        | Number (long) | Index to insert artboard at |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -133,17 +133,17 @@ Nothing.
 
 `artboards.remove(index)`
 
-**Description**
+#### Description
 
 Deletes an artboard object. You cannot remove the last artboard in a document.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type          | Description                 |
 |-------------|---------------|-----------------------------|
 | `index`     | Number (long) | Index of artboard to remove |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -153,16 +153,16 @@ Nothing.
 
 `artboards.setActiveArtboardIndex(index)`
 
-**Description**
+#### Description
 
 Makes a specific artboard active and makes it current in the iteration order.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type          | Description                     |
 |-------------|---------------|---------------------------------|
 | `index`     | Number (long) | Index of artboard to set active |
 
-**Returns**
+#### Returns
 
 Nothing.

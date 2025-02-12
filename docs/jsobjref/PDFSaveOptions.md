@@ -2,7 +2,7 @@
 
 `new PDFSaveOptions()`
 
-**Description**
+#### Description
 
 Options for saving a document as an Adobe PDF file, used with the [Document.saveAs()](Document.md#jsobjref-document-saveas) method.
 
@@ -16,13 +16,13 @@ All properties are optional.
 
 `pDFSaveOptions.acrobatLayers`
 
-**Description**
+#### Description
 
 Optional. Create Acrobat® layers from top-level layers. Acrobat 6 only.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -32,13 +32,13 @@ Boolean
 
 `pDFSaveOptions.artboardRange`
 
-**Description**
+#### Description
 
 Optional. This is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards.
 
 Default: empty string
 
-**Type**
+#### Type
 
 String
 
@@ -48,13 +48,13 @@ String
 
 `pDFSaveOptions.bleedLink`
 
-**Description**
+#### Description
 
 Optional. Link 4 bleed values.
 
 Default: `true`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -64,11 +64,11 @@ Boolean
 
 `pDFSaveOptions.bleedOffsetRect`
 
-**Description**
+#### Description
 
 The bleed offset rectangle.
 
-**Type**
+#### Type
 
 Array of 4 numbers
 
@@ -78,13 +78,13 @@ Array of 4 numbers
 
 `pDFSaveOptions.colorBars`
 
-**Description**
+#### Description
 
 Optional. Draw color bars.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -94,13 +94,13 @@ Boolean
 
 `pDFSaveOptions.colorCompression`
 
-**Description**
+#### Description
 
 Optional. The type of color bitmap compression used.
 
 Default: `CompressionQuality.None`
 
-**Type**
+#### Type
 
 [CompressionQuality](scripting-constants.md#jsobjref-scripting-constants-compressionquality)
 
@@ -110,13 +110,13 @@ Default: `CompressionQuality.None`
 
 `pDFSaveOptions.colorConversionID`
 
-**Description**
+#### Description
 
 Optional. The PDF color conversion policy.
 
 Default: `ColorConversion.None`
 
-**Type**
+#### Type
 
 [ColorConversion](scripting-constants.md#jsobjref-scripting-constants-colorconversion)
 
@@ -126,13 +126,13 @@ Default: `ColorConversion.None`
 
 `pDFSaveOptions.colorDestinationID`
 
-**Description**
+#### Description
 
 Optional. The conversion target for color conversion.
 
 Default: `ColorDestination.None`
 
-**Type**
+#### Type
 
 [ColorDestination](scripting-constants.md#jsobjref-scripting-constants-colordestination)
 
@@ -142,13 +142,13 @@ Default: `ColorDestination.None`
 
 `pDFSaveOptions.colorDownsampling`
 
-**Description**
+#### Description
 
 Optional. The color downsampling resolution in dots per inch (dpi). If 0, no downsampling is performed.
 
 Default: 150.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -158,13 +158,13 @@ Number (double)
 
 `pDFSaveOptions.colorDownsamplingImageThreshold`
 
-**Description**
+#### Description
 
 Optional. Downsample if the image's resolution is above this value.
 
 Default: 225.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -174,13 +174,13 @@ Number (double)
 
 `pDFSaveOptions.colorDownsamplingMethod`
 
-**Description**
+#### Description
 
 Optional. How color bitmap images should be resampled.
 
 Default: `DownsampleMethod.NODOWNSAMPLE`
 
-**Type**
+#### Type
 
 [DownsampleMethod](scripting-constants.md#jsobjref-scripting-constants-downsamplemethod)
 
@@ -190,13 +190,13 @@ Default: `DownsampleMethod.NODOWNSAMPLE`
 
 `pDFSaveOptions.colorProfileID`
 
-**Description**
+#### Description
 
 Optional. The color profile to include.
 
 Default: `ColorProfile.None`
 
-**Type**
+#### Type
 
 [ColorProfile](scripting-constants.md#jsobjref-scripting-constants-colorprofile)
 
@@ -206,13 +206,13 @@ Default: `ColorProfile.None`
 
 `pDFSaveOptions.colorTileSize`
 
-**Description**
+#### Description
 
 Optional. Tile size when compressing with JPEG2000.
 
 Default: 256
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -222,13 +222,13 @@ Number (long)
 
 `pDFSaveOptions.compatibility`
 
-**Description**
+#### Description
 
 Optional. The version of the Acrobat file format to create.
 
 Default: `PDFCompatibility.Acrobat5`
 
-**Type**
+#### Type
 
 [PDFCompatibility](scripting-constants.md#jsobjref-scripting-constants-pdfcompatibility)
 
@@ -238,13 +238,13 @@ Default: `PDFCompatibility.Acrobat5`
 
 `pDFSaveOptions.compressArt`
 
-**Description**
+#### Description
 
 Optional. If `true`, the line art and text should be compressed.
 
 Default: `true`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -254,13 +254,13 @@ Boolean
 
 `pDFSaveOptions.documentPassword`
 
-**Description**
+#### Description
 
 Optional. A password string to open the document.
 
 Default: no string
 
-**Type**
+#### Type
 
 String
 
@@ -270,13 +270,13 @@ String
 
 `pDFSaveOptions.enableAccess`
 
-**Description**
+#### Description
 
 Optional. If `true`, enable accessing 128-bit.
 
 Default: `true`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -286,13 +286,13 @@ Boolean
 
 `pDFSaveOptions.enableCopy`
 
-**Description**
+#### Description
 
 Optional. If `true`, enable copying of text 128-bit.
 
 Default: `true`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -302,13 +302,13 @@ Boolean
 
 `pDFSaveOptions.enableCopyAccess`
 
-**Description**
+#### Description
 
 Optional. If `true`, enable copying and accessing 40-bit.
 
 Default: `true`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -318,13 +318,13 @@ Boolean
 
 `pDFSaveOptions.enablePlainText`
 
-**Description**
+#### Description
 
 Optional. If `true`, enable plaintext metadata 128-bit. Available only for Acrobat 6.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -334,11 +334,11 @@ Boolean
 
 `pDFSaveOptions.flattenerOptions`
 
-**Description**
+#### Description
 
 Optional. The printing flattener options.
 
-**Type**
+#### Type
 
 [PrintFlattenerOptions](./PrintFlattenerOptions.md)
 
@@ -348,11 +348,11 @@ Optional. The printing flattener options.
 
 `pDFSaveOptions.flattenerPreset`
 
-**Description**
+#### Description
 
 Optional. The transparency flattener preset name.
 
-**Type**
+#### Type
 
 String.
 
@@ -362,13 +362,13 @@ String.
 
 `pDFSaveOptions.fontSubsetThreshold`
 
-**Description**
+#### Description
 
 Optional. Include a subset of fonts when less than this percentage of characters is used in the document. Valid for Illustrator 9 file format. Range: 0.0 to 100.0.
 
 Default: 100.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -378,13 +378,13 @@ Number (double)
 
 `pDFSaveOptions.generateThumbnails`
 
-**Description**
+#### Description
 
 Optional. If `true`, thumbnail images are generated with the saved file.
 
 Default: `true`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -394,13 +394,13 @@ Boolean
 
 `pDFSaveOptions.grayscaleCompression`
 
-**Description**
+#### Description
 
 Optional. Quality of grayscale bitmap compression.
 
 Default: `CompressionQuality.None`
 
-**Type**
+#### Type
 
 [CompressionQuality](scripting-constants.md#jsobjref-scripting-constants-compressionquality)
 
@@ -410,13 +410,13 @@ Default: `CompressionQuality.None`
 
 `pDFSaveOptions.grayscaleDownsampling`
 
-**Description**
+#### Description
 
 Optional. Downsampling resolution in dots per inch (dpi). If 0, no downsampling is performed.
 
 Default: 150.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -426,13 +426,13 @@ Number (double)
 
 `pDFSaveOptions.grayscaleDownsamplingImageThreshold`
 
-**Description**
+#### Description
 
 Optional. Downsample if the image's resolution is above this value.
 
 Default: 225.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -442,13 +442,13 @@ Number (double)
 
 `pDFSaveOptions.grayscaleDownsamplingMethod`
 
-**Description**
+#### Description
 
 Optional. How grayscale bitmap images should be resampled
 
 Default: `DownSampleMethod.NODOWNSAMPLE`
 
-**Type**
+#### Type
 
 [DownsampleMethod](scripting-constants.md#jsobjref-scripting-constants-downsamplemethod)
 
@@ -458,13 +458,13 @@ Default: `DownSampleMethod.NODOWNSAMPLE`
 
 `pDFSaveOptions.grayscaleTileSize`
 
-**Description**
+#### Description
 
 Optional. Tile size when compressing with JPEG2000.
 
 Default: 256
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -474,13 +474,13 @@ Number (long)
 
 `pDFSaveOptions.monochromeCompression`
 
-**Description**
+#### Description
 
 Optional. Type of monochrome bitmap compression used.
 
 Default: `MonochromeCompression.None`
 
-**Type**
+#### Type
 
 [MonochromeCompression](scripting-constants.md#jsobjref-scripting-constants-monochromecompression)
 
@@ -490,13 +490,13 @@ Default: `MonochromeCompression.None`
 
 `pDFSaveOptions.monochromeDownsampling`
 
-**Description**
+#### Description
 
 Optional. Downsampling resolution in dots per inch (dpi). If 0, no downsampling is performed.
 
 Default: 300
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -506,13 +506,13 @@ Number (double)
 
 `pDFSaveOptions.monochromeDownsamplingImageThreshold`
 
-**Description**
+#### Description
 
 Optional. Downsample if the image's resolution is above this value.
 
 Default: 450.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -522,13 +522,13 @@ Number (double)
 
 `pDFSaveOptions.monochromeDownsamplingMethod`
 
-**Description**
+#### Description
 
 Optional. How monochrome bitmap images should be resampled.
 
 Default: `DownSampleMethod.NODOWNSAMPLE`
 
-**Type**
+#### Type
 
 [DownsampleMethod](scripting-constants.md#jsobjref-scripting-constants-downsamplemethod)
 
@@ -538,13 +538,13 @@ Default: `DownSampleMethod.NODOWNSAMPLE`
 
 `pDFSaveOptions.offset`
 
-**Description**
+#### Description
 
 Optional. Custom offset in points for using the custom paper.
 
 Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -554,13 +554,13 @@ Number (double)
 
 `pDFSaveOptions.optimization`
 
-**Description**
+#### Description
 
 Optional. If `true`, the PDF document should be optimized for fast web viewing.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -570,13 +570,13 @@ Boolean
 
 `pDFSaveOptions.outputCondition`
 
-**Description**
+#### Description
 
 Optional. An optional comment to add to the PDF file, describing the intended printing condition.
 
 Default: not included
 
-**Type**
+#### Type
 
 String
 
@@ -586,13 +586,13 @@ String
 
 `pDFSaveOptions.outputConditionID`
 
-**Description**
+#### Description
 
 Optional. The name of a registered printing condition.
 
 Default: not included
 
-**Type**
+#### Type
 
 String
 
@@ -602,13 +602,13 @@ String
 
 `pDFSaveOptions.pageInformation`
 
-**Description**
+#### Description
 
 Optional. If `true`, raw page information.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -618,13 +618,13 @@ Boolean
 
 `pDFSaveOptions.pageMarksType`
 
-**Description**
+#### Description
 
 Optional. The page marks style.
 
 Default: PageMarksType.Roman
 
-**Type**
+#### Type
 
 [PageMarksTypes](scripting-constants.md#jsobjref-scripting-constants-pagemarkstypes)
 
@@ -634,13 +634,13 @@ Default: PageMarksType.Roman
 
 `pDFSaveOptions.pDFAllowPrinting`
 
-**Description**
+#### Description
 
 Optional. PDF security printing permission.
 
 Default: `PDFPrintAllowedEnum.PRINT128HIGHRESOLUTION`
 
-**Type**
+#### Type
 
 [PDFPrintAllowedEnum](scripting-constants.md#jsobjref-scripting-constants-pdfprintallowedenum)
 
@@ -650,13 +650,13 @@ Default: `PDFPrintAllowedEnum.PRINT128HIGHRESOLUTION`
 
 `pDFSaveOptions.pDFChangesAllowed`
 
-**Description**
+#### Description
 
 Optional. Security changes allowed.
 
 Default: `PDFChangeAllowedEnum.CHANGE128ANYCHANGES`
 
-**Type**
+#### Type
 
 [PDFChangesAllowedEnum](scripting-constants.md#jsobjref-scripting-constants-pdfchangesallowedenum)
 
@@ -666,11 +666,11 @@ Default: `PDFChangeAllowedEnum.CHANGE128ANYCHANGES`
 
 `pDFSaveOptions.pDFPreset`
 
-**Description**
+#### Description
 
 Optional. Name of PDF preset to use.
 
-**Type**
+#### Type
 
 String
 
@@ -680,13 +680,13 @@ String
 
 `pDFSaveOptions.pDFXStandard`
 
-**Description**
+#### Description
 
 Optional. The PDF standard with which this document complies.
 
 Default: `PDFXStandard.PDFXNONE`
 
-**Type**
+#### Type
 
 [PDFXStandard](scripting-constants.md#jsobjref-scripting-constants-pdfxstandard)
 
@@ -696,11 +696,11 @@ Default: `PDFXStandard.PDFXNONE`
 
 `pDFSaveOptions.pDFXStandardDescription`
 
-**Description**
+#### Description
 
 Optional. A description of the PDF standard from the selected preset.
 
-**Type**
+#### Type
 
 String
 
@@ -710,13 +710,13 @@ String
 
 `pDFSaveOptions.permissionPassword`
 
-**Description**
+#### Description
 
 Optional. A password string to restrict editing security settings.
 
 Default: no string
 
-**Type**
+#### Type
 
 String
 
@@ -726,13 +726,13 @@ String
 
 `pDFSaveOptions.preserveEditability`
 
-**Description**
+#### Description
 
 Optional. If `true`, Illustrator editing capabilities should be preserved when saving the document.
 
 Default: `true`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -742,13 +742,13 @@ Boolean
 
 `pDFSaveOptions.printerResolution`
 
-**Description**
+#### Description
 
 Optional. Flattening printer resolution.
 
 Default: 800.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -758,13 +758,13 @@ Number (double)
 
 `pDFSaveOptions.registrationMarks`
 
-**Description**
+#### Description
 
 Optional. If `true`, draw registration marks.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -774,13 +774,13 @@ Boolean
 
 `pDFSaveOptions.requireDocumentPassword`
 
-**Description**
+#### Description
 
 Optional. Require a password to open the document.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -790,13 +790,13 @@ Boolean
 
 `pDFSaveOptions.requirePermissionPassword`
 
-**Description**
+#### Description
 
 Optional. Use a password to restrict editing security settings.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -806,13 +806,13 @@ Boolean
 
 `pDFSaveOptions.trapped`
 
-**Description**
+#### Description
 
 Optional. If `true`, manual trapping has been prepared for the document.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -822,13 +822,13 @@ Boolean
 
 `pDFSaveOptions.trimMarks`
 
-**Description**
+#### Description
 
 Optional. Draw trim marks.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -838,13 +838,13 @@ Boolean
 
 `pDFSaveOptions.trimMarkWeight`
 
-**Description**
+#### Description
 
 Optional. The trim mark weight.
 
 Default: `PDFTrimMarkWeight.TRIMMARKWEIGHT0125`
 
-**Type**
+#### Type
 
 [PDFTrimMarkWeight](scripting-constants.md#jsobjref-scripting-constants-pdftrimmarkweight)
 
@@ -854,11 +854,11 @@ Default: `PDFTrimMarkWeight.TRIMMARKWEIGHT0125`
 
 `pDFSaveOptions.typename`
 
-**Description**
+#### Description
 
 Optional. Read-only. The class name of the referenced object.
 
-**Type**
+#### Type
 
 String
 
@@ -868,13 +868,13 @@ String
 
 `pDFSaveOptions.viewAfterSaving`
 
-**Description**
+#### Description
 
 Optional. View PDF after saving.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 

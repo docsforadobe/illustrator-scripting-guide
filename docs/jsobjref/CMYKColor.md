@@ -2,7 +2,7 @@
 
 `new cmykColor()`
 
-**Description**
+#### Description
 
 A CMYK color specification, used where a `color` object is required.
 
@@ -16,11 +16,11 @@ If the color space of a document is `RGB` and you specify the color value for a 
 
 `cmykColor.black`
 
-**Description**
+#### Description
 
 The black color value. Range 0.0-100.0. Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -30,11 +30,11 @@ Number (double)
 
 `cmykColor.cyan`
 
-**Description**
+#### Description
 
 The cyan color value. Range 0.0-100.0. Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -44,11 +44,11 @@ Number (double)
 
 `cmykColor.magenta`
 
-**Description**
+#### Description
 
 The magenta color value. Range 0.0-100.0. Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -58,11 +58,11 @@ Number (double)
 
 `cmykColor.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -72,11 +72,11 @@ String; read-only.
 
 `cmykColor.yellow`
 
-**Description**
+#### Description
 
 The yellow color value. Range 0.0-100.0. Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 

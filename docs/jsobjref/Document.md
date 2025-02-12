@@ -2,7 +2,7 @@
 
 `app.activeDocument`
 
-**Description**
+#### Description
 
 An Illustrator document. Documents are contained in the [Application](./Application.md) object.
 
@@ -18,11 +18,11 @@ A document's color space, height, and width can only be set when the document is
 
 `app.activeDocument.activeDataset`
 
-**Description**
+#### Description
 
 The currently opened dataset.
 
-**Type**
+#### Type
 
 [Dataset](./Dataset.md)
 
@@ -32,11 +32,11 @@ The currently opened dataset.
 
 `app.activeDocument.activeLayer`
 
-**Description**
+#### Description
 
 The active layer in the document.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md)
 
@@ -46,11 +46,11 @@ The active layer in the document.
 
 `app.activeDocument.activeView`
 
-**Description**
+#### Description
 
 The document's current view.
 
-**Type**
+#### Type
 
 [View](./View.md), read-only.
 
@@ -60,11 +60,11 @@ The document's current view.
 
 `app.activeDocument.artboards`
 
-**Description**
+#### Description
 
 All artboards in the document.
 
-**Type**
+#### Type
 
 [Artboards](./Artboards.md), read-only.
 
@@ -74,11 +74,11 @@ All artboards in the document.
 
 `app.activeDocument.brushes`
 
-**Description**
+#### Description
 
 The brushes contained in the document.
 
-**Type**
+#### Type
 
 [Brushes](./Brushes.md), read-only.
 
@@ -88,11 +88,11 @@ The brushes contained in the document.
 
 `app.activeDocument.characterStyles`
 
-**Description**
+#### Description
 
 The list of character styles in this document.
 
-**Type**
+#### Type
 
 [CharacterStyles](./CharacterStyles.md), read-only.
 
@@ -102,11 +102,11 @@ The list of character styles in this document.
 
 `app.activeDocument.compoundPathItems`
 
-**Description**
+#### Description
 
 The compound path items contained in the document.
 
-**Type**
+#### Type
 
 [CompoundPathItems](./CompoundPathItems.md), read-only.
 
@@ -116,11 +116,11 @@ The compound path items contained in the document.
 
 `app.activeDocument.cropBox`
 
-**Description**
+#### Description
 
 The boundary of the document's cropping box for output, or `null` if no value has been set.
 
-**Type**
+#### Type
 
 Array of 4 numbers.
 
@@ -130,11 +130,11 @@ Array of 4 numbers.
 
 `app.activeDocument.cropStyle`
 
-**Description**
+#### Description
 
 The style of the document's cropping box.
 
-**Type**
+#### Type
 
 [CropOptions](scripting-constants.md#jsobjref-scripting-constants-cropoptions)
 
@@ -144,11 +144,11 @@ The style of the document's cropping box.
 
 `app.activeDocument.dataSets`
 
-**Description**
+#### Description
 
 The datasets contained in the document.
 
-**Type**
+#### Type
 
 [Datasets](./Datasets.md), read-only.
 
@@ -158,11 +158,11 @@ The datasets contained in the document.
 
 `app.activeDocument.defaultFillColor`
 
-**Description**
+#### Description
 
 The color to use to fill new paths if `defaultFilled` is `true`.
 
-**Type**
+#### Type
 
 [Color](./Color.md)
 
@@ -172,11 +172,11 @@ The color to use to fill new paths if `defaultFilled` is `true`.
 
 `app.activeDocument.defaultFilled`
 
-**Description**
+#### Description
 
 If `true`, a new path should be filled.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -186,11 +186,11 @@ Boolean.
 
 `app.activeDocument.defaultFillOverprint`
 
-**Description**
+#### Description
 
 If `true`, the art beneath a filled object should be overprinted by default.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -200,11 +200,11 @@ Boolean.
 
 `app.activeDocument.defaultStrokeCap`
 
-**Description**
+#### Description
 
 Default type of line capping for paths created.
 
-**Type**
+#### Type
 
 [StrokeCap](scripting-constants.md#jsobjref-scripting-constants-strokecap)
 
@@ -214,11 +214,11 @@ Default type of line capping for paths created.
 
 `app.activeDocument.defaultStrokeColor`
 
-**Description**
+#### Description
 
 The stroke color for new paths if default stroked is `true`.
 
-**Type**
+#### Type
 
 [Color](./Color.md)
 
@@ -228,11 +228,11 @@ The stroke color for new paths if default stroked is `true`.
 
 `app.activeDocument.defaultStroked`
 
-**Description**
+#### Description
 
 If `true`, a new path should be stroked.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -242,11 +242,11 @@ Boolean.
 
 `app.activeDocument.defaultStrokeDashes`
 
-**Description**
+#### Description
 
 Default lengths for dashes and gaps in dashed lines, starting with the first dash length, followed by the first gap length, and so on. Set to an empty object, {}, for solid line.
 
-**Type**
+#### Type
 
 Object.
 
@@ -256,11 +256,11 @@ Object.
 
 `app.activeDocument.defaultStrokeDashOffset`
 
-**Description**
+#### Description
 
 The default distance into the dash pattern at which the pattern should be started for new paths.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -270,11 +270,11 @@ Number (double).
 
 `app.activeDocument.defaultStrokeJoin`
 
-**Description**
+#### Description
 
 Default type of joints in new paths.
 
-**Type**
+#### Type
 
 [StrokeJoin](scripting-constants.md#jsobjref-scripting-constants-strokejoin)
 
@@ -284,11 +284,11 @@ Default type of joints in new paths.
 
 `app.activeDocument.defaultStrokeMiterLimit`
 
-**Description**
+#### Description
 
 When a default stroke join is set to `mitered`, this property specifies when the join will be converted to beveled (squared-off ) by default. The default miter limit of 4 means that when the length of the point reaches four times the stroke weight, the join switches from a miter join to a bevel join. Range: 1 to 500; a value of 1 specifies a bevel join.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -298,11 +298,11 @@ Number (double).
 
 `app.activeDocument.defaultStrokeOverprint`
 
-**Description**
+#### Description
 
 If `true`, the art beneath a stroked object should be overprinted by default.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -312,11 +312,11 @@ Boolean.
 
 `app.activeDocument.defaultStrokeWidth`
 
-**Description**
+#### Description
 
 Default width of stroke for new paths.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -326,11 +326,11 @@ Number (double).
 
 `app.activeDocument.documentColorSpace`
 
-**Description**
+#### Description
 
 The color specification system to use for this document's color space.
 
-**Type**
+#### Type
 
 [DocumentColorSpace](scripting-constants.md#jsobjref-scripting-constants-documentcolorspace)
 
@@ -340,11 +340,11 @@ The color specification system to use for this document's color space.
 
 `app.activeDocument.fullName`
 
-**Description**
+#### Description
 
 The file associated with the document, which includes the complete path to the file.
 
-**Type**
+#### Type
 
 File, read-only.
 
@@ -354,11 +354,11 @@ File, read-only.
 
 `app.activeDocument.geometricBounds`
 
-**Description**
+#### Description
 
 The bounds of the illustration excluding the stroke width of any objects in the document.
 
-**Type**
+#### Type
 
 Array of 4 numbers, read-only.
 
@@ -368,11 +368,11 @@ Array of 4 numbers, read-only.
 
 `app.activeDocument.gradients`
 
-**Description**
+#### Description
 
 The gradients contained in the document.
 
-**Type**
+#### Type
 
 [Gradients](./Gradients.md), read-only.
 
@@ -382,11 +382,11 @@ The gradients contained in the document.
 
 `app.activeDocument.graphicStyles`
 
-**Description**
+#### Description
 
 The graphic styles defined in this document.
 
-**Type**
+#### Type
 
 [GraphicStyles](./GraphicStyles.md), read-only.
 
@@ -396,11 +396,11 @@ The graphic styles defined in this document.
 
 `app.activeDocument.graphItems`
 
-**Description**
+#### Description
 
 The graph art items in this document.
 
-**Type**
+#### Type
 
 [GraphItems](./GraphItems.md), read-only.
 
@@ -410,11 +410,11 @@ The graph art items in this document.
 
 `app.activeDocument.groupItems`
 
-**Description**
+#### Description
 
 The group items contained in the document.
 
-**Type**
+#### Type
 
 [GroupItems](./GroupItems.md), read-only.
 
@@ -424,11 +424,11 @@ The group items contained in the document.
 
 `app.activeDocument.height`
 
-**Description**
+#### Description
 
 The height of the document.
 
-**Type**
+#### Type
 
 Number (double), read-only.
 
@@ -438,11 +438,11 @@ Number (double), read-only.
 
 `app.activeDocument.inkList`
 
-**Description**
+#### Description
 
 The list of inks in this document.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -452,11 +452,11 @@ Object, read-only.
 
 `app.activeDocument.kinsokuSet`
 
-**Description**
+#### Description
 
 The Kinsoku set of characters that cannot begin or end a line of Japanese text.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -466,11 +466,11 @@ Object, read-only.
 
 `app.activeDocument.layers`
 
-**Description**
+#### Description
 
 The layers contained in the document.
 
-**Type**
+#### Type
 
 [Layers](./Layers.md), read-only.
 
@@ -480,11 +480,11 @@ The layers contained in the document.
 
 `app.activeDocument.legacyTextItems`
 
-**Description**
+#### Description
 
 The legacy text items in the document.
 
-**Type**
+#### Type
 
 [LegacyTextItems](./LegacyTextItems.md), read-only.
 
@@ -494,11 +494,11 @@ The legacy text items in the document.
 
 `app.activeDocument.meshItems`
 
-**Description**
+#### Description
 
 The mesh art items contained in the document.
 
-**Type**
+#### Type
 
 [MeshItems](./MeshItems.md), read-only.
 
@@ -508,11 +508,11 @@ The mesh art items contained in the document.
 
 `app.activeDocument.mojikumiSet`
 
-**Description**
+#### Description
 
 A list of names of predefined Mojikumi sets which specify the spacing for the layout and composition of Japanese text.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -522,11 +522,11 @@ Object, read-only.
 
 `app.activeDocument.name`
 
-**Description**
+#### Description
 
 The document's name (not the complete file path to the document).
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -536,11 +536,11 @@ String, read-only.
 
 `app.activeDocument.nonNativeItems`
 
-**Description**
+#### Description
 
 The non-native art items in this document.
 
-**Type**
+#### Type
 
 [NonNativeItems](./NonNativeItems.md), read-only.
 
@@ -550,11 +550,11 @@ The non-native art items in this document.
 
 `app.activeDocument.outputResolution`
 
-**Description**
+#### Description
 
 The current output resolution for the document in dots per inch (dpi).
 
-**Type**
+#### Type
 
 Number (double), read-only.
 
@@ -564,11 +564,11 @@ Number (double), read-only.
 
 `app.activeDocument.pageItems`
 
-**Description**
+#### Description
 
 The page items (all art item classes) contained in the document.
 
-**Type**
+#### Type
 
 [PageItems](./PageItems.md), read-only.
 
@@ -578,11 +578,11 @@ The page items (all art item classes) contained in the document.
 
 `app.activeDocument.pageOrigin`
 
-**Description**
+#### Description
 
 The zero-point of the page in the document without margins, relative to the overall height and width.
 
-**Type**
+#### Type
 
 Array of 2 numbers.
 
@@ -592,11 +592,11 @@ Array of 2 numbers.
 
 `app.activeDocument.paragraphStyles`
 
-**Description**
+#### Description
 
 The list of paragraph styles in this document.
 
-**Type**
+#### Type
 
 [ParagraphStyles](./ParagraphStyles.md), read-only.
 
@@ -606,11 +606,11 @@ The list of paragraph styles in this document.
 
 `app.activeDocument.parent`
 
-**Description**
+#### Description
 
 The application that contains this document.
 
-**Type**
+#### Type
 
 [Application](./Application.md), read-only.
 
@@ -620,11 +620,11 @@ The application that contains this document.
 
 `app.activeDocument.path`
 
-**Description**
+#### Description
 
 The file associated with the document, which includes the complete path to the file.
 
-**Type**
+#### Type
 
 File, read-only.
 
@@ -634,11 +634,11 @@ File, read-only.
 
 `app.activeDocument.pathItems`
 
-**Description**
+#### Description
 
 The path items contained in this document.
 
-**Type**
+#### Type
 
 [PathItems](./PathItems.md), read-only.
 
@@ -648,11 +648,11 @@ The path items contained in this document.
 
 `app.activeDocument.patterns`
 
-**Description**
+#### Description
 
 The patterns contained in this document.
 
-**Type**
+#### Type
 
 [Patterns](./Patterns.md), read-only.
 
@@ -662,11 +662,11 @@ The patterns contained in this document.
 
 `app.activeDocument.placedItems`
 
-**Description**
+#### Description
 
 The placed items contained in this document.
 
-**Type**
+#### Type
 
 [PlacedItems](./PlacedItems.md), read-only.
 
@@ -676,11 +676,11 @@ The placed items contained in this document.
 
 `app.activeDocument.pluginItems`
 
-**Description**
+#### Description
 
 The plug-in items contained in this document.
 
-**Type**
+#### Type
 
 [PluginItems](./PluginItems.md), read-only.
 
@@ -690,11 +690,11 @@ The plug-in items contained in this document.
 
 `app.activeDocument.printTiles`
 
-**Description**
+#### Description
 
 If `true`, this document should be printed as tiled output.
 
-**Type**
+#### Type
 
 Boolean, read-only.
 
@@ -704,11 +704,11 @@ Boolean, read-only.
 
 `app.activeDocument.rasterEffectSettings`
 
-**Description**
+#### Description
 
 The document's raster effect settings.
 
-**Type**
+#### Type
 
 [RasterEffectOptions](./RasterEffectOptions.md), read-only.
 
@@ -718,11 +718,11 @@ The document's raster effect settings.
 
 `app.activeDocument.rasterItems`
 
-**Description**
+#### Description
 
 The raster items contained in this document.
 
-**Type**
+#### Type
 
 [RasterItems](./RasterItems.md), read-only.
 
@@ -732,11 +732,11 @@ The raster items contained in this document.
 
 `app.activeDocument.rulerOrigin`
 
-**Description**
+#### Description
 
 The zero-point of the rulers in the document relative to the bottom left of the document.
 
-**Type**
+#### Type
 
 Array of 2 numbers.
 
@@ -746,11 +746,11 @@ Array of 2 numbers.
 
 `app.activeDocument.rulerUnits`
 
-**Description**
+#### Description
 
 The default measurement units for the rulers in the document.
 
-**Type**
+#### Type
 
 [RulerUnits](scripting-constants.md#jsobjref-scripting-constants-rulerunits), read-only.
 
@@ -760,11 +760,11 @@ The default measurement units for the rulers in the document.
 
 `app.activeDocument.saved`
 
-**Description**
+#### Description
 
 If `true`, the document has not been changed since last time it was saved.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -774,13 +774,13 @@ Boolean.
 
 `app.activeDocument.selection`
 
-**Description**
+#### Description
 
 References to the objects in this document's current selection, or `null` when nothing is selected.
 
 A reference to an insertion point is returned when there is an active insertion point in the contents of a selected text art item. Similarly, a reference to a range of text is returned when characters are selected in the contents of a text art item.
 
-**Type**
+#### Type
 
 Array of objects.
 
@@ -790,11 +790,11 @@ Array of objects.
 
 `app.activeDocument.showPlacedImages`
 
-**Description**
+#### Description
 
 If `true`, placed images should be displayed in the document.
 
-**Type**
+#### Type
 
 Boolean, read-only.
 
@@ -804,11 +804,11 @@ Boolean, read-only.
 
 `app.activeDocument.splitLongPaths`
 
-**Description**
+#### Description
 
 If `true`, long paths should be split when printing.
 
-**Type**
+#### Type
 
 Boolean, read-only.
 
@@ -818,11 +818,11 @@ Boolean, read-only.
 
 `app.activeDocument.spots`
 
-**Description**
+#### Description
 
 The spot colors contained in this document.
 
-**Type**
+#### Type
 
 [Spots](./Spots.md), read-only.
 
@@ -832,11 +832,11 @@ The spot colors contained in this document.
 
 `app.activeDocument.stationery`
 
-**Description**
+#### Description
 
 If `true`, the file is a stationery file.
 
-**Type**
+#### Type
 
 Boolean, read-only.
 
@@ -846,11 +846,11 @@ Boolean, read-only.
 
 `app.activeDocument.stories`
 
-**Description**
+#### Description
 
 The story items in this document.
 
-**Type**
+#### Type
 
 [Stories](./Stories.md), read-only.
 
@@ -860,11 +860,11 @@ The story items in this document.
 
 `app.activeDocument.swatches`
 
-**Description**
+#### Description
 
 The swatches in this document.
 
-**Type**
+#### Type
 
 [Swatches](./Swatches.md), read-only.
 
@@ -874,11 +874,11 @@ The swatches in this document.
 
 `app.activeDocument.swatchGroups`
 
-**Description**
+#### Description
 
 The swatch groups in this document.
 
-**Type**
+#### Type
 
 [SwatchGroups](./SwatchGroups.md), read-only.
 
@@ -888,11 +888,11 @@ The swatch groups in this document.
 
 `app.activeDocument.symbolItems`
 
-**Description**
+#### Description
 
 The art items in the document linked to symbols.
 
-**Type**
+#### Type
 
 [SymbolItems](./SymbolItems.md), read-only.
 
@@ -902,11 +902,11 @@ The art items in the document linked to symbols.
 
 `app.activeDocument.symbols`
 
-**Description**
+#### Description
 
 The symbols in this document.
 
-**Type**
+#### Type
 
 [Symbols](./Symbols.md), read-only.
 
@@ -916,11 +916,11 @@ The symbols in this document.
 
 `app.activeDocument.tags`
 
-**Description**
+#### Description
 
 The tags in this document.
 
-**Type**
+#### Type
 
 [Tags](./Tags.md), read-only.
 
@@ -930,11 +930,11 @@ The tags in this document.
 
 `app.activeDocument.textFrames`
 
-**Description**
+#### Description
 
 The text frames in this document.
 
-**Type**
+#### Type
 
 [TextFrameItems](./TextFrameItems.md), read-only.
 
@@ -944,11 +944,11 @@ The text frames in this document.
 
 `app.activeDocument.tileFullPages`
 
-**Description**
+#### Description
 
 If `true`, full pages should be tiled when printing this document.
 
-**Type**
+#### Type
 
 Boolean, read-only.
 
@@ -958,11 +958,11 @@ Boolean, read-only.
 
 `app.activeDocument.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -972,11 +972,11 @@ String, read-only.
 
 `app.activeDocument.useDefaultScreen`
 
-**Description**
+#### Description
 
 If `true`, the printer's default screen should be used when printing this document.
 
-**Type**
+#### Type
 
 Boolean, read-only.
 
@@ -986,11 +986,11 @@ Boolean, read-only.
 
 `app.activeDocument.variables`
 
-**Description**
+#### Description
 
 The variables defined in this document.
 
-**Type**
+#### Type
 
 [Variables](./Variables.md), read-only.
 
@@ -1000,11 +1000,11 @@ The variables defined in this document.
 
 `app.activeDocument.variablesLocked`
 
-**Description**
+#### Description
 
 If true, the variables are locked.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -1014,11 +1014,11 @@ Boolean.
 
 `app.activeDocument.views`
 
-**Description**
+#### Description
 
 The views contained in this document.
 
-**Type**
+#### Type
 
 [Views](./Views.md), read-only.
 
@@ -1028,11 +1028,11 @@ The views contained in this document.
 
 `app.activeDocument.visibleBounds`
 
-**Description**
+#### Description
 
 The visible bounds of the document, including stroke width of any objects in the illustration.
 
-**Type**
+#### Type
 
 Array of 4 numbers, read-only.
 
@@ -1042,11 +1042,11 @@ Array of 4 numbers, read-only.
 
 `app.activeDocument.width`
 
-**Description**
+#### Description
 
 The width of this document.
 
-**Type**
+#### Type
 
 Number (double), read-only.
 
@@ -1056,11 +1056,11 @@ Number (double), read-only.
 
 `app.activeDocument.XMPString`
 
-**Description**
+#### Description
 
 The XMP metadata packet associated with this document.
 
-**Type**
+#### Type
 
 String.
 
@@ -1072,11 +1072,11 @@ String.
 
 `app.activeDocument.activate()`
 
-**Description**
+#### Description
 
 Brings the first window associated with the document to the front.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1086,17 +1086,17 @@ Nothing.
 
 `app.activeDocument.arrange([layoutStyle])`
 
-**Description**
+#### Description
 
 Arranges multiple documents in the given layout style.
 
-**Parameters**
+#### Parameters
 
 | Parameter     | Type                                                                                                     | Description                              |
 |---------------|----------------------------------------------------------------------------------------------------------|------------------------------------------|
 | `layoutStyle` | [DocumentLayoutStyle](scripting-constants.md#jsobjref-scripting-constants-documentlayoutstyle), optional | The layout style to arrange documents in |
 
-**Returns**
+#### Returns
 
 Boolean.
 
@@ -1106,19 +1106,19 @@ Boolean.
 
 `app.activeDocument.close([saveOptions])`
 
-**Description**
+#### Description
 
 Closes a document using specified save options.
 
 When you close a document, you should set your document reference to `null` to prevent your script from accidentally trying to access closed documents.
 
-**Parameters**
+#### Parameters
 
 | Parameter     | Type                                                                           | Description                |
 |---------------|--------------------------------------------------------------------------------|----------------------------|
 | `saveOptions` | [SaveOptions](scripting-constants.md#jsobjref-scripting-constants-saveoptions) | Save options to close with |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1128,11 +1128,11 @@ Nothing.
 
 `app.activeDocument.closeNoUI()`
 
-**Description**
+#### Description
 
 Closes the specified non-UI document.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1142,11 +1142,11 @@ Nothing.
 
 `app.activeDocument.convertCoordinate(coordinate, source, destination)`
 
-**Description**
+#### Description
 
 Converts the given point between artboard and document coordinate systems. Returns the converted point coordinates.
 
-**Parameters**
+#### Parameters
 
 | Parameter     | Type                                                                                     | Description                   |
 |---------------|------------------------------------------------------------------------------------------|-------------------------------|
@@ -1154,7 +1154,7 @@ Converts the given point between artboard and document coordinate systems. Retur
 | `source`      | [CoordinateSystem](scripting-constants.md#jsobjref-scripting-constants-coordinatesystem) | Source coordinate system      |
 | `destination` | [CoordinateSystem](scripting-constants.md#jsobjref-scripting-constants-coordinatesystem) | Destination coordinate system |
 
-**Returns**
+#### Returns
 
 Point.
 
@@ -1164,11 +1164,11 @@ Point.
 
 `app.activeDocument.exportFile(exportFile, exportFormat [,options])`
 
-**Description**
+#### Description
 
 Exports the document to the specified file using one of the predefined export file formats. The appropriate file extension is automatically appended to the file name, except for Photoshop® documents. For these, you must include the file extension (PSD) in the file specification.
 
-**Parameters**
+#### Parameters
 
 | Parameter      | Type                                                                         | Description        |
 |----------------|------------------------------------------------------------------------------|--------------------|
@@ -1176,7 +1176,7 @@ Exports the document to the specified file using one of the predefined export fi
 | `exportFormat` | [ExportType](scripting-constants.md#jsobjref-scripting-constants-exporttype) | Export file format |
 | `options`      | [Variable](./Variable.md), optional                          | todo               |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1186,17 +1186,17 @@ Nothing.
 
 `app.activeDocument.exportPDFPreset(file)`
 
-**Description**
+#### Description
 
 Exports the current PDF preset values to the file.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description              |
 |-------------|--------|--------------------------|
 | `file`      | File   | Preset file to export to |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1206,17 +1206,17 @@ Nothing.
 
 `app.activeDocument.exportPerspectiveGridPreset(file)`
 
-**Description**
+#### Description
 
 Exports the current perspective grid preset values to the file.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description              |
 |-------------|--------|--------------------------|
 | `file`      | File   | Preset file to export to |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1226,17 +1226,17 @@ Nothing.
 
 `app.activeDocument.exportPrintPreset(file)`
 
-**Description**
+#### Description
 
 Exports the current print preset values to the file.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description              |
 |-------------|--------|--------------------------|
 | `file`      | File   | Preset file to export to |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1246,17 +1246,17 @@ Nothing.
 
 `app.activeDocument.exportVariables(fileSpec)`
 
-**Description**
+#### Description
 
 Saves datasets into an XML library. The datasets contain variables and their associated dynamic data.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description                   |
 |-------------|--------|-------------------------------|
 | `fileSpec`  | File   | XML Library file to export to |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1266,17 +1266,17 @@ Nothing.
 
 `app.activeDocument.fitArtboardToSelectedArt([index])`
 
-**Description**
+#### Description
 
 Resizes the artboard at the given index to fit currently selected art. Index default is 0. Returns `true` on success.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                    | Description              |
 |-------------|-------------------------|--------------------------|
 | `index`     | Number (long), optional | Artboard index to resize |
 
-**Returns**
+#### Returns
 
 Boolean.
 
@@ -1289,17 +1289,17 @@ Boolean.
 !!! note
     This functionality was added in Illustrator 24.0. (CC2020)
 
-**Description**
+#### Description
 
 Retrieves the pageitem using Uuid.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description      |
 |-------------|--------|------------------|
 | `uuid`      | String | uuid of PageItem |
 
-**Returns**
+#### Returns
 
 [PageItem](./PageItem.md).
 
@@ -1309,11 +1309,11 @@ Retrieves the pageitem using Uuid.
 
 `app.activeDocument.getPerspectiveActivePlane()`
 
-**Description**
+#### Description
 
 Retrieves the active plane of the active perspective grid of the document.
 
-**Returns**
+#### Returns
 
 [PerspectiveGridPlaneType](scripting-constants.md#jsobjref-scripting-constants-perspectivegridplanetype)
 
@@ -1323,11 +1323,11 @@ Retrieves the active plane of the active perspective grid of the document.
 
 `app.activeDocument.hidePerspectiveGrid()`
 
-**Description**
+#### Description
 
 Hides the current active grid for the document. If no grid is visible, does nothing. Returns `true` if a grid is hidden.
 
-**Returns**
+#### Returns
 
 Boolean.
 
@@ -1337,13 +1337,13 @@ Boolean.
 
 `app.activeDocument.imageCapture(imageFile [,clipBounds] [,options])`
 
-**Description**
+#### Description
 
 Captures the artwork content within the clipping boundaries in this document as a raster image, and writes the image data to a specified file.
 
 If the bounds parameter is omitted, captures the entire artwork.
 
-**Parameters**
+#### Parameters
 
 | Parameter    | Type                                                                                 | Description            |
 |--------------|--------------------------------------------------------------------------------------|------------------------|
@@ -1351,7 +1351,7 @@ If the bounds parameter is omitted, captures the entire artwork.
 | `clipBounds` | Rect, optional                                                                       | Clipping bounds        |
 | `options`    | [ImageCaptureOptions](./ImageCaptureOptions.md), optional | todo                   |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1361,17 +1361,17 @@ Nothing.
 
 `app.activeDocument.importCharacterStyles(fileSpec)`
 
-**Description**
+#### Description
 
 Loads the character styles from the Illustrator file.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description                        |
 |-------------|--------|------------------------------------|
 | `fileSpec`  | File   | File to load character styles from |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1381,17 +1381,17 @@ Nothing.
 
 `app.activeDocument.importParagraphStyles(fileSpec)`
 
-**Description**
+#### Description
 
 Loads the paragraph styles from the Illustrator file.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description                        |
 |-------------|--------|------------------------------------|
 | `fileSpec`  | File   | File to load paragraph styles from |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1401,18 +1401,18 @@ Nothing.
 
 `app.activeDocument.importPDFPreset(fileSpec [, replacingPreset])`
 
-**Description**
+#### Description
 
 Loads all PDF presets from a file.
 
-**Parameters**
+#### Parameters
 
 | Parameter         | Type             | Description                         |
 |-------------------|------------------|-------------------------------------|
 | `fileSpec`        | File             | File to load PDF presets from       |
 | `replacingPreset` | String, optional | Whether to replace existing presets |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1422,18 +1422,18 @@ Nothing.
 
 `app.activeDocument.importPrintPreset(printPreset, fileSpec)`
 
-**Description**
+#### Description
 
 Loads the named print preset from the file.
 
-**Parameters**
+#### Parameters
 
 | Parameter     | Type   | Description                     |
 |---------------|--------|---------------------------------|
 | `printPreset` | String | Name of preset to load          |
 | `fileSpec`    | File   | File to load print presets from |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1443,17 +1443,17 @@ Nothing.
 
 `app.activeDocument.importVariables(fileSpec)`
 
-**Description**
+#### Description
 
 Imports a library containing datasets, variables, and their associated dynamic data. Importing variables overwrites existing variables and datasets.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description                   |
 |-------------|--------|-------------------------------|
 | `fileSpec`  | File   | File to import variables from |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1463,17 +1463,17 @@ Nothing.
 
 `app.activeDocument.print([options])`
 
-**Description**
+#### Description
 
 Prints the document.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                                            | Description   |
 |-------------|-----------------------------------------------------------------|---------------|
 | `options`   | [PrintOptions](./PrintOptions.md), optional | todo          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1483,11 +1483,11 @@ Nothing.
 
 `app.activeDocument.rasterize(sourceArt [, clipBounds] [, options])`
 
-**Description**
+#### Description
 
 Rasterizes the source art(s) within the specified clip bounds. The source art(s) is disposed of as a result of the rasterization.
 
-**Parameters**
+#### Parameters
 
 | Parameter    | Type                                                                        | Description             |
 |--------------|-----------------------------------------------------------------------------|-------------------------|
@@ -1495,7 +1495,7 @@ Rasterizes the source art(s) within the specified clip bounds. The source art(s)
 | `clipBounds` | Rect, optional                                                              | Clipping bounds         |
 | `options`    | [RasterizeOptions](./RasterizeOptions.md), optional | todo                    |
 
-**Returns**
+#### Returns
 
 [RasterItem](./RasterItem.md)
 
@@ -1505,7 +1505,7 @@ Rasterizes the source art(s) within the specified clip bounds. The source art(s)
 
 `app.activeDocument.rearrangeArboards([artboardLayout] [, artboardRowsOrCols] [, artboardSpacing] [, artboardMoveArtwork])`
 
-**Description**
+#### Description
 
 Rearranges artboards in the document. All arguments are optional.
 
@@ -1517,7 +1517,7 @@ Spacing is a number of pixels, default 20.
 
 When last argument is true (the default), artwork is moved with the artboards.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                                           | Description                                |
 |-----------------------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------|
@@ -1526,7 +1526,7 @@ When last argument is true (the default), artwork is moved with the artboards.
 | `artboardSpacing`     | Number, optional                                                                                               | Number of pixels for spacing               |
 | `artboardMoveArtwork` | Boolean, optional                                                                                              | Whether to move artwork with the artboards |
 
-**Returns**
+#### Returns
 
 Boolean.
 
@@ -1536,11 +1536,11 @@ Boolean.
 
 `app.activeDocument.save()`
 
-**Description**
+#### Description
 
 Saves the document in it current location.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1550,18 +1550,18 @@ Nothing.
 
 `app.activeDocument.saveAs(saveIn [, options])`
 
-**Description**
+#### Description
 
 Saves the document in the specified file as an Illustrator, EPS, or PDF file.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                                                                     | Description                  |
 |-------------|------------------------------------------------------------------------------------------|------------------------------|
 | `saveIn`    | File                                                                                     | File to save the document as |
 | `options`   | [SaveOptions](scripting-constants.md#jsobjref-scripting-constants-saveoptions), optional | Save options to close with   |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1571,17 +1571,17 @@ Nothing.
 
 `app.activeDocument.saveNoUI(saveIn)`
 
-**Description**
+#### Description
 
 Saves the non-UI document at the specified path
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description                  |
 |-------------|--------|------------------------------|
 | `saveIn`    | File   | File to save the document as |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -1591,11 +1591,11 @@ Nothing.
 
 `app.activeDocument.selectObjectsOnActiveArtboard()`
 
-**Description**
+#### Description
 
 Selects the objects on the currently active artboard. Returns `true` on success.
 
-**Returns**
+#### Returns
 
 Boolean.
 
@@ -1605,17 +1605,17 @@ Boolean.
 
 `app.activeDocument.setActivePlane(gridPlane)`
 
-**Description**
+#### Description
 
 Sets the active plane of the active perspective grid of the document. Returns `true` on success.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                                                                                     | Description     |
 |-------------|----------------------------------------------------------------------------------------------------------|-----------------|
 | `gridPlane` | [PerspectiveGridPlaneType](scripting-constants.md#jsobjref-scripting-constants-perspectivegridplanetype) | Grid plane type |
 
-**Returns**
+#### Returns
 
 Boolean.
 
@@ -1625,18 +1625,18 @@ Boolean.
 
 `app.activeDocument.selectPerspectivePreset(gridType, presetName)`
 
-**Description**
+#### Description
 
 Selects a predefined preset to define grid for the current document. Returns `true` on success.
 
-**Parameters**
+#### Parameters
 
 | Parameter    | Type                                                                                           | Description           |
 |--------------|------------------------------------------------------------------------------------------------|-----------------------|
 | `gridType`   | [PerspectiveGridType](scripting-constants.md#jsobjref-scripting-constants-perspectivegridtype) | Grid type             |
 | `presetName` | String                                                                                         | Preset name to select |
 
-**Returns**
+#### Returns
 
 Boolean.
 
@@ -1646,11 +1646,11 @@ Boolean.
 
 `app.activeDocument.showPerspectiveGrid()`
 
-**Description**
+#### Description
 
 Shows the current active grid for the document, or if no grid is active, shows the default grid. Returns `true` on success.
 
-**Returns**
+#### Returns
 
 Boolean.
 
@@ -1660,18 +1660,18 @@ Boolean.
 
 `app.activeDocument.windowCapture(imageFile, windowSize)`
 
-**Description**
+#### Description
 
 Captures the current document window to the target TIFF image file.
 
-**Parameters**
+#### Parameters
 
 | Parameter    | Type               | Description           |
 |--------------|--------------------|-----------------------|
 | `imageFile`  | File               | Image file to save as |
 | `windowSize` | Array of 2 numbers | Window size           |
 
-**Returns**
+#### Returns
 
 Nothing.
 

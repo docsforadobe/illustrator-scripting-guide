@@ -2,7 +2,7 @@
 
 `app.activeDocument.textFrames[index].paragraphs`
 
-**Description**
+#### Description
 
 A collection of [TextRange](./TextRange.md) objects, with each `TextRange` representing a paragraph. The elements are not named; you must access them by index.
 
@@ -14,11 +14,11 @@ A collection of [TextRange](./TextRange.md) objects, with each `TextRange` repre
 
 `app.activeDocument.textFrames[index].paragraphs.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `app.activeDocument.textFrames[index].paragraphs.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `app.activeDocument.textFrames[index].paragraphs.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,11 +58,11 @@ String, read-only.
 
 `app.activeDocument.textFrames[index].paragraphs.add(contents [,relativeObject] [,insertionLocation])`
 
-**Description**
+#### Description
 
 Adds a new paragraph with specified text contents at the specified location in the current document. If location is not specified, adds the new paragraph to the containing text frame after the current text selection or insertion point.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description            |
 |---------------------|----------------------------------------------------------------------------------------------------|------------------------|
@@ -70,7 +70,7 @@ Adds a new paragraph with specified text contents at the specified location in t
 | `relativeObject`    | [TextFrameItem](./TextFrameItem.md), optional                                 | Object to add item to  |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to place text |
 
-**Returns**
+#### Returns
 
 [TextRange](./TextRange.md)
 
@@ -80,17 +80,17 @@ Adds a new paragraph with specified text contents at the specified location in t
 
 `app.activeDocument.textFrames[index].paragraphs.addBefore(contents)`
 
-**Description**
+#### Description
 
 Adds a new paragraph with specified text contents before the current text selection or insertion point.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description          |
 |-------------|--------|----------------------|
 | `contents`  | String | Text contents to add |
 
-**Returns**
+#### Returns
 
 [TextRange](./TextRange.md)
 
@@ -100,17 +100,17 @@ Adds a new paragraph with specified text contents before the current text select
 
 `app.activeDocument.textFrames[index].paragraphs.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [TextRange](./TextRange.md)
 
@@ -120,11 +120,11 @@ Gets an element from the collection.
 
 `app.activeDocument.textFrames[index].paragraphs.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

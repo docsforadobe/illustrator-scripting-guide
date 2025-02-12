@@ -2,7 +2,7 @@
 
 `exportOptionsGIF`
 
-**Description**
+#### Description
 
 Options for exporting a document as a GIF file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method. All properties are optional.
 
@@ -16,11 +16,11 @@ When you export a document, the appropriate file extension is appended automatic
 
 `exportOptionsGIF.antiAliasing`
 
-**Description**
+#### Description
 
 If `true`, the exported image should be anti-aliased. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -30,11 +30,11 @@ Boolean.
 
 `exportOptionsGIF.artBoardClipping`
 
-**Description**
+#### Description
 
 If `true`, the exported image should be clipped to the art board. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -44,11 +44,11 @@ Boolean.
 
 `exportOptionsGIF.colorCount`
 
-**Description**
+#### Description
 
 The number of colors in the exported image's color table. Range: 2 to 256. Default: 128.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -58,11 +58,11 @@ Number (long).
 
 `exportOptionsGIF.colorDither`
 
-**Description**
+#### Description
 
 The method used to dither colors in the exported image. Default: `ColorDitherMethod.DIFFUSION`.
 
-**Type**
+#### Type
 
 [ColorDitherMethod](scripting-constants.md#jsobjref-scripting-constants-colordithermethod)
 
@@ -72,11 +72,11 @@ The method used to dither colors in the exported image. Default: `ColorDitherMet
 
 `exportOptionsGIF.colorReduction`
 
-**Description**
+#### Description
 
 The method used to reduce the number of colors in the exported image. `Default: ColorReductionMethod.SELECTIVE`.
 
-**Type**
+#### Type
 
 [ColorReductionMethod](scripting-constants.md#jsobjref-scripting-constants-colorreductionmethod)
 
@@ -86,11 +86,11 @@ The method used to reduce the number of colors in the exported image. `Default: 
 
 `exportOptionsGIF.ditherPercent`
 
-**Description**
+#### Description
 
 How much should the colors of the exported image be dithered, where 100.0 is 100%.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -100,11 +100,11 @@ Number (long).
 
 `exportOptionsGIF.horizontalScale`
 
-**Description**
+#### Description
 
 The horizontal scaling factor to apply to the exported image, where 100.0 is 100%. Default: 100.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -114,11 +114,11 @@ Number (double).
 
 `exportOptionsGIF.infoLossPercent`
 
-**Description**
+#### Description
 
 The level of information loss allowed during compression, where 100.0 is 100%.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -128,11 +128,11 @@ Number (long).
 
 `exportOptionsGIF.interlaced`
 
-**Description**
+#### Description
 
 If `true`, the exported image should be interlaced. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -142,11 +142,11 @@ Boolean.
 
 `exportOptionsGIF.matte`
 
-**Description**
+#### Description
 
 If `true`, the art board should be matted with a color. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -156,11 +156,11 @@ Boolean.
 
 `exportOptionsGIF.matteColor`
 
-**Description**
+#### Description
 
 The color to use when matting the art board. Default: `WHITE`.
 
-**Type**
+#### Type
 
 [RGBColor](./RGBColor.md)
 
@@ -170,11 +170,11 @@ The color to use when matting the art board. Default: `WHITE`.
 
 `exportOptionsGIF.saveAsHTML`
 
-**Description**
+#### Description
 
 If `true`, the exported image should be saved with an accompanying HTML file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -184,11 +184,11 @@ Boolean.
 
 `exportOptionsGIF.transparency`
 
-**Description**
+#### Description
 
 If `true`, the exported image should use transparency. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -198,11 +198,11 @@ Boolean.
 
 `exportOptionsGIF.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -212,11 +212,11 @@ String, read-only.
 
 `exportOptionsGIF.verticalScale`
 
-**Description**
+#### Description
 
 The vertical scaling factor to apply to the exported image, where 100.0 is 100%. Default: 100.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -226,11 +226,11 @@ Number (double).
 
 `exportOptionsGIF.webSnap`
 
-**Description**
+#### Description
 
 Howmuchshouldthecolortablebechangedtomatch the web palette, where 100 is maximum. Default: 0.
 
-**Type**
+#### Type
 
 Number (long).
 

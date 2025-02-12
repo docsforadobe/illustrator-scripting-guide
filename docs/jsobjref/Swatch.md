@@ -2,7 +2,7 @@
 
 `app.activeDocument.swatches[index`
 
-**Description**
+#### Description
 
 A color swatch definition contained in a document. The swatches correspond to the swatch palette in the Illustrator user interface.
 
@@ -18,11 +18,11 @@ The swatch can hold all types of color data, such as pattern, gradient, CMYK, RG
 
 `app.activeDocument.swatches[index].color`
 
-**Description**
+#### Description
 
 The color information for this swatch.
 
-**Type**
+#### Type
 
 [Color](./Color.md)
 
@@ -32,11 +32,11 @@ The color information for this swatch.
 
 `app.activeDocument.swatches[index].name`
 
-**Description**
+#### Description
 
 The swatch's name.
 
-**Type**
+#### Type
 
 String.
 
@@ -46,11 +46,11 @@ String.
 
 `app.activeDocument.swatches[index].parent`
 
-**Description**
+#### Description
 
 The object that contains this swatch.
 
-**Type**
+#### Type
 
 [Document](./Document.md), read-only.
 
@@ -60,11 +60,11 @@ The object that contains this swatch.
 
 `app.activeDocument.swatches[index].typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -76,11 +76,11 @@ String, read-only.
 
 `app.activeDocument.swatches[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.
 

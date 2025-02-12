@@ -2,7 +2,7 @@
 
 `app.activeDocument.textFrames[index].insertionPoints[index`
 
-**Description**
+#### Description
 
 A location between characters that is used to insert new text objects. An insertion point is contained in an `InsertionPoints` collection.
 
@@ -14,11 +14,11 @@ A location between characters that is used to insert new text objects. An insert
 
 `app.activeDocument.textFrames[index].insertionPoints[index].characters`
 
-**Description**
+#### Description
 
 All the characters in this text range.
 
-**Type**
+#### Type
 
 [Characters](./Characters.md), read-only.
 
@@ -28,11 +28,11 @@ All the characters in this text range.
 
 `app.activeDocument.textFrames[index].insertionPoints[index].lines`
 
-**Description**
+#### Description
 
 All the lines in this text range.
 
-**Type**
+#### Type
 
 [Lines](./Lines.md), read-only.
 
@@ -42,11 +42,11 @@ All the lines in this text range.
 
 `app.activeDocument.textFrames[index].insertionPoints[index].paragraphs`
 
-**Description**
+#### Description
 
 All the paragraphs in this text range.
 
-**Type**
+#### Type
 
 [Paragraphs](./Paragraphs.md), read-only.
 
@@ -56,11 +56,11 @@ All the paragraphs in this text range.
 
 `app.activeDocument.textFrames[index].insertionPoints[index].parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 [TextRange](./TextRange.md), read-only.
 
@@ -70,11 +70,11 @@ The object's container.
 
 `app.activeDocument.textFrames[index].insertionPoints[index].story`
 
-**Description**
+#### Description
 
 The story to which the text range belongs.
 
-**Type**
+#### Type
 
 [Story](./Story.md), read-only.
 
@@ -84,11 +84,11 @@ The story to which the text range belongs.
 
 `app.activeDocument.textFrames[index].insertionPoints[index].textRanges`
 
-**Description**
+#### Description
 
 All of the text in this text range.
 
-**Type**
+#### Type
 
 [TextRanges](./TextRanges.md), read-only.
 
@@ -98,11 +98,11 @@ All of the text in this text range.
 
 `app.activeDocument.textFrames[index].insertionPoints[index].typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -112,10 +112,10 @@ String, read-only.
 
 `app.activeDocument.textFrames[index].insertionPoints[index].words`
 
-**Description**
+#### Description
 
 All the words contained in this text range.
 
-**Type**
+#### Type
 
 [Words](./Words.md), read-only.

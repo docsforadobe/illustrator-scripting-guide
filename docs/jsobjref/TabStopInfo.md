@@ -2,7 +2,7 @@
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops`
 
-**Description**
+#### Description
 
 Information about the alignment, position, and other details for a tab stop in a [ParagraphAttributes](./ParagraphAttributes.md) object.
 
@@ -14,13 +14,13 @@ Information about the alignment, position, and other details for a tab stop in a
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.alignment`
 
-**Description**
+#### Description
 
 The alignment of the tab stop.
 
 Default: `Left`
 
-**Type**
+#### Type
 
 [TabStopAlignment](scripting-constants.md#jsobjref-scripting-constants-tabstopalignment)
 
@@ -30,13 +30,13 @@ Default: `Left`
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.decimalCharacter`
 
-**Description**
+#### Description
 
 The character used for decimal tab stops.
 
 Default: `.`
 
-**Type**
+#### Type
 
 String
 
@@ -46,11 +46,11 @@ String
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.leader`
 
-**Description**
+#### Description
 
 The leader dot character.
 
-**Type**
+#### Type
 
 String
 
@@ -60,13 +60,13 @@ String
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.position`
 
-**Description**
+#### Description
 
 The position of the tab stop expressed in points.
 
 Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -76,11 +76,11 @@ Number (double)
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 

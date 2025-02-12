@@ -2,7 +2,7 @@
 
 `exportOptionsTIFF`
 
-**Description**
+#### Description
 
 Options for exporting a document as a TIFF file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method. All properties are optional.
 
@@ -16,11 +16,11 @@ When you export a document, the appropriate file extension is appended automatic
 
 `exportOptionsTIFF.antiAliasing`
 
-**Description**
+#### Description
 
 If `true`, the exported image should be anti-aliased. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -30,11 +30,11 @@ Boolean.
 
 `exportOptionsTIFF.artboardRange`
 
-**Description**
+#### Description
 
 If `saveMultipleArtboards` is `true`, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty String.
 
-**Type**
+#### Type
 
 String.
 
@@ -44,11 +44,11 @@ String.
 
 `exportOptionsTIFF.byteOrder`
 
-**Description**
+#### Description
 
 The byte order to use in the new file.
 
-**Type**
+#### Type
 
 [TIFFByteOrder](scripting-constants.md#jsobjref-scripting-constants-tiffbyteorder)
 
@@ -58,11 +58,11 @@ The byte order to use in the new file.
 
 `exportOptionsTIFF.imageColorSpace`
 
-**Description**
+#### Description
 
 The color space of the exported file. Default: `ImageColorSpace.RGB`.
 
-**Type**
+#### Type
 
 [ImageColorSpace](scripting-constants.md#jsobjref-scripting-constants-imagecolorspace)
 
@@ -75,11 +75,11 @@ The color space of the exported file. Default: `ImageColorSpace.RGB`.
 !!! note
     This property was erroneously written as "IZWCompression" (with a capital "I"), as opposed to "lzwCompression" (with a lowercase "L"). Note that the latter is correct, and this doc has been updated to reflect this.
 
-**Description**
+#### Description
 
 If `true`, use IZW compression in the new file.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -89,11 +89,11 @@ Boolean.
 
 `exportOptionsTIFF.resolution`
 
-**Description**
+#### Description
 
 Resolution of the exported file in dots per inch (dpi). Range: 72.0 to 2400.0. Default: 150.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -103,11 +103,11 @@ Number (double).
 
 `exportOptionsTIFF.saveMultipleArtboards`
 
-**Description**
+#### Description
 
 If `true`, all artboards or range of artboards are saved. Default: `false`.
 
-**Type**
+#### Type
 
 Number (double).
 

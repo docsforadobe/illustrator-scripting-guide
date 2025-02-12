@@ -2,7 +2,7 @@
 
 `new PrintPaperOptions()`
 
-**Description**
+#### Description
 
 Information about the paper to be used in the print job.
 
@@ -14,13 +14,13 @@ Information about the paper to be used in the print job.
 
 `printPaperOptions.height`
 
-**Description**
+#### Description
 
 The custom height (in points) for using the custom paper.
 
 Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -30,11 +30,11 @@ Number (double)
 
 `printPaperOptions.name`
 
-**Description**
+#### Description
 
 The paper's name.
 
-**Type**
+#### Type
 
 String
 
@@ -44,13 +44,13 @@ String
 
 `printPaperOptions.offset`
 
-**Description**
+#### Description
 
 Custom offset (in points) for using the custom paper.
 
 Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -60,13 +60,13 @@ Number (double)
 
 `printPaperOptions.transverse`
 
-**Description**
+#### Description
 
 If `true`, transverse the artwork (rotate 90 degrees) on the custom paper.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -76,11 +76,11 @@ Boolean
 
 `printPaperOptions.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -90,13 +90,13 @@ String; read-only.
 
 `printPaperOptions.width`
 
-**Description**
+#### Description
 
 The custom width (in points) for using the custom paper.
 
 Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 

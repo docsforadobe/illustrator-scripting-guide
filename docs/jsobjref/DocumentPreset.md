@@ -2,7 +2,7 @@
 
 `documentPreset`
 
-**Description**
+#### Description
 
 A preset document template to use when creating a new document. See [Documents.addDocument()](Documents.md#jsobjref-documents-adddocument).
 
@@ -14,11 +14,11 @@ A preset document template to use when creating a new document. See [Documents.a
 
 `documentPreset.artboardLayout`
 
-**Description**
+#### Description
 
 The layout of artboards in the new document. Default: `GridByRow`.
 
-**Type**
+#### Type
 
 [DocumentArtboardLayout](scripting-constants.md#jsobjref-scripting-constants-documentartboardlayout)
 
@@ -28,11 +28,11 @@ The layout of artboards in the new document. Default: `GridByRow`.
 
 `documentPreset.artboardRowsOrCols`
 
-**Description**
+#### Description
 
 The number of rows (for rows layout) or columns (for column layout) of artboards. Range: 1 to (`numArtboards` - 1) or 1 for single row or column layouts. Default: 1
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -42,11 +42,11 @@ Number (long).
 
 `documentPreset.artboardSpacing`
 
-**Description**
+#### Description
 
 The spacing between artboards in the new document. Default: 20.0
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -56,11 +56,11 @@ Number (double).
 
 `documentPreset.colorMode`
 
-**Description**
+#### Description
 
 The color space for the new document.
 
-**Type**
+#### Type
 
 [DocumentColorSpace](scripting-constants.md#jsobjref-scripting-constants-documentcolorspace)
 
@@ -70,11 +70,11 @@ The color space for the new document.
 
 `documentPreset.documentBleedLink`
 
-**Description**
+#### Description
 
 The document link for bleed values.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -84,11 +84,11 @@ Boolean.
 
 `documentPreset.documentBleedOffsetRect`
 
-**Description**
+#### Description
 
 The document bleed offset rectangle.
 
-**Type**
+#### Type
 
 Rectangle.
 
@@ -98,11 +98,11 @@ Rectangle.
 
 `documentPreset.height`
 
-**Description**
+#### Description
 
 The height in document points. Default: 792.0
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -112,11 +112,11 @@ Number (double).
 
 `documentPreset.numArtboards`
 
-**Description**
+#### Description
 
 The number of artboards for the new document. Range: 1 to 100. Default: 1.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -126,11 +126,11 @@ Number (long).
 
 `documentPreset.previewMode`
 
-**Description**
+#### Description
 
 The preview mode for the new document.
 
-**Type**
+#### Type
 
 [DocumentPreviewMode](scripting-constants.md#jsobjref-scripting-constants-documentpreviewmode)
 
@@ -140,11 +140,11 @@ The preview mode for the new document.
 
 `documentPreset.rasterResolution`
 
-**Description**
+#### Description
 
 The raster resolution for the new document.
 
-**Type**
+#### Type
 
 [DocumentRasterResolution](scripting-constants.md#jsobjref-scripting-constants-documentrasterresolution)
 
@@ -154,11 +154,11 @@ The raster resolution for the new document.
 
 `documentPreset.title`
 
-**Description**
+#### Description
 
 The document title.
 
-**Type**
+#### Type
 
 String.
 
@@ -168,11 +168,11 @@ String.
 
 `documentPreset.transparencyGrid`
 
-**Description**
+#### Description
 
 The transparency grid color for the new document.
 
-**Type**
+#### Type
 
 [DocumentTransparencyGrid](scripting-constants.md#jsobjref-scripting-constants-documenttransparencygrid)
 
@@ -182,11 +182,11 @@ The transparency grid color for the new document.
 
 `documentPreset.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -196,11 +196,11 @@ String, read-only.
 
 `documentPreset.units`
 
-**Description**
+#### Description
 
 The ruler units for the new document.
 
-**Type**
+#### Type
 
 [RulerUnits](scripting-constants.md#jsobjref-scripting-constants-rulerunits)
 
@@ -210,10 +210,10 @@ The ruler units for the new document.
 
 `documentPreset.width`
 
-**Description**
+#### Description
 
 The width in document points. Default: 612.0
 
-**Type**
+#### Type
 
 Number (double).

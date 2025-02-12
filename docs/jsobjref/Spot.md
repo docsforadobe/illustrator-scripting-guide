@@ -2,7 +2,7 @@
 
 `app.activeDocument.spots[index`
 
-**Description**
+#### Description
 
 A custom color definition contained in a [SpotColor](./SpotColor.md) object.
 
@@ -20,11 +20,11 @@ The new spot is added to the end of the swatches list in the Swatches palette.
 
 `app.activeDocument.spots[index].color`
 
-**Description**
+#### Description
 
 The color information for this spot color.
 
-**Type**
+#### Type
 
 [Color](./Color.md)
 
@@ -34,11 +34,11 @@ The color information for this spot color.
 
 `app.activeDocument.spots[index].colorType`
 
-**Description**
+#### Description
 
 The color model for this custom color.
 
-**Type**
+#### Type
 
 [ColorModel](scripting-constants.md#jsobjref-scripting-constants-colormodel)
 
@@ -48,11 +48,11 @@ The color model for this custom color.
 
 `app.activeDocument.spots[index].name`
 
-**Description**
+#### Description
 
 The spot color's name.
 
-**Type**
+#### Type
 
 String
 
@@ -62,11 +62,11 @@ String
 
 `app.activeDocument.spots[index].parent`
 
-**Description**
+#### Description
 
 The document that contains this spot color.
 
-**Type**
+#### Type
 
 [Document](./Document.md); read-only.
 
@@ -76,11 +76,11 @@ The document that contains this spot color.
 
 `app.activeDocument.spots[index].spotKind`
 
-**Description**
+#### Description
 
 The kind of spot color (RGB, CMYK or LAB). This is the name of the color kind contained in the spot object.
 
-**Type**
+#### Type
 
 [SpotColorKind](scripting-constants.md#jsobjref-scripting-constants-spotcolorkind); read-only.
 
@@ -90,11 +90,11 @@ The kind of spot color (RGB, CMYK or LAB). This is the name of the color kind co
 
 `app.activeDocument.spots[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -106,11 +106,11 @@ String; read-only.
 
 `app.activeDocument.spots[index].getInternalColor()`
 
-**Description**
+#### Description
 
 Gets the internal color of a spot.
 
-**Returns**
+#### Returns
 
 Color components.
 
@@ -120,11 +120,11 @@ Color components.
 
 `app.activeDocument.spots[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.
 

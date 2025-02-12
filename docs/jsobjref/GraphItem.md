@@ -2,7 +2,7 @@
 
 `app.activeDocument.graphItems[index`
 
-**Description**
+#### Description
 
 Any graph artwork object. See example [Rotating graph items](GraphItems.md#jsobjref-graphitems-rotatinggraphitems).
 
@@ -14,11 +14,11 @@ Any graph artwork object. See example [Rotating graph items](GraphItems.md#jsobj
 
 `app.activeDocument.graphItems[index].artworkKnockout`
 
-**Description**
+#### Description
 
 Is this object used to create a knockout, and if so, what kind of knockout. You cannot set this value to `KnockoutState.Unknown`.
 
-**Type**
+#### Type
 
 [KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
@@ -28,11 +28,11 @@ Is this object used to create a knockout, and if so, what kind of knockout. You 
 
 `app.activeDocument.graphItems[index].blendingMode`
 
-**Description**
+#### Description
 
 The mode used when compositing an object.
 
-**Type**
+#### Type
 
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
@@ -42,13 +42,13 @@ The mode used when compositing an object.
 
 `app.activeDocument.graphItems[index].contentVariable`
 
-**Description**
+#### Description
 
 The content variable bound to the graph item.
 
 It is not necessary to set the type of the `contentVariable` before binding. Illustrator automatically set the type to `GRAPH`.
 
-**Type**
+#### Type
 
 [Variable](./Variable.md)
 
@@ -58,13 +58,13 @@ It is not necessary to set the type of the `contentVariable` before binding. Ill
 
 `app.activeDocument.graphItems[index].controlBounds`
 
-**Description**
+#### Description
 
 The content variable bound to the graph item.
 
 The bounds of the object including stroke width and controls.
 
-**Type**
+#### Type
 
 Array of 4 numbers, read-only.
 
@@ -74,11 +74,11 @@ Array of 4 numbers, read-only.
 
 `app.activeDocument.graphItems[index].editable`
 
-**Description**
+#### Description
 
 If `true`, this graph item is editable.
 
-**Type**
+#### Type
 
 Boolean, read-only.
 
@@ -88,11 +88,11 @@ Boolean, read-only.
 
 `app.activeDocument.graphItems[index].geometricBounds`
 
-**Description**
+#### Description
 
 The bounds of the object excluding stroke width.
 
-**Type**
+#### Type
 
 Array of 4 numbers, read-only.
 
@@ -102,11 +102,11 @@ Array of 4 numbers, read-only.
 
 `app.activeDocument.graphItems[index].height`
 
-**Description**
+#### Description
 
 The height of the graph item.
 
-**Type**
+#### Type
 
 Number (double), read-only.
 
@@ -116,11 +116,11 @@ Number (double), read-only.
 
 `app.activeDocument.graphItems[index].hidden`
 
-**Description**
+#### Description
 
 If `true`, this graph item is hidden.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -130,11 +130,11 @@ Boolean.
 
 `app.activeDocument.graphItems[index].isIsolated`
 
-**Description**
+#### Description
 
 If `true`, this object is isolated.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -144,11 +144,11 @@ Boolean.
 
 `app.activeDocument.graphItems[index].layer`
 
-**Description**
+#### Description
 
 The layer to which this graph item belongs.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md), read-only.
 
@@ -158,11 +158,11 @@ The layer to which this graph item belongs.
 
 `app.activeDocument.graphItems[index].left`
 
-**Description**
+#### Description
 
 The offset (in points) of the left side of the graph item from the left side of the page.
 
-**Type**
+#### Type
 
 Number.
 
@@ -172,11 +172,11 @@ Number.
 
 `app.activeDocument.graphItems[index].locked`
 
-**Description**
+#### Description
 
 If `true`, this graph item is locked.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -186,11 +186,11 @@ Boolean.
 
 `app.activeDocument.graphItems[index].name`
 
-**Description**
+#### Description
 
 The name of this graph item.
 
-**Type**
+#### Type
 
 String.
 
@@ -200,11 +200,11 @@ String.
 
 `app.activeDocument.graphItems[index].note`
 
-**Description**
+#### Description
 
 The note assigned to this item.
 
-**Type**
+#### Type
 
 String.
 
@@ -214,11 +214,11 @@ String.
 
 `app.activeDocument.graphItems[index].opacity`
 
-**Description**
+#### Description
 
 The opacity of the object; the value is between 0.0 and 100.0.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -228,11 +228,11 @@ Number (double)
 
 `app.activeDocument.graphItems[index].parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md) or [GroupItem](./GroupItem.md)
 
@@ -242,11 +242,11 @@ The parent of this object.
 
 `app.activeDocument.graphItems[index].position`
 
-**Description**
+#### Description
 
 The position (in points) of the top left corner of the `graphItem` object in the format [x, y]. Does not include stroke weight.
 
-**Type**
+#### Type
 
 Array of 2 numbers.
 
@@ -256,11 +256,11 @@ Array of 2 numbers.
 
 `app.activeDocument.graphItems[index].selected`
 
-**Description**
+#### Description
 
 If `true`, this object is selected.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -270,11 +270,11 @@ Boolean.
 
 `app.activeDocument.graphItems[index].sliced`
 
-**Description**
+#### Description
 
 If `true`, the graph item is sliced. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -284,11 +284,11 @@ Boolean.
 
 `app.activeDocument.graphItems[index].tags`
 
-**Description**
+#### Description
 
 The tags contained in this graph item.
 
-**Type**
+#### Type
 
 [Tags](./Tags.md), read-only.
 
@@ -298,11 +298,11 @@ The tags contained in this graph item.
 
 `app.activeDocument.graphItems[index].top`
 
-**Description**
+#### Description
 
 The offset (in points) of the top of the graph item from the bottom of the page.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -312,11 +312,11 @@ Number (double).
 
 `app.activeDocument.graphItems[index].typename`
 
-**Description**
+#### Description
 
 The type of the graph item.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -326,11 +326,11 @@ String, read-only.
 
 `app.activeDocument.graphItems[index].uRL`
 
-**Description**
+#### Description
 
 The value of the Adobe URL tag assigned to this graph item.
 
-**Type**
+#### Type
 
 String.
 
@@ -340,13 +340,13 @@ String.
 
 `app.activeDocument.graphItems[index].visibilityVariable`
 
-**Description**
+#### Description
 
 The visibility variable bound to the graph item.
 
 It is not necessary to set the type of the `visibilityVariable` before binding. Illustrator automatically set the type to `VISIBILITY`.
 
-**Type**
+#### Type
 
 [Variable](./Variable.md)
 
@@ -356,11 +356,11 @@ It is not necessary to set the type of the `visibilityVariable` before binding. 
 
 `app.activeDocument.graphItems[index].visibleBounds`
 
-**Description**
+#### Description
 
 The visible bounds of the graph item including stroke width.
 
-**Type**
+#### Type
 
 Array of 4 numbers, read-only.
 
@@ -370,11 +370,11 @@ Array of 4 numbers, read-only.
 
 `app.activeDocument.graphItems[index].width`
 
-**Description**
+#### Description
 
 The width of the graph item. Range: 0.0 to 16348.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -384,11 +384,11 @@ Number (double).
 
 `app.activeDocument.graphItems[index].wrapInside`
 
-**Description**
+#### Description
 
 If `true`, the text frame object should be wrapped inside this object.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -398,11 +398,11 @@ Boolean.
 
 `app.activeDocument.graphItems[index].wrapOffset`
 
-**Description**
+#### Description
 
 The offset to use when wrapping text around this object.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -412,11 +412,11 @@ Number (double).
 
 `app.activeDocument.graphItems[index].wrapped`
 
-**Description**
+#### Description
 
 If `true`, wrap text frame objects around this object. (Text frame must be above the object.)
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -426,11 +426,11 @@ Boolean.
 
 `app.activeDocument.graphItems[index].zOrderPosition`
 
-**Description**
+#### Description
 
 The position of this art item within the stacking order of the group or layer (parent) that contains the art item.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -442,18 +442,18 @@ Number (long).
 
 `app.activeDocument.graphItems[index].duplicate([relativeObject] [,insertionLocation])`
 
-**Description**
+#### Description
 
 Creates a duplicate of the selected object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                |
 |---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
 | `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
-**Returns**
+#### Returns
 
 [GraphItem](#jsobjref-graphitem)
 
@@ -463,18 +463,18 @@ Creates a duplicate of the selected object.
 
 `app.activeDocument.graphItems[index].move(relativeObject, insertionLocation)`
 
-**Description**
+#### Description
 
 Moves the object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                   |
 |---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
 | `relativeObject`    | Object                                                                                             | Object to move element within |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
-**Returns**
+#### Returns
 
 [GraphItem](#jsobjref-graphitem)
 
@@ -484,11 +484,11 @@ Moves the object.
 
 `app.activeDocument.graphItems[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -509,11 +509,11 @@ app.activeDocument.graphItems[index].resize(
 )
 ```
 
-**Description**
+#### Description
 
 Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -526,7 +526,7 @@ Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY`
 | `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
 | `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -545,11 +545,11 @@ app.activeDocument.graphItems[index].rotate(
 )
 ```
 
-**Description**
+#### Description
 
 Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -560,7 +560,7 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 | `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
 | `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -580,11 +580,11 @@ app.activeDocument.graphItems[index].transform(
 )
 ```
 
-**Description**
+#### Description
 
 Transforms the art item by applying a transformation matrix.
 
-**Parameters**
+#### Parameters
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
@@ -596,7 +596,7 @@ Transforms the art item by applying a transformation matrix.
 | `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
 | `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -615,11 +615,11 @@ app.activeDocument.graphItems[index].translate(
 )
 ```
 
-**Description**
+#### Description
 
 Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
-**Parameters**
+#### Parameters
 
 | Parameter                 | Type                      | Description                          |
 |---------------------------|---------------------------|--------------------------------------|
@@ -630,7 +630,7 @@ Repositions the art item relative to the current position, where `deltaX` is the
 | `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
 | `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -640,16 +640,16 @@ Nothing.
 
 `app.activeDocument.graphItems[index].zOrder(zOrderCmd)`
 
-**Description**
+#### Description
 
 Arranges the art item's position in the stacking order of the group or layer (parent) of this object.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                                                             | Description                       |
 |-------------|----------------------------------------------------------------------------------|-----------------------------------|
 | `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
-**Returns**
+#### Returns
 
 Nothing.

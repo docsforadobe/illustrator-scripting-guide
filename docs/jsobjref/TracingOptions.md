@@ -2,7 +2,7 @@
 
 `image.tracing.tracingOptions`
 
-**Description**
+#### Description
 
 A set of options used in converting raster art to vector art by tracing.
 
@@ -14,13 +14,13 @@ A set of options used in converting raster art to vector art by tracing.
 
 `image.tracing.tracingOptions.cornerAngle`
 
-**Description**
+#### Description
 
 The sharpness, in degrees of a turn in the original image that is considered a corner in the tracing result path.
 
 Range: 0 to 180
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -30,11 +30,11 @@ Number (double)
 
 `image.tracing.tracingOptions.fills`
 
-**Description**
+#### Description
 
 If `true`, trace with fills. At least one of `fills` or `strokes` must be true.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -44,11 +44,11 @@ Boolean
 
 `image.tracing.tracingOptions.ignoreWhite`
 
-**Description**
+#### Description
 
 If `true`, ignores white fill color.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -58,14 +58,14 @@ Boolean
 
 `image.tracing.tracingOptions.livePaintOutput`
 
-**Description**
+#### Description
 
 If `true`, result is LivePaint art. If `false`, it is classic art.
 
 !!! note
     A script should only set this value in preparation for a subsequent expand operation. Leaving a tracing on the artboard when this property is `true` can lead to unexpected application behavior.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -75,7 +75,7 @@ Boolean
 
 `image.tracing.tracingOptions.maxColors`
 
-**Description**
+#### Description
 
 The maximum number of colors allowed for automatic palette generation.
 
@@ -83,7 +83,7 @@ Used only if `tracingMode` is `TracingModeType.TRACINGMODECOLOR` or `TracingMode
 
 Range: 2 to 256
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -93,13 +93,13 @@ Number (long)
 
 `image.tracing.tracingOptions.maxStrokeWeight`
 
-**Description**
+#### Description
 
 The maximum stroke weight, when `strokes` is true.
 
 Range: 0.01 to 100.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -109,13 +109,13 @@ Number (double)
 
 `image.tracing.tracingOptions.minArea`
 
-**Description**
+#### Description
 
 The smallest feature, in square pixels, that is traced.
 
 For example, if it is 4, a feature of 2 pixels wide by 2 pixels high is traced.
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -125,13 +125,13 @@ Number (long)
 
 `image.tracing.tracingOptions.minStrokeLength`
 
-**Description**
+#### Description
 
 The minimum length in pixels of features in the original image that can be stroked, when `strokes` is `true`.
 
 Smaller features are omitted. Range: 0.0 to 200.0. Default: 20.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -141,13 +141,13 @@ Number (double)
 
 `image.tracing.tracingOptions.outputToSwatches`
 
-**Description**
+#### Description
 
 If `true`, named colors (swatches) are generated for each new color created by the tracing result.
 
 Used only if `tracingMode` is `TracingModeType.TRACINGMODECOLOR` or `TracingModeType.TRACINGMODEGRAY`.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -157,13 +157,13 @@ Boolean
 
 `image.tracing.tracingOptions.palette`
 
-**Description**
+#### Description
 
 The name of a color palette to use for tracing. If the empty string, use the automatic palette.
 
 Used only if `tracingMode` is `TracingModeType.TRACINGMODECOLOR` or `TracingModeType.TRACINGMODEGRAY`.
 
-**Type**
+#### Type
 
 String
 
@@ -173,11 +173,11 @@ String
 
 `image.tracing.tracingOptions.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -187,13 +187,13 @@ Object, read-only.
 
 `image.tracing.tracingOptions.pathFitting`
 
-**Description**
+#### Description
 
 The distance between the traced shape and the original pixel shape. Lower values create a tighter path fitting.
 
 Higher values create a looser path fitting. Range: 0.0 to 10.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -203,11 +203,11 @@ Number (double)
 
 `image.tracing.tracingOptions.preprocessBlur`
 
-**Description**
+#### Description
 
 The amount of blur used during preprocessing, in pixels. Blurring helps reduce small artifacts and smooth jagged edges in the tracing result. Range: 0.0 to 2.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -217,11 +217,11 @@ Number (double)
 
 `image.tracing.tracingOptions.preset`
 
-**Description**
+#### Description
 
 The name of a preset file containing these options.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -231,13 +231,13 @@ String, read-only.
 
 `image.tracing.tracingOptions.resample`
 
-**Description**
+#### Description
 
 If `true`, resample when tracing. (This setting is not captured in a preset file.)
 
 Always `true` when the raster source art is placed or linked.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -247,13 +247,13 @@ Boolean
 
 `image.tracing.tracingOptions.resampleResolution`
 
-**Description**
+#### Description
 
 The resolution to use when resampling in pixels per inch (ppi).
 
 Lower resolution increases the speed of the tracing operation. (This setting is not captured in a preset file.)
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -263,13 +263,13 @@ Number (double)
 
 `image.tracing.tracingOptions.strokes`
 
-**Description**
+#### Description
 
 If `true`, trace with strokes. At least one of fills or strokes must be true.
 
 Used only if `tracingMode` is `TracingModeType.TRACINGMODEBLACKANDWHITE`.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -279,7 +279,7 @@ Boolean
 
 `image.tracing.tracingOptions.threshold`
 
-**Description**
+#### Description
 
 The threshold value of black-and-white tracing. All pixels with a grayscale value greater than this are converted to black.
 
@@ -287,7 +287,7 @@ Used only if `tracingMode` is `TracingModeType.TRACINGMODEBLACKANDWHITE`.
 
 Range: 0 to 255
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -297,11 +297,11 @@ Number (long)
 
 `image.tracing.tracingOptions.tracingMode`
 
-**Description**
+#### Description
 
 The color mode for tracing.
 
-**Type**
+#### Type
 
 [TracingModeType](scripting-constants.md#jsobjref-scripting-constants-tracingmodetype)
 
@@ -311,11 +311,11 @@ The color mode for tracing.
 
 `image.tracing.tracingOptions.typename`
 
-**Description**
+#### Description
 
 Read-only. The class name of the object.
 
-**Type**
+#### Type
 
 String
 
@@ -325,11 +325,11 @@ String
 
 `image.tracing.tracingOptions.viewRaster`
 
-**Description**
+#### Description
 
 The view for previews of the raster image. (This setting is not captured in a preset file.)
 
-**Type**
+#### Type
 
 [ViewRasterType](scripting-constants.md#jsobjref-scripting-constants-viewrastertype)
 
@@ -339,11 +339,11 @@ The view for previews of the raster image. (This setting is not captured in a pr
 
 `image.tracing.tracingOptions.viewVector`
 
-**Description**
+#### Description
 
 The view for previews of the vector result. (This setting is not captured in a preset file.)
 
-**Type**
+#### Type
 
 [ViewVectorType](scripting-constants.md#jsobjref-scripting-constants-viewvectortype)
 
@@ -355,17 +355,17 @@ The view for previews of the vector result. (This setting is not captured in a p
 
 `image.tracing.tracingOptions.loadFromPreset(parameter)`
 
-**Description**
+#### Description
 
 Loads a set of options from the specified preset, as found in the `Application.tracingPresetList` array.
 
-**Parameters**
+#### Parameters
 
 | Parameter    | Type   | Description         |
 |--------------|--------|---------------------|
 | `presetName` | String | Preset name to load |
 
-**Returns**
+#### Returns
 
 Boolean
 
@@ -375,7 +375,7 @@ Boolean
 
 `image.tracing.tracingOptions.storeToPreset(parameter)`
 
-**Description**
+#### Description
 
 Saves this set of options in the specified preset.
 
@@ -385,12 +385,12 @@ For an existing preset, overwrites an unlocked preset and returns `true`.
 
 Returns `false` if the preset is locked.
 
-**Parameters**
+#### Parameters
 
 | Parameter    | Type   | Description            |
 |--------------|--------|------------------------|
 | `presetName` | String | Preset name to save as |
 
-**Returns**
+#### Returns
 
 Boolean

@@ -2,7 +2,7 @@
 
 `app.activeDocument.inkLisk[index`
 
-**Description**
+#### Description
 
 Associates a document ink name with ink information.
 
@@ -14,11 +14,11 @@ Associates a document ink name with ink information.
 
 `app.activeDocument.inkLisk[index].inkInfo`
 
-**Description**
+#### Description
 
 The ink information
 
-**Type**
+#### Type
 
 [InkInfo](./InkInfo.md)
 
@@ -28,11 +28,11 @@ The ink information
 
 `app.activeDocument.inkLisk[index].name`
 
-**Description**
+#### Description
 
 The ink's name.
 
-**Type**
+#### Type
 
 String.
 
@@ -42,10 +42,10 @@ String.
 
 `app.activeDocument.inkLisk[index].typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.

@@ -2,7 +2,7 @@
 
 `app.activeDocument.symbols[index`
 
-**Description**
+#### Description
 
 An art item that is stored in the Symbols palette, and can be reused one or more times in the document without duplicating the art data. Symbols are contained in documents.
 
@@ -16,11 +16,11 @@ Instances of `Symbol` in a document are associated with [SymbolItem](./SymbolIte
 
 `app.activeDocument.symbols[index].name`
 
-**Description**
+#### Description
 
 The symbol's name
 
-**Type**
+#### Type
 
 String.
 
@@ -30,11 +30,11 @@ String.
 
 `app.activeDocument.symbols[index].parent`
 
-**Description**
+#### Description
 
 The object that contains the symbol object.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -44,11 +44,11 @@ Object, read-only.
 
 `app.activeDocument.symbols[index].typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -60,11 +60,11 @@ String, read-only.
 
 `app.activeDocument.symbols[index].duplicate()`
 
-**Description**
+#### Description
 
 Creates a duplicate of this object.
 
-**Returns**
+#### Returns
 
 [Symbol](#jsobjref-symbol)
 
@@ -74,10 +74,10 @@ Creates a duplicate of this object.
 
 `app.activeDocument.symbols[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.

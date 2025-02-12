@@ -2,7 +2,7 @@
 
 `app.activeDocument.textFrames[index].words`
 
-**Description**
+#### Description
 
 A collection of words in a text item, where each word is a [TextRange](./TextRange.md) object.
 
@@ -16,11 +16,11 @@ The elements are not named; you must access them by index.
 
 `app.activeDocument.textFrames[index].words.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection
 
-**Type**
+#### Type
 
 Number; read-only.
 
@@ -30,11 +30,11 @@ Number; read-only.
 
 `app.activeDocument.textFrames[index].words.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -44,11 +44,11 @@ Object; read-only.
 
 `app.activeDocument.textFrames[index].words.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -60,13 +60,13 @@ String; read-only.
 
 `app.activeDocument.textFrames[index].words.add(contents[, relativeObject][, inseertLocation])`
 
-**Description**
+#### Description
 
 Adds a word to the current document at the specified location.
 
 If no location is specified, adds it to the containing text frame after the current word selection or insertion point.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description             |
 |---------------------|----------------------------------------------------------------------------------------------------|-------------------------|
@@ -74,7 +74,7 @@ If no location is specified, adds it to the containing text frame after the curr
 | `relativeObject`    | [TextFrameItem](./TextFrameItem.md), optional                                 | Object to add item to   |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert text |
 
-**Returns**
+#### Returns
 
 [TextRange](./TextRange.md)
 
@@ -84,17 +84,17 @@ If no location is specified, adds it to the containing text frame after the curr
 
 `app.activeDocument.textFrames[index].words.addBefore(contents)`
 
-**Description**
+#### Description
 
 Adds a word before the current word selection or insertion point.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description   |
 |-------------|--------|---------------|
 | `contents`  | String | Word to add   |
 
-**Returns**
+#### Returns
 
 [TextRange](./TextRange.md)
 
@@ -104,17 +104,17 @@ Adds a word before the current word selection or insertion point.
 
 `app.activeDocument.textFrames[index].words.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [TextRange](./TextRange.md)
 
@@ -124,11 +124,11 @@ Gets an element from the collection.
 
 `app.activeDocument.textFrames[index].words.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

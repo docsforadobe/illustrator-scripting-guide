@@ -2,7 +2,7 @@
 
 `app.activeDocument.pluginItems[index`
 
-**Description**
+#### Description
 
 An art item created by an Illustrator plug-in.
 
@@ -16,11 +16,11 @@ Scripts can create a plug-in item using [PlacedItem.trace](PlacedItem.md#jsobjre
 
 `app.activeDocument.pluginItems[index].artworkKnockout`
 
-**Description**
+#### Description
 
 Is this object used to create a knockout, and if so, what kind of knockout.
 
-**Type**
+#### Type
 
 [KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
@@ -30,11 +30,11 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 `app.activeDocument.pluginItems[index].blendingMode`
 
-**Description**
+#### Description
 
 The blend mode used when compositing an object.
 
-**Type**
+#### Type
 
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
@@ -44,11 +44,11 @@ The blend mode used when compositing an object.
 
 `app.activeDocument.pluginItems[index].controlBounds`
 
-**Description**
+#### Description
 
 The bounds of the object including stroke width and controls.
 
-**Type**
+#### Type
 
 Array of 4 numbers; read-only.
 
@@ -58,11 +58,11 @@ Array of 4 numbers; read-only.
 
 `app.activeDocument.pluginItems[index].editable`
 
-**Description**
+#### Description
 
 If `true`, this item is editable.
 
-**Type**
+#### Type
 
 Boolean; read-only.
 
@@ -72,11 +72,11 @@ Boolean; read-only.
 
 `app.activeDocument.pluginItems[index].geometricBounds`
 
-**Description**
+#### Description
 
 The bounds of the object excluding stroke width.
 
-**Type**
+#### Type
 
 Array of 4 numbers; read-only.
 
@@ -86,11 +86,11 @@ Array of 4 numbers; read-only.
 
 `app.activeDocument.pluginItems[index].height`
 
-**Description**
+#### Description
 
 The height of the group item.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -100,11 +100,11 @@ Number (double)
 
 `app.activeDocument.pluginItems[index].hidden`
 
-**Description**
+#### Description
 
 If `true`, this item is hidden.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -114,11 +114,11 @@ Boolean
 
 `app.activeDocument.pluginItems[index].isIsolated`
 
-**Description**
+#### Description
 
 If `true`, this object is isolated.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -128,13 +128,13 @@ Boolean
 
 `app.activeDocument.pluginItems[index].isTracing`
 
-**Description**
+#### Description
 
 If `true`, this plug-in group represents a vector art item created by tracing a raster art item.
 
 The `tracing` property contains the tracing object associated with the options used to create it.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -144,11 +144,11 @@ Boolean
 
 `app.activeDocument.pluginItems[index].layer`
 
-**Description**
+#### Description
 
 The layer to which this item belongs.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md); read-only.
 
@@ -158,11 +158,11 @@ The layer to which this item belongs.
 
 `app.activeDocument.pluginItems[index].left`
 
-**Description**
+#### Description
 
 The position of the left side of the item (in points, measured from the left side of the page).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -172,11 +172,11 @@ Number (double)
 
 `app.activeDocument.pluginItems[index].locked`
 
-**Description**
+#### Description
 
 If `true`, this item is locked.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -186,11 +186,11 @@ Boolean
 
 `app.activeDocument.pluginItems[index].name`
 
-**Description**
+#### Description
 
 The name of this item.
 
-**Type**
+#### Type
 
 String
 
@@ -200,11 +200,11 @@ String
 
 `app.activeDocument.pluginItems[index].note`
 
-**Description**
+#### Description
 
 The note assigned to this item.
 
-**Type**
+#### Type
 
 String
 
@@ -214,11 +214,11 @@ String
 
 `app.activeDocument.pluginItems[index].opacity`
 
-**Description**
+#### Description
 
 The opacity of the object. Range: 0.0 to 100.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -228,11 +228,11 @@ Number (double)
 
 `app.activeDocument.pluginItems[index].parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md) or [GroupItem](./GroupItem.md)
 
@@ -242,11 +242,11 @@ The parent of this object.
 
 `app.activeDocument.pluginItems[index].position`
 
-**Description**
+#### Description
 
 The position (in points) of the top left corner of the `pluginItem` object in the format [x, y]. Does not include stroke weight.
 
-**Type**
+#### Type
 
 Array of 2 numbers; read-only.
 
@@ -256,11 +256,11 @@ Array of 2 numbers; read-only.
 
 `app.activeDocument.pluginItems[index].selected`
 
-**Description**
+#### Description
 
 If `true`, this item is selected.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -270,13 +270,13 @@ Boolean
 
 `app.activeDocument.pluginItems[index].sliced`
 
-**Description**
+#### Description
 
 If `true`, the item sliced.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -286,11 +286,11 @@ Boolean
 
 `app.activeDocument.pluginItems[index].tags`
 
-**Description**
+#### Description
 
 The tags contained in this item.
 
-**Type**
+#### Type
 
 [Tags](./Tags.md); read-only.
 
@@ -300,11 +300,11 @@ The tags contained in this item.
 
 `app.activeDocument.pluginItems[index].top`
 
-**Description**
+#### Description
 
 The position of the top of the item (in points, measured from the bottom of the page).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -314,11 +314,11 @@ Number (double)
 
 `app.activeDocument.pluginItems[index].tracing`
 
-**Description**
+#### Description
 
 When this plug-in group was created by tracing (`isTracing` is `true`), the tracing object associated with the options used to create it.
 
-**Type**
+#### Type
 
 [TracingObject](./TracingObject.md)
 
@@ -328,11 +328,11 @@ When this plug-in group was created by tracing (`isTracing` is `true`), the trac
 
 `app.activeDocument.pluginItems[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -342,11 +342,11 @@ String; read-only.
 
 `app.activeDocument.pluginItems[index].uRL`
 
-**Description**
+#### Description
 
 The value of the Adobe URL tag assigned to this item.
 
-**Type**
+#### Type
 
 String
 
@@ -356,11 +356,11 @@ String
 
 `app.activeDocument.pluginItems[index].visibilityVariable`
 
-**Description**
+#### Description
 
 The visibility variable bound to the item.
 
-**Type**
+#### Type
 
 [Variable](./Variable.md)
 
@@ -370,11 +370,11 @@ The visibility variable bound to the item.
 
 `app.activeDocument.pluginItems[index].visibleBounds`
 
-**Description**
+#### Description
 
 The visible bounds of the item including stroke width.
 
-**Type**
+#### Type
 
 Array of 4 numbers; read-only.
 
@@ -384,11 +384,11 @@ Array of 4 numbers; read-only.
 
 `app.activeDocument.pluginItems[index].width`
 
-**Description**
+#### Description
 
 The width of the item.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -398,11 +398,11 @@ Number (double)
 
 `app.activeDocument.pluginItems[index].wrapInside`
 
-**Description**
+#### Description
 
 If `true`, the text frame object should be wrapped inside this object.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -412,11 +412,11 @@ Boolean
 
 `app.activeDocument.pluginItems[index].wrapOffset`
 
-**Description**
+#### Description
 
 The offset to use when wrapping text around this object.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -426,11 +426,11 @@ Number (double)
 
 `app.activeDocument.pluginItems[index].wrapped`
 
-**Description**
+#### Description
 
 If `true`, wrap text frame objects around this object (text frame must be above the object).
 
-**Type**
+#### Type
 
 Boolean
 
@@ -440,11 +440,11 @@ Boolean
 
 `app.activeDocument.pluginItems[index].zOrderPosition`
 
-**Description**
+#### Description
 
 The position of this item within the stacking order of the group or layer (`parent`) that contains the item.
 
-**Type**
+#### Type
 
 Number; read-only.
 
@@ -456,18 +456,18 @@ Number; read-only.
 
 `app.activeDocument.pluginItems[index].duplicate([relativeObject][, insertionLocation])`
 
-**Description**
+#### Description
 
 Creates a duplicate of the selected object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                |
 |---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
 | `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
-**Returns**
+#### Returns
 
 [PluginItem](#jsobjref-pluginitem)
 
@@ -477,18 +477,18 @@ Creates a duplicate of the selected object.
 
 `app.activeDocument.pluginItems[index].move(relativeObject, insertionLocation)`
 
-**Description**
+#### Description
 
 Moves the object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                   |
 |---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
 | `relativeObject`    | Object                                                                                             | Object to move element within |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
-**Returns**
+#### Returns
 
 [PluginItem](#jsobjref-pluginitem)
 
@@ -498,11 +498,11 @@ Moves the object.
 
 `app.activeDocument.pluginItems[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -512,11 +512,11 @@ Nothing.
 
 `app.activeDocument.pluginItems[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])`
 
-**Description**
+#### Description
 
 Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -529,7 +529,7 @@ Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY`
 | `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
 | `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -539,13 +539,13 @@ Nothing.
 
 `app.activeDocument.pluginItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])`
 
-**Description**
+#### Description
 
 Rotates the art item relative to the current rotation.
 
 The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -556,7 +556,7 @@ The object is rotated counter-clockwise if the `angle` value is positive, clockw
 | `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
 | `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -566,11 +566,11 @@ Nothing.
 
 `app.activeDocument.pluginItems[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])`
 
-**Description**
+#### Description
 
 Transforms the art item by applying a transformation matrix.
 
-**Parameters**
+#### Parameters
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
@@ -582,7 +582,7 @@ Transforms the art item by applying a transformation matrix.
 | `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
 | `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -592,11 +592,11 @@ Nothing.
 
 `app.activeDocument.pluginItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])`
 
-**Description**
+#### Description
 
 Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
-**Parameters**
+#### Parameters
 
 | Parameter                 | Type                      | Description                          |
 |---------------------------|---------------------------|--------------------------------------|
@@ -607,7 +607,7 @@ Repositions the art item relative to the current position, where `deltaX` is the
 | `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
 | `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -617,17 +617,17 @@ Nothing.
 
 `app.activeDocument.pluginItems[index].zOrder(zOrderCmd)`
 
-**Description**
+#### Description
 
 Arranges the art item's position in the stacking order of the group or layer (parent) of this object.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                                                             | Description                       |
 |-------------|----------------------------------------------------------------------------------|-----------------------------------|
 | `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
-**Returns**
+#### Returns
 
 Nothing.
 

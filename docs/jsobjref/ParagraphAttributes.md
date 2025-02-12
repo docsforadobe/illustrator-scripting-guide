@@ -2,7 +2,7 @@
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes`
 
-**Description**
+#### Description
 
 Specifies the properties and attributes of a paragraph contained in a text frame.
 
@@ -17,11 +17,11 @@ Specifies the properties and attributes of a paragraph contained in a text frame
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.autoLeadingAmount`
 
-**Description**
+#### Description
 
 Auto leading amount expressed as a percentage.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -31,11 +31,11 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.bunriKinshi`
 
-**Description**
+#### Description
 
 If `true`, BunriKinshi is enabled.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -45,11 +45,11 @@ Boolean.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.burasagariType`
 
-**Description**
+#### Description
 
 The Burasagari type.
 
-**Type**
+#### Type
 
 [BurasagariTypeEnum](scripting-constants.md#jsobjref-scripting-constants-burasagaritypeenum)
 
@@ -59,11 +59,11 @@ The Burasagari type.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.desiredGlyphScaling`
 
-**Description**
+#### Description
 
 Desired glyph scaling, expressed as a percentage of the default character width. Range: 50.0 to 200.0. At 100.0, the width of characters is not changed.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -73,11 +73,11 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.desiredLetterSpacing`
 
-**Description**
+#### Description
 
 Desired letter, spacing expressed as a percentage of the default kerning or tracking Range: -100.0 to 500.0. At 0, no space is added between letters. At 100.0, an entire space width is added between letters.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -87,11 +87,11 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.desiredWordSpacing`
 
-**Description**
+#### Description
 
 Desired word spacing, expressed as a percentage of the default space for the font. Range: 0.0 to 1000.0; at 100.00. No space is added between words.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -101,11 +101,11 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.everyLineComposer`
 
-**Description**
+#### Description
 
 If `true`, the Every-line Composer is enabled. If `false`, the Single-line Composer is enabled.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -115,11 +115,11 @@ Boolean.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.firstLineIndent`
 
-**Description**
+#### Description
 
 First line left indent in points.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -129,11 +129,11 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenateCapitalizedWords`
 
-**Description**
+#### Description
 
 If `true`, hyphenation is enabled for capitalized words.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -143,11 +143,11 @@ Boolean.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenation`
 
-**Description**
+#### Description
 
 If `true`, hyphenation is enabled for the paragraph.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -157,11 +157,11 @@ Boolean.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenationPreference`
 
-**Description**
+#### Description
 
 Hyphenation preference scale for better spacing (0) or fewer hyphens (1). Range: 0.0 to 1.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -171,14 +171,14 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.hyphenationZone`
 
-**Description**
+#### Description
 
 The distance (in points) from the right edge of the paragraph that marks the part of the line where hyphenation is not allowed.
 
 !!! note
     0 allows all hyphenation. Valid only when [ParagraphAttributes.everyLineComposer](#jsobjref-paragraphattributes-everylinecomposer) is `false`.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -188,11 +188,11 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.justification`
 
-**Description**
+#### Description
 
 Paragraph justification.
 
-**Type**
+#### Type
 
 [Justification](scripting-constants.md#jsobjref-scripting-constants-justification)
 
@@ -202,11 +202,11 @@ Paragraph justification.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.kinsoku`
 
-**Description**
+#### Description
 
 The Kinsoku Shori name.
 
-**Type**
+#### Type
 
 String.
 
@@ -216,11 +216,11 @@ String.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.kinsokuOrder`
 
-**Description**
+#### Description
 
 The preferred Kinsoku order.
 
-**Type**
+#### Type
 
 [KinsokuOrderEnum](scripting-constants.md#jsobjref-scripting-constants-kinsokuorderenum)
 
@@ -230,11 +230,11 @@ The preferred Kinsoku order.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.kurikaeshiMojiShori`
 
-**Description**
+#### Description
 
 If `true`, KurikaeshiMojiShori is enabled.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -244,11 +244,11 @@ Boolean.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.leadingType`
 
-**Description**
+#### Description
 
 Auto leading type.
 
-**Type**
+#### Type
 
 [AutoLeadingType](scripting-constants.md#jsobjref-scripting-constants-autoleadingtype)
 
@@ -258,11 +258,11 @@ Auto leading type.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.leftIndent`
 
-**Description**
+#### Description
 
 The left indent of margin in points.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -272,11 +272,11 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumConsecutiveHyphens`
 
-**Description**
+#### Description
 
 Maximum number of consecutive hyphenated lines.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -286,14 +286,14 @@ Number (long).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumGlyphScaling`
 
-**Description**
+#### Description
 
 Maximum glyph scaling, expressed as a percentage of the default character width. Range: 50.0 to 200.0; at 100.0. The width of characters is not changed.
 
 !!! note
     Valid only for justified paragraphs.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -303,14 +303,14 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumLetterSpacing`
 
-**Description**
+#### Description
 
 Maximum letter spacing, expressed as a percentage of the default kerning or tracking Range: -100.0 to 500.0; at 0. No space is added between letters. At 100.0, an entire space width is added between letters.
 
 !!! note
     Valid only for justified paragraphs.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -320,14 +320,14 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.maximumWordSpacing`
 
-**Description**
+#### Description
 
 Maximum word spacing, expressed as a percentage of the default space for the font. Range: 0.0 to 1000.0; at 100.00. No space is added between words.
 
 !!! note
     Valid only for justified paragraphs.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -337,11 +337,11 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumAfterHyphen`
 
-**Description**
+#### Description
 
 Minimum number of characters after a hyphen.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -351,11 +351,11 @@ Number (long).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumBeforeHyphen`
 
-**Description**
+#### Description
 
 Minimum number of characters before a hyphen.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -365,14 +365,14 @@ Number (long).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumGlyphScaling`
 
-**Description**
+#### Description
 
 Minimum glyph scaling, expressed as a percentage of the default character width. Range: 50.0 to 200.0. At 100.0, the width of characters is not changed.
 
 !!! note
     Valid only for justified paragraphs.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -382,11 +382,11 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumHyphenatedWordSize`
 
-**Description**
+#### Description
 
 Minimum number of characters for a word to be hyphenated.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -396,14 +396,14 @@ Number (long).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumLetterSpacing`
 
-**Description**
+#### Description
 
 Minimum letter spacing, expressed as a percentage of the default kerning or tracking Range: -100.0 to 500.0; at 0. No space is added between letters. At 100.0, an entire space width is added between letters.
 
 !!! note
     Valid only for justified paragraphs.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -413,14 +413,14 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.minimumWordSpacing`
 
-**Description**
+#### Description
 
 Minimum word spacing, expressed as a percentage of the default space for the font. Range: 0.0 to 1000.0; at 100.00. No space is added between words.
 
 !!! note
     Valid only for justified paragraphs.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -430,11 +430,11 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.mojikumi`
 
-**Description**
+#### Description
 
 The Mojikumi name.
 
-**Type**
+#### Type
 
 String.
 
@@ -444,11 +444,11 @@ String.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -458,11 +458,11 @@ Object, read-only.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.rightIndent`
 
-**Description**
+#### Description
 
 Right indent of margin in points.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -472,11 +472,11 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.romanHanging`
 
-**Description**
+#### Description
 
 If `true`, Roman hanging punctuation is enabled.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -486,11 +486,11 @@ Boolean.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.singleWordJustification`
 
-**Description**
+#### Description
 
 Single word justification.
 
-**Type**
+#### Type
 
 [Justification](scripting-constants.md#jsobjref-scripting-constants-justification)
 
@@ -500,11 +500,11 @@ Single word justification.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.spaceAfter`
 
-**Description**
+#### Description
 
 Spacing after paragraph in points.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -514,11 +514,11 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.spaceBefore`
 
-**Description**
+#### Description
 
 Spacing before paragraph in points.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -528,11 +528,11 @@ Number (double).
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.tabStops`
 
-**Description**
+#### Description
 
 Tab stop settings.
 
-**Type**
+#### Type
 
 [TabStopInfo](./TabStopInfo.md)
 
@@ -542,11 +542,11 @@ Tab stop settings.
 
 `app.activeDocument.textFrames[index].paragraphs[index].paragraphAttributes.typename`
 
-**Description**
+#### Description
 
 > The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 

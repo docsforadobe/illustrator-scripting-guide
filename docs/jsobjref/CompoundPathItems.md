@@ -2,7 +2,7 @@
 
 `app.activeDocument.activeLayer.compoundPathItems`
 
-**Description**
+#### Description
 
 A collection of [CompoundPathItem](./CompoundPathItem.md) objects.
 
@@ -14,11 +14,11 @@ A collection of [CompoundPathItem](./CompoundPathItem.md) objects.
 
 `app.activeDocument.activeLayer.compoundPathItems.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `app.activeDocument.activeLayer.compoundPathItems.parent`
 
-**Description**
+#### Description
 
 The parent of this collection (either a `Layer` or a `GroupItem`).
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `app.activeDocument.activeLayer.compoundPathItems.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,11 +58,11 @@ String, read-only.
 
 `app.activeDocument.activeLayer.compoundPathItems.add()`
 
-**Description**
+#### Description
 
 Creates a new `CompoundPathItem`.
 
-**Returns**
+#### Returns
 
 [CompoundPathItem](./CompoundPathItem.md)
 
@@ -72,17 +72,17 @@ Creates a new `CompoundPathItem`.
 
 `app.activeDocument.activeLayer.compoundPathItems.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [CompoundPathItem](./CompoundPathItem.md)
 
@@ -92,17 +92,17 @@ Gets the first element in the collection with the specified name.
 
 `app.activeDocument.activeLayer.compoundPathItems.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [CompoundPathItem](./CompoundPathItem.md)
 
@@ -112,11 +112,11 @@ Gets an element from the collection.
 
 `app.activeDocument.activeLayer.compoundPathItems.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

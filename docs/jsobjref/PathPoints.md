@@ -2,7 +2,7 @@
 
 `app.activeDocument.pathItems[index].pathPoints`
 
-**Description**
+#### Description
 
 A collection of [PathPoint](./PathPoint.md) objects in a specific path.
 
@@ -16,11 +16,11 @@ The elements are not named; you must access them by index.
 
 `app.activeDocument.pathItems[index].pathPoints.length`
 
-**Description**
+#### Description
 
 Number of elements in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -30,11 +30,11 @@ Number, read-only.
 
 `app.activeDocument.pathItems[index].pathPoints.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -44,11 +44,11 @@ Object, read-only.
 
 `app.activeDocument.pathItems[index].pathPoints.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -60,11 +60,11 @@ String, read-only.
 
 `app.activeDocument.pathItems[index].pathPoints.add()`
 
-**Description**
+#### Description
 
 Creates a new object.
 
-**Returns**
+#### Returns
 
 [PathPoint](./PathPoint.md)
 
@@ -74,17 +74,17 @@ Creates a new object.
 
 `app.activeDocument.pathItems[index].pathPoints.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [PathPoint](./PathPoint.md)
 
@@ -94,11 +94,11 @@ Gets an element from the collection.
 
 `app.activeDocument.pathItems[index].pathPoints.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in the collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

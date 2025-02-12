@@ -2,7 +2,7 @@
 
 `app.activeDocument.views`
 
-**Description**
+#### Description
 
 A collection of [View](./View.md) objects in a document.
 
@@ -14,11 +14,11 @@ A collection of [View](./View.md) objects in a document.
 
 `app.activeDocument.views.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection
 
-**Type**
+#### Type
 
 Number; read-only.
 
@@ -28,11 +28,11 @@ Number; read-only.
 
 `app.activeDocument.views.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -42,11 +42,11 @@ Object; read-only.
 
 `app.activeDocument.views.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -58,16 +58,16 @@ String; read-only.
 
 `app.activeDocument.views.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [View](./View.md)

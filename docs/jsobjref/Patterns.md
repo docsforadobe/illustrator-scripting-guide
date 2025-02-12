@@ -2,7 +2,7 @@
 
 `app.activeDocument.patterns`
 
-**Description**
+#### Description
 
 A collection of [Pattern](./Pattern.md) objects in a document.
 
@@ -14,11 +14,11 @@ A collection of [Pattern](./Pattern.md) objects in a document.
 
 `app.activeDocument.patterns.length`
 
-**Description**
+#### Description
 
 Number of elements in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `app.activeDocument.patterns.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `app.activeDocument.patterns.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,11 +58,11 @@ String, read-only.
 
 `app.activeDocument.patterns.add()`
 
-**Description**
+#### Description
 
 Creates a new object.
 
-**Returns**
+#### Returns
 
 [Pattern](./Pattern.md)
 
@@ -72,17 +72,17 @@ Creates a new object.
 
 `app.activeDocument.patterns.getByName(name)`
 
-**Description**
+#### Description
 
 Get the first element in the collection with the provided name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [Pattern](./Pattern.md)
 
@@ -92,17 +92,17 @@ Get the first element in the collection with the provided name.
 
 `app.activeDocument.patterns.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [Pattern](./Pattern.md)
 
@@ -112,11 +112,11 @@ Gets an element from the collection.
 
 `app.activeDocument.patterns.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in the collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

@@ -2,7 +2,7 @@
 
 `app.activeDocument.textFrames`
 
-**Description**
+#### Description
 
 The collection of [TextFrameItem](./TextFrameItem.md) objects in the document.
 
@@ -14,11 +14,11 @@ The collection of [TextFrameItem](./TextFrameItem.md) objects in the document.
 
 `app.activeDocument.textFrames.length`
 
-**Description**
+#### Description
 
 The number of elements in the collection.
 
-**Type**
+#### Type
 
 Number; read-only.
 
@@ -28,11 +28,11 @@ Number; read-only.
 
 `app.activeDocument.textFrames.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -42,11 +42,11 @@ Object; read-only.
 
 `app.activeDocument.textFrames.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -58,11 +58,11 @@ String; read-only.
 
 `app.activeDocument.textFrames.add()`
 
-**Description**
+#### Description
 
 Creates a point text frame item.
 
-**Returns**
+#### Returns
 
 [TextFrameItem](./TextFrameItem.md)
 
@@ -72,11 +72,11 @@ Creates a point text frame item.
 
 `app.activeDocument.textFrames.areaText(textPath[, orientation][, baseFrame][, postFix])`
 
-**Description**
+#### Description
 
 Creates an area text frame item.
 
-**Parameters**
+#### Parameters
 
 | Parameter     | Type                                                                                             | Description                                 |
 |---------------|--------------------------------------------------------------------------------------------------|---------------------------------------------|
@@ -85,7 +85,7 @@ Creates an area text frame item.
 | `baseFrame`   | [TextFrameItem](./TextFrameItem.md), optional                               | Text frame to use                           |
 | `postFix`     | Boolean, optional                                                                                | Whether to prefix or postfix the text frame |
 
-**Returns**
+#### Returns
 
 [TextFrameItem](./TextFrameItem.md)
 
@@ -95,17 +95,17 @@ Creates an area text frame item.
 
 `app.activeDocument.textFrames.getByName(name)`
 
-**Description**
+#### Description
 
 Get the first element in the collection with the provided name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [TextFrameItem](./TextFrameItem.md)
 
@@ -115,17 +115,17 @@ Get the first element in the collection with the provided name.
 
 `app.activeDocument.textFrames.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [TextFrameItem](./TextFrameItem.md)
 
@@ -135,11 +135,11 @@ Gets an element from the collection.
 
 `app.activeDocument.textFrames.pathText(textPath[,startTValue][,endTValue][, orientation][, baseFrame][, postFix])`
 
-**Description**
+#### Description
 
 Creates an on-path text frame item.
 
-**Parameters**
+#### Parameters
 
 | Parameter     | Type                                                                                             | Description                                 |
 |---------------|--------------------------------------------------------------------------------------------------|---------------------------------------------|
@@ -150,7 +150,7 @@ Creates an on-path text frame item.
 | `baseFrame`   | [TextFrameItem](./TextFrameItem.md), optional                               | Text frame to use                           |
 | `postFix`     | Boolean, optional                                                                                | Whether to prefix or postfix the text frame |
 
-**Returns**
+#### Returns
 
 [TextFrameItem](./TextFrameItem.md)
 
@@ -160,18 +160,18 @@ Creates an on-path text frame item.
 
 `app.activeDocument.textFrames.pointText(anchor[, orientation])`
 
-**Description**
+#### Description
 
 Creates a point text frame item.
 
-**Parameters**
+#### Parameters
 
 | Parameter     | Type                                                                                             | Description         |
 |---------------|--------------------------------------------------------------------------------------------------|---------------------|
 | `anchor`      | Array of 2 numbers                                                                               | Point text anchor   |
 | `orientation` | [TextOrientation](scripting-constants.md#jsobjref-scripting-constants-textorientation), optional | Orientation of text |
 
-**Returns**
+#### Returns
 
 [TextFrameItem](./TextFrameItem.md)
 
@@ -181,11 +181,11 @@ Creates a point text frame item.
 
 `app.activeDocument.textFrames.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

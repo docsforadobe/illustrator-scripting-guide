@@ -2,7 +2,7 @@
 
 `app.activeDocument.placedItems`
 
-**Description**
+#### Description
 
 A collection of [PlacedItem](./PlacedItem.md) objects in a document.
 
@@ -14,11 +14,11 @@ A collection of [PlacedItem](./PlacedItem.md) objects in a document.
 
 `app.activeDocument.placedItems.length`
 
-**Description**
+#### Description
 
 Number of elements in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `app.activeDocument.placedItems.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `app.activeDocument.placedItems.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,13 +58,13 @@ String, read-only.
 
 `app.activeDocument.placedItems.add()`
 
-**Description**
+#### Description
 
 Creates a new object.
 
 Use to place new art in a document. Use the `file` property of the resulting `placedItem` object to link the file containing the artwork. See [PlacedItem](./PlacedItem.md).
 
-**Returns**
+#### Returns
 
 [PlacedItem](./PlacedItem.md)
 
@@ -74,17 +74,17 @@ Use to place new art in a document. Use the `file` property of the resulting `pl
 
 `app.activeDocument.placedItems.getByName(name)`
 
-**Description**
+#### Description
 
 Get the first element in the collection with the provided name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [PlacedItem](./PlacedItem.md)
 
@@ -94,17 +94,17 @@ Get the first element in the collection with the provided name.
 
 `app.activeDocument.placedItems.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [PlacedItem](./PlacedItem.md)
 
@@ -114,10 +114,10 @@ Gets an element from the collection.
 
 `app.activeDocument.placedItems.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in the collection.
 
-**Returns**
+#### Returns
 
 Nothing.

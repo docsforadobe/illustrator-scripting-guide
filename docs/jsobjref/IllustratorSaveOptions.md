@@ -2,7 +2,7 @@
 
 `illustratorSaveOptions`
 
-**Description**
+#### Description
 
 Options for saving a document as an Illustrator file, used with the [Document.saveAs()](Document.md#jsobjref-document-saveas) method. All properties are optional.
 
@@ -14,11 +14,11 @@ Options for saving a document as an Illustrator file, used with the [Document.sa
 
 `illustratorSaveOptions.artboardRange`
 
-**Description**
+#### Description
 
 If `saveMultipleArtboards` is `true` (which is valid only for Illustrator 13 or earlier), the document is considered for multi-asset extraction, which specifies an artboard range. An empty string extracts all artboards. Default: empty String.
 
-**Type**
+#### Type
 
 String.
 
@@ -28,11 +28,11 @@ String.
 
 `illustratorSaveOptions.compatibility`
 
-**Description**
+#### Description
 
 Specifies the version of Illustrator file format to create. Default: `Compatibility.ILLUSTRATOR19`.
 
-**Type**
+#### Type
 
 [Compatibility](scripting-constants.md#jsobjref-scripting-constants-compatibility)
 
@@ -42,11 +42,11 @@ Specifies the version of Illustrator file format to create. Default: `Compatibil
 
 `illustratorSaveOptions.compressed`
 
-**Description**
+#### Description
 
 (Illustrator version 10 or later.) If `true`, the saved file is compressed. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -56,11 +56,11 @@ Boolean.
 
 `illustratorSaveOptions.embedICCProfile`
 
-**Description**
+#### Description
 
 (Illustrator version 9 or later.) If `true`, the document's ICC profile is embedded in the saved file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -70,11 +70,11 @@ Boolean.
 
 `illustratorSaveOptions.embedLinkedFiles`
 
-**Description**
+#### Description
 
 (Illustrator version 7 or later.) If `true`, the linked image files is embedded in the saved file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -84,11 +84,11 @@ Boolean.
 
 `illustratorSaveOptions.flattenOutput`
 
-**Description**
+#### Description
 
 (Versions before Illustrator 9.) How transparency should be flattened for older file format versions. Default: `OutputFlattening.PRESERVEAPPEARANCE`.
 
-**Type**
+#### Type
 
 [OutputFlattening](scripting-constants.md#jsobjref-scripting-constants-outputflattening)
 
@@ -98,11 +98,11 @@ Boolean.
 
 `illustratorSaveOptions.fontSubsetThreshold`
 
-**Description**
+#### Description
 
 (Illustrator version 9 or later.) Include a subset of fonts when less than this percentage of characters is used in the document. Range: 0.0 to 100.0. Default: 100.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -112,11 +112,11 @@ Number (double).
 
 `illustratorSaveOptions.pdfCompatible`
 
-**Description**
+#### Description
 
 (Illustrator version 10 or later.) If `true`, the file is saved as a PDF compatible file. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -126,11 +126,11 @@ Boolean.
 
 `illustratorSaveOptions.saveMultipleArtboards`
 
-**Description**
+#### Description
 
 If `true`, all artboards or range of the artboards are saved. Valid for Illustrator 13 or earlier.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -140,11 +140,11 @@ Boolean.
 
 `illustratorSaveOptions.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 

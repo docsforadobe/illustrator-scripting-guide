@@ -2,7 +2,7 @@
 
 `app`
 
-**Description**
+#### Description
 
 The Adobe® Illustrator® application object, referenced using the pre-defined global app object, which contains all other Illustrator objects.
 
@@ -14,11 +14,11 @@ The Adobe® Illustrator® application object, referenced using the pre-defined g
 
 `app.activeDocument`
 
-**Description**
+#### Description
 
 The active (frontmost) document in Illustrator.
 
-**Type**
+#### Type
 
 [Document](./Document.md)
 
@@ -28,11 +28,11 @@ The active (frontmost) document in Illustrator.
 
 `app.browserAvailable`
 
-**Description**
+#### Description
 
 If `true`, a web browser is available.
 
-**Type**
+#### Type
 
 Boolean; read-only.
 
@@ -42,11 +42,11 @@ Boolean; read-only.
 
 `app.buildNumber`
 
-**Description**
+#### Description
 
 The application's build number.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -56,11 +56,11 @@ String; read-only.
 
 `app.colorSettingsList`
 
-**Description**
+#### Description
 
 The list of color-settings files currently available for use.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -70,11 +70,11 @@ Object; read-only.
 
 `app.coordinateSystem`
 
-**Description**
+#### Description
 
 The coordinate system currently in use, document or artboard.
 
-**Type**
+#### Type
 
 [CoordinateSystem](scripting-constants.md#jsobjref-scripting-constants-coordinatesystem)
 
@@ -84,11 +84,11 @@ The coordinate system currently in use, document or artboard.
 
 `app.defaultColorSettings`
 
-**Description**
+#### Description
 
 The default color-settings file for the current application locale.
 
-**Type**
+#### Type
 
 File; read-only.
 
@@ -98,11 +98,11 @@ File; read-only.
 
 `app.documents`
 
-**Description**
+#### Description
 
 The documents in the application.
 
-**Type**
+#### Type
 
 [Documents](./Documents.md)
 
@@ -112,11 +112,11 @@ The documents in the application.
 
 `app.flattenerPresetList`
 
-**Description**
+#### Description
 
 The list of flattener style names currently available for use.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -126,11 +126,11 @@ Object; read-only.
 
 `app.freeMemory`
 
-**Description**
+#### Description
 
 The amount of unused memory (in bytes) within the Illustrator partition.
 
-**Type**
+#### Type
 
 Number (long); read-only.
 
@@ -140,11 +140,11 @@ Number (long); read-only.
 
 `app.locale`
 
-**Description**
+#### Description
 
 The application's locale.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -154,11 +154,11 @@ String; read-only.
 
 `app.name`
 
-**Description**
+#### Description
 
 The application's name (not related to the filename of the application file).
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -168,11 +168,11 @@ String; read-only.
 
 `app.pasteRememberLayers`
 
-**Description**
+#### Description
 
 If `true`, the paste operation maintains the layer structure.
 
-**Type**
+#### Type
 
 Boolean; read-only.
 
@@ -182,11 +182,11 @@ Boolean; read-only.
 
 `app.path`
 
-**Description**
+#### Description
 
 The file path to the application.
 
-**Type**
+#### Type
 
 File; read-only.
 
@@ -196,11 +196,11 @@ File; read-only.
 
 `app.PDFPresetsList`
 
-**Description**
+#### Description
 
 The list of preset PDF-options names available for use.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -210,11 +210,11 @@ Object; read-only.
 
 `app.PPDFileList`
 
-**Description**
+#### Description
 
 The list of PPD files currently available for use.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -224,11 +224,11 @@ Object; read-only.
 
 `app.preferences`
 
-**Description**
+#### Description
 
 Illustrator's preference settings.
 
-**Type**
+#### Type
 
 [Preferences](./Preferences.md)
 
@@ -238,11 +238,11 @@ Illustrator's preference settings.
 
 `app.printerList`
 
-**Description**
+#### Description
 
 The list of installed printers.
 
-**Type**
+#### Type
 
 Array of [Printer](./Printer.md)
 
@@ -252,11 +252,11 @@ Array of [Printer](./Printer.md)
 
 `app.printPresetsList`
 
-**Description**
+#### Description
 
 The list of preset printing-options names available for use.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -266,11 +266,11 @@ Object; read-only.
 
 `app.scriptingVersion`
 
-**Description**
+#### Description
 
 The version of the Scripting plug-in.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -280,11 +280,11 @@ String; read-only.
 
 `app.selection`
 
-**Description**
+#### Description
 
 All currently selected objects in the active (frontmost) document.
 
-**Type**
+#### Type
 
 Array of Objects; read-only.
 
@@ -294,11 +294,11 @@ Array of Objects; read-only.
 
 `app.startupPresetsList`
 
-**Description**
+#### Description
 
 The list of presets available for creating a new document.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -308,11 +308,11 @@ Object; read-only.
 
 `app.textFonts`
 
-**Description**
+#### Description
 
 The installed fonts.
 
-**Type**
+#### Type
 
 [TextFonts](./TextFonts.md)
 
@@ -322,11 +322,11 @@ The installed fonts.
 
 `app.tracingPresetList`
 
-**Description**
+#### Description
 
 The list of preset tracing-options names available for use.
 
-**Type**
+#### Type
 
 Array of Strings; read-only.
 
@@ -336,11 +336,11 @@ Array of Strings; read-only.
 
 `app.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -350,11 +350,11 @@ String; read-only.
 
 `app.userInteractionLevel`
 
-**Description**
+#### Description
 
 What level of interaction with the user should be allowed when handling script commands.
 
-**Type**
+#### Type
 
 [UserInteractionLevel](scripting-constants.md#jsobjref-scripting-constants-userinteractionlevel)
 
@@ -364,11 +364,11 @@ What level of interaction with the user should be allowed when handling script c
 
 `app.version`
 
-**Description**
+#### Description
 
 The application's version.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -378,11 +378,11 @@ String; read-only.
 
 `app.visible`
 
-**Description**
+#### Description
 
 If `true`, the application is visible.
 
-**Type**
+#### Type
 
 Boolean; read-only.
 
@@ -394,11 +394,11 @@ Boolean; read-only.
 
 `app.beep()`
 
-**Description**
+#### Description
 
 Alerts the user.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -408,18 +408,18 @@ Nothing.
 
 `app.concatenateMatrix(matrix, secondMatrix)`
 
-**Description**
+#### Description
 
 Joins two matrices together.
 
-**Parameters**
+#### Parameters
 
 | Parameter      | Type                                | Description   |
 |----------------|-------------------------------------|---------------|
 | `matrix`       | [Matrix](./Matrix.md) | First matrix  |
 | `secondMatrix` | [Matrix](./Matrix.md) | Second matrix |
 
-**Returns**
+#### Returns
 
 jsobjref/Matrix.
 
@@ -429,18 +429,18 @@ jsobjref/Matrix.
 
 `app.concatenateRotationMatrix(matrix, angle)`
 
-**Description**
+#### Description
 
 Joins a rotation translation to a transformation matrix.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type            | Description   |
 |-------------|-----------------|---------------|
 | `matrix`    | Matrix          | Matrix        |
 | `angle`     | Number (double) | Angle         |
 
-**Returns**
+#### Returns
 
 jsobjref/Matrix.
 
@@ -450,11 +450,11 @@ jsobjref/Matrix.
 
 `app.concatenateScaleMatrix(matrix[, scaleX][, scaleY])`
 
-**Description**
+#### Description
 
 Concatenates a scale translation to a transformation matrix.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                      | Description   |
 |-------------|---------------------------|---------------|
@@ -462,7 +462,7 @@ Concatenates a scale translation to a transformation matrix.
 | `scaleX`    | Number (double), optional | X Scale       |
 | `scaleY`    | Number (dobule), optional | Y Scale       |
 
-**Returns**
+#### Returns
 
 [Matrix](./Matrix.md)
 
@@ -472,11 +472,11 @@ Concatenates a scale translation to a transformation matrix.
 
 `app.concatenateTranslationMatrix(matrix[, deltaX][, deltaY])`
 
-**Description**
+#### Description
 
 Joins a translation to a transformation matrix.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                      | Description   |
 |-------------|---------------------------|---------------|
@@ -484,7 +484,7 @@ Joins a translation to a transformation matrix.
 | `deltaX`    | Number (double), optional | X Delta       |
 | `deltaY`    | Number (dobule), optional | Y Delta       |
 
-**Returns**
+#### Returns
 
 [Matrix](./Matrix.md)
 
@@ -494,11 +494,11 @@ Joins a translation to a transformation matrix.
 
 `app.convertSampleColor(sourceColorSpace, sourceColor, destColorSpace, colorConvertPurpose[, sourceHasAlpha][, destHasAlpha])`
 
-**Description**
+#### Description
 
 Converts a sample-component color from one color space to another.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                       |
 |-----------------------|------------------------------------------------------------------------------------------------|-----------------------------------|
@@ -509,7 +509,7 @@ Converts a sample-component color from one color space to another.
 | `sourceHasAlpha`      | Boolean, optional                                                                              | Whether the source has alpha      |
 | `destHasAlpha`        | Boolean, optional                                                                              | Whether the destination has alpha |
 
-**Returns**
+#### Returns
 
 Array of ColorComponents
 
@@ -519,11 +519,11 @@ Array of ColorComponents
 
 `app.copy()`
 
-**Description**
+#### Description
 
 Copies current selection to the clipboard.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -533,11 +533,11 @@ Nothing.
 
 `app.cut()`
 
-**Description**
+#### Description
 
 Cuts current selection to the clipboard.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -547,17 +547,17 @@ Nothing.
 
 `app.deleteWorkspace(workspaceName)`
 
-**Description**
+#### Description
 
 Deletes an existing workspace.
 
-**Parameters**
+#### Parameters
 
 | Parameter       | Type   | Description                 |
 |-----------------|--------|-----------------------------|
 | `workspaceName` | String | Name of workspace to delete |
 
-**Returns**
+#### Returns
 
 Boolean
 
@@ -567,11 +567,11 @@ Boolean
 
 `app.getIdentityMatrix()`
 
-**Description**
+#### Description
 
 Returns an identity matrix.
 
-**Returns**
+#### Returns
 
 [Matrix](./Matrix.md)
 
@@ -584,17 +584,17 @@ Returns an identity matrix.
 !!! note
     This functionality was added in Illustrator XX.X (CC2017)
 
-**Description**
+#### Description
 
 Returns whether the specified filePath is open
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description        |
 |-------------|--------|--------------------|
 | `filePath`  | String | File path to check |
 
-**Returns**
+#### Returns
 
 Boolean
 
@@ -604,17 +604,17 @@ Boolean
 
 `app.getPPDFileInfo(name)`
 
-**Description**
+#### Description
 
 Gets detailed file information for specified PPD file.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description               |
 |-------------|--------|---------------------------|
 | `name`      | String | File name to get info for |
 
-**Returns**
+#### Returns
 
 [PPDFileInfo](./PPDFileInfo.md)
 
@@ -624,17 +624,17 @@ Gets detailed file information for specified PPD file.
 
 `app.getPresetFileOfType(presetType)`
 
-**Description**
+#### Description
 
 Returns the full path to the application's default document profile for the specified preset type.
 
-**Parameters**
+#### Parameters
 
 | Parameter    | Type                                                                                         | Description                |
 |--------------|----------------------------------------------------------------------------------------------|----------------------------|
 | `presetType` | [DocumentPresetType](scripting-constants.md#jsobjref-scripting-constants-documentpresettype) | Preset type to get file of |
 
-**Returns**
+#### Returns
 
 File
 
@@ -644,17 +644,17 @@ File
 
 `app.getPresetSettings(preset)`
 
-**Description**
+#### Description
 
 Retrieves the tracing-option settings from the template with a given preset name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description                      |
 |-------------|--------|----------------------------------|
 | `preset`    | String | Preset name to get settings from |
 
-**Returns**
+#### Returns
 
 [DocumentPreset](./DocumentPreset.md)
 
@@ -664,7 +664,7 @@ Retrieves the tracing-option settings from the template with a given preset name
 
 `app.getRotationMatrix([angle])`
 
-**Description**
+#### Description
 
 Returns a transformation matrix containing a single rotation.
 
@@ -673,13 +673,13 @@ Returns a transformation matrix containing a single rotation.
 
 For example, `30` rotates the object 30 degrees counterclockwise; `-30` rotates the object 30 degrees clockwise.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                      | Description            |
 |-------------|---------------------------|------------------------|
 | `angle`     | Number (double), optional | Angle to get matrix of |
 
-**Returns**
+#### Returns
 
 [Matrix](./Matrix.md)
 
@@ -689,7 +689,7 @@ For example, `30` rotates the object 30 degrees counterclockwise; `-30` rotates 
 
 `app.getScaleMatrix([scaleX][, scaleY])`
 
-**Description**
+#### Description
 
 Returns a transformation matrix containing a single scale.
 
@@ -698,14 +698,14 @@ Returns a transformation matrix containing a single scale.
 
 For example, `60` scales the object to 60% of its original size; `200` doubles the object's bounds.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                      | Description              |
 |-------------|---------------------------|--------------------------|
 | `scaleX`    | Number (double), optional | X scale to get matrix of |
 | `scaleY`    | Number (double), optional | Y scale to get matrix of |
 
-**Returns**
+#### Returns
 
 [Matrix](./Matrix.md)
 
@@ -715,11 +715,11 @@ For example, `60` scales the object to 60% of its original size; `200` doubles t
 
 `app.getScriptableHelpGroup()`
 
-**Description**
+#### Description
 
 Gets the scriptable help group object that represents the search widget in the app bar.
 
-**Returns**
+#### Returns
 
 Variant
 
@@ -729,7 +729,7 @@ Variant
 
 `app.getTranslationMatrix([deltaX][, deltaY])`
 
-**Description**
+#### Description
 
 Returns a transformation matrix containing a single translation.
 
@@ -738,14 +738,14 @@ Returns a transformation matrix containing a single translation.
 
 For example, (100, 200) moves the object 100 pt. to the right and 200 pt. up; a minus before each number moves the object left and down.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                      | Description   |
 |-------------|---------------------------|---------------|
 | `deltaX`    | Number (double), optional | X Delta       |
 | `deltaY`    | Number (dobule), optional | Y Delta       |
 
-**Returns**
+#### Returns
 
 [Matrix](./Matrix.md)
 
@@ -755,17 +755,17 @@ For example, (100, 200) moves the object 100 pt. to the right and 200 pt. up; a 
 
 `app.invertMatrix(matrix)`
 
-**Description**
+#### Description
 
 Inverts a matrix.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                | Description      |
 |-------------|-------------------------------------|------------------|
 | `matrix`    | [Matrix](./Matrix.md) | Matrix to invert |
 
-**Returns**
+#### Returns
 
 [Matrix](./Matrix.md)
 
@@ -775,18 +775,18 @@ Inverts a matrix.
 
 `app.isEqualMatrix(matrix, secondMatrix)`
 
-**Description**
+#### Description
 
 Checks whether the two matrices are equal.
 
-**Parameters**
+#### Parameters
 
 | Parameter      | Type                                | Description            |
 |----------------|-------------------------------------|------------------------|
 | `matrix`       | [Matrix](./Matrix.md) | First matrix to check  |
 | `secondMatrix` | [Matrix](./Matrix.md) | Second matrix to check |
 
-**Returns**
+#### Returns
 
 Boolean
 
@@ -796,17 +796,17 @@ Boolean
 
 `app.isSingularMatrix(matrix)`
 
-**Description**
+#### Description
 
 Checks whether a matrix is singular and cannot be inverted.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                | Description     |
 |-------------|-------------------------------------|-----------------|
 | `matrix`    | [Matrix](./Matrix.md) | Matrix to check |
 
-**Returns**
+#### Returns
 
 Boolean
 
@@ -816,17 +816,17 @@ Boolean
 
 `app.loadColorSettings(fileSpec)`
 
-**Description**
+#### Description
 
 Loads color settings from specified file, or, if file is empty, turns color management off.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description                |
 |-------------|--------|----------------------------|
 | `fileSpec`  | File   | File to load settings from |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -836,7 +836,7 @@ Nothing.
 
 `app.open(file[, documentColorSpace][, options])`
 
-**Description**
+#### Description
 
 Opens the specified document file.
 
@@ -845,7 +845,7 @@ Opens the specified document file.
 
 If the parameter is not supplied, Illustrator opens a dialog so the user can choose the color space.
 
-**Parameters**
+#### Parameters
 
 | Parameter            | Type                                                                                                   | Description             |
 |----------------------|--------------------------------------------------------------------------------------------------------|-------------------------|
@@ -853,7 +853,7 @@ If the parameter is not supplied, Illustrator opens a dialog so the user can cho
 | `documentColorSpace` | [DocumentColorSpace](scripting-constants.md#jsobjref-scripting-constants-documentcolorspace), optional | Color space of document |
 | `options`            | anything                                                                                               | todo                    |
 
-**Returns**
+#### Returns
 
 [Document](./Document.md)
 
@@ -863,11 +863,11 @@ If the parameter is not supplied, Illustrator opens a dialog so the user can cho
 
 `app.paste()`
 
-**Description**
+#### Description
 
 Pastes current clipboard content into the current document.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -877,14 +877,14 @@ Nothing.
 
 `app.quit()`
 
-**Description**
+#### Description
 
 Quits Illustrator.
 
 !!! note
     If the clipboard contains data, Illustrator may show a dialog prompting the user to save the data for other applications.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -894,11 +894,11 @@ Nothing.
 
 `app.redo()`
 
-**Description**
+#### Description
 
 Redoes the most recently undone transaction.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -908,11 +908,11 @@ Nothing.
 
 `app.redraw()`
 
-**Description**
+#### Description
 
 Forces Illustrator to redraw all its windows.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -922,11 +922,11 @@ Nothing.
 
 `app.resetWorkspace()`
 
-**Description**
+#### Description
 
 Resets the current workspace.
 
-**Returns**
+#### Returns
 
 Boolean
 
@@ -936,17 +936,17 @@ Boolean
 
 `app.saveWorkspace(workspaceName)`
 
-**Description**
+#### Description
 
 Saves a new workspace.
 
-**Parameters**
+#### Parameters
 
 | Parameter       | Type   | Description                  |
 |-----------------|--------|------------------------------|
 | `workspaceName` | String | Name of workspace to save as |
 
-**Returns**
+#### Returns
 
 Boolean
 
@@ -956,11 +956,11 @@ Boolean
 
 `app.sendScriptMessage(pluginName, messageSelector, inputString)`
 
-**Description**
+#### Description
 
 Sends a plug-in-defined command message to a plug-in with given input arguments, and returns the plug-in-defined result string.
 
-**Parameters**
+#### Parameters
 
 | Parameter         | Type   | Description                       |
 |-------------------|--------|-----------------------------------|
@@ -968,7 +968,7 @@ Sends a plug-in-defined command message to a plug-in with given input arguments,
 | `messageSelector` | String | Message to send to the plugin     |
 | `inputString`     | String | Data to pass into the command     |
 
-**Returns**
+#### Returns
 
 String
 
@@ -978,17 +978,17 @@ String
 
 `app.showPresets(fileSpec)`
 
-**Description**
+#### Description
 
 Gets presets from the file.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description              |
 |-------------|--------|--------------------------|
 | `fileSpec`  | File   | File to get presets from |
 
-**Returns**
+#### Returns
 
 PrintPresetList
 
@@ -998,17 +998,17 @@ PrintPresetList
 
 `app.switchWorkspace(workspaceName)`
 
-**Description**
+#### Description
 
 Switches to the specified workspace.
 
-**Parameters**
+#### Parameters
 
 | Parameter       | Type   | Description       |
 |-----------------|--------|-------------------|
 | `workspaceName` | String | Name to switch to |
 
-**Returns**
+#### Returns
 
 Boolean
 
@@ -1018,17 +1018,17 @@ Boolean
 
 `app.translatePlaceholderText(text)`
 
-**Description**
+#### Description
 
 Translates the placeholder text to regular text (a way to enter Unicode points in hex values).
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description         |
 |-------------|--------|---------------------|
 | `text`      | String | String to translate |
 
-**Returns**
+#### Returns
 
 String
 
@@ -1038,11 +1038,11 @@ String
 
 `app.undo()`
 
-**Description**
+#### Description
 
 Undoes the most recent transaction.
 
-**Returns**
+#### Returns
 
 Nothing.
 

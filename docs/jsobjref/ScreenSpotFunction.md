@@ -2,7 +2,7 @@
 
 `PPDFileList[index].PPDInfo.screenSpotFunctionList[index`
 
-**Description**
+#### Description
 
 Contains information about a color separation screen spot function, including its definition in PostScript language code.
 
@@ -14,11 +14,11 @@ Contains information about a color separation screen spot function, including it
 
 `PPDFileList[index].PPDInfo.screenSpotFunctionList[index].name`
 
-**Description**
+#### Description
 
 The color separation screen spot function name.
 
-**Type**
+#### Type
 
 String
 
@@ -28,11 +28,11 @@ String
 
 `PPDFileList[index].PPDInfo.screenSpotFunctionList[index].spotFunction`
 
-**Description**
+#### Description
 
 The spot function expressed in PostScript commands.
 
-**Type**
+#### Type
 
 String
 
@@ -42,11 +42,11 @@ String
 
 `PPDFileList[index].PPDInfo.screenSpotFunctionList[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 

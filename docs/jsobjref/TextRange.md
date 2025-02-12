@@ -2,7 +2,7 @@
 
 `app.activeDocument.textFrames[index].textRange`
 
-**Description**
+#### Description
 
 A range of text in a specific text art item. TextRange gives you access to the text contained in text art items.
 
@@ -14,11 +14,11 @@ A range of text in a specific text art item. TextRange gives you access to the t
 
 `app.activeDocument.textFrames[index].textRange.characterAttributes`
 
-**Description**
+#### Description
 
 The character properties for the text range.
 
-**Type**
+#### Type
 
 [CharacterAttributes](./CharacterAttributes.md), read-only.
 
@@ -28,11 +28,11 @@ The character properties for the text range.
 
 `app.activeDocument.textFrames[index].textRange.characterOffset`
 
-**Description**
+#### Description
 
 Offset of the first character.
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -42,11 +42,11 @@ Number (long)
 
 `app.activeDocument.textFrames[index].textRange.characters`
 
-**Description**
+#### Description
 
 All the characters in this text range.
 
-**Type**
+#### Type
 
 [Characters](./Characters.md), read-only.
 
@@ -56,11 +56,11 @@ All the characters in this text range.
 
 `app.activeDocument.textFrames[index].textRange.characterStyles`
 
-**Description**
+#### Description
 
 All referenced character styles in the text range.
 
-**Type**
+#### Type
 
 [CharacterStyles](./CharacterStyles.md), read-only.
 
@@ -70,11 +70,11 @@ All referenced character styles in the text range.
 
 `app.activeDocument.textFrames[index].textRange.contents`
 
-**Description**
+#### Description
 
 The text string.
 
-**Type**
+#### Type
 
 String
 
@@ -84,11 +84,11 @@ String
 
 `app.activeDocument.textFrames[index].textRange.end`
 
-**Description**
+#### Description
 
 End index of the text range.
 
-**Type**
+#### Type
 
 Int32
 
@@ -98,11 +98,11 @@ Int32
 
 `app.activeDocument.textFrames[index].textRange.insertionPoints`
 
-**Description**
+#### Description
 
 All the insertion points in this text range.
 
-**Type**
+#### Type
 
 [InsertionPoints](./InsertionPoints.md), read-only.
 
@@ -112,11 +112,11 @@ All the insertion points in this text range.
 
 `app.activeDocument.textFrames[index].textRange.kerning`
 
-**Description**
+#### Description
 
 Controls the spacing between two characters, in thousandths of an em. An integer.
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -126,11 +126,11 @@ Number (long)
 
 `app.activeDocument.textFrames[index].textRange.length`
 
-**Description**
+#### Description
 
 The length (in characters). Minimum: 0
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -140,11 +140,11 @@ Number (long)
 
 `app.activeDocument.textFrames[index].textRange.lines`
 
-**Description**
+#### Description
 
 All the lines in this text range.
 
-**Type**
+#### Type
 
 [Lines](./Lines.md), read-only.
 
@@ -154,11 +154,11 @@ All the lines in this text range.
 
 `app.activeDocument.textFrames[index].textRange.paragraphAttributes`
 
-**Description**
+#### Description
 
 The paragraph properties for the text range.
 
-**Type**
+#### Type
 
 [ParagraphAttributes](./ParagraphAttributes.md), read-only.
 
@@ -168,11 +168,11 @@ The paragraph properties for the text range.
 
 `app.activeDocument.textFrames[index].textRange.paragraphs`
 
-**Description**
+#### Description
 
 All the paragraphs in this text range.
 
-**Type**
+#### Type
 
 [Paragraphs](./Paragraphs.md), read-only.
 
@@ -182,11 +182,11 @@ All the paragraphs in this text range.
 
 `app.activeDocument.textFrames[index].textRange.paragraphStyles`
 
-**Description**
+#### Description
 
 All referenced paragraph styles in the text range.
 
-**Type**
+#### Type
 
 [ParagraphStyles](./ParagraphStyles.md), read-only.
 
@@ -196,11 +196,11 @@ All referenced paragraph styles in the text range.
 
 `app.activeDocument.textFrames[index].textRange.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 [TextRange](#jsobjref-textrange), read-only.
 
@@ -210,11 +210,11 @@ The object's container.
 
 `app.activeDocument.textFrames[index].textRange.start`
 
-**Description**
+#### Description
 
 Start index of the text range.
 
-**Type**
+#### Type
 
 Int32
 
@@ -224,11 +224,11 @@ Int32
 
 `app.activeDocument.textFrames[index].textRange.story`
 
-**Description**
+#### Description
 
 The story to which the text range belongs.
 
-**Type**
+#### Type
 
 [Story](./Story.md), read-only.
 
@@ -238,11 +238,11 @@ The story to which the text range belongs.
 
 `app.activeDocument.textFrames[index].textRange.textRanges`
 
-**Description**
+#### Description
 
 All of the text in this text range.
 
-**Type**
+#### Type
 
 [TextRanges](./TextRanges.md), read-only.
 
@@ -252,11 +252,11 @@ All of the text in this text range.
 
 `app.activeDocument.textFrames[index].textRange.textSelection`
 
-**Description**
+#### Description
 
 The selected text ranges in the text range.
 
-**Type**
+#### Type
 
 Array of [TextRange](#jsobjref-textrange), read-only.
 
@@ -266,11 +266,11 @@ Array of [TextRange](#jsobjref-textrange), read-only.
 
 `app.activeDocument.textFrames[index].textRange.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -280,11 +280,11 @@ String, read-only.
 
 `app.activeDocument.textFrames[index].textRange.words`
 
-**Description**
+#### Description
 
 All the words contained in this text range.
 
-**Type**
+#### Type
 
 [Words](./Words.md), read-only.
 
@@ -296,17 +296,17 @@ All the words contained in this text range.
 
 `app.activeDocument.textFrames[index].textRange.changeCaseTo(type)`
 
-**Description**
+#### Description
 
 Changes the capitalization of text
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                                                                 | Description                      |
 |-------------|--------------------------------------------------------------------------------------|----------------------------------|
 | `type`      | [CaseChangeType](scripting-constants.md#jsobjref-scripting-constants-casechangetype) | Capitalization case to change to |
 
-**Returns**
+#### Returns
 
 Nothing
 
@@ -316,11 +316,11 @@ Nothing
 
 `app.activeDocument.textFrames[index].textRange.deSelect()`
 
-**Description**
+#### Description
 
 Deselects the text range.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -330,18 +330,18 @@ Nothing.
 
 `app.activeDocument.textFrames[index].textRange.duplicate([relativeObject][, insertionLocation])`
 
-**Description**
+#### Description
 
 Creates a duplicate of this object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                |
 |---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
 | `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
-**Returns**
+#### Returns
 
 [TextRange](#jsobjref-textrange)
 
@@ -351,11 +351,11 @@ Creates a duplicate of this object.
 
 `app.activeDocument.textFrames[index].textRange.getLocalCharOverridesJSON()`
 
-**Description**
+#### Description
 
 Gets json representation of character overrides.
 
-**Returns**
+#### Returns
 
 String
 
@@ -365,11 +365,11 @@ String
 
 `app.activeDocument.textFrames[index].textRange.getLocalParaOverridesJSON()`
 
-**Description**
+#### Description
 
 Gets json representation of paragraph overrides.
 
-**Returns**
+#### Returns
 
 String
 
@@ -379,11 +379,11 @@ String
 
 `app.activeDocument.textFrames[index].textRange.getParagraphLength()`
 
-**Description**
+#### Description
 
 Gets the length of the first paragraph of the text range.
 
-**Returns**
+#### Returns
 
 Int32
 
@@ -393,11 +393,11 @@ Int32
 
 `app.activeDocument.textFrames[index].textRange.getTextRunLength()`
 
-**Description**
+#### Description
 
 Gets the length of the first text run of the text range.
 
-**Returns**
+#### Returns
 
 Int32
 
@@ -407,18 +407,18 @@ Int32
 
 `app.activeDocument.textFrames[index].textRange.move(relativeObject, insertionLocation)`
 
-**Description**
+#### Description
 
 Moves the object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                   |
 |---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
 | `relativeObject`    | Object                                                                                             | Object to move element within |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
-**Returns**
+#### Returns
 
 [TextRange](#jsobjref-textrange)
 
@@ -428,11 +428,11 @@ Moves the object.
 
 `app.activeDocument.textFrames[index].textRange.remove()`
 
-**Description**
+#### Description
 
 Deletes the object.
 
-**Returns**
+#### Returns
 
 Nothing
 
@@ -442,17 +442,17 @@ Nothing
 
 `app.activeDocument.textFrames[index].textRange.select([addToDocument])`
 
-**Description**
+#### Description
 
 Selects the text range.
 
-**Parameters**
+#### Parameters
 
 | Parameter       | Type              | Description                                 |
 |-----------------|-------------------|---------------------------------------------|
 | `addToDocument` | Boolean, optional | Whether to add or replace current selection |
 
-**Returns**
+#### Returns
 
 Nothing
 

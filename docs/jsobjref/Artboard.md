@@ -2,7 +2,7 @@
 
 `artboard`
 
-**Description**
+#### Description
 
 An Artboard object represents a single artboard in a document. There can be between 1 to 100 artboards in one document.
 
@@ -12,11 +12,11 @@ An Artboard object represents a single artboard in a document. There can be betw
 
 `artboard.artboardRect`
 
-**Description**
+#### Description
 
 Size and position of the artboard.
 
-**Type**
+#### Type
 
 Rect
 
@@ -26,11 +26,11 @@ Rect
 
 `artboard.name`
 
-**Description**
+#### Description
 
 The unique identifying name of the artboard.
 
-**Type**
+#### Type
 
 String
 
@@ -40,11 +40,11 @@ String
 
 `artboard.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 [Document](./Document.md); read-only.
 
@@ -54,11 +54,11 @@ The parent of this object.
 
 `artboard.rulerOrigin`
 
-**Description**
+#### Description
 
 Ruler origin of the artboard, relative to the top left corner of the artboard.
 
-**Type**
+#### Type
 
 Point
 
@@ -68,13 +68,13 @@ Point
 
 `artboard.rulerPAR`
 
-**Description**
+#### Description
 
 Pixel aspect ratio, used in ruler visualization if the units are pixels.
 
 Range: 0.1 to 10.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -84,11 +84,11 @@ Number (double)
 
 `artboard.showCenter`
 
-**Description**
+#### Description
 
 Show center mark.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -98,11 +98,11 @@ Boolean
 
 `artboard.showCrossHairs`
 
-**Description**
+#### Description
 
 Show cross hairs.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -112,11 +112,11 @@ Boolean
 
 `artboard.showSafeAreas`
 
-**Description**
+#### Description
 
 Show title and action safe areas (for video).
 
-**Type**
+#### Type
 
 Boolean
 
@@ -126,11 +126,11 @@ Boolean
 
 `artboard.typename`
 
-**Description**
+#### Description
 
 Read-only. The class name of this object.
 
-**Type**
+#### Type
 
 String
 
@@ -142,10 +142,10 @@ String
 
 `artboard.remove()`
 
-**Description**
+#### Description
 
 Deletes this artboard object. You cannot remove the last artboard in a document.
 
-**Returns**
+#### Returns
 
 Nothing.

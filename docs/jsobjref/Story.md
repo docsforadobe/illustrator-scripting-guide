@@ -2,7 +2,7 @@
 
 `story`
 
-**Description**
+#### Description
 
 A contiguous block of text as specified by a text range. A story can contain one or more text frames; if there is more than one, the multiple text frames are linked together to form a single story.
 
@@ -14,11 +14,11 @@ A contiguous block of text as specified by a text range. A story can contain one
 
 `story.characters`
 
-**Description**
+#### Description
 
 All the characters in this story.
 
-**Type**
+#### Type
 
 [Characters](./Characters.md); read-only.
 
@@ -28,11 +28,11 @@ All the characters in this story.
 
 `story.insertionPoints`
 
-**Description**
+#### Description
 
 All the insertion points in this story.
 
-**Type**
+#### Type
 
 [InsertionPoints](./InsertionPoints.md); read-only.
 
@@ -42,11 +42,11 @@ All the insertion points in this story.
 
 `story.length`
 
-**Description**
+#### Description
 
 The number of characters in the story.
 
-**Type**
+#### Type
 
 Number (long); read-only.
 
@@ -56,11 +56,11 @@ Number (long); read-only.
 
 `story.lines`
 
-**Description**
+#### Description
 
 All the lines in this story.
 
-**Type**
+#### Type
 
 [Lines](./Lines.md); read-only.
 
@@ -70,11 +70,11 @@ All the lines in this story.
 
 `story.paragraphs`
 
-**Description**
+#### Description
 
 All the paragraphs in this story.
 
-**Type**
+#### Type
 
 [Paragraphs](./Paragraphs.md); read-only.
 
@@ -84,11 +84,11 @@ All the paragraphs in this story.
 
 `story.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -98,11 +98,11 @@ Object; read-only.
 
 `story.textFrames`
 
-**Description**
+#### Description
 
 The text frame items in this story.
 
-**Type**
+#### Type
 
 [TextFrameItems](./TextFrameItems.md); read-only.
 
@@ -112,11 +112,11 @@ The text frame items in this story.
 
 `story.textRange`
 
-**Description**
+#### Description
 
 The text range of the story.
 
-**Type**
+#### Type
 
 [TextRange](./TextRange.md); read-only.
 
@@ -126,11 +126,11 @@ The text range of the story.
 
 `story.textRanges`
 
-**Description**
+#### Description
 
 All the text ranges in the story.
 
-**Type**
+#### Type
 
 [TextRanges](./TextRanges.md); read-only.
 
@@ -140,11 +140,11 @@ All the text ranges in the story.
 
 `story.textSelection`
 
-**Description**
+#### Description
 
 The selected text ranges in the story.
 
-**Type**
+#### Type
 
 Array of [TextRange](./TextRange.md); read-only.
 
@@ -154,11 +154,11 @@ Array of [TextRange](./TextRange.md); read-only.
 
 `story.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -168,11 +168,11 @@ String; read-only.
 
 `story.words`
 
-**Description**
+#### Description
 
 All the words in the story.
 
-**Type**
+#### Type
 
 [Words](./Words.md); read-only.
 

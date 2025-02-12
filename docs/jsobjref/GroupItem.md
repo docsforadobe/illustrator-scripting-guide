@@ -2,7 +2,7 @@
 
 `app.activeDocument.groupItems[index`
 
-**Description**
+#### Description
 
 A grouped set of art items. Group items can contain all of the same page items that a layer can contain, including other nested groups.
 
@@ -16,11 +16,11 @@ Paths contained in a group or compound path in a document are returned as indivi
 
 `app.activeDocument.groupItems[index].artworkKnockout`
 
-**Description**
+#### Description
 
 Is this object used to create a knockout, and if so, what kind of knockout.
 
-**Type**
+#### Type
 
 [KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
@@ -30,11 +30,11 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 `app.activeDocument.groupItems[index].blendingMode`
 
-**Description**
+#### Description
 
 The blend mode used when compositing an object.
 
-**Type**
+#### Type
 
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
@@ -44,11 +44,11 @@ The blend mode used when compositing an object.
 
 `app.activeDocument.groupItems[index].clipped`
 
-**Description**
+#### Description
 
 If `true`, the group is clipped to the clipping mask.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -58,11 +58,11 @@ Boolean.
 
 `app.activeDocument.groupItems[index].compoundPathItems`
 
-**Description**
+#### Description
 
 The compound path items contained in this group.
 
-**Type**
+#### Type
 
 [CompoundPathItems](./CompoundPathItems.md), read-only.
 
@@ -72,11 +72,11 @@ The compound path items contained in this group.
 
 `app.activeDocument.groupItems[index].controlBounds`
 
-**Description**
+#### Description
 
 The bounds of the object including stroke width and controls.
 
-**Type**
+#### Type
 
 Array of 4 numbers, read-only.
 
@@ -86,11 +86,11 @@ Array of 4 numbers, read-only.
 
 `app.activeDocument.groupItems[index].editable`
 
-**Description**
+#### Description
 
 If true, this item is editable.
 
-**Type**
+#### Type
 
 Boolean, read-only.
 
@@ -100,11 +100,11 @@ Boolean, read-only.
 
 `app.activeDocument.groupItems[index].geometricBounds`
 
-**Description**
+#### Description
 
 The bounds of the object excluding stroke width.
 
-**Type**
+#### Type
 
 Array of 4 numbers, read-only.
 
@@ -114,11 +114,11 @@ Array of 4 numbers, read-only.
 
 `app.activeDocument.groupItems[index].graphItems`
 
-**Description**
+#### Description
 
 he graph items contained in this group.
 
-**Type**
+#### Type
 
 [GraphItems](./GraphItems.md), read-only.
 
@@ -128,11 +128,11 @@ he graph items contained in this group.
 
 `app.activeDocument.groupItems[index].groupItems`
 
-**Description**
+#### Description
 
 The group items contained in this group.
 
-**Type**
+#### Type
 
 [GroupItems](./GroupItems.md), read-only.
 
@@ -142,11 +142,11 @@ The group items contained in this group.
 
 `app.activeDocument.groupItems[index].height`
 
-**Description**
+#### Description
 
 The height of the group item.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -156,11 +156,11 @@ Number (double).
 
 `app.activeDocument.groupItems[index].hidden`
 
-**Description**
+#### Description
 
 If `true`, this group item is hidden.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -170,11 +170,11 @@ Boolean.
 
 `app.activeDocument.groupItems[index].isIsolated`
 
-**Description**
+#### Description
 
 If `true`, this object is isolated.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -184,11 +184,11 @@ Boolean.
 
 `app.activeDocument.groupItems[index].layer`
 
-**Description**
+#### Description
 
 The layer to which this group item belongs.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md), read-only.
 
@@ -198,11 +198,11 @@ The layer to which this group item belongs.
 
 `app.activeDocument.groupItems[index].left`
 
-**Description**
+#### Description
 
 The position of the left side of the item (in points, measured from the left side of the page).
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -212,11 +212,11 @@ Number (double).
 
 `app.activeDocument.groupItems[index].legacyTextItems`
 
-**Description**
+#### Description
 
 The legacy text items in the group.
 
-**Type**
+#### Type
 
 [LegacyTextItems](./LegacyTextItems.md), read-only.
 
@@ -226,11 +226,11 @@ The legacy text items in the group.
 
 `app.activeDocument.groupItems[index].locked`
 
-**Description**
+#### Description
 
 If `true`, this group item is locked.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -240,11 +240,11 @@ Boolean.
 
 `app.activeDocument.groupItems[index].meshItems`
 
-**Description**
+#### Description
 
 The mesh items contained in this group.
 
-**Type**
+#### Type
 
 [MeshItems](./MeshItems.md), read-only.
 
@@ -254,11 +254,11 @@ The mesh items contained in this group.
 
 `app.activeDocument.groupItems[index].name`
 
-**Description**
+#### Description
 
 The name of this group item.
 
-**Type**
+#### Type
 
 String.
 
@@ -268,11 +268,11 @@ String.
 
 `app.activeDocument.groupItems[index].nonNativeItems`
 
-**Description**
+#### Description
 
 The non-native art items in this group.
 
-**Type**
+#### Type
 
 [NonNativeItems](./NonNativeItems.md)
 
@@ -282,11 +282,11 @@ The non-native art items in this group.
 
 `app.activeDocument.groupItems[index].note`
 
-**Description**
+#### Description
 
 The note assigned to this item.
 
-**Type**
+#### Type
 
 String.
 
@@ -296,11 +296,11 @@ String.
 
 `app.activeDocument.groupItems[index].opacity`
 
-**Description**
+#### Description
 
 The opacity of the object. Range: 0.0 to 100.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -310,11 +310,11 @@ Number (double).
 
 `app.activeDocument.groupItems[index].pageItems`
 
-**Description**
+#### Description
 
 The page items (all art item classes) contained in this group.
 
-**Type**
+#### Type
 
 [PageItems](./PageItems.md), read-only.
 
@@ -324,11 +324,11 @@ The page items (all art item classes) contained in this group.
 
 `app.activeDocument.groupItems[index].parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md) or [GroupItem](#jsobjref-groupitem), read-only.
 
@@ -338,11 +338,11 @@ The parent of this object.
 
 `app.activeDocument.groupItems[index].pathItems`
 
-**Description**
+#### Description
 
 The path items contained in this group.
 
-**Type**
+#### Type
 
 [PathItems](./PathItems.md), read-only.
 
@@ -352,11 +352,11 @@ The path items contained in this group.
 
 `app.activeDocument.groupItems[index].placedItems`
 
-**Description**
+#### Description
 
 The placed items contained in this group.
 
-**Type**
+#### Type
 
 [PlacedItems](./PlacedItems.md), read-only.
 
@@ -366,11 +366,11 @@ The placed items contained in this group.
 
 `app.activeDocument.groupItems[index].pluginItems`
 
-**Description**
+#### Description
 
 The plug-in items contained in this group.
 
-**Type**
+#### Type
 
 [PluginItems](./PluginItems.md), read-only.
 
@@ -380,11 +380,11 @@ The plug-in items contained in this group.
 
 `app.activeDocument.groupItems[index].position`
 
-**Description**
+#### Description
 
 The position (in points) of the top left corner of the `groupItem` object in the format [x, y]. Does not include stroke weight.
 
-**Type**
+#### Type
 
 Array of 2 numbers.
 
@@ -394,11 +394,11 @@ Array of 2 numbers.
 
 `app.activeDocument.groupItems[index].rasterItems`
 
-**Description**
+#### Description
 
 The raster items contained in this group.
 
-**Type**
+#### Type
 
 [RasterItems](./RasterItems.md), read-only.
 
@@ -408,11 +408,11 @@ The raster items contained in this group.
 
 `app.activeDocument.groupItems[index].selected`
 
-**Description**
+#### Description
 
 If `true`, this group item is selected.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -422,11 +422,11 @@ Boolean.
 
 `app.activeDocument.groupItems[index].sliced`
 
-**Description**
+#### Description
 
 If `true`, the item sliced. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -436,11 +436,11 @@ Boolean.
 
 `app.activeDocument.groupItems[index].symbolItems`
 
-**Description**
+#### Description
 
 The symbol item objects in this group.
 
-**Type**
+#### Type
 
 [SymbolItems](./SymbolItems.md), read-only.
 
@@ -450,11 +450,11 @@ The symbol item objects in this group.
 
 `app.activeDocument.groupItems[index].tags`
 
-**Description**
+#### Description
 
 The tags contained in this group.
 
-**Type**
+#### Type
 
 [Tags](./Tags.md), read-only.
 
@@ -464,11 +464,11 @@ The tags contained in this group.
 
 `app.activeDocument.groupItems[index].textFrames`
 
-**Description**
+#### Description
 
 The text art items contained in this group.
 
-**Type**
+#### Type
 
 [TextFrameItems](./TextFrameItems.md), read-only.
 
@@ -478,11 +478,11 @@ The text art items contained in this group.
 
 `app.activeDocument.groupItems[index].top`
 
-**Description**
+#### Description
 
 The position of the top of the item (in points, measured from the bottom of the page).
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -492,11 +492,11 @@ Number (double).
 
 `app.activeDocument.groupItems[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -506,11 +506,11 @@ String, read-only.
 
 `app.activeDocument.groupItems[index].uRL`
 
-**Description**
+#### Description
 
 The value of the Adobe URL tag assigned to this group item.
 
-**Type**
+#### Type
 
 String.
 
@@ -520,11 +520,11 @@ String.
 
 `app.activeDocument.groupItems[index].visibilityVariable`
 
-**Description**
+#### Description
 
 The visibility variable bound to the item.
 
-**Type**
+#### Type
 
 [Variable](./Variable.md)
 
@@ -534,11 +534,11 @@ The visibility variable bound to the item.
 
 `app.activeDocument.groupItems[index].visibleBounds`
 
-**Description**
+#### Description
 
 The visible bounds of the group item including stroke width.
 
-**Type**
+#### Type
 
 Array of 4 numbers, read-only.
 
@@ -548,11 +548,11 @@ Array of 4 numbers, read-only.
 
 `app.activeDocument.groupItems[index].width`
 
-**Description**
+#### Description
 
 The width of the group item.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -562,11 +562,11 @@ Number (double).
 
 `app.activeDocument.groupItems[index].wrapInside`
 
-**Description**
+#### Description
 
 If `true`, the text frame object should be wrapped inside this object.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -576,11 +576,11 @@ Boolean.
 
 `app.activeDocument.groupItems[index].wrapOffset`
 
-**Description**
+#### Description
 
 The offset to use when wrapping text around this object.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -590,11 +590,11 @@ Number (double).
 
 `app.activeDocument.groupItems[index].wrapped`
 
-**Description**
+#### Description
 
 If `true`, wrap text frame objects around this object (text frame must be above the object).
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -604,11 +604,11 @@ Boolean.
 
 `app.activeDocument.groupItems[index].zOrderPosition`
 
-**Description**
+#### Description
 
 The position of this group object within the stacking order of the group or layer (`parent`) that contains the group object.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -621,18 +621,18 @@ Number (long).
 `app.activeDocument.groupItems[index].duplicate([relativeObject]
 [,insertionLocation])`
 
-**Description**
+#### Description
 
 Creates a duplicate of the selected object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                |
 |---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
 | `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
-**Returns**
+#### Returns
 
 [GroupItem](#jsobjref-groupitem)
 
@@ -642,18 +642,18 @@ Creates a duplicate of the selected object.
 
 `app.activeDocument.groupItems[index].move(relativeObject, insertionLocation)`
 
-**Description**
+#### Description
 
 Moves the object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                   |
 |---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
 | `relativeObject`    | Object                                                                                             | Object to move element within |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
-**Returns**
+#### Returns
 
 [GroupItem](#jsobjref-groupitem)
 
@@ -663,11 +663,11 @@ Moves the object.
 
 `app.activeDocument.groupItems[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -688,11 +688,11 @@ app.activeDocument.groupItems[index].resize(
 )
 ```
 
-**Description**
+#### Description
 
 Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -705,7 +705,7 @@ Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY`
 | `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
 | `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -724,11 +724,11 @@ app.activeDocument.groupItems[index].rotate(
 )
 ```
 
-**Description**
+#### Description
 
 Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -739,7 +739,7 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 | `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
 | `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -759,11 +759,11 @@ app.activeDocument.groupItems[index].transform(
 )
 ```
 
-**Description**
+#### Description
 
 Transforms the art item by applying a transformation matrix.
 
-**Parameters**
+#### Parameters
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
@@ -775,7 +775,7 @@ Transforms the art item by applying a transformation matrix.
 | `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
 | `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -794,11 +794,11 @@ app.activeDocument.groupItems[index].translate(
 )
 ```
 
-**Description**
+#### Description
 
 Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
-**Parameters**
+#### Parameters
 
 | Parameter                 | Type                      | Description                          |
 |---------------------------|---------------------------|--------------------------------------|
@@ -809,7 +809,7 @@ Repositions the art item relative to the current position, where `deltaX` is the
 | `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
 | `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -819,17 +819,17 @@ Nothing.
 
 `app.activeDocument.groupItems[index].zOrder(zOrderCmd)`
 
-**Description**
+#### Description
 
 Arranges the art item's position in the stacking order of the group or layer (parent) of this object.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                                                             | Description                       |
 |-------------|----------------------------------------------------------------------------------|-----------------------------------|
 | `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
-**Returns**
+#### Returns
 
 Nothing.
 

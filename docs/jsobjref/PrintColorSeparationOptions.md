@@ -2,7 +2,7 @@
 
 `new PrintColorSeparationOptions()`
 
-**Description**
+#### Description
 
 Information about the color separations to be used in printing the document.
 
@@ -14,13 +14,13 @@ Information about the color separations to be used in printing the document.
 
 `printColorSeparationOptions.colorSeparationMode`
 
-**Description**
+#### Description
 
 The color separation type.
 
 Default: `PrintColorSeparationMode.COMPOSITE`
 
-**Type**
+#### Type
 
 [PrintColorSeparationMode](scripting-constants.md#jsobjref-scripting-constants-printcolorseparationmode)
 
@@ -30,13 +30,13 @@ Default: `PrintColorSeparationMode.COMPOSITE`
 
 `printColorSeparationOptions.convertSpotColors`
 
-**Description**
+#### Description
 
 If `true`, all spot colors should be converted to process colors.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -46,11 +46,11 @@ Boolean
 
 `printColorSeparationOptions.inkList`
 
-**Description**
+#### Description
 
 The list of inks for color separation.
 
-**Type**
+#### Type
 
 Array of [Ink](./Ink.md)
 
@@ -60,13 +60,13 @@ Array of [Ink](./Ink.md)
 
 `printColorSeparationOptions.overPrintBlack`
 
-**Description**
+#### Description
 
 If `true`, overprint in black.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -76,11 +76,11 @@ Boolean
 
 `printColorSeparationOptions.typename`
 
-**Description**
+#### Description
 
 Read-only. The class name of the object.
 
-**Type**
+#### Type
 
 String
 

@@ -2,7 +2,7 @@
 
 `app.activeDocument.graphicStyles`
 
-**Description**
+#### Description
 
 A collection of GraphicStyle objects in a document.
 
@@ -14,11 +14,11 @@ A collection of GraphicStyle objects in a document.
 
 `app.activeDocument.graphicStyles.length`
 
-**Description**
+#### Description
 
 The number of graphic styles in the document.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `app.activeDocument.graphicStyles.parent`
 
-**Description**
+#### Description
 
 The document that contains this graphic styles collection.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `app.activeDocument.graphicStyles.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,17 +58,17 @@ String, read-only.
 
 `app.activeDocument.graphicStyles.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 String.
 
@@ -78,17 +78,17 @@ String.
 
 `app.activeDocument.graphicStyles.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 String, Number.
 
@@ -98,11 +98,11 @@ String, Number.
 
 `app.activeDocument.graphicStyles.removeAll()`
 
-**Description**
+#### Description
 
 Removes all elements in the referenced collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

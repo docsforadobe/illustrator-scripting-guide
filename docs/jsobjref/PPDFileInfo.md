@@ -2,7 +2,7 @@
 
 `app.PPDFileList[index].PPDInfo`
 
-**Description**
+#### Description
 
 Information about a PostScript Printer Description (PPD) file.
 
@@ -14,11 +14,11 @@ Information about a PostScript Printer Description (PPD) file.
 
 `app.PPDFileList[index].PPDInfo.languageLevel`
 
-**Description**
+#### Description
 
 The PostScript language level.
 
-**Type**
+#### Type
 
 String
 
@@ -28,11 +28,11 @@ String
 
 `app.PPDFileList[index].PPDInfo.PPDFilePath`
 
-**Description**
+#### Description
 
 Path specification for the PPD file.
 
-**Type**
+#### Type
 
 File
 
@@ -42,11 +42,11 @@ File
 
 `app.PPDFileList[index].PPDInfo.screenList`
 
-**Description**
+#### Description
 
 List of color separation screens.
 
-**Type**
+#### Type
 
 Array of [Screen](./Screen.md)
 
@@ -56,11 +56,11 @@ Array of [Screen](./Screen.md)
 
 `app.PPDFileList[index].PPDInfo.screenSpotFunctionList`
 
-**Description**
+#### Description
 
 List of color separation screen spot functions.
 
-**Type**
+#### Type
 
 Array of [ScreenSpotFunction](./ScreenSpotFunction.md)
 

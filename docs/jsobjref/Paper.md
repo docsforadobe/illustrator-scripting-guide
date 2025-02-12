@@ -2,7 +2,7 @@
 
 `app.class`
 
-**Description**
+#### Description
 
 Associates paper information with a paper name. `Paper` objects are used by [Printer](./Printer.md) objects.
 
@@ -14,11 +14,11 @@ Associates paper information with a paper name. `Paper` objects are used by [Pri
 
 `paper.name`
 
-**Description**
+#### Description
 
 The paper name.
 
-**Type**
+#### Type
 
 String.
 
@@ -28,11 +28,11 @@ String.
 
 `paper.paperInfo`
 
-**Description**
+#### Description
 
 The paper information.
 
-**Type**
+#### Type
 
 [PaperInfo](./PaperInfo.md)
 
@@ -42,10 +42,10 @@ The paper information.
 
 `paper.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.

@@ -2,7 +2,7 @@
 
 `new PrintOptions()`
 
-**Description**
+#### Description
 
 Contains information about all printing options including flattening, color management, coordinates, fonts, and paper.
 
@@ -14,11 +14,11 @@ Contains information about all printing options including flattening, color mana
 
 `printOptions.colorManagementOptions`
 
-**Description**
+#### Description
 
 The printing color management options.
 
-**Type**
+#### Type
 
 [PrintColorManagementOptions](./PrintColorManagementOptions.md)
 
@@ -28,11 +28,11 @@ The printing color management options.
 
 `printOptions.colorSeparationOptions`
 
-**Description**
+#### Description
 
 The printing color separation options.
 
-**Type**
+#### Type
 
 [PrintColorSeparationOptions](./PrintColorSeparationOptions.md)
 
@@ -42,11 +42,11 @@ The printing color separation options.
 
 `printOptions.coordinateOptions`
 
-**Description**
+#### Description
 
 The printing coordinate options.
 
-**Type**
+#### Type
 
 [PrintCoordinateOptions](./PrintCoordinateOptions.md)
 
@@ -56,11 +56,11 @@ The printing coordinate options.
 
 `printOptions.flattenerOptions`
 
-**Description**
+#### Description
 
 The printing flattener options.
 
-**Type**
+#### Type
 
 [PrintFlattenerOptions](./PrintFlattenerOptions.md)
 
@@ -70,11 +70,11 @@ The printing flattener options.
 
 `printOptions.flattenerPreset`
 
-**Description**
+#### Description
 
 The transparency flattener preset name.
 
-**Type**
+#### Type
 
 String
 
@@ -84,11 +84,11 @@ String
 
 `printOptions.fontOptions`
 
-**Description**
+#### Description
 
 The printing font options.
 
-**Type**
+#### Type
 
 [PrintFontOptions](./PrintFontOptions.md)
 
@@ -98,11 +98,11 @@ The printing font options.
 
 `printOptions.jobOptions`
 
-**Description**
+#### Description
 
 The printing job options.
 
-**Type**
+#### Type
 
 [PrintJobOptions](./PrintJobOptions.md)
 
@@ -112,11 +112,11 @@ The printing job options.
 
 `printOptions.pageMarksOptions`
 
-**Description**
+#### Description
 
 The printing page marks options.
 
-**Type**
+#### Type
 
 [PrintPageMarksOptions](./PrintPageMarksOptions.md)
 
@@ -126,11 +126,11 @@ The printing page marks options.
 
 `printOptions.paperOptions`
 
-**Description**
+#### Description
 
 The paper options.
 
-**Type**
+#### Type
 
 [PrintPaperOptions](./PrintPaperOptions.md)
 
@@ -140,11 +140,11 @@ The paper options.
 
 `printOptions.postScriptOptions`
 
-**Description**
+#### Description
 
 The printing PostScript options.
 
-**Type**
+#### Type
 
 [PrintPostScriptOptions](./PrintPostScriptOptions.md)
 
@@ -154,11 +154,11 @@ The printing PostScript options.
 
 `printOptions.PPDName`
 
-**Description**
+#### Description
 
 The PPD name.
 
-**Type**
+#### Type
 
 String
 
@@ -168,11 +168,11 @@ String
 
 `printOptions.printerName`
 
-**Description**
+#### Description
 
 The printer name.
 
-**Type**
+#### Type
 
 String
 
@@ -182,11 +182,11 @@ String
 
 `printOptions.printPreset`
 
-**Description**
+#### Description
 
 The print style.
 
-**Type**
+#### Type
 
 String
 

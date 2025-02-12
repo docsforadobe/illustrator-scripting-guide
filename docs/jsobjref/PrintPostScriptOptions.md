@@ -2,7 +2,7 @@
 
 `new PrintPostScriptOptions()`
 
-**Description**
+#### Description
 
 Options for printing to a PostScript printer.
 
@@ -14,13 +14,13 @@ Options for printing to a PostScript printer.
 
 `printPostScriptOptions.binaryPrinting`
 
-**Description**
+#### Description
 
 If `true`, printing should be in binary mode.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -30,13 +30,13 @@ Boolean
 
 `printPostScriptOptions.compatibleShading`
 
-**Description**
+#### Description
 
 If `true`, use PostScript Level 1-compatible gradient and gradient mesh printing.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -46,13 +46,13 @@ Boolean
 
 `printPostScriptOptions.forceContinuousTone`
 
-**Description**
+#### Description
 
 If `true`, force continuous tone.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -62,13 +62,13 @@ Boolean
 
 `printPostScriptOptions.imageCompression`
 
-**Description**
+#### Description
 
 The image compression type.
 
 Default: `PostScriptImageCompressionType.IMAGECOMPRESSIONNONE`
 
-**Type**
+#### Type
 
 [PostScriptImageCompressionType](scripting-constants.md#jsobjref-scripting-constants-postscriptimagecompressiontype)
 
@@ -78,13 +78,13 @@ Default: `PostScriptImageCompressionType.IMAGECOMPRESSIONNONE`
 
 `printPostScriptOptions.negativePrinting`
 
-**Description**
+#### Description
 
 If `true`, print in negative mode.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -94,13 +94,13 @@ Boolean
 
 `printPostScriptOptions.postScriptLevel`
 
-**Description**
+#### Description
 
 The PostScript language level.
 
 Default: `PrinterPostScriptLevelEnum.LEVEL2`
 
-**Type**
+#### Type
 
 [PrinterPostScriptLevelEnum](scripting-constants.md#jsobjref-scripting-constants-printerpostscriptlevelenum)
 
@@ -110,13 +110,13 @@ Default: `PrinterPostScriptLevelEnum.LEVEL2`
 
 `printPostScriptOptions.shadingResolution`
 
-**Description**
+#### Description
 
 The shading resolution. Range: 1.0 to 9600.0
 
 Default: 300.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -126,11 +126,11 @@ Number (double)
 
 `printPostScriptOptions.typename`
 
-**Description**
+#### Description
 
 Read-only. The class name of the object.
 
-**Type**
+#### Type
 
 String
 

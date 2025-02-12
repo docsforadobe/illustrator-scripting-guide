@@ -2,7 +2,7 @@
 
 `swatchGroups`
 
-**Description**
+#### Description
 
 A collection of [SwatchGroup](./SwatchGroup.md) objects.
 
@@ -14,11 +14,11 @@ A collection of [SwatchGroup](./SwatchGroup.md) objects.
 
 `swatchGroups.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `swatchGroups.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `swatchGroups.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,11 +58,11 @@ String, read-only.
 
 `swatchGroups.add()`
 
-**Description**
+#### Description
 
 Creates a swatch group.
 
-**Returns**
+#### Returns
 
 [SwatchGroup](./SwatchGroup.md)
 
@@ -72,17 +72,17 @@ Creates a swatch group.
 
 `swatchGroups.getByName(name)`
 
-**Description**
+#### Description
 
 Get the first element in the collection with the provided name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [SwatchGroup](./SwatchGroup.md)
 
@@ -92,10 +92,10 @@ Get the first element in the collection with the provided name.
 
 `swatchGroups.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in the collection.
 
-**Returns**
+#### Returns
 
 Nothing.

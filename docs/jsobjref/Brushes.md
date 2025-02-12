@@ -2,7 +2,7 @@
 
 `app.activeDocument.brushes`
 
-**Description**
+#### Description
 
 A collection of brush objects in a document.
 
@@ -14,11 +14,11 @@ A collection of brush objects in a document.
 
 `app.activeDocument.brushes.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection
 
-**Type**
+#### Type
 
 Number; read-only.
 
@@ -28,11 +28,11 @@ Number; read-only.
 
 `app.activeDocument.brushes.parent`
 
-**Description**
+#### Description
 
 The document that contains this brushes collection.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -42,11 +42,11 @@ Object; read-only.
 
 `app.activeDocument.brushes.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -58,17 +58,17 @@ String; read-only.
 
 `app.activeDocument.brushes.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [Brush](./Brush.md)
 
@@ -78,17 +78,17 @@ Gets the first element in the collection with the specified name.
 
 `app.activeDocument.brushes.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [Brush](./Brush.md)
 

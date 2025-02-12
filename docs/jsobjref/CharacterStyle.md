@@ -2,7 +2,7 @@
 
 `characterStyle`
 
-**Description**
+#### Description
 
 Associates character attributes with characters. For an example, see [CharacterStyles](./CharacterStyles.md).
 
@@ -14,11 +14,11 @@ Associates character attributes with characters. For an example, see [CharacterS
 
 `characterStyle.characterAttributes`
 
-**Description**
+#### Description
 
 The character properties for the style.
 
-**Type**
+#### Type
 
 [CharacterAttributes](./CharacterAttributes.md), read-only.
 
@@ -28,11 +28,11 @@ The character properties for the style.
 
 `characterStyle.name`
 
-**Description**
+#### Description
 
 The character style's name.
 
-**Type**
+#### Type
 
 String
 
@@ -42,11 +42,11 @@ String
 
 `characterStyle.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -56,11 +56,11 @@ Object, read-only.
 
 `characterStyle.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -72,18 +72,18 @@ String, read-only.
 
 `characterStyle.applyTo(textItem [,clearingOverrides])`
 
-**Description**
+#### Description
 
 Applies the character style to the text object or objects.
 
-**Paramaters**
+#### Parameters
 
 | Parameter           | Type              | Description                 |
 |---------------------|-------------------|-----------------------------|
 | `textItem`          | Object            | Text item to apply style to |
 | `clearingOverrides` | Boolean, optional | Whether to clear overrides  |
 
-**Returns**
+#### Returns
 
 Nothing
 
@@ -93,10 +93,10 @@ Nothing
 
 `characterStyle.remove()`
 
-**Description**
+#### Description
 
 Deletes the object.
 
-**Returns**
+#### Returns
 
 Nothing.

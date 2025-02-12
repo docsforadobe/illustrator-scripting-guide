@@ -2,7 +2,7 @@
 
 `app.activeDocument.gradients[index].gradientStops`
 
-**Description**
+#### Description
 
 A collection of [GradientStop](./GradientStop.md) objects in a specific gradient. The elements are not named; you must access them by index.
 
@@ -14,11 +14,11 @@ A collection of [GradientStop](./GradientStop.md) objects in a specific gradient
 
 `app.activeDocument.gradients[index].gradientStops.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `app.activeDocument.gradients[index].gradientStops.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `app.activeDocument.gradients[index].gradientStops.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,11 +58,11 @@ String, read-only.
 
 `app.activeDocument.gradients[index].gradientStops.add()`
 
-**Description**
+#### Description
 
 Creates a new object.
 
-**Returns**
+#### Returns
 
 [GradientStop](./GradientStop.md)
 
@@ -72,17 +72,17 @@ Creates a new object.
 
 `app.activeDocument.gradients[index].gradientStops.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [GradientStop](./GradientStop.md)
 
@@ -92,17 +92,17 @@ Gets the first element in the collection with the specified name.
 
 `app.activeDocument.gradients[index].gradientStops.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [GradientStop](./GradientStop.md)
 
@@ -112,11 +112,11 @@ Gets an element from the collection.
 
 `app.activeDocument.gradients[index].gradientStops.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all objects in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

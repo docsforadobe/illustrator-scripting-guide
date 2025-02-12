@@ -2,7 +2,7 @@
 
 `new PrintColorManagementOptions()`
 
-**Description**
+#### Description
 
 Information used for color management of the document.
 
@@ -14,11 +14,11 @@ Information used for color management of the document.
 
 `printColorManagementOptions.colorProfileMode`
 
-**Description**
+#### Description
 
 The color management profile mode. Default: `PrintColorProfile.SOURCEPROFILE`
 
-**Type**
+#### Type
 
 [PrintColorProfile](scripting-constants.md#jsobjref-scripting-constants-printcolorprofile)
 
@@ -28,11 +28,11 @@ The color management profile mode. Default: `PrintColorProfile.SOURCEPROFILE`
 
 `printColorManagementOptions.intent`
 
-**Description**
+#### Description
 
 The color management intent type. Default: `PrintColorIntent.RELATIVECOLORIMETRIC`
 
-**Type**
+#### Type
 
 [PrintColorIntent](scripting-constants.md#jsobjref-scripting-constants-printcolorintent)
 
@@ -42,11 +42,11 @@ The color management intent type. Default: `PrintColorIntent.RELATIVECOLORIMETRI
 
 `printColorManagementOptions.name`
 
-**Description**
+#### Description
 
 The color management profile name.
 
-**Type**
+#### Type
 
 String
 
@@ -56,11 +56,11 @@ String
 
 `printColorManagementOptions.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String; read-only.
 

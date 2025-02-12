@@ -2,7 +2,7 @@
 
 `stories`
 
-**Description**
+#### Description
 
 A collection of [Story](./Story.md) objects in a document.
 
@@ -14,11 +14,11 @@ A collection of [Story](./Story.md) objects in a document.
 
 `stories.length`
 
-**Description**
+#### Description
 
 The number of elements in the collection.
 
-**Type**
+#### Type
 
 Number; read-only.
 
@@ -28,11 +28,11 @@ Number; read-only.
 
 `stories.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -42,11 +42,11 @@ Object; read-only.
 
 `stories.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -58,16 +58,16 @@ String; read-only.
 
 `stories.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [Story](./Story.md)

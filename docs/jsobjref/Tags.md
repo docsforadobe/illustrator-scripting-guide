@@ -2,7 +2,7 @@
 
 `app.activeDocument.selection[index].tags`
 
-**Description**
+#### Description
 
 A collection of [Tag](./Tag.md) objects.
 
@@ -14,11 +14,11 @@ A collection of [Tag](./Tag.md) objects.
 
 `app.activeDocument.selection[index].tags.length`
 
-**Description**
+#### Description
 
 The number of elements in the collection.
 
-**Type**
+#### Type
 
 Number; read-only.
 
@@ -28,11 +28,11 @@ Number; read-only.
 
 `app.activeDocument.selection[index].tags.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -42,11 +42,11 @@ Object; read-only.
 
 `app.activeDocument.selection[index].tags.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -58,11 +58,11 @@ String; read-only.
 
 `app.activeDocument.selection[index].tags.add()`
 
-**Description**
+#### Description
 
 Creates a new [Tag](./Tag.md) object.
 
-**Returns**
+#### Returns
 
 [Tag](./Tag.md)
 
@@ -72,17 +72,17 @@ Creates a new [Tag](./Tag.md) object.
 
 `app.activeDocument.selection[index].tags.getByName(name)`
 
-**Description**
+#### Description
 
 Get the first element in the collection with the provided name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [Tag](./Tag.md)
 
@@ -92,17 +92,17 @@ Get the first element in the collection with the provided name.
 
 `app.activeDocument.selection[index].tags.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [Tag](./Tag.md)
 
@@ -112,11 +112,11 @@ Gets an element from the collection.
 
 `app.activeDocument.selection[index].tags.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

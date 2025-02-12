@@ -2,7 +2,7 @@
 
 `app.activeDocument.selection[index].tags[index`
 
-**Description**
+#### Description
 
 A label associated with a specific piece of artwork.
 
@@ -16,11 +16,11 @@ Tags allows you to assign an unlimited number of key-value pairs to any page ite
 
 `app.activeDocument.selection[index].tags[index].name`
 
-**Description**
+#### Description
 
 The tag's name.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -30,11 +30,11 @@ String, read-only.
 
 `app.activeDocument.selection[index].tags[index].parent`
 
-**Description**
+#### Description
 
 The object that contains this tag.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `app.activeDocument.selection[index].tags[index].typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -56,11 +56,11 @@ String, read-only.
 
 `app.activeDocument.selection[index].tags[index].value`
 
-**Description**
+#### Description
 
 The data stored in this tag.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -72,11 +72,11 @@ String, read-only.
 
 `app.activeDocument.selection[index].tags[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.
 

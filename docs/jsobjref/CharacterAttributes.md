@@ -2,7 +2,7 @@
 
 `characterAttributes`
 
-**Description**
+#### Description
 
 Specifies the properties of a character contained in a text frame. A `CharacterStyle` object associates these attributes with a specific text range through its `characterAttributes` property.
 
@@ -19,11 +19,11 @@ Specifies the properties of a character contained in a text frame. A `CharacterS
 
 `characterAttributes.akiLeft`
 
-**Description**
+#### Description
 
 The amount of inter-character spacing to be added to the left side of the character, in thousandths of an em (that amount will not compress or expand during full-justification).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -33,11 +33,11 @@ Number (double)
 
 `characterAttributes.akiRight`
 
-**Description**
+#### Description
 
 The amount of inter-character spacing to be added to the right side of the character, in thousandths of an em (that amount will not compress or expand during full-justification).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -47,11 +47,11 @@ Number (double)
 
 `characterAttributes.alignment`
 
-**Description**
+#### Description
 
 The character alignment type.
 
-**Type**
+#### Type
 
 [StyleRunAlignmentType](scripting-constants.md#jsobjref-scripting-constants-stylerunalignmenttype)
 
@@ -61,11 +61,11 @@ The character alignment type.
 
 `characterAttributes.alternateGlyphs`
 
-**Description**
+#### Description
 
 The alternate glyphs form.
 
-**Type**
+#### Type
 
 [AlternateGlyphsForm](scripting-constants.md#jsobjref-scripting-constants-alternateglyphsform)
 
@@ -75,11 +75,11 @@ The alternate glyphs form.
 
 `characterAttributes.autoLeading`
 
-**Description**
+#### Description
 
 If `true`, the automatic leading should be used.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -89,11 +89,11 @@ Boolean
 
 `characterAttributes.baselineDirection`
 
-**Description**
+#### Description
 
 The Japanese text baseline direction.
 
-**Type**
+#### Type
 
 [BaselineDirectionType](scripting-constants.md#jsobjref-scripting-constants-baselinedirectiontype)
 
@@ -103,11 +103,11 @@ The Japanese text baseline direction.
 
 `characterAttributes.baselinePosition`
 
-**Description**
+#### Description
 
 The baseline position of text.
 
-**Type**
+#### Type
 
 [FontBaselineOption](scripting-constants.md#jsobjref-scripting-constants-fontbaselineoption)
 
@@ -117,11 +117,11 @@ The baseline position of text.
 
 `characterAttributes.baselineShift`
 
-**Description**
+#### Description
 
 The amount of shift in points of the text baseline.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -131,11 +131,11 @@ Number (double)
 
 `characterAttributes.capitalization`
 
-**Description**
+#### Description
 
 The case of text.
 
-**Type**
+#### Type
 
 [FontCapsOption](scripting-constants.md#jsobjref-scripting-constants-fontcapsoption)
 
@@ -145,11 +145,11 @@ The case of text.
 
 `characterAttributes.connectionForms`
 
-**Description**
+#### Description
 
 If `true`, the OpenType® connection forms should be used.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -159,11 +159,11 @@ Boolean
 
 `characterAttributes.contextualLigature`
 
-**Description**
+#### Description
 
 If `true`, the contextual ligature should be used.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -173,11 +173,11 @@ Boolean
 
 `characterAttributes.discretionaryLigature`
 
-**Description**
+#### Description
 
 If `true`, the discretionary ligature should be used.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -187,11 +187,11 @@ Boolean
 
 `characterAttributes.figureStyle`
 
-**Description**
+#### Description
 
 The number style in a OpenType font.
 
-**Type**
+#### Type
 
 [FigureStyleType](scripting-constants.md#jsobjref-scripting-constants-figurestyletype)
 
@@ -201,11 +201,11 @@ The number style in a OpenType font.
 
 `characterAttributes.fillColor`
 
-**Description**
+#### Description
 
 The color of the text fill.
 
-**Type**
+#### Type
 
 [Color](./Color.md)
 
@@ -215,11 +215,11 @@ The color of the text fill.
 
 `characterAttributes.fractions`
 
-**Description**
+#### Description
 
 If `true`, the OpenType fractions should be used.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -229,11 +229,11 @@ Boolean
 
 `characterAttributes.horizontalScale`
 
-**Description**
+#### Description
 
 The character horizontal scaling factor expressed as a percentage (100 = 100%).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -243,11 +243,11 @@ Number (double)
 
 `characterAttributes.italics`
 
-**Description**
+#### Description
 
 If `true`, the Japanese OpenType font supports italics.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -257,11 +257,11 @@ Boolean
 
 `characterAttributes.kerningMethod`
 
-**Description**
+#### Description
 
 The automatic kerning method to use.
 
-**Type**
+#### Type
 
 [AutoKernType](scripting-constants.md#jsobjref-scripting-constants-autokerntype)
 
@@ -271,11 +271,11 @@ The automatic kerning method to use.
 
 `characterAttributes.language`
 
-**Description**
+#### Description
 
 The language of text.
 
-**Type**
+#### Type
 
 [LanguageType](scripting-constants.md#jsobjref-scripting-constants-languagetype)
 
@@ -285,11 +285,11 @@ The language of text.
 
 `characterAttributes.leading`
 
-**Description**
+#### Description
 
 The amount of space between two lines of text, in points.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -299,11 +299,11 @@ Number (double)
 
 `characterAttributes.ligature`
 
-**Description**
+#### Description
 
 If `true`, the ligature should be used.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -313,11 +313,11 @@ Boolean
 
 `characterAttributes.noBreak`
 
-**Description**
+#### Description
 
 If `true`, line breaks are not allowed.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -327,11 +327,11 @@ Boolean
 
 `characterAttributes.openTypePosition`
 
-**Description**
+#### Description
 
 The OpenType baseline position.
 
-**Type**
+#### Type
 
 [FontOpenTypePositionOption](scripting-constants.md#jsobjref-scripting-constants-fontopentypepositionoption)
 
@@ -341,11 +341,11 @@ The OpenType baseline position.
 
 `characterAttributes.ordinals`
 
-**Description**
+#### Description
 
 If `true`, the OpenType ordinals should be used.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -355,11 +355,11 @@ Boolean
 
 `characterAttributes.ornaments`
 
-**Description**
+#### Description
 
 If `true`, the OpenType ornaments should be used.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -369,11 +369,11 @@ Boolean
 
 `characterAttributes.overprintFill`
 
-**Description**
+#### Description
 
 If `true`, the fill of the text should be overprinted.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -383,11 +383,11 @@ Boolean
 
 `characterAttributes.overprintStroke`
 
-**Description**
+#### Description
 
 If `true`, the stroke of the text should be overprinted.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -397,11 +397,11 @@ Boolean
 
 `characterAttributes.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -411,11 +411,11 @@ Object, read-only.
 
 `characterAttributes.proportionalMetrics`
 
-**Description**
+#### Description
 
 If `true`, the Japanese OpenType font supports proportional glyphs.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -425,11 +425,11 @@ Boolean
 
 `characterAttributes.rotation`
 
-**Description**
+#### Description
 
 The character rotation angle in degrees.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -439,11 +439,11 @@ Number (double)
 
 `characterAttributes.size`
 
-**Description**
+#### Description
 
 Font size in points.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -453,11 +453,11 @@ Number (double)
 
 `characterAttributes.strikeThrough`
 
-**Description**
+#### Description
 
 If `true`, characters use strike-through style.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -467,11 +467,11 @@ Boolean
 
 `characterAttributes.strokeColor`
 
-**Description**
+#### Description
 
 The color of the text stroke.
 
-**Type**
+#### Type
 
 [Color](./Color.md)
 
@@ -481,11 +481,11 @@ The color of the text stroke.
 
 `characterAttributes.strokeWeight`
 
-**Description**
+#### Description
 
 Line width of stroke.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -495,11 +495,11 @@ Number (double)
 
 `characterAttributes.stylisticAlternates`
 
-**Description**
+#### Description
 
 If `true`, the OpenType stylistic alternates should be used.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -509,11 +509,11 @@ Boolean
 
 `characterAttributes.swash`
 
-**Description**
+#### Description
 
 If `true`, the OpenType swash should be used.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -523,11 +523,11 @@ Boolean
 
 `characterAttributes.tateChuYokoHorizontal`
 
-**Description**
+#### Description
 
 The Tate-Chu-Yoko horizontal adjustment in points.
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -537,11 +537,11 @@ Number (long)
 
 `characterAttributes.tateChuYokoVertical`
 
-**Description**
+#### Description
 
 The Tate-Chu-Yoko vertical adjustment in points.
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -551,11 +551,11 @@ Number (long)
 
 `characterAttributes.textFont`
 
-**Description**
+#### Description
 
 The text font.
 
-**Type**
+#### Type
 
 [TextFont](./TextFont.md)
 
@@ -565,11 +565,11 @@ The text font.
 
 `characterAttributes.titling`
 
-**Description**
+#### Description
 
 If `true`, the OpenType titling alternates should be used.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -579,11 +579,11 @@ Boolean
 
 `characterAttributes.tracking`
 
-**Description**
+#### Description
 
 The tracking or range kerning amount, in thousandths of an em.
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -593,11 +593,11 @@ Number (long)
 
 `characterAttributes.Tsume`
 
-**Description**
+#### Description
 
 The percentage of space reduction around a Japanese character.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -607,11 +607,11 @@ Number (double)
 
 `characterAttributes.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -621,11 +621,11 @@ String, read-only.
 
 `characterAttributes.underline`
 
-**Description**
+#### Description
 
 If `true`, characters are underlined.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -635,11 +635,11 @@ Boolean
 
 `characterAttributes.verticalScale`
 
-**Description**
+#### Description
 
 Character vertical scaling factor expressed as a percentage (= 100%).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -649,11 +649,11 @@ Number (double)
 
 `characterAttributes.wariChuCharactersAfterBreak`
 
-**Description**
+#### Description
 
 Specifies how the characters in Wari-Chu text (an inset note in Japanese text) are divided into two or more lines.
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -663,11 +663,11 @@ Number (long)
 
 `characterAttributes.wariChuCharactersBeforeBreak`
 
-**Description**
+#### Description
 
 Specifies how the characters in Wari-Chu text (an inset note in Japanese text) are divided into two or more lines.
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -677,11 +677,11 @@ Number (long)
 
 `characterAttributes.waiChuEnabled`
 
-**Description**
+#### Description
 
 If `true`, Wari-Chu is enabled.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -691,11 +691,11 @@ Boolean
 
 `characterAttributes.wariChuJustification`
 
-**Description**
+#### Description
 
 The Wari-Chu justification.
 
-**Type**
+#### Type
 
 [WariChuJustificationType](scripting-constants.md#jsobjref-scripting-constants-warichujustificationtype)
 
@@ -705,11 +705,11 @@ The Wari-Chu justification.
 
 `characterAttributes.wariChuLineGap`
 
-**Description**
+#### Description
 
 The Wari-Chu line gap.
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -719,11 +719,11 @@ Number (long)
 
 `characterAttributes.wariChuLines`
 
-**Description**
+#### Description
 
 The number of Wari-Chu (multiple text lines fit into a space meant for one) lines.
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -733,11 +733,11 @@ Number (long)
 
 `characterAttributes.wariChuScale`
 
-**Description**
+#### Description
 
 The Wari-Chu scale.
 
-**Type**
+#### Type
 
 Number (double)
 

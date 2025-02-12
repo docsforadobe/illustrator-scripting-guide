@@ -23,7 +23,7 @@ The alternate glyphs form of text.
 | `AlternateGlyphsForm.JIS90FORM`         | JIS90FORM          |
 | `AlternateGlyphsForm.JIS04FORM`         | JIS04FORM          |
 
-**Example**
+#### Example
 
 ```javascript
 textRef.textRange.characters[i].characterAttributes.alternateGlyphs == AlternateGlyphsForm.DEFAULTFORM;

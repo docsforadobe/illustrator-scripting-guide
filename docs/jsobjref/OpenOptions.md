@@ -2,7 +2,7 @@
 
 `openOptions`
 
-**Description**
+#### Description
 
 Options for opening a document, used with the [Application.open()](Application.md#jsobjref-application-open) method.
 
@@ -14,11 +14,11 @@ Options for opening a document, used with the [Application.open()](Application.m
 
 `openOptions.convertCropAreaToArboard`
 
-**Description**
+#### Description
 
 Optional. Convert crop areas to artboards when opening a legacy document in Illustrator CS4 or later. When `false`, crop areas are discarded. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -28,11 +28,11 @@ Boolean.
 
 `openOptions.convertTilesToArboard`
 
-**Description**
+#### Description
 
 Optional. Convert print tiles to artboards when opening a legacy document in Illustrator CS4 or later. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -42,11 +42,11 @@ Boolean.
 
 `openOptions.createArtboardWithArtworkBoundingBox`
 
-**Description**
+#### Description
 
 Optional. Create an artboard with the dimensions of the bounding box of the artwork when opening a legacy document in Illustrator CS4 or later. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -56,11 +56,11 @@ Boolean.
 
 `openOptions.openAs`
 
-**Description**
+#### Description
 
 Optional. Open the file as an Illustrator library of this type. Default: `LibraryType.IllustratorArtwork`.
 
-**Type**
+#### Type
 
 [LibraryType](scripting-constants.md#jsobjref-scripting-constants-librarytype)
 
@@ -70,11 +70,11 @@ Optional. Open the file as an Illustrator library of this type. Default: `Librar
 
 `openOptions.preserveLegacyArtboard`
 
-**Description**
+#### Description
 
 Optional. Preserve legacy artboards when opening a legacy document in Illustrator CS4 or later. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -84,11 +84,11 @@ Boolean.
 
 `openOptions.updateLegacyGradientMesh`
 
-**Description**
+#### Description
 
 If `true`, preserves the spot colors in the gradient mesh objects for legacy documents (pre-Illustrator CS4). Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -98,11 +98,11 @@ Boolean.
 
 `openOptions.updateLegacyText`
 
-**Description**
+#### Description
 
 Optional. If `true`, update all legacy text items (from previous versions of Illustrator). Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 

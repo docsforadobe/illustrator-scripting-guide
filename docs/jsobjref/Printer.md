@@ -2,7 +2,7 @@
 
 `app.PrinterList[index`
 
-**Description**
+#### Description
 
 Associates an available printer with printer information.
 
@@ -16,11 +16,11 @@ To request a list of printers, you must first have a document open or an error i
 
 `app.printerList[index].name`
 
-**Description**
+#### Description
 
 The printer name.
 
-**Type**
+#### Type
 
 String
 
@@ -30,11 +30,11 @@ String
 
 `app.printerList[index].printerInfo`
 
-**Description**
+#### Description
 
 The printer information.
 
-**Type**
+#### Type
 
 [PrinterInfo](./PrinterInfo.md)
 
@@ -44,10 +44,10 @@ The printer information.
 
 `app.printerList[index].typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String; read-only.

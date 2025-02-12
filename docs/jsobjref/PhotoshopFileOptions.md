@@ -2,7 +2,7 @@
 
 `preferences.photoshopFileOptions`
 
-**Description**
+#### Description
 
 Options for opening a Photoshop file, used with the [Application.open()](Application.md#jsobjref-application-open) method. All properties are optional.
 
@@ -14,11 +14,11 @@ Options for opening a Photoshop file, used with the [Application.open()](Applica
 
 `preferences.photoshopFileOptions.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -28,11 +28,11 @@ Object; read-only.
 
 `preferences.photoshopFileOptions.pixelAspectRatioCorrection`
 
-**Description**
+#### Description
 
 If `true`, imported images that have a non-square pixel aspect ratio should be adjusted.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -42,13 +42,13 @@ Boolean
 
 `preferences.photoshopFileOptions.preserveImageMaps`
 
-**Description**
+#### Description
 
 If `true`, image maps should be preserved when document is converted.
 
 Default: `true`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -58,13 +58,13 @@ Boolean
 
 `preferences.photoshopFileOptions.preserveLayers`
 
-**Description**
+#### Description
 
 If `true`, layers should be preserved when document is converted.
 
 Default: `true`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -74,13 +74,13 @@ Boolean
 
 `preferences.photoshopFileOptions.preserveSlices`
 
-**Description**
+#### Description
 
 If `true`, slices should be preserved when document is converted.
 
 Default: `true`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -90,11 +90,11 @@ Boolean
 
 `preferences.photoshopFileOptions.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 

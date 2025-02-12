@@ -2,7 +2,7 @@
 
 `app.activeDocument.paragraphStyles[index`
 
-**Description**
+#### Description
 
 Associates character and paragraph attributes with a style name. The style object can be used to apply those attributes to the text in a TextFrame object. See [Creating and applying a paragraph style](ParagraphStyles.md#jsobjref-paragraphstyles-creatingandapplyingparagraphstyle) example.
 
@@ -14,11 +14,11 @@ Associates character and paragraph attributes with a style name. The style objec
 
 `app.activeDocument.paragraphStyles[index.characterAttributes`
 
-**Description**
+#### Description
 
 The character properties for the text range.
 
-**Type**
+#### Type
 
 [CharacterAttributes](./CharacterAttributes.md), read-only.
 
@@ -28,11 +28,11 @@ The character properties for the text range.
 
 `app.activeDocument.paragraphStyles[index.name`
 
-**Description**
+#### Description
 
 The paragraph style's name.
 
-**Type**
+#### Type
 
 String.
 
@@ -42,11 +42,11 @@ String.
 
 `app.activeDocument.paragraphStyles[index.paragraphAttributes`
 
-**Description**
+#### Description
 
 The paragraph properties for the text range.
 
-**Type**
+#### Type
 
 [CharacterAttributes](./CharacterAttributes.md), read-only.
 
@@ -56,11 +56,11 @@ The paragraph properties for the text range.
 
 `app.activeDocument.paragraphStyles[index.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -70,11 +70,11 @@ Object, read-only.
 
 `app.activeDocument.paragraphStyles[index.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -86,18 +86,18 @@ String, read-only.
 
 `app.activeDocument.paragraphStyles[index.applyTo(textItem [,clearingOverrides])`
 
-**Description**
+#### Description
 
 Applies this paragraph style to the specified text item.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type              | Description                      |
 |---------------------|-------------------|----------------------------------|
 | `textItem`          | Object            | Paragraph item to apply style to |
 | `clearingOverrides` | Boolean, optional | Whether to clear overrides       |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -107,10 +107,10 @@ Nothing.
 
 `app.activeDocument.paragraphStyles[index.remove()`
 
-**Description**
+#### Description
 
 Deletes the object.
 
-**Returns**
+#### Returns
 
 Nothing.

@@ -2,7 +2,7 @@
 
 `RasterEffectOptions`
 
-**Description**
+#### Description
 
 Specifies raster effects settings for the document. All properties are optional.
 
@@ -14,13 +14,13 @@ Specifies raster effects settings for the document. All properties are optional.
 
 `rasterEffectOptions.antiAliasing`
 
-**Description**
+#### Description
 
 If `true`, the image should be antialiased.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -30,13 +30,13 @@ Boolean
 
 `rasterEffectOptions.clippingMask`
 
-**Description**
+#### Description
 
 If `true`, a clipping mask is created for the image.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -46,13 +46,13 @@ Boolean
 
 `rasterEffectOptions.colorModel`
 
-**Description**
+#### Description
 
 The color model for the rasterization.
 
 Default: `RasterizationColorModel.DEFAULTCOLORMODEL`
 
-**Type**
+#### Type
 
 [RasterizationColorModel](scripting-constants.md#jsobjref-scripting-constants-rasterizationcolormodel)
 
@@ -62,13 +62,13 @@ Default: `RasterizationColorModel.DEFAULTCOLORMODEL`
 
 `rasterEffectOptions.convertSpotColors`
 
-**Description**
+#### Description
 
 If `true`, all spot colors are converted to process colors for the image.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -78,13 +78,13 @@ Boolean
 
 `rasterEffectOptions.padding`
 
-**Description**
+#### Description
 
 The amount of white space (in points) to be added around the object during rasterization.
 
 Default: .0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -94,13 +94,13 @@ Number (double)
 
 `rasterEffectOptions.resolution`
 
-**Description**
+#### Description
 
 The rasterization resolution in dots per inch (dpi). Range: 72.0 to 2400.0.
 
 Default: 300.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -110,12 +110,12 @@ Number (double)
 
 `rasterEffectOptions.transparency`
 
-**Description**
+#### Description
 
 If `true`, the image should use transparency.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean

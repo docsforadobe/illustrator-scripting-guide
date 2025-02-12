@@ -2,7 +2,7 @@
 
 `app.activeDocument.gradients[index].gradientStops[index`
 
-**Description**
+#### Description
 
 A gradient stop definition that represents a point on a specific gradient defined in the document. Each gradient stop specifies a color change in the containing gradient. See [Changing a gradient stop color](GradientColor.md#jsobjref-gradientcolor-changinggradientstopcolor) for an example.
 
@@ -14,11 +14,11 @@ A gradient stop definition that represents a point on a specific gradient define
 
 `app.activeDocument.gradients[index].gradientStops[index].color`
 
-**Description**
+#### Description
 
 The color linked to this gradient stop.
 
-**Type**
+#### Type
 
 [Color](./Color.md)
 
@@ -28,11 +28,11 @@ The color linked to this gradient stop.
 
 `app.activeDocument.gradients[index].gradientStops[index].midPoint`
 
-**Description**
+#### Description
 
 The midpoint key value, specified as a percentage from 13.0 to 87.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -42,11 +42,11 @@ Number (double).
 
 `app.activeDocument.gradients[index].gradientStops[index].opacity`
 
-**Description**
+#### Description
 
 The opacity value for the gradient stop. Range: 0.0 to 100.0
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -56,11 +56,11 @@ Number (double).
 
 `app.activeDocument.gradients[index].gradientStops[index].parent`
 
-**Description**
+#### Description
 
 The gradient that contains this gradient stop.
 
-**Type**
+#### Type
 
 [Gradient](./Gradient.md), read-only.
 
@@ -70,11 +70,11 @@ The gradient that contains this gradient stop.
 
 `app.activeDocument.gradients[index].gradientStops[index].rampPoint`
 
-**Description**
+#### Description
 
 The location of the color in the blend in a range from 0.0 to 100.0, where 100.0 is 100%.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -84,11 +84,11 @@ Number (double).
 
 `app.activeDocument.gradients[index].gradientStops[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -100,10 +100,10 @@ String, read-only.
 
 `app.activeDocument.gradients[index].gradientStops[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.

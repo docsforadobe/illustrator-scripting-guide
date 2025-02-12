@@ -2,7 +2,7 @@
 
 `lines`
 
-**Description**
+#### Description
 
 A collection of `TextRange` objects representing lines of text in a text frame. The elements are not named; you must access them by index.
 
@@ -14,11 +14,11 @@ A collection of `TextRange` objects representing lines of text in a text frame. 
 
 `lines.length`
 
-**Description**
+#### Description
 
 Number of elements in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `lines.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `lines.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,17 +58,17 @@ String, read-only.
 
 `lines.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [TextRange](./TextRange.md)
 
@@ -78,10 +78,10 @@ Gets an element from the collection.
 
 `lines.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.

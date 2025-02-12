@@ -2,7 +2,7 @@
 
 `openOptionsAutoCAD`
 
-**Description**
+#### Description
 
 Options for opening an AutoCAD drawing, used with the [Application.open()](Application.md#jsobjref-application-open) method.
 
@@ -14,11 +14,11 @@ Options for opening an AutoCAD drawing, used with the [Application.open()](Appli
 
 `openOptionsAutoCAD.centerArtwork`
 
-**Description**
+#### Description
 
 If `true`, the artwork is centered on the artboard. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -28,11 +28,11 @@ Boolean.
 
 `openOptionsAutoCAD.globalScaleOption`
 
-**Description**
+#### Description
 
 How to scale the drawing on import. Default: `AutoCADGlobalScaleOption.FitArtboard`.
 
-**Type**
+#### Type
 
 [AutoCADGlobalScaleOption](scripting-constants.md#jsobjref-scripting-constants-autocadglobalscaleoption)
 
@@ -42,11 +42,11 @@ How to scale the drawing on import. Default: `AutoCADGlobalScaleOption.FitArtboa
 
 `openOptionsAutoCAD.globalScalePercent`
 
-**Description**
+#### Description
 
 The value when `globalScaleOption` is `AutoCADGlobalScaleOption.ScaleByValue`, expressed as a percentage. Range: 0.0 to 100.0. Default is 100.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -56,11 +56,11 @@ Number (double).
 
 `openOptionsAutoCAD.mergeLayers`
 
-**Description**
+#### Description
 
 If `true`, the layers of the artwork are merged. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -70,11 +70,11 @@ Boolean.
 
 `openOptionsAutoCAD.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -84,11 +84,11 @@ Object, read-only.
 
 `openOptionsAutoCAD.scaleLineweights`
 
-**Description**
+#### Description
 
 If `true`, line weights are scaled by the same factor as the rest of the drawing. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -98,11 +98,11 @@ Boolean.
 
 `openOptionsAutoCAD.selectedLayoutName`
 
-**Description**
+#### Description
 
 The name of the layout in the drawing to import.
 
-**Type**
+#### Type
 
 String.
 
@@ -112,11 +112,11 @@ String.
 
 `openOptionsAutoCAD.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -126,11 +126,11 @@ String, read-only.
 
 `openOptionsAutoCAD.unit`
 
-**Description**
+#### Description
 
 The unit to map to. Default: `AutoCADUnit.Millimeters`.
 
-**Type**
+#### Type
 
 [AutoCADUnit](scripting-constants.md#jsobjref-scripting-constants-autocadunit)
 
@@ -140,10 +140,10 @@ The unit to map to. Default: `AutoCADUnit.Millimeters`.
 
 `openOptionsAutoCAD.unitScaleRatio`
 
-**Description**
+#### Description
 
 The ratio by which to scale while mapping units. Default: 1.0.
 
-**Type**
+#### Type
 
 Number (double).

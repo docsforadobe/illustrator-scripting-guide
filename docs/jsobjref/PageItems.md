@@ -2,7 +2,7 @@
 
 `app.activeDocument.pageItems`
 
-**Description**
+#### Description
 
 A collection of [PageItem](./PageItem.md) objects. Provides complete access to all the art items in an Illustrator document in the following classes:
 
@@ -62,11 +62,11 @@ When you access an individual item in one of these collections, the reference is
 
 `app.activeDocument.pageItems.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -76,11 +76,11 @@ Number, read-only.
 
 `app.activeDocument.pageItems.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -90,11 +90,11 @@ Object, read-only.
 
 `app.activeDocument.pageItems.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -106,17 +106,17 @@ String, read-only.
 
 `app.activeDocument.pageItems.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [PageItem](./PageItem.md)
 
@@ -126,17 +126,17 @@ Gets the first element in the collection with the specified name.
 
 `app.activeDocument.pageItems.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [PageItem](./PageItem.md)
 
@@ -146,11 +146,11 @@ Gets an element from the collection.
 
 `app.activeDocument.pageItems.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

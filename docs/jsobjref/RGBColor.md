@@ -2,7 +2,7 @@
 
 `new RGBColor()`
 
-**Description**
+#### Description
 
 An RGB color specification, used to apply an RGB color to a layer or art item.
 
@@ -16,11 +16,11 @@ If the color space of a document is RGB and you specify the color value for a pa
 
 `rgbColor.blue`
 
-**Description**
+#### Description
 
 The blue color value. Range: 0.0 to 255.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -30,11 +30,11 @@ Number (double).
 
 `rgbColor.green`
 
-**Description**
+#### Description
 
 The green color value. Range: 0.0 to 255.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -44,11 +44,11 @@ Number (double).
 
 `rgbColor.red`
 
-**Description**
+#### Description
 
 The red color value. Range: 0.0 to 255.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -58,11 +58,11 @@ Number (double).
 
 `rgbColor.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 

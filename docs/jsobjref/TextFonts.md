@@ -2,7 +2,7 @@
 
 `app.textFonts`
 
-**Description**
+#### Description
 
 A collection of [TextFont](./TextFont.md) objects.
 
@@ -14,11 +14,11 @@ A collection of [TextFont](./TextFont.md) objects.
 
 `app.textFonts.length`
 
-**Description**
+#### Description
 
 The number of elements in the collection.
 
-**Type**
+#### Type
 
 Number; read-only.
 
@@ -28,11 +28,11 @@ Number; read-only.
 
 `app.textFonts.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -42,11 +42,11 @@ Object; read-only.
 
 `app.textFonts.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -58,17 +58,17 @@ String; read-only.
 
 `app.textFonts.getByName(name)`
 
-**Description**
+#### Description
 
 Get the first element in the collection with the provided name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [TextFont](./TextFont.md)
 
@@ -78,17 +78,17 @@ Get the first element in the collection with the provided name.
 
 `app.textFonts.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [TextFont](./TextFont.md)
 

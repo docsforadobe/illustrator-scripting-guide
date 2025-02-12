@@ -2,7 +2,7 @@
 
 `gradientColor`
 
-**Description**
+#### Description
 
 A gradient color specification in a Gradient object. A script can create a new gradient color using a reference to an existing gradient in the document. If no existing gradient object is referenced, a default gradient is supplied.
 
@@ -14,11 +14,11 @@ A gradient color specification in a Gradient object. A script can create a new g
 
 `gradientColor.angle`
 
-**Description**
+#### Description
 
 The gradient vector angle in degrees. Default: 0.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -28,11 +28,11 @@ Number (double).
 
 `gradientColor.gradient`
 
-**Description**
+#### Description
 
 Reference to the object defining the gradient.
 
-**Type**
+#### Type
 
 [Gradient](./Gradient.md)
 
@@ -42,11 +42,11 @@ Reference to the object defining the gradient.
 
 `gradientColor.hiliteAngle`
 
-**Description**
+#### Description
 
 The gradient highlight vector angle in degrees.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -56,11 +56,11 @@ Number (double).
 
 `gradientColor.hiliteLength`
 
-**Description**
+#### Description
 
 The gradient highlight vector length.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -70,11 +70,11 @@ Number (double).
 
 `gradientColor.length`
 
-**Description**
+#### Description
 
 The gradient vector length.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -84,11 +84,11 @@ Number (double).
 
 `gradientColor.matrix`
 
-**Description**
+#### Description
 
 An additional transformation matrix to manipulate the gradient path.
 
-**Type**
+#### Type
 
 Matrix.
 
@@ -98,11 +98,11 @@ Matrix.
 
 `gradientColor.origin`
 
-**Description**
+#### Description
 
 The gradient vector origin, the center point of the gradient in this color.
 
-**Type**
+#### Type
 
 Array of 2 numbers.
 
@@ -112,11 +112,11 @@ Array of 2 numbers.
 
 `gradientColor.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 

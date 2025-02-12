@@ -2,7 +2,7 @@
 
 `printerInfo`
 
-**Description**
+#### Description
 
 Configuration information about a printer.
 
@@ -14,11 +14,11 @@ Configuration information about a printer.
 
 `printerInfo.binaryPrintingSupport`
 
-**Description**
+#### Description
 
 If `true`, the printer supports binary printing.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -28,11 +28,11 @@ Boolean
 
 `printerInfo.colorSupport`
 
-**Description**
+#### Description
 
 The printer color capability.
 
-**Type**
+#### Type
 
 [PrinterColorMode](scripting-constants.md#jsobjref-scripting-constants-printercolormode)
 
@@ -42,11 +42,11 @@ The printer color capability.
 
 `printerInfo.customPaperSupport`
 
-**Description**
+#### Description
 
 If `true`, the printer supports custom paper size.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -56,11 +56,11 @@ Boolean
 
 `printerInfo.customPaperTransverseSupport`
 
-**Description**
+#### Description
 
 If `true`, the printer supports custom paper transverse.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -70,11 +70,11 @@ Boolean
 
 `printerInfo.deviceResolution`
 
-**Description**
+#### Description
 
 The printer default resolution.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -84,11 +84,11 @@ Number (double)
 
 `printerInfo.inRIPSeparationSupport`
 
-**Description**
+#### Description
 
 If `true`, the printer supports InRIP color separation.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -98,11 +98,11 @@ Boolean
 
 `printerInfo.maxDeviceResolution`
 
-**Description**
+#### Description
 
 The printer maximum device resolution.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -112,11 +112,11 @@ Number (double)
 
 `printerInfo.maxPaperHeight`
 
-**Description**
+#### Description
 
 Custom paper's maximum height.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -126,11 +126,11 @@ Number (double)
 
 `printerInfo.maxPaperHeightOffset`
 
-**Description**
+#### Description
 
 Custom paper's maximum height offset.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -140,11 +140,11 @@ Number (double)
 
 `printerInfo.maxPaperWidth`
 
-**Description**
+#### Description
 
 Custom paper's maximum width.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -154,11 +154,11 @@ Number (double)
 
 `printerInfo.maxPaperWidthOffset`
 
-**Description**
+#### Description
 
 Custom paper's maximum width offset.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -168,11 +168,11 @@ Number (double)
 
 `printerInfo.minPaperHeight`
 
-**Description**
+#### Description
 
 Custom paper's minimum height.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -182,11 +182,11 @@ Number (double)
 
 `printerInfo.minPaperHeightOffset`
 
-**Description**
+#### Description
 
 Custom paper's minimum height offset.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -196,11 +196,11 @@ Number (double)
 
 `printerInfo.minPaperWidth`
 
-**Description**
+#### Description
 
 Custom paper's minimum width.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -210,11 +210,11 @@ Number (double)
 
 `printerInfo.minPaperWidthOffset`
 
-**Description**
+#### Description
 
 Custom paper's minimum width offset.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -224,11 +224,11 @@ Number (double)
 
 `printerInfo.paperSizes`
 
-**Description**
+#### Description
 
 The list of supported paper sizes.
 
-**Type**
+#### Type
 
 Array of [Paper](./Paper.md)
 
@@ -238,11 +238,11 @@ Array of [Paper](./Paper.md)
 
 `printerInfo.postScriptLevel`
 
-**Description**
+#### Description
 
 The PostScript Language level.
 
-**Type**
+#### Type
 
 [PrinterPostScriptLevelEnum](scripting-constants.md#jsobjref-scripting-constants-printerpostscriptlevelenum)
 
@@ -252,11 +252,11 @@ The PostScript Language level.
 
 `printerInfo.printerType`
 
-**Description**
+#### Description
 
 The printer type.
 
-**Type**
+#### Type
 
 [PrinterTypeEnum](scripting-constants.md#jsobjref-scripting-constants-printertypeenum)
 
@@ -266,11 +266,11 @@ The printer type.
 
 `printerInfo.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String; read-only.
 

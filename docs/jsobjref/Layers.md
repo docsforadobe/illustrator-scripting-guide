@@ -2,7 +2,7 @@
 
 `app.activeDocument.layers`
 
-**Description**
+#### Description
 
 The collection of layers in the document.
 
@@ -14,11 +14,11 @@ The collection of layers in the document.
 
 `app.activeDocument.layers.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `app.activeDocument.layers.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `app.activeDocument.layers.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,11 +58,11 @@ String, read-only.
 
 `app.activeDocument.layers.add()`
 
-**Description**
+#### Description
 
 Creates a new layer in the document.
 
-**Returns**
+#### Returns
 
 [Layer](./Layer.md)
 
@@ -72,17 +72,17 @@ Creates a new layer in the document.
 
 `app.activeDocument.layers.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [Layer](./Layer.md)
 
@@ -92,17 +92,17 @@ Gets the first element in the collection with the specified name.
 
 `app.activeDocument.layers.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [Layer](./Layer.md)
 
@@ -112,11 +112,11 @@ Gets an element from the collection.
 
 `app.activeDocument.layers.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

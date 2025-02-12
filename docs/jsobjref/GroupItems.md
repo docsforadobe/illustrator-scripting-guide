@@ -2,7 +2,7 @@
 
 `app.activeDocument.groupItems`
 
-**Description**
+#### Description
 
 The collection of grouped art items in a document.
 
@@ -14,11 +14,11 @@ The collection of grouped art items in a document.
 
 `app.activeDocument.groupItems.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `app.activeDocument.groupItems.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `app.activeDocument.groupItems.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,11 +58,11 @@ String, read-only.
 
 `app.activeDocument.groupItems.add()`
 
-**Description**
+#### Description
 
 Creates a new object.
 
-**Returns**
+#### Returns
 
 [GroupItem](./GroupItem.md)
 
@@ -72,17 +72,17 @@ Creates a new object.
 
 `app.activeDocument.groupItems.createFromFile(imageFile)`
 
-**Description**
+#### Description
 
 Places an external vector art file as a group item in the document.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description              |
 |-------------|--------|--------------------------|
 | `imageFile` | File   | Vector art file to place |
 
-**Returns**
+#### Returns
 
 [GroupItem](./GroupItem.md)
 
@@ -92,17 +92,17 @@ Places an external vector art file as a group item in the document.
 
 `app.activeDocument.groupItems.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [GroupItem](./GroupItem.md)
 
@@ -112,17 +112,17 @@ Gets the first element in the collection with the specified name.
 
 `app.activeDocument.groupItems.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [GroupItem](./GroupItem.md)
 
@@ -132,11 +132,11 @@ Gets an element from the collection.
 
 `app.activeDocument.groupItems.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

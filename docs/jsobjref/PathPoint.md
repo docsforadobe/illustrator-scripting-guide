@@ -2,7 +2,7 @@
 
 `app.activeDocument.pathItems[index].pathPoints[index`
 
-**Description**
+#### Description
 
 A point on a specific path.
 
@@ -16,11 +16,11 @@ Each path point is made up of an anchor point (`anchor`) and a pair of handles (
 
 `app.activeDocument.pathItems[index].pathPoints[index].anchor`
 
-**Description**
+#### Description
 
 The position of this point's anchor point.
 
-**Type**
+#### Type
 
 Array of 2 numbers
 
@@ -30,11 +30,11 @@ Array of 2 numbers
 
 `app.activeDocument.pathItems[index].pathPoints[index].leftDirection`
 
-**Description**
+#### Description
 
 The position of this path point's in control point.
 
-**Type**
+#### Type
 
 Array of 2 numbers
 
@@ -44,11 +44,11 @@ Array of 2 numbers
 
 `app.activeDocument.pathItems[index].pathPoints[index].parent`
 
-**Description**
+#### Description
 
 The path item that contains this path point.
 
-**Type**
+#### Type
 
 [PathItem](./PathItem.md); read-only.
 
@@ -58,13 +58,13 @@ The path item that contains this path point.
 
 `app.activeDocument.pathItems[index].pathPoints[index].pointType`
 
-**Description**
+#### Description
 
 The type of path point, either a curve or a corner. Any point can considered a corner point.
 
 Setting the type to a corner forces the left and right direction points to be on a straight line when the user attempts to modify them in the user interface.
 
-**Type**
+#### Type
 
 [PointType](scripting-constants.md#jsobjref-scripting-constants-pointtype)
 
@@ -74,11 +74,11 @@ Setting the type to a corner forces the left and right direction points to be on
 
 `app.activeDocument.pathItems[index].pathPoints[index].rightDirection`
 
-**Description**
+#### Description
 
 The position of this path point's out control point.
 
-**Type**
+#### Type
 
 Array of 2 numbers
 
@@ -88,11 +88,11 @@ Array of 2 numbers
 
 `app.activeDocument.pathItems[index].pathPoints[index].selected`
 
-**Description**
+#### Description
 
 Are points of this path point selected, and if so, which ones.
 
-**Type**
+#### Type
 
 [PathPointSelection](scripting-constants.md#jsobjref-scripting-constants-pathpointselection)
 
@@ -102,11 +102,11 @@ Are points of this path point selected, and if so, which ones.
 
 `app.activeDocument.pathItems[index].pathPoints[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -118,10 +118,10 @@ String; read-only.
 
 `app.activeDocument.pathItems[index].pathPoints[index].remove()`
 
-**Description**
+#### Description
 
 Removes the referenced point from the path.
 
-**Returns**
+#### Returns
 
 Nothing.

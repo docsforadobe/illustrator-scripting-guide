@@ -2,7 +2,7 @@
 
 `new PrintJobOptions()`
 
-**Description**
+#### Description
 
 Contains information about how the job is to be printed.
 
@@ -14,13 +14,13 @@ Contains information about how the job is to be printed.
 
 `printJobOptions.artboardRange`
 
-**Description**
+#### Description
 
 The artboard range to be printed if printAllArtboards is false.
 
 Default: 1-
 
-**Type**
+#### Type
 
 String
 
@@ -30,13 +30,13 @@ String
 
 `printJobOptions.bitmapResolution`
 
-**Description**
+#### Description
 
 The bitmap resolution. Minimum: 0.0.
 
 Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -46,13 +46,13 @@ Number (double)
 
 `printJobOptions.collate`
 
-**Description**
+#### Description
 
 If `true`, collate print pages.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -62,13 +62,13 @@ Boolean
 
 `printJobOptions.copies`
 
-**Description**
+#### Description
 
 The number of copies to print. Minimum: 1.
 
 Default: 1
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -78,13 +78,13 @@ Number (long)
 
 `printJobOptions.designation`
 
-**Description**
+#### Description
 
 The layers/objects to be printed.
 
 Default: `PrintArtworkDesignation.VISIBLEPRINTABLELAYERS`
 
-**Type**
+#### Type
 
 [PrintArtworkDesignation](scripting-constants.md#jsobjref-scripting-constants-printartworkdesignation)
 
@@ -94,11 +94,11 @@ Default: `PrintArtworkDesignation.VISIBLEPRINTABLELAYERS`
 
 `printJobOptions.file`
 
-**Description**
+#### Description
 
 The file to which to print.
 
-**Type**
+#### Type
 
 File
 
@@ -108,11 +108,11 @@ File
 
 `printJobOptions.name`
 
-**Description**
+#### Description
 
 The print job name.
 
-**Type**
+#### Type
 
 String
 
@@ -122,13 +122,13 @@ String
 
 `printJobOptions.printAllArtboards`
 
-**Description**
+#### Description
 
 Indicates whether to print all artboards.
 
 Default: true
 
-**Type**
+#### Type
 
 Boolean
 
@@ -138,13 +138,13 @@ Boolean
 
 `printJobOptions.printArea`
 
-**Description**
+#### Description
 
 The printing bounds.
 
 Default: `PrintingBounds.ARTBOARDBOUNDS`
 
-**Type**
+#### Type
 
 [PrintingBounds](scripting-constants.md#jsobjref-scripting-constants-printingbounds)
 
@@ -154,13 +154,13 @@ Default: `PrintingBounds.ARTBOARDBOUNDS`
 
 `printJobOptions.printAsBitmap`
 
-**Description**
+#### Description
 
 If `true`, print as bitmap.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -170,13 +170,13 @@ Boolean
 
 `printJobOptions.reversePages`
 
-**Description**
+#### Description
 
 If `true`, print pages in reverse order.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -186,11 +186,11 @@ Boolean
 
 `printJobOptions.typename`
 
-**Description**
+#### Description
 
 Read-only. The class name of the object.
 
-**Type**
+#### Type
 
 String
 

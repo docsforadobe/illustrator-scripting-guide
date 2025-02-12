@@ -2,7 +2,7 @@
 
 `app.activeDocument.dataSets`
 
-**Description**
+#### Description
 
 A collection of [Dataset](./Dataset.md) objects.
 
@@ -14,11 +14,11 @@ A collection of [Dataset](./Dataset.md) objects.
 
 `app.activeDocument.dataSets.length`
 
-**Description**
+#### Description
 
 The number of datasets in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `app.activeDocument.dataSets.parent`
 
-**Description**
+#### Description
 
 The name of the object that contains this dataset.
 
-**Type**
+#### Type
 
 [Document](./Document.md), read-only.
 
@@ -42,11 +42,11 @@ The name of the object that contains this dataset.
 
 `app.activeDocument.dataSets.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,11 +58,11 @@ String, read-only.
 
 `app.activeDocument.dataSets.add()`
 
-**Description**
+#### Description
 
 Creates a new dataset object.
 
-**Returns**
+#### Returns
 
 [Dataset](./Dataset.md)
 
@@ -72,17 +72,17 @@ Creates a new dataset object.
 
 `app.activeDocument.dataSets.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [Dataset](./Dataset.md)
 
@@ -92,17 +92,17 @@ Gets the first element in the collection with the specified name.
 
 `app.activeDocument.dataSets.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [Dataset](./Dataset.md)
 
@@ -112,10 +112,10 @@ Gets an element from the collection.
 
 `app.activeDocument.dataSets.removeAll()`
 
-**Description**
+#### Description
 
 Removes all elements in the collection.
 
-**Returns**
+#### Returns
 
 Nothing.

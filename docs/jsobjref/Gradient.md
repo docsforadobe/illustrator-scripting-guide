@@ -2,7 +2,7 @@
 
 `gradient`
 
-**Description**
+#### Description
 
 A gradient definition contained in a document. Scripts can create new gradients.
 
@@ -14,11 +14,11 @@ A gradient definition contained in a document. Scripts can create new gradients.
 
 `gradient.gradientStops`
 
-**Description**
+#### Description
 
 The gradient stops contained in this gradient.
 
-**Type**
+#### Type
 
 [GradientStops](./GradientStops.md), read-only.
 
@@ -28,11 +28,11 @@ The gradient stops contained in this gradient.
 
 `gradient.name`
 
-**Description**
+#### Description
 
 The gradient's name.
 
-**Type**
+#### Type
 
 String.
 
@@ -42,11 +42,11 @@ String.
 
 `gradient.parent`
 
-**Description**
+#### Description
 
 The document that contains this gradient.
 
-**Type**
+#### Type
 
 [Document](./Document.md), read-only.
 
@@ -56,11 +56,11 @@ The document that contains this gradient.
 
 `gradient.type`
 
-**Description**
+#### Description
 
 The kind of the gradient, either radial or linear.
 
-**Type**
+#### Type
 
 [GradientType](scripting-constants.md#jsobjref-scripting-constants-gradienttype)
 
@@ -70,11 +70,11 @@ The kind of the gradient, either radial or linear.
 
 `gradient.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -86,11 +86,11 @@ String, read-only.
 
 `app.activeDocument.gradients[index].remove()`
 
-**Description**
+#### Description
 
 Removes the referenced object from the document.
 
-**Returns**
+#### Returns
 
 Nothing.
 

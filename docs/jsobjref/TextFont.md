@@ -2,7 +2,7 @@
 
 `app.textFonts[index`
 
-**Description**
+#### Description
 
 Information about a font in the document, found in a [CharacterAttributes](./CharacterAttributes.md) object.
 
@@ -14,11 +14,11 @@ Information about a font in the document, found in a [CharacterAttributes](./Cha
 
 `app.textFonts[index].family`
 
-**Description**
+#### Description
 
 The font's family name.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -28,11 +28,11 @@ String, read-only.
 
 `app.textFonts[index].name`
 
-**Description**
+#### Description
 
 The font's full name.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -42,11 +42,11 @@ String, read-only.
 
 `app.textFonts[index].parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -56,11 +56,11 @@ Object, read-only.
 
 `app.textFonts[index].style`
 
-**Description**
+#### Description
 
 The font's style name.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -70,11 +70,11 @@ String, read-only.
 
 `app.textFonts[index].typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 

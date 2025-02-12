@@ -2,7 +2,7 @@
 
 `new PrintPageMarksOptions()`
 
-**Description**
+#### Description
 
 The options for printing page marks.
 
@@ -14,11 +14,11 @@ The options for printing page marks.
 
 `printPageMarksOptions.bleedOffsetRect`
 
-**Description**
+#### Description
 
 The bleed offset rectangle.
 
-**Type**
+#### Type
 
 Array of 4 numbers
 
@@ -28,13 +28,13 @@ Array of 4 numbers
 
 `printPageMarksOptions.colorBars`
 
-**Description**
+#### Description
 
 If `true`, enable printing of color bars.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -44,11 +44,11 @@ Boolean
 
 `printPageMarksOptions.marksOffsetRect`
 
-**Description**
+#### Description
 
 The page marks offset rectangle.
 
-**Type**
+#### Type
 
 Array of 4 numbers
 
@@ -58,13 +58,13 @@ Array of 4 numbers
 
 `printPageMarksOptions.pageInfoMarks`
 
-**Description**
+#### Description
 
 If `true`, page info marks printing is enabled.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -74,13 +74,13 @@ Boolean
 
 `printPageMarksOptions.pageMarksType`
 
-**Description**
+#### Description
 
 The page marks style.
 
 Default: `PageMarksType.Roman`
 
-**Type**
+#### Type
 
 [PageMarksTypes](scripting-constants.md#jsobjref-scripting-constants-pagemarkstypes)
 
@@ -90,13 +90,13 @@ Default: `PageMarksType.Roman`
 
 `printPageMarksOptions.registrationMarks`
 
-**Description**
+#### Description
 
 If `true`, registration marks should be printed.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -106,13 +106,13 @@ Boolean
 
 `printPageMarksOptions.trimMarks`
 
-**Description**
+#### Description
 
 If `true`, trim marks should be printed.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -122,13 +122,13 @@ Boolean
 
 `printPageMarksOptions.trimMarksWeight`
 
-**Description**
+#### Description
 
 Stroke weight of trim marks. Minimum: 0.0.
 
 Default: 0.125
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -138,11 +138,11 @@ Number (double)
 
 `printPageMarksOptions.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String; read-only.
 

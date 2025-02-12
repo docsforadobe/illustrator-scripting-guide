@@ -2,7 +2,7 @@
 
 `textRanges`
 
-**Description**
+#### Description
 
 A collection of [TextRange](./TextRange.md) objects.
 
@@ -14,11 +14,11 @@ A collection of [TextRange](./TextRange.md) objects.
 
 `textRanges.length`
 
-**Description**
+#### Description
 
 The number of elements in the collection.
 
-**Type**
+#### Type
 
 Number; read-only.
 
@@ -28,11 +28,11 @@ Number; read-only.
 
 `textRanges.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -42,11 +42,11 @@ Object; read-only.
 
 `textRanges.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -58,17 +58,17 @@ String; read-only.
 
 `textRanges.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [Variable](./Variable.md)
 
@@ -78,10 +78,10 @@ Gets an element from the collection.
 
 `textRanges.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.

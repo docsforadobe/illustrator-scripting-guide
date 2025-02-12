@@ -2,7 +2,7 @@
 
 `app.activeDocument.variables[index`
 
-**Description**
+#### Description
 
 A document-level variable that can be imported or exported.
 
@@ -20,11 +20,11 @@ Variables are accessed in Illustrator through the Variables palette.
 
 `app.activeDocument.variables[index].kind`
 
-**Description**
+#### Description
 
 The variable's type.
 
-**Type**
+#### Type
 
 [VariableKind](scripting-constants.md#jsobjref-scripting-constants-variablekind)
 
@@ -34,11 +34,11 @@ The variable's type.
 
 `app.activeDocument.variables[index].name`
 
-**Description**
+#### Description
 
 The name of the variable.
 
-**Type**
+#### Type
 
 string
 
@@ -48,11 +48,11 @@ string
 
 `app.activeDocument.variables[index].pageItems`
 
-**Description**
+#### Description
 
 All of the artwork in the variable.
 
-**Type**
+#### Type
 
 [PageItems](./PageItems.md), read-only
 
@@ -62,11 +62,11 @@ All of the artwork in the variable.
 
 `app.activeDocument.variables[index].parent`
 
-**Description**
+#### Description
 
 Read-only. The object that contains the variable.
 
-**Type**
+#### Type
 
 Object
 
@@ -76,11 +76,11 @@ Object
 
 `app.activeDocument.variables[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only
 
@@ -92,10 +92,10 @@ String, read-only
 
 `app.activeDocument.variables[index].remove()`
 
-**Description**
+#### Description
 
 Removes the variable from the collection of variables.
 
-**Returns**
+#### Returns
 
 Nothing.

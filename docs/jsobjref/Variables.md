@@ -2,7 +2,7 @@
 
 `app.activeDocument.variables`
 
-**Description**
+#### Description
 
 The collection of [Variable](./Variable.md) objects in the document.
 
@@ -16,11 +16,11 @@ For an example of how to create variables, see [Using variables and datasets](Da
 
 `app.activeDocument.variables.length`
 
-**Description**
+#### Description
 
 The number of variables in the document
 
-**Type**
+#### Type
 
 Number; read-only.
 
@@ -30,11 +30,11 @@ Number; read-only.
 
 `app.activeDocument.variables.parent`
 
-**Description**
+#### Description
 
 The object that contains the collection of variables
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -44,11 +44,11 @@ Object; read-only.
 
 `app.activeDocument.variables.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -60,11 +60,11 @@ String; read-only.
 
 `app.activeDocument.variables.add()`
 
-**Description**
+#### Description
 
 Adds a new variable to the collection.
 
-**Returns**
+#### Returns
 
 [Variable](./Variable.md)
 
@@ -74,17 +74,17 @@ Adds a new variable to the collection.
 
 `app.activeDocument.variables.getByName(name)`
 
-**Description**
+#### Description
 
 Get the first element in the collection with the provided name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [Variable](./Variable.md)
 
@@ -94,17 +94,17 @@ Get the first element in the collection with the provided name.
 
 `app.activeDocument.variables.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [Variable](./Variable.md)
 
@@ -114,10 +114,10 @@ Gets an element from the collection.
 
 `app.activeDocument.variables.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.

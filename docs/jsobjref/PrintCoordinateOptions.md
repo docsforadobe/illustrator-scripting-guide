@@ -2,7 +2,7 @@
 
 `new PrintCoordinateOptions()`
 
-**Description**
+#### Description
 
 Information about the media and associated printing parameters.
 
@@ -14,13 +14,13 @@ Information about the media and associated printing parameters.
 
 `printCoordinateOptions.emulsion`
 
-**Description**
+#### Description
 
 If `true`, flip artwork horizontally.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -30,13 +30,13 @@ Boolean
 
 `printCoordinateOptions.fitToPage`
 
-**Description**
+#### Description
 
 If `true`, proportionally scale the artwork to fit on media.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -46,7 +46,7 @@ Boolean
 
 `printCoordinateOptions.horizontalScale`
 
-**Description**
+#### Description
 
 The horizontal scaling factor expressed as a percentage (100 = 100%).
 
@@ -54,7 +54,7 @@ Range: 1.0 to 10000.0.
 
 Default: 100.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -64,13 +64,13 @@ Number (double)
 
 `printCoordinateOptions.orientation`
 
-**Description**
+#### Description
 
 The artwork orientation.
 
 Default: `PrintOrientation.PORTRAIT`
 
-**Type**
+#### Type
 
 [PrintOrientation](scripting-constants.md#jsobjref-scripting-constants-printorientation)
 
@@ -80,13 +80,13 @@ Default: `PrintOrientation.PORTRAIT`
 
 `printCoordinateOptions.position`
 
-**Description**
+#### Description
 
 The artwork position on media.
 
 Default: `PrintPosition.TRANSLATECENTER`
 
-**Type**
+#### Type
 
 [PrintPosition](scripting-constants.md#jsobjref-scripting-constants-printposition)
 
@@ -96,13 +96,13 @@ Default: `PrintPosition.TRANSLATECENTER`
 
 `printCoordinateOptions.tiling`
 
-**Description**
+#### Description
 
 The page tiling mode.
 
 Default: `PrintTiling.TILESINGLEFULLPAGE`
 
-**Type**
+#### Type
 
 [PrintTiling](scripting-constants.md#jsobjref-scripting-constants-printtiling)
 
@@ -112,11 +112,11 @@ Default: `PrintTiling.TILESINGLEFULLPAGE`
 
 `printCoordinateOptions.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -126,7 +126,7 @@ String; read-only.
 
 `printCoordinateOptions.verticalScale`
 
-**Description**
+#### Description
 
 The vertical scaling factor expressed as a percentage (100 = 100%)
 
@@ -134,7 +134,7 @@ Range: 1.0 to 10000.0.
 
 Default: 100.0
 
-**Type**
+#### Type
 
 Number (double)
 

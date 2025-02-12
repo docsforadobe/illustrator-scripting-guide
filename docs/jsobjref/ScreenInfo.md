@@ -2,7 +2,7 @@
 
 `PPDFileList[index].PPDInfo.screenList[index].screenInfo`
 
-**Description**
+#### Description
 
 Contains information about the angle and frequency of the color separation screen to be used for printing.
 
@@ -14,11 +14,11 @@ Contains information about the angle and frequency of the color separation scree
 
 `PPDFileList[index].PPDInfo.screenList[index].screenInfo.angle`
 
-**Description**
+#### Description
 
 The screen's angle in degrees.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -28,11 +28,11 @@ Number (double).
 
 `PPDFileList[index].PPDInfo.screenList[index].screenInfo.defaultScreen`
 
-**Description**
+#### Description
 
 If true, it is the default screen.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -42,11 +42,11 @@ Boolean.
 
 `PPDFileList[index].PPDInfo.screenList[index].screenInfo.frequency`
 
-**Description**
+#### Description
 
 The screen's frequency.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -56,11 +56,11 @@ Number (double).
 
 `PPDFileList[index].PPDInfo.screenList[index].screenInfo.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 

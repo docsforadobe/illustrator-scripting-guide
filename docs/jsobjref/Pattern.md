@@ -2,7 +2,7 @@
 
 `app.activeDocument.patterns[index`
 
-**Description**
+#### Description
 
 An Illustrator pattern definition contained in a document.
 
@@ -18,11 +18,11 @@ Each pattern is referenced by a [PatternColor](./PatternColor.md) object, which 
 
 `app.activeDocument.patterns[index].name`
 
-**Description**
+#### Description
 
 The pattern name.
 
-**Type**
+#### Type
 
 String
 
@@ -32,11 +32,11 @@ String
 
 `app.activeDocument.patterns[index].parent`
 
-**Description**
+#### Description
 
 The document that contains this pattern.
 
-**Type**
+#### Type
 
 [Document](./Document.md), read-only.
 
@@ -46,11 +46,11 @@ The document that contains this pattern.
 
 `app.activeDocument.patterns[index].typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -62,11 +62,11 @@ String, read-only.
 
 `app.activeDocument.patterns[index].remove()`
 
-**Description**
+#### Description
 
 Removes the referenced pattern from the document.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -76,10 +76,10 @@ Nothing.
 
 `app.activeDocument.patterns[index].toString()`
 
-**Description**
+#### Description
 
 Returns the object type of a referenced object. If the object has a name, also returns the name.
 
-**Returns**
+#### Returns
 
 String

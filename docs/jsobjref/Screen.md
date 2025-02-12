@@ -2,7 +2,7 @@
 
 `PPDFileList[index].PPDInfo.screenList[index`
 
-**Description**
+#### Description
 
 Associates a color separation screen with information to be used for printing.
 
@@ -14,11 +14,11 @@ Associates a color separation screen with information to be used for printing.
 
 `PPDFileList[index].PPDInfo.screenList[index].name`
 
-**Description**
+#### Description
 
 The color separation screen name.
 
-**Type**
+#### Type
 
 String
 
@@ -28,11 +28,11 @@ String
 
 `PPDFileList[index].PPDInfo.screenList[index].screenInfo`
 
-**Description**
+#### Description
 
 The color separation screen information.
 
-**Type**
+#### Type
 
 [ScreenInfo](./ScreenInfo.md)
 
@@ -42,10 +42,10 @@ The color separation screen information.
 
 `PPDFileList[index].PPDInfo.screenList[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.

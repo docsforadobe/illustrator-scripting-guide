@@ -2,7 +2,7 @@
 
 `rasterizeOptions`
 
-**Description**
+#### Description
 
 Specifies options that may be supplied when rasterizing artwork.
 
@@ -16,13 +16,13 @@ All properties are optional.
 
 `rasterizeOptions.antiAliasingMethod`
 
-**Description**
+#### Description
 
 The type of antialiasing method.
 
 Default: `AntiAliasingMethod.ARTOPTIMIZED`
 
-**Type**
+#### Type
 
 [AntiAliasingMethod](scripting-constants.md#jsobjref-scripting-constants-antialiasingmethod)
 
@@ -32,13 +32,13 @@ Default: `AntiAliasingMethod.ARTOPTIMIZED`
 
 `rasterizeOptions.backgroundBlack`
 
-**Description**
+#### Description
 
 If `true`, the rasterization is done against a black background (instead of white).
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -48,13 +48,13 @@ Boolean
 
 `rasterizeOptions.clippingMask`
 
-**Description**
+#### Description
 
 If `true`, a clipping mask should be created for the image.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -64,13 +64,13 @@ Boolean
 
 `rasterizeOptions.colorModel`
 
-**Description**
+#### Description
 
 The color model for the rasterization.
 
 Default: `RasterizationColorModel.DEFAULTCOLORMODEL`
 
-**Type**
+#### Type
 
 [RasterizationColorModel](scripting-constants.md#jsobjref-scripting-constants-rasterizationcolormodel)
 
@@ -80,13 +80,13 @@ Default: `RasterizationColorModel.DEFAULTCOLORMODEL`
 
 `rasterizeOptions.convertSpotColors`
 
-**Description**
+#### Description
 
 If `true`, spot colors should be converted to process colors for the image.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -96,13 +96,13 @@ Boolean
 
 `rasterizeOptions.convertTextToOutlines`
 
-**Description**
+#### Description
 
 If `true`, all text is converted to outlines before rasterization.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -112,13 +112,13 @@ Boolean
 
 `rasterizeOptions.includeLayers`
 
-**Description**
+#### Description
 
 If `true`, the resulting image incorporates layer attributes (like opacity and blend mode).
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -128,13 +128,13 @@ Boolean
 
 `rasterizeOptions.padding`
 
-**Description**
+#### Description
 
 The amount of white space (in points) to be added around the object during rasterization.
 
 Default: .0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -144,13 +144,13 @@ Number (double)
 
 `rasterizeOptions.resolution`
 
-**Description**
+#### Description
 
 The rasterization resolution in dots per inch (dpi). Range: 72.0 to 2400.0.
 
 Default: 300.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -160,12 +160,12 @@ Number (double)
 
 `rasterizeOptions.transparency`
 
-**Description**
+#### Description
 
 If `true`, the image should use transparency.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean

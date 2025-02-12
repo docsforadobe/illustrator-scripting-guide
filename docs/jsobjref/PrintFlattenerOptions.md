@@ -2,7 +2,7 @@
 
 `new PrintFlattenerOptions()`
 
-**Description**
+#### Description
 
 Contains flattening options for use when Illustrator outputs artwork that contains transparency into a non-native format.
 
@@ -14,13 +14,13 @@ Contains flattening options for use when Illustrator outputs artwork that contai
 
 `printFlattenerOptions.clipComplexRegions`
 
-**Description**
+#### Description
 
 If `true`, complex regions should be clipped.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -30,13 +30,13 @@ Boolean
 
 `printFlattenerOptions.convertStrokesToOutlines`
 
-**Description**
+#### Description
 
 If `true`, convert all strokes to outlines.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -46,13 +46,13 @@ Boolean
 
 `printFlattenerOptions.convertTextToOutlines`
 
-**Description**
+#### Description
 
 If `true`, all text is converted to vector paths; preserves the visual appearance of type.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -62,7 +62,7 @@ Boolean
 
 `printFlattenerOptions.flatteningBalance`
 
-**Description**
+#### Description
 
 The flattening balance.
 
@@ -70,7 +70,7 @@ Range: 0.0 to 100.0.
 
 Default: 100.0
 
-**Type**
+#### Type
 
 Number (long)
 
@@ -80,7 +80,7 @@ Number (long)
 
 `printFlattenerOptions.gradientResolution`
 
-**Description**
+#### Description
 
 The gradient resolution in dots per inch (dpi).
 
@@ -88,7 +88,7 @@ Range: 1.0 to 9600.0.
 
 Default: 300.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -98,13 +98,13 @@ Number (double)
 
 `printFlattenerOptions.overprint`
 
-**Description**
+#### Description
 
 Whether to preserve, discard, or simulate overprinting.
 
 Default: `PDFOverprint.PRESERVEPDFOVERPRINT`
 
-**Type**
+#### Type
 
 [PDFOverprint](scripting-constants.md#jsobjref-scripting-constants-pdfoverprint)
 
@@ -114,13 +114,13 @@ Default: `PDFOverprint.PRESERVEPDFOVERPRINT`
 
 `printFlattenerOptions.rasterizationResolution`
 
-**Description**
+#### Description
 
 The rasterization resolution in dots per inch (dpi). Range: 1.0 to 9600.0.
 
 Default: 300.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -130,11 +130,11 @@ Number (double)
 
 `printFlattenerOptions.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String; read-only.
 

@@ -2,7 +2,7 @@
 
 `matrix`
 
-**Description**
+#### Description
 
 A transformation matrix specification, used to transform the geometry of objects. Use it to specify and retrieve matrix information from an Illustrator document or from page items in a document.
 
@@ -18,11 +18,11 @@ A `Matrix` is a record containing the matrix values, not a reference to a matrix
 
 `matrix.mValueA`
 
-**Description**
+#### Description
 
 Matrix property `a`.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -32,11 +32,11 @@ Number (double).
 
 `matrix.mValueB`
 
-**Description**
+#### Description
 
 Matrix property `b`.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -46,11 +46,11 @@ Number (double).
 
 `matrix.mValueC`
 
-**Description**
+#### Description
 
 Matrix property `c`.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -60,11 +60,11 @@ Number (double).
 
 `matrix.mValueD`
 
-**Description**
+#### Description
 
 Matrix property `d`.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -74,11 +74,11 @@ Number (double).
 
 `matrix.mValueTX`
 
-**Description**
+#### Description
 
 Matrix property `tx`.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -88,11 +88,11 @@ Number (double).
 
 `matrix.mValueTY`
 
-**Description**
+#### Description
 
 Matrix property `ty`.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -102,11 +102,11 @@ Number (double).
 
 `matrix.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 

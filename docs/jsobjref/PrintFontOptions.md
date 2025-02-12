@@ -2,7 +2,7 @@
 
 `new PrintFontOptions()`
 
-**Description**
+#### Description
 
 Contains information about font downloading and substitution for the fonts used for printing the document.
 
@@ -14,13 +14,13 @@ Contains information about font downloading and substitution for the fonts used 
 
 `printFontOptions.downloadFonts`
 
-**Description**
+#### Description
 
 The font download mode.
 
 Default: `PrintFontDownloadMode.DOWNLOADSUBSET`
 
-**Type**
+#### Type
 
 [PrintFontDownloadMode](scripting-constants.md#jsobjref-scripting-constants-printfontdownloadmode)
 
@@ -30,13 +30,13 @@ Default: `PrintFontDownloadMode.DOWNLOADSUBSET`
 
 `printFontOptions.fontSubstitution`
 
-**Description**
+#### Description
 
 The font substitution policy.
 
 Default: `FontSubstitutionPolicy.SUBSTITUTEOBLIQUE`
 
-**Type**
+#### Type
 
 [FontSubstitutionPolicy](scripting-constants.md#jsobjref-scripting-constants-fontsubstitutionpolicy)
 
@@ -46,11 +46,11 @@ Default: `FontSubstitutionPolicy.SUBSTITUTEOBLIQUE`
 
 `printFontOptions.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 

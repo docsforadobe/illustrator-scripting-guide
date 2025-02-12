@@ -2,7 +2,7 @@
 
 `labColor`
 
-**Description**
+#### Description
 
 A color specification in the CIE Lab color space, used where a `color` object is required.
 
@@ -14,11 +14,11 @@ A color specification in the CIE Lab color space, used where a `color` object is
 
 `labColor.a`
 
-**Description**
+#### Description
 
 The a (red-green) color value. Range -128.0-128.0. Default: 0.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -28,11 +28,11 @@ Number (double).
 
 `labColor.b`
 
-**Description**
+#### Description
 
 The b (yellow-blue) color value. Range -128.0-128.0. Default: 0.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -42,10 +42,10 @@ Number (double).
 
 `labColor.l`
 
-**Description**
+#### Description
 
 The l (lightness) color value. Range -128.0-128.0. Default: 0.0.
 
-**Type**
+#### Type
 
 Number (double).

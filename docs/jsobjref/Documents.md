@@ -2,7 +2,7 @@
 
 `app.documents`
 
-**Description**
+#### Description
 
 A collection of [Document](./Document.md) objects.
 
@@ -14,11 +14,11 @@ A collection of [Document](./Document.md) objects.
 
 `app.documents.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `app.documents.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `app.documents.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -62,11 +62,11 @@ app.documents.add([documentColorSpace] [, width] [, height] [, numArtBoards]
 )
 ```
 
-**Description**
+#### Description
 
 Creates a new document using optional parameters and returns a reference to the new document.
 
-**Parameters**
+#### Parameters
 
 | Parameter            | Type                                                                                                           | Description                   |
 |----------------------|----------------------------------------------------------------------------------------------------------------|-------------------------------|
@@ -78,7 +78,7 @@ Creates a new document using optional parameters and returns a reference to the 
 | `artboardSpacing`    | Number, optional                                                                                               | Number of pixels for spacing  |
 | `artboardRowsOrCols` | Integer, optional                                                                                              | Number of rows or columns     |
 
-**Returns**
+#### Returns
 
 [Document](./Document.md)
 
@@ -88,11 +88,11 @@ Creates a new document using optional parameters and returns a reference to the 
 
 `app.documents.addDocument(startupPreset [, presetSettings] [, showOptionsDialog])`
 
-**Description**
+#### Description
 
 Creates a document from the preset, replacing any provided setting values, and returns a reference to the new document.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                  | Description                    |
 |---------------------|-----------------------------------------------------------------------|--------------------------------|
@@ -100,7 +100,7 @@ Creates a document from the preset, replacing any provided setting values, and r
 | `presetSettings`    | [DocumentPreset](./DocumentPreset.md), optional | Preset document template       |
 | `showOptionsDialog` | Boolean, optional                                                     | Whether to show options dialog |
 
-**Returns**
+#### Returns
 
 [Document](./Document.md)
 
@@ -110,17 +110,17 @@ Creates a document from the preset, replacing any provided setting values, and r
 
 `app.documents.addDocumentNoUI(startupPreset)`
 
-**Description**
+#### Description
 
 Creates a document without showing in UI.
 
-**Parameters**
+#### Parameters
 
 | Parameter       | Type   | Description           |
 |-----------------|--------|-----------------------|
 | `startupPreset` | String | Startup preset to use |
 
-**Returns**
+#### Returns
 
 [Document](./Document.md)
 
@@ -130,17 +130,17 @@ Creates a document without showing in UI.
 
 `app.documents.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [Document](./Document.md)
 
@@ -150,17 +150,17 @@ Gets the first element in the collection with the specified name.
 
 `app.documents.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [Document](./Document.md)
 

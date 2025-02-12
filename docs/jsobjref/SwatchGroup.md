@@ -2,7 +2,7 @@
 
 `swatchGroup`
 
-**Description**
+#### Description
 
 A group of [Swatch](./Swatch.md) objects.
 
@@ -14,11 +14,11 @@ A group of [Swatch](./Swatch.md) objects.
 
 `swatchGroup.name`
 
-**Description**
+#### Description
 
 The name of the swatch group.
 
-**Type**
+#### Type
 
 string
 
@@ -28,11 +28,11 @@ string
 
 `swatchGroup.parent`
 
-**Description**
+#### Description
 
 The object that contains the swatch group.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `swatchGroup.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only
 
@@ -58,17 +58,17 @@ String, read-only
 
 `swatchGroup.addSpot(spot)`
 
-**Description**
+#### Description
 
 Adds a spot swatch to the swatch group.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                          | Description   |
 |-------------|-------------------------------|---------------|
 | `spot`      | [Spot](./Spot.md) | Spot to add   |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -78,17 +78,17 @@ Nothing.
 
 `swatchGroup.addSwatch(swatch)`
 
-**Description**
+#### Description
 
 Adds a swatch to the swatch group.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                | Description   |
 |-------------|-------------------------------------|---------------|
 | `swatch`    | [Swatch](./Swatch.md) | Swatch to add |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -98,11 +98,11 @@ Nothing.
 
 `swatchGroup.getAllSwatches()`
 
-**Description**
+#### Description
 
 Gets a list of all swatches in the swatch group.
 
-**Returns**
+#### Returns
 
 List of [Swatch](./Swatch.md)
 
@@ -112,11 +112,11 @@ List of [Swatch](./Swatch.md)
 
 `swatchGroup.remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -126,10 +126,10 @@ Nothing.
 
 `swatchGroup.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in the collection.
 
-**Returns**
+#### Returns
 
 Nothing.

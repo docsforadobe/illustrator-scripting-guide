@@ -2,7 +2,7 @@
 
 `app.activeDocument.inkList[index].inkInfo`
 
-**Description**
+#### Description
 
 Ink information for printing a document.
 
@@ -14,11 +14,11 @@ Ink information for printing a document.
 
 `app.activeDocument.inkList[index].inkInfo.angle`
 
-**Description**
+#### Description
 
 The ink's screen angle in degrees. Range: -360 to 360.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -28,11 +28,11 @@ Number (double).
 
 `app.activeDocument.inkList[index].inkInfo.customColor`
 
-**Description**
+#### Description
 
 The color of the custom ink.
 
-**Type**
+#### Type
 
 [Color](./Color.md)
 
@@ -42,11 +42,11 @@ The color of the custom ink.
 
 `app.activeDocument.inkList[index].inkInfo.density`
 
-**Description**
+#### Description
 
 The neutral density. Minimum: 0.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -56,11 +56,11 @@ Number (double).
 
 `app.activeDocument.inkList[index].inkInfo.dotShape`
 
-**Description**
+#### Description
 
 The dot shape name.
 
-**Type**
+#### Type
 
 String.
 
@@ -70,11 +70,11 @@ String.
 
 `app.activeDocument.inkList[index].inkInfo.frequency`
 
-**Description**
+#### Description
 
 The ink's frequency. Range: 0.0 to 1000.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -84,11 +84,11 @@ Number (double).
 
 `app.activeDocument.inkList[index].inkInfo.kind`
 
-**Description**
+#### Description
 
 The ink type.
 
-**Type**
+#### Type
 
 [InkType](scripting-constants.md#jsobjref-scripting-constants-inktype)
 
@@ -98,11 +98,11 @@ The ink type.
 
 `app.activeDocument.inkList[index].inkInfo.printingStatus`
 
-**Description**
+#### Description
 
 The ink printing status.
 
-**Type**
+#### Type
 
 [InkPrintStatus](scripting-constants.md#jsobjref-scripting-constants-inkprintstatus)
 
@@ -112,11 +112,11 @@ The ink printing status.
 
 `app.activeDocument.inkList[index].inkInfo.trapping`
 
-**Description**
+#### Description
 
 The trapping type.
 
-**Type**
+#### Type
 
 [TrappingType](scripting-constants.md#jsobjref-scripting-constants-trappingtype)
 
@@ -126,11 +126,11 @@ The trapping type.
 
 `app.activeDocument.inkList[index].inkInfo.trappingOrder`
 
-**Description**
+#### Description
 
 The order of trapping for the ink. Range: 1 to 4 for CMYK.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -140,11 +140,11 @@ Number (long).
 
 `app.activeDocument.inkList[index].inkInfo.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 

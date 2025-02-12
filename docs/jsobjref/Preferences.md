@@ -2,7 +2,7 @@
 
 `app.Preferences`
 
-**Description**
+#### Description
 
 Specifies the preferred options for AutoCAD, FreeHand, PDF, and Photoshop files.
 
@@ -14,11 +14,11 @@ Specifies the preferred options for AutoCAD, FreeHand, PDF, and Photoshop files.
 
 `app.preferences.AutoCADFileOptions`
 
-**Description**
+#### Description
 
 Options to use when opening or placing an AutoCAD file.
 
-**Type**
+#### Type
 
 [OpenOptionsAutoCAD](./OpenOptionsAutoCAD.md); read-only.
 
@@ -28,11 +28,11 @@ Options to use when opening or placing an AutoCAD file.
 
 `app.preferences.FreeHandFileOptions`
 
-**Description**
+#### Description
 
 Options to use when opening or placing a FreeHand file.
 
-**Type**
+#### Type
 
 [OpenOptionsFreeHand](./OpenOptionsFreeHand.md); read-only.
 
@@ -42,11 +42,11 @@ Options to use when opening or placing a FreeHand file.
 
 `app.preferences.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 object; read-only.
 
@@ -56,11 +56,11 @@ object; read-only.
 
 `app.preferences.PDFFileOptions`
 
-**Description**
+#### Description
 
 Options to use when opening or placing a PDF file.
 
-**Type**
+#### Type
 
 [PDFFileOptions](./PDFFileOptions.md); read-only.
 
@@ -70,11 +70,11 @@ Options to use when opening or placing a PDF file.
 
 `app.preferences.PhotoshopFileOptions`
 
-**Description**
+#### Description
 
 Options to use when opening or placing a Photoshop file.
 
-**Type**
+#### Type
 
 [PhotoshopFileOptions](./PhotoshopFileOptions.md); read-only.
 
@@ -84,11 +84,11 @@ Options to use when opening or placing a Photoshop file.
 
 `app.preferences.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 string; read-only.
 
@@ -100,17 +100,17 @@ string; read-only.
 
 `app.preferences.getBooleanPreference(key)`
 
-**Description**
+#### Description
 
 Gets the boolean value of a given application preference.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description              |
 |-------------|--------|--------------------------|
 | `key`       | String | Pref key of value to get |
 
-**Returns**
+#### Returns
 
 Boolean
 
@@ -120,17 +120,17 @@ Boolean
 
 `app.preferences.getIntegerPreference(key)`
 
-**Description**
+#### Description
 
 Gets the integer value of a given application preference.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description              |
 |-------------|--------|--------------------------|
 | `key`       | String | Pref key of value to get |
 
-**Returns**
+#### Returns
 
 Integer
 
@@ -140,17 +140,17 @@ Integer
 
 `app.preferences.getRealPreference(key)`
 
-**Description**
+#### Description
 
 Gets the real-number value of a given application preference.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description              |
 |-------------|--------|--------------------------|
 | `key`       | String | Pref key of value to get |
 
-**Returns**
+#### Returns
 
 Real
 
@@ -160,17 +160,17 @@ Real
 
 `app.preferences.getStringPreference(key)`
 
-**Description**
+#### Description
 
 Gets the string value of a given application preference.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description              |
 |-------------|--------|--------------------------|
 | `key`       | String | Pref key of value to get |
 
-**Returns**
+#### Returns
 
 String
 
@@ -180,17 +180,17 @@ String
 
 `app.preferences.removePreference(key)`
 
-**Description**
+#### Description
 
 Deletes a given application preference.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description              |
 |-------------|--------|--------------------------|
 | `key`       | String | Pref key of value to get |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -200,18 +200,18 @@ Nothing.
 
 `app.preferences.setBooleanPreference(key, value)`
 
-**Description**
+#### Description
 
 Sets the boolean value of a given application preference.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type    | Description              |
 |-------------|---------|--------------------------|
 | `key`       | String  | Pref key of value to get |
 | `value`     | Boolean | Value to set             |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -221,18 +221,18 @@ Nothing.
 
 `app.preferences.setIntegerPreference(key, value)`
 
-**Description**
+#### Description
 
 Sets the integer value of a given application preference.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type    | Description              |
 |-------------|---------|--------------------------|
 | `key`       | String  | Pref key of value to get |
 | `value`     | Integer | Value to set             |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -242,18 +242,18 @@ Nothing.
 
 `app.preferences.setRealPreference(key, value)`
 
-**Description**
+#### Description
 
 Sets the real-number value of a given application preference.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description              |
 |-------------|--------|--------------------------|
 | `key`       | String | Pref key of value to get |
 | `value`     | Double | Value to set             |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -263,17 +263,17 @@ Nothing.
 
 `app.preferences.setStringPreference(key, value)`
 
-**Description**
+#### Description
 
 Sets the string value of a given application preference.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description              |
 |-------------|--------|--------------------------|
 | `key`       | String | Pref key of value to get |
 | `value`     | String | Value to set             |
 
-**Returns**
+#### Returns
 
 Nothing.

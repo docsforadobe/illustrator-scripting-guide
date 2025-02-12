@@ -2,7 +2,7 @@
 
 `app.activeDocument.brushes[index`
 
-**Description**
+#### Description
 
 A brush in an Illustrator document. Brushes are contained in documents. Additional brushes may be created by the user within Illustrator. You can access brushes within a script, but you cannot create them.
 
@@ -14,11 +14,11 @@ A brush in an Illustrator document. Brushes are contained in documents. Addition
 
 `app.activeDocument.brushes[index].name`
 
-**Description**
+#### Description
 
 The name of the brush
 
-**Type**
+#### Type
 
 String
 
@@ -28,11 +28,11 @@ String
 
 `app.activeDocument.brushes[index].parent`
 
-**Description**
+#### Description
 
 The document that contains this brush.
 
-**Type**
+#### Type
 
 [Document](./Document.md); read-only.
 
@@ -42,11 +42,11 @@ The document that contains this brush.
 
 `app.activeDocument.brushes[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -58,17 +58,17 @@ String; read-only.
 
 `app.activeDocument.brushes[index].applyTo(artItem)`
 
-**Description**
+#### Description
 
 Applies the `brush` to a specific art item.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                      | Description                |
 |-------------|-------------------------------------------|----------------------------|
 | `artItem`   | [PageItem](./PageItem.md) | Art item to apply brush to |
 
-**Returns**
+#### Returns
 
 Nothing.
 

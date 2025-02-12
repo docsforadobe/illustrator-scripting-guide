@@ -2,7 +2,7 @@
 
 `app.activeDocument.pageItems[index`
 
-**Description**
+#### Description
 
 Any art item. Every art item and group in a document is a page item. You may refer to a page item as an element of a document, layer, or group item.
 
@@ -18,11 +18,11 @@ You cannot create a `PageItem` directly, you must create one of the specific `Pa
 
 `app.activeDocument.pageItems[index].artworkKnockout`
 
-**Description**
+#### Description
 
 Is this object used to create a knockout.
 
-**Type**
+#### Type
 
 [KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
@@ -32,11 +32,11 @@ Is this object used to create a knockout.
 
 `app.activeDocument.pageItems[index].blendingMode`
 
-**Description**
+#### Description
 
 The mode to use when compositing this object. An object is considered composited when its opacity is set to less than 100.0 (100%).
 
-**Type**
+#### Type
 
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
@@ -46,11 +46,11 @@ The mode to use when compositing this object. An object is considered composited
 
 `app.activeDocument.pageItems[index].controlBounds`
 
-**Description**
+#### Description
 
 The bounds of the object including stroke width and controls.
 
-**Type**
+#### Type
 
 Rect, read-only.
 
@@ -60,11 +60,11 @@ Rect, read-only.
 
 `app.activeDocument.pageItems[index].editable`
 
-**Description**
+#### Description
 
 If `true`, this page item is editable.
 
-**Type**
+#### Type
 
 Boolean, read-only.
 
@@ -74,11 +74,11 @@ Boolean, read-only.
 
 `app.activeDocument.pageItems[index].geometricBounds`
 
-**Description**
+#### Description
 
 The object's bounds excluding the stroke width.
 
-**Type**
+#### Type
 
 Array of 4 numbers, read-only.
 
@@ -88,11 +88,11 @@ Array of 4 numbers, read-only.
 
 `app.activeDocument.pageItems[index].height`
 
-**Description**
+#### Description
 
 The height of the page item, calculated from the geometric bounds. Range: 0.0 to 16348.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -102,11 +102,11 @@ Number (double).
 
 `app.activeDocument.pageItems[index].hidden`
 
-**Description**
+#### Description
 
 If `true`, this page item is hidden.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -116,11 +116,11 @@ Boolean.
 
 `app.activeDocument.pageItems[index].isIsolated`
 
-**Description**
+#### Description
 
 If `true`, this object is isolated.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -130,11 +130,11 @@ Boolean.
 
 `app.activeDocument.pageItems[index].layer`
 
-**Description**
+#### Description
 
 The layer to which this page item belongs.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md), read-only.
 
@@ -144,11 +144,11 @@ The layer to which this page item belongs.
 
 `app.activeDocument.pageItems[index].left`
 
-**Description**
+#### Description
 
 The left position of the art item.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -158,11 +158,11 @@ Number (double).
 
 `app.activeDocument.pageItems[index].locked`
 
-**Description**
+#### Description
 
 If `true`, this page item is locked.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -172,11 +172,11 @@ Boolean.
 
 `app.activeDocument.pageItems[index].name`
 
-**Description**
+#### Description
 
 The name of this page item.
 
-**Type**
+#### Type
 
 String.
 
@@ -186,11 +186,11 @@ String.
 
 `app.activeDocument.pageItems[index].note`
 
-**Description**
+#### Description
 
 The note assigned to this item.
 
-**Type**
+#### Type
 
 String.
 
@@ -200,11 +200,11 @@ String.
 
 `app.activeDocument.pageItems[index].opacity`
 
-**Description**
+#### Description
 
 The opacity of this object, where 100.0 is completely opaque and 0.0 is completely transparent.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -214,11 +214,11 @@ Number (double).
 
 `app.activeDocument.pageItems[index].parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -228,11 +228,11 @@ Object, read-only.
 
 `app.activeDocument.pageItems[index].pixelAligned`
 
-**Description**
+#### Description
 
 `True` if this item is aligned to the pixel grid.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -242,11 +242,11 @@ Boolean.
 
 `app.activeDocument.pageItems[index].position`
 
-**Description**
+#### Description
 
 The position (in points) of the top left corner of the item in the format {x, y}. Does not include stroke weight.
 
-**Type**
+#### Type
 
 Array of 2 numbers.
 
@@ -256,11 +256,11 @@ Array of 2 numbers.
 
 `app.activeDocument.pageItems[index].selected`
 
-**Description**
+#### Description
 
 If `true`, this object is selected.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -270,11 +270,11 @@ Boolean.
 
 `app.activeDocument.pageItems[index].sliced`
 
-**Description**
+#### Description
 
 If `true`, preserve slices.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -284,11 +284,11 @@ Boolean.
 
 `app.activeDocument.pageItems[index].tags`
 
-**Description**
+#### Description
 
 The collection of tags associated with this page item.
 
-**Type**
+#### Type
 
 [Tags](./Tags.md)
 
@@ -298,11 +298,11 @@ The collection of tags associated with this page item.
 
 `app.activeDocument.pageItems[index].top`
 
-**Description**
+#### Description
 
 The top position of the art item.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -312,11 +312,11 @@ Number (double).
 
 `app.activeDocument.pageItems[index].typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -326,11 +326,11 @@ String, read-only.
 
 `app.activeDocument.pageItems[index].uRL`
 
-**Description**
+#### Description
 
 The value of the Adobe URL tag assigned to this page item.
 
-**Type**
+#### Type
 
 String.
 
@@ -343,11 +343,11 @@ String.
 !!! note
     This functionality was added in Illustrator 24.0. (CC2020)
 
-**Description**
+#### Description
 
 The unique identifier for this pageItem
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -357,11 +357,11 @@ String, read-only.
 
 `app.activeDocument.pageItems[index].visibilityVariable`
 
-**Description**
+#### Description
 
 The visibility variable to which this page item path is bound.
 
-**Type**
+#### Type
 
 [Variable](./Variable.md)
 
@@ -371,11 +371,11 @@ The visibility variable to which this page item path is bound.
 
 `app.activeDocument.pageItems[index].visibleBounds`
 
-**Description**
+#### Description
 
 The object's visible bounds, including stroke width of any objects in the illustration.
 
-**Type**
+#### Type
 
 Array of 4 numbers, read-only.
 
@@ -385,11 +385,11 @@ Array of 4 numbers, read-only.
 
 `app.activeDocument.pageItems[index].width`
 
-**Description**
+#### Description
 
 The width of the page item, calculated from the geometric bounds. Range: 0.0 to 16348.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -399,11 +399,11 @@ Number (double).
 
 `app.activeDocument.pageItems[index].wrapInside`
 
-**Description**
+#### Description
 
 If `true`, the text frame object should be wrapped inside this object.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -413,11 +413,11 @@ Boolean.
 
 `app.activeDocument.pageItems[index].wrapOffset`
 
-**Description**
+#### Description
 
 The offset to use when wrapping text around this object.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -427,11 +427,11 @@ Number (double).
 
 `app.activeDocument.pageItems[index].wrapped`
 
-**Description**
+#### Description
 
 If `true`, wrap text frame objects around this object (text frame must be above the object).
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -441,11 +441,11 @@ Boolean.
 
 `app.activeDocument.pageItems[index].zOrderPosition`
 
-**Description**
+#### Description
 
 The drawing order of the art within its group or layer.
 
-**Type**
+#### Type
 
 Number (long), read-only.
 
@@ -457,11 +457,11 @@ Number (long), read-only.
 
 `app.activeDocument.pageItems[index].bringInPerspective(posX, posY, perspectiveGridPlane)`
 
-**Description**
+#### Description
 
 Places art object(s) in a perspective grid at a specified position and grid plane.
 
-**Parameters**
+#### Parameters
 
 | Parameter              | Type                                                                                                     | Description                        |
 |------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------|
@@ -469,7 +469,7 @@ Places art object(s) in a perspective grid at a specified position and grid plan
 | `posY`                 | Number                                                                                                   | Y position to place art at         |
 | `perspectiveGridPlane` | [PerspectiveGridPlaneType](scripting-constants.md#jsobjref-scripting-constants-perspectivegridplanetype) | Perspective grid plane type to use |
 
-**Returns**
+#### Returns
 
 Returns.
 
@@ -484,11 +484,11 @@ app.activeDocument.pageItems[index].resize(
 )
 ```
 
-**Description**
+#### Description
 
 Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -501,7 +501,7 @@ Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY`
 | `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
 | `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -516,11 +516,11 @@ app.activeDocument.pageItems[index].rotate(
 )
 ```
 
-**Description**
+#### Description
 
 Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -531,7 +531,7 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 | `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
 | `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -546,11 +546,11 @@ app.activeDocument.pageItems[index].transform(
 )
 ```
 
-**Description**
+#### Description
 
 Transforms the art item by applying a transformation matrix.
 
-**Parameters**
+#### Parameters
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
@@ -562,7 +562,7 @@ Transforms the art item by applying a transformation matrix.
 | `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
 | `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -577,11 +577,11 @@ app.activeDocument.pageItems[index].translate(
 )
 ```
 
-**Description**
+#### Description
 
 Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
-**Parameters**
+#### Parameters
 
 | Parameter                 | Type                      | Description                          |
 |---------------------------|---------------------------|--------------------------------------|
@@ -592,7 +592,7 @@ Repositions the art item relative to the current position, where `deltaX` is the
 | `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
 | `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -602,16 +602,16 @@ Nothing.
 
 `app.activeDocument.pageItems[index].zOrder(zOrderCmd)`
 
-**Description**
+#### Description
 
 Arranges the art item's position in the stacking order of the group or layer (parent) of this object.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                                                             | Description                       |
 |-------------|----------------------------------------------------------------------------------|-----------------------------------|
 | `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
-**Returns**
+#### Returns
 
 Nothing.

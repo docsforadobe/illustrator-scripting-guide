@@ -2,7 +2,7 @@
 
 `app.activeDocument.graphItems`
 
-**Description**
+#### Description
 
 A collection `GraphItems` objects, which gives you access to all the graph art items in an Illustrator document.
 
@@ -14,11 +14,11 @@ A collection `GraphItems` objects, which gives you access to all the graph art i
 
 `app.activeDocument.graphItems.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `app.activeDocument.graphItems.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `app.activeDocument.graphItems.typename`
 
-**Description**
+#### Description
 
 > The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,17 +58,17 @@ String, read-only.
 
 `app.activeDocument.graphItems.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [GraphItems](#jsobjref-graphitems)
 
@@ -78,17 +78,17 @@ Gets the first element in the collection with the specified name.
 
 `app.activeDocument.graphItems.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [GraphItems](#jsobjref-graphitems)
 
@@ -98,11 +98,11 @@ Gets an element from the collection.
 
 `app.activeDocument.graphItems.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in the collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

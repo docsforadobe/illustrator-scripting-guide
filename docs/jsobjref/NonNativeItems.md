@@ -2,7 +2,7 @@
 
 `nonNativeItems`
 
-**Description**
+#### Description
 
 A collection of [NonNativeItem](./NonNativeItem.md) objects.
 
@@ -14,11 +14,11 @@ A collection of [NonNativeItem](./NonNativeItem.md) objects.
 
 `nonNativeItems.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `nonNativeItems.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `nonNativeItems.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,16 +58,16 @@ String, read-only.
 
 `nonNativeItems.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [NonNativeItem](./NonNativeItem.md), [SymbolItem](./SymbolItem.md)

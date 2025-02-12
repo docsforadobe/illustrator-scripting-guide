@@ -2,7 +2,7 @@
 
 `app.activeDocument.pathItems[index]`
 
-**Description**
+#### Description
 
 Specifies a path item, which contains [PathPoint](./PathPoint.md) objects that define its geometry.
 
@@ -18,7 +18,7 @@ The `setEntirePath` method provides an extremely efficient way to create paths c
 
 `app.activeDocument.pathItems[index].area`
 
-**Description**
+#### Description
 
 The area of this path in square points.
 
@@ -26,7 +26,7 @@ If the area is negative, the path is wound counterclockwise.
 
 Self-intersecting paths can contain sub-areas that cancel each other out, which makes this value zero even though the path has apparent area.
 
-**Type**
+#### Type
 
 Number (double); read-only.
 
@@ -36,11 +36,11 @@ Number (double); read-only.
 
 `app.activeDocument.pathItems[index].artworkKnockout`
 
-**Description**
+#### Description
 
 Is this object used to create a knockout, and if so, what kind of knockout.
 
-**Type**
+#### Type
 
 [KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
@@ -50,11 +50,11 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 `app.activeDocument.pathItems[index].blendingMode`
 
-**Description**
+#### Description
 
 The blend mode used when compositing an object.
 
-**Type**
+#### Type
 
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
@@ -64,11 +64,11 @@ The blend mode used when compositing an object.
 
 `app.activeDocument.pathItems[index].clipping`
 
-**Description**
+#### Description
 
 If `true`, this path should be used as a clipping path.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -78,11 +78,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].closed`
 
-**Description**
+#### Description
 
 If `true`, this path is closed.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -92,11 +92,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].controlBounds`
 
-**Description**
+#### Description
 
 The bounds of the object including stroke width and controls.
 
-**Type**
+#### Type
 
 Array of 4 numbers; read-only.
 
@@ -106,11 +106,11 @@ Array of 4 numbers; read-only.
 
 `app.activeDocument.pathItems[index].editable`
 
-**Description**
+#### Description
 
 If `true`, this item is editable.
 
-**Type**
+#### Type
 
 Boolean; read-only.
 
@@ -120,11 +120,11 @@ Boolean; read-only.
 
 `app.activeDocument.pathItems[index].evenodd`
 
-**Description**
+#### Description
 
 If `true`, the even-odd rule should be used to determine "insideness."
 
-**Type**
+#### Type
 
 Boolean
 
@@ -134,11 +134,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].fillColor`
 
-**Description**
+#### Description
 
 The fill color of the path.
 
-**Type**
+#### Type
 
 [Color](./Color.md)
 
@@ -148,11 +148,11 @@ The fill color of the path.
 
 `app.activeDocument.pathItems[index].filled`
 
-**Description**
+#### Description
 
 If `true`, the path is filled.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -162,11 +162,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].fillOverprint`
 
-**Description**
+#### Description
 
 If `true`, the art beneath a filled object should be overprinted.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -176,11 +176,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].geometricBounds`
 
-**Description**
+#### Description
 
 The bounds of the object excluding stroke width.
 
-**Type**
+#### Type
 
 Array of 4 numbers; read-only.
 
@@ -190,11 +190,11 @@ Array of 4 numbers; read-only.
 
 `app.activeDocument.pathItems[index].guides`
 
-**Description**
+#### Description
 
 If `true`, this path is a guide object.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -204,11 +204,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].height`
 
-**Description**
+#### Description
 
 The height of the group item.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -218,11 +218,11 @@ Number (double)
 
 `app.activeDocument.pathItems[index].hidden`
 
-**Description**
+#### Description
 
 If `true`, this item is hidden.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -232,11 +232,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].isIsolated`
 
-**Description**
+#### Description
 
 If `true`, this object is isolated.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -246,11 +246,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].layer`
 
-**Description**
+#### Description
 
 The layer to which this item belongs.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md); read-only.
 
@@ -260,11 +260,11 @@ The layer to which this item belongs.
 
 `app.activeDocument.pathItems[index].left`
 
-**Description**
+#### Description
 
 The position of the left side of the item (in points, measured from the left side of the page).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -274,11 +274,11 @@ Number (double)
 
 `app.activeDocument.pathItems[index].length`
 
-**Description**
+#### Description
 
 The length of this path in points.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -288,11 +288,11 @@ Number (double)
 
 `app.activeDocument.pathItems[index].locked`
 
-**Description**
+#### Description
 
 If `true`, this item is locked.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -302,11 +302,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].name`
 
-**Description**
+#### Description
 
 The name of this item.
 
-**Type**
+#### Type
 
 String
 
@@ -316,11 +316,11 @@ String
 
 `app.activeDocument.pathItems[index].note`
 
-**Description**
+#### Description
 
 The note assigned to this item.
 
-**Type**
+#### Type
 
 String
 
@@ -330,11 +330,11 @@ String
 
 `app.activeDocument.pathItems[index].opacity`
 
-**Description**
+#### Description
 
 The opacity of the object. Range: 0.0 to 100.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -344,11 +344,11 @@ Number (double)
 
 `app.activeDocument.pathItems[index].parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md) or [GroupItem](./GroupItem.md)
 
@@ -358,11 +358,11 @@ The parent of this object.
 
 `app.activeDocument.pathItems[index].pathPoints`
 
-**Description**
+#### Description
 
 The path points contained in this path item.
 
-**Type**
+#### Type
 
 [PathPoints](./PathPoints.md); read-only.
 
@@ -372,11 +372,11 @@ The path points contained in this path item.
 
 `app.activeDocument.pathItems[index].pixelAligned`
 
-**Description**
+#### Description
 
 `true` if this item is aligned to the pixel grid.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -386,11 +386,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].polarity`
 
-**Description**
+#### Description
 
 The polarity of the path.
 
-**Type**
+#### Type
 
 [PolarityValues](scripting-constants.md#jsobjref-scripting-constants-polarityvalues)
 
@@ -400,11 +400,11 @@ The polarity of the path.
 
 `app.activeDocument.pathItems[index].position`
 
-**Description**
+#### Description
 
 The position (in points) of the top left corner of the `pluginItem` object in the format [x, y]. Does not include stroke weight.
 
-**Type**
+#### Type
 
 Array of 2 numbers; read-only.
 
@@ -414,11 +414,11 @@ Array of 2 numbers; read-only.
 
 `app.activeDocument.pathItems[index].resolution`
 
-**Description**
+#### Description
 
 The resolution of the path in dots per inch (dpi).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -428,11 +428,11 @@ Number (double)
 
 `app.activeDocument.pathItems[index].selected`
 
-**Description**
+#### Description
 
 If `true`, this item is selected.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -442,11 +442,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].selectedPathPoints`
 
-**Description**
+#### Description
 
 All of the selected path points in the path.
 
-**Type**
+#### Type
 
 [PathPoints](./PathPoints.md); read-only.
 
@@ -456,13 +456,13 @@ All of the selected path points in the path.
 
 `app.activeDocument.pathItems[index].sliced`
 
-**Description**
+#### Description
 
 If `true`, the item sliced.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -472,11 +472,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].strokeCap`
 
-**Description**
+#### Description
 
 The type of line capping.
 
-**Type**
+#### Type
 
 [StrokeCap](scripting-constants.md#jsobjref-scripting-constants-strokecap)
 
@@ -486,11 +486,11 @@ The type of line capping.
 
 `app.activeDocument.pathItems[index].strokeColor`
 
-**Description**
+#### Description
 
 The stroke color for the path.
 
-**Type**
+#### Type
 
 [Color](./Color.md)
 
@@ -500,11 +500,11 @@ The stroke color for the path.
 
 `app.activeDocument.pathItems[index].stroked`
 
-**Description**
+#### Description
 
 If `true`, the path should be stroked.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -514,11 +514,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].strokeDashes`
 
-**Description**
+#### Description
 
 Dash lengths. Set to an empty object, {}, for a solid line.
 
-**Type**
+#### Type
 
 Object
 
@@ -528,11 +528,11 @@ Object
 
 `app.activeDocument.pathItems[index].strokeDashOffset`
 
-**Description**
+#### Description
 
 The default distance into the dash pattern at which the pattern should be started.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -542,11 +542,11 @@ Number (double)
 
 `app.activeDocument.pathItems[index].strokeJoin`
 
-**Description**
+#### Description
 
 Type of joints for the path.
 
-**Type**
+#### Type
 
 [StrokeJoin](scripting-constants.md#jsobjref-scripting-constants-strokejoin)
 
@@ -556,11 +556,11 @@ Type of joints for the path.
 
 `app.activeDocument.pathItems[index].strokeMiterLimit`
 
-**Description**
+#### Description
 
 When a default stroke join is set to mitered, this property specifies when the join will be converted to beveled (squared-off ) by default. The default miter limit of 4 means that when the length of the point reaches four times the stroke weight, the join switches from a miter join to a bevel join. A value of 1 specifies a bevel join. Range: 1 to 500. Default: 4
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -570,11 +570,11 @@ Number (double)
 
 `app.activeDocument.pathItems[index].strokeOverprint`
 
-**Description**
+#### Description
 
 If `true`, the art beneath a stroked object should be overprinted.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -584,11 +584,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].strokeWidth`
 
-**Description**
+#### Description
 
 The width of the stroke (in points).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -598,11 +598,11 @@ Number (double)
 
 `app.activeDocument.pathItems[index].tags`
 
-**Description**
+#### Description
 
 The tags contained in this item.
 
-**Type**
+#### Type
 
 [Tags](./Tags.md); read-only.
 
@@ -612,11 +612,11 @@ The tags contained in this item.
 
 `app.activeDocument.pathItems[index].top`
 
-**Description**
+#### Description
 
 The position of the top of the item (in points, measured from the bottom of the page).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -626,11 +626,11 @@ Number (double)
 
 `app.activeDocument.pathItems[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -640,11 +640,11 @@ String; read-only.
 
 `app.activeDocument.pathItems[index].uRL`
 
-**Description**
+#### Description
 
 The value of the Adobe URL tag assigned to this item.
 
-**Type**
+#### Type
 
 String
 
@@ -654,11 +654,11 @@ String
 
 `app.activeDocument.pathItems[index].visibilityVariable`
 
-**Description**
+#### Description
 
 The visibility variable bound to the item.
 
-**Type**
+#### Type
 
 [Variable](./Variable.md)
 
@@ -668,11 +668,11 @@ The visibility variable bound to the item.
 
 `app.activeDocument.pathItems[index].visibleBounds`
 
-**Description**
+#### Description
 
 The visible bounds of the item including stroke width.
 
-**Type**
+#### Type
 
 Array of 4 numbers; read-only.
 
@@ -682,11 +682,11 @@ Array of 4 numbers; read-only.
 
 `app.activeDocument.pathItems[index].width`
 
-**Description**
+#### Description
 
 The width of the item.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -696,11 +696,11 @@ Number (double)
 
 `app.activeDocument.pathItems[index].wrapInside`
 
-**Description**
+#### Description
 
 If `true`, the text frame object should be wrapped inside this object.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -710,11 +710,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].wrapOffset`
 
-**Description**
+#### Description
 
 The offset to use when wrapping text around this object.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -724,11 +724,11 @@ Number (double)
 
 `app.activeDocument.pathItems[index].wrapped`
 
-**Description**
+#### Description
 
 If `true`, wrap text frame objects around this object (text frame must be above the object).
 
-**Type**
+#### Type
 
 Boolean
 
@@ -738,11 +738,11 @@ Boolean
 
 `app.activeDocument.pathItems[index].zOrderPosition`
 
-**Description**
+#### Description
 
 The position of this item within the stacking order of the group or layer (`parent`) that contains the item.
 
-**Type**
+#### Type
 
 Number; read-only.
 
@@ -754,18 +754,18 @@ Number; read-only.
 
 `app.activeDocument.pathItems[index].duplicate([relativeObject][, insertionLocation])`
 
-**Description**
+#### Description
 
 Creates a duplicate of the selected object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                |
 |---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
 | `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
-**Returns**
+#### Returns
 
 [PathItem](#jsobjref-pathitem)
 
@@ -775,18 +775,18 @@ Creates a duplicate of the selected object.
 
 `app.activeDocument.pathItems[index].move(relativeObject, insertionLocation)`
 
-**Description**
+#### Description
 
 Moves the object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                   |
 |---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
 | `relativeObject`    | Object                                                                                             | Object to move element within |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
-**Returns**
+#### Returns
 
 [PathItem](#jsobjref-pathitem)
 
@@ -796,11 +796,11 @@ Moves the object.
 
 `app.activeDocument.pathItems[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -810,11 +810,11 @@ Nothing.
 
 `app.activeDocument.pathItems[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])`
 
-**Description**
+#### Description
 
 Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -827,7 +827,7 @@ Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY`
 | `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
 | `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -837,13 +837,13 @@ Nothing.
 
 `app.activeDocument.pathItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])`
 
-**Description**
+#### Description
 
 Rotates the art item relative to the current rotation.
 
 The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -854,7 +854,7 @@ The object is rotated counter-clockwise if the `angle` value is positive, clockw
 | `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
 | `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -864,17 +864,17 @@ Nothing.
 
 `app.activeDocument.pathItems[index].setEntirePath(pathPoints)`
 
-**Description**
+#### Description
 
 Sets the path using an array of [x, y] coordinate pairs.
 
-**Parameters**
+#### Parameters
 
 | Parameter    | Type                             | Description                       |
 |--------------|----------------------------------|-----------------------------------|
 | `pathPoints` | Array of [x, y] coordinate pairs | Array of point coordinates to set |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -884,11 +884,11 @@ Nothing.
 
 `app.activeDocument.pathItems[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])`
 
-**Description**
+#### Description
 
 Transforms the art item by applying a transformation matrix.
 
-**Parameters**
+#### Parameters
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
@@ -900,7 +900,7 @@ Transforms the art item by applying a transformation matrix.
 | `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
 | `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -910,11 +910,11 @@ Nothing.
 
 `app.activeDocument.pathItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])`
 
-**Description**
+#### Description
 
 Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
-**Parameters**
+#### Parameters
 
 | Parameter                 | Type                      | Description                          |
 |---------------------------|---------------------------|--------------------------------------|
@@ -925,7 +925,7 @@ Repositions the art item relative to the current position, where `deltaX` is the
 | `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
 | `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -935,17 +935,17 @@ Nothing.
 
 `app.activeDocument.pathItems[index].zOrder(zOrderCmd)`
 
-**Description**
+#### Description
 
 Arranges the art item's position in the stacking order of the group or layer (parent) of this object.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                                                             | Description                       |
 |-------------|----------------------------------------------------------------------------------|-----------------------------------|
 | `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
-**Returns**
+#### Returns
 
 Nothing.
 

@@ -2,7 +2,7 @@
 
 `app.activeDocument.activeLayer.compoundPathItems[index`
 
-**Description**
+#### Description
 
 A compound path. These objects are composed of multiple intersecting paths, resulting in transparent interior spaces where the component paths overlap. The pathItems property provides access to the paths that make up the compound path.
 
@@ -18,11 +18,11 @@ All paths within a compound path share property values. Therefore, if you set th
 
 `app.activeDocument.activeLayer.compoundPathItems[index].artworkKnockout`
 
-**Description**
+#### Description
 
 Is this object used to create a knockout, and if so, what kind of knockout.
 
-**Type**
+#### Type
 
 [KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
@@ -32,11 +32,11 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].blendingMode`
 
-**Description**
+#### Description
 
 The mode used when compositing an object.
 
-**Type**
+#### Type
 
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
@@ -46,11 +46,11 @@ The mode used when compositing an object.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].controlBounds`
 
-**Description**
+#### Description
 
 The bounds of the object including stroke width and controls.
 
-**Type**
+#### Type
 
 Array of 4 numbers, read-only.
 
@@ -60,11 +60,11 @@ Array of 4 numbers, read-only.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].editable`
 
-**Description**
+#### Description
 
 If `true`, this item is editable.
 
-**Type**
+#### Type
 
 Boolean, read-only.
 
@@ -74,11 +74,11 @@ Boolean, read-only.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].geometricBounds`
 
-**Description**
+#### Description
 
 The bounds of the object excluding stroke width.
 
-**Type**
+#### Type
 
 Array of 4 numbers, read-only.
 
@@ -88,11 +88,11 @@ Array of 4 numbers, read-only.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].height`
 
-**Description**
+#### Description
 
 The height of the compound path item excluding stroke width.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -102,11 +102,11 @@ Number (double).
 
 `app.activeDocument.activeLayer.compoundPathItems[index].hidden`
 
-**Description**
+#### Description
 
 If `true`, this compound path item is hidden.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -116,11 +116,11 @@ Boolean.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].isIsolated`
 
-**Description**
+#### Description
 
 If `true`, this object is isolated.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -130,11 +130,11 @@ Boolean.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].layer`
 
-**Description**
+#### Description
 
 The layer to which this compound path item belongs.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md), read-only.
 
@@ -144,11 +144,11 @@ The layer to which this compound path item belongs.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].left`
 
-**Description**
+#### Description
 
 The position of the left side of the item (in points, measured from the left side of the page).
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -158,11 +158,11 @@ Number (double).
 
 `app.activeDocument.activeLayer.compoundPathItems[index].locked`
 
-**Description**
+#### Description
 
 If `true`, this compound path item is locked.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -172,11 +172,11 @@ Boolean.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].name`
 
-**Description**
+#### Description
 
 The name of this compound path item.
 
-**Type**
+#### Type
 
 String.
 
@@ -186,11 +186,11 @@ String.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].note`
 
-**Description**
+#### Description
 
 The note assigned to this item.
 
-**Type**
+#### Type
 
 String.
 
@@ -200,11 +200,11 @@ String.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].opacity`
 
-**Description**
+#### Description
 
 The opacity of the object. Range: 0.0 to 100.0
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -214,11 +214,11 @@ Number (double).
 
 `app.activeDocument.activeLayer.compoundPathItems[index].parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md) or [GroupItem](./GroupItem.md), read-only.
 
@@ -228,11 +228,11 @@ The parent of this object.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].pathItems`
 
-**Description**
+#### Description
 
 The path art items in this compound path.
 
-**Type**
+#### Type
 
 [PathItems](./PathItems.md), read-only.
 
@@ -242,11 +242,11 @@ The path art items in this compound path.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].position`
 
-**Description**
+#### Description
 
 The position (in points) of the top left corner of the `compoundPathItem` object in the format [x, y]. Does not include stroke weight.
 
-**Type**
+#### Type
 
 Array of 2 numbers.
 
@@ -256,11 +256,11 @@ Array of 2 numbers.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].selected`
 
-**Description**
+#### Description
 
 If `true`, this compound path item is selected.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -270,11 +270,11 @@ Boolean.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].sliced`
 
-**Description**
+#### Description
 
 If `true`, the item is sliced. Default: `false`
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -284,11 +284,11 @@ Boolean.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].tags`
 
-**Description**
+#### Description
 
 The tags contained in this object.
 
-**Type**
+#### Type
 
 [Tags](./Tags.md), read-only.
 
@@ -298,11 +298,11 @@ The tags contained in this object.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].top`
 
-**Description**
+#### Description
 
 The position of the top of the item (in points, measured from the bottom of the page).
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -312,11 +312,11 @@ Number (double).
 
 `app.activeDocument.activeLayer.compoundPathItems[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -326,11 +326,11 @@ String, read-only.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].uRL`
 
-**Description**
+#### Description
 
 The value of the Adobe URL tag assigned to this compound path item.
 
-**Type**
+#### Type
 
 String.
 
@@ -340,11 +340,11 @@ String.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].visibilityVariable`
 
-**Description**
+#### Description
 
 The visibility variable bound to the item.
 
-**Type**
+#### Type
 
 Variant.
 
@@ -354,11 +354,11 @@ Variant.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].visibleBounds`
 
-**Description**
+#### Description
 
 The visible bounds of the compound path item including stroke width.
 
-**Type**
+#### Type
 
 Array of 4 numbers, read-only.
 
@@ -368,11 +368,11 @@ Array of 4 numbers, read-only.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].width`
 
-**Description**
+#### Description
 
 The width of the compound path item excluding stroke width.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -382,11 +382,11 @@ Number (double).
 
 `app.activeDocument.activeLayer.compoundPathItems[index].wrapInside`
 
-**Description**
+#### Description
 
 If `true`, the text frame object should be wrapped inside this object.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -396,11 +396,11 @@ Boolean.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].wrapOffset`
 
-**Description**
+#### Description
 
 The offset to use when wrapping text around this object.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -410,11 +410,11 @@ Number (double).
 
 `app.activeDocument.activeLayer.compoundPathItems[index].wrapped`
 
-**Description**
+#### Description
 
 If `true`, wrap text frame objects around this object (text frame must be above the object).
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -424,11 +424,11 @@ Boolean.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].zOrderPosition`
 
-**Description**
+#### Description
 
 The position of this art item within the stacking order of the group or layer (`Parent`) that contains the art item.
 
-**Type**
+#### Type
 
 Number (long), read-only.
 
@@ -440,18 +440,18 @@ Number (long), read-only.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].duplicate([relativeObject][,insertionLocation])`
 
-**Description**
+#### Description
 
 Creates a duplicate of the selected object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                |
 |---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
 | `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
 
-**Returns**
+#### Returns
 
 [CompoundPathItem](#jsobjref-compoundpathitem)
 
@@ -461,18 +461,18 @@ Creates a duplicate of the selected object.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].move(relativeObject, insertionLocation)`
 
-**Description**
+#### Description
 
 Moves the object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                   |
 |---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
 | `relativeObject`    | Object                                                                                             | Object to move element within |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -482,11 +482,11 @@ Nothing.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -501,11 +501,11 @@ app.activeDocument.activeLayer.compoundPathItems[index].resize(
 )
 ```
 
-**Description**
+#### Description
 
 Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY` is the vertical scaling factor. 100.0 = 100%.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -518,7 +518,7 @@ Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY`
 | `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
 | `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -533,11 +533,11 @@ app.activeDocument.activeLayer.compoundPathItems[index].rotate(
 )
 ```
 
-**Description**
+#### Description
 
 Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the `angle` value is positive, clockwise if the value is negative.
 
-**Parameters**
+#### Parameters
 
 | Parameter             | Type                                                                                           | Description                                             |
 |-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -548,7 +548,7 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 | `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
 | `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -563,11 +563,11 @@ app.activeDocument.activeLayer.compoundPathItems[index].transform(
 )
 ```
 
-**Description**
+#### Description
 
 Transforms the art item by applying a transformation matrix.
 
-**Parameters**
+#### Parameters
 
 | Parameter              | Type                                                                                           | Description                                    |
 |------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
@@ -579,7 +579,7 @@ Transforms the art item by applying a transformation matrix.
 | `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
 | `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -594,11 +594,11 @@ app.activeDocument.activeLayer.compoundPathItems[index].translate(
 )
 ```
 
-**Description**
+#### Description
 
 Repositions the art item relative to the current position, where `deltaX` is the horizontal offset and `deltaY` is the vertical offset.
 
-**Parameters**
+#### Parameters
 
 | Parameter                 | Type                      | Description                          |
 |---------------------------|---------------------------|--------------------------------------|
@@ -609,7 +609,7 @@ Repositions the art item relative to the current position, where `deltaX` is the
 | `transformFillGradients`  | Boolean, optional         | Whether to transform Fill Gradients  |
 | `transformStrokePatterns` | Boolean, optional         | Whether to transform Stroke Patterns |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -619,17 +619,17 @@ Nothing.
 
 `app.activeDocument.activeLayer.compoundPathItems[index].zOrder(zOrderCmd)`
 
-**Description**
+#### Description
 
 Arranges the art item's position in the stacking order of the group or layer (parent) of this object.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                                                             | Description                       |
 |-------------|----------------------------------------------------------------------------------|-----------------------------------|
 | `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
-**Returns**
+#### Returns
 
 Nothing.
 

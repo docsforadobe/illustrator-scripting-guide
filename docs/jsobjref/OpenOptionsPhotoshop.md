@@ -2,7 +2,7 @@
 
 `openOptionsPhotoshop`
 
-**Description**
+#### Description
 
 Options for opening a Photoshop document, used with the [Application.open()](Application.md#jsobjref-application-open) method.
 
@@ -14,11 +14,11 @@ Options for opening a Photoshop document, used with the [Application.open()](App
 
 `openOptionsPhotoshop.layerComp`
 
-**Description**
+#### Description
 
 The name of the layer comp to use when the document is converted.
 
-**Type**
+#### Type
 
 String.
 
@@ -28,11 +28,11 @@ String.
 
 `openOptionsPhotoshop.preserveHiddenLayers`
 
-**Description**
+#### Description
 
 If `true`, preserve hidden layers when the document is converted. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -42,11 +42,11 @@ Boolean.
 
 `openOptionsPhotoshop.preserveImageMaps`
 
-**Description**
+#### Description
 
 If `true`, preserve image maps when the document is converted. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -56,11 +56,11 @@ Boolean.
 
 `openOptionsPhotoshop.preserveLayers`
 
-**Description**
+#### Description
 
 If `true`, preserve layers when the document is converted. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -70,11 +70,11 @@ Boolean.
 
 `openOptionsPhotoshop.preserveSlices`
 
-**Description**
+#### Description
 
 If `true`, preserve slices when the document is converted. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -84,10 +84,10 @@ Boolean.
 
 `openOptionsPhotoshop.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.

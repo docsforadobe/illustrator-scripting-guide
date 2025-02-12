@@ -2,7 +2,7 @@
 
 `app.activeDocument.textFrames[index].contents`
 
-**Description**
+#### Description
 
 A collection of characters (`TextRange` objects of length 1).
 
@@ -16,11 +16,11 @@ The elements are not named; you must access them by index.
 
 `app.activeDocument.textFrames[index].contents.length`
 
-**Description**
+#### Description
 
 The number of characters in the collection.
 
-**Type**
+#### Type
 
 Number; read-only.
 
@@ -30,11 +30,11 @@ Number; read-only.
 
 `app.activeDocument.textFrames[index].contents.parent`
 
-**Description**
+#### Description
 
 The text art item that contains this character.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -44,11 +44,11 @@ Object; read-only.
 
 `app.activeDocument.textFrames[index].contents.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -60,13 +60,13 @@ String; read-only.
 
 `app.activeDocument.textFrames[index].contents.add(contents[,relativeObject][,insertionLocation])`
 
-**Description**
+#### Description
 
 Adds a new character with specified text contents at the specified location in the current document.
 
 If a location is not specified, adds the new character to the containing text frame after the current text selection or insertion point.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description            |
 |---------------------|----------------------------------------------------------------------------------------------------|------------------------|
@@ -74,7 +74,7 @@ If a location is not specified, adds the new character to the containing text fr
 | `relativeObject`    | [TextFrameItem](./TextFrameItem.md), optional                                 | Object to add item to  |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to place text |
 
-**Returns**
+#### Returns
 
 [TextRange](./TextRange.md)
 
@@ -84,17 +84,17 @@ If a location is not specified, adds the new character to the containing text fr
 
 `app.activeDocument.textFrames[index].contents.addBefore(contents)`
 
-**Description**
+#### Description
 
 Adds a character before the specified text selection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description          |
 |-------------|--------|----------------------|
 | `contents`  | String | Text contents to add |
 
-**Returns**
+#### Returns
 
 [TextRange](./TextRange.md)
 
@@ -104,17 +104,17 @@ Adds a character before the specified text selection.
 
 `app.activeDocument.textFrames[index].contents.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [TextRange](./TextRange.md)
 
@@ -124,11 +124,11 @@ Gets an element from the collection.
 
 `app.activeDocument.textFrames[index].contents.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in the collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

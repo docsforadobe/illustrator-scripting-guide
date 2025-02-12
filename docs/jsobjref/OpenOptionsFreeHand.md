@@ -2,7 +2,7 @@
 
 `openOptionsFreeHand`
 
-**Description**
+#### Description
 
 Options for opening a FreeHand file.
 
@@ -14,11 +14,11 @@ Options for opening a FreeHand file.
 
 `openOptionsFreeHand.convertTextToOutlines`
 
-**Description**
+#### Description
 
 If `true`, all text is converted to vector paths; preserves the visual appearance of type. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -28,11 +28,11 @@ Boolean.
 
 `openOptionsFreeHand.importSinglePage`
 
-**Description**
+#### Description
 
 If `true`, imports only the page specified in the `pageToOpen` property. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -42,11 +42,11 @@ Boolean.
 
 `openOptionsFreeHand.pageToOpen`
 
-**Description**
+#### Description
 
 The number of the page to import when opening a multipage document. Valid only when `importSinglePage` is `true`.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -56,11 +56,11 @@ Number (long).
 
 `openOptionsFreeHand.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -70,10 +70,10 @@ Object, read-only.
 
 `openOptionsFreeHand.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.

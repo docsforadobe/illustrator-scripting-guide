@@ -2,7 +2,7 @@
 
 `legacyTextItems`
 
-**Description**
+#### Description
 
 A collection of [LegacyTextItem](./LegacyTextItem.md) objects.
 
@@ -14,11 +14,11 @@ A collection of [LegacyTextItem](./LegacyTextItem.md) objects.
 
 `legacyTextItems.length`
 
-**Description**
+#### Description
 
 Number of elements in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `legacyTextItems.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `legacyTextItems.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,11 +58,11 @@ String, read-only.
 
 `legacyTextItems.convertToNative()`
 
-**Description**
+#### Description
 
 Creates text frames from all legacy text items; the original legacy text items are deleted. Returns `true` on success.
 
-**Returns**
+#### Returns
 
 Boolean.
 
@@ -72,17 +72,17 @@ Boolean.
 
 `legacyTextItems.getByName(name)`
 
-**Description**
+#### Description
 
 Get the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [LegacyTextItem](./LegacyTextItem.md)
 
@@ -92,17 +92,17 @@ Get the first element in the collection with the specified name.
 
 `legacyTextItems.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [LegacyTextItem](./LegacyTextItem.md)
 
@@ -112,10 +112,10 @@ Gets an element from the collection.
 
 `legacyTextItems.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.

@@ -2,7 +2,7 @@
 
 `app.activeDocument.layers[index`
 
-**Description**
+#### Description
 
 A layer in an Illustrator document. Layers may contain nested layers, which are called sublayers in the user interface.
 
@@ -16,11 +16,11 @@ The `layer` object contains all of the page items in the specific layer as eleme
 
 `app.activeDocument.layers[index].artworkKnockout`
 
-**Description**
+#### Description
 
 Is this object used to create a knockout, and if so, what kind of knockout. You cannot set this value to `KnockoutState.Unknown`.
 
-**Type**
+#### Type
 
 [KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
 
@@ -30,11 +30,11 @@ Is this object used to create a knockout, and if so, what kind of knockout. You 
 
 `app.activeDocument.layers[index].blendingMode`
 
-**Description**
+#### Description
 
 The mode used when compositing an object.
 
-**Type**
+#### Type
 
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
@@ -44,11 +44,11 @@ The mode used when compositing an object.
 
 `app.activeDocument.layers[index].color`
 
-**Description**
+#### Description
 
 The layer's selection mark color.
 
-**Type**
+#### Type
 
 [RGBColor](./RGBColor.md)
 
@@ -58,11 +58,11 @@ The layer's selection mark color.
 
 `app.activeDocument.layers[index].compoundPathItems`
 
-**Description**
+#### Description
 
 The compound path items contained in this layer.
 
-**Type**
+#### Type
 
 [CompoundPathItems](./CompoundPathItems.md), read-only.
 
@@ -72,11 +72,11 @@ The compound path items contained in this layer.
 
 `app.activeDocument.layers[index].dimPlacedImages`
 
-**Description**
+#### Description
 
 If `true`, placed images should be rendered as dimmed in this layer.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -86,11 +86,11 @@ Boolean.
 
 `app.activeDocument.layers[index].graphItems`
 
-**Description**
+#### Description
 
 The graph items contained in this layer.
 
-**Type**
+#### Type
 
 [GraphItems](./GraphItems.md), read-only.
 
@@ -100,11 +100,11 @@ The graph items contained in this layer.
 
 `app.activeDocument.layers[index].groupItems`
 
-**Description**
+#### Description
 
 The group items contained in this layer.
 
-**Type**
+#### Type
 
 [GroupItems](./GroupItems.md), read-only.
 
@@ -114,11 +114,11 @@ The group items contained in this layer.
 
 `app.activeDocument.layers[index].hasSelectedArtwork`
 
-**Description**
+#### Description
 
 If `true`, an object in this layer has been selected; set to `false` to deselect all objects in the layer.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -128,11 +128,11 @@ Boolean.
 
 `app.activeDocument.layers[index].isIsolated`
 
-**Description**
+#### Description
 
 If `true`, this object is isolated.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -142,11 +142,11 @@ Boolean.
 
 `app.activeDocument.layers[index].layers`
 
-**Description**
+#### Description
 
 The layers contained in this layer.
 
-**Type**
+#### Type
 
 [Layers](./Layers.md), read-only.
 
@@ -156,11 +156,11 @@ The layers contained in this layer.
 
 `app.activeDocument.layers[index].legacyTextItems`
 
-**Description**
+#### Description
 
 The legacy text items in this layer.
 
-**Type**
+#### Type
 
 [LegacyTextItems](./LegacyTextItems.md), read-only.
 
@@ -170,11 +170,11 @@ The legacy text items in this layer.
 
 `app.activeDocument.layers[index].locked`
 
-**Description**
+#### Description
 
 If `true`, this layer is editable; set to false to lock the layer.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -184,11 +184,11 @@ Boolean.
 
 `app.activeDocument.layers[index].meshItems`
 
-**Description**
+#### Description
 
 The mesh items contained in this layer.
 
-**Type**
+#### Type
 
 [MeshItems](./MeshItems.md), read-only.
 
@@ -198,11 +198,11 @@ The mesh items contained in this layer.
 
 `app.activeDocument.layers[index].name`
 
-**Description**
+#### Description
 
 The name of this layer.
 
-**Type**
+#### Type
 
 String.
 
@@ -212,11 +212,11 @@ String.
 
 `app.activeDocument.layers[index].nonNativeItems`
 
-**Description**
+#### Description
 
 The non-native art items in this layer.
 
-**Type**
+#### Type
 
 [NonNativeItems](./NonNativeItems.md)
 
@@ -226,11 +226,11 @@ The non-native art items in this layer.
 
 `app.activeDocument.layers[index].opacity`
 
-**Description**
+#### Description
 
 The opacity of the layer. Range: 0.0 to 100.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -240,11 +240,11 @@ Number (double).
 
 `app.activeDocument.layers[index].pageItems`
 
-**Description**
+#### Description
 
 The page items (all art item classes) contained in this layer.
 
-**Type**
+#### Type
 
 [PageItems](./PageItems.md)
 
@@ -254,11 +254,11 @@ The page items (all art item classes) contained in this layer.
 
 `app.activeDocument.layers[index].parent`
 
-**Description**
+#### Description
 
 The document or layer that contains this layer.
 
-**Type**
+#### Type
 
 [Document](./Document.md) or [Layer](#jsobjref-layer), read-only.
 
@@ -268,11 +268,11 @@ The document or layer that contains this layer.
 
 `app.activeDocument.layers[index].pathItems`
 
-**Description**
+#### Description
 
 The path items contained in this layer.
 
-**Type**
+#### Type
 
 [PathItems](./PathItems.md), read-only.
 
@@ -282,11 +282,11 @@ The path items contained in this layer.
 
 `app.activeDocument.layers[index].placedItems`
 
-**Description**
+#### Description
 
 > The placed items contained in this layer.
 
-**Type**
+#### Type
 
 [PlacedItems](./PlacedItems.md), read-only.
 
@@ -296,11 +296,11 @@ The path items contained in this layer.
 
 `app.activeDocument.layers[index].pluginItems`
 
-**Description**
+#### Description
 
 The plug-in items contained in this layer.
 
-**Type**
+#### Type
 
 [PluginItems](./PluginItems.md), read-only.
 
@@ -310,11 +310,11 @@ The plug-in items contained in this layer.
 
 `app.activeDocument.layers[index].preview`
 
-**Description**
+#### Description
 
 If `true`, this layer should be displayed using preview mode.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -324,11 +324,11 @@ Boolean.
 
 `app.activeDocument.layers[index].printable`
 
-**Description**
+#### Description
 
 If `true`, this layer should be printed when printing the document.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -338,11 +338,11 @@ Boolean.
 
 `app.activeDocument.layers[index].rasterItems`
 
-**Description**
+#### Description
 
 The raster items contained in this layer.
 
-**Type**
+#### Type
 
 [RasterItems](./RasterItems.md), read-only.
 
@@ -352,11 +352,11 @@ The raster items contained in this layer.
 
 `app.activeDocument.layers[index].sliced`
 
-**Description**
+#### Description
 
 If `true`, the layer item is sliced. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -366,11 +366,11 @@ Boolean.
 
 `app.activeDocument.layers[index].symbolItems`
 
-**Description**
+#### Description
 
 The symbol items contained in the layer.
 
-**Type**
+#### Type
 
 [SymbolItems](./SymbolItems.md), read-only.
 
@@ -380,11 +380,11 @@ The symbol items contained in the layer.
 
 `app.activeDocument.layers[index].textFrames`
 
-**Description**
+#### Description
 
 The text art items contained in this layer.
 
-**Type**
+#### Type
 
 [TextFrameItems](./TextFrameItems.md), read-only.
 
@@ -394,11 +394,11 @@ The text art items contained in this layer.
 
 `app.activeDocument.layers[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -408,11 +408,11 @@ String, read-only.
 
 `app.activeDocument.layers[index].visible`
 
-**Description**
+#### Description
 
 If `true`, this layer is visible.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -422,11 +422,11 @@ Boolean.
 
 `app.activeDocument.layers[index].zOrderPosition`
 
-**Description**
+#### Description
 
 The position of this layer within the stacking order of layers in the document.
 
-**Type**
+#### Type
 
 Number (long), read-only.
 
@@ -438,18 +438,18 @@ Number (long), read-only.
 
 `app.activeDocument.layers[index].move(relativeObject, insertionLocation)`
 
-**Description**
+#### Description
 
 Moves the object.
 
-**Parameters**
+#### Parameters
 
 | Parameter           | Type                                                                                               | Description                   |
 |---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
 | `relativeObject`    | Object                                                                                             | Object to move element within |
 | `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
 
-**Returns**
+#### Returns
 
 [Layer](#jsobjref-layer)
 
@@ -459,11 +459,11 @@ Moves the object.
 
 `app.activeDocument.layers[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -473,17 +473,17 @@ Nothing.
 
 `app.activeDocument.layers[index].zOrder(ZOrderCmd)`
 
-**Description**
+#### Description
 
 Arranges the layer's position in the stacking order of the containing layer or document (`parent`) of this object.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                                                             | Description                       |
 |-------------|----------------------------------------------------------------------------------|-----------------------------------|
 | `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
 
-**Returns**
+#### Returns
 
 Nothing.
 

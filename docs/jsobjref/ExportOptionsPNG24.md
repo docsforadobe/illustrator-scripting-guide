@@ -2,7 +2,7 @@
 
 `exportOptionsPNG24`
 
-**Description**
+#### Description
 
 Options for exporting a document as a 24-bit PNG file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method. All properties are optional.
 
@@ -16,11 +16,11 @@ When you export a document, the appropriate file extension is appended automatic
 
 `exportOptionsPNG24.antiAliasing`
 
-**Description**
+#### Description
 
 If `true`, the exported image be anti-aliased. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -30,11 +30,11 @@ Boolean.
 
 `exportOptionsPNG24.artBoardClipping`
 
-**Description**
+#### Description
 
 If `true`, the exported image be clipped to the art board. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -44,11 +44,11 @@ Boolean.
 
 `exportOptionsPNG24.horizontalScale`
 
-**Description**
+#### Description
 
 The horizontal scaling factor to apply to the exported image, where 100.0 is 100%. Default: 100.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -58,11 +58,11 @@ Number (double).
 
 `exportOptionsPNG24.matte`
 
-**Description**
+#### Description
 
 If `true`, the art board be matted with a color. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -72,11 +72,11 @@ Boolean.
 
 `exportOptionsPNG24.matteColor`
 
-**Description**
+#### Description
 
 The color to use when matting the art board. Default: `white`.
 
-**Type**
+#### Type
 
 [RGBColor](./RGBColor.md)
 
@@ -86,11 +86,11 @@ The color to use when matting the art board. Default: `white`.
 
 `exportOptionsPNG24.saveAsHTML`
 
-**Description**
+#### Description
 
 If `true`, the exported image be saved with an accompanying HTML file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -100,11 +100,11 @@ Boolean.
 
 `exportOptionsPNG24.transparency`
 
-**Description**
+#### Description
 
 If `true`, the exported image use transparency. Default: `true`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -114,11 +114,11 @@ Boolean.
 
 `exportOptionsPNG24.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -128,11 +128,11 @@ String, read-only.
 
 `exportOptionsPNG24.verticalScale`
 
-**Description**
+#### Description
 
 The vertical scaling factor to apply to the exported image, where 100.0 is 100. Default: 100.0.
 
-**Type**
+#### Type
 
 Number (double).
 

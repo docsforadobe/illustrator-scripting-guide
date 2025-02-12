@@ -2,7 +2,7 @@
 
 `printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo`
 
-**Description**
+#### Description
 
 Paper information for use in printing documents.
 
@@ -14,11 +14,11 @@ Paper information for use in printing documents.
 
 `printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo.customPaper`
 
-**Description**
+#### Description
 
 If `true`, it is a custom paper.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -28,11 +28,11 @@ Boolean.
 
 `printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo.height`
 
-**Description**
+#### Description
 
 The paper's height in points.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -42,11 +42,11 @@ Number (double).
 
 `printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo.imageableArea`
 
-**Description**
+#### Description
 
 The imageable area.
 
-**Type**
+#### Type
 
 Array of 4 numbers.
 
@@ -56,11 +56,11 @@ Array of 4 numbers.
 
 `printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -70,11 +70,11 @@ String, read-only.
 
 `printerList[printerIndex].printerInfo.paperSizes[paperSizeIndex].paperInfo.width`
 
-**Description**
+#### Description
 
 The paper's width in points.
 
-**Type**
+#### Type
 
 Number (double).
 

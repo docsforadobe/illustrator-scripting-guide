@@ -2,7 +2,7 @@
 
 `new GrayColor()`
 
-**Description**
+#### Description
 
 A grayscale color specification, used where a `color` object is required.
 
@@ -14,11 +14,11 @@ A grayscale color specification, used where a `color` object is required.
 
 `grayColor.gray`
 
-**Description**
+#### Description
 
 The tint of the gray. Range: 0.0 to 100.0, where 0.0 is black and 100.0 is white.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -28,11 +28,11 @@ Number (double).
 
 `grayColor.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 

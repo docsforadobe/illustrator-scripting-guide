@@ -2,7 +2,7 @@
 
 `patternColor`
 
-**Description**
+#### Description
 
 A pattern color specification. You can create a new pattern color by modifying an existing pattern in the document. Any modification you make to a pattern affects that pattern in the Palette.
 
@@ -16,11 +16,11 @@ A pattern color specification. You can create a new pattern color by modifying a
 
 `patternColor.matrix`
 
-**Description**
+#### Description
 
 Additional transformation arising from manipulating the path.
 
-**Type**
+#### Type
 
 [Matrix](./Matrix.md)
 
@@ -30,11 +30,11 @@ Additional transformation arising from manipulating the path.
 
 `patternColor.pattern`
 
-**Description**
+#### Description
 
 A reference to the pattern object that defines the pattern to use in this color definition.
 
-**Type**
+#### Type
 
 [Pattern](./Pattern.md)
 
@@ -44,13 +44,13 @@ A reference to the pattern object that defines the pattern to use in this color 
 
 `patternColor.reflect`
 
-**Description**
+#### Description
 
 If `true`, the prototype should be reflected before filling.
 
 Default: `false`
 
-**Type**
+#### Type
 
 Boolean
 
@@ -60,13 +60,13 @@ Boolean
 
 `patternColor.reflectAngle`
 
-**Description**
+#### Description
 
 The axis around which to reflect, in points.
 
 Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -76,13 +76,13 @@ Number (double)
 
 `patternColor.rotation`
 
-**Description**
+#### Description
 
 The angle in radians to rotate the prototype pattern before filling.
 
 Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -92,11 +92,11 @@ Number (double)
 
 `patternColor.scaleFactor`
 
-**Description**
+#### Description
 
 The fraction to which to scale the prototype pattern before filling, represented as a point containing horizontal and vertical scaling percentages.
 
-**Type**
+#### Type
 
 Array of 2 numbers
 
@@ -106,13 +106,13 @@ Array of 2 numbers
 
 `patternColor.shearAngle`
 
-**Description**
+#### Description
 
 The angle in radians by which to slant the shear.
 
 Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -122,13 +122,13 @@ Number (double)
 
 `patternColor.shearAxis`
 
-**Description**
+#### Description
 
 The axis to shear with respect to, in points.
 
 Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -138,13 +138,13 @@ Number (double)
 
 `patternColor.shiftAngle`
 
-**Description**
+#### Description
 
 The angle in radians to which to translate the unscaled prototype pattern before filling.
 
 Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -154,13 +154,13 @@ Number (double)
 
 `patternColor.shiftDistance`
 
-**Description**
+#### Description
 
 The distance in points to which to translate the unscaled prototype pattern before filling.
 
 Default: 0.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -170,11 +170,11 @@ Number (double)
 
 `patternColor.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String; read-only.
 

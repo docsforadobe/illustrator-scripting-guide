@@ -2,7 +2,7 @@
 
 `TracingObject`
 
-**Description**
+#### Description
 
 A tracing object, which associates source raster art item with a vector-art plug-in group created by tracing. Scripts can initiate tracing using [PlacedItem.trace](PlacedItem.md#jsobjref-placeditem-trace) or [RasterItem.trace()](RasterItem.md#jsobjref-rasteritem-trace).
 
@@ -20,11 +20,11 @@ The read-only properties that describe the tracing result have valid values only
 
 `tracingObject.anchorCount`
 
-**Description**
+#### Description
 
 The number of anchors in the tracing result.
 
-**Type**
+#### Type
 
 Number (long); read-only.
 
@@ -34,11 +34,11 @@ Number (long); read-only.
 
 `tracingObject.areaCount`
 
-**Description**
+#### Description
 
 The number of areas in the tracing result.
 
-**Type**
+#### Type
 
 Number (long); read-only.
 
@@ -48,11 +48,11 @@ Number (long); read-only.
 
 `tracingObject.imageResolution`
 
-**Description**
+#### Description
 
 The resolution of the source image in pixels per inch.
 
-**Type**
+#### Type
 
 Number (real); read-only.
 
@@ -62,11 +62,11 @@ Number (real); read-only.
 
 `tracingObject.parent`
 
-**Description**
+#### Description
 
 The object's container.
 
-**Type**
+#### Type
 
 Object; read-only.
 
@@ -76,11 +76,11 @@ Object; read-only.
 
 `tracingObject.pathCount`
 
-**Description**
+#### Description
 
 The number of paths in the tracing result.
 
-**Type**
+#### Type
 
 Number (long); read-only.
 
@@ -90,11 +90,11 @@ Number (long); read-only.
 
 `tracingObject.sourceArt`
 
-**Description**
+#### Description
 
 The raster art used to create the associated vector art plug-in group.
 
-**Type**
+#### Type
 
 [PlacedItem](./PlacedItem.md) or [RasterItem](./RasterItem.md)
 
@@ -104,11 +104,11 @@ The raster art used to create the associated vector art plug-in group.
 
 `tracingObject.tracingOptions`
 
-**Description**
+#### Description
 
 The options used to convert the raster artwork to vector art.
 
-**Type**
+#### Type
 
 [TracingOptions](./TracingOptions.md)
 
@@ -118,11 +118,11 @@ The options used to convert the raster artwork to vector art.
 
 `tracingObject.typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String; read-only.
 
@@ -132,11 +132,11 @@ String; read-only.
 
 `tracingObject.usedColorCount`
 
-**Description**
+#### Description
 
 The number of colors used in the tracing result.
 
-**Type**
+#### Type
 
 Number (long); read-only.
 
@@ -148,7 +148,7 @@ Number (long); read-only.
 
 `tracingObject.expandTracing([viewed])`
 
-**Description**
+#### Description
 
 Converts the vector art into a new group item. The new GroupItem object replaces the PluginItem object in the document.
 
@@ -158,13 +158,13 @@ If `viewed` is `true`, the new group retains additional information that was spe
 
 Deletes this object and its associated [PluginItem](./PluginItem.md) object. Any group-level attributes that were applied to the plug-in item are applied to the top level of the new group item.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type              | Description   |
 |-------------|-------------------|---------------|
 | `viewed`    | Boolean, optional | todo          |
 
-**Returns**
+#### Returns
 
 [GroupItem](./GroupItem.md)
 
@@ -174,12 +174,12 @@ Deletes this object and its associated [PluginItem](./PluginItem.md) object. Any
 
 `tracingObject.releaseTracing()`
 
-**Description**
+#### Description
 
 Reverts the artwork in the document to the original source raster art and removes the traced vector art. Returns the original object used to create the tracing, and deletes this object and its associated PluginItem object.
 
-**Parameters**
+#### Parameters
 
-**Returns**
+#### Returns
 
 [PlacedItem](./PlacedItem.md) or [RasterItem](./RasterItem.md)

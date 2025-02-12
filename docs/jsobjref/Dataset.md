@@ -2,7 +2,7 @@
 
 `app.activeDocument.dataSets[index`
 
-**Description**
+#### Description
 
 A set of data used for dynamic publishing. A dataset allows you to collect a number of variables and their dynamic data into one object. You must have at least one variable bound to an art item in order to create a dataset. See the class [Variable](./Variable.md).
 
@@ -14,11 +14,11 @@ A set of data used for dynamic publishing. A dataset allows you to collect a num
 
 `app.activeDocument.dataSets[index].name`
 
-**Description**
+#### Description
 
 Then name of the dataset.
 
-**Type**
+#### Type
 
 String.
 
@@ -28,11 +28,11 @@ String.
 
 `app.activeDocument.dataSets[index].parent`
 
-**Description**
+#### Description
 
 The name of the object that contains this dataset.
 
-**Type**
+#### Type
 
 [Document](./Document.md), read-only.
 
@@ -42,11 +42,11 @@ The name of the object that contains this dataset.
 
 `app.activeDocument.dataSets[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String.
 
@@ -58,11 +58,11 @@ String.
 
 `app.activeDocument.dataSets[index].display()`
 
-**Description**
+#### Description
 
 Displays the dataset.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -72,11 +72,11 @@ Nothing.
 
 `app.activeDocument.dataSets[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -86,11 +86,11 @@ Nothing.
 
 `app.activeDocument.dataSets[index].update()`
 
-**Description**
+#### Description
 
 Updates the dataset.
 
-**Returns**
+#### Returns
 
 Nothing.
 

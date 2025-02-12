@@ -2,7 +2,7 @@
 
 `imageCaptureOptions`
 
-**Description**
+#### Description
 
 Options for image capture, used with the [Document.imageCapture()](Document.md#jsobjref-document-imagecapture) method. All properties are optional.
 
@@ -14,11 +14,11 @@ Options for image capture, used with the [Document.imageCapture()](Document.md#j
 
 `imageCaptureOptions.antiAliasing`
 
-**Description**
+#### Description
 
 If `true`, the image result is anti-aliased. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -28,11 +28,11 @@ Boolean
 
 `imageCaptureOptions.matte`
 
-**Description**
+#### Description
 
 If `true`, the artboard is matted with a color. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -42,11 +42,11 @@ Boolean
 
 `imageCaptureOptions.matteColor`
 
-**Description**
+#### Description
 
 The color to use for the artboard matte. Default: white.
 
-**Type**
+#### Type
 
 [RGBColor](./RGBColor.md)
 
@@ -56,11 +56,11 @@ The color to use for the artboard matte. Default: white.
 
 `imageCaptureOptions.resolution`
 
-**Description**
+#### Description
 
 The resolution of the captured image file in points-per-inch (PPI), in the range [72.0 ... 2400.0]. Default: 150.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -70,11 +70,11 @@ Number (double).
 
 `imageCaptureOptions.transparency`
 
-**Description**
+#### Description
 
 If `true`, the image result is transparent. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -84,10 +84,10 @@ Boolean.
 
 `imageCaptureOptions.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.

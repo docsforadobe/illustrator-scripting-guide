@@ -2,7 +2,7 @@
 
 `app.activeDocument.meshItems`
 
-**Description**
+#### Description
 
 A collection of [MeshItem](./MeshItem.md) objects.
 
@@ -14,11 +14,11 @@ A collection of [MeshItem](./MeshItem.md) objects.
 
 `app.activeDocument.meshItems.length`
 
-**Description**
+#### Description
 
 The number of objects in the collection.
 
-**Type**
+#### Type
 
 Number, read-only.
 
@@ -28,11 +28,11 @@ Number, read-only.
 
 `app.activeDocument.meshItems.parent`
 
-**Description**
+#### Description
 
 The parent of this object.
 
-**Type**
+#### Type
 
 Object, read-only.
 
@@ -42,11 +42,11 @@ Object, read-only.
 
 `app.activeDocument.meshItems.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,17 +58,17 @@ String, read-only.
 
 `app.activeDocument.meshItems.getByName(name)`
 
-**Description**
+#### Description
 
 Gets the first element in the collection with the specified name.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type   | Description            |
 |-------------|--------|------------------------|
 | `name`      | String | Name of element to get |
 
-**Returns**
+#### Returns
 
 [MeshItem](./MeshItem.md)
 
@@ -78,17 +78,17 @@ Gets the first element in the collection with the specified name.
 
 `app.activeDocument.meshItems.index(itemKey)`
 
-**Description**
+#### Description
 
 Gets an element from the collection.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type           | Description          |
 |-------------|----------------|----------------------|
 | `itemKey`   | String, Number | String or number key |
 
-**Returns**
+#### Returns
 
 [MeshItem](./MeshItem.md)
 
@@ -98,11 +98,11 @@ Gets an element from the collection.
 
 `app.activeDocument.meshItems.removeAll()`
 
-**Description**
+#### Description
 
 Deletes all elements in this collection.
 
-**Returns**
+#### Returns
 
 Nothing.
 

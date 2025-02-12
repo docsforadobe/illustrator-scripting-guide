@@ -2,7 +2,7 @@
 
 `app.activeDocument.views[index]`
 
-**Description**
+#### Description
 
 A document view in an Illustrator document, which represents a window view onto a document.
 
@@ -16,11 +16,11 @@ Scripts cannot create new views, but can modify some properties of existing view
 
 `app.activeDocument.views[index].bounds`
 
-**Description**
+#### Description
 
 Read-only. The bounding rectangle of this view relative to the current document's bounds.
 
-**Type**
+#### Type
 
 Array of 4 Numbers
 
@@ -30,11 +30,11 @@ Array of 4 Numbers
 
 `app.activeDocument.views[index].centerPoint`
 
-**Description**
+#### Description
 
 The center point of this view relative to the current document's bounds.
 
-**Type**
+#### Type
 
 Array of 2 Numbers
 
@@ -44,11 +44,11 @@ Array of 2 Numbers
 
 `app.activeDocument.views[index].parent`
 
-**Description**
+#### Description
 
 Read-only. The document that contains this view.
 
-**Type**
+#### Type
 
 [Document](./Document.md)
 
@@ -58,11 +58,11 @@ Read-only. The document that contains this view.
 
 `app.activeDocument.views[index].screenMode`
 
-**Description**
+#### Description
 
 The mode of display for this view.
 
-**Type**
+#### Type
 
 [ScreenMode](scripting-constants.md#jsobjref-scripting-constants-screenmode)
 
@@ -72,11 +72,11 @@ The mode of display for this view.
 
 `app.activeDocument.views[index].typename`
 
-**Description**
+#### Description
 
 Read-only. The class name of the referenced object.
 
-**Type**
+#### Type
 
 String
 
@@ -86,10 +86,10 @@ String
 
 `app.activeDocument.views[index].zoom`
 
-**Description**
+#### Description
 
 The zoom factor of this view, where 100.0 is 100%.
 
-**Type**
+#### Type
 
 Number (double)

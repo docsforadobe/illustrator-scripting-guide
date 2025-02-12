@@ -2,7 +2,7 @@
 
 `epsSaveOptions`
 
-**Description**
+#### Description
 
 Options for saving a document as an Illustrator EPS file, used with the [Document.saveAs()](Document.md#jsobjref-document-saveas) method.
 
@@ -16,11 +16,11 @@ All properties are optional.
 
 `epsSaveOptions.artboardRange`
 
-**Description**
+#### Description
 
 If `saveMultipleArtboards` is `true`, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty string
 
-**Type**
+#### Type
 
 String.
 
@@ -30,11 +30,11 @@ String.
 
 `epsSaveOptions.cmykPostScript`
 
-**Description**
+#### Description
 
 If `true`, use CMYK PostScript.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -44,13 +44,13 @@ Boolean.
 
 `epsSaveOptions.compatibility`
 
-**Description**
+#### Description
 
 Specifies the version of the EPS file format to save.
 
 Default: `Compatibility.ILLUSTRATOR1719`.
 
-**Type**
+#### Type
 
 [Compatibility](scripting-constants.md#jsobjref-scripting-constants-compatibility)
 
@@ -60,13 +60,13 @@ Default: `Compatibility.ILLUSTRATOR1719`.
 
 `epsSaveOptions.compatibleGradientPrinting`
 
-**Description**
+#### Description
 
 If `true`, create a raster item of the gradient or gradient mesh so that PostScript Level 2 printers can print the object.
 
 Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -76,13 +76,13 @@ Boolean.
 
 `epsSaveOptions.embedAllFonts`
 
-**Description**
+#### Description
 
 If `true`, all fonts used by the document should be embedded in the saved file (version 7 or later).
 
 Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -92,11 +92,11 @@ Boolean.
 
 `epsSaveOptions.embedLinkedFiles`
 
-**Description**
+#### Description
 
 If `true`, linked image files are to be included in the saved document.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -106,11 +106,11 @@ Boolean.
 
 `epsSaveOptions.flattenOuput`
 
-**Description**
+#### Description
 
 How should transparency be flattened for file formats older than Illustrator 9.
 
-**Type**
+#### Type
 
 [OutputFlattening](scripting-constants.md#jsobjref-scripting-constants-outputflattening)
 
@@ -120,11 +120,11 @@ How should transparency be flattened for file formats older than Illustrator 9.
 
 `epsSaveOptions.includeDocumentThumbnails`
 
-**Description**
+#### Description
 
 If `true`, thumbnail image of the EPS artwork should be included.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -134,13 +134,13 @@ Boolean.
 
 `epsSaveOptions.overprint`
 
-**Description**
+#### Description
 
 Whether to preserve, discard, or simulate the overprint.
 
 Default: `PDFOverprint.PRESERVEPDFOVERPRINT`.
 
-**Type**
+#### Type
 
 [PDFOverprint](scripting-constants.md#jsobjref-scripting-constants-pdfoverprint)
 
@@ -150,13 +150,13 @@ Default: `PDFOverprint.PRESERVEPDFOVERPRINT`.
 
 `epsSaveOptions.postScript`
 
-**Description**
+#### Description
 
 PostScript Language Level to use (Level 1 valid for file format version 8 or older).
 
 Default: `EPSPostScriptLevelEnum.LEVEL2`.
 
-**Type**
+#### Type
 
 [EPSPostScriptLevelEnum](scripting-constants.md#jsobjref-scripting-constants-epspostscriptlevelenum)
 
@@ -166,11 +166,11 @@ Default: `EPSPostScriptLevelEnum.LEVEL2`.
 
 `epsSaveOptions.preview`
 
-**Description**
+#### Description
 
 The format for the EPS preview image.
 
-**Type**
+#### Type
 
 [EPSPreview](scripting-constants.md#jsobjref-scripting-constants-epspreview)
 
@@ -180,13 +180,13 @@ The format for the EPS preview image.
 
 `epsSaveOptions.saveMultipleArtboards`
 
-**Description**
+#### Description
 
 If `true`, all artboards or range of artboards are saved.
 
 Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -196,11 +196,11 @@ Boolean.
 
 `epsSaveOptions.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 

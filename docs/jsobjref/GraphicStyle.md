@@ -2,7 +2,7 @@
 
 `app.activeDocument.graphicStyles[index`
 
-**Description**
+#### Description
 
 A graphic style. Each graphic style defines a set of appearance attributes that you can apply non-destructively to page items. Graphic styles are contained in documents. Scripts cannot create new graphic styles.
 
@@ -14,11 +14,11 @@ A graphic style. Each graphic style defines a set of appearance attributes that 
 
 `app.activeDocument.graphicStyles[index].name`
 
-**Description**
+#### Description
 
 The graphic style name.
 
-**Type**
+#### Type
 
 String.
 
@@ -28,11 +28,11 @@ String.
 
 `app.activeDocument.graphicStyles[index].parent`
 
-**Description**
+#### Description
 
 The document that contains this graphic style.
 
-**Type**
+#### Type
 
 [Document](./Document.md), read-only.
 
@@ -42,11 +42,11 @@ The document that contains this graphic style.
 
 `app.activeDocument.graphicStyles[index].typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 
@@ -58,17 +58,17 @@ String, read-only.
 
 `app.activeDocument.graphicStyles[index].applyTo(artItem)`
 
-**Description**
+#### Description
 
 Applies this art style to a specified art item.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                      | Description     |
 |-------------|-------------------------------------------|-----------------|
 | `artItem`   | [PageItem](./PageItem.md) | Target art item |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -78,17 +78,17 @@ Nothing.
 
 `app.activeDocument.graphicStyles[index].mergeTo(artItem)`
 
-**Description**
+#### Description
 
 Merges this art style into the current styles of a specified art item.
 
-**Parameters**
+#### Parameters
 
 | Parameter   | Type                                      | Description     |
 |-------------|-------------------------------------------|-----------------|
 | `artItem`   | [PageItem](./PageItem.md) | Target art item |
 
-**Returns**
+#### Returns
 
 Nothing.
 
@@ -98,11 +98,11 @@ Nothing.
 
 `app.activeDocument.graphicStyles[index].remove()`
 
-**Description**
+#### Description
 
 Deletes this object.
 
-**Returns**
+#### Returns
 
 Nothing.
 

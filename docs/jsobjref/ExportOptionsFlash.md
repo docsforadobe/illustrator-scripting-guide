@@ -2,7 +2,7 @@
 
 `exportOptionsFlash`
 
-**Description**
+#### Description
 
 Options for exporting a document as a Macromedia® Flash® (SWF) file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method. All properties are optional.
 
@@ -16,11 +16,11 @@ When you export a document, the appropriate file extension is appended automatic
 
 `exportOptionsFlash.artClipping`
 
-**Description**
+#### Description
 
 How the art should be clipped during output. Default: `ArtClippingOption.OUTPUTARTBOUNDS`.
 
-**Type**
+#### Type
 
 [ArtClippingOption](scripting-constants.md#jsobjref-scripting-constants-artclippingoption)
 
@@ -30,11 +30,11 @@ How the art should be clipped during output. Default: `ArtClippingOption.OUTPUTA
 
 `exportOptionsFlash.artboardRange`
 
-**Description**
+#### Description
 
 If `saveMultipleArtboards` is `true`, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty String.
 
-**Type**
+#### Type
 
 String.
 
@@ -44,11 +44,11 @@ String.
 
 `exportOptionsFlash.backgroundColor`
 
-**Description**
+#### Description
 
 The background color of the exported Flash frames.
 
-**Type**
+#### Type
 
 [RGBColor](./RGBColor.md)
 
@@ -58,11 +58,11 @@ The background color of the exported Flash frames.
 
 `exportOptionsFlash.backgroundLayers`
 
-**Description**
+#### Description
 
 A list of layers to be included as the static background of the exported Flash frames.
 
-**Type**
+#### Type
 
 Array of [Layers](./Layers.md)
 
@@ -72,11 +72,11 @@ Array of [Layers](./Layers.md)
 
 `exportOptionsFlash.blendAnimation`
 
-**Description**
+#### Description
 
 The animation type for blended objects. Default: `BlendAnimationType.NOBLENDANIMATION`.
 
-**Type**
+#### Type
 
 [BlendAnimationType](scripting-constants.md#jsobjref-scripting-constants-blendanimationtype)
 
@@ -86,11 +86,11 @@ The animation type for blended objects. Default: `BlendAnimationType.NOBLENDANIM
 
 `exportOptionsFlash.compressed`
 
-**Description**
+#### Description
 
 If `true`, the exported file should be exported compressed. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -100,11 +100,11 @@ Boolean.
 
 `exportOptionsFlash.convertTextToOutlines`
 
-**Description**
+#### Description
 
 If `true`, all text is converted to vector paths; preserves the visual appearance of type in all Flash players. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -114,11 +114,11 @@ Boolean.
 
 `exportOptionsFlash.curveQuality`
 
-**Description**
+#### Description
 
 The amount of curve information that should be presented. Default: 7.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -128,11 +128,11 @@ Number (long).
 
 `exportOptionsFlash.exportAllSymbols`
 
-**Description**
+#### Description
 
 If `true`, export all symbols defined in the palette. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -142,11 +142,11 @@ Boolean.
 
 `exportOptionsFlash.exportStyle`
 
-**Description**
+#### Description
 
 The style in which the exported data should be created in Flash. Default: `FlashExportStyle.ASFLASHFILE`.
 
-**Type**
+#### Type
 
 [FlashExportStyle](scripting-constants.md#jsobjref-scripting-constants-flashexportstyle)
 
@@ -156,11 +156,11 @@ The style in which the exported data should be created in Flash. Default: `Flash
 
 `exportOptionsFlash.exportVersion`
 
-**Description**
+#### Description
 
 The version of the exported SWF file. Default: `FlashExportVersion.FlashVersion9`.
 
-**Type**
+#### Type
 
 [FlashExportVersion](scripting-constants.md#jsobjref-scripting-constants-flashexportversion)
 
@@ -170,11 +170,11 @@ The version of the exported SWF file. Default: `FlashExportVersion.FlashVersion9
 
 `exportOptionsFlash.frameRate`
 
-**Description**
+#### Description
 
 The display rate in frames per second. Range: 0.01-120.0. Default: 12.0.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -184,11 +184,11 @@ Number (double).
 
 `exportOptionsFlash.ignoreTextKerning`
 
-**Description**
+#### Description
 
 If `true`, ignore kerning information in text objects. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -198,11 +198,11 @@ Boolean.
 
 `exportOptionsFlash.imageFormat`
 
-**Description**
+#### Description
 
 How should the image in the exported Flash file be compressed. Default: `FlashImageFormat.LOSSLESS`.
 
-**Type**
+#### Type
 
 [FlashImageFormat](scripting-constants.md#jsobjref-scripting-constants-flashimageformat)
 
@@ -212,11 +212,11 @@ How should the image in the exported Flash file be compressed. Default: `FlashIm
 
 `exportOptionsFlash.includeMetadata`
 
-**Description**
+#### Description
 
 If `true`, include minimal XMP metadata in the SWF file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -226,11 +226,11 @@ Boolean.
 
 `exportOptionsFlash.jpegMethod`
 
-**Description**
+#### Description
 
 Specifies the JPEG method to use. Default: `FlashJPEGMethod.Standard`.
 
-**Type**
+#### Type
 
 [FlashJPEGMethod](scripting-constants.md#jsobjref-scripting-constants-flashjpegmethod)
 
@@ -240,11 +240,11 @@ Specifies the JPEG method to use. Default: `FlashJPEGMethod.Standard`.
 
 `exportOptionsFlash.jpegQuality`
 
-**Description**
+#### Description
 
 Level of compression to use. Range 1 to 10. Default: 3.
 
-**Type**
+#### Type
 
 Number (long).
 
@@ -254,11 +254,11 @@ Number (long).
 
 `exportOptionsFlash.layerOrder`
 
-**Description**
+#### Description
 
 The order in which layers are exported to Flash frames. Default: `LayerOrderType.BOTTOMUP`.
 
-**Type**
+#### Type
 
 [LayerOrderType](scripting-constants.md#jsobjref-scripting-constants-layerordertype)
 
@@ -268,11 +268,11 @@ The order in which layers are exported to Flash frames. Default: `LayerOrderType
 
 `exportOptionsFlash.looping`
 
-**Description**
+#### Description
 
 If `true`, the Flash file is set to loop when run. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -282,11 +282,11 @@ Boolean.
 
 `exportOptionsFlash.playbackAccess`
 
-**Description**
+#### Description
 
 The access level for the exported SWF file. Default: `FlashPlaybackSecurity.PlaybackLocal`.
 
-**Type**
+#### Type
 
 [FlashPlaybackSecurity](scripting-constants.md#jsobjref-scripting-constants-flashplaybacksecurity)
 
@@ -296,11 +296,11 @@ The access level for the exported SWF file. Default: `FlashPlaybackSecurity.Play
 
 `exportOptionsFlash.preserveAppearance`
 
-**Description**
+#### Description
 
 If `true`, preserve appearance. If `false`, preserve editability. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -310,11 +310,11 @@ Boolean.
 
 `exportOptionsFlash.readOnly`
 
-**Description**
+#### Description
 
 If `true`, export as read-only file. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -324,11 +324,11 @@ Boolean.
 
 `exportOptionsFlash.replacing`
 
-**Description**
+#### Description
 
 If a file with the same name already exists, should it be replaced. Default: `SaveOptions.PROMPTTOSAVECHANGES`.
 
-**Type**
+#### Type
 
 [SaveOptions](scripting-constants.md#jsobjref-scripting-constants-saveoptions)
 
@@ -338,11 +338,11 @@ If a file with the same name already exists, should it be replaced. Default: `Sa
 
 `exportOptionsFlash.resolution`
 
-**Description**
+#### Description
 
 The resolution in pixels per inch. Range: 72-2400. Default: 72.
 
-**Type**
+#### Type
 
 Number (double).
 
@@ -352,11 +352,11 @@ Number (double).
 
 `exportOptionsFlash.saveMultipleArtboards`
 
-**Description**
+#### Description
 
 If `true`, all artboards or range of artboards are saved. Default: `false`.
 
-**Type**
+#### Type
 
 Boolean.
 
@@ -366,11 +366,11 @@ Boolean.
 
 `exportOptionsFlash.typename`
 
-**Description**
+#### Description
 
 The class name of the referenced object.
 
-**Type**
+#### Type
 
 String, read-only.
 

@@ -2,7 +2,7 @@
 
 `textPath`
 
-**Description**
+#### Description
 
 A path or list of paths for area or path text. A path consists of path points that define its geometry.
 
@@ -14,13 +14,13 @@ A path or list of paths for area or path text. A path consists of path points th
 
 `textPath.area`
 
-**Description**
+#### Description
 
 The area of this path in square points. If the area is negative, the path is wound counterclockwise.
 
 Self-intersecting paths can contain sub-areas that cancel each other out, which makes this value zero even though the path has apparent area.
 
-**Type**
+#### Type
 
 Number (double), read-only.
 
@@ -30,11 +30,11 @@ Number (double), read-only.
 
 `textPath.blendingMode`
 
-**Description**
+#### Description
 
 The blend mode used when compositing an object.
 
-**Type**
+#### Type
 
 [BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
 
@@ -44,11 +44,11 @@ The blend mode used when compositing an object.
 
 `textPath.clipping`
 
-**Description**
+#### Description
 
 If true, this path should be used as a clipping path.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -58,11 +58,11 @@ Boolean
 
 `textPath.closed`
 
-**Description**
+#### Description
 
 If true, this path is closed.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -72,11 +72,11 @@ Boolean
 
 `textPath.editable`
 
-**Description**
+#### Description
 
 Read-only. If true, this item is editable.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -86,11 +86,11 @@ Boolean
 
 `textPath.evenodd`
 
-**Description**
+#### Description
 
 If true, the even-odd rule should be used to determine insideness.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -100,11 +100,11 @@ Boolean
 
 `textPath.fillColor`
 
-**Description**
+#### Description
 
 The fill color of the path.
 
-**Type**
+#### Type
 
 [Color](./Color.md)
 
@@ -114,11 +114,11 @@ The fill color of the path.
 
 `textPath.filled`
 
-**Description**
+#### Description
 
 If true, the path be filled.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -128,11 +128,11 @@ Boolean
 
 `textPath.fillOverprint`
 
-**Description**
+#### Description
 
 If true, the art beneath a filled object should be overprinted.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -142,11 +142,11 @@ Boolean
 
 `textPath.guides`
 
-**Description**
+#### Description
 
 If true, this path is a guide object.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -156,11 +156,11 @@ Boolean
 
 `textPath.height`
 
-**Description**
+#### Description
 
 The height of the group item.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -170,11 +170,11 @@ Number (double)
 
 `textPath.left`
 
-**Description**
+#### Description
 
 The position of the left side of the item (in points, measured from the left side of the page).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -184,11 +184,11 @@ Number (double)
 
 `textPath.note`
 
-**Description**
+#### Description
 
 The note text assigned to the path.
 
-**Type**
+#### Type
 
 String
 
@@ -198,11 +198,11 @@ String
 
 `textPath.opacity`
 
-**Description**
+#### Description
 
 The opacity of the object. Range: 0.0 to 100.0
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -212,11 +212,11 @@ Number (double)
 
 `textPath.parent`
 
-**Description**
+#### Description
 
 Read-only. The parent of this object.
 
-**Type**
+#### Type
 
 [Layer](./Layer.md) or [GroupItem](./GroupItem.md)
 
@@ -226,11 +226,11 @@ Read-only. The parent of this object.
 
 `textPath.pathPoints`
 
-**Description**
+#### Description
 
 Read-only. The path points contained in this path item.
 
-**Type**
+#### Type
 
 [PathPoints](./PathPoints.md)
 
@@ -240,11 +240,11 @@ Read-only. The path points contained in this path item.
 
 `textPath.polarity`
 
-**Description**
+#### Description
 
 The polarity of the path.
 
-**Type**
+#### Type
 
 [PolarityValues](scripting-constants.md#jsobjref-scripting-constants-polarityvalues)
 
@@ -254,11 +254,11 @@ The polarity of the path.
 
 `textPath.position`
 
-**Description**
+#### Description
 
 The position (in points) of the top left corner of the textPathItem object in the format [x, y]. Does not include stroke weight.
 
-**Type**
+#### Type
 
 Array of 2 numbers
 
@@ -268,11 +268,11 @@ Array of 2 numbers
 
 `textPath.resolution`
 
-**Description**
+#### Description
 
 The resolution of the path in dots per inch (dpi).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -282,11 +282,11 @@ Number (double)
 
 `textPath.selectedPathPoints`
 
-**Description**
+#### Description
 
 Read-only. All of the selected path points in the path.
 
-**Type**
+#### Type
 
 [PathPoints](./PathPoints.md)
 
@@ -296,11 +296,11 @@ Read-only. All of the selected path points in the path.
 
 `textPath.strokeCap`
 
-**Description**
+#### Description
 
 The type of line capping.
 
-**Type**
+#### Type
 
 [StrokeCap](scripting-constants.md#jsobjref-scripting-constants-strokecap)
 
@@ -310,11 +310,11 @@ The type of line capping.
 
 `textPath.strokeColor`
 
-**Description**
+#### Description
 
 The stroke color for the path.
 
-**Type**
+#### Type
 
 [Color](./Color.md)
 
@@ -324,11 +324,11 @@ The stroke color for the path.
 
 `textPath.stroked`
 
-**Description**
+#### Description
 
 If true, the path should be stroked.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -338,11 +338,11 @@ Boolean
 
 `textPath.strokeDashes`
 
-**Description**
+#### Description
 
 Dash lengths. Set to an empty object, {}, for a solid line.
 
-**Type**
+#### Type
 
 Object
 
@@ -352,11 +352,11 @@ Object
 
 `textPath.strokeDashOffset`
 
-**Description**
+#### Description
 
 The default distance into the dash pattern at which the pattern should be started.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -366,11 +366,11 @@ Number (double)
 
 `textPath.strokeJoin`
 
-**Description**
+#### Description
 
 Type of joints for the path.
 
-**Type**
+#### Type
 
 [StrokeJoin](scripting-constants.md#jsobjref-scripting-constants-strokejoin)
 
@@ -380,11 +380,11 @@ Type of joints for the path.
 
 `textPath.strokeMiterLimit`
 
-**Description**
+#### Description
 
 When a default stroke join is set to mitered, this property specifies when the join will be converted to beveled (squared-off) by default. The default miter limit of 4 means that when the length of the point reaches four times the stroke weight, the join switches from a miter join to a bevel join. A value of 1 specifies a bevel join. Range: 1 to 500. Default: 4
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -394,11 +394,11 @@ Number (double)
 
 `textPath.strokeOverprint`
 
-**Description**
+#### Description
 
 If true, the art beneath a stroked object should be overprinted.
 
-**Type**
+#### Type
 
 Boolean
 
@@ -408,11 +408,11 @@ Boolean
 
 `textPath.strokeWidth`
 
-**Description**
+#### Description
 
 Width of the stroke.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -422,11 +422,11 @@ Number (double)
 
 `textPath.top`
 
-**Description**
+#### Description
 
 The position of the top of the item (in points, measured from the bottom of the page).
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -436,11 +436,11 @@ Number (double)
 
 `textPath.typename`
 
-**Description**
+#### Description
 
 Read-only. The class name of the referenced object.
 
-**Type**
+#### Type
 
 String
 
@@ -450,11 +450,11 @@ String
 
 `textPath.width`
 
-**Description**
+#### Description
 
 The width of the item.
 
-**Type**
+#### Type
 
 Number (double)
 
@@ -466,17 +466,17 @@ Number (double)
 
 `textPath.setEntirePath(pathPoints)`
 
-**Description**
+#### Description
 
 Sets the path using the array of points specified as [x, y] coordinate pairs.
 
-**Parameters**
+#### Parameters
 
 | Parameter    | Type                             | Description                |
 |--------------|----------------------------------|----------------------------|
 | `pathPoints` | Array of [x, y] coordinate pairs | Path points to set path as |
 
-**Returns**
+#### Returns
 
 Nothing.
 

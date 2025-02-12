@@ -2,7 +2,7 @@
 
 `app.PPDFileList[index`
 
-**Description**
+#### Description
 
 Associates file information with a PostScript Printer Description (PPD) file.
 
@@ -14,11 +14,11 @@ Associates file information with a PostScript Printer Description (PPD) file.
 
 `app.PPDFileList[index].name`
 
-**Description**
+#### Description
 
 The PPD model name.
 
-**Type**
+#### Type
 
 String
 
@@ -28,11 +28,11 @@ String
 
 `app.PPDFileList[index].PPDInfo`
 
-**Description**
+#### Description
 
 The PPD file information.
 
-**Type**
+#### Type
 
 [PPDFileInfo](./PPDFileInfo.md)
 
@@ -42,10 +42,10 @@ The PPD file information.
 
 `app.PPDFileList[index].typename`
 
-**Description**
+#### Description
 
 The class name of the object.
 
-**Type**
+#### Type
 
 String; read-only.
