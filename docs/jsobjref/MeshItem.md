@@ -1,6 +1,6 @@
 # MeshItem
 
-`app.activeDocument.meshItems[index`
+`app.activeDocument.meshItems[index]`
 
 #### Description
 

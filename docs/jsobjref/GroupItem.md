@@ -1,6 +1,6 @@
 # GroupItem
 
-`app.activeDocument.groupItems[index`
+`app.activeDocument.groupItems[index]`
 
 #### Description
 

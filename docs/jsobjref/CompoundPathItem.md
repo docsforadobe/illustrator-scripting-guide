@@ -1,6 +1,6 @@
 # CompoundPathItem
 
-`app.activeDocument.activeLayer.compoundPathItems[index`
+`app.activeDocument.activeLayer.compoundPathItems[index]`
 
 #### Description
 

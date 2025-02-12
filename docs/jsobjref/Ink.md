@@ -1,6 +1,6 @@
 # Ink
 
-`app.activeDocument.inkLisk[index`
+`app.activeDocument.inkLisk[index]`
 
 #### Description
 

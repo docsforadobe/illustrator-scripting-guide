@@ -1,6 +1,6 @@
 # PlacedItem
 
-`app.activeDocument.placedItems[index`
+`app.activeDocument.placedItems[index]`
 
 #### Description
 

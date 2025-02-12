@@ -1,6 +1,6 @@
 # Dataset
 
-`app.activeDocument.dataSets[index`
+`app.activeDocument.dataSets[index]`
 
 #### Description
 

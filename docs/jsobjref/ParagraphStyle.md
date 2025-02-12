@@ -1,6 +1,6 @@
 # ParagraphStyle
 
-`app.activeDocument.paragraphStyles[index`
+`app.activeDocument.paragraphStyles[index]`
 
 #### Description
 
@@ -12,7 +12,7 @@ Associates character and paragraph attributes with a style name. The style objec
 
 ### ParagraphStyle.characterAttributes
 
-`app.activeDocument.paragraphStyles[index.characterAttributes`
+`app.activeDocument.paragraphStyles[index].characterAttributes`
 
 #### Description
 
@@ -26,7 +26,7 @@ The character properties for the text range.
 
 ### ParagraphStyle.name
 
-`app.activeDocument.paragraphStyles[index.name`
+`app.activeDocument.paragraphStyles[index].name`
 
 #### Description
 
@@ -40,7 +40,7 @@ String.
 
 ### ParagraphStyle.paragraphAttributes
 
-`app.activeDocument.paragraphStyles[index.paragraphAttributes`
+`app.activeDocument.paragraphStyles[index].paragraphAttributes`
 
 #### Description
 
@@ -54,7 +54,7 @@ The paragraph properties for the text range.
 
 ### ParagraphStyle.parent
 
-`app.activeDocument.paragraphStyles[index.parent`
+`app.activeDocument.paragraphStyles[index].parent`
 
 #### Description
 
@@ -68,7 +68,7 @@ Object; read-only.
 
 ### ParagraphStyle.typename
 
-`app.activeDocument.paragraphStyles[index.typename`
+`app.activeDocument.paragraphStyles[index].typename`
 
 #### Description
 
@@ -84,7 +84,7 @@ String; read-only.
 
 ### ParagraphStyle.applyTo()
 
-`app.activeDocument.paragraphStyles[index.applyTo(textItem [,clearingOverrides])`
+`app.activeDocument.paragraphStyles[index].applyTo(textItem [,clearingOverrides])`
 
 #### Description
 
@@ -105,7 +105,7 @@ Nothing.
 
 ### ParagraphStyle.remove()
 
-`app.activeDocument.paragraphStyles[index.remove()`
+`app.activeDocument.paragraphStyles[index].remove()`
 
 #### Description
 

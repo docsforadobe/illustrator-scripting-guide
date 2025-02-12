@@ -1,6 +1,6 @@
 # PageItem
 
-`app.activeDocument.pageItems[index`
+`app.activeDocument.pageItems[index]`
 
 #### Description
 

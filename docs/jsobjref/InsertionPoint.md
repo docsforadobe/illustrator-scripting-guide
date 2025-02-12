@@ -1,6 +1,6 @@
 # InsertionPoint
 
-`app.activeDocument.textFrames[index].insertionPoints[index`
+`app.activeDocument.textFrames[index].insertionPoints[index]`
 
 #### Description
 

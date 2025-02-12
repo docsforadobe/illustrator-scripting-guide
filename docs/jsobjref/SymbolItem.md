@@ -1,6 +1,6 @@
 # SymbolItem
 
-`app.activeDocument.symbolItems[index`
+`app.activeDocument.symbolItems[index]`
 
 #### Description
 

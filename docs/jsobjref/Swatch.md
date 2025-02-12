@@ -1,6 +1,6 @@
 # Swatch
 
-`app.activeDocument.swatches[index`
+`app.activeDocument.swatches[index]`
 
 #### Description
 

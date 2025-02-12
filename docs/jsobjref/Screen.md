@@ -1,6 +1,6 @@
 # Screen
 
-`PPDFileList[index].PPDInfo.screenList[index`
+`PPDFileList[index].PPDInfo.screenList[index]`
 
 #### Description
 

@@ -1,6 +1,6 @@
 # RasterItem
 
-`app.activeDocument.rasterItems[index`
+`app.activeDocument.rasterItems[index]`
 
 #### Description
 

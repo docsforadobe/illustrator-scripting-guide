@@ -1,6 +1,6 @@
 # GraphItem
 
-`app.activeDocument.graphItems[index`
+`app.activeDocument.graphItems[index]`
 
 #### Description
 

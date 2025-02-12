@@ -1,6 +1,6 @@
 # GraphicStyle
 
-`app.activeDocument.graphicStyles[index`
+`app.activeDocument.graphicStyles[index]`
 
 #### Description
 

@@ -1,6 +1,6 @@
 # ScreenSpotFunction
 
-`PPDFileList[index].PPDInfo.screenSpotFunctionList[index`
+`PPDFileList[index].PPDInfo.screenSpotFunctionList[index]`
 
 #### Description
 

@@ -1,6 +1,6 @@
 # Pattern
 
-`app.activeDocument.patterns[index`
+`app.activeDocument.patterns[index]`
 
 #### Description
 

@@ -1,6 +1,6 @@
 # LegacyTextItem
 
-`legacyTextItems[index`
+`legacyTextItems[index]`
 
 #### Description
 
@@ -244,7 +244,7 @@ The parent of this object.
 
 #### Description
 
-The position (in points) of the top left corner of the `legacyTextItems[index` object in the format [x, y]. Does not include stroke weight.
+The position (in points) of the top left corner of the `legacyTextItems[index]` object in the format [x, y]. Does not include stroke weight.
 
 #### Type
 

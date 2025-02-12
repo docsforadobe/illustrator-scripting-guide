@@ -1,6 +1,6 @@
 # Tag
 
-`app.activeDocument.selection[index].tags[index`
+`app.activeDocument.selection[index].tags[index]`
 
 #### Description
 

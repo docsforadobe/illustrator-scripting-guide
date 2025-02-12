@@ -1,6 +1,6 @@
 # Printer
 
-`app.PrinterList[index`
+`app.PrinterList[index]`
 
 #### Description
 

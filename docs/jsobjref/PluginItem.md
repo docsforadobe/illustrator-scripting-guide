@@ -1,6 +1,6 @@
 # PluginItem
 
-`app.activeDocument.pluginItems[index`
+`app.activeDocument.pluginItems[index]`
 
 #### Description
 

@@ -1,6 +1,6 @@
 # NonNativeItem
 
-`nonNativeItems[index`
+`nonNativeItems[index]`
 
 #### Description
 
@@ -228,7 +228,7 @@ The parent of this object.
 
 #### Description
 
-The position (in points) of the top left corner of the `NonNativeItems[index` object in the format [x, y]. Does not include stroke weight.
+The position (in points) of the top left corner of the `NonNativeItems[index]` object in the format [x, y]. Does not include stroke weight.
 
 #### Type
 
