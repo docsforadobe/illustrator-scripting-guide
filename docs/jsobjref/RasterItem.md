@@ -20,7 +20,7 @@ Is this object used to create a knockout, and if so, what kind of knockout.
 
 #### Type
 
-[KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
+[KnockoutState](scripting-constants.md#knockoutstate)
 
 ---
 
@@ -48,7 +48,7 @@ The blend mode used when compositing an object.
 
 #### Type
 
-[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
+[BlendModes](scripting-constants.md#blendmodes)
 
 ---
 
@@ -174,7 +174,7 @@ The file containing the artwork.
 
 #### Type
 
-File; read-only.
+[File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object; read-only.
 
 ---
 
@@ -230,7 +230,7 @@ The color space of the raster image.
 
 #### Type
 
-[ImageColorSpace](scripting-constants.md#jsobjref-scripting-constants-imagecolorspace); read-only.
+[ImageColorSpace](scripting-constants.md#imagecolorspace); read-only.
 
 ---
 
@@ -338,7 +338,9 @@ String
 
 #### Description
 
-The opacity of the object. Range: 0.0 to 100.0
+The opacity of the object.
+
+Range: 0.0 to 100.0
 
 #### Type
 
@@ -428,7 +430,7 @@ Status of the linked image.
 
 #### Type
 
-[RasterLinkState](scripting-constants.md#jsobjref-scripting-constants-rasterlinkstate)
+[RasterLinkState](scripting-constants.md#rasterlinkstate)
 
 ---
 
@@ -612,8 +614,8 @@ Colorizes the raster item with a CMYK or RGB Color.
 
 #### Parameters
 
-| Parameter        | Type                             | Description                         |
-|------------------|----------------------------------|-------------------------------------|
+|    Parameter     |        Type         |             Description             |
+| ---------------- | ------------------- | ----------------------------------- |
 | `rasterizeColor` | [Color](./Color.md) | CMYK or RGB Color to rasterize with |
 
 #### Returns
@@ -632,10 +634,10 @@ Creates a duplicate of the selected object.
 
 #### Parameters
 
-| Parameter           | Type                                                                                               | Description                |
-|---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
-| `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
-| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
+|      Parameter      |                                 Type                                  |        Description         |
+| ------------------- | --------------------------------------------------------------------- | -------------------------- |
+| `relativeObject`    | Object, optional                                                      | Object to duplicate to     |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#elementplacement), optional | Location to insert element |
 
 #### Returns
 
@@ -653,10 +655,10 @@ Moves the object.
 
 #### Parameters
 
-| Parameter           | Type                                                                                               | Description                   |
-|---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
-| `relativeObject`    | Object                                                                                             | Object to move element within |
-| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
+|      Parameter      |                                 Type                                  |          Description          |
+| ------------------- | --------------------------------------------------------------------- | ----------------------------- |
+| `relativeObject`    | Object                                                                | Object to move element within |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#elementplacement), optional | Location to move element to   |
 
 #### Returns
 
@@ -680,7 +682,18 @@ Nothing.
 
 ### RasterItem.resize()
 
-`app.activeDocument.rasterItems[index].resize(scaleX, scaleY[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,changeLineWidths][,scaleAbout])`
+```javascript
+app.activeDocument.rasterItems[index].resize(
+    scaleX,
+    scaleY
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,changeLineWidths]
+    [,scaleAbout]
+)
+```
 
 #### Description
 
@@ -688,16 +701,16 @@ Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY`
 
 #### Parameters
 
-| Parameter             | Type                                                                                           | Description                                             |
-|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| `scaleX`              | Number (double)                                                                                | Horizontal scaling factor                               |
-| `scaleY`              | Number (double)                                                                                | Vertical scaling factor                                 |
-| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
-| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
-| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
-| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
-| `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
-| `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
+|       Parameter       |                               Type                                |                       Description                       |
+| --------------------- | ----------------------------------------------------------------- | ------------------------------------------------------- |
+| `scaleX`              | Number (double)                                                   | Horizontal scaling factor                               |
+| `scaleY`              | Number (double)                                                   | Vertical scaling factor                                 |
+| `changePositions`     | Boolean, optional                                                 | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                 | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                 | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                 | Whether to transform stroke patterns                    |
+| `changeLineWidths`    | Number (double), optional                                         | The amount to scale line widths                         |
+| `scaleAbout`          | [Transformation](scripting-constants.md#transformation), optional | The point to use as anchor, to transform about          |
 
 #### Returns
 
@@ -707,7 +720,16 @@ Nothing.
 
 ### RasterItem.rotate()
 
-`app.activeDocument.rasterItems[index].rotate(angle[,changePositions][,changeFillPatterns][,changeFillGradients][,changeStrokePattern][,rotateAbout])`
+```javascsript
+app.activeDocument.rasterItems[index].rotate(
+    angle
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,rotateAbout]
+)
+```
 
 #### Description
 
@@ -717,14 +739,14 @@ The object is rotated counter-clockwise if the `angle` value is positive, clockw
 
 #### Parameters
 
-| Parameter             | Type                                                                                           | Description                                             |
-|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| `angle`               | Number (double)                                                                                | The angle amount to rotate the element                  |
-| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
-| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
-| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
-| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
-| `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
+|       Parameter       |                               Type                                |                       Description                       |
+| --------------------- | ----------------------------------------------------------------- | ------------------------------------------------------- |
+| `angle`               | Number (double)                                                   | The angle amount to rotate the element                  |
+| `changePositions`     | Boolean, optional                                                 | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                 | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                 | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                 | Whether to transform stroke patterns                    |
+| `rotateAbout`         | [Transformation](scripting-constants.md#transformation), optional | The point to use as anchor, to transform about          |
 
 #### Returns
 
@@ -752,7 +774,17 @@ Creates and returns a [PluginItem](./PluginItem.md) object that references a [Tr
 
 ### RasterItem.transform()
 
-`app.activeDocument.rasterItems[index].transform(transformationMatrix[, changePositions][, changeFillPatterns][, changeFillGradients][, changeStrokePattern][, changeLineWidths][, transformAbout])`
+```javascript
+app.activeDocument.rasterItems[index].transform(
+    transformationMatrix
+    [, changePositions]
+    [, changeFillPatterns]
+    [, changeFillGradients]
+    [, changeStrokePattern]
+    [, changeLineWidths]
+    [, transformAbout]
+)
+```
 
 #### Description
 
@@ -760,15 +792,15 @@ Transforms the art item by applying a transformation matrix.
 
 #### Parameters
 
-| Parameter              | Type                                                                                           | Description                                    |
-|------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
-| `transformationMatrix` | [Matrix](./Matrix.md)                                                            | Transformation matrix to apply                 |
-| `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
-| `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
-| `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |
-| `changeStrokePattern`  | Boolean, optional                                                                              | Whether to change Stroke Pattern               |
-| `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
-| `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
+|       Parameter        |                               Type                                |                  Description                   |
+| ---------------------- | ----------------------------------------------------------------- | ---------------------------------------------- |
+| `transformationMatrix` | [Matrix](./Matrix.md)                                             | Transformation matrix to apply                 |
+| `changePositions`      | Boolean, optional                                                 | Whether to change Positions                    |
+| `changeFillPatterns`   | Boolean, optional                                                 | Whether to change Fill Patterns                |
+| `changeFillGradients`  | Boolean, optional                                                 | Whether to change Fill Gradients               |
+| `changeStrokePattern`  | Boolean, optional                                                 | Whether to change Stroke Pattern               |
+| `changeLineWidths`     | Number (double), optional                                         | The amount to scale line widths                |
+| `transformAbout`       | [Transformation](scripting-constants.md#transformation), optional | The point to use as anchor, to transform about |
 
 #### Returns
 
@@ -778,7 +810,16 @@ Nothing.
 
 ### RasterItem.translate()
 
-`app.activeDocument.rasterItems[index].translate([deltaX][, deltaY][, transformObjects][, transformFillPatterns][, transformFillGradients][, transformStrokePatterns])`
+```javascript
+app.activeDocument.rasterItems[index].translate(
+    [deltaX]
+    [, deltaY]
+    [, transformObjects]
+    [, transformFillPatterns]
+    [, transformFillGradients]
+    [, transformStrokePatterns]
+)
+```
 
 #### Description
 
@@ -786,8 +827,8 @@ Repositions the art item relative to the current position, where `deltaX` is the
 
 #### Parameters
 
-| Parameter                 | Type                      | Description                          |
-|---------------------------|---------------------------|--------------------------------------|
+|         Parameter         |           Type            |             Description              |
+| ------------------------- | ------------------------- | ------------------------------------ |
 | `deltaX`                  | Number (double), optional | Horizontal offset                    |
 | `deltaY`                  | Number (double), optional | Vertical offset                      |
 | `transformObjects`        | Boolean, optional         | Whether to transform Objects         |
@@ -811,9 +852,9 @@ Arranges the art item's position in the stacking order of the group or layer (pa
 
 #### Parameters
 
-| Parameter   | Type                                                                             | Description                       |
-|-------------|----------------------------------------------------------------------------------|-----------------------------------|
-| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
+|  Parameter  |                        Type                         |            Description            |
+| ----------- | --------------------------------------------------- | --------------------------------- |
+| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#zordermethod) | Stacking order arrangement method |
 
 #### Returns
 

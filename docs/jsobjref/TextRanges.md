@@ -64,13 +64,13 @@ Gets an element from the collection.
 
 #### Parameters
 
-| Parameter   | Type           | Description          |
-|-------------|----------------|----------------------|
-| `itemKey`   | String, Number | String or number key |
+| Parameter |      Type      |     Description      |
+| --------- | -------------- | -------------------- |
+| `itemKey` | String, Number | String or number key |
 
 #### Returns
 
-[Variable](./Variable.md)
+[TextRange](./TextRange.md)
 
 ---
 

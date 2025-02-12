@@ -18,7 +18,9 @@ When you export a document, the appropriate file extension is appended automatic
 
 #### Description
 
-If `true`, the exported image be anti-aliased. Default: `true`.
+If `true`, the exported image be anti-aliased.
+
+Default: `true`.
 
 #### Type
 
@@ -32,7 +34,9 @@ Boolean.
 
 #### Description
 
-If `true`, the exported image be clipped to the art board. Default: `false`.
+If `true`, the exported image be clipped to the art board.
+
+Default: `false`.
 
 #### Type
 
@@ -46,7 +50,9 @@ Boolean.
 
 #### Description
 
-The horizontal scaling factor to apply to the exported image, where 100.0 is 100%. Default: 100.0.
+The horizontal scaling factor to apply to the exported image, where 100.0 is 100%.
+
+Default: 100.0.
 
 #### Type
 
@@ -60,7 +66,9 @@ Number (double).
 
 #### Description
 
-If `true`, the art board be matted with a color. Default: `true`.
+If `true`, the art board be matted with a color.
+
+Default: `true`.
 
 #### Type
 
@@ -74,7 +82,9 @@ Boolean.
 
 #### Description
 
-The color to use when matting the art board. Default: `white`.
+The color to use when matting the art board.
+
+Default: `white`.
 
 #### Type
 
@@ -88,7 +98,9 @@ The color to use when matting the art board. Default: `white`.
 
 #### Description
 
-If `true`, the exported image be saved with an accompanying HTML file. Default: `false`.
+If `true`, the exported image be saved with an accompanying HTML file.
+
+Default: `false`.
 
 #### Type
 
@@ -102,7 +114,9 @@ Boolean.
 
 #### Description
 
-If `true`, the exported image use transparency. Default: `true`.
+If `true`, the exported image use transparency.
+
+Default: `true`.
 
 #### Type
 
@@ -120,7 +134,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -130,7 +144,9 @@ String, read-only.
 
 #### Description
 
-The vertical scaling factor to apply to the exported image, where 100.0 is 100. Default: 100.0.
+The vertical scaling factor to apply to the exported image, where 100.0 is 100.
+
+Default: 100.0.
 
 #### Type
 

@@ -6,6 +6,6 @@ Note that the layer and group item classes can contain nested objects of the sam
 
 ![Illustrator Scripting Object Model](../_static/objectmodel.png)
 
-In addition to this application-specific object model, JavaScript provides certain utility objects, such as the File and Folder objects, which give you operating-system-independent access to the file system.
+In addition to this application-specific object model, JavaScript provides certain utility objects, such as the [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) and [Folder](https://extendscript.docsforadobe.dev/file-system-access/folder-object/) object, which give you operating-system-independent access to the file system.
 
 For details, see [JavaScript Tools Guide](https://extendscript.docsforadobe.dev/).

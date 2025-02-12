@@ -24,7 +24,7 @@ Default: `AntiAliasingMethod.ARTOPTIMIZED`
 
 #### Type
 
-[AntiAliasingMethod](scripting-constants.md#jsobjref-scripting-constants-antialiasingmethod)
+[AntiAliasingMethod](scripting-constants.md#antialiasingmethod)
 
 ---
 
@@ -72,7 +72,7 @@ Default: `RasterizationColorModel.DEFAULTCOLORMODEL`
 
 #### Type
 
-[RasterizationColorModel](scripting-constants.md#jsobjref-scripting-constants-rasterizationcolormodel)
+[RasterizationColorModel](scripting-constants.md#rasterizationcolormodel)
 
 ---
 
@@ -146,7 +146,9 @@ Number (double)
 
 #### Description
 
-The rasterization resolution in dots per inch (dpi). Range: 72.0 to 2400.0.
+The rasterization resolution in dots per inch (dpi).
+
+Range: 72.0 to 2400.0.
 
 Default: 300.0
 

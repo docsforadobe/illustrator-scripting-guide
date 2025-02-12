@@ -34,7 +34,7 @@ The object that contains the swatch group.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -48,7 +48,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only
+String; read-only
 
 ---
 
@@ -64,9 +64,9 @@ Adds a spot swatch to the swatch group.
 
 #### Parameters
 
-| Parameter   | Type                          | Description   |
-|-------------|-------------------------------|---------------|
-| `spot`      | [Spot](./Spot.md) | Spot to add   |
+| Parameter |       Type        | Description |
+| --------- | ----------------- | ----------- |
+| `spot`    | [Spot](./Spot.md) | Spot to add |
 
 #### Returns
 
@@ -84,9 +84,9 @@ Adds a swatch to the swatch group.
 
 #### Parameters
 
-| Parameter   | Type                                | Description   |
-|-------------|-------------------------------------|---------------|
-| `swatch`    | [Swatch](./Swatch.md) | Swatch to add |
+| Parameter |         Type          |  Description  |
+| --------- | --------------------- | ------------- |
+| `swatch`  | [Swatch](./Swatch.md) | Swatch to add |
 
 #### Returns
 

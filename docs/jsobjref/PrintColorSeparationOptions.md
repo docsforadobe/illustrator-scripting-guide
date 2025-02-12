@@ -22,7 +22,7 @@ Default: `PrintColorSeparationMode.COMPOSITE`
 
 #### Type
 
-[PrintColorSeparationMode](scripting-constants.md#jsobjref-scripting-constants-printcolorseparationmode)
+[PrintColorSeparationMode](scripting-constants.md#printcolorseparationmode)
 
 ---
 

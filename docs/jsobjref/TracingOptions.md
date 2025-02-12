@@ -129,7 +129,11 @@ Number (long)
 
 The minimum length in pixels of features in the original image that can be stroked, when `strokes` is `true`.
 
-Smaller features are omitted. Range: 0.0 to 200.0. Default: 20.0
+Smaller features are omitted.
+
+Range: 0.0 to 200.0.
+
+Default: 20.0
 
 #### Type
 
@@ -179,7 +183,7 @@ The object's container.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -191,7 +195,9 @@ Object, read-only.
 
 The distance between the traced shape and the original pixel shape. Lower values create a tighter path fitting.
 
-Higher values create a looser path fitting. Range: 0.0 to 10.0
+Higher values create a looser path fitting.
+
+Range: 0.0 to 10.0
 
 #### Type
 
@@ -205,7 +211,9 @@ Number (double)
 
 #### Description
 
-The amount of blur used during preprocessing, in pixels. Blurring helps reduce small artifacts and smooth jagged edges in the tracing result. Range: 0.0 to 2.0
+The amount of blur used during preprocessing, in pixels. Blurring helps reduce small artifacts and smooth jagged edges in the tracing result.
+
+Range: 0.0 to 2.0
 
 #### Type
 
@@ -223,7 +231,7 @@ The name of a preset file containing these options.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -303,7 +311,7 @@ The color mode for tracing.
 
 #### Type
 
-[TracingModeType](scripting-constants.md#jsobjref-scripting-constants-tracingmodetype)
+[TracingModeType](scripting-constants.md#tracingmodetype)
 
 ---
 
@@ -331,7 +339,7 @@ The view for previews of the raster image. (This setting is not captured in a pr
 
 #### Type
 
-[ViewRasterType](scripting-constants.md#jsobjref-scripting-constants-viewrastertype)
+[ViewRasterType](scripting-constants.md#viewrastertype)
 
 ---
 
@@ -345,7 +353,7 @@ The view for previews of the vector result. (This setting is not captured in a p
 
 #### Type
 
-[ViewVectorType](scripting-constants.md#jsobjref-scripting-constants-viewvectortype)
+[ViewVectorType](scripting-constants.md#viewvectortype)
 
 ---
 
@@ -361,8 +369,8 @@ Loads a set of options from the specified preset, as found in the `Application.t
 
 #### Parameters
 
-| Parameter    | Type   | Description         |
-|--------------|--------|---------------------|
+|  Parameter   |  Type  |     Description     |
+| ------------ | ------ | ------------------- |
 | `presetName` | String | Preset name to load |
 
 #### Returns
@@ -387,8 +395,8 @@ Returns `false` if the preset is locked.
 
 #### Parameters
 
-| Parameter    | Type   | Description            |
-|--------------|--------|------------------------|
+|  Parameter   |  Type  |      Description       |
+| ------------ | ------ | ---------------------- |
 | `presetName` | String | Preset name to save as |
 
 #### Returns

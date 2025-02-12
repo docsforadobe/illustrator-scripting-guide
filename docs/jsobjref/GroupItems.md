@@ -4,7 +4,7 @@
 
 #### Description
 
-The collection of grouped art items in a document.
+The collection of [GroupItem](./GroupItem.md) objecst in a document.
 
 ---
 
@@ -20,7 +20,7 @@ The number of objects in the collection.
 
 #### Type
 
-Number, read-only.
+Number; read-only.
 
 ---
 
@@ -34,7 +34,7 @@ The parent of this object.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -48,7 +48,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -80,7 +80,7 @@ Places an external vector art file as a group item in the document.
 
 | Parameter   | Type   | Description              |
 |-------------|--------|--------------------------|
-| `imageFile` | File   | Vector art file to place |
+| `imageFile` | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object   | Vector art file to place |
 
 #### Returns
 

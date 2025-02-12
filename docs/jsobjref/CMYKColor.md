@@ -4,9 +4,11 @@
 
 #### Description
 
-A CMYK color specification, used where a `color` object is required.
+A CMYK color specification, used where a [Color](./Color.md) object is required.
 
-If the color space of a document is `RGB` and you specify the color value for a page item in that document using CMYK, Illustrator will translate the CMYK color specification into an RGB color specification. The same thing happens if the document's color space is CMYK and you specify colors using RGB. Since this translation can lose information, you should specify colors using the class that matches the document's actual color space.
+If the color space of a document is `RGB` and you specify the color value for a page item in that document using CMYK, Illustrator will translate the CMYK color specification into an RGB color specification. The same thing happens if the document's color space is CMYK and you specify colors using RGB.
+
+Since this translation can lose information, you should specify colors using the class that matches the document's actual color space.
 
 ---
 
@@ -18,7 +20,9 @@ If the color space of a document is `RGB` and you specify the color value for a 
 
 #### Description
 
-The black color value. Range 0.0-100.0. Default: 0.0
+The black color value. Range 0.0-100.0.
+
+Default: 0.0
 
 #### Type
 
@@ -32,7 +36,9 @@ Number (double)
 
 #### Description
 
-The cyan color value. Range 0.0-100.0. Default: 0.0
+The cyan color value. Range 0.0-100.0.
+
+Default: 0.0
 
 #### Type
 
@@ -46,7 +52,9 @@ Number (double)
 
 #### Description
 
-The magenta color value. Range 0.0-100.0. Default: 0.0
+The magenta color value. Range 0.0-100.0.
+
+Default: 0.0
 
 #### Type
 
@@ -74,7 +82,9 @@ String; read-only.
 
 #### Description
 
-The yellow color value. Range 0.0-100.0. Default: 0.0
+The yellow color value. Range 0.0-100.0.
+
+Default: 0.0
 
 #### Type
 

@@ -64,7 +64,7 @@ The mode of display for this view.
 
 #### Type
 
-[ScreenMode](scripting-constants.md#jsobjref-scripting-constants-screenmode)
+[ScreenMode](scripting-constants.md#screenmode)
 
 ---
 

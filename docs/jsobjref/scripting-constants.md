@@ -8,8 +8,8 @@ This chapter lists and describes the enumerations defined for use with Illustrat
 
 The alternate glyphs form of text.
 
-| Value                                   | Description        |
-|-----------------------------------------|--------------------|
+|                  Value                  |    Description     |
+| --------------------------------------- | ------------------ |
 | `AlternateGlyphsForm.DEFAULTFORM`       | Defaultform        |
 | `AlternateGlyphsForm.TRADITIONAL`       | Traditional        |
 | `AlternateGlyphsForm.EXPERT`            | Expert             |
@@ -36,8 +36,8 @@ textRef.textRange.characters[i].characterAttributes.alternateGlyphs == Alternate
 
 The type of antialiasing method used in the rasterization.
 
-| Value                              | Description                   |
-|------------------------------------|-------------------------------|
+|               Value                |          Description          |
+| ---------------------------------- | ----------------------------- |
 | `AntiAliasingMethod.None`          | No antialiasing is allowed.   |
 | `AntiAliasingMethod.ARTOPTIMIZED`  | Optimize for the art object.  |
 | `AntiAliasingMethod.TYPEOPTIMIZED` | Optimize for the type object. |
@@ -48,8 +48,8 @@ The type of antialiasing method used in the rasterization.
 
 How the art should be clipped during output.
 
-| Value                                    | Description                               |
-|------------------------------------------|-------------------------------------------|
+|                  Value                   |                Description                |
+| ---------------------------------------- | ----------------------------------------- |
 | `ArtClippingOption.OUTPUTARTBOUNDS`      | Output size is the size of the artwork.   |
 | `ArtClippingOption.OUTPUTARTBOARDBOUNDS` | Output size is the size of the artboard.  |
 | `ArtClippingOption.OUTPUTCROPRECTBOUNDS` | Output size is the size of the crop area. |
@@ -58,8 +58,8 @@ How the art should be clipped during output.
 
 ## AutoCADColors
 
-| Value                        | Description    |
-|------------------------------|----------------|
+|            Value             |  Description   |
+| ---------------------------- | -------------- |
 | `AutoCADColors.Max8Colors`   | Max 8 CColors  |
 | `AutoCADColors.Max16Colors`  | Max 16 Colors  |
 | `AutoCADColors.Max256Colors` | Max 25 6Colors |
@@ -69,30 +69,30 @@ How the art should be clipped during output.
 
 ## AutoCADCompatibility
 
-| Value                                   | Description   |
-|-----------------------------------------|---------------|
-| `AutoCADCompatibility.AutoCADRelease13` | Release 13    |
-| `AutoCADCompatibility.AutoCADRelease18` | Release 18    |
-| `AutoCADCompatibility.AutoCADRelease14` | Release 14    |
-| `AutoCADCompatibility.AutoCADRelease21` | Release 21    |
-| `AutoCADCompatibility.AutoCADRelease15` | Release 15    |
-| `AutoCADCompatibility.AutoCADRelease24` | Release 24    |
+|                  Value                  | Description |
+| --------------------------------------- | ----------- |
+| `AutoCADCompatibility.AutoCADRelease13` | Release 13  |
+| `AutoCADCompatibility.AutoCADRelease18` | Release 18  |
+| `AutoCADCompatibility.AutoCADRelease14` | Release 14  |
+| `AutoCADCompatibility.AutoCADRelease21` | Release 21  |
+| `AutoCADCompatibility.AutoCADRelease15` | Release 15  |
+| `AutoCADCompatibility.AutoCADRelease24` | Release 24  |
 
 ---
 
 ## AutoCADExportFileFormat
 
-| Value                         | Description   |
-|-------------------------------|---------------|
-| `AutoCADExportFileFormat.DXF` | DXF           |
-| `AutoCADExportFileFormat.DWG` | DWG           |
+|             Value             | Description |
+| ----------------------------- | ----------- |
+| `AutoCADExportFileFormat.DXF` | DXF         |
+| `AutoCADExportFileFormat.DWG` | DWG         |
 
 ---
 
 ## AutoCADExportOption
 
-| Value                                     | Description          |
-|-------------------------------------------|----------------------|
+|                   Value                   |     Description      |
+| ----------------------------------------- | -------------------- |
 | `AutoCADExportOption.PreserveAppearance`  | Preserve Appearance  |
 | `AutoCADExportOption.MaximizeEditability` | Maximize Editability |
 
@@ -100,8 +100,8 @@ How the art should be clipped during output.
 
 ## AutoCADGlobalScaleOption
 
-| Value                                   | Description    |
-|-----------------------------------------|----------------|
+|                  Value                  |  Description   |
+| --------------------------------------- | -------------- |
 | `AutoCADGlobalScaleOption.OriginalSize` | Original Size  |
 | `AutoCADGlobalScaleOption.ScaleByValue` | Scale by Value |
 | `AutoCADGlobalScaleOption.FitArtboard`  | Fit Artboard   |
@@ -110,23 +110,23 @@ How the art should be clipped during output.
 
 ## AutoCADRasterFormat
 
-| Value                      | Description   |
-|----------------------------|---------------|
-| `AutoCADRasterFormat.PNG`  | PNG           |
-| `AutoCADRasterFormat.JPEG` | JPEG          |
+|           Value            | Description |
+| -------------------------- | ----------- |
+| `AutoCADRasterFormat.PNG`  | PNG         |
+| `AutoCADRasterFormat.JPEG` | JPEG        |
 
 ---
 
 ## AutoCADUnit
 
-| Value                     | Description   |
-|---------------------------|---------------|
-| `AutoCADUnit.Points`      | Points        |
-| `AutoCADUnit.Picas`       | Picas         |
-| `AutoCADUnit.Inches`      | Inches        |
-| `AutoCADUnit.Millimeters` | Millimeters   |
-| `AutoCADUnit.Centimeters` | Centimeters   |
-| `AutoCADUnit.Pixels`      | Pixels        |
+|           Value           | Description |
+| ------------------------- | ----------- |
+| `AutoCADUnit.Points`      | Points      |
+| `AutoCADUnit.Picas`       | Picas       |
+| `AutoCADUnit.Inches`      | Inches      |
+| `AutoCADUnit.Millimeters` | Millimeters |
+| `AutoCADUnit.Centimeters` | Centimeters |
+| `AutoCADUnit.Pixels`      | Pixels      |
 
 ---
 
@@ -134,12 +134,12 @@ How the art should be clipped during output.
 
 The auto kern type.
 
-| Value                           | Description   |
-|---------------------------------|---------------|
-| `AutoKernType.NOAUTOKERN`       | None          |
-| `AutoKernType.AUTO`             | Auto          |
-| `AutoKernType.OPTICAL`          | Optical       |
-| `AutoKernType.METRICSROMANONLY` | Metrics       |
+|              Value              | Description |
+| ------------------------------- | ----------- |
+| `AutoKernType.NOAUTOKERN`       | None        |
+| `AutoKernType.AUTO`             | Auto        |
+| `AutoKernType.OPTICAL`          | Optical     |
+| `AutoKernType.METRICSROMANONLY` | Metrics     |
 
 ---
 
@@ -147,8 +147,8 @@ The auto kern type.
 
 The auto leading type.
 
-| Value                            | Description      |
-|----------------------------------|------------------|
+|              Value               |   Description    |
+| -------------------------------- | ---------------- |
 | `AutoLeadingType.BOTTOMTOBOTTOM` | Bottom to Bottom |
 | `AutoLeadingType.TOPTOTOP`       | Top to Top       |
 
@@ -158,8 +158,8 @@ The auto leading type.
 
 The baseline direction type.
 
-| Value                                   | Description      |
-|-----------------------------------------|------------------|
+|                  Value                  |   Description    |
+| --------------------------------------- | ---------------- |
 | `BaselineDirectionType.Standard`        | Standard         |
 | `BaselineDirectionType.VerticalRotated` | Vertical Rotated |
 | `BaselineDirectionType.TateChuYoko`     | TateChuYoko      |
@@ -168,11 +168,11 @@ The baseline direction type.
 
 ## BlendAnimationType
 
-| Value                                 | Description   |
-|---------------------------------------|---------------|
-| `BlendAnimationType.INBUILD`          | In Build      |
-| `BlendAnimationType.NOBLENDANIMATION` | None          |
-| `BlendAnimationType.INSEQUENCE`       | In Sequence   |
+|                 Value                 | Description |
+| ------------------------------------- | ----------- |
+| `BlendAnimationType.INBUILD`          | In Build    |
+| `BlendAnimationType.NOBLENDANIMATION` | None        |
+| `BlendAnimationType.INSEQUENCE`       | In Sequence |
 
 ---
 
@@ -180,24 +180,24 @@ The baseline direction type.
 
 The blend mode used when compositing an object.
 
-| Value                        | Description   |
-|------------------------------|---------------|
-| `BlendModes.COLORBLEND`      | Color         |
-| `BlendModes.COLORBURN`       | Color Burn    |
-| `BlendModes.COLORDODGE`      | Color Dodge   |
-| `BlendModes.DARKEN`          | Darken        |
-| `BlendModes.DIFFERENCE`      | Difference    |
-| `BlendModes.EXCLUSION`       | Exclusion     |
-| `BlendModes.HARDLIGHT`       | Hard Light    |
-| `BlendModes.HUE`             | Hue           |
-| `BlendModes.LIGHTEN`         | Lighten       |
-| `BlendModes.LUMINOSITY`      | Luminosity    |
-| `BlendModes.MULTIPLY`        | Multiply      |
-| `BlendModes.NORMAL`          | Normal        |
-| `BlendModes.OVERLAY`         | Overlay       |
-| `BlendModes.SATURATIONBLEND` | Saturation    |
-| `BlendModes.SCREEN`          | Screen        |
-| `BlendModes.SOFTLIGHT`       | Soft Light    |
+|            Value             | Description |
+| ---------------------------- | ----------- |
+| `BlendModes.COLORBLEND`      | Color       |
+| `BlendModes.COLORBURN`       | Color Burn  |
+| `BlendModes.COLORDODGE`      | Color Dodge |
+| `BlendModes.DARKEN`          | Darken      |
+| `BlendModes.DIFFERENCE`      | Difference  |
+| `BlendModes.EXCLUSION`       | Exclusion   |
+| `BlendModes.HARDLIGHT`       | Hard Light  |
+| `BlendModes.HUE`             | Hue         |
+| `BlendModes.LIGHTEN`         | Lighten     |
+| `BlendModes.LUMINOSITY`      | Luminosity  |
+| `BlendModes.MULTIPLY`        | Multiply    |
+| `BlendModes.NORMAL`          | Normal      |
+| `BlendModes.OVERLAY`         | Overlay     |
+| `BlendModes.SATURATIONBLEND` | Saturation  |
+| `BlendModes.SCREEN`          | Screen      |
+| `BlendModes.SOFTLIGHT`       | Soft Light  |
 
 ---
 
@@ -205,8 +205,8 @@ The blend mode used when compositing an object.
 
 Policy used by FXG file format to expand blends.
 
-| Value                                           | Description                  |
-|-------------------------------------------------|------------------------------|
+|                      Value                      |         Description          |
+| ----------------------------------------------- | ---------------------------- |
 | `BlendsExpandPolicy.AUTOMATICALLYCONVERTBLENDS` | Automatically convert blends |
 | `BlendsExpandPolicy.RASTERIZEBLENDS`            | Rasterize blends             |
 
@@ -216,11 +216,11 @@ Policy used by FXG file format to expand blends.
 
 The Burasagari type.
 
-| Value                         | Description   |
-|-------------------------------|---------------|
-| `BurasagariTypeEnum.Forced`   | Forced        |
-| `BurasagariTypeEnum.None`     | None          |
-| `BurasagariTypeEnum.Standard` | Standard      |
+|             Value             | Description |
+| ----------------------------- | ----------- |
+| `BurasagariTypeEnum.Forced`   | Forced      |
+| `BurasagariTypeEnum.None`     | None        |
+| `BurasagariTypeEnum.Standard` | Standard    |
 
 ---
 
@@ -228,8 +228,8 @@ The Burasagari type.
 
 The case change type.
 
-| Value                         | Description                     |
-|-------------------------------|---------------------------------|
+|             Value             |           Description           |
+| ----------------------------- | ------------------------------- |
 | `CaseChangeType.LOWERCASE`    | Lowercase (`"hello world"`)     |
 | `CaseChangeType.SENTENCECASE` | Sentence case (`"Hello world"`) |
 | `CaseChangeType.TITLECASE`    | Title case (`"Hello World"`)    |
@@ -241,8 +241,8 @@ The case change type.
 
 The color conversion policy.
 
-| Value                                      | Description                |
-|--------------------------------------------|----------------------------|
+|                   Value                    |        Description         |
+| ------------------------------------------ | -------------------------- |
 | `ColorConversion.COLORCONVERSIONREPURPOSE` | Color Conversion Repurpose |
 | `ColorConversion.COLORCONVERSIONTODEST`    | Color Conversion to Dest   |
 | `ColorConversion.None`                     | None                       |
@@ -253,12 +253,12 @@ The color conversion policy.
 
 The purpose of color conversion using the `ConvertSampleColor` method of the `Application` class.
 
-| Value                                | Description   |
-|--------------------------------------|---------------|
-| `ColorConvertPurpose.defaultpurpose` | Default       |
-| `ColorConvertPurpose.exportpurpose`  | Export        |
-| `ColorConvertPurpose.previewpurpose` | Preview       |
-| `ColorConvertPurpose.dummypurpose`   | Dummy         |
+|                Value                 | Description |
+| ------------------------------------ | ----------- |
+| `ColorConvertPurpose.defaultpurpose` | Default     |
+| `ColorConvertPurpose.exportpurpose`  | Export      |
+| `ColorConvertPurpose.previewpurpose` | Preview     |
+| `ColorConvertPurpose.dummypurpose`   | Dummy       |
 
 ---
 
@@ -266,14 +266,14 @@ The purpose of color conversion using the `ConvertSampleColor` method of the `Ap
 
 Destination profile
 
-| Value                                          | Description   |
-|------------------------------------------------|---------------|
-| `ColorDestination.COLORDESTINATIONDOCCMYK`     | Doc CMYK      |
-| `ColorDestination.COLORDESTINATIONDOCRGB`      | Doc RGB       |
-| `ColorDestination.COLORDESTINATIONPROFILE`     | Profile       |
-| `ColorDestination.COLORDESTINATIONWORKINGCMYK` | Working CMYK  |
-| `ColorDestination.COLORDESTINATIONWORKINGRGB`  | Working RGB   |
-| `ColorDestination.None`                        | None          |
+|                     Value                      | Description  |
+| ---------------------------------------------- | ------------ |
+| `ColorDestination.COLORDESTINATIONDOCCMYK`     | Doc CMYK     |
+| `ColorDestination.COLORDESTINATIONDOCRGB`      | Doc RGB      |
+| `ColorDestination.COLORDESTINATIONPROFILE`     | Profile      |
+| `ColorDestination.COLORDESTINATIONWORKINGCMYK` | Working CMYK |
+| `ColorDestination.COLORDESTINATIONWORKINGRGB`  | Working RGB  |
+| `ColorDestination.None`                        | None         |
 
 ---
 
@@ -281,8 +281,8 @@ Destination profile
 
 The method used to dither colors in exported GIF and PNG8 images.
 
-| Value                             | Description    |
-|-----------------------------------|----------------|
+|               Value               |  Description   |
+| --------------------------------- | -------------- |
 | `ColorDitherMethod.DIFFUSION`     | Diffusion      |
 | `ColorDitherMethod.NOISE`         | Noise          |
 | `ColorDitherMethod.NOREDUCTION`   | No Reduction   |
@@ -294,18 +294,18 @@ The method used to dither colors in exported GIF and PNG8 images.
 
 The color model to use.
 
-| Value                     | Description   |
-|---------------------------|---------------|
-| `ColorModel.PROCESS`      | Process       |
-| `ColorModel.REGISTRATION` | Registration  |
-| `ColorModel.SPOT`         | Spot          |
+|           Value           | Description  |
+| ------------------------- | ------------ |
+| `ColorModel.PROCESS`      | Process      |
+| `ColorModel.REGISTRATION` | Registration |
+| `ColorModel.SPOT`         | Spot         |
 
 ---
 
 ## ColorProfile
 
-| Value                                | Description             |
-|--------------------------------------|-------------------------|
+|                Value                 |       Description       |
+| ------------------------------------ | ----------------------- |
 | `ColorProfile.INCLUDEALLPROFILE`     | Include All Profile     |
 | `ColorProfile.INCLUDEDESTPROFILE`    | Include Dest Profile    |
 | `ColorProfile.INCLUDERGBPROFILE`     | Include RGB Profile     |
@@ -318,12 +318,12 @@ The color model to use.
 
 The method used to reduce the number of colors in exported GIF and PNG8 images.
 
-| Value                             | Description   |
-|-----------------------------------|---------------|
-| `ColorReductionMethod.ADAPTIVE`   | Adaptive      |
-| `ColorReductionMethod.SELECTIVE`  | Selective     |
-| `ColorReductionMethod.PERCEPTUAL` | Perceptual    |
-| `ColorReductionMethod.WEB`        | Web           |
+|               Value               | Description |
+| --------------------------------- | ----------- |
+| `ColorReductionMethod.ADAPTIVE`   | Adaptive    |
+| `ColorReductionMethod.SELECTIVE`  | Selective   |
+| `ColorReductionMethod.PERCEPTUAL` | Perceptual  |
+| `ColorReductionMethod.WEB`        | Web         |
 
 ---
 
@@ -331,15 +331,15 @@ The method used to reduce the number of colors in exported GIF and PNG8 images.
 
 The color specification for an individual color.
 
-| Value                | Description   |
-|----------------------|---------------|
-| `ColorType.CMYK`     | Cmyk          |
-| `ColorType.GRADIENT` | Gradient      |
-| `ColorType.GRAY`     | Gray          |
-| `ColorType.PATTERN`  | Pattern       |
-| `ColorType.RGB`      | Rgb           |
-| `ColorType.SPOT`     | Spot          |
-| `ColorType.NONE`     | None          |
+|        Value         | Description |
+| -------------------- | ----------- |
+| `ColorType.CMYK`     | Cmyk        |
+| `ColorType.GRADIENT` | Gradient    |
+| `ColorType.GRAY`     | Gray        |
+| `ColorType.PATTERN`  | Pattern     |
+| `ColorType.RGB`      | Rgb         |
+| `ColorType.SPOT`     | Spot        |
+| `ColorType.NONE`     | None        |
 
 ---
 
@@ -347,8 +347,8 @@ The color specification for an individual color.
 
 The version of the Illustrator file to create when saving an EPS or Illustrator file
 
-| Value                            | Description        |
-|----------------------------------|--------------------|
+|              Value               |    Description     |
+| -------------------------------- | ------------------ |
 | `Compatibility.ILLUSTRATOR8`     | Illustrator 8      |
 | `Compatibility.ILLUSTRATOR9`     | Illustrator 9      |
 | `Compatibility.ILLUSTRATOR10`    | Illustrator 10     |
@@ -368,33 +368,33 @@ The version of the Illustrator file to create when saving an EPS or Illustrator 
 
 The quality of bitmap compression used when saving a PDF file
 
-| Value                                          | Description   |
-|------------------------------------------------|---------------|
-| `CompressionQuality.AUTOMATICJPEG2000HIGH`     | todo          |
-| `CompressionQuality.AUTOMATICJPEG2000LOSSLESS` | todo          |
-| `CompressionQuality.AUTOMATICJPEG2000LOW`      | todo          |
-| `CompressionQuality.AUTOMATICJPEG2000MAXIMUM`  | todo          |
-| `CompressionQuality.AUTOMATICJPEG2000MEDIUM`   | todo          |
-| `CompressionQuality.AUTOMATICJPEG2000MINIMUM`  | todo          |
-| `CompressionQuality.AUTOMATICJPEGHIGH`         | todo          |
-| `CompressionQuality.AUTOMATICJPEGLOW`          | todo          |
-| `CompressionQuality.AUTOMATICJPEGMAXIMUM`      | todo          |
-| `CompressionQuality.AUTOMATICJPEGMEDIUM`       | todo          |
-| `CompressionQuality.AUTOMATICJPEGMINIMUM`      | todo          |
-| `CompressionQuality.JPEG2000HIGH`              | todo          |
-| `CompressionQuality.JPEG2000LOSSLESS`          | todo          |
-| `CompressionQuality.JPEG2000LOW`               | todo          |
-| `CompressionQuality.JPEG2000MAXIMUM`           | todo          |
-| `CompressionQuality.JPEG2000MEDIUM`            | todo          |
-| `CompressionQuality.JPEG2000MINIMUM`           | todo          |
-| `CompressionQuality.JPEGHIGH`                  | todo          |
-| `CompressionQuality.JPEGLOW`                   | todo          |
-| `CompressionQuality.JPEGMAXIMUM`               | todo          |
-| `CompressionQuality.JPEGMEDIUM`                | todo          |
-| `CompressionQuality.JPEGMINIMUM`               | todo          |
-| `CompressionQuality.ZIP4BIT`                   | todo          |
-| `CompressionQuality.ZIP8BIT`                   | todo          |
-| `CompressionQuality.None`                      | todo          |
+|                     Value                      | Description |
+| ---------------------------------------------- | ----------- |
+| `CompressionQuality.AUTOMATICJPEG2000HIGH`     | todo        |
+| `CompressionQuality.AUTOMATICJPEG2000LOSSLESS` | todo        |
+| `CompressionQuality.AUTOMATICJPEG2000LOW`      | todo        |
+| `CompressionQuality.AUTOMATICJPEG2000MAXIMUM`  | todo        |
+| `CompressionQuality.AUTOMATICJPEG2000MEDIUM`   | todo        |
+| `CompressionQuality.AUTOMATICJPEG2000MINIMUM`  | todo        |
+| `CompressionQuality.AUTOMATICJPEGHIGH`         | todo        |
+| `CompressionQuality.AUTOMATICJPEGLOW`          | todo        |
+| `CompressionQuality.AUTOMATICJPEGMAXIMUM`      | todo        |
+| `CompressionQuality.AUTOMATICJPEGMEDIUM`       | todo        |
+| `CompressionQuality.AUTOMATICJPEGMINIMUM`      | todo        |
+| `CompressionQuality.JPEG2000HIGH`              | todo        |
+| `CompressionQuality.JPEG2000LOSSLESS`          | todo        |
+| `CompressionQuality.JPEG2000LOW`               | todo        |
+| `CompressionQuality.JPEG2000MAXIMUM`           | todo        |
+| `CompressionQuality.JPEG2000MEDIUM`            | todo        |
+| `CompressionQuality.JPEG2000MINIMUM`           | todo        |
+| `CompressionQuality.JPEGHIGH`                  | todo        |
+| `CompressionQuality.JPEGLOW`                   | todo        |
+| `CompressionQuality.JPEGMAXIMUM`               | todo        |
+| `CompressionQuality.JPEGMEDIUM`                | todo        |
+| `CompressionQuality.JPEGMINIMUM`               | todo        |
+| `CompressionQuality.ZIP4BIT`                   | todo        |
+| `CompressionQuality.ZIP8BIT`                   | todo        |
+| `CompressionQuality.None`                      | todo        |
 
 ---
 
@@ -402,10 +402,10 @@ The quality of bitmap compression used when saving a PDF file
 
 The coordinate system used by Illustrator
 
-| Value                                       | Description   |
-|---------------------------------------------|---------------|
-| `CoordinateSystem.ARTBOARDCOORDINATESYSTEM` | todo          |
-| `CoordinateSystem.DOCUMENTCOORDINATESYSTEM` | todo          |
+|                    Value                    | Description |
+| ------------------------------------------- | ----------- |
+| `CoordinateSystem.ARTBOARDCOORDINATESYSTEM` | todo        |
+| `CoordinateSystem.DOCUMENTCOORDINATESYSTEM` | todo        |
 
 ---
 
@@ -413,10 +413,10 @@ The coordinate system used by Illustrator
 
 The style of a document's cropping box
 
-| Value                  | Description   |
-|------------------------|---------------|
-| `CropOptions.Japanese` | Japanese      |
-| `CropOptions.Standard` | Standard      |
+|         Value          | Description |
+| ---------------------- | ----------- |
+| `CropOptions.Japanese` | Japanese    |
+| `CropOptions.Standard` | Standard    |
 
 ---
 
@@ -424,15 +424,15 @@ The style of a document's cropping box
 
 The layout of in the new document.
 
-| Value                                | Description   |
-|--------------------------------------|---------------|
-| `DocumentArtboardLayout.Column`      | todo          |
-| `DocumentArtboardLayout.GridByCol`   | todo          |
-| `DocumentArtboardLayout.GridByRow`   | todo          |
-| `DocumentArtboardLayout.RLGridByCol` | todo          |
-| `DocumentArtboardLayout.RLGridByRow` | todo          |
-| `DocumentArtboardLayout.RLRow`       | todo          |
-| `DocumentArtboardLayout.Row`         | todo          |
+|                Value                 | Description |
+| ------------------------------------ | ----------- |
+| `DocumentArtboardLayout.Column`      | todo        |
+| `DocumentArtboardLayout.GridByCol`   | todo        |
+| `DocumentArtboardLayout.GridByRow`   | todo        |
+| `DocumentArtboardLayout.RLGridByCol` | todo        |
+| `DocumentArtboardLayout.RLGridByRow` | todo        |
+| `DocumentArtboardLayout.RLRow`       | todo        |
+| `DocumentArtboardLayout.Row`         | todo        |
 
 ---
 
@@ -440,10 +440,10 @@ The layout of in the new document.
 
 The color space of a document
 
-| Value                     | Description   |
-|---------------------------|---------------|
-| `DocumentColorSpace.CMYK` | CMYK          |
-| `DocumentColorSpace.RGB`  | RGB           |
+|           Value           | Description |
+| ------------------------- | ----------- |
+| `DocumentColorSpace.CMYK` | CMYK        |
+| `DocumentColorSpace.RGB`  | RGB         |
 
 ---
 
@@ -451,13 +451,13 @@ The color space of a document
 
 Layout style for the document
 
-| Value                                | Description   |
-|--------------------------------------|---------------|
-| `DocumentLayoutStyle.CASCADE`        | todo          |
-| `DocumentLayoutStyle.CONSOLIDATEALL` | todo          |
-| `DocumentLayoutStyle.FLOATALL`       | todo          |
-| `DocumentLayoutStyle.HORIZONTALTILE` | todo          |
-| `DocumentLayoutStyle.VERTICALTILE`   | todo          |
+|                Value                 | Description |
+| ------------------------------------ | ----------- |
+| `DocumentLayoutStyle.CASCADE`        | todo        |
+| `DocumentLayoutStyle.CONSOLIDATEALL` | todo        |
+| `DocumentLayoutStyle.FLOATALL`       | todo        |
+| `DocumentLayoutStyle.HORIZONTALTILE` | todo        |
+| `DocumentLayoutStyle.VERTICALTILE`   | todo        |
 
 ---
 
@@ -465,14 +465,14 @@ Layout style for the document
 
 The preset types available for new documents.
 
-| Value                          | Description   |
-|--------------------------------|---------------|
-| `DocumentPresetType.BasicCMYK` | Basic CMYK    |
-| `DocumentPresetType.BasicRGB`  | Basic RGB     |
-| `DocumentPresetType.Mobile`    | Mobile        |
-| `DocumentPresetType.Print`     | Print         |
-| `DocumentPresetType.Video`     | Video         |
-| `DocumentPresetType.Web`       | Web           |
+|             Value              | Description |
+| ------------------------------ | ----------- |
+| `DocumentPresetType.BasicCMYK` | Basic CMYK  |
+| `DocumentPresetType.BasicRGB`  | Basic RGB   |
+| `DocumentPresetType.Mobile`    | Mobile      |
+| `DocumentPresetType.Print`     | Print       |
+| `DocumentPresetType.Video`     | Video       |
+| `DocumentPresetType.Web`       | Web         |
 
 ---
 
@@ -480,11 +480,11 @@ The preset types available for new documents.
 
 The document preview mode.
 
-| Value                                  | Description   |
-|----------------------------------------|---------------|
-| `DocumentPreviewMode.DefaultPreview`   | Default       |
-| `DocumentPreviewMode.OverprintPreview` | Overprint     |
-| `DocumentPreviewMode.PixelPreview`     | Pixel         |
+|                 Value                  | Description |
+| -------------------------------------- | ----------- |
+| `DocumentPreviewMode.DefaultPreview`   | Default     |
+| `DocumentPreviewMode.OverprintPreview` | Overprint   |
+| `DocumentPreviewMode.PixelPreview`     | Pixel       |
 
 ---
 
@@ -492,8 +492,8 @@ The document preview mode.
 
 The preset document raster resolution.
 
-| Value                                       | Description       |
-|---------------------------------------------|-------------------|
+|                    Value                    |    Description    |
+| ------------------------------------------- | ----------------- |
 | `DocumentRasterResolution.ScreenResolution` | Screen Resolution |
 | `DocumentRasterResolution.HighResolution`   | High Resolution   |
 | `DocumentRasterResolution.MediumResolution` | Medium Resolution |
@@ -504,17 +504,17 @@ The preset document raster resolution.
 
 Document transparency grid colors.
 
-| Value                                             | Description   |
-|---------------------------------------------------|---------------|
-| `DocumentTransparencyGrid.TransparencyGridBlue`   | Blue          |
-| `DocumentTransparencyGrid.TransparencyGridDark`   | Dark          |
-| `DocumentTransparencyGrid.TransparencyGridGreen`  | Green         |
-| `DocumentTransparencyGrid.TransparencyGridLight`  | Light         |
-| `DocumentTransparencyGrid.TransparencyGridMedium` | Medium        |
-| `DocumentTransparencyGrid.TransparencyGridNone`   | None          |
-| `DocumentTransparencyGrid.TransparencyGridOrange` | Orange        |
-| `DocumentTransparencyGrid.TransparencyGridPurple` | Purple        |
-| `DocumentTransparencyGrid.TransparencyGridRed`    | Red           |
+|                       Value                       | Description |
+| ------------------------------------------------- | ----------- |
+| `DocumentTransparencyGrid.TransparencyGridBlue`   | Blue        |
+| `DocumentTransparencyGrid.TransparencyGridDark`   | Dark        |
+| `DocumentTransparencyGrid.TransparencyGridGreen`  | Green       |
+| `DocumentTransparencyGrid.TransparencyGridLight`  | Light       |
+| `DocumentTransparencyGrid.TransparencyGridMedium` | Medium      |
+| `DocumentTransparencyGrid.TransparencyGridNone`   | None        |
+| `DocumentTransparencyGrid.TransparencyGridOrange` | Orange      |
+| `DocumentTransparencyGrid.TransparencyGridPurple` | Purple      |
+| `DocumentTransparencyGrid.TransparencyGridRed`    | Red         |
 
 ---
 
@@ -522,19 +522,19 @@ Document transparency grid colors.
 
 The file format used to save a file.
 
-| Value                      | Description   |
-|----------------------------|---------------|
-| `DocumentType.EPS`         | EPS           |
-| `DocumentType.FXG`         | FXG           |
-| `DocumentType.ILLUSTRATOR` | Illustrator   |
-| `DocumentType.PDF`         | PDF           |
+|           Value            | Description |
+| -------------------------- | ----------- |
+| `DocumentType.EPS`         | EPS         |
+| `DocumentType.FXG`         | FXG         |
+| `DocumentType.ILLUSTRATOR` | Illustrator |
+| `DocumentType.PDF`         | PDF         |
 
 ---
 
 ## DownsampleMethod
 
-| Value                                | Description        |
-|--------------------------------------|--------------------|
+|                Value                 |    Description     |
+| ------------------------------------ | ------------------ |
 | `DownsampleMethod.AVERAGEDOWNSAMPLE` | Average Downsample |
 | `DownsampleMethod.BICUBICDOWNSAMPLE` | Bicubic Downsample |
 | `DownsampleMethod.NODOWNSAMPLE`      | No Downsample      |
@@ -544,8 +544,8 @@ The file format used to save a file.
 
 ## ElementPlacement
 
-| Value                               | Description        |
-|-------------------------------------|--------------------|
+|                Value                |    Description     |
+| ----------------------------------- | ------------------ |
 | `ElementPlacement.INSIDE`           | Inside             |
 | `ElementPlacement.PLACEAFTER`       | Place After        |
 | `ElementPlacement.PLACEATBEGINNING` | Place At Beginning |
@@ -556,10 +556,10 @@ The file format used to save a file.
 
 ## EPSPostScriptLevelEnum
 
-| Value                           | Description   |
-|---------------------------------|---------------|
-| `EPSPostScriptLevelEnum.LEVEL2` | Level 2       |
-| `EPSPostScriptLevelEnum.LEVEL3` | Level 3       |
+|              Value              | Description |
+| ------------------------------- | ----------- |
+| `EPSPostScriptLevelEnum.LEVEL2` | Level 2     |
+| `EPSPostScriptLevelEnum.LEVEL3` | Level 3     |
 
 ---
 
@@ -567,12 +567,12 @@ The file format used to save a file.
 
 The preview image format used when saving an EPS file
 
-| Value                             | Description   |
-|-----------------------------------|---------------|
-| `EPSPreview.BWTIFF`               | todo          |
-| `EPSPreview.COLORTIFF`            | todo          |
-| `EPSPreview.TRANSPARENTCOLORTIFF` | todo          |
-| `EPSPreview.None`                 | todo          |
+|               Value               | Description |
+| --------------------------------- | ----------- |
+| `EPSPreview.BWTIFF`               | todo        |
+| `EPSPreview.COLORTIFF`            | todo        |
+| `EPSPreview.TRANSPARENTCOLORTIFF` | todo        |
+| `EPSPreview.None`                 | todo        |
 
 ---
 
@@ -580,29 +580,29 @@ The preview image format used when saving an EPS file
 
 The file format used to export a file
 
-| Value                  | Description   |
-|------------------------|---------------|
-| `ExportType.AutoCAD`   | AutoCAD       |
-| `ExportType.FLASH`     | FLASH         |
-| `ExportType.GIF`       | GIF           |
-| `ExportType.JPEG`      | JPEG          |
-| `ExportType.Photoshop` | Photoshop     |
-| `ExportType.PNG24`     | PNG24         |
-| `ExportType.PNG8`      | PNG8          |
-| `ExportType.SVG`       | SVG           |
-| `ExportType.TIFF`      | TIFF          |
+|         Value          | Description |
+| ---------------------- | ----------- |
+| `ExportType.AutoCAD`   | AutoCAD     |
+| `ExportType.FLASH`     | FLASH       |
+| `ExportType.GIF`       | GIF         |
+| `ExportType.JPEG`      | JPEG        |
+| `ExportType.Photoshop` | Photoshop   |
+| `ExportType.PNG24`     | PNG24       |
+| `ExportType.PNG8`      | PNG8        |
+| `ExportType.SVG`       | SVG         |
+| `ExportType.TIFF`      | TIFF        |
 
 ---
 
 ## FigureStyleType
 
-| Value                                  | Description   |
-|----------------------------------------|---------------|
-| `FigureStyleType.DEFAULTFIGURESTYLE`   | todo          |
-| `FigureStyleType.PROPORTIONAL`         | todo          |
-| `FigureStyleType.PROPORTIONALOLDSTYLE` | todo          |
-| `FigureStyleType.TABULAR`              | todo          |
-| `FigureStyleType.TABULAROLDSTYLE`      | todo          |
+|                 Value                  | Description |
+| -------------------------------------- | ----------- |
+| `FigureStyleType.DEFAULTFIGURESTYLE`   | todo        |
+| `FigureStyleType.PROPORTIONAL`         | todo        |
+| `FigureStyleType.PROPORTIONALOLDSTYLE` | todo        |
+| `FigureStyleType.TABULAR`              | todo        |
+| `FigureStyleType.TABULAROLDSTYLE`      | todo        |
 
 ---
 
@@ -610,11 +610,11 @@ The file format used to export a file
 
 The filters preserve policy used by the FXG file format.
 
-| Value                                       | Description   |
-|---------------------------------------------|---------------|
-| `FiltersPreservePolicy.EXPANDFILTERS`       | todo          |
-| `FiltersPreservePolicy.KEEPFILTERSEDITABLE` | todo          |
-| `FiltersPreservePolicy.RASTERIZEFILTERS`    | todo          |
+|                    Value                    | Description |
+| ------------------------------------------- | ----------- |
+| `FiltersPreservePolicy.EXPANDFILTERS`       | todo        |
+| `FiltersPreservePolicy.KEEPFILTERSEDITABLE` | todo        |
+| `FiltersPreservePolicy.RASTERIZEFILTERS`    | todo        |
 
 ---
 
@@ -622,13 +622,13 @@ The filters preserve policy used by the FXG file format.
 
 The method used to convert Illustrator images when exporting files
 
-| Value                              | Description   |
-|------------------------------------|---------------|
-| `FlashExportStyle.ASFLASHFILE`     | todo          |
-| `FlashExportStyle.LAYERSASFILES`   | todo          |
-| `FlashExportStyle.LAYERSASFRAMES`  | todo          |
-| `FlashExportStyle.LAYERSASSYMBOLS` | todo          |
-| `FlashExportStyle.TOFILES`         | todo          |
+|               Value                | Description |
+| ---------------------------------- | ----------- |
+| `FlashExportStyle.ASFLASHFILE`     | todo        |
+| `FlashExportStyle.LAYERSASFILES`   | todo        |
+| `FlashExportStyle.LAYERSASFRAMES`  | todo        |
+| `FlashExportStyle.LAYERSASSYMBOLS` | todo        |
+| `FlashExportStyle.TOFILES`         | todo        |
 
 ---
 
@@ -636,17 +636,17 @@ The method used to convert Illustrator images when exporting files
 
 Version for exported SWF file.
 
-| Value                              | Description   |
-|------------------------------------|---------------|
-| `FlashExportVersion.FlashVersion1` | Version 1     |
-| `FlashExportVersion.FlashVersion2` | Version 2     |
-| `FlashExportVersion.FlashVersion3` | Version 3     |
-| `FlashExportVersion.FlashVersion4` | Version 4     |
-| `FlashExportVersion.FlashVersion5` | Version 5     |
-| `FlashExportVersion.FlashVersion6` | Version 6     |
-| `FlashExportVersion.FlashVersion7` | Version 7     |
-| `FlashExportVersion.FlashVersion8` | Version 8     |
-| `FlashExportVersion.FlashVersion9` | Version 9     |
+|               Value                | Description |
+| ---------------------------------- | ----------- |
+| `FlashExportVersion.FlashVersion1` | Version 1   |
+| `FlashExportVersion.FlashVersion2` | Version 2   |
+| `FlashExportVersion.FlashVersion3` | Version 3   |
+| `FlashExportVersion.FlashVersion4` | Version 4   |
+| `FlashExportVersion.FlashVersion5` | Version 5   |
+| `FlashExportVersion.FlashVersion6` | Version 6   |
+| `FlashExportVersion.FlashVersion7` | Version 7   |
+| `FlashExportVersion.FlashVersion8` | Version 8   |
+| `FlashExportVersion.FlashVersion9` | Version 9   |
 
 ---
 
@@ -654,10 +654,10 @@ Version for exported SWF file.
 
 The format used to store flash images.
 
-| Value                       | Description   |
-|-----------------------------|---------------|
-| `FlashImageFormat.LOSSLESS` | Lossless      |
-| `FlashImageFormat.LOSSY`    | Lossy         |
+|            Value            | Description |
+| --------------------------- | ----------- |
+| `FlashImageFormat.LOSSLESS` | Lossless    |
+| `FlashImageFormat.LOSSY`    | Lossy       |
 
 ---
 
@@ -665,36 +665,36 @@ The format used to store flash images.
 
 The method used to store JPEG images.
 
-| Value                       | Description   |
-|-----------------------------|---------------|
-| `FlashJPEGMethod.Optimized` | Optimized     |
-| `FlashJPEGMethod.Standard`  | Standard      |
+|            Value            | Description |
+| --------------------------- | ----------- |
+| `FlashJPEGMethod.Optimized` | Optimized   |
+| `FlashJPEGMethod.Standard`  | Standard    |
 
 ---
 
 ## FlashPlaybackSecurity
 
-| Value                                   | Description   |
-|-----------------------------------------|---------------|
-| `FlashPlaybackSecurity.PlaybackLocal`   | Local         |
-| `FlashPlaybackSecurity.PlaybackNetwork` | Network       |
+|                  Value                  | Description |
+| --------------------------------------- | ----------- |
+| `FlashPlaybackSecurity.PlaybackLocal`   | Local       |
+| `FlashPlaybackSecurity.PlaybackNetwork` | Network     |
 
 ---
 
 ## FontBaselineOption
 
-| Value                               | Description   |
-|-------------------------------------|---------------|
-| `FontBaselineOption.NORMALBASELINE` | todo          |
-| `FontBaselineOption.SUPERSCRIPT`    | todo          |
-| `FontBaselineOption.SUBSCRIPT`      | todo          |
+|                Value                | Description |
+| ----------------------------------- | ----------- |
+| `FontBaselineOption.NORMALBASELINE` | todo        |
+| `FontBaselineOption.SUPERSCRIPT`    | todo        |
+| `FontBaselineOption.SUBSCRIPT`      | todo        |
 
 ---
 
 ## FontCapsOption
 
-| Value                         | Description   |
-|-------------------------------|---------------|
+|             Value             |  Description  |
+| ----------------------------- | ------------- |
 | `FontCapsOption.ALLCAPS`      | All Caps      |
 | `FontCapsOption.ALLSMALLCAPS` | All Smallcaps |
 | `FontCapsOption.NORMALCAPS`   | Normal Caps   |
@@ -704,8 +704,8 @@ The method used to store JPEG images.
 
 ## FontOpenTypePositionOption
 
-| Value                                            | Description          |
-|--------------------------------------------------|----------------------|
+|                      Value                       |     Description      |
+| ------------------------------------------------ | -------------------- |
 | `FontOpenTypePositionOption.DENOMINATOR`         | Denominator          |
 | `FontOpenTypePositionOption.NUMERATOR`           | Numerator            |
 | `FontOpenTypePositionOption.OPENTYPEDEFAULT`     | Opentype Default     |
@@ -716,11 +716,11 @@ The method used to store JPEG images.
 
 ## FontSubstitutionPolicy
 
-| Value                                      | Description   |
-|--------------------------------------------|---------------|
-| `FontSubstitutionPolicy.SUBSTITUTEDEVICE`  | Device        |
-| `FontSubstitutionPolicy.SUBSTITUTEOBLIQUE` | Oblique       |
-| `FontSubstitutionPolicy.SUBSTITUTETINT`    | Tint          |
+|                   Value                    | Description |
+| ------------------------------------------ | ----------- |
+| `FontSubstitutionPolicy.SUBSTITUTEDEVICE`  | Device      |
+| `FontSubstitutionPolicy.SUBSTITUTEOBLIQUE` | Oblique     |
+| `FontSubstitutionPolicy.SUBSTITUTETINT`    | Tint        |
 
 ---
 
@@ -728,8 +728,8 @@ The method used to store JPEG images.
 
 The FXG file-format version.
 
-| Value                    | Description   |
-|--------------------------|---------------|
+|          Value           |  Description  |
+| ------------------------ | ------------- |
 | `FXGVersion.VERSION1PT0` | Version 1 PT0 |
 | `FXGVersion.VERSION2PT0` | Version 2 PT0 |
 
@@ -739,8 +739,8 @@ The FXG file-format version.
 
 The gradients preserve policy used by the FXG file format.
 
-| Value                                                   | Description                    |
-|---------------------------------------------------------|--------------------------------|
+|                          Value                          |          Description           |
+| ------------------------------------------------------- | ------------------------------ |
 | `GradientsPreservePolicy.AUTOMATICALLYCONVERTGRADIENTS` | Automaticaly Convert Gradients |
 | `GradientsPreservePolicy.KEEPGRADIENTSEDITABLE`         | Keep Gradients Editable        |
 
@@ -750,10 +750,10 @@ The gradients preserve policy used by the FXG file format.
 
 The type of gradient.
 
-| Value                 | Description   |
-|-----------------------|---------------|
-| `GradientType.LINEAR` | Linear        |
-| `GradientType.RADIAL` | Radial        |
+|         Value         | Description |
+| --------------------- | ----------- |
+| `GradientType.LINEAR` | Linear      |
+| `GradientType.RADIAL` | Radial      |
 
 ---
 
@@ -761,44 +761,44 @@ The type of gradient.
 
 The color space of a raster item or an exported file
 
-| Value                        | Description   |
-|------------------------------|---------------|
-| `ImageColorSpace.CMYK`       | CMYK          |
-| `ImageColorSpace.DeviceN`    | DeviceN       |
-| `ImageColorSpace.Grayscale`  | Grayscale     |
-| `ImageColorSpace.Indexed`    | Indexed       |
-| `ImageColorSpace.LAB`        | LAB           |
-| `ImageColorSpace.RGB`        | RGB           |
-| `ImageColorSpace.Separation` | Separation    |
+|            Value             | Description |
+| ---------------------------- | ----------- |
+| `ImageColorSpace.CMYK`       | CMYK        |
+| `ImageColorSpace.DeviceN`    | DeviceN     |
+| `ImageColorSpace.Grayscale`  | Grayscale   |
+| `ImageColorSpace.Indexed`    | Indexed     |
+| `ImageColorSpace.LAB`        | LAB         |
+| `ImageColorSpace.RGB`        | RGB         |
+| `ImageColorSpace.Separation` | Separation  |
 
 ---
 
 ## InkPrintStatus
 
-| Value                       | Description   |
-|-----------------------------|---------------|
-| `InkPrintStatus.CONVERTINK` | Convert Ink   |
-| `InkPrintStatus.ENABLEINK`  | Enable Ink    |
-| `InkPrintStatus.DISABLEINK` | Disable Ink   |
+|            Value            | Description |
+| --------------------------- | ----------- |
+| `InkPrintStatus.CONVERTINK` | Convert Ink |
+| `InkPrintStatus.ENABLEINK`  | Enable Ink  |
+| `InkPrintStatus.DISABLEINK` | Disable Ink |
 
 ---
 
 ## InkType
 
-| Value                | Description   |
-|----------------------|---------------|
-| `InkType.BLACKINK`   | Black Ink     |
-| `InkType.CUSTOMINK`  | Custom Ink    |
-| `InkType.CYANINK`    | Cyan Ink      |
-| `InkType.MAGENTAINK` | Magenta Ink   |
-| `InkType.YELLOWINK`  | Yellow Ink    |
+|        Value         | Description |
+| -------------------- | ----------- |
+| `InkType.BLACKINK`   | Black Ink   |
+| `InkType.CUSTOMINK`  | Custom Ink  |
+| `InkType.CYANINK`    | Cyan Ink    |
+| `InkType.MAGENTAINK` | Magenta Ink |
+| `InkType.YELLOWINK`  | Yellow Ink  |
 
 ---
 
 ## JavaScriptExecutionMode
 
-| Value                                    | Description      |
-|------------------------------------------|------------------|
+|                  Value                   |   Description    |
+| ---------------------------------------- | ---------------- |
 | `JavaScriptExecutionMode.BeforeRunning`  | Before Running   |
 | `JavaScriptExecutionMode.OnRuntimeError` | On Runtime Error |
 | `JavaScriptExecutionMode.never`          | Never            |
@@ -809,8 +809,8 @@ The color space of a raster item or an exported file
 
 The alignment or justification for a paragraph of text.
 
-| Value                                     | Description                   |
-|-------------------------------------------|-------------------------------|
+|                   Value                   |          Description          |
+| ----------------------------------------- | ----------------------------- |
 | `Justification.CENTER`                    | Center                        |
 | `Justification.FULLJUSTIFY`               | Full Justify                  |
 | `Justification.FULLJUSTIFYLASTLINECENTER` | Full Justify Last Line Center |
@@ -823,11 +823,11 @@ The alignment or justification for a paragraph of text.
 
 ## KinsokuOrderEnum
 
-| Value                           | Description   |
-|---------------------------------|---------------|
-| `KinsokuOrderEnum.PUSHIN`       | todo          |
-| `KinsokuOrderEnum.PUSHOUTFIRST` | todo          |
-| `KinsokuOrderEnum.PUSHOUTONLY`  | todo          |
+|              Value              | Description |
+| ------------------------------- | ----------- |
+| `KinsokuOrderEnum.PUSHIN`       | todo        |
+| `KinsokuOrderEnum.PUSHOUTFIRST` | todo        |
+| `KinsokuOrderEnum.PUSHOUTONLY`  | todo        |
 
 ---
 
@@ -835,62 +835,62 @@ The alignment or justification for a paragraph of text.
 
 The type of knockout to use on a page item.
 
-| Value                     | Description   |
-|---------------------------|---------------|
-| `KnockoutState.DISABLED`  | Disabled      |
-| `KnockoutState.ENABLED`   | Enabled       |
-| `KnockoutState.INHERITED` | Inherited     |
-| `KnockoutState.Unknown`   | Unknown       |
+|           Value           | Description |
+| ------------------------- | ----------- |
+| `KnockoutState.DISABLED`  | Disabled    |
+| `KnockoutState.ENABLED`   | Enabled     |
+| `KnockoutState.INHERITED` | Inherited   |
+| `KnockoutState.Unknown`   | Unknown     |
 
 ---
 
 ## LanguageType
 
-| Value                                | Description   |
-|--------------------------------------|---------------|
-| `LanguageType.BOKMALNORWEGIAN`       | todo          |
-| `LanguageType.BRAZILLIANPORTUGUESE`  | todo          |
-| `LanguageType.BULGARIAN`             | todo          |
-| `LanguageType.CANADIANFRENCH`        | todo          |
-| `LanguageType.CATALAN`               | todo          |
-| `LanguageType.CHINESE`               | todo          |
-| `LanguageType.CZECH`                 | todo          |
-| `LanguageType.DANISH`                | todo          |
-| `LanguageType.DUTCH`                 | todo          |
-| `LanguageType.DUTCH2005REFORM`       | todo          |
-| `LanguageType.ENGLISH`               | todo          |
-| `LanguageType.FINNISH`               | todo          |
-| `LanguageType.GERMAN2006REFORM`      | todo          |
-| `LanguageType.GREEK`                 | todo          |
-| `LanguageType.HUNGARIAN`             | todo          |
-| `LanguageType.ICELANDIC`             | todo          |
-| `LanguageType.ITALIAN`               | todo          |
-| `LanguageType.JAPANESE`              | todo          |
-| `LanguageType.NYNORSKNORWEGIAN`      | todo          |
-| `LanguageType.OLDGERMAN`             | todo          |
-| `LanguageType.POLISH`                | todo          |
-| `LanguageType.RUMANIAN`              | todo          |
-| `LanguageType.RUSSIAN`               | todo          |
-| `LanguageType.SERBIAN`               | todo          |
-| `LanguageType.SPANISH`               | todo          |
-| `LanguageType.STANDARDFRENCH`        | todo          |
-| `LanguageType.STANDARDGERMAN`        | todo          |
-| `LanguageType.STANDARDPORTUGUESE`    | todo          |
-| `LanguageType.SWEDISH`               | todo          |
-| `LanguageType.SWISSGERMAN`           | todo          |
-| `LanguageType.SWISSGERMAN2006REFORM` | todo          |
-| `LanguageType.TURKISH`               | todo          |
-| `LanguageType.UKENGLISH`             | todo          |
-| `LanguageType.UKRANIAN`              | todo          |
+|                Value                 | Description |
+| ------------------------------------ | ----------- |
+| `LanguageType.BOKMALNORWEGIAN`       | todo        |
+| `LanguageType.BRAZILLIANPORTUGUESE`  | todo        |
+| `LanguageType.BULGARIAN`             | todo        |
+| `LanguageType.CANADIANFRENCH`        | todo        |
+| `LanguageType.CATALAN`               | todo        |
+| `LanguageType.CHINESE`               | todo        |
+| `LanguageType.CZECH`                 | todo        |
+| `LanguageType.DANISH`                | todo        |
+| `LanguageType.DUTCH`                 | todo        |
+| `LanguageType.DUTCH2005REFORM`       | todo        |
+| `LanguageType.ENGLISH`               | todo        |
+| `LanguageType.FINNISH`               | todo        |
+| `LanguageType.GERMAN2006REFORM`      | todo        |
+| `LanguageType.GREEK`                 | todo        |
+| `LanguageType.HUNGARIAN`             | todo        |
+| `LanguageType.ICELANDIC`             | todo        |
+| `LanguageType.ITALIAN`               | todo        |
+| `LanguageType.JAPANESE`              | todo        |
+| `LanguageType.NYNORSKNORWEGIAN`      | todo        |
+| `LanguageType.OLDGERMAN`             | todo        |
+| `LanguageType.POLISH`                | todo        |
+| `LanguageType.RUMANIAN`              | todo        |
+| `LanguageType.RUSSIAN`               | todo        |
+| `LanguageType.SERBIAN`               | todo        |
+| `LanguageType.SPANISH`               | todo        |
+| `LanguageType.STANDARDFRENCH`        | todo        |
+| `LanguageType.STANDARDGERMAN`        | todo        |
+| `LanguageType.STANDARDPORTUGUESE`    | todo        |
+| `LanguageType.SWEDISH`               | todo        |
+| `LanguageType.SWISSGERMAN`           | todo        |
+| `LanguageType.SWISSGERMAN2006REFORM` | todo        |
+| `LanguageType.TURKISH`               | todo        |
+| `LanguageType.UKENGLISH`             | todo        |
+| `LanguageType.UKRANIAN`              | todo        |
 
 ---
 
 ## LayerOrderType
 
-| Value                     | Description   |
-|---------------------------|---------------|
-| `LayerOrderType.TOPDOWN`  | Top Down      |
-| `LayerOrderType.BOTTOMUP` | Bottom Up     |
+|           Value           | Description |
+| ------------------------- | ----------- |
+| `LayerOrderType.TOPDOWN`  | Top Down    |
+| `LayerOrderType.BOTTOMUP` | Bottom Up   |
 
 ---
 
@@ -898,8 +898,8 @@ The type of knockout to use on a page item.
 
 Illustrator library type.
 
-| Value                            | Description         |
-|----------------------------------|---------------------|
+|              Value               |     Description     |
+| -------------------------------- | ------------------- |
 | `LibraryType.Brushes`            | Brushes             |
 | `LibraryType.GraphicStyles`      | Graphic Styles      |
 | `LibraryType.IllustratorArtwork` | Illustrator Artwork |
@@ -912,13 +912,13 @@ Illustrator library type.
 
 The type of compression to use on a monochrome bitmap item when saving a PDF file.
 
-| Value                             | Description   |
-|-----------------------------------|---------------|
-| `MonochromeCompression.CCIT3`     | CCIT3         |
-| `MonochromeCompression.CCIT4`     | CCIT4         |
-| `MonochromeCompression.MONOZIP`   | MONOZIP       |
-| `MonochromeCompression.None`      | None          |
-| `MonochromeCompression.RUNLENGTH` | RUNLENGTH     |
+|               Value               | Description |
+| --------------------------------- | ----------- |
+| `MonochromeCompression.CCIT3`     | CCIT3       |
+| `MonochromeCompression.CCIT4`     | CCIT4       |
+| `MonochromeCompression.MONOZIP`   | MONOZIP     |
+| `MonochromeCompression.None`      | None        |
+| `MonochromeCompression.RUNLENGTH` | RUNLENGTH   |
 
 ---
 
@@ -926,8 +926,8 @@ The type of compression to use on a monochrome bitmap item when saving a PDF fil
 
 How transparency should be flattened when saving EPS and Illustrator file formats with compatibility set to versions of Illustrator earlier than Illustrator 10
 
-| Value                                 | Description         |
-|---------------------------------------|---------------------|
+|                 Value                 |     Description     |
+| ------------------------------------- | ------------------- |
 | `OutputFlattening.PRESERVEAPPEARANCE` | Preserve Appearance |
 | `OutputFlattening.PRESERVEPATHS`      | Preserve Paths      |
 
@@ -935,10 +935,10 @@ How transparency should be flattened when saving EPS and Illustrator file format
 
 ## PageMarksTypes
 
-| Value                     | Description   |
-|---------------------------|---------------|
-| `PageMarksTypes.Japanese` | Japanese      |
-| `PageMarksTypes.Roman`    | Roman         |
+|           Value           | Description |
+| ------------------------- | ----------- |
+| `PageMarksTypes.Japanese` | Japanese    |
+| `PageMarksTypes.Roman`    | Roman       |
 
 ---
 
@@ -946,42 +946,42 @@ How transparency should be flattened when saving EPS and Illustrator file format
 
 Which points, if any, of a path are selected.
 
-| Value                               | Description   |
-|-------------------------------------|---------------|
-| `PathPointSelection.ANCHORPOINT`    | todo          |
-| `PathPointSelection.LEFTDIRECTION`  | todo          |
-| `PathPointSelection.LEFTRIGHTPOINT` | todo          |
-| `PathPointSelection.NOSELECTION`    | todo          |
-| `PathPointSelection.RIGHTDIRECTION` | todo          |
+|                Value                | Description |
+| ----------------------------------- | ----------- |
+| `PathPointSelection.ANCHORPOINT`    | todo        |
+| `PathPointSelection.LEFTDIRECTION`  | todo        |
+| `PathPointSelection.LEFTRIGHTPOINT` | todo        |
+| `PathPointSelection.NOSELECTION`    | todo        |
+| `PathPointSelection.RIGHTDIRECTION` | todo        |
 
 ---
 
 ## PDFBoxType
 
-| Value                       | Description   |
-|-----------------------------|---------------|
-| `PDFBoxType.PDFARTBOX`      | todo          |
-| `PDFBoxType.PDFBLEEDBOX`    | todo          |
-| `PDFBoxType.PDFBOUNDINGBOX` | todo          |
-| `PDFBoxType.PDFCROPBOX`     | todo          |
-| `PDFBoxType.PDFMEDIABOX`    | todo          |
-| `PDFBoxType.PDFTRIMBOX`     | todo          |
+|            Value            | Description |
+| --------------------------- | ----------- |
+| `PDFBoxType.PDFARTBOX`      | todo        |
+| `PDFBoxType.PDFBLEEDBOX`    | todo        |
+| `PDFBoxType.PDFBOUNDINGBOX` | todo        |
+| `PDFBoxType.PDFCROPBOX`     | todo        |
+| `PDFBoxType.PDFMEDIABOX`    | todo        |
+| `PDFBoxType.PDFTRIMBOX`     | todo        |
 
 ---
 
 ## PDFChangesAllowedEnum
 
-| Value                                       | Description   |
-|---------------------------------------------|---------------|
-| `PDFChangesAllowedEnum.CHANGE128ANYCHANGES` | todo          |
-| `PDFChangesAllowedEnum.CHANGE128COMMENTING` | todo          |
-| `PDFChangesAllowedEnum.CHANGE128EDITPAGE`   | todo          |
-| `PDFChangesAllowedEnum.CHANGE128FILLFORM`   | todo          |
-| `PDFChangesAllowedEnum.CHANGE128NONE`       | todo          |
-| `PDFChangesAllowedEnum.CHANGE40ANYCHANGES`  | todo          |
-| `PDFChangesAllowedEnum.CHANGE40COMMENTING`  | todo          |
-| `PDFChangesAllowedEnum.CHANGE40NONE`        | todo          |
-| `PDFChangesAllowedEnum.CHANGE40PAGELAYOUT`  | todo          |
+|                    Value                    | Description |
+| ------------------------------------------- | ----------- |
+| `PDFChangesAllowedEnum.CHANGE128ANYCHANGES` | todo        |
+| `PDFChangesAllowedEnum.CHANGE128COMMENTING` | todo        |
+| `PDFChangesAllowedEnum.CHANGE128EDITPAGE`   | todo        |
+| `PDFChangesAllowedEnum.CHANGE128FILLFORM`   | todo        |
+| `PDFChangesAllowedEnum.CHANGE128NONE`       | todo        |
+| `PDFChangesAllowedEnum.CHANGE40ANYCHANGES`  | todo        |
+| `PDFChangesAllowedEnum.CHANGE40COMMENTING`  | todo        |
+| `PDFChangesAllowedEnum.CHANGE40NONE`        | todo        |
+| `PDFChangesAllowedEnum.CHANGE40PAGELAYOUT`  | todo        |
 
 ---
 
@@ -989,20 +989,20 @@ Which points, if any, of a path are selected.
 
 The version of the Acrobat file format to create when saving a PDF file
 
-| Value                       | Description   |
-|-----------------------------|---------------|
-| `PDFCompatibility.ACROBAT4` | Acrobat 4     |
-| `PDFCompatibility.ACROBAT5` | Acrobat 5     |
-| `PDFCompatibility.ACROBAT6` | Acrobat 6     |
-| `PDFCompatibility.ACROBAT7` | Acrobat 7     |
-| `PDFCompatibility.ACROBAT8` | Acrobat 8     |
+|            Value            | Description |
+| --------------------------- | ----------- |
+| `PDFCompatibility.ACROBAT4` | Acrobat 4   |
+| `PDFCompatibility.ACROBAT5` | Acrobat 5   |
+| `PDFCompatibility.ACROBAT6` | Acrobat 6   |
+| `PDFCompatibility.ACROBAT7` | Acrobat 7   |
+| `PDFCompatibility.ACROBAT8` | Acrobat 8   |
 
 ---
 
 ## PDFOverprint
 
-| Value                               | Description            |
-|-------------------------------------|------------------------|
+|                Value                |      Description       |
+| ----------------------------------- | ---------------------- |
 | `PDFOverprint.DISCARDPDFOVERPRINT`  | Discard Pdf Overprint  |
 | `PDFOverprint.PRESERVEPDFOVERPRINT` | Preserve Pdf Overprint |
 
@@ -1010,8 +1010,8 @@ The version of the Acrobat file format to create when saving a PDF file
 
 ## PDFPrintAllowedEnum
 
-| Value                                        | Description         |
-|----------------------------------------------|---------------------|
+|                    Value                     |     Description     |
+| -------------------------------------------- | ------------------- |
 | `PDFPrintAllowedEnum.PRINT128HIGHRESOLUTION` | 128 High Resolution |
 | `PDFPrintAllowedEnum.PRINT128LOWRESOLUTION`  | 128 Low Resolution  |
 | `PDFPrintAllowedEnum.PRINT128NONE`           | 128 None            |
@@ -1022,31 +1022,31 @@ The version of the Acrobat file format to create when saving a PDF file
 
 ## PDFTrimMarkWeight
 
-| Value                                  | Description   |
-|----------------------------------------|---------------|
-| `PDFTrimMarkWeight.TRIMMARKWEIGHT0125` | Weight 0125   |
-| `PDFTrimMarkWeight.TRIMMARKWEIGHT025`  | Weight 025    |
-| `PDFTrimMarkWeight.TRIMMARKWEIGHT05`   | Weight 05     |
+|                 Value                  | Description |
+| -------------------------------------- | ----------- |
+| `PDFTrimMarkWeight.TRIMMARKWEIGHT0125` | Weight 0125 |
+| `PDFTrimMarkWeight.TRIMMARKWEIGHT025`  | Weight 025  |
+| `PDFTrimMarkWeight.TRIMMARKWEIGHT05`   | Weight 05   |
 
 ---
 
 ## PDFXStandard
 
-| Value                     | Description   |
-|---------------------------|---------------|
-| `PDFXStandard.PDFX1A2001` | PDFX1A2001    |
-| `PDFXStandard.PDFX1A2003` | PDFX1A2003    |
-| `PDFXStandard.PDFX32002`  | PDFX32002     |
-| `PDFXStandard.PDFX32003`  | PDFX32003     |
-| `PDFXStandard.PDFX42007`  | PDFX42007     |
-| `PDFXStandard.PDFXNONE`   | PDFXNONE      |
+|           Value           | Description |
+| ------------------------- | ----------- |
+| `PDFXStandard.PDFX1A2001` | PDFX1A2001  |
+| `PDFXStandard.PDFX1A2003` | PDFX1A2003  |
+| `PDFXStandard.PDFX32002`  | PDFX32002   |
+| `PDFXStandard.PDFX32003`  | PDFX32003   |
+| `PDFXStandard.PDFX42007`  | PDFX42007   |
+| `PDFXStandard.PDFXNONE`   | PDFXNONE    |
 
 ---
 
 ## PerspectiveGridType
 
-| Value                                               | Description                       |
-|-----------------------------------------------------|-----------------------------------|
+|                        Value                        |            Description            |
+| --------------------------------------------------- | --------------------------------- |
 | `PerspectiveGridType.OnePointPerspectiveGridType`   | One Point Perspective Grid Type   |
 | `PerspectiveGridType.TwoPointPerspectiveGridType`   | Two Point Perspective Grid Type   |
 | `PerspectiveGridType.ThreePointPerspectiveGridType` | Three Point Perspective Grid Type |
@@ -1056,8 +1056,8 @@ The version of the Acrobat file format to create when saving a PDF file
 
 ## PerspectiveGridPlaneType
 
-| Value                                           | Description             |
-|-------------------------------------------------|-------------------------|
+|                      Value                      |       Description       |
+| ----------------------------------------------- | ----------------------- |
 | `PerspectiveGridPlaneType.GRIDLEFTPLANETYPE`    | Grid Left Plane Type    |
 | `PerspectiveGridPlaneType.GRIDRIGHTPLANETYPE`   | Grid Right Plane Type   |
 | `PerspectiveGridPlaneType.GRIDFLOORPLANETYPE`   | Grid Floor Plane Type   |
@@ -1067,10 +1067,10 @@ The version of the Acrobat file format to create when saving a PDF file
 
 ## PhotoshopCompatibility
 
-| Value                               | Description   |
-|-------------------------------------|---------------|
-| `PhotoshopCompatibility.Photoshop6` | Photoshop 6   |
-| `PhotoshopCompatibility.Photoshop8` | Photoshop 8   |
+|                Value                | Description |
+| ----------------------------------- | ----------- |
+| `PhotoshopCompatibility.Photoshop6` | Photoshop 6 |
+| `PhotoshopCompatibility.Photoshop8` | Photoshop 8 |
 
 ---
 
@@ -1078,36 +1078,36 @@ The version of the Acrobat file format to create when saving a PDF file
 
 The type of path point selected
 
-| Value              | Description   |
-|--------------------|---------------|
-| `PointType.CORNER` | Corner        |
-| `PointType.SMOOTH` | Smooth        |
+|       Value        | Description |
+| ------------------ | ----------- |
+| `PointType.CORNER` | Corner      |
+| `PointType.SMOOTH` | Smooth      |
 
 ---
 
 ## PolarityValues
 
-| Value                     | Description   |
-|---------------------------|---------------|
-| `PolarityValues.NEGATIVE` | Negative      |
-| `PolarityValues.POSITIVE` | Positive      |
+|           Value           | Description |
+| ------------------------- | ----------- |
+| `PolarityValues.NEGATIVE` | Negative    |
+| `PolarityValues.POSITIVE` | Positive    |
 
 ---
 
 ## PostScriptImageCompressionType
 
-| Value                                                 | Description   |
-|-------------------------------------------------------|---------------|
-| `PostScriptImageCompressionType.IMAGECOMPRESSIONNONE` | todo          |
-| `PostScriptImageCompressionType.JPEG`                 | todo          |
-| `PostScriptImageCompressionType.RLE`                  | todo          |
+|                         Value                         | Description |
+| ----------------------------------------------------- | ----------- |
+| `PostScriptImageCompressionType.IMAGECOMPRESSIONNONE` | todo        |
+| `PostScriptImageCompressionType.JPEG`                 | todo        |
+| `PostScriptImageCompressionType.RLE`                  | todo        |
 
 ---
 
 ## PrintArtworkDesignation
 
-| Value                                            | Description              |
-|--------------------------------------------------|--------------------------|
+|                      Value                       |       Description        |
+| ------------------------------------------------ | ------------------------ |
 | `PrintArtworkDesignation.ALLLAYERS`              | All Layers               |
 | `PrintArtworkDesignation.VISIBLELAYERS`          | Visible Layers           |
 | `PrintArtworkDesignation.VISIBLEPRINTABLELAYERS` | Visible Printable Layers |
@@ -1116,19 +1116,19 @@ The type of path point selected
 
 ## PrintColorIntent
 
-| Value                                   | Description   |
-|-----------------------------------------|---------------|
-| `PrintColorIntent.ABSOLUTECOLORIMETRIC` | todo          |
-| `PrintColorIntent.PERCEPTUALINTENT`     | todo          |
-| `PrintColorIntent.RELATIVECOLORIMETRIC` | todo          |
-| `PrintColorIntent.SATURATIONINTENT`     | todo          |
+|                  Value                  | Description |
+| --------------------------------------- | ----------- |
+| `PrintColorIntent.ABSOLUTECOLORIMETRIC` | todo        |
+| `PrintColorIntent.PERCEPTUALINTENT`     | todo        |
+| `PrintColorIntent.RELATIVECOLORIMETRIC` | todo        |
+| `PrintColorIntent.SATURATIONINTENT`     | todo        |
 
 ---
 
 ## PrintColorProfile
 
-| Value                               | Description      |
-|-------------------------------------|------------------|
+|                Value                |   Description    |
+| ----------------------------------- | ---------------- |
 | `PrintColorProfile.CUSTOMPROFILE`   | Custom Profile   |
 | `PrintColorProfile.PRINTERPROFILE`  | Printer Profile  |
 | `PrintColorProfile.OLDSTYLEPROFILE` | Oldstyle Profile |
@@ -1138,8 +1138,8 @@ The type of path point selected
 
 ## PrintColorSeparationMode
 
-| Value                                          | Description           |
-|------------------------------------------------|-----------------------|
+|                     Value                      |      Description      |
+| ---------------------------------------------- | --------------------- |
 | `PrintColorSeparationMode.COMPOSITE`           | Composite             |
 | `PrintColorSeparationMode.HOSTBASEDSEPARATION` | Host-Based Separation |
 | `PrintColorSeparationMode.INRIPSEPARATION`     | Inrip Separation      |
@@ -1148,8 +1148,8 @@ The type of path point selected
 
 ## PrinterColorMode
 
-| Value                                   | Description   |
-|-----------------------------------------|---------------|
+|                  Value                  |  Description  |
+| --------------------------------------- | ------------- |
 | `PrinterColorMode.BLACKANDWHITEPRINTER` | Black & White |
 | `PrinterColorMode.COLORPRINTER`         | Color         |
 | `PrinterColorMode.GRAYSCALEPRINTER`     | Grayscale     |
@@ -1158,18 +1158,18 @@ The type of path point selected
 
 ## PrinterPostScriptLevelEnum
 
-| Value                                 | Description   |
-|---------------------------------------|---------------|
-| `PrinterPostScriptLevelEnum.PSLEVEL1` | PS LEVEL 1    |
-| `PrinterPostScriptLevelEnum.PSLEVEL2` | PS LEVEL 2    |
-| `PrinterPostScriptLevelEnum.PSLEVEL3` | PS LEVEL 3    |
+|                 Value                 | Description |
+| ------------------------------------- | ----------- |
+| `PrinterPostScriptLevelEnum.PSLEVEL1` | PS LEVEL 1  |
+| `PrinterPostScriptLevelEnum.PSLEVEL2` | PS LEVEL 2  |
+| `PrinterPostScriptLevelEnum.PSLEVEL3` | PS LEVEL 3  |
 
 ---
 
 ## PrinterTypeEnum
 
-| Value                                  | Description            |
-|----------------------------------------|------------------------|
+|                 Value                  |      Description       |
+| -------------------------------------- | ---------------------- |
 | `PrinterTypeEnum.NONPOSTSCRIPTPRINTER` | Non Postscript Printer |
 | `PrinterTypeEnum.POSTSCRIPTPRINTER`    | Postscript Printer     |
 | `PrinterTypeEnum.Unknown`              | Unknown                |
@@ -1178,8 +1178,8 @@ The type of path point selected
 
 ## PrintFontDownloadMode
 
-| Value                                    | Description       |
-|------------------------------------------|-------------------|
+|                  Value                   |    Description    |
+| ---------------------------------------- | ----------------- |
 | `PrintFontDownloadMode.DOWNLOADNONE`     | Download None     |
 | `PrintFontDownloadMode.DOWNLOADCOMPLETE` | Download Complete |
 | `PrintFontDownloadMode.DOWNLOADSUBSET`   | Download Subset   |
@@ -1188,8 +1188,8 @@ The type of path point selected
 
 ## PrintingBounds
 
-| Value                           | Description     |
-|---------------------------------|-----------------|
+|              Value              |   Description   |
+| ------------------------------- | --------------- |
 | `PrintingBounds.ARTBOARDBOUNDS` | Artboard Bounds |
 | `PrintingBounds.ARTWORKBOUNDS`  | Artwork Bounds  |
 
@@ -1199,8 +1199,8 @@ The type of path point selected
 
 The artwork printing orientation.
 
-| Value                               | Description       |
-|-------------------------------------|-------------------|
+|                Value                |    Description    |
+| ----------------------------------- | ----------------- |
 | `PrintOrientation.AUTOROTATE`       | Auto Rotate       |
 | `PrintOrientation.LANDSCAPE`        | Landscape         |
 | `PrintOrientation.PORTRAIT`         | Portrait          |
@@ -1211,8 +1211,8 @@ The artwork printing orientation.
 
 ## PrintPosition
 
-| Value                                | Description            |
-|--------------------------------------|------------------------|
+|                Value                 |      Description       |
+| ------------------------------------ | ---------------------- |
 | `PrintPosition.TRANSLATEBOTTOM`      | Translate Bottom       |
 | `PrintPosition.TRANSLATEBOTTOMLEFT`  | Translate Bottom Left  |
 | `PrintPosition.TRANSLATEBOTTOMRIGHT` | Translate Bottom Right |
@@ -1227,8 +1227,8 @@ The artwork printing orientation.
 
 ## PrintTiling
 
-| Value                            | Description      |
-|----------------------------------|------------------|
+|              Value               |   Description    |
+| -------------------------------- | ---------------- |
 | `PrintTiling.TILEFULLPAGES`      | Full Pages       |
 | `PrintTiling.TILESINGLEFULLPAGE` | Single Full Page |
 | `PrintTiling.TILEIMAGEABLEAREAS` | Imageable Areas  |
@@ -1239,8 +1239,8 @@ The artwork printing orientation.
 
 The color model for the rasterization.
 
-| Value                                       | Description         |
-|---------------------------------------------|---------------------|
+|                    Value                    |     Description     |
+| ------------------------------------------- | ------------------- |
 | `RasterizationColorModel.BITMAP`            | Bitmap              |
 | `RasterizationColorModel.DEFAULTCOLORMODEL` | Default Color Model |
 | `RasterizationColorModel.GRAYSCALE`         | Grayscale           |
@@ -1251,8 +1251,8 @@ The color model for the rasterization.
 
 The status of a raster item's linked image if the image is stored externally
 
-| Value                          | Description    |
-|--------------------------------|----------------|
+|             Value              |  Description   |
+| ------------------------------ | -------------- |
 | `RasterLinkState.DATAFROMFILE` | Data From File |
 | `RasterLinkState.DATAMODIFIED` | Data Modified  |
 | `RasterLinkState.NODATA`       | No Data        |
@@ -1263,16 +1263,16 @@ The status of a raster item's linked image if the image is stored externally
 
 The default measurement units for the rulers of a document
 
-| Value                    | Description   |
-|--------------------------|---------------|
-| `RulerUnits.Centimeters` | Centimeters   |
-| `RulerUnits.Qs`          | Qs            |
-| `RulerUnits.Inches`      | Inches        |
-| `RulerUnits.Pixels`      | Pixels        |
-| `RulerUnits.Millimeters` | Millimeters   |
-| `RulerUnits.Unknown`     | Unknown       |
-| `RulerUnits.Picas`       | Picas         |
-| `RulerUnits.Points`      | Points        |
+|          Value           | Description |
+| ------------------------ | ----------- |
+| `RulerUnits.Centimeters` | Centimeters |
+| `RulerUnits.Qs`          | Qs          |
+| `RulerUnits.Inches`      | Inches      |
+| `RulerUnits.Pixels`      | Pixels      |
+| `RulerUnits.Millimeters` | Millimeters |
+| `RulerUnits.Unknown`     | Unknown     |
+| `RulerUnits.Picas`       | Picas       |
+| `RulerUnits.Points`      | Points      |
 
 ---
 
@@ -1280,8 +1280,8 @@ The default measurement units for the rulers of a document
 
 Save options provided when closing a document.
 
-| Value                             | Description            |
-|-----------------------------------|------------------------|
+|               Value               |      Description       |
+| --------------------------------- | ---------------------- |
 | `SaveOptions.DONOTSAVECHANGES`    | Do Not Save Changes    |
 | `SaveOptions.SAVECHANGES`         | Save Changes           |
 | `SaveOptions.PROMPTTOSAVECHANGES` | Prompt To Save Changes |
@@ -1292,11 +1292,11 @@ Save options provided when closing a document.
 
 The mode of display for a view.
 
-| Value                    | Description   |
-|--------------------------|---------------|
-| `ScreenMode.DESKTOP`     | Desktop       |
-| `ScreenMode.MULTIWINDOW` | Multi Window  |
-| `ScreenMode.FULLSCREEN`  | Fullscreen    |
+|          Value           | Description  |
+| ------------------------ | ------------ |
+| `ScreenMode.DESKTOP`     | Desktop      |
+| `ScreenMode.MULTIWINDOW` | Multi Window |
+| `ScreenMode.FULLSCREEN`  | Fullscreen   |
 
 ---
 
@@ -1304,11 +1304,11 @@ The mode of display for a view.
 
 The custom color kind of a spot color.
 
-| Value                    | Description   |
-|--------------------------|---------------|
-| `SpotColorKind.SpotCMYK` | CMYK          |
-| `SpotColorKind.SpotLAB`  | LAB           |
-| `SpotColorKind.SpotRGB`  | RGB           |
+|          Value           | Description |
+| ------------------------ | ----------- |
+| `SpotColorKind.SpotCMYK` | CMYK        |
+| `SpotColorKind.SpotLAB`  | LAB         |
+| `SpotColorKind.SpotRGB`  | RGB         |
 
 ---
 
@@ -1316,11 +1316,11 @@ The custom color kind of a spot color.
 
 The type of line capping for a path stroke.
 
-| Value                        | Description   |
-|------------------------------|---------------|
-| `StrokeCap.BUTTENDCAP`       | Butt          |
-| `StrokeCap.ROUNDENDCAP`      | Round         |
-| `StrokeCap.PROJECTINGENDCAP` | Projecting    |
+|            Value             | Description |
+| ---------------------------- | ----------- |
+| `StrokeCap.BUTTENDCAP`       | Butt        |
+| `StrokeCap.ROUNDENDCAP`      | Round       |
+| `StrokeCap.PROJECTINGENDCAP` | Projecting  |
 
 ---
 
@@ -1328,18 +1328,18 @@ The type of line capping for a path stroke.
 
 The type of joints for a path stroke.
 
-| Value                     | Description   |
-|---------------------------|---------------|
-| `StrokeJoin.BEVELENDJOIN` | Bevel         |
-| `StrokeJoin.ROUNDENDJOIN` | Round         |
-| `StrokeJoin.MITERENDJOIN` | Miter         |
+|           Value           | Description |
+| ------------------------- | ----------- |
+| `StrokeJoin.BEVELENDJOIN` | Bevel       |
+| `StrokeJoin.ROUNDENDJOIN` | Round       |
+| `StrokeJoin.MITERENDJOIN` | Miter       |
 
 ---
 
 ## StyleRunAlignmentType
 
-| Value                                 | Description    |
-|---------------------------------------|----------------|
+|                 Value                 |  Description   |
+| ------------------------------------- | -------------- |
 | `StyleRunAlignmentType.bottom`        | Bottom         |
 | `StyleRunAlignmentType.icfTop`        | ICF Top        |
 | `StyleRunAlignmentType.center`        | Center         |
@@ -1353,8 +1353,8 @@ The type of joints for a path stroke.
 
 How should the CSS properties of the document be included in an exported SVG file
 
-| Value                                           | Description             |
-|-------------------------------------------------|-------------------------|
+|                      Value                      |       Description       |
+| ----------------------------------------------- | ----------------------- |
 | `SVGCSSPropertyLocation.ENTITIES`               | Entities                |
 | `SVGCSSPropertyLocation.STYLEATTRIBUTES`        | Style Attributes        |
 | `SVGCSSPropertyLocation.PRESENTATIONATTRIBUTES` | Presentation Attributes |
@@ -1366,11 +1366,11 @@ How should the CSS properties of the document be included in an exported SVG fil
 
 How should the text in the document be encoded when exporting an SVG file
 
-| Value                       | Description   |
-|-----------------------------|---------------|
-| `SVGDocumentEncoding.ASCII` | ASCII         |
-| `SVGDocumentEncoding.UTF8`  | UTF8          |
-| `SVGDocumentEncoding.UTF16` | UTF16         |
+|            Value            | Description |
+| --------------------------- | ----------- |
+| `SVGDocumentEncoding.ASCII` | ASCII       |
+| `SVGDocumentEncoding.UTF8`  | UTF8        |
+| `SVGDocumentEncoding.UTF16` | UTF16       |
 
 ---
 
@@ -1378,8 +1378,8 @@ How should the text in the document be encoded when exporting an SVG file
 
 SVG version compatibility for exported files
 
-| Value                          | Description    |
-|--------------------------------|----------------|
+|             Value              |  Description   |
+| ------------------------------ | -------------- |
 | `SVGDTDVersion.SVG1_0`         | SVG1_0         |
 | `SVGDTDVersion.SVG1_1`         | SVG1_1         |
 | `SVGDTDVersion.SVGBASIC1_1`    | SVGBASIC1_1    |
@@ -1393,8 +1393,8 @@ SVG version compatibility for exported files
 
 What font glyphs should be included in exported SVG files
 
-| Value                                     | Description              |
-|-------------------------------------------|--------------------------|
+|                   Value                   |       Description        |
+| ----------------------------------------- | ------------------------ |
 | `SVGFontSubsetting.ALLGLYPHS`             | All Glyphs               |
 | `SVGFontSubsetting.GLYPHSUSEDPLUSENGLISH` | Glyphs Used Plus English |
 | `SVGFontSubsetting.COMMONENGLISH`         | Common English           |
@@ -1409,11 +1409,11 @@ What font glyphs should be included in exported SVG files
 
 Types for fonts included in exported SVG files
 
-| Value                     | Description   |
-|---------------------------|---------------|
-| `SVGFontType.CEFFONT`     | CEF Font      |
-| `SVGFontType.SVGFONT`     | SVG Font      |
-| `SVGFontType.OUTLINEFONT` | Outline Font  |
+|           Value           | Description  |
+| ------------------------- | ------------ |
+| `SVGFontType.CEFFONT`     | CEF Font     |
+| `SVGFontType.SVGFONT`     | SVG Font     |
+| `SVGFontType.OUTLINEFONT` | Outline Font |
 
 ---
 
@@ -1421,8 +1421,8 @@ Types for fonts included in exported SVG files
 
 Registration points for symbols.
 
-| Value                                             | Description         |
-|---------------------------------------------------|---------------------|
+|                       Value                       |     Description     |
+| ------------------------------------------------- | ------------------- |
 | `SymbolRegistrationPoint.SYMBOLBOTTOMLEFTPOINT`   | Bottom Left Point   |
 | `SymbolRegistrationPoint.SYMBOLBOTTOMMIDDLEPOINT` | Bottom Middle Point |
 | `SymbolRegistrationPoint.SYMBOLBOTTOMRIGHTPOINT`  | Bottom Right Point  |
@@ -1439,12 +1439,12 @@ Registration points for symbols.
 
 The alignment of a tab stop.
 
-| Value                      | Description   |
-|----------------------------|---------------|
-| `TabStopAlignment.Center`  | Center        |
-| `TabStopAlignment.Decimal` | Decimal       |
-| `TabStopAlignment.Left`    | Left          |
-| `TabStopAlignment.Right`   | Right         |
+|           Value            | Description |
+| -------------------------- | ----------- |
+| `TabStopAlignment.Center`  | Center      |
+| `TabStopAlignment.Decimal` | Decimal     |
+| `TabStopAlignment.Left`    | Left        |
+| `TabStopAlignment.Right`   | Right       |
 
 ---
 
@@ -1452,12 +1452,12 @@ The alignment of a tab stop.
 
 The type of text anti-aliasing in a text art item.
 
-| Value                  | Description   |
-|------------------------|---------------|
-| `TextAntialias.CRISP`  | Crisp         |
-| `TextAntialias.NONE`   | None          |
-| `TextAntialias.SHARP`  | Sharp         |
-| `TextAntialias.STRONG` | Strong        |
+|         Value          | Description |
+| ---------------------- | ----------- |
+| `TextAntialias.CRISP`  | Crisp       |
+| `TextAntialias.NONE`   | None        |
+| `TextAntialias.SHARP`  | Sharp       |
+| `TextAntialias.STRONG` | Strong      |
 
 ---
 
@@ -1465,10 +1465,10 @@ The type of text anti-aliasing in a text art item.
 
 The orientation of text in a text art item.
 
-| Value                        | Description   |
-|------------------------------|---------------|
-| `TextOrientation.HORIZONTAL` | Horizontal    |
-| `TextOrientation.VERTICAL`   | Vertical      |
+|            Value             | Description |
+| ---------------------------- | ----------- |
+| `TextOrientation.HORIZONTAL` | Horizontal  |
+| `TextOrientation.VERTICAL`   | Vertical    |
 
 ---
 
@@ -1476,8 +1476,8 @@ The orientation of text in a text art item.
 
 The text-preserve policy used by the FXG file format.
 
-| Value                                         | Description                |
-|-----------------------------------------------|----------------------------|
+|                     Value                     |        Description         |
+| --------------------------------------------- | -------------------------- |
 | `TextPreservePolicy.AUTOMATICALLYCONVERTTEXT` | Automatically Convert Text |
 | `TextPreservePolicy.OUTLINETEXT`              | Outline Text               |
 | `TextPreservePolicy.KEEPTEXTEDITABLE`         | Keep Text Editable         |
@@ -1489,11 +1489,11 @@ The text-preserve policy used by the FXG file format.
 
 The type of text art displayed by this object.
 
-| Value                | Description   |
-|----------------------|---------------|
-| `TextType.AREATEXT`  | Area Text     |
-| `TextType.POINTTEXT` | Point Text    |
-| `TextType.PATHTEXT`  | Path Text     |
+|        Value         | Description |
+| -------------------- | ----------- |
+| `TextType.AREATEXT`  | Area Text   |
+| `TextType.POINTTEXT` | Point Text  |
+| `TextType.PATHTEXT`  | Path Text   |
 
 ---
 
@@ -1501,17 +1501,17 @@ The type of text art displayed by this object.
 
 The byte order to use for an exported TIFF file.
 
-| Value                     | Description   |
-|---------------------------|---------------|
-| `TIFFByteOrder.IBMPC`     | IBM PC        |
-| `TIFFByteOrder.MACINTOSH` | Macintosh     |
+|           Value           | Description |
+| ------------------------- | ----------- |
+| `TIFFByteOrder.IBMPC`     | IBM PC      |
+| `TIFFByteOrder.MACINTOSH` | Macintosh   |
 
 ---
 
 ## TracingModeType
 
-| Value                                      | Description   |
-|--------------------------------------------|---------------|
+|                   Value                    |  Description  |
+| ------------------------------------------ | ------------- |
 | `TracingModeType.TRACINGMODEBLACKANDWHITE` | Black & White |
 | `TracingModeType.TRACINGMODECOLOR`         | Color         |
 | `TracingModeType.TRACINGMODEGRAY`          | Gray          |
@@ -1522,8 +1522,8 @@ The byte order to use for an exported TIFF file.
 
 The point to use as the anchor point about which an object is rotated, resized, or transformed.
 
-| Value                           | Description     |
-|---------------------------------|-----------------|
+|              Value              |   Description   |
+| ------------------------------- | --------------- |
 | `Transformation.BOTTOM`         | Bottom          |
 | `Transformation.BOTTOMLEFT`     | Bottom Left     |
 | `Transformation.BOTTOMRIGHT`    | Bottom Right    |
@@ -1539,12 +1539,12 @@ The point to use as the anchor point about which an object is rotated, resized, 
 
 ## TrappingType
 
-| Value                         | Description   |
-|-------------------------------|---------------|
-| `TrappingType.IGNOREOPAQUE`   | todo          |
-| `TrappingType.OPAQUE`         | todo          |
-| `TrappingType.NORMALTRAPPING` | todo          |
-| `TrappingType.TRANSPARENT`    | todo          |
+|             Value             | Description |
+| ----------------------------- | ----------- |
+| `TrappingType.IGNOREOPAQUE`   | todo        |
+| `TrappingType.OPAQUE`         | todo        |
+| `TrappingType.NORMALTRAPPING` | todo        |
+| `TrappingType.TRANSPARENT`    | todo        |
 
 ---
 
@@ -1552,8 +1552,8 @@ The point to use as the anchor point about which an object is rotated, resized, 
 
 User interface settings
 
-| Value                                    | Description          |
-|------------------------------------------|----------------------|
+|                  Value                   |     Description      |
+| ---------------------------------------- | -------------------- |
 | `UserInteractionLevel.DISPLAYALERTS`     | Display Alerts       |
 | `UserInteractionLevel.DONTDISPLAYALERTS` | Don't Display Alerts |
 
@@ -1563,13 +1563,13 @@ User interface settings
 
 What type of variables are included in the document.
 
-| Value                     | Description   |
-|---------------------------|---------------|
-| `VariableKind.GRAPH`      | Graph         |
-| `VariableKind.IMAGE`      | Image         |
-| `VariableKind.VISIBILITY` | Visibility    |
-| `VariableKind.TEXTUAL`    | Textual       |
-| `VariableKind.Unknown`    | Unknown       |
+|           Value           | Description |
+| ------------------------- | ----------- |
+| `VariableKind.GRAPH`      | Graph       |
+| `VariableKind.IMAGE`      | Image       |
+| `VariableKind.VISIBILITY` | Visibility  |
+| `VariableKind.TEXTUAL`    | Textual     |
+| `VariableKind.Unknown`    | Unknown     |
 
 ---
 
@@ -1577,8 +1577,8 @@ What type of variables are included in the document.
 
 The raster visualization mode for tracing.
 
-| Value                                              | Description       |
-|----------------------------------------------------|-------------------|
+|                       Value                        |    Description    |
+| -------------------------------------------------- | ----------------- |
 | `ViewRasterType.TRACINGVIEWRASTERADJUSTEDIMAGE`    | Adjusted Image    |
 | `ViewRasterType.TRACINGVIEWRASTERNOIMAGE`          | No Image          |
 | `ViewRasterType.TRACINGVIEWRASTERORIGINALIMAGE`    | Original Image    |
@@ -1590,8 +1590,8 @@ The raster visualization mode for tracing.
 
 The vector visualization mode for tracing.
 
-| Value                                                 | Description           |
-|-------------------------------------------------------|-----------------------|
+|                         Value                         |      Description      |
+| ----------------------------------------------------- | --------------------- |
 | `ViewVectorType.TRACINGVIEWVECTORNOTRACINGRESULT`     | No Tracing Result     |
 | `ViewVectorType.TRACINGVIEWVECTOROUTLINES`            | Outlines              |
 | `ViewVectorType.TRACINGVIEWVECTOROUTLINESWITHTRACING` | Outlines With Tracing |
@@ -1601,8 +1601,8 @@ The vector visualization mode for tracing.
 
 ## WariChuJustificationType
 
-| Value                                                       | Description                           |
-|-------------------------------------------------------------|---------------------------------------|
+|                            Value                            |              Description              |
+| ----------------------------------------------------------- | ------------------------------------- |
 | `WariChuJustificationType.Center`                           | Center                                |
 | `WariChuJustificationType.Left`                             | Left                                  |
 | `WariChuJustificationType.Right`                            | Right                                 |
@@ -1618,8 +1618,8 @@ The vector visualization mode for tracing.
 
 The method used to arrange an art item's position in the stacking order of its parent group or layer, as specified with the zOrder method
 
-| Value                       | Description    |
-|-----------------------------|----------------|
+|            Value            |  Description   |
+| --------------------------- | -------------- |
 | `ZOrderMethod.BRINGFORWARD` | Bring Forward  |
 | `ZOrderMethod.SENDBACKWARD` | Send Backward  |
 | `ZOrderMethod.BRINGTOFRONT` | Bring To Front |

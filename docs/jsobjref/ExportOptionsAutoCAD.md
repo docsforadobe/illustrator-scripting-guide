@@ -41,7 +41,7 @@ The colors exported into the AutoCAD file.
 
 #### Type
 
-[AutoCADColors](scripting-constants.md#jsobjref-scripting-constants-autocadcolors)
+[AutoCADColors](scripting-constants.md#autocadcolors)
 
 ---
 
@@ -73,7 +73,7 @@ Default: `AutoCADExportFileFormat.DWG`.
 
 #### Type
 
-[AutoCADExportFileFormat](scripting-constants.md#jsobjref-scripting-constants-autocadexportfileformat)
+[AutoCADExportFileFormat](scripting-constants.md#autocadexportfileformat)
 
 ---
 
@@ -89,7 +89,7 @@ Default: `AutoCADExportOption.MaximizeEditability`.
 
 #### Type
 
-[AutoCADExportOption](scripting-constants.md#jsobjref-scripting-constants-autocadexportoption)
+[AutoCADExportOption](scripting-constants.md#autocadexportoption)
 
 ---
 
@@ -119,7 +119,7 @@ The format in which raster art is exported.
 
 #### Type
 
-[AutoCADRasterFormat](scripting-constants.md#jsobjref-scripting-constants-autocadrasterformat)
+[AutoCADRasterFormat](scripting-constants.md#autocadrasterformat)
 
 ---
 
@@ -149,7 +149,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -163,7 +163,7 @@ The measurement units from which to map.
 
 #### Type
 
-[AutoCADUnit](scripting-constants.md#jsobjref-scripting-constants-autocadunit)
+[AutoCADUnit](scripting-constants.md#autocadunit)
 
 ---
 
@@ -195,4 +195,4 @@ Default: `AutoCADCompatibility.AutoCADRelease24`.
 
 #### Type
 
-[AutoCADCompatibility](scripting-constants.md#jsobjref-scripting-constants-autocadcompatibility)
+[AutoCADCompatibility](scripting-constants.md#autocadcompatibility)

@@ -20,7 +20,7 @@ Number of elements in the collection.
 
 #### Type
 
-Number, read-only.
+Number; read-only.
 
 ---
 
@@ -34,7 +34,7 @@ The object's container.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -48,7 +48,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -76,9 +76,10 @@ The default registration point is `SymbolRegistrationPoint.SYMBOLCENTERPOINT`.
 
 #### Parameters
 
-| Parameter                           | Type                                                                                                                                                           | Description                                                    |
-|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| `sourceArt`<br/>`registrationPoint` | [PageItem](./PageItem.md)<br/>[SymbolRegistrationPoint](scripting-constants.md#jsobjref-scripting-constants-symbolregistrationpoint), optional | Source art to create symbol from<br/>Registration point to use |
+|      Parameter      |                                        Type                                         |           Description            |
+| ------------------- | ----------------------------------------------------------------------------------- | -------------------------------- |
+| `sourceArt`         | [PageItem](./PageItem.md)                                                           | Source art to create symbol from |
+| `registrationPoint` | [SymbolRegistrationPoint](scripting-constants.md#symbolregistrationpoint), optional | Registration point to use        |
 
 #### Returns
 
@@ -96,9 +97,9 @@ Get the first element in the collection with the provided name.
 
 #### Parameters
 
-| Parameter   | Type   | Description            |
-|-------------|--------|------------------------|
-| `name`      | String | Name of element to get |
+| Parameter |  Type  |      Description       |
+| --------- | ------ | ---------------------- |
+| `name`    | String | Name of element to get |
 
 #### Returns
 
@@ -116,9 +117,9 @@ Gets an element from the collection.
 
 #### Parameters
 
-| Parameter   | Type           | Description          |
-|-------------|----------------|----------------------|
-| `itemKey`   | String, Number | String or number key |
+| Parameter |      Type      |     Description      |
+| --------- | -------------- | -------------------- |
+| `itemKey` | String, Number | String or number key |
 
 #### Returns
 

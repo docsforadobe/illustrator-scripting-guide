@@ -9,8 +9,6 @@ Specifies the properties of a character contained in a text frame. A `CharacterS
 !!! note
     Character attributes do not have default values, and are undefined until explicitly set.
 
-// todo: get the absolute path to characterAttributes.. `document.textFrames.textRef.textRange.characters[index].characterAttributes` ?
-
 ---
 
 ## Properties
@@ -53,7 +51,7 @@ The character alignment type.
 
 #### Type
 
-[StyleRunAlignmentType](scripting-constants.md#jsobjref-scripting-constants-stylerunalignmenttype)
+[StyleRunAlignmentType](scripting-constants.md#stylerunalignmenttype)
 
 ---
 
@@ -67,7 +65,7 @@ The alternate glyphs form.
 
 #### Type
 
-[AlternateGlyphsForm](scripting-constants.md#jsobjref-scripting-constants-alternateglyphsform)
+[AlternateGlyphsForm](scripting-constants.md#alternateglyphsform)
 
 ---
 
@@ -95,7 +93,7 @@ The Japanese text baseline direction.
 
 #### Type
 
-[BaselineDirectionType](scripting-constants.md#jsobjref-scripting-constants-baselinedirectiontype)
+[BaselineDirectionType](scripting-constants.md#baselinedirectiontype)
 
 ---
 
@@ -109,7 +107,7 @@ The baseline position of text.
 
 #### Type
 
-[FontBaselineOption](scripting-constants.md#jsobjref-scripting-constants-fontbaselineoption)
+[FontBaselineOption](scripting-constants.md#fontbaselineoption)
 
 ---
 
@@ -137,7 +135,7 @@ The case of text.
 
 #### Type
 
-[FontCapsOption](scripting-constants.md#jsobjref-scripting-constants-fontcapsoption)
+[FontCapsOption](scripting-constants.md#fontcapsoption)
 
 ---
 
@@ -193,7 +191,7 @@ The number style in a OpenType font.
 
 #### Type
 
-[FigureStyleType](scripting-constants.md#jsobjref-scripting-constants-figurestyletype)
+[FigureStyleType](scripting-constants.md#figurestyletype)
 
 ---
 
@@ -263,7 +261,7 @@ The automatic kerning method to use.
 
 #### Type
 
-[AutoKernType](scripting-constants.md#jsobjref-scripting-constants-autokerntype)
+[AutoKernType](scripting-constants.md#autokerntype)
 
 ---
 
@@ -277,7 +275,7 @@ The language of text.
 
 #### Type
 
-[LanguageType](scripting-constants.md#jsobjref-scripting-constants-languagetype)
+[LanguageType](scripting-constants.md#languagetype)
 
 ---
 
@@ -333,7 +331,7 @@ The OpenType baseline position.
 
 #### Type
 
-[FontOpenTypePositionOption](scripting-constants.md#jsobjref-scripting-constants-fontopentypepositionoption)
+[FontOpenTypePositionOption](scripting-constants.md#fontopentypepositionoption)
 
 ---
 
@@ -403,7 +401,7 @@ The object's container.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -613,7 +611,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -697,7 +695,7 @@ The Wari-Chu justification.
 
 #### Type
 
-[WariChuJustificationType](scripting-constants.md#jsobjref-scripting-constants-warichujustificationtype)
+[WariChuJustificationType](scripting-constants.md#warichujustificationtype)
 
 ---
 

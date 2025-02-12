@@ -18,11 +18,13 @@ When you export a document, the appropriate file extension is appended automatic
 
 #### Description
 
-How the art should be clipped during output. Default: `ArtClippingOption.OUTPUTARTBOUNDS`.
+How the art should be clipped during output.
+
+Default: `ArtClippingOption.OUTPUTARTBOUNDS`.
 
 #### Type
 
-[ArtClippingOption](scripting-constants.md#jsobjref-scripting-constants-artclippingoption)
+[ArtClippingOption](scripting-constants.md#artclippingoption)
 
 ---
 
@@ -32,7 +34,9 @@ How the art should be clipped during output. Default: `ArtClippingOption.OUTPUTA
 
 #### Description
 
-If `saveMultipleArtboards` is `true`, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty String.
+If `saveMultipleArtboards` is `true`, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards.
+
+Default: empty String.
 
 #### Type
 
@@ -74,11 +78,13 @@ Array of [Layers](./Layers.md)
 
 #### Description
 
-The animation type for blended objects. Default: `BlendAnimationType.NOBLENDANIMATION`.
+The animation type for blended objects.
+
+Default: `BlendAnimationType.NOBLENDANIMATION`.
 
 #### Type
 
-[BlendAnimationType](scripting-constants.md#jsobjref-scripting-constants-blendanimationtype)
+[BlendAnimationType](scripting-constants.md#blendanimationtype)
 
 ---
 
@@ -88,7 +94,9 @@ The animation type for blended objects. Default: `BlendAnimationType.NOBLENDANIM
 
 #### Description
 
-If `true`, the exported file should be exported compressed. Default: `false`.
+If `true`, the exported file should be exported compressed.
+
+Default: `false`.
 
 #### Type
 
@@ -102,7 +110,9 @@ Boolean.
 
 #### Description
 
-If `true`, all text is converted to vector paths; preserves the visual appearance of type in all Flash players. Default: `false`.
+If `true`, all text is converted to vector paths; preserves the visual appearance of type in all Flash players.
+
+Default: `false`.
 
 #### Type
 
@@ -116,7 +126,9 @@ Boolean.
 
 #### Description
 
-The amount of curve information that should be presented. Default: 7.
+The amount of curve information that should be presented.
+
+Default: 7.
 
 #### Type
 
@@ -130,7 +142,9 @@ Number (long).
 
 #### Description
 
-If `true`, export all symbols defined in the palette. Default: `false`.
+If `true`, export all symbols defined in the palette.
+
+Default: `false`.
 
 #### Type
 
@@ -144,11 +158,13 @@ Boolean.
 
 #### Description
 
-The style in which the exported data should be created in Flash. Default: `FlashExportStyle.ASFLASHFILE`.
+The style in which the exported data should be created in Flash.
+
+Default: `FlashExportStyle.ASFLASHFILE`.
 
 #### Type
 
-[FlashExportStyle](scripting-constants.md#jsobjref-scripting-constants-flashexportstyle)
+[FlashExportStyle](scripting-constants.md#flashexportstyle)
 
 ---
 
@@ -158,11 +174,13 @@ The style in which the exported data should be created in Flash. Default: `Flash
 
 #### Description
 
-The version of the exported SWF file. Default: `FlashExportVersion.FlashVersion9`.
+The version of the exported SWF file.
+
+Default: `FlashExportVersion.FlashVersion9`.
 
 #### Type
 
-[FlashExportVersion](scripting-constants.md#jsobjref-scripting-constants-flashexportversion)
+[FlashExportVersion](scripting-constants.md#flashexportversion)
 
 ---
 
@@ -172,7 +190,11 @@ The version of the exported SWF file. Default: `FlashExportVersion.FlashVersion9
 
 #### Description
 
-The display rate in frames per second. Range: 0.01-120.0. Default: 12.0.
+The display rate in frames per second.
+
+Range: 0.01-120.0.
+
+Default: 12.0.
 
 #### Type
 
@@ -186,7 +208,9 @@ Number (double).
 
 #### Description
 
-If `true`, ignore kerning information in text objects. Default: `false`.
+If `true`, ignore kerning information in text objects.
+
+Default: `false`.
 
 #### Type
 
@@ -200,11 +224,13 @@ Boolean.
 
 #### Description
 
-How should the image in the exported Flash file be compressed. Default: `FlashImageFormat.LOSSLESS`.
+How should the image in the exported Flash file be compressed.
+
+Default: `FlashImageFormat.LOSSLESS`.
 
 #### Type
 
-[FlashImageFormat](scripting-constants.md#jsobjref-scripting-constants-flashimageformat)
+[FlashImageFormat](scripting-constants.md#flashimageformat)
 
 ---
 
@@ -214,7 +240,9 @@ How should the image in the exported Flash file be compressed. Default: `FlashIm
 
 #### Description
 
-If `true`, include minimal XMP metadata in the SWF file. Default: `false`.
+If `true`, include minimal XMP metadata in the SWF file.
+
+Default: `false`.
 
 #### Type
 
@@ -228,11 +256,13 @@ Boolean.
 
 #### Description
 
-Specifies the JPEG method to use. Default: `FlashJPEGMethod.Standard`.
+Specifies the JPEG method to use.
+
+Default: `FlashJPEGMethod.Standard`.
 
 #### Type
 
-[FlashJPEGMethod](scripting-constants.md#jsobjref-scripting-constants-flashjpegmethod)
+[FlashJPEGMethod](scripting-constants.md#flashjpegmethod)
 
 ---
 
@@ -242,7 +272,9 @@ Specifies the JPEG method to use. Default: `FlashJPEGMethod.Standard`.
 
 #### Description
 
-Level of compression to use. Range 1 to 10. Default: 3.
+Level of compression to use. Range 1 to 10.
+
+Default: 3.
 
 #### Type
 
@@ -256,11 +288,13 @@ Number (long).
 
 #### Description
 
-The order in which layers are exported to Flash frames. Default: `LayerOrderType.BOTTOMUP`.
+The order in which layers are exported to Flash frames.
+
+Default: `LayerOrderType.BOTTOMUP`.
 
 #### Type
 
-[LayerOrderType](scripting-constants.md#jsobjref-scripting-constants-layerordertype)
+[LayerOrderType](scripting-constants.md#layerordertype)
 
 ---
 
@@ -270,7 +304,9 @@ The order in which layers are exported to Flash frames. Default: `LayerOrderType
 
 #### Description
 
-If `true`, the Flash file is set to loop when run. Default: `false`.
+If `true`, the Flash file is set to loop when run.
+
+Default: `false`.
 
 #### Type
 
@@ -284,11 +320,13 @@ Boolean.
 
 #### Description
 
-The access level for the exported SWF file. Default: `FlashPlaybackSecurity.PlaybackLocal`.
+The access level for the exported SWF file.
+
+Default: `FlashPlaybackSecurity.PlaybackLocal`.
 
 #### Type
 
-[FlashPlaybackSecurity](scripting-constants.md#jsobjref-scripting-constants-flashplaybacksecurity)
+[FlashPlaybackSecurity](scripting-constants.md#flashplaybacksecurity)
 
 ---
 
@@ -298,7 +336,9 @@ The access level for the exported SWF file. Default: `FlashPlaybackSecurity.Play
 
 #### Description
 
-If `true`, preserve appearance. If `false`, preserve editability. Default: `false`.
+If `true`, preserve appearance. If `false`, preserve editability.
+
+Default: `false`.
 
 #### Type
 
@@ -312,7 +352,9 @@ Boolean.
 
 #### Description
 
-If `true`, export as read-only file. Default: `false`.
+If `true`, export as read-only file.
+
+Default: `false`.
 
 #### Type
 
@@ -326,11 +368,13 @@ Boolean.
 
 #### Description
 
-If a file with the same name already exists, should it be replaced. Default: `SaveOptions.PROMPTTOSAVECHANGES`.
+If a file with the same name already exists, should it be replaced.
+
+Default: `SaveOptions.PROMPTTOSAVECHANGES`.
 
 #### Type
 
-[SaveOptions](scripting-constants.md#jsobjref-scripting-constants-saveoptions)
+[SaveOptions](scripting-constants.md#saveoptions)
 
 ---
 
@@ -340,7 +384,11 @@ If a file with the same name already exists, should it be replaced. Default: `Sa
 
 #### Description
 
-The resolution in pixels per inch. Range: 72-2400. Default: 72.
+The resolution in pixels per inch.
+
+Range: 72-2400.
+
+Default: 72.
 
 #### Type
 
@@ -354,7 +402,9 @@ Number (double).
 
 #### Description
 
-If `true`, all artboards or range of artboards are saved. Default: `false`.
+If `true`, all artboards or range of artboards are saved.
+
+Default: `false`.
 
 #### Type
 
@@ -372,7 +422,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

@@ -68,11 +68,11 @@ If no location is specified, adds it to the containing text frame after the curr
 
 #### Parameters
 
-| Parameter           | Type                                                                                               | Description             |
-|---------------------|----------------------------------------------------------------------------------------------------|-------------------------|
-| `contents`          | String                                                                                             | Word to add             |
-| `relativeObject`    | [TextFrameItem](./TextFrameItem.md), optional                                 | Object to add item to   |
-| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert text |
+|      Parameter      |                                 Type                                  |       Description       |
+| ------------------- | --------------------------------------------------------------------- | ----------------------- |
+| `contents`          | String                                                                | Word to add             |
+| `relativeObject`    | [TextFrameItem](./TextFrameItem.md), optional                         | Object to add item to   |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#elementplacement), optional | Location to insert text |
 
 #### Returns
 
@@ -90,9 +90,9 @@ Adds a word before the current word selection or insertion point.
 
 #### Parameters
 
-| Parameter   | Type   | Description   |
-|-------------|--------|---------------|
-| `contents`  | String | Word to add   |
+| Parameter  |  Type  | Description |
+| ---------- | ------ | ----------- |
+| `contents` | String | Word to add |
 
 #### Returns
 
@@ -110,9 +110,9 @@ Gets an element from the collection.
 
 #### Parameters
 
-| Parameter   | Type           | Description          |
-|-------------|----------------|----------------------|
-| `itemKey`   | String, Number | String or number key |
+| Parameter |      Type      |     Description      |
+| --------- | -------------- | -------------------- |
+| `itemKey` | String, Number | String or number key |
 
 #### Returns
 

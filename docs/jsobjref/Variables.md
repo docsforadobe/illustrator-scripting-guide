@@ -6,7 +6,7 @@
 
 The collection of [Variable](./Variable.md) objects in the document.
 
-For an example of how to create variables, see [Using variables and datasets](Dataset.md#jsobjref-dataset-usingvariablesanddatasets).
+For an example of how to create variables, see [Using variables and datasets](Dataset.md#using-variables-and-datasets).
 
 ---
 
@@ -80,9 +80,9 @@ Get the first element in the collection with the provided name.
 
 #### Parameters
 
-| Parameter   | Type   | Description            |
-|-------------|--------|------------------------|
-| `name`      | String | Name of element to get |
+| Parameter |  Type  |      Description       |
+| --------- | ------ | ---------------------- |
+| `name`    | String | Name of element to get |
 
 #### Returns
 
@@ -100,9 +100,9 @@ Gets an element from the collection.
 
 #### Parameters
 
-| Parameter   | Type           | Description          |
-|-------------|----------------|----------------------|
-| `itemKey`   | String, Number | String or number key |
+| Parameter |      Type      |     Description      |
+| --------- | -------------- | -------------------- |
+| `itemKey` | String, Number | String or number key |
 
 #### Returns
 

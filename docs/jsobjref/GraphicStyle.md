@@ -34,7 +34,7 @@ The document that contains this graphic style.
 
 #### Type
 
-[Document](./Document.md), read-only.
+[Document](./Document.md); read-only.
 
 ---
 
@@ -48,7 +48,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -64,9 +64,9 @@ Applies this art style to a specified art item.
 
 #### Parameters
 
-| Parameter   | Type                                      | Description     |
-|-------------|-------------------------------------------|-----------------|
-| `artItem`   | [PageItem](./PageItem.md) | Target art item |
+| Parameter |           Type            |   Description   |
+| --------- | ------------------------- | --------------- |
+| `artItem` | [PageItem](./PageItem.md) | Target art item |
 
 #### Returns
 
@@ -84,9 +84,9 @@ Merges this art style into the current styles of a specified art item.
 
 #### Parameters
 
-| Parameter   | Type                                      | Description     |
-|-------------|-------------------------------------------|-----------------|
-| `artItem`   | [PageItem](./PageItem.md) | Target art item |
+| Parameter |           Type            |   Description   |
+| --------- | ------------------------- | --------------- |
+| `artItem` | [PageItem](./PageItem.md) | Target art item |
 
 #### Returns
 

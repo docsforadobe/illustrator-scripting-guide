@@ -18,7 +18,9 @@ When you export a document, the appropriate file extension is appended automatic
 
 #### Description
 
-If `true`, the exported image should be anti-aliased. Default: `true`.
+If `true`, the exported image should be anti-aliased.
+
+Default: `true`.
 
 #### Type
 
@@ -46,7 +48,11 @@ Boolean.
 
 #### Description
 
-The amount of blur to apply to the exported image. Range: 0.0 to 2.0. Default: 0.0.
+The amount of blur to apply to the exported image.
+
+Range: 0.0 to 2.0.
+
+Default: 0.0.
 
 #### Type
 
@@ -60,7 +66,9 @@ Number (double).
 
 #### Description
 
-The horizontal scaling factor to apply to the exported image, where 100.0 is 100%. Default: 100.0.
+The horizontal scaling factor to apply to the exported image, where 100.0 is 100%.
+
+Default: 100.0.
 
 #### Type
 
@@ -74,7 +82,9 @@ Number (double).
 
 #### Description
 
-If `true`, the art board should be matted with a color. Default: `true`.
+If `true`, the art board should be matted with a color.
+
+Default: `true`.
 
 #### Type
 
@@ -88,7 +98,9 @@ Boolean.
 
 #### Description
 
-The color to use when matting the art board. Default: `white`.
+The color to use when matting the art board.
+
+Default: `white`.
 
 #### Type
 
@@ -102,7 +114,9 @@ The color to use when matting the art board. Default: `white`.
 
 #### Description
 
-If `true`, the exported image should be optimized for web viewing. Default: `true`.
+If `true`, the exported image should be optimized for web viewing.
+
+Default: `true`.
 
 #### Type
 
@@ -116,7 +130,11 @@ Boolean.
 
 #### Description
 
-The quality of the exported image. Range: 0 to 100. Default: 30.
+The quality of the exported image.
+
+Range: 0 to 100.
+
+Default: 30.
 
 #### Type
 
@@ -130,7 +148,9 @@ Number (long).
 
 #### Description
 
-If `true`, the exported image should be saved with an accompanying HTML file. Default: `false`.
+If `true`, the exported image should be saved with an accompanying HTML file.
+
+Default: `false`.
 
 #### Type
 
@@ -148,7 +168,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -158,7 +178,11 @@ String, read-only.
 
 #### Description
 
-The vertical scaling factor to apply to the exported image. Range: 0.0 to 776.19. Default: 100.0.
+The vertical scaling factor to apply to the exported image.
+
+Range: 0.0 to 776.19.
+
+Default: 100.0.
 
 #### Type
 

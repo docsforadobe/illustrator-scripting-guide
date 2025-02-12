@@ -4,7 +4,7 @@
 
 #### Description
 
-Options for saving a document as an Adobe PDF file, used with the [Document.saveAs()](Document.md#jsobjref-document-saveas) method.
+Options for saving a document as an Adobe PDF file, used with the [Document.saveAs()](Document.md#documentsave) method.
 
 All properties are optional.
 
@@ -102,7 +102,7 @@ Default: `CompressionQuality.None`
 
 #### Type
 
-[CompressionQuality](scripting-constants.md#jsobjref-scripting-constants-compressionquality)
+[CompressionQuality](scripting-constants.md#compressionquality)
 
 ---
 
@@ -118,7 +118,7 @@ Default: `ColorConversion.None`
 
 #### Type
 
-[ColorConversion](scripting-constants.md#jsobjref-scripting-constants-colorconversion)
+[ColorConversion](scripting-constants.md#colorconversion)
 
 ---
 
@@ -134,7 +134,7 @@ Default: `ColorDestination.None`
 
 #### Type
 
-[ColorDestination](scripting-constants.md#jsobjref-scripting-constants-colordestination)
+[ColorDestination](scripting-constants.md#colordestination)
 
 ---
 
@@ -182,7 +182,7 @@ Default: `DownsampleMethod.NODOWNSAMPLE`
 
 #### Type
 
-[DownsampleMethod](scripting-constants.md#jsobjref-scripting-constants-downsamplemethod)
+[DownsampleMethod](scripting-constants.md#downsamplemethod)
 
 ---
 
@@ -198,7 +198,7 @@ Default: `ColorProfile.None`
 
 #### Type
 
-[ColorProfile](scripting-constants.md#jsobjref-scripting-constants-colorprofile)
+[ColorProfile](scripting-constants.md#colorprofile)
 
 ---
 
@@ -230,7 +230,7 @@ Default: `PDFCompatibility.Acrobat5`
 
 #### Type
 
-[PDFCompatibility](scripting-constants.md#jsobjref-scripting-constants-pdfcompatibility)
+[PDFCompatibility](scripting-constants.md#pdfcompatibility)
 
 ---
 
@@ -364,7 +364,9 @@ String.
 
 #### Description
 
-Optional. Include a subset of fonts when less than this percentage of characters is used in the document. Valid for Illustrator 9 file format. Range: 0.0 to 100.0.
+Optional. Include a subset of fonts when less than this percentage of characters is used in the document. Valid for Illustrator 9 file format.
+
+Range: 0.0 to 100.0.
 
 Default: 100.0
 
@@ -402,7 +404,7 @@ Default: `CompressionQuality.None`
 
 #### Type
 
-[CompressionQuality](scripting-constants.md#jsobjref-scripting-constants-compressionquality)
+[CompressionQuality](scripting-constants.md#compressionquality)
 
 ---
 
@@ -450,7 +452,7 @@ Default: `DownSampleMethod.NODOWNSAMPLE`
 
 #### Type
 
-[DownsampleMethod](scripting-constants.md#jsobjref-scripting-constants-downsamplemethod)
+[DownsampleMethod](scripting-constants.md#downsamplemethod)
 
 ---
 
@@ -482,7 +484,7 @@ Default: `MonochromeCompression.None`
 
 #### Type
 
-[MonochromeCompression](scripting-constants.md#jsobjref-scripting-constants-monochromecompression)
+[MonochromeCompression](scripting-constants.md#monochromecompression)
 
 ---
 
@@ -530,7 +532,7 @@ Default: `DownSampleMethod.NODOWNSAMPLE`
 
 #### Type
 
-[DownsampleMethod](scripting-constants.md#jsobjref-scripting-constants-downsamplemethod)
+[DownsampleMethod](scripting-constants.md#downsamplemethod)
 
 ---
 
@@ -626,7 +628,7 @@ Default: PageMarksType.Roman
 
 #### Type
 
-[PageMarksTypes](scripting-constants.md#jsobjref-scripting-constants-pagemarkstypes)
+[PageMarksTypes](scripting-constants.md#pagemarkstypes)
 
 ---
 
@@ -642,7 +644,7 @@ Default: `PDFPrintAllowedEnum.PRINT128HIGHRESOLUTION`
 
 #### Type
 
-[PDFPrintAllowedEnum](scripting-constants.md#jsobjref-scripting-constants-pdfprintallowedenum)
+[PDFPrintAllowedEnum](scripting-constants.md#pdfprintallowedenum)
 
 ---
 
@@ -658,7 +660,7 @@ Default: `PDFChangeAllowedEnum.CHANGE128ANYCHANGES`
 
 #### Type
 
-[PDFChangesAllowedEnum](scripting-constants.md#jsobjref-scripting-constants-pdfchangesallowedenum)
+[PDFChangesAllowedEnum](scripting-constants.md#pdfchangesallowedenum)
 
 ---
 
@@ -688,7 +690,7 @@ Default: `PDFXStandard.PDFXNONE`
 
 #### Type
 
-[PDFXStandard](scripting-constants.md#jsobjref-scripting-constants-pdfxstandard)
+[PDFXStandard](scripting-constants.md#pdfxstandard)
 
 ---
 
@@ -846,7 +848,7 @@ Default: `PDFTrimMarkWeight.TRIMMARKWEIGHT0125`
 
 #### Type
 
-[PDFTrimMarkWeight](scripting-constants.md#jsobjref-scripting-constants-pdftrimmarkweight)
+[PDFTrimMarkWeight](scripting-constants.md#pdftrimmarkweight)
 
 ---
 

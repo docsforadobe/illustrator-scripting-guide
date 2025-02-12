@@ -18,7 +18,9 @@ When you export a document, the appropriate file extension is appended automatic
 
 #### Description
 
-A range of artboards to save, if `saveMultipleArtboards` is `true`. A comma-delimited list of artboard names., or the empty string to save all artboards. Default: empty String.
+A range of artboards to save, if `saveMultipleArtboards` is `true`. A comma-delimited list of artboard names., or the empty string to save all artboards.
+
+Default: empty String.
 
 #### Type
 
@@ -32,7 +34,9 @@ String.
 
 #### Description
 
-If `true`, the exported file should be compressed. Default: `false`.
+If `true`, the exported file should be compressed.
+
+Default: `false`.
 
 #### Type
 
@@ -46,7 +50,11 @@ Boolean.
 
 #### Description
 
-The decimal precision for element coordinate values. Range: 1 to 7. Default: 3.
+The decimal precision for element coordinate values.
+
+Range: 1 to 7.
+
+Default: 3.
 
 #### Type
 
@@ -60,11 +68,13 @@ Number (long)
 
 #### Description
 
-How the CSS properties of the document should be included in the exported file. Default: `SVGCSSPropertyLocation.STYLEATTRIBUTES`.
+How the CSS properties of the document should be included in the exported file.
+
+Default: `SVGCSSPropertyLocation.STYLEATTRIBUTES`.
 
 #### Type
 
-[SVGCSSPropertyLocation](scripting-constants.md#jsobjref-scripting-constants-svgcsspropertylocation)
+[SVGCSSPropertyLocation](scripting-constants.md#svgcsspropertylocation)
 
 ---
 
@@ -74,11 +84,13 @@ How the CSS properties of the document should be included in the exported file. 
 
 #### Description
 
-How the text in the document should be encoded. Default: `SVGDocumentEncoding.ASCII`.
+How the text in the document should be encoded.
+
+Default: `SVGDocumentEncoding.ASCII`.
 
 #### Type
 
-[SVGDocumentEncoding](scripting-constants.md#jsobjref-scripting-constants-svgdocumentencoding)
+[SVGDocumentEncoding](scripting-constants.md#svgdocumentencoding)
 
 ---
 
@@ -88,11 +100,13 @@ How the text in the document should be encoded. Default: `SVGDocumentEncoding.AS
 
 #### Description
 
-The SVG version to which the file should conform. Default: `SVGDTDVersion.SVG1_1`.
+The SVG version to which the file should conform.
+
+Default: `SVGDTDVersion.SVG1_1`.
 
 #### Type
 
-[SVGDTDVersion](scripting-constants.md#jsobjref-scripting-constants-svgdtdversion)
+[SVGDTDVersion](scripting-constants.md#svgdtdversion)
 
 ---
 
@@ -102,7 +116,9 @@ The SVG version to which the file should conform. Default: `SVGDTDVersion.SVG1_1
 
 #### Description
 
-If `true`, the raster images contained in the document should be embedded in the exported file. Default: `false`.
+If `true`, the raster images contained in the document should be embedded in the exported file.
+
+Default: `false`.
 
 #### Type
 
@@ -116,11 +132,13 @@ Boolean.
 
 #### Description
 
-Which font glyphs should be included in the exported file. Default: `SVGFontSubsetting.ALLGLYPHS`.
+Which font glyphs should be included in the exported file.
+
+Default: `SVGFontSubsetting.ALLGLYPHS`.
 
 #### Type
 
-[SVGFontSubsetting](scripting-constants.md#jsobjref-scripting-constants-svgfontsubsetting)
+[SVGFontSubsetting](scripting-constants.md#svgfontsubsetting)
 
 ---
 
@@ -130,11 +148,13 @@ Which font glyphs should be included in the exported file. Default: `SVGFontSubs
 
 #### Description
 
-The type of font to included in the exported file. Default: `SVGFontType.CEFFONT`.
+The type of font to included in the exported file.
+
+Default: `SVGFontType.CEFFONT`.
 
 #### Type
 
-[SVGFontType](scripting-constants.md#jsobjref-scripting-constants-svgfonttype)
+[SVGFontType](scripting-constants.md#svgfonttype)
 
 ---
 
@@ -144,7 +164,9 @@ The type of font to included in the exported file. Default: `SVGFontType.CEFFONT
 
 #### Description
 
-If `true`, file information should be saved in the exported file. Default: `false`.
+If `true`, file information should be saved in the exported file.
+
+Default: `false`.
 
 #### Type
 
@@ -158,7 +180,9 @@ Boolean.
 
 #### Description
 
-If `true`, save unused styles in the exported file. Default: `false`.
+If `true`, save unused styles in the exported file.
+
+Default: `false`.
 
 #### Type
 
@@ -172,7 +196,9 @@ Boolean.
 
 #### Description
 
-If `true`, variables and datasets should be saved in the exported file. Default: `false`.
+If `true`, variables and datasets should be saved in the exported file.
+
+Default: `false`.
 
 #### Type
 
@@ -186,7 +212,9 @@ Boolean.
 
 #### Description
 
-If `true`, the exported file should be optimized for the SVG Viewer. Default: `false`.
+If `true`, the exported file should be optimized for the SVG Viewer.
+
+Default: `false`.
 
 #### Type
 
@@ -200,7 +228,9 @@ Boolean.
 
 #### Description
 
-If `true`, Illustrator editing capabilities should be preserved when exporting the document. Default: `false`.
+If `true`, Illustrator editing capabilities should be preserved when exporting the document.
+
+Default: `false`.
 
 #### Type
 
@@ -214,7 +244,9 @@ Boolean.
 
 #### Description
 
-If `true`, save the artboards specified by artboardRange in the exported file. Default: `false`.
+If `true`, save the artboards specified by artboardRange in the exported file.
+
+Default: `false`.
 
 #### Type
 
@@ -228,7 +260,9 @@ Boolean.
 
 #### Description
 
-If `true`, slice data should be exported with the file. Default: `false`.
+If `true`, slice data should be exported with the file.
+
+Default: `false`.
 
 #### Type
 
@@ -242,7 +276,9 @@ Boolean.
 
 #### Description
 
-If `true`, SVG automatic kerning is allowed in the file. Default: `false`.
+If `true`, SVG automatic kerning is allowed in the file.
+
+Default: `false`.
 
 #### Type
 
@@ -256,7 +292,9 @@ Boolean.
 
 #### Description
 
-If `true`, the SVG text-on-path construct is allowed in the file. Default: `false`.
+If `true`, the SVG text-on-path construct is allowed in the file.
+
+Default: `false`.
 
 #### Type
 
@@ -274,7 +312,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

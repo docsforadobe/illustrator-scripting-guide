@@ -4,7 +4,7 @@
 
 #### Description
 
-Options for image capture, used with the [Document.imageCapture()](Document.md#jsobjref-document-imagecapture) method. All properties are optional.
+Options for image capture, used with the [Document.imageCapture()](Document.md#documentimagecapture) method. All properties are optional.
 
 ---
 
@@ -16,7 +16,9 @@ Options for image capture, used with the [Document.imageCapture()](Document.md#j
 
 #### Description
 
-If `true`, the image result is anti-aliased. Default: `false`.
+If `true`, the image result is anti-aliased.
+
+Default: `false`.
 
 #### Type
 
@@ -30,7 +32,9 @@ Boolean
 
 #### Description
 
-If `true`, the artboard is matted with a color. Default: `false`.
+If `true`, the artboard is matted with a color.
+
+Default: `false`.
 
 #### Type
 
@@ -44,7 +48,9 @@ Boolean
 
 #### Description
 
-The color to use for the artboard matte. Default: white.
+The color to use for the artboard matte.
+
+Default: white.
 
 #### Type
 
@@ -58,7 +64,9 @@ The color to use for the artboard matte. Default: white.
 
 #### Description
 
-The resolution of the captured image file in points-per-inch (PPI), in the range [72.0 ... 2400.0]. Default: 150.
+The resolution of the captured image file in points-per-inch (PPI), in the range [72.0 ... 2400.0].
+
+Default: 150.
 
 #### Type
 
@@ -72,7 +80,9 @@ Number (double).
 
 #### Description
 
-If `true`, the image result is transparent. Default: `false`.
+If `true`, the image result is transparent.
+
+Default: `false`.
 
 #### Type
 
@@ -90,4 +100,4 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.

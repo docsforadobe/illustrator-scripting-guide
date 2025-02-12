@@ -24,7 +24,7 @@ Is this object used to create a knockout.
 
 #### Type
 
-[KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
+[KnockoutState](scripting-constants.md#knockoutstate)
 
 ---
 
@@ -38,7 +38,7 @@ The mode to use when compositing this object. An object is considered composited
 
 #### Type
 
-[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
+[BlendModes](scripting-constants.md#blendmodes)
 
 ---
 
@@ -52,7 +52,7 @@ The bounds of the object including stroke width and controls.
 
 #### Type
 
-Rect, read-only.
+Rect; read-only.
 
 ---
 
@@ -66,7 +66,7 @@ If `true`, this page item is editable.
 
 #### Type
 
-Boolean, read-only.
+Boolean; read-only.
 
 ---
 
@@ -80,7 +80,7 @@ The object's bounds excluding the stroke width.
 
 #### Type
 
-Array of 4 numbers, read-only.
+Array of 4 numbers; read-only.
 
 ---
 
@@ -90,7 +90,9 @@ Array of 4 numbers, read-only.
 
 #### Description
 
-The height of the page item, calculated from the geometric bounds. Range: 0.0 to 16348.0.
+The height of the page item, calculated from the geometric bounds.
+
+Range: 0.0 to 16348.0.
 
 #### Type
 
@@ -136,7 +138,7 @@ The layer to which this page item belongs.
 
 #### Type
 
-[Layer](./Layer.md), read-only.
+[Layer](./Layer.md); read-only.
 
 ---
 
@@ -220,7 +222,7 @@ The parent of this object.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -318,7 +320,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -349,7 +351,7 @@ The unique identifier for this pageItem
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -377,7 +379,7 @@ The object's visible bounds, including stroke width of any objects in the illust
 
 #### Type
 
-Array of 4 numbers, read-only.
+Array of 4 numbers; read-only.
 
 ---
 
@@ -387,7 +389,9 @@ Array of 4 numbers, read-only.
 
 #### Description
 
-The width of the page item, calculated from the geometric bounds. Range: 0.0 to 16348.0.
+The width of the page item, calculated from the geometric bounds.
+
+Range: 0.0 to 16348.0.
 
 #### Type
 
@@ -447,7 +451,7 @@ The drawing order of the art within its group or layer.
 
 #### Type
 
-Number (long), read-only.
+Number (long); read-only.
 
 ---
 
@@ -463,11 +467,11 @@ Places art object(s) in a perspective grid at a specified position and grid plan
 
 #### Parameters
 
-| Parameter              | Type                                                                                                     | Description                        |
-|------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------|
-| `posX`                 | Number                                                                                                   | X position to place art at         |
-| `posY`                 | Number                                                                                                   | Y position to place art at         |
-| `perspectiveGridPlane` | [PerspectiveGridPlaneType](scripting-constants.md#jsobjref-scripting-constants-perspectivegridplanetype) | Perspective grid plane type to use |
+|       Parameter        |                                    Type                                     |            Description             |
+| ---------------------- | --------------------------------------------------------------------------- | ---------------------------------- |
+| `posX`                 | Number                                                                      | X position to place art at         |
+| `posY`                 | Number                                                                      | Y position to place art at         |
+| `perspectiveGridPlane` | [PerspectiveGridPlaneType](scripting-constants.md#perspectivegridplanetype) | Perspective grid plane type to use |
 
 #### Returns
 
@@ -479,8 +483,14 @@ Returns.
 
 ```javascript
 app.activeDocument.pageItems[index].resize(
-    scaleX, scaleY [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
+    scaleX,
+    scaleY
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,changeLineWidths]
+    [,scaleAbout]
 )
 ```
 
@@ -490,16 +500,16 @@ Scales the art item where `scaleX` is the horizontal scaling factor and `scaleY`
 
 #### Parameters
 
-| Parameter             | Type                                                                                           | Description                                             |
-|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| `scaleX`              | Number (double)                                                                                | Horizontal scaling factor                               |
-| `scaleY`              | Number (double)                                                                                | Vertical scaling factor                                 |
-| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
-| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
-| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
-| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
-| `changeLineWidths`    | Number (double), optional                                                                      | The amount to scale line widths                         |
-| `scaleAbout`          | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
+|       Parameter       |                               Type                                |                       Description                       |
+| --------------------- | ----------------------------------------------------------------- | ------------------------------------------------------- |
+| `scaleX`              | Number (double)                                                   | Horizontal scaling factor                               |
+| `scaleY`              | Number (double)                                                   | Vertical scaling factor                                 |
+| `changePositions`     | Boolean, optional                                                 | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                 | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                 | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                 | Whether to transform stroke patterns                    |
+| `changeLineWidths`    | Number (double), optional                                         | The amount to scale line widths                         |
+| `scaleAbout`          | [Transformation](scripting-constants.md#transformation), optional | The point to use as anchor, to transform about          |
 
 #### Returns
 
@@ -511,8 +521,12 @@ Nothing.
 
 ```javascript
 app.activeDocument.pageItems[index].rotate(
-    angle [,changePositions] [,changeFillPatterns]
-    [,changeFillGradients] [,changeStrokePattern] [,rotateAbout]
+    angle
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,rotateAbout]
 )
 ```
 
@@ -522,14 +536,14 @@ Rotates the art item relative to the current rotation. The object is rotated cou
 
 #### Parameters
 
-| Parameter             | Type                                                                                           | Description                                             |
-|-----------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| `angle`               | Number (double)                                                                                | The angle amount to rotate the element                  |
-| `changePositions`     | Boolean, optional                                                                              | Whether to effect art object positions and orientations |
-| `changeFillPatterns`  | Boolean, optional                                                                              | Whether to transform fill patterns                      |
-| `changeFillGradients` | Boolean, optional                                                                              | Whether to transform fill gradients                     |
-| `changeStrokePattern` | Boolean, optional                                                                              | Whether to transform stroke patterns                    |
-| `rotateAbout`         | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about          |
+|       Parameter       |                               Type                                |                       Description                       |
+| --------------------- | ----------------------------------------------------------------- | ------------------------------------------------------- |
+| `angle`               | Number (double)                                                   | The angle amount to rotate the element                  |
+| `changePositions`     | Boolean, optional                                                 | Whether to effect art object positions and orientations |
+| `changeFillPatterns`  | Boolean, optional                                                 | Whether to transform fill patterns                      |
+| `changeFillGradients` | Boolean, optional                                                 | Whether to transform fill gradients                     |
+| `changeStrokePattern` | Boolean, optional                                                 | Whether to transform stroke patterns                    |
+| `rotateAbout`         | [Transformation](scripting-constants.md#transformation), optional | The point to use as anchor, to transform about          |
 
 #### Returns
 
@@ -541,8 +555,13 @@ Nothing.
 
 ```javascript
 app.activeDocument.pageItems[index].transform(
-    transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients]
-    [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
+    transformationMatrix
+    [,changePositions]
+    [,changeFillPatterns]
+    [,changeFillGradients]
+    [,changeStrokePattern]
+    [,changeLineWidths]
+    [,transformAbout]
 )
 ```
 
@@ -552,15 +571,15 @@ Transforms the art item by applying a transformation matrix.
 
 #### Parameters
 
-| Parameter              | Type                                                                                           | Description                                    |
-|------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------|
-| `transformationMatrix` | [Matrix](./Matrix.md)                                                            | Transformation matrix to apply                 |
-| `changePositions`      | Boolean, optional                                                                              | Whether to change Positions                    |
-| `changeFillPatterns`   | Boolean, optional                                                                              | Whether to change Fill Patterns                |
-| `changeFillGradients`  | Boolean, optional                                                                              | Whether to change Fill Gradients               |
-| `changeStrokePattern`  | Boolean, optional                                                                              | Whether to change Stroke Pattern               |
-| `changeLineWidths`     | Number (double), optional                                                                      | The amount to scale line widths                |
-| `transformAbout`       | [Transformation](scripting-constants.md#jsobjref-scripting-constants-transformation), optional | The point to use as anchor, to transform about |
+|       Parameter        |                               Type                                |                  Description                   |
+| ---------------------- | ----------------------------------------------------------------- | ---------------------------------------------- |
+| `transformationMatrix` | [Matrix](./Matrix.md)                                             | Transformation matrix to apply                 |
+| `changePositions`      | Boolean, optional                                                 | Whether to change Positions                    |
+| `changeFillPatterns`   | Boolean, optional                                                 | Whether to change Fill Patterns                |
+| `changeFillGradients`  | Boolean, optional                                                 | Whether to change Fill Gradients               |
+| `changeStrokePattern`  | Boolean, optional                                                 | Whether to change Stroke Pattern               |
+| `changeLineWidths`     | Number (double), optional                                         | The amount to scale line widths                |
+| `transformAbout`       | [Transformation](scripting-constants.md#transformation), optional | The point to use as anchor, to transform about |
 
 #### Returns
 
@@ -572,8 +591,12 @@ Nothing.
 
 ```javascript
 app.activeDocument.pageItems[index].translate(
-    deltaX [,deltaY] [,transformObjects] [,transformFillPatterns]
-    [,transformFillGradients] [,transformStrokePatterns]
+    deltaX
+    [,deltaY]
+    [,transformObjects]
+    [,transformFillPatterns]
+    [,transformFillGradients]
+    [,transformStrokePatterns]
 )
 ```
 
@@ -583,8 +606,8 @@ Repositions the art item relative to the current position, where `deltaX` is the
 
 #### Parameters
 
-| Parameter                 | Type                      | Description                          |
-|---------------------------|---------------------------|--------------------------------------|
+|         Parameter         |           Type            |             Description              |
+| ------------------------- | ------------------------- | ------------------------------------ |
 | `deltaX`                  | Number (double), optional | Horizontal offset                    |
 | `deltaY`                  | Number (double), optional | Vertical offset                      |
 | `transformObjects`        | Boolean, optional         | Whether to transform Objects         |
@@ -608,9 +631,9 @@ Arranges the art item's position in the stacking order of the group or layer (pa
 
 #### Parameters
 
-| Parameter   | Type                                                                             | Description                       |
-|-------------|----------------------------------------------------------------------------------|-----------------------------------|
-| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
+|  Parameter  |                        Type                         |            Description            |
+| ----------- | --------------------------------------------------- | --------------------------------- |
+| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#zordermethod) | Stacking order arrangement method |
 
 #### Returns
 

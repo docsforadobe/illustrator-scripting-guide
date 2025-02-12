@@ -4,7 +4,7 @@
 
 #### Description
 
-Options for opening a Photoshop file, used with the [Application.open()](Application.md#jsobjref-application-open) method. All properties are optional.
+Options for opening a Photoshop file, used with the [Application.open()](Application.md#applicationopen) method. All properties are optional.
 
 ---
 

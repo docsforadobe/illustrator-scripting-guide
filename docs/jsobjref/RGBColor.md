@@ -4,7 +4,7 @@
 
 #### Description
 
-An RGB color specification, used to apply an RGB color to a layer or art item.
+An RGB [Color](./Color.md) specification, used to apply an RGB color to a layer or art item.
 
 If the color space of a document is RGB and you specify the color value for a page item in that document using CMYK, Illustrator will translate the CMYK color specification into an RGB color specification. The same thing happens if the document's color space is CMYK and you specify colors using RGB. Since this translation can lose information, you should specify colors using the class that matches the document's actual color space.
 
@@ -18,7 +18,9 @@ If the color space of a document is RGB and you specify the color value for a pa
 
 #### Description
 
-The blue color value. Range: 0.0 to 255.0.
+The blue color value.
+
+Range: 0.0 to 255.0.
 
 #### Type
 
@@ -32,7 +34,9 @@ Number (double).
 
 #### Description
 
-The green color value. Range: 0.0 to 255.0.
+The green color value.
+
+Range: 0.0 to 255.0.
 
 #### Type
 
@@ -46,7 +50,9 @@ Number (double).
 
 #### Description
 
-The red color value. Range: 0.0 to 255.0.
+The red color value.
+
+Range: 0.0 to 255.0.
 
 #### Type
 
@@ -64,7 +70,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

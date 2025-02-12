@@ -4,7 +4,7 @@
 
 #### Description
 
-A grayscale color specification, used where a `color` object is required.
+A grayscale color specification, used where a [Color](./Color.md) object is required.
 
 ---
 
@@ -16,7 +16,9 @@ A grayscale color specification, used where a `color` object is required.
 
 #### Description
 
-The tint of the gray. Range: 0.0 to 100.0, where 0.0 is black and 100.0 is white.
+The tint of the gray.
+
+Range: 0.0 to 100.0, where 0.0 is black and 100.0 is white.
 
 #### Type
 
@@ -34,7 +36,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

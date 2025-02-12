@@ -18,7 +18,9 @@ When you export a document, the appropriate file extension is appended automatic
 
 #### Description
 
-If `true`, the exported image should be anti-aliased. Default: `true`.
+If `true`, the exported image should be anti-aliased.
+
+Default: `true`.
 
 #### Type
 
@@ -32,7 +34,9 @@ Boolean.
 
 #### Description
 
-If `saveMultipleArtboards` is `true`, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty String.
+If `saveMultipleArtboards` is `true`, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards.
+
+Default: empty String.
 
 #### Type
 
@@ -50,7 +54,7 @@ The byte order to use in the new file.
 
 #### Type
 
-[TIFFByteOrder](scripting-constants.md#jsobjref-scripting-constants-tiffbyteorder)
+[TIFFByteOrder](scripting-constants.md#tiffbyteorder)
 
 ---
 
@@ -60,11 +64,13 @@ The byte order to use in the new file.
 
 #### Description
 
-The color space of the exported file. Default: `ImageColorSpace.RGB`.
+The color space of the exported file.
+
+Default: `ImageColorSpace.RGB`.
 
 #### Type
 
-[ImageColorSpace](scripting-constants.md#jsobjref-scripting-constants-imagecolorspace)
+[ImageColorSpace](scripting-constants.md#imagecolorspace)
 
 ---
 
@@ -91,7 +97,11 @@ Boolean.
 
 #### Description
 
-Resolution of the exported file in dots per inch (dpi). Range: 72.0 to 2400.0. Default: 150.0.
+Resolution of the exported file in dots per inch (dpi).
+
+Range: 72.0 to 2400.0.
+
+Default: 150.0.
 
 #### Type
 
@@ -105,7 +115,9 @@ Number (double).
 
 #### Description
 
-If `true`, all artboards or range of artboards are saved. Default: `false`.
+If `true`, all artboards or range of artboards are saved.
+
+Default: `false`.
 
 #### Type
 

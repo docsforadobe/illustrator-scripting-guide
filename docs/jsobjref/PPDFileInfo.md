@@ -34,7 +34,7 @@ Path specification for the PPD file.
 
 #### Type
 
-File
+[File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object
 
 ---
 

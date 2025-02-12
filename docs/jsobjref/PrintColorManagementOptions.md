@@ -16,11 +16,13 @@ Information used for color management of the document.
 
 #### Description
 
-The color management profile mode. Default: `PrintColorProfile.SOURCEPROFILE`
+The color management profile mode.
+
+Default: `PrintColorProfile.SOURCEPROFILE`
 
 #### Type
 
-[PrintColorProfile](scripting-constants.md#jsobjref-scripting-constants-printcolorprofile)
+[PrintColorProfile](scripting-constants.md#printcolorprofile)
 
 ---
 
@@ -30,11 +32,13 @@ The color management profile mode. Default: `PrintColorProfile.SOURCEPROFILE`
 
 #### Description
 
-The color management intent type. Default: `PrintColorIntent.RELATIVECOLORIMETRIC`
+The color management intent type.
+
+Default: `PrintColorIntent.RELATIVECOLORIMETRIC`
 
 #### Type
 
-[PrintColorIntent](scripting-constants.md#jsobjref-scripting-constants-printcolorintent)
+[PrintColorIntent](scripting-constants.md#printcolorintent)
 
 ---
 

@@ -1,12 +1,14 @@
 # Layer
 
-`app.activeDocument.layers[index`
+`app.activeDocument.layers[index]`
 
 #### Description
 
 A layer in an Illustrator document. Layers may contain nested layers, which are called sublayers in the user interface.
 
-The `layer` object contains all of the page items in the specific layer as elements. Your script can access page items as elements of either the Layer object or as elements of the `Document` object. When accessing page items as elements of a layer, only objects in that layer can be accessed. To access page items throughout the entire document, be sure to refer to them as contained by the document.
+The `layer` object contains all of the page items in the specific layer as elements.
+
+Your script can access page items as elements of either the Layer object or as elements of the [Document](./Document.md) object. When accessing page items as elements of a layer, only objects in that layer can be accessed. To access page items throughout the entire document, be sure to refer to them as contained by the document.
 
 ---
 
@@ -22,7 +24,7 @@ Is this object used to create a knockout, and if so, what kind of knockout. You 
 
 #### Type
 
-[KnockoutState](scripting-constants.md#jsobjref-scripting-constants-knockoutstate)
+[KnockoutState](scripting-constants.md#knockoutstate)
 
 ---
 
@@ -36,7 +38,7 @@ The mode used when compositing an object.
 
 #### Type
 
-[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
+[BlendModes](scripting-constants.md#blendmodes)
 
 ---
 
@@ -64,7 +66,7 @@ The compound path items contained in this layer.
 
 #### Type
 
-[CompoundPathItems](./CompoundPathItems.md), read-only.
+[CompoundPathItems](./CompoundPathItems.md); read-only.
 
 ---
 
@@ -92,7 +94,7 @@ The graph items contained in this layer.
 
 #### Type
 
-[GraphItems](./GraphItems.md), read-only.
+[GraphItems](./GraphItems.md); read-only.
 
 ---
 
@@ -106,7 +108,7 @@ The group items contained in this layer.
 
 #### Type
 
-[GroupItems](./GroupItems.md), read-only.
+[GroupItems](./GroupItems.md); read-only.
 
 ---
 
@@ -148,7 +150,7 @@ The layers contained in this layer.
 
 #### Type
 
-[Layers](./Layers.md), read-only.
+[Layers](./Layers.md); read-only.
 
 ---
 
@@ -162,7 +164,7 @@ The legacy text items in this layer.
 
 #### Type
 
-[LegacyTextItems](./LegacyTextItems.md), read-only.
+[LegacyTextItems](./LegacyTextItems.md); read-only.
 
 ---
 
@@ -190,7 +192,7 @@ The mesh items contained in this layer.
 
 #### Type
 
-[MeshItems](./MeshItems.md), read-only.
+[MeshItems](./MeshItems.md); read-only.
 
 ---
 
@@ -228,7 +230,9 @@ The non-native art items in this layer.
 
 #### Description
 
-The opacity of the layer. Range: 0.0 to 100.0.
+The opacity of the layer.
+
+Range: 0.0 to 100.0.
 
 #### Type
 
@@ -260,7 +264,7 @@ The document or layer that contains this layer.
 
 #### Type
 
-[Document](./Document.md) or [Layer](#jsobjref-layer), read-only.
+[Document](./Document.md) or [Layer](#jsobjref-layer); read-only.
 
 ---
 
@@ -274,7 +278,7 @@ The path items contained in this layer.
 
 #### Type
 
-[PathItems](./PathItems.md), read-only.
+[PathItems](./PathItems.md); read-only.
 
 ---
 
@@ -288,7 +292,7 @@ The path items contained in this layer.
 
 #### Type
 
-[PlacedItems](./PlacedItems.md), read-only.
+[PlacedItems](./PlacedItems.md); read-only.
 
 ---
 
@@ -302,7 +306,7 @@ The plug-in items contained in this layer.
 
 #### Type
 
-[PluginItems](./PluginItems.md), read-only.
+[PluginItems](./PluginItems.md); read-only.
 
 ---
 
@@ -344,7 +348,7 @@ The raster items contained in this layer.
 
 #### Type
 
-[RasterItems](./RasterItems.md), read-only.
+[RasterItems](./RasterItems.md); read-only.
 
 ---
 
@@ -354,7 +358,9 @@ The raster items contained in this layer.
 
 #### Description
 
-If `true`, the layer item is sliced. Default: `false`.
+If `true`, the layer item is sliced.
+
+Default: `false`.
 
 #### Type
 
@@ -372,7 +378,7 @@ The symbol items contained in the layer.
 
 #### Type
 
-[SymbolItems](./SymbolItems.md), read-only.
+[SymbolItems](./SymbolItems.md); read-only.
 
 ---
 
@@ -386,7 +392,7 @@ The text art items contained in this layer.
 
 #### Type
 
-[TextFrameItems](./TextFrameItems.md), read-only.
+[TextFrameItems](./TextFrameItems.md); read-only.
 
 ---
 
@@ -400,7 +406,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -428,7 +434,7 @@ The position of this layer within the stacking order of layers in the document.
 
 #### Type
 
-Number (long), read-only.
+Number (long); read-only.
 
 ---
 
@@ -444,10 +450,10 @@ Moves the object.
 
 #### Parameters
 
-| Parameter           | Type                                                                                               | Description                   |
-|---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
-| `relativeObject`    | Object                                                                                             | Object to move element within |
-| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
+|      Parameter      |                                 Type                                  |          Description          |
+| ------------------- | --------------------------------------------------------------------- | ----------------------------- |
+| `relativeObject`    | Object                                                                | Object to move element within |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#elementplacement), optional | Location to move element to   |
 
 #### Returns
 
@@ -479,9 +485,9 @@ Arranges the layer's position in the stacking order of the containing layer or d
 
 #### Parameters
 
-| Parameter   | Type                                                                             | Description                       |
-|-------------|----------------------------------------------------------------------------------|-----------------------------------|
-| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#jsobjref-scripting-constants-zordermethod) | Stacking order arrangement method |
+|  Parameter  |                        Type                         |            Description            |
+| ----------- | --------------------------------------------------- | --------------------------------- |
+| `zOrderCmd` | [ZOrderMethod](scripting-constants.md#zordermethod) | Stacking order arrangement method |
 
 #### Returns
 

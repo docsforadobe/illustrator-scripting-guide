@@ -70,7 +70,7 @@ Default: `PostScriptImageCompressionType.IMAGECOMPRESSIONNONE`
 
 #### Type
 
-[PostScriptImageCompressionType](scripting-constants.md#jsobjref-scripting-constants-postscriptimagecompressiontype)
+[PostScriptImageCompressionType](scripting-constants.md#postscriptimagecompressiontype)
 
 ---
 
@@ -102,7 +102,7 @@ Default: `PrinterPostScriptLevelEnum.LEVEL2`
 
 #### Type
 
-[PrinterPostScriptLevelEnum](scripting-constants.md#jsobjref-scripting-constants-printerpostscriptlevelenum)
+[PrinterPostScriptLevelEnum](scripting-constants.md#printerpostscriptlevelenum)
 
 ---
 
@@ -112,7 +112,9 @@ Default: `PrinterPostScriptLevelEnum.LEVEL2`
 
 #### Description
 
-The shading resolution. Range: 1.0 to 9600.0
+The shading resolution.
+
+Range: 1.0 to 9600.0
 
 Default: 300.0
 

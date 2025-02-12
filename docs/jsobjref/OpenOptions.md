@@ -4,7 +4,7 @@
 
 #### Description
 
-Options for opening a document, used with the [Application.open()](Application.md#jsobjref-application-open) method.
+Options for opening a document, used with the [Application.open()](Application.md#applicationopen) method.
 
 ---
 
@@ -16,7 +16,9 @@ Options for opening a document, used with the [Application.open()](Application.m
 
 #### Description
 
-Optional. Convert crop areas to artboards when opening a legacy document in Illustrator CS4 or later. When `false`, crop areas are discarded. Default: `true`.
+Optional. Convert crop areas to artboards when opening a legacy document in Illustrator CS4 or later. When `false`, crop areas are discarded.
+
+Default: `true`.
 
 #### Type
 
@@ -30,7 +32,9 @@ Boolean.
 
 #### Description
 
-Optional. Convert print tiles to artboards when opening a legacy document in Illustrator CS4 or later. Default: `false`.
+Optional. Convert print tiles to artboards when opening a legacy document in Illustrator CS4 or later.
+
+Default: `false`.
 
 #### Type
 
@@ -44,7 +48,9 @@ Boolean.
 
 #### Description
 
-Optional. Create an artboard with the dimensions of the bounding box of the artwork when opening a legacy document in Illustrator CS4 or later. Default: `false`.
+Optional. Create an artboard with the dimensions of the bounding box of the artwork when opening a legacy document in Illustrator CS4 or later.
+
+Default: `false`.
 
 #### Type
 
@@ -58,11 +64,13 @@ Boolean.
 
 #### Description
 
-Optional. Open the file as an Illustrator library of this type. Default: `LibraryType.IllustratorArtwork`.
+Optional. Open the file as an Illustrator library of this type.
+
+Default: `LibraryType.IllustratorArtwork`.
 
 #### Type
 
-[LibraryType](scripting-constants.md#jsobjref-scripting-constants-librarytype)
+[LibraryType](scripting-constants.md#librarytype)
 
 ---
 
@@ -72,7 +80,9 @@ Optional. Open the file as an Illustrator library of this type. Default: `Librar
 
 #### Description
 
-Optional. Preserve legacy artboards when opening a legacy document in Illustrator CS4 or later. Default: `true`.
+Optional. Preserve legacy artboards when opening a legacy document in Illustrator CS4 or later.
+
+Default: `true`.
 
 #### Type
 
@@ -86,7 +96,9 @@ Boolean.
 
 #### Description
 
-If `true`, preserves the spot colors in the gradient mesh objects for legacy documents (pre-Illustrator CS4). Default: `true`.
+If `true`, preserves the spot colors in the gradient mesh objects for legacy documents (pre-Illustrator CS4).
+
+Default: `true`.
 
 #### Type
 
@@ -100,7 +112,9 @@ Boolean.
 
 #### Description
 
-Optional. If `true`, update all legacy text items (from previous versions of Illustrator). Default: `false`.
+Optional. If `true`, update all legacy text items (from previous versions of Illustrator).
+
+Default: `false`.
 
 #### Type
 

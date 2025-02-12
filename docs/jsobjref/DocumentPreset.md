@@ -16,11 +16,13 @@ A preset document template to use when creating a new document. See [Documents.a
 
 #### Description
 
-The layout of artboards in the new document. Default: `GridByRow`.
+The layout of artboards in the new document.
+
+Default: `GridByRow`.
 
 #### Type
 
-[DocumentArtboardLayout](scripting-constants.md#jsobjref-scripting-constants-documentartboardlayout)
+[DocumentArtboardLayout](scripting-constants.md#documentartboardlayout)
 
 ---
 
@@ -30,7 +32,11 @@ The layout of artboards in the new document. Default: `GridByRow`.
 
 #### Description
 
-The number of rows (for rows layout) or columns (for column layout) of artboards. Range: 1 to (`numArtboards` - 1) or 1 for single row or column layouts. Default: 1
+The number of rows (for rows layout) or columns (for column layout) of artboards.
+
+Range: 1 to (`numArtboards` - 1) or 1 for single row or column layouts.
+
+Default: 1
 
 #### Type
 
@@ -44,7 +50,9 @@ Number (long).
 
 #### Description
 
-The spacing between artboards in the new document. Default: 20.0
+The spacing between artboards in the new document.
+
+Default: 20.0
 
 #### Type
 
@@ -62,7 +70,7 @@ The color space for the new document.
 
 #### Type
 
-[DocumentColorSpace](scripting-constants.md#jsobjref-scripting-constants-documentcolorspace)
+[DocumentColorSpace](scripting-constants.md#documentcolorspace)
 
 ---
 
@@ -100,7 +108,9 @@ Rectangle.
 
 #### Description
 
-The height in document points. Default: 792.0
+The height in document points.
+
+Default: 792.0
 
 #### Type
 
@@ -114,7 +124,11 @@ Number (double).
 
 #### Description
 
-The number of artboards for the new document. Range: 1 to 100. Default: 1.
+The number of artboards for the new document.
+
+Range: 1 to 100.
+
+Default: 1.
 
 #### Type
 
@@ -132,7 +146,7 @@ The preview mode for the new document.
 
 #### Type
 
-[DocumentPreviewMode](scripting-constants.md#jsobjref-scripting-constants-documentpreviewmode)
+[DocumentPreviewMode](scripting-constants.md#documentpreviewmode)
 
 ---
 
@@ -146,7 +160,7 @@ The raster resolution for the new document.
 
 #### Type
 
-[DocumentRasterResolution](scripting-constants.md#jsobjref-scripting-constants-documentrasterresolution)
+[DocumentRasterResolution](scripting-constants.md#documentrasterresolution)
 
 ---
 
@@ -174,7 +188,7 @@ The transparency grid color for the new document.
 
 #### Type
 
-[DocumentTransparencyGrid](scripting-constants.md#jsobjref-scripting-constants-documenttransparencygrid)
+[DocumentTransparencyGrid](scripting-constants.md#documenttransparencygrid)
 
 ---
 
@@ -188,7 +202,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -202,7 +216,7 @@ The ruler units for the new document.
 
 #### Type
 
-[RulerUnits](scripting-constants.md#jsobjref-scripting-constants-rulerunits)
+[RulerUnits](scripting-constants.md#rulerunits)
 
 ---
 
@@ -212,7 +226,9 @@ The ruler units for the new document.
 
 #### Description
 
-The width in document points. Default: 612.0
+The width in document points.
+
+Default: 612.0
 
 #### Type
 

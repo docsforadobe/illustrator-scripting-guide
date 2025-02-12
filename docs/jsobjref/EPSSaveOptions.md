@@ -18,7 +18,9 @@ All properties are optional.
 
 #### Description
 
-If `saveMultipleArtboards` is `true`, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty string
+If `saveMultipleArtboards` is `true`, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards.
+
+Default: empty string
 
 #### Type
 
@@ -52,7 +54,7 @@ Default: `Compatibility.ILLUSTRATOR1719`.
 
 #### Type
 
-[Compatibility](scripting-constants.md#jsobjref-scripting-constants-compatibility)
+[Compatibility](scripting-constants.md#compatibility)
 
 ---
 
@@ -112,7 +114,7 @@ How should transparency be flattened for file formats older than Illustrator 9.
 
 #### Type
 
-[OutputFlattening](scripting-constants.md#jsobjref-scripting-constants-outputflattening)
+[OutputFlattening](scripting-constants.md#outputflattening)
 
 ---
 
@@ -142,7 +144,7 @@ Default: `PDFOverprint.PRESERVEPDFOVERPRINT`.
 
 #### Type
 
-[PDFOverprint](scripting-constants.md#jsobjref-scripting-constants-pdfoverprint)
+[PDFOverprint](scripting-constants.md#pdfoverprint)
 
 ---
 
@@ -158,7 +160,7 @@ Default: `EPSPostScriptLevelEnum.LEVEL2`.
 
 #### Type
 
-[EPSPostScriptLevelEnum](scripting-constants.md#jsobjref-scripting-constants-epspostscriptlevelenum)
+[EPSPostScriptLevelEnum](scripting-constants.md#epspostscriptlevelenum)
 
 ---
 
@@ -172,7 +174,7 @@ The format for the EPS preview image.
 
 #### Type
 
-[EPSPreview](scripting-constants.md#jsobjref-scripting-constants-epspreview)
+[EPSPreview](scripting-constants.md#epspreview)
 
 ---
 
@@ -202,7 +204,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

@@ -20,7 +20,7 @@ The number of objects in the collection.
 
 #### Type
 
-Number, read-only.
+Number; read-only.
 
 ---
 
@@ -34,7 +34,7 @@ The parent of this object.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -48,7 +48,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -57,8 +57,14 @@ String, read-only.
 ### Documents.add()
 
 ```javascript
-app.documents.add([documentColorSpace] [, width] [, height] [, numArtBoards]
-    [, artboardLayout] [, artboardSpacing] [, artboardRowsOrCols]
+app.documents.add(
+    [documentColorSpace]
+    [, width]
+    [, height]
+    [, numArtBoards]
+    [, artboardLayout]
+    [, artboardSpacing]
+    [, artboardRowsOrCols]
 )
 ```
 
@@ -68,15 +74,15 @@ Creates a new document using optional parameters and returns a reference to the 
 
 #### Parameters
 
-| Parameter            | Type                                                                                                           | Description                   |
-|----------------------|----------------------------------------------------------------------------------------------------------------|-------------------------------|
-| `documentColorSpace` | [DocumentColorSpace](scripting-constants.md#jsobjref-scripting-constants-documentcolorspace), optional         | Color space of document       |
-| `width`              | Number (double), optional                                                                                      | Width of document to add      |
-| `height`             | Number (double), optional                                                                                      | Height of document to add     |
-| `numArtBoards`       | Number (long), optional                                                                                        | Number of artboards to create |
-| `artboardLayout`     | [DocumentArtboardLayout](scripting-constants.md#jsobjref-scripting-constants-documentartboardlayout), optional | Artboard layout               |
-| `artboardSpacing`    | Number, optional                                                                                               | Number of pixels for spacing  |
-| `artboardRowsOrCols` | Integer, optional                                                                                              | Number of rows or columns     |
+|      Parameter       |                                       Type                                        |          Description          |
+| -------------------- | --------------------------------------------------------------------------------- | ----------------------------- |
+| `documentColorSpace` | [DocumentColorSpace](scripting-constants.md#documentcolorspace), optional         | Color space of document       |
+| `width`              | Number (double), optional                                                         | Width of document to add      |
+| `height`             | Number (double), optional                                                         | Height of document to add     |
+| `numArtBoards`       | Number (long), optional                                                           | Number of artboards to create |
+| `artboardLayout`     | [DocumentArtboardLayout](scripting-constants.md#documentartboardlayout), optional | Artboard layout               |
+| `artboardSpacing`    | Number, optional                                                                  | Number of pixels for spacing  |
+| `artboardRowsOrCols` | Integer, optional                                                                 | Number of rows or columns     |
 
 #### Returns
 
@@ -86,7 +92,7 @@ Creates a new document using optional parameters and returns a reference to the 
 
 ### Documents.addDocument()
 
-`app.documents.addDocument(startupPreset [, presetSettings] [, showOptionsDialog])`
+`app.documents.addDocument(startupPreset[, presetSettings][, showOptionsDialog])`
 
 #### Description
 
@@ -94,11 +100,11 @@ Creates a document from the preset, replacing any provided setting values, and r
 
 #### Parameters
 
-| Parameter           | Type                                                                  | Description                    |
-|---------------------|-----------------------------------------------------------------------|--------------------------------|
-| `startupPreset`     | String                                                                | Startup preset to use          |
+|      Parameter      |                      Type                       |          Description           |
+| ------------------- | ----------------------------------------------- | ------------------------------ |
+| `startupPreset`     | String                                          | Startup preset to use          |
 | `presetSettings`    | [DocumentPreset](./DocumentPreset.md), optional | Preset document template       |
-| `showOptionsDialog` | Boolean, optional                                                     | Whether to show options dialog |
+| `showOptionsDialog` | Boolean, optional                               | Whether to show options dialog |
 
 #### Returns
 
@@ -116,8 +122,8 @@ Creates a document without showing in UI.
 
 #### Parameters
 
-| Parameter       | Type   | Description           |
-|-----------------|--------|-----------------------|
+|    Parameter    |  Type  |      Description      |
+| --------------- | ------ | --------------------- |
 | `startupPreset` | String | Startup preset to use |
 
 #### Returns
@@ -136,9 +142,9 @@ Gets the first element in the collection with the specified name.
 
 #### Parameters
 
-| Parameter   | Type   | Description            |
-|-------------|--------|------------------------|
-| `name`      | String | Name of element to get |
+| Parameter |  Type  |      Description       |
+| --------- | ------ | ---------------------- |
+| `name`    | String | Name of element to get |
 
 #### Returns
 
@@ -156,9 +162,9 @@ Gets an element from the collection.
 
 #### Parameters
 
-| Parameter   | Type           | Description          |
-|-------------|----------------|----------------------|
-| `itemKey`   | String, Number | String or number key |
+| Parameter |      Type      |     Description      |
+| --------- | -------------- | -------------------- |
+| `itemKey` | String, Number | String or number key |
 
 #### Returns
 

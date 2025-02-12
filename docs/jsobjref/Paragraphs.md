@@ -4,7 +4,9 @@
 
 #### Description
 
-A collection of [TextRange](./TextRange.md) objects, with each `TextRange` representing a paragraph. The elements are not named; you must access them by index.
+A collection of [TextRange](./TextRange.md) objects, with each `TextRange` representing a paragraph.
+
+The elements are not named; you must access them by index.
 
 ---
 
@@ -20,7 +22,7 @@ The number of objects in the collection.
 
 #### Type
 
-Number, read-only.
+Number; read-only.
 
 ---
 
@@ -34,7 +36,7 @@ The parent of this object.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -48,7 +50,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -64,11 +66,11 @@ Adds a new paragraph with specified text contents at the specified location in t
 
 #### Parameters
 
-| Parameter           | Type                                                                                               | Description            |
-|---------------------|----------------------------------------------------------------------------------------------------|------------------------|
-| `contents`          | String                                                                                             | Text contents to add   |
-| `relativeObject`    | [TextFrameItem](./TextFrameItem.md), optional                                 | Object to add item to  |
-| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to place text |
+|      Parameter      |                                 Type                                  |      Description       |
+| ------------------- | --------------------------------------------------------------------- | ---------------------- |
+| `contents`          | String                                                                | Text contents to add   |
+| `relativeObject`    | [TextFrameItem](./TextFrameItem.md), optional                         | Object to add item to  |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#elementplacement), optional | Location to place text |
 
 #### Returns
 
@@ -86,9 +88,9 @@ Adds a new paragraph with specified text contents before the current text select
 
 #### Parameters
 
-| Parameter   | Type   | Description          |
-|-------------|--------|----------------------|
-| `contents`  | String | Text contents to add |
+| Parameter  |  Type  |     Description      |
+| ---------- | ------ | -------------------- |
+| `contents` | String | Text contents to add |
 
 #### Returns
 
@@ -106,9 +108,9 @@ Gets an element from the collection.
 
 #### Parameters
 
-| Parameter   | Type           | Description          |
-|-------------|----------------|----------------------|
-| `itemKey`   | String, Number | String or number key |
+| Parameter |      Type      |     Description      |
+| --------- | -------------- | -------------------- |
+| `itemKey` | String, Number | String or number key |
 
 #### Returns
 

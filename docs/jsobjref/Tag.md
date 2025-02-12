@@ -22,7 +22,7 @@ The tag's name.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -36,7 +36,7 @@ The object that contains this tag.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ### Tag.typename
 
@@ -48,7 +48,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -62,7 +62,7 @@ The data stored in this tag.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

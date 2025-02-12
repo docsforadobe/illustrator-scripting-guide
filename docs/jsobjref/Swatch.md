@@ -52,7 +52,7 @@ The object that contains this swatch.
 
 #### Type
 
-[Document](./Document.md), read-only.
+[Document](./Document.md); read-only.
 
 ---
 
@@ -66,7 +66,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

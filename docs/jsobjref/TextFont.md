@@ -20,7 +20,7 @@ The font's family name.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -34,7 +34,7 @@ The font's full name.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -48,7 +48,7 @@ The object's container.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -62,7 +62,7 @@ The font's style name.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -76,7 +76,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

@@ -4,7 +4,7 @@
 
 #### Description
 
-A collection of GraphicStyle objects in a document.
+A collection of [GraphicStyle](./GraphicStyle.md) objects in a document.
 
 ---
 
@@ -20,7 +20,7 @@ The number of graphic styles in the document.
 
 #### Type
 
-Number, read-only.
+Number; read-only.
 
 ---
 
@@ -34,7 +34,7 @@ The document that contains this graphic styles collection.
 
 #### Type
 
-Object, read-only.
+[Document](./Document.md); read-only.
 
 ---
 
@@ -48,7 +48,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -64,13 +64,13 @@ Gets the first element in the collection with the specified name.
 
 #### Parameters
 
-| Parameter   | Type   | Description            |
-|-------------|--------|------------------------|
-| `name`      | String | Name of element to get |
+| Parameter |  Type  |      Description       |
+| --------- | ------ | ---------------------- |
+| `name`    | String | Name of element to get |
 
 #### Returns
 
-String.
+[GraphicStyle](./GraphicStyle.md)
 
 ---
 
@@ -84,13 +84,13 @@ Gets an element from the collection.
 
 #### Parameters
 
-| Parameter   | Type           | Description          |
-|-------------|----------------|----------------------|
-| `itemKey`   | String, Number | String or number key |
+| Parameter |      Type      |     Description      |
+| --------- | -------------- | -------------------- |
+| `itemKey` | String, Number | String or number key |
 
 #### Returns
 
-String, Number.
+[GraphicStyle](./GraphicStyle.md)
 
 ---
 

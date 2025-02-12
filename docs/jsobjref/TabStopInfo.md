@@ -22,7 +22,7 @@ Default: `Left`
 
 #### Type
 
-[TabStopAlignment](scripting-constants.md#jsobjref-scripting-constants-tabstopalignment)
+[TabStopAlignment](scripting-constants.md#tabstopalignment)
 
 ---
 
@@ -82,7 +82,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

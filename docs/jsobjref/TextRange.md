@@ -20,7 +20,7 @@ The character properties for the text range.
 
 #### Type
 
-[CharacterAttributes](./CharacterAttributes.md), read-only.
+[CharacterAttributes](./CharacterAttributes.md); read-only.
 
 ---
 
@@ -48,7 +48,7 @@ All the characters in this text range.
 
 #### Type
 
-[Characters](./Characters.md), read-only.
+[Characters](./Characters.md); read-only.
 
 ---
 
@@ -62,7 +62,7 @@ All referenced character styles in the text range.
 
 #### Type
 
-[CharacterStyles](./CharacterStyles.md), read-only.
+[CharacterStyles](./CharacterStyles.md); read-only.
 
 ---
 
@@ -104,7 +104,7 @@ All the insertion points in this text range.
 
 #### Type
 
-[InsertionPoints](./InsertionPoints.md), read-only.
+[InsertionPoints](./InsertionPoints.md); read-only.
 
 ---
 
@@ -146,7 +146,7 @@ All the lines in this text range.
 
 #### Type
 
-[Lines](./Lines.md), read-only.
+[Lines](./Lines.md); read-only.
 
 ---
 
@@ -160,7 +160,7 @@ The paragraph properties for the text range.
 
 #### Type
 
-[ParagraphAttributes](./ParagraphAttributes.md), read-only.
+[ParagraphAttributes](./ParagraphAttributes.md); read-only.
 
 ---
 
@@ -174,7 +174,7 @@ All the paragraphs in this text range.
 
 #### Type
 
-[Paragraphs](./Paragraphs.md), read-only.
+[Paragraphs](./Paragraphs.md); read-only.
 
 ---
 
@@ -188,7 +188,7 @@ All referenced paragraph styles in the text range.
 
 #### Type
 
-[ParagraphStyles](./ParagraphStyles.md), read-only.
+[ParagraphStyles](./ParagraphStyles.md); read-only.
 
 ---
 
@@ -202,7 +202,7 @@ The object's container.
 
 #### Type
 
-[TextRange](#jsobjref-textrange), read-only.
+[TextRange](#jsobjref-textrange); read-only.
 
 ---
 
@@ -230,7 +230,7 @@ The story to which the text range belongs.
 
 #### Type
 
-[Story](./Story.md), read-only.
+[Story](./Story.md); read-only.
 
 ---
 
@@ -244,7 +244,7 @@ All of the text in this text range.
 
 #### Type
 
-[TextRanges](./TextRanges.md), read-only.
+[TextRanges](./TextRanges.md); read-only.
 
 ---
 
@@ -258,7 +258,7 @@ The selected text ranges in the text range.
 
 #### Type
 
-Array of [TextRange](#jsobjref-textrange), read-only.
+Array of [TextRange](#jsobjref-textrange); read-only.
 
 ---
 
@@ -272,7 +272,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -286,7 +286,7 @@ All the words contained in this text range.
 
 #### Type
 
-[Words](./Words.md), read-only.
+[Words](./Words.md); read-only.
 
 ---
 
@@ -302,9 +302,9 @@ Changes the capitalization of text
 
 #### Parameters
 
-| Parameter   | Type                                                                                 | Description                      |
-|-------------|--------------------------------------------------------------------------------------|----------------------------------|
-| `type`      | [CaseChangeType](scripting-constants.md#jsobjref-scripting-constants-casechangetype) | Capitalization case to change to |
+| Parameter |                          Type                           |           Description            |
+| --------- | ------------------------------------------------------- | -------------------------------- |
+| `type`    | [CaseChangeType](scripting-constants.md#casechangetype) | Capitalization case to change to |
 
 #### Returns
 
@@ -336,10 +336,10 @@ Creates a duplicate of this object.
 
 #### Parameters
 
-| Parameter           | Type                                                                                               | Description                |
-|---------------------|----------------------------------------------------------------------------------------------------|----------------------------|
-| `relativeObject`    | Object, optional                                                                                   | Object to duplicate to     |
-| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to insert element |
+|      Parameter      |                                 Type                                  |        Description         |
+| ------------------- | --------------------------------------------------------------------- | -------------------------- |
+| `relativeObject`    | Object, optional                                                      | Object to duplicate to     |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#elementplacement), optional | Location to insert element |
 
 #### Returns
 
@@ -413,10 +413,10 @@ Moves the object.
 
 #### Parameters
 
-| Parameter           | Type                                                                                               | Description                   |
-|---------------------|----------------------------------------------------------------------------------------------------|-------------------------------|
-| `relativeObject`    | Object                                                                                             | Object to move element within |
-| `insertionLocation` | [ElementPlacement](scripting-constants.md#jsobjref-scripting-constants-elementplacement), optional | Location to move element to   |
+|      Parameter      |                                 Type                                  |          Description          |
+| ------------------- | --------------------------------------------------------------------- | ----------------------------- |
+| `relativeObject`    | Object                                                                | Object to move element within |
+| `insertionLocation` | [ElementPlacement](scripting-constants.md#elementplacement), optional | Location to move element to   |
 
 #### Returns
 
@@ -448,8 +448,8 @@ Selects the text range.
 
 #### Parameters
 
-| Parameter       | Type              | Description                                 |
-|-----------------|-------------------|---------------------------------------------|
+|    Parameter    |       Type        |                 Description                 |
+| --------------- | ----------------- | ------------------------------------------- |
 | `addToDocument` | Boolean, optional | Whether to add or replace current selection |
 
 #### Returns

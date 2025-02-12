@@ -7,7 +7,7 @@
 Specifies the properties and attributes of a paragraph contained in a text frame.
 
 !!! note
-    Paragraph attributes do not have default values, and are `undefined` untile xplicitly set.
+    Paragraph attributes do not have default values, and are `undefined` until explicitly set.
 
 ---
 
@@ -51,7 +51,7 @@ The Burasagari type.
 
 #### Type
 
-[BurasagariTypeEnum](scripting-constants.md#jsobjref-scripting-constants-burasagaritypeenum)
+[BurasagariTypeEnum](scripting-constants.md#burasagaritypeenum)
 
 ---
 
@@ -61,7 +61,9 @@ The Burasagari type.
 
 #### Description
 
-Desired glyph scaling, expressed as a percentage of the default character width. Range: 50.0 to 200.0. At 100.0, the width of characters is not changed.
+Desired glyph scaling, expressed as a percentage of the default character width.
+
+Range: 50.0 to 200.0. At 100.0, the width of characters is not changed.
 
 #### Type
 
@@ -75,7 +77,9 @@ Number (double).
 
 #### Description
 
-Desired letter, spacing expressed as a percentage of the default kerning or tracking Range: -100.0 to 500.0. At 0, no space is added between letters. At 100.0, an entire space width is added between letters.
+Desired letter, spacing expressed as a percentage of the default kerning or tracking.
+
+Range: -100.0 to 500.0. At 0, no space is added between letters. At 100.0, an entire space width is added between letters.
 
 #### Type
 
@@ -89,7 +93,9 @@ Number (double).
 
 #### Description
 
-Desired word spacing, expressed as a percentage of the default space for the font. Range: 0.0 to 1000.0; at 100.00. No space is added between words.
+Desired word spacing, expressed as a percentage of the default space for the font.
+
+Range: 0.0 to 1000.0; at 100.00. No space is added between words.
 
 #### Type
 
@@ -159,7 +165,9 @@ Boolean.
 
 #### Description
 
-Hyphenation preference scale for better spacing (0) or fewer hyphens (1). Range: 0.0 to 1.0.
+Hyphenation preference scale for better spacing (0) or fewer hyphens (1).
+
+Range: 0.0 to 1.0.
 
 #### Type
 
@@ -176,7 +184,7 @@ Number (double).
 The distance (in points) from the right edge of the paragraph that marks the part of the line where hyphenation is not allowed.
 
 !!! note
-    0 allows all hyphenation. Valid only when [ParagraphAttributes.everyLineComposer](#jsobjref-paragraphattributes-everylinecomposer) is `false`.
+    `0` allows all hyphenation. Valid only when [ParagraphAttributes.everyLineComposer](#paragraphattributeseverylinecomposer) is `false`.
 
 #### Type
 
@@ -194,7 +202,7 @@ Paragraph justification.
 
 #### Type
 
-[Justification](scripting-constants.md#jsobjref-scripting-constants-justification)
+[Justification](scripting-constants.md#justification)
 
 ---
 
@@ -222,7 +230,7 @@ The preferred Kinsoku order.
 
 #### Type
 
-[KinsokuOrderEnum](scripting-constants.md#jsobjref-scripting-constants-kinsokuorderenum)
+[KinsokuOrderEnum](scripting-constants.md#kinsokuorderenum)
 
 ---
 
@@ -250,7 +258,7 @@ Auto leading type.
 
 #### Type
 
-[AutoLeadingType](scripting-constants.md#jsobjref-scripting-constants-autoleadingtype)
+[AutoLeadingType](scripting-constants.md#autoleadingtype)
 
 ---
 
@@ -288,7 +296,9 @@ Number (long).
 
 #### Description
 
-Maximum glyph scaling, expressed as a percentage of the default character width. Range: 50.0 to 200.0; at 100.0. The width of characters is not changed.
+Maximum glyph scaling, expressed as a percentage of the default character width.
+
+Range: 50.0 to 200.0; at 100.0. The width of characters is not changed.
 
 !!! note
     Valid only for justified paragraphs.
@@ -305,7 +315,9 @@ Number (double).
 
 #### Description
 
-Maximum letter spacing, expressed as a percentage of the default kerning or tracking Range: -100.0 to 500.0; at 0. No space is added between letters. At 100.0, an entire space width is added between letters.
+Maximum letter spacing, expressed as a percentage of the default kerning or tracking.
+
+Range: -100.0 to 500.0; at 0. No space is added between letters. At 100.0, an entire space width is added between letters.
 
 !!! note
     Valid only for justified paragraphs.
@@ -322,7 +334,9 @@ Number (double).
 
 #### Description
 
-Maximum word spacing, expressed as a percentage of the default space for the font. Range: 0.0 to 1000.0; at 100.00. No space is added between words.
+Maximum word spacing, expressed as a percentage of the default space for the font.
+
+Range: 0.0 to 1000.0; at 100.00. No space is added between words.
 
 !!! note
     Valid only for justified paragraphs.
@@ -367,7 +381,9 @@ Number (long).
 
 #### Description
 
-Minimum glyph scaling, expressed as a percentage of the default character width. Range: 50.0 to 200.0. At 100.0, the width of characters is not changed.
+Minimum glyph scaling, expressed as a percentage of the default character width.
+
+Range: 50.0 to 200.0. At 100.0, the width of characters is not changed.
 
 !!! note
     Valid only for justified paragraphs.
@@ -415,7 +431,9 @@ Number (double).
 
 #### Description
 
-Minimum word spacing, expressed as a percentage of the default space for the font. Range: 0.0 to 1000.0; at 100.00. No space is added between words.
+Minimum word spacing, expressed as a percentage of the default space for the font.
+
+Range: 0.0 to 1000.0; at 100.00. No space is added between words.
 
 !!! note
     Valid only for justified paragraphs.
@@ -450,7 +468,7 @@ The object's container.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -492,7 +510,7 @@ Single word justification.
 
 #### Type
 
-[Justification](scripting-constants.md#jsobjref-scripting-constants-justification)
+[Justification](scripting-constants.md#justification)
 
 ---
 
@@ -544,11 +562,11 @@ Tab stop settings.
 
 #### Description
 
-> The class name of the object.
+The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

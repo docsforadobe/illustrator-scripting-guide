@@ -16,7 +16,9 @@ Options for opening a FreeHand file.
 
 #### Description
 
-If `true`, all text is converted to vector paths; preserves the visual appearance of type. Default: `false`.
+If `true`, all text is converted to vector paths; preserves the visual appearance of type.
+
+Default: `false`.
 
 #### Type
 
@@ -30,7 +32,9 @@ Boolean.
 
 #### Description
 
-If `true`, imports only the page specified in the `pageToOpen` property. Default: `true`.
+If `true`, imports only the page specified in the `pageToOpen` property.
+
+Default: `true`.
 
 #### Type
 
@@ -62,7 +66,7 @@ The parent of this object.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -76,4 +80,4 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.

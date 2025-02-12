@@ -16,7 +16,9 @@ Specifies options which may be supplied when saving a document as an FXG file. A
 
 #### Description
 
-If saveMultipleArtboards is true, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty String.
+If [`saveMultipleArtboards`](#fxgsaveoptionssavemultipleartboards) is true, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards.
+
+Default: empty String.
 
 #### Type
 
@@ -30,11 +32,13 @@ String.
 
 #### Description
 
-The policy used by FXG to expand blends. Default: `BlendsExpandPolicy.AUTOMATICALLYCONVERTBLENDS`.
+The policy used by FXG to expand blends.
+
+Default: `BlendsExpandPolicy.AUTOMATICALLYCONVERTBLENDS`.
 
 #### Type
 
-[BlendsExpandPolicy](scripting-constants.md#jsobjref-scripting-constants-blendsexpandpolicy)
+[BlendsExpandPolicy](scripting-constants.md#blendsexpandpolicy)
 
 ---
 
@@ -44,7 +48,9 @@ The policy used by FXG to expand blends. Default: `BlendsExpandPolicy.AUTOMATICA
 
 #### Description
 
-If `true`, linked images are downsampled (at 72 dpi). Default: `false`.
+If `true`, linked images are downsampled (at 72 dpi).
+
+Default: `false`.
 
 #### Type
 
@@ -58,11 +64,13 @@ Boolean.
 
 #### Description
 
-The policy used by FXG to preserve filters. Default: `FiltersPreservePolicy.KEEPFILTERSEDITABLE`.
+The policy used by FXG to preserve filters.
+
+Default: `FiltersPreservePolicy.KEEPFILTERSEDITABLE`.
 
 #### Type
 
-[FiltersPreservePolicy](scripting-constants.md#jsobjref-scripting-constants-filterspreservepolicy)
+[FiltersPreservePolicy](scripting-constants.md#filterspreservepolicy)
 
 ---
 
@@ -72,11 +80,13 @@ The policy used by FXG to preserve filters. Default: `FiltersPreservePolicy.KEEP
 
 #### Description
 
-The policy used by FXG to preserve gradients. Default: `GradientsPreservePolicy.AUTOMATICALLYCONVERTGRADIENTS`.
+The policy used by FXG to preserve gradients.
+
+Default: `GradientsPreservePolicy.AUTOMATICALLYCONVERTGRADIENTS`.
 
 #### Type
 
-[GradientsPreservePolicy](scripting-constants.md#jsobjref-scripting-constants-gradientspreservepolicy)
+[GradientsPreservePolicy](scripting-constants.md#gradientspreservepolicy)
 
 ---
 
@@ -86,7 +96,9 @@ The policy used by FXG to preserve gradients. Default: `GradientsPreservePolicy.
 
 #### Description
 
-If `true`, unused symbols are included. Default: `false`.
+If `true`, unused symbols are included.
+
+Default: `false`.
 
 #### Type
 
@@ -100,7 +112,9 @@ Boolean.
 
 #### Description
 
-If `true`, the editing capabilities of FXG are preserved. Default: `true`.
+If `true`, the editing capabilities of FXG are preserved.
+
+Default: `true`.
 
 #### Type
 
@@ -114,7 +128,9 @@ Boolean.
 
 #### Description
 
-If `true`, all artboards or range of artboards are saved. Default: `false`.
+If `true`, all artboards or range of artboards are saved.
+
+Default: `false`.
 
 #### Type
 
@@ -128,11 +144,13 @@ Boolean.
 
 #### Description
 
-The policy used by FXG to preserve text. Default: `TextPreservePolicy.AUTOMATICALLYCONVERTTEXT`.
+The policy used by FXG to preserve text.
+
+Default: `TextPreservePolicy.AUTOMATICALLYCONVERTTEXT`.
 
 #### Type
 
-[TextPreservePolicy](scripting-constants.md#jsobjref-scripting-constants-textpreservepolicy)
+[TextPreservePolicy](scripting-constants.md#textpreservepolicy)
 
 ---
 
@@ -146,4 +164,4 @@ The version of the FXG file format to create. Default `FXGVersion.VERSION2PT0`.
 
 #### Type
 
-[FXGVersion](scripting-constants.md#jsobjref-scripting-constants-fxgversion)
+[FXGVersion](scripting-constants.md#fxgversion)

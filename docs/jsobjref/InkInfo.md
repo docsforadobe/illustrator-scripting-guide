@@ -16,7 +16,9 @@ Ink information for printing a document.
 
 #### Description
 
-The ink's screen angle in degrees. Range: -360 to 360.
+The ink's screen angle in degrees.
+
+Range: -360 to 360.
 
 #### Type
 
@@ -72,7 +74,9 @@ String.
 
 #### Description
 
-The ink's frequency. Range: 0.0 to 1000.0.
+The ink's frequency.
+
+Range: 0.0 to 1000.0.
 
 #### Type
 
@@ -90,7 +94,7 @@ The ink type.
 
 #### Type
 
-[InkType](scripting-constants.md#jsobjref-scripting-constants-inktype)
+[InkType](scripting-constants.md#inktype)
 
 ---
 
@@ -104,7 +108,7 @@ The ink printing status.
 
 #### Type
 
-[InkPrintStatus](scripting-constants.md#jsobjref-scripting-constants-inkprintstatus)
+[InkPrintStatus](scripting-constants.md#inkprintstatus)
 
 ---
 
@@ -118,7 +122,7 @@ The trapping type.
 
 #### Type
 
-[TrappingType](scripting-constants.md#jsobjref-scripting-constants-trappingtype)
+[TrappingType](scripting-constants.md#trappingtype)
 
 ---
 
@@ -128,7 +132,9 @@ The trapping type.
 
 #### Description
 
-The order of trapping for the ink. Range: 1 to 4 for CMYK.
+The order of trapping for the ink.
+
+Range: 1 to 4 for CMYK.
 
 #### Type
 
@@ -146,7 +152,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

@@ -4,7 +4,7 @@
 
 #### Description
 
-A collection `GraphItems` objects, which gives you access to all the graph art items in an Illustrator document.
+A collection [GraphItem](./GraphItem.md) objects, which gives you access to all the graph art items in an Illustrator document.
 
 ---
 
@@ -20,7 +20,7 @@ The number of objects in the collection.
 
 #### Type
 
-Number, read-only.
+Number; read-only.
 
 ---
 
@@ -34,7 +34,7 @@ The parent of this object.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -44,11 +44,11 @@ Object, read-only.
 
 #### Description
 
-> The class name of the referenced object.
+The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -64,9 +64,9 @@ Gets the first element in the collection with the specified name.
 
 #### Parameters
 
-| Parameter   | Type   | Description            |
-|-------------|--------|------------------------|
-| `name`      | String | Name of element to get |
+| Parameter |  Type  |      Description       |
+| --------- | ------ | ---------------------- |
+| `name`    | String | Name of element to get |
 
 #### Returns
 
@@ -84,13 +84,13 @@ Gets an element from the collection.
 
 #### Parameters
 
-| Parameter   | Type           | Description          |
-|-------------|----------------|----------------------|
-| `itemKey`   | String, Number | String or number key |
+| Parameter |      Type      |     Description      |
+| --------- | -------------- | -------------------- |
+| `itemKey` | String, Number | String or number key |
 
 #### Returns
 
-[GraphItems](#jsobjref-graphitems)
+[GraphItem](./GraphItem.md)
 
 ---
 

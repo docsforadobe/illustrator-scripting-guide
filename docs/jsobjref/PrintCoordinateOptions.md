@@ -72,7 +72,7 @@ Default: `PrintOrientation.PORTRAIT`
 
 #### Type
 
-[PrintOrientation](scripting-constants.md#jsobjref-scripting-constants-printorientation)
+[PrintOrientation](scripting-constants.md#printorientation)
 
 ---
 
@@ -88,7 +88,7 @@ Default: `PrintPosition.TRANSLATECENTER`
 
 #### Type
 
-[PrintPosition](scripting-constants.md#jsobjref-scripting-constants-printposition)
+[PrintPosition](scripting-constants.md#printposition)
 
 ---
 
@@ -104,7 +104,7 @@ Default: `PrintTiling.TILESINGLEFULLPAGE`
 
 #### Type
 
-[PrintTiling](scripting-constants.md#jsobjref-scripting-constants-printtiling)
+[PrintTiling](scripting-constants.md#printtiling)
 
 ---
 

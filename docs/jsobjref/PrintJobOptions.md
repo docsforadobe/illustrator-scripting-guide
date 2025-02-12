@@ -86,7 +86,7 @@ Default: `PrintArtworkDesignation.VISIBLEPRINTABLELAYERS`
 
 #### Type
 
-[PrintArtworkDesignation](scripting-constants.md#jsobjref-scripting-constants-printartworkdesignation)
+[PrintArtworkDesignation](scripting-constants.md#printartworkdesignation)
 
 ---
 
@@ -100,7 +100,7 @@ The file to which to print.
 
 #### Type
 
-File
+[File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object
 
 ---
 
@@ -146,7 +146,7 @@ Default: `PrintingBounds.ARTBOARDBOUNDS`
 
 #### Type
 
-[PrintingBounds](scripting-constants.md#jsobjref-scripting-constants-printingbounds)
+[PrintingBounds](scripting-constants.md#printingbounds)
 
 ---
 

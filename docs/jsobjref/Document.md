@@ -8,7 +8,7 @@ An Illustrator document. Documents are contained in the [Application](./Applicat
 
 The default document settings—those properties starting with the word "default"—are global settings that affect the current document. Be sure to modify these default properties only when a document is open. Note that if you set default properties to desired values before creating new objects, you can streamline your scripts, eliminating the need to specify specific properties such as `fillColor` and `stroked` that have default properties.
 
-A document's color space, height, and width can only be set when the document is created. You cannot modify these properties in an existing document. See [Application.open()](Application.md#jsobjref-application-open) for more information on how document color spaces are handled.
+A document's color space, height, and width can only be set when the document is created. You cannot modify these properties in an existing document. See [Application.open()](Application.md#applicationopen) for more information on how document color spaces are handled.
 
 ---
 
@@ -52,7 +52,7 @@ The document's current view.
 
 #### Type
 
-[View](./View.md), read-only.
+[View](./View.md); read-only.
 
 ---
 
@@ -66,7 +66,7 @@ All artboards in the document.
 
 #### Type
 
-[Artboards](./Artboards.md), read-only.
+[Artboards](./Artboards.md); read-only.
 
 ---
 
@@ -80,7 +80,7 @@ The brushes contained in the document.
 
 #### Type
 
-[Brushes](./Brushes.md), read-only.
+[Brushes](./Brushes.md); read-only.
 
 ---
 
@@ -94,7 +94,7 @@ The list of character styles in this document.
 
 #### Type
 
-[CharacterStyles](./CharacterStyles.md), read-only.
+[CharacterStyles](./CharacterStyles.md); read-only.
 
 ---
 
@@ -108,7 +108,7 @@ The compound path items contained in the document.
 
 #### Type
 
-[CompoundPathItems](./CompoundPathItems.md), read-only.
+[CompoundPathItems](./CompoundPathItems.md); read-only.
 
 ---
 
@@ -136,7 +136,7 @@ The style of the document's cropping box.
 
 #### Type
 
-[CropOptions](scripting-constants.md#jsobjref-scripting-constants-cropoptions)
+[CropOptions](scripting-constants.md#cropoptions)
 
 ---
 
@@ -150,7 +150,7 @@ The datasets contained in the document.
 
 #### Type
 
-[Datasets](./Datasets.md), read-only.
+[Datasets](./Datasets.md); read-only.
 
 ---
 
@@ -206,7 +206,7 @@ Default type of line capping for paths created.
 
 #### Type
 
-[StrokeCap](scripting-constants.md#jsobjref-scripting-constants-strokecap)
+[StrokeCap](scripting-constants.md#strokecap)
 
 ---
 
@@ -276,7 +276,7 @@ Default type of joints in new paths.
 
 #### Type
 
-[StrokeJoin](scripting-constants.md#jsobjref-scripting-constants-strokejoin)
+[StrokeJoin](scripting-constants.md#strokejoin)
 
 ---
 
@@ -286,7 +286,11 @@ Default type of joints in new paths.
 
 #### Description
 
-When a default stroke join is set to `mitered`, this property specifies when the join will be converted to beveled (squared-off ) by default. The default miter limit of 4 means that when the length of the point reaches four times the stroke weight, the join switches from a miter join to a bevel join. Range: 1 to 500; a value of 1 specifies a bevel join.
+When a default stroke join is set to `mitered`, this property specifies when the join will be converted to beveled (squared-off) by default.
+
+The default miter limit of 4 means that when the length of the point reaches four times the stroke weight, the join switches from a miter join to a bevel join.
+
+Range: 1 to 500; a value of 1 specifies a bevel join.
 
 #### Type
 
@@ -332,7 +336,7 @@ The color specification system to use for this document's color space.
 
 #### Type
 
-[DocumentColorSpace](scripting-constants.md#jsobjref-scripting-constants-documentcolorspace)
+[DocumentColorSpace](scripting-constants.md#documentcolorspace)
 
 ---
 
@@ -346,7 +350,7 @@ The file associated with the document, which includes the complete path to the f
 
 #### Type
 
-File, read-only.
+[File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object; read-only.
 
 ---
 
@@ -360,7 +364,7 @@ The bounds of the illustration excluding the stroke width of any objects in the 
 
 #### Type
 
-Array of 4 numbers, read-only.
+Array of 4 numbers; read-only.
 
 ---
 
@@ -374,7 +378,7 @@ The gradients contained in the document.
 
 #### Type
 
-[Gradients](./Gradients.md), read-only.
+[Gradients](./Gradients.md); read-only.
 
 ---
 
@@ -388,7 +392,7 @@ The graphic styles defined in this document.
 
 #### Type
 
-[GraphicStyles](./GraphicStyles.md), read-only.
+[GraphicStyles](./GraphicStyles.md); read-only.
 
 ---
 
@@ -402,7 +406,7 @@ The graph art items in this document.
 
 #### Type
 
-[GraphItems](./GraphItems.md), read-only.
+[GraphItems](./GraphItems.md); read-only.
 
 ---
 
@@ -416,7 +420,7 @@ The group items contained in the document.
 
 #### Type
 
-[GroupItems](./GroupItems.md), read-only.
+[GroupItems](./GroupItems.md); read-only.
 
 ---
 
@@ -430,7 +434,7 @@ The height of the document.
 
 #### Type
 
-Number (double), read-only.
+Number (double); read-only.
 
 ---
 
@@ -444,7 +448,7 @@ The list of inks in this document.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -458,7 +462,7 @@ The Kinsoku set of characters that cannot begin or end a line of Japanese text.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -472,7 +476,7 @@ The layers contained in the document.
 
 #### Type
 
-[Layers](./Layers.md), read-only.
+[Layers](./Layers.md); read-only.
 
 ---
 
@@ -486,7 +490,7 @@ The legacy text items in the document.
 
 #### Type
 
-[LegacyTextItems](./LegacyTextItems.md), read-only.
+[LegacyTextItems](./LegacyTextItems.md); read-only.
 
 ---
 
@@ -500,7 +504,7 @@ The mesh art items contained in the document.
 
 #### Type
 
-[MeshItems](./MeshItems.md), read-only.
+[MeshItems](./MeshItems.md); read-only.
 
 ---
 
@@ -514,7 +518,7 @@ A list of names of predefined Mojikumi sets which specify the spacing for the la
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -528,7 +532,7 @@ The document's name (not the complete file path to the document).
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -542,7 +546,7 @@ The non-native art items in this document.
 
 #### Type
 
-[NonNativeItems](./NonNativeItems.md), read-only.
+[NonNativeItems](./NonNativeItems.md); read-only.
 
 ---
 
@@ -556,7 +560,7 @@ The current output resolution for the document in dots per inch (dpi).
 
 #### Type
 
-Number (double), read-only.
+Number (double); read-only.
 
 ---
 
@@ -570,7 +574,7 @@ The page items (all art item classes) contained in the document.
 
 #### Type
 
-[PageItems](./PageItems.md), read-only.
+[PageItems](./PageItems.md); read-only.
 
 ---
 
@@ -598,7 +602,7 @@ The list of paragraph styles in this document.
 
 #### Type
 
-[ParagraphStyles](./ParagraphStyles.md), read-only.
+[ParagraphStyles](./ParagraphStyles.md); read-only.
 
 ---
 
@@ -612,7 +616,7 @@ The application that contains this document.
 
 #### Type
 
-[Application](./Application.md), read-only.
+[Application](./Application.md); read-only.
 
 ---
 
@@ -626,7 +630,7 @@ The file associated with the document, which includes the complete path to the f
 
 #### Type
 
-File, read-only.
+[File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object; read-only.
 
 ---
 
@@ -640,7 +644,7 @@ The path items contained in this document.
 
 #### Type
 
-[PathItems](./PathItems.md), read-only.
+[PathItems](./PathItems.md); read-only.
 
 ---
 
@@ -654,7 +658,7 @@ The patterns contained in this document.
 
 #### Type
 
-[Patterns](./Patterns.md), read-only.
+[Patterns](./Patterns.md); read-only.
 
 ---
 
@@ -668,7 +672,7 @@ The placed items contained in this document.
 
 #### Type
 
-[PlacedItems](./PlacedItems.md), read-only.
+[PlacedItems](./PlacedItems.md); read-only.
 
 ---
 
@@ -682,7 +686,7 @@ The plug-in items contained in this document.
 
 #### Type
 
-[PluginItems](./PluginItems.md), read-only.
+[PluginItems](./PluginItems.md); read-only.
 
 ---
 
@@ -696,7 +700,7 @@ If `true`, this document should be printed as tiled output.
 
 #### Type
 
-Boolean, read-only.
+Boolean; read-only.
 
 ---
 
@@ -710,7 +714,7 @@ The document's raster effect settings.
 
 #### Type
 
-[RasterEffectOptions](./RasterEffectOptions.md), read-only.
+[RasterEffectOptions](./RasterEffectOptions.md); read-only.
 
 ---
 
@@ -724,7 +728,7 @@ The raster items contained in this document.
 
 #### Type
 
-[RasterItems](./RasterItems.md), read-only.
+[RasterItems](./RasterItems.md); read-only.
 
 ---
 
@@ -752,7 +756,7 @@ The default measurement units for the rulers in the document.
 
 #### Type
 
-[RulerUnits](scripting-constants.md#jsobjref-scripting-constants-rulerunits), read-only.
+[RulerUnits](scripting-constants.md#rulerunits); read-only.
 
 ---
 
@@ -796,7 +800,7 @@ If `true`, placed images should be displayed in the document.
 
 #### Type
 
-Boolean, read-only.
+Boolean; read-only.
 
 ---
 
@@ -810,7 +814,7 @@ If `true`, long paths should be split when printing.
 
 #### Type
 
-Boolean, read-only.
+Boolean; read-only.
 
 ---
 
@@ -824,7 +828,7 @@ The spot colors contained in this document.
 
 #### Type
 
-[Spots](./Spots.md), read-only.
+[Spots](./Spots.md); read-only.
 
 ---
 
@@ -838,7 +842,7 @@ If `true`, the file is a stationery file.
 
 #### Type
 
-Boolean, read-only.
+Boolean; read-only.
 
 ---
 
@@ -852,7 +856,7 @@ The story items in this document.
 
 #### Type
 
-[Stories](./Stories.md), read-only.
+[Stories](./Stories.md); read-only.
 
 ---
 
@@ -866,7 +870,7 @@ The swatches in this document.
 
 #### Type
 
-[Swatches](./Swatches.md), read-only.
+[Swatches](./Swatches.md); read-only.
 
 ---
 
@@ -880,7 +884,7 @@ The swatch groups in this document.
 
 #### Type
 
-[SwatchGroups](./SwatchGroups.md), read-only.
+[SwatchGroups](./SwatchGroups.md); read-only.
 
 ---
 
@@ -894,7 +898,7 @@ The art items in the document linked to symbols.
 
 #### Type
 
-[SymbolItems](./SymbolItems.md), read-only.
+[SymbolItems](./SymbolItems.md); read-only.
 
 ---
 
@@ -908,7 +912,7 @@ The symbols in this document.
 
 #### Type
 
-[Symbols](./Symbols.md), read-only.
+[Symbols](./Symbols.md); read-only.
 
 ---
 
@@ -922,7 +926,7 @@ The tags in this document.
 
 #### Type
 
-[Tags](./Tags.md), read-only.
+[Tags](./Tags.md); read-only.
 
 ---
 
@@ -936,7 +940,7 @@ The text frames in this document.
 
 #### Type
 
-[TextFrameItems](./TextFrameItems.md), read-only.
+[TextFrameItems](./TextFrameItems.md); read-only.
 
 ---
 
@@ -950,7 +954,7 @@ If `true`, full pages should be tiled when printing this document.
 
 #### Type
 
-Boolean, read-only.
+Boolean; read-only.
 
 ---
 
@@ -964,7 +968,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -978,7 +982,7 @@ If `true`, the printer's default screen should be used when printing this docume
 
 #### Type
 
-Boolean, read-only.
+Boolean; read-only.
 
 ---
 
@@ -992,7 +996,7 @@ The variables defined in this document.
 
 #### Type
 
-[Variables](./Variables.md), read-only.
+[Variables](./Variables.md); read-only.
 
 ---
 
@@ -1020,7 +1024,7 @@ The views contained in this document.
 
 #### Type
 
-[Views](./Views.md), read-only.
+[Views](./Views.md); read-only.
 
 ---
 
@@ -1034,7 +1038,7 @@ The visible bounds of the document, including stroke width of any objects in the
 
 #### Type
 
-Array of 4 numbers, read-only.
+Array of 4 numbers; read-only.
 
 ---
 
@@ -1048,7 +1052,7 @@ The width of this document.
 
 #### Type
 
-Number (double), read-only.
+Number (double); read-only.
 
 ---
 
@@ -1092,9 +1096,9 @@ Arranges multiple documents in the given layout style.
 
 #### Parameters
 
-| Parameter     | Type                                                                                                     | Description                              |
-|---------------|----------------------------------------------------------------------------------------------------------|------------------------------------------|
-| `layoutStyle` | [DocumentLayoutStyle](scripting-constants.md#jsobjref-scripting-constants-documentlayoutstyle), optional | The layout style to arrange documents in |
+|   Parameter   |                                    Type                                     |               Description                |
+| ------------- | --------------------------------------------------------------------------- | ---------------------------------------- |
+| `layoutStyle` | [DocumentLayoutStyle](scripting-constants.md#documentlayoutstyle), optional | The layout style to arrange documents in |
 
 #### Returns
 
@@ -1114,9 +1118,9 @@ When you close a document, you should set your document reference to `null` to p
 
 #### Parameters
 
-| Parameter     | Type                                                                           | Description                |
-|---------------|--------------------------------------------------------------------------------|----------------------------|
-| `saveOptions` | [SaveOptions](scripting-constants.md#jsobjref-scripting-constants-saveoptions) | Save options to close with |
+|   Parameter   |                       Type                        |        Description         |
+| ------------- | ------------------------------------------------- | -------------------------- |
+| `saveOptions` | [SaveOptions](scripting-constants.md#saveoptions) | Save options to close with |
 
 #### Returns
 
@@ -1148,11 +1152,11 @@ Converts the given point between artboard and document coordinate systems. Retur
 
 #### Parameters
 
-| Parameter     | Type                                                                                     | Description                   |
-|---------------|------------------------------------------------------------------------------------------|-------------------------------|
-| `coordinate`  | Point                                                                                    | Point to convert              |
-| `source`      | [CoordinateSystem](scripting-constants.md#jsobjref-scripting-constants-coordinatesystem) | Source coordinate system      |
-| `destination` | [CoordinateSystem](scripting-constants.md#jsobjref-scripting-constants-coordinatesystem) | Destination coordinate system |
+|   Parameter   |                            Type                             |          Description          |
+| ------------- | ----------------------------------------------------------- | ----------------------------- |
+| `coordinate`  | Point                                                       | Point to convert              |
+| `source`      | [CoordinateSystem](scripting-constants.md#coordinatesystem) | Source coordinate system      |
+| `destination` | [CoordinateSystem](scripting-constants.md#coordinatesystem) | Destination coordinate system |
 
 #### Returns
 
@@ -1170,11 +1174,11 @@ Exports the document to the specified file using one of the predefined export fi
 
 #### Parameters
 
-| Parameter      | Type                                                                         | Description        |
-|----------------|------------------------------------------------------------------------------|--------------------|
-| `exportFile`   | File                                                                         | File to save       |
-| `exportFormat` | [ExportType](scripting-constants.md#jsobjref-scripting-constants-exporttype) | Export file format |
-| `options`      | [Variable](./Variable.md), optional                          | todo               |
+|   Parameter    |                                         Type                                         |    Description     |
+| -------------- | ------------------------------------------------------------------------------------ | ------------------ |
+| `exportFile`   | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | File to save       |
+| `exportFormat` | [ExportType](scripting-constants.md#exporttype)                                      | Export file format |
+| `options`      | [Variable](./Variable.md), optional                                                  | todo               |
 
 #### Returns
 
@@ -1192,9 +1196,9 @@ Exports the current PDF preset values to the file.
 
 #### Parameters
 
-| Parameter   | Type   | Description              |
-|-------------|--------|--------------------------|
-| `file`      | File   | Preset file to export to |
+| Parameter |                                         Type                                         |       Description        |
+| --------- | ------------------------------------------------------------------------------------ | ------------------------ |
+| `file`    | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | Preset file to export to |
 
 #### Returns
 
@@ -1212,9 +1216,9 @@ Exports the current perspective grid preset values to the file.
 
 #### Parameters
 
-| Parameter   | Type   | Description              |
-|-------------|--------|--------------------------|
-| `file`      | File   | Preset file to export to |
+| Parameter |                                         Type                                         |       Description        |
+| --------- | ------------------------------------------------------------------------------------ | ------------------------ |
+| `file`    | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | Preset file to export to |
 
 #### Returns
 
@@ -1232,9 +1236,9 @@ Exports the current print preset values to the file.
 
 #### Parameters
 
-| Parameter   | Type   | Description              |
-|-------------|--------|--------------------------|
-| `file`      | File   | Preset file to export to |
+| Parameter |                                         Type                                         |       Description        |
+| --------- | ------------------------------------------------------------------------------------ | ------------------------ |
+| `file`    | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | Preset file to export to |
 
 #### Returns
 
@@ -1252,9 +1256,9 @@ Saves datasets into an XML library. The datasets contain variables and their ass
 
 #### Parameters
 
-| Parameter   | Type   | Description                   |
-|-------------|--------|-------------------------------|
-| `fileSpec`  | File   | XML Library file to export to |
+| Parameter  |                                         Type                                         |          Description          |
+| ---------- | ------------------------------------------------------------------------------------ | ----------------------------- |
+| `fileSpec` | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | XML Library file to export to |
 
 #### Returns
 
@@ -1272,9 +1276,9 @@ Resizes the artboard at the given index to fit currently selected art. Index def
 
 #### Parameters
 
-| Parameter   | Type                    | Description              |
-|-------------|-------------------------|--------------------------|
-| `index`     | Number (long), optional | Artboard index to resize |
+| Parameter |          Type           |       Description        |
+| --------- | ----------------------- | ------------------------ |
+| `index`   | Number (long), optional | Artboard index to resize |
 
 #### Returns
 
@@ -1291,13 +1295,13 @@ Boolean.
 
 #### Description
 
-Retrieves the pageitem using Uuid.
+Retrieves the [PageItem](./PageItem.md) using its Uuid.
 
 #### Parameters
 
-| Parameter   | Type   | Description      |
-|-------------|--------|------------------|
-| `uuid`      | String | uuid of PageItem |
+| Parameter |  Type  |      Description      |
+| --------- | ------ | --------------------- |
+| `uuid`    | String | uuid of item to fetch |
 
 #### Returns
 
@@ -1315,7 +1319,7 @@ Retrieves the active plane of the active perspective grid of the document.
 
 #### Returns
 
-[PerspectiveGridPlaneType](scripting-constants.md#jsobjref-scripting-constants-perspectivegridplanetype)
+[PerspectiveGridPlaneType](scripting-constants.md#perspectivegridplanetype)
 
 ---
 
@@ -1325,7 +1329,9 @@ Retrieves the active plane of the active perspective grid of the document.
 
 #### Description
 
-Hides the current active grid for the document. If no grid is visible, does nothing. Returns `true` if a grid is hidden.
+Hides the current active grid for the document. If no grid is visible, does nothing.
+
+Returns `true` if a grid is hidden.
 
 #### Returns
 
@@ -1345,11 +1351,11 @@ If the bounds parameter is omitted, captures the entire artwork.
 
 #### Parameters
 
-| Parameter    | Type                                                                                 | Description            |
-|--------------|--------------------------------------------------------------------------------------|------------------------|
-| `imageFile`  | File                                                                                 | Image file to write to |
-| `clipBounds` | Rect, optional                                                                       | Clipping bounds        |
-| `options`    | [ImageCaptureOptions](./ImageCaptureOptions.md), optional | todo                   |
+|                                             Parameter                                             |                           Type                            |   Description   |
+| ------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | --------------- |
+| `imageFile`  [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | Image file to write to                                    |                 |
+| `clipBounds`                                                                                      | Rect, optional                                            | Clipping bounds |
+| `options`                                                                                         | [ImageCaptureOptions](./ImageCaptureOptions.md), optional | todo            |
 
 #### Returns
 
@@ -1367,9 +1373,9 @@ Loads the character styles from the Illustrator file.
 
 #### Parameters
 
-| Parameter   | Type   | Description                        |
-|-------------|--------|------------------------------------|
-| `fileSpec`  | File   | File to load character styles from |
+|                                            Parameter                                             |                Type                | Description |
+| ------------------------------------------------------------------------------------------------ | ---------------------------------- | ----------- |
+| `fileSpec`  [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | File to load character styles from |             |
 
 #### Returns
 
@@ -1387,9 +1393,9 @@ Loads the paragraph styles from the Illustrator file.
 
 #### Parameters
 
-| Parameter   | Type   | Description                        |
-|-------------|--------|------------------------------------|
-| `fileSpec`  | File   | File to load paragraph styles from |
+| Parameter  |                                         Type                                         |            Description             |
+| ---------- | ------------------------------------------------------------------------------------ | ---------------------------------- |
+| `fileSpec` | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | File to load paragraph styles from |
 
 #### Returns
 
@@ -1407,10 +1413,10 @@ Loads all PDF presets from a file.
 
 #### Parameters
 
-| Parameter         | Type             | Description                         |
-|-------------------|------------------|-------------------------------------|
-| `fileSpec`        | File             | File to load PDF presets from       |
-| `replacingPreset` | String, optional | Whether to replace existing presets |
+|     Parameter     |                                         Type                                         |             Description             |
+| ----------------- | ------------------------------------------------------------------------------------ | ----------------------------------- |
+| `fileSpec`        | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | File to load PDF presets from       |
+| `replacingPreset` | String, optional                                                                     | Whether to replace existing presets |
 
 #### Returns
 
@@ -1428,10 +1434,10 @@ Loads the named print preset from the file.
 
 #### Parameters
 
-| Parameter     | Type   | Description                     |
-|---------------|--------|---------------------------------|
-| `printPreset` | String | Name of preset to load          |
-| `fileSpec`    | File   | File to load print presets from |
+|   Parameter   |                                         Type                                         |           Description           |
+| ------------- | ------------------------------------------------------------------------------------ | ------------------------------- |
+| `printPreset` | String                                                                               | Name of preset to load          |
+| `fileSpec`    | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | File to load print presets from |
 
 #### Returns
 
@@ -1449,9 +1455,9 @@ Imports a library containing datasets, variables, and their associated dynamic d
 
 #### Parameters
 
-| Parameter   | Type   | Description                   |
-|-------------|--------|-------------------------------|
-| `fileSpec`  | File   | File to import variables from |
+| Parameter  |                                         Type                                         |          Description          |
+| ---------- | ------------------------------------------------------------------------------------ | ----------------------------- |
+| `fileSpec` | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | File to import variables from |
 
 #### Returns
 
@@ -1469,9 +1475,9 @@ Prints the document.
 
 #### Parameters
 
-| Parameter   | Type                                                            | Description   |
-|-------------|-----------------------------------------------------------------|---------------|
-| `options`   | [PrintOptions](./PrintOptions.md), optional | todo          |
+| Parameter |                    Type                     | Description |
+| --------- | ------------------------------------------- | ----------- |
+| `options` | [PrintOptions](./PrintOptions.md), optional | todo        |
 
 #### Returns
 
@@ -1489,10 +1495,10 @@ Rasterizes the source art(s) within the specified clip bounds. The source art(s)
 
 #### Parameters
 
-| Parameter    | Type                                                                        | Description             |
-|--------------|-----------------------------------------------------------------------------|-------------------------|
-| `sourceArt`  | [Variable](./Variable.md)                                   | Source art to rasterize |
-| `clipBounds` | Rect, optional                                                              | Clipping bounds         |
+|  Parameter   |                        Type                         |       Description       |
+| ------------ | --------------------------------------------------- | ----------------------- |
+| `sourceArt`  | [Variable](./Variable.md)                           | Source art to rasterize |
+| `clipBounds` | Rect, optional                                      | Clipping bounds         |
 | `options`    | [RasterizeOptions](./RasterizeOptions.md), optional | todo                    |
 
 #### Returns
@@ -1519,12 +1525,12 @@ When last argument is true (the default), artwork is moved with the artboards.
 
 #### Parameters
 
-| Parameter             | Type                                                                                                           | Description                                |
-|-----------------------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| `artboardLayout`      | [DocumentArtboardLayout](scripting-constants.md#jsobjref-scripting-constants-documentartboardlayout), optional | Artboard layout                            |
-| `artboardRowsOrCols`  | Integer, optional                                                                                              | Number of rows or columns                  |
-| `artboardSpacing`     | Number, optional                                                                                               | Number of pixels for spacing               |
-| `artboardMoveArtwork` | Boolean, optional                                                                                              | Whether to move artwork with the artboards |
+|       Parameter       |                                       Type                                        |                Description                 |
+| --------------------- | --------------------------------------------------------------------------------- | ------------------------------------------ |
+| `artboardLayout`      | [DocumentArtboardLayout](scripting-constants.md#documentartboardlayout), optional | Artboard layout                            |
+| `artboardRowsOrCols`  | Integer, optional                                                                 | Number of rows or columns                  |
+| `artboardSpacing`     | Number, optional                                                                  | Number of pixels for spacing               |
+| `artboardMoveArtwork` | Boolean, optional                                                                 | Whether to move artwork with the artboards |
 
 #### Returns
 
@@ -1556,10 +1562,10 @@ Saves the document in the specified file as an Illustrator, EPS, or PDF file.
 
 #### Parameters
 
-| Parameter   | Type                                                                                     | Description                  |
-|-------------|------------------------------------------------------------------------------------------|------------------------------|
-| `saveIn`    | File                                                                                     | File to save the document as |
-| `options`   | [SaveOptions](scripting-constants.md#jsobjref-scripting-constants-saveoptions), optional | Save options to close with   |
+| Parameter |                                         Type                                         |         Description          |
+| --------- | ------------------------------------------------------------------------------------ | ---------------------------- |
+| `saveIn`  | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | File to save the document as |
+| `options` | [SaveOptions](scripting-constants.md#saveoptions), optional                          | Save options to close with   |
 
 #### Returns
 
@@ -1577,9 +1583,9 @@ Saves the non-UI document at the specified path
 
 #### Parameters
 
-| Parameter   | Type   | Description                  |
-|-------------|--------|------------------------------|
-| `saveIn`    | File   | File to save the document as |
+| Parameter |                                         Type                                         |         Description          |
+| --------- | ------------------------------------------------------------------------------------ | ---------------------------- |
+| `saveIn`  | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | File to save the document as |
 
 #### Returns
 
@@ -1611,9 +1617,9 @@ Sets the active plane of the active perspective grid of the document. Returns `t
 
 #### Parameters
 
-| Parameter   | Type                                                                                                     | Description     |
-|-------------|----------------------------------------------------------------------------------------------------------|-----------------|
-| `gridPlane` | [PerspectiveGridPlaneType](scripting-constants.md#jsobjref-scripting-constants-perspectivegridplanetype) | Grid plane type |
+|  Parameter  |                                    Type                                     |   Description   |
+| ----------- | --------------------------------------------------------------------------- | --------------- |
+| `gridPlane` | [PerspectiveGridPlaneType](scripting-constants.md#perspectivegridplanetype) | Grid plane type |
 
 #### Returns
 
@@ -1631,10 +1637,10 @@ Selects a predefined preset to define grid for the current document. Returns `tr
 
 #### Parameters
 
-| Parameter    | Type                                                                                           | Description           |
-|--------------|------------------------------------------------------------------------------------------------|-----------------------|
-| `gridType`   | [PerspectiveGridType](scripting-constants.md#jsobjref-scripting-constants-perspectivegridtype) | Grid type             |
-| `presetName` | String                                                                                         | Preset name to select |
+|  Parameter   |                               Type                                |      Description      |
+| ------------ | ----------------------------------------------------------------- | --------------------- |
+| `gridType`   | [PerspectiveGridType](scripting-constants.md#perspectivegridtype) | Grid type             |
+| `presetName` | String                                                            | Preset name to select |
 
 #### Returns
 
@@ -1666,10 +1672,10 @@ Captures the current document window to the target TIFF image file.
 
 #### Parameters
 
-| Parameter    | Type               | Description           |
-|--------------|--------------------|-----------------------|
-| `imageFile`  | File               | Image file to save as |
-| `windowSize` | Array of 2 numbers | Window size           |
+|  Parameter   |                                         Type                                         |      Description      |
+| ------------ | ------------------------------------------------------------------------------------ | --------------------- |
+| `imageFile`  | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | Image file to save as |
+| `windowSize` | Array of 2 numbers                                                                   | Window size           |
 
 #### Returns
 

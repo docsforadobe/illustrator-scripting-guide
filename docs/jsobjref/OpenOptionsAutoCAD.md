@@ -4,7 +4,7 @@
 
 #### Description
 
-Options for opening an AutoCAD drawing, used with the [Application.open()](Application.md#jsobjref-application-open) method.
+Options for opening an AutoCAD drawing, used with the [Application.open()](Application.md#applicationopen) method.
 
 ---
 
@@ -16,7 +16,9 @@ Options for opening an AutoCAD drawing, used with the [Application.open()](Appli
 
 #### Description
 
-If `true`, the artwork is centered on the artboard. Default: `true`.
+If `true`, the artwork is centered on the artboard.
+
+Default: `true`.
 
 #### Type
 
@@ -30,11 +32,13 @@ Boolean.
 
 #### Description
 
-How to scale the drawing on import. Default: `AutoCADGlobalScaleOption.FitArtboard`.
+How to scale the drawing on import.
+
+Default: `AutoCADGlobalScaleOption.FitArtboard`.
 
 #### Type
 
-[AutoCADGlobalScaleOption](scripting-constants.md#jsobjref-scripting-constants-autocadglobalscaleoption)
+[AutoCADGlobalScaleOption](scripting-constants.md#autocadglobalscaleoption)
 
 ---
 
@@ -44,7 +48,9 @@ How to scale the drawing on import. Default: `AutoCADGlobalScaleOption.FitArtboa
 
 #### Description
 
-The value when `globalScaleOption` is `AutoCADGlobalScaleOption.ScaleByValue`, expressed as a percentage. Range: 0.0 to 100.0. Default is 100.0.
+The value when `globalScaleOption` is `AutoCADGlobalScaleOption.ScaleByValue`, expressed as a percentage.
+
+Range: 0.0 to 100.0. Default is 100.0.
 
 #### Type
 
@@ -58,7 +64,9 @@ Number (double).
 
 #### Description
 
-If `true`, the layers of the artwork are merged. Default: `false`.
+If `true`, the layers of the artwork are merged.
+
+Default: `false`.
 
 #### Type
 
@@ -76,7 +84,7 @@ The object's container.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -86,7 +94,9 @@ Object, read-only.
 
 #### Description
 
-If `true`, line weights are scaled by the same factor as the rest of the drawing. Default: `false`.
+If `true`, line weights are scaled by the same factor as the rest of the drawing.
+
+Default: `false`.
 
 #### Type
 
@@ -118,7 +128,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -128,11 +138,13 @@ String, read-only.
 
 #### Description
 
-The unit to map to. Default: `AutoCADUnit.Millimeters`.
+The unit to map to.
+
+Default: `AutoCADUnit.Millimeters`.
 
 #### Type
 
-[AutoCADUnit](scripting-constants.md#jsobjref-scripting-constants-autocadunit)
+[AutoCADUnit](scripting-constants.md#autocadunit)
 
 ---
 
@@ -142,7 +154,9 @@ The unit to map to. Default: `AutoCADUnit.Millimeters`.
 
 #### Description
 
-The ratio by which to scale while mapping units. Default: 1.0.
+The ratio by which to scale while mapping units.
+
+Default: 1.0.
 
 #### Type
 

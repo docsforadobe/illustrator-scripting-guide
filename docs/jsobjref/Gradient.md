@@ -20,7 +20,7 @@ The gradient stops contained in this gradient.
 
 #### Type
 
-[GradientStops](./GradientStops.md), read-only.
+[GradientStops](./GradientStops.md); read-only.
 
 ---
 
@@ -48,7 +48,7 @@ The document that contains this gradient.
 
 #### Type
 
-[Document](./Document.md), read-only.
+[Document](./Document.md); read-only.
 
 ---
 
@@ -62,7 +62,7 @@ The kind of the gradient, either radial or linear.
 
 #### Type
 
-[GradientType](scripting-constants.md#jsobjref-scripting-constants-gradienttype)
+[GradientType](scripting-constants.md#gradienttype)
 
 ---
 
@@ -76,7 +76,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

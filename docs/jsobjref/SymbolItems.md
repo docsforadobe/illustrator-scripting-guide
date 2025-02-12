@@ -20,7 +20,7 @@ Number of elements in the collection.
 
 #### Type
 
-Number, read-only.
+Number; read-only.
 
 ---
 
@@ -34,7 +34,7 @@ The object's container.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -48,7 +48,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -64,9 +64,9 @@ Creates an instance of the specified symbol.
 
 #### Parameters
 
-| Parameter   | Type                                | Description        |
-|-------------|-------------------------------------|--------------------|
-| `symbol`    | [Symbol](./Symbol.md) | Symbol to instance |
+| Parameter |         Type          |    Description     |
+| --------- | --------------------- | ------------------ |
+| `symbol`  | [Symbol](./Symbol.md) | Symbol to instance |
 
 #### Returns
 
@@ -84,9 +84,9 @@ Get the first element in the collection with the provided name.
 
 #### Parameters
 
-| Parameter   | Type   | Description            |
-|-------------|--------|------------------------|
-| `name`      | String | Name of element to get |
+| Parameter |  Type  |      Description       |
+| --------- | ------ | ---------------------- |
+| `name`    | String | Name of element to get |
 
 #### Returns
 
@@ -104,9 +104,9 @@ Gets an element from the collection.
 
 #### Parameters
 
-| Parameter   | Type           | Description          |
-|-------------|----------------|----------------------|
-| `itemKey`   | String, Number | String or number key |
+| Parameter |      Type      |     Description      |
+| --------- | -------------- | -------------------- |
+| `itemKey` | String, Number | String or number key |
 
 #### Returns
 

@@ -36,7 +36,7 @@ The object that contains the symbol object.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -50,7 +50,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

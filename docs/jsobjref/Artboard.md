@@ -6,6 +6,8 @@
 
 An Artboard object represents a single artboard in a document. There can be between 1 to 100 artboards in one document.
 
+---
+
 ## Properties
 
 ### Artboard.artboardRect

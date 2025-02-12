@@ -26,7 +26,7 @@ The variable's type.
 
 #### Type
 
-[VariableKind](scripting-constants.md#jsobjref-scripting-constants-variablekind)
+[VariableKind](scripting-constants.md#variablekind)
 
 ---
 
@@ -54,7 +54,7 @@ All of the artwork in the variable.
 
 #### Type
 
-[PageItems](./PageItems.md), read-only
+[PageItems](./PageItems.md); read-only
 
 ---
 
@@ -82,7 +82,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only
+String; read-only
 
 ---
 

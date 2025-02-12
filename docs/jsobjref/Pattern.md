@@ -38,7 +38,7 @@ The document that contains this pattern.
 
 #### Type
 
-[Document](./Document.md), read-only.
+[Document](./Document.md); read-only.
 
 ---
 
@@ -52,7 +52,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

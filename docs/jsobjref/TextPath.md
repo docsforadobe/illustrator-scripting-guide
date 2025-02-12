@@ -22,7 +22,7 @@ Self-intersecting paths can contain sub-areas that cancel each other out, which 
 
 #### Type
 
-Number (double), read-only.
+Number (double); read-only.
 
 ---
 
@@ -36,7 +36,7 @@ The blend mode used when compositing an object.
 
 #### Type
 
-[BlendModes](scripting-constants.md#jsobjref-scripting-constants-blendmodes)
+[BlendModes](scripting-constants.md#blendmodes)
 
 ---
 
@@ -200,7 +200,9 @@ String
 
 #### Description
 
-The opacity of the object. Range: 0.0 to 100.0
+The opacity of the object.
+
+Range: 0.0 to 100.0
 
 #### Type
 
@@ -246,7 +248,7 @@ The polarity of the path.
 
 #### Type
 
-[PolarityValues](scripting-constants.md#jsobjref-scripting-constants-polarityvalues)
+[PolarityValues](scripting-constants.md#polarityvalues)
 
 ---
 
@@ -302,7 +304,7 @@ The type of line capping.
 
 #### Type
 
-[StrokeCap](scripting-constants.md#jsobjref-scripting-constants-strokecap)
+[StrokeCap](scripting-constants.md#strokecap)
 
 ---
 
@@ -372,7 +374,7 @@ Type of joints for the path.
 
 #### Type
 
-[StrokeJoin](scripting-constants.md#jsobjref-scripting-constants-strokejoin)
+[StrokeJoin](scripting-constants.md#strokejoin)
 
 ---
 
@@ -382,7 +384,11 @@ Type of joints for the path.
 
 #### Description
 
-When a default stroke join is set to mitered, this property specifies when the join will be converted to beveled (squared-off) by default. The default miter limit of 4 means that when the length of the point reaches four times the stroke weight, the join switches from a miter join to a bevel join. A value of 1 specifies a bevel join. Range: 1 to 500. Default: 4
+When a default stroke join is set to mitered, this property specifies when the join will be converted to beveled (squared-off) by default. The default miter limit of 4 means that when the length of the point reaches four times the stroke weight, the join switches from a miter join to a bevel join. A value of 1 specifies a bevel join.
+
+Range: 1 to 500.
+
+Default: 4
 
 #### Type
 
@@ -472,8 +478,8 @@ Sets the path using the array of points specified as [x, y] coordinate pairs.
 
 #### Parameters
 
-| Parameter    | Type                             | Description                |
-|--------------|----------------------------------|----------------------------|
+|  Parameter   |               Type               |        Description         |
+| ------------ | -------------------------------- | -------------------------- |
 | `pathPoints` | Array of [x, y] coordinate pairs | Path points to set path as |
 
 #### Returns

@@ -4,7 +4,7 @@
 
 #### Description
 
-Associates character and paragraph attributes with a style name. The style object can be used to apply those attributes to the text in a TextFrame object. See [Creating and applying a paragraph style](ParagraphStyles.md#jsobjref-paragraphstyles-creatingandapplyingparagraphstyle) example.
+Associates character and paragraph attributes with a style name. The style object can be used to apply those attributes to the text in a TextFrame object. See [Creating and applying a paragraph style](ParagraphStyles.md#creating-and-applying-a-paragraph-style) example.
 
 ---
 
@@ -20,7 +20,7 @@ The character properties for the text range.
 
 #### Type
 
-[CharacterAttributes](./CharacterAttributes.md), read-only.
+[CharacterAttributes](./CharacterAttributes.md); read-only.
 
 ---
 
@@ -48,7 +48,7 @@ The paragraph properties for the text range.
 
 #### Type
 
-[CharacterAttributes](./CharacterAttributes.md), read-only.
+[CharacterAttributes](./CharacterAttributes.md); read-only.
 
 ---
 
@@ -62,7 +62,7 @@ The object's container.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -76,7 +76,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -92,8 +92,8 @@ Applies this paragraph style to the specified text item.
 
 #### Parameters
 
-| Parameter           | Type              | Description                      |
-|---------------------|-------------------|----------------------------------|
+|      Parameter      |       Type        |           Description            |
+| ------------------- | ----------------- | -------------------------------- |
 | `textItem`          | Object            | Paragraph item to apply style to |
 | `clearingOverrides` | Boolean, optional | Whether to clear overrides       |
 

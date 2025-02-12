@@ -18,7 +18,9 @@ When you export a document, the appropriate file extension is appended automatic
 
 #### Description
 
-If `true`, the exported image should be anti-aliased. Default: `true`.
+If `true`, the exported image should be anti-aliased.
+
+Default: `true`.
 
 #### Type
 
@@ -32,7 +34,9 @@ Boolean.
 
 #### Description
 
-If `true`, the exported image should be clipped to the art board. Default: `false`.
+If `true`, the exported image should be clipped to the art board.
+
+Default: `false`.
 
 #### Type
 
@@ -46,7 +50,11 @@ Boolean.
 
 #### Description
 
-The number of colors in the exported image's color table. Range: 2 to 256. Default: 128.
+The number of colors in the exported image's color table.
+
+Range: 2 to 256.
+
+Default: 128.
 
 #### Type
 
@@ -60,11 +68,13 @@ Number (long).
 
 #### Description
 
-The method used to dither colors in the exported image. Default: `ColorDitherMethod.Diffusion`.
+The method used to dither colors in the exported image.
+
+Default: `ColorDitherMethod.Diffusion`.
 
 #### Type
 
-[ColorDitherMethod](scripting-constants.md#jsobjref-scripting-constants-colordithermethod)
+[ColorDitherMethod](scripting-constants.md#colordithermethod)
 
 ---
 
@@ -74,11 +84,13 @@ The method used to dither colors in the exported image. Default: `ColorDitherMet
 
 #### Description
 
-The method used to reduce the number of colors in the exported image. Default: `ColorReductionMethod.SELECTIVE`.
+The method used to reduce the number of colors in the exported image.
+
+Default: `ColorReductionMethod.SELECTIVE`.
 
 #### Type
 
-[ColorReductionMethod](scripting-constants.md#jsobjref-scripting-constants-colorreductionmethod)
+[ColorReductionMethod](scripting-constants.md#colorreductionmethod)
 
 ---
 
@@ -88,7 +100,11 @@ The method used to reduce the number of colors in the exported image. Default: `
 
 #### Description
 
-The amount (as a percentage) that the colors of the exported image are dithered, where 100.0 is 100%. Range: 0 to 100. Default: 88.
+The amount (as a percentage) that the colors of the exported image are dithered, where 100.0 is 100%.
+
+Range: 0 to 100.
+
+Default: 88.
 
 #### Type
 
@@ -102,7 +118,9 @@ Number (long).
 
 #### Description
 
-The horizontal scaling factor to apply to the exported image, where 100.0 is 100%. Default: 100.0.
+The horizontal scaling factor to apply to the exported image, where 100.0 is 100%.
+
+Default: 100.0.
 
 #### Type
 
@@ -116,7 +134,9 @@ Number (double).
 
 #### Description
 
-If `true`, the exported image should be interlaced. Default: `false`.
+If `true`, the exported image should be interlaced.
+
+Default: `false`.
 
 #### Type
 
@@ -130,7 +150,9 @@ Boolean.
 
 #### Description
 
-If `true`, the art board should be matted with a color. Default: `true`.
+If `true`, the art board should be matted with a color.
+
+Default: `true`.
 
 #### Type
 
@@ -144,7 +166,9 @@ Boolean.
 
 #### Description
 
-The color to use when matting the art board. Default: `white`.
+The color to use when matting the art board.
+
+Default: `white`.
 
 #### Type
 
@@ -158,7 +182,9 @@ The color to use when matting the art board. Default: `white`.
 
 #### Description
 
-If `true`, the exported image be saved with an accompanying HTML file. Default: `false`.
+If `true`, the exported image be saved with an accompanying HTML file.
+
+Default: `false`.
 
 #### Type
 
@@ -172,7 +198,9 @@ Boolean.
 
 #### Description
 
-If `true`, the exported image use transparency. Default: `true`.
+If `true`, the exported image use transparency.
+
+Default: `true`.
 
 #### Type
 
@@ -190,7 +218,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -200,7 +228,9 @@ String, read-only.
 
 #### Description
 
-The vertical scaling factor to apply to the exported image, where 100.0 is 100. Default: 100.0.
+The vertical scaling factor to apply to the exported image, where 100.0 is 100.
+
+Default: 100.0.
 
 #### Type
 
@@ -214,7 +244,9 @@ Number (double).
 
 #### Description
 
-Specifies how much the color table should be changed to match the web palette, where 100 is maximum. Default: 0.
+Specifies how much the color table should be changed to match the web palette, where 100 is maximum.
+
+Default: 0.
 
 #### Type
 

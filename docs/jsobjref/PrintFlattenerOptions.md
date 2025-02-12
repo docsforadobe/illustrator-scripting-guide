@@ -106,7 +106,7 @@ Default: `PDFOverprint.PRESERVEPDFOVERPRINT`
 
 #### Type
 
-[PDFOverprint](scripting-constants.md#jsobjref-scripting-constants-pdfoverprint)
+[PDFOverprint](scripting-constants.md#pdfoverprint)
 
 ---
 
@@ -116,7 +116,9 @@ Default: `PDFOverprint.PRESERVEPDFOVERPRINT`
 
 #### Description
 
-The rasterization resolution in dots per inch (dpi). Range: 1.0 to 9600.0.
+The rasterization resolution in dots per inch (dpi).
+
+Range: 1.0 to 9600.0.
 
 Default: 300.0
 

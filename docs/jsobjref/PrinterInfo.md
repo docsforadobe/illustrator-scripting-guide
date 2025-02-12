@@ -34,7 +34,7 @@ The printer color capability.
 
 #### Type
 
-[PrinterColorMode](scripting-constants.md#jsobjref-scripting-constants-printercolormode)
+[PrinterColorMode](scripting-constants.md#printercolormode)
 
 ---
 
@@ -244,7 +244,7 @@ The PostScript Language level.
 
 #### Type
 
-[PrinterPostScriptLevelEnum](scripting-constants.md#jsobjref-scripting-constants-printerpostscriptlevelenum)
+[PrinterPostScriptLevelEnum](scripting-constants.md#printerpostscriptlevelenum)
 
 ---
 
@@ -258,7 +258,7 @@ The printer type.
 
 #### Type
 
-[PrinterTypeEnum](scripting-constants.md#jsobjref-scripting-constants-printertypeenum)
+[PrinterTypeEnum](scripting-constants.md#printertypeenum)
 
 ---
 

@@ -4,7 +4,7 @@
 
 #### Description
 
-Options for opening a Photoshop document, used with the [Application.open()](Application.md#jsobjref-application-open) method.
+Options for opening a Photoshop document, used with the [Application.open()](Application.md#applicationopen) method.
 
 ---
 
@@ -30,7 +30,9 @@ String.
 
 #### Description
 
-If `true`, preserve hidden layers when the document is converted. Default: `false`.
+If `true`, preserve hidden layers when the document is converted.
+
+Default: `false`.
 
 #### Type
 
@@ -44,7 +46,9 @@ Boolean.
 
 #### Description
 
-If `true`, preserve image maps when the document is converted. Default: `true`.
+If `true`, preserve image maps when the document is converted.
+
+Default: `true`.
 
 #### Type
 
@@ -58,7 +62,9 @@ Boolean.
 
 #### Description
 
-If `true`, preserve layers when the document is converted. Default: `true`.
+If `true`, preserve layers when the document is converted.
+
+Default: `true`.
 
 #### Type
 
@@ -72,7 +78,9 @@ Boolean.
 
 #### Description
 
-If `true`, preserve slices when the document is converted. Default: `true`.
+If `true`, preserve slices when the document is converted.
+
+Default: `true`.
 
 #### Type
 
@@ -90,4 +98,4 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.

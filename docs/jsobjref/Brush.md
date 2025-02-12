@@ -1,6 +1,6 @@
 # Brush
 
-`app.activeDocument.brushes[index`
+`app.activeDocument.brushes[index]`
 
 #### Description
 
@@ -64,9 +64,9 @@ Applies the `brush` to a specific art item.
 
 #### Parameters
 
-| Parameter   | Type                                      | Description                |
-|-------------|-------------------------------------------|----------------------------|
-| `artItem`   | [PageItem](./PageItem.md) | Art item to apply brush to |
+| Parameter |           Type            |        Description         |
+| --------- | ------------------------- | -------------------------- |
+| `artItem` | [PageItem](./PageItem.md) | Art item to apply brush to |
 
 #### Returns
 

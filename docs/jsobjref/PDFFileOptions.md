@@ -4,7 +4,7 @@
 
 #### Description
 
-Options for opening a PDF file, used with the [Application.open()](Application.md#jsobjref-application-open) method.
+Options for opening a PDF file, used with the [Application.open()](Application.md#applicationopen) method.
 
 All properties are optional.
 
@@ -54,7 +54,7 @@ Default: `PDFBoxType.PDFMediaBox`
 
 #### Type
 
-[PDFBoxType](scripting-constants.md#jsobjref-scripting-constants-pdfboxtype)
+[PDFBoxType](scripting-constants.md#pdfboxtype)
 
 ---
 

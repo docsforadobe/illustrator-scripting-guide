@@ -22,7 +22,7 @@ Default: `PrintFontDownloadMode.DOWNLOADSUBSET`
 
 #### Type
 
-[PrintFontDownloadMode](scripting-constants.md#jsobjref-scripting-constants-printfontdownloadmode)
+[PrintFontDownloadMode](scripting-constants.md#printfontdownloadmode)
 
 ---
 
@@ -38,7 +38,7 @@ Default: `FontSubstitutionPolicy.SUBSTITUTEOBLIQUE`
 
 #### Type
 
-[FontSubstitutionPolicy](scripting-constants.md#jsobjref-scripting-constants-fontsubstitutionpolicy)
+[FontSubstitutionPolicy](scripting-constants.md#fontsubstitutionpolicy)
 
 ---
 
@@ -52,7 +52,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

@@ -13,7 +13,7 @@ What's new and changed for scripting?
 
 ## [Illustrator XX.X (CC 2017) <>]()
 
-- Added: [Application.getIsFileOpen()](../jsobjref/Application.md#jsobjref-application-getisfileopen)
+- Added: [Application.getIsFileOpen()](../jsobjref/Application.md#applicationgetisfileopen)
 
 ---
 

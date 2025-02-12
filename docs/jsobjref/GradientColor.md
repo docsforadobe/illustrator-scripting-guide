@@ -16,7 +16,9 @@ A gradient color specification in a Gradient object. A script can create a new g
 
 #### Description
 
-The gradient vector angle in degrees. Default: 0.0.
+The gradient vector angle in degrees.
+
+Default: 0.0.
 
 #### Type
 
@@ -118,7 +120,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

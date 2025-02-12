@@ -4,7 +4,7 @@
 
 #### Description
 
-A collection of `TextRange` objects representing lines of text in a text frame. The elements are not named; you must access them by index.
+A collection of [TextRange](./TextRange.md) objects representing lines of text in a text frame. The elements are not named; you must access them by index.
 
 ---
 
@@ -20,7 +20,7 @@ Number of elements in the collection.
 
 #### Type
 
-Number, read-only.
+Number; read-only.
 
 ---
 
@@ -34,7 +34,7 @@ The object's container.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -48,7 +48,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

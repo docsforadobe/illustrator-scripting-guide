@@ -20,7 +20,7 @@ The character properties for the style.
 
 #### Type
 
-[CharacterAttributes](./CharacterAttributes.md), read-only.
+[CharacterAttributes](./CharacterAttributes.md); read-only.
 
 ---
 
@@ -48,7 +48,7 @@ The object's container.
 
 #### Type
 
-Object, read-only.
+Object; read-only.
 
 ---
 
@@ -62,7 +62,7 @@ The class name of the object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -78,8 +78,8 @@ Applies the character style to the text object or objects.
 
 #### Parameters
 
-| Parameter           | Type              | Description                 |
-|---------------------|-------------------|-----------------------------|
+|      Parameter      |       Type        |         Description         |
+| ------------------- | ----------------- | --------------------------- |
 | `textItem`          | Object            | Text item to apply style to |
 | `clearingOverrides` | Boolean, optional | Whether to clear overrides  |
 

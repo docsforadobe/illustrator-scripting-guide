@@ -76,7 +76,7 @@ The coordinate system currently in use, document or artboard.
 
 #### Type
 
-[CoordinateSystem](scripting-constants.md#jsobjref-scripting-constants-coordinatesystem)
+[CoordinateSystem](scripting-constants.md#coordinatesystem)
 
 ---
 
@@ -90,7 +90,7 @@ The default color-settings file for the current application locale.
 
 #### Type
 
-File; read-only.
+[File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object; read-only.
 
 ---
 
@@ -188,7 +188,7 @@ The file path to the application.
 
 #### Type
 
-File; read-only.
+[File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object; read-only.
 
 ---
 
@@ -356,7 +356,7 @@ What level of interaction with the user should be allowed when handling script c
 
 #### Type
 
-[UserInteractionLevel](scripting-constants.md#jsobjref-scripting-constants-userinteractionlevel)
+[UserInteractionLevel](scripting-constants.md#userinteractionlevel)
 
 ---
 
@@ -414,8 +414,8 @@ Joins two matrices together.
 
 #### Parameters
 
-| Parameter      | Type                                | Description   |
-|----------------|-------------------------------------|---------------|
+|   Parameter    |         Type          |  Description  |
+| -------------- | --------------------- | ------------- |
 | `matrix`       | [Matrix](./Matrix.md) | First matrix  |
 | `secondMatrix` | [Matrix](./Matrix.md) | Second matrix |
 
@@ -435,10 +435,10 @@ Joins a rotation translation to a transformation matrix.
 
 #### Parameters
 
-| Parameter   | Type            | Description   |
-|-------------|-----------------|---------------|
-| `matrix`    | Matrix          | Matrix        |
-| `angle`     | Number (double) | Angle         |
+| Parameter |      Type       | Description |
+| --------- | --------------- | ----------- |
+| `matrix`  | Matrix          | Matrix      |
+| `angle`   | Number (double) | Angle       |
 
 #### Returns
 
@@ -456,11 +456,11 @@ Concatenates a scale translation to a transformation matrix.
 
 #### Parameters
 
-| Parameter   | Type                      | Description   |
-|-------------|---------------------------|---------------|
-| `matrix`    | Matrix                    | Matrix        |
-| `scaleX`    | Number (double), optional | X Scale       |
-| `scaleY`    | Number (dobule), optional | Y Scale       |
+| Parameter |           Type            | Description |
+| --------- | ------------------------- | ----------- |
+| `matrix`  | Matrix                    | Matrix      |
+| `scaleX`  | Number (double), optional | X Scale     |
+| `scaleY`  | Number (dobule), optional | Y Scale     |
 
 #### Returns
 
@@ -478,11 +478,11 @@ Joins a translation to a transformation matrix.
 
 #### Parameters
 
-| Parameter   | Type                      | Description   |
-|-------------|---------------------------|---------------|
-| `matrix`    | Matrix                    | Matrix        |
-| `deltaX`    | Number (double), optional | X Delta       |
-| `deltaY`    | Number (dobule), optional | Y Delta       |
+| Parameter |           Type            | Description |
+| --------- | ------------------------- | ----------- |
+| `matrix`  | Matrix                    | Matrix      |
+| `deltaX`  | Number (double), optional | X Delta     |
+| `deltaY`  | Number (dobule), optional | Y Delta     |
 
 #### Returns
 
@@ -492,7 +492,16 @@ Joins a translation to a transformation matrix.
 
 ### Application.convertSampleColor()
 
-`app.convertSampleColor(sourceColorSpace, sourceColor, destColorSpace, colorConvertPurpose[, sourceHasAlpha][, destHasAlpha])`
+```javascript
+app.convertSampleColor(
+    sourceColorSpace,
+    sourceColor,
+    destColorSpace,
+    colorConvertPurpose
+    [, sourceHasAlpha]
+    [, destHasAlpha]
+)
+```
 
 #### Description
 
@@ -500,14 +509,14 @@ Converts a sample-component color from one color space to another.
 
 #### Parameters
 
-| Parameter             | Type                                                                                           | Description                       |
-|-----------------------|------------------------------------------------------------------------------------------------|-----------------------------------|
-| `sourceColorSpace`    | [ImageColorSpace](scripting-constants.md#jsobjref-scripting-constants-imagecolorspace)         | Color space of source color       |
-| `sourceColor`         | ColorComponents                                                                                | Source color to convert           |
-| `destColorSpace`      | [ImageColorSpace](scripting-constants.md#jsobjref-scripting-constants-imagecolorspace)         | Destination color space           |
-| `colorConvertPurpose` | [ColorConvertPurpose](scripting-constants.md#jsobjref-scripting-constants-colorconvertpurpose) | The purpose of the convert        |
-| `sourceHasAlpha`      | Boolean, optional                                                                              | Whether the source has alpha      |
-| `destHasAlpha`        | Boolean, optional                                                                              | Whether the destination has alpha |
+|       Parameter       |                               Type                                |            Description            |
+| --------------------- | ----------------------------------------------------------------- | --------------------------------- |
+| `sourceColorSpace`    | [ImageColorSpace](scripting-constants.md#imagecolorspace)         | Color space of source color       |
+| `sourceColor`         | ColorComponents                                                   | Source color to convert           |
+| `destColorSpace`      | [ImageColorSpace](scripting-constants.md#imagecolorspace)         | Destination color space           |
+| `colorConvertPurpose` | [ColorConvertPurpose](scripting-constants.md#colorconvertpurpose) | The purpose of the convert        |
+| `sourceHasAlpha`      | Boolean, optional                                                 | Whether the source has alpha      |
+| `destHasAlpha`        | Boolean, optional                                                 | Whether the destination has alpha |
 
 #### Returns
 
@@ -553,8 +562,8 @@ Deletes an existing workspace.
 
 #### Parameters
 
-| Parameter       | Type   | Description                 |
-|-----------------|--------|-----------------------------|
+|    Parameter    |  Type  |         Description         |
+| --------------- | ------ | --------------------------- |
 | `workspaceName` | String | Name of workspace to delete |
 
 #### Returns
@@ -590,9 +599,9 @@ Returns whether the specified filePath is open
 
 #### Parameters
 
-| Parameter   | Type   | Description        |
-|-------------|--------|--------------------|
-| `filePath`  | String | File path to check |
+| Parameter  |  Type  |    Description     |
+| ---------- | ------ | ------------------ |
+| `filePath` | String | File path to check |
 
 #### Returns
 
@@ -610,9 +619,9 @@ Gets detailed file information for specified PPD file.
 
 #### Parameters
 
-| Parameter   | Type   | Description               |
-|-------------|--------|---------------------------|
-| `name`      | String | File name to get info for |
+| Parameter |  Type  |        Description        |
+| --------- | ------ | ------------------------- |
+| `name`    | String | File name to get info for |
 
 #### Returns
 
@@ -630,13 +639,13 @@ Returns the full path to the application's default document profile for the spec
 
 #### Parameters
 
-| Parameter    | Type                                                                                         | Description                |
-|--------------|----------------------------------------------------------------------------------------------|----------------------------|
-| `presetType` | [DocumentPresetType](scripting-constants.md#jsobjref-scripting-constants-documentpresettype) | Preset type to get file of |
+|  Parameter   |                              Type                               |        Description         |
+| ------------ | --------------------------------------------------------------- | -------------------------- |
+| `presetType` | [DocumentPresetType](scripting-constants.md#documentpresettype) | Preset type to get file of |
 
 #### Returns
 
-File
+[File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object
 
 ---
 
@@ -650,9 +659,9 @@ Retrieves the tracing-option settings from the template with a given preset name
 
 #### Parameters
 
-| Parameter   | Type   | Description                      |
-|-------------|--------|----------------------------------|
-| `preset`    | String | Preset name to get settings from |
+| Parameter |  Type  |           Description            |
+| --------- | ------ | -------------------------------- |
+| `preset`  | String | Preset name to get settings from |
 
 #### Returns
 
@@ -671,17 +680,29 @@ Returns a transformation matrix containing a single rotation.
 !!! note
     Requires a value in degrees.
 
-For example, `30` rotates the object 30 degrees counterclockwise; `-30` rotates the object 30 degrees clockwise.
-
 #### Parameters
 
-| Parameter   | Type                      | Description            |
-|-------------|---------------------------|------------------------|
-| `angle`     | Number (double), optional | Angle to get matrix of |
+| Parameter |           Type            |      Description       |
+| --------- | ------------------------- | ---------------------- |
+| `angle`   | Number (double), optional | Angle to get matrix of |
 
 #### Returns
 
 [Matrix](./Matrix.md)
+
+#### Example
+
+Rotate the object 30 degrees counterclockwise:
+
+```javascript
+app.getRotationMatrix(30);
+```
+
+Rotate 30 degrees clockwise:
+
+```javascript
+app.getRotationMatrix(-30);
+```
 
 ---
 
@@ -696,18 +717,30 @@ Returns a transformation matrix containing a single scale.
 !!! note
     Requires a value in percentage.
 
-For example, `60` scales the object to 60% of its original size; `200` doubles the object's bounds.
-
 #### Parameters
 
-| Parameter   | Type                      | Description              |
-|-------------|---------------------------|--------------------------|
-| `scaleX`    | Number (double), optional | X scale to get matrix of |
-| `scaleY`    | Number (double), optional | Y scale to get matrix of |
+| Parameter |           Type            |       Description        |
+| --------- | ------------------------- | ------------------------ |
+| `scaleX`  | Number (double), optional | X scale to get matrix of |
+| `scaleY`  | Number (double), optional | Y scale to get matrix of |
 
 #### Returns
 
 [Matrix](./Matrix.md)
+
+#### Example
+
+Scale the object to 60% of its original size:
+
+```javascript
+app.getScaleMatrix(60, 60);
+```
+
+Double the object's bounds:
+
+```javascript
+app.getScaleMatrix(200, 200);
+```
 
 ---
 
@@ -736,18 +769,30 @@ Returns a transformation matrix containing a single translation.
 !!! note
     Requires a value in points.
 
-For example, (100, 200) moves the object 100 pt. to the right and 200 pt. up; a minus before each number moves the object left and down.
-
 #### Parameters
 
-| Parameter   | Type                      | Description   |
-|-------------|---------------------------|---------------|
-| `deltaX`    | Number (double), optional | X Delta       |
-| `deltaY`    | Number (dobule), optional | Y Delta       |
+| Parameter |           Type            | Description |
+| --------- | ------------------------- | ----------- |
+| `deltaX`  | Number (double), optional | X Delta     |
+| `deltaY`  | Number (dobule), optional | Y Delta     |
 
 #### Returns
 
 [Matrix](./Matrix.md)
+
+#### Example
+
+Move the object 100 pt. to the right and 200 pt. up:
+
+```javascript
+app.getTranslationMatrix(100, 200);
+```
+
+Move them left and down:
+
+```javascript
+app.getTranslationMatrix(-100, -200);
+```
 
 ---
 
@@ -761,9 +806,9 @@ Inverts a matrix.
 
 #### Parameters
 
-| Parameter   | Type                                | Description      |
-|-------------|-------------------------------------|------------------|
-| `matrix`    | [Matrix](./Matrix.md) | Matrix to invert |
+| Parameter |         Type          |   Description    |
+| --------- | --------------------- | ---------------- |
+| `matrix`  | [Matrix](./Matrix.md) | Matrix to invert |
 
 #### Returns
 
@@ -781,8 +826,8 @@ Checks whether the two matrices are equal.
 
 #### Parameters
 
-| Parameter      | Type                                | Description            |
-|----------------|-------------------------------------|------------------------|
+|   Parameter    |         Type          |      Description       |
+| -------------- | --------------------- | ---------------------- |
 | `matrix`       | [Matrix](./Matrix.md) | First matrix to check  |
 | `secondMatrix` | [Matrix](./Matrix.md) | Second matrix to check |
 
@@ -802,9 +847,9 @@ Checks whether a matrix is singular and cannot be inverted.
 
 #### Parameters
 
-| Parameter   | Type                                | Description     |
-|-------------|-------------------------------------|-----------------|
-| `matrix`    | [Matrix](./Matrix.md) | Matrix to check |
+| Parameter |         Type          |   Description   |
+| --------- | --------------------- | --------------- |
+| `matrix`  | [Matrix](./Matrix.md) | Matrix to check |
 
 #### Returns
 
@@ -822,9 +867,9 @@ Loads color settings from specified file, or, if file is empty, turns color mana
 
 #### Parameters
 
-| Parameter   | Type   | Description                |
-|-------------|--------|----------------------------|
-| `fileSpec`  | File   | File to load settings from |
+| Parameter  |                                         Type                                         |        Description         |
+| ---------- | ------------------------------------------------------------------------------------ | -------------------------- |
+| `fileSpec` | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | File to load settings from |
 
 #### Returns
 
@@ -847,11 +892,11 @@ If the parameter is not supplied, Illustrator opens a dialog so the user can cho
 
 #### Parameters
 
-| Parameter            | Type                                                                                                   | Description             |
-|----------------------|--------------------------------------------------------------------------------------------------------|-------------------------|
-| `file`               | File                                                                                                   | File to open            |
-| `documentColorSpace` | [DocumentColorSpace](scripting-constants.md#jsobjref-scripting-constants-documentcolorspace), optional | Color space of document |
-| `options`            | anything                                                                                               | todo                    |
+|      Parameter       |                                         Type                                         |       Description       |
+| -------------------- | ------------------------------------------------------------------------------------ | ----------------------- |
+| `file`               | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | File to open            |
+| `documentColorSpace` | [DocumentColorSpace](scripting-constants.md#documentcolorspace), optional            | Color space of document |
+| `options`            | anything                                                                             | todo                    |
 
 #### Returns
 
@@ -942,8 +987,8 @@ Saves a new workspace.
 
 #### Parameters
 
-| Parameter       | Type   | Description                  |
-|-----------------|--------|------------------------------|
+|    Parameter    |  Type  |         Description          |
+| --------------- | ------ | ---------------------------- |
 | `workspaceName` | String | Name of workspace to save as |
 
 #### Returns
@@ -962,8 +1007,8 @@ Sends a plug-in-defined command message to a plug-in with given input arguments,
 
 #### Parameters
 
-| Parameter         | Type   | Description                       |
-|-------------------|--------|-----------------------------------|
+|     Parameter     |  Type  |            Description            |
+| ----------------- | ------ | --------------------------------- |
 | `pluginName`      | String | Name of plugin to send message to |
 | `messageSelector` | String | Message to send to the plugin     |
 | `inputString`     | String | Data to pass into the command     |
@@ -984,9 +1029,9 @@ Gets presets from the file.
 
 #### Parameters
 
-| Parameter   | Type   | Description              |
-|-------------|--------|--------------------------|
-| `fileSpec`  | File   | File to get presets from |
+| Parameter  |                                         Type                                         |       Description        |
+| ---------- | ------------------------------------------------------------------------------------ | ------------------------ |
+| `fileSpec` | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | File to get presets from |
 
 #### Returns
 
@@ -1004,8 +1049,8 @@ Switches to the specified workspace.
 
 #### Parameters
 
-| Parameter       | Type   | Description       |
-|-----------------|--------|-------------------|
+|    Parameter    |  Type  |    Description    |
+| --------------- | ------ | ----------------- |
 | `workspaceName` | String | Name to switch to |
 
 #### Returns
@@ -1024,9 +1069,9 @@ Translates the placeholder text to regular text (a way to enter Unicode points i
 
 #### Parameters
 
-| Parameter   | Type   | Description         |
-|-------------|--------|---------------------|
-| `text`      | String | String to translate |
+| Parameter |  Type  |     Description     |
+| --------- | ------ | ------------------- |
+| `text`    | String | String to translate |
 
 #### Returns
 

@@ -4,7 +4,7 @@
 
 #### Description
 
-Options for saving a document as an Illustrator file, used with the [Document.saveAs()](Document.md#jsobjref-document-saveas) method. All properties are optional.
+Options for saving a document as an Illustrator file, used with the [Document.saveAs()](Document.md#documentsaveas) method. All properties are optional.
 
 ---
 
@@ -16,7 +16,9 @@ Options for saving a document as an Illustrator file, used with the [Document.sa
 
 #### Description
 
-If `saveMultipleArtboards` is `true` (which is valid only for Illustrator 13 or earlier), the document is considered for multi-asset extraction, which specifies an artboard range. An empty string extracts all artboards. Default: empty String.
+If `saveMultipleArtboards` is `true` (which is valid only for Illustrator 13 or earlier), the document is considered for multi-asset extraction, which specifies an artboard range. An empty string extracts all artboards.
+
+Default: empty String.
 
 #### Type
 
@@ -30,11 +32,13 @@ String.
 
 #### Description
 
-Specifies the version of Illustrator file format to create. Default: `Compatibility.ILLUSTRATOR19`.
+Specifies the version of Illustrator file format to create.
+
+Default: `Compatibility.ILLUSTRATOR19`.
 
 #### Type
 
-[Compatibility](scripting-constants.md#jsobjref-scripting-constants-compatibility)
+[Compatibility](scripting-constants.md#compatibility)
 
 ---
 
@@ -42,9 +46,14 @@ Specifies the version of Illustrator file format to create. Default: `Compatibil
 
 `illustratorSaveOptions.compressed`
 
+!!! note
+    This functionality was added in Illustrator version 10
+
 #### Description
 
-(Illustrator version 10 or later.) If `true`, the saved file is compressed. Default: `true`.
+If `true`, the saved file is compressed.
+
+Default: `true`.
 
 #### Type
 
@@ -56,9 +65,14 @@ Boolean.
 
 `illustratorSaveOptions.embedICCProfile`
 
+!!! note
+    This functionality was added in Illustrator version 9
+
 #### Description
 
-(Illustrator version 9 or later.) If `true`, the document's ICC profile is embedded in the saved file. Default: `false`.
+If `true`, the document's ICC profile is embedded in the saved file.
+
+Default: `false`.
 
 #### Type
 
@@ -70,9 +84,14 @@ Boolean.
 
 `illustratorSaveOptions.embedLinkedFiles`
 
+!!! note
+    This functionality was added in Illustrator version 7
+
 #### Description
 
-(Illustrator version 7 or later.) If `true`, the linked image files is embedded in the saved file. Default: `false`.
+If `true`, the linked image files is embedded in the saved file.
+
+Default: `false`.
 
 #### Type
 
@@ -84,13 +103,18 @@ Boolean.
 
 `illustratorSaveOptions.flattenOutput`
 
+!!! note
+    This functionality was added in Illustrator version 9
+
 #### Description
 
-(Versions before Illustrator 9.) How transparency should be flattened for older file format versions. Default: `OutputFlattening.PRESERVEAPPEARANCE`.
+How transparency should be flattened for older file format versions.
+
+Default: `OutputFlattening.PRESERVEAPPEARANCE`.
 
 #### Type
 
-[OutputFlattening](scripting-constants.md#jsobjref-scripting-constants-outputflattening)
+[OutputFlattening](scripting-constants.md#outputflattening)
 
 ---
 
@@ -98,9 +122,16 @@ Boolean.
 
 `illustratorSaveOptions.fontSubsetThreshold`
 
+!!! note
+    This functionality was added in Illustrator version 9
+
 #### Description
 
-(Illustrator version 9 or later.) Include a subset of fonts when less than this percentage of characters is used in the document. Range: 0.0 to 100.0. Default: 100.0.
+Include a subset of fonts when less than this percentage of characters is used in the document.
+
+Range: 0.0 to 100.0.
+
+Default: 100.0.
 
 #### Type
 
@@ -112,9 +143,14 @@ Number (double).
 
 `illustratorSaveOptions.pdfCompatible`
 
+!!! note
+    This functionality was added in Illustrator version 10
+
 #### Description
 
-(Illustrator version 10 or later.) If `true`, the file is saved as a PDF compatible file. Default: `true`.
+If `true`, the file is saved as a PDF compatible file.
+
+Default: `true`.
 
 #### Type
 
@@ -146,7 +182,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 

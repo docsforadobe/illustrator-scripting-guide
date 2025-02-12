@@ -18,7 +18,9 @@ When you export a document, the appropriate file extension is appended automatic
 
 #### Description
 
-If `true`, the exported image should be anti-aliased. Default: `true`.
+If `true`, the exported image should be anti-aliased.
+
+Default: `true`.
 
 #### Type
 
@@ -32,7 +34,9 @@ Boolean.
 
 #### Description
 
-If `saveMultipleArtboards` is true, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards. Default: empty String.
+If `saveMultipleArtboards` is true, this is considered for multi-asset extraction, which specifies the artboard range. An empty string extracts all the artboards.
+
+Default: empty String.
 
 #### Type
 
@@ -46,7 +50,9 @@ String.
 
 #### Description
 
-If `true`, text objects should be exported as editable text layers. Default: `true`.
+If `true`, text objects should be exported as editable text layers.
+
+Default: `true`.
 
 #### Type
 
@@ -60,7 +66,9 @@ Boolean.
 
 #### Description
 
-If `true`, an ICC profile should be embedded in the exported file. Default: `false`.
+If `true`, an ICC profile should be embedded in the exported file.
+
+Default: `false`.
 
 #### Type
 
@@ -74,11 +82,13 @@ Boolean.
 
 #### Description
 
-The color space of the exported file. Default: `ImageColorSpace.RGB`.
+The color space of the exported file.
+
+Default: `ImageColorSpace.RGB`.
 
 #### Type
 
-[ImageColorSpace](scripting-constants.md#jsobjref-scripting-constants-imagecolorspace)
+[ImageColorSpace](scripting-constants.md#imagecolorspace)
 
 ---
 
@@ -88,7 +98,9 @@ The color space of the exported file. Default: `ImageColorSpace.RGB`.
 
 #### Description
 
-Preserve as much of the original document's structure as possible when exporting. Default: `true`.
+Preserve as much of the original document's structure as possible when exporting.
+
+Default: `true`.
 
 #### Type
 
@@ -102,7 +114,11 @@ Boolean.
 
 #### Description
 
-Resolution of the exported file in dots per inch (dpi). Range: 72.0 to 2400.0. Default: 150.0.
+Resolution of the exported file in dots per inch (dpi).
+
+Range: 72.0 to 2400.0.
+
+Default: 150.0.
 
 #### Type
 
@@ -116,7 +132,9 @@ Number (double).
 
 #### Description
 
-If `true`, all artboards or range of artboards are saved. Default: `false`.
+If `true`, all artboards or range of artboards are saved.
+
+Default: `false`.
 
 #### Type
 
@@ -134,7 +152,7 @@ The class name of the referenced object.
 
 #### Type
 
-String, read-only.
+String; read-only.
 
 ---
 
@@ -144,7 +162,9 @@ String, read-only.
 
 #### Description
 
-If `true`, a warning dialog should be displayed in case of conflicts in the export settings. Default: `true`.
+If `true`, a warning dialog should be displayed in case of conflicts in the export settings.
+
+Default: `true`.
 
 #### Type
 
@@ -158,7 +178,9 @@ Boolean.
 
 #### Description
 
-If `true`, the document layers should be presented in the exported document. Default: `true`.
+If `true`, the document layers should be presented in the exported document.
+
+Default: `true`.
 
 #### Type
 

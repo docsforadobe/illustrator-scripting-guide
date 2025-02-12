@@ -82,7 +82,7 @@ Default: `PageMarksType.Roman`
 
 #### Type
 
-[PageMarksTypes](scripting-constants.md#jsobjref-scripting-constants-pagemarkstypes)
+[PageMarksTypes](scripting-constants.md#pagemarkstypes)
 
 ---
 
