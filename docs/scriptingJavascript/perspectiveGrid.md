@@ -1,6 +1,9 @@
 # Working with the perspective grid
 
-The Perspective Grid is a new feature in lllustrator CC 2017 that enables you to create and manipulate art in a spatial environment using established laws of perspective. Enable Perspective Grid using the View > Perspective Grid menu or the perspective tools in the toolbar.
+!!! note
+    This functionality was added in Illustrator CC 2017
+
+The Perspective Grid is a feature that enables you to create and manipulate art in a spatial environment using established laws of perspective. Enable Perspective Grid using the View > Perspective Grid menu or the perspective tools in the toolbar.
 
 The SDK provides an API for working with the perspective grid programmatically, and your scripts have some access to this API. A script can:
 
@@ -65,11 +68,12 @@ mydoc.hidePerspectiveGrid();
 
 The perspective grid plane types are:
 
-| Left plane    | `PerspectiveGridPlaneType.LEFTPLANE`   |
-|---------------|----------------------------------------|
-| Right plane   | `PerspectiveGridPlaneType.RIGHTPLANE`  |
-| Floor plane   | `PerspectiveGridPlaneType.FLOORPLANE`  |
-| Invalid plane | `PerspectiveGridPlaneType.NOPLANE`     |
+|     Plane     |                 Type                  |
+| ------------- | ------------------------------------- |
+| Left plane    | `PerspectiveGridPlaneType.LEFTPLANE`  |
+| Right plane   | `PerspectiveGridPlaneType.RIGHTPLANE` |
+| Floor plane   | `PerspectiveGridPlaneType.FLOORPLANE` |
+| Invalid plane | `PerspectiveGridPlaneType.NOPLANE`    |
 
 For a one-point perspective grid, only the left and floor plane are valid.
 

@@ -3,7 +3,7 @@
 The traditional first project in any programming language is displaying the message "Hello World!" In this example, you create a new Illustrator document, then add a text frame containing this message. Follow
 these steps:
 
-For information on locating the ExtendScript Toolkit, see [Viewing the JavaScript object model](../introduction/viewingTheObjectModel.md#introduction-viewingtheobjectmodel-javascript).
+For information on locating the ExtendScript Toolkit, see [Viewing the JavaScript object model](../introduction/viewingTheObjectModel.md#viewing-the-javascript-object-model).
 
 1. Using any text editor (including Adobe^ InDesign® or the ESTK), enter the following text:
     ```javascript
@@ -16,9 +16,8 @@ For information on locating the ExtendScript Toolkit, see [Viewing the JavaScrip
     myTextFrame.contents = "Hello World!"
     ```
 2. To test the script, do either of the following:
-
-> - If you are using the ESTK, select Adobe lllustrator CC 2017 from the drop-down list in the upper-left corner, select Yes to start Illustrator, then choose Debug > Run in the ESTK to run the script.
-> - If you are using a different text editor than the ESTK, save the file as text-only in a folder of your choice, using the file extension .jsx , then start Illustrator. In Illustrator, choose File > Scripts > Other Scripts, and navigate to and run your script file.
+    - If you are using the ESTK, select Adobe lllustrator CC 2017 from the drop-down list in the upper-left corner, select Yes to start Illustrator, then choose Debug > Run in the ESTK to run the script.
+    - If you are using a different text editor than the ESTK, save the file as text-only in a folder of your choice, using the file extension .jsx , then start Illustrator. In Illustrator, choose File > Scripts > Other Scripts, and navigate to and run your script file.
 
 ---
 

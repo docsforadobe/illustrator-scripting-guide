@@ -92,8 +92,8 @@ To create a shape, you use the object that corresponds to the shape's name (like
 
 Remember:
 
-- All measurements and page coordinates are processed as points by the scripting engine. For details, see [Measurement Units](../scripting/measurementUnits.md#scripting-measurementunits).
-- x and y coordinates are measured from the bottom-left corner of the document, as indicated in the Info panel in the Illustrator application. For details, see [Page-item positioning and dimensions](../scripting/positioning.md#scripting-positioning).
+- All measurements and page coordinates are processed as points by the scripting engine. For details, see [Measurement Units](../scripting/measurementUnits.md).
+- x and y coordinates are measured from the bottom-left corner of the document, as indicated in the Info panel in the Illustrator application. For details, see [Page-item positioning and dimensions](../scripting/positioning.md).
 
 ### Creating a rectangle
 
