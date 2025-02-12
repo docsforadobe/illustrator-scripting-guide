@@ -1,6 +1,9 @@
 # Working with the perspective grid
 
-The Perspective Grid is a new feature in lllustrator CC 2017 that enables you to create and manipulate art in a spatial environment using established laws of perspective. Enable Perspective Grid using the View > Perspective Grid menu or the perspective tools in the toolbar.
+!!! note
+    This functionality was added in Illustrator CC 2017
+
+The Perspective Grid is a feature that enables you to create and manipulate art in a spatial environment using established laws of perspective. Enable Perspective Grid using the View > Perspective Grid menu or the perspective tools in the toolbar.
 
 The SDK provides an API for working with the perspective grid programmatically, and your scripts have some access to this API. A script can:
 
@@ -18,7 +21,7 @@ Illustrator provides default grid-parameter presets for one-point, two-point, an
 
 The script shows how to select the two-point perspective preset programmatically:
 
-```basic
+```vbscript
 Set appRef = CreateObject ("Illustrator.Application")
 
 Rem Create a new document
@@ -30,7 +33,7 @@ docRef.SelectPerspectivePreset("[2P-Normal View]")
 
 You can create new perspective presets, export presets to files, and import presets from files. These scripts shows how to export and import presets:
 
-```basic
+```vbscript
 Set appRef = CreateObject ("Illustrator.Application")
 Rem Create a new document
 Set docRef = appRef.Documents.Add()
@@ -50,7 +53,7 @@ docRef.ImportPerspectiveGridPreset("C:/scripting/PGPresets")
 
 This script shows or hides the Perspective Grid programmatically:
 
-```basic
+```vbscript
 Set appRef = CreateObject ("Illustrator.Application")
 
 Rem Create a new document
@@ -70,17 +73,18 @@ docRef.HidePerspectiveGrid();
 
 The perspective grid plane types are:
 
-| Left plane    | `aiLEFTPLANE (1)`   |
-|---------------|---------------------|
-| Right plane   | `aiRIGHTPLANE (2)`  |
-| Floor plane   | `aiFLOORPLANE (3)`  |
-| Invalid plane | `aiNOPLANE (4)`     |
+|     Plane     |        Type        |
+| ------------- | ------------------ |
+| Left plane    | `aiLEFTPLANE (1)`  |
+| Right plane   | `aiRIGHTPLANE (2)` |
+| Floor plane   | `aiFLOORPLANE (3)` |
+| Invalid plane | `aiNOPLANE (4)`    |
 
 For a one-point perspective grid, only the left and floor plane are valid.
 
 This script sets the active perspective plane to the left plane:
 
-```basic
+```vbscript
 Set appRef = CreateObject ("Illustrator.Application")
 
 Rem Create a new document
@@ -96,7 +100,7 @@ docRef.SetPerspectiveActivePlane(1) 'aiLEFTPLANE
 
 When the Perspective Grid is on, drawing methods allow you to draw or operate on objects in perspective. This script creates a new document, shows a two-point perspective grid, and draws art objects on the left plane
 
-```basic
+```vbscript
 Set appRef = CreateObject ("Illustrator.Application")
 
 Rem Create a new document
@@ -144,7 +148,7 @@ If an art object is not in perspective, use the `bringInPerspective()` method to
 
 This script creates a new document, draws an art object, and brings it into perspective on a three-point perspective grid
 
-```basic
+```vbscript
 Set appRef = CreateObject ("Illustrator.Application")
 
 Rem Create a new document

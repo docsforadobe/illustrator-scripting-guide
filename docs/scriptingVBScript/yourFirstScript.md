@@ -4,7 +4,7 @@ The traditional first project in any programming language is displaying the mess
 
 1. Start any text editor (for example, Notepad).
 2. Type the following code:
-    ```basic
+    ```vbscript
     Rem Hello World
     Set appRef = CreateObject("Illustrator.Application")
     Rem Create a new document and assign it to a variable
@@ -17,9 +17,8 @@ The traditional first project in any programming language is displaying the mess
     ```
 3. Save the file as text-only in a folder of your choice, using the file extension `.vbs`.
 4. To test the script, do one of the following:
-
-- Double-click the file.
-- Start Illustrator, choose File > Scripts > Other Scripts, and navigate to and run your script file.
+    - Double-click the file.
+    - Start Illustrator, choose File > Scripts > Other Scripts, and navigate to and run your script file.
 
 ---
 
@@ -36,7 +35,7 @@ If you already closed the Illustrator document, run your first script again to c
 Follow these steps:
 
 1. Copy the following script into your text editor, and save the file:
-    ```basic
+    ```vbscript
     Set appRef = CreateObject("Illustrator.Application")
     'Get the active document
     Set documentRef = appRef.ActiveDocument

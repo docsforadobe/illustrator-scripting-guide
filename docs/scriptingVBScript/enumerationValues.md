@@ -1,6 +1,8 @@
 # Working with enumeration values
 
-Properties that use enumeration values in VBScript use a numeral rather than a text value. For example, the Orientation property of the `TextFrame` object specifies whether text content in the text frame is horizontal or vertical. The property uses the `aiTextOrientation` enumeration, which has two possible values, `aiHorizontal` and `aiVertical`.
+Properties that use enumeration values in VBScript use a numeral rather than a text value.
+
+For example, the Orientation property of the `TextFrame` object specifies whether text content in the text frame is horizontal or vertical. The property uses the `aiTextOrientation` enumeration, which has two possible values, `aiHorizontal` and `aiVertical`.
 
 To find the numeral values of enumerations, use either of the following:
 
@@ -13,7 +15,7 @@ To find the numeral values of enumerations, use either of the following:
 
 The following sample specifies vertical text orientation
 
-```basic
+```vbscript
 Set appRef = CreateObject ("Illustrator.Application")
 Set docRef = appRef.Documents.Add
 Set textRef = docRef.TextFrames.Add
@@ -25,6 +27,6 @@ textRef.Orientation = 1
 
 Generally, it is considered good scripting practice to place the text value in a comment following the numeral value, as in the following sample statement:
 
-```basic
+```vbscript
 textRef.Orientation = 1 ' aiVertical
 ```

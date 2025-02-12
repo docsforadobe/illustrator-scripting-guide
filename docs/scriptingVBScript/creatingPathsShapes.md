@@ -14,7 +14,7 @@ Using x-y coordinates limits the path to straight segments. To created a curved 
 
 To specify a path using page-coordinate pairs, use the `entire path` property of the `PathItems` object. The following script specifies three pairs of x-y coordinates, to create a path with three points
 
-```basic
+```vbscript
 Set appRef = CreateObject ("Illustrator.Application")
 
 Set firstPath = appRef.ActiveDocument.PathItems.Add
@@ -36,7 +36,7 @@ You define each property as an array of page coordinates in the format `(Array (
 
 To create a path or add points to an existing path using `PathPoint` objects, create a `PathItem` object, then add the path points as child objects in the `PathItem`
 
-```basic
+```vbscript
 Set appRef = CreateObject ("Illustrator.Application")
 
 Set firstPath = appRef.ActiveDocument.PathItems.Add
@@ -63,7 +63,7 @@ newPoint3.RightDirection = Array(155, 150)
 
 The following script sample creates a path with three points
 
-```basic
+```vbscript
 Set appRef = CreateObject("Illustrator.Application")
 Set myDoc = appRef.ActiveDocument
 Set myLine = myDoc.PathItems.Add
@@ -86,14 +86,14 @@ To create a shape, you use the object that corresponds to the shape's name (like
 
 Remember:
 
-- The scripting engine processes all measurements and page coordinates as points. For details, see [Measurement Units](../scripting/measurementUnits.md#scripting-measurementunits).
-- x and y coordinates are measured from the bottom-left corner of the document, as indicated in the Info panel in the Illustrator application. For details, see [Page-item positioning and dimensions](../scripting/positioning.md#scripting-positioning).
+- The scripting engine processes all measurements and page coordinates as points. For details, see [Measurement Units](../scripting/measurementUnits.md).
+- x and y coordinates are measured from the bottom-left corner of the document, as indicated in the Info panel in the Illustrator application. For details, see [Page-item positioning and dimensions](../scripting/positioning.md#page-item-positioning-and-dimensions).
 
 ### Creating a rectangle
 
 Consider the following sample
 
-```basic
+```vbscript
 Set appRef = CreateObject("Illustrator.Application")
 Set frontDocument = appRef.ActiveDocument
 ' Create a new rectangle with
@@ -111,7 +111,7 @@ The sample creates a rectangle with these properties:
 
 Consider the following sample
 
-```basic
+```vbscript
 Set appRef = CreateObject("Illustrator.Application")
 Set frontDocument = appRef.ActiveDocument
 ' Create a new polygon with
