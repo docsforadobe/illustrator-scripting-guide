@@ -24,7 +24,7 @@ There are three types of text frames:
 - area
 - path
 
-![Text Frames](_static/textFrames.jpg)
+![Text Frames](../_static/textFrames.jpg)
 
 To create a specific kind of text frame, use the `kind` property of the `text frames` object in AppleScript.
 
@@ -74,7 +74,7 @@ textFrame("My Text Frame").paragraphs
 story("My Story").paragraphs
 ```
 
-![Text Frames](_static/textModel.jpg)
+![Text Frames](../_static/textModel.jpg)
 
 Both `text frame` and `story` objects have `insertion point` and `text selection` properties.
 
