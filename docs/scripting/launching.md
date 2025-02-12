@@ -12,7 +12,7 @@ In AppleScript, you use a tell statement to target Illustrator.
 
 The activate command activates Illustrator if it is not already active
 
-```default
+```javascript
 tell application "Adobe Illustrator"
 activate
 end tell
@@ -64,7 +64,7 @@ Set appRef = New Illustrator.Application
 
 Use the quit command:
 
-```default
+```javascript
 tell application "Adobe Illustrator"
 quit
 end tell
@@ -74,7 +74,7 @@ end tell
 
 Use the app.quit() method:
 
-```default
+```javascript
 app.quit();
 ```
 
@@ -82,7 +82,7 @@ app.quit();
 
 Use the Application object's Quit method:
 
-```default
+```javascript
 Set appRef = CreateObject("Illustrator.Application")
 appRef.Quit
 ```

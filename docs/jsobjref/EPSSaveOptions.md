@@ -210,7 +210,7 @@ String, read-only.
 
 ### Exporting to EPS format
 
-```default
+```javascript
 // Exports current document to destFile as an EPS file with specified options,
 // destFile contains the full path including the file name
 

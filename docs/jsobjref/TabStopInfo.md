@@ -90,7 +90,7 @@ String, read-only.
 
 ### Displaying tab stop information
 
-```default
+```javascript
 // Displays tab stop information found in each text frame
 // of current document, if any.
 

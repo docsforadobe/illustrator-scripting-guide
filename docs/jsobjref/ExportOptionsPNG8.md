@@ -226,7 +226,7 @@ Number (long).
 
 ### Exporting to PNG8 format
 
-```default
+```javascript
 // Exports current document to dest as a PNG8 file with specified options,
 // dest contains the full path including the file name
 

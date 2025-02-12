@@ -195,7 +195,7 @@ Nothing.
 
 ### Creating and modifying text frames
 
-```default
+```javascript
 // Creates a document with text frames displaying path, area and point
 // text, changes the content of each frame then deletes the 2nd frame
 

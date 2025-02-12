@@ -28,7 +28,7 @@ String, read-only.
 
 ### Using NoColor to remove a fill color
 
-```default
+```javascript
 // Creates 2 overlapping objects with different fill colors.
 // Assign the top object a fill color of "NoColor"
 // allowing the bottom object to become visible.

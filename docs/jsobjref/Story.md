@@ -182,7 +182,7 @@ All the words in the story.
 
 ### Threading text frames into stories
 
-```default
+```javascript
 // Creates 1 story that flows through 2 text frames and another story that
 // is displayed in a 3rd text frame
 // Create a new document and add 2 area TextFrames

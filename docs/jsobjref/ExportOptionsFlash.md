@@ -380,7 +380,7 @@ String, read-only.
 
 ### Exporting to Flash format
 
-```default
+```javascript
 // Exports current document to destFile as a flash file with specified options,
 // destFile contains the full path including the file name
 

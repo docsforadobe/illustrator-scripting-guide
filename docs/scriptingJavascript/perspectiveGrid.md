@@ -18,7 +18,7 @@ Illustrator provides default grid-parameter presets for one-point, two-point, an
 
 The script shows how to select the two-point perspective preset programmatically:
 
-```default
+```javascript
 //Set the default one-point perspective preset
 app.activeDocument.selectPerspectivePreset("[1P-Normal View]");
 
@@ -31,7 +31,7 @@ app.activeDocument.selectPerspectivePreset("[3P-Normal View]");
 
 You can create new perspective presets, export presets to files, and import presets from files. These scripts shows how to export and import presets:
 
-```default
+```javascript
 //Create a new document
 var mydoc = app.documents.add();
 //Export perspective presets to a file
@@ -51,7 +51,7 @@ mydoc.importPerspectiveGridPreset(importPresetFile);
 
 This script shows or hides the Perspective Grid programmatically:
 
-```default
+```javascript
 //Show the Perspective Grid defined in the document
 app.activeDocument.showPerspectiveGrid();
 
@@ -75,7 +75,7 @@ For a one-point perspective grid, only the left and floor plane are valid.
 
 This script sets the active perspective plane:
 
-```default
+```javascript
 //Set left plane as the active plane
 app.activeDocument.setPerspectiveActivePlane(PerspectiveGridPlaneType.LEFTPLANE);
 
@@ -93,7 +93,7 @@ app.activeDocument.setPerspectiveActivePlane(PerspectiveGridPlaneType.FLOORPLANE
 When the Perspective Grid is on, drawing methods allow you to draw or operate on objects in perspective. This script creates a new document, shows a two-point perspective grid, and draws art objects on the left
 plane
 
-```default
+```javascript
 //Create a new document
 var mydoc = app.documents.add();
 
@@ -143,7 +143,7 @@ If an art object is not in perspective, use the `bringInPerspective()` method to
 
 This script creates a new document, draws an art object, and brings it into perspective on a three-point perspective grid:
 
-```default
+```javascript
 //Create a new document
 var mydoc = app.documents.add();
 

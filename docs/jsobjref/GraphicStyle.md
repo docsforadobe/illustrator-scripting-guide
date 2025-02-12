@@ -112,7 +112,7 @@ Nothing.
 
 ### Applying a graphic style
 
-```default
+```javascript
 // Duplicates each path item in the selection, places the duplicate into a new group,
 // then applies a graphic style to the new groups items
 

@@ -114,7 +114,7 @@ Nothing.
 
 To run this script, have two open documents. One document should contain at least one mesh item, the other document can be empty. Make the empty document the frontmost before running the script.
 
-```default
+```javascript
 // Copies all mesh items from one document to a new document
 if (app.documents.length > 0) {
     var srcDoc = documents[0];

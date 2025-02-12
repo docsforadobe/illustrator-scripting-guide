@@ -144,7 +144,7 @@ String; read-only.
 
 ### Setting print flattening
 
-```default
+```javascript
 // Creates a new document, adds symbols to the document
 // then prints with a range of flattener balance settings
 var docRef = documents.add();

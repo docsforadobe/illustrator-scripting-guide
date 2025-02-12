@@ -240,7 +240,7 @@ Number (long).
 
 ### Exporting to GIF format
 
-```default
+```javascript
 // Exports current document to dest as a GIF file with specified options,
 // dest contains the full path including the file name
 

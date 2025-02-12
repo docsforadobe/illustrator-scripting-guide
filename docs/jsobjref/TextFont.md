@@ -84,7 +84,7 @@ String, read-only.
 
 ### Setting the font of text
 
-```default
+```javascript
 // Sets the font of all the text in the document to the first font
 if ( app.documents.length > 0 ) {
 

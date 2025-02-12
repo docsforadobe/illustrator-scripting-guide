@@ -56,7 +56,7 @@ String; read-only.
 
 ### Finding screen spot functions
 
-```default
+```javascript
 // Displays in a new text frame, the screen spot functions for the 1st PPD file.
 var docRef = documents.add();
 var sInfo = "";

@@ -144,7 +144,7 @@ Number (double)
 
 ### Managing print coordinates
 
-```default
+```javascript
 // Creates a new document with symbol items that extend
 // off the page then print with each print orientation
 var docRef = documents.add();

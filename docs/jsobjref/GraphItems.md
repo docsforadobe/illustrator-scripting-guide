@@ -112,7 +112,7 @@ Nothing.
 
 ### Rotating graph items
 
-```default
+```javascript
 // Rotates each graph item in the current document 90 degrees.
 
 // Verify a document with a graph item is open

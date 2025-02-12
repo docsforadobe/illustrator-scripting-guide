@@ -112,7 +112,7 @@ Boolean.
 
 ### Automatically updating legacy text on open
 
-```default
+```javascript
 // Opens a file with legacy text (AI 10 or older), using
 // OpenOptions to automatically update the legacy text.
 

@@ -81,13 +81,13 @@ Most collection objects must be obtained from a container. For example, a `path 
 
 To refer to a `path items` object in a document
 
-```default
+```javascript
 path item 1 in document 1
 ```
 
 To refer to a `path items` object in a layer
 
-```default
+```javascript
 path item 1 in layer 1 in document 1
 ```
 
@@ -95,13 +95,13 @@ path item 1 in layer 1 in document 1
 
 To refer to a `path items` object in a document
 
-```default
+```javascript
 documents[0].pathItems[1]
 ```
 
 To refer to a `path items` object in a layer
 
-```default
+```javascript
 documents[0].layers[0].pathItems[0]
 ```
 
@@ -109,13 +109,13 @@ documents[0].layers[0].pathItems[0]
 
 To refer to a `path items` object in a document
 
-```default
+```javascript
 Documents(1).PathItems(1)
 ```
 
 To refer to a `path items` object in a layer
 
-```default
+```javascript
 Documents(1).Layers(1).PathItems(1)
 ```
 

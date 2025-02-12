@@ -477,7 +477,7 @@ Returns.
 
 ### PageItem.resize()
 
-```default
+```javascript
 app.activeDocument.pageItems[index].resize(
     scaleX, scaleY [,changePositions] [,changeFillPatterns] [,changeFillGradients]
     [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
@@ -509,7 +509,7 @@ Nothing.
 
 ### PageItem.rotate()
 
-```default
+```javascript
 app.activeDocument.pageItems[index].rotate(
     angle [,changePositions] [,changeFillPatterns]
     [,changeFillGradients] [,changeStrokePattern] [,rotateAbout]
@@ -539,7 +539,7 @@ Nothing.
 
 ### PageItem.transform()
 
-```default
+```javascript
 app.activeDocument.pageItems[index].transform(
     transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients]
     [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
@@ -570,7 +570,7 @@ Nothing.
 
 ### PageItem.translate()
 
-```default
+```javascript
 app.activeDocument.pageItems[index].translate(
     deltaX [,deltaY] [,transformObjects] [,transformFillPatterns]
     [,transformFillGradients] [,transformStrokePatterns]

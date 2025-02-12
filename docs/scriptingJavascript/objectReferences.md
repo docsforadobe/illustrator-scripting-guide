@@ -10,13 +10,13 @@ The script can create new objects in the document, operate on objects that the u
 
 To obtain a reference to a specific object, you need to navigate the containment hierarchy. Because all JavaScript scripts are executed from within the Illustrator application, however, a specific reference to the application object is not required. For example, to assign the active document in Illustrator to the variable `frontMostDocument`, you could reference the `activeDocument` property of the `application` object, as follows
 
-```default
+```javascript
 var frontMostDocument = activeDocument;
 ```
 
 It is permissible to use the `application` object in a reference. To reference the `application` object, use the app global variable. The following two statements appear identical to the JavaScript engine:
 
-```default
+```javascript
 var frontMostDocument = activeDocument;
 
 var frontMostDocument = app.activeDocument;
@@ -30,7 +30,7 @@ All open documents, as well as the objects in a document, are collected into col
 
 The following script sample gets all `graphic style` objects in the `graphic styles` collection; that is, it gets all graphic styles available to the active document
 
-```default
+```javascript
 var myStyles = app.activeDocument.graphicStyles;
 ```
 
@@ -41,18 +41,18 @@ As a rule, JavaScript index numbers do not shift when you add an object to a col
 To access the first style in a `graphic styles` collection, you can use the variable declared in the previous script sample, or you can use the containment hierarchy to refer to the collection:
 
 - Using the myStyles variable
-    ```default
+    ```javascript
     var firstStyle = myStyles[0];
     ```
 
 - Using the containment hierarchy:
-    ```default
+    ```javascript
     var firstStyle = app.activeDocument.graphicStyles[0];
     ```
 
 The following statements assign the name of the first graphic style in the collection to a variable. You can use these statements interchangeably.
 
-```default
+```javascript
 var styleName = myStyles[0].name
 
 var styleName = firstStyle.name
@@ -62,13 +62,13 @@ var styleName = app.activeDocument.graphicStyles[0].name
 
 To get the total number of objects in a collection, use the `length` property:
 
-```default
+```javascript
 alert ( myStyles.length );
 ```
 
 The index of the last graphic style in the collection is `myStyles.length - 1` (-1 because the collection starts the index count at 0 and the length property counts from 1):
 
-```default
+```javascript
 var lastStyle = myStyles[ myStyles.length - 1 ];
 ```
 
@@ -76,19 +76,19 @@ Note that an expression representing the index value is enclosed in square brack
 
 If you know the name of an object, you can access the object in the collections using the name surrounded by square brackets; for example:
 
-```default
+```javascript
 var getStyle = myStyles["Ice Type"];
 ```
 
 Each element in the collection is an object of the desired type, and you can access its properties through the collection. For example, to get an object's name, use the `name` property:
 
-```default
+```javascript
 var styleName = app.activeDocument.graphicStyles[0].name;
 ```
 
 To apply `lastStyle` to the first `pageItem` in the document, use its `applyTo()` method:
 
-```default
+```javascript
 lastStyle.applyTo( app.activeDocument.pageItems[0] );
 ```
 
@@ -98,14 +98,14 @@ lastStyle.applyTo( app.activeDocument.pageItems[0] );
 
 You can use a script to create new objects. To create objects that are available from collection objects, or containers, use the container object's `add()` method
 
-```default
+```javascript
 var myDoc = app.documents.add()
 var myLayer = myDoc.layers.add()
 ```
 
 Some object types are not available from containers. To create an object of this type, define a variable, then use the `new` operator with an object constructor to assign an object as the value. For example, to create a new `CMYKColor` object using the variable name `myColor`:
 
-```default
+```javascript
 var myColor = new CMYKColor()
 ```
 
@@ -115,7 +115,7 @@ var myColor = new CMYKColor()
 
 When the user makes a selection in a document, the selected objects are stored in the document's `selection` property. To access all selected objects in the active document:
 
-```default
+```javascript
 var selectedObjects = app.activeDocument.selection;
 ```
 
@@ -123,7 +123,7 @@ The `selection` property value can be an array of any type of art objects, depen
 
 The following sample gets the first object in the array, then displays the object's type
 
-```default
+```javascript
 var topObject = app.activeDocument.selection[0];
 alert(topObject.typename)
 ```

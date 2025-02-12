@@ -126,7 +126,7 @@ Nothing.
 
 ### Removing a pattern
 
-```default
+```javascript
 // Deletes the last pattern from the current document.
 if (app.documents.length > 0) {
     var lastIndex = app.activeDocument.patterns.length - 1;

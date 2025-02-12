@@ -280,7 +280,7 @@ String; read-only.
 
 ### Finding available printers
 
-```default
+```javascript
 // Displays a list of available printers in a new text frame
 var docRef = documents.add();
 var iCount = printerList.length;

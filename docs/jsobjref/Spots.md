@@ -126,7 +126,7 @@ Nothing.
 
 ### Removing spot colors
 
-```default
+```javascript
 // Deletes all spots colors from the current document
 if ( app.documents.length > 0 ) {
     var spotCount = app.activeDocument.spots.length;
@@ -141,7 +141,7 @@ if ( app.documents.length > 0 ) {
 
 ### Creating and applying spot colors
 
-```default
+```javascript
 // Defines and applies a new spot color in the current document,
 // then applies the color to the first path item
 if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {

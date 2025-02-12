@@ -637,7 +637,7 @@ Nothing.
 
 ### Copying a plug-in item
 
-```default
+```javascript
 // Creates new plug-in art by copying an existing plug-in art item
 if (app.documents.length > 0 && app.activeDocument.pluginItems.length > 0) {
     var doc = app.activeDocument;

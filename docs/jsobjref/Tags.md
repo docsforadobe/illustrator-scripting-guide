@@ -126,7 +126,7 @@ Nothing.
 
 ### Setting tag values
 
-```default
+```javascript
 // Adds tags to all RasterItems and PlacedItems in the current document
 if ( app.documents.length > 0 ) {
     var doc = app.activeDocument;

@@ -142,7 +142,7 @@ Number (double).
 
 ### Exporting to PNG24 format
 
-```default
+```javascript
 // Exports current document to dest as a PNG24 file with specified options,
 // dest contains the full path including the file name,
 // saveAsHTML option creates an HTML version with the PNG file in an images folder

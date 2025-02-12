@@ -134,7 +134,7 @@ Nothing.
 
 ### Creating a new spot color
 
-```default
+```javascript
 // Creates a new spot color in the current document, then applies an 80% tint to the color
 if ( app.documents.length > 0 ) {
     var doc = app.activeDocument;

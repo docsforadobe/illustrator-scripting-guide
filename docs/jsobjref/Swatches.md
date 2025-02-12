@@ -140,7 +140,7 @@ Nothing.
 
 ### Finding and deleting a swatch
 
-```default
+```javascript
 // Deletes swatch 4 from the current document
 if ( app.documents.length > 0 ) {
   if (app.activeDocument.swatches.length > 4) {

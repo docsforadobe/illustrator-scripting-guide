@@ -98,7 +98,7 @@ Gets an element from the collection.
 
 ### Counting brushes
 
-```default
+```javascript
 // Counts all brushes in the active document
 
 if (app.documents.length > 0) {

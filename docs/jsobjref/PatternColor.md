@@ -184,7 +184,7 @@ String; read-only.
 
 ### Modifying and applying pattern colors
 
-```default
+```javascript
 // Rotates the color of each pattern in the current document,
 // then applies the last pattern to the first path item
 if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {

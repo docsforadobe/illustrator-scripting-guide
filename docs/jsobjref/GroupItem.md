@@ -675,7 +675,7 @@ Nothing.
 
 ### GroupItem.resize()
 
-```default
+```javascript
 app.activeDocument.groupItems[index].resize(
     scaleX,
     scaleY
@@ -713,7 +713,7 @@ Nothing.
 
 ### GroupItem.rotate()
 
-```default
+```javascript
 app.activeDocument.groupItems[index].rotate(
     angle
     [,changePositions]
@@ -747,7 +747,7 @@ Nothing.
 
 ### GroupItem.transform()
 
-```default
+```javascript
 app.activeDocument.groupItems[index].transform(
     transformationMatrix
     [,changePositions]
@@ -783,7 +783,7 @@ Nothing.
 
 ### GroupItem.translate()
 
-```default
+```javascript
 app.activeDocument.groupItems[index].translate(
     [deltaX]
     [,deltaY]
@@ -841,7 +841,7 @@ Nothing.
 
 It is easy to modify all of the objects contained in a group. This example demonstrates how to simplify your operations on multiple objects by creating group to contain them.
 
-```default
+```javascript
 // Creates a new group item, adds a new path item, of triangle shape, to the group,
 // then adds a new text item to the group and sets the fill color of the text to red
 

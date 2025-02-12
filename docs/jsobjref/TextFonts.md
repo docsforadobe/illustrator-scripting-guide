@@ -98,7 +98,7 @@ Gets an element from the collection.
 
 ### Finding fonts
 
-```default
+```javascript
 // Creates a new A3 sized document and display a list of available fonts until the document is full.
 
 var edgeSpacing = 10;

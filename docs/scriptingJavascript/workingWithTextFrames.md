@@ -2,7 +2,7 @@
 
 To create a text frame of a specific type in JavaScript, use the `kind` property of the `text` frame object:
 
-```default
+```javascript
 var rectRef = docRef.pathItems.rectangle(700, 50, 100, 100);
 //use the areaText method to create the text frame
 var areaTextRef = docRef.textFrames.areaText(rectRef);
@@ -18,7 +18,7 @@ To thread existing text frames, use the `nextFrame` or `previousFrame` property 
 
 When copying the following script to the ESTK, place the value of the contents property on one line:
 
-```default
+```javascript
 var myDoc = documents.add();
 var myPathItem1 = myDoc.pathItems.rectangle(244, 64, 82, 76);
 var myTextFrame1 = myDoc.textFrames.areaText(myPathItem1);
@@ -40,7 +40,7 @@ redraw();
 Threaded frames make a single story object. To observe this, run the following JavaScript after running
 the script above.
 
-```default
+```javascript
 var myDoc = app.activeDocument
 alert("There are " + myDoc.textFrames.length + " text frames.")
 alert("There are " + myDoc.stories.length + " stories.")

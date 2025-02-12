@@ -132,7 +132,7 @@ Nothing.
 
 ### Creating a symbol
 
-```default
+```javascript
 // Creates a path item from each graphic style
 // then adds each item as a new symbol
 

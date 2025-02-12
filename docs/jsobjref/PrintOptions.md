@@ -196,7 +196,7 @@ String
 
 ### Setting print options
 
-```default
+```javascript
 // Creates a new document, adds symbols, specifies a variety of print options,
 // assigns each print option to a PrintOptions object,
 // then prints with those options

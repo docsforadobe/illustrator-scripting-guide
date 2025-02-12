@@ -293,7 +293,7 @@ Creates a new path item in the shape of a star using the supplied parameters.
 
 ### Creating shapes
 
-```default
+```javascript
 // Creates 5 shapes in layer 1 of document 1
 // and applies a random graphic style to each
 var doc = app.documents.add();

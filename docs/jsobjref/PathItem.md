@@ -955,7 +955,7 @@ Nothing.
 
 ### Setting colors in a path
 
-```default
+```javascript
 // Sets the stroke and fill of a path item to colors of a randomly selected swatch
 if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {
     var doc = app.activeDocument;
@@ -976,7 +976,7 @@ if (app.documents.length > 0 && app.activeDocument.pathItems.length > 0) {
 
 ### Creating a path from straight lines
 
-```default
+```javascript
 // This script illustrates the use of the setEntirePath method.
 // Creates a new open path consisting of 10 straight lines
 if (app.documents.length > 0) {

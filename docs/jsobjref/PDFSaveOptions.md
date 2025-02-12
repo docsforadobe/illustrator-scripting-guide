@@ -884,7 +884,7 @@ Boolean
 
 ### Saving to PDF format
 
-```default
+```javascript
 // Saves the current document as PDF to dest with specified options
 // dest contains the full path and file name to save to
 function saveFileToPDF(dest) {

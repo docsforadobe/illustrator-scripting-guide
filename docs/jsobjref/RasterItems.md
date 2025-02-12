@@ -112,7 +112,7 @@ Nothing.
 
 ### Creating a raster item
 
-```default
+```javascript
 // Creates a new raster item in a new document from a raster file
 // jpgFilePath contains the full path and file name of a jpg file
 function createRasterItem(jpgFilePath) {
@@ -128,7 +128,7 @@ function createRasterItem(jpgFilePath) {
 
 ### Finding and examining a raster item
 
-```default
+```javascript
 // Examines the color space of the first raster item in the document and displays
 // result in ESTK console
 if (app.documents.length > 0 && app.activeDocument.rasterItems.length > 0) {

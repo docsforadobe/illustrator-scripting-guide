@@ -493,7 +493,7 @@ Nothing.
 
 ### Bringing a layer to the front
 
-```default
+```javascript
 // Moves the bottom layer to become the topmost layer
 
 if (documents.length > 0) {

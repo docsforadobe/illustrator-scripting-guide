@@ -14,7 +14,7 @@ Using x-y coordinates limits the path to straight segments. To created a curved 
 
 To specify a path using page-coordinate pairs, use the `setEntirePath()` property of the `pathItems` object. The following script specifies three pairs of x-y coordinates, to create a path with three points
 
-```default
+```javascript
 var myDoc = app.activeDocument;
 var myLine = myDoc.pathItems.add();
 //set stroked to true so we can see the path
@@ -36,7 +36,7 @@ You define each property as an array of page coordinates in the format [x, y]:
 
 To create a path or add points to an existing path using `pathPoint` objects, create a `pathItem` object, then add the path points as child objects in the `pathItem`:
 
-```default
+```javascript
 var myDoc = app.activeDocument;
 var myLine = myDoc.pathItems.add();
 
@@ -70,7 +70,7 @@ newPoint2.pointType = PointType.CORNER;
 
 The following script sample creates a path with three points:
 
-```default
+```javascript
 var myDoc = app.activeDocument;
 var myLine = myDoc.pathItems.add();
 myLine.stroked = true;
@@ -99,7 +99,7 @@ Remember:
 
 Consider the following sample:
 
-```default
+```javascript
 var myDocument = app.documents.add()
 var artLayer = myDocument.layers.add()
 var rect = artLayer.pathItems.rectangle( 144, 144, 72, 216 );
@@ -115,7 +115,7 @@ The sample uses the `pathItems` object's `rectangle()` method to create a rectan
 
 Consider the following sample:
 
-```default
+```javascript
 var myDocument = app.documents.add()
 var artLayer = myDocument.layers.add()
 var poly = artLayer.pathItems.polygon( 144, 288, 72.0, 7 );

@@ -112,7 +112,7 @@ Nothing.
 
 ### Counting graphics styles
 
-```default
+```javascript
 // Counts the number of graphic styles in the active document
 // and stores result in numberOfStyles
 

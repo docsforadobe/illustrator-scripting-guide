@@ -106,7 +106,7 @@ Number (double)
 
 ### Setting print paper options
 
-```default
+```javascript
 // Creates a new document, adds a path item, applies a graphic style
 // then prints with specified paper options
 var docRef = documents.add();

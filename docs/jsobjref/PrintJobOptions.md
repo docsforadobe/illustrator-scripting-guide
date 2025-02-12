@@ -200,7 +200,7 @@ String
 
 ### Printing with job options
 
-```default
+```javascript
 // Creates a new document with layers containing visible, printable,
 // non visible and non printable items then prints with each designation
 // to view effects of using different job options

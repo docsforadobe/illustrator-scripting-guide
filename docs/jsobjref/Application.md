@@ -1052,7 +1052,7 @@ Nothing.
 
 ### Duplicating the Active Document
 
-```default
+```javascript
 // Duplicates any selected items from
 // the active document into a new document.
 

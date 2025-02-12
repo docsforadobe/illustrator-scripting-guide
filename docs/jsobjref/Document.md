@@ -1684,7 +1684,7 @@ Nothing.
 !!! note
     The frontmost document can be referred to as either `activeDocument` or `documents[0`.
 
-```default
+```javascript
 var docRef = activeDocument;
 docRef.selection = null;
 ```
@@ -1693,7 +1693,7 @@ docRef.selection = null;
 
 ### Closing a document
 
-```default
+```javascript
 // Closes the active document without saving changes
 if ( app.documents.length > 0 ) {
     var aiDocument = app.activeDocument;
@@ -1706,7 +1706,7 @@ if ( app.documents.length > 0 ) {
 
 ### Creating a document with defaults
 
-```default
+```javascript
 // Creates a new document if none exists then sets fill and stroke defaults to true
 var doc;
 if (app.documents.length == 0) {

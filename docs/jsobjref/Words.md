@@ -138,7 +138,7 @@ Nothing.
 
 ### Counting words
 
-```default
+```javascript
 // Counts all words in current document and stores total in numWords
 if ( app.documents.length > 0 ) {
     var numWords = 0;
@@ -151,7 +151,7 @@ if ( app.documents.length > 0 ) {
 
 ### Applying attributes to words
 
-```default
+```javascript
 // Creates a new magenta color and applies the color to all words meeting a specific criteria
 if (app.documents.length > 0 && app.activeDocument.textFrames.length > 0) {
     // Create the color to apply to the words

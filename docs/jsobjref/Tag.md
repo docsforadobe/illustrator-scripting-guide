@@ -84,7 +84,7 @@ Nothing.
 
 ### Using tags
 
-```default
+```javascript
 // Finds the tags associated with the selected art item,
 // show names and values in a separate document
 

@@ -104,7 +104,7 @@ String; read-only.
 
 ### Opening a Photoshop file
 
-```default
+```javascript
 // Opens a Photoshop file containing layers with
 // preferences set to preserve layers
 var psdOptions = preferences.photoshopFileOptions;

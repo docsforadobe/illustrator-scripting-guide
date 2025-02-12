@@ -28,6 +28,6 @@ For example, in a 6-point font, 1 em equals 6 points; in a 10-point font, 1 em e
 
 In a 10-point font, a kerning value of 20 em units is equivalent to
 
-```default
+```javascript
 (20 units x 10 points) / 1000 units/em = 0.2 points
 ```

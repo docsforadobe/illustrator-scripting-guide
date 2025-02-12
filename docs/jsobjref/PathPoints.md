@@ -108,7 +108,7 @@ Nothing.
 
 ### Adding a path point to a path
 
-```default
+```javascript
 // Appends a new PathPoint to an existing path
 // and initializes its anchor and handle points.
 if (app.documents.length > 0) {

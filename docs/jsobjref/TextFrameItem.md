@@ -659,7 +659,7 @@ Nothing.
 
 ### Rotate a text art item
 
-```default
+```javascript
 // Duplicates and rotates the selected text art item 5 times
 if ( app.documents.length > 0 ) {
     selectedItems = app.activeDocument.selection;

@@ -138,7 +138,7 @@ Nothing.
 
 ### Counting characters
 
-```default
+```javascript
 // Counts all characters in the active document,
 // including whitespace, and stores in numChars
 

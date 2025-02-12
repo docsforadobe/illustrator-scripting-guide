@@ -462,7 +462,7 @@ Nothing
 
 ### Manipulating Text
 
-```default
+```javascript
 // Changes size of the first character of each word in the
 // current document by changing the size attribute of each character
 

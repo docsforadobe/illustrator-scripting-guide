@@ -140,7 +140,7 @@ String
 
 ### Setting PostScript printing options
 
-```default
+```javascript
 // Prints current document with various postscript levels
 // Create new postscript options object, assign to print options
 var psOpts = new PrintPostScriptOptions();

@@ -151,7 +151,7 @@ The following script shows how you can import a PDF document using the [GroupIte
 !!! note
     Before running this script you must create a one page PDF file and put it in the location `/temp/testfile1.pdf`.
 
-```default
+```javascript
 // Embeds a new group item in to the current document from a file specified by dest
 // dest should contain the full path and file name
 

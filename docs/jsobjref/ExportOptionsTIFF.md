@@ -117,7 +117,7 @@ Number (double).
 
 ### Exporting to TIFF format
 
-```default
+```javascript
 // Exports current document to dest as a TIFF file with specified options,
 // dest contains the full path including the file name
 

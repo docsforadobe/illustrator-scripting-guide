@@ -70,7 +70,7 @@ You create the folder in the following location:
 
 If a script in the general startup folder is meant to be executed only by Illustrator, the script must include the ExtendScript #target directive ( `#target illustrator` ) or code like the following
 
-```default
+```javascript
 if (BridgeTalk.appName == "illustrator") {
     // continue executing script
 }

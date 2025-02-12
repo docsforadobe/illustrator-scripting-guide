@@ -132,7 +132,7 @@ Nothing.
 
 ### Using characters styles
 
-```default
+```javascript
 // Creates 3 text frames in a new document then creates
 // a character style and applies it to each text frame.
 

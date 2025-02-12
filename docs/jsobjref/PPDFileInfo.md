@@ -70,7 +70,7 @@ Array of [ScreenSpotFunction](./ScreenSpotFunction.md)
 
 ### Displaying PPD file properties
 
-```default
+```javascript
 // Displays postscript level and path for each PPD file found in a new text frame
 var sPPD = "";
 var docRef = documents.add();
@@ -111,7 +111,7 @@ for (var i = 0; i < iLength; i++) {
 
 ### PPDFileInfo and related screen information
 
-```default
+```javascript
 // Displays in a new text frame, the postscript level, file paths, screens, and
 // screen spot information for first 10 PPD files found
 

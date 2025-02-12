@@ -154,7 +154,7 @@ String, read-only.
 
 ### Getting ink information
 
-```default
+```javascript
 // Displays the current documents inks in a text frame
 
 var docRef = documents.add();

@@ -56,7 +56,7 @@ String, read-only.
 
 ### Documents.add()
 
-```default
+```javascript
 app.documents.add([documentColorSpace] [, width] [, height] [, numArtBoards]
     [, artboardLayout] [, artboardSpacing] [, artboardRowsOrCols]
 )
@@ -170,7 +170,7 @@ Gets an element from the collection.
 
 ### Creating a new document
 
-```default
+```javascript
 // Creates a new document with an RGB color space
 
 app.documents.add(DocumentColorSpace.RGB);

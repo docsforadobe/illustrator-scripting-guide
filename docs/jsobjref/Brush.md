@@ -78,7 +78,7 @@ Nothing.
 
 ### Applying a Brush
 
-```default
+```javascript
 // Duplicates and groups all items in the current selection,
 // then applies the same brush to each item in the group
 

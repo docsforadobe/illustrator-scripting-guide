@@ -717,7 +717,7 @@ Nothing.
 
 ### Changing the selection state of placed items
 
-```default
+```javascript
 // Toggles the selection state of all placed items.
 if (app.documents.length > 0) {
     for (i = 0; i < app.activeDocument.placedItems.length; i++) {

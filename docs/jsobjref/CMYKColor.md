@@ -86,7 +86,7 @@ Number (double)
 
 ### Setting a CMYK color
 
-```default
+```javascript
 // Sets the fill color of the frontmost path item in
 // the current document to a light purple CMYK color
 

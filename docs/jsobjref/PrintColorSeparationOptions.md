@@ -90,7 +90,7 @@ String
 
 ### Managing color separations for printing
 
-```default
+```javascript
 // Creates a new document with symbol items
 // and prints document with each separation option
 

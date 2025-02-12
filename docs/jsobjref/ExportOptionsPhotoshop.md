@@ -170,7 +170,7 @@ Boolean.
 
 ### Exporting to Photoshop format
 
-```default
+```javascript
 // Exports current document to dest as a PSD file with specified options,
 // dest contains the full path including the file name
 

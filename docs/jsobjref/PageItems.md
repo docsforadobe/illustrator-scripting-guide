@@ -160,7 +160,7 @@ Nothing.
 
 ### Getting references to external files in page items
 
-```default
+```javascript
 // Gets all file-references in the current document using the pageItems object,
 // then displays them in a new document
 

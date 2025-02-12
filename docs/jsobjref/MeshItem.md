@@ -476,7 +476,7 @@ Nothing.
 
 ### MeshItem.resize()
 
-```default
+```javascript
 app.activeDocument.meshItems[index].resize(
     scaleX,
     scaleY
@@ -514,7 +514,7 @@ Nothing.
 
 ### MeshItem.rotate()
 
-```default
+```javascript
 app.activeDocument.meshItems[index].rotate(
     angle
     [,changePositions]
@@ -548,7 +548,7 @@ Nothing.
 
 ### MeshItem.transform()
 
-```default
+```javascript
 app.activeDocument.meshItems[index].transform(
     transformationMatrix
     [,changePositions]
@@ -584,7 +584,7 @@ Nothing.
 
 ### MeshItem.translate()
 
-```default
+```javascript
 app.activeDocument.meshItems[index].translate(
     [deltaX]
     [,deltaY]
@@ -640,7 +640,7 @@ Nothing.
 
 ### Example name
 
-```default
+```javascript
 // Locks all mesh items in the current document
 if (app.documents.length > 0) {
     var doc = app.activeDocument;

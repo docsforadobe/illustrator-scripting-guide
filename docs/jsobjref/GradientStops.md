@@ -126,7 +126,7 @@ Nothing.
 
 ### Adding a new gradient stop
 
-```default
+```javascript
 // Adds a new gradient stop to a gradient, color of new stop is 70% gray
 if (app.documents.length > 0 && app.activeDocument.gradients.length > 0) {
     // Get a reference to the gradient to change

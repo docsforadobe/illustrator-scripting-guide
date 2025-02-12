@@ -134,7 +134,7 @@ Nothing.
 
 ### Counting paragraphs
 
-```default
+```javascript
 // Counts all paragraphs in current doc and stores result in paragraphCount
 if (app.documents.length > 0) {
     var doc = app.activeDocument;

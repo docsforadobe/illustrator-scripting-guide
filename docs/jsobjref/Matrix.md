@@ -118,7 +118,7 @@ String, read-only.
 
 To apply multiple transformations to objects, it is more efficient to use the matrix suite than to apply the transformations one at a time. The following script demonstrates how to combine multiple matrices.
 
-```default
+```javascript
 // Tranforms all art in a document using translation and rotation matrices,
 // moves art half an inch to the right and 1.5 inches up on the page
 if (app.documents.length > 0) {

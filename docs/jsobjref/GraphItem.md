@@ -496,7 +496,7 @@ Nothing.
 
 ### GraphItem.resize()
 
-```default
+```javascript
 app.activeDocument.graphItems[index].resize(
     scaleX,
     scaleY
@@ -534,7 +534,7 @@ Nothing.
 
 ### GraphItem.rotate()
 
-```default
+```javascript
 app.activeDocument.graphItems[index].rotate(
     angle
     [,changePositions]
@@ -568,7 +568,7 @@ Nothing.
 
 ### GraphItem.transform()
 
-```default
+```javascript
 app.activeDocument.graphItems[index].transform(
     transformationMatrix
     [,changePositions]
@@ -604,7 +604,7 @@ Nothing.
 
 ### GraphItem.translate()
 
-```default
+```javascript
 app.activeDocument.graphItems[index].translate(
     [deltaX]
     [,deltaY]

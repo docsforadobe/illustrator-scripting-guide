@@ -70,7 +70,7 @@ String; read-only.
 
 ### Managing colors for printing
 
-```default
+```javascript
 // Creates a new document, adds symbols, then creates a
 // PrintColorManagementOptions object and assigns it
 // to a PrintOptions object, then prints with each color intent

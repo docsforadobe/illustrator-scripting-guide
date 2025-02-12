@@ -70,7 +70,7 @@ String; read-only.
 
 ### Getting screen information
 
-```default
+```javascript
 // Displays in a new text frame, the name, angle and frequency
 // of each screen list item
 var sInfo = "";

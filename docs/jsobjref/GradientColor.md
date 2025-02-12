@@ -126,7 +126,7 @@ String, read-only.
 
 ### Changing a gradient stop color
 
-```default
+```javascript
 // Creates a new RGB document, then changes the color of the first gradient stop of an indexed gradient
 app.documents.add(DocumentColorSpace.RGB);
 

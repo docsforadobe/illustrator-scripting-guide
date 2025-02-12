@@ -42,7 +42,7 @@ String, read-only.
 
 ### Changing a color to gray
 
-```default
+```javascript
 // Sets the color of the first word in the active document to a shade of gray
 
 if (app.documents.length > 0 && app.activeDocument.textFrames.length > 0) {

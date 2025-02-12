@@ -25,7 +25,7 @@ The alternate glyphs form of text.
 
 **Example**
 
-```default
+```javascript
 textRef.textRange.characters[i].characterAttributes.alternateGlyphs == AlternateGlyphsForm.DEFAULTFORM;
 textRef.textRange.characters[i].characterAttributes.alternateGlyphs == AlternateGlyphsForm.FULLWIDTH
 ```

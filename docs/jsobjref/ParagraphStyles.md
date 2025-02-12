@@ -132,7 +132,7 @@ Nothing.
 
 ### Creating and applying a paragraph style
 
-```default
+```javascript
 // Creates a new document with 1 text frame and 3 paragraphs
 // gives each paragraph a different justification, then creates
 // a paragraph style and applies it to all paragraphs

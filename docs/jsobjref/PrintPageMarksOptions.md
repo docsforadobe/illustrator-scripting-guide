@@ -152,7 +152,7 @@ String; read-only.
 
 ### Setting page mark printing options
 
-```default
+```javascript
 // Creates a PrintPageMarksOptions object, assigns it
 // to a PrintOptions object, then prints the current document.
 var docRef = activeDocument;

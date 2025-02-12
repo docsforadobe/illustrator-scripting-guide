@@ -84,7 +84,7 @@ Number (double).
 
 ### Finding paper information
 
-```default
+```javascript
 // Displays the papers and paper sizes available for the 2nd printer in a text frame
 
 var docRef = documents.add();

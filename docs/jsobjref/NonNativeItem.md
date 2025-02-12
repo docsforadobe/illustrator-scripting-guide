@@ -491,7 +491,7 @@ Nothing.
 
 ### NonNativeItem.resize()
 
-```default
+```javascript
 nonNativeItem.resize(
     scaleX,
     scaleY
@@ -529,7 +529,7 @@ Nothing.
 
 ### NonNativeItem.rotate()
 
-```default
+```javascript
 nonNativeItem.rotate(
     angle
     [,changePositions]
@@ -563,7 +563,7 @@ Nothing.
 
 ### NonNativeItem.transform()
 
-```default
+```javascript
 nonNativeItem.transform(
     transformationMatrix
     [,changePositions]
@@ -599,7 +599,7 @@ Nothing.
 
 ### NonNativeItem.translate()
 
-```default
+```javascript
 nonNativeItem.translate(
     [deltaX]
     [,deltaY]

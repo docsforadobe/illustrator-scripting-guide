@@ -60,7 +60,7 @@ String, read-only.
 
 ### Printing with font options
 
-```default
+```javascript
 // Creates a new document, adds text then prints with specified font options.
 var docRef = documents.add();
 

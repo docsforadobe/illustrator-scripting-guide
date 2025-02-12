@@ -100,7 +100,7 @@ Nothing.
 
 ### Creating and applying a gradient
 
-```default
+```javascript
 // Creates a new gradient in current document then applies the gradient to the frontmost path item
 
 if (app.documents.length > 0) {

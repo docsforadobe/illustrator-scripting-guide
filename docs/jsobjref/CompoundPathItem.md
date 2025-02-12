@@ -494,7 +494,7 @@ Nothing.
 
 ### CompoundPathItem.resize()
 
-```default
+```javascript
 app.activeDocument.activeLayer.compoundPathItems[index].resize(
     scaleX, scaleY [,changePositions] [,changeFillPatterns] [,changeFillGradients]
     [,changeStrokePattern] [,changeLineWidths] [,scaleAbout]
@@ -526,7 +526,7 @@ Nothing.
 
 ### CompoundPathItem.rotate()
 
-```default
+```javascript
 app.activeDocument.activeLayer.compoundPathItems[index].rotate(
     angle [,changePositions] [,changeFillPatterns]
     [,changeFillGradients] [,changeStrokePattern] [,rotateAbout]
@@ -556,7 +556,7 @@ Nothing.
 
 ### compoundPathItem.transform()
 
-```default
+```javascript
 app.activeDocument.activeLayer.compoundPathItems[index].transform(
     transformationMatrix [,changePositions] [,changeFillPatterns] [,changeFillGradients]
     [,changeStrokePattern] [,changeLineWidths] [,transformAbout]
@@ -587,7 +587,7 @@ Nothing.
 
 ### CompoundPathItem.translate()
 
-```default
+```javascript
 app.activeDocument.activeLayer.compoundPathItems[index].translate(
     deltaX [,deltaY] [,transformObjects] [,transformFillPatterns]
     [,transformFillGradients] [,transformStrokePatterns]
@@ -639,7 +639,7 @@ Nothing.
 
 ### Selecting paths in a document
 
-```default
+```javascript
 // Selects all paths not part of a compound path
 if ( app.documents.length > 0 ) {
     var doc = app.activeDocument;
@@ -659,7 +659,7 @@ if ( app.documents.length > 0 ) {
 
 ### Creating and modifying a compound path item
 
-```default
+```javascript
 // Creates a new compound path item containing 3 path
 // items, then sets the width and the color of the stroke
 // to all items in the compound path

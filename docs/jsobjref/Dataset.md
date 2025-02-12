@@ -100,7 +100,7 @@ Nothing.
 
 ### Using variables and datasets
 
-```default
+```javascript
 // Creates two variables, 1 visibility and 1 text,
 // creates two datasets each with different values for the variables,
 // then displays both datasets

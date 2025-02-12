@@ -154,7 +154,7 @@ String, read-only.
 
 ### Saving with options
 
-```default
+```javascript
 // Saves the current document to dest as an AI file with specified options,
 // dest specifies the full path and file name of the new file
 

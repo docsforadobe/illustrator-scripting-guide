@@ -507,7 +507,7 @@ Nothing.
 
 ### LegacyTextItem.resize()
 
-```default
+```javascript
 legacyTextItem.resize(
     scaleX,
     scaleY
@@ -545,7 +545,7 @@ Nothing.
 
 ### LegacyTextItem.rotate()
 
-```default
+```javascript
 legacyTextItem.rotate(
     angle
     [,changePositions]
@@ -579,7 +579,7 @@ Nothing.
 
 ### LegacyTextItem.transform()
 
-```default
+```javascript
 legacyTextItem.transform(
     transformationMatrix
     [,changePositions]
@@ -615,7 +615,7 @@ Nothing.
 
 ### LegacyTextItem.translate()
 
-```default
+```javascript
 legacyTextItem.translate(
     [deltaX]
     [,deltaY]

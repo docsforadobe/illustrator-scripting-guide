@@ -556,7 +556,7 @@ String, read-only.
 
 ### Changing justification in paragraphs
 
-```default
+```javascript
 // Creates a new document with 1 text frame and 3 paragraphs
 // then gives each paragraph a different justification
 

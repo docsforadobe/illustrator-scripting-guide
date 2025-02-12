@@ -6,7 +6,7 @@ these steps:
 For information on locating the ExtendScript Toolkit, see [Viewing the JavaScript object model](../introduction/viewingTheObjectModel.md#introduction-viewingtheobjectmodel-javascript).
 
 1. Using any text editor (including Adobe^ InDesign® or the ESTK), enter the following text:
-    ```default
+    ```javascript
     //Hello World!
     var myDocument = app.documents.add();
     //Create a new text frame and assign it to the variable "myTextFrame"
@@ -36,7 +36,7 @@ Follow these steps:
 
 1. In Script Editor, choose File > New to create a new script.
 2. Enter the following code:
-    ```default
+    ```javascript
     var docRef = app.activeDocument;
     var docWidth = docRef.width
     var frameRef = docRef.textFrames[0]

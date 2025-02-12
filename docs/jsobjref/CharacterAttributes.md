@@ -747,7 +747,7 @@ Number (double)
 
 ### Setting character attributes
 
-```default
+```javascript
 // Creates a new document, adds a simple text item
 // then incrementally increases the horizontal and
 // vertical scale attributes of each character

@@ -72,7 +72,7 @@ String, read-only.
 
 ### Setting an RGB color
 
-```default
+```javascript
 // Sets the default fill color in the current document to yellow.
 
 if (app.documents.length > 0) {

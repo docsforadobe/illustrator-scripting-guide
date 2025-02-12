@@ -76,7 +76,7 @@ String; read-only.
 
 ### Opening a PDF with options
 
-```default
+```javascript
 // Opens a PDF file with specified options
 var pdfOptions = app.preferences.PDFFileOptions;
 pdfOptions.pDFCropToBox = PDFBoxType.PDFBOUNDINGBOX;

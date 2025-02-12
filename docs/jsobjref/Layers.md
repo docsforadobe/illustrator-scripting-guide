@@ -126,7 +126,7 @@ Nothing.
 
 ### Finding and deleting layers
 
-```default
+```javascript
 // Deletes all layers whose name begins with "Temp" in all open documents
 
 var layersDeleted = 0;

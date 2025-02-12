@@ -78,7 +78,7 @@ Gets an element from the collection.
 
 ### Using insertion points to add spaces
 
-```default
+```javascript
 // Creates a new document, adds text then inserts a
 // space between each character using insertion points
 

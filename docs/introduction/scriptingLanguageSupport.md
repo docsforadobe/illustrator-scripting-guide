@@ -46,7 +46,7 @@ The CC JavaScript scripting interface allows for limited scripting for plug-ins.
 
 For example, the Adobe Custom Workspace plug-in defines a command "Switch Workspace". A script can invoke this command with the following code
 
-```default
+```javascript
 result = app.sendScriptMessage (
     "Adobe Custom Workspace",
     "Switch Workspace",
@@ -56,7 +56,7 @@ result = app.sendScriptMessage (
 
 In this case, the value that the plug-in returns is the string
 
-```default
+```javascript
 "<error= errNo>".
 ```
 

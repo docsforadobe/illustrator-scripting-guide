@@ -8,7 +8,7 @@ Finally, create a rectangle and type some text inside it.
 
 Now run the following JavaScript script
 
-```default
+```javascript
 var myDoc = app.activeDocument;
 alert("There are " + myDoc.textFrames.length + " text frames.");
 alert("There are " + myDoc.stories.length + " stories.");
@@ -68,7 +68,7 @@ Text art can have multiple text lines, if the text contains hard line breaks or 
 
 Text objects are accessed and identified by collections within the `text frame` and `story` objects; for example
 
-```default
+```javascript
 textFrame("My Text Frame").paragraphs
 // or
 story("My Story").paragraphs
