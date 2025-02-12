@@ -68,7 +68,7 @@ Giving your JavaScript files a .jsx extension (rather than the standard .js exte
 
 ExtendScript offers all standard JavaScript features, plus a development and debugging environment, the ExtendScript Toolkit (ESTK).
 
-The ESTK is installed with all scriptable Adobe applications, and is the default editor for JSX files. The ESTK includes an Object Model Viewer that contains complete documentation of the methods and properties of JavaScript objects. For information on accessing the ESTK and the Object Model Viewer see [Viewing the object model](viewingTheObjectModel.md#introduction-viewingtheobjectmodel).
+The ESTK is installed with all scriptable Adobe applications, and is the default editor for JSX files. The ESTK includes an Object Model Viewer that contains complete documentation of the methods and properties of JavaScript objects. For information on accessing the ESTK and the Object Model Viewer see [Viewing the object model](viewingTheObjectModel.md).
 
 ExtendScript also provides various tools and utilities, including the following:
 

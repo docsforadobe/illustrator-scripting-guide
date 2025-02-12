@@ -66,7 +66,7 @@ Creates a duplicate of this object.
 
 #### Returns
 
-[Symbol](#jsobjref-symbol)
+[Symbol](#symbol)
 
 ---
 

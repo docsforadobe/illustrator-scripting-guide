@@ -4,7 +4,7 @@
 
 #### Description
 
-Options for exporting a document as an 8-bit PNG file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method. All properties are optional.
+Options for exporting a document as an 8-bit PNG file, used with the [Document.exportFile()](Document.md#documentexportfile) method. All properties are optional.
 
 When you export a document, the appropriate file extension is appended automatically. You should not include any file extension in the file specification.
 

@@ -78,9 +78,9 @@ Places an external vector art file as a group item in the document.
 
 #### Parameters
 
-| Parameter   | Type   | Description              |
-|-------------|--------|--------------------------|
-| `imageFile` | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object   | Vector art file to place |
+|  Parameter  |                                         Type                                         |       Description        |
+| ----------- | ------------------------------------------------------------------------------------ | ------------------------ |
+| `imageFile` | [File](https://extendscript.docsforadobe.dev/file-system-access/file-object/) object | Vector art file to place |
 
 #### Returns
 
@@ -98,9 +98,9 @@ Gets the first element in the collection with the specified name.
 
 #### Parameters
 
-| Parameter   | Type   | Description            |
-|-------------|--------|------------------------|
-| `name`      | String | Name of element to get |
+| Parameter |  Type  |      Description       |
+| --------- | ------ | ---------------------- |
+| `name`    | String | Name of element to get |
 
 #### Returns
 
@@ -118,9 +118,9 @@ Gets an element from the collection.
 
 #### Parameters
 
-| Parameter   | Type           | Description          |
-|-------------|----------------|----------------------|
-| `itemKey`   | String, Number | String or number key |
+| Parameter |      Type      |     Description      |
+| --------- | -------------- | -------------------- |
+| `itemKey` | String, Number | String or number key |
 
 #### Returns
 
@@ -146,7 +146,7 @@ Nothing.
 
 ### Importing a PDF as a group item
 
-The following script shows how you can import a PDF document using the [GroupItems.createFromFile()](#jsobjref-groupitems-createfromfile) function.
+The following script shows how you can import a PDF document using the [GroupItems.createFromFile()](#groupitemscreatefromfile) function.
 
 !!! note
     Before running this script you must create a one page PDF file and put it in the location `/temp/testfile1.pdf`.

@@ -21,7 +21,7 @@ In a default Adobe installation, the ESTK is in the following location:
 
 Several extended sample scripts are in the `/Scripting/Sample Scripts/` folder in your Illustrator CC installation directory.
 
-You also can view script samples and information about individual classes, objects, properties, methods, and parameters in [Illustrator Scripting Reference: Javascript](../scriptingJavascript/forMoreInfo.md#scriptingjavascript-formoreinfo).
+You also can view script samples and information about individual classes, objects, properties, methods, and parameters in [Illustrator Scripting Reference: Javascript](../scriptingJavascript/forMoreInfo.md).
 
 ---
 
@@ -44,7 +44,7 @@ Script Editor displays a list of the Illustrator objects and commands, which inc
 
 Several extended sample scripts are in the `/Scripting/Sample Scripts/` folder in your Illustrator CC installation directory.
 
-You also can view script samples and information about individual classes, objects, properties, methods, and parameters in [Illustrator Scripting Reference: Applescript](../scriptingApplescript/forMoreInfo.md#scriptingapplescript-formoreinfo).
+You also can view script samples and information about individual classes, objects, properties, methods, and parameters in [Illustrator Scripting Reference: Applescript](../scriptingApplescript/forMoreInfo.md).
 
 ---
 
@@ -60,4 +60,4 @@ VBScript provides a type library you can use to view Illustrator object properti
 
 Several extended sample scripts are in the `/Scripting/Sample Scripts/` folder in your lllustrator CC installation directory.
 
-You also can view script samples and information about individual classes, objects, properties, methods, and parameters in [Illustrator Scripting Reference: VBScript](../scriptingVBScript/forMoreInfo.md#scriptingvbscript-formoreinfo).
+You also can view script samples and information about individual classes, objects, properties, methods, and parameters in [Illustrator Scripting Reference: VBScript](../scriptingVBScript/forMoreInfo.md).

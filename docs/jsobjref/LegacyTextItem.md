@@ -474,7 +474,7 @@ Creates a duplicate of the selected object.
 
 #### Returns
 
-[LegacyTextItem](#jsobjref-legacytextitem)
+[LegacyTextItem](#legacytextitem)
 
 ---
 
@@ -495,7 +495,7 @@ Moves the object.
 
 #### Returns
 
-[LegacyTextItem](#jsobjref-legacytextitem)
+[LegacyTextItem](#legacytextitem)
 
 ---
 

@@ -6,8 +6,8 @@ What's new and changed for scripting?
 
 ## [Illustrator 24.0 (CC 2020) <>]()
 
-- Added: [Document.getPageItemFromUuid()](../jsobjref/Document.md#jsobjref-document-getpageitemfromuuid)
-- Added: [PageItem.uuid](../jsobjref/PageItem.md#jsobjref-pageitem-uuid)
+- Added: [Document.getPageItemFromUuid()](../jsobjref/Document.md#documentgetpageitemfromuuid)
+- Added: [PageItem.uuid](../jsobjref/PageItem.md#pageitemuuid)
 
 ---
 

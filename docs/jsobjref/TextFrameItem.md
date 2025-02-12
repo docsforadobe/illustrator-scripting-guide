@@ -4,7 +4,7 @@
 
 #### Description
 
-The basic art item for displaying text. From the user interface, this is text created with the Text tool. There are three types of text art in Illustrator: point text, path text, and area text. The type is indicated by the text frame's [kind](#kind) property.
+The basic art item for displaying text. From the user interface, this is text created with the Text tool. There are three types of text art in Illustrator: point text, path text, and area text. The type is indicated by the text frame's [kind](#textframeitemkind) property.
 
 When you create a text frame, you also create a [Story](./Story.md) object. However, threading text frames combines the frames into a single story object. To thread frames, use the [nextFrame](#textframeitemnextframe) or [previousFrame](#textframeitempreviousframe) property.
 
@@ -204,7 +204,7 @@ The linked text frame following this one.
 
 #### Type
 
-[TextFrameItem](#jsobjref-textframeitem)
+[TextFrameItem](./TextFrameItem.md)
 
 ---
 
@@ -274,7 +274,7 @@ The linked text frame preceding this one.
 
 #### Type
 
-[TextFrameItem](#jsobjref-textframeitem)
+[TextFrameItem](#textframeitem)
 
 ---
 
@@ -444,7 +444,7 @@ Converts the area-type text frame to a point-type text frame.
 
 #### Returns
 
-[TextFrameItem](#jsobjref-textframeitem)
+[TextFrameItem](#textframeitem)
 
 ---
 
@@ -458,7 +458,7 @@ Converts the point-type text frame to an area-type text frame.
 
 #### Returns
 
-[TextFrameItem](#jsobjref-textframeitem)
+[TextFrameItem](#textframeitem)
 
 ---
 

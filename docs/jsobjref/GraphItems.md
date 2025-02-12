@@ -70,7 +70,7 @@ Gets the first element in the collection with the specified name.
 
 #### Returns
 
-[GraphItems](#jsobjref-graphitems)
+[GraphItems](#graphitems)
 
 ---
 

@@ -202,7 +202,7 @@ The object's container.
 
 #### Type
 
-[TextRange](#jsobjref-textrange); read-only.
+[TextRange](#textrange); read-only.
 
 ---
 
@@ -258,7 +258,7 @@ The selected text ranges in the text range.
 
 #### Type
 
-Array of [TextRange](#jsobjref-textrange); read-only.
+Array of [TextRange](#textrange); read-only.
 
 ---
 
@@ -343,7 +343,7 @@ Creates a duplicate of this object.
 
 #### Returns
 
-[TextRange](#jsobjref-textrange)
+[TextRange](#textrange)
 
 ---
 
@@ -420,7 +420,7 @@ Moves the object.
 
 #### Returns
 
-[TextRange](#jsobjref-textrange)
+[TextRange](#textrange)
 
 ---
 

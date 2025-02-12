@@ -12,7 +12,7 @@ The content of an Illustrator document is called the artwork tree. Artwork is re
 - `placed item`
 - `plugin item`
 - `raster item`
-- `symbol item` (see [Dynamic Objects](dynamic.md#objectmodel-dynamic))
+- `symbol item` (see [Dynamic Objects](dynamic.md))
 - `text frame`
 
 Your scripts can access and manipulate art objects through collections in the document and layer objects.

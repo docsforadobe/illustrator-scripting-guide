@@ -4,7 +4,7 @@
 
 #### Description
 
-Options for saving a document as an Illustrator EPS file, used with the [Document.saveAs()](Document.md#jsobjref-document-saveas) method.
+Options for saving a document as an Illustrator EPS file, used with the [Document.saveAs()](Document.md#documentsaveas) method.
 
 All properties are optional.
 

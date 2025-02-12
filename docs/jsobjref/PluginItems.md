@@ -6,7 +6,7 @@
 
 A collection of [PluginItem](./PluginItem.md) objects in a document.
 
-See [Copying a plug-in item](PluginItem.md#jsobjref-pluginitem-copying-a-plugin-item).
+See [Copying a plug-in item](PluginItem.md#copying-a-plug-in-item).
 
 ---
 

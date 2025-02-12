@@ -459,7 +459,7 @@ Creates a duplicate of the selected object.
 
 #### Returns
 
-[GraphItem](#jsobjref-graphitem)
+[GraphItem](#graphitem)
 
 ---
 
@@ -480,7 +480,7 @@ Moves the object.
 
 #### Returns
 
-[GraphItem](#jsobjref-graphitem)
+[GraphItem](#graphitem)
 
 ---
 

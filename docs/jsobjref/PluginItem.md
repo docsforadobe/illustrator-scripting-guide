@@ -471,7 +471,7 @@ Creates a duplicate of the selected object.
 
 #### Returns
 
-[PluginItem](#jsobjref-pluginitem)
+[PluginItem](#pluginitem)
 
 ---
 
@@ -492,7 +492,7 @@ Moves the object.
 
 #### Returns
 
-[PluginItem](#jsobjref-pluginitem)
+[PluginItem](#pluginitem)
 
 ---
 

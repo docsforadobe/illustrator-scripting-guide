@@ -455,7 +455,7 @@ Creates a duplicate of the selected object.
 
 #### Returns
 
-[SymbolItem](#jsobjref-symbolitem)
+[SymbolItem](#symbolitem)
 
 ---
 
@@ -476,7 +476,7 @@ Moves the object.
 
 #### Returns
 
-[SymbolItem](#jsobjref-symbolitem)
+[SymbolItem](#symbolitem)
 
 ---
 

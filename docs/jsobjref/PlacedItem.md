@@ -499,7 +499,7 @@ Creates a duplicate of the selected object.
 
 #### Returns
 
-[PlacedItem](#jsobjref-placeditem)
+[PlacedItem](#placeditem)
 
 ---
 
@@ -534,7 +534,7 @@ Moves the object.
 
 #### Returns
 
-[PlacedItem](#jsobjref-placeditem)
+[PlacedItem](#placeditem)
 
 ---
 

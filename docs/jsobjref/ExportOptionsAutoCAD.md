@@ -4,12 +4,12 @@
 
 #### Description
 
-Options for exporting a document as an AutoCAD file, used with the [Document.exportFile()](Document.md#jsobjref-document-exportfile) method.
+Options for exporting a document as an AutoCAD file, used with the [Document.exportFile()](Document.md#documentexportfile) method.
 All properties are optional.
 
 When you export a document, a file extension is appended automatically. You should not include any file extension in the file specification.
 
-To override the default AutoCAD export format (DWG), use the [ExportOptionsAutoCAD.exportFileFormat](#jsobjref-exportoptionsautocad-exportfileformat) property.
+To override the default AutoCAD export format (DWG), use the [ExportOptionsAutoCAD.exportFileFormat](#exportoptionsautocadexportfileformat) property.
 
 ---
 

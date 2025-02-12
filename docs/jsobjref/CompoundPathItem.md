@@ -457,7 +457,7 @@ Creates a duplicate of the selected object.
 
 #### Returns
 
-[CompoundPathItem](#jsobjref-compoundpathitem)
+[CompoundPathItem](#compoundpathitem)
 
 ---
 

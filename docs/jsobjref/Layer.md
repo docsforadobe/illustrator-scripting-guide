@@ -264,7 +264,7 @@ The document or layer that contains this layer.
 
 #### Type
 
-[Document](./Document.md) or [Layer](#jsobjref-layer); read-only.
+[Document](./Document.md) or [Layer](#layer); read-only.
 
 ---
 
@@ -288,7 +288,7 @@ The path items contained in this layer.
 
 #### Description
 
-> The placed items contained in this layer.
+The placed items contained in this layer.
 
 #### Type
 
@@ -457,7 +457,7 @@ Moves the object.
 
 #### Returns
 
-[Layer](#jsobjref-layer)
+[Layer](#layer)
 
 ---
 

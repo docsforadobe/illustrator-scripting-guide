@@ -443,7 +443,7 @@ Creates a duplicate of the selected object.
 
 #### Returns
 
-[MeshItem](#jsobjref-meshitem)
+[MeshItem](#meshitem)
 
 ---
 
@@ -464,7 +464,7 @@ Moves the object.
 
 #### Returns
 
-[MeshItem](#jsobjref-meshitem)
+[MeshItem](#meshitem)
 
 ---
 

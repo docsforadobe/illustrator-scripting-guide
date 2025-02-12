@@ -440,7 +440,7 @@ Creates a duplicate of the selected object.
 
 #### Returns
 
-[NonNativeItem](#jsobjref-nonnativeitem)
+[NonNativeItem](#nonnativeitem)
 
 ---
 
@@ -461,7 +461,7 @@ Moves the object.
 
 #### Returns
 
-[NonNativeItem](#jsobjref-nonnativeitem)
+[NonNativeItem](#nonnativeitem)
 
 ---
 

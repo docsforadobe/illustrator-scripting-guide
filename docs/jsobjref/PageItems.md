@@ -50,9 +50,9 @@ A collection of [PageItem](./PageItem.md) objects. Provides complete access to a
     - [Methods](TextFrameItem.md#methods)
     - [Example](TextFrameItem.md#example)
 
-You can reference page items through the [PageItems](#jsobjref-pageitems) property in a [Document](./Document.md), [Layer](./Layer.md), or [GroupItem](./GroupItem.md).
+You can reference page items through the [PageItems](#pageitems) property in a [Document](./Document.md), [Layer](./Layer.md), or [GroupItem](./GroupItem.md).
 
-When you access an individual item in one of these collections, the reference is a page item of one of a particular type. For example, if you use [PageItems](#jsobjref-pageitems) to reference a graph item, the typename value of that object is [GraphItem](./GraphItem.md).
+When you access an individual item in one of these collections, the reference is a page item of one of a particular type. For example, if you use [PageItems](#pageitems) to reference a graph item, the typename value of that object is [GraphItem](./GraphItem.md).
 
 ---
 

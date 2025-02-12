@@ -641,7 +641,7 @@ Creates a duplicate of the selected object.
 
 #### Returns
 
-[RasterItem](#jsobjref-rasteritem)
+[RasterItem](#rasteritem)
 
 ---
 
@@ -662,7 +662,7 @@ Moves the object.
 
 #### Returns
 
-[RasterItem](#jsobjref-rasteritem)
+[RasterItem](#rasteritem)
 
 ---
 

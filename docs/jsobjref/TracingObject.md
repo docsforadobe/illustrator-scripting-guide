@@ -4,7 +4,7 @@
 
 #### Description
 
-A tracing object, which associates source raster art item with a vector-art plug-in group created by tracing. Scripts can initiate tracing using [PlacedItem.trace](PlacedItem.md#jsobjref-placeditem-trace) or [RasterItem.trace()](RasterItem.md#jsobjref-rasteritem-trace).
+A tracing object, which associates source raster art item with a vector-art plug-in group created by tracing. Scripts can initiate tracing using [PlacedItem.trace](PlacedItem.md#placeditemtrace) or [RasterItem.trace()](RasterItem.md#rasteritemtrace).
 
 The resulting PluginItem object represents the vector art group, and has this object in its tracing property.
 

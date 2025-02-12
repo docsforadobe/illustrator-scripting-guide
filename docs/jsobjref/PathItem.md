@@ -773,7 +773,7 @@ Creates a duplicate of the selected object.
 
 #### Returns
 
-[PathItem](#jsobjref-pathitem)
+[PathItem](#pathitem)
 
 ---
 
@@ -794,7 +794,7 @@ Moves the object.
 
 #### Returns
 
-[PathItem](#jsobjref-pathitem)
+[PathItem](#pathitem)
 
 ---
 

@@ -4,7 +4,7 @@
 
 #### Description
 
-A preset document template to use when creating a new document. See [Documents.addDocument()](Documents.md#jsobjref-documents-adddocument).
+A preset document template to use when creating a new document. See [Documents.addDocument()](Documents.md#documentsadddocument).
 
 ---
 
