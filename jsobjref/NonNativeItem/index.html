@@ -1,0 +1,6393 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ai-scripting.docsforadobe.dev/jsobjref/NonNativeItem/">
+      
+      
+        <link rel="prev" href="../NoColor/">
+      
+      
+        <link rel="next" href="../NonNativeItems/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.5">
+    
+    
+      
+        <title>NonNativeItem - Adobe Illustrator Scripting Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/print-site-enum-headings1.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-enum-headings2.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-enum-headings3.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-enum-headings4.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-enum-headings5.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-enum-headings6.css">
+    
+      <link rel="stylesheet" href="../../css/print-site.css">
+    
+      <link rel="stylesheet" href="../../css/print-site-material.css">
+    
+      <link rel="stylesheet" href="../../_static/extra.css">
+    
+      <link rel="stylesheet" href="../../docs/_global/css/global.css">
+    
+      <link rel="stylesheet" href="../../docs/_global/css/global-syntax-highlight.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#nonnativeitem" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+              <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+              </button>
+            
+            
+  Welcome to the new docsforadobe guide!
+
+  This is a work in progress.
+
+  Please provide all feedback via
+  <a ref="me" href="https://github.com/orgs/docsforadobe/discussions">
+    <span class="twemoji">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1M1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.75.75 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25m13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z"/></svg>
+    </span>
+    <strong>the org's discussion forum</strong>
+  </a>.
+
+          </div>
+          
+            <script>var el=document.querySelector("[data-md-component=announce]");if(el){var content=el.querySelector(".md-typeset");__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0)}</script>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://docsforadobe.dev" title="Adobe Illustrator Scripting Guide" class="md-header__button md-logo" aria-label="Adobe Illustrator Scripting Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Adobe Illustrator Scripting Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NonNativeItem
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/docsforadobe/illustrator-scripting-guide/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    illustrator-scripting-guide
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://docsforadobe.dev" title="Adobe Illustrator Scripting Guide" class="md-nav__button md-logo" aria-label="Adobe Illustrator Scripting Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Adobe Illustrator Scripting Guide
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/docsforadobe/illustrator-scripting-guide/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    illustrator-scripting-guide
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Introduction
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/whatIsScripting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Scripting?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/changelog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Changelog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/scriptingLanguageSupport/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Scripting language support in Adobe Illustrator CC
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/viewingTheObjectModel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Viewing the object model
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../introduction/executingScripts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Executing Scripts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Illustrator Scripting Object Model
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Illustrator Scripting Object Model
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../objectmodel/objectModel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Illustrator Scripting Object Model
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../objectmodel/objectNamingConventions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Object Naming Conventions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../objectmodel/topLevelObjects/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Top-Level (containing) Objects
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../objectmodel/theArtworkTree/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The Artwork Tree
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../objectmodel/textObjects/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Text Objects
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../objectmodel/dynamic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dynamic Objects
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../objectmodel/symbols/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Symbols
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../objectmodel/transformations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Transformations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Scripting Illustrator
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Scripting Illustrator
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scripting/launching/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Launching and quitting Illustrator from a script
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scripting/workingWithObjects/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with objects
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scripting/measurementUnits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Measurement Units
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scripting/positioning/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Page-item positioning and dimensions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scripting/pathsShapes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Paths and shapes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scripting/userInteractionLevels/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User-interaction levels
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scripting/printingDocuments/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Printing Illustrator documents
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Scripting with AppleScript
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Scripting with AppleScript
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingApplescript/forMoreInfo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    For more information
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingApplescript/yourFirstScript/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Your first Illustrator script
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingApplescript/objectReferences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Object references
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingApplescript/workingWithTextFrames/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with text frames
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingApplescript/creatingPathsShapes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating paths and shapes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingApplescript/perspectiveGrid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with the perspective grid
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Scripting with JavaScript
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Scripting with JavaScript
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingJavascript/forMoreInfo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    For more information
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingJavascript/yourFirstScript/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Your first Illustrator script
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingJavascript/workingWithMethods/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with methods in JavaScript
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingJavascript/objectReferences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Accessing and referencing objects
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingJavascript/workingWithTextFrames/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with text frames
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingJavascript/creatingPathsShapes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating paths and shapes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingJavascript/perspectiveGrid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with the perspective grid
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Scripting with VBScript
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Scripting with VBScript
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingVBScript/forMoreInfo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    For more information
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingVBScript/yourFirstScript/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Your first Illustrator script
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingVBScript/objectReferences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Accessing and referencing objects
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingVBScript/workingWithTextFrames/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with text frames
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingVBScript/creatingPathsShapes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating paths and shapes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingVBScript/enumerationValues/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with enumeration values
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scriptingVBScript/perspectiveGrid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Working with the perspective grid
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Javascript Object Reference
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Javascript Object Reference
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scripting-constants/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Scripting Constants
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javascript-object-reference/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    JavaScript Object Reference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Application/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Application
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Artboard/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artboard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Artboards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artboards
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Brush/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brush
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Brushes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Brushes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CharacterAttributes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CharacterAttributes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Characters/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Characters
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CharacterStyle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CharacterStyle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CharacterStyles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CharacterStyles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CMYKColor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CMYKColor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Color/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Color
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CompoundPathItem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CompoundPathItem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CompoundPathItems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CompoundPathItems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dataset/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dataset
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Datasets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Datasets
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Document/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Document
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DocumentPreset/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DocumentPreset
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Documents/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documents
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../EPSSaveOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EPSSaveOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ExportOptionsAutoCAD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ExportOptionsAutoCAD
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ExportOptionsFlash/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ExportOptionsFlash
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ExportOptionsGIF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ExportOptionsGIF
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ExportOptionsJPEG/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ExportOptionsJPEG
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ExportOptionsPhotoshop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ExportOptionsPhotoshop
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ExportOptionsPNG24/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ExportOptionsPNG24
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ExportOptionsPNG8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ExportOptionsPNG8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ExportOptionsSVG/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ExportOptionsSVG
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ExportOptionsTIFF/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ExportOptionsTIFF
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FXGSaveOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FXGSaveOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Gradient/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gradient
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GradientColor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GradientColor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Gradients/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gradients
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GradientStop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GradientStop
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GradientStops/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GradientStops
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GraphicStyle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GraphicStyle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GraphicStyles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GraphicStyles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GraphItem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GraphItem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GraphItems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GraphItems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GrayColor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GrayColor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GroupItem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GroupItem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GroupItems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GroupItems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../IllustratorSaveOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IllustratorSaveOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ImageCaptureOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ImageCaptureOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ink/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ink
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../InkInfo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    InkInfo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../InsertionPoint/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    InsertionPoint
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../InsertionPoints/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    InsertionPoints
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../LabColor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LabColor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Layer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Layer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Layers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Layers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../LegacyTextItem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LegacyTextItem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../LegacyTextItems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LegacyTextItems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Lines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lines
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Matrix/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Matrix
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MeshItem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MeshItem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MeshItems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MeshItems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../NoColor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NoColor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    NonNativeItem
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    NonNativeItem
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Page Contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Page Contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+	<a href="#properties" class="md-nav__link">
+		<span class="md-ellipsis">
+			Properties
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+		<nav class="md-nav" aria-label="Properties">
+			<ul class="md-nav__list">
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemartworkknockout" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.artworkKnockout
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemblendingmode" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.blendingMode
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemcontrolbounds" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.controlBounds
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemeditable" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.editable
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemgeometricbounds" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.geometricBounds
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemheight" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.height
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemhidden" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.hidden
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemisisolated" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.isIsolated
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemlayer" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.layer
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemleft" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.left
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemlocked" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.locked
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemname" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.name
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemnote" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.note
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemopacity" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.opacity
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemparent" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.parent
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemposition" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.position
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemselected" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.selected
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemsliced" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.sliced
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemtags" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.tags
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemtop" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.top
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemtypename" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.typename
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemurl" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.uRL
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemvisibilityvariable" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.visibilityVariable
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemvisiblebounds" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.visibleBounds
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemwidth" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.width
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemwrapinside" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.wrapInside
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemwrapoffset" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.wrapOffset
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemwrapped" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.wrapped
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemzorderposition" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.zOrderPosition
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+			</ul>
+		</nav>
+	
+</li>
+      
+        <li class="md-nav__item">
+	<a href="#methods" class="md-nav__link">
+		<span class="md-ellipsis">
+			Methods
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+		<nav class="md-nav" aria-label="Methods">
+			<ul class="md-nav__list">
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemduplicate" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.duplicate()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemmove" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.move()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemremove" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.remove()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemremoveall" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.removeAll()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemresize" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.resize()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemrotate" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.rotate()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemtransform" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.transform()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemtranslate" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.translate()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemzorder" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.zOrder()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+			</ul>
+		</nav>
+	
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../NonNativeItems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NonNativeItems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OpenOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OpenOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OpenOptionsAutoCAD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OpenOptionsAutoCAD
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OpenOptionsFreeHand/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OpenOptionsFreeHand
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OpenOptionsPhotoshop/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OpenOptionsPhotoshop
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PageItem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PageItem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PageItems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PageItems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Paper/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Paper
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PaperInfo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PaperInfo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ParagraphAttributes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ParagraphAttributes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Paragraphs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Paragraphs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ParagraphStyle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ParagraphStyle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ParagraphStyles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ParagraphStyles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PathItem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PathItem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PathItems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PathItems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PathPoint/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PathPoint
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PathPoints/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PathPoints
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Pattern/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pattern
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Patterns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Patterns
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PatternColor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PatternColor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PDFFileOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PDFFileOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PDFSaveOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PDFSaveOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PhotoshopFileOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PhotoshopFileOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PlacedItem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PlacedItem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PlacedItems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PlacedItems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PluginItem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PluginItem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PluginItems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PluginItems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PPDFile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PPDFile
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PPDFileInfo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PPDFileInfo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Preferences/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preferences
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PrintColorManagementOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrintColorManagementOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PrintColorSeparationOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrintColorSeparationOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PrintCoordinateOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrintCoordinateOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Printer/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Printer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PrinterInfo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrinterInfo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PrintFlattenerOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrintFlattenerOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PrintFontOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrintFontOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PrintJobOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrintJobOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PrintOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrintOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PrintPageMarksOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrintPageMarksOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PrintPaperOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrintPaperOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PrintPostScriptOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrintPostScriptOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../RasterEffectOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RasterEffectOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../RasterItem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RasterItem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../RasterItems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RasterItems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../RasterizeOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RasterizeOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../RGBColor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RGBColor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Screen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Screen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ScreenInfo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ScreenInfo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ScreenSpotFunction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ScreenSpotFunction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Spot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SpotColor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SpotColor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Spots/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Spots
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Story/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Story
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Stories/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Stories
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Swatch/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Swatch
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Swatches/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Swatches
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SwatchGroup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SwatchGroup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SwatchGroups/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SwatchGroups
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SymbolItem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SymbolItem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SymbolItems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SymbolItems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Symbol/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Symbol
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Symbols/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Symbols
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TabStopInfo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TabStopInfo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tag/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tag
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tags/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TextFont/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TextFont
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TextFonts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TextFonts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TextFrameItem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TextFrameItem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TextFrameItems/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TextFrameItems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TextPath/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TextPath
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TextRange/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TextRange
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TextRanges/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TextRanges
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TracingObject/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TracingObject
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TracingOptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TracingOptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Variable/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Variable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Variables/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Variables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../View/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    View
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Views/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Views
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Words/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Words
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Page Contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Page Contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+	<a href="#properties" class="md-nav__link">
+		<span class="md-ellipsis">
+			Properties
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+		<nav class="md-nav" aria-label="Properties">
+			<ul class="md-nav__list">
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemartworkknockout" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.artworkKnockout
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemblendingmode" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.blendingMode
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemcontrolbounds" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.controlBounds
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemeditable" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.editable
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemgeometricbounds" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.geometricBounds
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemheight" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.height
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemhidden" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.hidden
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemisisolated" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.isIsolated
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemlayer" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.layer
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemleft" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.left
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemlocked" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.locked
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemname" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.name
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemnote" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.note
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemopacity" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.opacity
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemparent" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.parent
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemposition" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.position
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemselected" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.selected
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemsliced" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.sliced
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemtags" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.tags
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemtop" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.top
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemtypename" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.typename
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemurl" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.uRL
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemvisibilityvariable" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.visibilityVariable
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemvisiblebounds" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.visibleBounds
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemwidth" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.width
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemwrapinside" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.wrapInside
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemwrapoffset" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.wrapOffset
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemwrapped" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.wrapped
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemzorderposition" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.zOrderPosition
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+			</ul>
+		</nav>
+	
+</li>
+      
+        <li class="md-nav__item">
+	<a href="#methods" class="md-nav__link">
+		<span class="md-ellipsis">
+			Methods
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+		<nav class="md-nav" aria-label="Methods">
+			<ul class="md-nav__list">
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemduplicate" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.duplicate()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemmove" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.move()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemremove" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.remove()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemremoveall" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.removeAll()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemresize" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.resize()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemrotate" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.rotate()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemtransform" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.transform()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemtranslate" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.translate()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+				
+					<li class="md-nav__item">
+	<a href="#nonnativeitemzorder" class="md-nav__link">
+		<span class="md-ellipsis">
+			NonNativeItem.zOrder()
+		</span>
+	</a>
+
+	<!-- Table of contents list -->
+	
+</li>
+				
+				
+			</ul>
+		</nav>
+	
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/docsforadobe/illustrator-scripting-guide/edit/master/docs/jsobjref/NonNativeItem.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/docsforadobe/illustrator-scripting-guide/raw/master/docs/jsobjref/NonNativeItem.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="nonnativeitem">NonNativeItem<a class="headerlink" href="#nonnativeitem" title="Permanent link">&para;</a></h1>
+<p><code>nonNativeItems[index]</code></p>
+<h4 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h4>
+<p>A non-native artwork item.</p>
+<hr />
+<h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">&para;</a></h2>
+<h3 id="nonnativeitemartworkknockout">NonNativeItem.artworkKnockout<a class="headerlink" href="#nonnativeitemartworkknockout" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].artworkKnockout</code></p>
+<h4 id="description_1">Description<a class="headerlink" href="#description_1" title="Permanent link">&para;</a></h4>
+<p>Is this object used to create a knockout, and if so, what kind of knockout.</p>
+<h4 id="type">Type<a class="headerlink" href="#type" title="Permanent link">&para;</a></h4>
+<p><a href="../scripting-constants/#knockoutstate">KnockoutState</a></p>
+<hr />
+<h3 id="nonnativeitemblendingmode">NonNativeItem.blendingMode<a class="headerlink" href="#nonnativeitemblendingmode" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].blendingMode</code></p>
+<h4 id="description_2">Description<a class="headerlink" href="#description_2" title="Permanent link">&para;</a></h4>
+<p>The blend mode used when compositing an object.</p>
+<h4 id="type_1">Type<a class="headerlink" href="#type_1" title="Permanent link">&para;</a></h4>
+<p><a href="../scripting-constants/#blendmodes">BlendModes</a></p>
+<hr />
+<h3 id="nonnativeitemcontrolbounds">NonNativeItem.controlBounds<a class="headerlink" href="#nonnativeitemcontrolbounds" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].controlBounds</code></p>
+<h4 id="description_3">Description<a class="headerlink" href="#description_3" title="Permanent link">&para;</a></h4>
+<p>The bounds of the object including stroke width and controls.</p>
+<h4 id="type_2">Type<a class="headerlink" href="#type_2" title="Permanent link">&para;</a></h4>
+<p>Array of 4 numbers; read-only.</p>
+<hr />
+<h3 id="nonnativeitemeditable">NonNativeItem.editable<a class="headerlink" href="#nonnativeitemeditable" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].editable</code></p>
+<h4 id="description_4">Description<a class="headerlink" href="#description_4" title="Permanent link">&para;</a></h4>
+<p>If <code>true</code>, this item is editable.</p>
+<h4 id="type_3">Type<a class="headerlink" href="#type_3" title="Permanent link">&para;</a></h4>
+<p>Boolean; read-only.</p>
+<hr />
+<h3 id="nonnativeitemgeometricbounds">NonNativeItem.geometricBounds<a class="headerlink" href="#nonnativeitemgeometricbounds" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].geometricBounds</code></p>
+<h4 id="description_5">Description<a class="headerlink" href="#description_5" title="Permanent link">&para;</a></h4>
+<p>The bounds of the object excluding stroke width.</p>
+<h4 id="type_4">Type<a class="headerlink" href="#type_4" title="Permanent link">&para;</a></h4>
+<p>Array of 4 numbers; read-only.</p>
+<hr />
+<h3 id="nonnativeitemheight">NonNativeItem.height<a class="headerlink" href="#nonnativeitemheight" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].height</code></p>
+<h4 id="description_6">Description<a class="headerlink" href="#description_6" title="Permanent link">&para;</a></h4>
+<p>The height of the group item.</p>
+<h4 id="type_5">Type<a class="headerlink" href="#type_5" title="Permanent link">&para;</a></h4>
+<p>Number (double).</p>
+<hr />
+<h3 id="nonnativeitemhidden">NonNativeItem.hidden<a class="headerlink" href="#nonnativeitemhidden" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].hidden</code></p>
+<h4 id="description_7">Description<a class="headerlink" href="#description_7" title="Permanent link">&para;</a></h4>
+<p>If <code>true</code>, this item is hidden.</p>
+<h4 id="type_6">Type<a class="headerlink" href="#type_6" title="Permanent link">&para;</a></h4>
+<p>Boolean.</p>
+<hr />
+<h3 id="nonnativeitemisisolated">NonNativeItem.isIsolated<a class="headerlink" href="#nonnativeitemisisolated" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].isIsolated</code></p>
+<h4 id="description_8">Description<a class="headerlink" href="#description_8" title="Permanent link">&para;</a></h4>
+<p>If <code>true</code>, this object is isolated.</p>
+<h4 id="type_7">Type<a class="headerlink" href="#type_7" title="Permanent link">&para;</a></h4>
+<p>Boolean.</p>
+<hr />
+<h3 id="nonnativeitemlayer">NonNativeItem.layer<a class="headerlink" href="#nonnativeitemlayer" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].layer</code></p>
+<h4 id="description_9">Description<a class="headerlink" href="#description_9" title="Permanent link">&para;</a></h4>
+<p>The layer to which this item belongs.</p>
+<h4 id="type_8">Type<a class="headerlink" href="#type_8" title="Permanent link">&para;</a></h4>
+<p><a href="../Layer/">Layer</a>; read-only.</p>
+<hr />
+<h3 id="nonnativeitemleft">NonNativeItem.left<a class="headerlink" href="#nonnativeitemleft" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].left</code></p>
+<h4 id="description_10">Description<a class="headerlink" href="#description_10" title="Permanent link">&para;</a></h4>
+<p>The position of the left side of the item (in points, measured from the left side of the page).</p>
+<h4 id="type_9">Type<a class="headerlink" href="#type_9" title="Permanent link">&para;</a></h4>
+<p>Number (double).</p>
+<hr />
+<h3 id="nonnativeitemlocked">NonNativeItem.locked<a class="headerlink" href="#nonnativeitemlocked" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].locked</code></p>
+<h4 id="description_11">Description<a class="headerlink" href="#description_11" title="Permanent link">&para;</a></h4>
+<p>If <code>true</code>, this item is locked.</p>
+<h4 id="type_10">Type<a class="headerlink" href="#type_10" title="Permanent link">&para;</a></h4>
+<p>Boolean.</p>
+<hr />
+<h3 id="nonnativeitemname">NonNativeItem.name<a class="headerlink" href="#nonnativeitemname" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].name</code></p>
+<h4 id="description_12">Description<a class="headerlink" href="#description_12" title="Permanent link">&para;</a></h4>
+<p>The name of this item.</p>
+<h4 id="type_11">Type<a class="headerlink" href="#type_11" title="Permanent link">&para;</a></h4>
+<p>String.</p>
+<hr />
+<h3 id="nonnativeitemnote">NonNativeItem.note<a class="headerlink" href="#nonnativeitemnote" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].note</code></p>
+<h4 id="description_13">Description<a class="headerlink" href="#description_13" title="Permanent link">&para;</a></h4>
+<p>The note assigned to this item.</p>
+<h4 id="type_12">Type<a class="headerlink" href="#type_12" title="Permanent link">&para;</a></h4>
+<p>String.</p>
+<hr />
+<h3 id="nonnativeitemopacity">NonNativeItem.opacity<a class="headerlink" href="#nonnativeitemopacity" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].opacity</code></p>
+<h4 id="description_14">Description<a class="headerlink" href="#description_14" title="Permanent link">&para;</a></h4>
+<p>The opacity of the object.</p>
+<p>Range: 0.0 to 100.0.</p>
+<h4 id="type_13">Type<a class="headerlink" href="#type_13" title="Permanent link">&para;</a></h4>
+<p>Number (double).</p>
+<hr />
+<h3 id="nonnativeitemparent">NonNativeItem.parent<a class="headerlink" href="#nonnativeitemparent" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].parent</code></p>
+<h4 id="description_15">Description<a class="headerlink" href="#description_15" title="Permanent link">&para;</a></h4>
+<p>The parent of this object.</p>
+<h4 id="type_14">Type<a class="headerlink" href="#type_14" title="Permanent link">&para;</a></h4>
+<p><a href="../Document/">Document</a>, <a href="../Layer/">Layer</a> or <a href="../GroupItem/">GroupItem</a>; read-only.</p>
+<hr />
+<h3 id="nonnativeitemposition">NonNativeItem.position<a class="headerlink" href="#nonnativeitemposition" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].position</code></p>
+<h4 id="description_16">Description<a class="headerlink" href="#description_16" title="Permanent link">&para;</a></h4>
+<p>The position (in points) of the top left corner of the <code>NonNativeItems[index]</code> object in the format [x, y]. Does not include stroke weight.</p>
+<h4 id="type_15">Type<a class="headerlink" href="#type_15" title="Permanent link">&para;</a></h4>
+<p>Array of 2 numbers.</p>
+<hr />
+<h3 id="nonnativeitemselected">NonNativeItem.selected<a class="headerlink" href="#nonnativeitemselected" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].selected</code></p>
+<h4 id="description_17">Description<a class="headerlink" href="#description_17" title="Permanent link">&para;</a></h4>
+<p>If <code>true</code>, this item is selected.</p>
+<h4 id="type_16">Type<a class="headerlink" href="#type_16" title="Permanent link">&para;</a></h4>
+<p>Boolean.</p>
+<hr />
+<h3 id="nonnativeitemsliced">NonNativeItem.sliced<a class="headerlink" href="#nonnativeitemsliced" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].sliced</code></p>
+<h4 id="description_18">Description<a class="headerlink" href="#description_18" title="Permanent link">&para;</a></h4>
+<p>If <code>true</code>, the item sliced.</p>
+<p>Default: <code>false</code>.</p>
+<h4 id="type_17">Type<a class="headerlink" href="#type_17" title="Permanent link">&para;</a></h4>
+<p>Boolean.</p>
+<hr />
+<h3 id="nonnativeitemtags">NonNativeItem.tags<a class="headerlink" href="#nonnativeitemtags" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].tags</code></p>
+<h4 id="description_19">Description<a class="headerlink" href="#description_19" title="Permanent link">&para;</a></h4>
+<p>The tags contained in this item.</p>
+<h4 id="type_18">Type<a class="headerlink" href="#type_18" title="Permanent link">&para;</a></h4>
+<p><a href="../Tags/">Tags</a>; read-only.</p>
+<hr />
+<h3 id="nonnativeitemtop">NonNativeItem.top<a class="headerlink" href="#nonnativeitemtop" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].top</code></p>
+<h4 id="description_20">Description<a class="headerlink" href="#description_20" title="Permanent link">&para;</a></h4>
+<p>The position of the top of the item (in points, measured from the bottom of the page).</p>
+<h4 id="type_19">Type<a class="headerlink" href="#type_19" title="Permanent link">&para;</a></h4>
+<p>Number (double).</p>
+<hr />
+<h3 id="nonnativeitemtypename">NonNativeItem.typename<a class="headerlink" href="#nonnativeitemtypename" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].typename</code></p>
+<h4 id="description_21">Description<a class="headerlink" href="#description_21" title="Permanent link">&para;</a></h4>
+<p>The class name of the referenced object.</p>
+<h4 id="type_20">Type<a class="headerlink" href="#type_20" title="Permanent link">&para;</a></h4>
+<p>String; read-only.</p>
+<hr />
+<h3 id="nonnativeitemurl">NonNativeItem.uRL<a class="headerlink" href="#nonnativeitemurl" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].uRL</code></p>
+<h4 id="description_22">Description<a class="headerlink" href="#description_22" title="Permanent link">&para;</a></h4>
+<p>The value of the Adobe URL tag assigned to this item.</p>
+<h4 id="type_21">Type<a class="headerlink" href="#type_21" title="Permanent link">&para;</a></h4>
+<p>String.</p>
+<hr />
+<h3 id="nonnativeitemvisibilityvariable">NonNativeItem.visibilityVariable<a class="headerlink" href="#nonnativeitemvisibilityvariable" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].visibilityVariable</code></p>
+<h4 id="description_23">Description<a class="headerlink" href="#description_23" title="Permanent link">&para;</a></h4>
+<p>The visibility variable bound to the item.</p>
+<h4 id="type_22">Type<a class="headerlink" href="#type_22" title="Permanent link">&para;</a></h4>
+<p><a href="../Variable/">Variable</a></p>
+<hr />
+<h3 id="nonnativeitemvisiblebounds">NonNativeItem.visibleBounds<a class="headerlink" href="#nonnativeitemvisiblebounds" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].visibleBounds</code></p>
+<h4 id="description_24">Description<a class="headerlink" href="#description_24" title="Permanent link">&para;</a></h4>
+<p>The visible bounds of the item including stroke width.</p>
+<h4 id="type_23">Type<a class="headerlink" href="#type_23" title="Permanent link">&para;</a></h4>
+<p>Array of 4 numbers; read-only.</p>
+<hr />
+<h3 id="nonnativeitemwidth">NonNativeItem.width<a class="headerlink" href="#nonnativeitemwidth" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].width</code></p>
+<h4 id="description_25">Description<a class="headerlink" href="#description_25" title="Permanent link">&para;</a></h4>
+<p>The width of the item.</p>
+<h4 id="type_24">Type<a class="headerlink" href="#type_24" title="Permanent link">&para;</a></h4>
+<p>Number (double).</p>
+<hr />
+<h3 id="nonnativeitemwrapinside">NonNativeItem.wrapInside<a class="headerlink" href="#nonnativeitemwrapinside" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].wrapInside</code></p>
+<h4 id="description_26">Description<a class="headerlink" href="#description_26" title="Permanent link">&para;</a></h4>
+<p>If <code>true</code>, the non-native-item object should be wrapped inside this object.</p>
+<h4 id="type_25">Type<a class="headerlink" href="#type_25" title="Permanent link">&para;</a></h4>
+<p>Boolean.</p>
+<hr />
+<h3 id="nonnativeitemwrapoffset">NonNativeItem.wrapOffset<a class="headerlink" href="#nonnativeitemwrapoffset" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].wrapOffset</code></p>
+<h4 id="description_27">Description<a class="headerlink" href="#description_27" title="Permanent link">&para;</a></h4>
+<p>The offset to use when wrapping text around this object.</p>
+<h4 id="type_26">Type<a class="headerlink" href="#type_26" title="Permanent link">&para;</a></h4>
+<p>Number (double).</p>
+<hr />
+<h3 id="nonnativeitemwrapped">NonNativeItem.wrapped<a class="headerlink" href="#nonnativeitemwrapped" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].wrapped</code></p>
+<h4 id="description_28">Description<a class="headerlink" href="#description_28" title="Permanent link">&para;</a></h4>
+<p>If <code>true</code>, wrap non-native-item objects around this object (non-native-item object must be above the object).</p>
+<h4 id="type_27">Type<a class="headerlink" href="#type_27" title="Permanent link">&para;</a></h4>
+<p>Boolean.</p>
+<hr />
+<h3 id="nonnativeitemzorderposition">NonNativeItem.zOrderPosition<a class="headerlink" href="#nonnativeitemzorderposition" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].zOrderPosition</code></p>
+<h4 id="description_29">Description<a class="headerlink" href="#description_29" title="Permanent link">&para;</a></h4>
+<p>The position of this item within the stacking order of the group or layer (<code>parent</code>) that contains the item.</p>
+<h4 id="type_28">Type<a class="headerlink" href="#type_28" title="Permanent link">&para;</a></h4>
+<p>Number; read-only.</p>
+<hr />
+<h2 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h2>
+<h3 id="nonnativeitemduplicate">NonNativeItem.duplicate()<a class="headerlink" href="#nonnativeitemduplicate" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].duplicate([relativeObject]
+[,insertionLocation])</code></p>
+<h4 id="description_30">Description<a class="headerlink" href="#description_30" title="Permanent link">&para;</a></h4>
+<p>Creates a duplicate of the selected object.</p>
+<h4 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>relativeObject</code></td>
+<td>Object, optional</td>
+<td>Object to duplicate to</td>
+</tr>
+<tr>
+<td><code>insertionLocation</code></td>
+<td><a href="../scripting-constants/#elementplacement">ElementPlacement</a>, optional</td>
+<td>Location to insert element</td>
+</tr>
+</tbody>
+</table>
+<h4 id="returns">Returns<a class="headerlink" href="#returns" title="Permanent link">&para;</a></h4>
+<p><a href="#nonnativeitem">NonNativeItem</a></p>
+<hr />
+<h3 id="nonnativeitemmove">NonNativeItem.move()<a class="headerlink" href="#nonnativeitemmove" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].move(relativeObject, insertionLocation)</code></p>
+<h4 id="description_31">Description<a class="headerlink" href="#description_31" title="Permanent link">&para;</a></h4>
+<p>Moves the object.</p>
+<h4 id="parameters_1">Parameters<a class="headerlink" href="#parameters_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>relativeObject</code></td>
+<td>Object</td>
+<td>Object to move element within</td>
+</tr>
+<tr>
+<td><code>insertionLocation</code></td>
+<td><a href="../scripting-constants/#elementplacement">ElementPlacement</a>, optional</td>
+<td>Location to move element to</td>
+</tr>
+</tbody>
+</table>
+<h4 id="returns_1">Returns<a class="headerlink" href="#returns_1" title="Permanent link">&para;</a></h4>
+<p><a href="#nonnativeitem">NonNativeItem</a></p>
+<hr />
+<h3 id="nonnativeitemremove">NonNativeItem.remove()<a class="headerlink" href="#nonnativeitemremove" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].remove()</code></p>
+<h4 id="description_32">Description<a class="headerlink" href="#description_32" title="Permanent link">&para;</a></h4>
+<p>Deletes this object.</p>
+<h4 id="returns_2">Returns<a class="headerlink" href="#returns_2" title="Permanent link">&para;</a></h4>
+<p>Nothing.</p>
+<hr />
+<h3 id="nonnativeitemremoveall">NonNativeItem.removeAll()<a class="headerlink" href="#nonnativeitemremoveall" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].removeAll()</code></p>
+<h4 id="description_33">Description<a class="headerlink" href="#description_33" title="Permanent link">&para;</a></h4>
+<p>Deletes all elements in this collection.</p>
+<h4 id="returns_3">Returns<a class="headerlink" href="#returns_3" title="Permanent link">&para;</a></h4>
+<p>Nothing.</p>
+<hr />
+<h3 id="nonnativeitemresize">NonNativeItem.resize()<a class="headerlink" href="#nonnativeitemresize" title="Permanent link">&para;</a></h3>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><span class="nx">nonNativeItem</span><span class="p">.</span><span class="nx">resize</span><span class="p">(</span>
+</span><span id="__span-0-2"><span class="w">    </span><span class="nx">scaleX</span><span class="p">,</span>
+</span><span id="__span-0-3"><span class="w">    </span><span class="nx">scaleY</span>
+</span><span id="__span-0-4"><span class="w">    </span><span class="p">[,</span><span class="nx">changePositions</span><span class="p">]</span>
+</span><span id="__span-0-5"><span class="w">    </span><span class="p">[,</span><span class="nx">changeFillPatterns</span><span class="p">]</span>
+</span><span id="__span-0-6"><span class="w">    </span><span class="p">[,</span><span class="nx">changeFillGradients</span><span class="p">]</span>
+</span><span id="__span-0-7"><span class="w">    </span><span class="p">[,</span><span class="nx">changeStrokePattern</span><span class="p">]</span>
+</span><span id="__span-0-8"><span class="w">    </span><span class="p">[,</span><span class="nx">changeLineWidths</span><span class="p">]</span>
+</span><span id="__span-0-9"><span class="w">    </span><span class="p">[,</span><span class="nx">scaleAbout</span><span class="p">]</span>
+</span><span id="__span-0-10"><span class="p">)</span>
+</span></code></pre></div>
+<h4 id="description_34">Description<a class="headerlink" href="#description_34" title="Permanent link">&para;</a></h4>
+<p>Scales the art item where <code>scaleX</code> is the horizontal scaling factor and <code>scaleY</code> is the vertical scaling factor. 100.0 = 100%.</p>
+<h4 id="parameters_2">Parameters<a class="headerlink" href="#parameters_2" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>scaleX</code></td>
+<td>Number (double)</td>
+<td>Horizontal scaling factor</td>
+</tr>
+<tr>
+<td><code>scaleY</code></td>
+<td>Number (double)</td>
+<td>Vertical scaling factor</td>
+</tr>
+<tr>
+<td><code>changePositions</code></td>
+<td>Boolean, optional</td>
+<td>Whether to effect art object positions and orientations</td>
+</tr>
+<tr>
+<td><code>changeFillPatterns</code></td>
+<td>Boolean, optional</td>
+<td>Whether to transform fill patterns</td>
+</tr>
+<tr>
+<td><code>changeFillGradients</code></td>
+<td>Boolean, optional</td>
+<td>Whether to transform fill gradients</td>
+</tr>
+<tr>
+<td><code>changeStrokePattern</code></td>
+<td>Boolean, optional</td>
+<td>Whether to transform stroke patterns</td>
+</tr>
+<tr>
+<td><code>changeLineWidths</code></td>
+<td>Number (double), optional</td>
+<td>The amount to scale line widths</td>
+</tr>
+<tr>
+<td><code>scaleAbout</code></td>
+<td><a href="../scripting-constants/#transformation">Transformation</a>, optional</td>
+<td>The point to use as anchor, to transform about</td>
+</tr>
+</tbody>
+</table>
+<h4 id="returns_4">Returns<a class="headerlink" href="#returns_4" title="Permanent link">&para;</a></h4>
+<p>Nothing.</p>
+<hr />
+<h3 id="nonnativeitemrotate">NonNativeItem.rotate()<a class="headerlink" href="#nonnativeitemrotate" title="Permanent link">&para;</a></h3>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-1-1"><span class="nx">nonNativeItem</span><span class="p">.</span><span class="nx">rotate</span><span class="p">(</span>
+</span><span id="__span-1-2"><span class="w">    </span><span class="nx">angle</span>
+</span><span id="__span-1-3"><span class="w">    </span><span class="p">[,</span><span class="nx">changePositions</span><span class="p">]</span>
+</span><span id="__span-1-4"><span class="w">    </span><span class="p">[,</span><span class="nx">changeFillPatterns</span><span class="p">]</span>
+</span><span id="__span-1-5"><span class="w">    </span><span class="p">[,</span><span class="nx">changeFillGradients</span><span class="p">]</span>
+</span><span id="__span-1-6"><span class="w">    </span><span class="p">[,</span><span class="nx">changeStrokePattern</span><span class="p">]</span>
+</span><span id="__span-1-7"><span class="w">    </span><span class="p">[,</span><span class="nx">rotateAbout</span><span class="p">]</span>
+</span><span id="__span-1-8"><span class="p">)</span>
+</span></code></pre></div>
+<h4 id="description_35">Description<a class="headerlink" href="#description_35" title="Permanent link">&para;</a></h4>
+<p>Rotates the art item relative to the current rotation. The object is rotated counter-clockwise if the <code>angle</code> value is positive, clockwise if the value is negative.</p>
+<h4 id="parameters_3">Parameters<a class="headerlink" href="#parameters_3" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>angle</code></td>
+<td>Number (double)</td>
+<td>The angle amount to rotate the element</td>
+</tr>
+<tr>
+<td><code>changePositions</code></td>
+<td>Boolean, optional</td>
+<td>Whether to effect art object positions and orientations</td>
+</tr>
+<tr>
+<td><code>changeFillPatterns</code></td>
+<td>Boolean, optional</td>
+<td>Whether to transform fill patterns</td>
+</tr>
+<tr>
+<td><code>changeFillGradients</code></td>
+<td>Boolean, optional</td>
+<td>Whether to transform fill gradients</td>
+</tr>
+<tr>
+<td><code>changeStrokePattern</code></td>
+<td>Boolean, optional</td>
+<td>Whether to transform stroke patterns</td>
+</tr>
+<tr>
+<td><code>rotateAbout</code></td>
+<td><a href="../scripting-constants/#transformation">Transformation</a>, optional</td>
+<td>The point to use as anchor, to transform about</td>
+</tr>
+</tbody>
+</table>
+<h4 id="returns_5">Returns<a class="headerlink" href="#returns_5" title="Permanent link">&para;</a></h4>
+<p>Nothing.</p>
+<hr />
+<h3 id="nonnativeitemtransform">NonNativeItem.transform()<a class="headerlink" href="#nonnativeitemtransform" title="Permanent link">&para;</a></h3>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-2-1"><span class="nx">nonNativeItem</span><span class="p">.</span><span class="nx">transform</span><span class="p">(</span>
+</span><span id="__span-2-2"><span class="w">    </span><span class="nx">transformationMatrix</span>
+</span><span id="__span-2-3"><span class="w">    </span><span class="p">[,</span><span class="nx">changePositions</span><span class="p">]</span>
+</span><span id="__span-2-4"><span class="w">    </span><span class="p">[,</span><span class="nx">changeFillPatterns</span><span class="p">]</span>
+</span><span id="__span-2-5"><span class="w">    </span><span class="p">[,</span><span class="nx">changeFillGradients</span><span class="p">]</span>
+</span><span id="__span-2-6"><span class="w">    </span><span class="p">[,</span><span class="nx">changeStrokePattern</span><span class="p">]</span>
+</span><span id="__span-2-7"><span class="w">    </span><span class="p">[,</span><span class="nx">changeLineWidths</span><span class="p">]</span>
+</span><span id="__span-2-8"><span class="w">    </span><span class="p">[,</span><span class="nx">transformAbout</span><span class="p">]</span>
+</span><span id="__span-2-9"><span class="p">)</span>
+</span></code></pre></div>
+<h4 id="description_36">Description<a class="headerlink" href="#description_36" title="Permanent link">&para;</a></h4>
+<p>Transforms the art item by applying a transformation matrix.</p>
+<h4 id="parameters_4">Parameters<a class="headerlink" href="#parameters_4" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>transformationMatrix</code></td>
+<td><a href="../Matrix/">Matrix</a></td>
+<td>Transformation matrix to apply</td>
+</tr>
+<tr>
+<td><code>changePositions</code></td>
+<td>Boolean, optional</td>
+<td>Whether to change Positions</td>
+</tr>
+<tr>
+<td><code>changeFillPatterns</code></td>
+<td>Boolean, optional</td>
+<td>Whether to change Fill Patterns</td>
+</tr>
+<tr>
+<td><code>changeFillGradients</code></td>
+<td>Boolean, optional</td>
+<td>Whether to change Fill Gradients</td>
+</tr>
+<tr>
+<td><code>changeStrokePattern</code></td>
+<td>Boolean, optional</td>
+<td>Whether to change Stroke Pattern</td>
+</tr>
+<tr>
+<td><code>changeLineWidths</code></td>
+<td>Number (double), optional</td>
+<td>The amount to scale line widths</td>
+</tr>
+<tr>
+<td><code>transformAbout</code></td>
+<td><a href="../scripting-constants/#transformation">Transformation</a>, optional</td>
+<td>The point to use as anchor, to transform about</td>
+</tr>
+</tbody>
+</table>
+<h4 id="returns_6">Returns<a class="headerlink" href="#returns_6" title="Permanent link">&para;</a></h4>
+<p>Nothing.</p>
+<hr />
+<h3 id="nonnativeitemtranslate">NonNativeItem.translate()<a class="headerlink" href="#nonnativeitemtranslate" title="Permanent link">&para;</a></h3>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-3-1"><span class="nx">nonNativeItem</span><span class="p">.</span><span class="nx">translate</span><span class="p">(</span>
+</span><span id="__span-3-2"><span class="w">    </span><span class="p">[</span><span class="nx">deltaX</span><span class="p">]</span>
+</span><span id="__span-3-3"><span class="w">    </span><span class="p">[,</span><span class="nx">deltaY</span><span class="p">]</span>
+</span><span id="__span-3-4"><span class="w">    </span><span class="p">[,</span><span class="nx">transformObjects</span><span class="p">]</span>
+</span><span id="__span-3-5"><span class="w">    </span><span class="p">[,</span><span class="nx">transformFillPatterns</span><span class="p">]</span>
+</span><span id="__span-3-6"><span class="w">    </span><span class="p">[,</span><span class="nx">transformFillGradients</span><span class="p">]</span>
+</span><span id="__span-3-7"><span class="w">    </span><span class="p">[,</span><span class="nx">transformStrokePatterns</span><span class="p">]</span>
+</span><span id="__span-3-8"><span class="p">)</span>
+</span></code></pre></div>
+<h4 id="description_37">Description<a class="headerlink" href="#description_37" title="Permanent link">&para;</a></h4>
+<p>Repositions the art item relative to the current position, where <code>deltaX</code> is the horizontal offset and <code>deltaY</code> is the vertical offset.</p>
+<h4 id="parameters_5">Parameters<a class="headerlink" href="#parameters_5" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>deltaX</code></td>
+<td>Number (double), optional</td>
+<td>Horizontal offset</td>
+</tr>
+<tr>
+<td><code>deltaY</code></td>
+<td>Number (double), optional</td>
+<td>Vertical offset</td>
+</tr>
+<tr>
+<td><code>transformObjects</code></td>
+<td>Boolean, optional</td>
+<td>Whether to transform Objects</td>
+</tr>
+<tr>
+<td><code>transformFillPatterns</code></td>
+<td>Boolean, optional</td>
+<td>Whether to transform Fill Patterns</td>
+</tr>
+<tr>
+<td><code>transformFillGradients</code></td>
+<td>Boolean, optional</td>
+<td>Whether to transform Fill Gradients</td>
+</tr>
+<tr>
+<td><code>transformStrokePatterns</code></td>
+<td>Boolean, optional</td>
+<td>Whether to transform Stroke Patterns</td>
+</tr>
+</tbody>
+</table>
+<h4 id="returns_7">Returns<a class="headerlink" href="#returns_7" title="Permanent link">&para;</a></h4>
+<p>Nothing.</p>
+<hr />
+<h3 id="nonnativeitemzorder">NonNativeItem.zOrder()<a class="headerlink" href="#nonnativeitemzorder" title="Permanent link">&para;</a></h3>
+<p><code>nonNativeItems[index].zOrder(zOrderCmd)</code></p>
+<h4 id="description_38">Description<a class="headerlink" href="#description_38" title="Permanent link">&para;</a></h4>
+<p>Arranges the art item's position in the stacking order of the group or layer (parent) of this object.</p>
+<h4 id="parameters_6">Parameters<a class="headerlink" href="#parameters_6" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>zOrderCmd</code></td>
+<td><a href="../scripting-constants/#zordermethod">ZOrderMethod</a></td>
+<td>Stacking order arrangement method</td>
+</tr>
+</tbody>
+</table>
+<h4 id="returns_8">Returns<a class="headerlink" href="#returns_8" title="Permanent link">&para;</a></h4>
+<p>Nothing.</p>
+
+
+
+
+
+
+
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 12, 2025</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      All content is copyright Adobe Systems Incorporated.
+    </div>
+  
+  
+    Made with
+    <a
+      href="https://squidfunk.github.io/mkdocs-material/"
+      target="_blank" rel="noopener"
+    >
+      Material for MkDocs
+    </a>
+  
+</div>
+
+<!-- Print button -->
+<div class="md-copyright">
+  
+  <a href="../../print_page/" title="Print Site" class="md-content__button md-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 3H6v4h12m1 5a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1m-3 7H8v-5h8m3-6H5a3 3 0 0 0-3 3v6h4v4h12v-4h4v-6a3 3 0 0 0-3-3"/></svg>
+  </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.copy", "search.highlight", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+        <script src="../../js/print-site.js"></script>
+      
+        <script src="../../_static/extra.js"></script>
+      
+        <script src="../../docs/_global/js/global.js"></script>
+      
+    
+  </body>
+</html>
