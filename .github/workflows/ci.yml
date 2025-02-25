@@ -1,21 +1,38 @@
-name: Deploy Sphinx documentation to Pages
+name: ci
 
 on:
   push:
-    branches: [master] # branch to trigger deployment
-
+    branches:
+      - master
+      - main
+permissions:
+  contents: write
 jobs:
-  pages:
-    runs-on: ubuntu-20.04
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    permissions:
-      pages: write
-      id-token: write
+  deploy:
+    runs-on: ubuntu-latest
     steps:
-    - id: deployment
-      uses: sphinx-notes/pages@v3
-      with:
-        documentation_path: ./docs
-        requirements_path: ./requirements.txt
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v4
+
+      - run: mkdocs gh-deploy --force
