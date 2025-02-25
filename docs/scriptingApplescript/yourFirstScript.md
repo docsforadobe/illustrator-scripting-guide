@@ -17,7 +17,7 @@ If you cannot find the Script Editor application, you must reinstall it from you
 
     --Create a new text frame with the string "Hello World"
     set textRef to make new text frame in docRef
-    with properties {contents: "Hello World!", position:{200, 200}}
+    with properties { contents: "Hello World!", position:{200, 200} }
 
     end tell
     ```

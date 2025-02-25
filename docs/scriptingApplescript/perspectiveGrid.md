@@ -136,7 +136,7 @@ tell application "Adobe Illustrator"
         set starRef to make new star with properties {center point:{135, 135}, radius:15, inner radius:10, point count:6, reversed:false}
 
         --Draw path in perspective
-        set newPath to make new path item with properties {entire path:{{anchor:{0, 0}}, {anchor:{60, 0}}, {anchor:{30, 45}}, {anchor:{90, 110}}}}
+        set newPath to make new path item with properties {entire path:{ {anchor:{0, 0} }, {anchor:{60, 0} }, {anchor:{30, 45} }, {anchor:{90, 110} } } }
     end tell
 end tell
 ```

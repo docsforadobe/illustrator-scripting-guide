@@ -19,7 +19,7 @@ tell application "Adobe Illustrator"
 set docRef to make new document
 -- set stroked to true so we can see the path
 set lineRef to make new path item in docRef with properties {stroked:true}
-set entire path of lineRef to {{220, 475},{200, 300},{375, 300}}
+set entire path of lineRef to { {220, 475},{200, 300},{375, 300} }
 end tell
 ```
 
@@ -67,7 +67,7 @@ tell application "Adobe Illustrator"
 set docRef to make new document
 -- set stroked to true so we can see the path
 set lineRef to make new path item in docRef with properties {stroked:true}
-set entire path of lineRef to {{220, 475},{375, 300}}
+set entire path of lineRef to { {220, 475},{375, 300} }
 set newPoint to make new path point of lineRef with properties
     {anchor:{220, 300},left direction:{180, 260},right direction:{240, 320}, point type:corner}
 end tell
@@ -97,7 +97,7 @@ Consider the following sample:
 tell application "Adobe Illustrator"
 set docRef to make new document
 set rectRef to make new rectangle in docRef with properties
-    {bounds:{288, 360, 72, 144}}
+    { bounds:{288, 360, 72, 144} }
 end tell
 ```
 
