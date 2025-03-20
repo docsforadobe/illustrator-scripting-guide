@@ -20,6 +20,9 @@ The gradient vector angle in degrees.
 
 Default: 0.0.
 
+!!! warning
+    Setting the angle does not work. Apparently this is a [bug since 2008](https://community.adobe.com/t5/illustrator-discussions/unable-to-change-angle-of-gradient/m-p/11759125) that still exists in (at least) 29.3.1.
+
 #### Type
 
 Number (double).
